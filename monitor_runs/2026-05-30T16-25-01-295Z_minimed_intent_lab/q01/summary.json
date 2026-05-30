@@ -1,0 +1,57 @@
+{
+  "questionId": "q01",
+  "prompt": "美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+  "createdAt": "2026-05-30T16:26:04.132Z",
+  "summary": [
+    {
+      "questionId": "q01",
+      "prompt": "美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 936,
+        "afterLength": 982
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 50120,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与Tandem闭环胰岛素泵对比",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ",
+          "textLength": 3693,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 14,
+          "answerLineCount": 4,
+          "medtronicCount": 21,
+          "answerSignal": true,
+          "textTail": "夜间低血糖史、喜欢简洁界面/最好CGM体验\n\t\nTandem + Control-IQ（+ Dexcom）​\n\n\n需要手机App遥控bolus（部分地区）、便携隐蔽\n\t\nTandem Mobi/X2​\n\n\n医生/家属需远程密切监控数据\n\t\n两者皆可，780G CareLink稍成熟\n\n\n儿童/青少年\n\t\n两者均有≥7岁或≥6岁适应症，依当地获批年龄及家庭偏好选\n📚 主要依据来源\n1.\nNetwork meta-analysis: MiniMed 780G achieved greatest TIR improvement vs Control-IQ (Diabetes Metab Res Rev 2024) \n2.\nHead-to-head prospective real-world study (n=150): both ↑TIR to ~76%, no significant between-group diff in TIR/TBR (Diabetes Care 2024) \n3.\nPropensity-matched observational: 780G TIR +6.4% vs Control-IQ, TBR comparable (Diabetes Obes Metab 2024) \n4.\nReal-world RWE meta-analysis: 780G pooled TIR 73.9%, Control-IQ lower (Diabetes Obes Metab 2025) \n5.\nClinical tech对比综述：Guardian 4 vs Dexcom G6、算法区别 (Diabetotech 2022) \n⚠️ 提示：最终选择受当地药监批准情况、医保报销、医生处方及个人对手感/CGM偏好的影响很大，建议和内异科医生共同评估。以上仅为循证医学证据层面的对比参考，不构成医疗处方建议。\n如需我帮你按年龄/饮食习惯/现有设备进一步缩小选择，可告诉我具体情况～\n源\nTandem t:slim X2与780G价格差多少？\n780G和Tandem哪个更适合运动爱好者？\n对于儿童和青少年患者，这两款系统的长期使用数据如何？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 6242,
+      "htmlLength": 147302,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 14,
+      "referenceItemCount": 14,
+      "sourceNodeCount": 48
+    }
+  ]
+}

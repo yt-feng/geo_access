@@ -1,0 +1,57 @@
+{
+  "questionId": "q05",
+  "prompt": "美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+  "createdAt": "2026-05-30T16:30:02.910Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt": "美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 936,
+        "afterLength": 971
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 54122,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与Dexcom闭环系统对比建议",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO",
+          "textLength": 3551,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 27,
+          "answerLineCount": 0,
+          "medtronicCount": 23,
+          "answerSignal": true,
+          "textTail": "、30min 预热、更小巧，与手机/手表集成最好\n∙\n无管路需求→选 Omnipod 5 + G7（2024 年起部分地区已支持）\n∙\n算法透明/极致调参→选 AndroidAPS/Loop + G7（DIY 圈公认 G7 是目前最佳 CGM 数据源）\n∙\n部分用户觉得 Guardian 传感器 7 天偏短、需发射器充电较烦\n⚠️ 770G 说明：770G 是 780G 前身，使用 Guardian 3 传感器、无自动校正 bolus、目标不能低至 100mg/dL，TIR 表现明显弱于 780G，现基本已被 780G 取代，不在主力推荐之列。\n📚 主要依据来源\n∙\nNetwork Meta-analysis：MiniMed 780G TIR 改善优于其他商用 HCL 系统（Diabetes Metab Res Rev 2024）\n∙\n真实世界 780G vs Control-IQ TIR 对比（Diabetology 2025 / Frontiers Endocrinol 2022）\n∙\nAAPS vs 780G vs Control-IQ 儿童队列注册研究（Front Endocrinol 2023）——780G 最低 TBR，AAPS 最高灵活性但 TBR 风险略高\n∙\nDexcom G7 MARD 8.2%、Guardian 4 MARD ~8.2-9.0%（厂商说明书/DiabetesWise）\n∙\nADAPT RCT：780G 组 TIR 从 43.6%→70.6%，HbA1c↓1.4%，无 DKA/严重低血糖（Lancet Diabetes Endocrinol）\n∙\nMedtronic 780G 产品规格与 SmartGuard 算法说明\n∙\nOmnipod 5 与 Dexcom G7 兼容性公告（Dexcom/Insulet 2024）\n如有具体年龄、是否介意带管路、所在地区医保覆盖情况，我可以进一步帮你缩小选择范围。\n源\n请提供780G与G7兼容闭环的TIR数据\nMiniMed 780G和Dexcom G7哪个更适合运动时使用？\n对于青少年患者，MiniMed 780G和Omnipod 5+G7的选择有什么特殊考虑？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 7041,
+      "htmlLength": 160231,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 27,
+      "referenceItemCount": 20,
+      "sourceNodeCount": 73
+    }
+  ]
+}

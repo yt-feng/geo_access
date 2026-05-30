@@ -1,0 +1,854 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "美敦力与Dexcom闭环系统对比建议",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO",
+  "createdAt": "2026-05-30T16:30:02.778Z",
+  "sections": [
+    {
+      "startLine": 120,
+      "text": "∙\nOmnipod 5 与 Dexcom G7 兼容性公告（Dexcom/Insulet 2024）\n如有具体年龄、是否介意带管路、所在地区医保覆盖情况，我可以进一步帮你缩小选择范围。\n源\n请提供780G与G7兼容闭环的TIR数据\nMiniMed 780G和Dexcom G7哪个更适合运动时使用？\n对于青少年患者，MiniMed 780G和Omnipod 5+G7的选择有什么特殊考虑？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（20）\nmedtronicdiabetes.com\nDiabetes Management Solutions MiniMed\nManagement Solutions | MiniMed｡The MiniMed™ 780G s...\nmims.com\nMeta‐analysis ranks efficacy of different HCL systems for T1D\ntime in range (TIR) vs SIT*,with Minimed 780G show。\ndexcom.com\nManage your diabetes with the most accurate CGM systems\nYears) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp...\ndiabetotech.com\nComparison between the MiniMed 780G and Tandem Control IQ\nIQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G...\nmedtronicdiabetes.com\nCompare Insulin Pump Systems Medtronic"
+    },
+    {
+      "startLine": 129,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（20）\nmedtronicdiabetes.com\nDiabetes Management Solutions MiniMed\nManagement Solutions | MiniMed｡The MiniMed™ 780G s...\nmims.com\nMeta‐analysis ranks efficacy of different HCL systems for T1D\ntime in range (TIR) vs SIT*,with Minimed 780G show。\ndexcom.com\nManage your diabetes with the most accurate CGM systems\nYears) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp...\ndiabetotech.com\nComparison between the MiniMed 780G and Tandem Control IQ\nIQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G...\nmedtronicdiabetes.com\nCompare Insulin Pump Systems Medtronic\nMiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...\n今日头条\n自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条\nMedtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目...\ngluroo.com\nDexcom G6 vs Medtronic Guardian Connect - Gluroo\nupdated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe...\nDOI基金会\nFrontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "2,15,19",
+      "indexes": [
+        "2",
+        "15",
+        "19"
+      ],
+      "text": "真实世界 TIR 约 72%~76%，部分研究达 78%~84%（设目标 100mg/dL、短AIT）；网络 Meta 分析显示 780G 在商用系统中 TIR 改善幅度最大",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,13,15",
+      "indexes": [
+        "2",
+        "13",
+        "15"
+      ],
+      "text": "Control‑IQ 真实世界 TIR 约 70%~73%；Omnipod 5 类似；DIY（AndroidAPS）可达相当或更高，但依赖调参。整体 TIR 与 780G 接近或略低",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10,13,19",
+      "indexes": [
+        "10",
+        "13",
+        "19"
+      ],
+      "text": "780G 自动限幅+学习算法，TBR <70mg/dL 通常 1%~2%，临床研究显示低血糖率不升高，对反复低血糖者友好",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "Control‑IQ 低血糖控制优秀（TBR~1%~2%）；DIY 若激进调参 TBR 可能偏高；Omnipod 5 略高 TBR 报告",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,9,16",
+      "indexes": [
+        "4",
+        "9",
+        "16"
+      ],
+      "text": "SmartGuard™ AHCL：每 5min 调整基础+自动校正推注（最多12次/h），可设目标低至 100mg/dL(5.6mmol/L)，学习用户胰岛素敏感性（2~6天历史），无指血校准",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,13",
+      "indexes": [
+        "4",
+        "13"
+      ],
+      "text": "Control‑IQ：预测30min后血糖，基础微调+1次/h校正，目标固定~112.5起；Omnipod 5：类似但无 tubing；DIY：oref1 算法有 SMB（超级微推注）、可设零基础、完全自定义——理论上最灵活",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,14",
+      "indexes": [
+        "7",
+        "14"
+      ],
+      "text": "Guardian 4 免校准，MARD ≈ 8.2%~9.0%（手臂位）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,11,14",
+      "indexes": [
+        "3",
+        "11",
+        "14"
+      ],
+      "text": "Dexcom G7 免校准，MARD ≈ 8.0%~8.2%，低/高区及快速变化段公认更准确稳定",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,9,16",
+      "indexes": [
+        "4",
+        "9",
+        "16"
+      ],
+      "text": "• 泵带管路（或新无管路未广泛上市） • Guardian 4 传感器 7 天，稍大，腹部/上臂 • 发射器需每周充电 • 启动 Auto Mode 需先跑 48h Manual Mode",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12,18,20",
+      "indexes": [
+        "12",
+        "18",
+        "20"
+      ],
+      "text": "• Omnipod 5=无管路贴片（3天换） • Tandem=带管路但配 G7 很顺 • G7 一体式传感器 10 天，30min 预热，小巧，上臂佩戴舒适 • 无单独发射器充电",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10,16",
+      "indexes": [
+        "10",
+        "16"
+      ],
+      "text": "管路堵塞/脱落仍有 DKA 风险（同所有泵）；有输液组 7 天使用许可；FDA 有少量 780G 相关 DKA 个案但与未及时发现堵管有关",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "DIY 系统若手机/手表断连、电池耗尽、BT 中断→闭环退出→基础率回落（风险需用户认知）；商用 Control‑IQ/Omnipod 5 有安全熔断机制较可靠；无管路 Pod 有脱落/失效报警",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "9,16",
+      "indexes": [
+        "9",
+        "16"
+      ],
+      "text": "希望\"开箱即用\"、不想折腾、有反复低血糖/无感知低血糖、可接受带管路的成人及 7 岁以上 T1D；偏好单一厂商售后支持",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "• Omnipod 5+G7：不想带管路、青少年活跃人群 • Control‑IQ+G7：喜欢界面直观、G7 准确性敏感者 • DIY+G7：极极客、愿深度调参追求极致 TIR、理解算法风险者",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,15",
+      "indexes": [
+        "2",
+        "15"
+      ],
+      "text": "想要最低可设目标（100mg/dL）和更积极的自动校正，部分研究显示略高 TIR",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13,19",
+      "indexes": [
+        "13",
+        "19"
+      ],
+      "text": "有低血糖恐惧或无感知低血糖史——780G 的自我保护限幅和自适应学习对防低血友好",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,11,18",
+      "indexes": [
+        "3",
+        "11",
+        "18"
+      ],
+      "text": "CGM 体验优先：G7 更准确（尤其在低血时）、10 天佩戴、30min 预热、更小巧，与手机/手表集成最好",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12,20",
+      "indexes": [
+        "12",
+        "20"
+      ],
+      "text": "无管路需求→选 Omnipod 5 + G7（2024 年起部分地区已支持）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "算法透明/极致调参→选 AndroidAPS/Loop + G7（DIY 圈公认 G7 是目前最佳 CGM 数据源）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6",
+      "indexes": [
+        "6"
+      ],
+      "text": "⚠️ 770G 说明：770G 是 780G 前身，使用 Guardian 3 传感器、无自动校正 bolus、目标不能低至 100mg/dL，TIR 表现明显弱于 780G，现基本已被 780G 取代，不在主力推荐之列。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2",
+      "indexes": [
+        "2"
+      ],
+      "text": "Network Meta-analysis：MiniMed 780G TIR 改善优于其他商用 HCL 系统（Diabetes Metab Res Rev 2024）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,15",
+      "indexes": [
+        "8",
+        "15"
+      ],
+      "text": "真实世界 780G vs Control-IQ TIR 对比（Diabetology 2025 / Frontiers Endocrinol 2022）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "AAPS vs 780G vs Control-IQ 儿童队列注册研究（Front Endocrinol 2023）——780G 最低 TBR，AAPS 最高灵活性但 TBR 风险略高",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,7,14",
+      "indexes": [
+        "3",
+        "7",
+        "14"
+      ],
+      "text": "Dexcom G7 MARD 8.2%、Guardian 4 MARD ~8.2-9.0%（厂商说明书/DiabetesWise）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10,17",
+      "indexes": [
+        "10",
+        "17"
+      ],
+      "text": "ADAPT RCT：780G 组 TIR 从 43.6%→70.6%，HbA1c↓1.4%，无 DKA/严重低血糖（Lancet Diabetes Endocrinol）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "5,9,16",
+      "indexes": [
+        "5",
+        "9",
+        "16"
+      ],
+      "text": "Medtronic 780G 产品规格与 SmartGuard 算法说明",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12,20",
+      "indexes": [
+        "12",
+        "20"
+      ],
+      "text": "Omnipod 5 与 Dexcom G7 兼容性公告（Dexcom/Insulet 2024）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "medtronicdiabetes.com",
+      "title": "Diabetes Management Solutions MiniMed",
+      "snippet": "Management Solutions | MiniMed｡The MiniMed™ 780G s...",
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s..."
+    },
+    {
+      "index": 2,
+      "source": "mims.com",
+      "title": "Meta‐analysis ranks efficacy of different HCL systems for T1D",
+      "snippet": "time in range (TIR) vs SIT*,with Minimed 780G show。",
+      "text": "mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。"
+    },
+    {
+      "index": 3,
+      "source": "dexcom.com",
+      "title": "Manage your diabetes with the most accurate CGM systems",
+      "snippet": "Years) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp...",
+      "text": "dexcom.com Manage your diabetes with the most accurate CGM systems Years) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp..."
+    },
+    {
+      "index": 4,
+      "source": "diabetotech.com",
+      "title": "Comparison between the MiniMed 780G and Tandem Control IQ",
+      "snippet": "IQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G...",
+      "text": "diabetotech.com Comparison between the MiniMed 780G and Tandem Control IQ IQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G..."
+    },
+    {
+      "index": 5,
+      "source": "medtronicdiabetes.com",
+      "title": "Compare Insulin Pump Systems Medtronic",
+      "snippet": "MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...",
+      "text": "medtronicdiabetes.com Compare Insulin Pump Systems Medtronic MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta..."
+    },
+    {
+      "index": 6,
+      "source": "今日头条",
+      "title": "自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条",
+      "snippet": "Medtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目...",
+      "text": "今日头条 自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条 Medtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目..."
+    },
+    {
+      "index": 7,
+      "source": "gluroo.com",
+      "title": "Dexcom G6 vs Medtronic Guardian Connect - Gluroo",
+      "snippet": "updated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe...",
+      "text": "gluroo.com Dexcom G6 vs Medtronic Guardian Connect - Gluroo updated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe..."
+    },
+    {
+      "index": 8,
+      "source": "DOI基金会",
+      "title": "Frontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes",
+      "snippet": "clinical practice setting is an important strength of our study. In conclusion this is the first study to compare the Minimed 780G with Tandem Control...",
+      "text": "DOI基金会 Frontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes clinical practice setting is an important strength of our study. In conclusion this is the first study to compare the Minimed 780G with Tandem Control..."
+    },
+    {
+      "index": 9,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Dexcom G7 vs Minimed 780G with Smart Guard",
+      "snippet": "Summary Dexcom G7 is a low-profile,all-in-one gluc。",
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs Minimed 780G with Smart Guard Summary Dexcom G7 is a low-profile,all-in-one gluc。"
+    },
+    {
+      "index": 10,
+      "source": "news.minimed.com",
+      "title": "MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study",
+      "snippet": "in ADAPT study｡MiniMed™ 780G system demonstrates s...",
+      "text": "news.minimed.com MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study in ADAPT study｡MiniMed™ 780G system demonstrates s..."
+    },
+    {
+      "index": 11,
+      "source": "今日头条",
+      "title": "超8万APP被紧急召回,2024年市场最好的连续血糖监测仪有何优势?",
+      "snippet": "血糖细节提供最全面的CGM Guardian Connect CGM系统 (美敦力Medtronic...",
+      "text": "今日头条 超8万APP被紧急召回,2024年市场最好的连续血糖监测仪有何优势? 血糖细节提供最全面的CGM Guardian Connect CGM系统 (美敦力Medtronic..."
+    },
+    {
+      "index": 12,
+      "source": "dexcom.com",
+      "title": "Dexcom G7 jetzt in Deutschland mit Omnipod 5 kompatibel",
+      "snippet": "Alle Rechte vorbehalten.Referenzen: ° Dexcom G7 ka...",
+      "text": "dexcom.com Dexcom G7 jetzt in Deutschland mit Omnipod 5 kompatibel Alle Rechte vorbehalten.Referenzen: ° Dexcom G7 ka..."
+    },
+    {
+      "index": 13,
+      "source": "DOI基金会",
+      "title": "Are all HCL systems the same? long term outcomes of three HCL systems in children with type 1 diabetes: real-life registry-based study",
+      "snippet": "adults with type 1 diabetes and observed a significant superiority of the 780G system in terms of time in range (71% vs 68%,p=0.001),time above range...",
+      "text": "DOI基金会 Are all HCL systems the same? long term outcomes of three HCL systems in children with type 1 diabetes: real-life registry-based study adults with type 1 diabetes and observed a significant superiority of the 780G system in terms of time in range (71% vs 68%,p=0.001),time above range..."
+    },
+    {
+      "index": 14,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Guardian Connect vs Dexcom G7 » DiabetesWise",
+      "snippet": "Dexcom G7 Dexcom G6 Dexcom Stelo Guardian Connect。",
+      "text": "diabeteswise.org Device Finder - Guardian Connect vs Dexcom G7 » DiabetesWise Dexcom G7 Dexcom G6 Dexcom Stelo Guardian Connect。"
+    },
+    {
+      "index": 15,
+      "source": "ouci.dntb.gov.ua",
+      "title": "Comparison of the night-time effectiveness in achieving glycemic targets in adults with type 1 diabetes of three advanced hybryd closed-loop systems",
+      "snippet": "between the MiniMed™ 780G and Tandem Control-IQ™ i...",
+      "text": "ouci.dntb.gov.ua Comparison of the night-time effectiveness in achieving glycemic targets in adults with type 1 diabetes of three advanced hybryd closed-loop systems between the MiniMed™ 780G and Tandem Control-IQ™ i..."
+    },
+    {
+      "index": 16,
+      "source": "·糖仁健康科技",
+      "title": "自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统!",
+      "snippet": "公众号 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有...",
+      "text": "公众号 ·糖仁健康科技 自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统! 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有..."
+    },
+    {
+      "index": 17,
+      "source": "medpagetoday.com",
+      "title": "New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today",
+      "snippet": "Medtronic noted in a statement. Participants using the closed loop system in the trial used the already available MiniMed 670G fitted with the new M...",
+      "text": "medpagetoday.com New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today Medtronic noted in a statement. Participants using the closed loop system in the trial used the already available MiniMed 670G fitted with the new M..."
+    },
+    {
+      "index": 18,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Dexcom G7 vs Guardian Connect",
+      "snippet": "MARD of 8.2% The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides real-time glucose data on a compatible smart...",
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs Guardian Connect MARD of 8.2% The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides real-time glucose data on a compatible smart..."
+    },
+    {
+      "index": 19,
+      "source": "PMC",
+      "title": "Advanced Hybrid Closed Loop Algorithm Use in Type 1 Diabetes: The French MiniMed Glycemic Control and Quality of Life Study",
+      "snippet": "Advanced Hybrid Closed Loop Algorithm Use in Type。",
+      "text": "PMC Advanced Hybrid Closed Loop Algorithm Use in Type 1 Diabetes: The French MiniMed Glycemic Control and Quality of Life Study Advanced Hybrid Closed Loop Algorithm Use in Type。"
+    },
+    {
+      "index": 20,
+      "source": "dexcom.com",
+      "title": "Dexcom G7 now integrates with Omnipod 5 Dexcom",
+      "snippet": "The Dexcom G7 Continuous Glucose Monitoring (CGM)。",
+      "text": "dexcom.com Dexcom G7 now integrates with Omnipod 5 Dexcom The Dexcom G7 Continuous Glucose Monitoring (CGM)。"
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,15,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,13,15",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10,13,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,9,16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,11,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,9,16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12,18,20",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10,16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "9,16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,15",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,11,18",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12,20",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,15",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,7,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10,17",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "5,9,16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12,20",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（20） medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。 dexcom.com Manage your diabetes with the most accurate CGM systems Years) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp... diabetotech.com Comparison between the MiniMed 780G and Tandem Control IQ IQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G... medtronicdiabetes.com Compare Insulin Pump Systems Medtronic MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta... 今日头条 自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条 Medtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目... gluroo.com Dexcom G6 vs Medtronic Guardian Connect - Gluroo updated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe... DOI基金会 Frontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes clinical practice setting is an important strength of our study. In conclusion this is the first study to compare the Minimed 780G with Tandem Control... diabeteswise.org Device Finder - Dexcom G7 vs Minimed 780G with Smart Guard Summary Dexcom G7 is a low-profile,all-in-one gluc。 news.minimed.com MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study in ADAPT study｡MiniMed™ 780G system demonstrates s... 今日头条 超8万APP被紧急召回,2024年市场最好的连续血糖监测仪有何优势? 血糖细节提供最全面的CGM Guardian Connect CGM系统 (美敦力Medtronic... dexcom.com Dexcom G7 jetzt in Deutschland mit Omnipod 5 kompatibel Alle Rechte vorbehalten.Referenzen: ° Dexcom G7 ka... DOI基金会 Are all HCL systems the same? long term outcomes of three HCL systems in children with type 1 diabetes: real-life registry-based study adults with type 1 diabetes and observed a significant superiority of the 780G system in terms of time in range (71% vs 68%,p=0.001),time above range... diabeteswise.org Device Finder - Guardian Connect vs Dexcom G7 » DiabetesWise Dexcom G7 Dexcom G6 Dexcom Stelo Guardian Connect。 ouci.dntb.gov.ua Comparison of the night-time effectiveness in achieving glycemic targets in adults with type 1 diabetes of three advanced hybryd closed-loop systems between the MiniMed™ 780G and Tandem Control-IQ™ i... 公众号 ·糖仁健康科技 自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统! 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有... medpagetoday.com New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today Medtronic noted in a statement. Participants using the closed loop system in the trial used the already available MiniMed 670G fitted with the new M... diabeteswise.org Device Finder - Dexcom G7 vs Guardian Connect MARD of 8.2% The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides real-time glucose data on a compatible smart... PMC Advanced Hybrid Closed Loop Algorithm Use in Type 1 Diabetes: The French MiniMed Glycemic Control and Quality of Life Study Advanced Hybrid Closed Loop Algorithm Use in Type。 dexcom.com Dexcom G7 now integrates with Omnipod 5 Dexcom The Dexcom G7 Continuous Glucose Monitoring (CGM)。",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（20）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（20）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。 dexcom.com Manage your diabetes with the most accurate CGM systems Years) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp... diabetotech.com Comparison between the MiniMed 780G and Tandem Control IQ IQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G... medtronicdiabetes.com Compare Insulin Pump Systems Medtronic MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta... 今日头条 自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条 Medtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目... gluroo.com Dexcom G6 vs Medtronic Guardian Connect - Gluroo updated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe... DOI基金会 Frontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes clinical practice setting is an important strength of our study. In conclusion this is the first study to compare the Minimed 780G with Tandem Control... diabeteswise.org Device Finder - Dexcom G7 vs Minimed 780G with Smart Guard Summary Dexcom G7 is a low-profile,all-in-one gluc。 news.minimed.com MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study in ADAPT study｡MiniMed™ 780G system demonstrates s... 今日头条 超8万APP被紧急召回,2024年市场最好的连续血糖监测仪有何优势? 血糖细节提供最全面的CGM Guardian Connect CGM系统 (美敦力Medtronic... dexcom.com Dexcom G7 jetzt in Deutschland mit Omnipod 5 kompatibel Alle Rechte vorbehalten.Referenzen: ° Dexcom G7 ka... DOI基金会 Are all HCL systems the same? long term outcomes of three HCL systems in children with type 1 diabetes: real-life registry-based study adults with type 1 diabetes and observed a significant superiority of the 780G system in terms of time in range (71% vs 68%,p=0.001),time above range... diabeteswise.org Device Finder - Guardian Connect vs Dexcom G7 » DiabetesWise Dexcom G7 Dexcom G6 Dexcom Stelo Guardian Connect。 ouci.dntb.gov.ua Comparison of the night-time effectiveness in achieving glycemic targets in adults with type 1 diabetes of three advanced hybryd closed-loop systems between the MiniMed™ 780G and Tandem Control-IQ™ i... 公众号 ·糖仁健康科技 自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统! 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有... medpagetoday.com New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today Medtronic noted in a statement. Participants using the closed loop system in the trial used the already available MiniMed 670G fitted with the new M... diabeteswise.org Device Finder - Dexcom G7 vs Guardian Connect MARD of 8.2% The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides real-time glucose data on a compatible smart... PMC Advanced Hybrid Closed Loop Algorithm Use in Type 1 Diabetes: The French MiniMed Glycemic Control and Quality of Life Study Advanced Hybrid Closed Loop Algorithm Use in Type。 dexcom.com Dexcom G7 now integrates with Omnipod 5 Dexcom The Dexcom G7 Continuous Glucose Monitoring (CGM)。",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mims.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com Manage your diabetes with the most accurate CGM systems Years) Dexcom G7 15 Day3 8.0% N/A Senseonics Eversense E34 8.50% N/A Senseonics Eversense 3655 8.8% N/A Medtronic Guardian 36 8.68% N/A Medtronic Simp...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetotech.com Comparison between the MiniMed 780G and Tandem Control IQ IQ algorithm The main differences between the Control IQ and SmartGuard algorithm (or \"auto mode\") are: the target value: while with the Minimed 780G...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetotech.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Compare Insulin Pump Systems Medtronic MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条 自动胰岛素泵天花板!Medtronic MiniMed 780G系统! - 今日头条 Medtronic MiniMed™ 780G系统!- 今日头条｡使用 5.6mmol/L 的较低目...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "gluroo.com Dexcom G6 vs Medtronic Guardian Connect - Gluroo updated Dexcom G7 model does a little better when placed on the back of the arm - 8.2%. Medtronic Guardian Connect When testing Guardian Connect pe...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "gluroo.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会 Frontiers A Comparison of Two Hybrid Closed-Loop Systems in Italian Children and Adults With Type 1 Diabetes clinical practice setting is an important strength of our study. In conclusion this is the first study to compare the Minimed 780G with Tandem Control...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs Minimed 780G with Smart Guard Summary Dexcom G7 is a low-profile,all-in-one gluc。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.minimed.com MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study in ADAPT study｡MiniMed™ 780G system demonstrates s...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.minimed.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条 超8万APP被紧急召回,2024年市场最好的连续血糖监测仪有何优势? 血糖细节提供最全面的CGM Guardian Connect CGM系统 (美敦力Medtronic...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com Dexcom G7 jetzt in Deutschland mit Omnipod 5 kompatibel Alle Rechte vorbehalten.Referenzen: ° Dexcom G7 ka...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会 Are all HCL systems the same? long term outcomes of three HCL systems in children with type 1 diabetes: real-life registry-based study adults with type 1 diabetes and observed a significant superiority of the 780G system in terms of time in range (71% vs 68%,p=0.001),time above range...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Guardian Connect vs Dexcom G7 » DiabetesWise Dexcom G7 Dexcom G6 Dexcom Stelo Guardian Connect。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ouci.dntb.gov.ua Comparison of the night-time effectiveness in achieving glycemic targets in adults with type 1 diabetes of three advanced hybryd closed-loop systems between the MiniMed™ 780G and Tandem Control-IQ™ i...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ouci.dntb.gov.ua",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·糖仁健康科技 自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统! 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·糖仁健康科技",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medpagetoday.com New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today Medtronic noted in a statement. Participants using the closed loop system in the trial used the already available MiniMed 670G fitted with the new M...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medpagetoday.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs Guardian Connect MARD of 8.2% The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides real-time glucose data on a compatible smart...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "PMC Advanced Hybrid Closed Loop Algorithm Use in Type 1 Diabetes: The French MiniMed Glycemic Control and Quality of Life Study Advanced Hybrid Closed Loop Algorithm Use in Type。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "PMC",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com Dexcom G7 now integrates with Omnipod 5 Dexcom The Dexcom G7 Continuous Glucose Monitoring (CGM)。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

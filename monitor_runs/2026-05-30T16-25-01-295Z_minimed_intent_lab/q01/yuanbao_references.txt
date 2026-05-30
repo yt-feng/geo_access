@@ -1,0 +1,215 @@
+腾讯元宝 资料引用清单
+页面: https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ
+采集时间: 2026-05-30T16:26:03.995Z
+
+页面引用/来源片段:
+
+[片段 1]
+Clinical tech对比综述：Guardian 4 vs Dexcom G6、算法区别 (Diabetotech 2022)
+⚠️ 提示：最终选择受当地药监批准情况、医保报销、医生处方及个人对手感/CGM偏好的影响很大，建议和内异科医生共同评估。以上仅为循证医学证据层面的对比参考，不构成医疗处方建议。
+如需我帮你按年龄/饮食习惯/现有设备进一步缩小选择，可告诉我具体情况～
+源
+Tandem t:slim X2与780G价格差多少？
+780G和Tandem哪个更适合运动爱好者？
+对于儿童和青少年患者，这两款系统的长期使用数据如何？
+下载元宝电脑版，体验高效 AI 助手
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+medtronicdiabetes.com
+Diabetes Management Solutions MiniMed
+Management Solutions | MiniMed｡The MiniMed™ 780G s...
+dx.doi.org
+Editorial: Technologies for diabetes
+Minimed™ 780G system (Minimed Medtronic,Northridge...
+mims.com
+Meta‐analysis ranks efficacy of different HCL systems for T1D
+time in range (TIR) vs SIT*,with Minimed 780G show。
+frontiersin.org
+Technologies for Diabetes
+Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S...
+europepmc.org
+Real-Life Performance of Automated Insulin Delivery Systems for High-Carbohydrate Meals: Are All Systems the Same?
+
+[片段 2]
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+medtronicdiabetes.com
+Diabetes Management Solutions MiniMed
+Management Solutions | MiniMed｡The MiniMed™ 780G s...
+dx.doi.org
+Editorial: Technologies for diabetes
+Minimed™ 780G system (Minimed Medtronic,Northridge...
+mims.com
+Meta‐analysis ranks efficacy of different HCL systems for T1D
+time in range (TIR) vs SIT*,with Minimed 780G show。
+frontiersin.org
+Technologies for Diabetes
+Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S...
+europepmc.org
+Real-Life Performance of Automated Insulin Delivery Systems for High-Carbohydrate Meals: Are All Systems the Same?
+780G and Tandem t:slim X2™ with Control-IQ. Thirty...
+pubmed.ncbi.nlm.nih.gov
+A systematic literature review and meta-analysis of real-world evidence on commercially available automated insulin delivery systems in people with type 1 diabetes
+meta-analysis;systematic literature review. © 2025...
+dom-pubs.pericles-prod.literatumonline.com
+Precision medicine in type 1 diabetes: comparing metabolic outcomes of Control-IQ and MiniMed 780G according to patient characteristics
+in 12-month TIR (MiniMed 780G minus Control-IQ : 6。
+diabetotech.com
+Comparison between the MiniMed 780G and Tandem Control IQ
+
+引用来源条目:
+1. medtronicdiabetes.com
+   标题: Diabetes Management Solutions MiniMed
+   摘要: Management Solutions | MiniMed｡The MiniMed™ 780G s...
+2. dx.doi.org
+   标题: Editorial: Technologies for diabetes
+   摘要: Minimed™ 780G system (Minimed Medtronic,Northridge...
+3. mims.com
+   标题: Meta‐analysis ranks efficacy of different HCL systems for T1D
+   摘要: time in range (TIR) vs SIT*,with Minimed 780G show。
+4. frontiersin.org
+   标题: Technologies for Diabetes
+   摘要: Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S...
+5. europepmc.org
+   标题: Real-Life Performance of Automated Insulin Delivery Systems for High-Carbohydrate Meals: Are All Systems the Same?
+   摘要: 780G and Tandem t:slim X2™ with Control-IQ. Thirty...
+6. pubmed.ncbi.nlm.nih.gov
+   标题: A systematic literature review and meta-analysis of real-world evidence on commercially available automated insulin delivery systems in people with type 1 diabetes
+   摘要: meta-analysis;systematic literature review. © 2025...
+7. dom-pubs.pericles-prod.literatumonline.com
+   标题: Precision medicine in type 1 diabetes: comparing metabolic outcomes of Control-IQ and MiniMed 780G according to patient characteristics
+   摘要: in 12-month TIR (MiniMed 780G minus Control-IQ : 6。
+8. diabetotech.com
+   标题: Comparison between the MiniMed 780G and Tandem Control IQ
+   摘要: The Tandem Control IQ system is only available in a study context for a limited number of patients. 1. The insulin pumps: the MiniMed 780G versus the...
+9. springermedizin.de
+   标题: The Hybrid Closed-Loop System Tandem t:slim X2 with Control-IQ Technology: Expert Recommendations for Better Management and Optimization
+   摘要: System Tandem t:slim X2™ with Control-IQ Technolog...
+10. PMC
+   标题: A Multicenter Prospective Evaluation of the Benefits of Two Advanced Hybrid Closed-Loop Systems in Glucose Control and Patient-Reported Outcomes in a Real-world Setting - PMC
+   摘要: with SmartGuard or Tandem t:slimX2 with Control-IQ。
+11. PMC
+   标题: Glycaemic control and variability with different commercially available hybrid closed loop systems in people with type 1 diabetes: A systematic review and meta‐analysis of randomized controlled trials
+   摘要: conducted a systematic review with meta-analysis.
+12. ·糖仁健康科技
+   标题: 自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统!
+   摘要: 公众号 系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有...
+13. diabetesjournals.org
+   标题: A Multicenter Prospective Evaluation of the Benefits of Two Advanced Hybrid Closed-Loop Systems in Glucose Control and Patient-Reported Outcomes in a Real-world Setting
+   摘要: with SmartGuard or Tandem t:slimX2 with Control-IQ。
+14. healio.com
+   标题: Although superior to other insulin therapies, hybrid closed-loop systems differ in efficacy
+   摘要: systems: MiniMed 670G and MiniMed 780G (Medtronic)。
+
+段落引用标记:
+1. idx=3,6,14
+   MiniMed 780G（SmartGuard AHCL）：多项荟萃分析显示其TIR改善幅度最大（约+21.6%），真实世界TIR常达73%~76%，部分研究倾向略高于Control-IQ（+3~6%绝对差）。目标血糖可设至100 mg/dL（5.6 mmol/L），对高血糖压制更积极。
+2. idx=9,13
+   Tandem t:slim X2/Mobi + Control-IQ：典型TIR约68%~73%，基线→+10~12%提升，Control-IQ固定目标为112.5–160 mg/dL（夜间可至112.5），整体TIR略低于780G但在临床可接受范围。
+3. idx=10,13
+   小结：780G在统计上TIR稍占优（尤其高血糖控制），但两者差异在临床日常使用中不一定明显——部分头对头研究也报道无显著差异。
+4. idx=2,4
+   Control-IQ：以预测性低血糖暂停（PLGS）+微调基础率为核心，低血糖事件（TBR <70 mg/dL及<54 mg/dL）略少或相当，部分用户反馈葡萄糖变异度（CV）更小。
+5. idx=7,13
+   780G：自动校正bolus激进，若餐前漏报碳水或运动后可能偶发迟发低血糖，但TBR仍很低（≈1~2%）。有研究显示两者TBR无统计学差异。
+6. idx=8,12
+7. idx=8,12
+   780G → Guardian Connect 4 (G4) Sensor：7天佩戴，无需指血校准，MARD≈9~10%，较旧代改善明显，但仍普遍认为Dexcom G6/G7 MARD更低（≈8~9%）且更稳定，尤其运动/按压时。
+8. idx=8
+   Tandem t:slim X2：超薄触屏、 rechargeable锂电池（每日充10~15min）、tubing细、有t:connect app（部分地区）。Mobi为无tubing/小型化机型（部分地区上市），更灵活。
+9. idx=12
+   MiniMed 780G：较厚重（85g），AA电池供电（约每周换），物理按键菜单，CareLink远程随访强。​ tubing可7天更换（Extended Wear Set）。
+10. idx=3,14
+   Network meta-analysis: MiniMed 780G achieved greatest TIR improvement vs Control-IQ (Diabetes Metab Res Rev 2024)
+11. idx=10,13
+   Head-to-head prospective real-world study (n=150): both ↑TIR to ~76%, no significant between-group diff in TIR/TBR (Diabetes Care 2024)
+12. idx=7
+   Propensity-matched observational: 780G TIR +6.4% vs Control-IQ, TBR comparable (Diabetes Obes Metab 2024)
+13. idx=6
+   Real-world RWE meta-analysis: 780G pooled TIR 73.9%, Control-IQ lower (Diabetes Obes Metab 2025)
+14. idx=8,12
+   Clinical tech对比综述：Guardian 4 vs Dexcom G6、算法区别 (Diabetotech 2022)
+
+来源节点:
+1. 3,6,14
+   data-idx-list=3,6,14
+   class=hyc-common-markdown__ref-list__trigger
+2. 9,13
+   data-idx-list=9,13
+   class=hyc-common-markdown__ref-list__trigger
+3. 10,13
+   data-idx-list=10,13
+   class=hyc-common-markdown__ref-list__trigger
+4. 2,4
+   data-idx-list=2,4
+   class=hyc-common-markdown__ref-list__trigger
+5. 7,13
+   data-idx-list=7,13
+   class=hyc-common-markdown__ref-list__trigger
+6. 8,12
+   data-idx-list=8,12
+   class=hyc-common-markdown__ref-list__trigger
+7. 8,12
+   data-idx-list=8,12
+   class=hyc-common-markdown__ref-list__trigger
+8. 8
+   data-idx-list=8
+   class=hyc-common-markdown__ref-list__trigger
+9. 12
+   data-idx-list=12
+   class=hyc-common-markdown__ref-list__trigger
+10. 3,14
+   data-idx-list=3,14
+   class=hyc-common-markdown__ref-list__trigger
+11. 10,13
+   data-idx-list=10,13
+   class=hyc-common-markdown__ref-list__trigger
+12. 7
+   data-idx-list=7
+   class=hyc-common-markdown__ref-list__trigger
+13. 6
+   data-idx-list=6
+   class=hyc-common-markdown__ref-list__trigger
+14. 8,12
+   data-idx-list=8,12
+   class=hyc-common-markdown__ref-list__trigger
+15. 源
+   class=ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open
+16. 源
+   class=ToolbarSearchGuid_source__XMsID
+17. 引用来源（14） medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... dx.doi.org Editorial: Technologies for diabetes Minimed™ 780G system (Minimed Medtronic,Northridge... mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。 frontiersin.org Technologies for Diabetes Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S... europepmc.org Real-Life Performance of Automated Insulin
+   class=agent-dialogue-references
+18. 引用来源（14）
+   class=agent-dialogue-references__header
+19. 引用来源（14）
+   class=agent-dialogue-references__header-txt
+20. medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... dx.doi.org Editorial: Technologies for diabetes Minimed™ 780G system (Minimed Medtronic,Northridge... mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。 frontiersin.org Technologies for Diabetes Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S... europepmc.org Real-Life Performance of Automated Insulin Delivery
+   class=agent-dialogue-references__list
+21. medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s...
+   class=agent-dialogue-references__item
+22. medtronicdiabetes.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+23. dx.doi.org Editorial: Technologies for diabetes Minimed™ 780G system (Minimed Medtronic,Northridge...
+   class=agent-dialogue-references__item
+24. dx.doi.org
+   class=hyc-common-markdown__ref_card-foot__source_txt
+25. mims.com Meta‐analysis ranks efficacy of different HCL systems for T1D time in range (TIR) vs SIT*,with Minimed 780G show。
+   class=agent-dialogue-references__item
+26. mims.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+27. frontiersin.org Technologies for Diabetes Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S...
+   class=agent-dialogue-references__item
+28. frontiersin.org
+   class=hyc-common-markdown__ref_card-foot__source_txt
+29. europepmc.org Real-Life Performance of Automated Insulin Delivery Systems for High-Carbohydrate Meals: Are All Systems the Same? 780G and Tandem t:slim X2™ with Control-IQ. Thirty...
+   class=agent-dialogue-references__item
+30. europepmc.org
+   class=hyc-common-markdown__ref_card-foot__source_txt
+
+链接:
+未识别到可见引用链接。

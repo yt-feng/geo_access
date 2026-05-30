@@ -1,0 +1,256 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+MiniMed与Omnipod5闭环系统对比
+美敦力与Tandem胰岛素泵选择建议
+美敦力与Tandem闭环胰岛素泵对比
+医疗器械召回与产品安全性评估
+医疗器械企业合作选择对比分析
+美敦力CareLink等工具安全性评估
+美敦力糖尿病管理系统安全性与替代方案
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+制作Web3风格头像
+房东损坏电脑拒赔及堆物法律后果
+保存会议纪要文件
+整理房产信息为表格
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。
+这是目前市面上两款主流商用混合闭环(AID/人工胰腺)系统的对比。先给结论：若追求极致控糖指标(TIR/紧范围TITR)选 MiniMed 780G；若追求无管路佩戴舒适度和生活便利选 Omnipod 5。二者安全性相当，没有压倒性优劣，取决于你的优先级。
+📊 核心维度对比
+维度
+	
+Medtronic MiniMed 780G (770G略弱)
+	
+Insulet Omnipod 5
+
+
+控糖效果 TIR(70-180mg/dL)​
+	
+真实世界最佳设置下达74%~81%，推荐设置(目标100mg/dL)下可达78%~79%
+	
+真实世界约63%~70%(最低目标110mg/dL)，RCT中提升~17.5%
+
+
+紧范围 TITR(70-140mg/dL)​
+	
+可达49%~57%(推荐设置)，是目前商用AID中最高之一
+	
+略低，因最低目标仅110mg/dL且算法偏保守防低
+
+
+低血糖风险(TBR <70mg/dL)​
+	
+时间低于范围约1.5%~2.0%，自动暂停+自动校正平衡良好
+	
+时间低于范围极低(~0.1%~0.3% <54mg/dL)，算法偏保守防低很优秀
+
+
+闭环算法​
+	
+SmartGuard AHCL：每5分钟自动校正大剂量(Meal Detection技术)、目标可调100/110/120mg/dL、可设更严目标
+	
+SmartAdjust：每5分钟调整基础率，预测未来30~60min，自适应基础率学习，目标110~150mg/dL(不能到100)
+
+
+CGM准确性/配套​
+	
+专属Guardian 4 Sensor(MARD≈8.7%~10.6%)，7天佩戴，无需指血校准(SmartGuard模式下)
+	
+兼容Dexcom G6/G7(MARD≈8.2%~9%)或FreeStyle Libre 2 Plus，工厂校准无需指血
+。Dexcom公认稍准且用户偏好高
+
+
+佩戴体验​
+	
+带管泵体(85g)+ tubing，需挂腰/口袋；IPX8防水；每7天换管路+传感器
+	
+无管路Pod贴皮肤(3天更换)，200U容量，手机/Pod控制器操作；IP28防水；无 tubing 缠绕/牵拉
+
+
+安全风险/DKA​
+	
+管路堵/脱落可致DKA(需关注报警)；严重低血糖及DKA事件罕见
+	
+Pod故障可失联致无胰岛素→DKA风险(需备用胰岛素)；无管路脱落风险；严重不良事件少
+
+
+适用人群​
+	
+追求严格控糖(A1c偏高想降、孕妇、需紧范围者)；能接受带管；≥7岁T1D
+	
+爱运动/游泳/儿童/不想带管者；老年人(药房报销有时更方便)；≥2岁T1D或T2D(部分国家)
+⚠️ 注：MiniMed 770G 是上一代，无780G的自动校正大剂量和Guardian 4免指血功能，TIR一般低5%~10%，在此不做重点展开。
+🔍 关键差异解读
+① 控糖效果——780G 数值更优
+网络Meta分析和大型真实世界研究均显示 MiniMed 780G 的TIR改善幅度最大(较传统治疗↑~21%)，优于Omnipod 5和Control-IQ
+。核心原因是780G允许设100mg/dL目标+自动校正大剂量，而Omnipod 5最低只能110mg/dL且无自动餐时校正推注。若你A1c>7.5%想压低，780G理论优势大。
+② CGM——Omnipod 5 配 Dexcom G7 体验更佳
+Guardian 4虽与780G深度整合且免校准，但MARD略高于Dexcom G7，且部分用户认为Dexcom滞后感和压缩低更少
+。Omnipod 5可选CGM是显著优势，尤其对已习惯Dexcom的用户。
+③ 佩戴与生活——Omnipod 5 完胜便利度
+无管路对运动员、儿童、隐蔽需求高者非常重要，游泳无需断开。代价是每3天换Pod(耗材成本可能高)且不能设<110mg/dL目标。
+④ 安全——二者均成熟
+低血糖时间均很低。780G需注意管路堵塞报警；Omnipod 5需随身携带备用短效/长效胰岛素或备用Pod以防失效。
+✅ 选择建议
+∙
+选 Medtronic MiniMed 780G 如果：你把TIR/TITR和A1c压低为第一优先级，不介意带管和每7天换管路，想要最激进自动校正（适合血糖波动大、餐后高血糖难控制者）。
+∙
+选 Insulet Omnipod 5 如果：你重视无管路隐蔽舒适、常运动/游泳、不想被 tubing 束缚，或已有/偏好Dexcom CGM，能接受略宽松的血糖目标换极低低血糖风险。
+📚 主要依据来源
+∙
+DiMolfetta et al. Network Meta-Analysis of HCL Systems— MiniMed 780G 取得最高TIR改善
+∙
+Medtronic ATTD 2024 real-world data: 78% TIR @ optimal settings, >56% TITR
+∙
+Insulet Omnipod 5 pivotal trial: +17.5% TIR, TBR↓, Dexcom G6 integration
+∙
+diaTribe / EASD 2023: 780G vs Omnipod 5 real-world TIR & hypo data
+∙
+CGM MARD values: Dexcom G7 ≈8.2%, Guardian 4 ≈8.7%~10.6%
+∙
+ADA / DiabetesWise device comparison —佩戴特点、年龄适应证
+如有具体年龄、A1c水平或是否已用某品牌CGM，可以进一步帮你细化推荐。
+源
+请提供MiniMed 780G与Omnipod 5的长期使用体验
+780G和Omnipod 5哪个更适合青少年患者？
+对于儿童患者，这两款系统的选择有哪些特殊考虑？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（16）
+公众号
+·MedTF
+Omnipod 5与MiniMed 780G真实世界研究
+
+探索性终点显示试验组和对照组之间每日总剂量相对于基线的变化或体重指数相对于基线的变化没有显著差异｡MiniMed...
+
+diatribe.org
+AID Systems Hit Impressive Time in Range Targets, Large Studies Show
+
+clinical trial settings) exhibiting that AID systems like the MiniMed 780G and Omnipod 5 increased time in range in everyday users. Study participants...
+
+doctronic.ai
+Continuous Glucose Monitor CGM Comparison Chart
+
+can be particularly important. Top CGM Devices Ranked by Performance and Value Device MARD Accuracy Sensor Life Monthly Cost Key Features Dexcom G7 8.
+
+diabeticsupplieshub.com
+Omnipod 5 vs. Medtronic 770G/780G: A User's Comparison Guide - DiabeticSuppliesHub
+
+Omnipod 5 vs. Medtronic 770G/780G: A Users Comparison Guide By mike cornell Weve found that Omnipod 5 and Medtronic 780G represent distinct automate...
+
+大众健康报科普网
+胰岛素闭环输注系统介绍
+
+Insulet Omnipod 5:为首款无管路闭环系统,将算法集成于一次性Pod中,目标血糖可个性...
+
+europepmc.org
+Efficacy and Safety of Different Hybrid Closed Loop Systems for Automated Insulin Delivery in People With Type 1 Diabetes: A Systematic Review and Network Meta-Analysis.
+
+Minimed 780G,Control-IQ,CamAPS Fx,DBLG-1,DBLHU,and Omnipod 5 HCL systems against other types of insulin therapy,and reporting time in target range (TI...
+
+theglucoseneverlies.com
+Choosing an AID System: Which Superhero Do You Want in Your Corner? - The Glucose Never Lies
+
+expensive than some other AID options when using more than 65 units per day. The cost issue can be compounded when combined with certain CGM systems.
+
+consultantlive.com
+Diabetes Dialogue: Omnipod 5 and Medtronic 780G for Type 2 Diabetes
+
+hyperglycemic syndrome. Findings suggest AID may be a safe and effective option for insulin-requiring adults with type 2 diabetes. Medtronic 780G in T...
+
+liebertpub.com
+The Myth of MARD (Mean Absolute Relative Difference): Limitations of MARD in the Clinical Assessment of Continuous Glucose Monitoring Data Diabetes Technology & Therapeutics
+
+using a Dexcom G6 sensor (MARD of 9.0%14) in pivotal trials of the Control-IQ algorithm and OmniPod 5 algorithm resulted in TIR outcomes of 71% and 73...
+
+momentarylab.com
+Closed Loop Insulin Pump: How It Works, Who Qualifies, and What to Expect in 2026
+
+MiniMed 780G pairs exclusively with Medtronic's Guardian 4 sensor and does not use Dexcom technology. Pump System Compatible CGM(s) --- --- Omnipod 5...
+
+drugdeliverybusiness.com
+The biggest diabetes tech news out of ATTD 2024
+
+outperformed international time-in-range targets. The MiniMed 780G with the Guardian 4 sensor. Medtronics MiniMed 780G,its latest-generation automate...
+
+cgmmonitors.com
+G6/G7 Vs FreeStyle vs Medtronic CGM Accuracy Comparison 2026 - CGM Monitors
+
+integration with the MiniMed 780G closed-loop system. Sensor + pump + SmartGuard algorithm working together often outperforms any standalone accuracy...
+
+momentarylab.com
+Best Insulin Pump for Type 1 Diabetes in 2026: A Complete Guide for Every Lifestyle
+
+or with high-deductible plans,manufacturer patient assistance programs exist. Insulet (Omnipod),Tandem,and Medtronic all offer income-based programs.
+
+公众号
+·糖仁健康科技
+自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统!
+
+系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有...
+
+healio.com
+Although superior to other insulin therapies, hybrid closed-loop systems differ in efficacy
+
+with SIT. DBLG1 achieved the greatest reduction in time below range compared with SIT with an MD of -3.69% (95% CI,-5.2 to -2.19),followed by MiniMed...
+
+diabeteswise.org
+Device Finder - Guardian Connect vs Dexcom G6
+
+Instinct sensor,made by Abbott,for MiniMed 780G Summary The Medtronic Guardian Connect is a continuous glucose monitoring (CGM) system that provides r...
+
+引用16篇资料作为参考

@@ -34,6 +34,12 @@ function stamp() {
   return new Date().toISOString().replace(/[:.]/g, "-");
 }
 
+function sanitizeLabel(value) {
+  return String(value || "prompt_matrix")
+    .replace(/[^a-zA-Z0-9_-]+/g, "_")
+    .replace(/^_+|_+$/g, "") || "prompt_matrix";
+}
+
 function compactId(index) {
   return `q${String(index + 1).padStart(2, "0")}`;
 }
@@ -734,8 +740,18 @@ async function matrix() {
   const prompts = readPromptMatrix(promptFile);
   if (!prompts.length) throw new Error(`No prompts found in ${promptFile}`);
 
-  const outDir = path.join(OUT_ROOT, `${stamp()}_prompt_matrix`);
+  const runLabel = sanitizeLabel(process.env.GEO_MONITOR_RUN_LABEL || "prompt_matrix");
+  const outDir = process.env.GEO_MONITOR_OUT_DIR
+    ? path.resolve(process.env.GEO_MONITOR_OUT_DIR)
+    : path.join(OUT_ROOT, `${stamp()}_${runLabel}`);
   ensureDir(outDir);
+  fs.copyFileSync(promptFile, path.join(outDir, "prompt_matrix.txt"));
+
+  const intentSpecFile = process.env.GEO_INTENT_SPEC_FILE;
+  if (intentSpecFile && fs.existsSync(intentSpecFile)) {
+    fs.copyFileSync(intentSpecFile, path.join(outDir, "intent_spec.json"));
+  }
+
   const headless = process.env.GEO_MONITOR_HEADLESS === "0" ? false : true;
   const context = await launchContext({ headless });
   const platforms = activePlatforms();
@@ -786,6 +802,8 @@ async function matrix() {
   const payload = {
     createdAt: new Date().toISOString(),
     promptFile,
+    runLabel,
+    intentSpecFile: intentSpecFile || null,
     platformIds: platforms.map((platform) => platform.id),
     promptCount: prompts.length,
     summary,

@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniMed Intent Coverage Dashboard</title>
+  <style>
+    :root { --ink:#17202a; --muted:#657080; --line:#d8dee8; --bg:#f6f7f9; --panel:#fff; --accent:#176b87; --good:#197a4f; --warn:#a45d00; --miss:#ad2f34; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; }
+    header { padding:32px 40px 20px; background:#ffffff; border-bottom:1px solid var(--line); }
+    header h1 { margin:0 0 10px; font-size:28px; letter-spacing:0; }
+    header p { margin:0; color:var(--muted); max-width:980px; }
+    main { padding:24px 40px 48px; }
+    .metrics, .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-bottom:18px; }
+    .metric, .card, .answer-card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
+    .metric span, .card span, .answer-head span { color:var(--muted); font-size:12px; text-transform:uppercase; }
+    .metric strong { display:block; font-size:32px; margin-top:6px; }
+    h2 { margin:26px 0 12px; font-size:18px; }
+    .card-head, .answer-head { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; }
+    .card h3, .answer-card h3 { margin:2px 0 10px; font-size:16px; }
+    .score-row { display:grid; grid-template-columns:140px 1fr 42px; align-items:center; gap:10px; margin:10px 0; font-size:13px; }
+    .bar { height:8px; background:#e8edf2; border-radius:999px; overflow:hidden; }
+    .bar i { display:block; height:100%; background:var(--accent); }
+    .pillbox { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+    .pill, .criterion { display:inline-flex; border-radius:999px; padding:4px 8px; font-size:12px; border:1px solid var(--line); background:#f8fafb; }
+    .pill.good, .criterion.hit { color:var(--good); border-color:#a5d6bd; background:#edf8f2; }
+    .pill.warn { color:var(--warn); border-color:#e6c38f; background:#fff7e8; }
+    .criterion.miss { color:var(--miss); border-color:#e6abb0; background:#fff0f1; }
+    .answer-list { display:grid; grid-template-columns:1fr; gap:14px; }
+    .score-pair { display:grid; grid-template-columns:auto auto auto auto; gap:5px 8px; align-items:baseline; text-align:right; }
+    .score-pair strong { font-size:22px; }
+    .score-pair em { color:var(--muted); font-style:normal; font-size:12px; }
+    .prompt { color:#344252; font-weight:600; }
+    .criteria { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0; }
+    .excerpt { color:#2f3a45; white-space:pre-wrap; }
+    .links { display:flex; gap:12px; flex-wrap:wrap; border-top:1px solid var(--line); margin-top:12px; padding-top:10px; }
+    a { color:var(--accent); text-decoration:none; }
+    @media (max-width:1000px) { .metrics, .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } main, header { padding-left:20px; padding-right:20px; } }
+    @media (max-width:620px) { .metrics, .grid { grid-template-columns:1fr; } .score-row { grid-template-columns:110px 1fr 36px; } .answer-head { flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MiniMed 竞品意图覆盖测试</h1>
+    <p>数据源选择：WildChat。本轮是小样本测试，使用 WildChat adapter fallback seed 生成用户意图，再让腾讯元宝回答 4 个主要竞品各 2 个问题，评估 performance 与关键意图覆盖。</p>
+  </header>
+  <main>
+    <section class="metrics">
+      <div class="metric"><span>OK Rate</span><strong>100%</strong></div>
+      <div class="metric"><span>Performance</span><strong>98</strong></div>
+      <div class="metric"><span>Intent Coverage</span><strong>99</strong></div>
+      <div class="metric"><span>Avg References</span><strong>15</strong></div>
+    </section>
+    <h2>竞品表现</h2>
+    <section class="grid">
+    <section class="card">
+      <div class="card-head">
+        <h3>Tandem t:slim X2 / Mobi + Control-IQ</h3>
+        <span>带管路闭环胰岛素泵</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <div class="score-row"><span>Intent Coverage</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <p>OK 2/2 · 平均引用 14</p>
+      <div class="pillbox"><span class="pill good">无明显缺口</span></div>
+    </section>
+  
+    <section class="card">
+      <div class="card-head">
+        <h3>Insulet Omnipod 5</h3>
+        <span>无管路贴片闭环泵</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:99%"></i></div><strong>99</strong></div>
+      <div class="score-row"><span>Intent Coverage</span><div class="bar"><i style="width:94%"></i></div><strong>94</strong></div>
+      <p>OK 2/2 · 平均引用 14</p>
+      <div class="pillbox"><span class="pill warn">低血糖/安全预警 x1</span></div>
+    </section>
+  
+    <section class="card">
+      <div class="card-head">
+        <h3>Dexcom G7 + 兼容闭环生态</h3>
+        <span>CGM 与开放兼容生态</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <div class="score-row"><span>Intent Coverage</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <p>OK 2/2 · 平均引用 17</p>
+      <div class="pillbox"><span class="pill good">无明显缺口</span></div>
+    </section>
+  
+    <section class="card">
+      <div class="card-head">
+        <h3>Abbott FreeStyle Libre 3 / 3 Plus</h3>
+        <span>CGM 与部分 AID 兼容生态</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:92%"></i></div><strong>92</strong></div>
+      <div class="score-row"><span>Intent Coverage</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <p>OK 2/2 · 平均引用 14</p>
+      <div class="pillbox"><span class="pill good">无明显缺口</span></div>
+    </section>
+  </section>
+    <h2>关键意图</h2>
+    <section class="grid">
+    <section class="card">
+      <div class="card-head">
+        <h3>Performance: 控糖表现与产品能力</h3>
+        <span>4 prompts</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <div class="score-row"><span>Coverage</span><div class="bar"><i style="width:100%"></i></div><strong>100</strong></div>
+      <div class="pillbox"><span class="pill good">无明显缺口</span></div>
+    </section>
+  
+    <section class="card">
+      <div class="card-head">
+        <h3>Intention Coverage: 用户选择路径</h3>
+        <span>4 prompts</span>
+      </div>
+      <div class="score-row"><span>Performance</span><div class="bar"><i style="width:95%"></i></div><strong>95</strong></div>
+      <div class="score-row"><span>Coverage</span><div class="bar"><i style="width:97%"></i></div><strong>97</strong></div>
+      <div class="pillbox"><span class="pill warn">低血糖/安全预警 x1</span></div>
+    </section>
+  </section>
+    <h2>品牌需要关注的问题缺口</h2>
+    <section class="card"><div class="pillbox"><span class="pill warn">低血糖/安全预警 x1</span></div></section>
+    <h2>逐问题诊断</h2>
+    <section class="answer-list">
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q01 · performance</span>
+          <h3>Tandem t:slim X2 / Mobi + Control-IQ</h3>
+        </div>
+        <div class="score-pair">
+          <strong>100</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。</p>
+      <div class="criteria"><span class="criterion hit">控糖效果/TIR</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">证据/临床来源</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">这是目前市面上两款最主流的商用混合闭环胰岛素泵系统（AID/HCL），综合多项真实世界研究、网络荟萃分析及头对头观察研究，给你做一个系统对比：
+🩸 一、控糖效果（TIR / HbA1c）
+∙
+MiniMed 780G（SmartGuard AHCL）：多项荟萃分析显示其TIR改善幅度最大（约+21.6%），真实世界TIR常达73%~76%，部分研究倾向略高于Control-IQ（+3~6%绝对差）。目标血糖可设至100 mg/dL（5.6 mmol/L），对高血糖压制更积极。
+∙
+Tandem t:slim X2/Mobi + Control-IQ：典型TIR约68%~73%，基线→+10~12%提升，Control-IQ固定目标为112.5–160 mg/dL（夜间可至112.5），整体TIR略低于780G但在临床可接受范围。
+小结：780G在统计上TIR稍占优（尤其高血糖控制），但两者差异在临床日常使用中不一定明显——部分头对头研究也报道无显著差异。
+⚠️ 二、低血糖风险（TBR）
+∙
+Control-IQ：以预测性低血糖暂停（PLGS）+微调基础率为核心，低血糖事件（TBR &lt;70 mg/dL及&lt;54 mg/dL）略少或相当，部分用户反馈葡萄糖变异度（CV）更小。
+∙
+780G：自动校正bolus激进，若餐前漏报碳水或运动后可能偶发迟发低血糖，但TBR仍很低（≈1~2%）。有研究显示两者TBR无统计学差异。
+小结：严重低血糖风险两者均很低；若本身极度恐低或对夜间低血糖敏感，Control-IQ略温和。
+🤖 三、闭环算法差异
+维度
+
+Medtronic 780G SmartGuard
+
+Tandem Control-IQ
+
+模式
+
+自适应学习（参考近数日数据），每5分钟可给自动校正bolus​
+
+模型预测未来30分钟，只调基础率+暂停，每小时最多1次微量correction bolus（CIQ+ G7版略有更新）
+
+目标
+
+可调100/110/120 mg/dL
+
+固定112.5起（夜间112.5–120）
+
+学习
+
+是（个性化基础率微调）
+
+否（按设定参数运行...</p>
+      <div class="links">
+        <a href="q01/yuanbao.txt">文本</a>
+        <a href="q01/yuanbao.html">HTML</a>
+        <a href="q01/yuanbao.png">截图</a>
+        <a href="q01/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q02 · decision_fit</span>
+          <h3>Tandem t:slim X2 / Mobi + Control-IQ</h3>
+        </div>
+        <div class="score-pair">
+          <strong>100</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。</p>
+      <div class="criteria"><span class="criterion hit">患者画像/适用人群</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">费用/医保/可及性</span><span class="criterion hit">培训/售后/医生支持</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">帮患者/家属/医生在美敦力 MiniMed（以780G/770G+Guardian 4为代表）与Tandem t:slim X2 或 Mobi + Control-IQ（配 Dexcom G6/G7 或 Libre 3 Plus）之间做决策时，AI 回答应围绕以下 7 个核心维度展开，并在最后给出倾向性选择建议：
+一、CGM 兼容性与准确性偏好 ⭐最重要分歧点
+∙
+美敦力 MiniMed 780G：强制绑定 Guardian 4（或 Simplera Sync）CGM，不能用 Dexcom 或 FreeStyle Libre。
+∙
+Guardian 4 需每周校准（部分模式免指尖血），佩戴部位通常为腹部/上臂，部分用户觉得比 Dexcom 更频繁报警或需更多学习。
+∙
+Tandem + Control-IQ：需搭配 Dexcom G6/G7（t:slim X2 部分地区也兼容 FreeStyle Libre 3 Plus）；Mobi 目前主要支持 Dexcom。
+∙
+若患者已习惯并信任 Dexcom 的准确性、App 生态或希望用 G7 的更小传感器→强烈倾向 Tandem。
+📌 问自己：你/孩子是否已在使用并喜欢某款 CGM？换泵是否需要换 CGM 品牌？
+二、自动闭环算法差异（SmartGuard vs Control-IQ）
+项目
+
+美敦力 MiniMed 780G (SmartGuard™)
+
+Tandem Control-IQ（X2/Mobi）
+
+目标血糖
+
+可调低至 100 mg/dL（5.5 mmol/L）
+
+固定范围≈110–120 mg/dL 附近，Sleep/Exercise 模式可临时放宽
+
+自动校正大剂量
+
+✅ 每 5 分钟可给自动校正量
+
+✅ 最多每小时 1 次自动校正 bolus
+
+预测时间窗
+
+基于当前+历史趋势
+
+预测约 30 分钟后血糖
+
+漏餐处理
+
+能检测快速升糖自动补校正量
+
+靠增加基础率+自动校正，不主动检测&quot;进餐事件&quot;
+
+停胰岛素防低
+
+✅ 预测性暂停基础率
+
+✅ 预测性暂停基础率（Basal-IQ 基础上增强）
+两者均为经...</p>
+      <div class="links">
+        <a href="q02/yuanbao.txt">文本</a>
+        <a href="q02/yuanbao.html">HTML</a>
+        <a href="q02/yuanbao.png">截图</a>
+        <a href="q02/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhtVZV55U">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q03 · performance</span>
+          <h3>Insulet Omnipod 5</h3>
+        </div>
+        <div class="score-pair">
+          <strong>100</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。</p>
+      <div class="criteria"><span class="criterion hit">控糖效果/TIR</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">证据/临床来源</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">这是目前市面上两款主流商用混合闭环(AID/人工胰腺)系统的对比。先给结论：若追求极致控糖指标(TIR/紧范围TITR)选 MiniMed 780G；若追求无管路佩戴舒适度和生活便利选 Omnipod 5。二者安全性相当，没有压倒性优劣，取决于你的优先级。
+📊 核心维度对比
+维度
+
+Medtronic MiniMed 780G (770G略弱)
+
+Insulet Omnipod 5
+
+控糖效果 TIR(70-180mg/dL)​
+
+真实世界最佳设置下达74%~81%，推荐设置(目标100mg/dL)下可达78%~79%
+
+真实世界约63%~70%(最低目标110mg/dL)，RCT中提升~17.5%
+
+紧范围 TITR(70-140mg/dL)​
+
+可达49%~57%(推荐设置)，是目前商用AID中最高之一
+
+略低，因最低目标仅110mg/dL且算法偏保守防低
+
+低血糖风险(TBR &lt;70mg/dL)​
+
+时间低于范围约1.5%~2.0%，自动暂停+自动校正平衡良好
+
+时间低于范围极低(~0.1%~0.3% &lt;54mg/dL)，算法偏保守防低很优秀
+
+闭环算法​
+
+SmartGuard AHCL：每5分钟自动校正大剂量(Meal Detection技术)、目标可调100/110/120mg/dL、可设更严目标
+
+SmartAdjust：每5分钟调整基础率，预测未来30~60min，自适应基础率学习，目标110~150mg/dL(不能到100)
+
+CGM准确性/配套​
+
+专属Guardian 4 Sensor(MARD≈8.7%~10.6%)，7天佩戴，无需指血校准(SmartGuard模式下)
+
+兼容Dexcom G6/G7(MARD≈8.2%~9%)或FreeStyle Libre 2 Plus，工厂校准无需指血
+。Dexcom公认稍准且用户偏好高
+
+佩戴体验​
+
+带管泵体(85g)+ tubing，需挂腰/口袋；IPX8防水；每7天换管路+传感器
+
+无管路Pod贴皮肤(3天更换)，200U容量，手机/Pod控制器操作；IP28防水；无 tubing 缠绕/牵拉...</p>
+      <div class="links">
+        <a href="q03/yuanbao.txt">文本</a>
+        <a href="q03/yuanbao.html">HTML</a>
+        <a href="q03/yuanbao.png">截图</a>
+        <a href="q03/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q04 · decision_fit</span>
+          <h3>Insulet Omnipod 5</h3>
+        </div>
+        <div class="score-pair">
+          <strong>98</strong>
+          <em>perf</em>
+          <strong>88</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。</p>
+      <div class="criteria"><span class="criterion hit">患者画像/适用人群</span><span class="criterion hit">闭环算法/AID</span><span class="criterion miss">低血糖/安全预警</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">费用/医保/可及性</span><span class="criterion hit">培训/售后/医生支持</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">患者在美敦力 MiniMed（通常指 780G/670G 系）与 Insulet Omnipod 5 之间纠结，本质上是在传统带管耐用泵 vs 无管路一次性贴片泵（Patch Pump）之间做选择。以下是帮助患者/家属/医生决策时应覆盖的关键问题和具体建议：
+一、决策前必问的 5 个关键问题
+#
+
+关键问题
+
+为什么重要
+
+1
+
+是否介意身上带管子/挂腰包？日常运动、游泳、穿紧身衣多吗？​
+
+决定有无管路能否接受
+
+2
+
+已在使用或有偏好的 CGM 吗？（Dexcom G6/G7、雅培 Libre、美敦力 Guardian）​
+
+两系统 CGM 互不兼容
+
+3
+
+每日胰岛素总量是否＞200U？是否需要大容量储药罐？​
+
+Omnipod Pod 最大 200U，大需求量者需每 2～3 天换
+
+4
+
+更看重血糖目标激进严控（低 TIR 目标），还是少操作、隐蔽舒适？​
+
+MiniMed 可设 100mg/dL 目标且有自动校正大剂量
+
+5
+
+医保/商保对哪套系统耗材报销更好？当地是否有美敦力 780G 或 Omnipod 5 的准入？（中国大陆 780G 未正式上市）
+
+长期使用耗材成本差异大
+二、核心规格对比（以 MiniMed 780G vs Omnipod 5 为例）
+项目
+
+美敦力 MiniMed 780G（带管）
+
+Insulet Omnipod 5（无管贴片）
+
+外形​
+
+带管耐用泵＋分离输注套件，需挂腰/放口袋
+
+一次性 Pod 直接贴皮肤，无管，IPX8 防水可游泳
+
+储药量/更换周期​
+
+300U 储药罐，输注套件最长 7 天
+
+Pod 内建 200U，每 3 天丢弃换新
+
+CGM 绑定​
+
+仅 Guardian 4（美敦力自家），部分型号需校准
+
+Dexcom G6/G7 或 FreeStyle Libre 2 Plus，免指血校准
+
+闭环算法​
+
+SmartGuard™：每 5min 自动调基础＋自动校正大剂量（Auto Correction），目标可低至 100mg/dL
+
+SmartAdjust™：每 5min 调基础，目标 110～150mg/d...</p>
+      <div class="links">
+        <a href="q04/yuanbao.txt">文本</a>
+        <a href="q04/yuanbao.html">HTML</a>
+        <a href="q04/yuanbao.png">截图</a>
+        <a href="q04/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q05 · performance</span>
+          <h3>Dexcom G7 + 兼容闭环生态</h3>
+        </div>
+        <div class="score-pair">
+          <strong>100</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。</p>
+      <div class="criteria"><span class="criterion hit">控糖效果/TIR</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">证据/临床来源</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">这是美敦力 MiniMed 780G（含770G）/Guardian™ 4 闭环系统（商用一体化泵+CGM）与 Dexcom G7 + 兼容闭环生态（指 Omnipod 5/Tandem Control-IQ 商用系统，或 AndroidAPS/Loop DIY 系统 + G7 CGM）之间的核心对比。两者都是目前顶级的 AID（自动胰岛素输注）方案，但侧重点不同。
+📊 综合性能对比表
+维度
+
+MiniMed 780G + Guardian 4 (AHCL)
+
+Dexcom G7 + 闭环生态（Control‑IQ / Omnipod 5 / DIY）
+
+TIR（控糖效果）​
+
+真实世界 TIR 约 72%~76%，部分研究达 78%~84%（设目标 100mg/dL、短AIT）；网络 Meta 分析显示 780G 在商用系统中 TIR 改善幅度最大
+
+Control‑IQ 真实世界 TIR 约 70%~73%；Omnipod 5 类似；DIY（AndroidAPS）可达相当或更高，但依赖调参。整体 TIR 与 780G 接近或略低
+
+低血糖风险(TBR)​
+
+780G 自动限幅+学习算法，TBR &lt;70mg/dL 通常 1%~2%，临床研究显示低血糖率不升高，对反复低血糖者友好
+
+Control‑IQ 低血糖控制优秀（TBR~1%~2%）；DIY 若激进调参 TBR 可能偏高；Omnipod 5 略高 TBR 报告
+
+闭环算法特点​
+
+SmartGuard™ AHCL：每 5min 调整基础+自动校正推注（最多12次/h），可设目标低至 100mg/dL(5.6mmol/L)，学习用户胰岛素敏感性（2~6天历史），无指血校准
+
+Control‑IQ：预测30min后血糖，基础微调+1次/h校正，目标固定~112.5起；Omnipod 5：类似但无 tubing；DIY：oref1 算法有 SMB（超级微推注）、可设零基础、完全自定义——理论上最灵活
+
+CGM 准确性(MARD)​
+
+Guardian 4 免校准，MARD ≈ 8.2%~9.0%（手臂位）
+
+Dexc...</p>
+      <div class="links">
+        <a href="q05/yuanbao.txt">文本</a>
+        <a href="q05/yuanbao.html">HTML</a>
+        <a href="q05/yuanbao.png">截图</a>
+        <a href="q05/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q06 · decision_fit</span>
+          <h3>Dexcom G7 + 兼容闭环生态</h3>
+        </div>
+        <div class="score-pair">
+          <strong>99</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。</p>
+      <div class="criteria"><span class="criterion hit">患者画像/适用人群</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">费用/医保/可及性</span><span class="criterion hit">培训/售后/医生支持</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">帮您整理了临床上和糖友社群在做「美敦力 MiniMed（如670G/780G）商业闭环」vs「Dexcom G7 + 泵 + 开源/兼容闭环（AAPS/Loop/OpenAPS 或 Omnipod 5/Tandem Control-IQ）」决策时，应重点讨论的 6 个核心维度，以及对应的选择建议：
+一、先澄清一个关键兼容性问题 ⚠️
+美敦力 MiniMed 780G/670G 不能与 Dexcom G7 配对，它只兼容自家 Guardian 4/Simplera 传感器。
+所以这道题本质是二选一：
+∙
+方案A｜美敦力 MiniMed 670G/780G（商业闭环）​ → 用 Guardian 传感器 + SmartGuard 混合闭环
+∙
+方案B｜Dexcom G7 + 兼容泵（Omnipod 5 / Tandem t:slim / 老款美敦力泵）+ 商业或开源闭环（AAPS/Loop/OpenAPS）
+二、六大决策关键点
+1. 🩸 CGM 准确性 &amp; 佩戴体验
+
+美敦力 MiniMed + Guardian 4
+
+Dexcom G7
+
+MARD（准确性）
+
+~9%
+
+~8%，临床公认更准确
+
+校准
+
+免指尖血（SmartGuard 模式）
+
+出厂免校准
+
+佩戴
+
+腹部为主，7天
+
+上臂（也可臀部儿童），10天，更小更薄
+
+警报
+
+较多，偶有频繁
+
+可高度自定义，Follow App 对家属极友好
+→ 在意 CGM 舒适度、家属远程监护 → 倾向 Dexcom G7 生态
+2. 🤖 闭环算法能力 &amp; 灵活性
+∙
+美敦力 780G：高级混合闭环（AHCL），每5分钟调基础 + 自动校正大剂量，目标可设低至100mg/dL（5.6mmol/L），夜间表现稳定
+。缺点：算法黑盒，不能设临时目标（运动模式有限），不能 SMB（超微大剂量）。
+∙
+开源闭环（AAPS/Loop/OpenAPS）：支持 SMB、临时目标（运动/进食前主动拉高血糖目标）、多配置文件，理论上 TIR 可更高，但需自己调参维护
+。
+∙
+商业兼容闭环（Tandem Control-IQ / Omnipo...</p>
+      <div class="links">
+        <a href="q06/yuanbao.txt">文本</a>
+        <a href="q06/yuanbao.html">HTML</a>
+        <a href="q06/yuanbao.png">截图</a>
+        <a href="q06/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q07 · performance</span>
+          <h3>Abbott FreeStyle Libre 3 / 3 Plus</h3>
+        </div>
+        <div class="score-pair">
+          <strong>100</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。</p>
+      <div class="criteria"><span class="criterion hit">控糖效果/TIR</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">证据/临床来源</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">严格来说，Medtronic MiniMed 780G/770G 是胰岛素泵+闭环系统（AID），而 Abbott FreeStyle Libre 3/3 Plus 只是连续血糖监测仪（CGM），两者不是同类产品——Libre 不能自动打胰岛素。但如果对比的是&quot;带闭环泵的方案 vs 只用 CGM+手动注射/泵&quot;，以下是各维度详细对比：
+🎯 控糖效果（TIR &amp; HbA1c）
+项目
+
+MiniMed 780G/770G（AID 闭环）
+
+Libre 3 / 3 Plus（仅 CGM + MDI/手动泵）
+
+TIR（70–180mg/dL）​
+
+ADAPT 试验：6个月 TIR 从 ~43%→70.6%，绝对提升 27.6%；真实世界可达 69–78%
+
+仅靠 CGM 提醒+手动注射，TIR 通常维持基线 ~40–50%，无自动改善
+
+HbA1c 降幅​
+
+ADAPT：A1c ↓1.4%（9.0%→7.3–7.5%）
+
+单独使用基本不降 A1c，除非配合极严格的 MDI 管理
+
+夜间控制​
+
+显著优于手动，夜间 TIR 提升约 30%
+
+夜间依赖人工干预，易偏高或偏低
+结论：需要最大化 TIR、降 A1c → 780G 闭环系统远优于单独用 Libre 3。
+⚠️ 低血糖风险（TBR）
+∙
+MiniMed 780G：SmartGuard 每 5 分钟 suspend/reduce 基础率，自动校正。ADAPT 试验 TBR＜70mg/dL 与 MDI+CGM 组相当（~2.6%），未增加低血糖，真实世界 TBR＜3–4%
+。770G 仅有自动暂停无自动校正，防低略弱于 780G。
+∙
+Libre 3/3 Plus：提供低血糖警报（可选，可设 55/70mg/dL），但不会自动停/减胰岛素——实际低血糖风险取决于你是否及时处理报警。
+结论：闭环泵在减少夜间和未察觉低血糖上更有保护；Libre 3 的警报能辅助发现低血糖，但不主动干预。
+🔄 闭环算法差异
+∙
+MiniMed 780G — 高级混合闭环（AHCL）：
+∙
+SmartGuard™ 算法，每 5 分钟读取 Gua...</p>
+      <div class="links">
+        <a href="q07/yuanbao.txt">文本</a>
+        <a href="q07/yuanbao.html">HTML</a>
+        <a href="q07/yuanbao.png">截图</a>
+        <a href="q07/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC">原对话</a>
+      </div>
+    </article>
+  
+    <article class="answer-card">
+      <div class="answer-head">
+        <div>
+          <span>Q08 · decision_fit</span>
+          <h3>Abbott FreeStyle Libre 3 / 3 Plus</h3>
+        </div>
+        <div class="score-pair">
+          <strong>83</strong>
+          <em>perf</em>
+          <strong>100</strong>
+          <em>cover</em>
+        </div>
+      </div>
+      <p class="prompt">如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。</p>
+      <div class="criteria"><span class="criterion hit">患者画像/适用人群</span><span class="criterion hit">闭环算法/AID</span><span class="criterion hit">低血糖/安全预警</span><span class="criterion hit">CGM/传感器准确性</span><span class="criterion hit">佩戴体验/管路</span><span class="criterion hit">费用/医保/可及性</span><span class="criterion hit">培训/售后/医生支持</span><span class="criterion hit">品牌/竞品差异</span></div>
+      <p class="excerpt">这是一类典型的&quot;要不要上胰岛素泵+闭环系统 vs 只用动态血糖仪看数值&quot;的决策问题。美敦力 MiniMed（如780G）是胰岛素泵+集成CGM的自动胰岛素输送/AID系统，而雅培 FreeStyle Libre 3/3 Plus 是单纯的连续血糖监测仪（CGM），不自动给胰岛素。
+帮你整理了一份临床上建议覆盖的关键问诊维度 + 最终选择建议：
+🔑 决策前必须问清楚的 6 个关键问题
+1️⃣ 目前用什么方式打胰岛素？
+∙
+多次每日注射（MDI，即针头/胰岛素笔）→ 只需 CGM → Libre 3/3 Plus 完全够用，先不碰泵。
+∙
+已在用或有意换胰岛素泵（尤其1型糖尿病）→ 可考虑美敦力 MiniMed 780G 这类 AID 闭环系统。
+⚠️ Libre 3 不能驱动美敦力泵的自动闭环（美敦力泵只配 Guardian 4 或新版 Simplera Sync），若想要闭环必须用美敦力自带 CGM。
+2️⃣ 糖尿病分型与控糖负担
+∙
+1型糖尿病（尤其中重度血糖波动、夜间低血糖、妊娠计划）：ADA 指南优先推荐 AID（自动胰岛素输送）系统 → 美敦力 MiniMed 780G​ 可减少夜间低血糖、提升 TIR（范围内时间）。
+∙
+2型糖尿病用基础/餐时胰岛素、血糖相对平稳：CGM 主要用于发现高低血糖模式 → Libre 3/3 Plus​ 性价比高、侵入性低。
+3️⃣ 对管路/佩戴舒适度的接受度
+∙
+美敦力 MiniMed = 有管路（tubed）泵 + 腹部/臂部输注集 + CGM 传感器，身上有两个部件，需每 2～3 天换输注位点。
+∙
+Libre 3 = 一枚硬币大小传感器贴上臂，戴 14 天，无管路，最隐蔽舒适。
+4️⃣ 高低血糖报警与家人远程监护需求
+∙
+两者都有实时高/低血糖报警和 LibreLinkUp / CareLink 远程共享功能，都能满足家人看护需求。
+∙
+美敦力闭环还能自动暂停或微调基础率防低血糖，对&quot;无感知低血糖&quot;人群更有保护价值。
+5️⃣ 费用与医保/商保覆盖（中国地区参考）
+∙
+Libre 3/3 Plus：多为药店购买，部分地区医...</p>
+      <div class="links">
+        <a href="q08/yuanbao.txt">文本</a>
+        <a href="q08/yuanbao.html">HTML</a>
+        <a href="q08/yuanbao.png">截图</a>
+        <a href="q08/yuanbao_references.txt">引用</a>
+        <a href="https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa">原对话</a>
+      </div>
+    </article>
+  </section>
+  </main>
+</body>
+</html>

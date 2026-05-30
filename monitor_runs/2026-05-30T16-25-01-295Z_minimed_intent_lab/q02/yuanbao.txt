@@ -1,0 +1,277 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+美敦力与Tandem胰岛素泵选择建议
+美敦力与Tandem闭环胰岛素泵对比
+医疗器械召回与产品安全性评估
+医疗器械企业合作选择对比分析
+美敦力CareLink等工具安全性评估
+美敦力糖尿病管理系统安全性与替代方案
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+制作Web3风格头像
+房东损坏电脑拒赔及堆物法律后果
+保存会议纪要文件
+整理房产信息为表格
+托管-Training with DAMAC
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。
+帮患者/家属/医生在美敦力 MiniMed（以780G/770G+Guardian 4为代表）与Tandem t:slim X2 或 Mobi + Control-IQ（配 Dexcom G6/G7 或 Libre 3 Plus）之间做决策时，AI 回答应围绕以下 7 个核心维度展开，并在最后给出倾向性选择建议：
+一、CGM 兼容性与准确性偏好 ⭐最重要分歧点
+∙
+美敦力 MiniMed 780G：强制绑定 Guardian 4（或 Simplera Sync）CGM，不能用 Dexcom 或 FreeStyle Libre。
+∙
+Guardian 4 需每周校准（部分模式免指尖血），佩戴部位通常为腹部/上臂，部分用户觉得比 Dexcom 更频繁报警或需更多学习。
+∙
+Tandem + Control-IQ：需搭配 Dexcom G6/G7（t:slim X2 部分地区也兼容 FreeStyle Libre 3 Plus）；Mobi 目前主要支持 Dexcom。
+∙
+若患者已习惯并信任 Dexcom 的准确性、App 生态或希望用 G7 的更小传感器→强烈倾向 Tandem。
+📌 问自己：你/孩子是否已在使用并喜欢某款 CGM？换泵是否需要换 CGM 品牌？
+二、自动闭环算法差异（SmartGuard vs Control-IQ）
+项目
+	
+美敦力 MiniMed 780G (SmartGuard™)
+	
+Tandem Control-IQ（X2/Mobi）
+
+
+目标血糖
+	
+可调低至 100 mg/dL（5.5 mmol/L）
+	
+固定范围≈110–120 mg/dL 附近，Sleep/Exercise 模式可临时放宽
+
+
+自动校正大剂量
+	
+✅ 每 5 分钟可给自动校正量
+	
+✅ 最多每小时 1 次自动校正 bolus
+
+
+预测时间窗
+	
+基于当前+历史趋势
+	
+预测约 30 分钟后血糖
+
+
+漏餐处理
+	
+能检测快速升糖自动补校正量
+	
+靠增加基础率+自动校正，不主动检测"进餐事件"
+
+
+停胰岛素防低
+	
+✅ 预测性暂停基础率
+	
+✅ 预测性暂停基础率（Basal-IQ 基础上增强）
+两者均为经 FDA/CE 批准的混合闭环（仍需手动输入餐前大剂量），TIR（达标时间）改善相当，临床研究各有微小优劣。
+三、泵体形态与生活方式匹配
+∙
+美敦力 780G：较大（约信用卡大小偏厚），用 AA 电池（续航数周不需充），带物理按键+小屏，有管路。
+∙
+优点：不担心忘记充电；大屏按键对视力差/老人友好。
+∙
+Tandem t:slim X2：彩色触屏、有管路，300U 储药仓，USB-C 充电（约 3～5 天一充）。
+∙
+Tandem Mobi：目前最小耐用泵（硬币大小量级），200U，需配合手机 App 操作（部分功能可在泵上），同样有管路，无线充电。
+∙
+适合在意隐蔽性、运动/上学不想带大设备的人，但需每天记得充电、需有兼容智能手机。
+⚠️ 若患者无法保证每天给泵充电 → 美敦力 AA 电池方案更适合。
+四、耗材与操作细节
+∙
+输液器：美敦力用专有 Luer Lock 接口耗材（Quick-set 等）；Tandem 用标准 luer-lock，可选 AutoSoft/TruSteel 等多种品牌。
+∙
+储药量：两者均 300U（Mobi 200U），若每日胰岛素 >100U 需每 2～2.5 天换一次。
+∙
+微调精度：美敦力最小基础率增量 0.025 U/h（适合幼儿/极低基础率需求）；Tandem 最小 0.1 U/h 基础、0.05 U 大剂量。
+∙
+极幼小儿童（<5 岁）或极低基础率需求者有时倾向美敦力微小剂量优势。
+∙
+防水：美敦力基本防溅（IP22）；Tandem X2 IP27（短时浸水）、Mobi IP28（2 米/2 小时）。
+五、照护者/远程监护功能
+∙
+美敦力：CareLink Connect → 最多 5 位照护者可远程查看血糖和泵数据、接收高低血糖报警。
+∙
+Tandem：t:connect App + t:connect Web，支持数据上传分享；部分第三方 App（如 Dexcom Follow）也可单独跟进 CGM 数据。
+∙
+两者均能满足家长/配偶远程监护需求，美敦力 CareLink 对多监护人管理稍直观。
+六、医保/地区可及性（中国患者特别注意）
+∙
+中国大陆：美敦力 MiniMed 系（670G/780G 部分型号耗材）有正式注册，可经医院/DME 渠道获取；Tandem 泵在中国大陆暂无官方上市，通常需境外购买+自行解决耗材，售后维保困难。
+∙
+港澳/欧美：两者均广泛覆盖，需确认个人保险 DME 福利是否限定品牌。
+∙
+耗材持续供应和可报销性是长期使用的决定性因素。
+七、选择倾向建议速查
+如果你/家人……
+	
+更推荐
+
+
+已在用 Dexcom G6/G7 且满意，想继续用
+	
+Tandem t:slim X2 或 Mobi + Control-IQ​
+
+
+不想每天给泵充电，偏好换 AA 电池、物理按键
+	
+美敦力 MiniMed 780G​
+
+
+非常在意泵体小巧隐蔽或想要手机控制（且有兼容手机）
+	
+Tandem Mobi（若上市可及）/X2
+
+
+是极低体重幼儿需 0.025 U/h 基础率微调
+	
+美敦力 MiniMed 780G​ 略占优
+
+
+在中国大陆，希望正规售后+医保报销
+	
+美敦力 MiniMed（Tandem 目前难获正规渠道）
+
+
+希望"最自动化"、少算碳水→两者均需手动餐前大剂量；若真想免碳水估算可考虑 iLet（不在本题范围）
+	
+均属混合闭环，差别不大
+⚠️ 重要提示：最终选择须由内分泌科/糖尿病专科医生结合患者年龄、总日胰岛素量、现有 CGM、医保情况综合评估。本内容仅供决策参考，不替代专业医疗建议。
+如需我进一步帮你做某一年龄段（如儿童/孕妇/高龄）或某一地区（大陆/香港/美国）的细化对比，也可以继续问！
+源
+请提供美敦力780G与Tandem X2的详细对比表
+美敦力MiniMed 780G和Tandem t:slim X2哪个更适合青少年使用？
+对于需要频繁调整胰岛素剂量的患者，哪款泵的微调精度更合适？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（14）
+medtronicdiabetes.com
+Not all insulin pumps are created equal
+
+Omnipod® 5 with Dexcom G7® Tandem Control IQ with...
+
+diabetesnet.com
+Best Insulin Pumps of 2026: A Complete Comparison Guide
+
+Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith...
+
+diabeteswise.org
+Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise
+
+Summary The Tandem t:slim X2 is rechargeable,has a。
+
+cgmmonitors.com
+Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others
+
+insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation...
+
+wellally.tech
+自动胰岛素输送系统2025:人工胰腺完整指南
+
+低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian...
+
+diabeticsupplieshub.com
+Choosing The Right Insulin Pump - DiabeticSuppliesHub
+
+while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli...
+
+diabetesnet.com
+Compare the Best Insulin Pumps Features, Size, CGM Integration
+
+Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom...
+
+公众号
+·Endo泌语
+闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍
+
+美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰...
+
+公众号
+·国际糖尿病idiabetes
+刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读
+
+X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输...
+
+diabeteswise.org
+Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom
+
+customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2...
+
+tandemdiabetes.com
+Insulinpumper og diabetesbehandling Tandem Diabetes Care
+
+udstyr. Automatiske insulinjusteringer Control-IQ-。
+
+大众健康报科普网
+胰岛素闭环输注系统介绍
+
+临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco...
+
+medicallymodern.com
+Insulin Pump Choosing the 5 Best for Diabetes Management
+
+Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion...
+
+healtheh.com
+Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review
+
+full Control-IQ review. What does Tandem Basal-IQ...
+
+引用14篇资料作为参考

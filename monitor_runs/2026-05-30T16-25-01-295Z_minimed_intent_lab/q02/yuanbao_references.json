@@ -1,0 +1,508 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "美敦力与Tandem胰岛素泵选择建议",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhtVZV55U",
+  "createdAt": "2026-05-30T16:27:00.196Z",
+  "sections": [
+    {
+      "startLine": 137,
+      "text": "均属混合闭环，差别不大\n⚠️ 重要提示：最终选择须由内分泌科/糖尿病专科医生结合患者年龄、总日胰岛素量、现有 CGM、医保情况综合评估。本内容仅供决策参考，不替代专业医疗建议。\n如需我进一步帮你做某一年龄段（如儿童/孕妇/高龄）或某一地区（大陆/香港/美国）的细化对比，也可以继续问！\n源\n请提供美敦力780G与Tandem X2的详细对比表\n美敦力MiniMed 780G和Tandem t:slim X2哪个更适合青少年使用？\n对于需要频繁调整胰岛素剂量的患者，哪款泵的微调精度更合适？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（14）\nmedtronicdiabetes.com\nNot all insulin pumps are created equal\nOmnipod® 5 with Dexcom G7® Tandem Control IQ with...\ndiabetesnet.com\nBest Insulin Pumps of 2026: A Complete Comparison Guide\nTandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith...\ndiabeteswise.org\nDevice Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise\nSummary The Tandem t:slim X2 is rechargeable,has a。\ncgmmonitors.com\nBest Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others\ninsulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation...\nwellally.tech\n自动胰岛素输送系统2025:人工胰腺完整指南"
+    },
+    {
+      "startLine": 146,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（14）\nmedtronicdiabetes.com\nNot all insulin pumps are created equal\nOmnipod® 5 with Dexcom G7® Tandem Control IQ with...\ndiabetesnet.com\nBest Insulin Pumps of 2026: A Complete Comparison Guide\nTandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith...\ndiabeteswise.org\nDevice Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise\nSummary The Tandem t:slim X2 is rechargeable,has a。\ncgmmonitors.com\nBest Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others\ninsulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation...\nwellally.tech\n自动胰岛素输送系统2025:人工胰腺完整指南\n低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian...\ndiabeticsupplieshub.com\nChoosing The Right Insulin Pump - DiabeticSuppliesHub\nwhile pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli...\ndiabetesnet.com\nCompare the Best Insulin Pumps Features, Size, CGM Integration\nCapabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom...\n公众号\n·Endo泌语"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "3,10",
+      "indexes": [
+        "3",
+        "10"
+      ],
+      "text": "美敦力 MiniMed 780G：强制绑定 Guardian 4（或 Simplera Sync）CGM，不能用 Dexcom 或 FreeStyle Libre。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,10,13",
+      "indexes": [
+        "2",
+        "10",
+        "13"
+      ],
+      "text": "Tandem + Control-IQ：需搭配 Dexcom G6/G7（t:slim X2 部分地区也兼容 FreeStyle Libre 3 Plus）；Mobi 目前主要支持 Dexcom。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,5,10",
+      "indexes": [
+        "3",
+        "5",
+        "10"
+      ],
+      "text": "两者均为经 FDA/CE 批准的混合闭环（仍需手动输入餐前大剂量），TIR（达标时间）改善相当，临床研究各有微小优劣。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,7",
+      "indexes": [
+        "2",
+        "7"
+      ],
+      "text": "美敦力 780G：较大（约信用卡大小偏厚），用 AA 电池（续航数周不需充），带物理按键+小屏，有管路。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,11",
+      "indexes": [
+        "2",
+        "11"
+      ],
+      "text": "Tandem t:slim X2：彩色触屏、有管路，300U 储药仓，USB-C 充电（约 3～5 天一充）。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,13",
+      "indexes": [
+        "2",
+        "13"
+      ],
+      "text": "Tandem Mobi：目前最小耐用泵（硬币大小量级），200U，需配合手机 App 操作（部分功能可在泵上），同样有管路，无线充电。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "输液器：美敦力用专有 Luer Lock 接口耗材（Quick-set 等）；Tandem 用标准 luer-lock，可选 AutoSoft/TruSteel 等多种品牌。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6",
+      "indexes": [
+        "6"
+      ],
+      "text": "微调精度：美敦力最小基础率增量 0.025 U/h（适合幼儿/极低基础率需求）；Tandem 最小 0.1 U/h 基础、0.05 U 大剂量。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2",
+      "indexes": [
+        "2"
+      ],
+      "text": "防水：美敦力基本防溅（IP22）；Tandem X2 IP27（短时浸水）、Mobi IP28（2 米/2 小时）。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10",
+      "indexes": [
+        "10"
+      ],
+      "text": "美敦力：CareLink Connect → 最多 5 位照护者可远程查看血糖和泵数据、接收高低血糖报警。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10",
+      "indexes": [
+        "10"
+      ],
+      "text": "Tandem：t:connect App + t:connect Web，支持数据上传分享；部分第三方 App（如 Dexcom Follow）也可单独跟进 CGM 数据。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12",
+      "indexes": [
+        "12"
+      ],
+      "text": "中国大陆：美敦力 MiniMed 系（670G/780G 部分型号耗材）有正式注册，可经医院/DME 渠道获取；Tandem 泵在中国大陆暂无官方上市，通常需境外购买+自行解决耗材，售后维保困难。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "medtronicdiabetes.com",
+      "title": "Not all insulin pumps are created equal",
+      "snippet": "Omnipod® 5 with Dexcom G7® Tandem Control IQ with...",
+      "text": "medtronicdiabetes.com Not all insulin pumps are created equal Omnipod® 5 with Dexcom G7® Tandem Control IQ with..."
+    },
+    {
+      "index": 2,
+      "source": "diabetesnet.com",
+      "title": "Best Insulin Pumps of 2026: A Complete Comparison Guide",
+      "snippet": "Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith...",
+      "text": "diabetesnet.com Best Insulin Pumps of 2026: A Complete Comparison Guide Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith..."
+    },
+    {
+      "index": 3,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise",
+      "snippet": "Summary The Tandem t:slim X2 is rechargeable,has a。",
+      "text": "diabeteswise.org Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise Summary The Tandem t:slim X2 is rechargeable,has a。"
+    },
+    {
+      "index": 4,
+      "source": "cgmmonitors.com",
+      "title": "Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others",
+      "snippet": "insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation...",
+      "text": "cgmmonitors.com Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation..."
+    },
+    {
+      "index": 5,
+      "source": "wellally.tech",
+      "title": "自动胰岛素输送系统2025:人工胰腺完整指南",
+      "snippet": "低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian...",
+      "text": "wellally.tech 自动胰岛素输送系统2025:人工胰腺完整指南 低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian..."
+    },
+    {
+      "index": 6,
+      "source": "diabeticsupplieshub.com",
+      "title": "Choosing The Right Insulin Pump - DiabeticSuppliesHub",
+      "snippet": "while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli...",
+      "text": "diabeticsupplieshub.com Choosing The Right Insulin Pump - DiabeticSuppliesHub while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli..."
+    },
+    {
+      "index": 7,
+      "source": "diabetesnet.com",
+      "title": "Compare the Best Insulin Pumps Features, Size, CGM Integration",
+      "snippet": "Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom...",
+      "text": "diabetesnet.com Compare the Best Insulin Pumps Features, Size, CGM Integration Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom..."
+    },
+    {
+      "index": 8,
+      "source": "·Endo泌语",
+      "title": "闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍",
+      "snippet": "公众号 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰...",
+      "text": "公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰..."
+    },
+    {
+      "index": 9,
+      "source": "·国际糖尿病idiabetes",
+      "title": "刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读",
+      "snippet": "公众号 X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输...",
+      "text": "公众号 ·国际糖尿病idiabetes 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输..."
+    },
+    {
+      "index": 10,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom",
+      "snippet": "customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2...",
+      "text": "diabeteswise.org Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2..."
+    },
+    {
+      "index": 11,
+      "source": "tandemdiabetes.com",
+      "title": "Insulinpumper og diabetesbehandling Tandem Diabetes Care",
+      "snippet": "udstyr. Automatiske insulinjusteringer Control-IQ-。",
+      "text": "tandemdiabetes.com Insulinpumper og diabetesbehandling Tandem Diabetes Care udstyr. Automatiske insulinjusteringer Control-IQ-。"
+    },
+    {
+      "index": 12,
+      "source": "大众健康报科普网",
+      "title": "胰岛素闭环输注系统介绍",
+      "snippet": "临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco...",
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco..."
+    },
+    {
+      "index": 13,
+      "source": "medicallymodern.com",
+      "title": "Insulin Pump Choosing the 5 Best for Diabetes Management",
+      "snippet": "Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion...",
+      "text": "medicallymodern.com Insulin Pump Choosing the 5 Best for Diabetes Management Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion..."
+    },
+    {
+      "index": 14,
+      "source": "healtheh.com",
+      "title": "Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review",
+      "snippet": "full Control-IQ review. What does Tandem Basal-IQ...",
+      "text": "healtheh.com Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review full Control-IQ review. What does Tandem Basal-IQ..."
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,10,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,5,10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14） medtronicdiabetes.com Not all insulin pumps are created equal Omnipod® 5 with Dexcom G7® Tandem Control IQ with... diabetesnet.com Best Insulin Pumps of 2026: A Complete Comparison Guide Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith... diabeteswise.org Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise Summary The Tandem t:slim X2 is rechargeable,has a。 cgmmonitors.com Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation... wellally.tech 自动胰岛素输送系统2025:人工胰腺完整指南 低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian... diabeticsupplieshub.com Choosing The Right Insulin Pump - DiabeticSuppliesHub while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli... diabetesnet.com Compare the Best Insulin Pumps Features, Size, CGM Integration Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom... 公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰... 公众号 ·国际糖尿病idiabetes 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输... diabeteswise.org Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2... tandemdiabetes.com Insulinpumper og diabetesbehandling Tandem Diabetes Care udstyr. Automatiske insulinjusteringer Control-IQ-。 大众健康报科普网 胰岛素闭环输注系统介绍 临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco... medicallymodern.com Insulin Pump Choosing the 5 Best for Diabetes Management Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion... healtheh.com Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review full Control-IQ review. What does Tandem Basal-IQ...",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Not all insulin pumps are created equal Omnipod® 5 with Dexcom G7® Tandem Control IQ with... diabetesnet.com Best Insulin Pumps of 2026: A Complete Comparison Guide Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith... diabeteswise.org Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise Summary The Tandem t:slim X2 is rechargeable,has a。 cgmmonitors.com Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation... wellally.tech 自动胰岛素输送系统2025:人工胰腺完整指南 低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian... diabeticsupplieshub.com Choosing The Right Insulin Pump - DiabeticSuppliesHub while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli... diabetesnet.com Compare the Best Insulin Pumps Features, Size, CGM Integration Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom... 公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰... 公众号 ·国际糖尿病idiabetes 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输... diabeteswise.org Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2... tandemdiabetes.com Insulinpumper og diabetesbehandling Tandem Diabetes Care udstyr. Automatiske insulinjusteringer Control-IQ-。 大众健康报科普网 胰岛素闭环输注系统介绍 临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco... medicallymodern.com Insulin Pump Choosing the 5 Best for Diabetes Management Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion... healtheh.com Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review full Control-IQ review. What does Tandem Basal-IQ...",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Not all insulin pumps are created equal Omnipod® 5 with Dexcom G7® Tandem Control IQ with...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetesnet.com Best Insulin Pumps of 2026: A Complete Comparison Guide Tandem t:slim X2: Touchscreen AID with Expanded CGM Options The t:slim X2 features a bright touchscreen display and uses the same Control-IQ+ algorith...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetesnet.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Tandem t:slim X2 vs Minimed 780G with Smart Guard » DiabetesWise Summary The Tandem t:slim X2 is rechargeable,has a。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cgmmonitors.com Best Insulin Pumps 2025: OmniPod, Tandem, Beta Bionics and Others insulin delivery tend to prefer T: Slim X2 Control-IQ. Tandem Mobi Insulin Pump Best for: Users wanting the smallest tubed pump with strong automation...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cgmmonitors.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "wellally.tech 自动胰岛素输送系统2025:人工胰腺完整指南 低血糖减少31% 美敦力770G 特点 详情 泵 MiniMed 770G CGM Guardian...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "wellally.tech",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeticsupplieshub.com Choosing The Right Insulin Pump - DiabeticSuppliesHub while pumps like Tandems t:slim X2 deliver in .1 unit increments,making these options ideal if you require precise basal control . Your daily insuli...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeticsupplieshub.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetesnet.com Compare the Best Insulin Pumps Features, Size, CGM Integration Capabilities Tandem t:slim X2 : Offers advanced Control-IQ technology for automated insulin delivery based on CGM input. Works seamlessly with Dexcom...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetesnet.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HCL,国内上市)自动调节基础胰...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·Endo泌语",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·国际糖尿病idiabetes 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 X2 with Control-IQ(Tandem):一体化触屏设备,与CGM集成,提供自动胰岛素输...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·国际糖尿病idiabetes",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Minimed 780G with Smart Guard vs Control IQ with Dexcom customizable settings. Many providers are familiar with Medtronic products. The system automatically adjusts insulin levels from the Tandem t:slim X2...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tandemdiabetes.com Insulinpumper og diabetesbehandling Tandem Diabetes Care udstyr. Automatiske insulinjusteringer Control-IQ-。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tandemdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 临床研究显示其TIR可达75%以上｡Tandem t:slim X2 with Control-IQ:与Dexco...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medicallymodern.com Insulin Pump Choosing the 5 Best for Diabetes Management Comparison Table Feature Tandem Mobi / t:slim X2 Beta Bionics iLet Medtronic 780G Omnipod 5 Type Tubed Tubed Tubed Tubeless Automation Control-IQ Bion...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medicallymodern.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "healtheh.com Tandem t:slim X2 Insulin Pump with Basal-IQ: Hands-On Review full Control-IQ review. What does Tandem Basal-IQ...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "healtheh.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

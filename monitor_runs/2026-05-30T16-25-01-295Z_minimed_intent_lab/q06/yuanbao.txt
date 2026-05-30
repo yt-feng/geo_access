@@ -1,0 +1,267 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+美敦力与Dexcom闭环系统决策建议
+美敦力与Dexcom闭环系统对比建议
+美敦力与Omnipod 5决策建议
+MiniMed与Omnipod5闭环系统对比
+美敦力与Tandem胰岛素泵选择建议
+美敦力与Tandem闭环胰岛素泵对比
+医疗器械召回与产品安全性评估
+医疗器械企业合作选择对比分析
+美敦力CareLink等工具安全性评估
+美敦力糖尿病管理系统安全性与替代方案
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+制作Web3风格头像
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。
+帮您整理了临床上和糖友社群在做「美敦力 MiniMed（如670G/780G）商业闭环」vs「Dexcom G7 + 泵 + 开源/兼容闭环（AAPS/Loop/OpenAPS 或 Omnipod 5/Tandem Control-IQ）」决策时，应重点讨论的 6 个核心维度，以及对应的选择建议：
+一、先澄清一个关键兼容性问题 ⚠️
+美敦力 MiniMed 780G/670G 不能与 Dexcom G7 配对，它只兼容自家 Guardian 4/Simplera 传感器。
+所以这道题本质是二选一：
+∙
+方案A｜美敦力 MiniMed 670G/780G（商业闭环）​ → 用 Guardian 传感器 + SmartGuard 混合闭环
+∙
+方案B｜Dexcom G7 + 兼容泵（Omnipod 5 / Tandem t:slim / 老款美敦力泵）+ 商业或开源闭环（AAPS/Loop/OpenAPS）
+二、六大决策关键点
+1. 🩸 CGM 准确性 & 佩戴体验
+	
+美敦力 MiniMed + Guardian 4
+	
+Dexcom G7
+
+
+MARD（准确性）
+	
+~9%
+	
+~8%，临床公认更准确
+
+
+校准
+	
+免指尖血（SmartGuard 模式）
+	
+出厂免校准
+
+
+佩戴
+	
+腹部为主，7天
+	
+上臂（也可臀部儿童），10天，更小更薄
+
+
+警报
+	
+较多，偶有频繁
+	
+可高度自定义，Follow App 对家属极友好
+→ 在意 CGM 舒适度、家属远程监护 → 倾向 Dexcom G7 生态
+2. 🤖 闭环算法能力 & 灵活性
+∙
+美敦力 780G：高级混合闭环（AHCL），每5分钟调基础 + 自动校正大剂量，目标可设低至100mg/dL（5.6mmol/L），夜间表现稳定
+。缺点：算法黑盒，不能设临时目标（运动模式有限），不能 SMB（超微大剂量）。
+∙
+开源闭环（AAPS/Loop/OpenAPS）：支持 SMB、临时目标（运动/进食前主动拉高血糖目标）、多配置文件，理论上 TIR 可更高，但需自己调参维护
+。
+∙
+商业兼容闭环（Tandem Control-IQ / Omnipod 5 + Dexcom G6/G7）：介于两者之间，比美敦力灵活（有运动/睡眠模式），但不如开源可深度定制
+。
+→ 技术能力强、想要极致个性化控制 → Dexcom + 开源闭环；想要"开机少操心"→ 美敦力780G 或 Tandem/Omnipod 5
+3. 📱 技术门槛 & 日常负担
+∙
+美敦力 MiniMed：FDA/NMPA 认证商业产品，厂家培训即可，售后支持完善，适合不愿折腾的用户/儿童家长
+。
+∙
+Dexcom + 开源闭环（AAPS/Loop）：需自己搭建（刷 APK/iPhone sideload、配置 RileyLink/Bluetooth 桥接、理解 IOB/ISF/CR 参数），遇故障需自行排查，不适合怕复杂技术操作的人
+。
+∙
+Dexcom + 商业泵（Omnipod 5/Tandem）：无技术门槛，兼顾 G7 优点。
+→ 老人、儿童主要监护人非 tech-savvy → 商业系统（MiniMed 或 Omnipod 5/Tandem + Dexcom）
+4. 🎒 生活方式偏好（管 vs 无管）
+∙
+美敦力 MiniMed：有管（tubed），300U 储药量大，可用延长管路，适合胰岛素日用量大（>80-100U/天）者
+。
+∙
+Dexcom G7 + Omnipod 5（无管贴片）：无管路，每3天换 Pod，隐蔽，适合运动/儿童/不想被管路束缚者，但单 Pod 储药量较小（≈200U）。
+∙
+Dexcom G7 + Tandem t:slim X2：触屏 tubed 泵，体积小，Control-IQ 算法成熟。
+→ 介意管子 → Dexcom + Omnipod 5；大用量/喜欢传统泵 → MiniMed 或 Tandem
+5. 💰 费用 & 国内可及性（中国大陆语境）
+∙
+美敦力 MiniMed 670G：国内有 NMPA 获批，DME 渠道走医保/商保相对成熟；780G 国内未正式上市，多靠境外带入或特殊渠道。
+∙
+Dexcom G7：国内已逐步上市，但商业闭环泵（Omnipod 5/Tandem）国内暂未正式获批，若走开源闭环需用老款美敦力泵/AAPS 兼容泵 + 自购设备，泵耗材可能有供应链风险。
+∙
+开源闭环本身软件免费，但需自购兼容旧泵、RileyLink（若有）等硬件。
+→ 优先考虑国内保修/耗材稳定 → 美敦力 MiniMed（670G 或等 780G 渠道）；愿海淘/有社群支持 → Dexcom G7 + 开源闭环或等 Omnipod 5/Tandem 国内上市
+6. 👨‍⚕️ 医患沟通 & 法律责任
+∙
+商业闭环（MiniMed/Tandem/Omnipod）→ 医生可合法处方、解读 CareLink/Clarity 数据，有厂家临床支持
+。
+∙
+开源闭环 → 多数地区无药监局审批，属 off-label 使用，部分医生不了解或不便在门诊指导参数，需依赖社群文档，须患者自愿承担风险
+。
+→ 希望内分泌科医生全程参与调参 → 商业闭环优先
+三、一句话选择建议
+您的情况
+	
+推荐倾向
+
+
+1型糖尿病儿童/老人，家属希望省心、有售后保障
+	
+✅ 美敦力 MiniMed 780G（如可及）或 Tandem+Omnipod 5 + Dexcom（如国内上市）
+
+
+青壮年1型，懂基础参数，追求最高 TIR 和灵活临时目标
+	
+✅ Dexcom G7 + AAPS(Loop) + 兼容泵（老美敦力/Dana RS等）
+
+
+介意腹部 Guardian 传感器、想要上臂 CGM + 家属 Follow 功能
+	
+✅ Dexcom G7 生态（商业或开源闭环）
+
+
+日胰岛素用量 >100U，需要大储药量
+	
+✅ 美敦力 MiniMed 或 Tandem（tubed），慎选 Omnipod
+
+
+国内正规渠道、医保报销、中文售后最重要
+	
+✅ 美敦力 MiniMed 670G（国内已上市）
+⚠️ 重要提示：以上为基于设备特性的决策参考，不是医疗处方。最终选择请结合您的具体病情（1型/2型、用量、肝肾功能）、当地耗材可及性及内分泌专科医生建议确定。开源闭环属未注册医疗设备，使用前请充分了解风险。
+如需我进一步对比具体型号（如 670G vs 780G，或 AAPS vs Loop 设置难度），可以继续问！
+源
+请提供美敦力670G与780G详细对比
+美敦力MiniMed 670G和780G哪个更适合夜间血糖控制？
+对于1型糖尿病患者，如何评估开源闭环系统的安全性和可靠性？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（13）
+medtronicdiabetes.com
+MiniMed Diabetes Management Solutions
+
+with diabetes. Learn moreGet started Meet MiniMed。
+
+diabeteswise.org
+Dexcom G7 vs Medtronic 780G » DiabetesWise
+
+insulin and locked into the pump. Medtronic 780G。
+
+dexcom.com
+Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom
+
+Explore our portfolio Dexcom G7 and Dexcom G7 15 D。
+
+大众健康报科普网
+胰岛素闭环输注系统介绍
+
+胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(...
+
+diabeteswise.org
+Device Finder - DIY Loop vs Medtronic 780G with Smart Guard
+
+Link websites. The Medtronic MiniMed™ 780G system...
+
+theglucoseneverlies.com
+Dexcom G7
+
+✓ G7 paired integration confirmed MiniMed 780G Med...
+
+origin.medtronicdiabetes.com
+Not all insulin pumps are created equal
+
+MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...
+
+易泵网
+闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么?
+
+其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H...
+
+diabeteswise.org
+DIY Loop vs Medtronic 780G » DiabetesWise
+
+the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin...
+
+公众号
+·Endo泌语
+闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍
+
+闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC...
+
+公众号
+·中华糖尿病杂志
+【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较
+
+国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi...
+
+DOI基金会
+Closed‐loop technology: a practical guide
+
+with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system...
+
+公众号
+·糖仁健康科技
+【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比
+
+可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡
+
+引用13篇资料作为参考

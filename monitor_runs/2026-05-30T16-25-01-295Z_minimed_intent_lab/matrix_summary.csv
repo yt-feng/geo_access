@@ -1,0 +1,9 @@
+question_id,platform,status,ok,text_length,reference_items,citation_markers,source_nodes,url,prompt,error
+"q01","yuanbao","ok","true","6242","14","14","48","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ","美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",""
+"q02","yuanbao","ok","true","5797","14","12","46","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhtVZV55U","如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",""
+"q03","yuanbao","ok","true","6968","16","24","62","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u","美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",""
+"q04","yuanbao","ok","true","4954","12","8","38","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua","如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",""
+"q05","yuanbao","ok","true","7041","20","27","73","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO","美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",""
+"q06","yuanbao","ok","true","5324","13","10","42","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS","如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",""
+"q07","yuanbao","ok","true","6873","13","18","50","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC","美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",""
+"q08","yuanbao","ok","true","4955","15","11","47","https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa","如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",""

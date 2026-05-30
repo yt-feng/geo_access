@@ -138,6 +138,36 @@ monitor_runs/<timestamp>_prompt_matrix/q01/deepseek_geo_analysis.json
 monitor_runs/<timestamp>_prompt_matrix/q01/yuanbao_geo_analysis.json
 ```
 
+## MiniMed 意图覆盖实验
+
+本实验先选 WildChat 作为用户意图数据源适配方向。当前小样本版使用 WildChat-style fallback seed，生成 MiniMed 主要竞品的测试问题；网络可访问 Hugging Face 后，可以把 seed 替换成真实 WildChat 用户问题抽样。
+
+生成 MiniMed 竞品/意图问题：
+
+```bash
+npm run intent:minimed:prepare
+```
+
+只跑腾讯元宝：
+
+```bash
+npm run monitor:minimed:yuanbao
+```
+
+计算 performance 和关键 intention 覆盖，并生成 dashboard：
+
+```bash
+npm run intent:minimed:score
+```
+
+输出会保存到：
+
+```text
+monitor_runs/<timestamp>_minimed_intent_lab/intent_dashboard.html
+monitor_runs/<timestamp>_minimed_intent_lab/intent_coverage_summary.json
+monitor_runs/<timestamp>_minimed_intent_lab/intent_coverage_summary.csv
+```
+
 ## 循环监测
 
 默认 360 分钟跑一次：

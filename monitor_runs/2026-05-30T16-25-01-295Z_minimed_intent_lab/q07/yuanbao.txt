@@ -1,0 +1,323 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+美敦力与雅培设备对比分析
+美敦力与Dexcom闭环系统决策建议
+美敦力与Dexcom闭环系统对比建议
+美敦力与Omnipod 5决策建议
+MiniMed与Omnipod5闭环系统对比
+美敦力与Tandem胰岛素泵选择建议
+美敦力与Tandem闭环胰岛素泵对比
+医疗器械召回与产品安全性评估
+医疗器械企业合作选择对比分析
+美敦力CareLink等工具安全性评估
+美敦力糖尿病管理系统安全性与替代方案
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。
+严格来说，Medtronic MiniMed 780G/770G 是胰岛素泵+闭环系统（AID），而 Abbott FreeStyle Libre 3/3 Plus 只是连续血糖监测仪（CGM），两者不是同类产品——Libre 不能自动打胰岛素。但如果对比的是"带闭环泵的方案 vs 只用 CGM+手动注射/泵"，以下是各维度详细对比：
+🎯 控糖效果（TIR & HbA1c）
+项目
+	
+MiniMed 780G/770G（AID 闭环）
+	
+Libre 3 / 3 Plus（仅 CGM + MDI/手动泵）
+
+
+TIR（70–180mg/dL）​
+	
+ADAPT 试验：6个月 TIR 从 ~43%→70.6%，绝对提升 27.6%；真实世界可达 69–78%
+	
+仅靠 CGM 提醒+手动注射，TIR 通常维持基线 ~40–50%，无自动改善
+
+
+HbA1c 降幅​
+	
+ADAPT：A1c ↓1.4%（9.0%→7.3–7.5%）
+	
+单独使用基本不降 A1c，除非配合极严格的 MDI 管理
+
+
+夜间控制​
+	
+显著优于手动，夜间 TIR 提升约 30%
+	
+夜间依赖人工干预，易偏高或偏低
+结论：需要最大化 TIR、降 A1c → 780G 闭环系统远优于单独用 Libre 3。
+⚠️ 低血糖风险（TBR）
+∙
+MiniMed 780G：SmartGuard 每 5 分钟 suspend/reduce 基础率，自动校正。ADAPT 试验 TBR＜70mg/dL 与 MDI+CGM 组相当（~2.6%），未增加低血糖，真实世界 TBR＜3–4%
+。770G 仅有自动暂停无自动校正，防低略弱于 780G。
+∙
+Libre 3/3 Plus：提供低血糖警报（可选，可设 55/70mg/dL），但不会自动停/减胰岛素——实际低血糖风险取决于你是否及时处理报警。
+结论：闭环泵在减少夜间和未察觉低血糖上更有保护；Libre 3 的警报能辅助发现低血糖，但不主动干预。
+🔄 闭环算法差异
+∙
+MiniMed 780G — 高级混合闭环（AHCL）：
+∙
+SmartGuard™ 算法，每 5 分钟读取 Guardian 4/Simplera Sync/Instinct CGM 值
+∙
+自动调整基础率 + 自动校正 bolus（780G 新增，770G 无）
+∙
+目标血糖可设 100/110/120 mg/dL（≈5.6/6.1/6.7 mmol/L）
+∙
+需输入餐前碳水（未宣布餐也可部分补偿）
+∙
+Libre 3/3 Plus：无算法、无胰岛素输送。仅实时显示数值+趋势箭头+高低警铃。Libre 3 Plus 可接入第三方 AID（如 CamAPS FX/Ypsopump、Omnipod 5 配 Libre 2 Plus），但不能直接连 780G
+。
+💡 780G 最新版本可搭配 Abbott 为其定制的 Instinct 传感器（15天佩戴），技术上源自 Libre 平台但非市售 Libre 3/3 Plus
+。
+📏 CGM 准确性（MARD）
+传感器
+	
+MARD
+	
+校准
+	
+佩戴时长
+
+
+Guardian™ 4（780G 标配）​
+	
+~9%
+	
+出厂校准免指血
+	
+7 天
+
+
+Abbott FreeStyle Libre 3 / 3 Plus​
+	
+7.9%（行业最优之一）
+	
+出厂校准免指血
+	
+14 天 / 15 天
+
+
+Abbott Instinct（780G 可选）​
+	
+≈ Libre 级别（~7.9%）
+	
+免校准
+	
+15 天
+结论：单纯血糖读数准确性 Libre 3/3 Plus ≈ Instinct > Guardian 4，但闭环系统靠趋势+算法补偿，临床上 Guardian 4 配合 780G 已足够
+。
+👕 佩戴体验
+∙
+MiniMed 780G/770G：
+∙
+带管泵（~95g）+ 腹部/臀部输注管路（每 2–3 天换）
+∙
+CGM 可戴腹/臂，Guardian 4 每 7 天换；Instinct 每 15 天
+∙
+需随身带泵、每 2–3 天装药换管 → 学习曲线较高
+∙
+Libre 3 / 3 Plus：
+∙
+硬币大小一体式传感器，上臂一键佩戴，无发射器分离
+∙
+14/15 天一换，手机即接收端，几乎无存在感
+∙
+对针头恐惧、怕管路、运动/游泳友好
+🚨 安全风险与局限
+风险点
+	
+MiniMed 780G/770G
+	
+Libre 3/3 Plus
+
+
+DKA 风险​
+	
+输注管堵塞/脱管可致 DKA（需警惕"无胰岛素输送"报警）
+	
+无
+
+
+皮肤刺激​
+	
+泵+CGM 双敷贴
+	
+仅 CGM 敷贴
+
+
+故障影响​
+	
+CGM 信号丢失→自动模式退出回手动模式
+	
+仅失联无胰岛素风险
+
+
+酮症警示​
+	
+需主动查血酮（高温/病期）
+	
+同左
+👥 适用人群建议
+你的情况
+	
+推荐
+
+
+1 型糖尿病（尤其 TIR<70%、A1c>7.5%、有低血糖无感知、希望减负）​
+	
+✅ MiniMed 780G（或同级 AID 闭环）​ — 临床证据最强改善 TIR 和夜间安全
+
+
+2 型糖尿病用 MDI、不需频繁调量、预算有限、怕带泵/扎管​
+	
+✅ Libre 3 Plus（首选 CGM）​ — 最准最小，助饮食/用药调整
+
+
+已用其他 AID（Omnipod 5/CamAPS+YpsoPump）想配最好 CGM​
+	
+✅ Libre 3 Plus（或 Libre 2 Plus for Omnipod 5）​
+
+
+不想带泵但未来可能转 AID​
+	
+Libre 3 Plus（部分 AID 兼容），780G 不接消费版 Libre
+📚 主要依据来源
+1.
+ADAPT RCT​ – Choudhary et al. Lancet Diabetes Endocrinol2022; 780G vs MDI+isCGM: TIR ↑27.6%, A1c ↓1.4%
+2.
+Real-world 780G data​ – TIR 69–78%, 3yr sustainability (EMEA cohort)
+3.
+FreeStyle Libre 3/3 Plus MARD 7.9%​ – Abbott pivotal & GlucoseIntel review
+4.
+Meta-analysis of HCL systems​ – MiniMed 780G TIR >70% even with baseline A1c >8% in adults (Diabet Med2025/PMC)
+5.
+DiabetesWise device comparison​ – 780G vs Libre 3 feature matrix
+6.
+AID–CGM compatibility clarification​ – Libre 3/3 Plus not natively paired with MiniMed 780G; Instinct sensor is Abbott-made but proprietary
+如有具体需求（如年龄、是否 1 型、是否已用 CGM、在意管路与否），可以再帮你细化选型。
+源
+请将以上对比整理成表格
+780G和Libre 3 Plus哪个更适合青少年糖尿病患者？
+对于2型糖尿病患者，如果考虑未来转AID，Libre 3 Plus有哪些优势？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（13）
+公众号
+·金冈看个护
+浅谈美敦力MiniMed™780G混合闭环胰岛素系统
+
+降低餐后高血糖风险｡3.关键技术参数:特性维度具体参数/描述自动调整频率每5分钟1次(每日累计288...
+
+diabeteswise.org
+Device Finder - Minimed 780G with Smart Guard vs Freestyle Libre 3 » DiabetesWise
+
+devices through the MiniMed Mobile App. You can download and view pump or CGM data on CareLink. Yes Freestyle Libre 3 app or Libre by Abbott provides...
+
+medpagetoday.com
+New MiniMed Hybrid Closed Loop System Boosts Glucose Control in T1D MedPage Today
+
+Loop System Boosts Glucose Control in T1D | MedPage Today｡The Medtronic MiniMed 780G system,an advanced hybrid closed therapy (AHCL),improved glycemic...
+
+endotext.org
+[PDF] CONTINUOUS GLUCOSE MONITORING, MOBILE TECHNOLOGY ...
+
+Simplera Sync,InstinctDexcom G6,G7,FreeStyle Libre 3 PlusDexcom G6,G7,FreeStyle Libre 2 PlusDexcom G6FreeStyle Libre 3 Plus,Eversense 365Reservoir cap...
+
+glucoseintel.com
+FreeStyle Libre 3 Plus Review: Accuracy, Cost, and Wear Time GlucoseIntel
+
+the most accurate consumer CGM in 2026 is the FreeStyle Libre 3 Plus at 7.9% MARD,while the industry range spans from 7.9% to approximately 9.2% among...
+
+pharmacyindia.co.in
+At one year in the ADAPT research, the MiniMed 780G system outperforms numerous daily injections with CGM for the management of type 1 diabetes.
+
+MiniMed 780G advanced hybrid closed loop system (AHCL) versus multiple daily insulin injections (MDI) with an intermittently scanned CGM was compared...
+
+cgmmonitors.com
+FreeStyle Libre 3 Plus vs Libre 3: Which One is Phase Out?
+
+However,existing Libre 3 users will require a new prescription to obtain the Freestyle Libre 3 Plus sensors,and our experts at CGM Monitors are always...
+
+medtronicdiabetes.com
+MiniMed 780G System Medtronic
+
+systems MiniMed ™ 780G system MiniMed ™ 770G syste...
+
+oadoi.org
+Cost-Utility Analysis of the MiniMed 780G Advanced Hybrid Closed-Loop System Versus Intermittently Scanned Continuous Glucose Monitoring with Multiple Daily Insulin Injections in People with Type 1 Diabetes in France
+
+MiniMed™ 780G Advanced Hybrid Closed-Loop System V...
+
+news.medtronic.com
+MiniMed 780G system demonstrates superiority over multiple daily injections with CGM for type 1 diabetes management at one-year in ADAPT study - Feb 24, 2023
+
+MiniMed™ 780G advanced hybrid closed loop system1...
+
+diabeteswise.org
+Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise
+
+wear) available.Freestyle Libre 3 : Sensor Sensor。
+
+theglucoseneverlies.com
+FreeStyle Libre 2 and 3
+
+CGM for that pump. For people on the MiniMed 780G,the Abbott-made Instinct is the in-system sensor;the consumer FreeStyle Libre is not interchangeable...
+
+PMC
+Glycaemic control and variability with different commercially available hybrid closed loop systems in people with type 1 diabetes: A systematic review and meta‐analysis of randomized controlled trials
+
+HbA1c,MiniMed 780G remained the leading system in。
+
+引用13篇资料作为参考

@@ -1,0 +1,460 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "美敦力与Dexcom闭环系统决策建议",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS",
+  "createdAt": "2026-05-30T16:31:00.985Z",
+  "sections": [
+    {
+      "startLine": 138,
+      "text": "✅ 美敦力 MiniMed 670G（国内已上市）\n⚠️ 重要提示：以上为基于设备特性的决策参考，不是医疗处方。最终选择请结合您的具体病情（1型/2型、用量、肝肾功能）、当地耗材可及性及内分泌专科医生建议确定。开源闭环属未注册医疗设备，使用前请充分了解风险。\n如需我进一步对比具体型号（如 670G vs 780G，或 AAPS vs Loop 设置难度），可以继续问！\n源\n请提供美敦力670G与780G详细对比\n美敦力MiniMed 670G和780G哪个更适合夜间血糖控制？\n对于1型糖尿病患者，如何评估开源闭环系统的安全性和可靠性？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（13）\nmedtronicdiabetes.com\nMiniMed Diabetes Management Solutions\nwith diabetes. Learn moreGet started Meet MiniMed。\ndiabeteswise.org\nDexcom G7 vs Medtronic 780G » DiabetesWise\ninsulin and locked into the pump. Medtronic 780G。\ndexcom.com\nDexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom\nExplore our portfolio Dexcom G7 and Dexcom G7 15 D。\n大众健康报科普网\n胰岛素闭环输注系统介绍\n胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(...\ndiabeteswise.org\nDevice Finder - DIY Loop vs Medtronic 780G with Smart Guard"
+    },
+    {
+      "startLine": 147,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（13）\nmedtronicdiabetes.com\nMiniMed Diabetes Management Solutions\nwith diabetes. Learn moreGet started Meet MiniMed。\ndiabeteswise.org\nDexcom G7 vs Medtronic 780G » DiabetesWise\ninsulin and locked into the pump. Medtronic 780G。\ndexcom.com\nDexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom\nExplore our portfolio Dexcom G7 and Dexcom G7 15 D。\n大众健康报科普网\n胰岛素闭环输注系统介绍\n胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(...\ndiabeteswise.org\nDevice Finder - DIY Loop vs Medtronic 780G with Smart Guard\nLink websites. The Medtronic MiniMed™ 780G system...\ntheglucoseneverlies.com\nDexcom G7\n✓ G7 paired integration confirmed MiniMed 780G Med...\norigin.medtronicdiabetes.com\nNot all insulin pumps are created equal\nMiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...\n易泵网\n闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么?"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "6,7",
+      "indexes": [
+        "6",
+        "7"
+      ],
+      "text": "美敦力 MiniMed 780G/670G 不能与 Dexcom G7 配对，它只兼容自家 Guardian 4/Simplera 传感器。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,6",
+      "indexes": [
+        "2",
+        "6"
+      ],
+      "text": "~8%，临床公认更准确",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,13",
+      "indexes": [
+        "7",
+        "13"
+      ],
+      "text": "美敦力 780G：高级混合闭环（AHCL），每5分钟调基础 + 自动校正大剂量，目标可设低至100mg/dL（5.6mmol/L），夜间表现稳定 。缺点：算法黑盒，不能设临时目标（运动模式有限），不能 SMB（超微大剂量）。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,10",
+      "indexes": [
+        "8",
+        "10"
+      ],
+      "text": "开源闭环（AAPS/Loop/OpenAPS）：支持 SMB、临时目标（运动/进食前主动拉高血糖目标）、多配置文件，理论上 TIR 可更高，但需自己调参维护 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "5",
+      "indexes": [
+        "5"
+      ],
+      "text": "商业兼容闭环（Tandem Control-IQ / Omnipod 5 + Dexcom G6/G7）：介于两者之间，比美敦力灵活（有运动/睡眠模式），但不如开源可深度定制 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12",
+      "indexes": [
+        "12"
+      ],
+      "text": "美敦力 MiniMed：FDA/NMPA 认证商业产品，厂家培训即可，售后支持完善，适合不愿折腾的用户/儿童家长 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "9,10",
+      "indexes": [
+        "9",
+        "10"
+      ],
+      "text": "Dexcom + 开源闭环（AAPS/Loop）：需自己搭建（刷 APK/iPhone sideload、配置 RileyLink/Bluetooth 桥接、理解 IOB/ISF/CR 参数），遇故障需自行排查，不适合怕复杂技术操作的人 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7",
+      "indexes": [
+        "7"
+      ],
+      "text": "美敦力 MiniMed：有管（tubed），300U 储药量大，可用延长管路，适合胰岛素日用量大（>80-100U/天）者 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,12",
+      "indexes": [
+        "4",
+        "12"
+      ],
+      "text": "商业闭环（MiniMed/Tandem/Omnipod）→ 医生可合法处方、解读 CareLink/Clarity 数据，有厂家临床支持 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10,12",
+      "indexes": [
+        "10",
+        "12"
+      ],
+      "text": "开源闭环 → 多数地区无药监局审批，属 off-label 使用，部分医生不了解或不便在门诊指导参数，需依赖社群文档，须患者自愿承担风险 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "medtronicdiabetes.com",
+      "title": "MiniMed Diabetes Management Solutions",
+      "snippet": "with diabetes. Learn moreGet started Meet MiniMed。",
+      "text": "medtronicdiabetes.com MiniMed Diabetes Management Solutions with diabetes. Learn moreGet started Meet MiniMed。"
+    },
+    {
+      "index": 2,
+      "source": "diabeteswise.org",
+      "title": "Dexcom G7 vs Medtronic 780G » DiabetesWise",
+      "snippet": "insulin and locked into the pump. Medtronic 780G。",
+      "text": "diabeteswise.org Dexcom G7 vs Medtronic 780G » DiabetesWise insulin and locked into the pump. Medtronic 780G。"
+    },
+    {
+      "index": 3,
+      "source": "dexcom.com",
+      "title": "Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom",
+      "snippet": "Explore our portfolio Dexcom G7 and Dexcom G7 15 D。",
+      "text": "dexcom.com Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom Explore our portfolio Dexcom G7 and Dexcom G7 15 D。"
+    },
+    {
+      "index": 4,
+      "source": "大众健康报科普网",
+      "title": "胰岛素闭环输注系统介绍",
+      "snippet": "胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(...",
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(..."
+    },
+    {
+      "index": 5,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - DIY Loop vs Medtronic 780G with Smart Guard",
+      "snippet": "Link websites. The Medtronic MiniMed™ 780G system...",
+      "text": "diabeteswise.org Device Finder - DIY Loop vs Medtronic 780G with Smart Guard Link websites. The Medtronic MiniMed™ 780G system..."
+    },
+    {
+      "index": 6,
+      "source": "theglucoseneverlies.com",
+      "title": "Dexcom G7",
+      "snippet": "✓ G7 paired integration confirmed MiniMed 780G Med...",
+      "text": "theglucoseneverlies.com Dexcom G7 ✓ G7 paired integration confirmed MiniMed 780G Med..."
+    },
+    {
+      "index": 7,
+      "source": "origin.medtronicdiabetes.com",
+      "title": "Not all insulin pumps are created equal",
+      "snippet": "MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...",
+      "text": "origin.medtronicdiabetes.com Not all insulin pumps are created equal MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta..."
+    },
+    {
+      "index": 8,
+      "source": "易泵网",
+      "title": "闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么?",
+      "snippet": "其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H...",
+      "text": "易泵网 闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么? 其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H..."
+    },
+    {
+      "index": 9,
+      "source": "diabeteswise.org",
+      "title": "DIY Loop vs Medtronic 780G » DiabetesWise",
+      "snippet": "the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin...",
+      "text": "diabeteswise.org DIY Loop vs Medtronic 780G » DiabetesWise the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin..."
+    },
+    {
+      "index": 10,
+      "source": "·Endo泌语",
+      "title": "闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍",
+      "snippet": "公众号 闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC...",
+      "text": "公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC..."
+    },
+    {
+      "index": 11,
+      "source": "·中华糖尿病杂志",
+      "title": "【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较",
+      "snippet": "公众号 国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi...",
+      "text": "公众号 ·中华糖尿病杂志 【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较 国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi..."
+    },
+    {
+      "index": 12,
+      "source": "DOI基金会",
+      "title": "Closed‐loop technology: a practical guide",
+      "snippet": "with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system...",
+      "text": "DOI基金会 Closed‐loop technology: a practical guide with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system..."
+    },
+    {
+      "index": 13,
+      "source": "·糖仁健康科技",
+      "title": "【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比",
+      "snippet": "公众号 可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡",
+      "text": "公众号 ·糖仁健康科技 【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比 可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡"
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,6",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "5",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "9,10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（13） medtronicdiabetes.com MiniMed Diabetes Management Solutions with diabetes. Learn moreGet started Meet MiniMed。 diabeteswise.org Dexcom G7 vs Medtronic 780G » DiabetesWise insulin and locked into the pump. Medtronic 780G。 dexcom.com Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom Explore our portfolio Dexcom G7 and Dexcom G7 15 D。 大众健康报科普网 胰岛素闭环输注系统介绍 胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(... diabeteswise.org Device Finder - DIY Loop vs Medtronic 780G with Smart Guard Link websites. The Medtronic MiniMed™ 780G system... theglucoseneverlies.com Dexcom G7 ✓ G7 paired integration confirmed MiniMed 780G Med... origin.medtronicdiabetes.com Not all insulin pumps are created equal MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta... 易泵网 闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么? 其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H... diabeteswise.org DIY Loop vs Medtronic 780G » DiabetesWise the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin... 公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC... 公众号 ·中华糖尿病杂志 【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较 国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi... DOI基金会 Closed‐loop technology: a practical guide with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system... 公众号 ·糖仁健康科技 【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比 可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（13）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（13）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com MiniMed Diabetes Management Solutions with diabetes. Learn moreGet started Meet MiniMed。 diabeteswise.org Dexcom G7 vs Medtronic 780G » DiabetesWise insulin and locked into the pump. Medtronic 780G。 dexcom.com Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom Explore our portfolio Dexcom G7 and Dexcom G7 15 D。 大众健康报科普网 胰岛素闭环输注系统介绍 胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(... diabeteswise.org Device Finder - DIY Loop vs Medtronic 780G with Smart Guard Link websites. The Medtronic MiniMed™ 780G system... theglucoseneverlies.com Dexcom G7 ✓ G7 paired integration confirmed MiniMed 780G Med... origin.medtronicdiabetes.com Not all insulin pumps are created equal MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta... 易泵网 闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么? 其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H... diabeteswise.org DIY Loop vs Medtronic 780G » DiabetesWise the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin... 公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC... 公众号 ·中华糖尿病杂志 【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较 国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi... DOI基金会 Closed‐loop technology: a practical guide with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system... 公众号 ·糖仁健康科技 【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比 可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com MiniMed Diabetes Management Solutions with diabetes. Learn moreGet started Meet MiniMed。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Dexcom G7 vs Medtronic 780G » DiabetesWise insulin and locked into the pump. Medtronic 780G。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com Dexcom Continuous Glucose Monitoring - The most accurate CGM system1 Dexcom Explore our portfolio Dexcom G7 and Dexcom G7 15 D。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "dexcom.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 胰岛素闭环输注系统(人工胰腺)是1型糖尿病治疗的突破性技术｡它通过连续血糖监测(CGM)与胰岛素泵(...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - DIY Loop vs Medtronic 780G with Smart Guard Link websites. The Medtronic MiniMed™ 780G system...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "theglucoseneverlies.com Dexcom G7 ✓ G7 paired integration confirmed MiniMed 780G Med...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "theglucoseneverlies.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "origin.medtronicdiabetes.com Not all insulin pumps are created equal MiniMed™ 780G system Omnipod® 5 with Dexcom G7® Ta...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "origin.medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "易泵网 闭环胰岛素泵到底有多好?什么是AAPS闭环?AAPS核心算法是什么? 其它的诸如Medtronic670G､770G､780G,T SliM: X2等获得FDA认证的闭环系统统称为H...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "易泵网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org DIY Loop vs Medtronic 780G » DiabetesWise the Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. The MiniMed 780G insulin...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·Endo泌语 闭环时代:1型糖尿病治疗的终极手段——各类胰岛素闭环输注系统介绍 闭环系统详解与临床特性1. 美敦力 MiniMed 系列MiniMed 670G(混合闭环系统 HC...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·Endo泌语",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·中华糖尿病杂志 【论著】开源自动胰岛素输注系统与MiniMed TM 780G系统在1型糖尿病患者中的疗效与安全性比较 国家卫生健康委员会内分泌重点实验室摘要目的比较开源自动胰岛素输注(OS-AID)系统与商业化自动胰岛素输注系统Mi...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·中华糖尿病杂志",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会 Closed‐loop technology: a practical guide with MiniMed 780G.20 Table 1 provides a comparison of the closed-loop systems currently available in the UK. Table 1. Comparison of closed-loop system...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "DOI基金会",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·糖仁健康科技 【美敦力混合闭环】MiniMed 780G和670G胰岛素泵算法对比 可以有效减少或避免高,低血糖风险｡美敦力670G系统是2017年上市的全球第一款混合闭环胰岛素泵系统｡",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·糖仁健康科技",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

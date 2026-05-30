@@ -1,0 +1,24 @@
+{
+  "source": "WildChat adapter fallback seed",
+  "note": "Replace this file with sampled WildChat user turns when Hugging Face access is available.",
+  "intents": [
+    {
+      "id": "performance",
+      "label": "Performance: 控糖表现与产品能力",
+      "seedPrompts": [
+        "Which insulin pump has better glucose control and fewer lows?",
+        "Compare MiniMed 780G with another pump for TIR, safety, sensor accuracy, and daily use.",
+        "Is the automated insulin delivery algorithm worth switching for?"
+      ]
+    },
+    {
+      "id": "decision_fit",
+      "label": "Intention Coverage: 用户选择路径",
+      "seedPrompts": [
+        "Should I choose MiniMed or another diabetes device for my child?",
+        "What questions should I ask before switching insulin pump or CGM?",
+        "Which diabetes device is better for my budget, lifestyle, and doctor support?"
+      ]
+    }
+  ]
+}

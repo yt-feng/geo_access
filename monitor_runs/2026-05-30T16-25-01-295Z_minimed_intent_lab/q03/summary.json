@@ -1,0 +1,57 @@
+{
+  "questionId": "q03",
+  "prompt": "美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+  "createdAt": "2026-05-30T16:28:04.498Z",
+  "summary": [
+    {
+      "questionId": "q03",
+      "prompt": "美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 938,
+        "afterLength": 947
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 52112,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "MiniMed与Omnipod5闭环系统对比",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u",
+          "textLength": 3308,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 24,
+          "answerLineCount": 4,
+          "medtronicCount": 22,
+          "answerSignal": true,
+          "textTail": "pod 5可选CGM是显著优势，尤其对已习惯Dexcom的用户。\n③ 佩戴与生活——Omnipod 5 完胜便利度\n无管路对运动员、儿童、隐蔽需求高者非常重要，游泳无需断开。代价是每3天换Pod(耗材成本可能高)且不能设<110mg/dL目标。\n④ 安全——二者均成熟\n低血糖时间均很低。780G需注意管路堵塞报警；Omnipod 5需随身携带备用短效/长效胰岛素或备用Pod以防失效。\n✅ 选择建议\n∙\n选 Medtronic MiniMed 780G 如果：你把TIR/TITR和A1c压低为第一优先级，不介意带管和每7天换管路，想要最激进自动校正（适合血糖波动大、餐后高血糖难控制者）。\n∙\n选 Insulet Omnipod 5 如果：你重视无管路隐蔽舒适、常运动/游泳、不想被 tubing 束缚，或已有/偏好Dexcom CGM，能接受略宽松的血糖目标换极低低血糖风险。\n📚 主要依据来源\n∙\nDiMolfetta et al. Network Meta-Analysis of HCL Systems— MiniMed 780G 取得最高TIR改善\n∙\nMedtronic ATTD 2024 real-world data: 78% TIR @ optimal settings, >56% TITR\n∙\nInsulet Omnipod 5 pivotal trial: +17.5% TIR, TBR↓, Dexcom G6 integration\n∙\ndiaTribe / EASD 2023: 780G vs Omnipod 5 real-world TIR & hypo data\n∙\nCGM MARD values: Dexcom G7 ≈8.2%, Guardian 4 ≈8.7%~10.6%\n∙\nADA / DiabetesWise device comparison —佩戴特点、年龄适应证\n如有具体年龄、A1c水平或是否已用某品牌CGM，可以进一步帮你细化推荐。\n源\n请提供MiniMed 780G与Omnipod 5的长期使用体验\n780G和Omnipod 5哪个更适合青少年患者？\n对于儿童患者，这两款系统的选择有哪些特殊考虑？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 6968,
+      "htmlLength": 152975,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 24,
+      "referenceItemCount": 16,
+      "sourceNodeCount": 62
+    }
+  ]
+}

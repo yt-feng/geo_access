@@ -1,0 +1,57 @@
+{
+  "questionId": "q04",
+  "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+  "createdAt": "2026-05-30T16:28:56.679Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 903,
+        "afterLength": 900
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 40092,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与Omnipod 5决策建议",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua",
+          "textLength": 2925,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 8,
+          "answerLineCount": 0,
+          "medtronicCount": 28,
+          "answerSignal": true,
+          "textTail": "），200U 上限，无自动校正大剂量，部分地区不能用手机直接控\n三、选择建议速判\n✅ 倾向选 美敦力 MiniMed（780G）​ 如果：\n∙\n希望尽可能严格的血糖控制（目标可设 100mg/dL，有自动校正大剂量），尤其有黎明现象或难控空腹血糖\n∙\n每日胰岛素总量＞200U（300U 储药罐更适合）\n∙\n不介意带管路，习惯把泵放腰包/口袋\n∙\n愿意使用美敦力 Guardian 4 传感器（或当地仅此系统可用）\n∙\n偏好少换耗材（7 天换一次输注套件）\n⚠️ 注意：中国大陆目前 MiniMed 780G 尚未获 NMPA 批准上市，临床多用 670G 或进口渠道，需与内分泌科确认可获得性。\n✅ 倾向选 Insulet Omnipod 5​ 如果：\n∙\n非常在意外观隐蔽、无管路，常运动/游泳/参加体育活动（儿童尤为适合）\n∙\n已在用或想用 Dexcom G6/G7 或 FreeStyle Libre 2 Plus（免指血校准、高满意度）\n∙\n不想随身挂设备、希望用手机/控制器操作\n∙\n能接受每 3 天换 Pod、每日胰岛素总量≤200U\n∙\n（部分地区）希望儿童（≥2岁）也能用无管闭环系统\n⚠️ 同样需核实当地（中国大陆）Omnipod 5 是否已正式上市及医保覆盖情况，早期可能仅有 Omnipod Dash（非闭环）。\n四、给医生和家属的补充提醒\n∙\n试戴体验：如有条件请患者试戴带管泵腰包+管路 vs 贴 Pod，感受心理接受度。\n∙\n远程监护：两系统均支持 Caregiver 远程查看（Glooko/CareLink），对儿童家庭很重要。\n∙\n培训与上手难度：Omnipod 5 按钮一键自动穿刺植入较简单；MiniMed 需学习装药、排气、Guardian 传感器启动流程稍复杂。\n∙\n最终决策应结合：内分泌科/糖尿病教育护士评估、本地医保目录、患者年龄与自我管理能力。\n如果有具体的——比如患者年龄、每日胰岛素用量、在用 CGM 型号、所在城市——我可以再帮你缩小到唯一推荐选项。\n源\n请将以上内容整理成约500字摘要\n美敦力MiniMed 780G和Omnipod 5哪个更耐用？\nMiniMed 670G和780G在性能上有哪些具体差异？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4954,
+      "htmlLength": 140831,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 8,
+      "referenceItemCount": 12,
+      "sourceNodeCount": 38
+    }
+  ]
+}

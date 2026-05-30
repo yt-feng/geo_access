@@ -1,0 +1,57 @@
+{
+  "questionId": "q07",
+  "prompt": "美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+  "createdAt": "2026-05-30T16:32:05.322Z",
+  "summary": [
+    {
+      "questionId": "q07",
+      "prompt": "美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 964,
+        "afterLength": 1012
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 52108,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与雅培设备对比分析",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC",
+          "textLength": 4015,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 18,
+          "answerLineCount": 4,
+          "medtronicCount": 24,
+          "answerSignal": true,
+          "textTail": "、预算有限、怕带泵/扎管​\n\t\n✅ Libre 3 Plus（首选 CGM）​ — 最准最小，助饮食/用药调整\n\n\n已用其他 AID（Omnipod 5/CamAPS+YpsoPump）想配最好 CGM​\n\t\n✅ Libre 3 Plus（或 Libre 2 Plus for Omnipod 5）​\n\n\n不想带泵但未来可能转 AID​\n\t\nLibre 3 Plus（部分 AID 兼容），780G 不接消费版 Libre\n📚 主要依据来源\n1.\nADAPT RCT​ – Choudhary et al. Lancet Diabetes Endocrinol2022; 780G vs MDI+isCGM: TIR ↑27.6%, A1c ↓1.4%\n2.\nReal-world 780G data​ – TIR 69–78%, 3yr sustainability (EMEA cohort)\n3.\nFreeStyle Libre 3/3 Plus MARD 7.9%​ – Abbott pivotal & GlucoseIntel review\n4.\nMeta-analysis of HCL systems​ – MiniMed 780G TIR >70% even with baseline A1c >8% in adults (Diabet Med2025/PMC)\n5.\nDiabetesWise device comparison​ – 780G vs Libre 3 feature matrix\n6.\nAID–CGM compatibility clarification​ – Libre 3/3 Plus not natively paired with MiniMed 780G; Instinct sensor is Abbott-made but proprietary\n如有具体需求（如年龄、是否 1 型、是否已用 CGM、在意管路与否），可以再帮你细化选型。\n源\n请将以上对比整理成表格\n780G和Libre 3 Plus哪个更适合青少年糖尿病患者？\n对于2型糖尿病患者，如果考虑未来转AID，Libre 3 Plus有哪些优势？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 6873,
+      "htmlLength": 152259,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 18,
+      "referenceItemCount": 13,
+      "sourceNodeCount": 50
+    }
+  ]
+}

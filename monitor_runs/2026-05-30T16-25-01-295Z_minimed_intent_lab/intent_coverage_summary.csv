@@ -1,0 +1,9 @@
+question_id,competitor,intent,status,coverage_score,performance_score,references,citations,missing_criteria,prompt
+"q01","Tandem t:slim X2 / Mobi + Control-IQ","performance","ok","100","100","14","14","","美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+"q02","Tandem t:slim X2 / Mobi + Control-IQ","decision_fit","ok","100","100","14","12","","如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+"q03","Insulet Omnipod 5","performance","ok","100","100","16","24","","美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+"q04","Insulet Omnipod 5","decision_fit","ok","88","98","12","8","低血糖/安全预警","如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+"q05","Dexcom G7 + 兼容闭环生态","performance","ok","100","100","20","27","","美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+"q06","Dexcom G7 + 兼容闭环生态","decision_fit","ok","100","99","13","10","","如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+"q07","Abbott FreeStyle Libre 3 / 3 Plus","performance","ok","100","100","13","18","","美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+"q08","Abbott FreeStyle Libre 3 / 3 Plus","decision_fit","ok","100","83","15","11","","如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"

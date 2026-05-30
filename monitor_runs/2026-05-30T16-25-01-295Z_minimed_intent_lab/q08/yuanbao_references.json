@@ -1,0 +1,512 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "美敦力与雅培设备选择建议",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa",
+  "createdAt": "2026-05-30T16:32:53.353Z",
+  "sections": [
+    {
+      "startLine": 99,
+      "text": "这两个都不匹配——应选配 Dexcom G7 或 Libre 3 Plus（视泵兼容性），非美敦力泵本身\n💡 重要提示：具体选择请结合内分泌科/糖尿病教育护士的评估，尤其是泵的基础率参数设置需专业团队协助初始化。本文仅供决策参考，不构成医疗处方建议。\n如果你愿意告诉我患者是 1 型/2 型、目前用针还是泵、有无夜间低血糖、大致年龄段，我可以再帮你细化到具体型号和后续步骤（如怎么找医院开处方、国内大致费用）。\n源\n请提供美敦力780G官网链接\n美敦力MiniMed 780G的TIR目标是多少？\n能否详细说明一下1型糖尿病患者使用AID系统的具体效果数据？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（15）\nmedtronicdiabetes.com\nDiabetes Management Solutions MiniMed\nManagement Solutions | MiniMed｡The MiniMed™ 780G s...\n网易\n领跑市场!美敦力携手雅培\n雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪...\ntandemdiabetes.com\nTandem Diabetes Care Insulin Pumps for Diabetes Management\nuser-friendly color touchscreen and multiple CGM o。\ndiabeteswise.org\nFreestyle Libre 3 & Medtronic Pump\ndoesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre...\n公众号\n·天泰保健"
+    },
+    {
+      "startLine": 108,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（15）\nmedtronicdiabetes.com\nDiabetes Management Solutions MiniMed\nManagement Solutions | MiniMed｡The MiniMed™ 780G s...\n网易\n领跑市场!美敦力携手雅培\n雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪...\ntandemdiabetes.com\nTandem Diabetes Care Insulin Pumps for Diabetes Management\nuser-friendly color touchscreen and multiple CGM o。\ndiabeteswise.org\nFreestyle Libre 3 & Medtronic Pump\ndoesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre...\n公众号\n·天泰保健\n真正意义上的闭环式胰岛素泵​——美敦力780G!\n美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注...\ndoctronic.ai\nContinuous Glucose Monitor CGM Comparison Chart\nother systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul...\ndiabeteswise.org\nDevice Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise\nSummary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute...\nccnhealth.com"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "5,12",
+      "indexes": [
+        "5",
+        "12"
+      ],
+      "text": "这是一类典型的\"要不要上胰岛素泵+闭环系统 vs 只用动态血糖仪看数值\"的决策问题。美敦力 MiniMed（如780G）是胰岛素泵+集成CGM的自动胰岛素输送/AID系统，而雅培 FreeStyle Libre 3/3 Plus 是单纯的连续血糖监测仪（CGM），不自动给胰岛素。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13,14",
+      "indexes": [
+        "13",
+        "14"
+      ],
+      "text": "已在用或有意换胰岛素泵（尤其1型糖尿病）→ 可考虑美敦力 MiniMed 780G 这类 AID 闭环系统。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "5,11",
+      "indexes": [
+        "5",
+        "11"
+      ],
+      "text": "⚠️ Libre 3 不能驱动美敦力泵的自动闭环（美敦力泵只配 Guardian 4 或新版 Simplera Sync），若想要闭环必须用美敦力自带 CGM。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13,14",
+      "indexes": [
+        "13",
+        "14"
+      ],
+      "text": "1型糖尿病（尤其中重度血糖波动、夜间低血糖、妊娠计划）：ADA 指南优先推荐 AID（自动胰岛素输送）系统 → 美敦力 MiniMed 780G​ 可减少夜间低血糖、提升 TIR（范围内时间）。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10",
+      "indexes": [
+        "10"
+      ],
+      "text": "2型糖尿病用基础/餐时胰岛素、血糖相对平稳：CGM 主要用于发现高低血糖模式 → Libre 3/3 Plus​ 性价比高、侵入性低。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12",
+      "indexes": [
+        "12"
+      ],
+      "text": "美敦力 MiniMed = 有管路（tubed）泵 + 腹部/臂部输注集 + CGM 传感器，身上有两个部件，需每 2～3 天换输注位点。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,8",
+      "indexes": [
+        "7",
+        "8"
+      ],
+      "text": "Libre 3 = 一枚硬币大小传感器贴上臂，戴 14 天，无管路，最隐蔽舒适。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,12",
+      "indexes": [
+        "8",
+        "12"
+      ],
+      "text": "两者都有实时高/低血糖报警和 LibreLinkUp / CareLink 远程共享功能，都能满足家人看护需求。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "5",
+      "indexes": [
+        "5"
+      ],
+      "text": "美敦力闭环还能自动暂停或微调基础率防低血糖，对\"无感知低血糖\"人群更有保护价值。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12",
+      "indexes": [
+        "12"
+      ],
+      "text": "Libre 3/3 Plus：多为药店购买，部分地区医保或商保可报，月花费通常较低。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,12",
+      "indexes": [
+        "4",
+        "12"
+      ],
+      "text": "MiniMed 泵 + 耗材（管路+储药筒+CGM）：初始投入大（泵体数万元），多数城市职工医保/DME 渠道可部分报销，但需确认当地政策，后续每月耗材费较高。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "medtronicdiabetes.com",
+      "title": "Diabetes Management Solutions MiniMed",
+      "snippet": "Management Solutions | MiniMed｡The MiniMed™ 780G s...",
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s..."
+    },
+    {
+      "index": 2,
+      "source": "网易",
+      "title": "领跑市场!美敦力携手雅培",
+      "snippet": "雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪...",
+      "text": "网易 领跑市场!美敦力携手雅培 雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪..."
+    },
+    {
+      "index": 3,
+      "source": "tandemdiabetes.com",
+      "title": "Tandem Diabetes Care Insulin Pumps for Diabetes Management",
+      "snippet": "user-friendly color touchscreen and multiple CGM o。",
+      "text": "tandemdiabetes.com Tandem Diabetes Care Insulin Pumps for Diabetes Management user-friendly color touchscreen and multiple CGM o。"
+    },
+    {
+      "index": 4,
+      "source": "diabeteswise.org",
+      "title": "Freestyle Libre 3 & Medtronic Pump",
+      "snippet": "doesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre...",
+      "text": "diabeteswise.org Freestyle Libre 3 & Medtronic Pump doesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre..."
+    },
+    {
+      "index": 5,
+      "source": "·天泰保健",
+      "title": "真正意义上的闭环式胰岛素泵​——美敦力780G!",
+      "snippet": "公众号 美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注...",
+      "text": "公众号 ·天泰保健 真正意义上的闭环式胰岛素泵​——美敦力780G! 美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注..."
+    },
+    {
+      "index": 6,
+      "source": "doctronic.ai",
+      "title": "Continuous Glucose Monitor CGM Comparison Chart",
+      "snippet": "other systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul...",
+      "text": "doctronic.ai Continuous Glucose Monitor CGM Comparison Chart other systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul..."
+    },
+    {
+      "index": 7,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise",
+      "snippet": "Summary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute...",
+      "text": "diabeteswise.org Device Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise Summary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute..."
+    },
+    {
+      "index": 8,
+      "source": "ccnhealth.com",
+      "title": "FreeStyle Libre CGM for Remote Patient Monitoring CCN Health CCNHealth",
+      "snippet": "CGM for Remote Patient Monitoring | CCN Health | CCNHealth｡01Can FreeStyle Libre be used for remote patient monitoring?Yes. FreeStyle Libre 3 Plus and...",
+      "text": "ccnhealth.com FreeStyle Libre CGM for Remote Patient Monitoring CCN Health CCNHealth CGM for Remote Patient Monitoring | CCN Health | CCNHealth｡01Can FreeStyle Libre be used for remote patient monitoring?Yes. FreeStyle Libre 3 Plus and..."
+    },
+    {
+      "index": 9,
+      "source": "mde.care",
+      "title": "Insulin Pump Therapy – Miami Diabetes & Endocrinology",
+      "snippet": "a discrete pump without tubing Medtronic MiniMed 670G System Hybrid closed-loop pump Auto Mode automatically adjusts basal-insulin based CGM readings...",
+      "text": "mde.care Insulin Pump Therapy – Miami Diabetes & Endocrinology a discrete pump without tubing Medtronic MiniMed 670G System Hybrid closed-loop pump Auto Mode automatically adjusts basal-insulin based CGM readings..."
+    },
+    {
+      "index": 10,
+      "source": "ahpnetwork.com",
+      "title": "Continuous Glucose Monitors (CGMs) Updates",
+      "snippet": "CGM Devices: CharacteristicsFreestyle Libre 2Frees。",
+      "text": "ahpnetwork.com Continuous Glucose Monitors (CGMs) Updates CGM Devices: CharacteristicsFreestyle Libre 2Frees。"
+    },
+    {
+      "index": 11,
+      "source": "diabetes-advice.eshcarmel.org",
+      "title": "We Got an Up-Close Look at the New Freestyle Libre 3",
+      "snippet": "extremely important information. Interoperability Abbott still has some work to do here: the Freestyle Libre 3 will not be approved in the United Sta...",
+      "text": "diabetes-advice.eshcarmel.org We Got an Up-Close Look at the New Freestyle Libre 3 extremely important information. Interoperability Abbott still has some work to do here: the Freestyle Libre 3 will not be approved in the United Sta..."
+    },
+    {
+      "index": 12,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise",
+      "snippet": "wear) available.Freestyle Libre 3 : Sensor Sensor。",
+      "text": "diabeteswise.org Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise wear) available.Freestyle Libre 3 : Sensor Sensor。"
+    },
+    {
+      "index": 13,
+      "source": "idiabetes.com.cn",
+      "title": "刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读",
+      "snippet": "刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读｡Libre 3适用于4岁及以上...",
+      "text": "idiabetes.com.cn 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读｡Libre 3适用于4岁及以上..."
+    },
+    {
+      "index": 14,
+      "source": "·江苏省老年病医院内分泌科",
+      "title": "指南共识 l 2025ADA标准:糖尿病患者连续血糖监测/CGM",
+      "snippet": "公众号 CGM;rtCGM,实时 CGM｡建议7.15 建议1 型糖尿病青少年 C 和成年糖尿病患者 B 使...",
+      "text": "公众号 ·江苏省老年病医院内分泌科 指南共识 l 2025ADA标准:糖尿病患者连续血糖监测/CGM CGM;rtCGM,实时 CGM｡建议7.15 建议1 型糖尿病青少年 C 和成年糖尿病患者 B 使..."
+    },
+    {
+      "index": 15,
+      "source": "medtronicdiabetes.com",
+      "title": "Chris Reviews New Features of the MiniMed 780G System Medtronic",
+      "snippet": "life,from the MiniMed™ 670G system to the MiniMed™...",
+      "text": "medtronicdiabetes.com Chris Reviews New Features of the MiniMed 780G System Medtronic life,from the MiniMed™ 670G system to the MiniMed™..."
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "5,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "5,11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,8",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "5",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（15） medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... 网易 领跑市场!美敦力携手雅培 雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪... tandemdiabetes.com Tandem Diabetes Care Insulin Pumps for Diabetes Management user-friendly color touchscreen and multiple CGM o。 diabeteswise.org Freestyle Libre 3 & Medtronic Pump doesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre... 公众号 ·天泰保健 真正意义上的闭环式胰岛素泵​——美敦力780G! 美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注... doctronic.ai Continuous Glucose Monitor CGM Comparison Chart other systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul... diabeteswise.org Device Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise Summary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute... ccnhealth.com FreeStyle Libre CGM for Remote Patient Monitoring CCN Health CCNHealth CGM for Remote Patient Monitoring | CCN Health | CCNHealth｡01Can FreeStyle Libre be used for remote patient monitoring?Yes. FreeStyle Libre 3 Plus and... mde.care Insulin Pump Therapy – Miami Diabetes & Endocrinology a discrete pump without tubing Medtronic MiniMed 670G System Hybrid closed-loop pump Auto Mode automatically adjusts basal-insulin based CGM readings... ahpnetwork.com Continuous Glucose Monitors (CGMs) Updates CGM Devices: CharacteristicsFreestyle Libre 2Frees。 diabetes-advice.eshcarmel.org We Got an Up-Close Look at the New Freestyle Libre 3 extremely important information. Interoperability Abbott still has some work to do here: the Freestyle Libre 3 will not be approved in the United Sta... diabeteswise.org Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise wear) available.Freestyle Libre 3 : Sensor Sensor。 idiabetes.com.cn 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读｡Libre 3适用于4岁及以上... 公众号 ·江苏省老年病医院内分泌科 指南共识 l 2025ADA标准:糖尿病患者连续血糖监测/CGM CGM;rtCGM,实时 CGM｡建议7.15 建议1 型糖尿病青少年 C 和成年糖尿病患者 B 使... medtronicdiabetes.com Chris Reviews New Features of the MiniMed 780G System Medtronic life,from the MiniMed™ 670G system to the MiniMed™...",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（15）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（15）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s... 网易 领跑市场!美敦力携手雅培 雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪... tandemdiabetes.com Tandem Diabetes Care Insulin Pumps for Diabetes Management user-friendly color touchscreen and multiple CGM o。 diabeteswise.org Freestyle Libre 3 & Medtronic Pump doesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre... 公众号 ·天泰保健 真正意义上的闭环式胰岛素泵​——美敦力780G! 美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注... doctronic.ai Continuous Glucose Monitor CGM Comparison Chart other systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul... diabeteswise.org Device Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise Summary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute... ccnhealth.com FreeStyle Libre CGM for Remote Patient Monitoring CCN Health CCNHealth CGM for Remote Patient Monitoring | CCN Health | CCNHealth｡01Can FreeStyle Libre be used for remote patient monitoring?Yes. FreeStyle Libre 3 Plus and... mde.care Insulin Pump Therapy – Miami Diabetes & Endocrinology a discrete pump without tubing Medtronic MiniMed 670G System Hybrid closed-loop pump Auto Mode automatically adjusts basal-insulin based CGM readings... ahpnetwork.com Continuous Glucose Monitors (CGMs) Updates CGM Devices: CharacteristicsFreestyle Libre 2Frees。 diabetes-advice.eshcarmel.org We Got an Up-Close Look at the New Freestyle Libre 3 extremely important information. Interoperability Abbott still has some work to do here: the Freestyle Libre 3 will not be approved in the United Sta... diabeteswise.org Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise wear) available.Freestyle Libre 3 : Sensor Sensor。 idiabetes.com.cn 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读｡Libre 3适用于4岁及以上... 公众号 ·江苏省老年病医院内分泌科 指南共识 l 2025ADA标准:糖尿病患者连续血糖监测/CGM CGM;rtCGM,实时 CGM｡建议7.15 建议1 型糖尿病青少年 C 和成年糖尿病患者 B 使... medtronicdiabetes.com Chris Reviews New Features of the MiniMed 780G System Medtronic life,from the MiniMed™ 670G system to the MiniMed™...",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Diabetes Management Solutions MiniMed Management Solutions | MiniMed｡The MiniMed™ 780G s...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "网易 领跑市场!美敦力携手雅培 雅培连续血糖监测技术:FreeStyle Libre 3 FreeStyle Libre 3 是一款动态血糖监测仪...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "网易",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tandemdiabetes.com Tandem Diabetes Care Insulin Pumps for Diabetes Management user-friendly color touchscreen and multiple CGM o。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tandemdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Freestyle Libre 3 & Medtronic Pump doesn't require scanning. Libre 1 and 2 may still be available to you. Ask your provider. Next Steps Freestyle Libre 3 Next Step Call Freestyle Libre...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·天泰保健 真正意义上的闭环式胰岛素泵​——美敦力780G! 美敦力780G搭载美敦力动态,直接将血糖结果通过蓝牙反馈胰岛素泵,由胰岛素泵通过算法自动更改胰岛素注...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·天泰保健",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "doctronic.ai Continuous Glucose Monitor CGM Comparison Chart other systems. The FreeStyle Libre app provides clear glucose trends and customizable alerts. Medtronic MiniMed 780G combines CGM with automated insul...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "doctronic.ai",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Freestyle Libre 3 vs Tandem Mobi » DiabetesWise Summary The FreeStyle Libre 3 is the smallest,thinnest,all-in-one glucose sensor/transmitter CGM and lasts 14 days. This sensor sends minute-by-minute...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ccnhealth.com FreeStyle Libre CGM for Remote Patient Monitoring CCN Health CCNHealth CGM for Remote Patient Monitoring | CCN Health | CCNHealth｡01Can FreeStyle Libre be used for remote patient monitoring?Yes. FreeStyle Libre 3 Plus and...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ccnhealth.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mde.care Insulin Pump Therapy – Miami Diabetes & Endocrinology a discrete pump without tubing Medtronic MiniMed 670G System Hybrid closed-loop pump Auto Mode automatically adjusts basal-insulin based CGM readings...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mde.care",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ahpnetwork.com Continuous Glucose Monitors (CGMs) Updates CGM Devices: CharacteristicsFreestyle Libre 2Frees。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "ahpnetwork.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetes-advice.eshcarmel.org We Got an Up-Close Look at the New Freestyle Libre 3 extremely important information. Interoperability Abbott still has some work to do here: the Freestyle Libre 3 will not be approved in the United Sta...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabetes-advice.eshcarmel.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Medtronic 780G vs Freestyle Libre 3 » DiabetesWise wear) available.Freestyle Libre 3 : Sensor Sensor。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "idiabetes.com.cn 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读 刘振启教授:从糖尿病技术到免疫治疗相关高血糖管理,ADA 2026指南更新要点解读｡Libre 3适用于4岁及以上...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "idiabetes.com.cn",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·江苏省老年病医院内分泌科 指南共识 l 2025ADA标准:糖尿病患者连续血糖监测/CGM CGM;rtCGM,实时 CGM｡建议7.15 建议1 型糖尿病青少年 C 和成年糖尿病患者 B 使...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·江苏省老年病医院内分泌科",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Chris Reviews New Features of the MiniMed 780G System Medtronic life,from the MiniMed™ 670G system to the MiniMed™...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

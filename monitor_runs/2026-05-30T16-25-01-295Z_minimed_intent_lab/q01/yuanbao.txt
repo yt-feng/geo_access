@@ -1,0 +1,265 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+美敦力与Tandem闭环胰岛素泵对比
+医疗器械召回与产品安全性评估
+医疗器械企业合作选择对比分析
+美敦力CareLink等工具安全性评估
+美敦力糖尿病管理系统安全性与替代方案
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+制作Web3风格头像
+房东损坏电脑拒赔及堆物法律后果
+保存会议纪要文件
+整理房产信息为表格
+托管-Training with DAMAC
+拉里芬克谈长期投资价值
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。
+这是目前市面上两款最主流的商用混合闭环胰岛素泵系统（AID/HCL），综合多项真实世界研究、网络荟萃分析及头对头观察研究，给你做一个系统对比：
+🩸 一、控糖效果（TIR / HbA1c）
+∙
+MiniMed 780G（SmartGuard AHCL）：多项荟萃分析显示其TIR改善幅度最大（约+21.6%），真实世界TIR常达73%~76%，部分研究倾向略高于Control-IQ（+3~6%绝对差）。目标血糖可设至100 mg/dL（5.6 mmol/L），对高血糖压制更积极。
+∙
+Tandem t:slim X2/Mobi + Control-IQ：典型TIR约68%~73%，基线→+10~12%提升，Control-IQ固定目标为112.5–160 mg/dL（夜间可至112.5），整体TIR略低于780G但在临床可接受范围。
+小结：780G在统计上TIR稍占优（尤其高血糖控制），但两者差异在临床日常使用中不一定明显——部分头对头研究也报道无显著差异。
+⚠️ 二、低血糖风险（TBR）
+∙
+Control-IQ：以预测性低血糖暂停（PLGS）+微调基础率为核心，低血糖事件（TBR <70 mg/dL及<54 mg/dL）略少或相当，部分用户反馈葡萄糖变异度（CV）更小。
+∙
+780G：自动校正bolus激进，若餐前漏报碳水或运动后可能偶发迟发低血糖，但TBR仍很低（≈1~2%）。有研究显示两者TBR无统计学差异。
+小结：严重低血糖风险两者均很低；若本身极度恐低或对夜间低血糖敏感，Control-IQ略温和。
+🤖 三、闭环算法差异
+维度
+	
+Medtronic 780G SmartGuard
+	
+Tandem Control-IQ
+
+
+模式
+	
+自适应学习（参考近数日数据），每5分钟可给自动校正bolus​
+	
+模型预测未来30分钟，只调基础率+暂停，每小时最多1次微量correction bolus（CIQ+ G7版略有更新）
+
+
+目标
+	
+可调100/110/120 mg/dL
+	
+固定112.5起（夜间112.5–120）
+
+
+学习
+	
+是（个性化基础率微调）
+	
+否（按设定参数运行）
+
+
+扩展bolus
+	
+❌ Auto Mode不支持
+	
+✅ 支持（方波/双波）
+
+
+启动
+	
+需先手动模式再开启Auto Mode
+	
+基本立即可启（建议先熟悉）
+📡 四、CGM 准确性与体验
+∙
+780G → Guardian Connect 4 (G4) Sensor：7天佩戴，无需指血校准，MARD≈9~10%，较旧代改善明显，但仍普遍认为Dexcom G6/G7 MARD更低（≈8~9%）且更稳定，尤其运动/按压时。
+∙
+Tandem + Dexcom G6/G7：10天（G6/G7），单手植入方便，与手机/app生态整合好，公认目前最准的商用CGM之一。
+小结：Dexcom配Tandem在CGM准确性和易用性上普遍评价更高；Guardian 4已无指尖血校准但佩戴天数短（7天）。
+🎒 五、泵体 & 佩戴体验
+∙
+Tandem t:slim X2：超薄触屏、 rechargeable锂电池（每日充10~15min）、tubing细、有t:connect app（部分地区）。Mobi为无tubing/小型化机型（部分地区上市），更灵活。
+∙
+MiniMed 780G：较厚重（85g），AA电池供电（约每周换），物理按键菜单，CareLink远程随访强。​ tubing可7天更换（Extended Wear Set）。
+小结：Tandem外观现代、便携性胜出；Medtronic传统造型但远程数据管理（CareLink）对医患沟通友好。
+🔐 六、安全风险 & 其他注意
+∙
+DKA风险：两者均需警惕输注管路堵塞/脱管——780G每数小时检测"Auto Mode Suspicion"，Control-IQ靠Dexcom报警；均需用户主动处理阻塞报警。
+∙
+兼容性：780G仅配Guardian 3/4；Tandem仅配Dexcom G6/G7（部分地区Libre 3+ Mobi）。
+∙
+770G：实质是780G去除自动校正bolus功能的旧版，不推荐新购，控糖效果弱于780G和Control-IQ。
+👤 七、适用人群建议
+你的情况
+	
+倾向推荐
+
+
+追求最高TIR、常偏高、能接受主动报碳水
+	
+Medtronic 780G（自动bolus补餐遗漏）
+
+
+恐低、夜间低血糖史、喜欢简洁界面/最好CGM体验
+	
+Tandem + Control-IQ（+ Dexcom）​
+
+
+需要手机App遥控bolus（部分地区）、便携隐蔽
+	
+Tandem Mobi/X2​
+
+
+医生/家属需远程密切监控数据
+	
+两者皆可，780G CareLink稍成熟
+
+
+儿童/青少年
+	
+两者均有≥7岁或≥6岁适应症，依当地获批年龄及家庭偏好选
+📚 主要依据来源
+1.
+Network meta-analysis: MiniMed 780G achieved greatest TIR improvement vs Control-IQ (Diabetes Metab Res Rev 2024) 
+2.
+Head-to-head prospective real-world study (n=150): both ↑TIR to ~76%, no significant between-group diff in TIR/TBR (Diabetes Care 2024) 
+3.
+Propensity-matched observational: 780G TIR +6.4% vs Control-IQ, TBR comparable (Diabetes Obes Metab 2024) 
+4.
+Real-world RWE meta-analysis: 780G pooled TIR 73.9%, Control-IQ lower (Diabetes Obes Metab 2025) 
+5.
+Clinical tech对比综述：Guardian 4 vs Dexcom G6、算法区别 (Diabetotech 2022) 
+⚠️ 提示：最终选择受当地药监批准情况、医保报销、医生处方及个人对手感/CGM偏好的影响很大，建议和内异科医生共同评估。以上仅为循证医学证据层面的对比参考，不构成医疗处方建议。
+如需我帮你按年龄/饮食习惯/现有设备进一步缩小选择，可告诉我具体情况～
+源
+Tandem t:slim X2与780G价格差多少？
+780G和Tandem哪个更适合运动爱好者？
+对于儿童和青少年患者，这两款系统的长期使用数据如何？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（14）
+medtronicdiabetes.com
+Diabetes Management Solutions MiniMed
+
+Management Solutions | MiniMed｡The MiniMed™ 780G s...
+
+dx.doi.org
+Editorial: Technologies for diabetes
+
+Minimed™ 780G system (Minimed Medtronic,Northridge...
+
+mims.com
+Meta‐analysis ranks efficacy of different HCL systems for T1D
+
+time in range (TIR) vs SIT*,with Minimed 780G show。
+
+frontiersin.org
+Technologies for Diabetes
+
+Tandem t:slim X2 Control IQ™ system (Tandem Inc.,S...
+
+europepmc.org
+Real-Life Performance of Automated Insulin Delivery Systems for High-Carbohydrate Meals: Are All Systems the Same?
+
+780G and Tandem t:slim X2™ with Control-IQ. Thirty...
+
+pubmed.ncbi.nlm.nih.gov
+A systematic literature review and meta-analysis of real-world evidence on commercially available automated insulin delivery systems in people with type 1 diabetes
+
+meta-analysis;systematic literature review. © 2025...
+
+dom-pubs.pericles-prod.literatumonline.com
+Precision medicine in type 1 diabetes: comparing metabolic outcomes of Control-IQ and MiniMed 780G according to patient characteristics
+
+in 12-month TIR (MiniMed 780G minus Control-IQ : 6。
+
+diabetotech.com
+Comparison between the MiniMed 780G and Tandem Control IQ
+
+The Tandem Control IQ system is only available in a study context for a limited number of patients. 1. The insulin pumps: the MiniMed 780G versus the...
+
+springermedizin.de
+The Hybrid Closed-Loop System Tandem t:slim X2 with Control-IQ Technology: Expert Recommendations for Better Management and Optimization
+
+System Tandem t:slim X2™ with Control-IQ Technolog...
+
+PMC
+A Multicenter Prospective Evaluation of the Benefits of Two Advanced Hybrid Closed-Loop Systems in Glucose Control and Patient-Reported Outcomes in a Real-world Setting - PMC
+
+with SmartGuard or Tandem t:slimX2 with Control-IQ。
+
+PMC
+Glycaemic control and variability with different commercially available hybrid closed loop systems in people with type 1 diabetes: A systematic review and meta‐analysis of randomized controlled trials
+
+conducted a systematic review with meta-analysis.
+
+公众号
+·糖仁健康科技
+自动胰岛素泵天花板!Medtronic MiniMed™ 780G系统!
+
+系统用户的范围内时间 (TIR) 增加了 27.6%,HbA1C 降低了 1.4%,且低血糖时间没有...
+
+diabetesjournals.org
+A Multicenter Prospective Evaluation of the Benefits of Two Advanced Hybrid Closed-Loop Systems in Glucose Control and Patient-Reported Outcomes in a Real-world Setting
+
+with SmartGuard or Tandem t:slimX2 with Control-IQ。
+
+healio.com
+Although superior to other insulin therapies, hybrid closed-loop systems differ in efficacy
+
+systems: MiniMed 670G and MiniMed 780G (Medtronic)。
+
+引用14篇资料作为参考

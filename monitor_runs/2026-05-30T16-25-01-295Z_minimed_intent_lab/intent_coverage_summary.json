@@ -1,0 +1,1043 @@
+{
+  "aggregate": {
+    "runDir": "/Users/ytfeng/Code_Pj/geo_access/monitor_runs/2026-05-30T16-25-01-295Z_minimed_intent_lab",
+    "createdAt": "2026-05-30T16:33:32.956Z",
+    "promptCount": 8,
+    "okRate": 100,
+    "coverageScore": 99,
+    "performanceScore": 98,
+    "avgReferences": 15,
+    "byCompetitor": [
+      {
+        "id": "tandem",
+        "name": "Tandem t:slim X2 / Mobi + Control-IQ",
+        "category": "带管路闭环胰岛素泵",
+        "promptCount": 2,
+        "okCount": 2,
+        "coverageScore": 100,
+        "performanceScore": 100,
+        "avgReferences": 14,
+        "missingCriteria": []
+      },
+      {
+        "id": "insulet",
+        "name": "Insulet Omnipod 5",
+        "category": "无管路贴片闭环泵",
+        "promptCount": 2,
+        "okCount": 2,
+        "coverageScore": 94,
+        "performanceScore": 99,
+        "avgReferences": 14,
+        "missingCriteria": [
+          {
+            "label": "低血糖/安全预警",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "id": "dexcom",
+        "name": "Dexcom G7 + 兼容闭环生态",
+        "category": "CGM 与开放兼容生态",
+        "promptCount": 2,
+        "okCount": 2,
+        "coverageScore": 100,
+        "performanceScore": 100,
+        "avgReferences": 17,
+        "missingCriteria": []
+      },
+      {
+        "id": "abbott",
+        "name": "Abbott FreeStyle Libre 3 / 3 Plus",
+        "category": "CGM 与部分 AID 兼容生态",
+        "promptCount": 2,
+        "okCount": 2,
+        "coverageScore": 100,
+        "performanceScore": 92,
+        "avgReferences": 14,
+        "missingCriteria": []
+      }
+    ],
+    "byIntent": [
+      {
+        "id": "performance",
+        "label": "Performance: 控糖表现与产品能力",
+        "promptCount": 4,
+        "coverageScore": 100,
+        "performanceScore": 100,
+        "missingCriteria": []
+      },
+      {
+        "id": "decision_fit",
+        "label": "Intention Coverage: 用户选择路径",
+        "promptCount": 4,
+        "coverageScore": 97,
+        "performanceScore": 95,
+        "missingCriteria": [
+          {
+            "label": "低血糖/安全预警",
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "topMissingCriteria": [
+      {
+        "label": "低血糖/安全预警",
+        "count": 1
+      }
+    ]
+  },
+  "analyses": [
+    {
+      "questionId": "q01",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "competitorId": "tandem",
+      "competitorName": "Tandem t:slim X2 / Mobi + Control-IQ",
+      "intentId": "performance",
+      "intentLabel": "Performance: 控糖表现与产品能力",
+      "coverage": [
+        {
+          "id": "tir_efficacy",
+          "label": "控糖效果/TIR",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "evidence_sources",
+          "label": "证据/临床来源",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 100,
+      "referenceItemCount": 14,
+      "citationMarkerCount": 14,
+      "sourceNodeCount": 48,
+      "textLength": 6242,
+      "elapsedMs": 50120,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhoupHETQ",
+      "answerExcerpt": "这是目前市面上两款最主流的商用混合闭环胰岛素泵系统（AID/HCL），综合多项真实世界研究、网络荟萃分析及头对头观察研究，给你做一个系统对比：\n🩸 一、控糖效果（TIR / HbA1c）\n∙\nMiniMed 780G（SmartGuard AHCL）：多项荟萃分析显示其TIR改善幅度最大（约+21.6%），真实世界TIR常达73%~76%，部分研究倾向略高于Control-IQ（+3~6%绝对差）。目标血糖可设至100 mg/dL（5.6 mmol/L），对高血糖压制更积极。\n∙\nTandem t:slim X2/Mobi + Control-IQ：典型TIR约68%~73%，基线→+10~12%提升，Control-IQ固定目标为112.5–160 mg/dL（夜间可至112.5），整体TIR略低于780G但在临床可接受范围。\n小结：780G在统计上TIR稍占优（尤其高血糖控制），但两者差异在临床日常使用中不一定明显——部分头对头研究也报道无显著差异。\n⚠️ 二、低血糖风险（TBR）\n∙\nControl-IQ：以预测性低血糖暂停（PLGS）+微调基础率为核心，低血糖事件（TBR <70 mg/dL及<54 mg/dL）略少或相当，部分用户反馈葡萄糖变异度（CV）更小。\n∙\n780G：自动校正bolus激进，若餐前漏报碳水或运动后可能偶发迟发低血糖，但TBR仍很低（≈1~2%）。有研究显示两者TBR无统计学差异。\n小结：严重低血糖风险两者均很低；若本身极度恐低或对夜间低血糖敏感，Control-IQ略温和。\n🤖 三、闭环算法差异\n维度\n\nMedtronic 780G SmartGuard\n\nTandem Control-IQ\n\n模式\n\n自适应学习（参考近数日数据），每5分钟可给自动校正bolus​\n\n模型预测未来30分钟，只调基础率+暂停，每小时最多1次微量correction bolus（CIQ+ G7版略有更新）\n\n目标\n\n可调100/110/120 mg/dL\n\n固定112.5起（夜间112.5–120）\n\n学习\n\n是（个性化基础率微调）\n\n否（按设定参数运行...",
+      "files": {
+        "text": "q01/yuanbao.txt",
+        "html": "q01/yuanbao.html",
+        "screenshot": "q01/yuanbao.png",
+        "references": "q01/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q02",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "competitorId": "tandem",
+      "competitorName": "Tandem t:slim X2 / Mobi + Control-IQ",
+      "intentId": "decision_fit",
+      "intentLabel": "Intention Coverage: 用户选择路径",
+      "coverage": [
+        {
+          "id": "patient_fit",
+          "label": "患者画像/适用人群",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "cost_access",
+          "label": "费用/医保/可及性",
+          "covered": true
+        },
+        {
+          "id": "training_support",
+          "label": "培训/售后/医生支持",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 100,
+      "referenceItemCount": 14,
+      "citationMarkerCount": 12,
+      "sourceNodeCount": 46,
+      "textLength": 5797,
+      "elapsedMs": 44097,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhtVZV55U",
+      "answerExcerpt": "帮患者/家属/医生在美敦力 MiniMed（以780G/770G+Guardian 4为代表）与Tandem t:slim X2 或 Mobi + Control-IQ（配 Dexcom G6/G7 或 Libre 3 Plus）之间做决策时，AI 回答应围绕以下 7 个核心维度展开，并在最后给出倾向性选择建议：\n一、CGM 兼容性与准确性偏好 ⭐最重要分歧点\n∙\n美敦力 MiniMed 780G：强制绑定 Guardian 4（或 Simplera Sync）CGM，不能用 Dexcom 或 FreeStyle Libre。\n∙\nGuardian 4 需每周校准（部分模式免指尖血），佩戴部位通常为腹部/上臂，部分用户觉得比 Dexcom 更频繁报警或需更多学习。\n∙\nTandem + Control-IQ：需搭配 Dexcom G6/G7（t:slim X2 部分地区也兼容 FreeStyle Libre 3 Plus）；Mobi 目前主要支持 Dexcom。\n∙\n若患者已习惯并信任 Dexcom 的准确性、App 生态或希望用 G7 的更小传感器→强烈倾向 Tandem。\n📌 问自己：你/孩子是否已在使用并喜欢某款 CGM？换泵是否需要换 CGM 品牌？\n二、自动闭环算法差异（SmartGuard vs Control-IQ）\n项目\n\n美敦力 MiniMed 780G (SmartGuard™)\n\nTandem Control-IQ（X2/Mobi）\n\n目标血糖\n\n可调低至 100 mg/dL（5.5 mmol/L）\n\n固定范围≈110–120 mg/dL 附近，Sleep/Exercise 模式可临时放宽\n\n自动校正大剂量\n\n✅ 每 5 分钟可给自动校正量\n\n✅ 最多每小时 1 次自动校正 bolus\n\n预测时间窗\n\n基于当前+历史趋势\n\n预测约 30 分钟后血糖\n\n漏餐处理\n\n能检测快速升糖自动补校正量\n\n靠增加基础率+自动校正，不主动检测\"进餐事件\"\n\n停胰岛素防低\n\n✅ 预测性暂停基础率\n\n✅ 预测性暂停基础率（Basal-IQ 基础上增强）\n两者均为经...",
+      "files": {
+        "text": "q02/yuanbao.txt",
+        "html": "q02/yuanbao.html",
+        "screenshot": "q02/yuanbao.png",
+        "references": "q02/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q03",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "competitorId": "insulet",
+      "competitorName": "Insulet Omnipod 5",
+      "intentId": "performance",
+      "intentLabel": "Performance: 控糖表现与产品能力",
+      "coverage": [
+        {
+          "id": "tir_efficacy",
+          "label": "控糖效果/TIR",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "evidence_sources",
+          "label": "证据/临床来源",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 100,
+      "referenceItemCount": 16,
+      "citationMarkerCount": 24,
+      "sourceNodeCount": 62,
+      "textLength": 6968,
+      "elapsedMs": 52112,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZhxeaiB2u",
+      "answerExcerpt": "这是目前市面上两款主流商用混合闭环(AID/人工胰腺)系统的对比。先给结论：若追求极致控糖指标(TIR/紧范围TITR)选 MiniMed 780G；若追求无管路佩戴舒适度和生活便利选 Omnipod 5。二者安全性相当，没有压倒性优劣，取决于你的优先级。\n📊 核心维度对比\n维度\n\nMedtronic MiniMed 780G (770G略弱)\n\nInsulet Omnipod 5\n\n控糖效果 TIR(70-180mg/dL)​\n\n真实世界最佳设置下达74%~81%，推荐设置(目标100mg/dL)下可达78%~79%\n\n真实世界约63%~70%(最低目标110mg/dL)，RCT中提升~17.5%\n\n紧范围 TITR(70-140mg/dL)​\n\n可达49%~57%(推荐设置)，是目前商用AID中最高之一\n\n略低，因最低目标仅110mg/dL且算法偏保守防低\n\n低血糖风险(TBR <70mg/dL)​\n\n时间低于范围约1.5%~2.0%，自动暂停+自动校正平衡良好\n\n时间低于范围极低(~0.1%~0.3% <54mg/dL)，算法偏保守防低很优秀\n\n闭环算法​\n\nSmartGuard AHCL：每5分钟自动校正大剂量(Meal Detection技术)、目标可调100/110/120mg/dL、可设更严目标\n\nSmartAdjust：每5分钟调整基础率，预测未来30~60min，自适应基础率学习，目标110~150mg/dL(不能到100)\n\nCGM准确性/配套​\n\n专属Guardian 4 Sensor(MARD≈8.7%~10.6%)，7天佩戴，无需指血校准(SmartGuard模式下)\n\n兼容Dexcom G6/G7(MARD≈8.2%~9%)或FreeStyle Libre 2 Plus，工厂校准无需指血\n。Dexcom公认稍准且用户偏好高\n\n佩戴体验​\n\n带管泵体(85g)+ tubing，需挂腰/口袋；IPX8防水；每7天换管路+传感器\n\n无管路Pod贴皮肤(3天更换)，200U容量，手机/Pod控制器操作；IP28防水；无 tubing 缠绕/牵拉...",
+      "files": {
+        "text": "q03/yuanbao.txt",
+        "html": "q03/yuanbao.html",
+        "screenshot": "q03/yuanbao.png",
+        "references": "q03/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q04",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "competitorId": "insulet",
+      "competitorName": "Insulet Omnipod 5",
+      "intentId": "decision_fit",
+      "intentLabel": "Intention Coverage: 用户选择路径",
+      "coverage": [
+        {
+          "id": "patient_fit",
+          "label": "患者画像/适用人群",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": false
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "cost_access",
+          "label": "费用/医保/可及性",
+          "covered": true
+        },
+        {
+          "id": "training_support",
+          "label": "培训/售后/医生支持",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 88,
+      "missingCriteria": [
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": false
+        }
+      ],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 98,
+      "referenceItemCount": 12,
+      "citationMarkerCount": 8,
+      "sourceNodeCount": 38,
+      "textLength": 4954,
+      "elapsedMs": 40092,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi2OFb1ua",
+      "answerExcerpt": "患者在美敦力 MiniMed（通常指 780G/670G 系）与 Insulet Omnipod 5 之间纠结，本质上是在传统带管耐用泵 vs 无管路一次性贴片泵（Patch Pump）之间做选择。以下是帮助患者/家属/医生决策时应覆盖的关键问题和具体建议：\n一、决策前必问的 5 个关键问题\n#\n\n关键问题\n\n为什么重要\n\n1\n\n是否介意身上带管子/挂腰包？日常运动、游泳、穿紧身衣多吗？​\n\n决定有无管路能否接受\n\n2\n\n已在使用或有偏好的 CGM 吗？（Dexcom G6/G7、雅培 Libre、美敦力 Guardian）​\n\n两系统 CGM 互不兼容\n\n3\n\n每日胰岛素总量是否＞200U？是否需要大容量储药罐？​\n\nOmnipod Pod 最大 200U，大需求量者需每 2～3 天换\n\n4\n\n更看重血糖目标激进严控（低 TIR 目标），还是少操作、隐蔽舒适？​\n\nMiniMed 可设 100mg/dL 目标且有自动校正大剂量\n\n5\n\n医保/商保对哪套系统耗材报销更好？当地是否有美敦力 780G 或 Omnipod 5 的准入？（中国大陆 780G 未正式上市）\n\n长期使用耗材成本差异大\n二、核心规格对比（以 MiniMed 780G vs Omnipod 5 为例）\n项目\n\n美敦力 MiniMed 780G（带管）\n\nInsulet Omnipod 5（无管贴片）\n\n外形​\n\n带管耐用泵＋分离输注套件，需挂腰/放口袋\n\n一次性 Pod 直接贴皮肤，无管，IPX8 防水可游泳\n\n储药量/更换周期​\n\n300U 储药罐，输注套件最长 7 天\n\nPod 内建 200U，每 3 天丢弃换新\n\nCGM 绑定​\n\n仅 Guardian 4（美敦力自家），部分型号需校准\n\nDexcom G6/G7 或 FreeStyle Libre 2 Plus，免指血校准\n\n闭环算法​\n\nSmartGuard™：每 5min 自动调基础＋自动校正大剂量（Auto Correction），目标可低至 100mg/dL\n\nSmartAdjust™：每 5min 调基础，目标 110～150mg/d...",
+      "files": {
+        "text": "q04/yuanbao.txt",
+        "html": "q04/yuanbao.html",
+        "screenshot": "q04/yuanbao.png",
+        "references": "q04/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q05",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "competitorId": "dexcom",
+      "competitorName": "Dexcom G7 + 兼容闭环生态",
+      "intentId": "performance",
+      "intentLabel": "Performance: 控糖表现与产品能力",
+      "coverage": [
+        {
+          "id": "tir_efficacy",
+          "label": "控糖效果/TIR",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "evidence_sources",
+          "label": "证据/临床来源",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 100,
+      "referenceItemCount": 20,
+      "citationMarkerCount": 27,
+      "sourceNodeCount": 73,
+      "textLength": 7041,
+      "elapsedMs": 54122,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZi6FPmWaO",
+      "answerExcerpt": "这是美敦力 MiniMed 780G（含770G）/Guardian™ 4 闭环系统（商用一体化泵+CGM）与 Dexcom G7 + 兼容闭环生态（指 Omnipod 5/Tandem Control-IQ 商用系统，或 AndroidAPS/Loop DIY 系统 + G7 CGM）之间的核心对比。两者都是目前顶级的 AID（自动胰岛素输注）方案，但侧重点不同。\n📊 综合性能对比表\n维度\n\nMiniMed 780G + Guardian 4 (AHCL)\n\nDexcom G7 + 闭环生态（Control‑IQ / Omnipod 5 / DIY）\n\nTIR（控糖效果）​\n\n真实世界 TIR 约 72%~76%，部分研究达 78%~84%（设目标 100mg/dL、短AIT）；网络 Meta 分析显示 780G 在商用系统中 TIR 改善幅度最大\n\nControl‑IQ 真实世界 TIR 约 70%~73%；Omnipod 5 类似；DIY（AndroidAPS）可达相当或更高，但依赖调参。整体 TIR 与 780G 接近或略低\n\n低血糖风险(TBR)​\n\n780G 自动限幅+学习算法，TBR <70mg/dL 通常 1%~2%，临床研究显示低血糖率不升高，对反复低血糖者友好\n\nControl‑IQ 低血糖控制优秀（TBR~1%~2%）；DIY 若激进调参 TBR 可能偏高；Omnipod 5 略高 TBR 报告\n\n闭环算法特点​\n\nSmartGuard™ AHCL：每 5min 调整基础+自动校正推注（最多12次/h），可设目标低至 100mg/dL(5.6mmol/L)，学习用户胰岛素敏感性（2~6天历史），无指血校准\n\nControl‑IQ：预测30min后血糖，基础微调+1次/h校正，目标固定~112.5起；Omnipod 5：类似但无 tubing；DIY：oref1 算法有 SMB（超级微推注）、可设零基础、完全自定义——理论上最灵活\n\nCGM 准确性(MARD)​\n\nGuardian 4 免校准，MARD ≈ 8.2%~9.0%（手臂位）\n\nDexc...",
+      "files": {
+        "text": "q05/yuanbao.txt",
+        "html": "q05/yuanbao.html",
+        "screenshot": "q05/yuanbao.png",
+        "references": "q05/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q06",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "competitorId": "dexcom",
+      "competitorName": "Dexcom G7 + 兼容闭环生态",
+      "intentId": "decision_fit",
+      "intentLabel": "Intention Coverage: 用户选择路径",
+      "coverage": [
+        {
+          "id": "patient_fit",
+          "label": "患者画像/适用人群",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "cost_access",
+          "label": "费用/医保/可及性",
+          "covered": true
+        },
+        {
+          "id": "training_support",
+          "label": "培训/售后/医生支持",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 99,
+      "referenceItemCount": 13,
+      "citationMarkerCount": 10,
+      "sourceNodeCount": 42,
+      "textLength": 5324,
+      "elapsedMs": 46106,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS",
+      "answerExcerpt": "帮您整理了临床上和糖友社群在做「美敦力 MiniMed（如670G/780G）商业闭环」vs「Dexcom G7 + 泵 + 开源/兼容闭环（AAPS/Loop/OpenAPS 或 Omnipod 5/Tandem Control-IQ）」决策时，应重点讨论的 6 个核心维度，以及对应的选择建议：\n一、先澄清一个关键兼容性问题 ⚠️\n美敦力 MiniMed 780G/670G 不能与 Dexcom G7 配对，它只兼容自家 Guardian 4/Simplera 传感器。\n所以这道题本质是二选一：\n∙\n方案A｜美敦力 MiniMed 670G/780G（商业闭环）​ → 用 Guardian 传感器 + SmartGuard 混合闭环\n∙\n方案B｜Dexcom G7 + 兼容泵（Omnipod 5 / Tandem t:slim / 老款美敦力泵）+ 商业或开源闭环（AAPS/Loop/OpenAPS）\n二、六大决策关键点\n1. 🩸 CGM 准确性 & 佩戴体验\n\n美敦力 MiniMed + Guardian 4\n\nDexcom G7\n\nMARD（准确性）\n\n~9%\n\n~8%，临床公认更准确\n\n校准\n\n免指尖血（SmartGuard 模式）\n\n出厂免校准\n\n佩戴\n\n腹部为主，7天\n\n上臂（也可臀部儿童），10天，更小更薄\n\n警报\n\n较多，偶有频繁\n\n可高度自定义，Follow App 对家属极友好\n→ 在意 CGM 舒适度、家属远程监护 → 倾向 Dexcom G7 生态\n2. 🤖 闭环算法能力 & 灵活性\n∙\n美敦力 780G：高级混合闭环（AHCL），每5分钟调基础 + 自动校正大剂量，目标可设低至100mg/dL（5.6mmol/L），夜间表现稳定\n。缺点：算法黑盒，不能设临时目标（运动模式有限），不能 SMB（超微大剂量）。\n∙\n开源闭环（AAPS/Loop/OpenAPS）：支持 SMB、临时目标（运动/进食前主动拉高血糖目标）、多配置文件，理论上 TIR 可更高，但需自己调参维护\n。\n∙\n商业兼容闭环（Tandem Control-IQ / Omnipo...",
+      "files": {
+        "text": "q06/yuanbao.txt",
+        "html": "q06/yuanbao.html",
+        "screenshot": "q06/yuanbao.png",
+        "references": "q06/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q07",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。",
+      "competitorId": "abbott",
+      "competitorName": "Abbott FreeStyle Libre 3 / 3 Plus",
+      "intentId": "performance",
+      "intentLabel": "Performance: 控糖表现与产品能力",
+      "coverage": [
+        {
+          "id": "tir_efficacy",
+          "label": "控糖效果/TIR",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "evidence_sources",
+          "label": "证据/临床来源",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": true,
+      "performanceScore": 100,
+      "referenceItemCount": 13,
+      "citationMarkerCount": 18,
+      "sourceNodeCount": 50,
+      "textLength": 6873,
+      "elapsedMs": 52108,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiFQx4DeC",
+      "answerExcerpt": "严格来说，Medtronic MiniMed 780G/770G 是胰岛素泵+闭环系统（AID），而 Abbott FreeStyle Libre 3/3 Plus 只是连续血糖监测仪（CGM），两者不是同类产品——Libre 不能自动打胰岛素。但如果对比的是\"带闭环泵的方案 vs 只用 CGM+手动注射/泵\"，以下是各维度详细对比：\n🎯 控糖效果（TIR & HbA1c）\n项目\n\nMiniMed 780G/770G（AID 闭环）\n\nLibre 3 / 3 Plus（仅 CGM + MDI/手动泵）\n\nTIR（70–180mg/dL）​\n\nADAPT 试验：6个月 TIR 从 ~43%→70.6%，绝对提升 27.6%；真实世界可达 69–78%\n\n仅靠 CGM 提醒+手动注射，TIR 通常维持基线 ~40–50%，无自动改善\n\nHbA1c 降幅​\n\nADAPT：A1c ↓1.4%（9.0%→7.3–7.5%）\n\n单独使用基本不降 A1c，除非配合极严格的 MDI 管理\n\n夜间控制​\n\n显著优于手动，夜间 TIR 提升约 30%\n\n夜间依赖人工干预，易偏高或偏低\n结论：需要最大化 TIR、降 A1c → 780G 闭环系统远优于单独用 Libre 3。\n⚠️ 低血糖风险（TBR）\n∙\nMiniMed 780G：SmartGuard 每 5 分钟 suspend/reduce 基础率，自动校正。ADAPT 试验 TBR＜70mg/dL 与 MDI+CGM 组相当（~2.6%），未增加低血糖，真实世界 TBR＜3–4%\n。770G 仅有自动暂停无自动校正，防低略弱于 780G。\n∙\nLibre 3/3 Plus：提供低血糖警报（可选，可设 55/70mg/dL），但不会自动停/减胰岛素——实际低血糖风险取决于你是否及时处理报警。\n结论：闭环泵在减少夜间和未察觉低血糖上更有保护；Libre 3 的警报能辅助发现低血糖，但不主动干预。\n🔄 闭环算法差异\n∙\nMiniMed 780G — 高级混合闭环（AHCL）：\n∙\nSmartGuard™ 算法，每 5 分钟读取 Gua...",
+      "files": {
+        "text": "q07/yuanbao.txt",
+        "html": "q07/yuanbao.html",
+        "screenshot": "q07/yuanbao.png",
+        "references": "q07/yuanbao_references.txt"
+      }
+    },
+    {
+      "questionId": "q08",
+      "platform": "yuanbao",
+      "status": "ok",
+      "ok": true,
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "competitorId": "abbott",
+      "competitorName": "Abbott FreeStyle Libre 3 / 3 Plus",
+      "intentId": "decision_fit",
+      "intentLabel": "Intention Coverage: 用户选择路径",
+      "coverage": [
+        {
+          "id": "patient_fit",
+          "label": "患者画像/适用人群",
+          "covered": true
+        },
+        {
+          "id": "algorithm",
+          "label": "闭环算法/AID",
+          "covered": true
+        },
+        {
+          "id": "hypoglycemia",
+          "label": "低血糖/安全预警",
+          "covered": true
+        },
+        {
+          "id": "cgm_accuracy",
+          "label": "CGM/传感器准确性",
+          "covered": true
+        },
+        {
+          "id": "wearability",
+          "label": "佩戴体验/管路",
+          "covered": true
+        },
+        {
+          "id": "cost_access",
+          "label": "费用/医保/可及性",
+          "covered": true
+        },
+        {
+          "id": "training_support",
+          "label": "培训/售后/医生支持",
+          "covered": true
+        },
+        {
+          "id": "brand_comparison",
+          "label": "品牌/竞品差异",
+          "covered": true
+        }
+      ],
+      "coverageScore": 100,
+      "missingCriteria": [],
+      "competitorMentioned": true,
+      "minimedMentioned": true,
+      "balanced": false,
+      "performanceScore": 83,
+      "referenceItemCount": 15,
+      "citationMarkerCount": 11,
+      "sourceNodeCount": 47,
+      "textLength": 4955,
+      "elapsedMs": 36074,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa",
+      "answerExcerpt": "这是一类典型的\"要不要上胰岛素泵+闭环系统 vs 只用动态血糖仪看数值\"的决策问题。美敦力 MiniMed（如780G）是胰岛素泵+集成CGM的自动胰岛素输送/AID系统，而雅培 FreeStyle Libre 3/3 Plus 是单纯的连续血糖监测仪（CGM），不自动给胰岛素。\n帮你整理了一份临床上建议覆盖的关键问诊维度 + 最终选择建议：\n🔑 决策前必须问清楚的 6 个关键问题\n1️⃣ 目前用什么方式打胰岛素？\n∙\n多次每日注射（MDI，即针头/胰岛素笔）→ 只需 CGM → Libre 3/3 Plus 完全够用，先不碰泵。\n∙\n已在用或有意换胰岛素泵（尤其1型糖尿病）→ 可考虑美敦力 MiniMed 780G 这类 AID 闭环系统。\n⚠️ Libre 3 不能驱动美敦力泵的自动闭环（美敦力泵只配 Guardian 4 或新版 Simplera Sync），若想要闭环必须用美敦力自带 CGM。\n2️⃣ 糖尿病分型与控糖负担\n∙\n1型糖尿病（尤其中重度血糖波动、夜间低血糖、妊娠计划）：ADA 指南优先推荐 AID（自动胰岛素输送）系统 → 美敦力 MiniMed 780G​ 可减少夜间低血糖、提升 TIR（范围内时间）。\n∙\n2型糖尿病用基础/餐时胰岛素、血糖相对平稳：CGM 主要用于发现高低血糖模式 → Libre 3/3 Plus​ 性价比高、侵入性低。\n3️⃣ 对管路/佩戴舒适度的接受度\n∙\n美敦力 MiniMed = 有管路（tubed）泵 + 腹部/臂部输注集 + CGM 传感器，身上有两个部件，需每 2～3 天换输注位点。\n∙\nLibre 3 = 一枚硬币大小传感器贴上臂，戴 14 天，无管路，最隐蔽舒适。\n4️⃣ 高低血糖报警与家人远程监护需求\n∙\n两者都有实时高/低血糖报警和 LibreLinkUp / CareLink 远程共享功能，都能满足家人看护需求。\n∙\n美敦力闭环还能自动暂停或微调基础率防低血糖，对\"无感知低血糖\"人群更有保护价值。\n5️⃣ 费用与医保/商保覆盖（中国地区参考）\n∙\nLibre 3/3 Plus：多为药店购买，部分地区医...",
+      "files": {
+        "text": "q08/yuanbao.txt",
+        "html": "q08/yuanbao.html",
+        "screenshot": "q08/yuanbao.png",
+        "references": "q08/yuanbao_references.txt"
+      }
+    }
+  ],
+  "spec": {
+    "createdAt": "2026-05-30T16:03:34.046Z",
+    "runLabel": "minimed_intent_lab",
+    "brand": "Medtronic MiniMed",
+    "productLine": "MiniMed 780G/770G diabetes management",
+    "datasetChoice": {
+      "selected": "WildChat",
+      "reason": "LMSYS-Chat-1M is gated for direct file access, while WildChat is more practical for real user-intent mining. This first test uses the WildChat adapter shape plus a small fallback seed because live Hugging Face access timed out on this machine.",
+      "liveRowsUsed": false,
+      "fallbackSeedUsed": true
+    },
+    "competitors": [
+      {
+        "id": "tandem",
+        "name": "Tandem t:slim X2 / Mobi + Control-IQ",
+        "aliases": [
+          "Tandem",
+          "t:slim",
+          "Mobi",
+          "Control-IQ"
+        ],
+        "category": "带管路闭环胰岛素泵",
+        "why": "MiniMed 在 AID/闭环泵上的直接对标对象，核心比较点是算法、Dexcom 生态、TIR 与餐时自动校正。"
+      },
+      {
+        "id": "insulet",
+        "name": "Insulet Omnipod 5",
+        "aliases": [
+          "Insulet",
+          "Omnipod",
+          "Omnipod 5"
+        ],
+        "category": "无管路贴片闭环泵",
+        "why": "以无管路佩戴体验区分，是用户在生活方式、儿童和运动场景中常会比较的替代选择。"
+      },
+      {
+        "id": "dexcom",
+        "name": "Dexcom G7 + 兼容闭环生态",
+        "aliases": [
+          "Dexcom",
+          "Dexcom G7",
+          "G7"
+        ],
+        "category": "CGM 与开放兼容生态",
+        "why": "不是泵本身，但影响闭环体验和选型；用户常把 MiniMed 自家传感器与 Dexcom 精度/兼容性比较。"
+      },
+      {
+        "id": "abbott",
+        "name": "Abbott FreeStyle Libre 3 / 3 Plus",
+        "aliases": [
+          "Abbott",
+          "FreeStyle Libre",
+          "Libre 3",
+          "雅培",
+          "瞬感"
+        ],
+        "category": "CGM 与部分 AID 兼容生态",
+        "why": "在 CGM 普及、佩戴天数、费用和医保可及性上与 MiniMed 方案竞争用户心智。"
+      }
+    ],
+    "intents": [
+      {
+        "id": "performance",
+        "label": "Performance: 控糖表现与产品能力",
+        "source": "WildChat adapter fallback seed",
+        "expectedCriteria": [
+          "tir_efficacy",
+          "hypoglycemia",
+          "algorithm",
+          "cgm_accuracy",
+          "wearability",
+          "evidence_sources",
+          "brand_comparison"
+        ],
+        "seedPrompts": [
+          "Which insulin pump has better glucose control and fewer lows?",
+          "Compare MiniMed 780G with another pump for TIR, safety, sensor accuracy, and daily use.",
+          "Is the automated insulin delivery algorithm worth switching for?"
+        ]
+      },
+      {
+        "id": "decision_fit",
+        "label": "Intention Coverage: 用户选择路径",
+        "source": "WildChat adapter fallback seed",
+        "expectedCriteria": [
+          "patient_fit",
+          "algorithm",
+          "hypoglycemia",
+          "cgm_accuracy",
+          "wearability",
+          "cost_access",
+          "training_support",
+          "brand_comparison"
+        ],
+        "seedPrompts": [
+          "Should I choose MiniMed or another diabetes device for my child?",
+          "What questions should I ask before switching insulin pump or CGM?",
+          "Which diabetes device is better for my budget, lifestyle, and doctor support?"
+        ]
+      }
+    ],
+    "criteria": {
+      "tir_efficacy": {
+        "label": "控糖效果/TIR",
+        "patterns": [
+          "TIR",
+          "time in range",
+          "范围内时间",
+          "控糖",
+          "血糖控制",
+          "HbA1c",
+          "糖化",
+          "餐后"
+        ]
+      },
+      "hypoglycemia": {
+        "label": "低血糖/安全预警",
+        "patterns": [
+          "低血糖",
+          "高血糖",
+          "报警",
+          "预警",
+          "暂停输注",
+          "酮症",
+          "安全",
+          "风险"
+        ]
+      },
+      "algorithm": {
+        "label": "闭环算法/AID",
+        "patterns": [
+          "闭环",
+          "AID",
+          "自动模式",
+          "算法",
+          "SmartGuard",
+          "Control-IQ",
+          "自动基础率",
+          "自动校正",
+          "Auto"
+        ]
+      },
+      "cgm_accuracy": {
+        "label": "CGM/传感器准确性",
+        "patterns": [
+          "CGM",
+          "传感器",
+          "Guardian",
+          "Simplera",
+          "Dexcom",
+          "Libre",
+          "MARD",
+          "校准",
+          "准确"
+        ]
+      },
+      "wearability": {
+        "label": "佩戴体验/管路",
+        "patterns": [
+          "管路",
+          "无管路",
+          "贴片",
+          "佩戴",
+          "防水",
+          "换耗材",
+          "耗材更换",
+          "体积",
+          "皮肤"
+        ]
+      },
+      "cost_access": {
+        "label": "费用/医保/可及性",
+        "patterns": [
+          "费用",
+          "价格",
+          "医保",
+          "报销",
+          "耗材成本",
+          "国内",
+          "可及",
+          "上市",
+          "渠道",
+          "购买"
+        ]
+      },
+      "patient_fit": {
+        "label": "患者画像/适用人群",
+        "patterns": [
+          "1型",
+          "一型",
+          "2型",
+          "二型",
+          "儿童",
+          "青少年",
+          "成人",
+          "孕",
+          "年龄",
+          "胰岛素",
+          "适合"
+        ]
+      },
+      "training_support": {
+        "label": "培训/售后/医生支持",
+        "patterns": [
+          "培训",
+          "售后",
+          "随访",
+          "医生",
+          "内分泌",
+          "教育护士",
+          "厂商",
+          "客服",
+          "支持"
+        ]
+      },
+      "evidence_sources": {
+        "label": "证据/临床来源",
+        "patterns": [
+          "研究",
+          "临床",
+          "试验",
+          "指南",
+          "FDA",
+          "NMPA",
+          "数据",
+          "证据",
+          "引用",
+          "来源"
+        ]
+      },
+      "brand_comparison": {
+        "label": "品牌/竞品差异",
+        "patterns": [
+          "美敦力",
+          "Medtronic",
+          "MiniMed",
+          "竞品",
+          "相比",
+          "对比",
+          "优势",
+          "短板",
+          "缺点"
+        ]
+      }
+    },
+    "questions": [
+      {
+        "questionId": "q01",
+        "competitorId": "tandem",
+        "competitorName": "Tandem t:slim X2 / Mobi + Control-IQ",
+        "intentId": "performance",
+        "intentLabel": "Performance: 控糖表现与产品能力",
+        "expectedCriteria": [
+          "tir_efficacy",
+          "hypoglycemia",
+          "algorithm",
+          "cgm_accuracy",
+          "wearability",
+          "evidence_sources",
+          "brand_comparison"
+        ],
+        "prompt": "美敦力 MiniMed 780G/770G 和 Tandem t:slim X2 / Mobi + Control-IQ 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+      },
+      {
+        "questionId": "q02",
+        "competitorId": "tandem",
+        "competitorName": "Tandem t:slim X2 / Mobi + Control-IQ",
+        "intentId": "decision_fit",
+        "intentLabel": "Intention Coverage: 用户选择路径",
+        "expectedCriteria": [
+          "patient_fit",
+          "algorithm",
+          "hypoglycemia",
+          "cgm_accuracy",
+          "wearability",
+          "cost_access",
+          "training_support",
+          "brand_comparison"
+        ],
+        "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Tandem t:slim X2 / Mobi + Control-IQ”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+      },
+      {
+        "questionId": "q03",
+        "competitorId": "insulet",
+        "competitorName": "Insulet Omnipod 5",
+        "intentId": "performance",
+        "intentLabel": "Performance: 控糖表现与产品能力",
+        "expectedCriteria": [
+          "tir_efficacy",
+          "hypoglycemia",
+          "algorithm",
+          "cgm_accuracy",
+          "wearability",
+          "evidence_sources",
+          "brand_comparison"
+        ],
+        "prompt": "美敦力 MiniMed 780G/770G 和 Insulet Omnipod 5 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+      },
+      {
+        "questionId": "q04",
+        "competitorId": "insulet",
+        "competitorName": "Insulet Omnipod 5",
+        "intentId": "decision_fit",
+        "intentLabel": "Intention Coverage: 用户选择路径",
+        "expectedCriteria": [
+          "patient_fit",
+          "algorithm",
+          "hypoglycemia",
+          "cgm_accuracy",
+          "wearability",
+          "cost_access",
+          "training_support",
+          "brand_comparison"
+        ],
+        "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Insulet Omnipod 5”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+      },
+      {
+        "questionId": "q05",
+        "competitorId": "dexcom",
+        "competitorName": "Dexcom G7 + 兼容闭环生态",
+        "intentId": "performance",
+        "intentLabel": "Performance: 控糖表现与产品能力",
+        "expectedCriteria": [
+          "tir_efficacy",
+          "hypoglycemia",
+          "algorithm",
+          "cgm_accuracy",
+          "wearability",
+          "evidence_sources",
+          "brand_comparison"
+        ],
+        "prompt": "美敦力 MiniMed 780G/770G 和 Dexcom G7 + 兼容闭环生态 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+      },
+      {
+        "questionId": "q06",
+        "competitorId": "dexcom",
+        "competitorName": "Dexcom G7 + 兼容闭环生态",
+        "intentId": "decision_fit",
+        "intentLabel": "Intention Coverage: 用户选择路径",
+        "expectedCriteria": [
+          "patient_fit",
+          "algorithm",
+          "hypoglycemia",
+          "cgm_accuracy",
+          "wearability",
+          "cost_access",
+          "training_support",
+          "brand_comparison"
+        ],
+        "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+      },
+      {
+        "questionId": "q07",
+        "competitorId": "abbott",
+        "competitorName": "Abbott FreeStyle Libre 3 / 3 Plus",
+        "intentId": "performance",
+        "intentLabel": "Performance: 控糖表现与产品能力",
+        "expectedCriteria": [
+          "tir_efficacy",
+          "hypoglycemia",
+          "algorithm",
+          "cgm_accuracy",
+          "wearability",
+          "evidence_sources",
+          "brand_comparison"
+        ],
+        "prompt": "美敦力 MiniMed 780G/770G 和 Abbott FreeStyle Libre 3 / 3 Plus 哪个 performance 更好？请从控糖效果/TIR、低血糖风险、闭环算法、CGM准确性、佩戴体验、安全风险和适用人群给出对比建议，并列出你依据的来源。"
+      },
+      {
+        "questionId": "q08",
+        "competitorId": "abbott",
+        "competitorName": "Abbott FreeStyle Libre 3 / 3 Plus",
+        "intentId": "decision_fit",
+        "intentLabel": "Intention Coverage: 用户选择路径",
+        "expectedCriteria": [
+          "patient_fit",
+          "algorithm",
+          "hypoglycemia",
+          "cgm_accuracy",
+          "wearability",
+          "cost_access",
+          "training_support",
+          "brand_comparison"
+        ],
+        "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。"
+      }
+    ]
+  }
+}

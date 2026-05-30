@@ -1,0 +1,57 @@
+{
+  "questionId": "q06",
+  "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+  "createdAt": "2026-05-30T16:31:01.120Z",
+  "summary": [
+    {
+      "questionId": "q06",
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Dexcom G7 + 兼容闭环生态”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 917,
+        "afterLength": 914
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 46106,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与Dexcom闭环系统决策建议",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS",
+          "textLength": 3676,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 10,
+          "answerLineCount": 4,
+          "medtronicCount": 41,
+          "answerSignal": true,
+          "textTail": "需自购兼容旧泵、RileyLink（若有）等硬件。\n→ 优先考虑国内保修/耗材稳定 → 美敦力 MiniMed（670G 或等 780G 渠道）；愿海淘/有社群支持 → Dexcom G7 + 开源闭环或等 Omnipod 5/Tandem 国内上市\n6. 👨‍⚕️ 医患沟通 & 法律责任\n∙\n商业闭环（MiniMed/Tandem/Omnipod）→ 医生可合法处方、解读 CareLink/Clarity 数据，有厂家临床支持\n。\n∙\n开源闭环 → 多数地区无药监局审批，属 off-label 使用，部分医生不了解或不便在门诊指导参数，需依赖社群文档，须患者自愿承担风险\n。\n→ 希望内分泌科医生全程参与调参 → 商业闭环优先\n三、一句话选择建议\n您的情况\n\t\n推荐倾向\n\n\n1型糖尿病儿童/老人，家属希望省心、有售后保障\n\t\n✅ 美敦力 MiniMed 780G（如可及）或 Tandem+Omnipod 5 + Dexcom（如国内上市）\n\n\n青壮年1型，懂基础参数，追求最高 TIR 和灵活临时目标\n\t\n✅ Dexcom G7 + AAPS(Loop) + 兼容泵（老美敦力/Dana RS等）\n\n\n介意腹部 Guardian 传感器、想要上臂 CGM + 家属 Follow 功能\n\t\n✅ Dexcom G7 生态（商业或开源闭环）\n\n\n日胰岛素用量 >100U，需要大储药量\n\t\n✅ 美敦力 MiniMed 或 Tandem（tubed），慎选 Omnipod\n\n\n国内正规渠道、医保报销、中文售后最重要\n\t\n✅ 美敦力 MiniMed 670G（国内已上市）\n⚠️ 重要提示：以上为基于设备特性的决策参考，不是医疗处方。最终选择请结合您的具体病情（1型/2型、用量、肝肾功能）、当地耗材可及性及内分泌专科医生建议确定。开源闭环属未注册医疗设备，使用前请充分了解风险。\n如需我进一步对比具体型号（如 670G vs 780G，或 AAPS vs Loop 设置难度），可以继续问！\n源\n请提供美敦力670G与780G详细对比\n美敦力MiniMed 670G和780G哪个更适合夜间血糖控制？\n对于1型糖尿病患者，如何评估开源闭环系统的安全性和可靠性？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5324,
+      "htmlLength": 143354,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiB8XfpuS",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 10,
+      "referenceItemCount": 13,
+      "sourceNodeCount": 42
+    }
+  ]
+}

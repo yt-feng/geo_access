@@ -1,0 +1,57 @@
+{
+  "questionId": "q08",
+  "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+  "createdAt": "2026-05-30T16:32:53.487Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt": "如果用户正在考虑“美敦力 MiniMed 还是 Abbott FreeStyle Libre 3 / 3 Plus”，AI 回答应该覆盖哪些关键问题，才能帮助患者/家属/医生做决策？请按真实咨询意图给出选择建议。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 940,
+        "afterLength": 954
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 36074,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力与雅培设备选择建议",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa",
+          "textLength": 2552,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 11,
+          "answerLineCount": 0,
+          "medtronicCount": 36,
+          "answerSignal": true,
+          "textTail": "舒适。\n4️⃣ 高低血糖报警与家人远程监护需求\n∙\n两者都有实时高/低血糖报警和 LibreLinkUp / CareLink 远程共享功能，都能满足家人看护需求。\n∙\n美敦力闭环还能自动暂停或微调基础率防低血糖，对\"无感知低血糖\"人群更有保护价值。\n5️⃣ 费用与医保/商保覆盖（中国地区参考）\n∙\nLibre 3/3 Plus：多为药店购买，部分地区医保或商保可报，月花费通常较低。\n∙\nMiniMed 泵 + 耗材（管路+储药筒+CGM）：初始投入大（泵体数万元），多数城市职工医保/DME 渠道可部分报销，但需确认当地政策，后续每月耗材费较高。\n6️⃣ 学习能力和日常维护意愿\n∙\n泵需学习装药、设基础率、碳水比值、矫正系数、换管、处理报警 → 需要较强自我管理或家属协助。\n∙\nLibre 3 几乎开箱即用，手机 App 查看即可。\n✅ 最终选择建议速览\n情况\n\t\n推荐\n\n\n目前用胰岛素笔/针，只需要看血糖趋势、发现隐匿高低血糖​\n\t\n👉 Abbott FreeStyle Libre 3 / 3 Plus（单纯 CGM）\n\n\n1型糖尿病、希望自动调基础胰岛素、减少夜间低血糖、追求闭环管理​\n\t\n👉 美敦力 MiniMed 780G（+Guardian 4/Simplera Sync）AID 系统​\n\n\n介意带管路、不想频繁学设备操作、血糖靠 MDI 控制尚可\n\t\n👉 Libre 3/3 Plus，暂不泵\n\n\n已有或准备换无管路泵（Omnipod 5 / Tandem）→ 想闭环\n\t\n这两个都不匹配——应选配 Dexcom G7 或 Libre 3 Plus（视泵兼容性），非美敦力泵本身\n💡 重要提示：具体选择请结合内分泌科/糖尿病教育护士的评估，尤其是泵的基础率参数设置需专业团队协助初始化。本文仅供决策参考，不构成医疗处方建议。\n如果你愿意告诉我患者是 1 型/2 型、目前用针还是泵、有无夜间低血糖、大致年龄段，我可以再帮你细化到具体型号和后续步骤（如怎么找医院开处方、国内大致费用）。\n源\n请提供美敦力780G官网链接\n美敦力MiniMed 780G的TIR目标是多少？\n能否详细说明一下1型糖尿病患者使用AID系统的具体效果数据？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4955,
+      "htmlLength": 144167,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NZiKB1DMYa",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 11,
+      "referenceItemCount": 15,
+      "sourceNodeCount": 47
+    }
+  ]
+}
