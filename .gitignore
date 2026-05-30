@@ -13,3 +13,9 @@ user-data-dir/
 Thumbs.db
 .idea/
 .vscode/
+
+# Large external datasets are downloaded locally and should not be pushed.
+data/.hf_cache/
+data/wildchat/raw/
+data/wildchat/extracted/
+data/WildChat/

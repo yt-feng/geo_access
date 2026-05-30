@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WildChat 购买/选择意图经典范式</title>
+  <style>
+    :root {
+      --bg:#f6f7f9;
+      --panel:#ffffff;
+      --line:#dfe5ec;
+      --text:#1f2933;
+      --muted:#667381;
+      --accent:#176b87;
+      --accent2:#7a4d16;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; line-height:1.56; }
+    header { background:var(--panel); border-bottom:1px solid var(--line); padding:32px 40px 24px; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:0; }
+    header p { margin:0; color:var(--muted); max-width:920px; }
+    main { padding:24px 40px 48px; max-width:1280px; margin:0 auto; }
+    .metrics-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-bottom:16px; }
+    .metric, .takeaways, .archetype { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; }
+    .metric span, .eyebrow { color:var(--muted); font-size:12px; text-transform:uppercase; }
+    .metric strong { display:block; font-size:30px; margin-top:2px; color:var(--accent); }
+    .takeaways { margin-bottom:16px; }
+    .takeaways h2, .archetype h2 { margin:0; }
+    .takeaways ul { margin:10px 0 0; padding-left:20px; }
+    .archetype { margin-bottom:16px; }
+    .row { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; }
+    .row strong { color:var(--accent); font-size:28px; }
+    .pattern { margin:12px 0; padding:10px 12px; border-left:4px solid var(--accent); background:#eef6f8; }
+    .twocol { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    h3 { margin:14px 0 6px; font-size:14px; color:#314252; }
+    p { margin:0; }
+    .domains { color:var(--muted); margin-top:12px; font-size:13px; }
+    ol { margin:6px 0 0; padding-left:22px; }
+    li { margin:5px 0; }
+    .examples li span { display:inline-block; color:var(--accent2); min-width:96px; font-size:12px; }
+    .small { grid-template-columns:repeat(4,minmax(0,1fr)); margin:6px 0 0; }
+    .small div { border:1px solid var(--line); border-radius:8px; padding:10px; background:#fbfcfd; }
+    .small b { font-size:13px; }
+    .small p { color:var(--muted); font-size:13px; margin-top:4px; }
+    @media (max-width: 860px) {
+      header, main { padding-left:18px; padding-right:18px; }
+      .metrics-grid, .twocol, .small { grid-template-columns:1fr; }
+      h1 { font-size:24px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WildChat 购买/选择意图经典范式</h1>
+    <p>从真实 WildChat 用户问法中抽取跨行业购买、选择、风险、渠道和售后范式，并映射为 Medtronic/MiniMed GEO 监测 prompt。该报告用于 prompt 设计，不等同于全量统计结论。</p>
+  </header>
+  <main>
+    <section class="metrics-grid">
+      <div class="metric"><span>Conversations</span><strong>100001</strong></div>
+      <div class="metric"><span>User turns</span><strong>277976</strong></div>
+      <div class="metric"><span>Buyer matches</span><strong>833</strong></div>
+      <div class="metric"><span>Samples</span><strong>130</strong></div>
+    </section>
+    <section class="takeaways">
+      <h2>核心结论</h2>
+      <ul><li>购买意图不是一个问题，而是一条从需求定义、候选发现、比较、价格、风险、渠道到售后的决策链。</li><li>AI 回答最容易影响品牌的时刻，是用户尚未点名品牌、只问品类推荐或选择标准的时候。</li><li>对医疗器械品牌，风险/安全问法既是劝退风险，也是建立信任的关键证据入口。</li><li>GEO 监测不应只问品牌词，还要覆盖非品牌泛问、竞品对比、替代方案和行动路径。</li></ul>
+    </section>
+    
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">认知前段</span>
+              <h2>需求定义与场景澄清</h2>
+            </div>
+            <strong>9</strong>
+          </div>
+          <p class="pattern">我有一个任务/疾病/预算/场景，应该看什么品类或方案？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户还没锁定品牌，先让 AI 帮他定义问题、拆指标、给选择路径。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>如果 AI 的选型指标不包含品牌优势，品牌会在用户形成候选清单前被排除。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：医疗健康 3 / 软件/AI/工具 2 / 通用/其他 2 / 家居/生活方式 1 / 汽车/出行 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？</li><li>医生建议我了解 MiniMed 780G，我应该从哪些标准判断是否适合？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>品类泛问下是否主动出现 MiniMed/美敦力。</p></div><div><b>认知准确度</b><p>是否把闭环泵、CGM、注射方案边界说清。</p></div><div><b>证据纳入度</b><p>是否引用指南、说明书、监管和临床证据。</p></div><div><b>推荐转化力</b><p>是否给出医生咨询、适用人群和下一步。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>医疗健康</span>what should i consider when taking venvanse? what do you have to say about dependence? can i take it every other day? and your getting the medicine without a prescription?</li><li><span>医疗健康</span>can you explain in what consist biossimilar medicines, compare them in terms of regulatory settings both in the EMA and the FDA settings, give examples of biossimilar medicine studies requirements in the last 5 years? please elaborate also on the concepts of switching and interchangeability.</li><li><span>医疗健康</span>Hello, ChatGPT. I am planning to buy some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 capsules the same thing? 2) Where should I but it - on the Amazon (or other online marketplace) or in a pharmacy? 3) How do I choose a good one? What should I pay attention to?</li><li><span>家居/生活方式</span>如何选择跟家居有关的限量版和独特性的产品，给出10个英国受欢迎的网站</li><li><span>汽车/出行</span>what are the minimum requirements for a good quality audio inside a car?</li><li><span>软件/AI/工具</span>股权支付权益结算工具 现金结算的原则 或有事项的概念和特征 预计负债最佳估计数和补偿金额的确定（其他应收款，可不对冲,不可超过相关预计负债的金额） 未决诉讼和亏损合同的相关规定 金融工具的概念（四个关键词）-金融工具、金融资产、金融负债和权益工具 金融工具的分类—衍生金融工具的类型===（直接看选择吧） 衍生金融工具包括远期合同、期货合同、互换和期权，以及具有远期合同、期货合同、互换和期权中一种或一种以上特征的工具。期权是一最典型的衍生工具。 政府补助的定义和特征 政府补助的判定-交易和事项是否属于政府补助 政府补助的主要形式（增值税即征即税）税收返还在内 与收益相关的政府补助的会计处理，核算的过程中涉及到（其他收益）--其它收益的科目怎么使用 非货币性资产交换概念（20%,25%,刚好等于25%的时候） 非货币性资产的会计处理，公允价值计量的会计处理（商业实质） 以账面价值计量的会计处理（不具有商业实质） 债务重组的会计处理，以资产清偿债务（无形资产） 债务转为权益工具（债权人、债务人怎么处理） 所得税核算程序—暂时性差异的理解（应纳税，可抵扣）计税基础和账面价值的不同 负债的计算基础—其他应付款的计税基础 外币处理（账务处理） 外币交易会计处理的两种观点，重点关注两项交易观 外币交易的会计处理(接受投资、期末调整)实收资本、股本怎么选择，短期借款，应收账款。。 外币报表的折算方法（哪些采用 交易发生日的即期汇率来处理） 两项交易观下，外币资产的购销业务</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">找得到</span>
+              <h2>品类推荐与候选清单</h2>
+            </div>
+            <strong>134</strong>
+          </div>
+          <p class="pattern">请推荐几个最适合我的产品/品牌/服务。</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户把 AI 当成导购和榜单入口，希望直接得到优先级。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>品牌如果没有进入第一梯队，后续比较、价格和风险讨论都不会发生。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：软件/AI/工具 6 / 消费电子 4 / 通用/其他 3 / 医疗健康 2 / 教育/职业 2</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？</li><li>给1型糖尿病患者推荐闭环胰岛素泵系统，MiniMed、Omnipod、Tandem、Dexcom/Libre 该怎么排？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>推荐榜单中是否进入第一梯队。</p></div><div><b>认知准确度</b><p>推荐理由是否对应真实产品能力。</p></div><div><b>证据纳入度</b><p>是否有权威来源支撑推荐排序。</p></div><div><b>推荐转化力</b><p>是否愿意把 MiniMed 作为明确候选。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>医疗健康</span>which is the best brand of omega 3 supplement?</li><li><span>软件/AI/工具</span>what do you recommend books for software programming</li><li><span>通用/其他</span>I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?</li><li><span>通用/其他</span>how to improve the independent critical thinking capability? Please recommend a book as well.</li><li><span>软件/AI/工具</span>需要做一个背景生成+选定商品贴图的自动化工具，有什么推荐的吗？</li><li><span>软件/AI/工具</span>We do all those things. We also run a cloud based software to keep track of all appointments, services, records, and payments. Anything you can recommend for better Google ads performance? Facebook has had a great return on investment. We have thrown hundreds of dollars away with Google with 0 results</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">说得对</span>
+              <h2>横向比较与二选一</h2>
+            </div>
+            <strong>47</strong>
+          </div>
+          <p class="pattern">A 和 B 哪个更好？有什么区别？我应该选哪个？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户已经有候选，需要 AI 做同类边界、优劣势和适用人群判断。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>AI 容易混淆代际、适应症、可用地区或把非同类产品当直接竞品。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：软件/AI/工具 8 / 通用/其他 5 / 消费电子 2 / 医疗健康 1 / 家居/生活方式 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？</li><li>MiniMed、Omnipod 5、Dexcom G7、FreeStyle Libre 之间是直接竞品吗？分别适合什么人？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>竞品对比中品牌是否被完整提及。</p></div><div><b>认知准确度</b><p>是否混淆泵、CGM、算法、地区上市状态。</p></div><div><b>证据纳入度</b><p>是否给出官方/临床/监管证据。</p></div><div><b>推荐转化力</b><p>是否给出分人群选择结论。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>通用/其他</span>针对你的方案我有几点想和你讨论：1.我打算购买独立显卡，所以不需要5600x，是不是买不带集成显卡的5600会更好一些？2.3060Ti的价格和性能，与6800相比如何？3.电源、主板是否可以考虑更好的拓展性？ 比如A620主板价格便宜，并且将来能在5600x的基础上升级未来可能的9600显卡？</li><li><span>消费电子</span>can you give me an idea how long a laptop would take to render on blender vs a pc? use roughly average or a little above average specs for each</li><li><span>软件/AI/工具</span>is there some kinda standard or method that people use to benchmark computers for blender rendering? any commonly used software or commonly rendered scenes that people generally use to compare computers?</li><li><span>医疗健康</span>can you explain in what consist biossimilar medicines, compare them in terms of regulatory settings both in the EMA and the FDA settings, give examples of biossimilar medicine studies requirements in the last 5 years? please elaborate also on the concepts of switching and interchangeability.</li><li><span>通用/其他</span>1. Obtain the price of a European type put option with ?? = 0.1, ?? = 0.15, ?? = 0.4, ?? = 90, ?? = 100 and ?? = 2. b. Calculate the ‘exact’ value using the Black Scholes Formula. c. Make a table of error vs Number of Sample Paths in python. You may use the best technique to solve the problems most accurately. Make sure your answers are up to the mark for this quantitative finance question.</li><li><span>通用/其他</span>Can you do a price comparison between them all?</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">愿推荐</span>
+              <h2>是否值得购买/采用</h2>
+            </div>
+            <strong>10</strong>
+          </div>
+          <p class="pattern">我该不该买？值不值得？是否应该采用这个方案？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户希望 AI 给出结论性建议，并说明为什么现在买或不买。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>回答如果只有风险提示、没有适合人群和下一步，会降低转化信心。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：通用/其他 5 / 汽车/出行 3 / 软件/AI/工具 1 / 消费电子 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？</li><li>医生建议我使用美敦力 MiniMed，我要不要采用？请给出推荐结论和风险边界。</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>用户问要不要用时品牌露出是否靠前。</p></div><div><b>认知准确度</b><p>是否准确解释适合/不适合场景。</p></div><div><b>证据纳入度</b><p>是否用证据平衡价格、风险和疗效。</p></div><div><b>推荐转化力</b><p>是否形成明确、不过度的采用建议。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>通用/其他</span>What soft drink should I buy to focus more in class?</li><li><span>通用/其他</span>how many blank shirts, hoodies and hats should I buy of each size?</li><li><span>汽车/出行</span>My preference is to buy the car that you tell me to buy. Which car should I buy?</li><li><span>通用/其他</span>Is it worthwhile buying a cheap 1970s Bentley and maintaining it, or should I buy something else?</li><li><span>通用/其他</span>what si the general publics opinon on samsung nx1000 lenses. should i buy another lens and what are some really good cheap options atleast under 50</li><li><span>汽车/出行</span>You are my research. Which car should I buy?</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">转化阻力</span>
+              <h2>价格、预算与长期成本</h2>
+            </div>
+            <strong>390</strong>
+          </div>
+          <p class="pattern">多少钱？贵不贵？预算内划算吗？长期成本如何？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户不是只问标价，还在问总拥有成本、耗材、保险/报销和替代方案。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>AI 如果缺少成本构成或医保/保险边界，容易把用户导向低价替代。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：通用/其他 9 / 汽车/出行 3 / 金融/商业采购 2 / 软件/AI/工具 2 / 旅行/本地服务 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？</li><li>如果预算有限，MiniMed 与 Omnipod/Tandem/单独CGM方案相比，长期成本和价值怎么判断？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>价格讨论中是否保留品牌价值点。</p></div><div><b>认知准确度</b><p>是否覆盖泵、传感器、耗材、培训和报销。</p></div><div><b>证据纳入度</b><p>是否标明价格来源和地区差异。</p></div><div><b>推荐转化力</b><p>是否避免只因高价导向竞品。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>金融/商业采购</span>how to price a new insurance risk and design insurance product when there is lack of data available?</li><li><span>旅行/本地服务</span>where in the UK has residential property with the greatest potential for price growth?</li><li><span>教育/职业</span>What is the price of the course by david sullivan &quot;the go to physio&quot; mentorship program?</li><li><span>通用/其他</span>I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?</li><li><span>金融/商业采购</span>What are the current market trends in Egypt&#x27;s telecommunications? What are all the businesses in that kind of market/industry doing in terms of their 4PS (Product Price Place Promotion)? Are there new technologies that everyone is following/ are expected to follow in the following years?</li><li><span>汽车/出行</span>Can you convert this into a short text? Option 3. Appointment requested / mentioned but not set Caller asked about a service appointment but did not agree to an appointment. Example call - Caller: &quot;I need to bring my car in for some routine service.&quot;// Receptionist or agent: &quot;We can fit you in tomorrow morning.&quot;// Caller: &quot;That won&#x27;t work for me. I need to get it serviced today.&quot; // Call ends. Example call - Caller: &quot;I want to get my motor oil replaced. How much do you charge for that?&quot; // Price is provided and appointment requested. // Caller: &quot;Oh, that&#x27;s too much. I&#x27;m not interested. Thanks.&quot;</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">信任建立</span>
+              <h2>风险、安全与信任</h2>
+            </div>
+            <strong>41</strong>
+          </div>
+          <p class="pattern">安全吗？可靠吗？有没有负面新闻、召回、副作用或隐私风险？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户在寻找劝退因素，也在寻找风险可控的证据。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>风险表述失衡会直接劝退；证据不足会让品牌资产变成空泛口碑。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：通用/其他 9 / 消费电子 4 / 软件/AI/工具 2 / 家居/生活方式 1 / 金融/商业采购 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？</li><li>美敦力 MiniMed 的传感器准确性、低血糖风险、报警和售后问题应该如何评估？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>风险问法中是否仍能呈现品牌资产。</p></div><div><b>认知准确度</b><p>召回、安全、准确性是否表述准确。</p></div><div><b>证据纳入度</b><p>是否纳入官方安全通告和监管资料。</p></div><div><b>推荐转化力</b><p>是否把风险和缓释方式一起讲清。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>通用/其他</span>What is the best cheap and reliable mobile service provider in Canada?</li><li><span>通用/其他</span>What is the most reliable, best gas mileage, suv that is available to purchase and where should it be purchased from</li><li><span>通用/其他</span>How much reliable is the brand EssGoo?</li><li><span>通用/其他</span>What is Windows Safe Mode used for? 1. For safe cleaning of hard disk contents 2 .To switch your computer to low power mode 3. To identify and fix a problem in Windows 4. To clear the device before transferring it to another user</li><li><span>家居/生活方式</span>将下面的文字改的更加流畅、容易引起共情、充满温暖和希望的感觉：当发生灾难时，我们希望每一个人都得到救援。如果能够对受害者的统计数量有全面并精准的把握，会对有效的分派援助资源带来很大的帮助（尤其是在资源十分有限的情况下）。这些数字可能并不仅仅是官方渠道公布的那么简单，受伤、流离失所或受虐待的受害者的详细计数都需要被关注。 这篇文章将受害者提取看做问答任务，并分析了这种方法的可靠性。同时，也贴心的为大家提供了更多的建议：在什么情况下推荐使用哪个方法来提取数据会更高效。</li><li><span>金融/商业采购</span>What are the most important benefits of using Virtual Reality in business training? high video resolutions and ultra-realistic graphics increased memory retention and decreased cost collecting users&#x27; personal data for marketing purposes compliance with travel and security regulations</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">防流失</span>
+              <h2>替代方案与平替</h2>
+            </div>
+            <strong>3</strong>
+          </div>
+          <p class="pattern">如果不选它，还有什么替代方案？有没有便宜/简单/更适合的选择？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户在验证目标品牌是否必要，或寻找更低摩擦替代。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>AI 如果把替代方案讲得更完整，本品牌会丢失清晰的适用边界。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：软件/AI/工具 2 / 家居/生活方式 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？</li><li>MiniMed 与单独使用 Dexcom/Libre CGM 加手动注射相比，分别适合什么人？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>替代方案中是否保留 MiniMed 适用边界。</p></div><div><b>认知准确度</b><p>是否区分直接替代和部分替代。</p></div><div><b>证据纳入度</b><p>替代品对比是否有同口径证据。</p></div><div><b>推荐转化力</b><p>是否说明何时仍应优先考虑 MiniMed。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>家居/生活方式</span>了解国内天然气价格机制，包括用气成本，气源结构，政策改革历程 欧洲天然气消费和替代方案倾向 该找那一方面的专家了解这类问题</li><li><span>软件/AI/工具</span>Is there alternatives to the software Tilesetter ?</li><li><span>软件/AI/工具</span>windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">行动路径</span>
+              <h2>购买渠道与可获得性</h2>
+            </div>
+            <strong>33</strong>
+          </div>
+          <p class="pattern">在哪里可以买到/咨询？是否上市？哪个地区可用？渠道是否正规？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户要把建议落地，需要官方、医院、授权经销商或本地可及性信息。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>AI 给错渠道、灰色渠道或地区可用性，会造成转化流失和合规风险。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：通用/其他 12 / 金融/商业采购 2 / 软件/AI/工具 2 / 旅行/本地服务 1 / 家居/生活方式 1</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？</li><li>如何判断 MiniMed 相关耗材、传感器和售后服务是不是官方或授权渠道？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>行动路径中是否出现官方/授权渠道。</p></div><div><b>认知准确度</b><p>渠道、地区、上市状态是否准确。</p></div><div><b>证据纳入度</b><p>是否引用官方网站、医院或授权体系。</p></div><div><b>推荐转化力</b><p>是否给出安全可执行的咨询路径。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>通用/其他</span>Where can I buy these protein donuts? What is the name of the brand? I know that they were for sale in 2019.</li><li><span>旅行/本地服务</span>Where can i buy residential freehold property in the UK for under £30,000</li><li><span>通用/其他</span>Where to buy the best ring for wedding in Portugal</li><li><span>通用/其他</span>how about lenses, where can i buy them and how much do tehy usually cosst euros</li><li><span>通用/其他</span>假设你是一个专业的产品经理，在做一个新产品的销售企划。该产品属于V1阶段，需要先在部分渠道进行试销后判断是否继续开发，为了让销售团队配合产品试销，制作一份说明资料需要包含哪些内容？</li><li><span>通用/其他</span>假设你是一个专业的产品经理，在做一个新产品的销售企划。该产品属于V1阶段，需要先在部分渠道进行试销后判断是否继续开发，为了让销售团队配合产品试销，制作一份项目管理说明资料需要包含哪些内容？</li></ol>
+        </section>
+        
+        <section class="archetype">
+          <div class="row">
+            <div>
+              <span class="eyebrow">使用保障</span>
+              <h2>安装、培训、维护与售后</h2>
+            </div>
+            <strong>75</strong>
+          </div>
+          <p class="pattern">买后怎么安装、培训、保修、退换、维护和处理故障？</p>
+          <div class="twocol">
+            <div>
+              <h3>真实需求</h3>
+              <p>用户在评估采用后的真实使用成本和服务责任。</p>
+            </div>
+            <div>
+              <h3>GEO 风险</h3>
+              <p>AI 如果说不清医院、厂家、经销商的责任边界，会削弱医疗器械信任。</p>
+            </div>
+          </div>
+          <p class="domains">样本领域：通用/其他 6 / 消费电子 4 / 软件/AI/工具 3 / 家居/生活方式 2 / 金融/商业采购 2</p>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3>
+          <ol class="prompts"><li>使用 MiniMed 780G 前需要哪些安装、培训和医生随访？</li><li>MiniMed 泵、传感器、输注管路和耗材出现问题时，售后和故障处理路径是什么？</li></ol>
+          <h3>四项核心指标映射</h3>
+          <div class="metrics-grid small"><div><b>答案可见度</b><p>售后场景中是否关联官方服务能力。</p></div><div><b>认知准确度</b><p>培训、耗材、故障、责任边界是否准确。</p></div><div><b>证据纳入度</b><p>是否纳入说明书、售后政策、官方材料。</p></div><div><b>推荐转化力</b><p>是否降低采用后的不确定性。</p></div></div>
+          <h3>WildChat 真实问法样例</h3>
+          <ol class="examples"><li><span>家居/生活方式</span>Can I buy a trailer that has a battery, charge controller, solar panel and a wind turbine? I want to install it in my garden and connect it up to my house and take it with me if I move house</li><li><span>消费电子</span>What is the camera setup of the Samsung Galaxy Note 20 Ultra?</li><li><span>软件/AI/工具</span>windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？</li><li><span>通用/其他</span>What is best setup for Agleron Algo BUY SELL RIBBON SEMAPHORE SR. BY Agleron</li><li><span>消费电子</span>你觉得，为了在本地电脑上搭建一个笔记网站，安装 Windows Server、Apache HTTP Server、PHP 并搭建 WordPress 值得吗？</li><li><span>消费电子</span>What are the same features for iOS and Android smartphones? The user can install the application from a pre-downloaded installation file User data can be stored in the cloud The fingerprint scanner can be integrated under the display Voice assistant allows you to use your smartphone more conveniently You can determine your phone&#x27;s location using the online service There is a special messenger for users of this platform</li></ol>
+        </section>
+        
+  </main>
+</body>
+</html>

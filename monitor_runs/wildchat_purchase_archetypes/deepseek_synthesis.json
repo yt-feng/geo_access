@@ -1,0 +1,451 @@
+{
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 8361,
+    "completion_tokens": 4281,
+    "total_tokens": 12642,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 8361
+  },
+  "analysis": {
+    "executive_summary": [
+      "归纳9个购买决策范式，覆盖认知前段到售后",
+      "每个范式映射到Medtronic/MiniMed监测prompt",
+      "丢弃考试题、改写任务、代码实现等噪音样本"
+    ],
+    "methodology_note": "基于WildChat 100k对话，正则预过滤，人工审核130条候选样本，归纳稳定问法并映射到GEO监测",
+    "archetypes": [
+      {
+        "id": "need_framing",
+        "label": "需求定义与场景澄清",
+        "decision_stage": "认知前段",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "我应该考虑哪些因素？",
+          "如何选择适合我的方案？",
+          "有什么标准来判断？"
+        ],
+        "what_user_really_needs": [
+          "用户尚未锁定品牌，需要AI帮助定义问题、拆解指标、给出选择路径"
+        ],
+        "purchase_considerations": [
+          "指标是否包含品牌优势",
+          "是否给出筛选标准"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "医疗健康",
+            "text": "what should i consider when taking venvanse? what do you have to say about dependence? can i take it every other day? and your getting the medicine without a prescription?"
+          },
+          {
+            "domain": "医疗健康",
+            "text": "Hello, ChatGPT. I am planning to buy some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 capsules the same thing? 2) Where should I but it - on the Amazon (or other online marketplace) or in a pharmacy? 3) How do I choose a good one? What should I pay attention to?"
+          },
+          {
+            "domain": "汽车/出行",
+            "text": "what are the minimum requirements for a good quality audio inside a car?"
+          }
+        ],
+        "noise_to_exclude": [
+          "考试题",
+          "改写任务",
+          "代码实现"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？",
+          "医生建议我了解 MiniMed 780G，我应该从哪些标准判断是否适合？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否出现在指标清单中",
+          "认知准确度": "指标是否覆盖品牌核心优势",
+          "证据纳入度": "是否引用临床证据或指南",
+          "推荐转化力": "是否引导用户进一步比较"
+        }
+      },
+      {
+        "id": "category_recommendation",
+        "label": "品类推荐与候选清单",
+        "decision_stage": "找得到",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "推荐几个最好的品牌/产品",
+          "哪个品牌最好？",
+          "有什么推荐？"
+        ],
+        "what_user_really_needs": [
+          "用户将AI视为导购，希望直接获得优先级排序"
+        ],
+        "purchase_considerations": [
+          "品牌是否进入第一梯队",
+          "推荐是否基于用户场景"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "医疗健康",
+            "text": "which is the best brand of omega 3 supplement?"
+          },
+          {
+            "domain": "通用/其他",
+            "text": "I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?"
+          },
+          {
+            "domain": "消费电子",
+            "text": "送给父母的手机有哪些推荐？要求：屏幕较大，电池容量较大，价格4000人民币以内，请推荐"
+          }
+        ],
+        "noise_to_exclude": [
+          "非购买推荐（如书籍、软件）",
+          "商业推广内容"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？",
+          "给1型糖尿病患者推荐闭环胰岛素泵系统，MiniMed、Omnipod、Tandem、Dexcom/Libre 该怎么排？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否出现在推荐列表中",
+          "认知准确度": "推荐是否匹配用户病情和需求",
+          "证据纳入度": "是否引用临床数据或指南",
+          "推荐转化力": "是否给出明确优先级"
+        }
+      },
+      {
+        "id": "compare_options",
+        "label": "横向比较与二选一",
+        "decision_stage": "说得对",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "A和B哪个更好？",
+          "有什么区别？",
+          "我应该选哪个？"
+        ],
+        "what_user_really_needs": [
+          "用户已有候选，需要AI进行同类边界、优劣势和适用人群判断"
+        ],
+        "purchase_considerations": [
+          "比较是否基于相同维度",
+          "是否区分适用人群"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "通用/其他",
+            "text": "针对你的方案我有几点想和你讨论：1.我打算购买独立显卡，所以不需要5600x，是不是买不带集成显卡的5600会更好一些？2.3060Ti的价格和性能，与6800相比如何？3.电源、主板是否可以考虑更好的拓展性？ 比如A620主板价格便宜，并且将来能在5600x的基础上升级未来可能的9600显卡？"
+          },
+          {
+            "domain": "消费电子",
+            "text": "can you give me an idea how long a laptop would take to render on blender vs a pc? use roughly average or a little above average specs for each"
+          },
+          {
+            "domain": "通用/其他",
+            "text": "Can you do a price comparison between them all?"
+          }
+        ],
+        "noise_to_exclude": [
+          "纯技术参数对比",
+          "非购买决策比较"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？",
+          "MiniMed、Omnipod 5、Dexcom G7、FreeStyle Libre 之间是直接竞品吗？分别适合什么人？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否被纳入比较",
+          "认知准确度": "比较维度是否准确",
+          "证据纳入度": "是否引用临床证据",
+          "推荐转化力": "是否给出明确选择建议"
+        }
+      },
+      {
+        "id": "should_buy_worth",
+        "label": "是否值得购买/采用",
+        "decision_stage": "愿推荐",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "值不值得买？",
+          "我该不该买？",
+          "是否应该采用？"
+        ],
+        "what_user_really_needs": [
+          "用户希望AI给出结论性建议，并说明理由"
+        ],
+        "purchase_considerations": [
+          "回答是否包含适合人群和风险边界",
+          "是否给出明确结论"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "通用/其他",
+            "text": "Is it worthwhile buying a cheap 1970s Bentley and maintaining it, or should I buy something else?"
+          },
+          {
+            "domain": "汽车/出行",
+            "text": "My preference is to buy the car that you tell me to buy. Which car should I buy?"
+          },
+          {
+            "domain": "消费电子",
+            "text": "lebook二合一电脑的质量怎样？耐用吗？值得入手不"
+          }
+        ],
+        "noise_to_exclude": [
+          "股票投资建议",
+          "非购买决策"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？",
+          "医生建议我使用美敦力 MiniMed，我要不要采用？请给出推荐结论和风险边界。"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否被推荐",
+          "认知准确度": "推荐理由是否准确",
+          "证据纳入度": "是否引用临床证据",
+          "推荐转化力": "是否给出明确购买建议"
+        }
+      },
+      {
+        "id": "price_value",
+        "label": "价格、预算与长期成本",
+        "decision_stage": "转化阻力",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "多少钱？",
+          "预算内划算吗？",
+          "长期成本如何？"
+        ],
+        "what_user_really_needs": [
+          "用户关注总拥有成本、耗材、保险/报销和替代方案"
+        ],
+        "purchase_considerations": [
+          "是否包含成本构成",
+          "是否考虑医保/保险"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "通用/其他",
+            "text": "I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?"
+          },
+          {
+            "domain": "汽车/出行",
+            "text": "selling my tesla and buying a new one at the new price wouldnt really matter right?"
+          },
+          {
+            "domain": "软件/AI/工具",
+            "text": "would it be cost effective or practical to run blender software on amazon web services?"
+          }
+        ],
+        "noise_to_exclude": [
+          "纯定价理论",
+          "非购买成本问题"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？",
+          "如果预算有限，MiniMed 与 Omnipod/Tandem/单独CGM方案相比，长期成本和价值怎么判断？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否被提及价格",
+          "认知准确度": "价格信息是否准确",
+          "证据纳入度": "是否引用官方定价或保险信息",
+          "推荐转化力": "是否给出性价比判断"
+        }
+      },
+      {
+        "id": "risk_trust",
+        "label": "风险、安全与信任",
+        "decision_stage": "信任建立",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "安全吗？",
+          "可靠吗？",
+          "有没有负面新闻？"
+        ],
+        "what_user_really_needs": [
+          "用户寻找劝退因素，也寻找风险可控的证据"
+        ],
+        "purchase_considerations": [
+          "风险表述是否平衡",
+          "是否提供证据"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "通用/其他",
+            "text": "What is the best cheap and reliable mobile service provider in Canada?"
+          },
+          {
+            "domain": "通用/其他",
+            "text": "How much reliable is the brand EssGoo?"
+          },
+          {
+            "domain": "通用/其他",
+            "text": "what is the cheapest and reliable mobile service provider in the country of canada"
+          }
+        ],
+        "noise_to_exclude": [
+          "技术故障排查",
+          "非购买风险问题"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？",
+          "美敦力 MiniMed 的传感器准确性、低血糖风险、报警和售后问题应该如何评估？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否被提及风险",
+          "认知准确度": "风险描述是否准确",
+          "证据纳入度": "是否引用官方数据或研究",
+          "推荐转化力": "是否给出风险可控的结论"
+        }
+      },
+      {
+        "id": "alternatives",
+        "label": "替代方案与平替",
+        "decision_stage": "防流失",
+        "confidence": "medium",
+        "classic_user_phrasings": [
+          "有没有替代方案？",
+          "有什么更便宜的选择？",
+          "如果不选这个，还有什么？"
+        ],
+        "what_user_really_needs": [
+          "用户验证目标品牌是否必要，或寻找更低摩擦替代"
+        ],
+        "purchase_considerations": [
+          "替代方案是否清晰区分直接替代和部分替代",
+          "是否给出适用边界"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "软件/AI/工具",
+            "text": "Is there alternatives to the software Tilesetter ?"
+          },
+          {
+            "domain": "软件/AI/工具",
+            "text": "windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？"
+          }
+        ],
+        "noise_to_exclude": [
+          "非购买替代方案",
+          "能源替代等宏观问题"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？",
+          "MiniMed 与单独使用 Dexcom/Libre CGM 加手动注射相比，分别适合什么人？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌是否被列为替代选项",
+          "认知准确度": "替代关系是否准确",
+          "证据纳入度": "是否引用临床证据",
+          "推荐转化力": "是否给出选择建议"
+        }
+      },
+      {
+        "id": "channel_access",
+        "label": "购买渠道与可获得性",
+        "decision_stage": "行动路径",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "在哪里可以买到？",
+          "是否上市？",
+          "哪个地区可用？"
+        ],
+        "what_user_really_needs": [
+          "用户需要官方、医院、授权经销商或本地可及性信息"
+        ],
+        "purchase_considerations": [
+          "渠道是否正规",
+          "地区可用性"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "通用/其他",
+            "text": "Where can I buy these protein donuts? What is the name of the brand? I know that they were for sale in 2019."
+          },
+          {
+            "domain": "通用/其他",
+            "text": "Where to buy the best ring for wedding in Portugal"
+          },
+          {
+            "domain": "通用/其他",
+            "text": "where can i buy gta 4 today for cheap"
+          }
+        ],
+        "noise_to_exclude": [
+          "渠道策略咨询",
+          "非购买渠道问题"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？",
+          "如何判断 MiniMed 相关耗材、传感器和售后服务是不是官方或授权渠道？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌渠道信息是否出现",
+          "认知准确度": "渠道信息是否准确",
+          "证据纳入度": "是否引用官方渠道",
+          "推荐转化力": "是否提供购买链接或指引"
+        }
+      },
+      {
+        "id": "post_purchase",
+        "label": "安装、培训、维护与售后",
+        "decision_stage": "使用保障",
+        "confidence": "high",
+        "classic_user_phrasings": [
+          "怎么安装？",
+          "如何培训？",
+          "保修和售后怎么样？"
+        ],
+        "what_user_really_needs": [
+          "用户评估采用后的真实使用成本和服务责任"
+        ],
+        "purchase_considerations": [
+          "是否明确厂家、医院、经销商责任边界",
+          "是否提供故障处理路径"
+        ],
+        "clean_wildchat_examples": [
+          {
+            "domain": "家居/生活方式",
+            "text": "Can I buy a trailer that has a battery, charge controller, solar panel and a wind turbine? I want to install it in my garden and connect it up to my house and take it with me if I move house"
+          },
+          {
+            "domain": "消费电子",
+            "text": "你觉得，为了在本地电脑上搭建一个笔记网站，安装 Windows Server、Apache HTTP Server、PHP 并搭建 WordPress 值得吗？"
+          },
+          {
+            "domain": "消费电子",
+            "text": "假如你家原有一台台式机通过有线方式上网，现在又新买了一台笔记本计算机(该笔记本计算机带有无线网卡），想在每个房间都能方便使用 该笔记本计算机上网，你该如何做才能实现这一日标？ （1）请问需要添加何种硬件设备？（假设该设备的IP地址为192.168.1.1)。（2）局域网的拓扑结构为什么结构。 （3）请填写下表，为台式机和笔记本电脑设置IP地址，子网掩码，网关等信息。 （4）根据上表，测试本机TCP/IP协议是否正确安装的命令。 （5）根据上表，测试台式机与笔记本电脑连通性的命令"
+          }
+        ],
+        "noise_to_exclude": [
+          "纯技术安装指南",
+          "非购买售后问题"
+        ],
+        "medtronic_minimed_monitoring_prompts": [
+          "使用 MiniMed 780G 前需要哪些安装、培训和医生随访？",
+          "MiniMed 泵、传感器、输注管路和耗材出现问题时，售后和故障处理路径是什么？"
+        ],
+        "geo_metric_mapping": {
+          "答案可见度": "品牌售后信息是否出现",
+          "认知准确度": "售后流程是否准确",
+          "证据纳入度": "是否引用官方售后政策",
+          "推荐转化力": "是否提供售后联系方式"
+        }
+      }
+    ],
+    "medtronic_priority_prompt_matrix": [
+      "选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？",
+      "有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？",
+      "MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？",
+      "MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？",
+      "MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？",
+      "MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？",
+      "如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？",
+      "MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？",
+      "使用 MiniMed 780G 前需要哪些安装、培训和医生随访？"
+    ],
+    "next_monitoring_suggestions": [
+      "增加对MiniMed 780G与Dexcom G7集成问题的监测",
+      "关注保险报销相关问题的出现频率",
+      "监测用户对闭环系统易用性的反馈"
+    ]
+  },
+  "created_at": "2026-05-31T03:57:33+0800"
+}

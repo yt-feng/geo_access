@@ -1,0 +1,1665 @@
+{
+  "summary": {
+    "created_at": "2026-05-31T03:54:42+0800",
+    "method": "streamed parquet row groups; regex prefilter; top-quality sample retention; no local LLM or embeddings",
+    "scanned_conversations": 100001,
+    "scanned_user_turns": 277976,
+    "matched_user_turns": 833,
+    "match_counts": {
+      "price_value": 390,
+      "post_purchase": 75,
+      "category_recommendation": 134,
+      "risk_trust": 41,
+      "need_framing": 9,
+      "channel_access": 33,
+      "alternatives": 3,
+      "compare_options": 47,
+      "should_buy_worth": 10
+    },
+    "domain_counts": {
+      "通用/其他": 384,
+      "金融/商业采购": 81,
+      "软件/AI/工具": 101,
+      "消费电子": 45,
+      "汽车/出行": 14,
+      "旅行/本地服务": 13,
+      "家居/生活方式": 47,
+      "医疗健康": 22,
+      "教育/职业": 18
+    },
+    "language_counts": {
+      "Chinese": 203,
+      "English": 503,
+      "English/Other": 19
+    },
+    "sample_count": 130,
+    "archetype_count": 9,
+    "caveat": "This is archetype mining for prompt design, not a statistically representative estimate."
+  },
+  "topline_takeaways": [
+    "购买意图不是一个问题，而是一条从需求定义、候选发现、比较、价格、风险、渠道到售后的决策链。",
+    "AI 回答最容易影响品牌的时刻，是用户尚未点名品牌、只问品类推荐或选择标准的时候。",
+    "对医疗器械品牌，风险/安全问法既是劝退风险，也是建立信任的关键证据入口。",
+    "GEO 监测不应只问品牌词，还要覆盖非品牌泛问、竞品对比、替代方案和行动路径。"
+  ],
+  "archetypes": [
+    {
+      "id": "need_framing",
+      "label": "需求定义与场景澄清",
+      "stage": "认知前段",
+      "user_pattern": "我有一个任务/疾病/预算/场景，应该看什么品类或方案？",
+      "hidden_need": "用户还没锁定品牌，先让 AI 帮他定义问题、拆指标、给选择路径。",
+      "geo_risk": "如果 AI 的选型指标不包含品牌优势，品牌会在用户形成候选清单前被排除。",
+      "observed_match_count": 9,
+      "sample_count": 9,
+      "top_domains": [
+        [
+          "医疗健康",
+          3
+        ],
+        [
+          "软件/AI/工具",
+          2
+        ],
+        [
+          "通用/其他",
+          2
+        ],
+        [
+          "家居/生活方式",
+          1
+        ],
+        [
+          "汽车/出行",
+          1
+        ]
+      ],
+      "object_hints": [
+        "them in terms of regulatory settings both in the EMA and the FDA settings",
+        "some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 ca",
+        "跟家居有关的限量版和独特性的产品",
+        "择"
+      ],
+      "medtronic_prompts": [
+        "选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？",
+        "医生建议我了解 MiniMed 780G，我应该从哪些标准判断是否适合？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "品类泛问下是否主动出现 MiniMed/美敦力。",
+        "认知准确度": "是否把闭环泵、CGM、注射方案边界说清。",
+        "证据纳入度": "是否引用指南、说明书、监管和临床证据。",
+        "推荐转化力": "是否给出医生咨询、适用人群和下一步。"
+      },
+      "examples": [
+        {
+          "text": "what should i consider when taking venvanse? what do you have to say about dependence? can i take it every other day? and your getting the medicine without a prescription?",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "4bf4c89872956aa24a081cdfcbefab63",
+          "quality_score": 14,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "can you explain in what consist biossimilar medicines, compare them in terms of regulatory settings both in the EMA and the FDA settings, give examples of biossimilar medicine studies requirements in the last 5 years? please elaborate also on the concepts of switching and interchangeability.",
+          "archetypes": [
+            "need_framing",
+            "compare_options"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "English",
+          "object_hint": "them in terms of regulatory settings both in the EMA and the FDA settings",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "3307f2ba9b6b2daadeed1e2dd1755ff3",
+          "quality_score": 14,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "Hello, ChatGPT. I am planning to buy some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 capsules the same thing? 2) Where should I but it - on the Amazon (or other online marketplace) or in a pharmacy? 3) How do I choose a good one? What should I pay attention to?",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "English",
+          "object_hint": "some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 ca",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "0557848689c39c6a4f9aa176ff7184c9",
+          "quality_score": 14,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "如何选择跟家居有关的限量版和独特性的产品，给出10个英国受欢迎的网站",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "home_lifestyle",
+          "domain_label": "家居/生活方式",
+          "language": "Chinese",
+          "object_hint": "跟家居有关的限量版和独特性的产品",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "5429071aa23f53ce17e4626fd83ff8cd",
+          "quality_score": 10,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "what are the minimum requirements for a good quality audio inside a car?",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "17809c6775d21a181c228b4f03f2a1b0",
+          "quality_score": 10,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "股权支付权益结算工具 现金结算的原则 或有事项的概念和特征 预计负债最佳估计数和补偿金额的确定（其他应收款，可不对冲,不可超过相关预计负债的金额） 未决诉讼和亏损合同的相关规定 金融工具的概念（四个关键词）-金融工具、金融资产、金融负债和权益工具 金融工具的分类—衍生金融工具的类型===（直接看选择吧） 衍生金融工具包括远期合同、期货合同、互换和期权，以及具有远期合同、期货合同、互换和期权中一种或一种以上特征的工具。期权是一最典型的衍生工具。 政府补助的定义和特征 政府补助的判定-交易和事项是否属于政府补助 政府补助的主要形式（增值税即征即税）税收返还在内 与收益相关的政府补助的会计处理，核算的过程中涉及到（其他收益）--其它收益的科目怎么使用 非货币性资产交换概念（20%,25%,刚好等于25%的时候） 非货币性资产的会计处理，公允价值计量的会计处理（商业实质） 以账面价值计量的会计处理（不具有商业实质） 债务重组的会计处理，以资产清偿债务（无形资产） 债务转为权益工具（债权人、债务人怎么处理） 所得税核算程序—暂时性差异的理解（应纳税，可抵扣）计税基础和账面价值的不同 负债的计算基础—其他应付款的计税基础 外币处理（账务处理） 外币交易会计处理的两种观点，重点关注两项交易观 外币交易的会计处理(接受投资、期末调整)实收资本、股本怎么选择，短期借款，应收账款。。 外币报表的折算方法（哪些采用 交易发生日的即期汇率来处理） 两项交易观下，外币资产的购销业务",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "择",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "1e90ad879219c0576499cc37ab4e49ae",
+          "quality_score": 10,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "what are the specific requirements and procedures that must be followed in order to conduct a valid virtual notarization?",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "58f82906bd5f388a06a27451c6122b05",
+          "quality_score": 8,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "i want to create a video streaming app, what are the requirements?",
+          "archetypes": [
+            "need_framing"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "fb25441eb00ae86af7dffcf76c7017c2",
+          "quality_score": 7,
+          "primary_archetype": "need_framing"
+        },
+        {
+          "text": "Consider a jet UAVC with a low budget. What are the tasks for the aircraft development project in the aerodynamic field and what are the main requirements that needs to be considered in the aerodynamic project?",
+          "archetypes": [
+            "need_framing",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "68a8332f3e5fadc92ffb6e6543200077",
+          "quality_score": 6,
+          "primary_archetype": "need_framing"
+        }
+      ]
+    },
+    {
+      "id": "category_recommendation",
+      "label": "品类推荐与候选清单",
+      "stage": "找得到",
+      "user_pattern": "请推荐几个最适合我的产品/品牌/服务。",
+      "hidden_need": "用户把 AI 当成导购和榜单入口，希望直接得到优先级。",
+      "geo_risk": "品牌如果没有进入第一梯队，后续比较、价格和风险讨论都不会发生。",
+      "observed_match_count": 134,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "软件/AI/工具",
+          6
+        ],
+        [
+          "消费电子",
+          4
+        ],
+        [
+          "通用/其他",
+          3
+        ],
+        [
+          "医疗健康",
+          2
+        ],
+        [
+          "教育/职业",
+          2
+        ]
+      ],
+      "object_hints": [
+        "brand of omega 3 supplement",
+        "books for software programming",
+        "a backpack for my toddler",
+        "a book as well",
+        "的吗",
+        "for better Google ads performance",
+        "适合的设备",
+        "我们公司的高光谱相机",
+        "使用",
+        "的应用有哪些"
+      ],
+      "medtronic_prompts": [
+        "有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？",
+        "给1型糖尿病患者推荐闭环胰岛素泵系统，MiniMed、Omnipod、Tandem、Dexcom/Libre 该怎么排？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "推荐榜单中是否进入第一梯队。",
+        "认知准确度": "推荐理由是否对应真实产品能力。",
+        "证据纳入度": "是否有权威来源支撑推荐排序。",
+        "推荐转化力": "是否愿意把 MiniMed 作为明确候选。"
+      },
+      "examples": [
+        {
+          "text": "which is the best brand of omega 3 supplement?",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "English",
+          "object_hint": "brand of omega 3 supplement",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "b5a599730479e32b0c2e38aff51e7616",
+          "quality_score": 18,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "what do you recommend books for software programming",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "books for software programming",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "bb910f319bcbac3b5a2847168b873ca5",
+          "quality_score": 18,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?",
+          "archetypes": [
+            "category_recommendation",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "a backpack for my toddler",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "326ac61de6ef019d85f3c9eb73769901",
+          "quality_score": 17,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "how to improve the independent critical thinking capability? Please recommend a book as well.",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "a book as well",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "cd3f422f1f11e493e9f66788cc8c9e9c",
+          "quality_score": 17,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "需要做一个背景生成+选定商品贴图的自动化工具，有什么推荐的吗？",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "的吗",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "3dfb8dac1e836702a518af660cd1e7f2",
+          "quality_score": 16,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "We do all those things. We also run a cloud based software to keep track of all appointments, services, records, and payments. Anything you can recommend for better Google ads performance? Facebook has had a great return on investment. We have thrown hundreds of dollars away with Google with 0 results",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "for better Google ads performance",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "2d6f8b5b638a68408af1ac321f9b3ce0",
+          "quality_score": 16,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "送给父母的手机有哪些推荐？要求：屏幕较大，电池容量较大，价格4000人民币以内，请推荐",
+          "archetypes": [
+            "category_recommendation",
+            "price_value"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "4eff8e531450f2a5efffbaf35a5cd19c",
+          "quality_score": 15,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "非常高兴收到您的回复，关于您感兴趣的这两款产品，我将文件放到附件里面，这些是我们公司热销的产品，如果您还想了解其他的产品，可以将需要的设备参数以及应用的场景告诉我，我为您推荐适合的设备。 为了方便及时回复您的消息，我想要您一个社交联系方式，比如WhatsApp，telegram或者其他的。期待您的回复。",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "适合的设备",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "40c3f37835cbf936b98a54625f6fa82f",
+          "quality_score": 15,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "用俄语写开发信，内容如下：我们通过您的网站了解到，自成立以来一直从事对光学设备，尤其是显微镜的销售，在您展示的显微镜品类中，我注意到除了人工显微镜，您也加入了自动化显微镜，也许我们公司的产品能够帮助到您完善自动化显微镜的品类。 长春拉诺光电有限公司是一家专业从事机器视觉解决方案的高新技术企业，一直致力于机器视觉和图像处理技术的推广和创新。我想向您推荐我们公司的高光谱相机，它可以远程控制的同时实时图像采集扫描，有利于生物医学实验的进行。",
+          "archetypes": [
+            "category_recommendation"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "我们公司的高光谱相机",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "53b5d344b9ed4a1d2c4399e0eca20aa3",
+          "quality_score": 15,
+          "primary_archetype": "category_recommendation"
+        },
+        {
+          "text": "自己交社保，这样交才划算没有工作单位自己交社保的朋友一定要注意了，千万不要再每个月傻傻白花钱了。社保缴纳有一个非常划算的方法，今天呢教给大家这个办法，很多地方都在推荐使用，不仅享受的待遇更好，而且交的钱也会更少，想要了解的赶紧点小红心收藏起来，学会之后就不用再多交钱了。首先要提醒大家一点，很多人都踩了一个大坑，那就是不要再找公司去代交社保，非常的不划算，五险都需要自己交，而且还得收取你一笔手续费，前前后后算下来都是自己交，得交38%左右，但是呢，只有8%会进入到我们的养老个人账户，大头呢都进入到了统筹账户里，最最关键的是这个代交现在是不受咱们法律保护的，接下来我和大家说的这个方法呢，更加安全，也更加的省心省钱。这个方法就是咱们分开交，咱们自己交社保，享受不了失业险、生育险这些福利，那只是为了交养老和医疗，那么我们就分开去缴，那缴养老，缴职工养老，缴医保，缴居民医保，因为咱们交的职工养老享受的退休待遇会更好，领到的养老金更更多，那居民医保呢，比咱们职工医保便宜不少，一年也能省下来好几千，像这样组合式的去交的话，待遇也有了，钱也少花了。如果担心居民医保报销比例低，无法报销大病住院高额医疗费，那咱们每年呢，可以花个几百块去配备一个百万医疗险，百万医疗险呢，可以报销高额的一个医疗费用，同样也解决了我们看病多花钱的问题，大家都了解了吗？最后啊，记得关注我，每天分享更多的社保小知识。",
+          "archetypes": [
+            "category_recommendation",
+            "price_value"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "Chinese",
+          "object_hint": "使用",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "342ea054add83f80b5ea7b3306314d41",
+          "quality_score": 15,
+          "primary_archetype": "category_recommendation"
+        }
+      ]
+    },
+    {
+      "id": "compare_options",
+      "label": "横向比较与二选一",
+      "stage": "说得对",
+      "user_pattern": "A 和 B 哪个更好？有什么区别？我应该选哪个？",
+      "hidden_need": "用户已经有候选，需要 AI 做同类边界、优劣势和适用人群判断。",
+      "geo_risk": "AI 容易混淆代际、适应症、可用地区或把非同类产品当直接竞品。",
+      "observed_match_count": 47,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "软件/AI/工具",
+          8
+        ],
+        [
+          "通用/其他",
+          5
+        ],
+        [
+          "消费电子",
+          2
+        ],
+        [
+          "医疗健康",
+          1
+        ],
+        [
+          "家居/生活方式",
+          1
+        ]
+      ],
+      "object_hints": [
+        "独立显卡",
+        "computers",
+        "them in terms of regulatory settings both in the EMA and the FDA settings",
+        "technique to solve the problems most accurately",
+        "practices oop solid loosly coupled etc",
+        "下去哪里玩比较适合"
+      ],
+      "medtronic_prompts": [
+        "MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？",
+        "MiniMed、Omnipod 5、Dexcom G7、FreeStyle Libre 之间是直接竞品吗？分别适合什么人？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "竞品对比中品牌是否被完整提及。",
+        "认知准确度": "是否混淆泵、CGM、算法、地区上市状态。",
+        "证据纳入度": "是否给出官方/临床/监管证据。",
+        "推荐转化力": "是否给出分人群选择结论。"
+      },
+      "examples": [
+        {
+          "text": "针对你的方案我有几点想和你讨论：1.我打算购买独立显卡，所以不需要5600x，是不是买不带集成显卡的5600会更好一些？2.3060Ti的价格和性能，与6800相比如何？3.电源、主板是否可以考虑更好的拓展性？ 比如A620主板价格便宜，并且将来能在5600x的基础上升级未来可能的9600显卡？",
+          "archetypes": [
+            "compare_options",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "Chinese",
+          "object_hint": "独立显卡",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "fe7ca6f9a1207beb15acf7b99aa63d8e",
+          "quality_score": 17,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "can you give me an idea how long a laptop would take to render on blender vs a pc? use roughly average or a little above average specs for each",
+          "archetypes": [
+            "compare_options"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "12fa6544088937c2fab24ba34fafa083",
+          "quality_score": 14,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "is there some kinda standard or method that people use to benchmark computers for blender rendering? any commonly used software or commonly rendered scenes that people generally use to compare computers?",
+          "archetypes": [
+            "compare_options"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "computers",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a87265cb8c02e20f509db8078195eeb9",
+          "quality_score": 14,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "can you explain in what consist biossimilar medicines, compare them in terms of regulatory settings both in the EMA and the FDA settings, give examples of biossimilar medicine studies requirements in the last 5 years? please elaborate also on the concepts of switching and interchangeability.",
+          "archetypes": [
+            "need_framing",
+            "compare_options"
+          ],
+          "domain_id": "health_medical",
+          "domain_label": "医疗健康",
+          "language": "English",
+          "object_hint": "them in terms of regulatory settings both in the EMA and the FDA settings",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "3307f2ba9b6b2daadeed1e2dd1755ff3",
+          "quality_score": 14,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "1. Obtain the price of a European type put option with ?? = 0.1, ?? = 0.15, ?? = 0.4, ?? = 90, ?? = 100 and ?? = 2. b. Calculate the ‘exact’ value using the Black Scholes Formula. c. Make a table of error vs Number of Sample Paths in python. You may use the best technique to solve the problems most accurately. Make sure your answers are up to the mark for this quantitative finance question.",
+          "archetypes": [
+            "compare_options",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "technique to solve the problems most accurately",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "aa28a5e00cd49e4a3f1a9e424fde531a",
+          "quality_score": 13,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "Can you do a price comparison between them all?",
+          "archetypes": [
+            "compare_options",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "ecccdb6104e912aedc3319ce324f3953",
+          "quality_score": 12,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "What is the difference between different versions of Windows 10? Additional functionality License price Driver support DDR4 support",
+          "archetypes": [
+            "compare_options",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "bf6ec6220add105ec51fd35d7b6ed7a5",
+          "quality_score": 12,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "LLVM/Clang 工具链7.0.1版本相比于3.7版本在使用上有哪些变动？",
+          "archetypes": [
+            "compare_options"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a608935d6c9643328aaa9d8136df4438",
+          "quality_score": 11,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "id item_price ord_qty [phone] … … … [phone] 我想研究item price和ord qty的关系（价格和需求量），用什么数据挖掘算法比较好？",
+          "archetypes": [
+            "compare_options",
+            "price_value"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "48a0f5433308af266825cc3f16adfb4e",
+          "quality_score": 11,
+          "primary_archetype": "compare_options"
+        },
+        {
+          "text": "so we dont need spl to store? which one is better out of dictionaries, lists, or tuples? and where will product_orders = []code go into. plesae note that while creating this app i want to use best practices oop solid loosly coupled etc.",
+          "archetypes": [
+            "compare_options"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "practices oop solid loosly coupled etc",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "c5ed169d8a02ff65c40088f9ff57946e",
+          "quality_score": 11,
+          "primary_archetype": "compare_options"
+        }
+      ]
+    },
+    {
+      "id": "should_buy_worth",
+      "label": "是否值得购买/采用",
+      "stage": "愿推荐",
+      "user_pattern": "我该不该买？值不值得？是否应该采用这个方案？",
+      "hidden_need": "用户希望 AI 给出结论性建议，并说明为什么现在买或不买。",
+      "geo_risk": "回答如果只有风险提示、没有适合人群和下一步，会降低转化信心。",
+      "observed_match_count": 10,
+      "sample_count": 10,
+      "top_domains": [
+        [
+          "通用/其他",
+          5
+        ],
+        [
+          "汽车/出行",
+          3
+        ],
+        [
+          "软件/AI/工具",
+          1
+        ],
+        [
+          "消费电子",
+          1
+        ]
+      ],
+      "object_hints": [
+        "to focus more in class",
+        "of each size",
+        "the car that you tell me to buy",
+        "a cheap 1970s Bentley and maintaining it",
+        "another lens and what are some really good cheap options atleast under 50",
+        "入"
+      ],
+      "medtronic_prompts": [
+        "MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？",
+        "医生建议我使用美敦力 MiniMed，我要不要采用？请给出推荐结论和风险边界。"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "用户问要不要用时品牌露出是否靠前。",
+        "认知准确度": "是否准确解释适合/不适合场景。",
+        "证据纳入度": "是否用证据平衡价格、风险和疗效。",
+        "推荐转化力": "是否形成明确、不过度的采用建议。"
+      },
+      "examples": [
+        {
+          "text": "What soft drink should I buy to focus more in class?",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "to focus more in class",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "826ed27a3ac2aedbb6f2002fca95af55",
+          "quality_score": 17,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "how many blank shirts, hoodies and hats should I buy of each size?",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "of each size",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "46bca7bf298bde82508b4a50d19e0b41",
+          "quality_score": 17,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "My preference is to buy the car that you tell me to buy. Which car should I buy?",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "the car that you tell me to buy",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "7d26ed4d32a5282ee1e4d2d5f777e859",
+          "quality_score": 16,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "Is it worthwhile buying a cheap 1970s Bentley and maintaining it, or should I buy something else?",
+          "archetypes": [
+            "should_buy_worth",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "a cheap 1970s Bentley and maintaining it",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "aad7af1419170b5a4c856ad0b4a9cd09",
+          "quality_score": 15,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "what si the general publics opinon on samsung nx1000 lenses. should i buy another lens and what are some really good cheap options atleast under 50",
+          "archetypes": [
+            "should_buy_worth",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "another lens and what are some really good cheap options atleast under 50",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a41b9d829fd7ad4530e8f997095c3bee",
+          "quality_score": 15,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "You are my research. Which car should I buy?",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "7d26ed4d32a5282ee1e4d2d5f777e859",
+          "quality_score": 14,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "The only factor I can consider is you. Which car should I buy?",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "7d26ed4d32a5282ee1e4d2d5f777e859",
+          "quality_score": 14,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "假如你是一个经验丰富的股票研究员，基于以下内容，帮助我判断这个公司是否值得买入。 卡莱特(301391)发布了2022年年报及2023年一季报，2022年全年实现收入6.8亿元，同比增长16.6%；实现归母净利润1.3亿元，同比增长22.1%。2023年一季度实现收入1.3亿元，同比增长22.5%；实现归母净利润0.3亿元，同比增长42.5%。 海外业务逐渐放量，营收规模持续扩大。5G+8K应用加速成熟，推动视频处理行业快速发展。公司研发创新和市场开拓齐头并进，打造业绩新增长极。 根据预测，未来三年归母净利润将达到52.4%的复合增长率。公司的技术实力雄厚，客户粘性高，同时积极把握行业发展趋势，聚焦研发投入和市场开拓，预计公司订单量将迎来显著增长。 风险提示：海外市场拓展受阻、芯片供应不足、视频处理行业竞争加剧等风险。建议给予公司2023年38倍估值，对应目标价120.84元，首次覆盖，给予“买入”评级。",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "入",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "763477e3558b32061cb9b35b5bac0803",
+          "quality_score": 11,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "马自达CX-5与大众探歌哪个更值得买？",
+          "archetypes": [
+            "should_buy_worth"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "269595890fa219ad4d97de679b174246",
+          "quality_score": 10,
+          "primary_archetype": "should_buy_worth"
+        },
+        {
+          "text": "lebook二合一电脑的质量怎样？耐用吗？值得入手不",
+          "archetypes": [
+            "should_buy_worth",
+            "risk_trust"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "09ae0f64a090fb4ec0d430db547cc9d1",
+          "quality_score": 9,
+          "primary_archetype": "should_buy_worth"
+        }
+      ]
+    },
+    {
+      "id": "price_value",
+      "label": "价格、预算与长期成本",
+      "stage": "转化阻力",
+      "user_pattern": "多少钱？贵不贵？预算内划算吗？长期成本如何？",
+      "hidden_need": "用户不是只问标价，还在问总拥有成本、耗材、保险/报销和替代方案。",
+      "geo_risk": "AI 如果缺少成本构成或医保/保险边界，容易把用户导向低价替代。",
+      "observed_match_count": 390,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "通用/其他",
+          9
+        ],
+        [
+          "汽车/出行",
+          3
+        ],
+        [
+          "金融/商业采购",
+          2
+        ],
+        [
+          "软件/AI/工具",
+          2
+        ],
+        [
+          "旅行/本地服务",
+          1
+        ]
+      ],
+      "object_hints": [
+        "a backpack for my toddler",
+        "a new one at the new price wouldnt really matter right"
+      ],
+      "medtronic_prompts": [
+        "MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？",
+        "如果预算有限，MiniMed 与 Omnipod/Tandem/单独CGM方案相比，长期成本和价值怎么判断？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "价格讨论中是否保留品牌价值点。",
+        "认知准确度": "是否覆盖泵、传感器、耗材、培训和报销。",
+        "证据纳入度": "是否标明价格来源和地区差异。",
+        "推荐转化力": "是否避免只因高价导向竞品。"
+      },
+      "examples": [
+        {
+          "text": "how to price a new insurance risk and design insurance product when there is lack of data available?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "finance_business",
+          "domain_label": "金融/商业采购",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "cb04ec2ca2c952c9f3d7d1b15c6542ed",
+          "quality_score": 19,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "where in the UK has residential property with the greatest potential for price growth?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "travel_local",
+          "domain_label": "旅行/本地服务",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "afb1d76c0bf0fb070ad5c686c1af68fc",
+          "quality_score": 17,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "What is the price of the course by david sullivan \"the go to physio\" mentorship program?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "education_career",
+          "domain_label": "教育/职业",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "5e2e1c1315474a08ac4574da31a0f4ea",
+          "quality_score": 17,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?",
+          "archetypes": [
+            "category_recommendation",
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "a backpack for my toddler",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "326ac61de6ef019d85f3c9eb73769901",
+          "quality_score": 17,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "What are the current market trends in Egypt's telecommunications? What are all the businesses in that kind of market/industry doing in terms of their 4PS (Product Price Place Promotion)? Are there new technologies that everyone is following/ are expected to follow in the following years?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "finance_business",
+          "domain_label": "金融/商业采购",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "df4c8b475ab019b65a4073031e385fb1",
+          "quality_score": 17,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "Can you convert this into a short text? Option 3. Appointment requested / mentioned but not set Caller asked about a service appointment but did not agree to an appointment. Example call - Caller: \"I need to bring my car in for some routine service.\"// Receptionist or agent: \"We can fit you in tomorrow morning.\"// Caller: \"That won't work for me. I need to get it serviced today.\" // Call ends. Example call - Caller: \"I want to get my motor oil replaced. How much do you charge for that?\" // Price is provided and appointment requested. // Caller: \"Oh, that's too much. I'm not interested. Thanks.\"",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "b9cc34fce4740db5880dcc25c3a99a4b",
+          "quality_score": 17,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "selling my tesla and buying a new one at the new price wouldnt really matter right?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "auto_mobility",
+          "domain_label": "汽车/出行",
+          "language": "English",
+          "object_hint": "a new one at the new price wouldnt really matter right",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a4f128c71ab5d7a5f5be9e32de245c31",
+          "quality_score": 16,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "would it be cost effective or practical to run blender software on amazon web services?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "eea3d70c8bb253d76e3708d43ce6e785",
+          "quality_score": 16,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "What is the laplace transform of (1+t)*e^t-cost?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "d9dbe9e0356aa594d9d20adb65f7ed3a",
+          "quality_score": 15,
+          "primary_archetype": "price_value"
+        },
+        {
+          "text": "what is the average price of an M60 on euro market ?",
+          "archetypes": [
+            "price_value"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "f88db7f1e57ee55f9e0945df756033be",
+          "quality_score": 15,
+          "primary_archetype": "price_value"
+        }
+      ]
+    },
+    {
+      "id": "risk_trust",
+      "label": "风险、安全与信任",
+      "stage": "信任建立",
+      "user_pattern": "安全吗？可靠吗？有没有负面新闻、召回、副作用或隐私风险？",
+      "hidden_need": "用户在寻找劝退因素，也在寻找风险可控的证据。",
+      "geo_risk": "风险表述失衡会直接劝退；证据不足会让品牌资产变成空泛口碑。",
+      "observed_match_count": 41,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "通用/其他",
+          9
+        ],
+        [
+          "消费电子",
+          4
+        ],
+        [
+          "软件/AI/工具",
+          2
+        ],
+        [
+          "家居/生活方式",
+          1
+        ],
+        [
+          "金融/商业采购",
+          1
+        ]
+      ],
+      "object_hints": [
+        "cheap and reliable mobile service provider in Canada",
+        "gas mileage",
+        "使用哪个方法来提取数据会更高效",
+        "和调度",
+        "course of action statistically if you found few outliers in a sample of size 100"
+      ],
+      "medtronic_prompts": [
+        "MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？",
+        "美敦力 MiniMed 的传感器准确性、低血糖风险、报警和售后问题应该如何评估？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "风险问法中是否仍能呈现品牌资产。",
+        "认知准确度": "召回、安全、准确性是否表述准确。",
+        "证据纳入度": "是否纳入官方安全通告和监管资料。",
+        "推荐转化力": "是否把风险和缓释方式一起讲清。"
+      },
+      "examples": [
+        {
+          "text": "What is the best cheap and reliable mobile service provider in Canada?",
+          "archetypes": [
+            "category_recommendation",
+            "price_value",
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "cheap and reliable mobile service provider in Canada",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "8a2b4a08eb6a6ebe63e9d1fd562aeb3b",
+          "quality_score": 17,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "What is the most reliable, best gas mileage, suv that is available to purchase and where should it be purchased from",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "gas mileage",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "e62f40ba234d2776d0474bd7828ef388",
+          "quality_score": 14,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "How much reliable is the brand EssGoo?",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "17809c6775d21a181c228b4f03f2a1b0",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "What is Windows Safe Mode used for? 1. For safe cleaning of hard disk contents 2 .To switch your computer to low power mode 3. To identify and fix a problem in Windows 4. To clear the device before transferring it to another user",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "35fc528889bb417e1a3ae0b73139f732",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "将下面的文字改的更加流畅、容易引起共情、充满温暖和希望的感觉：当发生灾难时，我们希望每一个人都得到救援。如果能够对受害者的统计数量有全面并精准的把握，会对有效的分派援助资源带来很大的帮助（尤其是在资源十分有限的情况下）。这些数字可能并不仅仅是官方渠道公布的那么简单，受伤、流离失所或受虐待的受害者的详细计数都需要被关注。 这篇文章将受害者提取看做问答任务，并分析了这种方法的可靠性。同时，也贴心的为大家提供了更多的建议：在什么情况下推荐使用哪个方法来提取数据会更高效。",
+          "archetypes": [
+            "category_recommendation",
+            "risk_trust",
+            "channel_access"
+          ],
+          "domain_id": "home_lifestyle",
+          "domain_label": "家居/生活方式",
+          "language": "Chinese",
+          "object_hint": "使用哪个方法来提取数据会更高效",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "879012f7e358e16acc1465c395992586",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "What are the most important benefits of using Virtual Reality in business training? high video resolutions and ultra-realistic graphics increased memory retention and decreased cost collecting users' personal data for marketing purposes compliance with travel and security regulations",
+          "archetypes": [
+            "price_value",
+            "risk_trust",
+            "post_purchase"
+          ],
+          "domain_id": "finance_business",
+          "domain_label": "金融/商业采购",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "db9219bb5fe6868963b53f7d80454d5a",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "How can a robot differentiate between positive or negative product reviews? by running a binary classification algorithm on the review text by running a clustering algorithm on the review text by applying sentiment analysis to the review text by applying entity recognition techniques to the review text",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "fe14a92108fddc174a32b2c15212561d",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "在大数据应用中，发挥海量信息价值的关键在于如何从海量信息中提炼出有效信息。以下方法可以帮助企业实现这一目标： 1. 数据清洗：在用户评论数据的挖掘中，数据清洗是十分重要的环节。例如，在对京东、淘宝等电子商务网站的评论数据进行分析时，需要删除或修正一些错误、无关或虚假的评论，确保数据的质量和可靠性。 2. 数据集成：以气象数据为例，通过集成卫星、雷达、气象站等多个数据来源，可以为天气预报提供更为详尽和准确的信息，提高预报准确率。 3. 数据挖掘：例如，在网约车行业，通过聚类分析和关联规则分析，滴滴可以发现用户和司机的出行和接单习惯，从而实现更为精准的推荐和调度，提高整体运营效率。 4. 可视化分析：通过图形、图表等直观方式呈现数据分析结果，有助于企业和组织的决策者做出更为明智的决策。例如，疫情期间，通过可视化疫情发展趋势数据，使政策制定者可以更直观地了解疫情严重程度，以便采取相应措施。 5. 机器学习与人工智能：以推荐算法为例，像YouTube、抖音等内容平台通过机器学习和AI技术不断优化推荐算法，使得用户可以获得更为精准和个性化的推荐内容，提升用户体验和留存。",
+          "archetypes": [
+            "category_recommendation",
+            "risk_trust"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "和调度",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a73c77c52b77f4d4fb67c624a3fa498d",
+          "quality_score": 12,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "what is the cheapest and reliable mobile service provider in the country of canada",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "8a2b4a08eb6a6ebe63e9d1fd562aeb3b",
+          "quality_score": 11,
+          "primary_archetype": "risk_trust"
+        },
+        {
+          "text": "Would it be possible to improve your lucid dream recall by spawning a camera and filming the lucid dream?",
+          "archetypes": [
+            "risk_trust"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "5bd99a9efdbce2899ade5f60e3d172af",
+          "quality_score": 11,
+          "primary_archetype": "risk_trust"
+        }
+      ]
+    },
+    {
+      "id": "alternatives",
+      "label": "替代方案与平替",
+      "stage": "防流失",
+      "user_pattern": "如果不选它，还有什么替代方案？有没有便宜/简单/更适合的选择？",
+      "hidden_need": "用户在验证目标品牌是否必要，或寻找更低摩擦替代。",
+      "geo_risk": "AI 如果把替代方案讲得更完整，本品牌会丢失清晰的适用边界。",
+      "observed_match_count": 3,
+      "sample_count": 3,
+      "top_domains": [
+        [
+          "软件/AI/工具",
+          2
+        ],
+        [
+          "家居/生活方式",
+          1
+        ]
+      ],
+      "object_hints": [],
+      "medtronic_prompts": [
+        "如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？",
+        "MiniMed 与单独使用 Dexcom/Libre CGM 加手动注射相比，分别适合什么人？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "替代方案中是否保留 MiniMed 适用边界。",
+        "认知准确度": "是否区分直接替代和部分替代。",
+        "证据纳入度": "替代品对比是否有同口径证据。",
+        "推荐转化力": "是否说明何时仍应优先考虑 MiniMed。"
+      },
+      "examples": [
+        {
+          "text": "了解国内天然气价格机制，包括用气成本，气源结构，政策改革历程 欧洲天然气消费和替代方案倾向 该找那一方面的专家了解这类问题",
+          "archetypes": [
+            "price_value",
+            "alternatives"
+          ],
+          "domain_id": "home_lifestyle",
+          "domain_label": "家居/生活方式",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "003e40afc3dc8abf4adaf654eeccf763",
+          "quality_score": 14,
+          "primary_archetype": "alternatives"
+        },
+        {
+          "text": "Is there alternatives to the software Tilesetter ?",
+          "archetypes": [
+            "alternatives"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a26858abf0535ebd36335642b6bf9912",
+          "quality_score": 13,
+          "primary_archetype": "alternatives"
+        },
+        {
+          "text": "windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？",
+          "archetypes": [
+            "alternatives",
+            "post_purchase"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "3d109b7722a03534c125b59ca8610121",
+          "quality_score": 10,
+          "primary_archetype": "alternatives"
+        }
+      ]
+    },
+    {
+      "id": "channel_access",
+      "label": "购买渠道与可获得性",
+      "stage": "行动路径",
+      "user_pattern": "在哪里可以买到/咨询？是否上市？哪个地区可用？渠道是否正规？",
+      "hidden_need": "用户要把建议落地，需要官方、医院、授权经销商或本地可及性信息。",
+      "geo_risk": "AI 给错渠道、灰色渠道或地区可用性，会造成转化流失和合规风险。",
+      "observed_match_count": 33,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "通用/其他",
+          12
+        ],
+        [
+          "金融/商业采购",
+          2
+        ],
+        [
+          "软件/AI/工具",
+          2
+        ],
+        [
+          "旅行/本地服务",
+          1
+        ],
+        [
+          "家居/生活方式",
+          1
+        ]
+      ],
+      "object_hints": [
+        "these protein donuts",
+        "residential freehold property in the UK for under £30",
+        "the best ring for wedding in Portugal",
+        "them and how much do tehy usually cosst euros",
+        "gta 4 today for cheap",
+        "for small shop owners with a KvK number as eenmanszaak",
+        "it from",
+        "一双质量很好的莆田nike鞋",
+        "使用哪个方法来提取数据会更高效"
+      ],
+      "medtronic_prompts": [
+        "MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？",
+        "如何判断 MiniMed 相关耗材、传感器和售后服务是不是官方或授权渠道？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "行动路径中是否出现官方/授权渠道。",
+        "认知准确度": "渠道、地区、上市状态是否准确。",
+        "证据纳入度": "是否引用官方网站、医院或授权体系。",
+        "推荐转化力": "是否给出安全可执行的咨询路径。"
+      },
+      "examples": [
+        {
+          "text": "Where can I buy these protein donuts? What is the name of the brand? I know that they were for sale in 2019.",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "these protein donuts",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "78c287f3379c512864cc6471176a39ce",
+          "quality_score": 19,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "Where can i buy residential freehold property in the UK for under £30,000",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "travel_local",
+          "domain_label": "旅行/本地服务",
+          "language": "English",
+          "object_hint": "residential freehold property in the UK for under £30",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "afb1d76c0bf0fb070ad5c686c1af68fc",
+          "quality_score": 16,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "Where to buy the best ring for wedding in Portugal",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "the best ring for wedding in Portugal",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "793c61cd3514e63b810cf9095c1b6ec0",
+          "quality_score": 14,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "how about lenses, where can i buy them and how much do tehy usually cosst euros",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "them and how much do tehy usually cosst euros",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a41b9d829fd7ad4530e8f997095c3bee",
+          "quality_score": 14,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "假设你是一个专业的产品经理，在做一个新产品的销售企划。该产品属于V1阶段，需要先在部分渠道进行试销后判断是否继续开发，为了让销售团队配合产品试销，制作一份说明资料需要包含哪些内容？",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "993f725470a7d9ebb65cae4aec365025",
+          "quality_score": 14,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "假设你是一个专业的产品经理，在做一个新产品的销售企划。该产品属于V1阶段，需要先在部分渠道进行试销后判断是否继续开发，为了让销售团队配合产品试销，制作一份项目管理说明资料需要包含哪些内容？",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "b91322fbc84b3962de7f90562bf2292b",
+          "quality_score": 14,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "【大母婴 新思维】大咖交锋辩论 正反两方 辩论主题：内卷时代，如何破卷重启？ 正方：渠道和流量更重要；反方：品牌和IP更重要； 嘉宾主持：汤明磊——桐创创始人、盛景嘉成基金合伙人 正方代表：宝宝树孙磊、积纳有品（前蜜芽联合创始人）张建富、儿推盛世高翔、海带创始人朱宝金； 反方代表：Y星人创始人叶圣涛、逸乐途魏强、番小茄任昕昕、保林叔叔讲故事周保林 主持词",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "f2718a30234c21cf2f7383005bfa9a6b",
+          "quality_score": 14,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "where can i buy gta 4 today for cheap",
+          "archetypes": [
+            "price_value",
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "gta 4 today for cheap",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "ca316da0f976c3e6df7ee016061b55cc",
+          "quality_score": 13,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "which of all subcategories are licensed free to resell? for which of all subcategories are licenses available as normal dealer to resell? for which subcategories licenses are heavy to get? for which subcategories are licenses not available? license purchase for small shop owners with a KvK number as eenmanszaak. if there are licenses only to purchase by a BV, please make extra listing. can you make for all a clean list sorted by product group, subcategorie",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "for small shop owners with a KvK number as eenmanszaak",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "2b07f8520fc6fce588619df02d0f93c3",
+          "quality_score": 13,
+          "primary_archetype": "channel_access"
+        },
+        {
+          "text": "where can I buy it from",
+          "archetypes": [
+            "channel_access"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "it from",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "7b4aa5117fbf2fa96698d3e674b6838e",
+          "quality_score": 12,
+          "primary_archetype": "channel_access"
+        }
+      ]
+    },
+    {
+      "id": "post_purchase",
+      "label": "安装、培训、维护与售后",
+      "stage": "使用保障",
+      "user_pattern": "买后怎么安装、培训、保修、退换、维护和处理故障？",
+      "hidden_need": "用户在评估采用后的真实使用成本和服务责任。",
+      "geo_risk": "AI 如果说不清医院、厂家、经销商的责任边界，会削弱医疗器械信任。",
+      "observed_match_count": 75,
+      "sample_count": 18,
+      "top_domains": [
+        [
+          "通用/其他",
+          6
+        ],
+        [
+          "消费电子",
+          4
+        ],
+        [
+          "软件/AI/工具",
+          3
+        ],
+        [
+          "家居/生活方式",
+          2
+        ],
+        [
+          "金融/商业采购",
+          2
+        ]
+      ],
+      "object_hints": [
+        "a trailer that has a battery",
+        "setup for Agleron Algo BUY SELL RIBBON SEMAPHORE SR",
+        "了一台笔记本计算机(该笔记本计算机带有无线网卡）"
+      ],
+      "medtronic_prompts": [
+        "使用 MiniMed 780G 前需要哪些安装、培训和医生随访？",
+        "MiniMed 泵、传感器、输注管路和耗材出现问题时，售后和故障处理路径是什么？"
+      ],
+      "geo_metric_mapping": {
+        "答案可见度": "售后场景中是否关联官方服务能力。",
+        "认知准确度": "培训、耗材、故障、责任边界是否准确。",
+        "证据纳入度": "是否纳入说明书、售后政策、官方材料。",
+        "推荐转化力": "是否降低采用后的不确定性。"
+      },
+      "examples": [
+        {
+          "text": "Can I buy a trailer that has a battery, charge controller, solar panel and a wind turbine? I want to install it in my garden and connect it up to my house and take it with me if I move house",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "home_lifestyle",
+          "domain_label": "家居/生活方式",
+          "language": "English",
+          "object_hint": "a trailer that has a battery",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "a6f3100089a0150c68281a6de992824e",
+          "quality_score": 16,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "What is the camera setup of the Samsung Galaxy Note 20 Ultra?",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "9bc7bbe0d9c932bc47ea1b208ad5f9fd",
+          "quality_score": 14,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？",
+          "archetypes": [
+            "alternatives",
+            "post_purchase"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "3d109b7722a03534c125b59ca8610121",
+          "quality_score": 14,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "What is best setup for Agleron Algo BUY SELL RIBBON SEMAPHORE SR. BY Agleron",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "setup for Agleron Algo BUY SELL RIBBON SEMAPHORE SR",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "faa8cee7e1cba4e40cb9e1a20bdd23e0",
+          "quality_score": 14,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "你觉得，为了在本地电脑上搭建一个笔记网站，安装 Windows Server、Apache HTTP Server、PHP 并搭建 WordPress 值得吗？",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "7ac1c0a32ce4583827ad74df560a8f05",
+          "quality_score": 14,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "What are the same features for iOS and Android smartphones? The user can install the application from a pre-downloaded installation file User data can be stored in the cloud The fingerprint scanner can be integrated under the display Voice assistant allows you to use your smartphone more conveniently You can determine your phone's location using the online service There is a special messenger for users of this platform",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "bf6ec6220add105ec51fd35d7b6ed7a5",
+          "quality_score": 14,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "Consider an EOQ system with D = 20,000, S = $500 and H = $10. How much money can be saved annually on inventory costs by decreasing the setup cost by 15%?",
+          "archetypes": [
+            "price_value",
+            "post_purchase"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "d87e5dfb8128ffcb80b05b144475e6ab",
+          "quality_score": 13,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "Consider an EOQ system with D = 20,000, S = $500 and H = $10. How much money can be saved annually on inventory costs (IC) by (somehow) decreasing the setup cost by 15%?",
+          "archetypes": [
+            "price_value",
+            "post_purchase"
+          ],
+          "domain_id": "general",
+          "domain_label": "通用/其他",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "d87e5dfb8128ffcb80b05b144475e6ab",
+          "quality_score": 13,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "假如你家原有一台台式机通过有线方式上网，现在又新买了一台笔记本计算机(该笔记本计算机带有无线网卡），想在每个房间都能方便使用 该笔记本计算机上网，你该如何做才能实现这一日标？ （1）请问需要添加何种硬件设备？（假设该设备的IP地址为192.168.1.1)。（2）局域网的拓扑结构为什么结构。 （3）请填写下表，为台式机和笔记本电脑设置IP地址，子网掩码，网关等信息。 （4）根据上表，测试本机TCP/IP协议是否正确安装的命令。 （5）根据上表，测试台式机与笔记本电脑连通性的命令",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "consumer_electronics",
+          "domain_label": "消费电子",
+          "language": "Chinese",
+          "object_hint": "了一台笔记本计算机(该笔记本计算机带有无线网卡）",
+          "source_file": "train-00000-of-00006.parquet",
+          "conversation_id": "1c092cb5ee09105030bb46bf0e8feba5",
+          "quality_score": 13,
+          "primary_archetype": "post_purchase"
+        },
+        {
+          "text": "how to webpack setup in react app?",
+          "archetypes": [
+            "post_purchase"
+          ],
+          "domain_id": "software_ai",
+          "domain_label": "软件/AI/工具",
+          "language": "English",
+          "object_hint": "",
+          "source_file": "train-00001-of-00006.parquet",
+          "conversation_id": "ab044dd2408b623e2d1b839b5748e5e8",
+          "quality_score": 12,
+          "primary_archetype": "post_purchase"
+        }
+      ]
+    }
+  ]
+}

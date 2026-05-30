@@ -1,0 +1,38 @@
+# Medtronic/MiniMed GEO Prompt Matrix from WildChat Buyer Archetypes
+# One prompt per line. Use with DeepSeek/Yuanbao monitoring.
+
+## 需求定义与场景澄清
+01. 选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？
+02. 医生建议我了解 MiniMed 780G，我应该从哪些标准判断是否适合？
+
+## 品类推荐与候选清单
+03. 有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？
+04. 给1型糖尿病患者推荐闭环胰岛素泵系统，MiniMed、Omnipod、Tandem、Dexcom/Libre 该怎么排？
+
+## 横向比较与二选一
+05. MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？
+06. MiniMed、Omnipod 5、Dexcom G7、FreeStyle Libre 之间是直接竞品吗？分别适合什么人？
+
+## 是否值得购买/采用
+07. MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？
+08. 医生建议我使用美敦力 MiniMed，我要不要采用？请给出推荐结论和风险边界。
+
+## 价格、预算与长期成本
+09. MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？
+10. 如果预算有限，MiniMed 与 Omnipod/Tandem/单独CGM方案相比，长期成本和价值怎么判断？
+
+## 风险、安全与信任
+11. MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？
+12. 美敦力 MiniMed 的传感器准确性、低血糖风险、报警和售后问题应该如何评估？
+
+## 替代方案与平替
+13. 如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？
+14. MiniMed 与单独使用 Dexcom/Libre CGM 加手动注射相比，分别适合什么人？
+
+## 购买渠道与可获得性
+15. MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？
+16. 如何判断 MiniMed 相关耗材、传感器和售后服务是不是官方或授权渠道？
+
+## 安装、培训、维护与售后
+17. 使用 MiniMed 780G 前需要哪些安装、培训和医生随访？
+18. MiniMed 泵、传感器、输注管路和耗材出现问题时，售后和故障处理路径是什么？

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WildChat 购买意图范式 DeepSeek 归纳</title>
+  <style>
+    body { margin:0; background:#f6f7f9; color:#1f2933; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; line-height:1.56; }
+    header { background:#fff; border-bottom:1px solid #dfe5ec; padding:30px 40px; }
+    main { max-width:1240px; margin:0 auto; padding:24px 40px 48px; }
+    h1 { margin:0 0 8px; font-size:28px; letter-spacing:0; }
+    h2 { margin:0; font-size:20px; }
+    h3 { margin:14px 0 6px; font-size:14px; color:#314252; }
+    p { margin:0; color:#667381; }
+    .panel, .card { background:#fff; border:1px solid #dfe5ec; border-radius:8px; padding:16px; margin-bottom:16px; }
+    .head { display:flex; justify-content:space-between; gap:16px; }
+    .head span { color:#667381; font-size:12px; text-transform:uppercase; }
+    .head strong { color:#176b87; }
+    ul, ol { margin:6px 0 0; padding-left:22px; }
+    li { margin:5px 0; }
+    .metricgrid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+    .metricgrid div { border:1px solid #dfe5ec; border-radius:8px; padding:10px; background:#fbfcfd; }
+    .metricgrid p { font-size:13px; margin-top:4px; }
+    .examples span { display:inline-block; min-width:96px; color:#7a4d16; font-size:12px; }
+    @media (max-width:860px) { header, main { padding-left:18px; padding-right:18px; } .metricgrid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WildChat 购买意图范式 DeepSeek 归纳</h1>
+    <p>基于真实 WildChat 候选样本，由 DeepSeek 做噪音剔除、范式归纳和 Medtronic/MiniMed GEO 监测映射。</p>
+  </header>
+  <main>
+    <section class="panel"><h2>总结</h2><ul><li>归纳9个购买决策范式，覆盖认知前段到售后</li><li>每个范式映射到Medtronic/MiniMed监测prompt</li><li>丢弃考试题、改写任务、代码实现等噪音样本</li></ul></section>
+    
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>认知前段</span>
+              <h2>需求定义与场景澄清</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>我应该考虑哪些因素？</li><li>如何选择适合我的方案？</li><li>有什么标准来判断？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户尚未锁定品牌，需要AI帮助定义问题、拆解指标、给出选择路径</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？</li><li>医生建议我了解 MiniMed 780G，我应该从哪些标准判断是否适合？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否出现在指标清单中</p></div><div><b>认知准确度</b><p>指标是否覆盖品牌核心优势</p></div><div><b>证据纳入度</b><p>是否引用临床证据或指南</p></div><div><b>推荐转化力</b><p>是否引导用户进一步比较</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>医疗健康</span>what should i consider when taking venvanse? what do you have to say about dependence? can i take it every other day? and your getting the medicine without a prescription?</li><li><span>医疗健康</span>Hello, ChatGPT. I am planning to buy some fish oil capsules and I have a dew questions: 1) Are Fish oil capsules and Omega-3 capsules the same thing? 2) Where should I but it - on the Amazon (or other online marketplace) or in a pharmacy? 3) How do I choose a good one? What should I pay attention to?</li><li><span>汽车/出行</span>what are the minimum requirements for a good quality audio inside a car?</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>找得到</span>
+              <h2>品类推荐与候选清单</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>推荐几个最好的品牌/产品</li><li>哪个品牌最好？</li><li>有什么推荐？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户将AI视为导购，希望直接获得优先级排序</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？</li><li>给1型糖尿病患者推荐闭环胰岛素泵系统，MiniMed、Omnipod、Tandem、Dexcom/Libre 该怎么排？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否出现在推荐列表中</p></div><div><b>认知准确度</b><p>推荐是否匹配用户病情和需求</p></div><div><b>证据纳入度</b><p>是否引用临床数据或指南</p></div><div><b>推荐转化力</b><p>是否给出明确优先级</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>医疗健康</span>which is the best brand of omega 3 supplement?</li><li><span>通用/其他</span>I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?</li><li><span>消费电子</span>送给父母的手机有哪些推荐？要求：屏幕较大，电池容量较大，价格4000人民币以内，请推荐</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>说得对</span>
+              <h2>横向比较与二选一</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>A和B哪个更好？</li><li>有什么区别？</li><li>我应该选哪个？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户已有候选，需要AI进行同类边界、优劣势和适用人群判断</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？</li><li>MiniMed、Omnipod 5、Dexcom G7、FreeStyle Libre 之间是直接竞品吗？分别适合什么人？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否被纳入比较</p></div><div><b>认知准确度</b><p>比较维度是否准确</p></div><div><b>证据纳入度</b><p>是否引用临床证据</p></div><div><b>推荐转化力</b><p>是否给出明确选择建议</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>通用/其他</span>针对你的方案我有几点想和你讨论：1.我打算购买独立显卡，所以不需要5600x，是不是买不带集成显卡的5600会更好一些？2.3060Ti的价格和性能，与6800相比如何？3.电源、主板是否可以考虑更好的拓展性？ 比如A620主板价格便宜，并且将来能在5600x的基础上升级未来可能的9600显卡？</li><li><span>消费电子</span>can you give me an idea how long a laptop would take to render on blender vs a pc? use roughly average or a little above average specs for each</li><li><span>通用/其他</span>Can you do a price comparison between them all?</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>愿推荐</span>
+              <h2>是否值得购买/采用</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>值不值得买？</li><li>我该不该买？</li><li>是否应该采用？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户希望AI给出结论性建议，并说明理由</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？</li><li>医生建议我使用美敦力 MiniMed，我要不要采用？请给出推荐结论和风险边界。</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否被推荐</p></div><div><b>认知准确度</b><p>推荐理由是否准确</p></div><div><b>证据纳入度</b><p>是否引用临床证据</p></div><div><b>推荐转化力</b><p>是否给出明确购买建议</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>通用/其他</span>Is it worthwhile buying a cheap 1970s Bentley and maintaining it, or should I buy something else?</li><li><span>汽车/出行</span>My preference is to buy the car that you tell me to buy. Which car should I buy?</li><li><span>消费电子</span>lebook二合一电脑的质量怎样？耐用吗？值得入手不</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>转化阻力</span>
+              <h2>价格、预算与长期成本</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>多少钱？</li><li>预算内划算吗？</li><li>长期成本如何？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户关注总拥有成本、耗材、保险/报销和替代方案</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？</li><li>如果预算有限，MiniMed 与 Omnipod/Tandem/单独CGM方案相比，长期成本和价值怎么判断？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否被提及价格</p></div><div><b>认知准确度</b><p>价格信息是否准确</p></div><div><b>证据纳入度</b><p>是否引用官方定价或保险信息</p></div><div><b>推荐转化力</b><p>是否给出性价比判断</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>通用/其他</span>I want to buy a backpack for my toddler. Which brand do you recommend, regardless of price?</li><li><span>汽车/出行</span>selling my tesla and buying a new one at the new price wouldnt really matter right?</li><li><span>软件/AI/工具</span>would it be cost effective or practical to run blender software on amazon web services?</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>信任建立</span>
+              <h2>风险、安全与信任</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>安全吗？</li><li>可靠吗？</li><li>有没有负面新闻？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户寻找劝退因素，也寻找风险可控的证据</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？</li><li>美敦力 MiniMed 的传感器准确性、低血糖风险、报警和售后问题应该如何评估？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否被提及风险</p></div><div><b>认知准确度</b><p>风险描述是否准确</p></div><div><b>证据纳入度</b><p>是否引用官方数据或研究</p></div><div><b>推荐转化力</b><p>是否给出风险可控的结论</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>通用/其他</span>What is the best cheap and reliable mobile service provider in Canada?</li><li><span>通用/其他</span>How much reliable is the brand EssGoo?</li><li><span>通用/其他</span>what is the cheapest and reliable mobile service provider in the country of canada</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>防流失</span>
+              <h2>替代方案与平替</h2>
+            </div>
+            <strong>medium</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>有没有替代方案？</li><li>有什么更便宜的选择？</li><li>如果不选这个，还有什么？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户验证目标品牌是否必要，或寻找更低摩擦替代</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？</li><li>MiniMed 与单独使用 Dexcom/Libre CGM 加手动注射相比，分别适合什么人？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌是否被列为替代选项</p></div><div><b>认知准确度</b><p>替代关系是否准确</p></div><div><b>证据纳入度</b><p>是否引用临床证据</p></div><div><b>推荐转化力</b><p>是否给出选择建议</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>软件/AI/工具</span>Is there alternatives to the software Tilesetter ?</li><li><span>软件/AI/工具</span>windows有railsinstaller-3.4.0.exe可以方便安装ruby环境，那么Mac有类似的工具吗？如果没有应该怎么安装ruby环境？</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>行动路径</span>
+              <h2>购买渠道与可获得性</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>在哪里可以买到？</li><li>是否上市？</li><li>哪个地区可用？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户需要官方、医院、授权经销商或本地可及性信息</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？</li><li>如何判断 MiniMed 相关耗材、传感器和售后服务是不是官方或授权渠道？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌渠道信息是否出现</p></div><div><b>认知准确度</b><p>渠道信息是否准确</p></div><div><b>证据纳入度</b><p>是否引用官方渠道</p></div><div><b>推荐转化力</b><p>是否提供购买链接或指引</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>通用/其他</span>Where can I buy these protein donuts? What is the name of the brand? I know that they were for sale in 2019.</li><li><span>通用/其他</span>Where to buy the best ring for wedding in Portugal</li><li><span>通用/其他</span>where can i buy gta 4 today for cheap</li></ol>
+        </section>
+        
+        <section class="card">
+          <div class="head">
+            <div>
+              <span>使用保障</span>
+              <h2>安装、培训、维护与售后</h2>
+            </div>
+            <strong>high</strong>
+          </div>
+          <h3>经典问法</h3><ul><li>怎么安装？</li><li>如何培训？</li><li>保修和售后怎么样？</li></ul>
+          <h3>用户真实需求</h3><ul><li>用户评估采用后的真实使用成本和服务责任</li></ul>
+          <h3>Medtronic/MiniMed 监测 Prompt</h3><ol><li>使用 MiniMed 780G 前需要哪些安装、培训和医生随访？</li><li>MiniMed 泵、传感器、输注管路和耗材出现问题时，售后和故障处理路径是什么？</li></ol>
+          <h3>四项核心指标</h3><div class="metricgrid"><div><b>答案可见度</b><p>品牌售后信息是否出现</p></div><div><b>认知准确度</b><p>售后流程是否准确</p></div><div><b>证据纳入度</b><p>是否引用官方售后政策</p></div><div><b>推荐转化力</b><p>是否提供售后联系方式</p></div></div>
+          <h3>干净 WildChat 样例</h3><ol class="examples"><li><span>家居/生活方式</span>Can I buy a trailer that has a battery, charge controller, solar panel and a wind turbine? I want to install it in my garden and connect it up to my house and take it with me if I move house</li><li><span>消费电子</span>你觉得，为了在本地电脑上搭建一个笔记网站，安装 Windows Server、Apache HTTP Server、PHP 并搭建 WordPress 值得吗？</li><li><span>消费电子</span>假如你家原有一台台式机通过有线方式上网，现在又新买了一台笔记本计算机(该笔记本计算机带有无线网卡），想在每个房间都能方便使用 该笔记本计算机上网，你该如何做才能实现这一日标？ （1）请问需要添加何种硬件设备？（假设该设备的IP地址为192.168.1.1)。（2）局域网的拓扑结构为什么结构。 （3）请填写下表，为台式机和笔记本电脑设置IP地址，子网掩码，网关等信息。 （4）根据上表，测试本机TCP/IP协议是否正确安装的命令。 （5）根据上表，测试台式机与笔记本电脑连通性的命令</li></ol>
+        </section>
+        
+    <section class="panel"><h2>优先 Prompt Matrix</h2><ol><li>选择胰岛素泵/CGM/闭环系统时，1型糖尿病患者应该看哪些指标？</li><li>有哪些值得优先了解的胰岛素泵和动态血糖监测方案？MiniMed 排在什么位置？</li><li>MiniMed 780G 和 Tandem t:slim X2 / Control-IQ 怎么选？</li><li>MiniMed 780G 值得用吗？什么情况下值得，什么情况下不建议？</li><li>MiniMed 780G 的费用主要由哪些部分构成？泵、传感器、耗材和培训要分别考虑什么？</li><li>MiniMed 780G 安全可靠吗？有哪些常见风险、召回信息和使用限制？</li><li>如果不选 MiniMed 780G，还有哪些替代方案？哪些是直接替代，哪些只是部分替代？</li><li>MiniMed 780G 在中国/我所在地区可以通过哪些正规渠道咨询或购买？</li><li>使用 MiniMed 780G 前需要哪些安装、培训和医生随访？</li></ol></section>
+  </main>
+</body>
+</html>

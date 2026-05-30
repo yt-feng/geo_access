@@ -142,6 +142,30 @@ monitor_runs/<timestamp>_prompt_matrix/q01/yuanbao_geo_analysis.json
 
 本实验先选 WildChat 作为用户意图数据源适配方向。当前小样本版使用 WildChat-style fallback seed，生成 MiniMed 主要竞品的测试问题；网络可访问 Hugging Face 后，可以把 seed 替换成真实 WildChat 用户问题抽样。
 
+下载真实 WildChat：
+
+```bash
+python3 -m pip install -r requirements-wildchat.txt
+python3 tools/wildchat_download.py --repo_id allenai/WildChat-1M --repo_type dataset --mirror
+python3 tools/wildchat_extract_intents.py --limit 500
+python3 tools/wildchat_intent_archetypes.py --per-intent 60
+```
+
+从真实 WildChat 抽取跨行业购买/选择意图范式，并用 DeepSeek 做噪音剔除和归纳：
+
+```bash
+python3 tools/wildchat_purchase_archetypes.py --per-archetype 18 --max-conversations 100000
+DEEPSEEK_API_KEY=... python3 tools/wildchat_deepseek_synthesis.py
+```
+
+输出：
+
+```text
+monitor_runs/wildchat_purchase_archetypes/purchase_archetypes.html
+monitor_runs/wildchat_purchase_archetypes/deepseek_synthesis.html
+monitor_runs/wildchat_purchase_archetypes/medtronic_prompt_matrix_from_archetypes.txt
+```
+
 生成 MiniMed 竞品/意图问题：
 
 ```bash
