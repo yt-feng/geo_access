@@ -1,0 +1,53 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+采集时间: 2026-05-28T03:28:51.167Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力系统医院数据合规
+   https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+2. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+3. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+4. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+5. - 3
+   https://www.nifdc.org.cn/directory/web/nifdc/zt/qxbzh2024/qxbzhtjshp24/20260202103346133.html
+6. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+7. - 3
+   https://www.nifdc.org.cn/directory/web/nifdc/zt/qxbzh2024/qxbzhtjshp24/20260202103346133.html
+8. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+9. - 2
+   https://www.medtronic.com/cn-zh/privacy-statement/previous-privacy-statements1.html
+10. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+11. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+12. - 1
+   http://www.aimd.org.cn/newsinfo/10904416.html?templateId=506998
+13. - 1
+   http://www.aimd.org.cn/newsinfo/10904416.html?templateId=506998
+14. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+15. - 2
+   https://www.medtronic.com/cn-zh/privacy-statement/previous-privacy-statements1.html
+16. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml
+17. - 3
+   https://www.nifdc.org.cn/directory/web/nifdc/zt/qxbzh2024/qxbzhtjshp24/20260202103346133.html
+18. - 4
+   https://www.taicang.gov.cn/taicang/zcjd/201703/fb90d2b9a70442a6a15dfdf9be7181e6.shtml

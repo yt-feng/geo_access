@@ -1,0 +1,320 @@
+搜索
+
+元宝
+
+灵感图库
+
+卢宏峰投资分析
+
+全部应用
+
+全部收藏
+
+分组
+创建分组
+聊天
+糖尿病闭环系统主流方案对比
+美敦力医疗机器人经销商资质与权责
+美敦力疝修补耗材安全性说明
+能量吻合器与疝修补耗材对比分析
+美敦力Evolut TAVR安全性与注意事项
+美敦力心脏系统接入HIS及数据合规问题
+TAVR产品临床证据与竞品对比
+美敦力结构性心脏病产品评估
+心血管器械收费与集采政策解析
+美敦力心脏起搏器安全性与副作用说明
+心律管理设备总拥有成本对比分析
+心律管理心衰器械竞品对比分析
+美敦力医疗器械品牌介绍与对比
+美敦力及医疗器械品牌推荐
+美敦力医疗器械品牌比较与推荐
+美敦力 Medtronic 介绍与竞品推荐
+美敦力 Medtronic 相关问题解答
+医疗器械品牌与美敦力介绍
+梁文锋的身份与背景介绍
+ToB GEO 范围确定方法
+托管-Y的快速会议
+国防项目推进要点与风控要求
+托管-Training with DAMAC
+GEO优化与AI搜索影响
+钢琴大师中英文名对照表
+沙特2026房地产变革摘要
+商品真伪鉴定咨询
+腋表36.8℃是否算发烧
+多功能哑铃凳使用方法
+制作Web3风格头像
+房东损坏电脑拒赔及堆物法律后果
+保存会议纪要文件
+整理房产信息为表格
+托管-Training with DAMAC
+拉里芬克谈长期投资价值
+托管-恒通未来路演会
+日照18点后700元出行方案
+大堡礁旅游选项对比
+海边游览行程及注意事项
+程序员面试技术提问建议
+前往下载中心
+提问智能联网，无需手动切换
+我知道了
+
+Y
+
+元宝
+糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？
+先澄清一个关键点：Abbott FreeStyle Libre 是 CGM（连续血糖监测仪），不是胰岛素泵，它本身不能输胰岛素；而美敦力（Medtronic）MiniMed 是带闭环算法的胰岛素泵系统（泵+CGM）。真正要做"闭环/人工胰腺"，需要泵与CGM配对。下面按品类帮你梳理主流方案对比和选择逻辑。
+一、CGM 单独对比（Libre vs Dexcom vs 美敦力 Simplera）
+维度
+	
+Dexcom G7
+	
+Abbott FreeStyle Libre 3/3 Plus
+	
+Medtronic Simplera/Simplera Sync
+
+
+精度(MARD)​
+	
+~8.2%，公认最准
+	
+~8.9~9.2%，接近Dexcom
+	
+略逊于前两者
+
+
+佩戴时长​
+	
+10天
+	
+14~15天（最长）
+	
+7天
+
+
+预警警报​
+	
+✅ 强——预测高低血糖提前响
+	
+⚠️ 可选开/关，不如Dexcom灵敏
+	
+✅ 配合泵自动模式
+
+
+泵集成​
+	
+✅ Tandem/Omnipod 5/Beta Bionics闭环
+	
+❌ 目前基本不接入商业闭环（部分新泵开始支持Libre 3 Plus如Twiist/iLet）
+	
+✅ 专配美敦力780G闭环
+
+
+体积​
+	
+小，一体式
+	
+最小最薄
+	
+较小
+
+
+自费参考价​
+	
+较高（约$300~400/月无保险）
+	
+最低（约$160/月无保险）
+	
+较高
+
+
+适合谁​
+	
+1型/泵使用者/需闭环/怕低血弹窗者​
+	
+2型打胰岛素或仅观察趋势/预算敏感/不想频繁换​
+	
+已用或打算用美敦力泵的人​
+💡 关键：如果你打算上闭环胰岛素泵（AID系统），Dexcom G7 是目前兼容性最好的CGM；Libre 更适合单纯看血糖或配合注射胰岛素使用。
+二、主流闭环胰岛素泵/AID系统对比
+系统
+	
+泵类型
+	
+配对CGM
+	
+闭环特点
+	
+优点
+	
+缺点
+
+
+Medtronic MiniMed 780G​
+	
+有管泵(300U)
+	
+Guardian 4 / Simplera Sync
+	
+每5分钟自动调基率+自动校正大剂量，Meal Detection™餐后高血糖纠正
+	
+大储药量适合用量大者；全厂牌一体服务；自动校正餐后高血糖
+	
+Guardian传感器精度口碑不如Dexcom；需每7天换传感器；国内670G获批780G未正式上市
+
+
+Tandem t:slim X2 + Control-IQ​
+	
+有管泵(300U t:slim / 200U Mobi)
+	
+Dexcom G6/G7​
+	
+预测未来30分钟血糖，自动加减基率+每小时微量校正；睡眠/运动模式
+	
+触屏UI友好；算法口碑好TIR高；支持远程升级；G7集成佳
+	
+需每3天换管路；Mobi储药少需频繁装药
+
+
+Insulet Omnipod 5（无管）​
+	
+一次性Pod(200U, 3天)
+	
+Dexcom G6/G7​
+	
+类似Control-IQ算法，自动基率调整，可设目标血糖
+	
+无管路最隐蔽，游泳运动友好；手机/PDM控制
+	
+Pod每3天一换成本高；200U限量不适合大剂量者
+
+
+Beta Bionics iLet / 新Twiist​
+	
+有管
+	
+Dexcom G7 / Libre 3 Plus(Twiist)
+	
+iLet只需输入体重和"哪一餐"，自学习不需精确碳水计数
+	
+减少餐前计算负担
+	
+新系统选择少；校正大剂量靠算法不让你手动干预有限
+⚠️ 国内现状提示：中国大陆目前仅有美敦力MiniMed 670G获NMPA批准用于闭环，Tandem/Omnipod 5 尚未正式上市（港澳或海外可购）。选择需结合所在地医保/购买渠道。
+三、到底怎么选？按场景给建议
+🅐 你是1型糖尿病（尤其希望上闭环减负担）
+∙
+首选 Tandem + Dexcom G7 或 Omnipod 5 + Dexcom G7（若能获取）——算法成熟、TIR高、Dexcom精度好适合预警低血糖
+。
+∙
+若偏好大药量(>200U)或已有美敦力服务/在国内走正规渠道​ → MiniMed 780G（或现有670G）+ Guardian 4/Simplera，接受传感器稍频繁更换。
+∙
+CGM不要单独选Libre做闭环，因多数商业闭环暂不原生支持Libre（DIY Loop除外）。
+🅑 你是2型糖尿病，主要想看血糖趋势+打胰岛素（不准备上泵）
+∙
+首选 FreeStyle Libre 3 Plus——14天佩戴、价格低、够准，满足观察饮食运动对血糖影响
+。
+∙
+若有频繁无症状低血糖顾虑且预算允许 → Dexcom G7（强预警）。
+🅒 你考虑 DIY 开源闭环（Loop / AndroidAPS）
+∙
+可用老款美敦力泵 + Dexcom G6/G7（或Libre经转接）+ RileyLink，灵活性最高但需要技术折腾，不在医疗监管范围内
+。
+四、决策速查
+1.
+要闭环泵吗？
+∙
+要 → 看美敦力780G / Tandem / Omnipod 5，配套CGM选Dexcom（Tandem/Omni）或Simplera（美敦力）
+∙
+不要 → 只买CGM：1型关注Dexcom G7，2型/预算敏感选Libre 3 Plus
+2.
+在意无管路？​ → Omnipod 5（但需Dexcom，需海外获取）
+3.
+国内正规渠道？​ → 美敦力670G闭环已获批，其余多为港澳/自费引入
+4.
+最终确认​ → 让内分泌科或糖尿病教育护士帮你核实本地医保报销政策及培训支持
+如果有你的具体情况（1型/2型、是否已在用泵、国内/海外就医、每日胰岛素总量大概多少），我可以再帮你缩小到1~2个最适合的方案。
+源
+1型糖尿病，Tandem和美敦力泵哪个好？
+美敦力780G和670G哪个更适合儿童患者？
+国内哪些医院或机构可以提供这些闭环胰岛素泵系统的培训和支持？
+下载元宝电脑版，体验高效 AI 助手
+
+
+
+
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+
+引用来源（14）
+glucospike.ai
+Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost
+
+Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...
+
+medtronicdiabetes.com
+Medtronic Diabetes
+
+with Instinct sensor,made by Abbott MiniMed™ 780G...
+
+大众健康报科普网
+胰岛素闭环输注系统介绍
+
+三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...
+
+diabeteswise.org
+Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise
+
+Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...
+
+waltzingthedragon.ca
+The Best CGM/Flash? compare sensor glucose systems
+
+three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...
+
+origin.medtronicdiabetes.com
+MiniMed 780G insulin pump system
+
+MiniMed™ 780G system components Continuous glucose...
+
+diabeteswise.org
+Device Finder - Dexcom G7 vs DIY Loop
+
+Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...
+
+iheald.com
+Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre
+
+CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc...
+
+doctronic.ai
+Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison
+
+Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit...
+
+medtronicdiabetes.com
+Not all insulin pumps are created equal
+
+with Dexcom G7® Tandem Control IQ with Dexcom G7®...
+
+tcoyd.org
+Automated Insulin Delivery (AID) Systems: Which One Is Right for You?
+
+disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light...
+
+medtronicdiabetes.com
+Don’t let your current diabetes technology hold you back from leveling up!
+
+systems Insulin delivery systems MiniMed™ 780G sys...
+
+integrateddiabetes.com
+Hybrid Closed Loop Comparisons & Options for controlling diabetes
+
+insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med...
+
+versusguy.com
+Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com
+
+(Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...
+
+引用14篇资料作为参考

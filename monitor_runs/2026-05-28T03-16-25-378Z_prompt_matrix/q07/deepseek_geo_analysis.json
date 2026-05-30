@@ -1,0 +1,116 @@
+{
+  "question_id": "q07",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 80,
+    "total_score": 81
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌词出现10次，位置靠前，覆盖TAVR/瓣膜等产品线",
+    "important_terms_present": [
+      "美敦力",
+      "TAVR",
+      "结构性心脏",
+      "瓣膜"
+    ],
+    "important_terms_missing": [
+      "CoreValve",
+      "Evolut",
+      "Melody"
+    ],
+    "product_assets_covered": [
+      "TAVR系统",
+      "瓣膜设备",
+      "监测系统"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力结构性心脏系统",
+      "TAVR/瓣膜设备",
+      "DICOM/HL7接口支持"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "具体产品型号如Evolut FX",
+      "美敦力数据安全认证"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "国家药监局指导原则",
+      "GB/T 44585.1—2024"
+    ],
+    "noisy_or_weak_sources": [
+      "未明确引用的网页"
+    ],
+    "evidence_gaps": [
+      "美敦力官方网络安全文档",
+      "具体产品接入案例"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "技术上可行",
+      "法规路径明确",
+      "支持国际标准"
+    ],
+    "negative_or_risk_claims": [
+      "需严格合规",
+      "存在网络安全风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "推荐，但需合规论证",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "询问用户阶段，提供针对性建议",
+      "建议签署协议明确责任"
+    ]
+  },
+  "summary": "回答全面，准确理解美敦力系统接入HIS/EMR/PACS的可行性与合规要求，引用法规标准，给出风险处理方案，推荐品牌但强调合规。",
+  "dashboard_takeaway": "美敦力TAVR系统可接入医院网络，需遵循数据本地化、加密、访问控制等法规，AI回答专业且平衡，有助于建立信任。",
+  "improvement_actions": [
+    "补充美敦力具体产品型号如Evolut FX",
+    "引用美敦力官方网络安全文档",
+    "提供更多实际案例"
+  ],
+  "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1842,
+    "completion_tokens": 625,
+    "total_tokens": 2467,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1074
+  },
+  "analyzed_at": "2026-05-28T04:09:20.580Z",
+  "local_signals": {
+    "answerLength": 1589,
+    "brandTermTotal": 10,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 10
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

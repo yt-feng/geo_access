@@ -1,0 +1,149 @@
+{
+  "createdAt": "2026-05-28T03:02:56.638Z",
+  "summary": [
+    {
+      "platform": "doubao",
+      "name": "豆包",
+      "status": "captcha_required",
+      "sendAttempts": 2,
+      "captchaRefreshes": 1,
+      "sendResult": {
+        "ok": true,
+        "clicked": false,
+        "title": "豆包 - 字节跳动旗下 AI 智能助手",
+        "url": "https://www.doubao.com/chat/local_8625241391601768",
+        "inputTag": "TEXTAREA",
+        "inputClass": "semi-input-textarea semi-input-textarea-autosize",
+        "beforeLength": 555,
+        "afterLength": 594
+      },
+      "waitResult": {
+        "status": "captcha_required",
+        "elapsedMs": 2006,
+        "stableTicks": 0,
+        "state": {
+          "platformId": "doubao",
+          "title": "豆包 - 字节跳动旗下 AI 智能助手",
+          "url": "https://www.doubao.com/chat/local_8625241391601768",
+          "textLength": 594,
+          "hasCaptcha": true,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 2,
+          "citationMarkerCount": 0,
+          "answerLineCount": 4,
+          "medtronicCount": 6,
+          "answerSignal": false,
+          "textTail": "豆包\n新对话\n⌘ K\nAI 创作\n云盘\n更多\n历史对话\n美敦力及相关医疗器械问题解答\n美敦力及相关医疗器械问题解答\n测试回复\n贵阳阿特拉斯空压机代理\n贵州动力快车与开山空压机租赁对比\n贵州移动空压机全链条服务公司推荐\n毕节移动空压机租赁带维修服务\n六盘水矿山空压机服务推荐\n遵义移动空压机租赁送货服务\n贵州矿山空压机租赁公司推荐\n贵州阿特拉斯移动空压机租赁维修公司\n贵阳移动空压机租赁公司推荐\n贵州动力快车业务及二手挖机情况\n贵州动力快车高端进口机\n贵州动力快车与友商对比\n贵州动力快车一级能效空压机\n贵州动力快车二手挖机优势分析\n贵州挖机二手机供应商推荐\n可调节仰卧腹肌板使用方法\n判断城市（杭州）\n手机版对话\nYT\n请作为普通AI助手，分别回答以下4个用户问题；不要反问；每题控制在120字以内；如果涉及医疗选择，请提醒咨询专业医生/机构。\n\n1）什么是美敦力 Medtronic？它主要做什么？\n2）如果患者或医院想了解心脏起搏器、胰岛素泵、外科手术器械，哪些医疗器械品牌值得优先了解？请按推荐优先级排序。\n3）美敦力与雅培 Abbott、强生 Johnson & Johnson、波士顿科学 Boston Scientific 相比，优势和短板是什么？\n4）如果想进一步咨询或购买美敦力相关产品，下一步应该怎么做？\n快速\n深入研究\nPPT 生成\n视频生成\n图像生成\n帮我写作\n更多"
+        }
+      },
+      "textLength": 594,
+      "htmlLength": 516183,
+      "url": "https://www.doubao.com/chat/local_8625241391601768",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 2,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/9f73412f-861d-4c60-8eb5-d01b5cea82db",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 689,
+        "afterLength": 954
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 12025,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "医疗设备品牌咨询回答 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/9f73412f-861d-4c60-8eb5-d01b5cea82db",
+          "textLength": 1342,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 0,
+          "answerLineCount": 8,
+          "medtronicCount": 8,
+          "answerSignal": true,
+          "textTail": "沙特做ai教育（类似duolingo+tikto\n向日葵远程控制，其他设备都正常，但我的surface pro4总\n我正在高速上 我妈在开车 她快睡着了，车已经偏了好几次，帮我想下\n帮我翻译成英语，这是一篇央媒对我的公司报道，我希望分享给沙特的潜\n我是个中国人正在沙特做ai教育（类似duolingo+tikto\n2025-01\n我想要每天自动推送微信公众号，有什么工具吗\n我还欠一个英国客户一个proposal，但现在是中国的蛇年新年，\n中企与沙特大学中文教学合作谈判\n宽窄巷子菜品价格整理\n英文新闻宣发关键词与策略\nYepZan!与华为云合作拓展中东市场\n教育产品付费界面设计优化方案\n上市公司CVC负责人职位解析\n小红书海外博主合作模式探讨\nYT_\n医疗设备品牌咨询回答\n快速模式\n请作为普通AI助手，分别回答以下4个用户问题；不要反问；每题控制在120字以内；如果涉及医疗选择，请提醒咨询专业医生/机构。\n\n1）什么是美敦力 Medtronic？它主要做什么？\n2）如果患者或医院想了解心脏起搏器、胰岛素泵、外科手术器械，哪些医疗器械品牌值得优先了解？请按推荐优先级排序。\n3）美敦力与雅培 Abbott、强生 Johnson & Johnson、波士顿科学 Boston Scientific 相比，优势和短板是什么？\n4）如果想进一步咨询或购买美敦力相关产品，下一步应该怎么做？\n\n1）美敦力是全球领先的医疗科技公司，成立于1949年。主要研发和生产心脏起搏器、胰岛素泵、手术器械、神经调控设备等，用于慢性病治疗和外科手术。如需具体医疗方案，请咨询专业医生。\n\n2）推荐排序：1.美敦力（产品线广、技术成熟）；2.波士顿科学（心血管介入强）；3.雅培（糖尿病护理、心脏电生理出色）；4.强生（外科器械、骨科突出）。具体选择请结合病情和医生建议。\n\n3）优势：美敦力在起搏器、胰岛素泵、脊柱领域市场份额高，产品线最全。短板：价格偏高、部分创新领域（如结构性心脏病）不如波士顿科学和雅培敏捷。与强生相比，外科器械略逊。\n\n4）建议先由医生评估适应症，确定需要美敦力产品后，可通过其官网“患者/医生联络”页面、官方客服热线或医院设备科/采购部门咨询购买与支持事宜。不建议自行购买植入类器械。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 1342,
+      "htmlLength": 115464,
+      "url": "https://chat.deepseek.com/a/chat/s/9f73412f-861d-4c60-8eb5-d01b5cea82db",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSdhWbyWO",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 971,
+        "afterLength": 1125
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 34086,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力医疗器械品牌介绍与对比",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSdhWbyWO",
+          "textLength": 1897,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 4,
+          "answerLineCount": 8,
+          "medtronicCount": 28,
+          "answerSignal": true,
+          "textTail": "ic）是全球最大的医疗器械公司之一，1949年创立，业务覆盖150+国家。主营四大板块：心血管（起搏器、ICD、TAVR等）、神经外科与脊柱、医疗外科（吻合器、手术机器人）、糖尿病（胰岛素泵、CGM）。\n2）心脏起搏器、胰岛素泵、外科手术器械，哪些品牌优先了解？（按推荐优先级）\n∙\n心脏起搏器/ICD：①美敦力 ②雅培(St. Jude) ③波士顿科学 ④百多力(Biotronik)\n∙\n胰岛素泵/CGM：①美敦力 ②雅培(FreeStyle Libre强但无泵) ③德康(Dexcom) ④罗氏/韩版\n∙\n外科器械(吻合器/能量平台/部分机器人)：①强生(Ethicon) ②美敦力 ③史赛克 ④波士顿科学\n具体选型请遵临床医生建议。\n3）美敦力 vs 雅培、强生、波士顿科学——优势与短板\n∙\n美敦力：优势—产品线最全，起搏器/Micra无导线起搏、神经调控、外科系统领先，全球服务网络强；短板—部分产品贵、近年创新速度被追平，部分细分（电生理三维标测）弱于强生/雅培。\n∙\n雅培：优势—糖尿病CGM最强(FreeStyle Libre)，心律+结构心不错；短板—无胰岛素泵，神经/外科线薄弱。\n∙\n强生(J&J/Ethicon/Biosense Webster)：优势—外科能量吻合器、电生理Carto 3三维标测顶尖；短板—无起搏器/胰岛素泵，部分业务拆分调整中。\n∙\n波士顿科学：优势—微创介入(左心耳封堵、PFA消融)、无导线起搏积极布局；短板—无大型外科吻合器平台，糖尿病线缺位。\n4）想进一步咨询或购买美敦力产品，下一步怎么做？\n∙\n患者/个人（如胰岛素泵耗材）：访问美敦力中国官网或拨打400客服，联系当地糖尿病产品专员安排评估与配型，须由医生处方。\n∙\n医院/机构：通过医院设备科走公开招标或邀标，联系美敦力中国销售代表（官网\"联系我们\"提交需求），或由授权医疗器械代理商推介并签购销/维保协议。\n∙\n个人不得擅自购买植入类器械。\n⚠️ 以上为信息参考，具体诊疗、植入决策及采购须咨询正规医疗机构或美敦力官方授权渠道。\n源\n美敦力心脏起搏器价格范围？\n美敦力心脏起搏器有哪些最新的技术进展？\n能否详细介绍美敦力在神经外科领域的产品布局和技术优势？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5036,
+      "htmlLength": 153235,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSdhWbyWO",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 4,
+      "referenceItemCount": 24,
+      "sourceNodeCount": 58
+    }
+  ]
+}

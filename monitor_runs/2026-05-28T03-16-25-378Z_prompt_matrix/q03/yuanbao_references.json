@@ -1,0 +1,806 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "美敦力心脏起搏器安全性与副作用说明",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+  "createdAt": "2026-05-28T03:22:01.379Z",
+  "sections": [
+    {
+      "startLine": 149,
+      "text": "2025年进博会，美敦力展台举办“数说心律 同心共创”活动。专家介绍生理性起搏与智慧医疗正结合发展，不仅能让心跳更自然，而且让诊疗过程更智能高效。远程随访技术方便患者及时检测自身数据，血管外ICD等创新技术的发展惠及基层医院，医疗科技的进步让患者享受到更好的治疗服务，也更触及到诊疗过程的温度。南都N视频记者：曾文琼 马强 王诗琪 蔡文茵 罗雪纯 宋耕洋 实习生：陈金意 刘纭溪\n南都健闻\n6个月前\n源\n这些器械的全球及中国市场规模多大？\n美敦力起搏器ICD/CRT-D的维修费用大概是多少？\n这些CIED器械的电池寿命具体如何计算？如何判断是否需要提前更换？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（23）\n今日头条\n起搏器植入术后患者居家健康建议\n2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...\nmedtronic.com\nReveal LINQ ICM System\n(ICMs) systems and accessories The Reveal LINQ™ IC...\n红网\n健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道\n术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...\n丁香园\n心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?\n中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...\nUpToDate临床顾问\n起搏器或ICD的围术期管理"
+    },
+    {
+      "startLine": 158,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（23）\n今日头条\n起搏器植入术后患者居家健康建议\n2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...\nmedtronic.com\nReveal LINQ ICM System\n(ICMs) systems and accessories The Reveal LINQ™ IC...\n红网\n健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道\n术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...\n丁香园\n心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?\n中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...\nUpToDate临床顾问\n起搏器或ICD的围术期管理\n放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/...\ncardiovascular.abbott\nICD and CRT-D Solutions\nEntrant™ CRT-D models. For additional information...\n宿迁市第一人民医院\n起搏器出院指导\n18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起...\n健康界\n国产首个,可兼容MRI的心脏起搏器产品获批"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "14,18",
+      "indexes": [
+        "14",
+        "18"
+      ],
+      "text": "囊袋血肿/出血、局部感染（<2%）、气胸/血胸（锁骨下静脉穿刺时）、导线移位或穿孔、心肌穿孔致心包积液（罕见）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "14",
+      "indexes": [
+        "14"
+      ],
+      "text": "导线断裂或绝缘层磨损、起搏器感知过度/不足（可被程控调整）、电池耗竭（起搏器5~12年，ICD/CRT-D 5~7年需更换）、囊袋感染需拔除",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "9,13",
+      "indexes": [
+        "9",
+        "13"
+      ],
+      "text": "不恰当放电（约5%~10%，因房颤/干扰误判为室速，可调参）、正确放电时有明显胸口电击感（较痛苦但救命）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2",
+      "indexes": [
+        "2"
+      ],
+      "text": "植入处感染、极少数设备移位或排出体表，比起搏器创伤更小",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,11",
+      "indexes": [
+        "3",
+        "11"
+      ],
+      "text": "强磁场（工业电磁感应、部分理疗、未屏蔽的大功率短波）可干扰，但家用电器（电视、微波炉、手机）基本安全",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "16",
+      "indexes": [
+        "16"
+      ],
+      "text": "同类进口品牌：雅培（Abbott/St. Jude）、波士顿科学（Boston Scientific）、百多力（Biotronik）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,23",
+      "indexes": [
+        "4",
+        "23"
+      ],
+      "text": "国产双腔起搏器：乐普（秦明）、微创创领（先健技术支持）、先健HeartTone™，价格通常比进口低30%~40%，适用于单纯心动过缓",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,20",
+      "indexes": [
+        "4",
+        "20"
+      ],
+      "text": "目前ICD和CRT-D国内仍主要依赖进口，国产仅有创领（微创）近年刚获批ICD，CRT-D暂无国产品",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "16",
+      "indexes": [
+        "16"
+      ],
+      "text": "替代进口可选雅培、波士顿科学（部分有无导线S-ICD选项适合静脉通路困难者）、百多力",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2",
+      "indexes": [
+        "2"
+      ],
+      "text": "同类有波士顿科学 Confirm Rx、雅培的植入式心电记录仪，功能相似",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "11,19",
+      "indexes": [
+        "11",
+        "19"
+      ],
+      "text": "体位：术后24h平卧或半卧，术侧（通常左胸）上肢避免外展、上举过肩、提重物，防止导线移位 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "19",
+      "indexes": [
+        "19"
+      ],
+      "text": "切口：保持干燥，观察有无红肿、渗液、发热，按医嘱服抗生素 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "11",
+      "indexes": [
+        "11"
+      ],
+      "text": "排便：避免用力屏气（便秘用缓泻剂），防电极牵拉 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,19",
+      "indexes": [
+        "7",
+        "19"
+      ],
+      "text": "手机：接听放对侧耳朵，不要把手机长时间揣在起搏器同侧上衣口袋（建议≥15cm） 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "19",
+      "indexes": [
+        "19"
+      ],
+      "text": "家电：电视、电脑、微波炉、洗衣机正常使用，无需担心 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,7",
+      "indexes": [
+        "3",
+        "7"
+      ],
+      "text": "避开：大功率电磁理疗仪、磁疗床垫、电弧焊（无防护时）、大型电机设备；超市/机场安检快速通过，出示起搏器卡片，勿在安检门旁逗留 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "19",
+      "indexes": [
+        "19"
+      ],
+      "text": "MRI：确认你植入的是MRI兼容型（美敦力多数新款是），做核磁共振前须告知影像科医生并做程控设置 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,19",
+      "indexes": [
+        "7",
+        "19"
+      ],
+      "text": "3个月后一般可恢复散步、太极等轻中度活动 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,13",
+      "indexes": [
+        "7",
+        "13"
+      ],
+      "text": "植入ICD者通常6个月内不建议驾车（尤其货车/客车），私家车也建议先问主治医生 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "1,7",
+      "indexes": [
+        "1",
+        "7"
+      ],
+      "text": "配CareLink的家庭监测可按提示传输数据，但仍需按时门诊复查 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "今日头条",
+      "title": "起搏器植入术后患者居家健康建议",
+      "snippet": "2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...",
+      "text": "今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin..."
+    },
+    {
+      "index": 2,
+      "source": "medtronic.com",
+      "title": "Reveal LINQ ICM System",
+      "snippet": "(ICMs) systems and accessories The Reveal LINQ™ IC...",
+      "text": "medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC..."
+    },
+    {
+      "index": 3,
+      "source": "红网",
+      "title": "健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道",
+      "snippet": "术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...",
+      "text": "红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有..."
+    },
+    {
+      "index": 4,
+      "source": "丁香园",
+      "title": "心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?",
+      "snippet": "中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...",
+      "text": "丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占..."
+    },
+    {
+      "index": 5,
+      "source": "UpToDate临床顾问",
+      "title": "起搏器或ICD的围术期管理",
+      "snippet": "放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/...",
+      "text": "UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/..."
+    },
+    {
+      "index": 6,
+      "source": "cardiovascular.abbott",
+      "title": "ICD and CRT-D Solutions",
+      "snippet": "Entrant™ CRT-D models. For additional information...",
+      "text": "cardiovascular.abbott ICD and CRT-D Solutions Entrant™ CRT-D models. For additional information..."
+    },
+    {
+      "index": 7,
+      "source": "宿迁市第一人民医院",
+      "title": "起搏器出院指导",
+      "snippet": "18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起...",
+      "text": "宿迁市第一人民医院 起搏器出院指导 18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起..."
+    },
+    {
+      "index": 8,
+      "source": "健康界",
+      "title": "国产首个,可兼容MRI的心脏起搏器产品获批",
+      "snippet": "国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市...",
+      "text": "健康界 国产首个,可兼容MRI的心脏起搏器产品获批 国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市..."
+    },
+    {
+      "index": 9,
+      "source": "health.baidu.com",
+      "title": "crt- d治疗 百度健康·医学科普",
+      "snippet": "crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电...",
+      "text": "health.baidu.com crt- d治疗 百度健康·医学科普 crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电..."
+    },
+    {
+      "index": 10,
+      "source": "medtronic.com",
+      "title": "植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック",
+      "snippet": "ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術...",
+      "text": "medtronic.com 植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術..."
+    },
+    {
+      "index": 11,
+      "source": "新乡医学院第一附属医院",
+      "title": "起搏器术后攻略:从病房到居家的科学守护",
+      "snippet": "起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患...",
+      "text": "新乡医学院第一附属医院 起搏器术后攻略:从病房到居家的科学守护 起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患..."
+    },
+    {
+      "index": 12,
+      "source": "bostonscientific.com",
+      "title": "ENGINEERING DEVICE LONGEVITY",
+      "snippet": "ICD and X4 CRT-D. Explore the Technology Outperfor。",
+      "text": "bostonscientific.com ENGINEERING DEVICE LONGEVITY ICD and X4 CRT-D. Explore the Technology Outperfor。"
+    },
+    {
+      "index": 13,
+      "source": "民福康",
+      "title": "心力衰竭器械治疗",
+      "snippet": "起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后...",
+      "text": "民福康 心力衰竭器械治疗 起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后..."
+    },
+    {
+      "index": 14,
+      "source": "民福康",
+      "title": "心脏起搏器的副作用有哪些",
+      "snippet": "心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染...",
+      "text": "民福康 心脏起搏器的副作用有哪些 心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染..."
+    },
+    {
+      "index": 15,
+      "source": "medtronic.com",
+      "title": "What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?",
+      "snippet": "Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover...",
+      "text": "medtronic.com What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)? Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover..."
+    },
+    {
+      "index": 16,
+      "source": "lyqbq.com",
+      "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+      "snippet": "国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202...",
+      "text": "lyqbq.com 2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析 国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202..."
+    },
+    {
+      "index": 17,
+      "source": "medtronic.com",
+      "title": "Une vie en bonne santé. Une planète en bonne santé. Pour tous.",
+      "snippet": "e pays/la région Juste pour confirmer, est-ce bien...",
+      "text": "medtronic.com Une vie en bonne santé. Une planète en bonne santé. Pour tous. e pays/la région Juste pour confirmer, est-ce bien..."
+    },
+    {
+      "index": 18,
+      "source": "民福康",
+      "title": "心脏起搏器的副作用有哪些",
+      "snippet": "心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为...",
+      "text": "民福康 心脏起搏器的副作用有哪些 心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为..."
+    },
+    {
+      "index": 19,
+      "source": "·临沂市中心医院订阅号",
+      "title": "【健康科普】关于心脏起搏器那些事",
+      "snippet": "公众号 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌...",
+      "text": "公众号 ·临沂市中心医院订阅号 【健康科普】关于心脏起搏器那些事 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌..."
+    },
+    {
+      "index": 20,
+      "source": "药智网",
+      "title": "最新!2款心血管创新器械获批上市",
+      "snippet": "我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海...",
+      "text": "药智网 最新!2款心血管创新器械获批上市 我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海..."
+    },
+    {
+      "index": 21,
+      "source": "cigna.com",
+      "title": "Wellness Library",
+      "snippet": "Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)...",
+      "text": "cigna.com Wellness Library Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)..."
+    },
+    {
+      "index": 22,
+      "source": "medtronic.com",
+      "title": "Product Performance and Product Advisories",
+      "snippet": "Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products.",
+      "text": "medtronic.com Product Performance and Product Advisories Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products."
+    },
+    {
+      "index": 23,
+      "source": "新浪网",
+      "title": "先健科技投资价值分析",
+      "snippet": "使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏...",
+      "text": "新浪网 先健科技投资价值分析 使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏..."
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "14,18",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "9,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,23",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,20",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "16",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "11,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,19",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "南都健闻",
+      "className": "ybc-chat-videoBoxV2-v3Card__item__source video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__k8l-Y",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "南都健闻",
+      "className": "ybc-chat-videoBoxV2-v3Card__item__source__name video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__name__HRsZr",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（23） 今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin... medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC... 红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有... 丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占... UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/... cardiovascular.abbott ICD and CRT-D Solutions Entrant™ CRT-D models. For additional information... 宿迁市第一人民医院 起搏器出院指导 18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起... 健康界 国产首个,可兼容MRI的心脏起搏器产品获批 国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市... health.baidu.com crt- d治疗 百度健康·医学科普 crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电... medtronic.com 植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術... 新乡医学院第一附属医院 起搏器术后攻略:从病房到居家的科学守护 起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患... bostonscientific.com ENGINEERING DEVICE LONGEVITY ICD and X4 CRT-D. Explore the Technology Outperfor。 民福康 心力衰竭器械治疗 起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后... 民福康 心脏起搏器的副作用有哪些 心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染... medtronic.com What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)? Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover... lyqbq.com 2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析 国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202... medtronic.com Une vie en bonne santé. Une planète en bonne santé. Pour tous. e pays/la région Juste pour confirmer, est-ce bien... 民福康 心脏起搏器的副作用有哪些 心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为... 公众号 ·临沂市中心医院订阅号 【健康科普】关于心脏起搏器那些事 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌... 药智网 最新!2款心血管创新器械获批上市 我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海... cigna.com Wellness Library Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)... medtronic.com Product Performance and Product Advisories Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products. 新浪网 先健科技投资价值分析 使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏...",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（23）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（23）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin... medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC... 红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有... 丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占... UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/... cardiovascular.abbott ICD and CRT-D Solutions Entrant™ CRT-D models. For additional information... 宿迁市第一人民医院 起搏器出院指导 18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起... 健康界 国产首个,可兼容MRI的心脏起搏器产品获批 国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市... health.baidu.com crt- d治疗 百度健康·医学科普 crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电... medtronic.com 植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術... 新乡医学院第一附属医院 起搏器术后攻略:从病房到居家的科学守护 起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患... bostonscientific.com ENGINEERING DEVICE LONGEVITY ICD and X4 CRT-D. Explore the Technology Outperfor。 民福康 心力衰竭器械治疗 起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后... 民福康 心脏起搏器的副作用有哪些 心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染... medtronic.com What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)? Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover... lyqbq.com 2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析 国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202... medtronic.com Une vie en bonne santé. Une planète en bonne santé. Pour tous. e pays/la région Juste pour confirmer, est-ce bien... 民福康 心脏起搏器的副作用有哪些 心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为... 公众号 ·临沂市中心医院订阅号 【健康科普】关于心脏起搏器那些事 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌... 药智网 最新!2款心血管创新器械获批上市 我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海... cigna.com Wellness Library Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)... medtronic.com Product Performance and Product Advisories Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products. 新浪网 先健科技投资价值分析 使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏...",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "今日头条",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "红网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "丁香园",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "UpToDate临床顾问",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cardiovascular.abbott ICD and CRT-D Solutions Entrant™ CRT-D models. For additional information...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cardiovascular.abbott",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "宿迁市第一人民医院 起搏器出院指导 18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "宿迁市第一人民医院",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "健康界 国产首个,可兼容MRI的心脏起搏器产品获批 国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "健康界",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "health.baidu.com crt- d治疗 百度健康·医学科普 crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "health.baidu.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com 植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新乡医学院第一附属医院 起搏器术后攻略:从病房到居家的科学守护 起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新乡医学院第一附属医院",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "bostonscientific.com ENGINEERING DEVICE LONGEVITY ICD and X4 CRT-D. Explore the Technology Outperfor。",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "bostonscientific.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康 心力衰竭器械治疗 起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康 心脏起搏器的副作用有哪些 心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)? Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "lyqbq.com 2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析 国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "lyqbq.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com Une vie en bonne santé. Une planète en bonne santé. Pour tous. e pays/la région Juste pour confirmer, est-ce bien...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康 心脏起搏器的副作用有哪些 心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·临沂市中心医院订阅号 【健康科普】关于心脏起搏器那些事 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·临沂市中心医院订阅号",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "药智网 最新!2款心血管创新器械获批上市 我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "药智网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cigna.com Wellness Library Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "cigna.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com Product Performance and Product Advisories Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products.",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新浪网 先健科技投资价值分析 使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新浪网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

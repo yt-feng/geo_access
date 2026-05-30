@@ -1,0 +1,107 @@
+{
+  "questionId": "q09",
+  "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+  "createdAt": "2026-05-28T03:33:28.496Z",
+  "summary": [
+    {
+      "questionId": "q09",
+      "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 805,
+        "afterLength": 852
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 24041,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "外科器械品牌选择指南 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+          "textLength": 2021,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 13,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 11,
+          "answerSignal": true,
+          "textTail": "ronic)\t国产代表 (如康基医疗)\n💧 能量外科\n(超声刀/高频电刀)\t市场主导者之一，技术实力强劲-\n2\n。\t市场绝对主导者。旗下柯惠(Covidien)的 Ligasure 是“血管闭合”领域的金标准，占有率曾超50%-\n2\n。\t高性价比之选。\n在集采政策下，正快速抢占市场份额，价格优势巨大-\n2\n。\n⚡ 吻合/缝合\n(直线切割/腔镜吻合器)\t传统强者。\n代表产品 ECHELON CIRCULAR™ 电动吻合器，临床数据显示其吻合口漏率可低至1.7%，相比手动器械有显著优势-\n1\n。\t强劲竞争对手。\n旗下 Signia™ 等智能吻合平台同样主打智能化、精准化，与强生形成直接对抗。\t快速追赶者。\n产品技术日益成熟，可满足大部分常规手术需求，且配套耗材价格更低。\n🏥 疝修补\n(补片)\t全球领导者。\nPROCEED™、PHASIX™ 等补片产品线非常丰富，是临床首选品牌之一。\t重要参与者。\n旗下 Bard (现已整合) 在疝外科领域同样拥有深厚的市场和医生基础。\t多元化竞争。\n许多国产品牌提供价格低廉的补片，满足基础临床需求。\n💡 怎么选？给你3条实用建议\n\n品牌选择没有绝对的“最好”，关键看哪个“最合适”。你可以从下面几个角度来权衡：\n\n追求极致效果与循证医学证据，选 强生或美敦力\n\n场景：复杂疑难手术、高风险患者（如低位直肠癌吻合）、对新技术有偏好的专家。\n\n理由：它们的产品（如强生ECHELON吻合器）有大量高质量的临床研究支持，在降低并发症（如吻合口漏）方面数据过硬，能为复杂手术提供更强的保障-\n1\n。\n\n预算有限或应对集采，重点考察 国产品牌\n\n场景：常规疝修补、胃结直肠常规吻合、基层医院或严格控费的医疗中心。\n\n理由：在医保控费和带量采购的大背景下，国产品牌（如康基医疗）已经能满足大部分临床需求，价格优势极其明显，是提升科室运营效率的务实选择-\n2\n。\n\n特定术式选择专用“王牌”\n\n场景：需要卓越闭合效果的大血管处理。\n\n推荐：美敦力的 Ligasure（高频电刀）是公认的“王牌”，在处理系膜血管时更高效、安全-\n2\n。\n\n如果你方便分享更具体的手术类型（比如是低位直肠癌还是腹股沟疝），或者医院的预算情况，我可以给你更针对性的建议。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n2 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2021,
+      "htmlLength": 140533,
+      "url": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 13,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q09",
+      "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUnUfpfWa",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 801,
+        "afterLength": 746
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 54111,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "能量吻合器与疝修补耗材对比分析",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUnUfpfWa",
+          "textLength": 3142,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 15,
+          "answerLineCount": 4,
+          "medtronicCount": 28,
+          "answerSignal": true,
+          "textTail": "\n\t\nProceed™(部分可吸收IPOM)、Ultrapro(轻量大孔聚丙烯)、Physiomesh(已全球撤市警示) 、Teramesh系列\n\t\nParietene(聚丙烯轻量)、Parietex Composite(聚酯+胶原屏障IPOM)、Symbotex(复合)\n\n\n特点\n\t\nProceed™ 有组织分离层适合IPOM；Ultrapro轻量网不适感低\n\t\nParietex Composite性价比高，粘连屏障成熟；轻量聚丙烯手感柔软\n\n\n第三方强手\n\t\nGore (W.L. Gore & Associates)​ – DualMesh Plus / MycroMesh（ePTFE，腹膜内置入金标准，贵）；Bard/Becton Dickinson (BD)​ – Ventralight ST / 3D Max（切口疝/腹股沟定型补片强）\n选型建议：\n∙\n腹腔镜 IPOM​ → Gore DualMesh Plus（感染风险低、粘连少，金标准）或 Ethicon Proceed™\n∙\n开放 Lichtenstein 腹股沟疝​ → Ethicon Ultrapro / 美敦力 Parietene 轻量网，手感差异小\n∙\n切口疝 Sublay/Onlay​ → BD Bard / 美敦力 Parietex 视形状（定型vs平片）选择\n🎯 综合决策框架\n1.\n按手术类型定核心：消化道/胸外吻合 → Ethicon略占优；能量平台统一 → 跟主机走（美敦力或Ethicon超声刀分开配）\n2.\n按医院集采/打包：目前国内腔镜吻合器、部分补片已在集采，实际可用品牌常受中标目录限制\n3.\n按医生手感习惯：缝线Prolene/Ethicon普外医生最熟；倒刺线可据术者偏好选V-Loc或Stratafix\n4.\n特殊需求：腹膜内置入选Gore；感染高危用抗菌缝线+轻量大孔网\n如果告诉我你主要做哪种手术（胃肠/疝/甲状腺/胸外）或关注预算/集采限制，我可以帮你再细化到具体型号推荐。\n源\n甲状腺手术能量器械和吻合器怎么选？\n美敦力和J&J Ethicon在能量器械领域的市场份额是多少？\n能否提供一些具体的手术案例中，这些耗材的选择对术后恢复的影响？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4742,
+      "htmlLength": 151606,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUnUfpfWa",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 15,
+      "referenceItemCount": 16,
+      "sourceNodeCount": 53
+    }
+  ]
+}

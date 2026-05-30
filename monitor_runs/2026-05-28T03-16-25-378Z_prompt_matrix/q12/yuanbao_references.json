@@ -1,0 +1,576 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "糖尿病闭环系统主流方案对比",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR",
+  "createdAt": "2026-05-28T03:38:59.715Z",
+  "sections": [
+    {
+      "startLine": 152,
+      "text": "4.\n最终确认​ → 让内分泌科或糖尿病教育护士帮你核实本地医保报销政策及培训支持\n如果有你的具体情况（1型/2型、是否已在用泵、国内/海外就医、每日胰岛素总量大概多少），我可以再帮你缩小到1~2个最适合的方案。\n源\n1型糖尿病，Tandem和美敦力泵哪个好？\n美敦力780G和670G哪个更适合儿童患者？\n国内哪些医院或机构可以提供这些闭环胰岛素泵系统的培训和支持？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（14）\nglucospike.ai\nBest CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost\nAbbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...\nmedtronicdiabetes.com\nMedtronic Diabetes\nwith Instinct sensor,made by Abbott MiniMed™ 780G...\n大众健康报科普网\n胰岛素闭环输注系统介绍\n三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...\ndiabeteswise.org\nDexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise\nAndroid smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...\nwaltzingthedragon.ca\nThe Best CGM/Flash? compare sensor glucose systems"
+    },
+    {
+      "startLine": 161,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（14）\nglucospike.ai\nBest CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost\nAbbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...\nmedtronicdiabetes.com\nMedtronic Diabetes\nwith Instinct sensor,made by Abbott MiniMed™ 780G...\n大众健康报科普网\n胰岛素闭环输注系统介绍\n三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...\ndiabeteswise.org\nDexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise\nAndroid smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...\nwaltzingthedragon.ca\nThe Best CGM/Flash? compare sensor glucose systems\nthree companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...\norigin.medtronicdiabetes.com\nMiniMed 780G insulin pump system\nMiniMed™ 780G system components Continuous glucose...\ndiabeteswise.org\nDevice Finder - Dexcom G7 vs DIY Loop\nDexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...\niheald.com\nBest CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "1,9",
+      "indexes": [
+        "1",
+        "9"
+      ],
+      "text": "~8.2%，公认最准",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "9",
+      "indexes": [
+        "9"
+      ],
+      "text": "~8.9~9.2%，接近Dexcom",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "1",
+      "indexes": [
+        "1"
+      ],
+      "text": "略逊于前两者",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "1",
+      "indexes": [
+        "1"
+      ],
+      "text": "14~15天（最长）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "11",
+      "indexes": [
+        "11"
+      ],
+      "text": "❌ 目前基本不接入商业闭环（部分新泵开始支持Libre 3 Plus如Twiist/iLet）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4",
+      "indexes": [
+        "4"
+      ],
+      "text": "最小最薄",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "1",
+      "indexes": [
+        "1"
+      ],
+      "text": "最低（约$160/月无保险）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "1,14",
+      "indexes": [
+        "1",
+        "14"
+      ],
+      "text": "💡 关键：如果你打算上闭环胰岛素泵（AID系统），Dexcom G7 是目前兼容性最好的CGM；Libre 更适合单纯看血糖或配合注射胰岛素使用。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6,12",
+      "indexes": [
+        "6",
+        "12"
+      ],
+      "text": "每5分钟自动调基率+自动校正大剂量，Meal Detection™餐后高血糖纠正",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3",
+      "indexes": [
+        "3"
+      ],
+      "text": "Guardian传感器精度口碑不如Dexcom；需每7天换传感器；国内670G获批780G未正式上市",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "预测未来30分钟血糖，自动加减基率+每小时微量校正；睡眠/运动模式",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,11",
+      "indexes": [
+        "3",
+        "11"
+      ],
+      "text": "类似Control-IQ算法，自动基率调整，可设目标血糖",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "11",
+      "indexes": [
+        "11"
+      ],
+      "text": "iLet只需输入体重和\"哪一餐\"，自学习不需精确碳水计数",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3",
+      "indexes": [
+        "3"
+      ],
+      "text": "⚠️ 国内现状提示：中国大陆目前仅有美敦力MiniMed 670G获NMPA批准用于闭环，Tandem/Omnipod 5 尚未正式上市（港澳或海外可购）。选择需结合所在地医保/购买渠道。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "13",
+      "indexes": [
+        "13"
+      ],
+      "text": "首选 Tandem + Dexcom G7 或 Omnipod 5 + Dexcom G7（若能获取）——算法成熟、TIR高、Dexcom精度好适合预警低血糖 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,9",
+      "indexes": [
+        "8",
+        "9"
+      ],
+      "text": "首选 FreeStyle Libre 3 Plus——14天佩戴、价格低、够准，满足观察饮食运动对血糖影响 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,13",
+      "indexes": [
+        "7",
+        "13"
+      ],
+      "text": "可用老款美敦力泵 + Dexcom G6/G7（或Libre经转接）+ RileyLink，灵活性最高但需要技术折腾，不在医疗监管范围内 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "glucospike.ai",
+      "title": "Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost",
+      "snippet": "Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...",
+      "text": "glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q..."
+    },
+    {
+      "index": 2,
+      "source": "medtronicdiabetes.com",
+      "title": "Medtronic Diabetes",
+      "snippet": "with Instinct sensor,made by Abbott MiniMed™ 780G...",
+      "text": "medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G..."
+    },
+    {
+      "index": 3,
+      "source": "大众健康报科普网",
+      "title": "胰岛素闭环输注系统介绍",
+      "snippet": "三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...",
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级..."
+    },
+    {
+      "index": 4,
+      "source": "diabeteswise.org",
+      "title": "Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise",
+      "snippet": "Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...",
+      "text": "diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre..."
+    },
+    {
+      "index": 5,
+      "source": "waltzingthedragon.ca",
+      "title": "The Best CGM/Flash? compare sensor glucose systems",
+      "snippet": "three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...",
+      "text": "waltzingthedragon.ca The Best CGM/Flash? compare sensor glucose systems three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous..."
+    },
+    {
+      "index": 6,
+      "source": "origin.medtronicdiabetes.com",
+      "title": "MiniMed 780G insulin pump system",
+      "snippet": "MiniMed™ 780G system components Continuous glucose...",
+      "text": "origin.medtronicdiabetes.com MiniMed 780G insulin pump system MiniMed™ 780G system components Continuous glucose..."
+    },
+    {
+      "index": 7,
+      "source": "diabeteswise.org",
+      "title": "Device Finder - Dexcom G7 vs DIY Loop",
+      "snippet": "Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...",
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs DIY Loop Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso..."
+    },
+    {
+      "index": 8,
+      "source": "iheald.com",
+      "title": "Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre",
+      "snippet": "CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc...",
+      "text": "iheald.com Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc..."
+    },
+    {
+      "index": 9,
+      "source": "doctronic.ai",
+      "title": "Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison",
+      "snippet": "Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit...",
+      "text": "doctronic.ai Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit..."
+    },
+    {
+      "index": 10,
+      "source": "medtronicdiabetes.com",
+      "title": "Not all insulin pumps are created equal",
+      "snippet": "with Dexcom G7® Tandem Control IQ with Dexcom G7®...",
+      "text": "medtronicdiabetes.com Not all insulin pumps are created equal with Dexcom G7® Tandem Control IQ with Dexcom G7®..."
+    },
+    {
+      "index": 11,
+      "source": "tcoyd.org",
+      "title": "Automated Insulin Delivery (AID) Systems: Which One Is Right for You?",
+      "snippet": "disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light...",
+      "text": "tcoyd.org Automated Insulin Delivery (AID) Systems: Which One Is Right for You? disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light..."
+    },
+    {
+      "index": 12,
+      "source": "medtronicdiabetes.com",
+      "title": "Don’t let your current diabetes technology hold you back from leveling up!",
+      "snippet": "systems Insulin delivery systems MiniMed™ 780G sys...",
+      "text": "medtronicdiabetes.com Don’t let your current diabetes technology hold you back from leveling up! systems Insulin delivery systems MiniMed™ 780G sys..."
+    },
+    {
+      "index": 13,
+      "source": "integrateddiabetes.com",
+      "title": "Hybrid Closed Loop Comparisons & Options for controlling diabetes",
+      "snippet": "insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med...",
+      "text": "integrateddiabetes.com Hybrid Closed Loop Comparisons & Options for controlling diabetes insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med..."
+    },
+    {
+      "index": 14,
+      "source": "versusguy.com",
+      "title": "Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com",
+      "snippet": "(Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...",
+      "text": "versusguy.com Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com (Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn..."
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1,14",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6,12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "11",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14） glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q... medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G... 大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级... diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre... waltzingthedragon.ca The Best CGM/Flash? compare sensor glucose systems three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous... origin.medtronicdiabetes.com MiniMed 780G insulin pump system MiniMed™ 780G system components Continuous glucose... diabeteswise.org Device Finder - Dexcom G7 vs DIY Loop Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso... iheald.com Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc... doctronic.ai Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit... medtronicdiabetes.com Not all insulin pumps are created equal with Dexcom G7® Tandem Control IQ with Dexcom G7®... tcoyd.org Automated Insulin Delivery (AID) Systems: Which One Is Right for You? disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light... medtronicdiabetes.com Don’t let your current diabetes technology hold you back from leveling up! systems Insulin delivery systems MiniMed™ 780G sys... integrateddiabetes.com Hybrid Closed Loop Comparisons & Options for controlling diabetes insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med... versusguy.com Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com (Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（14）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q... medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G... 大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级... diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre... waltzingthedragon.ca The Best CGM/Flash? compare sensor glucose systems three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous... origin.medtronicdiabetes.com MiniMed 780G insulin pump system MiniMed™ 780G system components Continuous glucose... diabeteswise.org Device Finder - Dexcom G7 vs DIY Loop Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso... iheald.com Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc... doctronic.ai Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit... medtronicdiabetes.com Not all insulin pumps are created equal with Dexcom G7® Tandem Control IQ with Dexcom G7®... tcoyd.org Automated Insulin Delivery (AID) Systems: Which One Is Right for You? disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light... medtronicdiabetes.com Don’t let your current diabetes technology hold you back from leveling up! systems Insulin delivery systems MiniMed™ 780G sys... integrateddiabetes.com Hybrid Closed Loop Comparisons & Options for controlling diabetes insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med... versusguy.com Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com (Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "glucospike.ai",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "大众健康报科普网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "waltzingthedragon.ca The Best CGM/Flash? compare sensor glucose systems three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "waltzingthedragon.ca",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "origin.medtronicdiabetes.com MiniMed 780G insulin pump system MiniMed™ 780G system components Continuous glucose...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "origin.medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org Device Finder - Dexcom G7 vs DIY Loop Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "diabeteswise.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "iheald.com Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "iheald.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "doctronic.ai Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "doctronic.ai",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Not all insulin pumps are created equal with Dexcom G7® Tandem Control IQ with Dexcom G7®...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tcoyd.org Automated Insulin Delivery (AID) Systems: Which One Is Right for You? disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "tcoyd.org",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com Don’t let your current diabetes technology hold you back from leveling up! systems Insulin delivery systems MiniMed™ 780G sys...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronicdiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "integrateddiabetes.com Hybrid Closed Loop Comparisons & Options for controlling diabetes insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "integrateddiabetes.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "versusguy.com Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com (Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "versusguy.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

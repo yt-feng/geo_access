@@ -1,0 +1,65 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67
+采集时间: 2026-05-28T03:39:39.954Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力糖尿病管理安全评估
+   https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67
+2. 美敦力机器人经销商资质
+   https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f
+3. 美敦力手术器械安全解析
+   https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7
+4. 美敦力Evolut瓣膜安全性与注意事项
+   https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d
+5. 美敦力系统医院数据合规
+   https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+6. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+7. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+8. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+9. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+10. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+11. - 4
+   https://www.medtronicdiabetes.com/important-safety-information#minimed-780g
+12. - 3
+   https://www.minimed.com/en-us/support/product-support/sensors/simplera#starting-sensor
+13. - 5
+   https://origin.medtronicdiabetes.com/customer-support/sensors-and-transmitters-support/simplera-cgm#choosing-insertion-site
+14. - 2
+   https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=18419071&pc=PQF&device_sequence_no=1
+15. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+16. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+17. - 7
+   https://origin.medtronicdiabetes.com/customer-support/product-and-service-updates/notice26-letter
+18. - 3
+   https://www.minimed.com/en-us/support/product-support/sensors/simplera#starting-sensor
+19. - 5
+   https://origin.medtronicdiabetes.com/customer-support/sensors-and-transmitters-support/simplera-cgm#choosing-insertion-site
+20. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+21. - 1
+   https://www.fda.gov/medical-devices/recently-approved-devices/simplera-system-p160007s047
+22. - 4
+   https://www.medtronicdiabetes.com/important-safety-information#minimed-780g
+23. - 4
+   https://www.medtronicdiabetes.com/important-safety-information#minimed-780g
+24. - 4
+   https://www.medtronicdiabetes.com/important-safety-information#minimed-780g

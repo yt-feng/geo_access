@@ -1,0 +1,69 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129
+采集时间: 2026-05-28T03:44:27.204Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力召回不影响安全
+   https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129
+2. 美敦力医疗平台安全评估
+   https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34
+3. 美敦力糖尿病管理安全评估
+   https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67
+4. 美敦力机器人经销商资质
+   https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f
+5. 美敦力手术器械安全解析
+   https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7
+6. 美敦力Evolut瓣膜安全性与注意事项
+   https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d
+7. 美敦力系统医院数据合规
+   https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+8. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+9. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+10. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+11. - 2
+   https://www.cqn.com.cn/ms/content/2026-05/08/content_9155464.htm
+12. - 8
+   https://www.nmpa.gov.cn/directory/web/nmpa///xxgk/chpzhh/ylqxzhh/ylqxzhhzj/20250417123021147.html
+13. - 1
+   https://www.cqn.com.cn/ms/content/2025-10/17/content_9127536.htm
+14. - 2
+   https://www.cqn.com.cn/ms/content/2026-05/08/content_9155464.htm
+15. - 6
+   https://www.cqn.com.cn/ms/content/2025-12/02/content_9134045.htm
+16. - 1
+   https://www.cqn.com.cn/ms/content/2025-10/17/content_9127536.htm
+17. - 8
+   https://www.nmpa.gov.cn/directory/web/nmpa///xxgk/chpzhh/ylqxzhh/ylqxzhhzj/20250417123021147.html
+18. - 1
+   https://www.cqn.com.cn/ms/content/2025-10/17/content_9127536.htm
+19. - 2
+   https://www.cqn.com.cn/ms/content/2026-05/08/content_9155464.htm
+20. - 9
+   https://qxzh.yjj.sh.gov.cn/openApi/recallDetail?recall.recallId=cc1e437270034b43959e451a307f0242
+21. - 2
+   https://www.cqn.com.cn/ms/content/2026-05/08/content_9155464.htm
+22. - 8
+   https://www.nmpa.gov.cn/directory/web/nmpa///xxgk/chpzhh/ylqxzhh/ylqxzhhzj/20250417123021147.html
+23. - 9
+   https://qxzh.yjj.sh.gov.cn/openApi/recallDetail?recall.recallId=cc1e437270034b43959e451a307f0242
+24. - 10
+   https://www.ciie.org/zbh/cn/exhibits/goods/20251121/54809.html
+25. - 5
+   https://yp.gmw.cn/2023-11/08/content_36950701.htm
+26. - 7
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06506903

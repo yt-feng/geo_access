@@ -1,0 +1,107 @@
+{
+  "questionId": "q11",
+  "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+  "createdAt": "2026-05-28T03:37:03.402Z",
+  "summary": [
+    {
+      "questionId": "q11",
+      "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 828,
+        "afterLength": 898
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 32050,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力机器人经销商资质 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+          "textLength": 2550,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 31,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 25,
+          "answerSignal": true,
+          "textTail": "区域外销售），对方需按医院中标价的3倍支付违约金，美敦力有权立即终止协议-\n2\n。\n\n📚 培训与合规：红线不容触碰\n\n培训是赋能，合规是底线，涉及与医生互动时尤其严格。\n\n强制培训体系：美敦力拥有\"经销商学苑\"等平台，提供线上线下课程。同时要求供应商必须参与其组织的合规培训，且美敦力有权单方面决定培训内容与形式-\n9\n。\n\n严格禁止的合规红线：严禁以任何形式向医生、医院或政府官员行贿（包括不合规的宴请、旅游、娱乐）-\n5\n-\n9\n；支付给医生的讲课费、咨询费必须基于合法需求并符合\"公允市场价值\"-\n5\n；赞助医生参加第三方会议需通过学会，不得直接指定参会人选-\n5\n。\n\n🔧 售后责任：系统明确的划分\n\n手术机器人的售后责任在合同中划分非常清晰。\n\n经销商负责：保障产品存储运输中的安全与质量-\n1\n；及时报告任何与产品相关的不良事件-\n1\n；并维护好与最终用户的售后服务关系-\n1\n。\n\n美敦力负责：主导产品召回等重大质量问题处理-\n1\n；并为器械购买产品责任险，承担因产品缺陷直接导致的赔偿-\n3\n。\n\n相互赔偿机制：如果是经销商（或美敦力）的疏忽、违规或故意行为导致问题，责任方需赔偿对方的全部损失-\n3\n-\n8\n。\n\n💡 给你的实战建议\n\n准备一份详实的\"质量手册\"：在洽谈前，先按《医疗器械经营质量管理规范》建立一套质量体系文件，这会是重要的谈判筹码。\n\n组建专业团队：尤其是具备临床医学背景的技术支持团队，让美敦力看到你有能力服务好三甲医院的机器人手术。\n\n梳理合规历史：对自身公司的财务、税务及过往商业行为进行自查，确保没有合规污点。\n\n准备资金与场地：手术机器人价值高，对仓储环境和资金周转要求高，需提前准备。\n\n成为美敦力的经销商，意味着你需要同时具备医疗设备服务能力、严格合规体系和雄厚资金实力。这是一个双向选择的过程，建议在正式申请前，通过官方渠道（如合规热线400-991-9944-\n9\n）或行业展会等途径，与美敦力相关的渠道管理部门建立初步联系。\n\n具体商业条款（如保证金、年度指标）需要在实际谈判中确认。如果你想了解申请流程中\"质量体系文件\"的具体准备要点，或者如何组建符合美敦力要求的技术支持团队，可以随时告诉我，我会尽力提供更详细的分析。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n9 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2550,
+      "htmlLength": 152005,
+      "url": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 31,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q11",
+      "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVV3Vef1xQ",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 826,
+        "afterLength": 740
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 52119,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力医疗机器人经销商资质与权责",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVV3Vef1xQ",
+          "textLength": 3258,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 6,
+          "answerLineCount": 4,
+          "medtronicCount": 38,
+          "answerSignal": true,
+          "textTail": "接受美敦力审计。\n∙\n下级经销商管理：需对二级分销商做同等合规约束并备案。\n五、售后责任划分（典型框架）\n事项\n\t\n美敦力（厂家/总代）\n\t\n授权经销商\n\n\n主机/机械臂质保​\n\t\n提供原厂保修（通常1～3年），负责核心部件返修/更换、软件升级授权\n\t\n协助报修、配合拆装、传递故障日志\n\n\n安装与验收​\n\t\n派应用专家/工程师到场指导或主导安装、系统标定、IQ/OQ 验收\n\t\n协调医院场地、电力、网络条件，跟进取证\n\n\n临床跟台（CST）​\n\t\n提供初始跟台培训与复杂术式支持\n\t\n日常跟台服务（术前准备→术中配合→关机），保障开机率\n\n\n耗材/配件供应​\n\t\n保证供应链、价格政策\n\t\n库存管理、按时配送到医院、效期管理\n\n\n不良事件上报​\n\t\n主导分析、召回决策、NMPA 上报\n\t\n发现→24h内通知美敦力，协助追溯、隔离、回收\n\n\n定期 PM（预防性维护）​\n\t\n提供 PM 套件、技术指导、收费标定\n\t\n安排认证工程师执行年度 PM 或外包给美敦力服务包\n\n\n用户培训复训​\n\t\n提供课程、讲师\n\t\n组织科室人员参训、安排模拟练习\n💡 高端机器人通常建议购买原厂延保服务包（Service Contract），超出质保期后由美敦力工程师执行 PM 和应急维修，经销商主要负责联络调度与临床跟台。\n六、实操建议\n1.\n先核实产品状态：确认 Hugo RAS 在你目标省份是否已获 NMPA 注册证及是否开放新经销商招募（可联系美敦力外科业务部或当地办事处）。\n2.\n准备预审资料：营业执照、Ⅲ类经营许可证、GSP 库房照片、近3年同类设备销售清单（合同/中标书）、工程师证书、财务报表。\n3.\n关注保证金与 KPI：通常要求首单进货承诺 + 年度销售目标 + CRM 系统如实填报拜访数据。\n4.\n合规前置：提前建立公司内部《反商业贿赂制度》和《推广活动审批流程》，美敦力常做第三方合规尽职调查（DDQ）。\n如你需要，我可以帮你整理一份美敦力风格经销商资格预审资料清单（Checklist）供内部准备使用。\n源\n如何成为美敦力Hugo RAS经销商？\n美敦力Hugo RAS经销商的利润空间是多少？\nHugo RAS在中国大陆的销售和市场推广策略是怎样的？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4609,
+      "htmlLength": 141910,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVV3Vef1xQ",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 6,
+      "referenceItemCount": 12,
+      "sourceNodeCount": 36
+    }
+  ]
+}

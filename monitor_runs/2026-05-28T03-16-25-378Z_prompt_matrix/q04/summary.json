@@ -1,0 +1,107 @@
+{
+  "questionId": "q04",
+  "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+  "createdAt": "2026-05-28T03:23:47.987Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 732,
+        "afterLength": 794
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 36048,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "心血管产品收费医保集采风险分析 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+          "textLength": 2392,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 15,
+          "citationMarkerCount": 0,
+          "answerLineCount": 3,
+          "medtronicCount": 2,
+          "answerSignal": true,
+          "textTail": "采购-\n3\n-\n4\n。\n\n集采：不进集采。这类服务强调AI算法、数据分析和人工预警，属于高附加值服务，模式与药品耗材集采不同。\n\n2. 医院引进后的量价风险模型\n支付风险\n\n目前最大的风险点在于服务费无法向患者收取。\n\n现状：医院必须支付给第三方公司（如2024-2025年湖南大三甲采购价约110元/例或按年打包30万元/年）-\n3\n-\n4\n。\n\n困局：这部分成本目前是医院的成本项。如果不能获得新增医疗服务价格立项，或无法通过提高床位周转率覆盖成本，引进该项目将直接亏损。\n\n量价模型与风控建议\n\n定价参考（湖南市场） ：单个动态心电远程监测服务采购价约为110元/例，但设置了“超量保护”（年监测例数超1360例后不再计费）-\n4\n。\n\n供应商粘性风险：设备与软件捆绑紧密，更换供应商可能面临数据对接故障，导致医院后续议价能力相对受限-\n3\n-\n4\n。\n\n三阶段风控策略：\n\n申请立项：向省医保局提交新增医疗服务项目申请，争取“互联网+”远程监测收费编码，从成本转为收入。\n\n成本分摊：推动心衰中心建设，利用远程监测减少患者再住院率，用结余的医保基金对冲服务采购成本——UK NHS研究显示，心衰远程监测方案可使每人节省约£3989（约3.6万人民币）的后续治疗费-\n6\n。\n\n精准引进：优先选择具备卫生经济学评价数据支持的算法（如TriageHF、HeartLogic），国际指南更倾向于推荐有明确成本效益证据的产品-\n6\n-\n7\n。\n\n3. 政策趋势与证据壁垒\n\n趋势：陕西、湖南等地已释放整合信号，预计未来2-3年各省会陆续出台“远程心电监测”或“心衰超滤/监测”的独立收费项目。\n\n证据壁垒：高端远程监测的收费需要强有力的临床证据支持。英国NICE对CardioMEMS系统给出了“可用”的推荐，而对Cordella系统则要求“更多研究”-\n7\n。\n\n风险规避：引进前建议评估产品是否具备RCT证据支持其能减少心衰住院，这是未来医保支付的关键门槛。\n\n总结：目前引进此类项目的核心风险在于“服务费由谁买单” 。稳妥的策略是先以“服务采购”模式启动，控制采购量（如年例数不超过1300例），同时积极筹备申报新增医疗服务项目，将远程监测服务从“成本中心”转化为“利润中心”。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n7 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2392,
+      "htmlLength": 136945,
+      "url": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 15,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q04",
+      "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVU74Xnz5E",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 782,
+        "afterLength": 747
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 48114,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "心血管器械收费与集采政策解析",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVU74Xnz5E",
+          "textLength": 2560,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 11,
+          "answerLineCount": 3,
+          "medtronicCount": 9,
+          "answerSignal": true,
+          "textTail": "¥88/次或按日）。\n心衰植入监测（如OptiVol、植入式血流动力学监测等）\n∙\n器械本身（如带监测功能的CRT-D）按高值耗材管理，纳入集采/挂网；\n∙\n专门的院外无线监测服务费目前多数省市（含上海）尚无独立医保编码，常以患者自费或科研/增值服务形式存在，属政策推进方向。\n三、医院引进后的量价风险分析\n风险维度\n\t\n评估\n\t\n说明\n\n\n价格下行风险​\n\t\n⭐⭐⭐⭐ 高\n\t\n起搏器/ICD已多省集采，续约竞价压价持续；创新无导线起搏器虽暂未大规模集采但分类编码已完成，未来纳入概率高\n\n\n用量保障（量）​\n\t\n⭐⭐⭐ 中等\n\t\n集采中选可获约定采购量保底，但未中选产品医院很难大量使用；上海三甲倾向只引集采中选/备案产品\n\n\n医保回款风险​\n\t\n⭐⭐ 低~中\n\t\n公立三甲上海医保回款较规范，但耗材超限额部分由患者承担，可能影响患者接受度和实际转化率\n\n\n新增项目收费风险​\n\t\n⭐⭐⭐ 中\n\t\n远程监测若缺本地独立收费编码，医院难以合规收费→影响配套销售和科室开展积极性\n\n\n合规/标内准入​\n\t\n⭐⭐⭐⭐ 高\n\t\n须进入上海阳光采购平台+可单独收费目录+ preferably集采中选，否则进院阻力大\n核心结论：传统起搏器/ICD在上海可收费、有医保限额报销、已进入集采/挂网，医院引进风险主要是价格被压制、仅能走集采量；远程监测服务在上海暂无独立医保收费项目，配套服务变现较难，需关注上海后续\"互联网+\"医疗服务价格增补。\n四、实操建议（供参考）\n1.\n确认产品是否：①获NMPA三类证 ②在上海阳光采购平台挂网 ③进入可单独收费耗材目录 ④参与/符合集采中选规则\n2.\n远程监测模块：建议先跟目标医院医保办确认是否有\"心脏植入装置程控随访\"打包收费空间，或等待上海\"互联网+\"新增项目落地\n3.\n量价测算：按上海起搏器医保限额¥25,000为基准，倒推集采入院价能否覆盖渠道利润\n如需我帮你查某具体产品（如某品牌无导线起搏器/Micra、某CRT-D或心衰监测模块）在上海最新的挂网价或收费编码，可告诉我品牌型号再细查。\n源\n上海心衰植入监测耗材医保报销比例多少？\n心脏远程监测服务在上海的推广现状如何？\n上海阳光采购平台挂网的具体流程和时间节点是怎样的？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 3920,
+      "htmlLength": 149037,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVU74Xnz5E",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 11,
+      "referenceItemCount": 15,
+      "sourceNodeCount": 47
+    }
+  ]
+}

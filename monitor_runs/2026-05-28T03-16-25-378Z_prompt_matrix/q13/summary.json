@@ -1,0 +1,107 @@
+{
+  "questionId": "q13",
+  "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+  "createdAt": "2026-05-28T03:40:36.251Z",
+  "summary": [
+    {
+      "questionId": "q13",
+      "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 852,
+        "afterLength": 916
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 30049,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力糖尿病管理安全评估 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67",
+          "textLength": 2697,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 24,
+          "citationMarkerCount": 0,
+          "answerLineCount": 3,
+          "medtronicCount": 14,
+          "answerSignal": true,
+          "textTail": "佩戴在手臂后侧，严禁贴在腹部、臀部等位置，否则性能差异可能导致严重高/低血糖-\n3\n-\n5\n。\n\n磨合期限制：佩戴新传感器的前12小时内，不能依据其读数做治疗决策（如补针），必须使用传统血糖仪-\n1\n。\n\n使用资格：视力或听力不佳，导致无法识别警报者不宜使用-\n1\n-\n4\n。\n\n3. 替代方案\n\n如果你对上述风险比较顾虑，或者想了解其他选项，可以考虑以下几类替代方案：\n\n方案一：同一品牌的其他型号\n\nSimplera Sync：这是Simplera的另一个版本，专门设计用于配合MiniMed 780G胰岛素泵实现自动闭环输注。它的使用寿命为6天（另有24小时宽限期）-\n4\n。\n\nGuardian系列传感器：美敦力上一代的CGM产品，虽然操作可能更复杂，但技术更成熟，如果你对新品有顾虑，可以和医生探讨是否适用旧款。\n\n方案二：其他品牌的动态血糖仪\n这是目前市面上最主要的竞争者，各有优势：\n\n雅培瞬感（Abbott Freestyle Libre）：市场占有率很高，特点是无需指尖血校准，传感器佩戴时间长（通常14天）。\n\n德康（Dexcom G系列）：以精准度高和强大的远程数据分享功能著称，常被用于更复杂的胰岛素泵闭环系统。\n\n方案三：传统指尖血糖仪\n这是最基础、最可靠的“金标准”。虽然无法提供连续趋势，但单点数值准确，没有药物干扰、设备故障或皮肤过敏的风险。FDA明确指示，当CGM读数与自身感觉不符时，必须用血糖仪验证-\n4\n。\n\n总结建议\n\n这套系统功能强大，但它不是“傻瓜式”的。使用时必须严格遵守部位、校准和药物禁忌的规定。\n\n建议你：\n\n和医生确认你目前服用的所有药物（特别是感冒药和止痛药）是否与系统兼容。\n\n要求医生或厂商代表进行完整的操作培训，特别是遇到出血、传感器数据异常或“Check BG”提示时的处理流程。\n\n权衡你对自动化需求（是否必须闭环）与对皮肤/设备风险的耐受度，再决定是否选择替代品牌。\n\n为了帮你更准确地评估，可以告诉我更多细节吗？\n\n医生推荐这套系统，是针对你的1型糖尿病还是2型糖尿病？以及你的年龄？（这直接决定你是否适用自动模式）\n\n你是否有皮肤过敏史（如对胶布过敏）或贫血/肾脏相关疾病？（这关系到传感器佩戴和药物干扰风险）\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n7 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2697,
+      "htmlLength": 152294,
+      "url": "https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 24,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q13",
+      "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVJowcJPs",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 834,
+        "afterLength": 793
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 44101,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力糖尿病管理系统安全性与替代方案",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVJowcJPs",
+          "textLength": 2561,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 15,
+          "answerLineCount": 0,
+          "medtronicCount": 22,
+          "answerSignal": true,
+          "textTail": "换耗材（每2～3天换管路，CGM每6～7天或15天换传感器）、会用指尖血校准/核对\n🔄 常见替代方案\n类别\n\t\n产品举例\n\t\n特点\n\n\n无管路胰岛素泵+AID​\n\t\nInsulet Omnipod 5（配Dexcom G6/G7或FreeStyle Libre 2 Plus）\n\t\n无 tubing、贴肤佩戴、防水好；国内部分地区可通过正规渠道获取，部分型号暂未全面上市\n\n\n带管路泵+AID（兼容第三方CGM）​\n\t\nTandem t:slim X2 + Control-IQ（配Dexcom G6/G7）\n\t\n屏幕操控友好、算法保守安全；国内暂未正式上市\n\n\n单独CGM（若不换泵或仍用多次注射）​\n\t\nAbbott FreeStyle Libre 2/3 Plus、Dexcom G6/G7\n\t\n免校准（部分型号），国内已广泛上市，可与手机/部分泵联动\n\n\n传统方案​\n\t\n每日多次胰岛素注射（MDI）+ 指尖血糖仪/CGM\n\t\n适合不愿或不宜使用泵的群体\n💡 需注意：美敦力780G一般只兼容自家Guardian 4或Simplera Sync CGM，不能混搭Dexcom或Libre做闭环，这是它相比Omnipod 5/Tandem的主要局限\n。\n✅ 实用建议\n∙\n若医生建议用这套系统，通常说明你符合AID适应症（需规律自我监测、有一定认知能力配合报警处理）。\n∙\n使用前务必接受厂家或医护人员完整操作培训，学会识别泵报警、手动暂停/推注、更换耗材。\n∙\n任何时候感觉症状与CGM数值不符，必须以指尖血糖为准决定是否补糖或追加胰岛素。\n∙\n若你特别介意管路（ tubing）或希望未来用其他CGM做闭环，可在决定前咨询内分泌科是否有Omnipod 5等在国内可及的替代选项。\n如果你方便告知是1型还是2型糖尿病、患者年龄、目前用针还是用泵，我可以帮你进一步分析这套方案是否最合适你。\n⚠️ 以上信息仅供科普参考，具体治疗决策请以主治医生结合你个体情况（肝肾功能、用药史、生活自理能力）的面诊意见为准。\n源\n雅培辅理善瞬感3与美敦力780G哪个好？\n美敦力MiniMed 780G的电池寿命是多久？\n如何判断自己是否适合使用美敦力780G这套AID系统？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5129,
+      "htmlLength": 146471,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVJowcJPs",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 15,
+      "referenceItemCount": 15,
+      "sourceNodeCount": 51
+    }
+  ]
+}

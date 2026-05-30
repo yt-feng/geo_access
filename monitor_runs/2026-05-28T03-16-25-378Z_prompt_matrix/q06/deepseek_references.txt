@@ -1,0 +1,83 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514
+采集时间: 2026-05-28T03:26:50.657Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+2. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+3. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+4. - 6
+   https://rcseng.ovidds.com/discover/result?logSearchID=167439202&pubid=solr_7123-sd-sch%3AS1098-3015(20)34503-4
+5. - 9
+   https://www.sciencedirect.com/science/article/pii/S1098301520345034
+6. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+7. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/smart-trial.html
+8. - 1
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11727687/
+9. - 3
+   https://www.cureus.com/articles/430211-early-outcomes-of-transcatheter-aortic-valve-implantation-for-severe-aortic-stenosis-with-myval-versus-edwards-sapien-3-valve-a-systematic-review-and-meta-analysis?authors-tab=true#!/
+10. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/smart-trial.html
+11. - 10
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/key-studies.html
+12. - 3
+   https://www.cureus.com/articles/430211-early-outcomes-of-transcatheter-aortic-valve-implantation-for-severe-aortic-stenosis-with-myval-versus-edwards-sapien-3-valve-a-systematic-review-and-meta-analysis?authors-tab=true#!/
+13. - 6
+   https://rcseng.ovidds.com/discover/result?logSearchID=167439202&pubid=solr_7123-sd-sch%3AS1098-3015(20)34503-4
+14. - 3
+   https://www.cureus.com/articles/430211-early-outcomes-of-transcatheter-aortic-valve-implantation-for-severe-aortic-stenosis-with-myval-versus-edwards-sapien-3-valve-a-systematic-review-and-meta-analysis?authors-tab=true#!/
+15. - 3
+   https://www.cureus.com/articles/430211-early-outcomes-of-transcatheter-aortic-valve-implantation-for-severe-aortic-stenosis-with-myval-versus-edwards-sapien-3-valve-a-systematic-review-and-meta-analysis?authors-tab=true#!/
+16. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+17. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+18. - 1
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11727687/
+19. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/smart-trial.html
+20. - 10
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/key-studies.html
+21. - 1
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11727687/
+22. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/smart-trial.html
+23. - 10
+   https://www.medtronic.com/en-ie/healthcare-professionals/specialties/interventional-cardiology/therapies-procedures/transcatheter-aortic-valve-implantation/clinical-evidence/key-studies.html
+24. - 6
+   https://rcseng.ovidds.com/discover/result?logSearchID=167439202&pubid=solr_7123-sd-sch%3AS1098-3015(20)34503-4
+25. - 9
+   https://www.sciencedirect.com/science/article/pii/S1098301520345034
+26. - 4
+   https://ouci.dntb.gov.ua/en/works/4KvVNO37/
+27. - 8
+   https://www.jacc.org/doi/10.1016/j.jacc.2022.08.591
+28. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+29. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+30. - 2
+   https://www.mdpi.com/2076-3417/15/22/11997
+31. - 1
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC11727687/
+32. - 4
+   https://ouci.dntb.gov.ua/en/works/4KvVNO37/
+33. - 8
+   https://www.jacc.org/doi/10.1016/j.jacc.2022.08.591

@@ -1,0 +1,117 @@
+{
+  "question_id": "q14",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 70,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 40,
+    "recommendation_conversion": 75,
+    "total_score": 68
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌词出现7次，但CareLink和Touch Surgery各仅1-2次，产品线覆盖不全",
+    "important_terms_present": [
+      "美敦力",
+      "CareLink",
+      "Touch Surgery"
+    ],
+    "important_terms_missing": [
+      "远程随访",
+      "数据分析与培训平台"
+    ],
+    "product_assets_covered": [
+      "CareLink",
+      "Touch Surgery"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "CareLink远程监控",
+      "Touch Surgery手术培训",
+      "5G云随访"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "数据分析与培训平台的具体功能"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 60,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "未提供具体引用来源，仅标注网页编号"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方安全声明或临床研究引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "系统安全可靠",
+      "低风险",
+      "官方推荐"
+    ],
+    "negative_or_risk_claims": [
+      "网络依赖",
+      "操作复杂",
+      "数据隐私隐忧"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "美敦力是领导者之一",
+    "next_step_quality": "medium",
+    "conversion_notes": [
+      "建议用户与医生讨论线下随访替代方案",
+      "询问用户具体担忧"
+    ]
+  },
+  "summary": "回答全面评估了美敦力CareLink等工具的安全性、副作用和替代方案，认知准确但缺乏官方证据，推荐倾向正面但未强力推动。",
+  "dashboard_takeaway": "品牌可见度中等，认知准确度高，证据纳入度低，推荐转化力良好。需补充官方来源和更多产品线覆盖。",
+  "improvement_actions": [
+    "增加美敦力官方安全声明引用",
+    "补充数据分析与培训平台的具体信息",
+    "明确提及更多产品线如起搏器、除颤器"
+  ],
+  "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+  "source_url": "https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2011,
+    "completion_tokens": 584,
+    "total_tokens": 2595,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1243
+  },
+  "analyzed_at": "2026-05-28T04:10:56.604Z",
+  "local_signals": {
+    "answerLength": 1860,
+    "brandTermTotal": 7,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 4
+      },
+      {
+        "term": "CareLink",
+        "count": 2
+      },
+      {
+        "term": "Touch Surgery",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

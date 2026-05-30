@@ -1,0 +1,107 @@
+{
+  "questionId": "q08",
+  "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "createdAt": "2026-05-28T03:31:48.092Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 785,
+        "afterLength": 853
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 36158,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力Evolut瓣膜安全性与注意事项 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+          "textLength": 3029,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 22,
+          "citationMarkerCount": 0,
+          "answerLineCount": 4,
+          "medtronicCount": 9,
+          "answerSignal": true,
+          "textTail": "可能更有优势，但在某些血流动力学指标上可能略逊于Evolut-\n1\n-\n4\n。\n\n其他新型自膨式瓣膜：例如雅培的Navitor，有研究显示其术后中度或重度瓣周漏的发生率比Evolut PRO更低（0.8% vs. 3.5%）-\n4\n。\n\nMyval：一种新型球囊扩张式瓣膜，有研究显示其在30天安全性和降低起搏器植入率方面可能优于Evolut-\n6\n。\n\n外科主动脉瓣置换：\n\n对于低风险、年轻的患者，这仍是金标准。外科瓣膜（尤其是机械瓣）耐久性更好，但创伤大，恢复慢。\n\n外科主动脉瓣置换：\n\n对于不适合TAVR或TAVR风险过高（如瓣环过大、冠脉闭塞风险极高）的患者，可考虑此方案。\n\n单纯药物保守治疗：\n\n仅适用于无法耐受任何手术的终末期患者，主要用于缓解症状，无法逆转病情。\n\n4. 术后注意事项有哪些？\n\n术后护理和长期随访至关重要。\n\n抗凝与抗血小板治疗：这是预防瓣膜血栓和卒中的关键。术后必须遵医嘱服药，通常是阿司匹林联合氯吡格雷（双抗治疗）一段时间，之后长期单用阿司匹林或氯吡格雷-\n2\n。\n\n预防感染：在进行任何有创操作（如拔牙、胃肠镜、外科手术）前，必须告知医生你有人工瓣膜，并遵医嘱预防性使用抗生素，以防发生感染性心内膜炎，这是非常严重的并发症-\n2\n-\n5\n。\n\n定期随访：\n\n常规随访：出院后30天、6个月、1年及之后每年进行一次心脏超声检查，评估瓣膜功能和结构-\n8\n。\n\n警惕症状：若出现不明原因的发热、寒战、呼吸困难、胸痛、晕厥或栓塞症状（如单侧肢体麻木、口齿不清），应立即就医。\n\n特殊监测：对于需要植入永久起搏器的患者，需按起搏器术后常规进行程控随访。\n\n总结\n\n美敦力Evolut TAVR技术成熟，总体安全有效，特别适合高龄、手术高风险的患者。但在决策时，需要特别权衡其较高的永久起搏器植入率和瓣周漏风险。替代方案包括其他品牌的TAVR瓣膜和外科手术，选择取决于你的年龄、解剖结构、手术风险及个人意愿。\n\n为了更准确地评估你的情况，帮助你和医生进行决策，可以提供以下信息吗？\n\n患者目前的年龄是多少？\n\n医生是否评估过外科手术的风险（如EuroSCORE或STS评分）？\n\n除了主动脉瓣问题，是否还有其他基础疾病（如冠心病、慢性肾病、慢阻肺）？\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n8 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 3029,
+      "htmlLength": 143856,
+      "url": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 22,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q08",
+      "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUgE5tSLY",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 811,
+        "afterLength": 777
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 52114,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力Evolut TAVR安全性与注意事项",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUgE5tSLY",
+          "textLength": 2955,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 12,
+          "answerLineCount": 0,
+          "medtronicCount": 16,
+          "answerSignal": true,
+          "textTail": "），具体遵主治医嘱。\n∙\n合并房颤/血栓史需抗凝：按指南用华法林（监测INR）或NOAC（利伐沙班等），部分情况联用小剂量阿司匹林。\n∙\n⚠️ 严禁自行停药或加减量，抗栓药漏服/停用可能导致瓣膜血栓或脑卒中。\n穿刺部位与活动\n∙\n股动脉入路术后穿刺侧肢体制动数小时，24小时内观察有无渗血、血肿、足背动脉搏动。\n∙\n术后1个月内避免：提重物（>5kg）、深蹲、剧烈跑跳、长时间弯腰用力。\n∙\n1个月后可逐步恢复散步→快走→太极等有氧运动，以不心慌气短为度。\n生活与饮食\n∙\n低盐（<5g/天）、低脂、优质蛋白饮食，多食蔬果防便秘（避免屏气排便）。\n∙\n严格戒烟戒酒，控制血压（目标<130/80mmHg）、血糖、血脂。\n∙\n体重每日固定时间测，1周内增重>2kg或伴气促水肿需就诊。\n随访计划\n∙\n术后1个月、6个月、12个月门诊复查（心电图、超声心动图、血化验），之后每年一次。\n∙\n出现以下情况立即就诊：发热>37.5℃持续不退、穿刺处红肿渗液扩大、突发胸痛/呼吸困难/晕厥、黑便/肉眼血尿（抗栓期间）、新发头晕黑蒙（警惕传导阻滞）。\n💬 给你的建议\nEvolut TAVR是目前成熟且循证充分的微创换瓣方式，若你的心脏团队已评估解剖合适并推荐，通常是优选方案。建议你向主治医生确认几个关键点：STS评分多少？是自膨瓣还是球扩瓣更适合你的根部解剖？术前有无左束支阻滞（影响起搏器概率）？​ 如有顾虑也可要求Heart Team给出SAVR与TAVR的详细利弊对比再做决定。\n⚠️ 以上内容为医学科普，不能替代面诊医生的个体化评估。具体手术决策、用药方案请以主管心内/心外科医师意见为准。\n如果方便可以说一下患者的年龄、诊断是主动脉瓣狭窄还是反流、以及有无其他基础病，我可以帮你进一步理解医生推荐TAVR的合理性。\n相关视频\n01:51\n关于TAVR，您最关心的五个问题！#手术#心内科#健康科普不简单#全民健康素养提升#听医生的真心话 #抖出健康知识宝藏 #结构性心脏病介入治疗 #心脏瓣膜病介入治疗\n心血管博士常学伟\n5个月前\n源\n什么是瓣中瓣手术？\n美敦力Evolut TAVR的手术费用是多少？\nEvolut TAVR术后需要特别注意哪些营养补充和饮食禁忌？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5234,
+      "htmlLength": 155091,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUgE5tSLY",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 12,
+      "referenceItemCount": 18,
+      "sourceNodeCount": 56
+    }
+  ]
+}

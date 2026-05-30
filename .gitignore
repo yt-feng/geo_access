@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+
+# Local browser/session state should stay on this machine.
+.geo_access_playwright_profile/
+playwright-profile/
+user-data-dir/
+
+# OS/editor scratch files.
+Thumbs.db
+.idea/
+.vscode/

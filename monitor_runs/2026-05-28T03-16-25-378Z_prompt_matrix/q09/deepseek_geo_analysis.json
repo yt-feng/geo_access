@@ -1,0 +1,121 @@
+{
+  "question_id": "q09",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 70,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 30,
+    "recommendation_conversion": 75,
+    "total_score": 65
+  },
+  "brand_terms": {
+    "frequency_assessment": "中等，品牌名出现5次，LigaSure出现2次，但未覆盖更多产品线",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "LigaSure",
+      "柯惠",
+      "Signia"
+    ],
+    "important_terms_missing": [
+      "Valleylab",
+      "Surgicel",
+      "Bard疝补片"
+    ],
+    "product_assets_covered": [
+      "LigaSure",
+      "Signia智能吻合平台"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "LigaSure是血管闭合金标准",
+      "美敦力在能量外科市场主导",
+      "Signia智能吻合平台与强生竞争"
+    ],
+    "confusions_or_errors": [
+      "将Bard归为美敦力旗下，但Bard现属BD"
+    ],
+    "missing_assets": [
+      "未提及美敦力在疝修补领域的补片产品"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 70,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "网页2（未明确来源）",
+      "网页1（未明确来源）"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方临床数据引用",
+      "LigaSure市场份额数据无来源"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力是市场绝对主导者",
+      "LigaSure是金标准",
+      "美敦力与强生形成直接对抗"
+    ],
+    "negative_or_risk_claims": [
+      "国产品牌性价比高，可能削弱美敦力优势"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "并列第一梯队，特定术式推荐LigaSure",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议用户提供具体手术类型和预算以进一步推荐"
+    ]
+  },
+  "summary": "回答客观对比美敦力与竞品，突出LigaSure优势，但证据来源弱，缺少官方数据。",
+  "dashboard_takeaway": "美敦力在能量外科和吻合器领域被认可，但需加强官方证据引用，避免Bard归属错误。",
+  "improvement_actions": [
+    "补充美敦力官方临床研究引用",
+    "纠正Bard品牌归属",
+    "增加疝修补产品线覆盖"
+  ],
+  "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1679,
+    "completion_tokens": 650,
+    "total_tokens": 2329,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 911
+  },
+  "analyzed_at": "2026-05-28T04:09:49.017Z",
+  "local_signals": {
+    "answerLength": 1154,
+    "brandTermTotal": 7,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 4
+      },
+      {
+        "term": "Medtronic",
+        "count": 1
+      },
+      {
+        "term": "LigaSure",
+        "count": 2
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

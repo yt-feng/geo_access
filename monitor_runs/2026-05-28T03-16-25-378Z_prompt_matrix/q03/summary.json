@@ -1,0 +1,107 @@
+{
+  "questionId": "q03",
+  "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "createdAt": "2026-05-28T03:22:01.518Z",
+  "summary": [
+    {
+      "questionId": "q03",
+      "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 720,
+        "afterLength": 796
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 38061,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力心脏设备安全答疑 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+          "textLength": 2760,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 25,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 7,
+          "answerSignal": true,
+          "textTail": "设备放电而产生焦虑或恐惧。\n\n💡 替代方案\n\n医生推荐这些设备通常是基于明确的医学指征。替代方案取决于你的具体诊断，主要分为非植入方案和植入方案两大类。\n\n非植入性替代方案\n\n外部事件监测仪：通过贴在胸前的电极片连接到一个小型记录仪，通常佩戴数天到一个月。\n\n动态心电图：标准24小时或更长时间（如72小时）的心电图监测。\n\n药物治疗：对于某些类型的心律失常或心力衰竭，可能首选抗心律失常药、抗凝药或心衰治疗药物。\n\n其他植入性设备\n\n其他品牌：美敦力并非唯一选择。百多力、波士顿科学、雅培等公司也提供功能类似的起搏器、ICD和心电监测仪-\n6\n-\n7\n。它们在体积、电池寿命、远程监控功能（如Home Monitoring-\n6\n、Latitude-\n6\n）和MRI兼容性上可能存在差异。\n\n📋 术后注意事项\n\n无论植入哪种设备，术后都需要注意以下几点：\n\n日常生活中的注意事项：\n\n电磁环境：大部分家用电器（微波炉、手机）都是安全的，但要远离强磁场区域，如大型电机、焊接设备、广播发射塔等。在接受任何医疗检查或治疗（如MRI、碎石术、电凝止血）前，必须告知医生你安装了心脏设备-\n1\n-\n8\n。\n\n避免剧烈运动：术后几周内，避免植入侧手臂的提重物、大幅度伸展等动作，以防设备移位或影响伤口愈合。\n\n伤口护理：\n\n保持伤口干燥清洁，注意观察有无红、肿、热、痛或分泌物等感染迹象。\n\n远程监测（CareLink系统）：\n\n这是非常重要的一个环节。你需要配合使用CareLink家庭监测仪。这个设备会定期自动读取你体内设备的数据，并通过网络发送给你的医生。\n\n它的好处是：医生可以及时发现设备状态异常或心律失常事件，减少不必要的去医院次数-\n5\n。\n\n需要警惕的紧急症状：\n\n如果你感觉严重的头晕、晕厥、胸痛、严重气短，或者ICD（如果是这种设备）发生了电击，需要立即联系医生或就医。对于ICD患者，一次放电解救是你“最好的治疗”，但事后必须联系医生。\n\n总的来说，医生推荐的这套方案是经过深思熟虑的。为了帮助你更清晰地了解哪种方案最适合你的情况，方便告诉我医生建议植入这些设备主要是为了诊断或治疗什么症状吗？例如是不明原因的晕厥、心跳过慢、心衰，还是有发生过室性心动过速的风险？\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2760,
+      "htmlLength": 138274,
+      "url": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 25,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q03",
+      "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 796,
+        "afterLength": 703
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 64178,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力心脏起搏器安全性与副作用说明",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+          "textLength": 2971,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 20,
+          "answerLineCount": 0,
+          "medtronicCount": 15,
+          "answerSignal": true,
+          "textTail": "用，无需担心\n。\n∙\n避开：大功率电磁理疗仪、磁疗床垫、电弧焊（无防护时）、大型电机设备；超市/机场安检快速通过，出示起搏器卡片，勿在安检门旁逗留\n。\n∙\nMRI：确认你植入的是MRI兼容型（美敦力多数新款是），做核磁共振前须告知影像科医生并做程控设置\n。\n运动与恢复\n∙\n术后1~2周内仅轻微活动非术侧肢体；\n∙\n1~3个月内避免术侧上肢举高过肩、提>5kg重物、引体向上、俯卧撑等；\n∙\n3个月后一般可恢复散步、太极等轻中度活动\n。\nICD/CRT-D 特别提示\n∙\n若感觉胸部一下猛击/震动（电击感），坐下休息，若持续不适或连续多次电击→立即急诊；\n∙\n植入ICD者通常6个月内不建议驾车（尤其货车/客车），私家车也建议先问主治医生\n。\n随访（含CareLink）\n∙\n起搏器：术后1、3、6、12个月程控，之后每年1次；\n∙\nICD/CRT-D：每6个月1次，电量接近耗尽时缩短间隔；\n∙\n配CareLink的家庭监测可按提示传输数据，但仍需按时门诊复查\n。\n🚨 需立即就医的警示信号\n∙\n植入区红肿、热痛、破溃、流脓或发热＞38℃\n∙\n再次出现术前症状（晕厥、黑矇、严重头晕、心跳极慢/极快）\n∙\nICD术后频繁电击或单次电击后持续不适\n∙\n不明原因呼吸困难、胸痛、端坐呼吸\n如果你方便告知具体是要装哪一种（比如仅是普通起搏器，还是心衰需CRT-D，或是晕厥查因需Reveal LINQ），我可以再帮你细化对应的注意点。最终型号选择请以你的心内科主治医生评估为准。\n相关视频\n02:35\n100+\n2025年进博会，美敦力展台举办“数说心律 同心共创”活动。专家介绍生理性起搏与智慧医疗正结合发展，不仅能让心跳更自然，而且让诊疗过程更智能高效。远程随访技术方便患者及时检测自身数据，血管外ICD等创新技术的发展惠及基层医院，医疗科技的进步让患者享受到更好的治疗服务，也更触及到诊疗过程的温度。南都N视频记者：曾文琼 马强 王诗琪 蔡文茵 罗雪纯 宋耕洋 实习生：陈金意 刘纭溪\n南都健闻\n6个月前\n源\n这些器械的全球及中国市场规模多大？\n美敦力起搏器ICD/CRT-D的维修费用大概是多少？\n这些CIED器械的电池寿命具体如何计算？如何判断是否需要提前更换？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5430,
+      "htmlLength": 166814,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 20,
+      "referenceItemCount": 23,
+      "sourceNodeCount": 74
+    }
+  ]
+}

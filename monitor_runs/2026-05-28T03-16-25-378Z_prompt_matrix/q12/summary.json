@@ -1,0 +1,107 @@
+{
+  "questionId": "q12",
+  "prompt": "糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？",
+  "createdAt": "2026-05-28T03:38:59.840Z",
+  "summary": [
+    {
+      "questionId": "q12",
+      "prompt": "糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 840,
+        "afterLength": 903
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 38058,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "糖尿病闭环系统选购对比 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+          "textLength": 3374,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 40,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 17,
+          "answerSignal": true,
+          "textTail": "体验的基础）：\n\n如果你极度讨厌换传感器，希望一次贴上去管很久，并且在意体积：选雅培Libre 3 Plus（15天，极小）-\n3\n。\n\n如果你对准确性要求极高，且受不了传感器启动等待（30分钟 vs 雅培60分钟）：选Dexcom G7（临床MARD值表现优异）-\n2\n-\n10\n。\n\n如果不介意7天更换，且想用美敦力泵：选Guardian 4。\n\n再看算法风格（这决定了控糖效果）：\n\n如果你容易忘记打餐时胰岛素，或者餐后血糖总是飙高：Tandem的Control-IQ+可能更适合你，它的AutoBolus专治\"漏打\"-\n1\n-\n3\n。\n\n如果你希望有大量临床数据支持、比较安心：美敦力780G是久经考验的选项，有研究证实其长期经济性和有效性-\n8\n。\n\n最后考虑\"自由组合\"：\n\nTandem的泵现在既可以用Dexcom G6/G7，也可以用雅培Libre 3 Plus-\n2\n-\n9\n。这给了你最大的灵活性。\n\nDexcom G7目前也与Insulet Omnipod 5等无管路泵兼容-\n7\n。\n\n⚠️ 重要提醒\n\n保险与费用：这是最大的决策因素。美敦力的Guardian传感器是7天更换，而雅培和Dexcom是15天，后两者的年耗材成本约为美敦力的一半。务必先查清楚你的医保覆盖哪些耗材。\n\n地区可用性：虽然Tandem + 雅培的组合已在2025年底于美国上市，但在其他国家/地区的上市时间可能略有不同-\n9\n。\n\n2型糖尿病专属：如果你是2型糖尿病，Dexcom G7新出的\"Smart Basal\"功能能直接帮你智能调整基础胰岛素剂量-\n7\n；Tandem和美敦力的闭环系统也同样获批用于2型-\n1\n-\n8\n。\n\n总结：\n\n追求最新技术、自动纠错强、耗材省钱（15天）：Tandem t:slim X2 + 雅培Libre 3 Plus是目前很均衡的选择。\n\n追求传感器绝对性能、启动快：可以考虑Dexcom G7，并选择一个兼容的泵（如Tandem或Omnipod）。\n\n信赖大厂经典方案、不太介意7天换传感器：美敦力780G依然是非常成熟的标杆。\n\n方便透露你的糖尿病类型（1型还是2型）和目前的血糖控制情况吗？这样我可以帮你分析哪种算法更适合你的生活习惯。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 3374,
+      "htmlLength": 158381,
+      "url": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 40,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q12",
+      "prompt": "糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 834,
+        "afterLength": 789
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 56123,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "糖尿病闭环系统主流方案对比",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR",
+          "textLength": 3245,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 17,
+          "answerLineCount": 4,
+          "medtronicCount": 30,
+          "answerSignal": true,
+          "textTail": "未正式上市（港澳或海外可购）。选择需结合所在地医保/购买渠道。\n三、到底怎么选？按场景给建议\n🅐 你是1型糖尿病（尤其希望上闭环减负担）\n∙\n首选 Tandem + Dexcom G7 或 Omnipod 5 + Dexcom G7（若能获取）——算法成熟、TIR高、Dexcom精度好适合预警低血糖\n。\n∙\n若偏好大药量(>200U)或已有美敦力服务/在国内走正规渠道​ → MiniMed 780G（或现有670G）+ Guardian 4/Simplera，接受传感器稍频繁更换。\n∙\nCGM不要单独选Libre做闭环，因多数商业闭环暂不原生支持Libre（DIY Loop除外）。\n🅑 你是2型糖尿病，主要想看血糖趋势+打胰岛素（不准备上泵）\n∙\n首选 FreeStyle Libre 3 Plus——14天佩戴、价格低、够准，满足观察饮食运动对血糖影响\n。\n∙\n若有频繁无症状低血糖顾虑且预算允许 → Dexcom G7（强预警）。\n🅒 你考虑 DIY 开源闭环（Loop / AndroidAPS）\n∙\n可用老款美敦力泵 + Dexcom G6/G7（或Libre经转接）+ RileyLink，灵活性最高但需要技术折腾，不在医疗监管范围内\n。\n四、决策速查\n1.\n要闭环泵吗？\n∙\n要 → 看美敦力780G / Tandem / Omnipod 5，配套CGM选Dexcom（Tandem/Omni）或Simplera（美敦力）\n∙\n不要 → 只买CGM：1型关注Dexcom G7，2型/预算敏感选Libre 3 Plus\n2.\n在意无管路？​ → Omnipod 5（但需Dexcom，需海外获取）\n3.\n国内正规渠道？​ → 美敦力670G闭环已获批，其余多为港澳/自费引入\n4.\n最终确认​ → 让内分泌科或糖尿病教育护士帮你核实本地医保报销政策及培训支持\n如果有你的具体情况（1型/2型、是否已在用泵、国内/海外就医、每日胰岛素总量大概多少），我可以再帮你缩小到1~2个最适合的方案。\n源\n1型糖尿病，Tandem和美敦力泵哪个好？\n美敦力780G和670G哪个更适合儿童患者？\n国内哪些医院或机构可以提供这些闭环胰岛素泵系统的培训和支持？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5924,
+      "htmlLength": 148922,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 17,
+      "referenceItemCount": 14,
+      "sourceNodeCount": 51
+    }
+  ]
+}

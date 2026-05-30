@@ -1,0 +1,219 @@
+腾讯元宝 资料引用清单
+页面: https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q
+采集时间: 2026-05-28T03:42:10.538Z
+
+页面引用/来源片段:
+
+[片段 1]
+#医疗科技资讯
+医械维新2
+3个月前
+源
+这些平台是否支持微信小程序？
+美敦力CareLink的收费标准是什么？
+除了这些平台，还有哪些新型的远程监测技术正在发展中？
+下载元宝电脑版，体验高效 AI 助手
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（23）
+健康界
+心血管植入型电子器械远程随访中国专家共识
+可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安...
+cloudywifi.com
+Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi
+CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements...
+武汉亚洲心脏病医院
+IECD的远程监测系统简介(二)
+由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械...
+严道医声网
+CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量
+而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结...
+visualfoodie.com
+Understanding Medtronic CareLink Security
+
+[片段 2]
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（23）
+健康界
+心血管植入型电子器械远程随访中国专家共识
+可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安...
+cloudywifi.com
+Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi
+CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements...
+武汉亚洲心脏病医院
+IECD的远程监测系统简介(二)
+由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械...
+严道医声网
+CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量
+而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结...
+visualfoodie.com
+Understanding Medtronic CareLink Security
+security is baked into every step of that journey. You Might Also Like: Common Medtronic CareLink Network Issues The Core Pillars of CareLink Security...
+medtronic.com
+Touch Surgery Simulations Medtronic (Europe) Touch Surgery simulations
+Touch Surgery™ Simulations | Medtronic (Europe) |...
+365医学网
+第31届美国心律协会(HRS)亮点之一——植入器械的远程随访
+2008年HRS/EHRA专家共识中指出,CIED中远程监测功能可以用于及早发现CIED工作异常,进而为更好的评估...
+europe.medtronic.com
+Important Safety Information MyCareLink Remote Monitoring
+
+引用来源条目:
+1. 健康界
+   标题: 心血管植入型电子器械远程随访中国专家共识
+   摘要: 可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安...
+2. cloudywifi.com
+   标题: Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi
+   摘要: CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements...
+3. 武汉亚洲心脏病医院
+   标题: IECD的远程监测系统简介(二)
+   摘要: 由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械...
+4. 严道医声网
+   标题: CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量
+   摘要: 而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结...
+5. visualfoodie.com
+   标题: Understanding Medtronic CareLink Security
+   摘要: security is baked into every step of that journey. You Might Also Like: Common Medtronic CareLink Network Issues The Core Pillars of CareLink Security...
+6. medtronic.com
+   标题: Touch Surgery Simulations Medtronic (Europe) Touch Surgery simulations
+   摘要: Touch Surgery™ Simulations | Medtronic (Europe) |...
+7. 365医学网
+   标题: 第31届美国心律协会(HRS)亮点之一——植入器械的远程随访
+   摘要: 2008年HRS/EHRA专家共识中指出,CIED中远程监测功能可以用于及早发现CIED工作异常,进而为更好的评估...
+8. europe.medtronic.com
+   标题: Important Safety Information MyCareLink Remote Monitoring
+   摘要: CARELINK® NETWORK AND CARELINK® MOBILE APPLICATION...
+9. in.marketscreener.com
+   标题: MEDTRONIC : CareLink Network Remote Monitoring Helps Improve Patient Care and Reduce Healthcare Costs MarketScreener India
+   摘要: without remote monitoring. About the Medtronic CareLink Network The Medtronic CareLink Network offers customizable and color-coded alert notifications...
+10. medicaldevice-network.com
+   标题: Medtronic reinvents surgical training for a new era - Medical Device Network
+   摘要: Medtronics Touch Surgery app plays in helping democratise surgical training. OB: Our app teaches learners how to safely perform different surgeries.
+11. 新浪网
+   标题: 心血管远程监测设备成趋势,百多力、美敦力、雅培谁与争锋?
+   摘要: 中国市场远程监测系统厂商现状: 百多力､美敦力､雅培领先 自2009年在中国首次植入具有远 程监护功能的心脏起搏器...
+12. nice.org.uk
+   标题: CareLink network service for remote monitoring of people with cardiac devices
+   摘要: CareLink compared with trans-telephonic monitoring。
+13. 武汉市市场监督管理局
+   标题: (武汉市知识产权局)
+   摘要: 从患者的植入式心脏设备向指定的卫生保健诊所(远程监控)远程传输包括重要操作和安全提示在内的数据｡允许...
+14. medtronic.com
+   标题: Elevate your robotic surgery training.
+   摘要: Elevate your robotic surgery training. Indications。
+15. PMC
+   标题: Clinical Pathways Guided by Remotely Monitoring Cardiac Device Data: The Future of Device Heart Failure Management?
+   摘要: platform Merlin.net™ CareLink™ LATITUDE™ Home moni...
+16. 严道医声网
+   标题: CareLink大咖谈刘兴斌:CareLink将为CRT患者带来显著临床获益
+   摘要: 编者按: CareLink™是由美敦力公司研发的远程随访系统,将该系统应用于CRT患者的术后管理可带...
+17. 安恒信息官网
+   标题: 【安全资讯】MyCareLink漏洞可使攻击者接管植入的心脏设备
+   摘要: 2020-12-17 10:52:30 622人浏览 物联网安全公司Sternum的专家发现,美敦力...
+18. medtronic.com
+   标题: Touch Surgery
+   摘要: Simulationen auf Operationen vor. Touch Surgery is。
+19. medtronic.com
+   标题: Remote monitoring for implanted heart devices
+   摘要: Your browser is out of date With an updated browser,you will have a better Medtronic web site experience. Update my browser now. Toggle navigation Rem...
+20. modmed.com
+   标题: Modernizing Your Technology Is Beneficial and Essential…But Resist Thinking It Will Be Painless!
+   摘要: By John V. Guiliana,DPM,MS Adopting a new electronic health record is often inevitable as the healthcare environment and its demands continuously chan...
+21. ringcentral.com
+   标题: RINGCENTRAL PRIVACY NOTICE
+   摘要: the relevant link below to jump to that section. Information we collect Information we use Sharing and disclosure of information to third parties Your...
+22. medtronic.com
+   标题: Parlons des fuites
+   摘要: a des éléments qui nécessitent votre attention. Ma...
+23. medtronic.com
+   标题: Télésurveillance
+   摘要: à utiliser lapplication.Moniteur MyCareLink Le mo...
+
+段落引用标记:
+1. idx=1,12,16
+   临床安全性：多项大型研究（TRUST、CONNECT等）证实，对植入起搏器/ICD/CRT的患者，远程随访与门诊随访安全性相当，且能更早发现器械异常或心律失常事件，减少不必要的急诊和住院 。
+2. idx=2,5,9
+   数据安全：采用加密传输（数据在途和静态均加密），服务器符合ISO 27001及HIPAA类隐私标准，仅限授权医护访问 。
+3. idx=13,17
+   早期Conexus无线遥测协议曾被指出缺乏加密（FDA曾通报），但需极近距离+专用设备才可能利用，现实中罕见；美敦力已推送固件/软件补丁强化 。
+4. idx=8,19
+   不能替代急诊：系统依赖网络，若断网或设备未按时上传，不能代替出现胸痛、晕厥、心悸等症状时立即就医或拨打120 。
+5. idx=6,10,18
+   这是供医生/医学生学习手术步骤的手机/平板模拟App或培训系统，不是植入患者体内的治疗设备 。
+6. idx=11,15
+   CareLink是配合美敦力品牌植入器械使用的，若你植入的是其他品牌，对应远程随访系统如下 ：
+
+来源节点:
+1. 1,12,16
+   data-idx-list=1,12,16
+   class=hyc-common-markdown__ref-list__trigger
+2. 2,5,9
+   data-idx-list=2,5,9
+   class=hyc-common-markdown__ref-list__trigger
+3. 13,17
+   data-idx-list=13,17
+   class=hyc-common-markdown__ref-list__trigger
+4. 8,19
+   data-idx-list=8,19
+   class=hyc-common-markdown__ref-list__trigger
+5. 6,10,18
+   data-idx-list=6,10,18
+   class=hyc-common-markdown__ref-list__trigger
+6. 11,15
+   data-idx-list=11,15
+   class=hyc-common-markdown__ref-list__trigger
+7. 医械维新2
+   class=ybc-chat-videoBoxV2-v3Card__item__source video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__k8l-Y
+8. 医械维新2
+   class=ybc-chat-videoBoxV2-v3Card__item__source__name video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__name__HRsZr
+9. 源
+   class=ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open
+10. 源
+   class=ToolbarSearchGuid_source__XMsID
+11. 引用来源（23） 健康界 心血管植入型电子器械远程随访中国专家共识 可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安... cloudywifi.com Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements... 武汉亚洲心脏病医院 IECD的远程监测系统简介(二) 由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械... 严道医声网 CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量 而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访
+   class=agent-dialogue-references
+12. 引用来源（23）
+   class=agent-dialogue-references__header
+13. 引用来源（23）
+   class=agent-dialogue-references__header-txt
+14. 健康界 心血管植入型电子器械远程随访中国专家共识 可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安... cloudywifi.com Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements... 武汉亚洲心脏病医院 IECD的远程监测系统简介(二) 由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械... 严道医声网 CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量 而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异
+   class=agent-dialogue-references__list
+15. 健康界 心血管植入型电子器械远程随访中国专家共识 可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安...
+   class=agent-dialogue-references__item
+16. 健康界
+   class=hyc-common-markdown__ref_card-foot__source_txt
+17. cloudywifi.com Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements...
+   class=agent-dialogue-references__item
+18. cloudywifi.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+19. 武汉亚洲心脏病医院 IECD的远程监测系统简介(二) 由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械...
+   class=agent-dialogue-references__item
+20. 武汉亚洲心脏病医院
+   class=hyc-common-markdown__ref_card-foot__source_txt
+21. 严道医声网 CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量 而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结...
+   class=agent-dialogue-references__item
+22. 严道医声网
+   class=hyc-common-markdown__ref_card-foot__source_txt
+23. visualfoodie.com Understanding Medtronic CareLink Security security is baked into every step of that journey. You Might Also Like: Common Medtronic CareLink Network Issues The Core Pillars of CareLink Security...
+   class=agent-dialogue-references__item
+24. visualfoodie.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+25. medtronic.com Touch Surgery Simulations Medtronic (Europe) Touch Surgery simulations Touch Surgery™ Simulations | Medtronic (Europe) |...
+   class=agent-dialogue-references__item
+26. medtronic.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+27. 365医学网 第31届美国心律协会(HRS)亮点之一——植入器械的远程随访 2008年HRS/EHRA专家共识中指出,CIED中远程监测功能可以用于及早发现CIED工作异常,进而为更好的评估...
+   class=agent-dialogue-references__item
+28. 365医学网
+   class=hyc-common-markdown__ref_card-foot__source_txt
+29. europe.medtronic.com Important Safety Information MyCareLink Remote Monitoring CARELINK® NETWORK AND CARELINK® MOBILE APPLICATION...
+   class=agent-dialogue-references__item
+30. europe.medtronic.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+
+链接:
+未识别到可见引用链接。

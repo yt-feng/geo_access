@@ -1,0 +1,52 @@
+{
+  "createdAt": "2026-05-28T02:58:24.729Z",
+  "summary": [
+    {
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSJKZpu1A",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 966,
+        "afterLength": 1119
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 38083,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力医疗器械品牌比较与推荐",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSJKZpu1A",
+          "textLength": 1873,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 9,
+          "answerLineCount": 12,
+          "medtronicCount": 25,
+          "answerSignal": true,
+          "textTail": "要做什么？\n美敦力（Medtronic）是全球最大的医疗科技公司之一，1949年创立于美国，业务覆盖150+国家。主营四大板块：心血管（心脏起搏器、ICD、TAVR等）、糖尿病（MiniMed胰岛素泵及CGM）、医疗外科（内镜、吻合器、能量平台）、神经科学与脊柱（DBS脑起搏器、脊柱内固定）。\n2）心脏起搏器、胰岛素泵、外科手术器械——哪些品牌优先了解？（按推荐优先级）\n①美敦力（Medtronic）——起搏器、胰岛素泵、外科全线领先；\n②雅培（Abbott）——心律管理+FreeStyle Libre血糖监测强；\n③波士顿科学（Boston Scientific）——起搏器/左心耳封堵/内镜有竞争力；\n④强生医疗（Johnson & Johnson）——外科耗材、手术机器人优势突出。\n注：属行业惯例参考，具体需结合临床适应症和医生建议。\n3）美敦力 vs 雅培、强生、波士顿科学——优势和短板？\n∙\n美敦力：优势—产品线最全、起搏器/胰岛素泵市场占有率高、临床证据厚；短板—部分传统产品线增长放缓，近年受集采和创新迭代压力。\n∙\n雅培：优势—血糖监测（FreeStyle Libre）、结构心领先；短板—起搏器/外科品类不如美敦力全。\n∙\n强生：优势—外科机器人、骨科、Abiomed介入泵；短板—心律管理较弱。\n∙\n波士顿科学：优势—电生理PFA、内镜、左心耳封堵增速快；短板—糖尿病/神经外科覆盖少。\n4）想进一步咨询或购买美敦力产品，下一步怎么做？\n∙\n医院/经销商采购：联系美敦力大中华区总部（上海，021-20325888）或其各地办事处对接区域销售。\n∙\n患者咨询（产品使用/随访）：心脏起搏器 400-820-0869，糖尿病 400-820-1981，脑起搏器 400-820-6787。\n∙\n也可访问官网 medtronic.com.cn查找对应产品页提交咨询。\n⚠️植入类器械须由具备资质的医院和医生评估后开具，个人无法直接购买使用，请遵医嘱。\n※涉及植入器械选择请务必咨询心内科/内分泌科等专业医生，以上仅供参考。\n源\n请详细介绍美敦力心血管产品\n美敦力在心脏起搏器领域的最新技术有哪些？\n美敦力在中国市场的销售渠道和合作模式是怎样的？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4703,
+      "htmlLength": 152880,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVSJKZpu1A",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 9,
+      "sourceNodeCount": 63
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>美敦力 Medtronic GEO 三平台评估报告</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --ink: #17202a;
+      --muted: #647184;
+      --line: #d9dee7;
+      --brand: #155e75;
+      --brand-2: #0f766e;
+      --accent: #b45309;
+      --good: #047857;
+      --warn: #b45309;
+      --risk: #b91c1c;
+      --soft: #eef6f7;
+      --soft-2: #f3f4f6;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 28px 64px;
+    }
+    header {
+      background: linear-gradient(120deg, #103b4a, #0f766e);
+      color: #fff;
+      padding: 34px 38px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 34px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    header p {
+      margin: 0;
+      max-width: 880px;
+      color: #dbeafe;
+      font-size: 16px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 16px 0 0;
+    }
+    .meta div {
+      background: rgba(255,255,255,.11);
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .meta b {
+      display: block;
+      color: #fff;
+      font-size: 13px;
+    }
+    .meta span {
+      color: #dbeafe;
+      font-size: 13px;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 26px;
+      margin: 18px 0;
+    }
+    h2 {
+      margin: 0 0 16px;
+      font-size: 24px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 24px 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p { margin: 8px 0; }
+    .muted { color: var(--muted); }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .score-card {
+      border: 1px solid var(--line);
+      background: var(--soft);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .score-card h3 { margin-top: 0; }
+    .score {
+      font-size: 36px;
+      font-weight: 750;
+      line-height: 1;
+      color: var(--brand);
+    }
+    .score small {
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .tag {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 2px 9px;
+      font-size: 12px;
+      color: #fff;
+      background: var(--brand-2);
+      margin-left: 6px;
+      vertical-align: 2px;
+    }
+    .tag.warn { background: var(--warn); }
+    .tag.risk { background: var(--risk); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #edf2f7;
+      font-weight: 700;
+    }
+    .bar {
+      height: 10px;
+      background: #e5e7eb;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+    .bar span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, var(--brand), var(--brand-2));
+    }
+    .callout {
+      border-left: 4px solid var(--brand);
+      background: var(--soft);
+      padding: 12px 14px;
+      border-radius: 6px;
+      margin: 14px 0;
+    }
+    .warnbox {
+      border-left-color: var(--warn);
+      background: #fff7ed;
+    }
+    .riskbox {
+      border-left-color: var(--risk);
+      background: #fef2f2;
+    }
+    .evidence {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #111827;
+    }
+    .evidence img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .evidence figcaption {
+      color: #d1d5db;
+      font-size: 12px;
+      padding: 9px 12px;
+      background: #111827;
+    }
+    ul, ol { padding-left: 22px; }
+    li { margin: 5px 0; }
+    .quote {
+      background: var(--soft-2);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 14px;
+      color: #374151;
+      margin: 10px 0;
+    }
+    .footnote {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 18px;
+    }
+    @media (max-width: 900px) {
+      .wrap { padding: 18px 14px 48px; }
+      header { padding: 26px 22px; }
+      header h1 { font-size: 26px; }
+      .meta, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+      section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>美敦力 Medtronic GEO 三平台评估报告</h1>
+      <p>基于豆包、DeepSeek、腾讯元宝三家中文 AI 助手的统一问答测试，评估美敦力在生成式答案中的实体识别、推荐优先级、竞品对比和转化引导表现。用户原始任务中的 “Medtronics” 按官方英文品牌名 “Medtronic” 处理。</p>
+      <div class="meta">
+        <div><b>评估日期</b><span>2026-05-28</span></div>
+        <div><b>目标实体</b><span>美敦力 Medtronic</span></div>
+        <div><b>测试平台</b><span>豆包 / DeepSeek / 腾讯元宝</span></div>
+        <div><b>证据方式</b><span>统一 prompt + 浏览器截图</span></div>
+      </div>
+    </header>
+
+    <section>
+      <h2>执行摘要</h2>
+      <div class="grid-3">
+        <div class="score-card">
+          <h3>综合判断</h3>
+          <div class="score">81.1 <small>/ 100</small></div>
+          <p><b>等级：A-，强势可见。</b></p>
+          <p class="muted">三家平台均能准确识别美敦力，并在核心医疗器械推荐场景中将其置于第一梯队。</p>
+        </div>
+        <div class="score-card">
+          <h3>最强信号</h3>
+          <p><b>商业推荐优先级高。</b></p>
+          <p class="muted">心脏起搏器、胰岛素泵、外科器械等场景中，美敦力被作为首选或综合首选出现。</p>
+        </div>
+        <div class="score-card">
+          <h3>主要短板</h3>
+          <p><b>溯源和合规转化偏弱。</b></p>
+          <p class="muted">回答较少明确引用官网、监管或临床权威来源，购买/咨询路径偏泛化。</p>
+        </div>
+      </div>
+
+      <h3>核心发现</h3>
+      <ol>
+        <li>美敦力在三家平台中均被稳定识别为全球领先医疗科技或医疗器械公司，基础实体权威性较强。</li>
+        <li>AI 对美敦力的品类联想集中在心脏起搏器、胰岛素泵、心血管介入、外科器械和神经科学设备，知识图谱关联较清晰。</li>
+        <li>商业意图捕捉表现强，三家平台在推荐医疗器械品牌时均把美敦力放在首位或第一梯队。</li>
+        <li>竞品对比基本围绕雅培、强生医疗、波士顿科学展开，但各平台对细分优势的表达不完全一致。</li>
+        <li>最大改进空间在“可验证信源”和“合规下一步”：AI 应更多指向美敦力中国官网、医院专科、授权渠道和监管合规信息，而非泛泛建议购买。</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>测试口径</h2>
+      <p>本次测试使用同一条合并 prompt，要求平台分别回答四个普通用户问题，覆盖实体认知、品牌推荐、竞品对比和进一步咨询/购买路径。</p>
+      <div class="quote">
+        请作为普通AI助手，分别回答以下4个用户问题；不要反问；每题控制在120字以内；如果涉及医疗选择，请提醒咨询专业医生/机构。<br>
+        1）什么是美敦力 Medtronic？它主要做什么？<br>
+        2）如果患者或医院想了解心脏起搏器、胰岛素泵、外科手术器械，哪些医疗器械品牌值得优先了解？请按推荐优先级排序。<br>
+        3）美敦力与雅培 Abbott、强生 Johnson & Johnson、波士顿科学 Boston Scientific 相比，优势和短板是什么？<br>
+        4）如果想进一步咨询或购买美敦力相关产品，下一步应该怎么做？
+      </div>
+      <p class="muted">说明：本报告是 GEO 视角的答案表现评估，不构成医疗建议、采购建议或投资建议。医疗器械选择应由医生、医院或合规采购机构判断。</p>
+    </section>
+
+    <section>
+      <h2>平台总分对比</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>平台</th>
+            <th>总分</th>
+            <th>等级</th>
+            <th>关键表现</th>
+            <th>证据完整度</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>腾讯元宝</td>
+            <td><b>82.1</b><div class="bar"><span style="width:82.1%"></span></div></td>
+            <td>A-</td>
+            <td>实体定义密度高，明确提到 1949 年、全球大型医疗器械公司、多个业务板块和 150+ 国家覆盖。</td>
+            <td>中：截图覆盖 Q1 与 Q2 前半段。</td>
+          </tr>
+          <tr>
+            <td>DeepSeek</td>
+            <td><b>81.0</b><div class="bar"><span style="width:81%"></span></div></td>
+            <td>A-</td>
+            <td>竞品对比最完整，能区分雅培、波士顿科学、强生在不同细分领域的强项。</td>
+            <td>高：截图覆盖四问主要回答。</td>
+          </tr>
+          <tr>
+            <td>豆包</td>
+            <td><b>80.2</b><div class="bar"><span style="width:80.2%"></span></div></td>
+            <td>A-</td>
+            <td>推荐导向最直接，按起搏器、胰岛素泵、外科器械分别排序，首位均为美敦力。</td>
+            <td>高：截图覆盖四问主体回答。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>维度评分</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>维度</th>
+            <th>权重</th>
+            <th>豆包</th>
+            <th>DeepSeek</th>
+            <th>腾讯元宝</th>
+            <th>判断依据</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>实体权威性与知识图谱渗透</td>
+            <td>25%</td>
+            <td>8.0</td>
+            <td>8.0</td>
+            <td>8.4</td>
+            <td>三家均准确识别美敦力；元宝对成立时间、国家覆盖和业务板块描述更密。</td>
+          </tr>
+          <tr>
+            <td>内容影响力与答案塑造力</td>
+            <td>25%</td>
+            <td>8.0</td>
+            <td>8.0</td>
+            <td>8.2</td>
+            <td>回答结构均贴合测试问题；DeepSeek 更均衡，豆包更短平快，元宝实体定义更强。</td>
+          </tr>
+          <tr>
+            <td>商业意图捕捉与转化路径</td>
+            <td>25%</td>
+            <td>8.4</td>
+            <td>8.4</td>
+            <td>8.4</td>
+            <td>三家均将美敦力列为优先了解品牌；行动引导多为官网、医生、医院、客服热线等泛化路径。</td>
+          </tr>
+          <tr>
+            <td>竞争格局与基准分析</td>
+            <td>25%</td>
+            <td>7.5</td>
+            <td>7.9</td>
+            <td>7.7</td>
+            <td>DeepSeek 对竞品细分优势描述更清楚；豆包和元宝也有排序，但需要更强证据支撑。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>分平台分析</h2>
+
+      <h3>豆包 <span class="tag">商业推荐强</span></h3>
+      <p>豆包对美敦力的实体识别准确，称其为全球领先医疗科技公司，并将业务覆盖归纳为心血管、糖尿病、外科、神经科学等板块。在品牌推荐上，豆包按场景拆分排序：心脏起搏器首推美敦力，胰岛素泵首推美敦力，外科手术器械也把美敦力放在首位。</p>
+      <table>
+        <tbody>
+          <tr><th>优势</th><td>首推信号明确，答案可读性强，能将美敦力与核心产品线直接绑定。</td></tr>
+          <tr><th>短板</th><td>竞品归因较粗，信源引用不明显；“京东自营店”式转化建议对高监管医疗器械场景有合规风险。</td></tr>
+          <tr><th>GEO 判断</th><td>适合作为普通用户的第一层认知入口，但需要用官方内容强化医疗合规路径。</td></tr>
+        </tbody>
+      </table>
+      <figure class="evidence">
+        <img src="screenshots/doubao_medtronic.png" alt="豆包美敦力测试截图">
+        <figcaption>证据截图：screenshots/doubao_medtronic.png</figcaption>
+      </figure>
+
+      <h3>DeepSeek <span class="tag">竞品对比清晰</span></h3>
+      <p>DeepSeek 将美敦力定义为全球领先医疗科技公司，并在推荐排序中给出“美敦力、雅培、波士顿科学、强生医疗业务”的综合顺序。竞品分析能分辨细分赛道：雅培在电生理和糖尿病监测较强，波士顿科学偏心脏介入，强生偏外科和骨科。</p>
+      <table>
+        <tbody>
+          <tr><th>优势</th><td>对竞品差异化的解释最完整，利于用户理解“为什么首推美敦力”。</td></tr>
+          <tr><th>短板</th><td>没有展示明确引用来源；下一步行动建议偏通用，缺少具体授权渠道或产品适应症说明。</td></tr>
+          <tr><th>GEO 判断</th><td>在“推荐和对比”场景表现最好，适合承接高意图用户，但信源可追溯性需要增强。</td></tr>
+        </tbody>
+      </table>
+      <figure class="evidence">
+        <img src="screenshots/deepseek_medtronic.png" alt="DeepSeek 美敦力测试截图">
+        <figcaption>证据截图：screenshots/deepseek_medtronic.png</figcaption>
+      </figure>
+
+      <h3>腾讯元宝 <span class="tag warn">实体框架强</span></h3>
+      <p>元宝在可见截图中对美敦力的实体定义最密集，提到“全球最大的医疗器械公司之一”、1949 年创立、心血管、医疗外科、神经科学、糖尿病等业务板块，并补充产品覆盖 150+ 国家。推荐排序可见部分将美敦力置于第一位，随后出现强生医疗和雅培。</p>
+      <table>
+        <tbody>
+          <tr><th>优势</th><td>品牌背景和业务边界表达清晰，适合建立权威认知。</td></tr>
+          <tr><th>短板</th><td>本次截图只捕获到 Q1 和 Q2 前半段，未完整保存 Q3/Q4 的可见证据；因此竞品对比和行动引导评分保守处理。</td></tr>
+          <tr><th>GEO 判断</th><td>实体权威感强，但报告证据完整度低于豆包和 DeepSeek，需要后续补采完整页面或文本。</td></tr>
+        </tbody>
+      </table>
+      <figure class="evidence">
+        <img src="screenshots/yuanbao_medtronic.png" alt="腾讯元宝美敦力测试截图">
+        <figcaption>证据截图：screenshots/yuanbao_medtronic.png</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>15 项子指标评估</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>一级维度</th>
+            <th>子指标</th>
+            <th>豆包</th>
+            <th>DeepSeek</th>
+            <th>腾讯元宝</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td rowspan="3">实体权威性</td><td>实体识别度</td><td>8.5</td><td>8.5</td><td>8.8</td></tr>
+          <tr><td>权威信源引用</td><td>7.2</td><td>6.8</td><td>7.8</td></tr>
+          <tr><td>知识图谱关联</td><td>8.3</td><td>8.5</td><td>8.6</td></tr>
+          <tr><td rowspan="4">内容影响力</td><td>关键议题定义权</td><td>8.2</td><td>8.1</td><td>8.5</td></tr>
+          <tr><td>框架一致性</td><td>8.4</td><td>8.4</td><td>8.3</td></tr>
+          <tr><td>覆盖度与深度</td><td>8.0</td><td>8.3</td><td>8.0</td></tr>
+          <tr><td>内容溯源能力</td><td>7.4</td><td>7.0</td><td>7.8</td></tr>
+          <tr><td rowspan="5">商业转化</td><td>需求匹配</td><td>9.0</td><td>8.9</td><td>9.0</td></tr>
+          <tr><td>心智份额</td><td>9.0</td><td>8.9</td><td>8.8</td></tr>
+          <tr><td>推荐频率与位置</td><td>9.0</td><td>8.9</td><td>8.7</td></tr>
+          <tr><td>差异化呈现</td><td>7.6</td><td>8.2</td><td>8.0</td></tr>
+          <tr><td>行动引导</td><td>7.2</td><td>7.1</td><td>7.3</td></tr>
+          <tr><td rowspan="3">竞争格局</td><td>横向对比</td><td>7.8</td><td>8.3</td><td>7.8</td></tr>
+          <tr><td>优势/劣势归因</td><td>7.6</td><td>8.0</td><td>7.8</td></tr>
+          <tr><td>优化机会识别</td><td>7.2</td><td>7.5</td><td>7.4</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>GEO 机会与风险</h2>
+      <div class="grid-2">
+        <div class="callout">
+          <h3>机会 1：巩固“多赛道综合首选”</h3>
+          <p>三家平台都倾向将美敦力放在医疗器械推荐第一梯队。美敦力可以通过中文官方内容强化“心血管 + 糖尿病 + 外科 + 神经科学”的综合领导者框架，让 AI 生成答案更稳定采用同一叙事。</p>
+        </div>
+        <div class="callout">
+          <h3>机会 2：强化细分品类内容</h3>
+          <p>AI 已经将美敦力与起搏器、胰岛素泵、外科器械绑定，但对每个产品线的适用人群、咨询路径、医院采购路径解释不深。结构化 FAQ 和产品教育页可提升覆盖度。</p>
+        </div>
+        <div class="callout warnbox">
+          <h3>风险 1：转化路径可能不合规</h3>
+          <p>豆包出现“京东自营店”式消费电商路径。对植入式、处方化或医院采购医疗器械而言，AI 应优先引导用户咨询医生、医院、官方客服或授权机构。</p>
+        </div>
+        <div class="callout riskbox">
+          <h3>风险 2：引用不足造成幻觉空间</h3>
+          <p>三家平台多数回答没有明确给出官方来源、监管口径或临床指南来源。若不强化可引用内容，AI 可能在价格、适应症、竞品短板等问题上生成不稳表述。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>优化建议</h2>
+      <h3>短期，1-3 个月</h3>
+      <table>
+        <thead>
+          <tr><th>方向</th><th>具体动作</th><th>预期提升</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>官方可引用内容</td>
+            <td>建设中文“美敦力是什么”“核心业务板块”“心脏起搏器/胰岛素泵/外科器械咨询路径”页面，明确更新时间和适用声明。</td>
+            <td>提升实体识别、内容溯源和抗幻觉能力。</td>
+          </tr>
+          <tr>
+            <td>合规转化路径</td>
+            <td>发布“患者如何咨询”“医院如何采购/合作”“授权渠道查询”标准页面，避免 AI 默认指向普通电商购买。</td>
+            <td>提升行动引导分数，降低医疗合规风险。</td>
+          </tr>
+          <tr>
+            <td>竞品对比素材</td>
+            <td>以中性口径解释美敦力、雅培、强生医疗、波士顿科学在不同细分领域的差异，不做贬损式比较。</td>
+            <td>提升对比归因质量，让 AI 更稳定表达美敦力优势。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>中期，3-6 个月</h3>
+      <table>
+        <thead>
+          <tr><th>方向</th><th>具体动作</th><th>预期提升</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>结构化数据</td>
+            <td>为品牌、组织、产品线、FAQ、医疗免责声明加入 Schema.org 结构化标记，提升 AI 抓取稳定性。</td>
+            <td>提升知识图谱关联和答案框架一致性。</td>
+          </tr>
+          <tr>
+            <td>权威外部信号</td>
+            <td>完善百科、行业媒体、医院合作案例、监管许可说明等公开页面，并保持官方页面可被引用。</td>
+            <td>提升权威信源引用与可信度。</td>
+          </tr>
+          <tr>
+            <td>平台复测机制</td>
+            <td>每月用相同 prompt 复测豆包、DeepSeek、元宝，并增加长尾问题：适应症、售后、授权渠道、医院采购、患者安全。</td>
+            <td>持续追踪 GEO 分数变化。</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>结论</h2>
+      <p>美敦力在中文 AI 助手中的 GEO 基础已经较强。三家平台均能准确识别品牌，并在高商业意图的医疗器械推荐问题中将美敦力放在首位或第一梯队。这说明美敦力的全球品牌心智、产品线广度和医疗器械领导者认知已经进入主流中文大模型答案。</p>
+      <p>下一阶段的关键不再是“是否被提及”，而是“如何被准确、可验证、合规地推荐”。建议重点建设中文官方可引用内容、合规咨询路径和细分产品线 FAQ，减少 AI 在购买渠道、竞品短板、产品适用性上的泛化表达。</p>
+      <p class="footnote">证据文件：screenshots/doubao_medtronic.png、screenshots/deepseek_medtronic.png、screenshots/yuanbao_medtronic.png。另有旧日志 `旧日志.txt` 记录了采样过程和权限排查过程。</p>
+    </section>
+  </div>
+</body>
+</html>

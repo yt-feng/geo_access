@@ -1,0 +1,129 @@
+{
+  "question_id": "q10",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 75,
+    "total_score": 80
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌专有词组出现18次，LigaSure 9次，Tri-Staple 5次，Valleylab 3次，美敦力1次，覆盖主要产品线，位置靠前。",
+    "important_terms_present": [
+      "美敦力",
+      "LigaSure",
+      "Valleylab",
+      "Tri-Staple"
+    ],
+    "important_terms_missing": [
+      "缝合与疝修补产品具体名称如MaxTack",
+      "美敦力疝修补片"
+    ],
+    "product_assets_covered": [
+      "LigaSure",
+      "Valleylab",
+      "Tri-Staple",
+      "MaxTack"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "LigaSure用于血管闭合",
+      "Valleylab电外科工作站",
+      "Tri-Staple吻合器",
+      "MaxTack疝固定装置"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力缝合线产品",
+      "疝修补片具体型号"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "MAUDE数据库报告",
+      "荟萃分析引用但未提供具体来源"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方临床数据引用",
+      "未引用FDA或NMPA批准文件"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "经过临床验证",
+      "全球广泛应用",
+      "安全性高",
+      "减少术后引流量"
+    ],
+    "negative_or_risk_claims": [
+      "血清肿风险",
+      "吻合口漏风险",
+      "电外科热损伤风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "未明确排名，但作为主要推荐",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议与主治医生深入沟通",
+      "提供了术后注意事项"
+    ]
+  },
+  "summary": "回答全面覆盖美敦力产品安全性、副作用、替代方案和术后注意事项，认知准确，但证据来源缺乏官方引用，推荐转化力中等。",
+  "dashboard_takeaway": "品牌可见度高，认知准确，但证据纳入度因缺乏官方来源而偏低，需加强权威证据引用以提升信任。",
+  "improvement_actions": [
+    "引用美敦力官方临床研究或FDA批准信息",
+    "补充缝合与疝修补产品具体名称",
+    "减少对MAUDE等噪音源的依赖"
+  ],
+  "prompt": "医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2343,
+    "completion_tokens": 680,
+    "total_tokens": 3023,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1575
+  },
+  "analyzed_at": "2026-05-28T04:10:02.849Z",
+  "local_signals": {
+    "answerLength": 2354,
+    "brandTermTotal": 18,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 1
+      },
+      {
+        "term": "LigaSure",
+        "count": 9
+      },
+      {
+        "term": "Valleylab",
+        "count": 3
+      },
+      {
+        "term": "Tri-Staple",
+        "count": 5
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

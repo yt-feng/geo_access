@@ -1,0 +1,121 @@
+{
+  "question_id": "q06",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 80,
+    "total_score": 81
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词15次，产品名Evolut 10次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "Evolut",
+      "Evolut FX/FX+",
+      "CoreValve"
+    ],
+    "important_terms_missing": [
+      "美敦力TAVR整体品牌定位",
+      "Resilia技术"
+    ],
+    "product_assets_covered": [
+      "Evolut FX/FX+",
+      "Evolut平台",
+      "CoreValve"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "自膨胀瓣膜",
+      "可回收重新定位",
+      "小瓣环优势",
+      "SMART试验证据"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力在结构性心脏其他产品线如MitraClip未提及"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "引用来源未明确列出，依赖AI内部知识"
+    ],
+    "evidence_gaps": [
+      "缺乏官方临床研究引用",
+      "价格数据来源不明"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "小瓣环患者血流动力学更优",
+      "可回收容错率高",
+      "输送系统柔顺"
+    ],
+    "negative_or_risk_claims": [
+      "起搏器植入率相对较高",
+      "价格中等"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "小瓣环首选，整体推荐度与爱德华并列",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议根据患者解剖选择",
+      "强调可回收优势"
+    ]
+  },
+  "summary": "回答全面客观，突出美敦力在小瓣环和可回收方面的优势，但缺乏官方引用，价格数据不够精确。",
+  "dashboard_takeaway": "美敦力Evolut在小瓣环患者中证据强，可回收特性降低学习曲线，但起搏器风险需关注。",
+  "improvement_actions": [
+    "补充官方临床研究引用",
+    "明确价格数据来源",
+    "提及美敦力其他结构性心脏产品"
+  ],
+  "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+  "source_url": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2719,
+    "completion_tokens": 622,
+    "total_tokens": 3341,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1951
+  },
+  "analyzed_at": "2026-05-28T04:09:06.519Z",
+  "local_signals": {
+    "answerLength": 2955,
+    "brandTermTotal": 26,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 15
+      },
+      {
+        "term": "Medtronic",
+        "count": 1
+      },
+      {
+        "term": "Evolut",
+        "count": 10
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "question_id": "q10",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 80,
+    "total_score": 88
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词和产品词共29次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "LigaSure",
+      "Valleylab",
+      "Tri-Staple"
+    ],
+    "important_terms_missing": [],
+    "product_assets_covered": [
+      "LigaSure血管闭合系统",
+      "Valleylab电刀能量平台",
+      "Tri-Staple切割吻合器",
+      "疝修补补片",
+      "缝合材料"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "LigaSure用于血管闭合",
+      "Valleylab电刀能量平台",
+      "Tri-Staple切割吻合器",
+      "疝修补补片",
+      "缝合材料"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": []
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 20,
+    "official_sources_used": [
+      "medtronic.com",
+      "pubmed.gov",
+      "PMC"
+    ],
+    "noisy_or_weak_sources": [
+      "复禾健康",
+      "博禾医生",
+      "丁香园生物医药科技网"
+    ],
+    "evidence_gaps": [
+      "缺少美敦力疝补片的具体临床研究引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "安全性良好",
+      "减少术中出血",
+      "提高吻合质量",
+      "缩短手术时间"
+    ],
+    "negative_or_risk_claims": [
+      "热灼伤风险",
+      "吻合口漏风险",
+      "补片感染风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "主流品牌，推荐使用",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "提供了详细术后注意事项",
+      "建议与医生沟通具体术式",
+      "鼓励进一步提问"
+    ]
+  },
+  "summary": "回答全面覆盖美敦力产品线，安全性评价中肯，引用官方和学术来源，推荐转化力强，但部分来源噪音略高。",
+  "dashboard_takeaway": "品牌可见度高，认知准确，证据扎实，推荐积极。建议优化低质来源，强化补片临床数据。",
+  "improvement_actions": [
+    "增加美敦力疝补片官方临床研究引用",
+    "减少非权威健康网站引用",
+    "补充竞品对比的客观数据"
+  ],
+  "prompt": "医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUvwf4AQS",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 5895,
+    "completion_tokens": 642,
+    "total_tokens": 6537,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5127
+  },
+  "analyzed_at": "2026-05-28T04:10:09.034Z",
+  "local_signals": {
+    "answerLength": 4197,
+    "brandTermTotal": 29,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 1
+      },
+      {
+        "term": "Medtronic",
+        "count": 7
+      },
+      {
+        "term": "LigaSure",
+        "count": 10
+      },
+      {
+        "term": "Valleylab",
+        "count": 3
+      },
+      {
+        "term": "Tri-Staple",
+        "count": 8
+      }
+    ],
+    "referenceItemCount": 18,
+    "officialReferenceCount": 6,
+    "referenceSources": [
+      {
+        "source": "pubmed.gov",
+        "title": "Ligasure impact might reduce blood loss, complications, and re-operation occurrence after abdominoplasty in massive-weight-loss patients: A Comparative Study - PubMed",
+        "snippet": "Ligasure impact™ might reduce blood loss, complica..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Indications, Safety, and Warnings - Cardiac Ablation (Surgical)",
+        "snippet": "pen Cardioblate XL surgical ablation pen Valleylab。"
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Signia circular stapler with Tri-Staple technology",
+        "snippet": "stapler with Tri-Staple™ technology Powered staple..."
+      },
+      {
+        "source": "复禾健康",
+        "title": "腹腔镜下无张力疝修补术",
+        "snippet": "补片与组织融合通常需要3个月,期间需定期复查｡术后需保持切口干燥清洁,遵医嘱使用头孢呋辛酯片预防感染..."
+      },
+      {
+        "source": "PMC",
+        "title": "Complications associated with energy‐based devices during thyroidectomy from 2010–2020",
+        "snippet": "Harmonic,LigaSure,Manufacture and User Facility Device Experience,Patient safety,Quality,Thunderbeat,Thyroidectomy INTRODUCTION Within the United Stat..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Don't compromise on staple lines in robotic surgery",
+        "snippet": "Tri-Staple™ tecnology Better Staple formation1,*,..."
+      },
+      {
+        "source": "·岳阳市四人民医院",
+        "title": "【成人疝健康科普四】腹腔镜腹股沟疝修补术后注意事项",
+        "snippet": "公众号 腹腔镜腹股沟疝修补术(微创手术)相比传统开放手术,创伤小,恢复快,住院时间短｡但并不意味着术后就万事..."
+      },
+      {
+        "source": "中华医学网",
+        "title": "疝外科缝合技术与缝合材料选择中国专家共识(2018版)解读",
+        "snippet": "组织修补避免 张力过大､缝合撕裂 ｡感染 :感染切口 禁用不可吸收合成补片 ;严格无菌操作,可吸收..."
+      },
+      {
+        "source": "SpringerLink",
+        "title": "A Comparison of the LigaSure and Harmonic Scalpel in Thyroid Surgery: A Single Institution Review",
+        "snippet": "Harmonic scalpel significantly decreased operative time for both thyroidectomies and thyroid lobectomies compared with the LigaSure device. Introducti..."
+      },
+      {
+        "source": "丁香园生物医药科技网",
+        "title": "你真的了解疝补片吗?",
+        "snippet": "肠瘘等严重并发症｡随着腹腔镜疝修补技术的广泛开展,肠管与补片的粘连值得关注｡TAPP 或 TEP 手..."
+      },
+      {
+        "source": "博禾医生",
+        "title": "腹腔镜疝气补片多久牢固",
+        "snippet": "腹腔镜 疝气补片一般在术后1-3个月达到初步牢固,完全牢固并与组织融合需要3-6个月｡腹腔镜疝气修补..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Signia stapling system",
+        "snippet": "with Tri-Staple™ technology provides better staple..."
+      },
+      {
+        "source": "PMC",
+        "title": "Ligasure Impact to Reduce Complications After Abdominoplasty: A Meta-Analysis of Comparative Studies",
+        "snippet": "LigaSure Impact™ (LS) vessel-sealing system (Medtr..."
+      },
+      {
+        "source": "·中华消化外科杂志",
+        "title": "专家论坛生物补片在疝和腹壁外科应用中的争议与展望——申鼎成 陈志杰 曹昕彤等",
+        "snippet": "公众号 尤其在复杂的污染或感染性腹壁缺损､造口旁疝等高风险患者中,被视为解决合成补片禁忌的理想替代物｡完美的疝修补补片需同..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Tackle variable tissue with confidence",
+        "snippet": "outcomes Reinforced reloads with Tri-Staple™ techn..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "BiZact tonsillectomy device",
+        "snippet": "BiZact™ tonsillectomy device｡Open tonsillectomy de..."
+      },
+      {
+        "source": "上海交通大学",
+        "title": "疝修补材料的研究进展及展望",
+        "snippet": "该研究显示聚丙烯/聚四氟乙烯复合补片安全有效,具有良好的短期和中期疗效｡美国强生公司生产的轻量级疝修补材料Vypr..."
+      },
+      {
+        "source": "·联勤保障部队第945医院",
+        "title": "【健康科普】腹腔镜下腹股沟疝修补手术后宣教",
+        "snippet": "公众号 02术后注意事项我院普通外科常规开展微创腹腔镜疝修补手术数年,为广大的军､地患者进行该项手术,均取得..."
+      }
+    ]
+  }
+}

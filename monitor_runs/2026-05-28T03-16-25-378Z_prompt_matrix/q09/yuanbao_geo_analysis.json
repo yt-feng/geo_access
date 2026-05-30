@@ -1,0 +1,216 @@
+{
+  "question_id": "q09",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 80,
+    "total_score": 81
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词27次，产品词LigaSure等出现",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "LigaSure",
+      "Valleylab",
+      "Crome"
+    ],
+    "important_terms_missing": [
+      "Covidien",
+      "柯惠",
+      "Signia",
+      "Sonicision",
+      "Thunderbeat"
+    ],
+    "product_assets_covered": [
+      "能量器械",
+      "吻合器",
+      "缝合线",
+      "疝修补片"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力含原Covidien",
+      "LigaSure大血管闭合",
+      "Signia智能吻合器",
+      "V-Loc倒刺线"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "未提及美敦力疝补片具体型号如Parietex"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "今日头条",
+      "买购网",
+      "东方财富网",
+      "tenmed.net"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方临床数据引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力与Ethicon双寡头",
+      "Signia自适应击发优势",
+      "V-Loc性价比高"
+    ],
+    "negative_or_risk_claims": [
+      "美敦力缝合线手感稍硬",
+      "Physiomesh撤市警示"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "并列推荐，视场景选择",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "提供细化选型建议",
+      "引导用户提供手术类型"
+    ]
+  },
+  "summary": "回答全面对比美敦力与Ethicon在四类耗材的优劣，推荐中肯，但引用来源多为非官方，噪音中等。",
+  "dashboard_takeaway": "美敦力品牌可见度高，认知准确，但证据源需加强官方引用，推荐转化力良好。",
+  "improvement_actions": [
+    "增加美敦力官方临床研究引用",
+    "补充美敦力疝补片具体型号",
+    "减少非权威来源如东方财富网"
+  ],
+  "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUnUfpfWa",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 6760,
+    "completion_tokens": 642,
+    "total_tokens": 7402,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5992
+  },
+  "analyzed_at": "2026-05-28T04:09:55.718Z",
+  "local_signals": {
+    "answerLength": 4014,
+    "brandTermTotal": 27,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 20
+      },
+      {
+        "term": "Medtronic",
+        "count": 2
+      },
+      {
+        "term": "LigaSure",
+        "count": 3
+      },
+      {
+        "term": "Valleylab",
+        "count": 1
+      },
+      {
+        "term": "Crome",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 16,
+    "officialReferenceCount": 1,
+    "referenceSources": [
+      {
+        "source": "今日头条",
+        "title": "全球腹腔镜吻合器市场稳步增长,2033年规模有望达到31.7亿美元 - 今日头条",
+        "snippet": "腹腔镜吻合器竞争格局分析 在全球腹腔镜吻合器领域,Ethicon(强生)与Medtronic(美敦力..."
+      },
+      {
+        "source": "买购网",
+        "title": "Ethicon品牌介绍-爱惜康超声刀_高频电刀-买购APP",
+        "snippet": "具有位移大､工作频率稳定､工作功率适中等特点｡Ethicon的超声刀产品种类多､型号齐,能够满足不同..."
+      },
+      {
+        "source": "·MedTF医瞰科技",
+        "title": "中国智造破局欧洲:Reach Surgical动力吻合器获CE认证",
+        "snippet": "公众号 美敦力Signia:智能感应的先行者 美敦力的Signia系统是目前动力吻合器领域商业化最成熟的产品..."
+      },
+      {
+        "source": "·进口医疗器械耗材",
+        "title": "缝线双雄对决:强生 vs. 柯惠,谁才是外科医生的“心头好”?",
+        "snippet": "公众号 作为外科医生最基础的武器,缝合线的选择直接关系到手术的成败与患者的康复｡长期以来,全球缝合线市场形成..."
+      },
+      {
+        "source": "sanoplast.de",
+        "title": "Ethicon:强生公司的缝合线与伤口闭合产品",
+        "snippet": "Ethicon的缝合线产品组合涵盖所有相关类别:可吸收和不可吸收､单股和多股｡可吸收缝合线 Vicr..."
+      },
+      {
+        "source": "·MedRobot",
+        "title": "强生吻合器获欧盟认证,先于机器人进入欧洲",
+        "snippet": "公众号 强生吻合器获欧盟认证,先于机器人进入欧洲｡ 竞争参照 主要外科吻合器平台与机器人兼容情况对比(20..."
+      },
+      {
+        "source": "东方财富网",
+        "title": "功能性缝合线市场报告:预计2031年全球市场规模将达到5.7亿美元_财富号评论(cfhpl)股吧_东方财富网股吧",
+        "snippet": "在功能性缝合线领域,强生通过其Ethicon品牌占据全球市场领导地位,提供从传统丝线到尖端生物材料缝..."
+      },
+      {
+        "source": "tenmed.net",
+        "title": "美国强生ETHICON ECH45C/S/L电动腔镜直线型切割吻合器",
+        "snippet": "购买热线:+86-21-54286005 ECHELON ™ 3000 电动腔镜直线型切割吻合器 产品代码: EC..."
+      },
+      {
+        "source": "medteccn.com",
+        "title": "高端医疗设备展共研腔镜吻合器设计趋势: ECHELON 3000:强生推出最新一代电动腔镜吻合器 >57°转角",
+        "snippet": "以便更好地接触狭窄空间中的组织,如胸腔｡作为一名胸科医生,这些对可信吻合器的新增强可能会带来更无缝､更高效的手术体验｡"
+      },
+      {
+        "source": "腾讯网",
+        "title": "强生医疗科技推出3D手术吻合器",
+        "snippet": "Ethicon 4000相比传统2D吻合器减少了23%的出血相关干预需求,缝合线完整性提升40%,渗..."
+      },
+      {
+        "source": "tenmed.net",
+        "title": "美国强生ETHICON HAR745超声高频外科集成系统超声刀头",
+        "snippet": "HARMONIC 700 超声高频外科集成系统超声刀头 产品代码: HAR745 HARMONIC..."
+      },
+      {
+        "source": "界面新闻",
+        "title": "2024微创外科行业白皮书:技术创新加速国产化,九大细分领域竞争升级",
+        "snippet": "强生､美敦力凭借其技术先发优势与较高水平的产品质量主导国内吻合器市场,尤其是电动腔镜吻合器市场｡强生..."
+      },
+      {
+        "source": "环球医疗器械网",
+        "title": "北京安邦合众供应链管理服务有限公司",
+        "snippet": "本项研究通过肥胖患者的腹腔镜胃袖状切除术比较了带有美敦力的SIGNIA智能吻合器和Echelon电动吻合器｡SIG..."
+      },
+      {
+        "source": "今日头条",
+        "title": "外科器械巨头强生&美敦力的百年启示 - 今日头条",
+        "snippet": "薇乔(Vicryl)可吸收缝线､普迪思(PDS)长效可吸收缝线､抗菌薇乔缝线､免打结的倒刺缝线..."
+      },
+      {
+        "source": "·进口医疗器械耗材",
+        "title": "缝线双雄对决:强生 vs. 柯惠,谁才是外科医生的“心头好”?",
+        "snippet": "公众号 在外科手术的世界里,每一根缝线都承载着愈合的希望｡作为外科医生最基础的武器,缝合线的选择直接关系到手..."
+      },
+      {
+        "source": "medicalexpo.com.cn",
+        "title": "Ethicon Endo Surgery/爱惜康内镜外科疝补片",
+        "snippet": "查看全部产品 Dipromed 联系我们 腹股沟疝补片 FBIO series ... 不可吸收的顶..."
+      }
+    ]
+  }
+}

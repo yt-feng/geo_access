@@ -1,0 +1,196 @@
+{
+  "question_id": "q02",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 90,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 75,
+    "recommendation_conversion": 70,
+    "total_score": 80
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词22次，产品词CareLink、Micra等出现，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "CareLink",
+      "Micra",
+      "CRT-D",
+      "ICD"
+    ],
+    "important_terms_missing": [
+      "MyCareLink",
+      "Azure",
+      "ReVive"
+    ],
+    "product_assets_covered": [
+      "单腔起搏器",
+      "双腔起搏器",
+      "三腔起搏器CRT-P",
+      "CRT-D",
+      "ICD",
+      "Micra无导线起搏器"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力是进口品牌",
+      "集采后价格与雅培等持平",
+      "CareLink远程监测免费",
+      "电池寿命8-12年"
+    ],
+    "confusions_or_errors": [
+      "提及ReVive系列但实际为可充电起搏器，表述略有混淆"
+    ],
+    "missing_assets": [
+      "未提及美敦力在MRI兼容方面的优势",
+      "未提及EV-ICD等创新产品"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "睿见医械RuiView",
+      "健康界",
+      "新浪网"
+    ],
+    "noisy_or_weak_sources": [
+      "朗逸医疗起搏器（商业推广）",
+      "lyqbq.com（非权威）",
+      "跳动探索网（低质量）"
+    ],
+    "evidence_gaps": [
+      "缺乏官方集采价格文件引用",
+      "电池寿命数据来源单一"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力集采后价格与进口竞品持平",
+      "电池寿命长可减少更换",
+      "远程监测免费"
+    ],
+    "negative_or_risk_claims": [
+      "美敦力比国产贵20%-40%",
+      "部分国产ICD价格接近"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "与雅培、波科并列第一梯队",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "提供详细价格对比",
+      "建议按具体产品线细化分析",
+      "引导用户进一步咨询"
+    ]
+  },
+  "summary": "回答全面覆盖心律管理产品线，品牌词高频，认知准确，证据中等，推荐转化力较强，但部分来源噪音偏高。",
+  "dashboard_takeaway": "美敦力在集采后价格与进口竞品持平，比国产贵20%-40%，但电池寿命和远程监测优势可降低TCO。",
+  "improvement_actions": [
+    "补充官方集采价格文件",
+    "增加MRI兼容等差异化优势",
+    "减少商业推广来源引用"
+  ],
+  "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTps5huAy",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 6125,
+    "completion_tokens": 736,
+    "total_tokens": 6861,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5357
+  },
+  "analyzed_at": "2026-05-28T04:08:18.387Z",
+  "local_signals": {
+    "answerLength": 3114,
+    "brandTermTotal": 31,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 22
+      },
+      {
+        "term": "Medtronic",
+        "count": 2
+      },
+      {
+        "term": "CareLink",
+        "count": 4
+      },
+      {
+        "term": "Micra",
+        "count": 3
+      }
+    ],
+    "referenceItemCount": 11,
+    "officialReferenceCount": 5,
+    "referenceSources": [
+      {
+        "source": "雪球",
+        "title": "回复@稳如蜂鸟: 创领心律的PLATINIUM ICD,作为国内首款国产ICD,于2024年10月获批,但仅支持1.5... - 雪球",
+        "snippet": "医疗器械临床试验登记与信息公示平台 未显示微创心律管理法国子公司的3.0T兼容ICD相关研究 ｡进口产品审批流..."
+      },
+      {
+        "source": "·睿见医械RuiView",
+        "title": "最新!27省心脏起搏器全国联采拟中选结果出炉,美敦力、雅培、百多力、波科全部拟中选",
+        "snippet": "公众号 美敦力公司 Medtronic Inc. 植入式三腔心脏起搏器-双极 波士顿科学公司所属心脏起搏器公..."
+      },
+      {
+        "source": "朗逸医疗起搏器",
+        "title": "哇!美敦力起搏器10年零故障?维修成本低至行业1/5!",
+        "snippet": "远程监测 :CareLink系统实现数据实时传输,减少患者往返医院次数｡③ 治疗适配 单腔起搏器 (..."
+      },
+      {
+        "source": "lyqbq.com",
+        "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+        "snippet": "远程监控功能渗透预计2030年超50%｡国产替代 :政策扶持下,国产份额或于2030年突破60%,但..."
+      },
+      {
+        "source": "健康界",
+        "title": "这一高值耗材国产化仅5%,集采全国“团战”却已提上日程",
+        "snippet": "主要为美敦力､雅培､百多力､波科等进口企业,国产中标相对较少｡目前,国产中获批的植入式心脏起搏器仅有..."
+      },
+      {
+        "source": "民福康",
+        "title": "起搏器价格和寿命",
+        "snippet": "可充电式起搏器(如美敦力ReVive系列)通过动态电量管理,循环寿命达15年以上,充电周期约1~2年一次｡"
+      },
+      {
+        "source": "mdpi.com",
+        "title": "Advances in Cardiovascular Wearable Devices",
+        "snippet": "however,they have limitations. The devices mentioned above are costly and are not accessible to everyone. A pacemaker costs between USD 20,000 to USD..."
+      },
+      {
+        "source": "朗逸医疗起搏器",
+        "title": "2025年起搏器选购指南:美敦力TOP3推荐与价格全解析",
+        "snippet": "点击次数:25819 美敦力建议买三款起搏器有哪些?2025年起搏器价格表如何划分?作为全球心脏起搏..."
+      },
+      {
+        "source": "新浪网",
+        "title": "借势进博会,美敦力中国CIED远程随访新启航",
+        "snippet": "并同步展示一系列心脏领域创新产品,包括MyCareLink™远程随访系统,Micra™ VR2和Mi..."
+      },
+      {
+        "source": "跳动探索网",
+        "title": "icd起搏器的价格和使用寿命_城乡经济网",
+        "snippet": "2025-11-06 02:28:30 icd起搏器的价格和使用寿命 ICD(植入式心律转复除..."
+      },
+      {
+        "source": "今日头条",
+        "title": "不论国产还是进口,物价都是参照诊疗项目,所以手术费用都是一样的,只是植入的耗材费用不一样。进口品牌是美敦力,分为1:双侧可充电,全套价格为34万左右,电池为Greatbatch公司生产的第一代产品,质保年限8年零九个月,服务期15年,2、双侧不可充电,全套产品价格24万元左右,电池为Greatbat",
+        "snippet": "只是植入的耗材费用不一样｡进口品牌是美敦力,分为1:双侧可充电,全套价格为34万左右,电池为Grea..."
+      }
+    ]
+  }
+}

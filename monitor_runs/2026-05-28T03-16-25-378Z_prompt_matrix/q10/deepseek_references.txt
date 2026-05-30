@@ -1,0 +1,73 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7
+采集时间: 2026-05-28T03:34:16.617Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力手术器械安全解析
+   https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7
+2. 美敦力Evolut瓣膜安全性与注意事项
+   https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d
+3. 美敦力系统医院数据合规
+   https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+4. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+5. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+6. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+7. - 1
+   https://pubmed.ncbi.nlm.nih.gov/39622272/
+8. - 7
+   https://www.ovid.com/journals/suinn/abstract/10.1177/15533506241305892~efficacy-and-safety-of-ligasure-in-breast-surgery-with?redirectionsource=fulltextview
+9. - 3
+   https://pubmed.ncbi.nlm.nih.gov/38910956/
+10. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+11. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+12. - 1
+   https://pubmed.ncbi.nlm.nih.gov/39622272/
+13. - 8
+   https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=13194968&pc=GEI&device_sequence_no=1
+14. - 2
+   https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=7446327&pc=GEI
+15. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+16. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+17. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+18. - 6
+   https://www.cgh.org.tw/ec99/rwd1320/product.asp?prodid=1271_057&category_id=1271&cty_id=1271
+19. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+20. - 1
+   https://pubmed.ncbi.nlm.nih.gov/39622272/
+21. - 8
+   https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=13194968&pc=GEI&device_sequence_no=1
+22. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+23. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+24. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+25. - 9
+   https://onderzoekmetmensen.nl/en/trial/42234
+26. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+27. - 4
+   https://ichgcp.net/zh/clinical-trials-registry/NCT06710795
+28. - 6
+   https://www.cgh.org.tw/ec99/rwd1320/product.asp?prodid=1271_057&category_id=1271&cty_id=1271

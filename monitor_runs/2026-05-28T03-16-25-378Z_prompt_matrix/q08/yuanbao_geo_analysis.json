@@ -1,0 +1,230 @@
+{
+  "question_id": "q08",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 90,
+    "total_score": 90
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，Evolut出现27次，美敦力5次，Medtronic3次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "Evolut",
+      "Evolut TAVR",
+      "Evolut R",
+      "Evolut PRO",
+      "Evolut FX",
+      "Evolut FX+"
+    ],
+    "important_terms_missing": [
+      "CoreValve",
+      "Harmony",
+      "Melody"
+    ],
+    "product_assets_covered": [
+      "Evolut TAVR",
+      "Evolut R",
+      "Evolut PRO",
+      "Evolut FX",
+      "Evolut FX+"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "Evolut用于主动脉瓣重度狭窄",
+      "自膨式生物瓣膜",
+      "TAVR/TAVI",
+      "瓣中瓣技术",
+      "低风险患者循证支持"
+    ],
+    "confusions_or_errors": [
+      "误将肺动脉瓣纳入Evolut适应症，但已澄清"
+    ],
+    "missing_assets": [
+      "美敦力外科瓣膜产品线",
+      "美敦力肺动脉瓣产品（如Melody）"
+    ]
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 20,
+    "official_sources_used": [
+      "accessdata.fda.gov",
+      "uptodate.com",
+      "中国医学论坛报社官网"
+    ],
+    "noisy_or_weak_sources": [
+      "企鹅号",
+      "医库软件"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方产品说明书或临床试验注册信息"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "安全性不劣于外科手术",
+      "手术成功率>95%",
+      "微创恢复快",
+      "循证充分"
+    ],
+    "negative_or_risk_claims": [
+      "传导阻滞需起搏器10-20%",
+      "血管并发症",
+      "瓣周漏",
+      "卒中风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选推荐",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议咨询心脏团队",
+      "确认STS评分",
+      "对比SAVR利弊"
+    ]
+  },
+  "summary": "回答全面覆盖Evolut TAVR安全性、副作用、替代方案及术后注意事项，品牌词高频且准确，引用权威来源，推荐倾向明确，但遗漏部分产品线。",
+  "dashboard_takeaway": "美敦力Evolut在回答中品牌可见度高，认知准确，证据扎实，推荐转化力强，整体评价积极且平衡。",
+  "improvement_actions": [
+    "补充美敦力外科瓣膜和肺动脉瓣产品信息",
+    "增加官方产品说明书引用",
+    "减少低质来源如企鹅号"
+  ],
+  "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUgE5tSLY",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 7285,
+    "completion_tokens": 739,
+    "total_tokens": 8024,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 6517
+  },
+  "analyzed_at": "2026-05-28T04:09:42.265Z",
+  "local_signals": {
+    "answerLength": 4492,
+    "brandTermTotal": 35,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 5
+      },
+      {
+        "term": "Medtronic",
+        "count": 3
+      },
+      {
+        "term": "Evolut",
+        "count": 27
+      }
+    ],
+    "referenceItemCount": 18,
+    "officialReferenceCount": 1,
+    "referenceSources": [
+      {
+        "source": "·我爱瓣膜",
+        "title": "TAVR 领域年度重磅盘点:循证破局、器械革新,开启主动脉瓣治疗 “ 精准终生化 ” 新时代",
+        "snippet": "公众号 AS 患者,随机分为 TAVR 组(使用 Evolut 系统)与外科主动脉瓣置换( SAVR )组..."
+      },
+      {
+        "source": "general.medsci.cn",
+        "title": "专家共识:中国经导管主动脉瓣置换术临床路径专家共识(2021版)(全文速览)",
+        "snippet": "体能及运动耐力测试等相关评估后,结果良好､状态平稳者可于术后2~5 d内出院,并于术后1个月､6个月及12个月完成..."
+      },
+      {
+        "source": "严道医声网",
+        "title": "Evolut Low Risk试验6年随访结果发布,持续论证在外科低危重度AS患者中Evolut TAVR治疗的安全性和有效性-严道医声",
+        "snippet": "持续论证在外科低危重度AS患者中Evolut TAVR治疗的安全性和有效性-严道医声｡在对美敦力全球最新一代Evo..."
+      },
+      {
+        "source": "accessdata.fda.gov",
+        "title": "MAUDE Adverse Event Report: MEDTRONIC HEART VALVES DIVISION EVOLUT R TRANSCATHETER AORTIC VALVE; AORTIC VALVE, PROSTHESIS, PERCUTANEOUSLY DELIV",
+        "snippet": "april 2021. all patients were implanted with a medtronic evolut r or evolut pro bioprosthetic valve. no unique device identifier numbers were provided..."
+      },
+      {
+        "source": "·美国心脏病学会",
+        "title": "EVOLUT LOW RISK 研究:低风险主动脉瓣狭窄患者自膨式 TAVR 与外科手术六年随访结局比较",
+        "snippet": "公众号 CoreValve､Evolut R 或 Evolut PRO 进行经导管主动脉瓣置换术(TAVR)..."
+      },
+      {
+        "source": "科普中国网",
+        "title": "经导管主动脉瓣置换术——心脏换瓣,不开刀",
+        "snippet": "TAVR术后抗栓治疗的主要作用是预防瓣膜血栓及脑卒中等缺血事件的发生｡患者应严格遵医嘱服药,不得随意..."
+      },
+      {
+        "source": "健康界",
+        "title": "高分综述丨JAMA Cardiology:65岁以下重度主动脉瓣疾病患者的管理挑战",
+        "snippet": "在经验丰富的手术团队中其长期结果较好｡Ross手术 慢性主动脉瓣反流的注意事项 在无其他心脏手术指征的情况下,满足..."
+      },
+      {
+        "source": "uptodate.com",
+        "title": "经导管主动脉瓣植入术的并发症",
+        "snippet": "重度钙化性主动脉瓣狭窄的干预选择和 经导管主动脉瓣植入术治疗主动脉瓣狭窄的围术期和术后管理) 围术期并发症..."
+      },
+      {
+        "source": "cardio-km.com",
+        "title": "中外巅峰对话丨Evolut Low Risk研究5年结果公布,TAVR在低危主动脉瓣狭窄患者中的结局不劣于外科手术",
+        "snippet": "心肾代谢时讯 在手术死亡风险中等或较高的主动脉瓣狭窄患者中,TAVR和外科主动脉瓣置换术的主要结..."
+      },
+      {
+        "source": "·北京护理学会",
+        "title": "【健康科普】不开胸,如何为心脏换“阀门”?——带您读懂经导管主动脉瓣置换术",
+        "snippet": "公众号 健康科普不开胸,如何为心脏换阀门?带您读懂经导管主动脉瓣置换术｡测量跨瓣压差,确认瓣膜通..."
+      },
+      {
+        "source": "中国医学论坛报社官网",
+        "title": "壹生资讯-Evolut Low Risk试验解读:低危主动脉瓣狭窄患者TAVR术后5年效果不劣于SAVR!",
+        "snippet": "进一步证实TAVR在各组手术风险患者中的安全性､有效性和耐久性,支持TAVR作为SAVR的替代治疗｡"
+      },
+      {
+        "source": "·严道医声网",
+        "title": "TCT2023丨吴永健教授:低风险主动脉瓣狭窄患者行Evolut治疗优于SAVR,Evolut Low Risk研究4年结果公布",
+        "snippet": "公众号 主要终点的生存曲线更加有益于TAVR｡瓣膜性能是接受主动脉瓣置换术(TAVR或SAVR)患者全生命周期管理的关键,..."
+      },
+      {
+        "source": "企鹅号",
+        "title": "ACC.25重磅研究速递 陈茂教授点评:经导管或外科主动脉瓣置换术在低风险主动脉瓣狭窄患者中疗效相当",
+        "snippet": "ACC.25重磅研究速递 | 陈茂教授点评:经导管或外科主动脉瓣置换术在低风险主动脉瓣狭窄患者中疗效..."
+      },
+      {
+        "source": "chghims.com.tw",
+        "title": "TAVR(經導管主動脈瓣膜置換手術)護理指導",
+        "snippet": "二､日常生活注意事項 (一) 淋浴洗澡水不宜過熱或過冷以免產生暈眩現象,初次淋浴最好有家人的從。"
+      },
+      {
+        "source": "医脉通",
+        "title": "经导管主动脉瓣置换术的应用研究进展",
+        "snippet": "4.3 瓣周漏 瓣周漏是TAVR 术后常见的并发症,中重度瓣周漏对血流动力学影响较大,预后往往不良..."
+      },
+      {
+        "source": "·医械笔记本",
+        "title": "美敦力Evolut TAVR 在低风险患者中显示出持久的5年效果",
+        "snippet": "公众号 其 Evolut 低风险试验的五年数据证实,其 Evolut 经导管主动脉瓣置换术 (TAVR) 系..."
+      },
+      {
+        "source": "ichgcp.net",
+        "title": "Medtronic Transcatheter Aortic Valve Replacement (TAVR) Low Risk Bicuspid Study",
+        "snippet": "Infarction at 30 Days Post-procedure. Time Frame: 30 days | The rate of myocardial infarction at 30 days | 30 days Percent of Participants With a Life..."
+      },
+      {
+        "source": "医库软件",
+        "title": "·专家共识·",
+        "snippet": "(/067d11538bea0b4f7123d9c222ef525ac6995c02f0e2c7f8cae5a09..."
+      }
+    ]
+  }
+}

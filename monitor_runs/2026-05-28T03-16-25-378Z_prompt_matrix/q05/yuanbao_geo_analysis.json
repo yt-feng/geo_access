@@ -1,0 +1,240 @@
+{
+  "question_id": "q05",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 90,
+    "total_score": 90
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词和产品词密集",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "Evolut",
+      "CoreValve",
+      "TAVR",
+      "SimuForm",
+      "Tri-Ad"
+    ],
+    "important_terms_missing": [
+      "Harmony",
+      "Intrepid",
+      "TriClip"
+    ],
+    "product_assets_covered": [
+      "Evolut R",
+      "Evolut PRO",
+      "Evolut PRO+",
+      "Evolut FX",
+      "SimuForm二尖瓣成形环",
+      "Tri-Ad三尖瓣成形带"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "Evolut平台自膨胀TAVR",
+      "环上瓣设计",
+      "可回收",
+      "大瓣环覆盖",
+      "SimuForm二尖瓣环",
+      "Tri-Ad三尖瓣带"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "Harmony TPVR",
+      "Intrepid TMVR",
+      "TriClip"
+    ]
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 10,
+    "official_sources_used": [
+      "medtronic.com",
+      "news.medtronic.com",
+      "investorrelations.medtronic.com",
+      "中国食品药品网",
+      "中国新闻网"
+    ],
+    "noisy_or_weak_sources": [
+      "股票数据库"
+    ],
+    "evidence_gaps": [
+      "Evolut FX/FX+国内准入进度需确认",
+      "Harmony等产品国内状态未详述"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "血流动力学优异",
+      "适合二叶瓣/横位心",
+      "低入路要求",
+      "大瓣环覆盖",
+      "成熟培训体系"
+    ],
+    "negative_or_risk_claims": [
+      "TAVR需备案",
+      "FX/FX+准入待确认"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "推荐作为自膨式TAVR首选",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "提供对比表",
+      "建议联系当地办事处",
+      "建议建立带教关系"
+    ]
+  },
+  "summary": "回答全面覆盖美敦力结构性心脏病核心产品，准确描述Evolut平台优势及临床场景，明确适合三甲/专科医院，证据充分，推荐转化力强。",
+  "dashboard_takeaway": "美敦力在TAVR领域品牌可见度高，认知准确，证据扎实，推荐积极。需补充Harmony等产品信息。",
+  "improvement_actions": [
+    "补充Harmony TPVR、Intrepid TMVR等产品信息",
+    "明确Evolut FX/FX+国内准入状态",
+    "减少股票数据库等弱来源引用"
+  ],
+  "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUFNv71No",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 7006,
+    "completion_tokens": 730,
+    "total_tokens": 7736,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 6238
+  },
+  "analyzed_at": "2026-05-28T04:08:59.659Z",
+  "local_signals": {
+    "answerLength": 4576,
+    "brandTermTotal": 71,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 27
+      },
+      {
+        "term": "Medtronic",
+        "count": 18
+      },
+      {
+        "term": "Micra",
+        "count": 1
+      },
+      {
+        "term": "Evolut",
+        "count": 25
+      }
+    ],
+    "referenceItemCount": 19,
+    "officialReferenceCount": 14,
+    "referenceSources": [
+      {
+        "source": "央广网",
+        "title": "生而不凡 美力相瓣 第二届中国心脏瓣膜健康周正式启动",
+        "snippet": "同济大学附属第十人民医院心脏中心主任､同济大学医学院泛血管病研究所所长徐亚伟 美敦力中国区结构性心脏病业务部门副总..."
+      },
+      {
+        "source": "investorrelations.medtronic.com",
+        "title": "Medtronic Investor Briefing - TCT 2023",
+        "snippet": "2023 Indications The Medtronic CoreValve™ Evolut™..."
+      },
+      {
+        "source": "股票数据库",
+        "title": "美敦力:主营构成与业绩趋势",
+        "snippet": "主营构成与业绩趋势 截至2025-04-30,美敦力公司(股票代码:MDT.US),主营业务构成: Cardiovascular收入124.81亿美元(占比37.22%) Neuroscience收入98.46亿美元(占比29.36%) Medical Surgical收入84.07亿美元(占比25.07%) Diabetes收入27.55亿美元(占比8.22%) Other收入1.37亿美元(占比0.41%) Other Adjustments收入-9000.00万美元(占比-0.27%) 插件信息暂不支持访问"
+      },
+      {
+        "source": "文汇网",
+        "title": "“不开胸的护心术”来了,美敦力携最新心脏介入瓣膜解决方案在“四叶草”全球首发_文汇",
+        "snippet": "中国心血管健康与疾病报告2020显示,中国心血管病患病率不断走高,心脏瓣膜病发病率也直线上升｡美敦力结构性心脏..."
+      },
+      {
+        "source": "中国食品药品网",
+        "title": "FDA批准新一代经导管主动脉瓣膜置换系统",
+        "snippet": "它被批准用于为开胸手术高危或极高危的严重主动脉狭窄患者实施经导管主动脉瓣膜置换(TAVR)术｡TAVR术式已经成为..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "美敦力八赴进博之约,携手多方共享创新、共创生态、共赴未来",
+        "snippet": "为全球医疗健康产业的可持续发展注入新动能｡在践行企业使命的过程中,中国市场发挥着至关重要的作用,不仅是美敦力全球最..."
+      },
+      {
+        "source": "中国新闻网",
+        "title": "第五届中国心脏瓣膜健康周成功举办-中新社上海",
+        "snippet": "美敦力成功举办了第五届中国心脏瓣膜健康周,并正式启动了首个本土化TAVR手术AI解决方案｡在历年展品..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Evolut PRO - Transcatheter Aortic Heart Valves",
+        "snippet": "Aortic Heart Valves | Medtronic｡Evolut PRO+ system。"
+      },
+      {
+        "source": "·心未来",
+        "title": "获批上市!美敦力三尖瓣成形带",
+        "snippet": "公众号 神经科学和糖尿病业务四块,其中心血管占比最高｡在心脏外科和结构性心脏病领域,美敦力长期深耕瓣膜修复与..."
+      },
+      {
+        "source": "严道医声网",
+        "title": "中山大学附属第一医院李怡、庄晓东教授团队应用美敦力Evolut PRO成功完成重度钙化、横位心TAVR一例-严道医声",
+        "snippet": "中山大学附属第一医院李怡､庄晓东教授团队应用美敦力Evolut PRO成功完成重度钙化､横位心TAV..."
+      },
+      {
+        "source": "news.medtronic.com",
+        "title": "New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance",
+        "snippet": "Medtronic CoreValve/Evolut TAVR™ Systems reinforce..."
+      },
+      {
+        "source": "·思宇MedTech",
+        "title": "获批上市!美敦力二尖瓣修复成形环",
+        "snippet": "公众号 其二尖瓣修复产品SimuForm二尖瓣瓣膜修复成形环已经获得NMPA批准上市(注册证号:国械注进20..."
+      },
+      {
+        "source": "严道医声网",
+        "title": "湖州市中心医院程震锋教授团队浙北首植34mm 美敦力Evolut PRO,完美解除巨大瓣环患者主动脉狭窄-严道医声",
+        "snippet": "湖州市中心医院|程震锋教授团队浙北首植34mm 美敦力Evolut PRO+,完美解除巨大瓣环患者主..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Evolut FX system",
+        "snippet": "the CoreValve™/Evolut™ clinical success. Education..."
+      },
+      {
+        "source": "网易",
+        "title": "倒计时50天 这位“全勤生”将携近百款创新科技七赴进博之约",
+        "snippet": "这位全勤生将携近百款创新科技七赴进博之约|瓣膜|手术|导管|心脏|二尖瓣|美敦力_网易订阅｡"
+      },
+      {
+        "source": "ichgcp.net",
+        "title": "PROGRESS: Management of Moderate Aortic Stenosis by Clinical Surveillance or TAVR (PROGRESS)",
+        "snippet": "Italy Medtronic CardiovascularActive,not recruitingAortic Valve Stenosis | Aortic Valve Replacement | Symptomatic Aortic StenosisUnited Kingdom,United..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Interventional Cardiology Medtronic (Europe) Interventional cardiology",
+        "snippet": "CoreValve™/Evolut™ clinicalTrials The Medtronic Co..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "“全勤生”美敦力将携百余款创新产品参展第八届进博会",
+        "snippet": "美敦力全球高级副总裁及大中华区总裁顾宇韶表示:进博会是美敦力将全球创新引入中国医疗体系的关键舞台,更是我们植根中..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Vous vous apprêtez à quitter le site de Medtronic du Canada",
+        "snippet": "(Russia) Србија (Serbia) Україна (Ukraine) 中国 (Chi..."
+      }
+    ]
+  }
+}

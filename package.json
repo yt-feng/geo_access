@@ -1,0 +1,20 @@
+{
+  "name": "geo-access-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "monitor:login": "node monitor/playwright_monitor.js login",
+    "monitor:unlock": "node monitor/playwright_monitor.js unlock",
+    "monitor:once": "node monitor/playwright_monitor.js once",
+    "monitor:yuanbao": "GEO_MONITOR_PLATFORMS=yuanbao node monitor/playwright_monitor.js once",
+    "monitor:yuanbao:loop": "GEO_MONITOR_PLATFORMS=yuanbao node monitor/playwright_monitor.js loop",
+    "monitor:matrix": "GEO_MONITOR_PLATFORMS=deepseek,yuanbao node monitor/playwright_monitor.js matrix",
+    "analyze:geo": "node monitor/analyze_geo.js",
+    "dashboard:matrix": "node monitor/build_dashboard.js",
+    "monitor:loop": "node monitor/playwright_monitor.js loop"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

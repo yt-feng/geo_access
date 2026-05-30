@@ -1,0 +1,203 @@
+{
+  "question_id": "q04",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 30,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 60,
+    "recommendation_conversion": 70,
+    "total_score": 61
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌专有词组出现3次，频率低，位置靠后",
+    "important_terms_present": [
+      "Micra",
+      "OptiVol"
+    ],
+    "important_terms_missing": [
+      "美敦力",
+      "Medtronic",
+      "CRT-D",
+      "ICD",
+      "起搏器"
+    ],
+    "product_assets_covered": [
+      "Micra无导线起搏器",
+      "OptiVol心衰监测"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "Micra无导线起搏器",
+      "OptiVol心衰监测",
+      "CRT-D",
+      "ICD"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力品牌名",
+      "具体产品线如Azure等"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 40,
+    "official_sources_used": [
+      "上海市医疗保障局",
+      "舟山市人民政府办公室",
+      "广元市人民政府",
+      "重庆市渝中区人民政府"
+    ],
+    "noisy_or_weak_sources": [
+      "九松健康",
+      "百度百科",
+      "有来医生",
+      "m.feiying-china.com"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方数据",
+      "缺少具体产品医保编码"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "Micra纳入上海医保",
+      "远程监测服务有政策支持",
+      "集采中选可保量"
+    ],
+    "negative_or_risk_claims": [
+      "远程监测缺独立收费编码",
+      "价格下行风险高",
+      "超限部分患者自付"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": false,
+    "rank_or_priority": "未明确推荐品牌",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议确认产品挂网和集采状态",
+      "建议与医院医保办沟通收费"
+    ]
+  },
+  "summary": "回答全面覆盖收费、医保、集采和风险，但品牌提及少，未突出美敦力。证据来源中等，有官方但噪音较多。评价中肯，不劝退。",
+  "dashboard_takeaway": "品牌可见度低，认知准确度高，证据中等，推荐转化中等。需强化品牌术语植入和官方证据引用。",
+  "improvement_actions": [
+    "增加美敦力品牌名和产品线术语",
+    "引用美敦力官方资料或临床数据",
+    "明确推荐美敦力产品",
+    "减少非权威来源引用"
+  ],
+  "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVU74Xnz5E",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 6309,
+    "completion_tokens": 673,
+    "total_tokens": 6982,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5541
+  },
+  "analyzed_at": "2026-05-28T04:08:45.219Z",
+  "local_signals": {
+    "answerLength": 3214,
+    "brandTermTotal": 3,
+    "terms": [
+      {
+        "term": "Micra",
+        "count": 2
+      },
+      {
+        "term": "OptiVol",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 15,
+    "officialReferenceCount": 0,
+    "referenceSources": [
+      {
+        "source": "九松健康",
+        "title": "心脏监护仪属于医保范围内吗",
+        "snippet": "未来可能逐步纳入报销范围｡ 地区政策差异 例如,苏州曾试点将心脏远程监护仪纳入医保,但其他..."
+      },
+      {
+        "source": "舟山市人民政府办公室",
+        "title": "长三角地区异地就医政策温馨提示",
+        "snippet": "采取最高支付限额纳入报销范围的办法｡上海市部分医用耗材报销标准 (一)心脏起搏器:安装心脏起搏器发生..."
+      },
+      {
+        "source": "上海市医疗保障局",
+        "title": "关于规范调整本市心血管系统类医疗服务价格项目的通知",
+        "snippet": "所列价格标准是本市公立医疗机构最高收费标准,鼓励医疗机构加强管理､控制成本｡二､纳入本市医保支付范围的价格项目分为..."
+      },
+      {
+        "source": "百度百科",
+        "title": "远程监测费",
+        "snippet": "上传视频 远程监测医疗服务费用 远程监测费,指医技人员为院外患者提供的远程实时监测服务 ｡远程监测范..."
+      },
+      {
+        "source": "·医管知识圈",
+        "title": "心血管系统类医保收费全问答:介入、手术、操作如何规范计费?",
+        "snippet": "公众号 Q19:植入式心律转复除颤器(ICD/CRT-D)如何计费?心血管系统类医保收费全问答:介入､手术､..."
+      },
+      {
+        "source": "中新经纬",
+        "title": "电生理集采提速,国产厂商能否顺利放量?",
+        "snippet": "分析其表现和特征加以推理,做出综合判断及相应治疗,其主要产品均属于第三类医疗器械｡某三甲医院心内科主..."
+      },
+      {
+        "source": "广元市人民政府",
+        "title": "四川省第二批新增“互联网”医疗服务价格项目试行价格和医保支付类别表",
+        "snippet": "1小时按 1小时计收｡乙类限心律不齐 2 310701032 远程起搏器监测 指通过带有远程监测功能..."
+      },
+      {
+        "source": "新浪网",
+        "title": "全球体积最小的无导线心脏起搏器,现纳入上海市医保支付范围",
+        "snippet": "并在第二届进博会上正式进入中国市场的明星产品全球体积最小的Micra经导管植入式无导线心脏起搏器,就是通过动态..."
+      },
+      {
+        "source": "有来医生",
+        "title": "24小时心脏监测多少钱",
+        "snippet": "用于排查心律失常､心肌缺血等心脏问题的核心检查,其价格受地区经济水平､医院级别､设备类型､医保政策等..."
+      },
+      {
+        "source": "重庆市渝中区人民政府",
+        "title": "重庆市渝中区医疗保障局关于区第十九届人大三次会议第155号建议协办意见的函_ 重庆市渝中区人民政府",
+        "snippet": "远程心电监测､远程起博器监测､远程除颤器监测､远程胎心监测)纳入医保报销,其中,甲类 2 个,乙类..."
+      },
+      {
+        "source": "新浪财经",
+        "title": "我国已完成7类医保医用耗材分类优化工作",
+        "snippet": "此次医用耗材分类优化工作尊重支持创新,助推产业发展｡例如,植入式无导线心脏起搏器是心脏起搏领域的革命性技术,它可通..."
+      },
+      {
+        "source": "m.feiying-china.com",
+        "title": "看心脏病的费用变了!上海最新医疗价格调整影响几何?",
+        "snippet": "各医疗机构应当加强管理､控制成本,不得超出最高标准收费｡在医保支付政策方面,纳入上海市医保支付范围的..."
+      },
+      {
+        "source": "财经头条",
+        "title": "2025年心脏起博器扩容!湖北广东续约成关键,外资连夜升级防线",
+        "snippet": "江苏南京等地都已经将心脏起搏器纳入医保报销范畴｡这种医保报销方式,更加有利于低价心脏起搏器产品｡而随着2025年心..."
+      },
+      {
+        "source": "新浪网",
+        "title": "国家医保局规范植入式心脏起搏器等7类医用耗材医保通用名",
+        "snippet": "将起搏器主要分为3类:植入式单腔心脏起搏器､植入式双腔心脏起搏器､植入式三腔心脏起搏器｡国家医保局表示,此次发布的..."
+      },
+      {
+        "source": "hntvc.cn",
+        "title": "全国医院心血管项目收费调整进入落地期",
+        "snippet": "所列价格标准是本市公立医疗机构最高收费标准,鼓励医疗机构加强管理､控制成本｡对比国家版和上海版,上海结合地方实际有..."
+      }
+    ]
+  }
+}

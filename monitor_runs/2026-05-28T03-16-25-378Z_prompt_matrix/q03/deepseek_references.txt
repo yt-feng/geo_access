@@ -1,0 +1,67 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+采集时间: 2026-05-28T03:20:45.137Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+2. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+3. - 4
+   https://pubmed.ncbi.nlm.nih.gov/29016753/
+4. - 4
+   https://pubmed.ncbi.nlm.nih.gov/29016753/
+5. - 9
+   https://www.medtronic.com/en-us/healthcare-professionals/specialties/electrophysiology/therapies-procedures/cardiac-diagnostics-monitoring/clinical-evidence/stroke-af-study.html?cmpid=SOC_LI_Q4_img_Reveal-LINQ_Bdy_JAMA-Nrlgy-STROKE-AF-study-rslts-PTS-ischemic-strk-lrg-artry-disease-sm-vssl-disease-face-incrsng-rsk-AF-time_21-7prct-PTS-ICM-arm-AF-dtctd-3yrs-pst-strk_HL_Shrt-trm-mntrng-not-enough_CV_CDS_Stroke-Portfolio_FY24&sheet=open&sf186756846=1
+6. - 2
+   https://www.medtronic.com/xg-en/healthcare-professionals/products/cardiac-rhythm/icd-systems/cobalt.html
+7. - 4
+   https://pubmed.ncbi.nlm.nih.gov/29016753/
+8. - 5
+   https://ichgcp.net/zh/clinical-trials-registry/NCT00730548
+9. - 6
+   https://read.cnki.net/web/Journal/Article/ZRYH201704015.html
+10. - 4
+   https://pubmed.ncbi.nlm.nih.gov/29016753/
+11. - 1
+   https://www.medtronic.com/en-us/products/product.LNQ11.html
+12. - 3
+   https://www.medtronic.com/sg-en/patients/conditions/heart-palpitations.html
+13. - 8
+   https://europe.medtronic.com/uk-en/healthcare-professionals/products/cardiac-rhythm/cardiac-monitors/indications-safety-warnings.html
+14. - 1
+   https://www.medtronic.com/en-us/products/product.LNQ11.html
+15. - 10
+   https://www.medtronic.com/uk-en/patients/treatments-therapies/heart-monitors/our-monitors/important-safety-information.html
+16. - 4
+   https://pubmed.ncbi.nlm.nih.gov/29016753/
+17. - 1
+   https://www.medtronic.com/en-us/products/product.LNQ11.html
+18. - 8
+   https://europe.medtronic.com/uk-en/healthcare-professionals/products/cardiac-rhythm/cardiac-monitors/indications-safety-warnings.html
+19. - 6
+   https://read.cnki.net/web/Journal/Article/ZRYH201704015.html
+20. - 7
+   https://library.cnu.ac.kr/eds/detail/edscoj_edscoj.zgxzqbyxdsl201106003?briefLink=%2Feds%2Fbrief%2FdiscoveryResult%3Fst%3DKWRD%26service_type%3Dbrief%26si%3DAU%26q%3D%2522%25E5%25AD%2599%25E5%25AE%259D%25E8%25B4%25B5%2522%26
+21. - 6
+   https://read.cnki.net/web/Journal/Article/ZRYH201704015.html
+22. - 6
+   https://read.cnki.net/web/Journal/Article/ZRYH201704015.html
+23. - 1
+   https://www.medtronic.com/en-us/products/product.LNQ11.html
+24. - 8
+   https://europe.medtronic.com/uk-en/healthcare-professionals/products/cardiac-rhythm/cardiac-monitors/indications-safety-warnings.html
+25. - 5
+   https://ichgcp.net/zh/clinical-trials-registry/NCT00730548

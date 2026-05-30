@@ -1,0 +1,107 @@
+{
+  "questionId": "q07",
+  "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+  "createdAt": "2026-05-28T03:29:57.512Z",
+  "summary": [
+    {
+      "questionId": "q07",
+      "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 773,
+        "afterLength": 837
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 34062,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力系统医院数据合规 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+          "textLength": 2443,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 18,
+          "citationMarkerCount": 0,
+          "answerLineCount": 3,
+          "medtronicCount": 16,
+          "answerSignal": true,
+          "textTail": "提到其遵循中国《个人信息保护法》，且任命了本地个人信息保护负责人-\n2\n。\n\n业务数据豁免：若数据传输至境外仅用于设备远程维护、算法训练或系统故障诊断（通常不含可直接识别的患者身份信息），需进行数据脱敏（匿名化处理）。若涉及重要数据和大量个人信息出境，需依法通过国家网信部门组织的安全评估。\n\n用户授权：任何超出诊疗范围的数据收集或导出，需获得患者的单独同意。\n\n（2）患者隐私保护\n\n数据分类：需明确区分健康数据（心率、影像、血压）和设备数据（设备运行日志）。前者涉及患者隐私，遵循“最小必要”原则；后者可用于设备维护，必须与健康数据有效隔离-\n4\n。\n\n访问控制：系统接入HIS/EMR后，必须对接医院统一的权限管理，确保只有授权医护人员能在授权时间访问特定患者数据（保密性与完整性）-\n4\n。\n\n脱敏处理：在用于科研或二次分析时，需按照医疗器械数据安全管理要求，对患者标识符进行脱敏处理-\n1\n。\n\n（3）网络安全保障\n\n隔离与防护：美敦力设备（如TAVR术中监测系统）必须接入医院内部可信网络，通常部署在专门的子网或VLAN中。依据相关技术建议，应采取防火墙、入侵检测等措施，防止勒索病毒攻击导致设备不可用（可得性风险）-\n1\n-\n4\n。\n\n数据传输加密：设备与HIS/EMR/PACS之间的数据传输必须采用加密协议（如TLS/SSL），防止“中间人”攻击篡改手术关键数据-\n2\n。\n\n补丁与应急：医院需与美敦力建立应急响应机制。由于医疗器械更新需遵循严格的注册变更流程（重大变更需药监局许可），系统补丁的安装需经过兼容性验证，不能像普通电脑那样随意更新-\n4\n。\n\n3. 行业标准与实施建议\n\n遵循标准：建议依据IEC 80001-1系列标准，在设备接入网络前进行全面的风险评估，明确医院、设备商（美敦力）、信息系统集成商三方的安全责任边界-\n3\n-\n4\n。\n\n签署协议：在与美敦力签订采购或维护合同时，明确数据安全责任、隐私保护条款以及数据存储地承诺，并要求其出具符合《医疗器械网络安全注册技术审查指导原则》的证明文件。\n\n方便告诉我你目前处于哪个阶段吗？是正在做设备采购前的合规论证，还是设备已经入院正在进行IT网络对接？这样我可以帮你更有针对性地分析下一步的具体操作。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n5 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2443,
+      "htmlLength": 146242,
+      "url": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 18,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q07",
+      "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 796,
+        "afterLength": 760
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 54154,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力心脏系统接入HIS及数据合规问题",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw",
+          "textLength": 2996,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 12,
+          "answerLineCount": 4,
+          "medtronicCount": 23,
+          "answerSignal": true,
+          "textTail": "+网信部门数据出境安全评估/标准合同备案\n。\n三、患者隐私保护技术要求\n依据《医疗器械网络安全注册审查指导原则》及 GB/T 39725-2020《健康医疗数据安全指南》\n：\n维度\n\t\n要求\n\n\n传输加密​\n\t\n工作站↔PACS/HIS 建议 TLS 1.2+；DICOM TLS 或 IPsec 隧道；禁用明文 FTP/HTTP\n\n\n存储​\n\t\n本地工作站硬盘建议启用全盘加密或数据库级加密；影像临时文件定期清除\n\n\n访问控制​\n\t\n基于角色（RBAC）——术者/技师可读写，护士仅查看；强密码策略+MFA（如有Web端）；禁用默认账户\n\n\n审计日志​\n\t\n记录谁在何时访问/导出/打印了哪些患者数据，日志不可随意删除，保留≥6年\n\n\n去标识化​\n\t\n科研导出时必须去除直接标识符（姓名、ID、生日），保留编码化名（Re-ID需单独授权）\n\n\n网络隔离​\n\t\nTAVR工作站建议放入医疗设备VLAN（MN-VLAN），限制其仅能访问PACS/HIS指定端口，禁止直连互联网\n四、采购/上线前应向美敦力或代理商索要的文件\n1.\n《医疗器械注册证》及附件（注明有无网络连接功能）\n2.\n《医疗器械网络安全描述文档》（符合 YY/T 1843-2022，含数据流图、接口协议、加密方式、角色权限说明）\n3.\n隐私政策/数据处理协议（DPA）（明确数据不出境、仅本地存储、厂商远程维护边界）\n4.\n第三方渗透测试报告或等保测评佐证（如有）\n5.\nHL7/DICOM 接口规范说明书（供医院信息科做集成联调）\n一句话总结：​ 美敦力TAVR配套系统可通过 DICOM + HL7/FHIR 标准接入医院 PACS/EMR 集成平台；但含患者信息的健康数据严禁私自出境，须本地化存储、加密传输、权限管控，若确需跨境须依法走网信部门安全评估或标准合同备案。所有对外网络连接（含原厂远程维护）必须经医院信息科安全审批并审计。\n如你们正在做具体医院的设备选型论证，我可以帮你整理一份面向院方信息科/法务的合规与接口检查清单。\n源\n美敦力TAVR系统是否支持与医院自建系统对接？\n美敦力TAVR系统如何确保数据在传输过程中的完整性？\n医院信息科如何验证美敦力TAVR系统的数据安全合规性？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4479,
+      "htmlLength": 146356,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 12,
+      "referenceItemCount": 14,
+      "sourceNodeCount": 46
+    }
+  ]
+}

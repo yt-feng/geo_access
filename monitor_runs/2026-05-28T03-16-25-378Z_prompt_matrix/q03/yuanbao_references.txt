@@ -1,0 +1,261 @@
+腾讯元宝 资料引用清单
+页面: https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng
+采集时间: 2026-05-28T03:22:01.379Z
+
+页面引用/来源片段:
+
+[片段 1]
+2025年进博会，美敦力展台举办“数说心律 同心共创”活动。专家介绍生理性起搏与智慧医疗正结合发展，不仅能让心跳更自然，而且让诊疗过程更智能高效。远程随访技术方便患者及时检测自身数据，血管外ICD等创新技术的发展惠及基层医院，医疗科技的进步让患者享受到更好的治疗服务，也更触及到诊疗过程的温度。南都N视频记者：曾文琼 马强 王诗琪 蔡文茵 罗雪纯 宋耕洋 实习生：陈金意 刘纭溪
+南都健闻
+6个月前
+源
+这些器械的全球及中国市场规模多大？
+美敦力起搏器ICD/CRT-D的维修费用大概是多少？
+这些CIED器械的电池寿命具体如何计算？如何判断是否需要提前更换？
+下载元宝电脑版，体验高效 AI 助手
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（23）
+今日头条
+起搏器植入术后患者居家健康建议
+2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...
+medtronic.com
+Reveal LINQ ICM System
+(ICMs) systems and accessories The Reveal LINQ™ IC...
+红网
+健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道
+术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...
+丁香园
+心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?
+中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...
+UpToDate临床顾问
+起搏器或ICD的围术期管理
+
+[片段 2]
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（23）
+今日头条
+起搏器植入术后患者居家健康建议
+2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...
+medtronic.com
+Reveal LINQ ICM System
+(ICMs) systems and accessories The Reveal LINQ™ IC...
+红网
+健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道
+术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...
+丁香园
+心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?
+中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...
+UpToDate临床顾问
+起搏器或ICD的围术期管理
+放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/...
+cardiovascular.abbott
+ICD and CRT-D Solutions
+Entrant™ CRT-D models. For additional information...
+宿迁市第一人民医院
+起搏器出院指导
+18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起...
+健康界
+国产首个,可兼容MRI的心脏起搏器产品获批
+
+引用来源条目:
+1. 今日头条
+   标题: 起搏器植入术后患者居家健康建议
+   摘要: 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...
+2. medtronic.com
+   标题: Reveal LINQ ICM System
+   摘要: (ICMs) systems and accessories The Reveal LINQ™ IC...
+3. 红网
+   标题: 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道
+   摘要: 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有...
+4. 丁香园
+   标题: 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?
+   摘要: 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占...
+5. UpToDate临床顾问
+   标题: 起搏器或ICD的围术期管理
+   摘要: 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/...
+6. cardiovascular.abbott
+   标题: ICD and CRT-D Solutions
+   摘要: Entrant™ CRT-D models. For additional information...
+7. 宿迁市第一人民医院
+   标题: 起搏器出院指导
+   摘要: 18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起...
+8. 健康界
+   标题: 国产首个,可兼容MRI的心脏起搏器产品获批
+   摘要: 国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市...
+9. health.baidu.com
+   标题: crt- d治疗 百度健康·医学科普
+   摘要: crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电...
+10. medtronic.com
+   标题: 植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック
+   摘要: ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術...
+11. 新乡医学院第一附属医院
+   标题: 起搏器术后攻略:从病房到居家的科学守护
+   摘要: 起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患...
+12. bostonscientific.com
+   标题: ENGINEERING DEVICE LONGEVITY
+   摘要: ICD and X4 CRT-D. Explore the Technology Outperfor。
+13. 民福康
+   标题: 心力衰竭器械治疗
+   摘要: 起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后...
+14. 民福康
+   标题: 心脏起搏器的副作用有哪些
+   摘要: 心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染...
+15. medtronic.com
+   标题: What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?
+   摘要: Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover...
+16. lyqbq.com
+   标题: 2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析
+   摘要: 国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202...
+17. medtronic.com
+   标题: Une vie en bonne santé. Une planète en bonne santé. Pour tous.
+   摘要: e pays/la région Juste pour confirmer, est-ce bien...
+18. 民福康
+   标题: 心脏起搏器的副作用有哪些
+   摘要: 心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为...
+19. ·临沂市中心医院订阅号
+   标题: 【健康科普】关于心脏起搏器那些事
+   摘要: 公众号 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌...
+20. 药智网
+   标题: 最新!2款心血管创新器械获批上市
+   摘要: 我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海...
+21. cigna.com
+   标题: Wellness Library
+   摘要: Heart Failure: Should I Getan Implantable Cardioverter-Defibrillator (ICD)?Heart Failure: Should I Get an Implantable Cardioverter-Defibrillator (ICD)...
+22. medtronic.com
+   标题: Product Performance and Product Advisories
+   摘要: Product Performance and Advisories Information for Healthcare Professionals Overview Medtronic is committed to providing the highest quality products.
+23. 新浪网
+   标题: 先健科技投资价值分析
+   摘要: 使公司成为中国首家拥有达到国际级技术及功能的植入式心脏起搏器系统的生产厂家｡先健起搏器是拥有最大电池容量的国产起搏...
+
+段落引用标记:
+1. idx=14,18
+   囊袋血肿/出血、局部感染（<2%）、气胸/血胸（锁骨下静脉穿刺时）、导线移位或穿孔、心肌穿孔致心包积液（罕见）
+2. idx=14
+   导线断裂或绝缘层磨损、起搏器感知过度/不足（可被程控调整）、电池耗竭（起搏器5~12年，ICD/CRT-D 5~7年需更换）、囊袋感染需拔除
+3. idx=9,13
+   不恰当放电（约5%~10%，因房颤/干扰误判为室速，可调参）、正确放电时有明显胸口电击感（较痛苦但救命）
+4. idx=2
+   植入处感染、极少数设备移位或排出体表，比起搏器创伤更小
+5. idx=3,11
+   强磁场（工业电磁感应、部分理疗、未屏蔽的大功率短波）可干扰，但家用电器（电视、微波炉、手机）基本安全
+6. idx=16
+   同类进口品牌：雅培（Abbott/St. Jude）、波士顿科学（Boston Scientific）、百多力（Biotronik）
+7. idx=4,23
+   国产双腔起搏器：乐普（秦明）、微创创领（先健技术支持）、先健HeartTone™，价格通常比进口低30%~40%，适用于单纯心动过缓
+8. idx=4,20
+   目前ICD和CRT-D国内仍主要依赖进口，国产仅有创领（微创）近年刚获批ICD，CRT-D暂无国产品
+9. idx=16
+   替代进口可选雅培、波士顿科学（部分有无导线S-ICD选项适合静脉通路困难者）、百多力
+10. idx=2
+   同类有波士顿科学 Confirm Rx、雅培的植入式心电记录仪，功能相似
+11. idx=11,19
+   体位：术后24h平卧或半卧，术侧（通常左胸）上肢避免外展、上举过肩、提重物，防止导线移位 。
+12. idx=19
+   切口：保持干燥，观察有无红肿、渗液、发热，按医嘱服抗生素 。
+13. idx=11
+   排便：避免用力屏气（便秘用缓泻剂），防电极牵拉 。
+14. idx=7,19
+   手机：接听放对侧耳朵，不要把手机长时间揣在起搏器同侧上衣口袋（建议≥15cm） 。
+15. idx=19
+   家电：电视、电脑、微波炉、洗衣机正常使用，无需担心 。
+16. idx=3,7
+   避开：大功率电磁理疗仪、磁疗床垫、电弧焊（无防护时）、大型电机设备；超市/机场安检快速通过，出示起搏器卡片，勿在安检门旁逗留 。
+17. idx=19
+   MRI：确认你植入的是MRI兼容型（美敦力多数新款是），做核磁共振前须告知影像科医生并做程控设置 。
+18. idx=7,19
+   3个月后一般可恢复散步、太极等轻中度活动 。
+19. idx=7,13
+   植入ICD者通常6个月内不建议驾车（尤其货车/客车），私家车也建议先问主治医生 。
+20. idx=1,7
+   配CareLink的家庭监测可按提示传输数据，但仍需按时门诊复查 。
+
+来源节点:
+1. 14,18
+   data-idx-list=14,18
+   class=hyc-common-markdown__ref-list__trigger
+2. 14
+   data-idx-list=14
+   class=hyc-common-markdown__ref-list__trigger
+3. 9,13
+   data-idx-list=9,13
+   class=hyc-common-markdown__ref-list__trigger
+4. 2
+   data-idx-list=2
+   class=hyc-common-markdown__ref-list__trigger
+5. 3,11
+   data-idx-list=3,11
+   class=hyc-common-markdown__ref-list__trigger
+6. 16
+   data-idx-list=16
+   class=hyc-common-markdown__ref-list__trigger
+7. 4,23
+   data-idx-list=4,23
+   class=hyc-common-markdown__ref-list__trigger
+8. 4,20
+   data-idx-list=4,20
+   class=hyc-common-markdown__ref-list__trigger
+9. 16
+   data-idx-list=16
+   class=hyc-common-markdown__ref-list__trigger
+10. 2
+   data-idx-list=2
+   class=hyc-common-markdown__ref-list__trigger
+11. 11,19
+   data-idx-list=11,19
+   class=hyc-common-markdown__ref-list__trigger
+12. 19
+   data-idx-list=19
+   class=hyc-common-markdown__ref-list__trigger
+13. 11
+   data-idx-list=11
+   class=hyc-common-markdown__ref-list__trigger
+14. 7,19
+   data-idx-list=7,19
+   class=hyc-common-markdown__ref-list__trigger
+15. 19
+   data-idx-list=19
+   class=hyc-common-markdown__ref-list__trigger
+16. 3,7
+   data-idx-list=3,7
+   class=hyc-common-markdown__ref-list__trigger
+17. 19
+   data-idx-list=19
+   class=hyc-common-markdown__ref-list__trigger
+18. 7,19
+   data-idx-list=7,19
+   class=hyc-common-markdown__ref-list__trigger
+19. 7,13
+   data-idx-list=7,13
+   class=hyc-common-markdown__ref-list__trigger
+20. 1,7
+   data-idx-list=1,7
+   class=hyc-common-markdown__ref-list__trigger
+21. 南都健闻
+   class=ybc-chat-videoBoxV2-v3Card__item__source video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__k8l-Y
+22. 南都健闻
+   class=ybc-chat-videoBoxV2-v3Card__item__source__name video-box-v2_ybc-chat-videoBoxV2-v3Card__item__source__name__HRsZr
+23. 源
+   class=ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open
+24. 源
+   class=ToolbarSearchGuid_source__XMsID
+25. 引用来源（23） 今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin... medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC... 红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有... 丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占... UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/... cardiovascular.abbott ICD and CRT-D Solutions Ent
+   class=agent-dialogue-references
+26. 引用来源（23）
+   class=agent-dialogue-references__header
+27. 引用来源（23）
+   class=agent-dialogue-references__header-txt
+28. 今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin... medtronic.com Reveal LINQ ICM System (ICMs) systems and accessories The Reveal LINQ™ IC... 红网 健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道 术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有... 丁香园 心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”? 中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占... UpToDate临床顾问 起搏器或ICD的围术期管理 放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/... cardiovascular.abbott ICD and CRT-D Solutions Entrant™ CRT
+   class=agent-dialogue-references__list
+29. 今日头条 起搏器植入术后患者居家健康建议 2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin...
+   class=agent-dialogue-references__item
+30. 今日头条
+   class=hyc-common-markdown__ref_card-foot__source_txt
+
+链接:
+未识别到可见引用链接。

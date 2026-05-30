@@ -1,0 +1,233 @@
+{
+  "question_id": "q03",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 80,
+    "total_score": 88
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词共29次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "CareLink",
+      "Reveal LINQ",
+      "起搏器",
+      "ICD",
+      "CRT-D"
+    ],
+    "important_terms_missing": [],
+    "product_assets_covered": [
+      "起搏器",
+      "ICD",
+      "CRT-D",
+      "Reveal LINQ",
+      "CareLink"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力心脏植入电子器械",
+      "CareLink远程随访系统",
+      "Reveal LINQ心电记录仪",
+      "ICD/CRT-D除颤功能"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": []
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 20,
+    "official_sources_used": [
+      "medtronic.com",
+      "UpToDate临床顾问",
+      "药智网"
+    ],
+    "noisy_or_weak_sources": [
+      "今日头条",
+      "民福康",
+      "红网"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力最新临床研究数据引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "整体安全性良好",
+      "严重并发症发生率低",
+      "CareLink无副作用",
+      "美敦力占据近50%市场份额"
+    ],
+    "negative_or_risk_claims": [
+      "手术近期风险如感染、出血",
+      "ICD不恰当放电约5%-10%",
+      "电池耗竭需更换"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选推荐，市场龙头",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议咨询主治医生",
+      "提供细化注意事项",
+      "鼓励使用CareLink远程随访"
+    ]
+  },
+  "summary": "回答全面覆盖美敦力产品安全、副作用、替代方案及术后注意事项，品牌词高频，认知准确，证据充分，推荐积极。",
+  "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据质量好，推荐转化力强，整体评价正面且平衡。",
+  "improvement_actions": [
+    "增加更多美敦力官方临床数据引用",
+    "减少低权威来源如民福康的使用",
+    "补充美敦力与其他品牌对比的客观数据"
+  ],
+  "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 7072,
+    "completion_tokens": 652,
+    "total_tokens": 7724,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 6304
+  },
+  "analyzed_at": "2026-05-28T04:08:31.838Z",
+  "local_signals": {
+    "answerLength": 4715,
+    "brandTermTotal": 29,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 8
+      },
+      {
+        "term": "Medtronic",
+        "count": 10
+      },
+      {
+        "term": "CareLink",
+        "count": 5
+      },
+      {
+        "term": "Reveal LINQ",
+        "count": 6
+      }
+    ],
+    "referenceItemCount": 23,
+    "officialReferenceCount": 5,
+    "referenceSources": [
+      {
+        "source": "今日头条",
+        "title": "起搏器植入术后患者居家健康建议",
+        "snippet": "2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Reveal LINQ ICM System",
+        "snippet": "(ICMs) systems and accessories The Reveal LINQ™ IC..."
+      },
+      {
+        "source": "红网",
+        "title": "健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道",
+        "snippet": "术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有..."
+      },
+      {
+        "source": "丁香园",
+        "title": "心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?",
+        "snippet": "中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占..."
+      },
+      {
+        "source": "UpToDate临床顾问",
+        "title": "起搏器或ICD的围术期管理",
+        "snippet": "放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/..."
+      },
+      {
+        "source": "cardiovascular.abbott",
+        "title": "ICD and CRT-D Solutions",
+        "snippet": "Entrant™ CRT-D models. For additional information..."
+      },
+      {
+        "source": "宿迁市第一人民医院",
+        "title": "起搏器出院指导",
+        "snippet": "18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起..."
+      },
+      {
+        "source": "健康界",
+        "title": "国产首个,可兼容MRI的心脏起搏器产品获批",
+        "snippet": "国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市..."
+      },
+      {
+        "source": "health.baidu.com",
+        "title": "crt- d治疗 百度健康·医学科普",
+        "snippet": "crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック",
+        "snippet": "ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術..."
+      },
+      {
+        "source": "新乡医学院第一附属医院",
+        "title": "起搏器术后攻略:从病房到居家的科学守护",
+        "snippet": "起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患..."
+      },
+      {
+        "source": "bostonscientific.com",
+        "title": "ENGINEERING DEVICE LONGEVITY",
+        "snippet": "ICD and X4 CRT-D. Explore the Technology Outperfor。"
+      },
+      {
+        "source": "民福康",
+        "title": "心力衰竭器械治疗",
+        "snippet": "起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后..."
+      },
+      {
+        "source": "民福康",
+        "title": "心脏起搏器的副作用有哪些",
+        "snippet": "心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?",
+        "snippet": "Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover..."
+      },
+      {
+        "source": "lyqbq.com",
+        "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+        "snippet": "国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Une vie en bonne santé. Une planète en bonne santé. Pour tous.",
+        "snippet": "e pays/la région Juste pour confirmer, est-ce bien..."
+      },
+      {
+        "source": "民福康",
+        "title": "心脏起搏器的副作用有哪些",
+        "snippet": "心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为..."
+      },
+      {
+        "source": "·临沂市中心医院订阅号",
+        "title": "【健康科普】关于心脏起搏器那些事",
+        "snippet": "公众号 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌..."
+      },
+      {
+        "source": "药智网",
+        "title": "最新!2款心血管创新器械获批上市",
+        "snippet": "我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海..."
+      }
+    ]
+  }
+}

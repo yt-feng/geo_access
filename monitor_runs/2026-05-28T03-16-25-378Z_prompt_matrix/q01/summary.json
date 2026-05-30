@@ -1,0 +1,107 @@
+{
+  "questionId": "q01",
+  "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+  "createdAt": "2026-05-28T03:18:26.540Z",
+  "summary": [
+    {
+      "questionId": "q01",
+      "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 700,
+        "afterLength": 746
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 38061,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "心血管器械选型对比 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+          "textLength": 2559,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 12,
+          "citationMarkerCount": 0,
+          "answerLineCount": 3,
+          "medtronicCount": 13,
+          "answerSignal": true,
+          "textTail": "的是起搏器、ICD或CRT设备，美敦力是行业老大哥，但竞争对手也各有绝活。\n\n美敦力 (Medtronic)：全面与稳定。\n\n拥有BlueSync技术，患者可以通过手机App（MyCareLink Heart） 传输数据，体验较好-\n7\n。\n\nCareAlert功能可以自动通知医生房颤负荷、液体积聚等关键事件，减少不必要的门诊随访-\n7\n。\n\n作为行业龙头，设备可靠性、电极导线的选择丰富度都是顶级。\n\n百多力 (Biotronik)：“远程监测”体验之王。\n\n拥有HeartInsight居家监测系统，其全天候自动传输功能非常稳定，几乎不需要患者任何操作-\n9\n。\n\n如果你特别看重患者远程监测的依从性（担心患者忘传数据），百多力的方案具有优势。\n\n波士顿科学 (Boston Scientific)：心衰算法升级。\n\n拥有HeartLogic算法，它综合了心音、胸阻抗、呼吸频率等多达7个参数，在心衰预警的灵敏度（70%）上优于美敦力的传统单一参数算法-\n9\n。\n\n3. 诊断与工作流程：被忽视的战场\n\n雅培 & 波士顿科学 & 美敦力：这三家除了做硬件，还提供像Paceart这样的数据管理系统。它能将不同厂家的设备数据整合到医院的电子病历系统中-\n1\n。\n\n注意：美敦力近期已将Paceart业务出售给了专业公司PaceMate，这意味着在心衰数字化管理方案上，雅培目前的整合度可能更连贯-\n1\n。\n\n帮你做选择的决策树\n\n第一步：看患者目前情况\n\n有心衰，但不需要装起搏器/除颤器：\n\n-> 首选 雅培 (CardioMEMS)。这是目前唯一证据明确、能显著减少住院率的纯监测方案。\n\n有心衰，且需要装CRT/ICD：\n\n-> 首选 美敦力 (带OptiVol)。一台设备既能治疗又能监测，性价比最高。\n\n-> 次选 波士顿科学 (带HeartLogic)。如果患者病情很复杂，需要更灵敏的预警算法。\n\n第二步：如果主要是安装起搏器/ICD（不是严重心衰）\n\n关注美敦力的生态（手机App）或百多力的自动化远程传输便利性即可。\n\n为了帮你更精准地缩小选择范围，想再了解一下：这位患者目前的核心痛点是什么？是担心心衰反复住院、需要预防猝死、还是单纯的心跳过缓需要起搏治疗？\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2559,
+      "htmlLength": 131825,
+      "url": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 12,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q01",
+      "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTiSEOoCm",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 758,
+        "afterLength": 665
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 60134,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "心律管理心衰器械竞品对比分析",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTiSEOoCm",
+          "textLength": 2885,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 22,
+          "answerLineCount": 3,
+          "medtronicCount": 20,
+          "answerSignal": true,
+          "textTail": "久起搏）\n∙\n体型瘦小/在意囊袋凸起→优先考虑雅培Ellipse/Ellipse VR或百多力超薄机型。\n∙\n看重最长电池寿命及最广泛随访网点→美敦力EnRhythm/Advisa系列。\n∙\n若适合无导线起搏（无静脉入路或感染高危）→美敦力Micra或雅培Aveir（依医院备货）。\n② ICD / CRT-D（猝死预防+心衰再同步）\n∙\n需最强心衰预警提前干预→波士顿科学Resonate+HeartLogic有独特预警评分\n。\n∙\n希望降低不恰当电击、CRT反应率高→美敦力Cobalt/Crome(AdaptivCRT)或雅培Quadra Allure MP(MultiPoint)。\n∙\n静脉通路差/担心导线远期断裂→波士顿科学EMBLEM S-ICD（仅除颤无CRT功能）；美敦力EV-ICD(Aurora)亦可选（部分中心开展）\n。\n∙\n侧重每日自动上传、老人不善操作→百多力Home Monitoring自动传，不依赖患者每天放发射器。\n③ 远程监测/长期随访便利性\n∙\n患者会用智能手机→美敦力MyCareLink手机App直连最方便。\n∙\n希望\"装完就忘\"，设备每晚自动传→百多力Home Monitoring最优。\n∙\n医院已有Merlin.net工作站且医生熟悉→雅培也可，但需家中放Merlin@Home发射器。\n⚠️ 实际决策注意点\n∙\n以主刀电生理医生建议为准：植入需匹配该中心常用程控仪和导线系统，医院常规备货品牌往往是最合理的第一选择，避免跨品牌导致无法程控或随访困难。\n∙\n医保与集采：起搏器/ICD已纳入多地高值耗材集采，最终可选品牌受当地中标目录限制，价格差已大幅缩小。\n∙\n特殊需求提前沟通：如需未来频繁做MRI、年轻患者关注电池更换次数、极度消瘦担心囊袋疝出等，术前和医生说明以便针对性挑型号。\n如果您能告知具体是准备植入起搏器/ICD/CRT-D哪一种，以及患者大致年龄体型或是否已确定在某家医院手术，我可以再帮您细化到具体推荐型号和需要问医生的关键问题。\n源\n美敦力、雅培、波科、百多力在中国市场占有率多少？\n美敦力、雅培、波士顿科学和百多力哪个品牌的起搏器植入手术风险最低？\n能否提供一些具体的临床数据支持这些品牌的选择？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4598,
+      "htmlLength": 146670,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTiSEOoCm",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 22,
+      "referenceItemCount": 12,
+      "sourceNodeCount": 52
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "question_id": "q15",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 90,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 75,
+    "recommendation_conversion": 80,
+    "total_score": 83
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词出现29次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "Medtronic Academy",
+      "CRM",
+      "PFA",
+      "手术机器人"
+    ],
+    "important_terms_missing": [
+      "Synergy",
+      "Micra",
+      "Hugo"
+    ],
+    "product_assets_covered": [
+      "CRM起搏器/ICD",
+      "神经介入",
+      "主动脉覆膜支架",
+      "脊柱机器人",
+      "PFA"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "全球最大医疗器械公司",
+      "产品线覆盖广泛",
+      "长期临床证据",
+      "Medtronic Academy培训体系",
+      "全国售后网络"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "具体产品如Micra无导线起搏器",
+      "Hugo手术机器人细节"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "medtronic.com"
+    ],
+    "noisy_or_weak_sources": [
+      "搜狐网",
+      "今日头条",
+      "公众号"
+    ],
+    "evidence_gaps": [
+      "缺乏官方价格数据",
+      "售后响应时间无官方数据"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "临床证据覆盖最全",
+      "售后体系成熟",
+      "培训资源丰富",
+      "产品线宽度无人能及"
+    ],
+    "negative_or_risk_claims": [
+      "标价偏高",
+      "集采承压",
+      "部分地区响应延迟",
+      "学习曲线中等偏难"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选推荐",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议用户提供具体科室/产品线以获取更精准建议",
+      "提供了实操决策Checklist"
+    ]
+  },
+  "summary": "回答全面对比美敦力与竞品，突出其产品线广、临床证据厚、培训体系强，但价格偏高。推荐美敦力适合多科室合作，并给出具体场景建议。",
+  "dashboard_takeaway": "美敦力在临床证据、售后网络和培训资源上优势明显，但价格和集采压力需注意。回答平衡且具转化力。",
+  "improvement_actions": [
+    "补充官方价格或集采影响数据",
+    "增加具体产品如Micra、Hugo的提及",
+    "减少非权威来源引用"
+  ],
+  "prompt": "企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVXuZ7UWG",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 6131,
+    "completion_tokens": 667,
+    "total_tokens": 6798,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5363
+  },
+  "analyzed_at": "2026-05-28T04:11:15.857Z",
+  "local_signals": {
+    "answerLength": 3425,
+    "brandTermTotal": 29,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 22
+      },
+      {
+        "term": "Medtronic",
+        "count": 7
+      }
+    ],
+    "referenceItemCount": 12,
+    "officialReferenceCount": 7,
+    "referenceSources": [
+      {
+        "source": "搜狐网",
+        "title": "直觉医疗英国总部启用,2万英尺培训中心,达芬奇机器卖得好好的,为啥要花重金搞教育培训?",
+        "snippet": "根据公司披露,其全球职业教育项目已获得英国皇家外科学院认证,累计培训医生人数已超过 8.9万人。"
+      },
+      {
+        "source": "·医械前沿MDF",
+        "title": "波科、美敦力、强生、雅培决战中国:PFA到底哪家强?",
+        "snippet": "公众号 美敦力:以双能量平台和务实策略破局 公司底蕴 美敦力是全球最大的医疗器械公司,产品线覆盖广泛,在..."
+      },
+      {
+        "source": "medteccn.com",
+        "title": "中国医疗器械展谁将主宰房颤消融未来?全球PFA市场三足鼎立背后的生死竞速",
+        "snippet": "中国医疗器械展|谁将主宰房颤消融未来?全球PFA市场三足鼎立背后的生死竞速｡导语 中国医疗器械展了解..."
+      },
+      {
+        "source": "今日头条",
+        "title": "外科器械巨头强生&美敦力的百年启示 - 今日头条",
+        "snippet": "美敦力用了几十年,通过一次次的并购和整合,才搭建起了完整的外科生态｡医疗器械行业,从来不是赚快钱的生..."
+      },
+      {
+        "source": "·电生理之声",
+        "title": "花瓣之后:波科 PFA 的下半场战事",
+        "snippet": "公众号 vs 美敦力四层 vs 强生单产品 把三家的 PFA 产品线放在一起对比: 波科:FARAWAVE(..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Clinical evidence",
+        "snippet": "Strength in evidence The proof is in the results. Youre invested in durable outcomes for your patients. So are we. Medtronic maintains the longest-te..."
+      },
+      {
+        "source": "今日头条",
+        "title": "全球械企百强揭秘:中国12家上榜,差距藏在细节里 - 今日头条",
+        "snippet": "美敦力的产品版图堪称全面开花,电生理､心衰治疗､瓣膜介入这些高难度领域一个不落, 连手术机器人､..."
+      },
+      {
+        "source": "·心医讯",
+        "title": "PFA三巨头:美敦力、雅培、波士顿科学HRS同台竞技,谁更胜一筹?",
+        "snippet": "公众号 PFA三巨头:美敦力､雅培､波士顿科学HRS同台竞技,谁更胜一筹?｡FARAFLEX导管的ELEVA..."
+      },
+      {
+        "source": "·心医讯",
+        "title": "美敦力二尖瓣生物瓣Mosaic Neo获批FDA,在美国全面上市",
+        "snippet": "公众号 竞品 企业 特点 Mitris Resilia 爱德华 干式储存技术,抗钙化处理 Epic 雅培 猪..."
+      },
+      {
+        "source": "·电生理之声",
+        "title": "王者的迟到:强生 PFA 战略全景复盘",
+        "snippet": "公众号 它是靠整个手术从头到尾的全套器械､全套工作流､全套医生培训体系,把竞争对手挡在了门外｡雅培的 EnSite Nav..."
+      },
+      {
+        "source": "腾讯网",
+        "title": "美敦力双线出击:手术机器人战场迎来“系统级”角力",
+        "snippet": "美敦力双线出击:手术机器人战场迎来系统级角力｡2月,全球医疗科技巨头美敦力在手术机器人领域投下两..."
+      },
+      {
+        "source": "·乔戈里投研",
+        "title": "美敦力 4000 字深度研报",
+        "snippet": "公众号 美敦力 4000 字深度研报｡"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "question_id": "q14",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 90,
+    "total_score": 90
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词和产品词共73次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "CareLink",
+      "Touch Surgery"
+    ],
+    "important_terms_missing": [
+      "数据分析平台",
+      "培训平台"
+    ],
+    "product_assets_covered": [
+      "CareLink",
+      "Touch Surgery",
+      "MyCareLink"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "CareLink远程随访系统",
+      "Touch Surgery模拟培训",
+      "数据安全措施",
+      "替代方案对比"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "具体数据分析平台名称"
+    ]
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 15,
+    "official_sources_used": [
+      "medtronic.com",
+      "europe.medtronic.com",
+      "nice.org.uk",
+      "健康界",
+      "严道医声网"
+    ],
+    "noisy_or_weak_sources": [
+      "cloudywifi.com",
+      "visualfoodie.com",
+      "in.marketscreener.com",
+      "modmed.com"
+    ],
+    "evidence_gaps": [
+      "缺少对数据分析平台的具体安全研究"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "positive",
+    "positive_claims": [
+      "临床安全性高",
+      "数据加密保护",
+      "循证验证",
+      "利大于弊"
+    ],
+    "negative_or_risk_claims": [
+      "早期协议漏洞",
+      "网络依赖",
+      "假阳性警报"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选推荐",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议按医嘱使用",
+      "提供后续咨询"
+    ]
+  },
+  "summary": "回答全面覆盖用户问题，准确阐述美敦力CareLink和Touch Surgery的安全性、副作用及替代方案，引用权威来源，推荐积极，无明显劝退内容。",
+  "dashboard_takeaway": "AI对美敦力品牌认知准确，证据充分，推荐转化力强，但数据分析平台细节缺失，整体表现优秀。",
+  "improvement_actions": [
+    "补充数据分析平台的具体名称和安全性说明",
+    "减少非权威来源引用"
+  ],
+  "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 5564,
+    "completion_tokens": 604,
+    "total_tokens": 6168,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 4796
+  },
+  "analyzed_at": "2026-05-28T04:11:02.540Z",
+  "local_signals": {
+    "answerLength": 4930,
+    "brandTermTotal": 73,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 13
+      },
+      {
+        "term": "Medtronic",
+        "count": 20
+      },
+      {
+        "term": "CareLink",
+        "count": 32
+      },
+      {
+        "term": "Touch Surgery",
+        "count": 8
+      }
+    ],
+    "referenceItemCount": 23,
+    "officialReferenceCount": 8,
+    "referenceSources": [
+      {
+        "source": "健康界",
+        "title": "心血管植入型电子器械远程随访中国专家共识",
+        "snippet": "可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安..."
+      },
+      {
+        "source": "cloudywifi.com",
+        "title": "Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi",
+        "snippet": "CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements..."
+      },
+      {
+        "source": "武汉亚洲心脏病医院",
+        "title": "IECD的远程监测系统简介(二)",
+        "snippet": "由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械..."
+      },
+      {
+        "source": "严道医声网",
+        "title": "CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量",
+        "snippet": "而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结..."
+      },
+      {
+        "source": "visualfoodie.com",
+        "title": "Understanding Medtronic CareLink Security",
+        "snippet": "security is baked into every step of that journey. You Might Also Like: Common Medtronic CareLink Network Issues The Core Pillars of CareLink Security..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Touch Surgery Simulations Medtronic (Europe) Touch Surgery simulations",
+        "snippet": "Touch Surgery™ Simulations | Medtronic (Europe) |..."
+      },
+      {
+        "source": "365医学网",
+        "title": "第31届美国心律协会(HRS)亮点之一——植入器械的远程随访",
+        "snippet": "2008年HRS/EHRA专家共识中指出,CIED中远程监测功能可以用于及早发现CIED工作异常,进而为更好的评估..."
+      },
+      {
+        "source": "europe.medtronic.com",
+        "title": "Important Safety Information MyCareLink Remote Monitoring",
+        "snippet": "CARELINK® NETWORK AND CARELINK® MOBILE APPLICATION..."
+      },
+      {
+        "source": "in.marketscreener.com",
+        "title": "MEDTRONIC : CareLink Network Remote Monitoring Helps Improve Patient Care and Reduce Healthcare Costs MarketScreener India",
+        "snippet": "without remote monitoring. About the Medtronic CareLink Network The Medtronic CareLink Network offers customizable and color-coded alert notifications..."
+      },
+      {
+        "source": "medicaldevice-network.com",
+        "title": "Medtronic reinvents surgical training for a new era - Medical Device Network",
+        "snippet": "Medtronics Touch Surgery app plays in helping democratise surgical training. OB: Our app teaches learners how to safely perform different surgeries."
+      },
+      {
+        "source": "新浪网",
+        "title": "心血管远程监测设备成趋势,百多力、美敦力、雅培谁与争锋?",
+        "snippet": "中国市场远程监测系统厂商现状: 百多力､美敦力､雅培领先 自2009年在中国首次植入具有远 程监护功能的心脏起搏器..."
+      },
+      {
+        "source": "nice.org.uk",
+        "title": "CareLink network service for remote monitoring of people with cardiac devices",
+        "snippet": "CareLink compared with trans-telephonic monitoring。"
+      },
+      {
+        "source": "武汉市市场监督管理局",
+        "title": "(武汉市知识产权局)",
+        "snippet": "从患者的植入式心脏设备向指定的卫生保健诊所(远程监控)远程传输包括重要操作和安全提示在内的数据｡允许..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Elevate your robotic surgery training.",
+        "snippet": "Elevate your robotic surgery training. Indications。"
+      },
+      {
+        "source": "PMC",
+        "title": "Clinical Pathways Guided by Remotely Monitoring Cardiac Device Data: The Future of Device Heart Failure Management?",
+        "snippet": "platform Merlin.net™ CareLink™ LATITUDE™ Home moni..."
+      },
+      {
+        "source": "严道医声网",
+        "title": "CareLink大咖谈刘兴斌:CareLink将为CRT患者带来显著临床获益",
+        "snippet": "编者按: CareLink™是由美敦力公司研发的远程随访系统,将该系统应用于CRT患者的术后管理可带..."
+      },
+      {
+        "source": "安恒信息官网",
+        "title": "【安全资讯】MyCareLink漏洞可使攻击者接管植入的心脏设备",
+        "snippet": "2020-12-17 10:52:30 622人浏览 物联网安全公司Sternum的专家发现,美敦力..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Touch Surgery",
+        "snippet": "Simulationen auf Operationen vor. Touch Surgery is。"
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Remote monitoring for implanted heart devices",
+        "snippet": "Your browser is out of date With an updated browser,you will have a better Medtronic web site experience. Update my browser now. Toggle navigation Rem..."
+      },
+      {
+        "source": "modmed.com",
+        "title": "Modernizing Your Technology Is Beneficial and Essential…But Resist Thinking It Will Be Painless!",
+        "snippet": "By John V. Guiliana,DPM,MS Adopting a new electronic health record is often inevitable as the healthcare environment and its demands continuously chan..."
+      }
+    ]
+  }
+}

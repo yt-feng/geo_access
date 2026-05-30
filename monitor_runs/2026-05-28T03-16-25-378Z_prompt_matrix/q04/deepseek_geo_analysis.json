@@ -1,0 +1,103 @@
+{
+  "question_id": "q04",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 0,
+    "cognitive_accuracy": 70,
+    "evidence_inclusion": 40,
+    "recommendation_conversion": 60,
+    "total_score": 43
+  },
+  "brand_terms": {
+    "frequency_assessment": "未提及美敦力品牌",
+    "important_terms_present": [],
+    "important_terms_missing": [
+      "美敦力",
+      "Medtronic",
+      "心律管理",
+      "心衰",
+      "远程监测",
+      "起搏器",
+      "CRT",
+      "ICD",
+      "CardioMEMS",
+      "HeartLogic"
+    ],
+    "product_assets_covered": []
+  },
+  "brand_asset_understanding": {
+    "level": "low",
+    "correct_assets": [],
+    "confusions_or_errors": [
+      "未提及美敦力，无法评估品牌理解"
+    ],
+    "missing_assets": [
+      "美敦力心律管理产品线",
+      "美敦力心衰监测产品",
+      "美敦力远程监测平台"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 60,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "引用来源未明确，可能包含非官方信息"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力具体产品证据",
+      "缺乏中国本地医保政策官方文件"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "neutral",
+    "positive_claims": [
+      "提供了政策窗口期分析",
+      "给出了量价风险模型"
+    ],
+    "negative_or_risk_claims": [
+      "服务费无法向患者收取是风险",
+      "供应商粘性风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": false,
+    "rank_or_priority": "未提及美敦力",
+    "next_step_quality": "medium",
+    "conversion_notes": [
+      "回答未推荐美敦力，但提供了通用建议"
+    ]
+  },
+  "summary": "回答未提及美敦力品牌，缺乏品牌可见度。认知准确度中等，但未涉及美敦力产品。证据来源质量中等，噪音较高。推荐转化力一般，未推荐美敦力。",
+  "dashboard_takeaway": "美敦力品牌在回答中完全缺失，需提升品牌提及率。建议在政策分析中嵌入美敦力产品线及证据。",
+  "improvement_actions": [
+    "在回答中明确提及美敦力心律管理、心衰监测产品",
+    "引用美敦力CardioMEMS等产品的临床证据",
+    "提供美敦力产品在中国医保报销的具体案例"
+  ],
+  "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1857,
+    "completion_tokens": 618,
+    "total_tokens": 2475,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1089
+  },
+  "analyzed_at": "2026-05-28T04:08:38.160Z",
+  "local_signals": {
+    "answerLength": 1573,
+    "brandTermTotal": 0,
+    "terms": [],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "question_id": "q16",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 85,
+    "recommendation_conversion": 80,
+    "total_score": 88
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词26次，英文12次，产品名1次",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "MiniMed"
+    ],
+    "important_terms_missing": [
+      "起搏器",
+      "支架",
+      "胰岛素泵",
+      "神经调控"
+    ],
+    "product_assets_covered": [
+      "起搏器",
+      "支架",
+      "胰岛素泵",
+      "导航系统"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "全球最大医疗器械厂商",
+      "产品线广",
+      "临床数据支撑",
+      "受监管严格"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "具体产品线如心脏节律管理",
+      "神经调控等细分领域"
+    ]
+  },
+  "evidence": {
+    "source_quality": "high",
+    "source_noise_level": 20,
+    "official_sources_used": [
+      "productperformance.medtronic.com",
+      "fda.gov",
+      "accessdata.fda.gov",
+      "medtronic.com",
+      "中国质检新闻网"
+    ],
+    "noisy_or_weak_sources": [
+      "腾讯新闻",
+      "健康界",
+      "今日头条",
+      "大众健康之窗"
+    ],
+    "evidence_gaps": [
+      "缺少对具体型号的详细分析",
+      "缺少与竞品的直接对比数据"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "召回是行业常见现象",
+      "医生推荐基于临床获益",
+      "建议与医生沟通确认"
+    ],
+    "negative_or_risk_claims": [
+      "召回涉及致命问题",
+      "已致重伤",
+      "存在脊髓压迫风险"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "医生推荐，需结合具体型号",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议患者与医生确认型号",
+      "提供后续随访建议",
+      "鼓励查询官方渠道"
+    ]
+  },
+  "summary": "回答正面回应召回担忧，解释召回分级，强调医生推荐基于临床获益，建议患者与医生沟通确认型号，整体平衡且可信。",
+  "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据充分，推荐转化力强，但需加强具体型号分析。",
+  "improvement_actions": [
+    "增加具体产品线分析",
+    "提供竞品对比数据",
+    "减少非权威来源引用"
+  ],
+  "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVf2DGHaq",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 5446,
+    "completion_tokens": 641,
+    "total_tokens": 6087,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 4678
+  },
+  "analyzed_at": "2026-05-28T04:11:28.966Z",
+  "local_signals": {
+    "answerLength": 3367,
+    "brandTermTotal": 39,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 26
+      },
+      {
+        "term": "Medtronic",
+        "count": 12
+      },
+      {
+        "term": "MiniMed",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 17,
+    "officialReferenceCount": 12,
+    "referenceSources": [
+      {
+        "source": "productperformance.medtronic.com",
+        "title": "Medtronic CRHF Product Performance eSource",
+        "snippet": ""
+      },
+      {
+        "source": "fda.gov",
+        "title": "Esophageal pH Monitoring Capsule Recall: Medtronic and Given Imaging Remove Bravo CF Capsule Delivery Devices",
+        "snippet": "Home Medical Devices Medical Device Safety Medical Device Recalls and Early Alerts Esophageal pH Monitoring Capsule Recall: Medtronic and Given Imagin..."
+      },
+      {
+        "source": "腾讯新闻",
+        "title": "美敦力一年主动召回医疗器械23次,最严重级别产品均在国内有售_腾讯新闻",
+        "snippet": "新京报记者统计了国家药监局近一年来(2023年7月1日2024年6月30日)公布的医疗器械召回信息显示,知名医疗..."
+      },
+      {
+        "source": "accessdata.fda.gov",
+        "title": "Class 1 Device Recall Aortic Root Cannula",
+        "snippet": "Medtronic distributed the Urgent medical Device Recall notice via mail courier to existing and newly identified consignees who have received impacted..."
+      },
+      {
+        "source": "健康界",
+        "title": "一级召回!美敦力植入式心脏除颤器",
+        "snippet": "美敦力植入式心脏除颤器｡ICD 和CRT-D 产品通过植入患者胸部以帮助他们维持正常心律｡此类设备通..."
+      },
+      {
+        "source": "健康界",
+        "title": "国内有售 美敦力这些器械,最高级召回",
+        "snippet": "美敦力重量级产品频频召回 从车库里走出来的美敦力,被誉为医疗器械界的并购机器｡稳居全球医疗器械第一宝..."
+      },
+      {
+        "source": "accessdata.fda.gov",
+        "title": "Class 2 Device Recall MiniMed insulin pump",
+        "snippet": "January 31,2025 Date Posted Recall Status 1 Open 3 ,Classified Recall Number Z-1262-2025 Recall Event ID 96200 Product Classification Automated insuli..."
+      },
+      {
+        "source": "大众健康之窗",
+        "title": "存在脊髓压迫风险美敦力召回脊髓刺激器",
+        "snippet": "增加了关于在器械电极导线周围形成的组织块可能导致脊髓压迫的特定信息｡了解该潜在不良事件可帮助开展早期检测和预防相关..."
+      },
+      {
+        "source": "今日头条",
+        "title": "美敦力心脏插管出致命问题,已致3人重伤! - 今日头条",
+        "snippet": "已致3人重伤!- 今日头条｡美敦力之前出过类似问题吗?作为全球知名的医疗器械企业,美敦力是不是第一次..."
+      },
+      {
+        "source": "中国质检新闻网",
+        "title": "美敦力(上海)管理有限公司对血管外植入式心律转复除颤器Extravascular Implantable Cardioverter Defibrillator主动召回",
+        "snippet": "美敦力(上海)管理有限公司对其生产的血管外植入式心律转复除颤器(注册证号:国械注进20253120253)主动召回..."
+      },
+      {
+        "source": "丁香园生物医药科技网",
+        "title": "美敦力脊柱融合器 Infuse 从手术室走入法庭",
+        "snippet": "从Infuse 批准通过的 2002 年开始,政府医疗器械不良事件报告系统中,有超过 6500 份研..."
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Valiant Navion system — recall update",
+        "snippet": "UPDATED Patient Management Recommendations Medtr。"
+      },
+      {
+        "source": "中国质检新闻网",
+        "title": "美敦力(上海)管理有限公司对医生程控仪主动召回",
+        "snippet": "规格及批次等详细信息见医疗器械召回事件报告表｡附件: 医疗器械召回事件报告表(点击下载) .pdf 2026年..."
+      },
+      {
+        "source": "bostonscientific.com",
+        "title": "About Boston Scientific",
+        "snippet": "For healthcare professionals For patients and caregivers About Boston Scientific Search Menu Back For healthcare professionals Find products,medical s..."
+      },
+      {
+        "source": "qxzh.yjj.sh.gov.cn",
+        "title": "上海市医疗器械主动召回直报监管系统数据",
+        "snippet": "查询 重置 历史召回信息(2017-2018)。"
+      },
+      {
+        "source": "medtronic.com",
+        "title": "Vous vous apprêtez à quitter le site de Medtronic du Canada",
+        "snippet": "pas géré par Medtronic du Canada. Medtronic Canada..."
+      },
+      {
+        "source": "中国质量新闻网",
+        "title": "美敦力(上海)管理有限公司对逆行冠脉窦灌注插管主动召回",
+        "snippet": "美敦力(上海)管理有限公司对其生产的逆行冠脉窦灌注插管(注册证号:国械注进20173106052)主动召回｡召回级..."
+      }
+    ]
+  }
+}

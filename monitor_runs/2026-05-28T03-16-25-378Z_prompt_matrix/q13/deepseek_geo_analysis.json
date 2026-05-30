@@ -1,0 +1,139 @@
+{
+  "question_id": "q13",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 75,
+    "total_score": 80
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌专有词出现15次，位置靠前，覆盖主要产品线",
+    "important_terms_present": [
+      "美敦力",
+      "MiniMed",
+      "Simplera",
+      "CareLink"
+    ],
+    "important_terms_missing": [
+      "美敦力糖尿病管理",
+      "SmartGuard"
+    ],
+    "product_assets_covered": [
+      "MiniMed 780G",
+      "Simplera传感器",
+      "CareLink软件",
+      "Simplera Sync",
+      "Guardian系列"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "MiniMed 780G自动闭环",
+      "Simplera传感器佩戴部位",
+      "CareLink远程监测",
+      "SmartGuard技术"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力糖尿病管理整体方案",
+      "InPen智能笔"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "FDA",
+      "美敦力官方资料"
+    ],
+    "noisy_or_weak_sources": [
+      "FDA不良事件数据库",
+      "产品召回公告"
+    ],
+    "evidence_gaps": [
+      "缺乏临床研究数据",
+      "未引用美敦力官方说明书"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "系统功能强大",
+      "核心功能有效",
+      "已获FDA批准"
+    ],
+    "negative_or_risk_claims": [
+      "皮肤刺激",
+      "设备故障",
+      "药物干扰",
+      "产品召回"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": [
+      "并非零风险",
+      "绝对禁区",
+      "严格红线"
+    ]
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "推荐但需谨慎评估风险",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议与医生确认药物兼容性",
+      "要求操作培训",
+      "权衡自动化需求与风险"
+    ]
+  },
+  "summary": "回答全面客观，准确介绍美敦力系统安全性、副作用及替代方案，但缺乏官方引用，风险描述可能削弱信心。",
+  "dashboard_takeaway": "品牌可见度高，认知准确，证据中等，推荐转化力良好，需加强官方证据和风险平衡。",
+  "improvement_actions": [
+    "增加美敦力官方说明书引用",
+    "补充临床研究数据",
+    "弱化风险描述中的负面措辞",
+    "突出美敦力品牌优势"
+  ],
+  "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+  "source_url": "https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1962,
+    "completion_tokens": 636,
+    "total_tokens": 2598,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1194
+  },
+  "analyzed_at": "2026-05-28T04:10:43.186Z",
+  "local_signals": {
+    "answerLength": 1762,
+    "brandTermTotal": 15,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 4
+      },
+      {
+        "term": "CareLink",
+        "count": 2
+      },
+      {
+        "term": "MiniMed",
+        "count": 3
+      },
+      {
+        "term": "Simplera",
+        "count": 6
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

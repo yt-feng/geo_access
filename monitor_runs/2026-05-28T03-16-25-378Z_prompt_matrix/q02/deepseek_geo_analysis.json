@@ -1,0 +1,108 @@
+{
+  "question_id": "q02",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 20,
+    "cognitive_accuracy": 70,
+    "evidence_inclusion": 10,
+    "recommendation_conversion": 30,
+    "total_score": 33
+  },
+  "brand_terms": {
+    "frequency_assessment": "极低，仅出现1次",
+    "important_terms_present": [
+      "美敦力"
+    ],
+    "important_terms_missing": [
+      "Medtronic",
+      "起搏器",
+      "ICD",
+      "CRT-D",
+      "远程监测"
+    ],
+    "product_assets_covered": []
+  },
+  "brand_asset_understanding": {
+    "level": "medium",
+    "correct_assets": [
+      "心律管理",
+      "心衰远程监测",
+      "起搏器",
+      "ICD",
+      "CRT-D"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力CareLink",
+      "美敦力产品线优势"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 90,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "无引用来源"
+    ],
+    "evidence_gaps": [
+      "无具体价格数据",
+      "无集采信息",
+      "无官方数据"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "neutral",
+    "positive_claims": [],
+    "negative_or_risk_claims": [
+      "价格不固定",
+      "受集采影响大"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": false,
+    "rank_or_priority": "未提及",
+    "next_step_quality": "low",
+    "conversion_notes": [
+      "未推荐美敦力",
+      "未给出购买建议"
+    ]
+  },
+  "summary": "回答未直接对比价格，仅泛泛说明影响因素，品牌提及极少，无证据支撑，转化力弱。",
+  "dashboard_takeaway": "品牌可见度极低，缺乏官方数据，需补充美敦力产品优势及价格对比信息。",
+  "improvement_actions": [
+    "增加美敦力品牌词频",
+    "引用官方价格或集采数据",
+    "明确美敦力产品优势",
+    "给出具体购买建议"
+  ],
+  "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 541,
+    "total_tokens": 1824,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 515
+  },
+  "analyzed_at": "2026-05-28T04:08:09.786Z",
+  "local_signals": {
+    "answerLength": 549,
+    "brandTermTotal": 1,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

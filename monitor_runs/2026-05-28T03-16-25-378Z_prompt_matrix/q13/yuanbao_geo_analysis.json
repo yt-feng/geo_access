@@ -1,0 +1,213 @@
+{
+  "question_id": "q13",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 95,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 75,
+    "recommendation_conversion": 85,
+    "total_score": 86
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词和产品词共38次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "MiniMed",
+      "Simplera",
+      "CareLink"
+    ],
+    "important_terms_missing": [],
+    "product_assets_covered": [
+      "MiniMed 780G",
+      "Simplera Sync",
+      "CareLink",
+      "Guardian 4"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "MiniMed 780G是混合闭环系统",
+      "Simplera Sync是CGM",
+      "CareLink是数据管理软件",
+      "获NMPA/FDA批准"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "未提及美敦力其他泵如630G/670G",
+      "未提及Simplera非Sync版本"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "medtronicdiabetes.com",
+      "medtronic.com",
+      "fda.innolitics.com"
+    ],
+    "noisy_or_weak_sources": [
+      "网易（召回新闻）",
+      "diabetesnet.com（第三方对比）",
+      "diabeteswise.org（第三方工具）"
+    ],
+    "evidence_gaps": [
+      "缺乏中国本土临床数据",
+      "副作用发生率未量化"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "安全性经长期临床验证",
+      "有效提升TIR降低HbA1c",
+      "获多国药监批准"
+    ],
+    "negative_or_risk_claims": [
+      "胰岛素输注中断可致DKA",
+      "过量输注可致严重低血糖",
+      "CGM读数偏差风险",
+      "召回案例"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "未明确排名，但作为主要推荐方案",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议接受培训",
+      "提供替代方案对比",
+      "鼓励咨询医生"
+    ]
+  },
+  "summary": "回答全面覆盖美敦力糖尿病管理系统安全性、副作用及替代方案，品牌词高频且准确，引用官方和第三方来源，评价中肯，推荐转化力强。",
+  "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据中等，推荐积极。需注意召回新闻可能影响信任，但整体未劝退客户。",
+  "improvement_actions": [
+    "增加中国本土临床数据引用",
+    "量化副作用发生率",
+    "补充美敦力其他泵型号信息"
+  ],
+  "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVJowcJPs",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 5682,
+    "completion_tokens": 686,
+    "total_tokens": 6368,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 4914
+  },
+  "analyzed_at": "2026-05-28T04:10:50.543Z",
+  "local_signals": {
+    "answerLength": 4376,
+    "brandTermTotal": 38,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 11
+      },
+      {
+        "term": "Medtronic",
+        "count": 4
+      },
+      {
+        "term": "CareLink",
+        "count": 4
+      },
+      {
+        "term": "MiniMed",
+        "count": 12
+      },
+      {
+        "term": "Simplera",
+        "count": 7
+      }
+    ],
+    "referenceItemCount": 15,
+    "officialReferenceCount": 2,
+    "referenceSources": [
+      {
+        "source": "medtronicdiabetes.com",
+        "title": "MiniMed Flex system is FDA cleared",
+        "snippet": "MiniMed Flex™ system is FDA cleared｡For additional..."
+      },
+      {
+        "source": "medtronicdiabetes.com",
+        "title": "MiniMed 780G 系统用户指南 Medtron",
+        "snippet": "对于不愿或无法查看血糖仪读数的患者,不建议使用胰岛素泵疗法｡!(/f87c9bb945b9e3a80..."
+      },
+      {
+        "source": "omnipod.com",
+        "title": "This website uses cookies",
+        "snippet": "13-week Omnipod 5: 8.2% vs. 7.4%,P180 mg/dL as measured by CGM: ST = 54%,3-mo Omnipod 5 = 34%,P<0.001. Mean time <70 mg/dL as measured by CGM: ST = ."
+      },
+      {
+        "source": "medtronicdiabetes.com",
+        "title": "CareLink Software",
+        "snippet": "CareLink™ Software｡MiniMed TM 630G system with Sma..."
+      },
+      {
+        "source": "网易",
+        "title": "涉785,000台设备!美敦力核心产品 I 级召回",
+        "snippet": "从2023年1月到2024年9月,美敦力在美国收到共的170例高血糖症 >400mg/dL) 和11..."
+      },
+      {
+        "source": "diabetesnet.com",
+        "title": "Best Insulin Pumps of 2026: A Complete Comparison Guide",
+        "snippet": "iLet Dexcom G7 (standard 10-day) Tandem t:slim X2,Tandem Mobi,Omnipod 5 (app),iLet Abbott FreeStyle Libre 2 Plus Omnipod 5 (controller),Tandem t:slim..."
+      },
+      {
+        "source": "大众健康报科普网",
+        "title": "胰岛素闭环输注系统介绍",
+        "snippet": "监测设备兼容性､国内可及性及适用人群｡商业闭环系统 主要包括: 美敦力 MiniMed 780G:属..."
+      },
+      {
+        "source": "fda.innolitics.com",
+        "title": "Simplera Sync Sensor, Guardian 4 Sensor (P250012) — FDA 510(k) Innolitics",
+        "snippet": "510(k) | Innolitics｡MARKETING HISTORYA prior version of the Simplera Sync sensor was approved under P160017/S118 as a component of the MiniMed 780G..."
+      },
+      {
+        "source": "diabeteswise.org",
+        "title": "Device Finder - Omnipod vs Freestyle Libre 14 Day » DiabetesWise",
+        "snippet": "to manually fill the Pod with insulin. Omnipod : Controller Personal Diabetes Manager (PDM) is used to give insulin doses to the pod. Freestyle Libre..."
+      },
+      {
+        "source": "企鹅号",
+        "title": "2023版ADA指南更新!新兴技术用于糖尿病管理的推荐有何变化?",
+        "snippet": "新兴技术用于糖尿病管理的推荐有何变化?｡其中,在2023 ADA指南纳入的AID系统研究证据中,美敦..."
+      },
+      {
+        "source": "diabeteswise.org",
+        "title": "Device Finder - Freestyle Libre 2 vs Omnipod Dash » DiabetesWise",
+        "snippet": "Manually adjusting dosing. Omnipod DASH System allows the user to manually input their blood glucose (BG) readings from any BGM or CGM device of their..."
+      },
+      {
+        "source": "tandemdiabetes.com",
+        "title": "Important Safety Information for t:slim X2 with Basal-IQ Technology Tandem Diabetes Care",
+        "snippet": "e hypoglycemia (low BG) or hyperglycemia (high BG) events. DO NOT use Dexcom G6 CGM in critically ill patients. It is not known how different conditio..."
+      },
+      {
+        "source": "freestyle.abbott",
+        "title": "FreeStyle Libre Systems vs. Dexcom: Compare CGM Systems FreeStyle Libre US",
+        "snippet": "other CGMs6 FreeStyle Libre systems vs. Dexcom G7。"
+      },
+      {
+        "source": "medtronic.com",
+        "title": "致美敦力胰岛素泵用户的安全公告",
+        "snippet": "密切监测您的日常血糖水平并采取适当的应对措施;· 切勿连接任何未经美敦力公司授权的第三方设备或使..."
+      },
+      {
+        "source": "investor.tandemdiabetes.com",
+        "title": "Tandem Diabetes Care Presents Positive Real-World Data from Pediatric Users of t:slim X2 Insulin Pump with Basal-IQ Technology at International Conference Tandem Diabetes Care",
+        "snippet": "future software updates. 3 38 percent smaller than MiniMed 630G and 670G and at least 28 percent smaller than MiniMed 530G,Animas Vibe and Omnipod Sys..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "questionId": "q05",
+  "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+  "createdAt": "2026-05-28T03:25:44.473Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 748,
+        "afterLength": 810
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 42071,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力心脏瓣膜产品评估 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+          "textLength": 2852,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 11,
+          "citationMarkerCount": 0,
+          "answerLineCount": 4,
+          "medtronicCount": 16,
+          "answerSignal": true,
+          "textTail": "低）患者中，Evolut TAVR的全因死亡率或致残性卒中发生率（15.5%）在数值上优于外科手术组（16.4%），且瓣膜表现出了持久的耐久性-\n8\n。\n\n临床意义：随着TAVR向年轻患者扩展，耐久性是核心考量。美敦力拥有最长的低风险患者随访数据，支持医院开展\"年轻患者TAVR\"这一前沿临床实践。\n\n三、 智能化与本土化生态\n\n除了硬件，美敦力正在构建\"智能精准\"的诊疗体系，这对提升科室效率很有价值：\n\nAI辅助决策：美敦力已推出本土化TAVR手术AI解决方案。该方案基于中国患者数据训练，能提供术前三维建模、模拟瓣膜植入效果、预测并发症风险-\n1\n。\n\n价值：这能加速年轻医生的学习曲线，提高复杂手术的一次性成功率，也符合医院对\"智慧医疗\"建设的需求。\n\n四、 医院适配度评估：三甲/专科医院\n\n结论：非常适合。\n\n集采环境下的性价比：在国家及省级耗材集采中，美敦力是中选品牌之一，且属于进口品牌中价格调整较为积极的企业-\n4\n。对于医院来说，既有国际品牌的技术保障，又能满足医保控费要求。\n\n助力科室技术评级：能否独立开展复杂解剖（如二叶瓣、横位心）的TAVR手术，是衡量心血管内科/心脏外科水平的核心指标。Evolut PRO系列因其\"刚柔并济\"的支撑力和优异的通过性，被临床证实能应对这些复杂挑战-\n2\n。\n\n覆盖\"瓣膜全生命周期管理\" ：随着患者生存期延长，可能需要未来\"瓣中瓣\"（在衰败的生物瓣里再放一个新瓣膜）介入。美敦力环上瓣设计保留了较大的未来介入空间，符合三甲医院对远期疗效负责的战略。\n\n总结建议\n\n美敦力的结构性心脏病产品线技术储备深厚（有PRO/FX等多代产品及Harmony肺动脉瓣），临床证据扎实（SMART试验显示小瓣环优势），且智能化布局前瞻（AI辅助）。\n\n建议：\n如果您科室希望处理更高难度的复杂病例（如二叶瓣、横位心），或希望将适应症扩展到低龄/低风险患者，美敦力Evolut系列是优先考虑的选择。其AI术前规划系统也有助于标准化团队的手术流程，减少学习曲线陡峭带来的风险。\n\n帮您问得更精准一些，以便进一步评估：\n您是主要评估成人主动脉瓣的TAVR需求，还是也涉及先天性心脏病（如肺动脉瓣） 的介入治疗？两者的产品线和侧重会有较大不同。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2852,
+      "htmlLength": 137998,
+      "url": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 11,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q05",
+      "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUFNv71No",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 797,
+        "afterLength": 749
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 52142,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力结构性心脏病产品评估",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUFNv71No",
+          "textLength": 2896,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 14,
+          "answerLineCount": 0,
+          "medtronicCount": 20,
+          "answerSignal": true,
+          "textTail": "三尖瓣瓣环扩张修复（合并左侧瓣膜手术）​\n\t\nTri-Ad 2.0 三尖瓣带\n\t\n常用于再次手术或功能性三尖瓣反流修复\n\n\n外科生物瓣衰败（ViV/TAVR-in-SAVR）​\n\t\nEvolut 平台（需评估尺寸）\n\t\n可用于高风险患者生物瓣毁损后的瓣膜内瓣膜植入\n三、是否适合三甲/专科医院开展？\n✅ 非常适合具备心脏团队（Heart Team）的三级甲等综合医院或心血管专科医院，理由如下：\n∙\n开展门槛匹配：TAVR要求具备心内科介入、心外科备开胸、影像（CTA/TEE）、麻醉及ICU团队——这正是大型三甲/心脏专科中心的标配\n。\n∙\n国内已广泛装机：Evolut PRO系列在国内多家顶级心脏中心（阜外、中山一院、上海胸科、十院等）常规开展，有成熟培训体系和跟台支持\n。\n∙\n差异化优势明显：若贵院已考虑或已有球扩式TAVR（爱德华Sapien系列），美敦力自膨式可提供互补——尤其针对二叶瓣、大瓣环、细小股动脉入路人群。\n∙\n外科配套：SimuForm/Tri-Ad成形环适合已开展体外循环瓣膜外科手术的科室做一期或再次修复。\n⚠️ 注意点：\n∙\nTAVR需通过卫健委/省级限制类技术备案，建议确认当地政策。\n∙\nEvolut FX/FX+ 国内正式准入进度建议向美敦力当地办事处确认最新注册证范围。\n∙\n初期建议与有经验的心脏中心建立带教关系，美敦力通常提供Proctor（指导医生）支持。\n如果贵院正在做设备选型对比（如美敦力 vs 爱德华 vs 国产TAVR）或需要TAVR中心建设SOP/培训路径建议，我可以再帮你细化一份对照表。\n相关视频\n03:15\n200+\n2025年第八届进博会，“全勤生”美敦力今年带来14款心脏节律管理创新产品，从全球体积最小的无导心脏起搏器Micra到EV-ICD（血管外除颤器），再到足不出户即可监测心脏数据的远程随访系统，技术创新让医疗变得更高效、更便捷、更温暖。南都N视频记者：曾文琼 马强 蔡文茵 罗雪纯 王诗琪 宋耕洋 实习生：陈金意 刘纭溪\n南都健闻\n6个月前\n源\nTAVR手术费用大概多少？\n美敦力TAVR/TAVI产品的市场占有率是多少？\nEvolut FX/FX+在国内的正式准入进度和可用型号有哪些？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5289,
+      "htmlLength": 156950,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUFNv71No",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 14,
+      "referenceItemCount": 19,
+      "sourceNodeCount": 60
+    }
+  ]
+}

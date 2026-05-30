@@ -1,0 +1,225 @@
+腾讯元宝 资料引用清单
+页面: https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR
+采集时间: 2026-05-28T03:38:59.715Z
+
+页面引用/来源片段:
+
+[片段 1]
+4.
+最终确认​ → 让内分泌科或糖尿病教育护士帮你核实本地医保报销政策及培训支持
+如果有你的具体情况（1型/2型、是否已在用泵、国内/海外就医、每日胰岛素总量大概多少），我可以再帮你缩小到1~2个最适合的方案。
+源
+1型糖尿病，Tandem和美敦力泵哪个好？
+美敦力780G和670G哪个更适合儿童患者？
+国内哪些医院或机构可以提供这些闭环胰岛素泵系统的培训和支持？
+下载元宝电脑版，体验高效 AI 助手
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+glucospike.ai
+Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost
+Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...
+medtronicdiabetes.com
+Medtronic Diabetes
+with Instinct sensor,made by Abbott MiniMed™ 780G...
+大众健康报科普网
+胰岛素闭环输注系统介绍
+三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...
+diabeteswise.org
+Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise
+Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...
+waltzingthedragon.ca
+The Best CGM/Flash? compare sensor glucose systems
+
+[片段 2]
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+glucospike.ai
+Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost
+Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...
+medtronicdiabetes.com
+Medtronic Diabetes
+with Instinct sensor,made by Abbott MiniMed™ 780G...
+大众健康报科普网
+胰岛素闭环输注系统介绍
+三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...
+diabeteswise.org
+Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise
+Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...
+waltzingthedragon.ca
+The Best CGM/Flash? compare sensor glucose systems
+three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...
+origin.medtronicdiabetes.com
+MiniMed 780G insulin pump system
+MiniMed™ 780G system components Continuous glucose...
+diabeteswise.org
+Device Finder - Dexcom G7 vs DIY Loop
+Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...
+iheald.com
+Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre
+
+引用来源条目:
+1. glucospike.ai
+   标题: Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost
+   摘要: Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...
+2. medtronicdiabetes.com
+   标题: Medtronic Diabetes
+   摘要: with Instinct sensor,made by Abbott MiniMed™ 780G...
+3. 大众健康报科普网
+   标题: 胰岛素闭环输注系统介绍
+   摘要: 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...
+4. diabeteswise.org
+   标题: Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise
+   摘要: Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...
+5. waltzingthedragon.ca
+   标题: The Best CGM/Flash? compare sensor glucose systems
+   摘要: three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous...
+6. origin.medtronicdiabetes.com
+   标题: MiniMed 780G insulin pump system
+   摘要: MiniMed™ 780G system components Continuous glucose...
+7. diabeteswise.org
+   标题: Device Finder - Dexcom G7 vs DIY Loop
+   摘要: Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso...
+8. iheald.com
+   标题: Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre
+   摘要: CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc...
+9. doctronic.ai
+   标题: Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison
+   摘要: Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit...
+10. medtronicdiabetes.com
+   标题: Not all insulin pumps are created equal
+   摘要: with Dexcom G7® Tandem Control IQ with Dexcom G7®...
+11. tcoyd.org
+   标题: Automated Insulin Delivery (AID) Systems: Which One Is Right for You?
+   摘要: disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light...
+12. medtronicdiabetes.com
+   标题: Don’t let your current diabetes technology hold you back from leveling up!
+   摘要: systems Insulin delivery systems MiniMed™ 780G sys...
+13. integrateddiabetes.com
+   标题: Hybrid Closed Loop Comparisons & Options for controlling diabetes
+   摘要: insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med...
+14. versusguy.com
+   标题: Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com
+   摘要: (Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn...
+
+段落引用标记:
+1. idx=1,9
+   ~8.2%，公认最准
+2. idx=9
+   ~8.9~9.2%，接近Dexcom
+3. idx=1
+   略逊于前两者
+4. idx=1
+   14~15天（最长）
+5. idx=11
+   ❌ 目前基本不接入商业闭环（部分新泵开始支持Libre 3 Plus如Twiist/iLet）
+6. idx=4
+   最小最薄
+7. idx=1
+   最低（约$160/月无保险）
+8. idx=1,14
+   💡 关键：如果你打算上闭环胰岛素泵（AID系统），Dexcom G7 是目前兼容性最好的CGM；Libre 更适合单纯看血糖或配合注射胰岛素使用。
+9. idx=6,12
+   每5分钟自动调基率+自动校正大剂量，Meal Detection™餐后高血糖纠正
+10. idx=3
+   Guardian传感器精度口碑不如Dexcom；需每7天换传感器；国内670G获批780G未正式上市
+11. idx=13
+   预测未来30分钟血糖，自动加减基率+每小时微量校正；睡眠/运动模式
+12. idx=3,11
+   类似Control-IQ算法，自动基率调整，可设目标血糖
+13. idx=11
+   iLet只需输入体重和"哪一餐"，自学习不需精确碳水计数
+14. idx=3
+   ⚠️ 国内现状提示：中国大陆目前仅有美敦力MiniMed 670G获NMPA批准用于闭环，Tandem/Omnipod 5 尚未正式上市（港澳或海外可购）。选择需结合所在地医保/购买渠道。
+15. idx=13
+   首选 Tandem + Dexcom G7 或 Omnipod 5 + Dexcom G7（若能获取）——算法成熟、TIR高、Dexcom精度好适合预警低血糖 。
+16. idx=8,9
+   首选 FreeStyle Libre 3 Plus——14天佩戴、价格低、够准，满足观察饮食运动对血糖影响 。
+17. idx=7,13
+   可用老款美敦力泵 + Dexcom G6/G7（或Libre经转接）+ RileyLink，灵活性最高但需要技术折腾，不在医疗监管范围内 。
+
+来源节点:
+1. 1,9
+   data-idx-list=1,9
+   class=hyc-common-markdown__ref-list__trigger
+2. 9
+   data-idx-list=9
+   class=hyc-common-markdown__ref-list__trigger
+3. 1
+   data-idx-list=1
+   class=hyc-common-markdown__ref-list__trigger
+4. 1
+   data-idx-list=1
+   class=hyc-common-markdown__ref-list__trigger
+5. 11
+   data-idx-list=11
+   class=hyc-common-markdown__ref-list__trigger
+6. 4
+   data-idx-list=4
+   class=hyc-common-markdown__ref-list__trigger
+7. 1
+   data-idx-list=1
+   class=hyc-common-markdown__ref-list__trigger
+8. 1,14
+   data-idx-list=1,14
+   class=hyc-common-markdown__ref-list__trigger
+9. 6,12
+   data-idx-list=6,12
+   class=hyc-common-markdown__ref-list__trigger
+10. 3
+   data-idx-list=3
+   class=hyc-common-markdown__ref-list__trigger
+11. 13
+   data-idx-list=13
+   class=hyc-common-markdown__ref-list__trigger
+12. 3,11
+   data-idx-list=3,11
+   class=hyc-common-markdown__ref-list__trigger
+13. 11
+   data-idx-list=11
+   class=hyc-common-markdown__ref-list__trigger
+14. 3
+   data-idx-list=3
+   class=hyc-common-markdown__ref-list__trigger
+15. 13
+   data-idx-list=13
+   class=hyc-common-markdown__ref-list__trigger
+16. 8,9
+   data-idx-list=8,9
+   class=hyc-common-markdown__ref-list__trigger
+17. 7,13
+   data-idx-list=7,13
+   class=hyc-common-markdown__ref-list__trigger
+18. 源
+   class=ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open
+19. 源
+   class=ToolbarSearchGuid_source__XMsID
+20. 引用来源（14） glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q... medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G... 大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级... diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtron
+   class=agent-dialogue-references
+21. 引用来源（14）
+   class=agent-dialogue-references__header
+22. 引用来源（14）
+   class=agent-dialogue-references__header-txt
+23. glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q... medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G... 大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级... diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump -
+   class=agent-dialogue-references__list
+24. glucospike.ai Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q...
+   class=agent-dialogue-references__item
+25. glucospike.ai
+   class=hyc-common-markdown__ref_card-foot__source_txt
+26. medtronicdiabetes.com Medtronic Diabetes with Instinct sensor,made by Abbott MiniMed™ 780G...
+   class=agent-dialogue-references__item
+27. medtronicdiabetes.com
+   class=hyc-common-markdown__ref_card-foot__source_txt
+28. 大众健康报科普网 胰岛素闭环输注系统介绍 三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级...
+   class=agent-dialogue-references__item
+29. 大众健康报科普网
+   class=hyc-common-markdown__ref_card-foot__source_txt
+30. diabeteswise.org Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre...
+   class=agent-dialogue-references__item
+
+链接:
+未识别到可见引用链接。

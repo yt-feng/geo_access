@@ -1,0 +1,118 @@
+{
+  "question_id": "q11",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 40,
+    "recommendation_conversion": 75,
+    "total_score": 73
+  },
+  "brand_terms": {
+    "frequency_assessment": "高频出现，品牌词16次，Hugo RAS出现2次，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Hugo RAS",
+      "数字手术"
+    ],
+    "important_terms_missing": [
+      "美敦力外科",
+      "手术机器人"
+    ],
+    "product_assets_covered": [
+      "Hugo RAS",
+      "数字手术"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "经销商资质要求",
+      "区域保护",
+      "培训合规",
+      "售后责任"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": []
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 80,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "9个网页未明确来源",
+      "引用标注无具体链接"
+    ],
+    "evidence_gaps": [
+      "缺少美敦力官方经销商政策文件",
+      "缺少合规热线验证"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "门槛高，需深度投入",
+      "提供严格区域保护",
+      "培训体系完善"
+    ],
+    "negative_or_risk_claims": [
+      "违规代价高，曾因垄断被罚1.185亿元",
+      "违约金按中标价3倍"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "高端手术机器人经销商首选",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议准备质量手册",
+      "组建专业团队",
+      "联系官方渠道"
+    ]
+  },
+  "summary": "回答全面覆盖经销商资质、区域保护、培训合规及售后责任，品牌词高频，认知准确，但证据来源不明，噪音高。",
+  "dashboard_takeaway": "AI对美敦力经销商体系理解深入，但缺乏官方引用，需加强证据可信度以提升推荐转化。",
+  "improvement_actions": [
+    "引用美敦力官方经销商政策文件",
+    "提供合规热线验证",
+    "减少模糊网页引用"
+  ],
+  "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1941,
+    "completion_tokens": 573,
+    "total_tokens": 2514,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1173
+  },
+  "analyzed_at": "2026-05-28T04:10:15.154Z",
+  "local_signals": {
+    "answerLength": 1635,
+    "brandTermTotal": 18,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 16
+      },
+      {
+        "term": "Hugo",
+        "count": 1
+      },
+      {
+        "term": "Hugo RAS",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

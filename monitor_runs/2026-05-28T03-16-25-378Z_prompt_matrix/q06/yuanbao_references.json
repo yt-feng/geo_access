@@ -1,0 +1,705 @@
+{
+  "platform": "yuanbao",
+  "name": "腾讯元宝",
+  "title": "TAVR产品临床证据与竞品对比",
+  "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUP1YP0lc",
+  "createdAt": "2026-05-28T03:28:06.912Z",
+  "sections": [
+    {
+      "startLine": 135,
+      "text": "∙\n预算敏感或医院以国产为主、解剖匹配​ → 国产二代可回收瓣（启明VenusA-Plus / 心通VitaFlow Liberty）​ 是合理选择，建议选有丰富TAVR团队的医院操作。\n如果你方便告知是为患者选瓣还是医院采购/学术用途、以及患者瓣环尺寸/性别/二叶瓣否，我可以进一步细化推荐。\n源\n主动脉瓣反流TAVR选哪种瓣膜？\nTAVR术后患者需要注意哪些事项？\n对于高龄患者（>80岁），TAVR手术的风险和收益比如何？\n下载元宝电脑版，体验高效 AI 助手\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（18）\nmdpi.com\nA Narrative Review of the Evidence for Transcatheter Aortic Valve Implants\nhigh-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat...\nnews.medtronic.com\nSMART Trial three-year data demonstrate superior benefits with Evolut TAVR system\ndemonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54...\n公众号\n·智银医药\n智银原创 心脏瓣膜行业深度研究报告\n年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家...\n新浪网\n创新器械系列电话会-介入瓣膜\n不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳...\n公众号"
+    },
+    {
+      "startLine": 144,
+      "text": "工具\n安装电脑版\n内容由AI生成，仅供参考\n引用来源（18）\nmdpi.com\nA Narrative Review of the Evidence for Transcatheter Aortic Valve Implants\nhigh-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat...\nnews.medtronic.com\nSMART Trial three-year data demonstrate superior benefits with Evolut TAVR system\ndemonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54...\n公众号\n·智银医药\n智银原创 心脏瓣膜行业深度研究报告\n年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家...\n新浪网\n创新器械系列电话会-介入瓣膜\n不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳...\n公众号\n·MedDevices\n美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较\n并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J...\n网易\n人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果\n试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut...\n公众号\n·医疗器械英语\n靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表"
+    }
+  ],
+  "citationMarkers": [
+    {
+      "idxList": "1,13",
+      "indexes": [
+        "1",
+        "13"
+      ],
+      "text": "★★★★★ 全球最大队列、FDA最早批准，PARTNER系列RCT证据极充分",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,5,13",
+      "indexes": [
+        "2",
+        "5",
+        "13"
+      ],
+      "text": "★★★★★ CoreValve/Evolut系列有SURTAVI、EVOLUT等大型RCT及SMART头对头试验",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,18",
+      "indexes": [
+        "8",
+        "18"
+      ],
+      "text": "★★★☆ 国内注册临床+单臂研究，启明有5年随访数据，总体证据弱于进口",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2",
+      "indexes": [
+        "2"
+      ],
+      "text": "瓣架短→跨瓣压差低，但小瓣环易致PPM（人工瓣膜-患者不匹配）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,5",
+      "indexes": [
+        "2",
+        "5"
+      ],
+      "text": "自膨+裙边→小瓣环（尤其女性）血流动力学更优，SMART试验示BVD及PPM显著低于SAPIEN",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6,9",
+      "indexes": [
+        "6",
+        "9"
+      ],
+      "text": "较低（短瓣架不干扰希氏束），约6%~12%",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6,9",
+      "indexes": [
+        "6",
+        "9"
+      ],
+      "text": "较高（长瓣架深植入易压迫传导束），约15%~25%，新一代可回收系统可优化",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6,9",
+      "indexes": [
+        "6",
+        "9"
+      ],
+      "text": "极低中重度PVL（<2%），卒中与SEV相当",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "6",
+      "indexes": [
+        "6"
+      ],
+      "text": "轻度PVL略多于BEV但多属微量，卒中率相当或略低",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8,18",
+      "indexes": [
+        "8",
+        "18"
+      ],
+      "text": "早期一代PVL略多，二代带外裙边后明显改善",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "2,6",
+      "indexes": [
+        "2",
+        "6"
+      ],
+      "text": "💡 核心结论：两者死亡率/卒中无显著差异，小瓣环（尤其女性）倾向美敦力Evolut（更好血流动力学），关注起搏器风险倾向爱德华SAPIEN（更低PPI） 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,7",
+      "indexes": [
+        "3",
+        "7"
+      ],
+      "text": "18–21万（部分省际联盟约19.9万）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "7,10",
+      "indexes": [
+        "7",
+        "10"
+      ],
+      "text": "15–19万（甘肃联盟挂网约15.2–19.9万）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,7",
+      "indexes": [
+        "3",
+        "7"
+      ],
+      "text": "13–16万（集采中标13.1–15万）",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "3,10,17",
+      "indexes": [
+        "3",
+        "10",
+        "17"
+      ],
+      "text": "*各地医保差异大（上海/北京/河南/浙江政策不同），以上为大致区间 。国产性价比最高，进口差价已缩小至3–5万。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4",
+      "indexes": [
+        "4"
+      ],
+      "text": "短瓣架易判断深度，但需预判球囊扩张位移；有冠脉阻塞风险需预测；成熟术者约5–10例上手",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "4,9",
+      "indexes": [
+        "4",
+        "9"
+      ],
+      "text": "需掌握渐进释放、定位深度（避开传导束）、回收操作；略陡，需10–15例建立手感，但可回收降低试错成本",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "8",
+      "indexes": [
+        "8"
+      ],
+      "text": "与美敦力类似，部分国产电动手柄（心通）被认为释放更顺滑",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "12",
+      "indexes": [
+        "12"
+      ],
+      "text": "爱德华 & 美敦力：均有成熟的TAVR基地医院、定期高级术者培训班（Edwards PARTNER、Medtronic Evolut Academy）、术中远程技术支持（CRS——Clinical Support Specialist现场或在线跟台），可协助测量、模拟释放。美敦力近年加大国内跟台密度，爱德华在影像分析和CT核心实验室支持上口碑较好 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    },
+    {
+      "idxList": "10,18",
+      "indexes": [
+        "10",
+        "18"
+      ],
+      "text": "国产（启明/心通/沛嘉）：本土化响应快，常配专职临床专员全程跟台，部分提供基金会患者援助项目降低自付；学术支持以区域培训班为主，长期循证仍在积累中 。",
+      "className": "hyc-common-markdown__ref-list__trigger"
+    }
+  ],
+  "referenceItems": [
+    {
+      "index": 1,
+      "source": "mdpi.com",
+      "title": "A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants",
+      "snippet": "high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat...",
+      "text": "mdpi.com A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat..."
+    },
+    {
+      "index": 2,
+      "source": "news.medtronic.com",
+      "title": "SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system",
+      "snippet": "demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54...",
+      "text": "news.medtronic.com SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54..."
+    },
+    {
+      "index": 3,
+      "source": "·智银医药",
+      "title": "智银原创 心脏瓣膜行业深度研究报告",
+      "snippet": "公众号 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家...",
+      "text": "公众号 ·智银医药 智银原创 心脏瓣膜行业深度研究报告 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家..."
+    },
+    {
+      "index": 4,
+      "source": "新浪网",
+      "title": "创新器械系列电话会-介入瓣膜",
+      "snippet": "不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳...",
+      "text": "新浪网 创新器械系列电话会-介入瓣膜 不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳..."
+    },
+    {
+      "index": 5,
+      "source": "·MedDevices",
+      "title": "美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较",
+      "snippet": "公众号 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J...",
+      "text": "公众号 ·MedDevices 美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J..."
+    },
+    {
+      "index": 6,
+      "source": "网易",
+      "title": "人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果",
+      "snippet": "试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut...",
+      "text": "网易 人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果 试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut..."
+    },
+    {
+      "index": 7,
+      "source": "·医疗器械英语",
+      "title": "靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表",
+      "snippet": "公众号 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27...",
+      "text": "公众号 ·医疗器械英语 靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27..."
+    },
+    {
+      "index": 8,
+      "source": "医疗器械创新网",
+      "title": "“心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐",
+      "snippet": "瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华...",
+      "text": "医疗器械创新网 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐 瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华..."
+    },
+    {
+      "index": 9,
+      "source": "·械说新语",
+      "title": "球扩还是自膨?爱德华与美敦力的TAVR技术战争",
+      "snippet": "公众号 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领...",
+      "text": "公众号 ·械说新语 球扩还是自膨?爱德华与美敦力的TAVR技术战争 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领..."
+    },
+    {
+      "index": 10,
+      "source": "·价值高地",
+      "title": "Tavr价格谈判后市场格局的变化趋势",
+      "snippet": "公众号 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精...",
+      "text": "公众号 ·价值高地 Tavr价格谈判后市场格局的变化趋势 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精..."
+    },
+    {
+      "index": 11,
+      "source": "腾讯网",
+      "title": "微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻",
+      "snippet": "裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡",
+      "text": "腾讯网 微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻 裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡"
+    },
+    {
+      "index": 12,
+      "source": "·赛柏蓝器械",
+      "title": "美敦力、爱德华正面交锋!",
+      "snippet": "公众号 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心...",
+      "text": "公众号 ·赛柏蓝器械 美敦力、爱德华正面交锋! 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心..."
+    },
+    {
+      "index": 13,
+      "source": "medtronic.com",
+      "title": "Medtronic key studies",
+      "snippet": "Evolut™ system versus Edwards Lifesciences balloon...",
+      "text": "medtronic.com Medtronic key studies Evolut™ system versus Edwards Lifesciences balloon..."
+    },
+    {
+      "index": 14,
+      "source": "民福康",
+      "title": "心脏瓣膜手术需要多少钱",
+      "snippet": "进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于...",
+      "text": "民福康 心脏瓣膜手术需要多少钱 进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于..."
+    },
+    {
+      "index": 15,
+      "source": "健康界",
+      "title": "“心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速",
+      "snippet": "目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从...",
+      "text": "健康界 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速 目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从..."
+    },
+    {
+      "index": 16,
+      "source": "news.medtronic.com",
+      "title": "New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance",
+      "snippet": "Medtronic CoreValve/Evolut TAVR™ Systems reinforce...",
+      "text": "news.medtronic.com New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance Medtronic CoreValve/Evolut TAVR™ Systems reinforce..."
+    },
+    {
+      "index": 17,
+      "source": "九松健康",
+      "title": "心脏瓣膜介入手术需要多少费用",
+      "snippet": "TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元...",
+      "text": "九松健康 心脏瓣膜介入手术需要多少费用 TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元..."
+    },
+    {
+      "index": 18,
+      "source": "财富号",
+      "title": "心尖上较量——TAVR赛道竞争升级",
+      "snippet": "二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代...",
+      "text": "财富号 心尖上较量——TAVR赛道竞争升级 二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代..."
+    }
+  ],
+  "sourceNodes": [
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "1,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,5,13",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,18",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,5",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "6",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8,18",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "2,6",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "7,10",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,7",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "3,10,17",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "4,9",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "8",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "12",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "",
+      "className": "hyc-common-markdown__ref-list__trigger",
+      "dataIdxList": "10,18",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open",
+      "dataIdxList": "",
+      "dataToolbarType": "citation"
+    },
+    {
+      "text": "源",
+      "className": "ToolbarSearchGuid_source__XMsID",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（18） mdpi.com A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat... news.medtronic.com SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54... 公众号 ·智银医药 智银原创 心脏瓣膜行业深度研究报告 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家... 新浪网 创新器械系列电话会-介入瓣膜 不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳... 公众号 ·MedDevices 美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J... 网易 人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果 试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut... 公众号 ·医疗器械英语 靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27... 医疗器械创新网 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐 瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华... 公众号 ·械说新语 球扩还是自膨?爱德华与美敦力的TAVR技术战争 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领... 公众号 ·价值高地 Tavr价格谈判后市场格局的变化趋势 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精... 腾讯网 微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻 裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡ 公众号 ·赛柏蓝器械 美敦力、爱德华正面交锋! 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心... medtronic.com Medtronic key studies Evolut™ system versus Edwards Lifesciences balloon... 民福康 心脏瓣膜手术需要多少钱 进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于... 健康界 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速 目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从... news.medtronic.com New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance Medtronic CoreValve/Evolut TAVR™ Systems reinforce... 九松健康 心脏瓣膜介入手术需要多少费用 TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元... 财富号 心尖上较量——TAVR赛道竞争升级 二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代...",
+      "className": "agent-dialogue-references",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（18）",
+      "className": "agent-dialogue-references__header",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "引用来源（18）",
+      "className": "agent-dialogue-references__header-txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mdpi.com A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat... news.medtronic.com SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54... 公众号 ·智银医药 智银原创 心脏瓣膜行业深度研究报告 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家... 新浪网 创新器械系列电话会-介入瓣膜 不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳... 公众号 ·MedDevices 美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J... 网易 人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果 试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut... 公众号 ·医疗器械英语 靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27... 医疗器械创新网 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐 瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华... 公众号 ·械说新语 球扩还是自膨?爱德华与美敦力的TAVR技术战争 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领... 公众号 ·价值高地 Tavr价格谈判后市场格局的变化趋势 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精... 腾讯网 微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻 裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡ 公众号 ·赛柏蓝器械 美敦力、爱德华正面交锋! 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心... medtronic.com Medtronic key studies Evolut™ system versus Edwards Lifesciences balloon... 民福康 心脏瓣膜手术需要多少钱 进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于... 健康界 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速 目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从... news.medtronic.com New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance Medtronic CoreValve/Evolut TAVR™ Systems reinforce... 九松健康 心脏瓣膜介入手术需要多少费用 TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元... 财富号 心尖上较量——TAVR赛道竞争升级 二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代...",
+      "className": "agent-dialogue-references__list",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mdpi.com A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "mdpi.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.medtronic.com SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·智银医药 智银原创 心脏瓣膜行业深度研究报告 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·智银医药",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新浪网 创新器械系列电话会-介入瓣膜 不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "新浪网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·MedDevices 美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·MedDevices",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "网易 人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果 试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "网易",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·医疗器械英语 靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·医疗器械英语",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "医疗器械创新网 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐 瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "医疗器械创新网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·械说新语 球扩还是自膨?爱德华与美敦力的TAVR技术战争 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·械说新语",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·价值高地 Tavr价格谈判后市场格局的变化趋势 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·价值高地",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "腾讯网 微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻 裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "腾讯网",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "公众号 ·赛柏蓝器械 美敦力、爱德华正面交锋! 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "·赛柏蓝器械",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com Medtronic key studies Evolut™ system versus Edwards Lifesciences balloon...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康 心脏瓣膜手术需要多少钱 进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "民福康",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "健康界 “心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速 目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "健康界",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.medtronic.com New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance Medtronic CoreValve/Evolut TAVR™ Systems reinforce...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "news.medtronic.com",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "九松健康 心脏瓣膜介入手术需要多少费用 TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "九松健康",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "财富号 心尖上较量——TAVR赛道竞争升级 二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代...",
+      "className": "agent-dialogue-references__item",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    },
+    {
+      "text": "财富号",
+      "className": "hyc-common-markdown__ref_card-foot__source_txt",
+      "dataIdxList": "",
+      "dataToolbarType": ""
+    }
+  ],
+  "links": [],
+  "probableReferenceLinks": [],
+  "referencePanel": {
+    "attempted": true,
+    "clickedSourceTool": true,
+    "clickedRefTrigger": true
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "question_id": "q15",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 80,
+    "total_score": 81
+  },
+  "brand_terms": {
+    "frequency_assessment": "美敦力出现10次，频率高，位置靠前",
+    "important_terms_present": [
+      "美敦力",
+      "Onyx胶",
+      "Aurora EV-ICD",
+      "Mazor X机器人"
+    ],
+    "important_terms_missing": [
+      "心脏起搏器",
+      "胰岛素泵",
+      "脑起搏器"
+    ],
+    "product_assets_covered": [
+      "Onyx胶",
+      "Aurora EV-ICD",
+      "Mazor X机器人",
+      "动力系统",
+      "胰岛素泵"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "Onyx胶用于慢性硬膜下血肿",
+      "Aurora EV-ICD真实世界数据",
+      "Mazor X机器人脊柱手术",
+      "成都创新中心培训基地"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "心脏节律管理",
+      "神经调控",
+      "糖尿病管理"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "第三方服务商信息",
+      "国产竞品数据来源不明"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方价格数据",
+      "售后服务体系官方信息不足"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力是金标准建立者",
+      "临床证据顶级",
+      "培训体系完善"
+    ],
+    "negative_or_risk_claims": [
+      "采购成本相对较高",
+      "全球价盘调整空间有限"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议根据预算和手术难度选择",
+      "提供决策矩阵帮助用户"
+    ]
+  },
+  "summary": "回答全面对比美敦力与竞品，突出临床证据和培训优势，价格和售后中肯，推荐美敦力为首选但给出竞品适用场景。",
+  "dashboard_takeaway": "美敦力在临床证据和培训上优势明显，但价格和售后需补充官方信息以增强信任。",
+  "improvement_actions": [
+    "补充美敦力官方价格和售后政策",
+    "增加心脏起搏器等核心产品线",
+    "引用更多权威来源如NEJM"
+  ],
+  "prompt": "企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+  "source_url": "https://chat.deepseek.com/a/chat/s/bd144670-cbc3-4f41-80d5-abcfea08b6e7",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1975,
+    "completion_tokens": 642,
+    "total_tokens": 2617,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1207
+  },
+  "analyzed_at": "2026-05-28T04:11:09.039Z",
+  "local_signals": {
+    "answerLength": 1667,
+    "brandTermTotal": 10,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 10
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

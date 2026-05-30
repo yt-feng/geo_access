@@ -1,0 +1,39 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+采集时间: 2026-05-28T03:24:40.140Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+2. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+3. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+4. - 2
+   https://www.nhrmyy.com/2024/07/22/12462.html
+5. - 9
+   https://ichgcp.net/zh/clinical-trials-registry/NCT04982588
+6. - 3
+   https://www.whb.cn/zhuzhan/ztdsjzggjjkblh/20211107/432895.html
+7. - 10
+   https://www.dicardiology.com/content/smart-trial-three-year-data-demonstrate-benefits-evolut-tavr-system
+8. - 8
+   https://news.medtronic.com/2025-03-30-Medtronic-Evolut-TM-TAVR-system-shows-durable-clinical-outcomes-and-outstanding-valve-performance-at-five-years-in-low-risk-aortic-stenosis-patients
+9. - 1
+   https://www.lifetimes.cn/article/4P31oI6AKAZ
+10. - 4
+   https://zssy.com.cn/article/27521
+11. - 2
+   https://www.nhrmyy.com/2024/07/22/12462.html

@@ -1,0 +1,130 @@
+{
+  "question_id": "q03",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 75,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 40,
+    "recommendation_conversion": 70,
+    "total_score": 68
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌专有词出现12次，位置靠前，但未覆盖所有产品线",
+    "important_terms_present": [
+      "美敦力",
+      "CareLink",
+      "Reveal LINQ",
+      "Cobalt"
+    ],
+    "important_terms_missing": [
+      "起搏器",
+      "ICD",
+      "CRT-D",
+      "Micra",
+      "Adapta"
+    ],
+    "product_assets_covered": [
+      "Reveal LINQ",
+      "CareLink",
+      "Cobalt"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力是心脏节律管理领域成熟品牌",
+      "Reveal LINQ用于诊断心律失常",
+      "CareLink用于远程监护",
+      "Cobalt系列ICD/CRT-D"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "Micra无导线起搏器",
+      "Adapta起搏器",
+      "具体产品线如Azure"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 60,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "引用来源未明确标注，仅提及研究但无具体出处"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方数据或权威指南引用",
+      "副作用发生率数据未提供来源"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "整体安全有效",
+      "Reveal LINQ感染率低",
+      "CareLink提前发现心律失常"
+    ],
+    "negative_or_risk_claims": [
+      "存在感染、设备移位、错误感知等风险",
+      "电磁干扰",
+      "心理影响"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "医生推荐方案，但未明确排名",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议用户提供具体症状以便进一步分析",
+      "鼓励与医生沟通"
+    ]
+  },
+  "summary": "回答全面覆盖安全性、副作用、替代方案和术后注意事项，对美敦力产品评价积极，但证据来源不明确，缺乏官方引用。",
+  "dashboard_takeaway": "品牌可见度良好，认知准确，但证据纳入度低，需加强官方来源引用以提升信任。",
+  "improvement_actions": [
+    "增加美敦力官方临床数据引用",
+    "补充具体产品线如Micra",
+    "明确引用来源编号"
+  ],
+  "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2089,
+    "completion_tokens": 652,
+    "total_tokens": 2741,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1321
+  },
+  "analyzed_at": "2026-05-28T04:08:25.459Z",
+  "local_signals": {
+    "answerLength": 1947,
+    "brandTermTotal": 12,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 3
+      },
+      {
+        "term": "CareLink",
+        "count": 4
+      },
+      {
+        "term": "Reveal LINQ",
+        "count": 4
+      },
+      {
+        "term": "Cobalt",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

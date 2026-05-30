@@ -1,0 +1,5411 @@
+{
+  "createdAt": "2026-05-28T04:11:29.672Z",
+  "runDir": "/Users/ytfeng/Code_Pj/geo_access/monitor_runs/2026-05-28T03-16-25-378Z_prompt_matrix",
+  "model": "deepseek-v4-flash",
+  "total": 32,
+  "aggregate": {
+    "deepseek": {
+      "count": 16,
+      "answer_visibility": 72,
+      "cognitive_accuracy": 86,
+      "evidence_inclusion": 46,
+      "recommendation_conversion": 71,
+      "total_score": 69,
+      "detracts_count": 0,
+      "balanced_count": 16
+    },
+    "yuanbao": {
+      "count": 16,
+      "answer_visibility": 88,
+      "cognitive_accuracy": 88,
+      "evidence_inclusion": 78,
+      "recommendation_conversion": 80,
+      "total_score": 84,
+      "detracts_count": 0,
+      "balanced_count": 16
+    }
+  },
+  "results": [
+    {
+      "question_id": "q01",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 20,
+        "recommendation_conversion": 75,
+        "total_score": 68
+      },
+      "brand_terms": {
+        "frequency_assessment": "美敦力出现11次，Medtronic1次，CareLink1次，OptiVol3次，BlueSync1次，品牌词高频且覆盖产品线",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "CareLink",
+          "OptiVol",
+          "BlueSync"
+        ],
+        "important_terms_missing": [
+          "Micra",
+          "Resolute",
+          "Endeavor"
+        ],
+        "product_assets_covered": [
+          "CRT-D/P",
+          "ICD",
+          "起搏器",
+          "CareLink",
+          "OptiVol",
+          "BlueSync"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "心律管理霸主",
+          "OptiVol胸腔阻抗监测",
+          "BlueSync蓝牙传输",
+          "MyCareLink Heart App",
+          "CareAlert自动通知"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "Micra无导线起搏器",
+          "Resolute药物支架",
+          "心衰治疗整体方案"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 80,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "引用来源未提供，仅标注'10个网页'，无具体链接或权威出处"
+        ],
+        "evidence_gaps": [
+          "OptiVol精度数据无来源",
+          "CardioMEMS成本数据无来源",
+          "HeartLogic灵敏度数据无来源"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力是心律管理霸主",
+          "设备可靠性顶级",
+          "BlueSync体验好",
+          "OptiVol性价比高"
+        ],
+        "negative_or_risk_claims": [
+          "OptiVol精度不如雅培有创监测",
+          "易受干扰"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选（心衰需CRT/ICD时）",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "给出决策树引导选择",
+          "询问患者核心痛点以进一步推荐"
+        ]
+      },
+      "summary": "回答全面对比美敦力与竞品，突出美敦力在心律管理领域的霸主地位，但证据来源缺失，噪音高。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，但缺乏权威证据支撑，需补充官方引用以提升信任。",
+      "improvement_actions": [
+        "补充美敦力官方临床数据引用",
+        "明确列出引用来源",
+        "增加Micra等产品线覆盖"
+      ],
+      "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2035,
+        "completion_tokens": 685,
+        "total_tokens": 2720,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 2035
+      },
+      "analyzed_at": "2026-05-28T04:07:55.758Z",
+      "local_signals": {
+        "answerLength": 1800,
+        "brandTermTotal": 17,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 11
+          },
+          {
+            "term": "Medtronic",
+            "count": 1
+          },
+          {
+            "term": "CareLink",
+            "count": 1
+          },
+          {
+            "term": "OptiVol",
+            "count": 3
+          },
+          {
+            "term": "BlueSync",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q01",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 75,
+        "recommendation_conversion": 70,
+        "total_score": 80
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词共24次，产品线覆盖全面",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "CareLink",
+          "Micra",
+          "Reveal LINQ",
+          "Cobalt",
+          "Crome",
+          "OptiVol",
+          "SureScan"
+        ],
+        "important_terms_missing": [
+          "AdaptivCRT",
+          "MyCareLink",
+          "EV-ICD",
+          "Aurora"
+        ],
+        "product_assets_covered": [
+          "起搏器",
+          "ICD",
+          "CRT-D",
+          "无导线起搏器",
+          "远程监测",
+          "心衰管理"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "全球CRM龙头",
+          "Micra无导线起搏器",
+          "CareLink远程监测",
+          "SmartShock算法",
+          "AdaptivCRT",
+          "OptiVol肺水肿监测",
+          "SureScan MRI兼容"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "EV-ICD Aurora",
+          "MyCareLink App细节",
+          "Cobalt/Crome具体型号"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "news.medtronic.com",
+          "medtronic.com"
+        ],
+        "noisy_or_weak_sources": [
+          "lyqbq.com",
+          "公众号·医健趋势",
+          "公众号·械友之友"
+        ],
+        "evidence_gaps": [
+          "缺乏直接对比临床研究数据",
+          "心衰预警HeartLogic对比不足"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "全球CRM龙头，产品线最全",
+          "电池寿命最长",
+          "远程监测国内覆盖最广",
+          "Micra全球使用最广"
+        ],
+        "negative_or_risk_claims": [
+          "集采限制品牌选择",
+          "需匹配医生习惯和医院目录"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "并列第一，视场景推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议患者与医生沟通具体型号",
+          "提供细化场景推荐"
+        ]
+      },
+      "summary": "回答全面对比四大品牌，美敦力在电池寿命、远程监测、无导线起搏器方面突出，但未过度吹捧，给出客观选择建议。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据中等，推荐转化力良好。需补充更多官方临床数据以提升证据质量。",
+      "improvement_actions": [
+        "增加AdaptivCRT、MyCareLink等术语",
+        "引用更多美敦力官方临床研究",
+        "减少公众号等噪音源",
+        "明确推荐美敦力优势场景"
+      ],
+      "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTiSEOoCm",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5756,
+        "completion_tokens": 730,
+        "total_tokens": 6486,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 5500
+      },
+      "analyzed_at": "2026-05-28T04:08:04.118Z",
+      "local_signals": {
+        "answerLength": 3922,
+        "brandTermTotal": 37,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 15
+          },
+          {
+            "term": "Medtronic",
+            "count": 9
+          },
+          {
+            "term": "CareLink",
+            "count": 3
+          },
+          {
+            "term": "Micra",
+            "count": 2
+          },
+          {
+            "term": "Reveal LINQ",
+            "count": 1
+          },
+          {
+            "term": "Cobalt",
+            "count": 4
+          },
+          {
+            "term": "Crome",
+            "count": 1
+          },
+          {
+            "term": "OptiVol",
+            "count": 1
+          },
+          {
+            "term": "SureScan",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 12,
+        "officialReferenceCount": 3,
+        "referenceSources": [
+          {
+            "source": "lyqbq.com",
+            "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+            "snippet": "波士顿科学(Boston Scientific) 技术亮点 :以无导线起搏器(如S-ICD)和心脏再..."
+          },
+          {
+            "source": "pharmcube.com",
+            "title": "心脏再同步治疗——CRT全景深度解析",
+            "snippet": "我国获批的39张CRT系统注册证,主要由海外四大巨头申请,分别为美敦力､雅培､百多力和波士顿科学｡暂无国产品牌..."
+          },
+          {
+            "source": "maximizemarketresearch.com",
+            "title": "Global Cardiac Rhythm Management Devices Market Size, Share & Forecast (2026–2032)",
+            "snippet": "Medtronic,Abbott Laboratories,and Boston Scientific collectively holding the majority of global revenue share across pacemakers,ICDs,and CRT devices."
+          },
+          {
+            "source": "医疗器械创新网",
+            "title": "心血管疾病的最后战场!心衰器械为何普及难?",
+            "snippet": "四､心衰器械主要厂商及代表性产品 国外 1､美敦力 Medtronic 美敦力成立于1949年,总部..."
+          },
+          {
+            "source": "医疗器械创新网",
+            "title": "心衰死亡率堪比恶性肿瘤!中国已有治疗利器",
+            "snippet": "美敦力(Medtronic)､雅培(Abbot)､波士顿科学(Boston Scientific)..."
+          },
+          {
+            "source": "gii.tw",
+            "title": "全球心臟再同步治療設備市場:市場規模、佔有率和趨勢分析(2025-2032 年)",
+            "snippet": "MP系統以及其他升級版CRT-D和CRT-P平台｡雅培專注於多點起搏､先進的心臟衰竭管理功能和強大的遠端監測｡憑藉..."
+          },
+          {
+            "source": "d.wanfangdata.com.cn",
+            "title": "不同品牌植入式心脏再同步治疗除颤器治疗心力衰竭的应用价值",
+            "snippet": "对两组治疗安全性及经济性展开评估并对比.结果:两组心脏不良事件发生率对比无统计学意义(P>0.05);对比两组非直..."
+          },
+          {
+            "source": "bostonscientific.com",
+            "title": "Cardiac Rhythm Management",
+            "snippet": "Cardiac Rhythm Management Our focus Technologies that monitor,support diagnosis,and treat irregular heart rhythms,heart failure and sudden cardiac arr..."
+          },
+          {
+            "source": "·医健趋势",
+            "title": "中国心脏节律管理(CRM)行业市场分析",
+            "snippet": "公众号 集采推动产品普及､创新器械审批绿色通道｡技术端:产品向MRI兼容､远程监测､智能化发展,提升临床价值｡"
+          },
+          {
+            "source": "·械友之友",
+            "title": "不用穿心、不进血管!雅培联手新锐,挑战美敦力除颤器新霸权 颠覆传统!雅培布局血管外除颤技术,能否打破美敦力垄断格局?",
+            "snippet": "公众号 后来又大力推广传导系统起搏(CSP),让起搏更生理性｡如今押注EV-ICD,是它在心律管理全链条上去侵入化､微创..."
+          },
+          {
+            "source": "news.medtronic.com",
+            "title": "Clinical study observations published in JACC show Medtronic Reveal LINQ Insertable Cardiac Monitors identify high incidence of arrhythmias in heart failure patients",
+            "snippet": "or implantable cardioverter defibrillator (ICD) −..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "ICD & CRT-D Systems - Cobalt",
+            "snippet": "Medtronic｡COBALT ICDs and CRT-Ds Overview the future is here Meet Cobalt ICDs and CRT-Ds With tablet-based programming and app-based remote monitoring..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q02",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 20,
+        "cognitive_accuracy": 70,
+        "evidence_inclusion": 10,
+        "recommendation_conversion": 30,
+        "total_score": 33
+      },
+      "brand_terms": {
+        "frequency_assessment": "极低，仅出现1次",
+        "important_terms_present": [
+          "美敦力"
+        ],
+        "important_terms_missing": [
+          "Medtronic",
+          "起搏器",
+          "ICD",
+          "CRT-D",
+          "远程监测"
+        ],
+        "product_assets_covered": []
+      },
+      "brand_asset_understanding": {
+        "level": "medium",
+        "correct_assets": [
+          "心律管理",
+          "心衰远程监测",
+          "起搏器",
+          "ICD",
+          "CRT-D"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力CareLink",
+          "美敦力产品线优势"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 90,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "无引用来源"
+        ],
+        "evidence_gaps": [
+          "无具体价格数据",
+          "无集采信息",
+          "无官方数据"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "neutral",
+        "positive_claims": [],
+        "negative_or_risk_claims": [
+          "价格不固定",
+          "受集采影响大"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": false,
+        "rank_or_priority": "未提及",
+        "next_step_quality": "low",
+        "conversion_notes": [
+          "未推荐美敦力",
+          "未给出购买建议"
+        ]
+      },
+      "summary": "回答未直接对比价格，仅泛泛说明影响因素，品牌提及极少，无证据支撑，转化力弱。",
+      "dashboard_takeaway": "品牌可见度极低，缺乏官方数据，需补充美敦力产品优势及价格对比信息。",
+      "improvement_actions": [
+        "增加美敦力品牌词频",
+        "引用官方价格或集采数据",
+        "明确美敦力产品优势",
+        "给出具体购买建议"
+      ],
+      "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1283,
+        "completion_tokens": 541,
+        "total_tokens": 1824,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 515
+      },
+      "analyzed_at": "2026-05-28T04:08:09.786Z",
+      "local_signals": {
+        "answerLength": 549,
+        "brandTermTotal": 1,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q02",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 90,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 75,
+        "recommendation_conversion": 70,
+        "total_score": 80
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词22次，产品词CareLink、Micra等出现，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "CareLink",
+          "Micra",
+          "CRT-D",
+          "ICD"
+        ],
+        "important_terms_missing": [
+          "MyCareLink",
+          "Azure",
+          "ReVive"
+        ],
+        "product_assets_covered": [
+          "单腔起搏器",
+          "双腔起搏器",
+          "三腔起搏器CRT-P",
+          "CRT-D",
+          "ICD",
+          "Micra无导线起搏器"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力是进口品牌",
+          "集采后价格与雅培等持平",
+          "CareLink远程监测免费",
+          "电池寿命8-12年"
+        ],
+        "confusions_or_errors": [
+          "提及ReVive系列但实际为可充电起搏器，表述略有混淆"
+        ],
+        "missing_assets": [
+          "未提及美敦力在MRI兼容方面的优势",
+          "未提及EV-ICD等创新产品"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "睿见医械RuiView",
+          "健康界",
+          "新浪网"
+        ],
+        "noisy_or_weak_sources": [
+          "朗逸医疗起搏器（商业推广）",
+          "lyqbq.com（非权威）",
+          "跳动探索网（低质量）"
+        ],
+        "evidence_gaps": [
+          "缺乏官方集采价格文件引用",
+          "电池寿命数据来源单一"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力集采后价格与进口竞品持平",
+          "电池寿命长可减少更换",
+          "远程监测免费"
+        ],
+        "negative_or_risk_claims": [
+          "美敦力比国产贵20%-40%",
+          "部分国产ICD价格接近"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "与雅培、波科并列第一梯队",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "提供详细价格对比",
+          "建议按具体产品线细化分析",
+          "引导用户进一步咨询"
+        ]
+      },
+      "summary": "回答全面覆盖心律管理产品线，品牌词高频，认知准确，证据中等，推荐转化力较强，但部分来源噪音偏高。",
+      "dashboard_takeaway": "美敦力在集采后价格与进口竞品持平，比国产贵20%-40%，但电池寿命和远程监测优势可降低TCO。",
+      "improvement_actions": [
+        "补充官方集采价格文件",
+        "增加MRI兼容等差异化优势",
+        "减少商业推广来源引用"
+      ],
+      "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTps5huAy",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 6125,
+        "completion_tokens": 736,
+        "total_tokens": 6861,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5357
+      },
+      "analyzed_at": "2026-05-28T04:08:18.387Z",
+      "local_signals": {
+        "answerLength": 3114,
+        "brandTermTotal": 31,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 22
+          },
+          {
+            "term": "Medtronic",
+            "count": 2
+          },
+          {
+            "term": "CareLink",
+            "count": 4
+          },
+          {
+            "term": "Micra",
+            "count": 3
+          }
+        ],
+        "referenceItemCount": 11,
+        "officialReferenceCount": 5,
+        "referenceSources": [
+          {
+            "source": "雪球",
+            "title": "回复@稳如蜂鸟: 创领心律的PLATINIUM ICD,作为国内首款国产ICD,于2024年10月获批,但仅支持1.5... - 雪球",
+            "snippet": "医疗器械临床试验登记与信息公示平台 未显示微创心律管理法国子公司的3.0T兼容ICD相关研究 ｡进口产品审批流..."
+          },
+          {
+            "source": "·睿见医械RuiView",
+            "title": "最新!27省心脏起搏器全国联采拟中选结果出炉,美敦力、雅培、百多力、波科全部拟中选",
+            "snippet": "公众号 美敦力公司 Medtronic Inc. 植入式三腔心脏起搏器-双极 波士顿科学公司所属心脏起搏器公..."
+          },
+          {
+            "source": "朗逸医疗起搏器",
+            "title": "哇!美敦力起搏器10年零故障?维修成本低至行业1/5!",
+            "snippet": "远程监测 :CareLink系统实现数据实时传输,减少患者往返医院次数｡③ 治疗适配 单腔起搏器 (..."
+          },
+          {
+            "source": "lyqbq.com",
+            "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+            "snippet": "远程监控功能渗透预计2030年超50%｡国产替代 :政策扶持下,国产份额或于2030年突破60%,但..."
+          },
+          {
+            "source": "健康界",
+            "title": "这一高值耗材国产化仅5%,集采全国“团战”却已提上日程",
+            "snippet": "主要为美敦力､雅培､百多力､波科等进口企业,国产中标相对较少｡目前,国产中获批的植入式心脏起搏器仅有..."
+          },
+          {
+            "source": "民福康",
+            "title": "起搏器价格和寿命",
+            "snippet": "可充电式起搏器(如美敦力ReVive系列)通过动态电量管理,循环寿命达15年以上,充电周期约1~2年一次｡"
+          },
+          {
+            "source": "mdpi.com",
+            "title": "Advances in Cardiovascular Wearable Devices",
+            "snippet": "however,they have limitations. The devices mentioned above are costly and are not accessible to everyone. A pacemaker costs between USD 20,000 to USD..."
+          },
+          {
+            "source": "朗逸医疗起搏器",
+            "title": "2025年起搏器选购指南:美敦力TOP3推荐与价格全解析",
+            "snippet": "点击次数:25819 美敦力建议买三款起搏器有哪些?2025年起搏器价格表如何划分?作为全球心脏起搏..."
+          },
+          {
+            "source": "新浪网",
+            "title": "借势进博会,美敦力中国CIED远程随访新启航",
+            "snippet": "并同步展示一系列心脏领域创新产品,包括MyCareLink™远程随访系统,Micra™ VR2和Mi..."
+          },
+          {
+            "source": "跳动探索网",
+            "title": "icd起搏器的价格和使用寿命_城乡经济网",
+            "snippet": "2025-11-06 02:28:30 icd起搏器的价格和使用寿命 ICD(植入式心律转复除..."
+          },
+          {
+            "source": "今日头条",
+            "title": "不论国产还是进口,物价都是参照诊疗项目,所以手术费用都是一样的,只是植入的耗材费用不一样。进口品牌是美敦力,分为1:双侧可充电,全套价格为34万左右,电池为Greatbatch公司生产的第一代产品,质保年限8年零九个月,服务期15年,2、双侧不可充电,全套产品价格24万元左右,电池为Greatbat",
+            "snippet": "只是植入的耗材费用不一样｡进口品牌是美敦力,分为1:双侧可充电,全套价格为34万左右,电池为Grea..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q03",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 75,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 40,
+        "recommendation_conversion": 70,
+        "total_score": 68
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌专有词出现12次，位置靠前，但未覆盖所有产品线",
+        "important_terms_present": [
+          "美敦力",
+          "CareLink",
+          "Reveal LINQ",
+          "Cobalt"
+        ],
+        "important_terms_missing": [
+          "起搏器",
+          "ICD",
+          "CRT-D",
+          "Micra",
+          "Adapta"
+        ],
+        "product_assets_covered": [
+          "Reveal LINQ",
+          "CareLink",
+          "Cobalt"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力是心脏节律管理领域成熟品牌",
+          "Reveal LINQ用于诊断心律失常",
+          "CareLink用于远程监护",
+          "Cobalt系列ICD/CRT-D"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "Micra无导线起搏器",
+          "Adapta起搏器",
+          "具体产品线如Azure"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 60,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "引用来源未明确标注，仅提及研究但无具体出处"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方数据或权威指南引用",
+          "副作用发生率数据未提供来源"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "整体安全有效",
+          "Reveal LINQ感染率低",
+          "CareLink提前发现心律失常"
+        ],
+        "negative_or_risk_claims": [
+          "存在感染、设备移位、错误感知等风险",
+          "电磁干扰",
+          "心理影响"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "医生推荐方案，但未明确排名",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议用户提供具体症状以便进一步分析",
+          "鼓励与医生沟通"
+        ]
+      },
+      "summary": "回答全面覆盖安全性、副作用、替代方案和术后注意事项，对美敦力产品评价积极，但证据来源不明确，缺乏官方引用。",
+      "dashboard_takeaway": "品牌可见度良好，认知准确，但证据纳入度低，需加强官方来源引用以提升信任。",
+      "improvement_actions": [
+        "增加美敦力官方临床数据引用",
+        "补充具体产品线如Micra",
+        "明确引用来源编号"
+      ],
+      "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2089,
+        "completion_tokens": 652,
+        "total_tokens": 2741,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1321
+      },
+      "analyzed_at": "2026-05-28T04:08:25.459Z",
+      "local_signals": {
+        "answerLength": 1947,
+        "brandTermTotal": 12,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 3
+          },
+          {
+            "term": "CareLink",
+            "count": 4
+          },
+          {
+            "term": "Reveal LINQ",
+            "count": 4
+          },
+          {
+            "term": "Cobalt",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q03",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 80,
+        "total_score": 88
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词共29次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "CareLink",
+          "Reveal LINQ",
+          "起搏器",
+          "ICD",
+          "CRT-D"
+        ],
+        "important_terms_missing": [],
+        "product_assets_covered": [
+          "起搏器",
+          "ICD",
+          "CRT-D",
+          "Reveal LINQ",
+          "CareLink"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力心脏植入电子器械",
+          "CareLink远程随访系统",
+          "Reveal LINQ心电记录仪",
+          "ICD/CRT-D除颤功能"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": []
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 20,
+        "official_sources_used": [
+          "medtronic.com",
+          "UpToDate临床顾问",
+          "药智网"
+        ],
+        "noisy_or_weak_sources": [
+          "今日头条",
+          "民福康",
+          "红网"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力最新临床研究数据引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "整体安全性良好",
+          "严重并发症发生率低",
+          "CareLink无副作用",
+          "美敦力占据近50%市场份额"
+        ],
+        "negative_or_risk_claims": [
+          "手术近期风险如感染、出血",
+          "ICD不恰当放电约5%-10%",
+          "电池耗竭需更换"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选推荐，市场龙头",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议咨询主治医生",
+          "提供细化注意事项",
+          "鼓励使用CareLink远程随访"
+        ]
+      },
+      "summary": "回答全面覆盖美敦力产品安全、副作用、替代方案及术后注意事项，品牌词高频，认知准确，证据充分，推荐积极。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据质量好，推荐转化力强，整体评价正面且平衡。",
+      "improvement_actions": [
+        "增加更多美敦力官方临床数据引用",
+        "减少低权威来源如民福康的使用",
+        "补充美敦力与其他品牌对比的客观数据"
+      ],
+      "prompt": "医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTy1vkUng",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 7072,
+        "completion_tokens": 652,
+        "total_tokens": 7724,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6304
+      },
+      "analyzed_at": "2026-05-28T04:08:31.838Z",
+      "local_signals": {
+        "answerLength": 4715,
+        "brandTermTotal": 29,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 8
+          },
+          {
+            "term": "Medtronic",
+            "count": 10
+          },
+          {
+            "term": "CareLink",
+            "count": 5
+          },
+          {
+            "term": "Reveal LINQ",
+            "count": 6
+          }
+        ],
+        "referenceItemCount": 23,
+        "officialReferenceCount": 5,
+        "referenceSources": [
+          {
+            "source": "今日头条",
+            "title": "起搏器植入术后患者居家健康建议",
+            "snippet": "2)远程随访:有些起搏器提供远程随访服务,包括美敦力起搏器的Carelink和百多力的Home-monitorin..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Reveal LINQ ICM System",
+            "snippet": "(ICMs) systems and accessories The Reveal LINQ™ IC..."
+          },
+          {
+            "source": "红网",
+            "title": "健康科普 | 安装心脏起搏器后 这些事要注意_湖南省康复医院_健康频道",
+            "snippet": "术后需要注意的事项 1､观察切口情况 术后,患者及家属应注意观察创口､敷料等情况,确保创面干燥,没有..."
+          },
+          {
+            "source": "丁香园",
+            "title": "心脏起搏器1——进口厂商垄断国内市场,国产心脏节律产品何时能“后来者居上”?",
+            "snippet": "中国植入式心脏起搏器行业处于被进口厂商垄断的状态, 84.5%的市场份额由美敦力､雅培和波士顿科学占..."
+          },
+          {
+            "source": "UpToDate临床顾问",
+            "title": "起搏器或ICD的围术期管理",
+            "snippet": "放置磁体可以暂停ICD的抗快速性心律失常治疗或将起搏器调整为非同步起搏｡AHA､HRS､CAS/..."
+          },
+          {
+            "source": "cardiovascular.abbott",
+            "title": "ICD and CRT-D Solutions",
+            "snippet": "Entrant™ CRT-D models. For additional information..."
+          },
+          {
+            "source": "宿迁市第一人民医院",
+            "title": "起搏器出院指导",
+            "snippet": "18.不要进入任何贴有起搏器患者禁入标志的场所｡19.术后1､3､6个月复查一次,此后每6个月随诊1次,接近起..."
+          },
+          {
+            "source": "健康界",
+            "title": "国产首个,可兼容MRI的心脏起搏器产品获批",
+            "snippet": "国产首个,可兼容MRI的心脏起搏器产品获批｡这是百多力(北京)医疗器械有限公司2017年底启动的上市..."
+          },
+          {
+            "source": "health.baidu.com",
+            "title": "crt- d治疗 百度健康·医学科普",
+            "snippet": "crt- d治疗 | 百度健康·医学科普｡术后注意事项 : 避免植入侧上肢剧烈活动1-2个月,防止电..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "植込み型除細動器(ICD)について頻脈性不整脈の治療法についてメドトロニック",
+            "snippet": "ICDの植込み手術では、皮膚切開が必要なため、手術に伴う合併症の可能性があります。植込み型機器の手術..."
+          },
+          {
+            "source": "新乡医学院第一附属医院",
+            "title": "起搏器术后攻略:从病房到居家的科学守护",
+            "snippet": "起搏器术后攻略:从病房到居家的科学守护｡心脏起搏器作为治疗缓慢性心律失常的重要医疗设备,已帮助无数患..."
+          },
+          {
+            "source": "bostonscientific.com",
+            "title": "ENGINEERING DEVICE LONGEVITY",
+            "snippet": "ICD and X4 CRT-D. Explore the Technology Outperfor。"
+          },
+          {
+            "source": "民福康",
+            "title": "心力衰竭器械治疗",
+            "snippet": "起搏器相关的并发症等,虽然发生率较低,但也需要患者和医生重视｡心力衰竭器械治疗的术后管理 ICD术后..."
+          },
+          {
+            "source": "民福康",
+            "title": "心脏起搏器的副作用有哪些",
+            "snippet": "心脏起搏器植入后,短期(手术相关)和长期(设备/生理相关)可能出现副作用,常见包括手术部位出血/感染..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?",
+            "snippet": "Lifestyle What should I know about living with a Medtronic implantable cardioverter defibrillator (ICD)?What can I expect from the ICD implant recover..."
+          },
+          {
+            "source": "lyqbq.com",
+            "title": "2024-2025年全球及中国心脏起搏器品牌排行榜与市场趋势分析",
+            "snippet": "国际品牌市场,技术优势显著 美敦力(Medtronic) 市场地位 :全球心脏起搏器行业龙头,202..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Une vie en bonne santé. Une planète en bonne santé. Pour tous.",
+            "snippet": "e pays/la région Juste pour confirmer, est-ce bien..."
+          },
+          {
+            "source": "民福康",
+            "title": "心脏起搏器的副作用有哪些",
+            "snippet": "心脏压塞等严重并发症｡对于有基础心脏疾病(如心肌病､心肌肥厚等)的患者,心肌穿孔的风险相对较高,因为..."
+          },
+          {
+            "source": "·临沂市中心医院订阅号",
+            "title": "【健康科普】关于心脏起搏器那些事",
+            "snippet": "公众号 植入了双腔起搏器,目前主流起搏器均为 MRI 兼容型,医生会做好安全设置;② 日常设备无禁忌..."
+          },
+          {
+            "source": "药智网",
+            "title": "最新!2款心血管创新器械获批上市",
+            "snippet": "我国ICD领域的市场份额主要由外资品牌占领,其中美敦力占据近50%的市场份额,雅培､波科､百多力等海..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q04",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 0,
+        "cognitive_accuracy": 70,
+        "evidence_inclusion": 40,
+        "recommendation_conversion": 60,
+        "total_score": 43
+      },
+      "brand_terms": {
+        "frequency_assessment": "未提及美敦力品牌",
+        "important_terms_present": [],
+        "important_terms_missing": [
+          "美敦力",
+          "Medtronic",
+          "心律管理",
+          "心衰",
+          "远程监测",
+          "起搏器",
+          "CRT",
+          "ICD",
+          "CardioMEMS",
+          "HeartLogic"
+        ],
+        "product_assets_covered": []
+      },
+      "brand_asset_understanding": {
+        "level": "low",
+        "correct_assets": [],
+        "confusions_or_errors": [
+          "未提及美敦力，无法评估品牌理解"
+        ],
+        "missing_assets": [
+          "美敦力心律管理产品线",
+          "美敦力心衰监测产品",
+          "美敦力远程监测平台"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 60,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "引用来源未明确，可能包含非官方信息"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力具体产品证据",
+          "缺乏中国本地医保政策官方文件"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "neutral",
+        "positive_claims": [
+          "提供了政策窗口期分析",
+          "给出了量价风险模型"
+        ],
+        "negative_or_risk_claims": [
+          "服务费无法向患者收取是风险",
+          "供应商粘性风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": false,
+        "rank_or_priority": "未提及美敦力",
+        "next_step_quality": "medium",
+        "conversion_notes": [
+          "回答未推荐美敦力，但提供了通用建议"
+        ]
+      },
+      "summary": "回答未提及美敦力品牌，缺乏品牌可见度。认知准确度中等，但未涉及美敦力产品。证据来源质量中等，噪音较高。推荐转化力一般，未推荐美敦力。",
+      "dashboard_takeaway": "美敦力品牌在回答中完全缺失，需提升品牌提及率。建议在政策分析中嵌入美敦力产品线及证据。",
+      "improvement_actions": [
+        "在回答中明确提及美敦力心律管理、心衰监测产品",
+        "引用美敦力CardioMEMS等产品的临床证据",
+        "提供美敦力产品在中国医保报销的具体案例"
+      ],
+      "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1857,
+        "completion_tokens": 618,
+        "total_tokens": 2475,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1089
+      },
+      "analyzed_at": "2026-05-28T04:08:38.160Z",
+      "local_signals": {
+        "answerLength": 1573,
+        "brandTermTotal": 0,
+        "terms": [],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q04",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 30,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 60,
+        "recommendation_conversion": 70,
+        "total_score": 61
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌专有词组出现3次，频率低，位置靠后",
+        "important_terms_present": [
+          "Micra",
+          "OptiVol"
+        ],
+        "important_terms_missing": [
+          "美敦力",
+          "Medtronic",
+          "CRT-D",
+          "ICD",
+          "起搏器"
+        ],
+        "product_assets_covered": [
+          "Micra无导线起搏器",
+          "OptiVol心衰监测"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Micra无导线起搏器",
+          "OptiVol心衰监测",
+          "CRT-D",
+          "ICD"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力品牌名",
+          "具体产品线如Azure等"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 40,
+        "official_sources_used": [
+          "上海市医疗保障局",
+          "舟山市人民政府办公室",
+          "广元市人民政府",
+          "重庆市渝中区人民政府"
+        ],
+        "noisy_or_weak_sources": [
+          "九松健康",
+          "百度百科",
+          "有来医生",
+          "m.feiying-china.com"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方数据",
+          "缺少具体产品医保编码"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "Micra纳入上海医保",
+          "远程监测服务有政策支持",
+          "集采中选可保量"
+        ],
+        "negative_or_risk_claims": [
+          "远程监测缺独立收费编码",
+          "价格下行风险高",
+          "超限部分患者自付"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": false,
+        "rank_or_priority": "未明确推荐品牌",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议确认产品挂网和集采状态",
+          "建议与医院医保办沟通收费"
+        ]
+      },
+      "summary": "回答全面覆盖收费、医保、集采和风险，但品牌提及少，未突出美敦力。证据来源中等，有官方但噪音较多。评价中肯，不劝退。",
+      "dashboard_takeaway": "品牌可见度低，认知准确度高，证据中等，推荐转化中等。需强化品牌术语植入和官方证据引用。",
+      "improvement_actions": [
+        "增加美敦力品牌名和产品线术语",
+        "引用美敦力官方资料或临床数据",
+        "明确推荐美敦力产品",
+        "减少非权威来源引用"
+      ],
+      "prompt": "心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVU74Xnz5E",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 6309,
+        "completion_tokens": 673,
+        "total_tokens": 6982,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5541
+      },
+      "analyzed_at": "2026-05-28T04:08:45.219Z",
+      "local_signals": {
+        "answerLength": 3214,
+        "brandTermTotal": 3,
+        "terms": [
+          {
+            "term": "Micra",
+            "count": 2
+          },
+          {
+            "term": "OptiVol",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 15,
+        "officialReferenceCount": 0,
+        "referenceSources": [
+          {
+            "source": "九松健康",
+            "title": "心脏监护仪属于医保范围内吗",
+            "snippet": "未来可能逐步纳入报销范围｡ 地区政策差异 例如,苏州曾试点将心脏远程监护仪纳入医保,但其他..."
+          },
+          {
+            "source": "舟山市人民政府办公室",
+            "title": "长三角地区异地就医政策温馨提示",
+            "snippet": "采取最高支付限额纳入报销范围的办法｡上海市部分医用耗材报销标准 (一)心脏起搏器:安装心脏起搏器发生..."
+          },
+          {
+            "source": "上海市医疗保障局",
+            "title": "关于规范调整本市心血管系统类医疗服务价格项目的通知",
+            "snippet": "所列价格标准是本市公立医疗机构最高收费标准,鼓励医疗机构加强管理､控制成本｡二､纳入本市医保支付范围的价格项目分为..."
+          },
+          {
+            "source": "百度百科",
+            "title": "远程监测费",
+            "snippet": "上传视频 远程监测医疗服务费用 远程监测费,指医技人员为院外患者提供的远程实时监测服务 ｡远程监测范..."
+          },
+          {
+            "source": "·医管知识圈",
+            "title": "心血管系统类医保收费全问答:介入、手术、操作如何规范计费?",
+            "snippet": "公众号 Q19:植入式心律转复除颤器(ICD/CRT-D)如何计费?心血管系统类医保收费全问答:介入､手术､..."
+          },
+          {
+            "source": "中新经纬",
+            "title": "电生理集采提速,国产厂商能否顺利放量?",
+            "snippet": "分析其表现和特征加以推理,做出综合判断及相应治疗,其主要产品均属于第三类医疗器械｡某三甲医院心内科主..."
+          },
+          {
+            "source": "广元市人民政府",
+            "title": "四川省第二批新增“互联网”医疗服务价格项目试行价格和医保支付类别表",
+            "snippet": "1小时按 1小时计收｡乙类限心律不齐 2 310701032 远程起搏器监测 指通过带有远程监测功能..."
+          },
+          {
+            "source": "新浪网",
+            "title": "全球体积最小的无导线心脏起搏器,现纳入上海市医保支付范围",
+            "snippet": "并在第二届进博会上正式进入中国市场的明星产品全球体积最小的Micra经导管植入式无导线心脏起搏器,就是通过动态..."
+          },
+          {
+            "source": "有来医生",
+            "title": "24小时心脏监测多少钱",
+            "snippet": "用于排查心律失常､心肌缺血等心脏问题的核心检查,其价格受地区经济水平､医院级别､设备类型､医保政策等..."
+          },
+          {
+            "source": "重庆市渝中区人民政府",
+            "title": "重庆市渝中区医疗保障局关于区第十九届人大三次会议第155号建议协办意见的函_ 重庆市渝中区人民政府",
+            "snippet": "远程心电监测､远程起博器监测､远程除颤器监测､远程胎心监测)纳入医保报销,其中,甲类 2 个,乙类..."
+          },
+          {
+            "source": "新浪财经",
+            "title": "我国已完成7类医保医用耗材分类优化工作",
+            "snippet": "此次医用耗材分类优化工作尊重支持创新,助推产业发展｡例如,植入式无导线心脏起搏器是心脏起搏领域的革命性技术,它可通..."
+          },
+          {
+            "source": "m.feiying-china.com",
+            "title": "看心脏病的费用变了!上海最新医疗价格调整影响几何?",
+            "snippet": "各医疗机构应当加强管理､控制成本,不得超出最高标准收费｡在医保支付政策方面,纳入上海市医保支付范围的..."
+          },
+          {
+            "source": "财经头条",
+            "title": "2025年心脏起博器扩容!湖北广东续约成关键,外资连夜升级防线",
+            "snippet": "江苏南京等地都已经将心脏起搏器纳入医保报销范畴｡这种医保报销方式,更加有利于低价心脏起搏器产品｡而随着2025年心..."
+          },
+          {
+            "source": "新浪网",
+            "title": "国家医保局规范植入式心脏起搏器等7类医用耗材医保通用名",
+            "snippet": "将起搏器主要分为3类:植入式单腔心脏起搏器､植入式双腔心脏起搏器､植入式三腔心脏起搏器｡国家医保局表示,此次发布的..."
+          },
+          {
+            "source": "hntvc.cn",
+            "title": "全国医院心血管项目收费调整进入落地期",
+            "snippet": "所列价格标准是本市公立医疗机构最高收费标准,鼓励医疗机构加强管理､控制成本｡对比国家版和上海版,上海结合地方实际有..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q05",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 90,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 85,
+        "total_score": 83
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词共22次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Evolut PRO",
+          "Evolut FX",
+          "Harmony",
+          "Melody",
+          "TAVR",
+          "结构性心脏病"
+        ],
+        "important_terms_missing": [
+          "CoreValve",
+          "Intrepid",
+          "瓣膜病"
+        ],
+        "product_assets_covered": [
+          "Evolut PRO/PRO+",
+          "Evolut FX",
+          "Harmony/Melody"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "环上瓣设计",
+          "SMART试验小瓣环优势",
+          "Evolut Low Risk Trial五年数据",
+          "AI辅助决策"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "Resilia瓣膜技术",
+          "经导管二尖瓣产品"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "10个网页未明确来源",
+          "引用标记缺失"
+        ],
+        "evidence_gaps": [
+          "未提供具体文献DOI或官方链接",
+          "AI辅助决策细节不足"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "全球临床证据最强",
+          "适应症覆盖最全",
+          "高度契合三甲医院",
+          "集采中选品牌"
+        ],
+        "negative_or_risk_claims": [],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "优先考虑",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议进一步明确TAVR或先心病需求",
+          "提供AI术前规划系统价值"
+        ]
+      },
+      "summary": "回答全面展示美敦力TAVR产品线及临床证据，突出复杂病例和低风险患者优势，推荐力度强，但引用来源不明确。",
+      "dashboard_takeaway": "美敦力在结构性心脏病领域品牌可见度高，认知准确，证据中等，推荐转化力强，适合三甲医院评估。",
+      "improvement_actions": [
+        "补充官方文献或临床试验注册号",
+        "增加经导管二尖瓣产品信息",
+        "明确引用来源降低噪音"
+      ],
+      "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2173,
+        "completion_tokens": 627,
+        "total_tokens": 2800,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1405
+      },
+      "analyzed_at": "2026-05-28T04:08:52.199Z",
+      "local_signals": {
+        "answerLength": 2025,
+        "brandTermTotal": 22,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 11
+          },
+          {
+            "term": "Evolut",
+            "count": 11
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q05",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 90,
+        "total_score": 90
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词密集",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Evolut",
+          "CoreValve",
+          "TAVR",
+          "SimuForm",
+          "Tri-Ad"
+        ],
+        "important_terms_missing": [
+          "Harmony",
+          "Intrepid",
+          "TriClip"
+        ],
+        "product_assets_covered": [
+          "Evolut R",
+          "Evolut PRO",
+          "Evolut PRO+",
+          "Evolut FX",
+          "SimuForm二尖瓣成形环",
+          "Tri-Ad三尖瓣成形带"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Evolut平台自膨胀TAVR",
+          "环上瓣设计",
+          "可回收",
+          "大瓣环覆盖",
+          "SimuForm二尖瓣环",
+          "Tri-Ad三尖瓣带"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "Harmony TPVR",
+          "Intrepid TMVR",
+          "TriClip"
+        ]
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 10,
+        "official_sources_used": [
+          "medtronic.com",
+          "news.medtronic.com",
+          "investorrelations.medtronic.com",
+          "中国食品药品网",
+          "中国新闻网"
+        ],
+        "noisy_or_weak_sources": [
+          "股票数据库"
+        ],
+        "evidence_gaps": [
+          "Evolut FX/FX+国内准入进度需确认",
+          "Harmony等产品国内状态未详述"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "血流动力学优异",
+          "适合二叶瓣/横位心",
+          "低入路要求",
+          "大瓣环覆盖",
+          "成熟培训体系"
+        ],
+        "negative_or_risk_claims": [
+          "TAVR需备案",
+          "FX/FX+准入待确认"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "推荐作为自膨式TAVR首选",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "提供对比表",
+          "建议联系当地办事处",
+          "建议建立带教关系"
+        ]
+      },
+      "summary": "回答全面覆盖美敦力结构性心脏病核心产品，准确描述Evolut平台优势及临床场景，明确适合三甲/专科医院，证据充分，推荐转化力强。",
+      "dashboard_takeaway": "美敦力在TAVR领域品牌可见度高，认知准确，证据扎实，推荐积极。需补充Harmony等产品信息。",
+      "improvement_actions": [
+        "补充Harmony TPVR、Intrepid TMVR等产品信息",
+        "明确Evolut FX/FX+国内准入状态",
+        "减少股票数据库等弱来源引用"
+      ],
+      "prompt": "我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUFNv71No",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 7006,
+        "completion_tokens": 730,
+        "total_tokens": 7736,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6238
+      },
+      "analyzed_at": "2026-05-28T04:08:59.659Z",
+      "local_signals": {
+        "answerLength": 4576,
+        "brandTermTotal": 71,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 27
+          },
+          {
+            "term": "Medtronic",
+            "count": 18
+          },
+          {
+            "term": "Micra",
+            "count": 1
+          },
+          {
+            "term": "Evolut",
+            "count": 25
+          }
+        ],
+        "referenceItemCount": 19,
+        "officialReferenceCount": 14,
+        "referenceSources": [
+          {
+            "source": "央广网",
+            "title": "生而不凡 美力相瓣 第二届中国心脏瓣膜健康周正式启动",
+            "snippet": "同济大学附属第十人民医院心脏中心主任､同济大学医学院泛血管病研究所所长徐亚伟 美敦力中国区结构性心脏病业务部门副总..."
+          },
+          {
+            "source": "investorrelations.medtronic.com",
+            "title": "Medtronic Investor Briefing - TCT 2023",
+            "snippet": "2023 Indications The Medtronic CoreValve™ Evolut™..."
+          },
+          {
+            "source": "股票数据库",
+            "title": "美敦力:主营构成与业绩趋势",
+            "snippet": "主营构成与业绩趋势 截至2025-04-30,美敦力公司(股票代码:MDT.US),主营业务构成: Cardiovascular收入124.81亿美元(占比37.22%) Neuroscience收入98.46亿美元(占比29.36%) Medical Surgical收入84.07亿美元(占比25.07%) Diabetes收入27.55亿美元(占比8.22%) Other收入1.37亿美元(占比0.41%) Other Adjustments收入-9000.00万美元(占比-0.27%) 插件信息暂不支持访问"
+          },
+          {
+            "source": "文汇网",
+            "title": "“不开胸的护心术”来了,美敦力携最新心脏介入瓣膜解决方案在“四叶草”全球首发_文汇",
+            "snippet": "中国心血管健康与疾病报告2020显示,中国心血管病患病率不断走高,心脏瓣膜病发病率也直线上升｡美敦力结构性心脏..."
+          },
+          {
+            "source": "中国食品药品网",
+            "title": "FDA批准新一代经导管主动脉瓣膜置换系统",
+            "snippet": "它被批准用于为开胸手术高危或极高危的严重主动脉狭窄患者实施经导管主动脉瓣膜置换(TAVR)术｡TAVR术式已经成为..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "美敦力八赴进博之约,携手多方共享创新、共创生态、共赴未来",
+            "snippet": "为全球医疗健康产业的可持续发展注入新动能｡在践行企业使命的过程中,中国市场发挥着至关重要的作用,不仅是美敦力全球最..."
+          },
+          {
+            "source": "中国新闻网",
+            "title": "第五届中国心脏瓣膜健康周成功举办-中新社上海",
+            "snippet": "美敦力成功举办了第五届中国心脏瓣膜健康周,并正式启动了首个本土化TAVR手术AI解决方案｡在历年展品..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Evolut PRO - Transcatheter Aortic Heart Valves",
+            "snippet": "Aortic Heart Valves | Medtronic｡Evolut PRO+ system。"
+          },
+          {
+            "source": "·心未来",
+            "title": "获批上市!美敦力三尖瓣成形带",
+            "snippet": "公众号 神经科学和糖尿病业务四块,其中心血管占比最高｡在心脏外科和结构性心脏病领域,美敦力长期深耕瓣膜修复与..."
+          },
+          {
+            "source": "严道医声网",
+            "title": "中山大学附属第一医院李怡、庄晓东教授团队应用美敦力Evolut PRO成功完成重度钙化、横位心TAVR一例-严道医声",
+            "snippet": "中山大学附属第一医院李怡､庄晓东教授团队应用美敦力Evolut PRO成功完成重度钙化､横位心TAV..."
+          },
+          {
+            "source": "news.medtronic.com",
+            "title": "New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance",
+            "snippet": "Medtronic CoreValve/Evolut TAVR™ Systems reinforce..."
+          },
+          {
+            "source": "·思宇MedTech",
+            "title": "获批上市!美敦力二尖瓣修复成形环",
+            "snippet": "公众号 其二尖瓣修复产品SimuForm二尖瓣瓣膜修复成形环已经获得NMPA批准上市(注册证号:国械注进20..."
+          },
+          {
+            "source": "严道医声网",
+            "title": "湖州市中心医院程震锋教授团队浙北首植34mm 美敦力Evolut PRO,完美解除巨大瓣环患者主动脉狭窄-严道医声",
+            "snippet": "湖州市中心医院|程震锋教授团队浙北首植34mm 美敦力Evolut PRO+,完美解除巨大瓣环患者主..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Evolut FX system",
+            "snippet": "the CoreValve™/Evolut™ clinical success. Education..."
+          },
+          {
+            "source": "网易",
+            "title": "倒计时50天 这位“全勤生”将携近百款创新科技七赴进博之约",
+            "snippet": "这位全勤生将携近百款创新科技七赴进博之约|瓣膜|手术|导管|心脏|二尖瓣|美敦力_网易订阅｡"
+          },
+          {
+            "source": "ichgcp.net",
+            "title": "PROGRESS: Management of Moderate Aortic Stenosis by Clinical Surveillance or TAVR (PROGRESS)",
+            "snippet": "Italy Medtronic CardiovascularActive,not recruitingAortic Valve Stenosis | Aortic Valve Replacement | Symptomatic Aortic StenosisUnited Kingdom,United..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Interventional Cardiology Medtronic (Europe) Interventional cardiology",
+            "snippet": "CoreValve™/Evolut™ clinicalTrials The Medtronic Co..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "“全勤生”美敦力将携百余款创新产品参展第八届进博会",
+            "snippet": "美敦力全球高级副总裁及大中华区总裁顾宇韶表示:进博会是美敦力将全球创新引入中国医疗体系的关键舞台,更是我们植根中..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Vous vous apprêtez à quitter le site de Medtronic du Canada",
+            "snippet": "(Russia) Србија (Serbia) Україна (Ukraine) 中国 (Chi..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q06",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 80,
+        "total_score": 81
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词15次，产品名Evolut 10次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Evolut",
+          "Evolut FX/FX+",
+          "CoreValve"
+        ],
+        "important_terms_missing": [
+          "美敦力TAVR整体品牌定位",
+          "Resilia技术"
+        ],
+        "product_assets_covered": [
+          "Evolut FX/FX+",
+          "Evolut平台",
+          "CoreValve"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "自膨胀瓣膜",
+          "可回收重新定位",
+          "小瓣环优势",
+          "SMART试验证据"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力在结构性心脏其他产品线如MitraClip未提及"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "引用来源未明确列出，依赖AI内部知识"
+        ],
+        "evidence_gaps": [
+          "缺乏官方临床研究引用",
+          "价格数据来源不明"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "小瓣环患者血流动力学更优",
+          "可回收容错率高",
+          "输送系统柔顺"
+        ],
+        "negative_or_risk_claims": [
+          "起搏器植入率相对较高",
+          "价格中等"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "小瓣环首选，整体推荐度与爱德华并列",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议根据患者解剖选择",
+          "强调可回收优势"
+        ]
+      },
+      "summary": "回答全面客观，突出美敦力在小瓣环和可回收方面的优势，但缺乏官方引用，价格数据不够精确。",
+      "dashboard_takeaway": "美敦力Evolut在小瓣环患者中证据强，可回收特性降低学习曲线，但起搏器风险需关注。",
+      "improvement_actions": [
+        "补充官方临床研究引用",
+        "明确价格数据来源",
+        "提及美敦力其他结构性心脏产品"
+      ],
+      "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "source_url": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2719,
+        "completion_tokens": 622,
+        "total_tokens": 3341,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1951
+      },
+      "analyzed_at": "2026-05-28T04:09:06.519Z",
+      "local_signals": {
+        "answerLength": 2955,
+        "brandTermTotal": 26,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 15
+          },
+          {
+            "term": "Medtronic",
+            "count": 1
+          },
+          {
+            "term": "Evolut",
+            "count": 10
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q06",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 80,
+        "total_score": 88
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词共30次，Evolut 18次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Evolut",
+          "CoreValve",
+          "Evolut PRO/PRO+/FX"
+        ],
+        "important_terms_missing": [
+          "Harmony",
+          "Intrepid"
+        ],
+        "product_assets_covered": [
+          "Evolut PRO/PRO+/FX",
+          "CoreValve",
+          "Evolut TAVR系统"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "自膨胀技术",
+          "小瓣环优势",
+          "SMART试验",
+          "可回收功能",
+          "学习曲线"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "Harmony经导管肺动脉瓣",
+          "Intrepid经导管二尖瓣"
+        ]
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 20,
+        "official_sources_used": [
+          "news.medtronic.com",
+          "medtronic.com"
+        ],
+        "noisy_or_weak_sources": [
+          "民福康",
+          "九松健康"
+        ],
+        "evidence_gaps": [
+          "缺乏长期随访数据对比",
+          "缺少真实世界成本效益分析"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力Evolut在小瓣环女性中血流动力学更优",
+          "SMART试验显示BVD显著低于SAPIEN",
+          "可回收功能降低学习曲线难度"
+        ],
+        "negative_or_risk_claims": [
+          "起搏器植入率较高（15%-25%）",
+          "轻度瓣周漏略多于球扩瓣"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "小瓣环/女性首选",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议根据患者瓣环尺寸和性别细化推荐",
+          "提供进一步咨询入口"
+        ]
+      },
+      "summary": "回答全面对比美敦力与竞品，突出Evolut在小瓣环和血流动力学优势，证据充分，评价中肯，推荐转化力强。",
+      "dashboard_takeaway": "美敦力Evolut在小瓣环女性患者中临床优势明确，但需关注起搏器风险；回答品牌可见度高，认知准确，证据扎实。",
+      "improvement_actions": [
+        "补充Harmony和Intrepid产品线信息",
+        "增加长期随访数据",
+        "减少非权威来源引用"
+      ],
+      "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUP1YP0lc",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 6853,
+        "completion_tokens": 677,
+        "total_tokens": 7530,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6085
+      },
+      "analyzed_at": "2026-05-28T04:09:13.777Z",
+      "local_signals": {
+        "answerLength": 4449,
+        "brandTermTotal": 48,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 21
+          },
+          {
+            "term": "Medtronic",
+            "count": 9
+          },
+          {
+            "term": "Evolut",
+            "count": 18
+          }
+        ],
+        "referenceItemCount": 18,
+        "officialReferenceCount": 6,
+        "referenceSources": [
+          {
+            "source": "mdpi.com",
+            "title": "A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants",
+            "snippet": "high-quality study. Notably,four recently published,high-quality randomised controlled trials involving Sapien (n = 3),CoreValve/Evolut (n = 3),Acurat..."
+          },
+          {
+            "source": "news.medtronic.com",
+            "title": "SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system",
+            "snippet": "demonstrated that Evolut TAVR provides strong outcomes compared to SAPIEN TAVR. Significantly lower bioprosthetic valve dysfunction (BVD) (16.3% vs 54..."
+          },
+          {
+            "source": "·智银医药",
+            "title": "智银原创 心脏瓣膜行业深度研究报告",
+            "snippet": "公众号 年 6 月,广州启动医用耗材联合采购,将经导管人工主动脉瓣膜置换系统纳入集采范围,爱德华､美敦力两家..."
+          },
+          {
+            "source": "新浪网",
+            "title": "创新器械系列电话会-介入瓣膜",
+            "snippet": "不同厂家产品在操作时间､操作难度及学习周期上差别不大,主要差异在于使用体验｡其中爱德华产品表现最佳..."
+          },
+          {
+            "source": "·MedDevices",
+            "title": "美敦力研究支持 Evolut TAVR 与爱德华 Sapien 的头对头比较",
+            "snippet": "公众号 并进一步增强了对持续疗效的信心｡美敦力高管及研究者评论美敦力结构性心脏病业务副总裁兼首席医学官Kendra J..."
+          },
+          {
+            "source": "网易",
+            "title": "人工瓣膜类型和麻醉策略对TAVR术后患者临床结局的影响——SOLVE—TAVI试验5年随访结果",
+            "snippet": "试验采用2×2析因设计,447名外科中､高风险的主动脉瓣狭窄患者被随机分配至使用SEV(Evolut..."
+          },
+          {
+            "source": "·医疗器械英语",
+            "title": "靴子落地:2026年心脏瓣膜集采来了!含集采挂网价格表",
+            "snippet": "公众号 根据甘肃省医疗保障局公布的经导管主动脉瓣膜系统挂网产品价格,国产和进口瓣膜的平均价格来到了15.27..."
+          },
+          {
+            "source": "医疗器械创新网",
+            "title": "“心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家加速进场角逐",
+            "snippet": "瓣膜原材料: 启明医疗和美敦力的产品使用猪包心,杰成医疗采用猪主动脉瓣,而微创心通､沛嘉医疗和爱德华..."
+          },
+          {
+            "source": "·械说新语",
+            "title": "球扩还是自膨?爱德华与美敦力的TAVR技术战争",
+            "snippet": "公众号 球扩还是自膨?爱德华与美敦力的TAVR技术战争｡经导管主动脉瓣置换(TAVR)已经成为结构性心脏病领..."
+          },
+          {
+            "source": "·价值高地",
+            "title": "Tavr价格谈判后市场格局的变化趋势",
+            "snippet": "公众号 国内爱德华市占9%,美敦力占5%,二者几乎不主动推广,依靠产品优势被动获客｡爱德华产品效果好､定位精..."
+          },
+          {
+            "source": "腾讯网",
+            "title": "微创心通IPO市值440亿港元,高瓴买下的TAVR赛道将迎来商业化大战_腾讯新闻",
+            "snippet": "裙边可以更好地适应解剖结构｡自膨式瓣膜可植入瓣上,对撑起的圆度要求低,径向支撑力更强,但相对较难控制,容易破坏心肌结构｡"
+          },
+          {
+            "source": "·赛柏蓝器械",
+            "title": "美敦力、爱德华正面交锋!",
+            "snippet": "公众号 包括使用Evolut降低瓣膜血栓形成率｡ 这一数据对临床医生的术式选择具有重要影响｡美敦力结构性心..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Medtronic key studies",
+            "snippet": "Evolut™ system versus Edwards Lifesciences balloon..."
+          },
+          {
+            "source": "民福康",
+            "title": "心脏瓣膜手术需要多少钱",
+            "snippet": "进口机械瓣5\\~10万元,国产约3\\~7万元｡3.微创经导管瓣膜置换术(TAVR):无需开胸,适用于..."
+          },
+          {
+            "source": "健康界",
+            "title": "“心脏瓣膜赛道”风起云涌:国产巨头“三国杀”,新玩家角逐加速",
+            "snippet": "目前暂为进入中国市场的美敦力也是自膨胀技术,而爱德华采用球囊辅助扩张手术｡二者的操作方式有所不同,从..."
+          },
+          {
+            "source": "news.medtronic.com",
+            "title": "New data for Medtronic CoreValve/Evolut TAVR Systems reinforces excellent valve performance",
+            "snippet": "Medtronic CoreValve/Evolut TAVR™ Systems reinforce..."
+          },
+          {
+            "source": "九松健康",
+            "title": "心脏瓣膜介入手术需要多少费用",
+            "snippet": "TAVR(经导管主动脉瓣置换术):使用进口人工瓣膜费用约20-25万元,国产瓣膜约15-20万元..."
+          },
+          {
+            "source": "财富号",
+            "title": "心尖上较量——TAVR赛道竞争升级",
+            "snippet": "二代产品可收回的优势能够显著降低医生的手术难度,有希望加速医生的教育培训,有助于TAVR市场空间的进一步打开｡二代..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q07",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 80,
+        "total_score": 81
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌词出现10次，位置靠前，覆盖TAVR/瓣膜等产品线",
+        "important_terms_present": [
+          "美敦力",
+          "TAVR",
+          "结构性心脏",
+          "瓣膜"
+        ],
+        "important_terms_missing": [
+          "CoreValve",
+          "Evolut",
+          "Melody"
+        ],
+        "product_assets_covered": [
+          "TAVR系统",
+          "瓣膜设备",
+          "监测系统"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力结构性心脏系统",
+          "TAVR/瓣膜设备",
+          "DICOM/HL7接口支持"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "具体产品型号如Evolut FX",
+          "美敦力数据安全认证"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "国家药监局指导原则",
+          "GB/T 44585.1—2024"
+        ],
+        "noisy_or_weak_sources": [
+          "未明确引用的网页"
+        ],
+        "evidence_gaps": [
+          "美敦力官方网络安全文档",
+          "具体产品接入案例"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "技术上可行",
+          "法规路径明确",
+          "支持国际标准"
+        ],
+        "negative_or_risk_claims": [
+          "需严格合规",
+          "存在网络安全风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "推荐，但需合规论证",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "询问用户阶段，提供针对性建议",
+          "建议签署协议明确责任"
+        ]
+      },
+      "summary": "回答全面，准确理解美敦力系统接入HIS/EMR/PACS的可行性与合规要求，引用法规标准，给出风险处理方案，推荐品牌但强调合规。",
+      "dashboard_takeaway": "美敦力TAVR系统可接入医院网络，需遵循数据本地化、加密、访问控制等法规，AI回答专业且平衡，有助于建立信任。",
+      "improvement_actions": [
+        "补充美敦力具体产品型号如Evolut FX",
+        "引用美敦力官方网络安全文档",
+        "提供更多实际案例"
+      ],
+      "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1842,
+        "completion_tokens": 625,
+        "total_tokens": 2467,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1074
+      },
+      "analyzed_at": "2026-05-28T04:09:20.580Z",
+      "local_signals": {
+        "answerLength": 1589,
+        "brandTermTotal": 10,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 10
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q07",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 80,
+        "total_score": 81
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌词出现12次，位置靠前，覆盖美敦力、Medtronic、Evolut",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Evolut",
+          "TAVR",
+          "CoreValve"
+        ],
+        "important_terms_missing": [
+          "Harmony",
+          "Intrepid"
+        ],
+        "product_assets_covered": [
+          "Evolut TAVR系统",
+          "CoreValve影像分析工作站"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力TAVR系统支持DICOM/HL7/FHIR标准",
+          "数据合规要求本地化部署",
+          "需提供网络安全描述文档"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "未提及美敦力其他结构性心脏病产品如Harmony TMVR"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "国家药品监督管理局医疗器械技术审评中心",
+          "四川省药品监督管理局"
+        ],
+        "noisy_or_weak_sources": [
+          "CSDN",
+          "顺企网",
+          "pycad.co",
+          "postdicom.com"
+        ],
+        "evidence_gaps": [
+          "缺少美敦力官方技术文档或白皮书引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力系统可接入HIS/EMR/PACS",
+          "提供标准接口",
+          "数据合规建议详细"
+        ],
+        "negative_or_risk_claims": [
+          "数据出境需严格审批",
+          "海外云端服务不能直连患者数据"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "未明确排名，但给出详细合规建议",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议索要网络安全文档",
+          "提供合规检查清单"
+        ]
+      },
+      "summary": "回答详细解释了美敦力TAVR系统接入HIS/EMR/PACS的可行性及数据合规要求，品牌词高频出现，认知准确，但证据来源官方占比低，整体推荐转化力中等偏上。",
+      "dashboard_takeaway": "美敦力TAVR系统在互联互通和数据合规方面表现良好，但需加强官方证据引用，提升权威性。",
+      "improvement_actions": [
+        "增加美敦力官方技术文档引用",
+        "补充Harmony等产品线信息",
+        "减少非权威来源如CSDN"
+      ],
+      "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5804,
+        "completion_tokens": 668,
+        "total_tokens": 6472,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5036
+      },
+      "analyzed_at": "2026-05-28T04:09:27.439Z",
+      "local_signals": {
+        "answerLength": 3753,
+        "brandTermTotal": 12,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 10
+          },
+          {
+            "term": "Medtronic",
+            "count": 1
+          },
+          {
+            "term": "Evolut",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 14,
+        "officialReferenceCount": 0,
+        "referenceSources": [
+          {
+            "source": "国家药品监督管理局医疗器械技术审评中心",
+            "title": "医疗器械网络安全注册技术审查指导原则",
+            "snippet": "同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据..."
+          },
+          {
+            "source": "CSDN",
+            "title": "医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析",
+            "snippet": "ORM(医嘱)消息片段长这样: MSH|^~\\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER..."
+          },
+          {
+            "source": "智慧医疗网",
+            "title": "医疗数据与网络安全法律法规整理总结",
+            "snippet": "强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须..."
+          },
+          {
+            "source": "中国搜索",
+            "title": "医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 -",
+            "snippet": "标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家..."
+          },
+          {
+            "source": "pycad.co",
+            "title": "A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner",
+            "snippet": "HL7 messages are the operational glue connecting the PACS to the Radiology Information System (RIS) and the Electronic Health Record (EHR). These aren..."
+          },
+          {
+            "source": "顺企网",
+            "title": "医疗器械数据合规:患者隐私保护与跨境数据传输",
+            "snippet": "数据安全法:将医疗健康数据列为重要数据,要求其出境需通过国家网信部门的安全评估,或通过认证､签订标准合同等..."
+          },
+          {
+            "source": "postdicom.com",
+            "title": "How PACS Integrates with RIS and EHR Systems (Complete Guide)",
+            "snippet": "transmission is named DICOM. It provides compatibi。"
+          },
+          {
+            "source": "四川省药品监督管理局",
+            "title": "标准协议､校验等技术来保证医疗器械的网络安全｡鉴于预期用途､使用环境的限制,医疗器械对于网络安全威胁...",
+            "snippet": "附件"
+          },
+          {
+            "source": "chinamedglobal.com",
+            "title": "医疗器械/药品出海的数据合规红线:2026年中国跨境数据传输三项路径实操指南",
+            "snippet": "不要等到产品已经部署到海外市场再去补合规｡医疗器械出海场景中的数据出境检查表 不同出海场景涉及的数据类型和合规要求..."
+          },
+          {
+            "source": "·深圳市赛义德信息科技有限公司",
+            "title": "医疗信息化:医院多系统并存的核心原因",
+            "snippet": "公众号 便捷使用:医生在EMR中可直接查看LIS检验结果､PACS影像,无需切换多个系统,同时保留各系统独立..."
+          },
+          {
+            "source": "中国食品药品网",
+            "title": "严格遵守法规要求 保证数据出境安全(下)",
+            "snippet": "个人信息保护监管要求 医药行业涉及多种数据和个人信息出境场景｡近年来,我国亦出台一系列法律法规及指导..."
+          },
+          {
+            "source": "dehenglaw.com",
+            "title": "医疗数据法律探析(四):医疗器械企业之医疗数据治理与合规",
+            "snippet": "不同类型的医疗数据被划分为个人信息､敏感个人信息､重要数据､核心数据等类别,分别适用差异化的合规要求｡"
+          },
+          {
+            "source": "21IC电子网",
+            "title": "医疗信息化标准入门 HL7与DICOM关系初探",
+            "snippet": "向PACS系统发出HL7标准的检查医嘱消息(ORM)｡PACS系统连接到HIS系统(在TCP/IP协..."
+          },
+          {
+            "source": "HIT专家网",
+            "title": "医疗数据出境如何做好合规管理?",
+            "snippet": "要求其收集和产生的个人信息和重要数据的跨境传输需进行安全评估｡数据安全法 个人信息保护法 的颁布,对于个人..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q08",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 70,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 30,
+        "recommendation_conversion": 60,
+        "total_score": 61
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌词出现15次，Evolut高频，但美敦力仅2次，整体可见度中等",
+        "important_terms_present": [
+          "美敦力",
+          "Evolut",
+          "TAVR"
+        ],
+        "important_terms_missing": [
+          "Medtronic",
+          "CoreValve",
+          "Integrity",
+          "瓣膜"
+        ],
+        "product_assets_covered": [
+          "Evolut TAVR",
+          "主动脉瓣",
+          "肺动脉瓣"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Evolut TAVR用于主动脉瓣狭窄",
+          "自膨式瓣膜特点",
+          "起搏器风险较高"
+        ],
+        "confusions_or_errors": [
+          "肺动脉瓣置换标注为Off-Label，但未说明美敦力有专用肺动脉瓣产品"
+        ],
+        "missing_assets": [
+          "美敦力外科瓣膜产品线",
+          "Harmony TPV用于肺动脉瓣"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 70,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "8个网页未明确来源",
+          "引用标记为空"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方研究数据",
+          "无随机对照试验引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "Evolut TAVR安全有效",
+          "适合高龄高风险患者"
+        ],
+        "negative_or_risk_claims": [
+          "起搏器植入率高",
+          "瓣周漏风险略高",
+          "肺动脉瓣超适应症"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": [
+          "需要安装永久起搏器概率较高",
+          "瓣周漏风险略高"
+        ]
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "未明确排名，但作为主要讨论对象",
+        "next_step_quality": "medium",
+        "conversion_notes": [
+          "建议与医生讨论",
+          "询问患者年龄和风险评分"
+        ]
+      },
+      "summary": "回答较全面，准确描述了Evolut TAVR的安全性和风险，但证据来源不明确，缺乏官方数据，且未覆盖美敦力完整产品线。",
+      "dashboard_takeaway": "品牌可见度中等，认知准确度高，但证据质量低，推荐转化力一般。需加强官方证据引用和产品线覆盖。",
+      "improvement_actions": [
+        "引用美敦力官方临床研究",
+        "补充Harmony TPV等肺动脉瓣产品",
+        "明确区分适应症与超适应症",
+        "提供更多循证医学证据"
+      ],
+      "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2246,
+        "completion_tokens": 681,
+        "total_tokens": 2927,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1478
+      },
+      "analyzed_at": "2026-05-28T04:09:34.733Z",
+      "local_signals": {
+        "answerLength": 2143,
+        "brandTermTotal": 15,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 2
+          },
+          {
+            "term": "Evolut",
+            "count": 13
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q08",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 90,
+        "total_score": 90
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，Evolut出现27次，美敦力5次，Medtronic3次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Evolut",
+          "Evolut TAVR",
+          "Evolut R",
+          "Evolut PRO",
+          "Evolut FX",
+          "Evolut FX+"
+        ],
+        "important_terms_missing": [
+          "CoreValve",
+          "Harmony",
+          "Melody"
+        ],
+        "product_assets_covered": [
+          "Evolut TAVR",
+          "Evolut R",
+          "Evolut PRO",
+          "Evolut FX",
+          "Evolut FX+"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Evolut用于主动脉瓣重度狭窄",
+          "自膨式生物瓣膜",
+          "TAVR/TAVI",
+          "瓣中瓣技术",
+          "低风险患者循证支持"
+        ],
+        "confusions_or_errors": [
+          "误将肺动脉瓣纳入Evolut适应症，但已澄清"
+        ],
+        "missing_assets": [
+          "美敦力外科瓣膜产品线",
+          "美敦力肺动脉瓣产品（如Melody）"
+        ]
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 20,
+        "official_sources_used": [
+          "accessdata.fda.gov",
+          "uptodate.com",
+          "中国医学论坛报社官网"
+        ],
+        "noisy_or_weak_sources": [
+          "企鹅号",
+          "医库软件"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方产品说明书或临床试验注册信息"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "安全性不劣于外科手术",
+          "手术成功率>95%",
+          "微创恢复快",
+          "循证充分"
+        ],
+        "negative_or_risk_claims": [
+          "传导阻滞需起搏器10-20%",
+          "血管并发症",
+          "瓣周漏",
+          "卒中风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议咨询心脏团队",
+          "确认STS评分",
+          "对比SAVR利弊"
+        ]
+      },
+      "summary": "回答全面覆盖Evolut TAVR安全性、副作用、替代方案及术后注意事项，品牌词高频且准确，引用权威来源，推荐倾向明确，但遗漏部分产品线。",
+      "dashboard_takeaway": "美敦力Evolut在回答中品牌可见度高，认知准确，证据扎实，推荐转化力强，整体评价积极且平衡。",
+      "improvement_actions": [
+        "补充美敦力外科瓣膜和肺动脉瓣产品信息",
+        "增加官方产品说明书引用",
+        "减少低质来源如企鹅号"
+      ],
+      "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUgE5tSLY",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 7285,
+        "completion_tokens": 739,
+        "total_tokens": 8024,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6517
+      },
+      "analyzed_at": "2026-05-28T04:09:42.265Z",
+      "local_signals": {
+        "answerLength": 4492,
+        "brandTermTotal": 35,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 5
+          },
+          {
+            "term": "Medtronic",
+            "count": 3
+          },
+          {
+            "term": "Evolut",
+            "count": 27
+          }
+        ],
+        "referenceItemCount": 18,
+        "officialReferenceCount": 1,
+        "referenceSources": [
+          {
+            "source": "·我爱瓣膜",
+            "title": "TAVR 领域年度重磅盘点:循证破局、器械革新,开启主动脉瓣治疗 “ 精准终生化 ” 新时代",
+            "snippet": "公众号 AS 患者,随机分为 TAVR 组(使用 Evolut 系统)与外科主动脉瓣置换( SAVR )组..."
+          },
+          {
+            "source": "general.medsci.cn",
+            "title": "专家共识:中国经导管主动脉瓣置换术临床路径专家共识(2021版)(全文速览)",
+            "snippet": "体能及运动耐力测试等相关评估后,结果良好､状态平稳者可于术后2~5 d内出院,并于术后1个月､6个月及12个月完成..."
+          },
+          {
+            "source": "严道医声网",
+            "title": "Evolut Low Risk试验6年随访结果发布,持续论证在外科低危重度AS患者中Evolut TAVR治疗的安全性和有效性-严道医声",
+            "snippet": "持续论证在外科低危重度AS患者中Evolut TAVR治疗的安全性和有效性-严道医声｡在对美敦力全球最新一代Evo..."
+          },
+          {
+            "source": "accessdata.fda.gov",
+            "title": "MAUDE Adverse Event Report: MEDTRONIC HEART VALVES DIVISION EVOLUT R TRANSCATHETER AORTIC VALVE; AORTIC VALVE, PROSTHESIS, PERCUTANEOUSLY DELIV",
+            "snippet": "april 2021. all patients were implanted with a medtronic evolut r or evolut pro bioprosthetic valve. no unique device identifier numbers were provided..."
+          },
+          {
+            "source": "·美国心脏病学会",
+            "title": "EVOLUT LOW RISK 研究:低风险主动脉瓣狭窄患者自膨式 TAVR 与外科手术六年随访结局比较",
+            "snippet": "公众号 CoreValve､Evolut R 或 Evolut PRO 进行经导管主动脉瓣置换术(TAVR)..."
+          },
+          {
+            "source": "科普中国网",
+            "title": "经导管主动脉瓣置换术——心脏换瓣,不开刀",
+            "snippet": "TAVR术后抗栓治疗的主要作用是预防瓣膜血栓及脑卒中等缺血事件的发生｡患者应严格遵医嘱服药,不得随意..."
+          },
+          {
+            "source": "健康界",
+            "title": "高分综述丨JAMA Cardiology:65岁以下重度主动脉瓣疾病患者的管理挑战",
+            "snippet": "在经验丰富的手术团队中其长期结果较好｡Ross手术 慢性主动脉瓣反流的注意事项 在无其他心脏手术指征的情况下,满足..."
+          },
+          {
+            "source": "uptodate.com",
+            "title": "经导管主动脉瓣植入术的并发症",
+            "snippet": "重度钙化性主动脉瓣狭窄的干预选择和 经导管主动脉瓣植入术治疗主动脉瓣狭窄的围术期和术后管理) 围术期并发症..."
+          },
+          {
+            "source": "cardio-km.com",
+            "title": "中外巅峰对话丨Evolut Low Risk研究5年结果公布,TAVR在低危主动脉瓣狭窄患者中的结局不劣于外科手术",
+            "snippet": "心肾代谢时讯 在手术死亡风险中等或较高的主动脉瓣狭窄患者中,TAVR和外科主动脉瓣置换术的主要结..."
+          },
+          {
+            "source": "·北京护理学会",
+            "title": "【健康科普】不开胸,如何为心脏换“阀门”?——带您读懂经导管主动脉瓣置换术",
+            "snippet": "公众号 健康科普不开胸,如何为心脏换阀门?带您读懂经导管主动脉瓣置换术｡测量跨瓣压差,确认瓣膜通..."
+          },
+          {
+            "source": "中国医学论坛报社官网",
+            "title": "壹生资讯-Evolut Low Risk试验解读:低危主动脉瓣狭窄患者TAVR术后5年效果不劣于SAVR!",
+            "snippet": "进一步证实TAVR在各组手术风险患者中的安全性､有效性和耐久性,支持TAVR作为SAVR的替代治疗｡"
+          },
+          {
+            "source": "·严道医声网",
+            "title": "TCT2023丨吴永健教授:低风险主动脉瓣狭窄患者行Evolut治疗优于SAVR,Evolut Low Risk研究4年结果公布",
+            "snippet": "公众号 主要终点的生存曲线更加有益于TAVR｡瓣膜性能是接受主动脉瓣置换术(TAVR或SAVR)患者全生命周期管理的关键,..."
+          },
+          {
+            "source": "企鹅号",
+            "title": "ACC.25重磅研究速递 陈茂教授点评:经导管或外科主动脉瓣置换术在低风险主动脉瓣狭窄患者中疗效相当",
+            "snippet": "ACC.25重磅研究速递 | 陈茂教授点评:经导管或外科主动脉瓣置换术在低风险主动脉瓣狭窄患者中疗效..."
+          },
+          {
+            "source": "chghims.com.tw",
+            "title": "TAVR(經導管主動脈瓣膜置換手術)護理指導",
+            "snippet": "二､日常生活注意事項 (一) 淋浴洗澡水不宜過熱或過冷以免產生暈眩現象,初次淋浴最好有家人的從。"
+          },
+          {
+            "source": "医脉通",
+            "title": "经导管主动脉瓣置换术的应用研究进展",
+            "snippet": "4.3 瓣周漏 瓣周漏是TAVR 术后常见的并发症,中重度瓣周漏对血流动力学影响较大,预后往往不良..."
+          },
+          {
+            "source": "·医械笔记本",
+            "title": "美敦力Evolut TAVR 在低风险患者中显示出持久的5年效果",
+            "snippet": "公众号 其 Evolut 低风险试验的五年数据证实,其 Evolut 经导管主动脉瓣置换术 (TAVR) 系..."
+          },
+          {
+            "source": "ichgcp.net",
+            "title": "Medtronic Transcatheter Aortic Valve Replacement (TAVR) Low Risk Bicuspid Study",
+            "snippet": "Infarction at 30 Days Post-procedure. Time Frame: 30 days | The rate of myocardial infarction at 30 days | 30 days Percent of Participants With a Life..."
+          },
+          {
+            "source": "医库软件",
+            "title": "·专家共识·",
+            "snippet": "(/067d11538bea0b4f7123d9c222ef525ac6995c02f0e2c7f8cae5a09..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q09",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 70,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 30,
+        "recommendation_conversion": 75,
+        "total_score": 65
+      },
+      "brand_terms": {
+        "frequency_assessment": "中等，品牌名出现5次，LigaSure出现2次，但未覆盖更多产品线",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "LigaSure",
+          "柯惠",
+          "Signia"
+        ],
+        "important_terms_missing": [
+          "Valleylab",
+          "Surgicel",
+          "Bard疝补片"
+        ],
+        "product_assets_covered": [
+          "LigaSure",
+          "Signia智能吻合平台"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "LigaSure是血管闭合金标准",
+          "美敦力在能量外科市场主导",
+          "Signia智能吻合平台与强生竞争"
+        ],
+        "confusions_or_errors": [
+          "将Bard归为美敦力旗下，但Bard现属BD"
+        ],
+        "missing_assets": [
+          "未提及美敦力在疝修补领域的补片产品"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 70,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "网页2（未明确来源）",
+          "网页1（未明确来源）"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方临床数据引用",
+          "LigaSure市场份额数据无来源"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力是市场绝对主导者",
+          "LigaSure是金标准",
+          "美敦力与强生形成直接对抗"
+        ],
+        "negative_or_risk_claims": [
+          "国产品牌性价比高，可能削弱美敦力优势"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "并列第一梯队，特定术式推荐LigaSure",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议用户提供具体手术类型和预算以进一步推荐"
+        ]
+      },
+      "summary": "回答客观对比美敦力与竞品，突出LigaSure优势，但证据来源弱，缺少官方数据。",
+      "dashboard_takeaway": "美敦力在能量外科和吻合器领域被认可，但需加强官方证据引用，避免Bard归属错误。",
+      "improvement_actions": [
+        "补充美敦力官方临床研究引用",
+        "纠正Bard品牌归属",
+        "增加疝修补产品线覆盖"
+      ],
+      "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1679,
+        "completion_tokens": 650,
+        "total_tokens": 2329,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 911
+      },
+      "analyzed_at": "2026-05-28T04:09:49.017Z",
+      "local_signals": {
+        "answerLength": 1154,
+        "brandTermTotal": 7,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 4
+          },
+          {
+            "term": "Medtronic",
+            "count": 1
+          },
+          {
+            "term": "LigaSure",
+            "count": 2
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q09",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 80,
+        "total_score": 81
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词27次，产品词LigaSure等出现",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "LigaSure",
+          "Valleylab",
+          "Crome"
+        ],
+        "important_terms_missing": [
+          "Covidien",
+          "柯惠",
+          "Signia",
+          "Sonicision",
+          "Thunderbeat"
+        ],
+        "product_assets_covered": [
+          "能量器械",
+          "吻合器",
+          "缝合线",
+          "疝修补片"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力含原Covidien",
+          "LigaSure大血管闭合",
+          "Signia智能吻合器",
+          "V-Loc倒刺线"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "未提及美敦力疝补片具体型号如Parietex"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "今日头条",
+          "买购网",
+          "东方财富网",
+          "tenmed.net"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方临床数据引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力与Ethicon双寡头",
+          "Signia自适应击发优势",
+          "V-Loc性价比高"
+        ],
+        "negative_or_risk_claims": [
+          "美敦力缝合线手感稍硬",
+          "Physiomesh撤市警示"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "并列推荐，视场景选择",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "提供细化选型建议",
+          "引导用户提供手术类型"
+        ]
+      },
+      "summary": "回答全面对比美敦力与Ethicon在四类耗材的优劣，推荐中肯，但引用来源多为非官方，噪音中等。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，但证据源需加强官方引用，推荐转化力良好。",
+      "improvement_actions": [
+        "增加美敦力官方临床研究引用",
+        "补充美敦力疝补片具体型号",
+        "减少非权威来源如东方财富网"
+      ],
+      "prompt": "能量/吻合/缝合/疝修补里，美敦力和J&J Ethicon、其他竞品怎么选？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUnUfpfWa",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 6760,
+        "completion_tokens": 642,
+        "total_tokens": 7402,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5992
+      },
+      "analyzed_at": "2026-05-28T04:09:55.718Z",
+      "local_signals": {
+        "answerLength": 4014,
+        "brandTermTotal": 27,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 20
+          },
+          {
+            "term": "Medtronic",
+            "count": 2
+          },
+          {
+            "term": "LigaSure",
+            "count": 3
+          },
+          {
+            "term": "Valleylab",
+            "count": 1
+          },
+          {
+            "term": "Crome",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 16,
+        "officialReferenceCount": 1,
+        "referenceSources": [
+          {
+            "source": "今日头条",
+            "title": "全球腹腔镜吻合器市场稳步增长,2033年规模有望达到31.7亿美元 - 今日头条",
+            "snippet": "腹腔镜吻合器竞争格局分析 在全球腹腔镜吻合器领域,Ethicon(强生)与Medtronic(美敦力..."
+          },
+          {
+            "source": "买购网",
+            "title": "Ethicon品牌介绍-爱惜康超声刀_高频电刀-买购APP",
+            "snippet": "具有位移大､工作频率稳定､工作功率适中等特点｡Ethicon的超声刀产品种类多､型号齐,能够满足不同..."
+          },
+          {
+            "source": "·MedTF医瞰科技",
+            "title": "中国智造破局欧洲:Reach Surgical动力吻合器获CE认证",
+            "snippet": "公众号 美敦力Signia:智能感应的先行者 美敦力的Signia系统是目前动力吻合器领域商业化最成熟的产品..."
+          },
+          {
+            "source": "·进口医疗器械耗材",
+            "title": "缝线双雄对决:强生 vs. 柯惠,谁才是外科医生的“心头好”?",
+            "snippet": "公众号 作为外科医生最基础的武器,缝合线的选择直接关系到手术的成败与患者的康复｡长期以来,全球缝合线市场形成..."
+          },
+          {
+            "source": "sanoplast.de",
+            "title": "Ethicon:强生公司的缝合线与伤口闭合产品",
+            "snippet": "Ethicon的缝合线产品组合涵盖所有相关类别:可吸收和不可吸收､单股和多股｡可吸收缝合线 Vicr..."
+          },
+          {
+            "source": "·MedRobot",
+            "title": "强生吻合器获欧盟认证,先于机器人进入欧洲",
+            "snippet": "公众号 强生吻合器获欧盟认证,先于机器人进入欧洲｡ 竞争参照 主要外科吻合器平台与机器人兼容情况对比(20..."
+          },
+          {
+            "source": "东方财富网",
+            "title": "功能性缝合线市场报告:预计2031年全球市场规模将达到5.7亿美元_财富号评论(cfhpl)股吧_东方财富网股吧",
+            "snippet": "在功能性缝合线领域,强生通过其Ethicon品牌占据全球市场领导地位,提供从传统丝线到尖端生物材料缝..."
+          },
+          {
+            "source": "tenmed.net",
+            "title": "美国强生ETHICON ECH45C/S/L电动腔镜直线型切割吻合器",
+            "snippet": "购买热线:+86-21-54286005 ECHELON ™ 3000 电动腔镜直线型切割吻合器 产品代码: EC..."
+          },
+          {
+            "source": "medteccn.com",
+            "title": "高端医疗设备展共研腔镜吻合器设计趋势: ECHELON 3000:强生推出最新一代电动腔镜吻合器 >57°转角",
+            "snippet": "以便更好地接触狭窄空间中的组织,如胸腔｡作为一名胸科医生,这些对可信吻合器的新增强可能会带来更无缝､更高效的手术体验｡"
+          },
+          {
+            "source": "腾讯网",
+            "title": "强生医疗科技推出3D手术吻合器",
+            "snippet": "Ethicon 4000相比传统2D吻合器减少了23%的出血相关干预需求,缝合线完整性提升40%,渗..."
+          },
+          {
+            "source": "tenmed.net",
+            "title": "美国强生ETHICON HAR745超声高频外科集成系统超声刀头",
+            "snippet": "HARMONIC 700 超声高频外科集成系统超声刀头 产品代码: HAR745 HARMONIC..."
+          },
+          {
+            "source": "界面新闻",
+            "title": "2024微创外科行业白皮书:技术创新加速国产化,九大细分领域竞争升级",
+            "snippet": "强生､美敦力凭借其技术先发优势与较高水平的产品质量主导国内吻合器市场,尤其是电动腔镜吻合器市场｡强生..."
+          },
+          {
+            "source": "环球医疗器械网",
+            "title": "北京安邦合众供应链管理服务有限公司",
+            "snippet": "本项研究通过肥胖患者的腹腔镜胃袖状切除术比较了带有美敦力的SIGNIA智能吻合器和Echelon电动吻合器｡SIG..."
+          },
+          {
+            "source": "今日头条",
+            "title": "外科器械巨头强生&美敦力的百年启示 - 今日头条",
+            "snippet": "薇乔(Vicryl)可吸收缝线､普迪思(PDS)长效可吸收缝线､抗菌薇乔缝线､免打结的倒刺缝线..."
+          },
+          {
+            "source": "·进口医疗器械耗材",
+            "title": "缝线双雄对决:强生 vs. 柯惠,谁才是外科医生的“心头好”?",
+            "snippet": "公众号 在外科手术的世界里,每一根缝线都承载着愈合的希望｡作为外科医生最基础的武器,缝合线的选择直接关系到手..."
+          },
+          {
+            "source": "medicalexpo.com.cn",
+            "title": "Ethicon Endo Surgery/爱惜康内镜外科疝补片",
+            "snippet": "查看全部产品 Dipromed 联系我们 腹股沟疝补片 FBIO series ... 不可吸收的顶..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q10",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 75,
+        "total_score": 80
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌专有词组出现18次，LigaSure 9次，Tri-Staple 5次，Valleylab 3次，美敦力1次，覆盖主要产品线，位置靠前。",
+        "important_terms_present": [
+          "美敦力",
+          "LigaSure",
+          "Valleylab",
+          "Tri-Staple"
+        ],
+        "important_terms_missing": [
+          "缝合与疝修补产品具体名称如MaxTack",
+          "美敦力疝修补片"
+        ],
+        "product_assets_covered": [
+          "LigaSure",
+          "Valleylab",
+          "Tri-Staple",
+          "MaxTack"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "LigaSure用于血管闭合",
+          "Valleylab电外科工作站",
+          "Tri-Staple吻合器",
+          "MaxTack疝固定装置"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力缝合线产品",
+          "疝修补片具体型号"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "MAUDE数据库报告",
+          "荟萃分析引用但未提供具体来源"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方临床数据引用",
+          "未引用FDA或NMPA批准文件"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "经过临床验证",
+          "全球广泛应用",
+          "安全性高",
+          "减少术后引流量"
+        ],
+        "negative_or_risk_claims": [
+          "血清肿风险",
+          "吻合口漏风险",
+          "电外科热损伤风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "未明确排名，但作为主要推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议与主治医生深入沟通",
+          "提供了术后注意事项"
+        ]
+      },
+      "summary": "回答全面覆盖美敦力产品安全性、副作用、替代方案和术后注意事项，认知准确，但证据来源缺乏官方引用，推荐转化力中等。",
+      "dashboard_takeaway": "品牌可见度高，认知准确，但证据纳入度因缺乏官方来源而偏低，需加强权威证据引用以提升信任。",
+      "improvement_actions": [
+        "引用美敦力官方临床研究或FDA批准信息",
+        "补充缝合与疝修补产品具体名称",
+        "减少对MAUDE等噪音源的依赖"
+      ],
+      "prompt": "医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2343,
+        "completion_tokens": 680,
+        "total_tokens": 3023,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1575
+      },
+      "analyzed_at": "2026-05-28T04:10:02.849Z",
+      "local_signals": {
+        "answerLength": 2354,
+        "brandTermTotal": 18,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 1
+          },
+          {
+            "term": "LigaSure",
+            "count": 9
+          },
+          {
+            "term": "Valleylab",
+            "count": 3
+          },
+          {
+            "term": "Tri-Staple",
+            "count": 5
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q10",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 80,
+        "total_score": 88
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词共29次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "LigaSure",
+          "Valleylab",
+          "Tri-Staple"
+        ],
+        "important_terms_missing": [],
+        "product_assets_covered": [
+          "LigaSure血管闭合系统",
+          "Valleylab电刀能量平台",
+          "Tri-Staple切割吻合器",
+          "疝修补补片",
+          "缝合材料"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "LigaSure用于血管闭合",
+          "Valleylab电刀能量平台",
+          "Tri-Staple切割吻合器",
+          "疝修补补片",
+          "缝合材料"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": []
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 20,
+        "official_sources_used": [
+          "medtronic.com",
+          "pubmed.gov",
+          "PMC"
+        ],
+        "noisy_or_weak_sources": [
+          "复禾健康",
+          "博禾医生",
+          "丁香园生物医药科技网"
+        ],
+        "evidence_gaps": [
+          "缺少美敦力疝补片的具体临床研究引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "安全性良好",
+          "减少术中出血",
+          "提高吻合质量",
+          "缩短手术时间"
+        ],
+        "negative_or_risk_claims": [
+          "热灼伤风险",
+          "吻合口漏风险",
+          "补片感染风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "主流品牌，推荐使用",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "提供了详细术后注意事项",
+          "建议与医生沟通具体术式",
+          "鼓励进一步提问"
+        ]
+      },
+      "summary": "回答全面覆盖美敦力产品线，安全性评价中肯，引用官方和学术来源，推荐转化力强，但部分来源噪音略高。",
+      "dashboard_takeaway": "品牌可见度高，认知准确，证据扎实，推荐积极。建议优化低质来源，强化补片临床数据。",
+      "improvement_actions": [
+        "增加美敦力疝补片官方临床研究引用",
+        "减少非权威健康网站引用",
+        "补充竞品对比的客观数据"
+      ],
+      "prompt": "医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUvwf4AQS",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5895,
+        "completion_tokens": 642,
+        "total_tokens": 6537,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5127
+      },
+      "analyzed_at": "2026-05-28T04:10:09.034Z",
+      "local_signals": {
+        "answerLength": 4197,
+        "brandTermTotal": 29,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 1
+          },
+          {
+            "term": "Medtronic",
+            "count": 7
+          },
+          {
+            "term": "LigaSure",
+            "count": 10
+          },
+          {
+            "term": "Valleylab",
+            "count": 3
+          },
+          {
+            "term": "Tri-Staple",
+            "count": 8
+          }
+        ],
+        "referenceItemCount": 18,
+        "officialReferenceCount": 6,
+        "referenceSources": [
+          {
+            "source": "pubmed.gov",
+            "title": "Ligasure impact might reduce blood loss, complications, and re-operation occurrence after abdominoplasty in massive-weight-loss patients: A Comparative Study - PubMed",
+            "snippet": "Ligasure impact™ might reduce blood loss, complica..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Indications, Safety, and Warnings - Cardiac Ablation (Surgical)",
+            "snippet": "pen Cardioblate XL surgical ablation pen Valleylab。"
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Signia circular stapler with Tri-Staple technology",
+            "snippet": "stapler with Tri-Staple™ technology Powered staple..."
+          },
+          {
+            "source": "复禾健康",
+            "title": "腹腔镜下无张力疝修补术",
+            "snippet": "补片与组织融合通常需要3个月,期间需定期复查｡术后需保持切口干燥清洁,遵医嘱使用头孢呋辛酯片预防感染..."
+          },
+          {
+            "source": "PMC",
+            "title": "Complications associated with energy‐based devices during thyroidectomy from 2010–2020",
+            "snippet": "Harmonic,LigaSure,Manufacture and User Facility Device Experience,Patient safety,Quality,Thunderbeat,Thyroidectomy INTRODUCTION Within the United Stat..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Don't compromise on staple lines in robotic surgery",
+            "snippet": "Tri-Staple™ tecnology Better Staple formation1,*,..."
+          },
+          {
+            "source": "·岳阳市四人民医院",
+            "title": "【成人疝健康科普四】腹腔镜腹股沟疝修补术后注意事项",
+            "snippet": "公众号 腹腔镜腹股沟疝修补术(微创手术)相比传统开放手术,创伤小,恢复快,住院时间短｡但并不意味着术后就万事..."
+          },
+          {
+            "source": "中华医学网",
+            "title": "疝外科缝合技术与缝合材料选择中国专家共识(2018版)解读",
+            "snippet": "组织修补避免 张力过大､缝合撕裂 ｡感染 :感染切口 禁用不可吸收合成补片 ;严格无菌操作,可吸收..."
+          },
+          {
+            "source": "SpringerLink",
+            "title": "A Comparison of the LigaSure and Harmonic Scalpel in Thyroid Surgery: A Single Institution Review",
+            "snippet": "Harmonic scalpel significantly decreased operative time for both thyroidectomies and thyroid lobectomies compared with the LigaSure device. Introducti..."
+          },
+          {
+            "source": "丁香园生物医药科技网",
+            "title": "你真的了解疝补片吗?",
+            "snippet": "肠瘘等严重并发症｡随着腹腔镜疝修补技术的广泛开展,肠管与补片的粘连值得关注｡TAPP 或 TEP 手..."
+          },
+          {
+            "source": "博禾医生",
+            "title": "腹腔镜疝气补片多久牢固",
+            "snippet": "腹腔镜 疝气补片一般在术后1-3个月达到初步牢固,完全牢固并与组织融合需要3-6个月｡腹腔镜疝气修补..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Signia stapling system",
+            "snippet": "with Tri-Staple™ technology provides better staple..."
+          },
+          {
+            "source": "PMC",
+            "title": "Ligasure Impact to Reduce Complications After Abdominoplasty: A Meta-Analysis of Comparative Studies",
+            "snippet": "LigaSure Impact™ (LS) vessel-sealing system (Medtr..."
+          },
+          {
+            "source": "·中华消化外科杂志",
+            "title": "专家论坛生物补片在疝和腹壁外科应用中的争议与展望——申鼎成 陈志杰 曹昕彤等",
+            "snippet": "公众号 尤其在复杂的污染或感染性腹壁缺损､造口旁疝等高风险患者中,被视为解决合成补片禁忌的理想替代物｡完美的疝修补补片需同..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Tackle variable tissue with confidence",
+            "snippet": "outcomes Reinforced reloads with Tri-Staple™ techn..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "BiZact tonsillectomy device",
+            "snippet": "BiZact™ tonsillectomy device｡Open tonsillectomy de..."
+          },
+          {
+            "source": "上海交通大学",
+            "title": "疝修补材料的研究进展及展望",
+            "snippet": "该研究显示聚丙烯/聚四氟乙烯复合补片安全有效,具有良好的短期和中期疗效｡美国强生公司生产的轻量级疝修补材料Vypr..."
+          },
+          {
+            "source": "·联勤保障部队第945医院",
+            "title": "【健康科普】腹腔镜下腹股沟疝修补手术后宣教",
+            "snippet": "公众号 02术后注意事项我院普通外科常规开展微创腹腔镜疝修补手术数年,为广大的军､地患者进行该项手术,均取得..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q11",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 40,
+        "recommendation_conversion": 75,
+        "total_score": 73
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词16次，Hugo RAS出现2次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Hugo RAS",
+          "数字手术"
+        ],
+        "important_terms_missing": [
+          "美敦力外科",
+          "手术机器人"
+        ],
+        "product_assets_covered": [
+          "Hugo RAS",
+          "数字手术"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "经销商资质要求",
+          "区域保护",
+          "培训合规",
+          "售后责任"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": []
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 80,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "9个网页未明确来源",
+          "引用标注无具体链接"
+        ],
+        "evidence_gaps": [
+          "缺少美敦力官方经销商政策文件",
+          "缺少合规热线验证"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "门槛高，需深度投入",
+          "提供严格区域保护",
+          "培训体系完善"
+        ],
+        "negative_or_risk_claims": [
+          "违规代价高，曾因垄断被罚1.185亿元",
+          "违约金按中标价3倍"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "高端手术机器人经销商首选",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议准备质量手册",
+          "组建专业团队",
+          "联系官方渠道"
+        ]
+      },
+      "summary": "回答全面覆盖经销商资质、区域保护、培训合规及售后责任，品牌词高频，认知准确，但证据来源不明，噪音高。",
+      "dashboard_takeaway": "AI对美敦力经销商体系理解深入，但缺乏官方引用，需加强证据可信度以提升推荐转化。",
+      "improvement_actions": [
+        "引用美敦力官方经销商政策文件",
+        "提供合规热线验证",
+        "减少模糊网页引用"
+      ],
+      "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1941,
+        "completion_tokens": 573,
+        "total_tokens": 2514,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1173
+      },
+      "analyzed_at": "2026-05-28T04:10:15.154Z",
+      "local_signals": {
+        "answerLength": 1635,
+        "brandTermTotal": 18,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 16
+          },
+          {
+            "term": "Hugo",
+            "count": 1
+          },
+          {
+            "term": "Hugo RAS",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q11",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 80,
+        "total_score": 88
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词覆盖全面",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Hugo RAS",
+          "Touch Surgery",
+          "Hugo"
+        ],
+        "important_terms_missing": [],
+        "product_assets_covered": [
+          "Hugo RAS",
+          "Touch Surgery",
+          "数字手术"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Hugo RAS机器人辅助手术系统",
+          "Touch Surgery数字手术平台",
+          "经销商质量指南",
+          "商业合作伙伴合规指南"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": []
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 15,
+        "official_sources_used": [
+          "medtronic.com",
+          "news.medtronic.com"
+        ],
+        "noisy_or_weak_sources": [
+          "网易",
+          "公众号"
+        ],
+        "evidence_gaps": [
+          "缺少具体经销商利润数据"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "美敦力提供分级培训",
+          "售后责任划分清晰",
+          "合规要求严格"
+        ],
+        "negative_or_risk_claims": [
+          "Hugo RAS在华注册进度影响代理开放"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "提供实操建议",
+          "可协助整理预审资料清单"
+        ]
+      },
+      "summary": "回答全面覆盖经销商资质、区域保护、培训、合规和售后，引用官方指南，评价积极，推荐转化力强。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据扎实，推荐转化力强，整体表现优秀。",
+      "improvement_actions": [
+        "补充经销商利润空间信息",
+        "减少非权威来源引用"
+      ],
+      "prompt": "成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVV3Vef1xQ",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5671,
+        "completion_tokens": 541,
+        "total_tokens": 6212,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4903
+      },
+      "analyzed_at": "2026-05-28T04:10:20.806Z",
+      "local_signals": {
+        "answerLength": 3849,
+        "brandTermTotal": 64,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 31
+          },
+          {
+            "term": "Medtronic",
+            "count": 8
+          },
+          {
+            "term": "Hugo",
+            "count": 14
+          },
+          {
+            "term": "Hugo RAS",
+            "count": 8
+          },
+          {
+            "term": "Touch Surgery",
+            "count": 3
+          }
+        ],
+        "referenceItemCount": 12,
+        "officialReferenceCount": 8,
+        "referenceSources": [
+          {
+            "source": "medtronic.com",
+            "title": "Quality guidelines for distributors - Chinese",
+            "snippet": "经销商质量和监管培训 美敦力机密 质量和法规要求 产品存储 产品根据状态需要分区域管理｡储存环境应能..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Channel Partners 商业合作伙伴合规指南",
+            "snippet": "本指南规定了美敦力对开展业务的要求与标准,适用于推广和销售美敦 力产品的所有授权代理商､经销商和经销商｡美敦力要求..."
+          },
+          {
+            "source": "news.medtronic.com",
+            "title": "Medtronic announces FDA clearance of Hugo robotic-assisted surgery system for urologic surgical procedures - Dec 3, 2025",
+            "snippet": "urologic surgical procedures Hugo RAS system bring。"
+          },
+          {
+            "source": "四川大学华西医院",
+            "title": "神经外科-美敦力动力系统附件保修服务市场调研(第二轮)",
+            "snippet": "3､经营企业的医疗器械经营许可证或医疗器械经营备案凭证,销售一类医疗器械可不提供(仅针对医疗..."
+          },
+          {
+            "source": "网易",
+            "title": "达芬奇全球装机量破万!美敦力目标是第二",
+            "snippet": "引入美敦力Hugo机器人的医疗机构｡2023年10月,在第六届进博会上,美敦力表示Hugo RAS机器人辅助手术系..."
+          },
+          {
+            "source": "重庆市市场监督管理局",
+            "title": "《医疗器械经营监督管理办法》(国家食品药品监督管理总局令第8号)",
+            "snippet": "(五)具备与经营的医疗器械相适应的专业指导､技术培训和售后服务的能力,或者约定由相关机构提供技术支持..."
+          },
+          {
+            "source": "北京市药监局",
+            "title": "北京市药品监督管理局关于印发《北京市进口医疗器械境内代理人监督管理办法(试行)》的通知",
+            "snippet": "制定本办法｡第二章 代理人的管理 第六条 从事进口医疗器械代理活动,应当具备下列条件: (一)有与代..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Elevate your robotic surgery training.",
+            "snippet": "their surgical programs. For the Hugo™ RAS system..."
+          },
+          {
+            "source": "广州医科大学附属第二医院",
+            "title": "报名要求 一､供应商资质: 1.具有独立法人资格,有固定的办公和工作场地,能独立承担法律责任;2.具...",
+            "snippet": "报名要求"
+          },
+          {
+            "source": "宿迁市人民政府",
+            "title": "关于加强医疗器械经营许可备案工作的通知",
+            "snippet": "现就医疗器械经营许可备案有关事项通知如下: 一､关于质量管理体系要求 (一)医疗器械经营企业(以下称..."
+          },
+          {
+            "source": "·现代仪器与医疗杂志",
+            "title": "行业研报 | 一文盘点美敦力手术机器人布局",
+            "snippet": "公众号 亿卢比(约26亿人民币)新扩建了海得拉巴(Hyderabad)的研发机构｡2024年5月,美敦力启动 Hugo 机..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Governance",
+            "snippet": "diversity Supplier quality Supplier standards and policies Resources for suppliers California transparency in supply chain act statement Medtronic Sup..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q12",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 70,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 30,
+        "recommendation_conversion": 60,
+        "total_score": 61
+      },
+      "brand_terms": {
+        "frequency_assessment": "美敦力出现9次，MiniMed 1次，但未提及Guardian、SmartGuard等核心产品线术语",
+        "important_terms_present": [
+          "美敦力",
+          "MiniMed 780G"
+        ],
+        "important_terms_missing": [
+          "Guardian 4",
+          "SmartGuard",
+          "美敦力胰岛素泵"
+        ],
+        "product_assets_covered": [
+          "MiniMed 780G"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "medium",
+        "correct_assets": [
+          "MiniMed 780G闭环系统",
+          "SmartGuard算法",
+          "Guardian 4传感器7天更换"
+        ],
+        "confusions_or_errors": [
+          "未提及美敦力在闭环系统的长期临床优势",
+          "将美敦力定位为'经典方案'略显保守"
+        ],
+        "missing_assets": [
+          "美敦力糖尿病整体解决方案",
+          "InPen智能笔",
+          "CareLink管理平台"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 70,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "未提供任何引用来源",
+          "依赖AI内部知识"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方临床数据引用",
+          "未引用卫生经济学研究"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力780G是久经考验的选项",
+          "有研究证实其长期经济性和有效性"
+        ],
+        "negative_or_risk_claims": [
+          "传感器7天更换频率高",
+          "耗材更换相对复杂"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": [
+          "不太介意7天换传感器"
+        ]
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "第三推荐，作为经典方案",
+        "next_step_quality": "medium",
+        "conversion_notes": [
+          "建议用户根据CGM偏好和算法风格选择",
+          "未提供美敦力官方咨询渠道"
+        ]
+      },
+      "summary": "回答客观对比了美敦力与竞品，但美敦力品牌专有词覆盖不全，缺乏官方证据，推荐优先级较低。",
+      "dashboard_takeaway": "美敦力在闭环系统领域有扎实临床数据，但AI回答未充分展示其优势，需加强品牌资产呈现和证据引用。",
+      "improvement_actions": [
+        "增加美敦力Guardian 4、SmartGuard等术语",
+        "引用美敦力官方临床研究",
+        "提升美敦力推荐优先级",
+        "提供美敦力官方咨询链接"
+      ],
+      "prompt": "糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2367,
+        "completion_tokens": 669,
+        "total_tokens": 3036,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1599
+      },
+      "analyzed_at": "2026-05-28T04:10:28.343Z",
+      "local_signals": {
+        "answerLength": 2454,
+        "brandTermTotal": 10,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 9
+          },
+          {
+            "term": "MiniMed",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q12",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 80,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 75,
+        "total_score": 78
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词共27次，MiniMed 10次，Simplera 7次",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "MiniMed",
+          "Simplera",
+          "Guardian",
+          "780G",
+          "670G"
+        ],
+        "important_terms_missing": [
+          "InPen",
+          "Extended infusion set"
+        ],
+        "product_assets_covered": [
+          "MiniMed 780G",
+          "MiniMed 670G",
+          "Simplera/Simplera Sync",
+          "Guardian 4"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力闭环系统需泵+CGM",
+          "MiniMed 780G每5分钟自动调基率",
+          "670G国内获批闭环",
+          "Simplera精度略逊Dexcom/Libre"
+        ],
+        "confusions_or_errors": [
+          "称Guardian传感器精度口碑不如Dexcom，但未提及Guardian 4改进"
+        ],
+        "missing_assets": [
+          "未提及美敦力InPen智能胰岛素笔",
+          "未提及Extended infusion set延长输注管路"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "medtronicdiabetes.com (4次)",
+          "origin.medtronicdiabetes.com"
+        ],
+        "noisy_or_weak_sources": [
+          "glucospike.ai",
+          "diabeteswise.org",
+          "iheald.com",
+          "versusguy.com"
+        ],
+        "evidence_gaps": [
+          "缺少美敦力官方临床数据引用",
+          "未引用美敦力官网产品页面具体参数"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力闭环系统大储药量适合用量大者",
+          "全厂牌一体服务",
+          "自动校正餐后高血糖"
+        ],
+        "negative_or_risk_claims": [
+          "Guardian传感器精度口碑不如Dexcom",
+          "需每7天换传感器",
+          "国内670G获批780G未正式上市"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": [
+          "Guardian传感器精度口碑不如Dexcom",
+          "需每7天换传感器"
+        ]
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "第二选择（在Tandem/Dexcom之后）",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议用户根据胰岛素用量、国内渠道、偏好选择",
+          "推荐咨询内分泌科医生"
+        ]
+      },
+      "summary": "回答全面对比了美敦力与竞品，品牌词高频，认知准确，但证据来源含噪音，推荐转化力中等。",
+      "dashboard_takeaway": "美敦力在闭环泵领域被列为可行选项，但传感器精度和更换频率被指为短板，需加强官方证据。",
+      "improvement_actions": [
+        "增加美敦力官方临床数据引用",
+        "补充Guardian 4精度改进信息",
+        "提及InPen等产品线",
+        "减少非权威来源依赖"
+      ],
+      "prompt": "糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVBoZ0yzR",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5526,
+        "completion_tokens": 776,
+        "total_tokens": 6302,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4758
+      },
+      "analyzed_at": "2026-05-28T04:10:36.391Z",
+      "local_signals": {
+        "answerLength": 5172,
+        "brandTermTotal": 44,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 13
+          },
+          {
+            "term": "Medtronic",
+            "count": 14
+          },
+          {
+            "term": "MiniMed",
+            "count": 10
+          },
+          {
+            "term": "Simplera",
+            "count": 7
+          }
+        ],
+        "referenceItemCount": 14,
+        "officialReferenceCount": 0,
+        "referenceSources": [
+          {
+            "source": "glucospike.ai",
+            "title": "Best CGM 2026: Dexcom vs Libre vs Stelo vs Libre Rio — Ranked by MARD Accuracy and Cost",
+            "snippet": "Abbott ecosystem fans Medtronic Simplera Higher MARD (less accurate vs.Dexcom/Libre) No $250+ 7 days Existing Medtronic MiniMed 780G pump users only Q..."
+          },
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "Medtronic Diabetes",
+            "snippet": "with Instinct sensor,made by Abbott MiniMed™ 780G..."
+          },
+          {
+            "source": "大众健康报科普网",
+            "title": "胰岛素闭环输注系统介绍",
+            "snippet": "三:主流系统深度解析美敦力MiniMed系列:670G是国内唯一获批的闭环产品,但操作较复杂｡其升级..."
+          },
+          {
+            "source": "diabeteswise.org",
+            "title": "Dexcom G6 & Tandem vs Freestyle Libre 3 & Medtronic Pump - Unbias Comparison » DiabetesWise",
+            "snippet": "Android smartphone. Sensor & Pump Freestyle Libre 3 & Medtronic Pump These devices do not connect but they each have their merits.The Freestyle Libre..."
+          },
+          {
+            "source": "waltzingthedragon.ca",
+            "title": "The Best CGM/Flash? compare sensor glucose systems",
+            "snippet": "three companies providing CGM and Flash systems in Canada: (in alphabetical order) Abbott Diabetes Care: Freestyle Libre 2 Dexcom: G7 CGM (Continuous..."
+          },
+          {
+            "source": "origin.medtronicdiabetes.com",
+            "title": "MiniMed 780G insulin pump system",
+            "snippet": "MiniMed™ 780G system components Continuous glucose..."
+          },
+          {
+            "source": "diabeteswise.org",
+            "title": "Device Finder - Dexcom G7 vs DIY Loop",
+            "snippet": "Dexcom G6 and the Omnipod or Medtronic pumps. Information about DIY Loop can be found on the Loop or Riley Link websites. Components Dexcom G7 : Senso..."
+          },
+          {
+            "source": "iheald.com",
+            "title": "Best CGM for Type 2 Diabetes: Stelo vs Dexcom vs Libre",
+            "snippet": "CGM experience: Dexcom G7 (strong alert ecosystem;longer-wear options are emerging). Best for value and wide availability: FreeStyle Libre (strong acc..."
+          },
+          {
+            "source": "doctronic.ai",
+            "title": "Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison",
+            "snippet": "Freestyle Libre 3 Vs Dexcom G7: 2026 CGM Comparison Medically reviewed by Lauren Okafor | MD,The Frank H Netter MD School of Medicine,Loyola Universit..."
+          },
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "Not all insulin pumps are created equal",
+            "snippet": "with Dexcom G7® Tandem Control IQ with Dexcom G7®..."
+          },
+          {
+            "source": "tcoyd.org",
+            "title": "Automated Insulin Delivery (AID) Systems: Which One Is Right for You?",
+            "snippet": "disposal CGM Integration Compatible with Abbotts FreeStyle Libre 3 Plus sensor Integrated with Eversense 365.Pros Sophisticated algorithm Small,light..."
+          },
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "Don’t let your current diabetes technology hold you back from leveling up!",
+            "snippet": "systems Insulin delivery systems MiniMed™ 780G sys..."
+          },
+          {
+            "source": "integrateddiabetes.com",
+            "title": "Hybrid Closed Loop Comparisons & Options for controlling diabetes",
+            "snippet": "insurances. YOURS.Hybrid Closed Loop OPTIONS The current commercially available systems include the Medtronic 670G and Tandem X2 with Control IQ. Med..."
+          },
+          {
+            "source": "versusguy.com",
+            "title": "Dexcom Vs Freestyle Libre: Which Cgm Wins? - VersusGuy.com",
+            "snippet": "(Scanning) freestyle libre Sensor Warm-up Time dexcom (G7) Cost-Effectiveness (without insurance) freestyle libre Overall Feature Set dexcom Discreetn..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q13",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 75,
+        "total_score": 80
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌专有词出现15次，位置靠前，覆盖主要产品线",
+        "important_terms_present": [
+          "美敦力",
+          "MiniMed",
+          "Simplera",
+          "CareLink"
+        ],
+        "important_terms_missing": [
+          "美敦力糖尿病管理",
+          "SmartGuard"
+        ],
+        "product_assets_covered": [
+          "MiniMed 780G",
+          "Simplera传感器",
+          "CareLink软件",
+          "Simplera Sync",
+          "Guardian系列"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "MiniMed 780G自动闭环",
+          "Simplera传感器佩戴部位",
+          "CareLink远程监测",
+          "SmartGuard技术"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力糖尿病管理整体方案",
+          "InPen智能笔"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "FDA",
+          "美敦力官方资料"
+        ],
+        "noisy_or_weak_sources": [
+          "FDA不良事件数据库",
+          "产品召回公告"
+        ],
+        "evidence_gaps": [
+          "缺乏临床研究数据",
+          "未引用美敦力官方说明书"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "系统功能强大",
+          "核心功能有效",
+          "已获FDA批准"
+        ],
+        "negative_or_risk_claims": [
+          "皮肤刺激",
+          "设备故障",
+          "药物干扰",
+          "产品召回"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": [
+          "并非零风险",
+          "绝对禁区",
+          "严格红线"
+        ]
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "推荐但需谨慎评估风险",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议与医生确认药物兼容性",
+          "要求操作培训",
+          "权衡自动化需求与风险"
+        ]
+      },
+      "summary": "回答全面客观，准确介绍美敦力系统安全性、副作用及替代方案，但缺乏官方引用，风险描述可能削弱信心。",
+      "dashboard_takeaway": "品牌可见度高，认知准确，证据中等，推荐转化力良好，需加强官方证据和风险平衡。",
+      "improvement_actions": [
+        "增加美敦力官方说明书引用",
+        "补充临床研究数据",
+        "弱化风险描述中的负面措辞",
+        "突出美敦力品牌优势"
+      ],
+      "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+      "source_url": "https://chat.deepseek.com/a/chat/s/c66b9163-92cf-4ebd-aaf0-1492aede9c67",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1962,
+        "completion_tokens": 636,
+        "total_tokens": 2598,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1194
+      },
+      "analyzed_at": "2026-05-28T04:10:43.186Z",
+      "local_signals": {
+        "answerLength": 1762,
+        "brandTermTotal": 15,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 4
+          },
+          {
+            "term": "CareLink",
+            "count": 2
+          },
+          {
+            "term": "MiniMed",
+            "count": 3
+          },
+          {
+            "term": "Simplera",
+            "count": 6
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q13",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 75,
+        "recommendation_conversion": 85,
+        "total_score": 86
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词共38次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "MiniMed",
+          "Simplera",
+          "CareLink"
+        ],
+        "important_terms_missing": [],
+        "product_assets_covered": [
+          "MiniMed 780G",
+          "Simplera Sync",
+          "CareLink",
+          "Guardian 4"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "MiniMed 780G是混合闭环系统",
+          "Simplera Sync是CGM",
+          "CareLink是数据管理软件",
+          "获NMPA/FDA批准"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "未提及美敦力其他泵如630G/670G",
+          "未提及Simplera非Sync版本"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "medtronicdiabetes.com",
+          "medtronic.com",
+          "fda.innolitics.com"
+        ],
+        "noisy_or_weak_sources": [
+          "网易（召回新闻）",
+          "diabetesnet.com（第三方对比）",
+          "diabeteswise.org（第三方工具）"
+        ],
+        "evidence_gaps": [
+          "缺乏中国本土临床数据",
+          "副作用发生率未量化"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "安全性经长期临床验证",
+          "有效提升TIR降低HbA1c",
+          "获多国药监批准"
+        ],
+        "negative_or_risk_claims": [
+          "胰岛素输注中断可致DKA",
+          "过量输注可致严重低血糖",
+          "CGM读数偏差风险",
+          "召回案例"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "未明确排名，但作为主要推荐方案",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议接受培训",
+          "提供替代方案对比",
+          "鼓励咨询医生"
+        ]
+      },
+      "summary": "回答全面覆盖美敦力糖尿病管理系统安全性、副作用及替代方案，品牌词高频且准确，引用官方和第三方来源，评价中肯，推荐转化力强。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据中等，推荐积极。需注意召回新闻可能影响信任，但整体未劝退客户。",
+      "improvement_actions": [
+        "增加中国本土临床数据引用",
+        "量化副作用发生率",
+        "补充美敦力其他泵型号信息"
+      ],
+      "prompt": "医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVJowcJPs",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5682,
+        "completion_tokens": 686,
+        "total_tokens": 6368,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4914
+      },
+      "analyzed_at": "2026-05-28T04:10:50.543Z",
+      "local_signals": {
+        "answerLength": 4376,
+        "brandTermTotal": 38,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 11
+          },
+          {
+            "term": "Medtronic",
+            "count": 4
+          },
+          {
+            "term": "CareLink",
+            "count": 4
+          },
+          {
+            "term": "MiniMed",
+            "count": 12
+          },
+          {
+            "term": "Simplera",
+            "count": 7
+          }
+        ],
+        "referenceItemCount": 15,
+        "officialReferenceCount": 2,
+        "referenceSources": [
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "MiniMed Flex system is FDA cleared",
+            "snippet": "MiniMed Flex™ system is FDA cleared｡For additional..."
+          },
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "MiniMed 780G 系统用户指南 Medtron",
+            "snippet": "对于不愿或无法查看血糖仪读数的患者,不建议使用胰岛素泵疗法｡!(/f87c9bb945b9e3a80..."
+          },
+          {
+            "source": "omnipod.com",
+            "title": "This website uses cookies",
+            "snippet": "13-week Omnipod 5: 8.2% vs. 7.4%,P180 mg/dL as measured by CGM: ST = 54%,3-mo Omnipod 5 = 34%,P<0.001. Mean time <70 mg/dL as measured by CGM: ST = ."
+          },
+          {
+            "source": "medtronicdiabetes.com",
+            "title": "CareLink Software",
+            "snippet": "CareLink™ Software｡MiniMed TM 630G system with Sma..."
+          },
+          {
+            "source": "网易",
+            "title": "涉785,000台设备!美敦力核心产品 I 级召回",
+            "snippet": "从2023年1月到2024年9月,美敦力在美国收到共的170例高血糖症 >400mg/dL) 和11..."
+          },
+          {
+            "source": "diabetesnet.com",
+            "title": "Best Insulin Pumps of 2026: A Complete Comparison Guide",
+            "snippet": "iLet Dexcom G7 (standard 10-day) Tandem t:slim X2,Tandem Mobi,Omnipod 5 (app),iLet Abbott FreeStyle Libre 2 Plus Omnipod 5 (controller),Tandem t:slim..."
+          },
+          {
+            "source": "大众健康报科普网",
+            "title": "胰岛素闭环输注系统介绍",
+            "snippet": "监测设备兼容性､国内可及性及适用人群｡商业闭环系统 主要包括: 美敦力 MiniMed 780G:属..."
+          },
+          {
+            "source": "fda.innolitics.com",
+            "title": "Simplera Sync Sensor, Guardian 4 Sensor (P250012) — FDA 510(k) Innolitics",
+            "snippet": "510(k) | Innolitics｡MARKETING HISTORYA prior version of the Simplera Sync sensor was approved under P160017/S118 as a component of the MiniMed 780G..."
+          },
+          {
+            "source": "diabeteswise.org",
+            "title": "Device Finder - Omnipod vs Freestyle Libre 14 Day » DiabetesWise",
+            "snippet": "to manually fill the Pod with insulin. Omnipod : Controller Personal Diabetes Manager (PDM) is used to give insulin doses to the pod. Freestyle Libre..."
+          },
+          {
+            "source": "企鹅号",
+            "title": "2023版ADA指南更新!新兴技术用于糖尿病管理的推荐有何变化?",
+            "snippet": "新兴技术用于糖尿病管理的推荐有何变化?｡其中,在2023 ADA指南纳入的AID系统研究证据中,美敦..."
+          },
+          {
+            "source": "diabeteswise.org",
+            "title": "Device Finder - Freestyle Libre 2 vs Omnipod Dash » DiabetesWise",
+            "snippet": "Manually adjusting dosing. Omnipod DASH System allows the user to manually input their blood glucose (BG) readings from any BGM or CGM device of their..."
+          },
+          {
+            "source": "tandemdiabetes.com",
+            "title": "Important Safety Information for t:slim X2 with Basal-IQ Technology Tandem Diabetes Care",
+            "snippet": "e hypoglycemia (low BG) or hyperglycemia (high BG) events. DO NOT use Dexcom G6 CGM in critically ill patients. It is not known how different conditio..."
+          },
+          {
+            "source": "freestyle.abbott",
+            "title": "FreeStyle Libre Systems vs. Dexcom: Compare CGM Systems FreeStyle Libre US",
+            "snippet": "other CGMs6 FreeStyle Libre systems vs. Dexcom G7。"
+          },
+          {
+            "source": "medtronic.com",
+            "title": "致美敦力胰岛素泵用户的安全公告",
+            "snippet": "密切监测您的日常血糖水平并采取适当的应对措施;· 切勿连接任何未经美敦力公司授权的第三方设备或使..."
+          },
+          {
+            "source": "investor.tandemdiabetes.com",
+            "title": "Tandem Diabetes Care Presents Positive Real-World Data from Pediatric Users of t:slim X2 Insulin Pump with Basal-IQ Technology at International Conference Tandem Diabetes Care",
+            "snippet": "future software updates. 3 38 percent smaller than MiniMed 630G and 670G and at least 28 percent smaller than MiniMed 530G,Animas Vibe and Omnipod Sys..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q14",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 70,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 40,
+        "recommendation_conversion": 75,
+        "total_score": 68
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌词出现7次，但CareLink和Touch Surgery各仅1-2次，产品线覆盖不全",
+        "important_terms_present": [
+          "美敦力",
+          "CareLink",
+          "Touch Surgery"
+        ],
+        "important_terms_missing": [
+          "远程随访",
+          "数据分析与培训平台"
+        ],
+        "product_assets_covered": [
+          "CareLink",
+          "Touch Surgery"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "CareLink远程监控",
+          "Touch Surgery手术培训",
+          "5G云随访"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "数据分析与培训平台的具体功能"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 60,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "未提供具体引用来源，仅标注网页编号"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方安全声明或临床研究引用"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "系统安全可靠",
+          "低风险",
+          "官方推荐"
+        ],
+        "negative_or_risk_claims": [
+          "网络依赖",
+          "操作复杂",
+          "数据隐私隐忧"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "美敦力是领导者之一",
+        "next_step_quality": "medium",
+        "conversion_notes": [
+          "建议用户与医生讨论线下随访替代方案",
+          "询问用户具体担忧"
+        ]
+      },
+      "summary": "回答全面评估了美敦力CareLink等工具的安全性、副作用和替代方案，认知准确但缺乏官方证据，推荐倾向正面但未强力推动。",
+      "dashboard_takeaway": "品牌可见度中等，认知准确度高，证据纳入度低，推荐转化力良好。需补充官方来源和更多产品线覆盖。",
+      "improvement_actions": [
+        "增加美敦力官方安全声明引用",
+        "补充数据分析与培训平台的具体信息",
+        "明确提及更多产品线如起搏器、除颤器"
+      ],
+      "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+      "source_url": "https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 2011,
+        "completion_tokens": 584,
+        "total_tokens": 2595,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1243
+      },
+      "analyzed_at": "2026-05-28T04:10:56.604Z",
+      "local_signals": {
+        "answerLength": 1860,
+        "brandTermTotal": 7,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 4
+          },
+          {
+            "term": "CareLink",
+            "count": 2
+          },
+          {
+            "term": "Touch Surgery",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q14",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 90,
+        "total_score": 90
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词和产品词共73次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "CareLink",
+          "Touch Surgery"
+        ],
+        "important_terms_missing": [
+          "数据分析平台",
+          "培训平台"
+        ],
+        "product_assets_covered": [
+          "CareLink",
+          "Touch Surgery",
+          "MyCareLink"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "CareLink远程随访系统",
+          "Touch Surgery模拟培训",
+          "数据安全措施",
+          "替代方案对比"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "具体数据分析平台名称"
+        ]
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 15,
+        "official_sources_used": [
+          "medtronic.com",
+          "europe.medtronic.com",
+          "nice.org.uk",
+          "健康界",
+          "严道医声网"
+        ],
+        "noisy_or_weak_sources": [
+          "cloudywifi.com",
+          "visualfoodie.com",
+          "in.marketscreener.com",
+          "modmed.com"
+        ],
+        "evidence_gaps": [
+          "缺少对数据分析平台的具体安全研究"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "positive",
+        "positive_claims": [
+          "临床安全性高",
+          "数据加密保护",
+          "循证验证",
+          "利大于弊"
+        ],
+        "negative_or_risk_claims": [
+          "早期协议漏洞",
+          "网络依赖",
+          "假阳性警报"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议按医嘱使用",
+          "提供后续咨询"
+        ]
+      },
+      "summary": "回答全面覆盖用户问题，准确阐述美敦力CareLink和Touch Surgery的安全性、副作用及替代方案，引用权威来源，推荐积极，无明显劝退内容。",
+      "dashboard_takeaway": "AI对美敦力品牌认知准确，证据充分，推荐转化力强，但数据分析平台细节缺失，整体表现优秀。",
+      "improvement_actions": [
+        "补充数据分析平台的具体名称和安全性说明",
+        "减少非权威来源引用"
+      ],
+      "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5564,
+        "completion_tokens": 604,
+        "total_tokens": 6168,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4796
+      },
+      "analyzed_at": "2026-05-28T04:11:02.540Z",
+      "local_signals": {
+        "answerLength": 4930,
+        "brandTermTotal": 73,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 13
+          },
+          {
+            "term": "Medtronic",
+            "count": 20
+          },
+          {
+            "term": "CareLink",
+            "count": 32
+          },
+          {
+            "term": "Touch Surgery",
+            "count": 8
+          }
+        ],
+        "referenceItemCount": 23,
+        "officialReferenceCount": 8,
+        "referenceSources": [
+          {
+            "source": "健康界",
+            "title": "心血管植入型电子器械远程随访中国专家共识",
+            "snippet": "可以使用远程随访替代部分IPE｡我国的2012年随访专家共识中也给出了同样的建议｡研究表明,在确保安..."
+          },
+          {
+            "source": "cloudywifi.com",
+            "title": "Unlocking Remote Patient Monitoring: The Medtronic CareLink Network - CloudyWiFi",
+            "snippet": "CareLink Network helps to safeguard patient trust and maintain the integrity of the healthcare system. The Medtronic CareLink Network also implements..."
+          },
+          {
+            "source": "武汉亚洲心脏病医院",
+            "title": "IECD的远程监测系统简介(二)",
+            "snippet": "由于Carelink远程监测系统是临床事件触发式的,需要患者的主动参与,发生特殊的I临床事件时,器械..."
+          },
+          {
+            "source": "严道医声网",
+            "title": "CareLink大咖谈陈柯萍:CareLink安全有效便携,前景不可估量",
+            "snippet": "而且对于医生来说随访负担也减轻｡在第一个阶段,我们主要对比远程监测和常规的随访在安全性方面的差异,结..."
+          },
+          {
+            "source": "visualfoodie.com",
+            "title": "Understanding Medtronic CareLink Security",
+            "snippet": "security is baked into every step of that journey. You Might Also Like: Common Medtronic CareLink Network Issues The Core Pillars of CareLink Security..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Touch Surgery Simulations Medtronic (Europe) Touch Surgery simulations",
+            "snippet": "Touch Surgery™ Simulations | Medtronic (Europe) |..."
+          },
+          {
+            "source": "365医学网",
+            "title": "第31届美国心律协会(HRS)亮点之一——植入器械的远程随访",
+            "snippet": "2008年HRS/EHRA专家共识中指出,CIED中远程监测功能可以用于及早发现CIED工作异常,进而为更好的评估..."
+          },
+          {
+            "source": "europe.medtronic.com",
+            "title": "Important Safety Information MyCareLink Remote Monitoring",
+            "snippet": "CARELINK® NETWORK AND CARELINK® MOBILE APPLICATION..."
+          },
+          {
+            "source": "in.marketscreener.com",
+            "title": "MEDTRONIC : CareLink Network Remote Monitoring Helps Improve Patient Care and Reduce Healthcare Costs MarketScreener India",
+            "snippet": "without remote monitoring. About the Medtronic CareLink Network The Medtronic CareLink Network offers customizable and color-coded alert notifications..."
+          },
+          {
+            "source": "medicaldevice-network.com",
+            "title": "Medtronic reinvents surgical training for a new era - Medical Device Network",
+            "snippet": "Medtronics Touch Surgery app plays in helping democratise surgical training. OB: Our app teaches learners how to safely perform different surgeries."
+          },
+          {
+            "source": "新浪网",
+            "title": "心血管远程监测设备成趋势,百多力、美敦力、雅培谁与争锋?",
+            "snippet": "中国市场远程监测系统厂商现状: 百多力､美敦力､雅培领先 自2009年在中国首次植入具有远 程监护功能的心脏起搏器..."
+          },
+          {
+            "source": "nice.org.uk",
+            "title": "CareLink network service for remote monitoring of people with cardiac devices",
+            "snippet": "CareLink compared with trans-telephonic monitoring。"
+          },
+          {
+            "source": "武汉市市场监督管理局",
+            "title": "(武汉市知识产权局)",
+            "snippet": "从患者的植入式心脏设备向指定的卫生保健诊所(远程监控)远程传输包括重要操作和安全提示在内的数据｡允许..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Elevate your robotic surgery training.",
+            "snippet": "Elevate your robotic surgery training. Indications。"
+          },
+          {
+            "source": "PMC",
+            "title": "Clinical Pathways Guided by Remotely Monitoring Cardiac Device Data: The Future of Device Heart Failure Management?",
+            "snippet": "platform Merlin.net™ CareLink™ LATITUDE™ Home moni..."
+          },
+          {
+            "source": "严道医声网",
+            "title": "CareLink大咖谈刘兴斌:CareLink将为CRT患者带来显著临床获益",
+            "snippet": "编者按: CareLink™是由美敦力公司研发的远程随访系统,将该系统应用于CRT患者的术后管理可带..."
+          },
+          {
+            "source": "安恒信息官网",
+            "title": "【安全资讯】MyCareLink漏洞可使攻击者接管植入的心脏设备",
+            "snippet": "2020-12-17 10:52:30 622人浏览 物联网安全公司Sternum的专家发现,美敦力..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Touch Surgery",
+            "snippet": "Simulationen auf Operationen vor. Touch Surgery is。"
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Remote monitoring for implanted heart devices",
+            "snippet": "Your browser is out of date With an updated browser,you will have a better Medtronic web site experience. Update my browser now. Toggle navigation Rem..."
+          },
+          {
+            "source": "modmed.com",
+            "title": "Modernizing Your Technology Is Beneficial and Essential…But Resist Thinking It Will Be Painless!",
+            "snippet": "By John V. Guiliana,DPM,MS Adopting a new electronic health record is often inevitable as the healthcare environment and its demands continuously chan..."
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q15",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 70,
+        "recommendation_conversion": 80,
+        "total_score": 81
+      },
+      "brand_terms": {
+        "frequency_assessment": "美敦力出现10次，频率高，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Onyx胶",
+          "Aurora EV-ICD",
+          "Mazor X机器人"
+        ],
+        "important_terms_missing": [
+          "心脏起搏器",
+          "胰岛素泵",
+          "脑起搏器"
+        ],
+        "product_assets_covered": [
+          "Onyx胶",
+          "Aurora EV-ICD",
+          "Mazor X机器人",
+          "动力系统",
+          "胰岛素泵"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "Onyx胶用于慢性硬膜下血肿",
+          "Aurora EV-ICD真实世界数据",
+          "Mazor X机器人脊柱手术",
+          "成都创新中心培训基地"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "心脏节律管理",
+          "神经调控",
+          "糖尿病管理"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "第三方服务商信息",
+          "国产竞品数据来源不明"
+        ],
+        "evidence_gaps": [
+          "缺乏美敦力官方价格数据",
+          "售后服务体系官方信息不足"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "美敦力是金标准建立者",
+          "临床证据顶级",
+          "培训体系完善"
+        ],
+        "negative_or_risk_claims": [
+          "采购成本相对较高",
+          "全球价盘调整空间有限"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议根据预算和手术难度选择",
+          "提供决策矩阵帮助用户"
+        ]
+      },
+      "summary": "回答全面对比美敦力与竞品，突出临床证据和培训优势，价格和售后中肯，推荐美敦力为首选但给出竞品适用场景。",
+      "dashboard_takeaway": "美敦力在临床证据和培训上优势明显，但价格和售后需补充官方信息以增强信任。",
+      "improvement_actions": [
+        "补充美敦力官方价格和售后政策",
+        "增加心脏起搏器等核心产品线",
+        "引用更多权威来源如NEJM"
+      ],
+      "prompt": "企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "source_url": "https://chat.deepseek.com/a/chat/s/bd144670-cbc3-4f41-80d5-abcfea08b6e7",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1975,
+        "completion_tokens": 642,
+        "total_tokens": 2617,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1207
+      },
+      "analyzed_at": "2026-05-28T04:11:09.039Z",
+      "local_signals": {
+        "answerLength": 1667,
+        "brandTermTotal": 10,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 10
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q15",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 90,
+        "cognitive_accuracy": 85,
+        "evidence_inclusion": 75,
+        "recommendation_conversion": 80,
+        "total_score": 83
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词出现29次，位置靠前",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "Medtronic Academy",
+          "CRM",
+          "PFA",
+          "手术机器人"
+        ],
+        "important_terms_missing": [
+          "Synergy",
+          "Micra",
+          "Hugo"
+        ],
+        "product_assets_covered": [
+          "CRM起搏器/ICD",
+          "神经介入",
+          "主动脉覆膜支架",
+          "脊柱机器人",
+          "PFA"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "全球最大医疗器械公司",
+          "产品线覆盖广泛",
+          "长期临床证据",
+          "Medtronic Academy培训体系",
+          "全国售后网络"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "具体产品如Micra无导线起搏器",
+          "Hugo手术机器人细节"
+        ]
+      },
+      "evidence": {
+        "source_quality": "medium",
+        "source_noise_level": 30,
+        "official_sources_used": [
+          "medtronic.com"
+        ],
+        "noisy_or_weak_sources": [
+          "搜狐网",
+          "今日头条",
+          "公众号"
+        ],
+        "evidence_gaps": [
+          "缺乏官方价格数据",
+          "售后响应时间无官方数据"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "临床证据覆盖最全",
+          "售后体系成熟",
+          "培训资源丰富",
+          "产品线宽度无人能及"
+        ],
+        "negative_or_risk_claims": [
+          "标价偏高",
+          "集采承压",
+          "部分地区响应延迟",
+          "学习曲线中等偏难"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "首选推荐",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议用户提供具体科室/产品线以获取更精准建议",
+          "提供了实操决策Checklist"
+        ]
+      },
+      "summary": "回答全面对比美敦力与竞品，突出其产品线广、临床证据厚、培训体系强，但价格偏高。推荐美敦力适合多科室合作，并给出具体场景建议。",
+      "dashboard_takeaway": "美敦力在临床证据、售后网络和培训资源上优势明显，但价格和集采压力需注意。回答平衡且具转化力。",
+      "improvement_actions": [
+        "补充官方价格或集采影响数据",
+        "增加具体产品如Micra、Hugo的提及",
+        "减少非权威来源引用"
+      ],
+      "prompt": "企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVXuZ7UWG",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 6131,
+        "completion_tokens": 667,
+        "total_tokens": 6798,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5363
+      },
+      "analyzed_at": "2026-05-28T04:11:15.857Z",
+      "local_signals": {
+        "answerLength": 3425,
+        "brandTermTotal": 29,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 22
+          },
+          {
+            "term": "Medtronic",
+            "count": 7
+          }
+        ],
+        "referenceItemCount": 12,
+        "officialReferenceCount": 7,
+        "referenceSources": [
+          {
+            "source": "搜狐网",
+            "title": "直觉医疗英国总部启用,2万英尺培训中心,达芬奇机器卖得好好的,为啥要花重金搞教育培训?",
+            "snippet": "根据公司披露,其全球职业教育项目已获得英国皇家外科学院认证,累计培训医生人数已超过 8.9万人。"
+          },
+          {
+            "source": "·医械前沿MDF",
+            "title": "波科、美敦力、强生、雅培决战中国:PFA到底哪家强?",
+            "snippet": "公众号 美敦力:以双能量平台和务实策略破局 公司底蕴 美敦力是全球最大的医疗器械公司,产品线覆盖广泛,在..."
+          },
+          {
+            "source": "medteccn.com",
+            "title": "中国医疗器械展谁将主宰房颤消融未来?全球PFA市场三足鼎立背后的生死竞速",
+            "snippet": "中国医疗器械展|谁将主宰房颤消融未来?全球PFA市场三足鼎立背后的生死竞速｡导语 中国医疗器械展了解..."
+          },
+          {
+            "source": "今日头条",
+            "title": "外科器械巨头强生&美敦力的百年启示 - 今日头条",
+            "snippet": "美敦力用了几十年,通过一次次的并购和整合,才搭建起了完整的外科生态｡医疗器械行业,从来不是赚快钱的生..."
+          },
+          {
+            "source": "·电生理之声",
+            "title": "花瓣之后:波科 PFA 的下半场战事",
+            "snippet": "公众号 vs 美敦力四层 vs 强生单产品 把三家的 PFA 产品线放在一起对比: 波科:FARAWAVE(..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Clinical evidence",
+            "snippet": "Strength in evidence The proof is in the results. Youre invested in durable outcomes for your patients. So are we. Medtronic maintains the longest-te..."
+          },
+          {
+            "source": "今日头条",
+            "title": "全球械企百强揭秘:中国12家上榜,差距藏在细节里 - 今日头条",
+            "snippet": "美敦力的产品版图堪称全面开花,电生理､心衰治疗､瓣膜介入这些高难度领域一个不落, 连手术机器人､..."
+          },
+          {
+            "source": "·心医讯",
+            "title": "PFA三巨头:美敦力、雅培、波士顿科学HRS同台竞技,谁更胜一筹?",
+            "snippet": "公众号 PFA三巨头:美敦力､雅培､波士顿科学HRS同台竞技,谁更胜一筹?｡FARAFLEX导管的ELEVA..."
+          },
+          {
+            "source": "·心医讯",
+            "title": "美敦力二尖瓣生物瓣Mosaic Neo获批FDA,在美国全面上市",
+            "snippet": "公众号 竞品 企业 特点 Mitris Resilia 爱德华 干式储存技术,抗钙化处理 Epic 雅培 猪..."
+          },
+          {
+            "source": "·电生理之声",
+            "title": "王者的迟到:强生 PFA 战略全景复盘",
+            "snippet": "公众号 它是靠整个手术从头到尾的全套器械､全套工作流､全套医生培训体系,把竞争对手挡在了门外｡雅培的 EnSite Nav..."
+          },
+          {
+            "source": "腾讯网",
+            "title": "美敦力双线出击:手术机器人战场迎来“系统级”角力",
+            "snippet": "美敦力双线出击:手术机器人战场迎来系统级角力｡2月,全球医疗科技巨头美敦力在手术机器人领域投下两..."
+          },
+          {
+            "source": "·乔戈里投研",
+            "title": "美敦力 4000 字深度研报",
+            "snippet": "公众号 美敦力 4000 字深度研报｡"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "q16",
+      "platform": "deepseek",
+      "scores": {
+        "answer_visibility": 85,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 30,
+        "recommendation_conversion": 80,
+        "total_score": 71
+      },
+      "brand_terms": {
+        "frequency_assessment": "品牌词出现5次，位置靠前，但产品线覆盖不足",
+        "important_terms_present": [
+          "美敦力",
+          "Micra"
+        ],
+        "important_terms_missing": [
+          "Percept",
+          "Avalus",
+          "脑起搏器",
+          "心脏起搏器"
+        ],
+        "product_assets_covered": [
+          "Micra",
+          "Percept RC",
+          "Avalus Ultra"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "美敦力是领先医疗器械公司",
+          "Micra是心脏起搏器",
+          "Percept RC是脑起搏器",
+          "Avalus Ultra是主动脉瓣膜"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "美敦力在糖尿病、脊柱等领域的其他产品线"
+        ]
+      },
+      "evidence": {
+        "source_quality": "low",
+        "source_noise_level": 70,
+        "official_sources_used": [],
+        "noisy_or_weak_sources": [
+          "未提供具体来源，引用标记为空"
+        ],
+        "evidence_gaps": [
+          "召回具体批次信息",
+          "官方召回公告链接",
+          "产品安全性数据"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "召回是主动纠错",
+          "医生信赖品牌",
+          "产品创新获认可"
+        ],
+        "negative_or_risk_claims": [
+          "召回可能引起担忧",
+          "一级召回涉及严重健康危害"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "推荐信任医生，主动核实",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议直接问医生",
+          "核对产品批次",
+          "查询NMPA官网"
+        ]
+      },
+      "summary": "回答正面解释召回机制，维护品牌形象，但缺乏官方证据支撑，噪音较高。",
+      "dashboard_takeaway": "品牌可见度高，认知准确，但证据不足，需补充官方来源以增强信任。",
+      "improvement_actions": [
+        "引用NMPA召回公告原文",
+        "提供美敦力官方声明链接",
+        "增加产品安全性数据"
+      ],
+      "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+      "source_url": "https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 1794,
+        "completion_tokens": 590,
+        "total_tokens": 2384,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 1026
+      },
+      "analyzed_at": "2026-05-28T04:11:22.149Z",
+      "local_signals": {
+        "answerLength": 1479,
+        "brandTermTotal": 5,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 4
+          },
+          {
+            "term": "Micra",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 0,
+        "officialReferenceCount": 0,
+        "referenceSources": []
+      }
+    },
+    {
+      "question_id": "q16",
+      "platform": "yuanbao",
+      "scores": {
+        "answer_visibility": 95,
+        "cognitive_accuracy": 90,
+        "evidence_inclusion": 85,
+        "recommendation_conversion": 80,
+        "total_score": 88
+      },
+      "brand_terms": {
+        "frequency_assessment": "高频出现，品牌词26次，英文12次，产品名1次",
+        "important_terms_present": [
+          "美敦力",
+          "Medtronic",
+          "MiniMed"
+        ],
+        "important_terms_missing": [
+          "起搏器",
+          "支架",
+          "胰岛素泵",
+          "神经调控"
+        ],
+        "product_assets_covered": [
+          "起搏器",
+          "支架",
+          "胰岛素泵",
+          "导航系统"
+        ]
+      },
+      "brand_asset_understanding": {
+        "level": "high",
+        "correct_assets": [
+          "全球最大医疗器械厂商",
+          "产品线广",
+          "临床数据支撑",
+          "受监管严格"
+        ],
+        "confusions_or_errors": [],
+        "missing_assets": [
+          "具体产品线如心脏节律管理",
+          "神经调控等细分领域"
+        ]
+      },
+      "evidence": {
+        "source_quality": "high",
+        "source_noise_level": 20,
+        "official_sources_used": [
+          "productperformance.medtronic.com",
+          "fda.gov",
+          "accessdata.fda.gov",
+          "medtronic.com",
+          "中国质检新闻网"
+        ],
+        "noisy_or_weak_sources": [
+          "腾讯新闻",
+          "健康界",
+          "今日头条",
+          "大众健康之窗"
+        ],
+        "evidence_gaps": [
+          "缺少对具体型号的详细分析",
+          "缺少与竞品的直接对比数据"
+        ]
+      },
+      "sentiment_and_trust": {
+        "stance": "mixed_positive",
+        "positive_claims": [
+          "召回是行业常见现象",
+          "医生推荐基于临床获益",
+          "建议与医生沟通确认"
+        ],
+        "negative_or_risk_claims": [
+          "召回涉及致命问题",
+          "已致重伤",
+          "存在脊髓压迫风险"
+        ],
+        "balanced_evaluation": true,
+        "detracts_customer": false,
+        "detracting_phrases": []
+      },
+      "recommendation": {
+        "recommends_medtronic": true,
+        "rank_or_priority": "医生推荐，需结合具体型号",
+        "next_step_quality": "high",
+        "conversion_notes": [
+          "建议患者与医生确认型号",
+          "提供后续随访建议",
+          "鼓励查询官方渠道"
+        ]
+      },
+      "summary": "回答正面回应召回担忧，解释召回分级，强调医生推荐基于临床获益，建议患者与医生沟通确认型号，整体平衡且可信。",
+      "dashboard_takeaway": "美敦力品牌可见度高，认知准确，证据充分，推荐转化力强，但需加强具体型号分析。",
+      "improvement_actions": [
+        "增加具体产品线分析",
+        "提供竞品对比数据",
+        "减少非权威来源引用"
+      ],
+      "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+      "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVf2DGHaq",
+      "model": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 5446,
+        "completion_tokens": 641,
+        "total_tokens": 6087,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4678
+      },
+      "analyzed_at": "2026-05-28T04:11:28.966Z",
+      "local_signals": {
+        "answerLength": 3367,
+        "brandTermTotal": 39,
+        "terms": [
+          {
+            "term": "美敦力",
+            "count": 26
+          },
+          {
+            "term": "Medtronic",
+            "count": 12
+          },
+          {
+            "term": "MiniMed",
+            "count": 1
+          }
+        ],
+        "referenceItemCount": 17,
+        "officialReferenceCount": 12,
+        "referenceSources": [
+          {
+            "source": "productperformance.medtronic.com",
+            "title": "Medtronic CRHF Product Performance eSource",
+            "snippet": ""
+          },
+          {
+            "source": "fda.gov",
+            "title": "Esophageal pH Monitoring Capsule Recall: Medtronic and Given Imaging Remove Bravo CF Capsule Delivery Devices",
+            "snippet": "Home Medical Devices Medical Device Safety Medical Device Recalls and Early Alerts Esophageal pH Monitoring Capsule Recall: Medtronic and Given Imagin..."
+          },
+          {
+            "source": "腾讯新闻",
+            "title": "美敦力一年主动召回医疗器械23次,最严重级别产品均在国内有售_腾讯新闻",
+            "snippet": "新京报记者统计了国家药监局近一年来(2023年7月1日2024年6月30日)公布的医疗器械召回信息显示,知名医疗..."
+          },
+          {
+            "source": "accessdata.fda.gov",
+            "title": "Class 1 Device Recall Aortic Root Cannula",
+            "snippet": "Medtronic distributed the Urgent medical Device Recall notice via mail courier to existing and newly identified consignees who have received impacted..."
+          },
+          {
+            "source": "健康界",
+            "title": "一级召回!美敦力植入式心脏除颤器",
+            "snippet": "美敦力植入式心脏除颤器｡ICD 和CRT-D 产品通过植入患者胸部以帮助他们维持正常心律｡此类设备通..."
+          },
+          {
+            "source": "健康界",
+            "title": "国内有售 美敦力这些器械,最高级召回",
+            "snippet": "美敦力重量级产品频频召回 从车库里走出来的美敦力,被誉为医疗器械界的并购机器｡稳居全球医疗器械第一宝..."
+          },
+          {
+            "source": "accessdata.fda.gov",
+            "title": "Class 2 Device Recall MiniMed insulin pump",
+            "snippet": "January 31,2025 Date Posted Recall Status 1 Open 3 ,Classified Recall Number Z-1262-2025 Recall Event ID 96200 Product Classification Automated insuli..."
+          },
+          {
+            "source": "大众健康之窗",
+            "title": "存在脊髓压迫风险美敦力召回脊髓刺激器",
+            "snippet": "增加了关于在器械电极导线周围形成的组织块可能导致脊髓压迫的特定信息｡了解该潜在不良事件可帮助开展早期检测和预防相关..."
+          },
+          {
+            "source": "今日头条",
+            "title": "美敦力心脏插管出致命问题,已致3人重伤! - 今日头条",
+            "snippet": "已致3人重伤!- 今日头条｡美敦力之前出过类似问题吗?作为全球知名的医疗器械企业,美敦力是不是第一次..."
+          },
+          {
+            "source": "中国质检新闻网",
+            "title": "美敦力(上海)管理有限公司对血管外植入式心律转复除颤器Extravascular Implantable Cardioverter Defibrillator主动召回",
+            "snippet": "美敦力(上海)管理有限公司对其生产的血管外植入式心律转复除颤器(注册证号:国械注进20253120253)主动召回..."
+          },
+          {
+            "source": "丁香园生物医药科技网",
+            "title": "美敦力脊柱融合器 Infuse 从手术室走入法庭",
+            "snippet": "从Infuse 批准通过的 2002 年开始,政府医疗器械不良事件报告系统中,有超过 6500 份研..."
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Valiant Navion system — recall update",
+            "snippet": "UPDATED Patient Management Recommendations Medtr。"
+          },
+          {
+            "source": "中国质检新闻网",
+            "title": "美敦力(上海)管理有限公司对医生程控仪主动召回",
+            "snippet": "规格及批次等详细信息见医疗器械召回事件报告表｡附件: 医疗器械召回事件报告表(点击下载) .pdf 2026年..."
+          },
+          {
+            "source": "bostonscientific.com",
+            "title": "About Boston Scientific",
+            "snippet": "For healthcare professionals For patients and caregivers About Boston Scientific Search Menu Back For healthcare professionals Find products,medical s..."
+          },
+          {
+            "source": "qxzh.yjj.sh.gov.cn",
+            "title": "上海市医疗器械主动召回直报监管系统数据",
+            "snippet": "查询 重置 历史召回信息(2017-2018)。"
+          },
+          {
+            "source": "medtronic.com",
+            "title": "Vous vous apprêtez à quitter le site de Medtronic du Canada",
+            "snippet": "pas géré par Medtronic du Canada. Medtronic Canada..."
+          },
+          {
+            "source": "中国质量新闻网",
+            "title": "美敦力(上海)管理有限公司对逆行冠脉窦灌注插管主动召回",
+            "snippet": "美敦力(上海)管理有限公司对其生产的逆行冠脉窦灌注插管(注册证号:国械注进20173106052)主动召回｡召回级..."
+          }
+        ]
+      }
+    }
+  ]
+}

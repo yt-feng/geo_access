@@ -1,0 +1,138 @@
+{
+  "question_id": "q01",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 20,
+    "recommendation_conversion": 75,
+    "total_score": 68
+  },
+  "brand_terms": {
+    "frequency_assessment": "美敦力出现11次，Medtronic1次，CareLink1次，OptiVol3次，BlueSync1次，品牌词高频且覆盖产品线",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "CareLink",
+      "OptiVol",
+      "BlueSync"
+    ],
+    "important_terms_missing": [
+      "Micra",
+      "Resolute",
+      "Endeavor"
+    ],
+    "product_assets_covered": [
+      "CRT-D/P",
+      "ICD",
+      "起搏器",
+      "CareLink",
+      "OptiVol",
+      "BlueSync"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "心律管理霸主",
+      "OptiVol胸腔阻抗监测",
+      "BlueSync蓝牙传输",
+      "MyCareLink Heart App",
+      "CareAlert自动通知"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "Micra无导线起搏器",
+      "Resolute药物支架",
+      "心衰治疗整体方案"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 80,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "引用来源未提供，仅标注'10个网页'，无具体链接或权威出处"
+    ],
+    "evidence_gaps": [
+      "OptiVol精度数据无来源",
+      "CardioMEMS成本数据无来源",
+      "HeartLogic灵敏度数据无来源"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力是心律管理霸主",
+      "设备可靠性顶级",
+      "BlueSync体验好",
+      "OptiVol性价比高"
+    ],
+    "negative_or_risk_claims": [
+      "OptiVol精度不如雅培有创监测",
+      "易受干扰"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "首选（心衰需CRT/ICD时）",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "给出决策树引导选择",
+      "询问患者核心痛点以进一步推荐"
+    ]
+  },
+  "summary": "回答全面对比美敦力与竞品，突出美敦力在心律管理领域的霸主地位，但证据来源缺失，噪音高。",
+  "dashboard_takeaway": "美敦力品牌可见度高，认知准确，但缺乏权威证据支撑，需补充官方引用以提升信任。",
+  "improvement_actions": [
+    "补充美敦力官方临床数据引用",
+    "明确列出引用来源",
+    "增加Micra等产品线覆盖"
+  ],
+  "prompt": "心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2035,
+    "completion_tokens": 685,
+    "total_tokens": 2720,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2035
+  },
+  "analyzed_at": "2026-05-28T04:07:55.758Z",
+  "local_signals": {
+    "answerLength": 1800,
+    "brandTermTotal": 17,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 11
+      },
+      {
+        "term": "Medtronic",
+        "count": 1
+      },
+      {
+        "term": "CareLink",
+        "count": 1
+      },
+      {
+        "term": "OptiVol",
+        "count": 3
+      },
+      {
+        "term": "BlueSync",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "question_id": "q07",
+  "platform": "yuanbao",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 70,
+    "recommendation_conversion": 80,
+    "total_score": 81
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌词出现12次，位置靠前，覆盖美敦力、Medtronic、Evolut",
+    "important_terms_present": [
+      "美敦力",
+      "Medtronic",
+      "Evolut",
+      "TAVR",
+      "CoreValve"
+    ],
+    "important_terms_missing": [
+      "Harmony",
+      "Intrepid"
+    ],
+    "product_assets_covered": [
+      "Evolut TAVR系统",
+      "CoreValve影像分析工作站"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力TAVR系统支持DICOM/HL7/FHIR标准",
+      "数据合规要求本地化部署",
+      "需提供网络安全描述文档"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "未提及美敦力其他结构性心脏病产品如Harmony TMVR"
+    ]
+  },
+  "evidence": {
+    "source_quality": "medium",
+    "source_noise_level": 30,
+    "official_sources_used": [
+      "国家药品监督管理局医疗器械技术审评中心",
+      "四川省药品监督管理局"
+    ],
+    "noisy_or_weak_sources": [
+      "CSDN",
+      "顺企网",
+      "pycad.co",
+      "postdicom.com"
+    ],
+    "evidence_gaps": [
+      "缺少美敦力官方技术文档或白皮书引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "美敦力系统可接入HIS/EMR/PACS",
+      "提供标准接口",
+      "数据合规建议详细"
+    ],
+    "negative_or_risk_claims": [
+      "数据出境需严格审批",
+      "海外云端服务不能直连患者数据"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "未明确排名，但给出详细合规建议",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议索要网络安全文档",
+      "提供合规检查清单"
+    ]
+  },
+  "summary": "回答详细解释了美敦力TAVR系统接入HIS/EMR/PACS的可行性及数据合规要求，品牌词高频出现，认知准确，但证据来源官方占比低，整体推荐转化力中等偏上。",
+  "dashboard_takeaway": "美敦力TAVR系统在互联互通和数据合规方面表现良好，但需加强官方证据引用，提升权威性。",
+  "improvement_actions": [
+    "增加美敦力官方技术文档引用",
+    "补充Harmony等产品线信息",
+    "减少非权威来源如CSDN"
+  ],
+  "prompt": "结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？",
+  "source_url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 5804,
+    "completion_tokens": 668,
+    "total_tokens": 6472,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 5036
+  },
+  "analyzed_at": "2026-05-28T04:09:27.439Z",
+  "local_signals": {
+    "answerLength": 3753,
+    "brandTermTotal": 12,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 10
+      },
+      {
+        "term": "Medtronic",
+        "count": 1
+      },
+      {
+        "term": "Evolut",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 14,
+    "officialReferenceCount": 0,
+    "referenceSources": [
+      {
+        "source": "国家药品监督管理局医疗器械技术审评中心",
+        "title": "医疗器械网络安全注册技术审查指导原则",
+        "snippet": "同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据..."
+      },
+      {
+        "source": "CSDN",
+        "title": "医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析",
+        "snippet": "ORM(医嘱)消息片段长这样: MSH|^~\\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER..."
+      },
+      {
+        "source": "智慧医疗网",
+        "title": "医疗数据与网络安全法律法规整理总结",
+        "snippet": "强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须..."
+      },
+      {
+        "source": "中国搜索",
+        "title": "医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 -",
+        "snippet": "标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家..."
+      },
+      {
+        "source": "pycad.co",
+        "title": "A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner",
+        "snippet": "HL7 messages are the operational glue connecting the PACS to the Radiology Information System (RIS) and the Electronic Health Record (EHR). These aren..."
+      },
+      {
+        "source": "顺企网",
+        "title": "医疗器械数据合规:患者隐私保护与跨境数据传输",
+        "snippet": "数据安全法:将医疗健康数据列为重要数据,要求其出境需通过国家网信部门的安全评估,或通过认证､签订标准合同等..."
+      },
+      {
+        "source": "postdicom.com",
+        "title": "How PACS Integrates with RIS and EHR Systems (Complete Guide)",
+        "snippet": "transmission is named DICOM. It provides compatibi。"
+      },
+      {
+        "source": "四川省药品监督管理局",
+        "title": "标准协议､校验等技术来保证医疗器械的网络安全｡鉴于预期用途､使用环境的限制,医疗器械对于网络安全威胁...",
+        "snippet": "附件"
+      },
+      {
+        "source": "chinamedglobal.com",
+        "title": "医疗器械/药品出海的数据合规红线:2026年中国跨境数据传输三项路径实操指南",
+        "snippet": "不要等到产品已经部署到海外市场再去补合规｡医疗器械出海场景中的数据出境检查表 不同出海场景涉及的数据类型和合规要求..."
+      },
+      {
+        "source": "·深圳市赛义德信息科技有限公司",
+        "title": "医疗信息化:医院多系统并存的核心原因",
+        "snippet": "公众号 便捷使用:医生在EMR中可直接查看LIS检验结果､PACS影像,无需切换多个系统,同时保留各系统独立..."
+      },
+      {
+        "source": "中国食品药品网",
+        "title": "严格遵守法规要求 保证数据出境安全(下)",
+        "snippet": "个人信息保护监管要求 医药行业涉及多种数据和个人信息出境场景｡近年来,我国亦出台一系列法律法规及指导..."
+      },
+      {
+        "source": "dehenglaw.com",
+        "title": "医疗数据法律探析(四):医疗器械企业之医疗数据治理与合规",
+        "snippet": "不同类型的医疗数据被划分为个人信息､敏感个人信息､重要数据､核心数据等类别,分别适用差异化的合规要求｡"
+      },
+      {
+        "source": "21IC电子网",
+        "title": "医疗信息化标准入门 HL7与DICOM关系初探",
+        "snippet": "向PACS系统发出HL7标准的检查医嘱消息(ORM)｡PACS系统连接到HIS系统(在TCP/IP协..."
+      },
+      {
+        "source": "HIT专家网",
+        "title": "医疗数据出境如何做好合规管理?",
+        "snippet": "要求其收集和产生的个人信息和重要数据的跨境传输需进行安全评估｡数据安全法 个人信息保护法 的颁布,对于个人..."
+      }
+    ]
+  }
+}

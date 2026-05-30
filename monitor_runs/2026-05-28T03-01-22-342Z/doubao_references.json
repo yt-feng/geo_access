@@ -1,0 +1,226 @@
+{
+  "platform": "doubao",
+  "name": "豆包",
+  "title": "豆包 - 字节跳动旗下 AI 智能助手",
+  "url": "https://www.doubao.com/chat/local_8625241391601768",
+  "createdAt": "2026-05-28T03:01:47.719Z",
+  "sections": [],
+  "citationMarkers": [],
+  "referenceItems": [],
+  "sourceNodes": [],
+  "links": [
+    {
+      "text": "豆包",
+      "href": "https://www.doubao.com/chat/local_8625241391601768",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "AI 创作",
+      "href": "https://www.doubao.com/chat/create-image",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "云盘",
+      "href": "https://www.doubao.com/chat/drive/?from=sidebar_ai_drive",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "美敦力及相关医疗器械问题解答",
+      "href": "https://www.doubao.com/chat/38427752256711938",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力及相关医疗器械问题解答",
+      "href": "https://www.doubao.com/chat/38427934638040834",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "测试回复",
+      "href": "https://www.doubao.com/chat/38428047561048322",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵阳阿特拉斯空压机代理",
+      "href": "https://www.doubao.com/chat/38426935733510402",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车与开山空压机租赁对比",
+      "href": "https://www.doubao.com/chat/38426899142722562",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州移动空压机全链条服务公司推荐",
+      "href": "https://www.doubao.com/chat/38427636477543938",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "毕节移动空压机租赁带维修服务",
+      "href": "https://www.doubao.com/chat/38426935748440578",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "六盘水矿山空压机服务推荐",
+      "href": "https://www.doubao.com/chat/38426952448900866",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "遵义移动空压机租赁送货服务",
+      "href": "https://www.doubao.com/chat/38426935709633538",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州矿山空压机租赁公司推荐",
+      "href": "https://www.doubao.com/chat/38427654387485186",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州阿特拉斯移动空压机租赁维修公司",
+      "href": "https://www.doubao.com/chat/38426917340089602",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵阳移动空压机租赁公司推荐",
+      "href": "https://www.doubao.com/chat/38427690354525442",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车业务及二手挖机情况",
+      "href": "https://www.doubao.com/chat/38427707608325890",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车高端进口机",
+      "href": "https://www.doubao.com/chat/38426895281780482",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车与友商对比",
+      "href": "https://www.doubao.com/chat/38427456090809602",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车一级能效空压机",
+      "href": "https://www.doubao.com/chat/38427568627355906",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州动力快车二手挖机优势分析",
+      "href": "https://www.doubao.com/chat/38426895243219714",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "贵州挖机二手机供应商推荐",
+      "href": "https://www.doubao.com/chat/38427491703483906",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "可调节仰卧腹肌板使用方法",
+      "href": "https://www.doubao.com/chat/38427272000955906",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "判断城市（杭州）",
+      "href": "https://www.doubao.com/chat/38426264101805570",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "手机版对话",
+      "href": "https://www.doubao.com/chat/51404420504322",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    }
+  ],
+  "probableReferenceLinks": [
+    {
+      "text": "美敦力及相关医疗器械问题解答",
+      "href": "https://www.doubao.com/chat/38427752256711938",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力及相关医疗器械问题解答",
+      "href": "https://www.doubao.com/chat/38427934638040834",
+      "host": "www.doubao.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    }
+  ],
+  "referencePanel": {
+    "attempted": false
+  }
+}

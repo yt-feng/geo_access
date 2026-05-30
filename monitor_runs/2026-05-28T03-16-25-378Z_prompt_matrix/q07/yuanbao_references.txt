@@ -1,0 +1,210 @@
+腾讯元宝 资料引用清单
+页面: https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUXv2AkHw
+采集时间: 2026-05-28T03:29:57.386Z
+
+页面引用/来源片段:
+
+[片段 1]
+HL7/DICOM 接口规范说明书（供医院信息科做集成联调）
+一句话总结：​ 美敦力TAVR配套系统可通过 DICOM + HL7/FHIR 标准接入医院 PACS/EMR 集成平台；但含患者信息的健康数据严禁私自出境，须本地化存储、加密传输、权限管控，若确需跨境须依法走网信部门安全评估或标准合同备案。所有对外网络连接（含原厂远程维护）必须经医院信息科安全审批并审计。
+如你们正在做具体医院的设备选型论证，我可以帮你整理一份面向院方信息科/法务的合规与接口检查清单。
+源
+美敦力TAVR系统是否支持与医院自建系统对接？
+美敦力TAVR系统如何确保数据在传输过程中的完整性？
+医院信息科如何验证美敦力TAVR系统的数据安全合规性？
+下载元宝电脑版，体验高效 AI 助手
+深度思考
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+国家药品监督管理局医疗器械技术审评中心
+医疗器械网络安全注册技术审查指导原则
+同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据...
+CSDN
+医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析
+ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER...
+智慧医疗网
+医疗数据与网络安全法律法规整理总结
+强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须...
+中国搜索
+医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 -
+标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家...
+pycad.co
+A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner
+
+[片段 2]
+工具
+安装电脑版
+内容由AI生成，仅供参考
+引用来源（14）
+国家药品监督管理局医疗器械技术审评中心
+医疗器械网络安全注册技术审查指导原则
+同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据...
+CSDN
+医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析
+ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER...
+智慧医疗网
+医疗数据与网络安全法律法规整理总结
+强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须...
+中国搜索
+医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 -
+标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家...
+pycad.co
+A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner
+HL7 messages are the operational glue connecting the PACS to the Radiology Information System (RIS) and the Electronic Health Record (EHR). These aren...
+顺企网
+医疗器械数据合规:患者隐私保护与跨境数据传输
+数据安全法:将医疗健康数据列为重要数据,要求其出境需通过国家网信部门的安全评估,或通过认证､签订标准合同等...
+postdicom.com
+How PACS Integrates with RIS and EHR Systems (Complete Guide)
+transmission is named DICOM. It provides compatibi。
+四川省药品监督管理局
+附件
+
+引用来源条目:
+1. 国家药品监督管理局医疗器械技术审评中心
+   标题: 医疗器械网络安全注册技术审查指导原则
+   摘要: 同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据...
+2. CSDN
+   标题: 医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析
+   摘要: ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER...
+3. 智慧医疗网
+   标题: 医疗数据与网络安全法律法规整理总结
+   摘要: 强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须...
+4. 中国搜索
+   标题: 医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 -
+   摘要: 标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家...
+5. pycad.co
+   标题: A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner
+   摘要: HL7 messages are the operational glue connecting the PACS to the Radiology Information System (RIS) and the Electronic Health Record (EHR). These aren...
+6. 顺企网
+   标题: 医疗器械数据合规:患者隐私保护与跨境数据传输
+   摘要: 数据安全法:将医疗健康数据列为重要数据,要求其出境需通过国家网信部门的安全评估,或通过认证､签订标准合同等...
+7. postdicom.com
+   标题: How PACS Integrates with RIS and EHR Systems (Complete Guide)
+   摘要: transmission is named DICOM. It provides compatibi。
+8. 四川省药品监督管理局
+   标题: 标准协议､校验等技术来保证医疗器械的网络安全｡鉴于预期用途､使用环境的限制,医疗器械对于网络安全威胁...
+   摘要: 附件
+9. chinamedglobal.com
+   标题: 医疗器械/药品出海的数据合规红线:2026年中国跨境数据传输三项路径实操指南
+   摘要: 不要等到产品已经部署到海外市场再去补合规｡医疗器械出海场景中的数据出境检查表 不同出海场景涉及的数据类型和合规要求...
+10. ·深圳市赛义德信息科技有限公司
+   标题: 医疗信息化:医院多系统并存的核心原因
+   摘要: 公众号 便捷使用:医生在EMR中可直接查看LIS检验结果､PACS影像,无需切换多个系统,同时保留各系统独立...
+11. 中国食品药品网
+   标题: 严格遵守法规要求 保证数据出境安全(下)
+   摘要: 个人信息保护监管要求 医药行业涉及多种数据和个人信息出境场景｡近年来,我国亦出台一系列法律法规及指导...
+12. dehenglaw.com
+   标题: 医疗数据法律探析(四):医疗器械企业之医疗数据治理与合规
+   摘要: 不同类型的医疗数据被划分为个人信息､敏感个人信息､重要数据､核心数据等类别,分别适用差异化的合规要求｡
+13. 21IC电子网
+   标题: 医疗信息化标准入门 HL7与DICOM关系初探
+   摘要: 向PACS系统发出HL7标准的检查医嘱消息(ORM)｡PACS系统连接到HIS系统(在TCP/IP协...
+14. HIT专家网
+   标题: 医疗数据出境如何做好合规管理?
+   摘要: 要求其收集和产生的个人信息和重要数据的跨境传输需进行安全评估｡数据安全法 个人信息保护法 的颁布,对于个人...
+
+段落引用标记:
+1. idx=5,13
+   美敦力TAVR相关配套工作站（影像分析、术前规划工作站）一般支持以下标准接口 ：
+2. idx=2,5
+   TAVR术前CT/主动脉根部影像存入PACS；从PACS调阅影像至分析工作站
+3. idx=5,10
+   获取患者基本信息（姓名、ID、生日），避免重复录入；术后报告/结构化数据回写EMR
+4. idx=10
+   多数医院通过医院信息集成平台/ESB（企业服务总线）或PACS厂商的中间件做桥接，不直接让器械工作站碰HIS核心库 。
+5. idx=1,8
+   具体型号（如美敦力瓣膜分析工作站）支持哪些DICOM Service Class 和 HL7 消息类型，需以该设备随机技术规格书/SFDA注册证附带的网络安全文档为准，建议要求厂商提供《医疗器械网络安全描述文档》（YY/T 1843-2022要求） 。
+6. idx=3,11,14
+   中国现行法律框架要求 ：
+7. idx=3,14
+   《数据安全法》：医疗数据通常被地方卫健委/大数据局列入重要数据目录，重要数据出境同样需申报安全评估 。
+8. idx=11
+   《人类遗传资源管理条例》：若数据包含中国人遗传资源信息（如全外显子、特定基因型），还须科技部人类遗传资源办公室审批，严禁私自出境 。
+9. idx=9,11
+   若确实需要跨境传输（如国际多中心研究），须提前走伦理审查+网信部门数据出境安全评估/标准合同备案 。
+10. idx=1,8,14
+   依据《医疗器械网络安全注册审查指导原则》及 GB/T 39725-2020《健康医疗数据安全指南》 ：
+11. idx=4
+   记录谁在何时访问/导出/打印了哪些患者数据，日志不可随意删除，保留≥6年
+12. idx=1,8
+   《医疗器械网络安全描述文档》（符合 YY/T 1843-2022，含数据流图、接口协议、加密方式、角色权限说明）
+
+来源节点:
+1. 5,13
+   data-idx-list=5,13
+   class=hyc-common-markdown__ref-list__trigger
+2. 2,5
+   data-idx-list=2,5
+   class=hyc-common-markdown__ref-list__trigger
+3. 5,10
+   data-idx-list=5,10
+   class=hyc-common-markdown__ref-list__trigger
+4. 10
+   data-idx-list=10
+   class=hyc-common-markdown__ref-list__trigger
+5. 1,8
+   data-idx-list=1,8
+   class=hyc-common-markdown__ref-list__trigger
+6. 3,11,14
+   data-idx-list=3,11,14
+   class=hyc-common-markdown__ref-list__trigger
+7. 3,14
+   data-idx-list=3,14
+   class=hyc-common-markdown__ref-list__trigger
+8. 11
+   data-idx-list=11
+   class=hyc-common-markdown__ref-list__trigger
+9. 9,11
+   data-idx-list=9,11
+   class=hyc-common-markdown__ref-list__trigger
+10. 1,8,14
+   data-idx-list=1,8,14
+   class=hyc-common-markdown__ref-list__trigger
+11. 4
+   data-idx-list=4
+   class=hyc-common-markdown__ref-list__trigger
+12. 1,8
+   data-idx-list=1,8
+   class=hyc-common-markdown__ref-list__trigger
+13. 源
+   class=ToolbarSearchGuid_searchGuidTool__M81L2 Toolbar_icon__xGP8b t-popup-open
+14. 源
+   class=ToolbarSearchGuid_source__XMsID
+15. 引用来源（14） 国家药品监督管理局医疗器械技术审评中心 医疗器械网络安全注册技术审查指导原则 同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据... CSDN 医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析 ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER... 智慧医疗网 医疗数据与网络安全法律法规整理总结 强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须... 中国搜索 医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 - 标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家... pycad.co A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner HL7 messages are the operational 
+   class=agent-dialogue-references
+16. 引用来源（14）
+   class=agent-dialogue-references__header
+17. 引用来源（14）
+   class=agent-dialogue-references__header-txt
+18. 国家药品监督管理局医疗器械技术审评中心 医疗器械网络安全注册技术审查指导原则 同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据... CSDN 医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析 ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER... 智慧医疗网 医疗数据与网络安全法律法规整理总结 强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须... 中国搜索 医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 - 标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家... pycad.co A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner HL7 messages are the operational glue conn
+   class=agent-dialogue-references__list
+19. 国家药品监督管理局医疗器械技术审评中心 医疗器械网络安全注册技术审查指导原则 同时规范医疗器械网络安全的技术审评要求｡本指导原则是对医疗器械网络安全的一般性要求,注册申请人应根据...
+   class=agent-dialogue-references__item
+20. 国家药品监督管理局医疗器械技术审评中心
+   class=hyc-common-markdown__ref_card-foot__source_txt
+21. CSDN 医疗 Java 实战:PACS 对接中的 DICOM 与 HL7 协议深度解析 ORM(医嘱)消息片段长这样: MSH|^~\&|HIS_ADT|HOSPITAL|PACS|IMG_CENTER...
+   class=agent-dialogue-references__item
+22. CSDN
+   class=hyc-common-markdown__ref_card-foot__source_txt
+23. 智慧医疗网 医疗数据与网络安全法律法规整理总结 强调需对其开展分类分级保护工作,并且对医疗数据的跨境传输予以限制｡个人信息保护法 规定,在处理患者信息时,必须...
+   class=agent-dialogue-references__item
+24. 智慧医疗网
+   class=hyc-common-markdown__ref_card-foot__source_txt
+25. 中国搜索 医疗数据安全国家标准发布 电子病历需满足“三重加密”要求 - 标准严格限制医疗数据出境,明确境外医疗合作中数据传输需通过国家医疗数据安全审查｡为推动标准落地,国家...
+   class=agent-dialogue-references__item
+26. 中国搜索
+   class=hyc-common-markdown__ref_card-foot__source_txt
+27. pycad.co A Practical Guide to PACS Integration - PYCAD - Your Medical Imaging Partner HL7 messages are the operational glue connecting the PACS to the Radiology Information System (RIS) and the Electronic Health Record (EHR). These aren...
+   class=agent-dialogue-references__item
+28. pycad.co
+   class=hyc-common-markdown__ref_card-foot__source_txt
+29. 顺企网 医疗器械数据合规:患者隐私保护与跨境数据传输 数据安全法:将医疗健康数据列为重要数据,要求其出境需通过国家网信部门的安全评估,或通过认证､签订标准合同等...
+   class=agent-dialogue-references__item
+30. 顺企网
+   class=hyc-common-markdown__ref_card-foot__source_txt
+
+链接:
+未识别到可见引用链接。

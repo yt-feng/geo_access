@@ -1,0 +1,97 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf
+采集时间: 2026-05-28T03:37:51.521Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力机器人经销商资质
+   https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f
+2. 美敦力手术器械安全解析
+   https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7
+3. 美敦力Evolut瓣膜安全性与注意事项
+   https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d
+4. 美敦力系统医院数据合规
+   https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885
+5. 美敦力心脏瓣膜产品评估
+   https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf
+6. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+7. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+8. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+9. - 3
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3
+10. - 8
+   https://pubmed.ncbi.nlm.nih.gov/40601565/
+11. - 2
+   https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308
+12. - 10
+   https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all
+13. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+14. - 3
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3
+15. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+16. - 2
+   https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308
+17. - 10
+   https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all
+18. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+19. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+20. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+21. - 8
+   https://pubmed.ncbi.nlm.nih.gov/40601565/
+22. - 2
+   https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308
+23. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+24. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+25. - 3
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3
+26. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+27. - 5
+   https://www.espeyearbook.org/ey/0022/ey0022.10-1
+28. - 3
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3
+29. - 2
+   https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308
+30. - 10
+   https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all
+31. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+32. - 3
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3
+33. - 8
+   https://pubmed.ncbi.nlm.nih.gov/40601565/
+34. - 2
+   https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308
+35. - 9
+   https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts
+36. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+37. - 9
+   https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts
+38. - 7
+   https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss
+39. - 1
+   https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump
+40. - 8
+   https://pubmed.ncbi.nlm.nih.gov/40601565/

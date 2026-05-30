@@ -1,0 +1,107 @@
+{
+  "questionId": "q06",
+  "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+  "createdAt": "2026-05-28T03:28:07.043Z",
+  "summary": [
+    {
+      "questionId": "q06",
+      "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 760,
+        "afterLength": 837
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 56123,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "TAVR瓣膜选择对比分析 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+          "textLength": 3811,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 33,
+          "citationMarkerCount": 0,
+          "answerLineCount": 4,
+          "medtronicCount": 20,
+          "answerSignal": true,
+          "textTail": "感差异显著，直接影响术者的学习曲线和手术习惯。\n\n爱德华 (SAPIEN 3)：\n\n操作特点：球囊扩张决定了释放是“一次性”的，定位必须精准，对术者的预判能力要求高-\n2\n。\n\n学习曲线：对于从外科转行或习惯“一步到位”的术者，逻辑直观。但释放过程的不可逆性对新手有心理压力。\n\n输送系统：整体硬度较高，对于极度扭曲的血管路径，通过性可能不如Evolut。\n\n美敦力 (Evolut)：\n\n操作特点：可回收、可重新定位是其最大优势-\n2\n。术者可以像外科医生一样“试戴”，不满意可以回收再释放，容错率极高。\n\n学习曲线：对新手非常友好。虽然自膨胀的深度的预测需要经验，但“可回收”功能极大地降低了高风险手术的焦虑。\n\n输送系统：FlexNav输送系统非常柔顺，对血管入路条件要求更宽松-\n2\n。\n\n挑战者 (Myval)：\n\n操作特点：操作逻辑与爱德华的球囊扩张瓣膜类似，熟悉SAPIEN的术者上手会很快。\n\n核心卖点：其1.5mm递增的尺寸是差异化优势，允许在标准尺寸不合适时进行更精细的调整，理论上能进一步减少瓣周漏和瓣环破裂风险-\n1\n。\n\n总结与决策建议\n\n从患者解剖出发：\n\n小瓣环（尤其是女性）：首选美敦力Evolut，SMART试验证据很强。\n\n大瓣环、冠状动脉开口低风险：爱德华和美敦力均可，需综合评估。\n\n极度扭曲的血管路径：美敦力Evolut的低Profile输送系统更有优势。\n\n从临床数据权衡：\n\n最看重低起搏器风险：爱德华SAPIEN 3是目前的最优选择。\n\n最看重长期血流动力学和耐久性（数据）：两者都有十年以上数据，非常可靠。对于小瓣膜，美敦力数据更佳。\n\n从经济和现实条件考虑：\n\n预算充足，追求极致性价比：爱德华。虽然总费用高，但多项药物经济学研究证实其成本-效益比最佳-\n4\n-\n8\n。\n\n预算有限，或面对中等风险患者：美敦力或有数据支持的挑战者品牌可以纳入考虑，但需与患者充分沟通关于长期耐久性的不确定性。\n\n术者习惯和团队支持：\n\n选择你最熟悉、最有把握操作的系统永远是第一位的。\n\n如果科室处于学习曲线初期，美敦力的可回收特性提供了更高的安全边际。\n\n如果中心追求精细化尺寸匹配，Meril Myval的尺寸矩阵可能成为一个有吸引力的选项。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 3811,
+      "htmlLength": 151509,
+      "url": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 33,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q06",
+      "prompt": "结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUP1YP0lc",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 811,
+        "afterLength": 782
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 64174,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "TAVR产品临床证据与竞品对比",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUP1YP0lc",
+          "textLength": 3162,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 20,
+          "answerLineCount": 0,
+          "medtronicCount": 24,
+          "answerSignal": true,
+          "textTail": "力\n\n\n学习曲线​\n\t\n短瓣架易判断深度，但需预判球囊扩张位移；有冠脉阻塞风险需预测；成熟术者约5–10例上手\n\t\n需掌握渐进释放、定位深度（避开传导束）、回收操作；略陡，需10–15例建立手感，但可回收降低试错成本\n\t\n与美敦力类似，部分国产电动手柄（心通）被认为释放更顺滑\n\n\n血管入路要求​\n\t\n输送鞘可至14F，对细血管友好\n\t\n输送鞘14–16F，亦适合细血管\n\t\n多16–18F，个别超薄鞘可至14–15F\n\n\n二叶瓣适用性​\n\t\n需谨慎评估，部分中心限制\n\t\n自膨径向力适应不规则瓣环，二叶瓣应用更广（需经验丰富的核心实验室测量）\n\t\n同左，临床应用渐多\n🤝 四、售后与临床支持\n∙\n爱德华 & 美敦力：均有成熟的TAVR基地医院、定期高级术者培训班（Edwards PARTNER、Medtronic Evolut Academy）、术中远程技术支持（CRS——Clinical Support Specialist现场或在线跟台），可协助测量、模拟释放。美敦力近年加大国内跟台密度，爱德华在影像分析和CT核心实验室支持上口碑较好\n。\n∙\n国产（启明/心通/沛嘉）：本土化响应快，常配专职临床专员全程跟台，部分提供基金会患者援助项目降低自付；学术支持以区域培训班为主，长期循证仍在积累中\n。\n✅ 决策建议速览\n∙\n追求更低永久起搏器风险、短瓣架精准定位​ → 优先考虑 Edwards SAPIEN 3/Ultra（注意小瓣环PPM问题）。\n∙\n小瓣环（尤其女性）、重视长期血流动力学/更低PPM、二叶瓣解剖适合自膨​ → 优先考虑 Medtronic Evolut PRO+/FX（关注PPI风险，利用可回收优化深度）。\n∙\n预算敏感或医院以国产为主、解剖匹配​ → 国产二代可回收瓣（启明VenusA-Plus / 心通VitaFlow Liberty）​ 是合理选择，建议选有丰富TAVR团队的医院操作。\n如果你方便告知是为患者选瓣还是医院采购/学术用途、以及患者瓣环尺寸/性别/二叶瓣否，我可以进一步细化推荐。\n源\n主动脉瓣反流TAVR选哪种瓣膜？\nTAVR术后患者需要注意哪些事项？\n对于高龄患者（>80岁），TAVR手术的风险和收益比如何？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5183,
+      "htmlLength": 155753,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVUP1YP0lc",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 20,
+      "referenceItemCount": 18,
+      "sourceNodeCount": 62
+    }
+  ]
+}

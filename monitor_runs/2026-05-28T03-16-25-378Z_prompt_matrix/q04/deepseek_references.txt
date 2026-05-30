@@ -1,0 +1,47 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5
+采集时间: 2026-05-28T03:22:47.630Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. 美敦力心脏设备安全答疑
+   https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5
+2. 美敦力设备成本对比
+   https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56
+3. - 1
+   http://www.sxcahosp.com/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1028&wbnewsid=11339
+4. - 1
+   http://www.sxcahosp.com/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1028&wbnewsid=11339
+5. - 3
+   https://www.nhfyyy.com/dzb/zixun/zhaocai/gonggao/detail/6967.html
+6. - 4
+   https://www.hnnhyy.com/gzb/notice/procurement/7560.html
+7. - 3
+   https://www.nhfyyy.com/dzb/zixun/zhaocai/gonggao/detail/6967.html
+8. - 4
+   https://www.hnnhyy.com/gzb/notice/procurement/7560.html
+9. - 4
+   https://www.hnnhyy.com/gzb/notice/procurement/7560.html
+10. - 3
+   https://www.nhfyyy.com/dzb/zixun/zhaocai/gonggao/detail/6967.html
+11. - 4
+   https://www.hnnhyy.com/gzb/notice/procurement/7560.html
+12. - 6
+   https://heart.bmj.com/content/early/2025/12/17/heartjnl-2025-326702?rss=1
+13. - 6
+   https://heart.bmj.com/content/early/2025/12/17/heartjnl-2025-326702?rss=1
+14. - 7
+   https://www.nice.org.uk/guidance/HTG769/chapter/1-recommendations
+15. - 7
+   https://www.nice.org.uk/guidance/HTG769/chapter/1-recommendations

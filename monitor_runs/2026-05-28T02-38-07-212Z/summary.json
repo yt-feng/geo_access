@@ -1,0 +1,56 @@
+{
+  "createdAt": "2026-05-28T02:39:02.383Z",
+  "summary": [
+    {
+      "platform": "doubao",
+      "name": "豆包",
+      "sendResult": {
+        "ok": true,
+        "clicked": false,
+        "title": "豆包 - 字节跳动旗下 AI 智能助手",
+        "url": "https://www.doubao.com/chat/local_1543191125576717",
+        "inputTag": "TEXTAREA",
+        "inputClass": "semi-input-textarea semi-input-textarea-autosize",
+        "beforeLength": 567,
+        "afterLength": 596
+      },
+      "textLength": 596,
+      "htmlLength": 515991,
+      "url": "https://www.doubao.com/chat/local_1543191125576717"
+    },
+    {
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/978d0a7b-9564-4573-868a-2287045d7c4e",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 669,
+        "afterLength": 930
+      },
+      "textLength": 1338,
+      "htmlLength": 112704,
+      "url": "https://chat.deepseek.com/a/chat/s/978d0a7b-9564-4573-868a-2287045d7c4e"
+    },
+    {
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVQy4iuimm",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 970,
+        "afterLength": 879
+      },
+      "textLength": 1148,
+      "htmlLength": 112482,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVQy4iuimm"
+    }
+  ]
+}

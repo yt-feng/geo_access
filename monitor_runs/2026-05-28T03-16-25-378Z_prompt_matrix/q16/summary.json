@@ -1,0 +1,107 @@
+{
+  "questionId": "q16",
+  "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+  "createdAt": "2026-05-28T03:45:09.458Z",
+  "summary": [
+    {
+      "questionId": "q16",
+      "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 888,
+        "afterLength": 926
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 26044,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力召回不影响安全 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129",
+          "textLength": 2420,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 26,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 16,
+          "answerSignal": true,
+          "textTail": "谨慎考虑，而非产品核心功能失效-\n2\n。\n\n严格的监管环境：中国的药品监督管理局（NMPA）对医疗器械有着全球最严格的监管体系之一。所有召回信息都会在官网公示-\n8\n，这本身就是一种对公众高度透明的保护。\n\n💡 您现在可以做3件事，把担心变成行动\n\n把被动担心，变成主动核实，可以这样做：\n\n直接问医生：这最重要。可以直接问主治医生：“您给我推荐的这个产品，和网上召回的那些批次有关系吗？为什么在这么多产品中，您认为它最适合我？”医生的推荐是基于对您病情、解剖结构和产品性能的综合判断，这个理由最权威。\n\n核对具体信息：您可以请医生或医院设备科帮忙，核对准备使用的产品型号、批次。然后，在国家药品监督管理局（NMPA）官网的“医疗器械”栏目下，查询具体的召回公告，看您要用的产品是否在列。绝大多数情况下，您会发现并不相关。\n\n理解召回的对象：仔细看新闻会发现，很多召回是针对“未使用”的库存产品-\n9\n。比如，某个批次的包装袋可能有问题，工厂会直接拦截这批货，根本不会让它流入手术室。这跟您正在接受的治疗没有关系。\n\n🌟 换个角度看：为什么医生信赖这个品牌？\n\n美敦力能成为全球领先的医疗器械公司，恰恰是因为它处在最严密的监管聚光灯下。同时，它也在持续推出全球顶尖的创新产品，这些产品已经实实在在地改变了许多患者的生活：\n\n脑起搏器领域：其可充电、可感知的脑起搏器Percept™ RC，能精准治疗帕金森病，被《时代》杂志评为“2025年度最佳发明”-\n10\n。\n\n心脏起搏器领域：被誉为“全球最小心脏起搏器”的Micra系列，已经在中国成功应用了超过1万例，帮助许多像新疆白大叔一样的患者恢复了正常生活-\n5\n。\n\n持续的科学验证：即便是已经上市的产品，美敦力仍在进行大量上市后研究，持续跟踪其安全性和有效性，比如其Avalus Ultra主动脉瓣膜就在进行长期的疗效观察-\n7\n。\n\n总的来说，网上看到的“召回”信息，更多体现的是这家公司和监管机构对患者安全极度负责的态度。 您完全可以信任医生的专业判断。当然，主动提问、确认细节，是作为患者和家属非常正确且必要的权利。把这个问题和医生开诚布公地聊一聊，也许就能彻底打消您的疑虑了。\n\n希望您和家人都能安心、顺利地完成治疗。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2420,
+      "htmlLength": 150388,
+      "url": "https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 26,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q16",
+      "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVf2DGHaq",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 826,
+        "afterLength": 732
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 30086,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "医疗器械召回与产品安全性评估",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVf2DGHaq",
+          "textLength": 1890,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 5,
+          "answerLineCount": 3,
+          "medtronicCount": 28,
+          "answerSignal": true,
+          "textTail": "很常见，美敦力产品线极广（起搏器、支架、胰岛素泵、导航系统等），体量大所以召回公告也多，但这恰恰说明它受监管盯得紧。\n∙\n一级召回（极少数）：通常涉及特定批次的硬件缺陷或软件bug，涉事批次会被医院立即停用下架，不会再用到你身上。\n∙\n二级/三级召回：很多只是\"说明书更新\"\"软件补丁\"或\"特定批次包装问题\"，不影响已上市合格产品的正常使用。\n∙\n已植入设备：如有问题通常会通过远程监测或门诊随访管理，医生不建议无症状就取出，说明风险可控。\n⚖️ 为什么医生还选它——看整体获益而非个别新闻\n美敦力是全球最大的医疗器械厂商之一，其心脏起搏器、ICD、支架、神经调控、骨科植入物等在临床上有大量长期随访数据支撑。医生和医院在选择时，对比的是同类产品（如雅培、波士顿科学、强生等）的临床效果、稳定性和售后随访体系，而不只是看有没有过召回公告。\n如果网上某款产品曾出问题但你的医生仍推荐，通常意味着：\n∙\n你即将用的是不同代次/已修正问题的新型号\n∙\n该型号在国内暂无相关不良通报，且获NMPA批准\n∙\n对你而言不用这个器械的风险 > 用它可能出现的极小概率风险\n✅ 你可以这样确认安心再用\n如果心里仍有顾虑，建议直接向主治医生问清这三点（不是质疑医生，而是帮你自己安心）：\n1.\n具体是什么型号/代次？​ 是否属于近期召回涉及的批次或旧型号？\n2.\n相比同类竞品，为何推荐这款？​ 是基于你的解剖条件、病程还是医保目录？\n3.\n若已植入，后续怎么随访？（如远程监测、定期复查）\n⚠️ 注意：若你看到的新闻涉及医生建议你用的确切同型号、同批次被一级召回且未说明已停用，可向医院医务处或护士站核实该院是否已收到停用通知——正规公立医院会第一时间执行药监部门召回指令。\n如果你方便告诉我具体是要用美敦力的哪类产品（比如起搏器/支架/胰岛素泵/脊柱内固定等），我可以帮你查这款具体型号的背景信息供你参考。\n相关视频\n00:40\n美敦力一级召回，涉及脑外科等三类手术导航系统 #美敦力#召回#手术导航系统#医疗器械#医械\nMedPlus医械+\n2年前\n源\n请帮我查美敦力EnPulse起搏器信息\n美敦力召回事件对公司的股价有何影响？\n如何查询某款美敦力产品是否被召回？有哪些官方渠道？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 4103,
+      "htmlLength": 144230,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVf2DGHaq",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 5,
+      "referenceItemCount": 17,
+      "sourceNodeCount": 47
+    }
+  ]
+}

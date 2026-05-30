@@ -1,0 +1,118 @@
+{
+  "question_id": "q16",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 85,
+    "cognitive_accuracy": 90,
+    "evidence_inclusion": 30,
+    "recommendation_conversion": 80,
+    "total_score": 71
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌词出现5次，位置靠前，但产品线覆盖不足",
+    "important_terms_present": [
+      "美敦力",
+      "Micra"
+    ],
+    "important_terms_missing": [
+      "Percept",
+      "Avalus",
+      "脑起搏器",
+      "心脏起搏器"
+    ],
+    "product_assets_covered": [
+      "Micra",
+      "Percept RC",
+      "Avalus Ultra"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "美敦力是领先医疗器械公司",
+      "Micra是心脏起搏器",
+      "Percept RC是脑起搏器",
+      "Avalus Ultra是主动脉瓣膜"
+    ],
+    "confusions_or_errors": [],
+    "missing_assets": [
+      "美敦力在糖尿病、脊柱等领域的其他产品线"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 70,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "未提供具体来源，引用标记为空"
+    ],
+    "evidence_gaps": [
+      "召回具体批次信息",
+      "官方召回公告链接",
+      "产品安全性数据"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "召回是主动纠错",
+      "医生信赖品牌",
+      "产品创新获认可"
+    ],
+    "negative_or_risk_claims": [
+      "召回可能引起担忧",
+      "一级召回涉及严重健康危害"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": []
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "推荐信任医生，主动核实",
+    "next_step_quality": "high",
+    "conversion_notes": [
+      "建议直接问医生",
+      "核对产品批次",
+      "查询NMPA官网"
+    ]
+  },
+  "summary": "回答正面解释召回机制，维护品牌形象，但缺乏官方证据支撑，噪音较高。",
+  "dashboard_takeaway": "品牌可见度高，认知准确，但证据不足，需补充官方来源以增强信任。",
+  "improvement_actions": [
+    "引用NMPA召回公告原文",
+    "提供美敦力官方声明链接",
+    "增加产品安全性数据"
+  ],
+  "prompt": "医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/9d07af54-4a31-4976-aefb-01eb65eaf129",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 1794,
+    "completion_tokens": 590,
+    "total_tokens": 2384,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1026
+  },
+  "analyzed_at": "2026-05-28T04:11:22.149Z",
+  "local_signals": {
+    "answerLength": 1479,
+    "brandTermTotal": 5,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 4
+      },
+      {
+        "term": "Micra",
+        "count": 1
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

@@ -1,0 +1,41 @@
+DeepSeek 资料引用清单
+页面: https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204
+采集时间: 2026-05-28T03:17:14.109Z
+
+页面引用/来源片段:
+未在页面可见文本中识别到资料引用清单标题。
+
+引用来源条目:
+未识别到结构化引用来源条目。
+
+段落引用标记:
+未识别到段落引用标记。
+
+来源节点:
+未识别到来源节点。
+
+链接:
+1. - 8
+   https://www.medscape.com/viewarticle/nice-backs-paperclip-sized-sensor-heart-failure-care-2026a10003oq?src=rss
+2. - 8
+   https://www.medscape.com/viewarticle/nice-backs-paperclip-sized-sensor-heart-failure-care-2026a10003oq?src=rss
+3. - 5
+   https://www.cureus.com/articles/327068-cardiomems-heart-failure-system-an-up-to-date-review#!/#
+4. - 8
+   https://www.medscape.com/viewarticle/nice-backs-paperclip-sized-sensor-heart-failure-care-2026a10003oq?src=rss
+5. - 9
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC10326671/table/tab1/
+6. - 10
+   https://ichgcp.net/zh/clinical-trials-registry/NCT00769457
+7. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/products/cardiac-rhythm/cardiac-resynchronization-therapy/crt-ps/solara-crt-p-mri-surescan.html
+8. - 7
+   https://www.medtronic.com/en-ie/healthcare-professionals/products/cardiac-rhythm/cardiac-resynchronization-therapy/crt-ps/solara-crt-p-mri-surescan.html
+9. - 9
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC10326671/table/tab1/
+10. - 9
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC10326671/table/tab1/
+11. - 1
+   https://m.carefix.com.cn/cn/nd.jsp?mid=5&id=9862
+12. - 1
+   https://m.carefix.com.cn/cn/nd.jsp?mid=5&id=9862

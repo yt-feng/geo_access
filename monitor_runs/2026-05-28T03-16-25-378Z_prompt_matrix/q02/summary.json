@@ -1,0 +1,107 @@
+{
+  "questionId": "q02",
+  "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+  "createdAt": "2026-05-28T03:19:56.956Z",
+  "summary": [
+    {
+      "questionId": "q02",
+      "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 710,
+        "afterLength": 761
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 18033,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力设备成本对比 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+          "textLength": 1324,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 1,
+          "citationMarkerCount": 0,
+          "answerLineCount": 0,
+          "medtronicCount": 4,
+          "answerSignal": true,
+          "textTail": "审核下这份投资协议吗？我是创业者，前bcg战略咨询顾问，但\n我是个中国人正在沙特做ai教育（类似duolingo+tikto\n向日葵远程控制，其他设备都正常，但我的surface pro4总\n我正在高速上 我妈在开车 她快睡着了，车已经偏了好几次，帮我想下\n帮我翻译成英语，这是一篇央媒对我的公司报道，我希望分享给沙特的潜\n我是个中国人正在沙特做ai教育（类似duolingo+tikto\n2025-01\n我想要每天自动推送微信公众号，有什么工具吗\n我还欠一个英国客户一个proposal，但现在是中国的蛇年新年，\n中企与沙特大学中文教学合作谈判\n宽窄巷子菜品价格整理\n英文新闻宣发关键词与策略\nYepZan!与华为云合作拓展中东市场\n教育产品付费界面设计优化方案\n上市公司CVC负责人职位解析\n小红书海外博主合作模式探讨\nYT_\n美敦力设备成本对比\n快速模式\n心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？\n\n关于心律管理（如起搏器、ICD、CRT-D）或心衰远程监测设备的总拥有成本，美敦力与国产品牌或其他进口品牌（如雅培、波科）的具体价差，很难给出一个统一或固定的数字。这主要是因为这类设备的最终定价和费用构成非常复杂，通常受到以下几个关键因素影响：\n\n设备类型与功能差异：同样是植入设备，普通单腔起搏器、除颤器（ICD）和三腔起搏除颤器（CRT-D）的价格阶梯差异很大。高端设备（特别是带心衰远程监测功能的）技术壁垒高，不同品牌在算法、电池寿命和功能上的差异，会导致价格差距不固定。\n\n耗材与硬件的显性成本：总拥有成本不仅包括植入的脉冲发生器（机器）和电极导线，还涉及体外的远程监测终端（如家庭监测仪）。不同品牌硬件的采购报价和“以旧换新”政策可能不同，这部分差价可能是几千到数万元不等。\n\n医保报销与集采影响：这是影响“最终实际花费”最大的变量。目前各省市的医保报销比例、起付线不同，且心脏介入类耗材普遍经历过省级或国家级的集中带量采购。集采后，中选产品的价格会大幅下降，可能导致品牌间的价差缩小；而如果某品牌型号未中选，自付部分则可能贵出较多。\n\n如果你已经有具体的型号或者所在地区，可以告诉我，我帮你看看有没有相关的集采中选价格或报销政策参考。\n\n本回答由 AI 生成，内容仅供参考，请仔细甄别。\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 1324,
+      "htmlLength": 118731,
+      "url": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 1,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q02",
+      "prompt": "心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTps5huAy",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 765,
+        "afterLength": 712
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 50118,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "心律管理设备总拥有成本对比分析",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTps5huAy",
+          "textLength": 2520,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 12,
+          "answerLineCount": 11,
+          "medtronicCount": 22,
+          "answerSignal": true,
+          "textTail": "分Azure系列宣称最长可达13～15年，略优于部分早期国产型号），若电池寿命更长，理论上可减少一次更换，摊薄TCO。\n∙\n电极导线：各品牌通用集采价约2000元（普通）/9000元（左室），美敦力无特殊溢价。\n∙\n远程监测：美敦力CareLink、百多力Home Monitoring、波科Latitude均为患者端免费、医院端一次性购机或网络版，随访运维成本各品牌差异极小，不构成TCO主要差异。\n∙\n手术/住院费：与品牌无关，按当地物价标准收取。\n结论性估算：\n∙\nvs 国产（创领/先健/乐普）：美敦力初次设备采购贵 20%～40%（起搏器），ICD/CRT-D目前国产选择少且部分新上市国产ICD挂网价已接近进口，总体TCO差异缩小至15%～30%左右。若考虑国产电池寿命略短可能增加一次更换，全生命周期实际差额可能收窄至10%～20%。\n∙\nvs 其他进口（雅培/波科/百多力）：集采后基本无显著差异，同档型号价差通常在 ±5%～10% 内，TCO几乎相同。\n三、实际支付角度（患者/医院）\n∙\n患者自付：经医保+集采报销后，国产与进口实际自付差额可能仅数千元（各地政策不同）。\n∙\n医院采购：集采协议量内按中选价执行，美敦力未显著溢价，选型主要取决于临床功能匹配（MRI兼容、远程参数、电池寿命、CRT算法等）。\n如果您是从医院设备/耗材准入或卫生经济学评估（Budget Impact）角度做分析，我可以再帮您按具体省份集采中选价或按ICD/CRT-P/CRT-D分类细化TCO测算模型。您主要关注哪个具体产品线或场景？\n相关视频\n03:15\n200+\n2025年第八届进博会，“全勤生”美敦力今年带来14款心脏节律管理创新产品，从全球体积最小的无导心脏起搏器Micra到EV-ICD（血管外除颤器），再到足不出户即可监测心脏数据的远程随访系统，技术创新让医疗变得更高效、更便捷、更温暖。南都N视频记者：曾文琼 马强 蔡文茵 罗雪纯 王诗琪 宋耕洋 实习生：陈金意 刘纭溪\n南都健闻\n6个月前\n源\n美敦力与雅培/波科在心衰管理TCO差异多大？\n美敦力心衰设备耗材的TCO如何影响医院决策？\n从长期使用角度看，国产和进口设备在电池寿命方面的具体差异有多大？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 3798,
+      "htmlLength": 141784,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVTps5huAy",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 12,
+      "referenceItemCount": 11,
+      "sourceNodeCount": 42
+    }
+  ]
+}

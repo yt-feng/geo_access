@@ -1,0 +1,107 @@
+{
+  "questionId": "q14",
+  "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+  "createdAt": "2026-05-28T03:42:10.664Z",
+  "summary": [
+    {
+      "questionId": "q14",
+      "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+      "platform": "deepseek",
+      "name": "DeepSeek",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "DeepSeek - 探索未至之境",
+        "url": "https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34",
+        "inputTag": "TEXTAREA",
+        "inputClass": "_27c9245 ds-scroll-area ds-scroll-area--show-on-focus-within d96f2d2a",
+        "beforeLength": 865,
+        "afterLength": 936
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 32051,
+        "stableTicks": 3,
+        "state": {
+          "platformId": "deepseek",
+          "title": "美敦力医疗平台安全评估 - DeepSeek",
+          "url": "https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34",
+          "textLength": 2813,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": false,
+          "referenceTextSignal": false,
+          "externalReferenceCount": 40,
+          "citationMarkerCount": 0,
+          "answerLineCount": 3,
+          "medtronicCount": 15,
+          "answerSignal": true,
+          "textTail": "局限性。\n\n对网络和电力的依赖：远程监控和云随访高度依赖稳定的网络连接和电力供应。一旦断网或断电，设备将无法传输数据和接收安全更新-\n1\n-\n3\n。\n\n潜在的用户界面挑战：有行业分析指出，美敦力的一些远程患者监护系统可能存在操作界面复杂的问题，对不熟悉电子设备的老年人可能不太友好-\n5\n。\n\n数据隐私的隐忧：所有连接互联网的医疗设备都面临数据泄露的风险。尽管厂商采取了多重防护，但无法100%排除风险-\n1\n-\n4\n-\n9\n。\n\n无法完全替代线下操作：对于需要调整体内设备参数的情况，目前的远程技术仍主要处于研究阶段，最可靠的方式还是去医院让医生用专业设备（编程器）进行操作-\n3\n。\n\n3. 有什么替代方案？\n\n替代方案主要分为两大类：其他品牌的同类技术和传统的医疗模式。\n\n类别\t替代方案\t说明\n其他公司产品\t远程患者监护(RPM)市场\t美敦力是该领域的领导者之一，但并非唯一选择。主要的竞争对手包括飞利浦(Philips)、BioTelemetry、Teladoc Health等，它们也提供针对慢性病（主要是心脏疾病）的远程监控设备和数据分析服务-\n5\n。\n传统医疗模式\t常规诊室随访\t这是最传统、应用最广的方式。你需要定期返回医院，由医生使用专用编程器直接读取和调整你体内的设备-\n3\n-\n7\n。此方式不依赖网络，可与医生面对面沟通。\n\t基层医院联合随访\t作为5G云随访的替代，你可以只去具备基本检查条件的社区或县级医院。当地医生通过标准化流程检查你的设备，如有必要，再通过线上会议等方式联系大医院专家进行会诊-\n3\n。\n总结\n\n安全性：系统本身是安全可靠的。已知漏洞风险低，且需要物理接触设备才能利用，无法远程造成伤害-\n1\n-\n9\n。\n\n副作用：主要是网络依赖性和潜在的操作复杂性。\n\n替代方案：包括飞利浦等竞争产品、传统的医院诊室随访，或就近在基层医院检查。\n\n医生为你推荐这些方案，通常是希望更密切、高效地管理你的病情。如果你对网络安全特别担忧，可以和你医生商量，看是否有必要继续采用100%的线下门诊随访。\n\n为了给你更具体的建议，可以告诉我吗？\n\n你或家人具体是哪类情况需要使用？是安装了心脏起搏器/除颤器，还是作为医生在寻找培训平台？\n\n对远程医疗，你最担心的是什么？是数据泄露，还是设备操作复杂、学不会？\n\n10 个网页\n深度思考\n智能搜索\n内容由 AI 生成，请仔细甄别"
+        }
+      },
+      "textLength": 2813,
+      "htmlLength": 158583,
+      "url": "https://chat.deepseek.com/a/chat/s/ff12d074-8568-4be5-9abf-655e3db75e34",
+      "referenceSectionCount": 0,
+      "referenceLinkCount": 40,
+      "citationMarkerCount": 0,
+      "referenceItemCount": 0,
+      "sourceNodeCount": 0
+    },
+    {
+      "questionId": "q14",
+      "prompt": "医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案",
+      "platform": "yuanbao",
+      "name": "腾讯元宝",
+      "status": "ok",
+      "sendAttempts": 1,
+      "captchaRefreshes": 0,
+      "sendResult": {
+        "ok": true,
+        "clicked": true,
+        "title": "元宝-腾讯旗下全能AI助手",
+        "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q",
+        "inputTag": "DIV",
+        "inputClass": "ql-editor ql-blank",
+        "beforeLength": 844,
+        "afterLength": 755
+      },
+      "waitResult": {
+        "status": "ok",
+        "elapsedMs": 40104,
+        "stableTicks": 4,
+        "state": {
+          "platformId": "yuanbao",
+          "title": "美敦力CareLink等工具安全性评估",
+          "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q",
+          "textLength": 2297,
+          "hasCaptcha": false,
+          "loginRequired": false,
+          "loadingText": false,
+          "hasStopControl": false,
+          "hasSendControl": true,
+          "referenceTextSignal": true,
+          "externalReferenceCount": 0,
+          "citationMarkerCount": 6,
+          "answerLineCount": 0,
+          "medtronicCount": 27,
+          "answerSignal": true,
+          "textTail": "训系统，不是植入患者体内的治疗设备\n。\n∙\n对患者无直接身体影响，不存在生理副作用。风险主要是使用者（医生）上传匿名病例数据时的隐私合规问题，正规医院使用受伦理审查管控。\n⚠️ \"副作用\"与注意事项\n严格来说这些平台无药理学副作用，需注意：\n∙\n不能延误急救：感到不适（胸痛、黑矇、明显心悸、呼吸困难）请直接去急诊或呼叫120，不要等远程监测结果。\n∙\n网络/操作依赖：家中发射器需定期通电、放在正确距离，老人可能需要家属协助操作，否则可能漏传数据。\n∙\n隐私：健康数据会上传美敦力服务器供医生查看，签署知情同意后可要求了解数据存储与删除政策。\n🔄 替代方案\nCareLink是配合美敦力品牌植入器械使用的，若你植入的是其他品牌，对应远程随访系统如下\n：\n植入器械品牌\n\t\n对应远程随访系统\n\n\n美敦力(Medtronic)​\n\t\nCareLink / MyCareLink（医生已推荐）\n\n\n百多力(Biotronik)​\n\t\nHome Monitoring®（每日自动传输，无需手动操作）\n\n\n雅培/圣犹达(Abbott)​\n\t\nMerlin.net™ / MyMerlin App\n\n\n波士顿科学(Boston Scientific)​\n\t\nLATITUDE NXT / LATITUDE Connect\n⚠️ 注意：远程随访系统必须与你的植入器械品牌匹配，不能混用。如果你体内已是美敦力器械，CareLink基本是唯一官方配套远程方案；若仅指\"不做远程随访\"，替代方式就是按传统周期定期到医院门诊做程控随访（通常每6～12个月+有症状随时就诊）。\n✅ 小结建议：若你体内植入了美敦力心脏器械，CareLink是经循证验证、利大于弊的标准随访工具，可以放心按医嘱使用，记得保持家中监测器通电并按期上传即可。如有隐私顾虑可向管床医生索要《患者知情同意书》了解数据处理细节。\n如方便告知你植入的是起搏器(PPM)、ICD还是CRT，我可以帮你说明具体的远程随访频率和操作要点。\n相关视频\n00:27\n#医疗科技资讯\n医械维新2\n3个月前\n源\n这些平台是否支持微信小程序？\n美敦力CareLink的收费标准是什么？\n除了这些平台，还有哪些新型的远程监测技术正在发展中？\n下载元宝电脑版，体验高效 AI 助手\n\n\n\n\n深度思考\n工具\n安装电脑版\n内容由AI生成，仅供参考\n\n联网搜索\n写作\n编程\n解题"
+        }
+      },
+      "textLength": 5698,
+      "htmlLength": 155624,
+      "url": "https://yuanbao.tencent.com/chat/naQivTmsDa/0NVVR5SIW2q",
+      "referenceSectionCount": 2,
+      "referenceLinkCount": 0,
+      "citationMarkerCount": 6,
+      "referenceItemCount": 23,
+      "sourceNodeCount": 60
+    }
+  ]
+}

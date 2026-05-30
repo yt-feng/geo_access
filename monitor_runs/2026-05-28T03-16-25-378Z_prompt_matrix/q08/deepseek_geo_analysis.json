@@ -1,0 +1,124 @@
+{
+  "question_id": "q08",
+  "platform": "deepseek",
+  "scores": {
+    "answer_visibility": 70,
+    "cognitive_accuracy": 85,
+    "evidence_inclusion": 30,
+    "recommendation_conversion": 60,
+    "total_score": 61
+  },
+  "brand_terms": {
+    "frequency_assessment": "品牌词出现15次，Evolut高频，但美敦力仅2次，整体可见度中等",
+    "important_terms_present": [
+      "美敦力",
+      "Evolut",
+      "TAVR"
+    ],
+    "important_terms_missing": [
+      "Medtronic",
+      "CoreValve",
+      "Integrity",
+      "瓣膜"
+    ],
+    "product_assets_covered": [
+      "Evolut TAVR",
+      "主动脉瓣",
+      "肺动脉瓣"
+    ]
+  },
+  "brand_asset_understanding": {
+    "level": "high",
+    "correct_assets": [
+      "Evolut TAVR用于主动脉瓣狭窄",
+      "自膨式瓣膜特点",
+      "起搏器风险较高"
+    ],
+    "confusions_or_errors": [
+      "肺动脉瓣置换标注为Off-Label，但未说明美敦力有专用肺动脉瓣产品"
+    ],
+    "missing_assets": [
+      "美敦力外科瓣膜产品线",
+      "Harmony TPV用于肺动脉瓣"
+    ]
+  },
+  "evidence": {
+    "source_quality": "low",
+    "source_noise_level": 70,
+    "official_sources_used": [],
+    "noisy_or_weak_sources": [
+      "8个网页未明确来源",
+      "引用标记为空"
+    ],
+    "evidence_gaps": [
+      "缺乏美敦力官方研究数据",
+      "无随机对照试验引用"
+    ]
+  },
+  "sentiment_and_trust": {
+    "stance": "mixed_positive",
+    "positive_claims": [
+      "Evolut TAVR安全有效",
+      "适合高龄高风险患者"
+    ],
+    "negative_or_risk_claims": [
+      "起搏器植入率高",
+      "瓣周漏风险略高",
+      "肺动脉瓣超适应症"
+    ],
+    "balanced_evaluation": true,
+    "detracts_customer": false,
+    "detracting_phrases": [
+      "需要安装永久起搏器概率较高",
+      "瓣周漏风险略高"
+    ]
+  },
+  "recommendation": {
+    "recommends_medtronic": true,
+    "rank_or_priority": "未明确排名，但作为主要讨论对象",
+    "next_step_quality": "medium",
+    "conversion_notes": [
+      "建议与医生讨论",
+      "询问患者年龄和风险评分"
+    ]
+  },
+  "summary": "回答较全面，准确描述了Evolut TAVR的安全性和风险，但证据来源不明确，缺乏官方数据，且未覆盖美敦力完整产品线。",
+  "dashboard_takeaway": "品牌可见度中等，认知准确度高，但证据质量低，推荐转化力一般。需加强官方证据引用和产品线覆盖。",
+  "improvement_actions": [
+    "引用美敦力官方临床研究",
+    "补充Harmony TPV等肺动脉瓣产品",
+    "明确区分适应症与超适应症",
+    "提供更多循证医学证据"
+  ],
+  "prompt": "医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？",
+  "source_url": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+  "model": "deepseek-v4-flash",
+  "usage": {
+    "prompt_tokens": 2246,
+    "completion_tokens": 681,
+    "total_tokens": 2927,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 1478
+  },
+  "analyzed_at": "2026-05-28T04:09:34.733Z",
+  "local_signals": {
+    "answerLength": 2143,
+    "brandTermTotal": 15,
+    "terms": [
+      {
+        "term": "美敦力",
+        "count": 2
+      },
+      {
+        "term": "Evolut",
+        "count": 13
+      }
+    ],
+    "referenceItemCount": 0,
+    "officialReferenceCount": 0,
+    "referenceSources": []
+  }
+}

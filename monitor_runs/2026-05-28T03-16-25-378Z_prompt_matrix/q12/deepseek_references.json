@@ -1,0 +1,946 @@
+{
+  "platform": "deepseek",
+  "name": "DeepSeek",
+  "title": "糖尿病闭环系统选购对比 - DeepSeek",
+  "url": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+  "createdAt": "2026-05-28T03:37:51.521Z",
+  "sections": [],
+  "citationMarkers": [],
+  "referenceItems": [],
+  "sourceNodes": [],
+  "links": [
+    {
+      "text": "糖尿病闭环系统选购对比",
+      "href": "https://chat.deepseek.com/a/chat/s/9804de7c-d6af-4255-a2f9-5114de2837cf",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "美敦力机器人经销商资质",
+      "href": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力手术器械安全解析",
+      "href": "https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "外科器械品牌选择指南",
+      "href": "https://chat.deepseek.com/a/chat/s/400c9333-6bdb-409d-ac3c-3cefaac82fcd",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "美敦力Evolut瓣膜安全性与注意事项",
+      "href": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力系统医院数据合规",
+      "href": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "TAVR瓣膜选择对比分析",
+      "href": "https://chat.deepseek.com/a/chat/s/5662853b-f8ae-4a2f-bb1a-025950e71514",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "美敦力心脏瓣膜产品评估",
+      "href": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "心血管产品收费医保集采风险分析",
+      "href": "https://chat.deepseek.com/a/chat/s/4f172918-eb36-424e-b288-89ced9cf51f5",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "美敦力心脏设备安全答疑",
+      "href": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力设备成本对比",
+      "href": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "心血管器械选型对比",
+      "href": "https://chat.deepseek.com/a/chat/s/91d67ca9-e8f1-40c9-a881-8eea8b720204",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "医疗设备品牌咨询回答",
+      "href": "https://chat.deepseek.com/a/chat/s/9f73412f-861d-4c60-8eb5-d01b5cea82db",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "医疗品牌咨询回答",
+      "href": "https://chat.deepseek.com/a/chat/s/88b1758c-3287-48c0-ab65-a904b9fd3c60",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "医疗设备品牌咨询回答",
+      "href": "https://chat.deepseek.com/a/chat/s/978d0a7b-9564-4573-868a-2287045d7c4e",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "医疗设备品牌咨询",
+      "href": "https://chat.deepseek.com/a/chat/s/7990c1b1-8cf4-420b-8be4-8a6e8213c133",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "避免315黑帽GEO方法",
+      "href": "https://chat.deepseek.com/a/chat/s/e28ef398-971d-4185-832e-110db4079156",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "如何选择移动硬盘指南",
+      "href": "https://chat.deepseek.com/a/chat/s/d674b4b7-46d6-432b-bfda-9ec128eeba18",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "MacBook硬盘扩容方案推荐",
+      "href": "https://chat.deepseek.com/a/chat/s/1dbc1465-7ccd-4ccc-a92f-7b9e37da24e0",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "女生移动硬盘选购推荐",
+      "href": "https://chat.deepseek.com/a/chat/s/4d9217ad-98a0-4ed1-a624-a7833beb702d",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "移动硬盘选购指南与推荐",
+      "href": "https://chat.deepseek.com/a/chat/s/4061579f-380d-408f-9305-a83e12d64adc",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "移动硬盘推荐",
+      "href": "https://chat.deepseek.com/a/chat/s/59292f85-1a8d-4642-af9f-7cfa45dd3fca",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "网易云音乐红心歌曲品味分析",
+      "href": "https://chat.deepseek.com/a/chat/s/00051e2b-69b0-4f65-a9df-7838afd23196",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "公关条款调整建议与风险控制",
+      "href": "https://chat.deepseek.com/a/chat/s/7301fd05-b2f8-4f50-a5b7-2933029e55de",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我是个中国人正在沙特做ai教育（类似duolingo+tikto",
+      "href": "https://chat.deepseek.com/a/chat/s/25934ce6-040d-4836-805f-0a3a51639e88",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我正在起诉合作方赔偿，目前起诉如下，我该怎么表达才清晰，必须要准",
+      "href": "https://chat.deepseek.com/a/chat/s/10c7d305-4935-42a1-a63a-6705ba6f4562",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "visa中的profession填写什么呀？",
+      "href": "https://chat.deepseek.com/a/chat/s/a51ff065-7356-4c3f-ac2f-813f5e5286c6",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我的投资人唐宁（宜信财富ceo，前外交部长唐家璇儿子）给我转发了",
+      "href": "https://chat.deepseek.com/a/chat/s/74e2ac48-6800-4824-9c72-501f948a9727",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "能帮我审核下这份投资协议吗？我是创业者，前bcg战略咨询顾问，但",
+      "href": "https://chat.deepseek.com/a/chat/s/47ed3d7f-2275-4250-a326-c1bf68f4f92c",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我是个中国人正在沙特做ai教育（类似duolingo+tikto",
+      "href": "https://chat.deepseek.com/a/chat/s/d194abd3-d4ac-4d78-9b2a-dc45fa7a4713",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "向日葵远程控制，其他设备都正常，但我的surface pro4总",
+      "href": "https://chat.deepseek.com/a/chat/s/418f00d7-9e4d-4dae-bd7f-c6b73fa34a08",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我正在高速上 我妈在开车 她快睡着了，车已经偏了好几次，帮我想下",
+      "href": "https://chat.deepseek.com/a/chat/s/fda02383-d030-497e-bcaa-9e54267857af",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "帮我翻译成英语，这是一篇央媒对我的公司报道，我希望分享给沙特的潜",
+      "href": "https://chat.deepseek.com/a/chat/s/6e721109-4035-45d0-9ac3-e99e9d2decca",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我是个中国人正在沙特做ai教育（类似duolingo+tikto",
+      "href": "https://chat.deepseek.com/a/chat/s/eec45271-f7b2-42fd-9c40-36152d8bfd9a",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我想要每天自动推送微信公众号，有什么工具吗",
+      "href": "https://chat.deepseek.com/a/chat/s/9a8e71c7-6aab-4a90-b408-4cba80a04068",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "我还欠一个英国客户一个proposal，但现在是中国的蛇年新年，",
+      "href": "https://chat.deepseek.com/a/chat/s/a406d8be-6628-4720-8ed9-a2444d4c7163",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "中企与沙特大学中文教学合作谈判",
+      "href": "https://chat.deepseek.com/a/chat/s/e3fc3d8e-42b2-423e-ae4a-52dd45254412",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "宽窄巷子菜品价格整理",
+      "href": "https://chat.deepseek.com/a/chat/s/5361cf82-0334-46c6-906c-42a1c60738a8",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "英文新闻宣发关键词与策略",
+      "href": "https://chat.deepseek.com/a/chat/s/9a84f8f1-9632-4046-b643-4b7b20bac426",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "YepZan!与华为云合作拓展中东市场",
+      "href": "https://chat.deepseek.com/a/chat/s/0f375dc0-95d7-43cc-baf2-d6d9afd30cba",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "教育产品付费界面设计优化方案",
+      "href": "https://chat.deepseek.com/a/chat/s/5ce29cdf-41fb-4dfb-a447-b50544ae4af2",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "上市公司CVC负责人职位解析",
+      "href": "https://chat.deepseek.com/a/chat/s/52b13475-58c9-4ce3-a339-051b06496f67",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "小红书海外博主合作模式探讨",
+      "href": "https://chat.deepseek.com/a/chat/s/4e35d813-44f3-41f7-be4b-dbc424a17288",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": false
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 5",
+      "href": "https://www.espeyearbook.org/ey/0022/ey0022.10-1",
+      "host": "www.espeyearbook.org",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 9",
+      "href": "https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts",
+      "host": "www.nasdaq.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 9",
+      "href": "https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts",
+      "host": "www.nasdaq.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    }
+  ],
+  "probableReferenceLinks": [
+    {
+      "text": "美敦力机器人经销商资质",
+      "href": "https://chat.deepseek.com/a/chat/s/f6279244-8694-4221-a068-643148858b8f",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力手术器械安全解析",
+      "href": "https://chat.deepseek.com/a/chat/s/ebeca9e2-2f68-459d-8983-fabdff1210c7",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力Evolut瓣膜安全性与注意事项",
+      "href": "https://chat.deepseek.com/a/chat/s/a6a9c861-db15-40f8-af70-6ff6708cdc3d",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力系统医院数据合规",
+      "href": "https://chat.deepseek.com/a/chat/s/63666ae8-42da-474c-adac-a5514726f885",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力心脏瓣膜产品评估",
+      "href": "https://chat.deepseek.com/a/chat/s/19ffbd47-dcfa-4801-8cb3-0a10167ee8bf",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力心脏设备安全答疑",
+      "href": "https://chat.deepseek.com/a/chat/s/2e1479b6-306f-493c-8161-545b9045e7a5",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "美敦力设备成本对比",
+      "href": "https://chat.deepseek.com/a/chat/s/514c7e6a-97ef-473c-a2e3-471af8aa2c56",
+      "host": "chat.deepseek.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 5",
+      "href": "https://www.espeyearbook.org/ey/0022/ey0022.10-1",
+      "host": "www.espeyearbook.org",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 10",
+      "href": "https://www.sciencedirect.com/science/article/pii/S1530891X25009188?dgcid=rss_sd_all",
+      "host": "www.sciencedirect.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 3",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tslim-x2tm-insulin-pump-now-available-abbotts-freestyle-librer-3",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 2",
+      "href": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/19322968251330308",
+      "host": "sage.cnpereading.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 9",
+      "href": "https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts",
+      "host": "www.nasdaq.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 9",
+      "href": "https://www.nasdaq.com/press-release/tandem-diabetes-care-announces-t-slim-x2tm-insulin-pump-compatibility-abbotts",
+      "host": "www.nasdaq.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 7",
+      "href": "https://www.medscape.com/viewarticle/new-dexcom-g7-feature-cleared-15-day-sensor-set-launch-2025a1000wgq?src=rss",
+      "host": "www.medscape.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 1",
+      "href": "https://tandemdiabetes.gcs-web.com/news-releases/news-release-details/tandem-diabetes-care-announces-tslim-x2tm-insulin-pump",
+      "host": "tandemdiabetes.gcs-web.com",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    },
+    {
+      "text": "- 8",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/40601565/",
+      "host": "pubmed.ncbi.nlm.nih.gov",
+      "title": "",
+      "ariaLabel": "",
+      "probablyReference": true
+    }
+  ],
+  "referencePanel": {
+    "attempted": false
+  }
+}
