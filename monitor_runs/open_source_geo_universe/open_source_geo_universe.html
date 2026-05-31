@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEO / AEO / LLMO 开源项目功能宇宙盘点</title>
+  <style>
+    :root {
+      --bg: #f6f7f8;
+      --panel: #ffffff;
+      --ink: #172026;
+      --muted: #64717d;
+      --line: #dce2e7;
+      --accent: #0f766e;
+      --accent-soft: #dff5f1;
+      --warn: #b45309;
+      --warn-soft: #fff4db;
+      --risk: #b91c1c;
+      --risk-soft: #fee2e2;
+      --ok: #166534;
+      --ok-soft: #dcfce7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      background: #10201f;
+      color: #fff;
+      padding: 34px 28px 30px;
+    }
+    .wrap { max-width: 1180px; margin: 0 auto; }
+    header h1 { margin: 0 0 8px; font-size: 30px; letter-spacing: 0; }
+    header p { margin: 0; color: #c7d8d4; max-width: 860px; }
+    main { padding: 26px 28px 48px; }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    h2 { margin: 0 0 12px; font-size: 20px; }
+    h3 { margin: 18px 0 10px; font-size: 16px; }
+    p { margin: 8px 0; }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 999px;
+      color: #dbecea;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfd;
+    }
+    .stat span { display: block; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .stat strong { display: block; margin-top: 6px; font-size: 24px; }
+    .callout {
+      border: 1px solid #a7d8d1;
+      background: var(--accent-soft);
+      border-radius: 8px;
+      padding: 14px;
+      margin: 12px 0;
+    }
+    .warn { border-color: #f1c27d; background: var(--warn-soft); }
+    .matrix { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; min-width: 980px; }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+    }
+    th {
+      color: #33424c;
+      background: #f1f4f6;
+      font-size: 12px;
+      text-transform: none;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .ok { background: var(--ok-soft); color: var(--ok); }
+    .partial { background: var(--warn-soft); color: var(--warn); }
+    .missing { background: var(--risk-soft); color: var(--risk); }
+    .priority {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .priority article {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfd;
+    }
+    .priority h3 { margin-top: 0; }
+    ul { padding-left: 20px; margin: 8px 0; }
+    li { margin: 6px 0; }
+    code {
+      background: #eef2f5;
+      border: 1px solid #dde5eb;
+      border-radius: 6px;
+      padding: 1px 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+    }
+    pre {
+      overflow-x: auto;
+      background: #111827;
+      color: #e5e7eb;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      header, main { padding-left: 16px; padding-right: 16px; }
+      .grid, .priority { grid-template-columns: 1fr; }
+      header h1 { font-size: 24px; }
+      section { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>GEO / AEO / LLMO 开源项目功能宇宙盘点</h1>
+      <p>面向 AI 时代品牌评估：把开源项目、现有监测系统、竞品声量、引用来源、llms.txt、AI 可发现性和内容优化闭环放到同一张能力地图里。</p>
+      <div class="meta">
+        <span class="pill">生成时间 2026-05-31</span>
+        <span class="pill">本地表格 37 个 repo</span>
+        <span class="pill">外部 GitHub topic 扩展</span>
+        <span class="pill">输出：gap matrix + roadmap</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section>
+        <h2>核心判断</h2>
+        <div class="callout">
+          当前 <code>geo_access</code> 已经较好覆盖“品牌在 AI 回答里如何出现”：采集、保存、GEO 四指标、竞品 SOV、引用证据、WildChat 意图和 dashboard。最大的缺口是“让品牌内容更容易被 AI 抓取、理解、引用”的工程层。
+        </div>
+        <div class="grid">
+          <div class="stat"><span>GEO topic repos</span><strong>258</strong></div>
+          <div class="stat"><span>AI visibility repos</span><strong>119</strong></div>
+          <div class="stat"><span>llms.txt repos</span><strong>362</strong></div>
+          <div class="stat"><span>本地表格 repos</span><strong>37</strong></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>当前覆盖度</h2>
+        <div class="matrix">
+          <table>
+            <thead><tr><th>能力</th><th>覆盖状态</th><th>说明</th></tr></thead>
+            <tbody>
+              <tr><td>多平台 AI 回答采集</td><td><span class="tag ok">强</span></td><td>DeepSeek / 腾讯元宝可用，豆包有验证码处理框架。</td></tr>
+              <tr><td>引用清单保存</td><td><span class="tag ok">强</span></td><td>元宝引用条目、citation markers、链接、HTML、截图均保存。</td></tr>
+              <tr><td>GEO 四项指标</td><td><span class="tag ok">强</span></td><td>答案可见度、认知准确度、证据纳入度、推荐转化力。</td></tr>
+              <tr><td>竞品扫描</td><td><span class="tag partial">首版</span></td><td>已有回答 SOV、引用 SOV 和高权重来源，但还需要 source authority 数据库。</td></tr>
+              <tr><td>用户意图挖掘</td><td><span class="tag partial">首版</span></td><td>WildChat 购买/选择意图范式已跑通，需要结构化 intent library。</td></tr>
+              <tr><td>llms.txt / schema / sitemap / robots 审计</td><td><span class="tag missing">缺失</span></td><td>这是开源 AEO/GEO 工具最常见的一块。</td></tr>
+              <tr><td>站点爬取和文档转 Markdown</td><td><span class="tag missing">缺失</span></td><td>医疗行业 PDF、说明书、白皮书、FAQ 需要进入可引用资产库。</td></tr>
+              <tr><td>内容改写优化闭环</td><td><span class="tag missing">缺失</span></td><td>AgenticGEO/MAGEO/AutoGEO 这类研究项目主要覆盖这里。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>功能宇宙矩阵</h2>
+        <div class="matrix">
+          <table>
+            <thead>
+              <tr><th>层</th><th>能力</th><th>代表项目</th><th>开源项目做什么</th><th>当前状态</th><th>融合方式</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>L0</td><td>用户意图 / prompt universe</td><td>WildChat、LMSYS、SEO/GEO skill packs</td><td>归纳真实用户问题、搜索意图、论坛问题、agent workflow。</td><td><span class="tag partial">部分</span></td><td>建立 <code>intent_library.json</code>。</td></tr>
+              <tr><td>L1</td><td>多引擎监测</td><td>OneGlanse、Elmo、Aperture、XanLens、aeo-radar</td><td>跟踪品牌在 ChatGPT、Gemini、Claude、Perplexity、AI Overview 中的出现。</td><td><span class="tag partial">部分</span></td><td>加 <code>providers/</code> 抽象，web UI + API 双通道。</td></tr>
+              <tr><td>L2</td><td>品牌可见度评分</td><td>GetCito、Aperture、Sonde、Citatra</td><td>品牌 mentions、竞品比较、AI visibility 分数、报告。</td><td><span class="tag ok">强</span></td><td>加多 run 趋势和 baseline。</td></tr>
+              <tr><td>L3</td><td>引用 / source authority</td><td>searchstack-aeo、Citatra、AEO mentions crawler</td><td>分析引用来源、竞品内容、权威性、backlinks 或搜索信号。</td><td><span class="tag partial">部分</span></td><td>建立 <code>source_authority_catalog.json</code>。</td></tr>
+              <tr><td>L4</td><td>AI discoverability 技术审计</td><td>aeorank、aeo.js、claude-rank、AEO God Mode</td><td>审计 llms.txt、robots、sitemap、schema、canonical、AI crawler rules。</td><td><span class="tag missing">缺失</span></td><td>新增 <code>site_audit</code>。</td></tr>
+              <tr><td>L5</td><td>LLM-readable publishing</td><td>AnswerDotAI/llms-txt、firecrawl generator、dualmark、docs plugins</td><td>生成 llms.txt、llms-full.txt、Markdown twins 和 docs 索引。</td><td><span class="tag missing">缺失</span></td><td>新增 <code>llms_txt_generator</code>。</td></tr>
+              <tr><td>L6</td><td>爬取和 Markdown 转换</td><td>crawl4ai、markitdown、sourcey、ragrabbit</td><td>把网页、PDF、Office、API docs 转成 LLM-friendly Markdown。</td><td><span class="tag missing">缺失</span></td><td>先做轻量 crawler，再接可选转换器。</td></tr>
+              <tr><td>L7</td><td>内容优化 / 改写实验</td><td>GEO-optim、AgenticGEO、MAGEO、AutoGEO</td><td>用 agent/critic/evaluator 改写内容，提高回答引用和可见度。</td><td><span class="tag missing">缺失</span></td><td>新增 <code>optimizer_lab</code>。</td></tr>
+              <tr><td>L8</td><td>SERP / Google AI Overview</td><td>searchstack-aeo、GetCito、codex-seo</td><td>监测 SERP、AI Overview、关键词和 GSC 等。</td><td><span class="tag missing">缺失</span></td><td>接 API 或合规 Playwright collector。</td></tr>
+              <tr><td>L9</td><td>CI / 回归 / 定时</td><td>aeorank、cron-ready CLI、GitHub Action 工具</td><td>PR 或定时检测，阈值失败、报告归档。</td><td><span class="tag partial">基础</span></td><td>加 <code>baseline.json</code> 和 GitHub Actions。</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>代表项目</h2>
+        <h3>研究与内容优化</h3>
+        <p><a href="https://github.com/GEO-optim/GEO">GEO-optim/GEO</a>、<a href="https://github.com/AIcling/agentic_geo">AIcling/agentic_geo</a>、<a href="https://github.com/Wu-beining/MAGEO">Wu-beining/MAGEO</a>、<a href="https://github.com/cxcscmu/AutoGEO">cxcscmu/AutoGEO</a>、<a href="https://github.com/geo-team-red/geo-optimizer">geo-team-red/geo-optimizer</a>。</p>
+        <h3>AI visibility / 品牌监测</h3>
+        <p><a href="https://github.com/aryamantodkar/oneglanse">oneglanse</a>、<a href="https://github.com/elmohq/elmo">elmo</a>、<a href="https://github.com/anyin-ai/aperture">aperture</a>、<a href="https://github.com/FayAndXan/xanlens">xanlens</a>、<a href="https://github.com/hellowalt/aeo-radar">aeo-radar</a>、<a href="https://github.com/webappski/aeo-platform">aeo-platform</a>、<a href="https://github.com/compiuta-origin/sonde-analytics">sonde-analytics</a>。</p>
+        <h3>llms.txt / AI-readable publishing</h3>
+        <p><a href="https://github.com/AnswerDotAI/llms-txt">AnswerDotAI/llms-txt</a>、<a href="https://github.com/firecrawl/llmstxt-generator">firecrawl/llmstxt-generator</a>、<a href="https://github.com/thedaviddias/llms-txt-hub">llms-txt-hub</a>、<a href="https://github.com/multivmlabs/aeo.js">aeo.js</a>、<a href="https://github.com/vinpatel/aeorank">aeorank</a>、<a href="https://github.com/dodopayments/dualmark">dualmark</a>。</p>
+        <h3>爬取、转换、MCP</h3>
+        <p><a href="https://github.com/unclecode/crawl4ai">crawl4ai</a>、<a href="https://github.com/microsoft/markitdown">microsoft/markitdown</a>、<a href="https://github.com/sourcey/sourcey">sourcey</a>、<a href="https://github.com/langchain-ai/mcpdoc">mcpdoc</a>、<a href="https://github.com/thedaviddias/mcp-llms-txt-explorer">mcp-llms-txt-explorer</a>。</p>
+      </section>
+
+      <section>
+        <h2>优先级</h2>
+        <div class="priority">
+          <article>
+            <h3>P0</h3>
+            <ul>
+              <li>站点 GEO readiness audit</li>
+              <li>llms.txt / llms-full.txt generator</li>
+              <li>source authority catalog</li>
+              <li>多 run 趋势 index</li>
+              <li>结构化 intent library</li>
+            </ul>
+          </article>
+          <article>
+            <h3>P1</h3>
+            <ul>
+              <li>多模型 API collector</li>
+              <li>Google AI Overview / SERP collector</li>
+              <li>内容库存和 gap analysis</li>
+            </ul>
+          </article>
+          <article>
+            <h3>P2</h3>
+            <ul>
+              <li>agentic optimizer lab</li>
+              <li>GitHub Action regression gate</li>
+              <li>CMS / framework plugins</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>建议新增模块</h2>
+        <pre><code>site_audit/
+  crawler.js
+  llms_txt_generator.js
+  readiness_rules.js
+  source_authority_catalog.json
+  build_site_audit_dashboard.js
+
+optimizer_lab/
+  candidate_generator.js
+  evaluator.js
+  fidelity_guard.js
+  experiment_runner.js</code></pre>
+        <div class="callout warn">
+          不建议先做 CMS 插件。先把站点审计、文件生成、来源资产库、监测趋势跑通，再按具体客户栈适配 WordPress、静态 docs、Magento 或其他插件。
+        </div>
+      </section>
+
+      <section>
+        <h2>检索入口</h2>
+        <ul>
+          <li><a href="https://github.com/topics/generative-engine-optimization">GitHub topic: generative-engine-optimization</a></li>
+          <li><a href="https://github.com/topics/ai-visibility">GitHub topic: ai-visibility</a></li>
+          <li><a href="https://github.com/topics/answer-engine-optimization">GitHub topic: answer-engine-optimization</a></li>
+          <li><a href="https://github.com/topics/llms-txt">GitHub topic: llms-txt</a></li>
+          <li>本地表格：<code>tools/技术改造-github_geo_aio_llm_optimization_repos.xlsx</code></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

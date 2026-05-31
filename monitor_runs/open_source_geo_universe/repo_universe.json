@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-05-31",
+  "scope": "GEO/AEO/LLMO/AI brand visibility, llms.txt, AI-readable publishing, answer monitoring, citation/source authority, intent mining, content optimization",
+  "local_system_strengths": [
+    "DeepSeek and Tencent Yuanbao answer capture",
+    "answer stability and reference-list waiting",
+    "HTML/TXT/PNG/raw reference preservation",
+    "per-answer GEO scoring across visibility, accuracy, evidence inclusion, recommendation force",
+    "competitive share-of-voice and citation source weighting",
+    "WildChat buyer-intent archetype mining",
+    "static HTML dashboards"
+  ],
+  "major_gaps": [
+    "llms.txt and llms-full.txt generation and validation",
+    "robots.txt, sitemap.xml, ai.txt, Schema/JSON-LD, canonical and AI crawler rule audit",
+    "website crawling and LLM-friendly Markdown conversion",
+    "source authority catalog with verified domains and ownership",
+    "multi-run time-series database, alerts and regression gates",
+    "multi-model API collection for ChatGPT, Gemini, Claude, Perplexity and Google AI Overview",
+    "agentic content rewrite optimization loop",
+    "content inventory and publishing workflow"
+  ],
+  "capability_layers": [
+    {
+      "id": "L0",
+      "name": "Intent and prompt universe",
+      "current_coverage": "partial",
+      "representative_repos": ["WildChat", "LMSYS-Chat", "aaron-he-zhu/seo-geo-claude-skills", "AgriciDaniel/codex-seo"],
+      "recommended_fusion": "Create intent_library.json with industry, brand, competitor, funnel stage and evidence requirements."
+    },
+    {
+      "id": "L1",
+      "name": "Multi-engine answer monitoring",
+      "current_coverage": "strong for DeepSeek/Yuanbao; limited elsewhere",
+      "representative_repos": ["aryamantodkar/oneglanse", "elmohq/elmo", "anyin-ai/aperture", "FayAndXan/xanlens", "webappski/aeo-platform"],
+      "recommended_fusion": "Add provider abstraction for API and web UI collectors with a unified answer/reference schema."
+    },
+    {
+      "id": "L2",
+      "name": "Brand visibility and GEO scoring",
+      "current_coverage": "strong early product prototype",
+      "representative_repos": ["anyin-ai/aperture", "compiuta-origin/sonde-analytics", "Citatra/Citatra", "ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool"],
+      "recommended_fusion": "Add time-series aggregates by platform, intent, brand and competitor."
+    },
+    {
+      "id": "L3",
+      "name": "Citation and source authority",
+      "current_coverage": "heuristic first version",
+      "representative_repos": ["alexpospekhov/searchstack-aeo", "federicodeponte/aeo-mentions-crawler", "Citatra/Citatra"],
+      "recommended_fusion": "Create source_authority_catalog.json and map citations to official, regulatory, academic, media, community, competitor and dealer classes."
+    },
+    {
+      "id": "L4",
+      "name": "Technical AI discoverability audit",
+      "current_coverage": "missing",
+      "representative_repos": ["vinpatel/aeorank", "multivmlabs/aeo.js", "Houseofmvps/claude-rank", "AEO-God-Mode/aeo-god-mode", "akii-technologies-ltd/akii-seo-ai-search-optimizer"],
+      "recommended_fusion": "Build site_audit with llms.txt, robots, sitemap, schema, canonical, content structure and crawler accessibility checks."
+    },
+    {
+      "id": "L5",
+      "name": "LLM-readable publishing",
+      "current_coverage": "missing",
+      "representative_repos": ["AnswerDotAI/llms-txt", "firecrawl/llmstxt-generator", "thedaviddias/llms-txt-hub", "dodopayments/dualmark", "WP-Autoplugin/llms-txt-for-wp"],
+      "recommended_fusion": "Generate llms.txt and llms-full.txt from sitemap, crawled pages, Markdown docs and curated source assets."
+    },
+    {
+      "id": "L6",
+      "name": "Crawling and Markdown conversion",
+      "current_coverage": "missing",
+      "representative_repos": ["unclecode/crawl4ai", "microsoft/markitdown", "sourcey/sourcey", "madarco/ragrabbit"],
+      "recommended_fusion": "Add lightweight crawler and optional document conversion for PDFs, docs, HTML and knowledge-base assets."
+    },
+    {
+      "id": "L7",
+      "name": "Content optimization and rewrite experiments",
+      "current_coverage": "missing",
+      "representative_repos": ["GEO-optim/GEO", "AIcling/agentic_geo", "Wu-beining/MAGEO", "cxcscmu/AutoGEO", "geo-team-red/geo-optimizer"],
+      "recommended_fusion": "Create optimizer_lab with candidate generator, evaluator, fidelity guard and experiment runner."
+    },
+    {
+      "id": "L8",
+      "name": "SERP and Google AI Overview monitoring",
+      "current_coverage": "missing",
+      "representative_repos": ["alexpospekhov/searchstack-aeo", "ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool", "AgriciDaniel/codex-seo"],
+      "recommended_fusion": "Add SERP/AIO collector via API provider or Playwright where permitted."
+    },
+    {
+      "id": "L9",
+      "name": "CI, scheduling and regression",
+      "current_coverage": "basic loop only",
+      "representative_repos": ["vinpatel/aeorank", "alexpospekhov/searchstack-aeo", "webappski/aeo-platform"],
+      "recommended_fusion": "Add baseline.json, scheduled GitHub Action and threshold-based regression reports."
+    },
+    {
+      "id": "L10",
+      "name": "CMS and framework plugins",
+      "current_coverage": "missing",
+      "representative_repos": ["WP-Autoplugin/llms-txt-for-wp", "vaneavasco/llmstxt-wp", "pawamoy/mkdocs-llmstxt", "jdillard/sphinx-llms-txt", "delucis/starlight-llms-txt", "mage-os-lab/llms.txt"],
+      "recommended_fusion": "Defer plugin work; first output static files and patches, then adapt to client stacks."
+    }
+  ],
+  "priority_roadmap": [
+    {
+      "priority": "P0",
+      "items": [
+        "site GEO readiness audit",
+        "llms.txt and llms-full.txt generator",
+        "source authority catalog",
+        "multi-run trend index",
+        "structured intent library"
+      ]
+    },
+    {
+      "priority": "P1",
+      "items": [
+        "multi-model API collector",
+        "Google AI Overview / SERP collector",
+        "content inventory and gap analysis"
+      ]
+    },
+    {
+      "priority": "P2",
+      "items": [
+        "agentic optimizer lab",
+        "GitHub Action regression gate",
+        "CMS/framework plugins"
+      ]
+    }
+  ],
+  "source_links": [
+    "https://github.com/topics/generative-engine-optimization",
+    "https://github.com/topics/ai-visibility",
+    "https://github.com/topics/answer-engine-optimization",
+    "https://github.com/topics/llms-txt",
+    "https://github.com/AnswerDotAI/llms-txt",
+    "https://github.com/firecrawl/llmstxt-generator",
+    "https://github.com/unclecode/crawl4ai",
+    "https://github.com/microsoft/markitdown",
+    "https://github.com/GEO-optim/GEO",
+    "https://github.com/AIcling/agentic_geo",
+    "https://github.com/Wu-beining/MAGEO",
+    "https://github.com/cxcscmu/AutoGEO"
+  ]
+}
+
