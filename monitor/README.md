@@ -127,6 +127,7 @@ monitor_runs/<timestamp>_prompt_matrix/matrix_summary.csv
 
 ```bash
 DEEPSEEK_API_KEY=... npm run analyze:geo
+npm run analyze:competitive
 npm run dashboard:matrix
 ```
 
@@ -134,9 +135,19 @@ npm run dashboard:matrix
 
 ```text
 monitor_runs/<timestamp>_prompt_matrix/geo_analysis_summary.json
+monitor_runs/<timestamp>_prompt_matrix/competitive_geo_summary.json
 monitor_runs/<timestamp>_prompt_matrix/q01/deepseek_geo_analysis.json
 monitor_runs/<timestamp>_prompt_matrix/q01/yuanbao_geo_analysis.json
 ```
+
+`analyze:competitive` 不调用模型，会基于本地回答文本和 `_references.json` 统计：
+
+- 美敦力与竞品在回答中的 share-of-voice。
+- 美敦力与竞品在引用来源中的加权证据份额。
+- 竞品官方来源、监管/临床/学术来源、医疗媒体/公众号等 source authority。
+- 回答可见度由竞品领先、引用证据偏向竞品、缺少美敦力官方来源等风险。
+
+`dashboard:matrix` 会自动内联这套竞品 GEO 扫描结果，并同步写出 `competitive_geo_summary.json`。
 
 ## MiniMed 意图覆盖实验
 

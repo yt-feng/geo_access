@@ -18,6 +18,7 @@ npm install
 npm run monitor:login
 npm run monitor:matrix
 DEEPSEEK_API_KEY=... npm run analyze:geo
+npm run analyze:competitive
 npm run dashboard:matrix
 ```
 

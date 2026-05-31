@@ -2,11 +2,13 @@
 
 const fs = require("fs");
 const path = require("path");
+const { analyzeCompetitiveAnswer, aggregateCompetitive } = require("./competitive_geo");
 
 const ROOT = path.resolve(__dirname, "..");
 const DEFAULT_RUN_DIR = path.join(ROOT, "monitor_runs", "2026-05-28T03-16-25-378Z_prompt_matrix");
 const RUN_DIR = path.resolve(process.argv[2] || process.env.GEO_DASHBOARD_RUN_DIR || DEFAULT_RUN_DIR);
 const OUT_FILE = path.join(RUN_DIR, "dashboard.html");
+const COMPETITIVE_OUT_FILE = path.join(RUN_DIR, "competitive_geo_summary.json");
 
 function readText(filePath) {
   return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
@@ -92,6 +94,57 @@ function shortList(items, emptyText = "无") {
   return values.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
 }
 
+function compactBrandName(name) {
+  return String(name || "").replace(/\s*\/\s*/g, " / ");
+}
+
+function percentBar(label, value, tone = "") {
+  const score = Math.max(0, Math.min(100, Number(value || 0)));
+  return `
+    <div class="score-row ${escapeHtml(tone)}">
+      <span>${escapeHtml(label)}</span>
+      <div class="bar"><i style="width:${score}%"></i></div>
+      <strong>${score}%</strong>
+    </div>
+  `;
+}
+
+function brandRankList(items, field, suffix = "") {
+  const rows = (items || []).filter((item) => Number(item[field] || 0) > 0).slice(0, 5);
+  if (!rows.length) return `<li>暂无明显品牌信号</li>`;
+  return rows.map((item) => `
+    <li>
+      <span>${escapeHtml(compactBrandName(item.name))}</span>
+      <strong>${escapeHtml(item[field])}${escapeHtml(suffix)}</strong>
+    </li>
+  `).join("");
+}
+
+function sourceList(items) {
+  const rows = (items || []).slice(0, 5);
+  if (!rows.length) return `<li>暂无高权重竞品来源</li>`;
+  return rows.map((item) => {
+    const brands = (item.brands || []).map((brand) => brand.name).join(" / ");
+    return `
+      <li>
+        <span>${escapeHtml(item.source || "未知来源")} · ${escapeHtml(item.authority?.label || "-")} ${escapeHtml(item.authority?.score || 0)}</span>
+        <strong>${escapeHtml(item.title || brands || "未命名来源")}</strong>
+      </li>
+    `;
+  }).join("");
+}
+
+function competitiveCell(row) {
+  if (!row?.competitive) return "-";
+  const comp = row.competitive;
+  const mentionTotal = (comp.medtronic?.answerMentions || 0) + (comp.competitorMentionTotal || 0);
+  const sourceTotal = (comp.medtronic?.sourceWeight || 0) + (comp.competitorSourceWeight || 0);
+  const compAnswerShare = mentionTotal ? Math.round((comp.competitorMentionTotal / mentionTotal) * 100) : 0;
+  const compSourceShare = sourceTotal ? Math.round((comp.competitorSourceWeight / sourceTotal) * 100) : 0;
+  const risk = comp.risks.length ? " ⚠" : "";
+  return `${compAnswerShare}% / ${compSourceShare}%${risk}`;
+}
+
 function build() {
   const summaryPath = path.join(RUN_DIR, "summary.json");
   const summary = readJson(summaryPath);
@@ -121,6 +174,13 @@ function build() {
       row.answerExcerpt = excerpt(row.answer);
       row.references = readJson(row.referencesJsonPath, {});
       row.geoAnalysis = analysisByKey.get(`${question.questionId}:${platform}`);
+      row.competitive = analyzeCompetitiveAnswer({
+        questionId: question.questionId,
+        platform,
+        prompt: question.prompt,
+        answer: row.answer,
+        references: row.references,
+      });
     }
   }
 
@@ -132,6 +192,16 @@ function build() {
   const aggregate = geoAnalysis.aggregate || {};
   const deepseekAggregate = aggregate.deepseek || {};
   const yuanbaoAggregate = aggregate.yuanbao || {};
+  const competitiveResults = questions.flatMap((question) => (
+    ["deepseek", "yuanbao"].map((platform) => question.rows[platform]?.competitive).filter(Boolean)
+  ));
+  const competitiveAggregate = aggregateCompetitive(competitiveResults);
+  fs.writeFileSync(COMPETITIVE_OUT_FILE, JSON.stringify({
+    createdAt: new Date().toISOString(),
+    runDir: RUN_DIR,
+    aggregate: competitiveAggregate,
+    results: competitiveResults,
+  }, null, 2), { mode: 0o600 });
 
   const categoryTabs = categories.map((category) => (
     `<button class="seg" data-filter="${escapeHtml(category)}">${escapeHtml(category)}</button>`
@@ -156,14 +226,40 @@ function build() {
         <td>${escapeHtml(deepseek?.textLength || 0)}</td>
         <td>${escapeHtml(deepseek?.referenceLinkCount || 0)}</td>
         <td>${escapeHtml(deepseek?.geoAnalysis?.scores?.total_score ?? "-")}</td>
+        <td>${escapeHtml(competitiveCell(deepseek))}</td>
         <td><span class="status">${escapeHtml(statusLabel(yuanbao?.status || "-"))}</span></td>
         <td>${escapeHtml(yuanbao?.textLength || 0)}</td>
         <td>${escapeHtml(yuanbao?.referenceItemCount || 0)}</td>
         <td>${escapeHtml(yuanbao?.citationMarkerCount || 0)}</td>
         <td>${escapeHtml(yuanbao?.geoAnalysis?.scores?.total_score ?? "-")}</td>
+        <td>${escapeHtml(competitiveCell(yuanbao))}</td>
       </tr>
     `;
   }).join("");
+
+  const competitiveBrandRows = competitiveAggregate.brands.slice(0, 12).map((brand) => `
+    <tr>
+      <td>${escapeHtml(compactBrandName(brand.name))}</td>
+      <td>${escapeHtml(brand.role === "target" ? "目标品牌" : "竞品")}</td>
+      <td>${escapeHtml(brand.answerMentions)}</td>
+      <td>${escapeHtml(brand.answerShare)}%</td>
+      <td>${escapeHtml(brand.sourceWeight)}</td>
+      <td>${escapeHtml(brand.sourceShare)}%</td>
+      <td>${escapeHtml(brand.officialSourceCount)}</td>
+      <td>${escapeHtml(brand.highAuthoritySourceCount)}</td>
+    </tr>
+  `).join("");
+
+  const competitivePlatformCards = Object.values(competitiveAggregate.byPlatform || {}).map((item) => `
+    <div class="competitive-platform">
+      <h3>${escapeHtml(platformName(item.platform))}</h3>
+      ${percentBar("美敦力回答SOV", item.medtronicAnswerShare, item.platform)}
+      ${percentBar("竞品回答SOV", item.competitorAnswerShare, "competitor")}
+      ${percentBar("美敦力证据份额", item.medtronicSourceShare, item.platform)}
+      ${percentBar("竞品证据份额", item.competitorSourceShare, "competitor")}
+      <p>${escapeHtml(item.riskCount)} / ${escapeHtml(item.sampleCount)} 条回答存在竞品压制或证据偏置风险。</p>
+    </div>
+  `).join("");
 
   const cards = questions.map((question) => {
     const deepseek = question.rows.deepseek;
@@ -172,6 +268,36 @@ function build() {
       if (!row) return "";
       const refs = row.references?.referenceItems || [];
       const analysis = row.geoAnalysis;
+      const competitive = row.competitive;
+      const competitiveBlock = competitive ? `
+        <div class="competitive-analysis">
+          <div class="analysis-head">
+            <h4>竞品 GEO 扫描</h4>
+            <strong>${escapeHtml(competitive.risks.length ? `${competitive.risks.length} 风险` : "OK")}</strong>
+          </div>
+          <div class="competitive-cols">
+            <div>
+              <h5>回答可见度</h5>
+              <ol>${brandRankList(competitive.answerRanking, "answerMentions", "次")}</ol>
+            </div>
+            <div>
+              <h5>引用证据权重</h5>
+              <ol>${brandRankList(competitive.sourceRanking, "sourceWeight", "")}</ol>
+            </div>
+          </div>
+          <div class="analysis-tags">
+            <span>美敦力提及：${escapeHtml(competitive.medtronic?.answerMentions || 0)}</span>
+            <span>竞品提及：${escapeHtml(competitive.competitorMentionTotal || 0)}</span>
+            <span>美敦力证据：${escapeHtml(competitive.medtronic?.sourceWeight || 0)}</span>
+            <span>竞品证据：${escapeHtml(competitive.competitorSourceWeight || 0)}</span>
+          </div>
+          ${competitive.risks.length ? `<ul class="risk-list">${competitive.risks.map((risk) => `<li>${escapeHtml(risk)}</li>`).join("")}</ul>` : ""}
+          <details>
+            <summary>高权重竞品来源</summary>
+            <ol class="source-compact">${sourceList(competitive.highWeightCompetitorSources)}</ol>
+          </details>
+        </div>
+      ` : "";
       const topRefs = refs.slice(0, 8).map((item) => `
         <li>
           <span>${escapeHtml(item.source || "未知来源")}</span>
@@ -234,6 +360,7 @@ function build() {
             </div>
           </div>
           ${analysisBlock}
+          ${competitiveBlock}
           <p class="answer">${escapeHtml(row.answerExcerpt)}</p>
           ${topRefs ? `<div class="refs"><h4>引用来源</h4><ol>${topRefs}</ol></div>` : ""}
           <div class="evidence">
@@ -312,6 +439,26 @@ function build() {
     .bar i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
     .deepseek .bar i { background: var(--deepseek); }
     .yuanbao .bar i { background: var(--yuanbao); }
+    .competitor .bar i { background: #8a5a12; }
+    .competitive-overview { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-bottom: 18px; }
+    .competitive-head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 12px; }
+    .competitive-head h2 { margin: 0 0 6px; font-size: 18px; }
+    .competitive-head p { margin: 0; color: var(--muted); line-height: 1.5; font-size: 13px; }
+    .competitive-head a { display: inline-flex; align-items: center; min-height: 30px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; font-size: 12px; font-weight: 800; }
+    .competitive-stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
+    .competitive-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 12px; }
+    .competitive-platform { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fbfcfd; }
+    .competitive-platform h3 { margin: 0 0 10px; font-size: 14px; }
+    .competitive-platform p { margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+    .compact-table { margin: 0; }
+    .competitive-analysis { border: 1px solid var(--line); border-radius: 8px; background: #fffaf0; padding: 12px; margin: 12px 0; }
+    .competitive-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .competitive-cols h5 { margin: 0 0 6px; font-size: 12px; }
+    .competitive-cols ol, .source-compact { margin: 0; padding-left: 20px; }
+    .competitive-cols li, .source-compact li { margin-bottom: 6px; font-size: 12px; line-height: 1.35; }
+    .competitive-cols li span, .source-compact li span { display: block; color: var(--muted); font-weight: 700; }
+    .competitive-cols li strong, .source-compact li strong { font-weight: 650; }
+    .risk-list { margin: 10px 0 0; padding-left: 18px; color: #8a351f; font-size: 12px; line-height: 1.45; }
     .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; }
     .seg { border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 8px; min-height: 34px; padding: 0 12px; cursor: pointer; font-weight: 650; }
     .seg.active { background: var(--ink); color: #fff; border-color: var(--ink); }
@@ -366,6 +513,7 @@ function build() {
       aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
       .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .geo-overview { grid-template-columns: 1fr; }
+      .competitive-stats, .competitive-grid, .competitive-cols { grid-template-columns: 1fr; }
       .compare { grid-template-columns: 1fr; }
       .platform { border-right: 0; border-bottom: 1px solid var(--line); }
       .platform:last-child { border-bottom: 0; }
@@ -409,6 +557,46 @@ function build() {
           <div>${scoreBar("答案可见度", yuanbaoAggregate.answer_visibility)}${scoreBar("认知准确度", yuanbaoAggregate.cognitive_accuracy)}${scoreBar("证据纳入度", yuanbaoAggregate.evidence_inclusion)}${scoreBar("推荐转化力", yuanbaoAggregate.recommendation_conversion)}</div>
         </div>
       </section>
+      <section class="competitive-overview">
+        <div class="competitive-head">
+          <div>
+            <h2>竞品 GEO 竞争态势</h2>
+            <p>回答 share-of-voice 与引用来源权重同时统计；引用权重按官方/监管/临床/学术/媒体/社媒分层，并对靠前引用加权。</p>
+          </div>
+          <a href="${escapeHtml(rel(RUN_DIR, COMPETITIVE_OUT_FILE))}">JSON</a>
+        </div>
+        <div class="competitive-stats">
+          <div class="stat"><span>美敦力回答SOV</span><strong>${escapeHtml(competitiveAggregate.medtronic.answerShare)}%</strong></div>
+          <div class="stat"><span>竞品回答SOV</span><strong>${escapeHtml(competitiveAggregate.competitorAnswerShare)}%</strong></div>
+          <div class="stat"><span>美敦力引用份额</span><strong>${escapeHtml(competitiveAggregate.medtronic.sourceShare)}%</strong></div>
+          <div class="stat"><span>竞品引用份额</span><strong>${escapeHtml(competitiveAggregate.competitorSourceShare)}%</strong></div>
+          <div class="stat"><span>竞品高权重来源</span><strong>${escapeHtml(competitiveAggregate.topCompetitorSources.length)}</strong></div>
+        </div>
+        <div class="competitive-grid">
+          ${competitivePlatformCards}
+          <div class="competitive-platform">
+            <h3>高权重竞品来源 Top</h3>
+            <ol class="source-compact">${sourceList(competitiveAggregate.topCompetitorSources)}</ol>
+          </div>
+        </div>
+        <div class="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>品牌</th>
+                <th>角色</th>
+                <th>回答提及</th>
+                <th>回答SOV</th>
+                <th>引用权重</th>
+                <th>引用份额</th>
+                <th>官方来源</th>
+                <th>高权重来源</th>
+              </tr>
+            </thead>
+            <tbody>${competitiveBrandRows}</tbody>
+          </table>
+        </div>
+      </section>
       <div class="controls">
         <button class="seg active" data-filter="all">全部</button>
         ${categoryTabs}
@@ -424,11 +612,13 @@ function build() {
               <th>字数</th>
               <th>链接</th>
               <th>GEO分</th>
+              <th>竞品SOV/证据</th>
               <th>元宝</th>
               <th>字数</th>
               <th>来源</th>
               <th>段落引用</th>
               <th>GEO分</th>
+              <th>竞品SOV/证据</th>
             </tr>
           </thead>
           <tbody>${tableRows}</tbody>

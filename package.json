@@ -14,6 +14,7 @@
     "monitor:minimed:yuanbao": "GEO_MONITOR_PLATFORMS=yuanbao GEO_MONITOR_RUN_LABEL=minimed_intent_lab GEO_PROMPT_MATRIX_FILE=monitor_runs/minimed_intent_lab/prompt_matrix.txt GEO_INTENT_SPEC_FILE=monitor_runs/minimed_intent_lab/intent_spec.json node monitor/playwright_monitor.js matrix",
     "intent:minimed:score": "node monitor/intention_lab.js score",
     "analyze:geo": "node monitor/analyze_geo.js",
+    "analyze:competitive": "node monitor/competitive_geo.js",
     "dashboard:matrix": "node monitor/build_dashboard.js",
     "monitor:loop": "node monitor/playwright_monitor.js loop"
   },
