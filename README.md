@@ -7,6 +7,8 @@
 - `GEO评估报告_美敦力Medtronic_豆包DeepSeek腾讯元宝.html`: 初版综合报告。
 - `monitor_runs/2026-05-28T03-16-25-378Z_prompt_matrix/dashboard.html`: DeepSeek 与腾讯元宝问题矩阵 dashboard。
 - `monitor_runs/2026-05-28T03-16-25-378Z_prompt_matrix/geo_analysis_summary.json`: 基于 DeepSeek API 的逐回答 GEO 分析汇总。
+- `monitor_runs/yuanbao_medtronic_optimization/yuanbao_geo_optimization.html`: 聚焦腾讯元宝的美敦力 GEO 技术改造 dashboard，包含补源、稿件 brief、竞品引用风险和下一轮监测问题。
+- `monitor_runs/pr_guideline_digest/pr_guideline_digest.html`: 从本地公关稿件指南抽取的摘要化写作规则。
 - `monitor_runs/wildchat_purchase_archetypes/deepseek_synthesis.html`: 基于真实 WildChat 样本归纳的购买/选择意图范式 dashboard。
 - `monitor_runs/wildchat_purchase_archetypes/medtronic_prompt_matrix_from_archetypes.txt`: 由购买意图范式映射出的 MiniMed GEO 监测问题。
 - `monitor_runs/prompt_matrix.txt`: 监测问题矩阵。
@@ -20,6 +22,8 @@ npm run monitor:matrix
 DEEPSEEK_API_KEY=... npm run analyze:geo
 npm run analyze:competitive
 npm run dashboard:matrix
+npm run digest:pr
+GEO_OPTIMIZER_USE_LLM=1 DEEPSEEK_API_KEY=... npm run optimize:yuanbao
 ```
 
 `DEEPSEEK_API_KEY` 只通过环境变量传入，不要写入仓库。

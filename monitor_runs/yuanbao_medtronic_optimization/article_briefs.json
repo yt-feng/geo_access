@@ -1,0 +1,485 @@
+[
+  {
+    "id": "cardiac_rhythm",
+    "title": "美敦力心律管理与远程监测：从植入器械到随访数据的证据说明",
+    "objective": "提升腾讯元宝在“心律管理 / 心衰 / 远程监测”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "官方产品事实表",
+      "医生FAQ",
+      "术后随访说明",
+      "心衰监测证据页",
+      "数据隐私说明"
+    ],
+    "assetsToMention": [
+      "CareLink",
+      "BlueSync",
+      "OptiVol",
+      "Reveal LINQ",
+      "Micra",
+      "Cobalt/Crome"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "推荐转化力偏低",
+        "count": 3
+      },
+      {
+        "flag": "竞品在回答中的提及量超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "竞品引用证据权重超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "出现医疗传播高风险词：最好",
+        "count": 1
+      },
+      {
+        "flag": "关键品牌资产覆盖不足：BlueSync、OptiVol、Reveal LINQ、Cobalt/Crome",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [
+      {
+        "title": "Cardiac Rhythm Management",
+        "source": "bostonscientific.com",
+        "authority": "品牌官方",
+        "score": 78
+      },
+      {
+        "title": "ICD and CRT-D Solutions",
+        "source": "cardiovascular.abbott",
+        "authority": "品牌官方",
+        "score": 78
+      },
+      {
+        "title": "ENGINEERING DEVICE LONGEVITY",
+        "source": "bostonscientific.com",
+        "authority": "品牌官方",
+        "score": 78
+      }
+    ],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  },
+  {
+    "id": "structural_heart",
+    "title": "TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单",
+    "objective": "提升腾讯元宝在“结构性心脏 / TAVR / 瓣膜”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "临床证据索引",
+      "适用患者边界",
+      "学习曲线说明",
+      "术后风险FAQ",
+      "医保/收费说明"
+    ],
+    "assetsToMention": [
+      "Evolut",
+      "CoreValve",
+      "TAVR",
+      "主动脉瓣/外科瓣膜",
+      "瓣膜术后随访"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "竞品引用证据权重超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "出现医疗传播高风险词：最佳",
+        "count": 1
+      },
+      {
+        "flag": "缺少可识别的美敦力官方来源",
+        "count": 1
+      },
+      {
+        "flag": "证据纳入分偏低",
+        "count": 1
+      },
+      {
+        "flag": "出现医疗传播高风险词：最好",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [
+      {
+        "title": "A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants",
+        "source": "mdpi.com",
+        "authority": "期刊/学术",
+        "score": 88
+      },
+      {
+        "title": "SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system",
+        "source": "news.medtronic.com",
+        "authority": "品牌官方",
+        "score": 78
+      },
+      {
+        "title": "Medtronic key studies",
+        "source": "medtronic.com",
+        "authority": "品牌官方",
+        "score": 78
+      }
+    ],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  },
+  {
+    "id": "surgical",
+    "title": "从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界",
+    "objective": "提升腾讯元宝在“医疗外科 / 能量 / 吻合 / Hugo RAS”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "产品适用场景",
+      "耗材使用规范",
+      "经销商合规FAQ",
+      "培训路径",
+      "售后责任边界"
+    ],
+    "assetsToMention": [
+      "LigaSure",
+      "Valleylab",
+      "Tri-Staple",
+      "Hugo RAS",
+      "Touch Surgery"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "竞品在回答中的提及量超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "竞品引用证据权重超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "证据纳入分偏低",
+        "count": 1
+      },
+      {
+        "flag": "关键品牌资产覆盖不足：Tri-Staple、Hugo RAS、Touch Surgery",
+        "count": 1
+      },
+      {
+        "flag": "关键品牌资产覆盖不足：LigaSure、Valleylab、Tri-Staple",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [
+      {
+        "title": "A Comparison of the LigaSure and Harmonic Scalpel in Thyroid Surgery: A Single Institution Review",
+        "source": "SpringerLink",
+        "authority": "期刊/学术",
+        "score": 88
+      }
+    ],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  },
+  {
+    "id": "diabetes",
+    "title": "MiniMed闭环系统怎么选：控糖表现、低血糖风险与日常佩戴的关键问题",
+    "objective": "提升腾讯元宝在“糖尿病 / MiniMed / CGM / 闭环”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "MiniMed vs 竞品FAQ",
+      "TIR/低血糖证据说明",
+      "传感器准确性资料",
+      "儿童/成人适用边界",
+      "费用和可及性说明"
+    ],
+    "assetsToMention": [
+      "MiniMed",
+      "SmartGuard",
+      "Guardian",
+      "Simplera",
+      "CareLink",
+      "TIR"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "竞品在回答中的提及量超过美敦力",
+        "count": 2
+      },
+      {
+        "flag": "竞品引用证据权重超过美敦力",
+        "count": 2
+      },
+      {
+        "flag": "证据纳入分偏低",
+        "count": 1
+      },
+      {
+        "flag": "出现医疗传播高风险词：最好",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [
+      {
+        "title": "The Best CGM/Flash? compare sensor glucose systems",
+        "source": "waltzingthedragon.ca",
+        "authority": "专业协会",
+        "score": 82
+      },
+      {
+        "title": "This website uses cookies",
+        "source": "omnipod.com",
+        "authority": "品牌官方",
+        "score": 78
+      },
+      {
+        "title": "Important Safety Information for t:slim X2 with Basal-IQ Technology Tandem Diabetes Care",
+        "source": "tandemdiabetes.com",
+        "authority": "品牌官方",
+        "score": 78
+      },
+      {
+        "title": "FreeStyle Libre Systems vs. Dexcom: Compare CGM Systems FreeStyle Libre US",
+        "source": "freestyle.abbott",
+        "authority": "品牌官方",
+        "score": 78
+      }
+    ],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  },
+  {
+    "id": "reputation_safety",
+    "title": "如何看待医疗器械召回与安全信息：美敦力产品风险沟通FAQ",
+    "objective": "提升腾讯元宝在“安全 / 召回 / 声誉风险”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "召回/更正事实页",
+      "官方声明",
+      "监管链接",
+      "患者咨询路径",
+      "媒体问答口径"
+    ],
+    "assetsToMention": [
+      "产品安全声明",
+      "召回事实核验",
+      "风险沟通FAQ",
+      "术后注意事项",
+      "监管信息链接"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "关键品牌资产覆盖不足：产品安全声明、召回事实核验、风险沟通FAQ、术后注意事项",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [
+      {
+        "title": "About Boston Scientific",
+        "source": "bostonscientific.com",
+        "authority": "品牌官方",
+        "score": 78
+      }
+    ],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  },
+  {
+    "id": "channel_access",
+    "title": "医院与渠道伙伴如何评估美敦力方案：合规、培训、售后与可及性问答",
+    "objective": "提升腾讯元宝在“渠道 / 医保 / 采购 / 合作”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。",
+    "audience": [
+      "医生/科室负责人",
+      "患者及家属",
+      "医院采购/运营",
+      "媒体与AI搜索"
+    ],
+    "answerShape": [
+      "一句话结论",
+      "适用/不适用人群",
+      "竞品对比表",
+      "证据清单",
+      "风险和术后/使用注意事项",
+      "下一步咨询路径"
+    ],
+    "evidenceToCollect": [
+      "合规红线",
+      "售后SLA",
+      "培训认证",
+      "医院采购材料",
+      "区域政策链接"
+    ],
+    "assetsToMention": [
+      "医院引进FAQ",
+      "经销商合规指南",
+      "培训体系",
+      "售后服务边界",
+      "医保/收费说明"
+    ],
+    "topYuanbaoGaps": [
+      {
+        "flag": "竞品在回答中的提及量超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "竞品引用证据权重超过美敦力",
+        "count": 1
+      },
+      {
+        "flag": "关键品牌资产覆盖不足：医院引进FAQ、经销商合规指南、售后服务边界、医保/收费说明",
+        "count": 1
+      }
+    ],
+    "competitorSourcesToWatch": [],
+    "draftOutline": [
+      "标题：用事实场景表达，不用绝对化宣传语",
+      "导语：交代用户真实决策问题和美敦力可提供的证据边界",
+      "事实表：产品、适用场景、限制条件、医生咨询路径",
+      "对比表：美敦力与主要竞品各自适用场景",
+      "证据清单：官方、监管、临床/指南、权威医疗媒体来源",
+      "风险FAQ：召回、安全、费用、数据隐私或售后责任"
+    ],
+    "complianceGuardrails": [
+      "避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。",
+      "避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。",
+      "描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。",
+      "涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。",
+      "涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。",
+      "对外发布前应经过医学、法规、法务、品牌/公关多方审核。"
+    ]
+  }
+]

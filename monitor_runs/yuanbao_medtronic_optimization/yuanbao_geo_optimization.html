@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>腾讯元宝 · 美敦力 GEO 技术改造 Dashboard</title>
+  <style>
+    :root { --bg:#f6f7f8; --panel:#fff; --ink:#172026; --muted:#64717d; --line:#dce2e7; --accent:#0f766e; --soft:#dff5f1; --warn:#b45309; --warn-soft:#fff4db; --risk:#b91c1c; --risk-soft:#fee2e2; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; }
+    a { color:var(--accent); text-decoration:none; font-weight:700; }
+    a:hover { text-decoration:underline; }
+    header { background:#10201f; color:#fff; padding:32px 28px; }
+    .wrap { max-width:1180px; margin:0 auto; }
+    h1 { margin:0 0 8px; font-size:29px; letter-spacing:0; }
+    header p { margin:0; color:#c7d8d4; max-width:940px; }
+    main { padding:24px 28px 48px; }
+    section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; margin-bottom:18px; }
+    h2 { margin:0 0 12px; font-size:20px; }
+    h3 { margin:0 0 8px; font-size:16px; }
+    h4 { margin:12px 0 6px; font-size:13px; }
+    p { margin:8px 0; }
+    .stats { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; }
+    .stat, .mini-grid div { border:1px solid var(--line); border-radius:8px; padding:12px; background:#fbfcfd; }
+    .stat span, .mini-grid span { display:block; color:var(--muted); font-size:12px; font-weight:800; }
+    .stat strong, .mini-grid strong { display:block; margin-top:5px; font-size:24px; }
+    .callout { border:1px solid #a7d8d1; background:var(--soft); border-radius:8px; padding:14px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .brief, .row-card { border:1px solid var(--line); background:#fbfcfd; border-radius:8px; padding:14px; }
+    .row-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+    .p0,.p1,.p2 { display:inline-flex; min-height:26px; align-items:center; padding:0 8px; border-radius:999px; font-size:12px; font-weight:900; }
+    .p0 { color:var(--risk); background:var(--risk-soft); }
+    .p1 { color:var(--warn); background:var(--warn-soft); }
+    .p2 { color:#166534; background:#dcfce7; }
+    .prompt { color:#33424c; font-weight:700; }
+    .mini-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:10px 0; }
+    .mini-grid strong { font-size:18px; }
+    .links { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .links a { display:inline-flex; min-height:30px; align-items:center; padding:0 10px; border:1px solid var(--line); border-radius:8px; background:#fff; font-size:12px; }
+    table { width:100%; border-collapse:collapse; }
+    th,td { border-bottom:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; font-size:13px; }
+    th { background:#f1f4f6; color:#33424c; }
+    li { margin:5px 0; }
+    li span { display:block; color:var(--muted); font-size:12px; }
+    .source-list { margin:0; padding-left:20px; }
+    .source-list li { font-size:13px; }
+    @media(max-width:900px){ header,main{padding-left:16px;padding-right:16px;} .stats,.grid,.mini-grid{grid-template-columns:1fr;} h1{font-size:24px;} }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><h1>腾讯元宝 · 美敦力 GEO 技术改造 Dashboard</h1><p>美敦力GEO总分84，心律管理风险最高（P0行动2项），竞品波士顿科学、雅培在ICD/CRT-D问题中引用权重领先。糖尿病领域同样承压。核心行动：补全官方可抓取资产，按AI答案形态重构内容。</p></div></header>
+  <main><div class="wrap">
+    <section>
+      <h2>现在能做到什么程度</h2>
+      <div class="callout">美敦力在腾讯元宝的总体GEO表现中等（84分），但心律管理领域风险最高（P0行动2项），竞品（波士顿科学、雅培）在ICD/CRT-D问题中引用权重和提及量均超过美敦力。糖尿病领域同样面临雅培、Dexcom、Insulet的竞争压力。核心问题包括：官方来源缺失、关键品牌资产（如BlueSync、CareLink、MiniMed）未被AI识别、证据纳入分偏低。需优先补全官方可抓取资产，按AI答案形态重构内容，并主动提供对比边界和风险FAQ。</div>
+      <div class="stats" style="margin-top:12px">
+        <div class="stat"><span>元宝问题数</span><strong>16</strong></div>
+        <div class="stat"><span>GEO总分</span><strong>84</strong></div>
+        <div class="stat"><span>证据纳入</span><strong>78</strong></div>
+        <div class="stat"><span>美敦力回答SOV</span><strong>54%</strong></div>
+        <div class="stat"><span>美敦力引用SOV</span><strong>61%</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>优先动作</h2>
+      <ul><li><strong>P0</strong> 补全心律管理领域官方可抓取资产：CareLink、BlueSync、OptiVol、Reveal LINQ、Micra、Cobalt/Crome的独立产品页和FAQ<span>该领域风险Flag最多（11个），P0行动2项，竞品波士顿科学和雅培的官方来源已被AI高频引用，而美敦力关键品牌资产未被识别。</span></li><li><strong>P0</strong> 为糖尿病领域创建MiniMed闭环系统与竞品（雅培、Dexcom、Insulet、Tandem）的对比边界文档<span>糖尿病领域竞品引用权重和提及量均超过美敦力（各2次），且出现“最好”高风险词。AI需要明确的适用场景对比。</span></li><li><strong>P1</strong> 在官网发布“TAVR与瓣膜治疗选择”证据清单，引用SMART Trial等官方研究，并明确患者筛选标准<span>结构性心脏领域缺少可识别的美敦力官方来源（1次），且竞品Edwards的学术文献被AI引用。需强化官方证据可及性。</span></li><li><strong>P1</strong> 为外科领域创建LigaSure、Valleylab、Tri-Staple、Hugo RAS、Touch Surgery的独立产品场景页<span>外科领域关键品牌资产覆盖不足（Tri-Staple、Hugo RAS、Touch Surgery未被识别），且竞品强生爱惜康的学术文献被引用。</span></li><li><strong>P2</strong> 建立“召回与安全信息”专区，提供事实核验页和患者咨询路径<span>声誉风险领域虽只有1个风险Flag，但涉及关键品牌资产覆盖不足，且AI可能引用第三方负面信息。</span></li><li><strong>P2</strong> 为渠道/医保领域创建医院引进FAQ、经销商合规指南、售后服务边界说明<span>渠道领域竞品提及量和引用权重均超过美敦力，且关键品牌资产覆盖不足。</span></li></ul>
+    </section>
+
+    <section>
+      <h2>产品线缺口</h2>
+      <table><thead><tr><th>产品线</th><th>问题数</th><th>GEO均分</th><th>官方引用缺口</th><th>风险标记</th><th>P0动作</th></tr></thead><tbody>
+    <tr>
+      <td>心律管理 / 心衰 / 远程监测</td>
+      <td>4</td>
+      <td>77</td>
+      <td>1</td>
+      <td>11</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>结构性心脏 / TAVR / 瓣膜</td>
+      <td>4</td>
+      <td>87</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>医疗外科 / 能量 / 吻合 / Hugo RAS</td>
+      <td>4</td>
+      <td>87</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>糖尿病 / MiniMed / CGM / 闭环</td>
+      <td>2</td>
+      <td>82</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>安全 / 召回 / 声誉风险</td>
+      <td>1</td>
+      <td>88</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>渠道 / 医保 / 采购 / 合作</td>
+      <td>1</td>
+      <td>83</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr></tbody></table>
+    </section>
+
+    <section>
+      <h2>风险标记</h2>
+      <table><thead><tr><th>标记</th><th>次数</th></tr></thead><tbody>
+    <tr><td>竞品引用证据权重超过美敦力</td><td>6</td></tr>
+    <tr><td>竞品在回答中的提及量超过美敦力</td><td>5</td></tr>
+    <tr><td>证据纳入分偏低</td><td>4</td></tr>
+    <tr><td>推荐转化力偏低</td><td>3</td></tr>
+    <tr><td>出现医疗传播高风险词：最好</td><td>3</td></tr>
+    <tr><td>缺少可识别的美敦力官方来源</td><td>2</td></tr>
+    <tr><td>关键品牌资产覆盖不足：BlueSync、OptiVol、Reveal LINQ、Cobalt/Crome</td><td>1</td></tr>
+    <tr><td>关键品牌资产覆盖不足：BlueSync、OptiVol、Micra、Cobalt/Crome</td><td>1</td></tr>
+    <tr><td>关键品牌资产覆盖不足：CareLink、BlueSync、Reveal LINQ、Cobalt/Crome</td><td>1</td></tr>
+    <tr><td>出现医疗传播高风险词：最佳</td><td>1</td></tr></tbody></table>
+    </section>
+
+    <section>
+      <h2>竞品高权重来源</h2>
+      <ol class="source-list"><li><strong></strong> A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants<span>期刊/学术 88</span></li><li><strong></strong> A Comparison of the LigaSure and Harmonic Scalpel in Thyroid Surgery: A Single Institution Review<span>期刊/学术 88</span></li><li><strong></strong> The Best CGM/Flash? compare sensor glucose systems<span>专业协会 82</span></li><li><strong></strong> Cardiac Rhythm Management<span>品牌官方 78</span></li><li><strong></strong> ICD and CRT-D Solutions<span>品牌官方 78</span></li><li><strong></strong> ENGINEERING DEVICE LONGEVITY<span>品牌官方 78</span></li><li><strong></strong> SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system<span>品牌官方 78</span></li><li><strong></strong> Medtronic key studies<span>品牌官方 78</span></li><li><strong></strong> This website uses cookies<span>品牌官方 78</span></li><li><strong></strong> Important Safety Information for t:slim X2 with Basal-IQ Technology Tandem Diabetes Care<span>品牌官方 78</span></li></ol>
+    </section>
+
+    <section>
+      <h2>稿件与资产 Brief</h2>
+      <div class="grid">
+    <article class="brief">
+      <h3>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</h3>
+      <p>提升腾讯元宝在“心律管理 / 心衰 / 远程监测”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>官方产品事实表</li><li>医生FAQ</li><li>术后随访说明</li><li>心衰监测证据页</li><li>数据隐私说明</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>推荐转化力偏低 (3)</li><li>竞品在回答中的提及量超过美敦力 (1)</li><li>竞品引用证据权重超过美敦力 (1)</li><li>出现医疗传播高风险词：最好 (1)</li><li>关键品牌资产覆盖不足：BlueSync、OptiVol、Reveal LINQ、Cobalt/Crome (1)</li></ul>
+    </article>
+    <article class="brief">
+      <h3>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</h3>
+      <p>提升腾讯元宝在“结构性心脏 / TAVR / 瓣膜”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>临床证据索引</li><li>适用患者边界</li><li>学习曲线说明</li><li>术后风险FAQ</li><li>医保/收费说明</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>竞品引用证据权重超过美敦力 (1)</li><li>出现医疗传播高风险词：最佳 (1)</li><li>缺少可识别的美敦力官方来源 (1)</li><li>证据纳入分偏低 (1)</li><li>出现医疗传播高风险词：最好 (1)</li></ul>
+    </article>
+    <article class="brief">
+      <h3>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</h3>
+      <p>提升腾讯元宝在“医疗外科 / 能量 / 吻合 / Hugo RAS”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>产品适用场景</li><li>耗材使用规范</li><li>经销商合规FAQ</li><li>培训路径</li><li>售后责任边界</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力 (1)</li><li>竞品引用证据权重超过美敦力 (1)</li><li>证据纳入分偏低 (1)</li><li>关键品牌资产覆盖不足：Tri-Staple、Hugo RAS、Touch Surgery (1)</li><li>关键品牌资产覆盖不足：LigaSure、Valleylab、Tri-Staple (1)</li></ul>
+    </article>
+    <article class="brief">
+      <h3>MiniMed闭环系统怎么选：控糖表现、低血糖风险与日常佩戴的关键问题</h3>
+      <p>提升腾讯元宝在“糖尿病 / MiniMed / CGM / 闭环”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>MiniMed vs 竞品FAQ</li><li>TIR/低血糖证据说明</li><li>传感器准确性资料</li><li>儿童/成人适用边界</li><li>费用和可及性说明</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力 (2)</li><li>竞品引用证据权重超过美敦力 (2)</li><li>证据纳入分偏低 (1)</li><li>出现医疗传播高风险词：最好 (1)</li></ul>
+    </article>
+    <article class="brief">
+      <h3>如何看待医疗器械召回与安全信息：美敦力产品风险沟通FAQ</h3>
+      <p>提升腾讯元宝在“安全 / 召回 / 声誉风险”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>召回/更正事实页</li><li>官方声明</li><li>监管链接</li><li>患者咨询路径</li><li>媒体问答口径</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>关键品牌资产覆盖不足：产品安全声明、召回事实核验、风险沟通FAQ、术后注意事项 (1)</li></ul>
+    </article>
+    <article class="brief">
+      <h3>医院与渠道伙伴如何评估美敦力方案：合规、培训、售后与可及性问答</h3>
+      <p>提升腾讯元宝在“渠道 / 医保 / 采购 / 合作”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <h4>证据要补</h4>
+      <ul><li>合规红线</li><li>售后SLA</li><li>培训认证</li><li>医院采购材料</li><li>区域政策链接</li></ul>
+      <h4>AI答案形态</h4>
+      <p>一句话结论 / 适用/不适用人群 / 竞品对比表 / 证据清单 / 风险和术后/使用注意事项 / 下一步咨询路径</p>
+      <h4>元宝缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力 (1)</li><li>竞品引用证据权重超过美敦力 (1)</li><li>关键品牌资产覆盖不足：医院引进FAQ、经销商合规指南、售后服务边界、医保/收费说明 (1)</li></ul>
+    </article></div>
+    </section>
+
+    <section>
+      <h2>逐问题优化动作</h2>
+      <div class="grid">
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q01 · 心律管理 / 心衰 / 远程监测</h3>
+        <span class="p0">P0</span>
+      </div>
+      <p class="prompt">心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>80</strong></div>
+        <div><span>美敦力提及</span><strong>34</strong></div>
+        <div><span>竞品提及</span><strong>60</strong></div>
+        <div><span>官方引用</span><strong>3</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力</li><li>竞品引用证据权重超过美敦力</li><li>推荐转化力偏低</li><li>出现医疗传播高风险词：最好</li></ul>
+      <h4>建议资产</h4>
+      <p>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：心血管：心律管理/心衰/远程监测里，美敦力和Abbott、其他竞品怎么选？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q01/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q01/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q01/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q02 · 心律管理 / 心衰 / 远程监测</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>80</strong></div>
+        <div><span>美敦力提及</span><strong>30</strong></div>
+        <div><span>竞品提及</span><strong>19</strong></div>
+        <div><span>官方引用</span><strong>5</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>推荐转化力偏低</li><li>关键品牌资产覆盖不足：BlueSync、OptiVol、Reveal LINQ、Cobalt/Crome</li></ul>
+      <h4>建议资产</h4>
+      <p>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：心律管理/心衰/远程监测设备或耗材，总拥有成本 美敦力会比国产或其他进口品牌贵多少？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q02/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q02/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q02/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q03 · 心律管理 / 心衰 / 远程监测</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>88</strong></div>
+        <div><span>美敦力提及</span><strong>29</strong></div>
+        <div><span>竞品提及</span><strong>22</strong></div>
+        <div><span>官方引用</span><strong>5</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>关键品牌资产覆盖不足：BlueSync、OptiVol、Micra、Cobalt/Crome</li></ul>
+      <h4>建议资产</h4>
+      <p>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生建议用美敦力起搏器、ICD/CRT-D、Reveal LINQ、CareLink，它安全吗？有什么副作用、替代方案和术后注意事项？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q03/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q03/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q03/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q04 · 心律管理 / 心衰 / 远程监测</h3>
+        <span class="p0">P0</span>
+      </div>
+      <p class="prompt">心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>61</strong></div>
+        <div><span>美敦力提及</span><strong>3</strong></div>
+        <div><span>竞品提及</span><strong>0</strong></div>
+        <div><span>官方引用</span><strong>0</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>缺少可识别的美敦力官方来源</li><li>证据纳入分偏低</li><li>推荐转化力偏低</li><li>关键品牌资产覆盖不足：CareLink、BlueSync、Reveal LINQ、Cobalt/Crome</li></ul>
+      <h4>建议资产</h4>
+      <p>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：心血管：心律管理/心衰/远程监测相关产品在中国/本省是否能收费、医保报销或进集采？医院引进后量价风险如何？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q04/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q04/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q04/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q05 · 结构性心脏 / TAVR / 瓣膜</h3>
+        <span class="p2">P2</span>
+      </div>
+      <p class="prompt">我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>90</strong></div>
+        <div><span>美敦力提及</span><strong>77</strong></div>
+        <div><span>竞品提及</span><strong>4</strong></div>
+        <div><span>官方引用</span><strong>14</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>暂无显著风险</li></ul>
+      <h4>建议资产</h4>
+      <p>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：我们医院准备评估心血管：结构性心脏/TAVR/瓣膜，美敦力有哪些核心产品和临床场景？适合三甲/专科医院吗？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q05/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q05/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q05/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q06 · 结构性心脏 / TAVR / 瓣膜</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>88</strong></div>
+        <div><span>美敦力提及</span><strong>53</strong></div>
+        <div><span>竞品提及</span><strong>49</strong></div>
+        <div><span>官方引用</span><strong>6</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品引用证据权重超过美敦力</li><li>出现医疗传播高风险词：最佳</li></ul>
+      <h4>建议资产</h4>
+      <p>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：结构性心脏/TAVR/瓣膜里，美敦力和Edwards Lifesciences、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q06/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q06/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q06/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q07 · 结构性心脏 / TAVR / 瓣膜</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>81</strong></div>
+        <div><span>美敦力提及</span><strong>13</strong></div>
+        <div><span>竞品提及</span><strong>0</strong></div>
+        <div><span>官方引用</span><strong>0</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>缺少可识别的美敦力官方来源</li><li>证据纳入分偏低</li></ul>
+      <h4>建议资产</h4>
+      <p>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：结构性心脏/TAVR/瓣膜相关的美敦力系统能否接入HIS/EMR/PACS？数据出境、隐私、网络安全怎么处理？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q07/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q07/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q07/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q08 · 结构性心脏 / TAVR / 瓣膜</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>90</strong></div>
+        <div><span>美敦力提及</span><strong>36</strong></div>
+        <div><span>竞品提及</span><strong>3</strong></div>
+        <div><span>官方引用</span><strong>3</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>出现医疗传播高风险词：最好</li></ul>
+      <h4>建议资产</h4>
+      <p>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生建议用美敦力Evolut TAVR、主动脉瓣/外科瓣膜、肺动脉瓣，它安全吗？有什么副作用、替代方案和术后注意事项？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q08/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q08/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q08/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q09 · 医疗外科 / 能量 / 吻合 / Hugo RAS</h3>
+        <span class="p0">P0</span>
+      </div>
+      <p class="prompt">能量/吻合/缝合/疝修补里，美敦力和J&amp;J Ethicon、其他竞品怎么选？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>81</strong></div>
+        <div><span>美敦力提及</span><strong>26</strong></div>
+        <div><span>竞品提及</span><strong>57</strong></div>
+        <div><span>官方引用</span><strong>1</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力</li><li>竞品引用证据权重超过美敦力</li><li>证据纳入分偏低</li><li>关键品牌资产覆盖不足：Tri-Staple、Hugo RAS、Touch Surgery</li></ul>
+      <h4>建议资产</h4>
+      <p>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：能量/吻合/缝合/疝修补里，美敦力和J&amp;J Ethicon、其他竞品怎么选？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q09/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q09/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q09/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q10 · 医疗外科 / 能量 / 吻合 / Hugo RAS</h3>
+        <span class="p2">P2</span>
+      </div>
+      <p class="prompt">医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>88</strong></div>
+        <div><span>美敦力提及</span><strong>29</strong></div>
+        <div><span>竞品提及</span><strong>12</strong></div>
+        <div><span>官方引用</span><strong>6</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>暂无显著风险</li></ul>
+      <h4>建议资产</h4>
+      <p>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生建议用美敦力LigaSure、Valleylab、Tri-Staple、缝合与疝修补产品，它安全吗？有什么副作用、替代方案和术后注意事项？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q10/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q10/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q10/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q11 · 医疗外科 / 能量 / 吻合 / Hugo RAS</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>88</strong></div>
+        <div><span>美敦力提及</span><strong>56</strong></div>
+        <div><span>竞品提及</span><strong>5</strong></div>
+        <div><span>官方引用</span><strong>8</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>关键品牌资产覆盖不足：LigaSure、Valleylab、Tri-Staple</li></ul>
+      <h4>建议资产</h4>
+      <p>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：成为美敦力医疗外科：外科机器人/Hugo RAS/数字手术经销商需要什么资质？区域保护、培训、合规红线、售后责任怎么划分？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q11/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q11/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q11/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q12 · 糖尿病 / MiniMed / CGM / 闭环</h3>
+        <span class="p0">P0</span>
+      </div>
+      <p class="prompt">糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>78</strong></div>
+        <div><span>美敦力提及</span><strong>43</strong></div>
+        <div><span>竞品提及</span><strong>148</strong></div>
+        <div><span>官方引用</span><strong>5</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力</li><li>竞品引用证据权重超过美敦力</li><li>证据纳入分偏低</li><li>出现医疗传播高风险词：最好</li></ul>
+      <h4>建议资产</h4>
+      <p>MiniMed闭环系统怎么选：控糖表现、低血糖风险与日常佩戴的关键问题</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：糖尿病：胰岛素泵/CGM/闭环系统里，美敦力和Abbott FreeStyle Libre、其他竞品怎么选？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q12/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q12/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q12/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q13 · 糖尿病 / MiniMed / CGM / 闭环</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>86</strong></div>
+        <div><span>美敦力提及</span><strong>40</strong></div>
+        <div><span>竞品提及</span><strong>83</strong></div>
+        <div><span>官方引用</span><strong>5</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力</li><li>竞品引用证据权重超过美敦力</li></ul>
+      <h4>建议资产</h4>
+      <p>MiniMed闭环系统怎么选：控糖表现、低血糖风险与日常佩戴的关键问题</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生建议用美敦力MiniMed、Simplera、CareLink糖尿病管理，它安全吗？有什么副作用、替代方案。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q13/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q13/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q13/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q14 · 医疗外科 / 能量 / 吻合 / Hugo RAS</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>90</strong></div>
+        <div><span>美敦力提及</span><strong>67</strong></div>
+        <div><span>竞品提及</span><strong>15</strong></div>
+        <div><span>官方引用</span><strong>12</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>关键品牌资产覆盖不足：LigaSure、Valleylab、Tri-Staple、Hugo RAS</li></ul>
+      <h4>建议资产</h4>
+      <p>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生建议用美敦力CareLink、Touch Surgery、远程随访、数据分析与培训平台，它安全吗？有什么副作用、替代方案。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q14/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q14/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q14/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q15 · 渠道 / 医保 / 采购 / 合作</h3>
+        <span class="p0">P0</span>
+      </div>
+      <p class="prompt">企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>83</strong></div>
+        <div><span>美敦力提及</span><strong>29</strong></div>
+        <div><span>竞品提及</span><strong>35</strong></div>
+        <div><span>官方引用</span><strong>7</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>竞品在回答中的提及量超过美敦力</li><li>竞品引用证据权重超过美敦力</li><li>关键品牌资产覆盖不足：医院引进FAQ、经销商合规指南、售后服务边界、医保/收费说明</li></ul>
+      <h4>建议资产</h4>
+      <p>医院与渠道伙伴如何评估美敦力方案：合规、培训、售后与可及性问答</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：企业合作/渠道/教育培训/服务里，美敦力和大型跨国器械公司、其他竞品怎么选？请从临床证据、价格、售后、学习曲线比较。。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q15/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q15/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q15/yuanbao.png">截图</a>
+      </div>
+    </article>
+    <article class="row-card">
+      <div class="row-head">
+        <h3>Q16 · 安全 / 召回 / 声誉风险</h3>
+        <span class="p1">P1</span>
+      </div>
+      <p class="prompt">医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？</p>
+      <div class="mini-grid">
+        <div><span>GEO总分</span><strong>88</strong></div>
+        <div><span>美敦力提及</span><strong>39</strong></div>
+        <div><span>竞品提及</span><strong>5</strong></div>
+        <div><span>官方引用</span><strong>13</strong></div>
+      </div>
+      <h4>风险/缺口</h4>
+      <ul><li>关键品牌资产覆盖不足：产品安全声明、召回事实核验、风险沟通FAQ、术后注意事项</li></ul>
+      <h4>建议资产</h4>
+      <p>如何看待医疗器械召回与安全信息：美敦力产品风险沟通FAQ</p>
+      <h4>下一轮元宝监测</h4>
+      <p>请只基于官方、监管、临床/指南和权威医疗媒体来源，回答：医生说要用美敦力，我在网上看到召回和负面新闻，还能放心吗？。请列出资料引用清单，并说明美敦力资料是否足够支撑结论。</p>
+      <div class="links">
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q16/yuanbao.txt">回答</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q16/yuanbao_references.txt">引用</a>
+        <a href="../2026-05-28T03-16-25-378Z_prompt_matrix/q16/yuanbao.png">截图</a>
+      </div>
+    </article></div>
+    </section>
+
+    <section>
+      <h2>公关写作规则已接入</h2>
+      <p>读取资料数：6。当前脚本只保存摘要化规则，不提交原始PDF/PPTX。</p>
+      <ul><li>元宝引用缺口应优先用官方事实表、医生FAQ、患者安全说明和证据清单补齐。</li><li>MiniMed/心血管/结构心/外科产品稿件都应避免治疗效果承诺，突出适用边界和咨询路径。</li><li>召回和负面新闻不能回避，应准备事实核验页、问答口径和第三方监管/临床来源链接。</li><li>稿件要能拆成AI答案模块：一句话结论、对比表、证据、风险、适用人群、下一步。</li></ul>
+    </section>
+  </div></main>
+</body>
+</html>

@@ -149,6 +149,37 @@ monitor_runs/<timestamp>_prompt_matrix/q01/yuanbao_geo_analysis.json
 
 `dashboard:matrix` 会自动内联这套竞品 GEO 扫描结果，并同步写出 `competitive_geo_summary.json`。
 
+## 腾讯元宝 GEO 技术改造输出
+
+先把本地公关稿件指南抽成摘要化规则，不提交原始 PDF/PPTX：
+
+```bash
+npm run digest:pr
+```
+
+再聚焦腾讯元宝生成美敦力优化 dashboard：
+
+```bash
+GEO_OPTIMIZER_USE_LLM=1 DEEPSEEK_API_KEY=... npm run optimize:yuanbao
+```
+
+如果不传 `GEO_OPTIMIZER_USE_LLM=1`，会用本地规则生成确定性版本；传入后会调用 DeepSeek API 做稿件策略归纳。输出：
+
+```text
+monitor_runs/pr_guideline_digest/pr_guideline_digest.html
+monitor_runs/yuanbao_medtronic_optimization/yuanbao_geo_optimization.html
+monitor_runs/yuanbao_medtronic_optimization/yuanbao_geo_optimization.json
+monitor_runs/yuanbao_medtronic_optimization/article_briefs.json
+```
+
+这个 dashboard 会把元宝监测结果转成：
+
+- 产品线和问题层面的官方引用缺口。
+- 竞品提及与竞品来源权重风险。
+- 需要补的官方事实表、FAQ、临床/监管证据、风险口径。
+- 符合公关稿件指南的文章/资产 brief。
+- 下一轮应投喂腾讯元宝验证的监测 prompt。
+
 ## MiniMed 意图覆盖实验
 
 本实验先选 WildChat 作为用户意图数据源适配方向。当前小样本版使用 WildChat-style fallback seed，生成 MiniMed 主要竞品的测试问题；网络可访问 Hugging Face 后，可以把 seed 替换成真实 WildChat 用户问题抽样。
