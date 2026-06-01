@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-01T06:08:36.055Z",
+  "createdAt": "2026-06-01T06:44:07.530Z",
   "links": {
     "matrixDashboard": "2026-05-28T03-16-25-378Z_prompt_matrix/dashboard.html",
     "yuanbaoOptimizationDashboard": "yuanbao_medtronic_optimization/yuanbao_geo_optimization.html",
@@ -24,6 +24,92 @@
     "prGuideDocuments": 6,
     "openSourceLayers": 11
   },
+  "journey": [
+    {
+      "id": "need",
+      "label": "1. 需求定义",
+      "demandCount": 9,
+      "monitoredPrompts": 1,
+      "targetPrompts": 2,
+      "coverageDepth": 50,
+      "avgGeoScore": 90,
+      "riskCount": 0,
+      "officialGaps": 0,
+      "coverageScore": 59,
+      "status": "中",
+      "currentGap": "监测样本仍以品牌/竞品问题为主，非品牌泛问覆盖偏少。"
+    },
+    {
+      "id": "shortlist",
+      "label": "2. 候选清单",
+      "demandCount": 137,
+      "monitoredPrompts": 10,
+      "targetPrompts": 8,
+      "coverageDepth": 100,
+      "avgGeoScore": 85,
+      "riskCount": 22,
+      "officialGaps": 0,
+      "coverageScore": 73,
+      "status": "强",
+      "currentGap": "已有竞品对比，但还缺少不点名美敦力时的候选清单监测。"
+    },
+    {
+      "id": "compare",
+      "label": "3. 方案比较",
+      "demandCount": 57,
+      "monitoredPrompts": 5,
+      "targetPrompts": 6,
+      "coverageDepth": 83,
+      "avgGeoScore": 82,
+      "riskCount": 17,
+      "officialGaps": 0,
+      "coverageScore": 64,
+      "status": "中",
+      "currentGap": "已有产品线对比，下一步要把适用人群、不适用人群和证据边界固化为必测维度。"
+    },
+    {
+      "id": "trust",
+      "label": "4. 信任验证",
+      "demandCount": 41,
+      "monitoredPrompts": 10,
+      "targetPrompts": 6,
+      "coverageDepth": 100,
+      "avgGeoScore": 84,
+      "riskCount": 17,
+      "officialGaps": 2,
+      "coverageScore": 64,
+      "status": "中",
+      "currentGap": "安全问法已覆盖，但官方事实核验和监管/临床证据入口仍需持续观察。"
+    },
+    {
+      "id": "access",
+      "label": "5. 价格可及",
+      "demandCount": 423,
+      "monitoredPrompts": 4,
+      "targetPrompts": 12,
+      "coverageDepth": 33,
+      "avgGeoScore": 80,
+      "riskCount": 10,
+      "officialGaps": 1,
+      "coverageScore": 35,
+      "status": "弱",
+      "currentGap": "真实需求信号最高，但医保、地区可及、医院采购和渠道路径仍需拆成独立问法。"
+    },
+    {
+      "id": "support",
+      "label": "6. 使用服务",
+      "demandCount": 75,
+      "monitoredPrompts": 7,
+      "targetPrompts": 6,
+      "coverageDepth": 100,
+      "avgGeoScore": 88,
+      "riskCount": 9,
+      "officialGaps": 0,
+      "coverageScore": 80,
+      "status": "强",
+      "currentGap": "售后/培训被问到，但日常使用、耗材、故障、长期随访问题库偏薄。"
+    }
+  ],
   "yuanbaoActions": [
     {
       "priority": "P0",
