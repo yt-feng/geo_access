@@ -180,6 +180,31 @@ monitor_runs/yuanbao_medtronic_optimization/article_briefs.json
 - 符合公关稿件指南的文章/资产 brief。
 - 下一轮应投喂腾讯元宝验证的监测 prompt。
 
+## 融合总 Dashboard
+
+所有分项 dashboard 的统一入口：
+
+```bash
+npm run dashboard:unified
+```
+
+输出：
+
+```text
+monitor_runs/unified_dashboard.html
+monitor_runs/unified_dashboard_summary.json
+```
+
+总入口会汇总：
+
+- 腾讯元宝 GEO 技术改造。
+- DeepSeek / 元宝问题矩阵和 GEO 四项指标。
+- 竞品 answer/source share-of-voice。
+- MiniMed 竞品意图覆盖实验。
+- WildChat 真实购买/选择意图范式。
+- 公关稿件指南 digest。
+- 开源 GEO/AEO/LLMO 功能宇宙和后续缺口。
+
 ## MiniMed 意图覆盖实验
 
 本实验先选 WildChat 作为用户意图数据源适配方向。当前小样本版使用 WildChat-style fallback seed，生成 MiniMed 主要竞品的测试问题；网络可访问 Hugging Face 后，可以把 seed 替换成真实 WildChat 用户问题抽样。

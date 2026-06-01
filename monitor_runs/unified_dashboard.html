@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>美敦力 GEO 融合总 Dashboard</title>
+  <style>
+    :root {
+      --bg:#f6f7f8;
+      --panel:#fff;
+      --ink:#172026;
+      --muted:#64717d;
+      --line:#dce2e7;
+      --accent:#0f766e;
+      --soft:#dff5f1;
+      --warn:#b45309;
+      --warn-soft:#fff4db;
+      --risk:#b91c1c;
+      --risk-soft:#fee2e2;
+      --ok:#166534;
+      --ok-soft:#dcfce7;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.55; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    header { background:#10201f; color:#fff; padding:34px 28px 30px; }
+    .wrap { max-width:1200px; margin:0 auto; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:0; }
+    header p { margin:0; color:#c7d8d4; max-width:980px; }
+    main { padding:24px 28px 48px; }
+    section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; margin-bottom:18px; }
+    h2 { margin:0 0 12px; font-size:20px; }
+    h3 { margin:0 0 8px; font-size:16px; }
+    p { margin:8px 0; }
+    .meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .pill { display:inline-flex; align-items:center; min-height:28px; padding:0 10px; border:1px solid rgba(255,255,255,.22); border-radius:999px; color:#dbecea; font-size:12px; font-weight:800; }
+    .stats { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; }
+    .stat { border:1px solid var(--line); border-radius:8px; padding:13px; background:#fbfcfd; }
+    .stat span { display:block; color:var(--muted); font-size:12px; font-weight:800; }
+    .stat strong { display:block; margin-top:5px; font-size:24px; }
+    .callout { border:1px solid #a7d8d1; background:var(--soft); border-radius:8px; padding:14px; }
+    .link-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+    .link-card { display:block; border:1px solid var(--line); border-radius:8px; padding:14px; background:#fbfcfd; color:var(--ink); min-height:140px; }
+    .link-card span { display:inline-flex; min-height:24px; align-items:center; padding:0 8px; border-radius:999px; background:var(--soft); color:var(--accent); font-size:12px; font-weight:900; }
+    .link-card strong { display:block; margin-top:10px; font-size:16px; }
+    .link-card p { color:var(--muted); font-size:13px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .brief { border:1px solid var(--line); background:#fbfcfd; border-radius:8px; padding:14px; }
+    .brief-meta { color:var(--muted); font-size:12px; margin-top:8px; }
+    .table-wrap { overflow-x:auto; }
+    table { width:100%; border-collapse:collapse; min-width:860px; }
+    th,td { border-bottom:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; font-size:13px; }
+    th { background:#f1f4f6; color:#33424c; font-size:12px; }
+    tr:last-child td { border-bottom:0; }
+    ul { padding-left:20px; margin:8px 0; }
+    li { margin:6px 0; }
+    .priority { display:inline-flex; min-height:26px; align-items:center; padding:0 8px; border-radius:999px; font-size:12px; font-weight:900; }
+    .p0 { color:var(--risk); background:var(--risk-soft); }
+    .p1 { color:var(--warn); background:var(--warn-soft); }
+    .p2 { color:var(--ok); background:var(--ok-soft); }
+    code { background:#eef2f5; border:1px solid #dde5eb; border-radius:6px; padding:1px 5px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12px; }
+    @media(max-width:980px){ header,main{padding-left:16px;padding-right:16px;} .stats,.link-grid,.grid{grid-template-columns:1fr;} h1{font-size:24px;} section{padding:14px;} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>美敦力 GEO 融合总 Dashboard</h1>
+      <p>统一入口：AI 平台监测、腾讯元宝技术改造、竞品引用、MiniMed 意图覆盖、WildChat 真实问法、公关写作规则和开源功能宇宙。</p>
+      <div class="meta">
+        <span class="pill">生成时间 2026/6/1 14:08:36</span>
+        <span class="pill">目标品牌 Medtronic / 美敦力</span>
+        <span class="pill">重点平台 腾讯元宝</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section>
+        <h2>总览</h2>
+        <div class="callout">美敦力在腾讯元宝的总体GEO表现中等（84分），但心律管理领域风险最高（P0行动2项），竞品（波士顿科学、雅培）在ICD/CRT-D问题中引用权重和提及量均超过美敦力。糖尿病领域同样面临雅培、Dexcom、Insulet的竞争压力。核心问题包括：官方来源缺失、关键品牌资产（如BlueSync、CareLink、MiniMed）未被AI识别、证据纳入分偏低。需优先补全官方可抓取资产，按AI答案形态重构内容，并主动提供对比边界和风险FAQ。</div>
+        <div class="stats" style="margin-top:12px">
+          <div class="stat"><span>元宝GEO总分</span><strong>84</strong></div>
+          <div class="stat"><span>元宝证据纳入</span><strong>78</strong></div>
+          <div class="stat"><span>元宝回答SOV</span><strong>54%</strong></div>
+          <div class="stat"><span>元宝引用SOV</span><strong>61%</strong></div>
+          <div class="stat"><span>MiniMed覆盖</span><strong>99</strong></div>
+          <div class="stat"><span>WildChat匹配问法</span><strong>833</strong></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>分项 Dashboard 入口</h2>
+        <div class="link-grid">
+          
+    <a class="link-card" href="yuanbao_medtronic_optimization/yuanbao_geo_optimization.html">
+      <span>优先看</span>
+      <strong>腾讯元宝 · 美敦力技术改造</strong>
+      <p>补源清单、产品线风险、稿件 brief、下一轮监测 prompt。</p>
+    </a>
+          
+    <a class="link-card" href="2026-05-28T03-16-25-378Z_prompt_matrix/dashboard.html">
+      <span>监测</span>
+      <strong>DeepSeek / 元宝问题矩阵</strong>
+      <p>16 个问题逐题回答、截图、引用、GEO 四项指标、竞品分析。</p>
+    </a>
+          
+    <a class="link-card" href="2026-05-30T16-25-01-295Z_minimed_intent_lab/intent_dashboard.html">
+      <span>意图</span>
+      <strong>MiniMed 竞品意图实验</strong>
+      <p>Tandem、Omnipod、Dexcom、Abbott 各 2 个问题的覆盖和 performance。</p>
+    </a>
+          
+    <a class="link-card" href="wildchat_purchase_archetypes/purchase_archetypes.html">
+      <span>数据源</span>
+      <strong>WildChat 购买意图范式</strong>
+      <p>从真实用户问法抽取购买、对比、风险、渠道、售后范式。</p>
+    </a>
+          
+    <a class="link-card" href="wildchat_purchase_archetypes/deepseek_synthesis.html">
+      <span>LLM分析</span>
+      <strong>DeepSeek 意图归纳</strong>
+      <p>用 DeepSeek 对 WildChat 候选样本做噪音剔除和范式映射。</p>
+    </a>
+          
+    <a class="link-card" href="pr_guideline_digest/pr_guideline_digest.html">
+      <span>写作</span>
+      <strong>公关稿件指南 Digest</strong>
+      <p>医疗传播禁用/慎用、事实优先、风险口径、AI 人工复核。</p>
+    </a>
+          
+    <a class="link-card" href="open_source_geo_universe/open_source_geo_universe.html">
+      <span>战略</span>
+      <strong>开源 GEO 功能宇宙</strong>
+      <p>GEO/AEO/LLMO/llms.txt 开源项目能力矩阵和缺口路线图。</p>
+    </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>GEO 四项核心指标</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>平台</th><th>样本数</th><th>答案可见度</th><th>认知准确度</th><th>证据纳入度</th><th>推荐转化力</th><th>总分</th></tr></thead>
+            <tbody>
+      <tr>
+        <td>腾讯元宝</td>
+        <td>16</td>
+        <td>88</td>
+        <td>88</td>
+        <td>78</td>
+        <td>80</td>
+        <td><strong>84</strong></td>
+      </tr>
+      <tr>
+        <td>DeepSeek</td>
+        <td>16</td>
+        <td>72</td>
+        <td>86</td>
+        <td>46</td>
+        <td>71</td>
+        <td><strong>69</strong></td>
+      </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>腾讯元宝技术改造重点</h2>
+        <div class="grid">
+          <div>
+            <h3>优先动作</h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>优先级</th><th>动作</th><th>原因</th><th>产物</th></tr></thead>
+                <tbody>
+    <tr>
+      <td><span class="priority p0">P0</span></td>
+      <td>补全心律管理领域官方可抓取资产：CareLink、BlueSync、OptiVol、Reveal LINQ、Micra、Cobalt/Crome的独立产品页和FAQ</td>
+      <td>该领域风险Flag最多（11个），P0行动2项，竞品波士顿科学和雅培的官方来源已被AI高频引用，而美敦力关键品牌资产未被识别。</td>
+      <td>6个独立产品页+1个综合FAQ页面，包含适用人群、限制条件、风险提示、医生咨询路径，URL结构清晰，元数据完整。</td>
+    </tr>
+    <tr>
+      <td><span class="priority p0">P0</span></td>
+      <td>为糖尿病领域创建MiniMed闭环系统与竞品（雅培、Dexcom、Insulet、Tandem）的对比边界文档</td>
+      <td>糖尿病领域竞品引用权重和提及量均超过美敦力（各2次），且出现“最好”高风险词。AI需要明确的适用场景对比。</td>
+      <td>一篇结构化对比文章，包含表格：美敦力适合/不适合什么、需要医生判断什么，附证据来源和风险FAQ。</td>
+    </tr>
+    <tr>
+      <td><span class="priority p1">P1</span></td>
+      <td>在官网发布“TAVR与瓣膜治疗选择”证据清单，引用SMART Trial等官方研究，并明确患者筛选标准</td>
+      <td>结构性心脏领域缺少可识别的美敦力官方来源（1次），且竞品Edwards的学术文献被AI引用。需强化官方证据可及性。</td>
+      <td>证据清单页，包含临床研究摘要、适用患者边界、术后风险FAQ、医保/收费说明。</td>
+    </tr>
+    <tr>
+      <td><span class="priority p1">P1</span></td>
+      <td>为外科领域创建LigaSure、Valleylab、Tri-Staple、Hugo RAS、Touch Surgery的独立产品场景页</td>
+      <td>外科领域关键品牌资产覆盖不足（Tri-Staple、Hugo RAS、Touch Surgery未被识别），且竞品强生爱惜康的学术文献被引用。</td>
+      <td>5个产品场景页，每个包含适用手术类型、培训要求、耗材规范、售后责任边界。</td>
+    </tr>
+    <tr>
+      <td><span class="priority p2">P2</span></td>
+      <td>建立“召回与安全信息”专区，提供事实核验页和患者咨询路径</td>
+      <td>声誉风险领域虽只有1个风险Flag，但涉及关键品牌资产覆盖不足，且AI可能引用第三方负面信息。</td>
+      <td>专区页面，包含召回事实表、官方声明、监管链接、患者咨询路径、媒体问答口径。</td>
+    </tr>
+    <tr>
+      <td><span class="priority p2">P2</span></td>
+      <td>为渠道/医保领域创建医院引进FAQ、经销商合规指南、售后服务边界说明</td>
+      <td>渠道领域竞品提及量和引用权重均超过美敦力，且关键品牌资产覆盖不足。</td>
+      <td>3个独立页面：医院引进FAQ、经销商合规指南、售后服务SLA说明。</td>
+    </tr></tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h3>高频风险</h3>
+            <ul><li>竞品引用证据权重超过美敦力（6）</li><li>竞品在回答中的提及量超过美敦力（5）</li><li>证据纳入分偏低（4）</li><li>推荐转化力偏低（3）</li><li>出现医疗传播高风险词：最好（3）</li><li>缺少可识别的美敦力官方来源（2）</li><li>关键品牌资产覆盖不足：BlueSync、OptiVol、Reveal LINQ、Cobalt/Crome（1）</li><li>关键品牌资产覆盖不足：BlueSync、OptiVol、Micra、Cobalt/Crome（1）</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>产品线缺口</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>产品线</th><th>问题数</th><th>GEO均分</th><th>官方引用缺口</th><th>风险标记</th><th>P0动作</th></tr></thead>
+            <tbody>
+    <tr>
+      <td>心律管理 / 心衰 / 远程监测</td>
+      <td>4</td>
+      <td>77</td>
+      <td>1</td>
+      <td>11</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>结构性心脏 / TAVR / 瓣膜</td>
+      <td>4</td>
+      <td>87</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>医疗外科 / 能量 / 吻合 / Hugo RAS</td>
+      <td>4</td>
+      <td>87</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>糖尿病 / MiniMed / CGM / 闭环</td>
+      <td>2</td>
+      <td>82</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>安全 / 召回 / 声誉风险</td>
+      <td>1</td>
+      <td>88</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>渠道 / 医保 / 采购 / 合作</td>
+      <td>1</td>
+      <td>83</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+    </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>竞品与引用来源</h2>
+        <div class="stats">
+          <div class="stat"><span>全矩阵美敦力回答SOV</span><strong>53%</strong></div>
+          <div class="stat"><span>全矩阵竞品回答SOV</span><strong>47%</strong></div>
+          <div class="stat"><span>全矩阵美敦力引用SOV</span><strong>76%</strong></div>
+          <div class="stat"><span>全矩阵竞品引用SOV</span><strong>24%</strong></div>
+          <div class="stat"><span>美敦力官方源</span><strong>100</strong></div>
+          <div class="stat"><span>竞品高权重源</span><strong>10</strong></div>
+        </div>
+        <h3 style="margin-top:16px">品牌 / 竞品排行</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>品牌</th><th>类型</th><th>回答提及</th><th>回答份额</th><th>引用权重</th><th>引用份额</th><th>官方来源</th></tr></thead>
+            <tbody>
+    <tr>
+      <td>Medtronic / 美敦力</td>
+      <td>目标品牌</td>
+      <td>803</td>
+      <td>53%</td>
+      <td>12859</td>
+      <td>76%</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Abbott / 雅培</td>
+      <td>竞品</td>
+      <td>161</td>
+      <td>11%</td>
+      <td>1015</td>
+      <td>6%</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Dexcom</td>
+      <td>竞品</td>
+      <td>122</td>
+      <td>8%</td>
+      <td>422</td>
+      <td>3%</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Edwards / 爱德华</td>
+      <td>竞品</td>
+      <td>114</td>
+      <td>8%</td>
+      <td>470</td>
+      <td>3%</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>J&amp;J Ethicon / 强生爱惜康</td>
+      <td>竞品</td>
+      <td>86</td>
+      <td>6%</td>
+      <td>579</td>
+      <td>3%</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Boston Scientific / 波士顿科学</td>
+      <td>竞品</td>
+      <td>59</td>
+      <td>4%</td>
+      <td>511</td>
+      <td>3%</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Tandem Diabetes Care</td>
+      <td>竞品</td>
+      <td>52</td>
+      <td>3%</td>
+      <td>234</td>
+      <td>1%</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Insulet / Omnipod</td>
+      <td>竞品</td>
+      <td>43</td>
+      <td>3%</td>
+      <td>254</td>
+      <td>2%</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Biotronik / 百多力</td>
+      <td>竞品</td>
+      <td>42</td>
+      <td>3%</td>
+      <td>218</td>
+      <td>1%</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MicroPort / 微创</td>
+      <td>竞品</td>
+      <td>14</td>
+      <td>1%</td>
+      <td>220</td>
+      <td>1%</td>
+      <td>0</td>
+    </tr></tbody>
+          </table>
+        </div>
+        <h3 style="margin-top:16px">元宝高权重竞品来源</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>来源</th><th>标题</th><th>类型</th><th>权重</th><th>关联品牌</th></tr></thead>
+            <tbody>
+      <tr>
+        <td>mdpi.com</td>
+        <td>A Narrative Review of the Evidence for Transcatheter Aortic Valve Implants</td>
+        <td>期刊/学术</td>
+        <td>88</td>
+        <td>Edwards / 爱德华</td>
+      </tr>
+      <tr>
+        <td>SpringerLink</td>
+        <td>A Comparison of the LigaSure and Harmonic Scalpel in Thyroid Surgery: A Single Institution Review</td>
+        <td>期刊/学术</td>
+        <td>88</td>
+        <td>J&amp;J Ethicon / 强生爱惜康</td>
+      </tr>
+      <tr>
+        <td>waltzingthedragon.ca</td>
+        <td>The Best CGM/Flash? compare sensor glucose systems</td>
+        <td>专业协会</td>
+        <td>82</td>
+        <td>Abbott / 雅培、Dexcom</td>
+      </tr>
+      <tr>
+        <td>bostonscientific.com</td>
+        <td>Cardiac Rhythm Management</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Boston Scientific / 波士顿科学</td>
+      </tr>
+      <tr>
+        <td>cardiovascular.abbott</td>
+        <td>ICD and CRT-D Solutions</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Abbott / 雅培</td>
+      </tr>
+      <tr>
+        <td>bostonscientific.com</td>
+        <td>ENGINEERING DEVICE LONGEVITY</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Boston Scientific / 波士顿科学</td>
+      </tr>
+      <tr>
+        <td>news.medtronic.com</td>
+        <td>SMART Trial three-year data demonstrate superior benefits with Evolut TAVR system</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Edwards / 爱德华</td>
+      </tr>
+      <tr>
+        <td>medtronic.com</td>
+        <td>Medtronic key studies</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Edwards / 爱德华</td>
+      </tr>
+      <tr>
+        <td>omnipod.com</td>
+        <td>This website uses cookies</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Insulet / Omnipod</td>
+      </tr>
+      <tr>
+        <td>tandemdiabetes.com</td>
+        <td>Important Safety Information for t:slim X2 with Basal-IQ Technology Tandem Diabetes Care</td>
+        <td>品牌官方</td>
+        <td>78</td>
+        <td>Tandem Diabetes Care、Dexcom</td>
+      </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>稿件 / 资产 Brief</h2>
+        <div class="grid">
+    <article class="brief">
+      <h3>美敦力心律管理与远程监测：从植入器械到随访数据的证据说明</h3>
+      <p>提升腾讯元宝在“心律管理 / 心衰 / 远程监测”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>官方产品事实表 / 医生FAQ / 术后随访说明</span>
+      </div>
+    </article>
+    <article class="brief">
+      <h3>TAVR与瓣膜治疗如何选择：美敦力Evolut相关证据与患者沟通清单</h3>
+      <p>提升腾讯元宝在“结构性心脏 / TAVR / 瓣膜”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>临床证据索引 / 适用患者边界 / 学习曲线说明</span>
+      </div>
+    </article>
+    <article class="brief">
+      <h3>从能量平台到数字手术：美敦力医疗外科产品的场景、培训与合规边界</h3>
+      <p>提升腾讯元宝在“医疗外科 / 能量 / 吻合 / Hugo RAS”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>产品适用场景 / 耗材使用规范 / 经销商合规FAQ</span>
+      </div>
+    </article>
+    <article class="brief">
+      <h3>MiniMed闭环系统怎么选：控糖表现、低血糖风险与日常佩戴的关键问题</h3>
+      <p>提升腾讯元宝在“糖尿病 / MiniMed / CGM / 闭环”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>MiniMed vs 竞品FAQ / TIR/低血糖证据说明 / 传感器准确性资料</span>
+      </div>
+    </article>
+    <article class="brief">
+      <h3>如何看待医疗器械召回与安全信息：美敦力产品风险沟通FAQ</h3>
+      <p>提升腾讯元宝在“安全 / 召回 / 声誉风险”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>召回/更正事实页 / 官方声明 / 监管链接</span>
+      </div>
+    </article>
+    <article class="brief">
+      <h3>医院与渠道伙伴如何评估美敦力方案：合规、培训、售后与可及性问答</h3>
+      <p>提升腾讯元宝在“渠道 / 医保 / 采购 / 合作”相关问题中对美敦力官方资料、关键品牌资产和风险边界的引用概率。</p>
+      <div class="brief-meta">
+        <span>合规红线 / 售后SLA / 培训认证</span>
+      </div>
+    </article></div>
+      </section>
+
+      <section>
+        <h2>MiniMed 意图覆盖</h2>
+        <div class="stats">
+          <div class="stat"><span>问题数</span><strong>8</strong></div>
+          <div class="stat"><span>成功率</span><strong>100%</strong></div>
+          <div class="stat"><span>覆盖分</span><strong>99</strong></div>
+          <div class="stat"><span>Performance</span><strong>98</strong></div>
+          <div class="stat"><span>平均引用</span><strong>15</strong></div>
+          <div class="stat"><span>缺口项</span><strong>1</strong></div>
+        </div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>竞品</th><th>类别</th><th>覆盖分</th><th>Performance</th><th>平均引用</th><th>缺口</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>Tandem t:slim X2 / Mobi + Control-IQ</td>
+                <td>带管路闭环胰岛素泵</td>
+                <td>100</td>
+                <td>100</td>
+                <td>14</td>
+                <td>无</td>
+              </tr>
+              <tr>
+                <td>Insulet Omnipod 5</td>
+                <td>无管路贴片闭环泵</td>
+                <td>94</td>
+                <td>99</td>
+                <td>14</td>
+                <td>低血糖/安全预警(1)</td>
+              </tr>
+              <tr>
+                <td>Dexcom G7 + 兼容闭环生态</td>
+                <td>CGM 与开放兼容生态</td>
+                <td>100</td>
+                <td>100</td>
+                <td>17</td>
+                <td>无</td>
+              </tr>
+              <tr>
+                <td>Abbott FreeStyle Libre 3 / 3 Plus</td>
+                <td>CGM 与部分 AID 兼容生态</td>
+                <td>100</td>
+                <td>92</td>
+                <td>14</td>
+                <td>无</td>
+              </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>真实用户意图：WildChat</h2>
+        <div class="callout">购买意图不是一个问题，而是一条从需求定义、候选发现、比较、价格、风险、渠道到售后的决策链。</div>
+        <div class="stats" style="margin-top:12px">
+          <div class="stat"><span>扫描对话</span><strong>100001</strong></div>
+          <div class="stat"><span>用户轮次</span><strong>277976</strong></div>
+          <div class="stat"><span>匹配问法</span><strong>833</strong></div>
+          <div class="stat"><span>样本数</span><strong>130</strong></div>
+          <div class="stat"><span>范式数</span><strong>9</strong></div>
+          <div class="stat"><span>医疗健康样本</span><strong>22</strong></div>
+        </div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>范式</th><th>阶段</th><th>用户问法</th><th>GEO风险 / 真实需求</th></tr></thead>
+            <tbody>
+    <tr>
+      <td>需求定义与场景澄清</td>
+      <td>认知前段</td>
+      <td>我应该考虑哪些因素？ / 如何选择适合我的方案？ / 有什么标准来判断？</td>
+      <td>用户尚未锁定品牌，需要AI帮助定义问题、拆解指标、给出选择路径</td>
+    </tr>
+    <tr>
+      <td>品类推荐与候选清单</td>
+      <td>找得到</td>
+      <td>推荐几个最好的品牌/产品 / 哪个品牌最好？ / 有什么推荐？</td>
+      <td>用户将AI视为导购，希望直接获得优先级排序</td>
+    </tr>
+    <tr>
+      <td>横向比较与二选一</td>
+      <td>说得对</td>
+      <td>A和B哪个更好？ / 有什么区别？ / 我应该选哪个？</td>
+      <td>用户已有候选，需要AI进行同类边界、优劣势和适用人群判断</td>
+    </tr>
+    <tr>
+      <td>是否值得购买/采用</td>
+      <td>愿推荐</td>
+      <td>值不值得买？ / 我该不该买？ / 是否应该采用？</td>
+      <td>用户希望AI给出结论性建议，并说明理由</td>
+    </tr>
+    <tr>
+      <td>价格、预算与长期成本</td>
+      <td>转化阻力</td>
+      <td>多少钱？ / 预算内划算吗？ / 长期成本如何？</td>
+      <td>用户关注总拥有成本、耗材、保险/报销和替代方案</td>
+    </tr>
+    <tr>
+      <td>风险、安全与信任</td>
+      <td>信任建立</td>
+      <td>安全吗？ / 可靠吗？ / 有没有负面新闻？</td>
+      <td>用户寻找劝退因素，也寻找风险可控的证据</td>
+    </tr>
+    <tr>
+      <td>替代方案与平替</td>
+      <td>防流失</td>
+      <td>有没有替代方案？ / 有什么更便宜的选择？ / 如果不选这个，还有什么？</td>
+      <td>用户验证目标品牌是否必要，或寻找更低摩擦替代</td>
+    </tr>
+    <tr>
+      <td>购买渠道与可获得性</td>
+      <td>行动路径</td>
+      <td>在哪里可以买到？ / 是否上市？ / 哪个地区可用？</td>
+      <td>用户需要官方、医院、授权经销商或本地可及性信息</td>
+    </tr>
+    <tr>
+      <td>安装、培训、维护与售后</td>
+      <td>使用保障</td>
+      <td>怎么安装？ / 如何培训？ / 保修和售后怎么样？</td>
+      <td>用户评估采用后的真实使用成本和服务责任</td>
+    </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>公关写作规则</h2>
+        <div class="grid">
+          <div>
+            <h3>医疗合规守卫</h3>
+            <ul><li>避免“最佳、最好、最先进、最高、第一、唯一”等绝对化或无法证明的表述。</li><li>避免“根治、治愈率、安全无副作用、疗效最佳、药到病除”等医疗效果承诺。</li><li>描述安全性时必须同时给出适用条件、风险提示和医生咨询路径。</li><li>涉及患者案例、未成年人、疾病隐私、个体诊疗结果时必须匿名化并取得授权。</li><li>涉及召回、投诉、负面舆情时要先核实事实，不用对抗性语言，不做无依据否认。</li><li>对外发布前应经过医学、法规、法务、品牌/公关多方审核。</li></ul>
+          </div>
+          <div>
+            <h3>GEO写作规则</h3>
+            <ul><li>给AI可引用的证据包：每篇稿件至少拆出官方事实、临床/监管证据、适用场景、风险提示、FAQ五类信息块。</li><li>主动写对比边界：竞品问题不要只写自家优势，应写清美敦力适合什么、不适合什么、需要医生判断什么。</li><li>按AI答案形态写：内容要能被AI直接抽成表格、决策树、清单、风险提示和下一步建议。</li><li>优先补官方可抓取资产：重要说法应能在官网新闻稿、产品FAQ、医生教育页或白皮书中找到官方来源。</li></ul>
+            <p>资料索引：6 个本地文件。原始 PDF/PPTX 不提交，只保留摘要规则。</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>开源功能宇宙与缺口</h2>
+        <div class="grid">
+          <div>
+            <h3>当前主要缺口</h3>
+            <ul><li>llms.txt and llms-full.txt generation and validation</li><li>robots.txt, sitemap.xml, ai.txt, Schema/JSON-LD, canonical and AI crawler rule audit</li><li>website crawling and LLM-friendly Markdown conversion</li><li>source authority catalog with verified domains and ownership</li><li>multi-run time-series database, alerts and regression gates</li><li>multi-model API collection for ChatGPT, Gemini, Claude, Perplexity and Google AI Overview</li><li>agentic content rewrite optimization loop</li><li>content inventory and publishing workflow</li></ul>
+          </div>
+          <div>
+            <h3>本系统已形成的强项</h3>
+            <ul><li>DeepSeek and Tencent Yuanbao answer capture</li><li>answer stability and reference-list waiting</li><li>HTML/TXT/PNG/raw reference preservation</li><li>per-answer GEO scoring across visibility, accuracy, evidence inclusion, recommendation force</li><li>competitive share-of-voice and citation source weighting</li><li>WildChat buyer-intent archetype mining</li><li>static HTML dashboards</li></ul>
+          </div>
+        </div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>层</th><th>能力</th><th>当前覆盖</th><th>代表项目</th><th>融合建议</th></tr></thead>
+            <tbody>
+    <tr>
+      <td>L0</td>
+      <td>Intent and prompt universe</td>
+      <td>partial</td>
+      <td>WildChat、LMSYS-Chat、aaron-he-zhu/seo-geo-claude-skills、AgriciDaniel/codex-seo</td>
+      <td>Create intent_library.json with industry, brand, competitor, funnel stage and evidence requirements.</td>
+    </tr>
+    <tr>
+      <td>L1</td>
+      <td>Multi-engine answer monitoring</td>
+      <td>strong for DeepSeek/Yuanbao; limited elsewhere</td>
+      <td>aryamantodkar/oneglanse、elmohq/elmo、anyin-ai/aperture、FayAndXan/xanlens</td>
+      <td>Add provider abstraction for API and web UI collectors with a unified answer/reference schema.</td>
+    </tr>
+    <tr>
+      <td>L2</td>
+      <td>Brand visibility and GEO scoring</td>
+      <td>strong early product prototype</td>
+      <td>anyin-ai/aperture、compiuta-origin/sonde-analytics、Citatra/Citatra、ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool</td>
+      <td>Add time-series aggregates by platform, intent, brand and competitor.</td>
+    </tr>
+    <tr>
+      <td>L3</td>
+      <td>Citation and source authority</td>
+      <td>heuristic first version</td>
+      <td>alexpospekhov/searchstack-aeo、federicodeponte/aeo-mentions-crawler、Citatra/Citatra</td>
+      <td>Create source_authority_catalog.json and map citations to official, regulatory, academic, media, community, competitor and dealer classes.</td>
+    </tr>
+    <tr>
+      <td>L4</td>
+      <td>Technical AI discoverability audit</td>
+      <td>missing</td>
+      <td>vinpatel/aeorank、multivmlabs/aeo.js、Houseofmvps/claude-rank、AEO-God-Mode/aeo-god-mode</td>
+      <td>Build site_audit with llms.txt, robots, sitemap, schema, canonical, content structure and crawler accessibility checks.</td>
+    </tr>
+    <tr>
+      <td>L5</td>
+      <td>LLM-readable publishing</td>
+      <td>missing</td>
+      <td>AnswerDotAI/llms-txt、firecrawl/llmstxt-generator、thedaviddias/llms-txt-hub、dodopayments/dualmark</td>
+      <td>Generate llms.txt and llms-full.txt from sitemap, crawled pages, Markdown docs and curated source assets.</td>
+    </tr>
+    <tr>
+      <td>L6</td>
+      <td>Crawling and Markdown conversion</td>
+      <td>missing</td>
+      <td>unclecode/crawl4ai、microsoft/markitdown、sourcey/sourcey、madarco/ragrabbit</td>
+      <td>Add lightweight crawler and optional document conversion for PDFs, docs, HTML and knowledge-base assets.</td>
+    </tr>
+    <tr>
+      <td>L7</td>
+      <td>Content optimization and rewrite experiments</td>
+      <td>missing</td>
+      <td>GEO-optim/GEO、AIcling/agentic_geo、Wu-beining/MAGEO、cxcscmu/AutoGEO</td>
+      <td>Create optimizer_lab with candidate generator, evaluator, fidelity guard and experiment runner.</td>
+    </tr>
+    <tr>
+      <td>L8</td>
+      <td>SERP and Google AI Overview monitoring</td>
+      <td>missing</td>
+      <td>alexpospekhov/searchstack-aeo、ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool、AgriciDaniel/codex-seo</td>
+      <td>Add SERP/AIO collector via API provider or Playwright where permitted.</td>
+    </tr>
+    <tr>
+      <td>L9</td>
+      <td>CI, scheduling and regression</td>
+      <td>basic loop only</td>
+      <td>vinpatel/aeorank、alexpospekhov/searchstack-aeo、webappski/aeo-platform</td>
+      <td>Add baseline.json, scheduled GitHub Action and threshold-based regression reports.</td>
+    </tr>
+    <tr>
+      <td>L10</td>
+      <td>CMS and framework plugins</td>
+      <td>missing</td>
+      <td>WP-Autoplugin/llms-txt-for-wp、vaneavasco/llmstxt-wp、pawamoy/mkdocs-llmstxt、jdillard/sphinx-llms-txt</td>
+      <td>Defer plugin work; first output static files and patches, then adapt to client stacks.</td>
+    </tr></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>运行方式</h2>
+        <p>更新各分项后重新生成总入口：</p>
+        <p><code>npm run dashboard:unified</code></p>
+        <p>如需刷新元宝技术改造：</p>
+        <p><code>npm run digest:pr</code> 和 <code>GEO_OPTIMIZER_USE_LLM=1 DEEPSEEK_API_KEY=... npm run optimize:yuanbao</code></p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -18,6 +18,7 @@
     "digest:pr": "python3 tools/pr_guideline_digest.py",
     "optimize:yuanbao": "node monitor/yuanbao_geo_optimizer.js",
     "dashboard:matrix": "node monitor/build_dashboard.js",
+    "dashboard:unified": "node monitor/build_unified_dashboard.js",
     "monitor:loop": "node monitor/playwright_monitor.js loop"
   },
   "dependencies": {
