@@ -2,10 +2,15 @@
 
 美敦力 Medtronic 在 DeepSeek、腾讯元宝、豆包等 AI 平台中的 GEO 表现监测与报告资产。
 
+## 架构文档
+
+- `ARCHITECTURE.md`: 系统架构、数据流、模块职责、用户旅程意图库模型和安全边界。
+- `monitor/README.md`: 监测、分析、优化和 dashboard 生成的操作说明。
+
 ## 当前主要产物
 
 - `GEO评估报告_美敦力Medtronic_豆包DeepSeek腾讯元宝.html`: 初版综合报告。
-- `monitor_runs/unified_dashboard.html`: 融合总入口，汇总元宝技术改造、问题矩阵、竞品、意图、WildChat、公关规则和开源功能宇宙。
+- `monitor_runs/unified_dashboard.html`: 美敦力 AI 品牌可见度看板，汇总元宝技术改造、问题矩阵、竞品、用户旅程意图库缺口、WildChat、公关规则和开源功能宇宙。
 - `monitor_runs/2026-05-28T03-16-25-378Z_prompt_matrix/dashboard.html`: DeepSeek 与腾讯元宝问题矩阵 dashboard。
 - `monitor_runs/2026-05-28T03-16-25-378Z_prompt_matrix/geo_analysis_summary.json`: 基于 DeepSeek API 的逐回答 GEO 分析汇总。
 - `monitor_runs/yuanbao_medtronic_optimization/yuanbao_geo_optimization.html`: 聚焦腾讯元宝的美敦力 GEO 技术改造 dashboard，包含补源、稿件 brief、竞品引用风险和下一轮监测问题。

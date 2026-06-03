@@ -4,6 +4,27 @@
 
 它不使用 AppleScript，不发送系统键盘事件，不控制前台 Chrome，也不解密或导出 Chrome cookie。
 
+## 系统架构
+
+完整架构见根目录 `ARCHITECTURE.md`。当前 pipeline 是：
+
+```text
+Prompt Matrix / Intent Spec
+  -> Playwright Monitor
+  -> 原始回答、HTML、截图、引用 JSON
+  -> GEO 分析、竞品分析、元宝优化、WildChat 意图库、公关规则摘要
+  -> Unified Dashboard
+```
+
+核心模块：
+
+- `playwright_monitor.js`: 平台采集和登录态复用。
+- `analyze_geo.js`: DeepSeek API 逐回答 GEO 四项指标分析。
+- `competitive_geo.js`: 本地竞品声量和引用来源扫描。
+- `yuanbao_geo_optimizer.js`: 腾讯元宝技术改造和内容资产 brief。
+- `intention_lab.js`: MiniMed 竞品意图覆盖实验。
+- `build_unified_dashboard.js`: 面向品牌部管理层的统一看板生成器。
+
 ## 第一次使用
 
 在本机终端进入 repo：
@@ -200,10 +221,13 @@ monitor_runs/unified_dashboard_summary.json
 - 腾讯元宝 GEO 技术改造。
 - DeepSeek / 元宝问题矩阵和 GEO 四项指标。
 - 竞品 answer/source share-of-voice。
+- 用户旅程 x 意图库缺口：需求定义、候选清单、方案比较、信任验证、价格可及、使用服务。
 - MiniMed 竞品意图覆盖实验。
 - WildChat 真实购买/选择意图范式。
 - 公关稿件指南 digest。
 - 开源 GEO/AEO/LLMO 功能宇宙和后续缺口。
+
+`unified_dashboard_summary.json` 会同步输出结构化摘要，包含每个用户旅程阶段的真实需求信号、已测/目标、覆盖深度、平均 GEO 分、官方引用缺口、风险数和覆盖状态。
 
 ## MiniMed 意图覆盖实验
 
