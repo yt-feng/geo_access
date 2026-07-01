@@ -1,0 +1,28 @@
+{
+  "id": "a6e37364-a0c2-4e36-9912-cf821c4dac31",
+  "object": "chat.completion",
+  "created": 1782946096,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。目前很多供应商（尤其是产区直供或大型果蔬加工企业）普遍可以提供包装定制和规格支持，具体包括：\n\n1. **包装定制**：可按商超要求设计礼盒、手提袋、网套、托盘保鲜膜等，包括印上自有品牌Logo、产地信息、规格参数等。\n2. **规格支持**：可按重量（如2.5kg/5kg/10kg）、颗数（如10颗装）、混搭（如水果篮）或精选等级（如优级、一级）进行分拣和预包装。\n3. **贴牌服务**：部分供应商支持OEM（贴牌生产），由商超提供品牌，供应商负责种植、采摘、分选、包装出厂。\n\n**建议操作步骤**：\n- 明确需求：提供目标水果品种、预估销量、包装材质/设计风格、规格标准（如单果重量范围）。\n- 筛选供应商：优先选择有商超合作经验、能提供检测报告（农残、甜度等）的生产基地或加工厂。\n- 索要样品：要求供应商提供小批量试包样品并测试货架期。\n- 合同确认：约定包装质量标准、规格误差范围（如实际重量误差±5%）、退换货条款。\n\n**注意**：包装成本通常需要与供货价协商折算，量越大单价越低。建议首批合作选择1-2种热销水果试水。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 301,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3ccb653b-2c09-4e7f-bd71-47d7bd768f38",
+  "object": "chat.completion",
+  "created": 1782946747,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "水果锁价的时间通常取决于水果的种类、市场供需情况以及双方的谈判能力。一般可分为以下情况：\n\n1. **季节性水果**（如荔枝、杨梅等）：锁价期较短，通常为1-2周，因为产量集中且易受天气影响。\n2. **全年供应水果**（如苹果、柑橘类）：若与大型供应商或基地合作，锁价期可达1-3个月，部分长期协议可锁半年。\n3. **进口水果**：受海运周期和汇率影响，锁价期常为1-2个月，需提前确认海运班期。\n\n建议：\n- 优先选择与有稳定产源或冷库能力的供应商谈判。\n- 在合同中明确价格调整机制（如大宗市场价格波动超过10%可协商），避免后期纠纷。\n- 可通过支付预付款或签订最低采购量来争取更长的锁价期。\n\n具体时长需结合实时市场行情与供应商信用状况确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 199,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

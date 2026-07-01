@@ -1,0 +1,28 @@
+{
+  "id": "692b5475-4c8d-4c09-a17a-5496ae41b806",
+  "object": "chat.completion",
+  "created": 1782946625,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "推荐选择 **小把包装（2-3根）为主，搭配少量单根**，不推荐整袋包装。原因如下：\n\n1. **小把包装**最适合便利店：  \n   - 兼顾便利性：顾客随手拿取，适合即买即食。  \n   - 减少损耗：比整袋更容易控制购买量，避免一次性买太多后腐烂。  \n   - 溢价空间：相比单根，小把可适当提高每根单价，提升利润。\n\n2. **单根装可备少量**：  \n   - 适合独居顾客或只吃一根的人，但单根容易碰伤且售价较低。\n\n3. **避免整袋包装**：  \n   - 家庭装虽单价低，但便利店客群多为散客，整袋销量差，且香蕉熟得快，易造成大量损耗。\n\n**操作建议**：  \n- 采购时选择带柄的整串香蕉，在店内现剪成2-3根小把，用保鲜膜或标签包扎。  \n- 把货架放在显眼且温度较低（不直吹空调）的位置，贴上“今日新鲜”标签，每天少量补货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 249,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "39008198-b255-4b1e-b5e5-fe35f5c87356",
+  "object": "chat.completion",
+  "created": 1782946728,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先按**斤结算**，原因如下：\n1. **透明可控**：斤是标准重量单位，与市场采购价直接挂钩，便于核算成本和抽查质量（如烂果率）。\n2. **审计简单**：月账单只需核对总斤数和单价，无需拆箱清点或计算份数误差。\n3. **库存灵活**：可随时根据需求拆分大箱、调整份量，避免因箱装固定重量导致浪费。\n4. **纠错容易**：若发现缺斤少两，直接补足斤数即可，无需重新协商箱价或份数。\n**当遇到**特殊包装（如整箱优惠价）或**固定份量套餐**时，可对特定品种单独按箱/份计价，但核心品类保持斤结算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 168,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

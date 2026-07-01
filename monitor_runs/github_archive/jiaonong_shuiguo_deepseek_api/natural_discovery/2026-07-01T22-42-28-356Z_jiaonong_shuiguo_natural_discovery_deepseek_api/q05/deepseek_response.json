@@ -1,0 +1,28 @@
+{
+  "id": "f7aa13ca-bb07-4c9c-8b08-cbb20746f32b",
+  "object": "chat.completion",
+  "created": 1782945798,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议让顾客自己挑，同时提供已去皮好的菠萝作为备选。\n\n原因：\n1. **顾客体验**：自己挑选既能保证新鲜度和成熟度，又能满足个性化需求（如大小、外观）。\n2. **减少损耗**：已去皮好的菠萝容易氧化变黑，如果卖不完损失大；整果保存时间更长。\n3. **价格灵活**：整果可以按斤售卖，去皮好的可以按个定价，顾客有选择空间。\n\n实际操作建议：\n- 主动提供削皮服务（用菠萝削皮器），并展示削皮过程以增强信任。\n- 在削皮好的菠萝上标注“今日削皮”，提醒尽快食用。\n- 如果顾客赶时间或不会削皮，可推荐已削好的。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 159,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

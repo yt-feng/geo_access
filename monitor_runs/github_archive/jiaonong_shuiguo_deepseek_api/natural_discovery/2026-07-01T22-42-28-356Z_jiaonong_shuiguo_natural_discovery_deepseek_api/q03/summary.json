@@ -1,0 +1,50 @@
+{
+  "questionId": "q03",
+  "prompt": "夫妻店第一次找水果供货商，香蕉、苹果、橙子这些常见货应该怎么试单？",
+  "createdAt": "2026-07-01T22:42:53.431Z",
+  "summary": [
+    {
+      "questionId": "q03",
+      "prompt_index": 3,
+      "promptIndex": 3,
+      "promptHash": "eb234c0229b8",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "夫妻店第一次找水果供货商，香蕉、苹果、橙子这些常见货应该怎么试单？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1296,
+      "text_length": 1296,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 854,
+        "total_tokens": 916,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 854,
+      "total_tokens": 916,
+      "latencyMs": 14504,
+      "latency_ms": 14504,
+      "createdAt": "2026-07-01T22:42:53.431Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q03/prompt.txt",
+        "answer": "q03/deepseek.txt",
+        "response": "q03/deepseek_response.json",
+        "sources": "q03/deepseek_sources.json",
+        "references": "q03/deepseek_references.json"
+      }
+    }
+  ]
+}

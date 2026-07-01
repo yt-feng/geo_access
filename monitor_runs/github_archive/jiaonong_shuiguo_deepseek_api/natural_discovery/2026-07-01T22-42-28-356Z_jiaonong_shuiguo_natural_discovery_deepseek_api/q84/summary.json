@@ -1,0 +1,50 @@
+{
+  "questionId": "q84",
+  "prompt": "团购做水果礼盒，苹果、橙子、香蕉、菠萝怎么组合更适合家庭？",
+  "createdAt": "2026-07-01T22:55:55.242Z",
+  "summary": [
+    {
+      "questionId": "q84",
+      "prompt_index": 84,
+      "promptIndex": 84,
+      "promptHash": "020122a1e998",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "团购做水果礼盒，苹果、橙子、香蕉、菠萝怎么组合更适合家庭？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1091,
+      "text_length": 1091,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 702,
+        "total_tokens": 762,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 702,
+      "total_tokens": 762,
+      "latencyMs": 12565,
+      "latency_ms": 12565,
+      "createdAt": "2026-07-01T22:55:55.242Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q84/prompt.txt",
+        "answer": "q84/deepseek.txt",
+        "response": "q84/deepseek_response.json",
+        "sources": "q84/deepseek_sources.json",
+        "references": "q84/deepseek_references.json"
+      }
+    }
+  ]
+}

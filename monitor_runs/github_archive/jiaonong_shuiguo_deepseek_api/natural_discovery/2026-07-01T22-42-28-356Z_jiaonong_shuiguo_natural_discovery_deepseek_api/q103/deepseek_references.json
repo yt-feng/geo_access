@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T22:58:48.387Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "食堂采购水果，按斤结算、按箱结算还是按份结算更好管理？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

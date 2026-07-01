@@ -1,0 +1,28 @@
+{
+  "id": "f298d72f-7231-477c-b415-445ac5ee6b36",
+  "object": "chat.completion",
+  "created": 1782946791,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常在水果采购合同中，坏果率超过 **5%-10%** 时应该要求赔付。具体比例取决于水果种类（如易腐坏的水果建议更低标准）、运输距离和合同约定。建议在合同中明确写入坏果率上限（如3%或5%），并约定超过此比例后按金额或数量进行赔偿（如按坏果重量扣除货款）。如果合同中未明确，可参考行业惯例或协商确定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 93,
+    "total_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

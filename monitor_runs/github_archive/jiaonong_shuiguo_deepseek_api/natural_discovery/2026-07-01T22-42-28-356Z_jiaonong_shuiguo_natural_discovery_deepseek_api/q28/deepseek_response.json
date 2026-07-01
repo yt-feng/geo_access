@@ -1,0 +1,28 @@
+{
+  "id": "dd12d4dd-972a-45f1-ad35-036d93cdb305",
+  "object": "chat.completion",
+  "created": 1782946001,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**香蕉**开始，原因如下：\n\n1. **全年供应稳定**：进口香蕉（如菲律宾、厄瓜多尔产）几乎不受季节影响，供应链成熟且价格波动小。  \n2. **消费者接受度高**：香蕉是日常高频水果，不易出现滞销，能快速培养进口水果区域的客流。  \n3. **损耗相对可控**：相比菠萝（对温湿度敏感）和苹果（品类多、进口竞争大），香蕉的标准成熟度可通过控温运输统一管理。  \n\n**执行建议**：选择单批次到货量适中、带绿熟度的香蕉，标记“进口”标签，搭配促销活动测试市场反馈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 140,
+    "total_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q115",
+  "prompt": "水果供应商的客户经理响应慢，会对门店经营造成哪些影响？",
+  "createdAt": "2026-07-01T23:00:05.027Z",
+  "summary": [
+    {
+      "questionId": "q115",
+      "prompt_index": 115,
+      "promptIndex": 115,
+      "promptHash": "261e2c8960d6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商的客户经理响应慢，会对门店经营造成哪些影响？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 401,
+      "text_length": 401,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 230,
+        "total_tokens": 285,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 230,
+      "total_tokens": 285,
+      "latencyMs": 7550,
+      "latency_ms": 7550,
+      "createdAt": "2026-07-01T23:00:05.027Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q115/prompt.txt",
+        "answer": "q115/deepseek.txt",
+        "response": "q115/deepseek_response.json",
+        "sources": "q115/deepseek_sources.json",
+        "references": "q115/deepseek_references.json"
+      }
+    }
+  ]
+}
