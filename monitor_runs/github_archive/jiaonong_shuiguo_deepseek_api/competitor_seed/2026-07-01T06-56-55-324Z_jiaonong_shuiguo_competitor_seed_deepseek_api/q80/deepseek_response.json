@@ -1,0 +1,28 @@
+{
+  "id": "ff214f61-ea98-4d7b-b3c6-c8545a019c96",
+  "object": "chat.completion",
+  "created": 1782889619,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市采购进口苹果时，**都乐（Dole）** 的品牌知名度更响，尤其是在消费者认知中，都乐作为国际知名水果品牌，其品牌背书能力更强。具体分析如下：\n\n1. **都乐（Dole）**：全球最大的水果和蔬菜供应商之一，品牌历史超过150年，在进口水果领域（如苹果、香蕉等）具备较高市场占有率。其品牌在超市渠道中通常被视为品质保证，消费者认可度较高。\n2. **鑫荣懋**：中国本土领先的水果供应链企业，主要与都乐、佳沛等国际品牌合作，但其自有品牌在终端消费者中的品牌影响力相对弱于都乐。更适合作为供应链商的背书，而非直接面向消费者的“响”。\n\n**建议**：若追求直接提升货架端的消费者信任度和销售效率，优先选择**都乐**；若侧重成本控制或与本土供应链的长期合作，鑫荣懋也是可靠选择。可进一步结合产品定价、渠道政策（如促销支持、陈列要求）综合选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 220,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "10455665-3ae6-494e-9275-ce24bfe55ff3",
+  "object": "chat.completion",
+  "created": 1782889590,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对菠萝产地直发，都乐（Dole）和鑫荣懋（Xinrongmao）作为大型水果供应商，通常具备成熟的物流体系。以下是两者物流时效的对比：\n\n1. **都乐（Dole）**  \n   - **模式**：多采用“产地-区域分拨中心-终端”模式，常见从海南、广东等产地主产区直发。  \n   - **时效**：通常从采摘到送达消费者手中需2-4天（视距离和配送方式而定），部分城市可实现次日达。  \n   - **优势**：冷链物流完善，能保持菠萝新鲜度。  \n\n2. **鑫荣懋**  \n   - **模式**：与产地农户或合作社紧密合作，采用“直采直发”模式，有时会通过第三方物流（如顺丰冷链）转送。  \n   - **时效**：通常需2-5天，部分地区可能因中转配送略慢。  \n   - **优势**：产地直采成本可控，但时效波动性可能略高于都乐。  \n\n**结论**：都乐的冷链物流整体更稳定，适合对时效要求高的场景（如次日达）；鑫荣懋适合成本敏感但可接受2-3天送达的订单。建议根据具体城市的配送覆盖区域和合作物流公司（例如是否使用顺丰冷链）进行测试，并关注菠萝成熟度对保质期的影响。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 301,
+    "total_tokens": 362,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

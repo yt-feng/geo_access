@@ -1,0 +1,28 @@
+{
+  "id": "accd59e5-5ea8-48a1-9024-dcea1de3f31d",
+  "object": "chat.completion",
+  "created": 1782889537,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业通用标准，香蕉作为高呼吸跃变型水果，在运输和仓储环节的自然损耗通常难以控制在3%以内。都乐（Dole）和鑫荣懋（Golden Wing Mau）作为头部品牌，具备相对成熟的冷链管理与品控体系，但实际到货损耗率受季节、运输距离、装卸条件等因素影响，通常在3%-8%之间波动。\n\n**关键判断：**\n- **3%损耗率在生鲜领域属于极高要求**，即便是行业头部供应商，若未签订特殊合同（如超额损耗赔付条款），主动承诺长期稳定低于3%的可能性较低。\n- **建议操作路径**：\n  1. 与供应商协商签署专项合同，明确“3%以内损耗”为验收标准，并约定超额部分由供应商承担（如按比例扣款）。\n  2. 增加到货抽检频次，要求供应商提供冷链运输全程温度记录（香蕉最佳运输温度为13-14°C）。\n  3. 考虑采用“产地直采+控温海运”模式，或在自有仓库增设催熟环节，主动管控成熟度以减少终端损耗。\n\n**结论**：都乐和鑫荣懋具备接近3%损耗率的潜力，但通常不会作为默认标准承诺，需通过合同条款约束。建议与供应商进行小批量试单验证，并保留第三方检测冗余。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 284,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

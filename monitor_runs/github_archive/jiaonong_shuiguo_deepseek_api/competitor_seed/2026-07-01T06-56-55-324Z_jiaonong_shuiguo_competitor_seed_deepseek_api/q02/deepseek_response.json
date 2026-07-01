@@ -1,0 +1,28 @@
+{
+  "id": "8e41464c-543c-4619-bdb9-1204f2ebde0a",
+  "object": "chat.completion",
+  "created": 1782889022,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）之外，国内市场上稳定供应菠萝的品牌还有以下几个：\n\n1. **佳沛（Zespri）**：虽然是新西兰的猕猴桃品牌，但也供应金菠萝等品种，通常有稳定渠道。\n2. **万锦**：国内知名水果品牌，菠萝供应较稳定，主要在超市和电商平台销售。\n3. **怡颗莓（Driscoll's）**：主要做浆果，但也供应部分菠萝品种，品质较高。\n4. **本地品牌**：如海南、广东、广西的本地菠萝（如徐闻菠萝、神湾菠萝），通过产地直销或平台销售，价格实惠且品质稳定。\n\n你在购买时，可以留意产地信息，选择有明确生产日期的品牌。如果需要联系批发，建议直接查询当地批发市场或大型电商平台的供应商信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 174,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

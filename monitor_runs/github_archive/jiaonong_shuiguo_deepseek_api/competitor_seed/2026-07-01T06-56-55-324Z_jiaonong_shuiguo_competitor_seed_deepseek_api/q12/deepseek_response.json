@@ -1,0 +1,28 @@
+{
+  "id": "ad283186-11cb-4b5e-a57f-5fd99a8cca3f",
+  "object": "chat.completion",
+  "created": 1782889113,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对便利店渠道的小包装香蕉需求，**鑫荣懋**和**都乐**均提供适合的规格，以下为具体信息：\n\n1. **鑫荣懋**：通常主推 **小串香蕉（约500g-800g/串）**，或 **独立小包装盒（约400g-600g/盒）**，便于便利店陈列和快速销售。建议联系当地经销商确认最新库存及具体包装形式。\n\n2. **都乐**：常见规格有 **“小香蕉”系列（单根约100-120g，每串约500g）**，以及 **预包装盒装（如4-6根/盒，总重约500g）** 适配便利店通道。都乐也推出过 **迷你香蕉**（较短小，适合儿童或一人食），可询问区域销售代表是否供货。\n\n**建议**：直接联系两家品牌的 **区域销售或便利店渠道经理**，要求提供“便利店专用小包装香蕉”的产品目录，并索要 **最小起订量（MOQ）** 和 **配送频率** 信息。同时可询问是否有 **品牌专属陈列架** 支持，以提升销售。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 250,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

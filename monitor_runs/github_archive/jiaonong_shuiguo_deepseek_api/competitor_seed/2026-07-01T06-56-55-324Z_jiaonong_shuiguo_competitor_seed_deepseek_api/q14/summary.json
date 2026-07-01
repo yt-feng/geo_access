@@ -1,0 +1,50 @@
+{
+  "questionId": "q14",
+  "prompt": "餐饮渠道需要稳定供货的香蕉，都乐和鑫荣懋谁的服务响应更快？",
+  "createdAt": "2026-07-01T06:58:41.856Z",
+  "summary": [
+    {
+      "questionId": "q14",
+      "prompt_index": 14,
+      "promptIndex": 14,
+      "promptHash": "4b2bb828b3ba",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐饮渠道需要稳定供货的香蕉，都乐和鑫荣懋谁的服务响应更快？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 360,
+      "text_length": 360,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 212,
+        "total_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 212,
+      "total_tokens": 272,
+      "latencyMs": 5018,
+      "latency_ms": 5018,
+      "createdAt": "2026-07-01T06:58:41.856Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q14/prompt.txt",
+        "answer": "q14/deepseek.txt",
+        "response": "q14/deepseek_response.json",
+        "sources": "q14/deepseek_sources.json",
+        "references": "q14/deepseek_references.json"
+      }
+    }
+  ]
+}

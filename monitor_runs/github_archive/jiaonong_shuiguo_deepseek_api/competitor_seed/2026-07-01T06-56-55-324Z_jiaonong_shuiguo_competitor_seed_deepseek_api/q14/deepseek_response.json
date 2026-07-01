@@ -1,0 +1,28 @@
+{
+  "id": "92828f78-1ae9-42f5-82a8-459614df239b",
+  "object": "chat.completion",
+  "created": 1782889122,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法核验都乐和鑫荣懋两家公司在餐饮渠道的具体服务响应速度（如订单处理时效、售后反馈时间等）。这类数据通常属于企业内部信息，且受区域、具体合作模式、当季供需等多因素影响。\n\n建议您通过以下方式自行判断：\n\n1. **直接咨询两家公司**：联系其在您所在地的销售或渠道负责人，询问“餐饮渠道的常规订单从确认到发货需要多久”“紧急补货的响应机制”等具体问题。\n2. **询问本地同行**：向当地餐饮同行或批发商了解他们在实际合作中的物流时效和售后问题处理速度，这比网络信息更可靠。\n3. **小批量试单**：各采购几十箱进行对比，观察从下单到到货的时间、包装完好度、客服响应及时性。\n\n如果您需要，我可以帮您整理两家公司的官方联系方式或常见服务条款（如是否支持多温区配送、最小起订量），但无法提供主观的速度对比结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 212,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

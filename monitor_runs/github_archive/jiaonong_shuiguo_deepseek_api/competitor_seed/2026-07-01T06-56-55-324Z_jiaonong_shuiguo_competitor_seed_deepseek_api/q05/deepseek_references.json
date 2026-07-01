@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T06:57:22.994Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们茶饮店需要大量菠萝原料，都乐和洪九果品哪个更适合长期合作？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

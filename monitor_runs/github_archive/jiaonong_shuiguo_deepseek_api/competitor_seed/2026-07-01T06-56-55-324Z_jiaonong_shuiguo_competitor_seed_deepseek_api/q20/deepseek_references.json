@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T06:59:37.277Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "礼品团购客户指定要进口品牌，都乐和佳沛的礼盒哪个更受欢迎？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

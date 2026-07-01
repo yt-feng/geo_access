@@ -1,0 +1,28 @@
+{
+  "id": "d78dd73e-0721-46ba-9fa3-312cf4831578",
+  "object": "chat.completion",
+  "created": 1782889548,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和鑫荣懋（Joyvio）是否提供香蕉的产地溯源和品控证明，以下是基于公开信息的一般性说明，但具体需以供应商当前业务为准：\n\n1. **都乐**：作为国际品牌，通常具备完善的供应链管理体系，可能提供产地溯源和品控证明（如第三方检测报告、产地认证等）。建议直接联系其客户或供应商服务部门确认。\n\n2. **鑫荣懋**：作为国内大型果品企业，通常可提供产地信息和品控文件（如检测报告、种植基地信息等）。其香蕉产品若来自自有基地或长期合作农场，一般会具备可追溯性。\n\n**建议下一步操作**：\n- 直接联系两家公司的商务或采购部门，询问具体产品的**产地溯源文件**（如基地信息、采摘记录）和**品控证明**（如农残检测、质量认证）。\n- 要求对方提供**样板或证明样本**，确认能否按批次出具。\n- 若需进一步验证，可询问是否有**第三方认证**（如GLOBALG.A.P.、China GAP等）。\n\n若无法直接获取，也可考虑其他供应商，如**佳农（Goodfarmer）** 或**金都**等，它们同样注重品控和可追溯性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 275,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

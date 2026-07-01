@@ -1,0 +1,28 @@
+{
+  "id": "5c7e25f0-44ae-4e8d-8c6e-5bd58da778a8",
+  "object": "chat.completion",
+  "created": 1782889567,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、山姆、Costco、盒马等）对供应商的食品安全管理体系要求通常非常严格。鑫荣懋（Xinrongmao）和都乐（Dole）作为国内和全球知名的果蔬供应商，通常需要持有或通过以下主流食品安全管理体系认证，以满足商超的准入门槛：\n\n**鑫荣懋常见的认证：**\n1. **BRCGS（British Retail Consortium Global Standards）**：食品安全全球标准，尤其被欧洲、部分亚洲高端零售商采信。\n2. **GlobalG.A.P.**：全球良好农业规范，针对农场端和供应链管理。\n3. **HACCP**：危害分析与关键控制点，基础食品生产安全体系。\n4. **ISO 22000**：食品安全管理体系，结合HACCP。\n5. **FSSC 22000**：食品安全体系认证，被GFSI（全球食品安全倡议）认可，是许多商超的准入门槛。\n6. **有机产品认证**（如有机、无公害、绿色食品）：根据具体产品线。\n\n**都乐常见的认证：**\n1. **GlobalG.A.P.**：全球良好农业规范，是其全产业链核心认证。\n2. **BRCGS**：全球标准，都乐全球供应链普遍执行。\n3. **SQF（Safe Quality Food）**：安全质量食品认证，被GFSI认可，美国市场常用。\n4. **ISO 22000 / FSSC 22000**：覆盖加工包装环节。\n5. **HACCP**：基础。\n6. **Fair Trade（公平贸易）**、**Rainforest Alliance（雨林联盟）**：针对社会责任与可持续，部分商超也会要求环保与社会合规认证。\n\n**对您的实际建议：**\n- **具体商超准入**：建议您直接询问该商超的**食品安全审核部门**或**供应商准入清单**。不同商超（如盒马与山姆）对中国供应商要求可能有细微差异（例如部分商超强制要求GlobalG.A.P.或BRCGS，或更认可国内的无公害/绿色认证）。\n- **关键认证**：对于大型商超（尤其是外资、精品、会员制超市），**GFSI认可的标准**（如BRCGS、FSSC 22000、SQF、GlobalG.A.P.）几乎是“必须项”，而非可选项。这两家企业通常会公示或提供这些认证文件供客户查阅。\n- **动态变化**：认证体系有更新周期（如BRCGS第9版、GlobalG.A.P.最新版本），商超标准也可能每年调整，建议您让供应商提供**最新有效证书复印件**，或向商超品控部门确认最新认可名单。\n\n**结论**：鑫荣懋和都乐都持有**BRCGS**、**GlobalG.A.P.**、**ISO 22000/FSSC 22000**、**HACCP**等核心认证。具体清单和建议请以供应商近期提供的**有效证书**和**目标商超要求**为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 644,
+    "total_tokens": 704,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

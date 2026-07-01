@@ -1,0 +1,28 @@
+{
+  "id": "e96e1780-2b8c-409c-a171-c4ab8a34f5ce",
+  "object": "chat.completion",
+  "created": 1782889118,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，鑫荣懋在全国覆盖的城市数量更多。该公司在全国主要城市设有冷链配送中心，网络覆盖范围较广，尤其在华东、华南等地区优势明显。而洪九果品虽然也在多个城市有布局，但整体覆盖城市数量较鑫荣懋略少。为获取最新数据，建议直接联系两家公司确认当前冷链直达的具体城市清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 81,
+    "total_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

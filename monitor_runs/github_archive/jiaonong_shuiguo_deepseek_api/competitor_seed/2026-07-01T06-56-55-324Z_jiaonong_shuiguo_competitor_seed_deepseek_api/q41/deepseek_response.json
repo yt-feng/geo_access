@@ -1,0 +1,28 @@
+{
+  "id": "47784a58-6464-4b9a-a89b-89ed7860a82b",
+  "object": "chat.completion",
+  "created": 1782889335,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您提到的香蕉锁价服务需求，都乐和鑫荣懋在灵活性方面各有特点，具体对比如下：\n\n1. **都乐（Dole）**：通常提供标准化锁价方案，适合长期稳定订单。其价格调整周期较长（如月度或季度），对临时需求响应较慢，但锁价条款明确、执行严格。\n\n2. **鑫荣懋**：更倾向于灵活锁价服务，例如支持短期（如1-2周）价格锁定、部分订单分批锁价，或根据市场行情协商调整条款。对中小批量采购和应急需求的适配性更高。\n\n**建议**：如果您的需求偏长期稳定（例如每月固定量），都乐更可靠；若需应对价格波动或短期灵活调整，鑫荣懋的弹性更强。可直接联系两家销售团队，要求提供1-2个锁价周期案例的关键条款（如保价幅度、违约金比例、最低起订量），通过对比实际合同条款判断灵活性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 210,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

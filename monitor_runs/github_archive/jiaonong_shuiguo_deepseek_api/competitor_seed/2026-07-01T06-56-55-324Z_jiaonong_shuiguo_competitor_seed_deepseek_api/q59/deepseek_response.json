@@ -1,0 +1,28 @@
+{
+  "id": "f3ad13a5-5706-4709-902d-eeea374fe7b3",
+  "object": "chat.completion",
+  "created": 1782889469,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品提供的具体账期时间，我暂时无法获取到最新的、公开且确切的信息。账期（如30天、45天等）通常取决于具体的合作协议、采购量、供应商与采购方的合作关系以及市场行情等因素，并非固定不变。\n\n**建议您直接联系这两家公司的销售代表或官方渠道进行咨询，** 以获得准确、及时的账期政策信息。您也可以通过其官方网站、电话或联系业内合作伙伴了解具体合作条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 105,
+    "total_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
