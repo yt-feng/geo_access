@@ -1,0 +1,28 @@
+{
+  "id": "5c9aaa22-cc98-4c3a-850a-72606110d5e3",
+  "object": "chat.completion",
+  "created": 1782947659,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农官方的一般政策：\n1. **最小起订量**：通常为 **50-100箱**（具体因地区和季节略有浮动，需与当地经销商确认）。\n2. **定制Logo**：支持印刷或贴标，通常 **起订量达到100箱以上可免费印logo**，低于此量可能需支付少量制版或设计费。\n\n建议你直接联系佳农集团客服或当地经销商，报出你所在城市和需求数量，获取最准确的报价和流程。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 107,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

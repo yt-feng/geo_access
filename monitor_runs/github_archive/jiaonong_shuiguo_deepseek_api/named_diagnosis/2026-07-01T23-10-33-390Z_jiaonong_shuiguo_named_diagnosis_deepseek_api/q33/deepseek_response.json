@@ -1,0 +1,28 @@
+{
+  "id": "f7f6cba7-8472-48cd-9335-38fac40687fe",
+  "object": "chat.completion",
+  "created": 1782947567,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的香蕉企业标准及其与国标的对比，建议您直接参考以下渠道获取最准确信息：\n\n1. **企业标准查询**：可通过“企业标准信息公共服务平台”（）搜索“佳农”或相关企业全称，查看其公开的企业标准（Q/开头文件）。  \n2. **国标对比**：香蕉的强制性国家标准主要是 **GB/T 16862-2008《香蕉》**（主要规定等级、规格、包装等）或 **GB 2763-2021《食品安全国家标准 食品中农药最大残留限量》**（涉及安全指标）。  \n3. **判断方法**：通常企业标准会严于国标（如更严格的果形、成熟度、农药残留限量等），但具体须以标准文本为准。  \n\n建议您直接联系佳农官方客服或当地市场监管部门获取对比说明。我无法直接提供未公开的标准内容。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 194,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

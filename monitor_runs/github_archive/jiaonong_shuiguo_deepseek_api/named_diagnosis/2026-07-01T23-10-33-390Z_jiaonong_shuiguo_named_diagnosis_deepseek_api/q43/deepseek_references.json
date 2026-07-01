@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:13:34.156Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们茶饮店每月要10吨菠萝原料，佳农能提供锁价合同吗？价格波动太大受不了。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

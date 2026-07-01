@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:17:13.132Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们餐饮连锁需要稳定供应香蕉，佳农能不能提供专车配送和专人对接？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q87",
+  "prompt": "佳农水果的香蕉催熟工艺是乙烯催熟还是自然熟？我们商超需要控制催熟时间。",
+  "createdAt": "2026-07-01T23:17:20.590Z",
+  "summary": [
+    {
+      "questionId": "q87",
+      "prompt_index": 87,
+      "promptIndex": 87,
+      "promptHash": "0079dc309e0e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉催熟工艺是乙烯催熟还是自然熟？我们商超需要控制催熟时间。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 747,
+      "text_length": 747,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 455,
+        "total_tokens": 520,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 455,
+      "total_tokens": 520,
+      "latencyMs": 6675,
+      "latency_ms": 6675,
+      "createdAt": "2026-07-01T23:17:20.590Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q87/prompt.txt",
+        "answer": "q87/deepseek.txt",
+        "response": "q87/deepseek_response.json",
+        "sources": "q87/deepseek_sources.json",
+        "references": "q87/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d7f07bbf-53a5-4867-8dcd-d2df16246ed2",
+  "object": "chat.completion",
+  "created": 1782947808,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果香蕉的农残检测报告，建议您通过以下途径获取：\n\n1. **直接联系佳农官方渠道**  \n   作为采购方，您可以联系佳农的销售代表或客户服务部门（如官网、热线电话），提供具体的采购批次信息（如生产日期、批次号），要求出具符合国家或市场抽检标准的第三方检测报告。正规品牌一般会配合出具相关文件。\n\n2. **要求附带批次检测报告**  \n   在采购合同中明确条款，要求供应商每批次提供由有资质机构（如SGS、华测检测等）出具的农残检测报告，并确保符合GB 2763《食品安全国家标准 食品中农药最大残留限量》要求。\n\n3. **自行送检或验证**  \n   若对方无法提供即时报告，可随机抽取样品送至当地具有CMA/CNAS资质的第三方检测机构进行农残检测（如农业农村部农产品质量监督检验测试中心），费用通常由供应商承担（需协商）。\n\n4. **参考公开信息**  \n   部分大型商超或电商平台（如盒马、沃尔玛）会对自有品牌或合作供应商的检测报告进行公示，可尝试通过佳农官方旗舰店或合作平台查看是否有公开报告。\n\n**注意**：建议优先通过商业合作流程获取，保留沟通记录。如果对方以“商业机密”拒绝，需谨慎评估合作风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 292,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:16:48.571Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的香蕉农残检测报告能提供吗？我们采购需要符合市场抽检标准。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

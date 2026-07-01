@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:13:48.803Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的账期最长能到多久？新客户首单能申请30天账期吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

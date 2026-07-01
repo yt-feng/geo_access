@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:10:54.889Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们茶饮店需要大量菠萝原料，佳农能稳定供应普通商家听得懂的菠萝规格吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

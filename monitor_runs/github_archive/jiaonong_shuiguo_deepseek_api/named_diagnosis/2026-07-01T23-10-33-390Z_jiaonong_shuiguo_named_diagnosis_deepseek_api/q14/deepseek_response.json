@@ -1,0 +1,28 @@
+{
+  "id": "c5d1a0c2-b885-4dbf-a54e-f2a8558af600",
+  "object": "chat.completion",
+  "created": 1782947488,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的长期合作与专供包装需求，建议您直接联系佳农官方销售团队或区域代理商，具体沟通以下事项：\n\n1. **定制包装可行性**：佳农通常为大型连锁超市、区域重点客户提供定制化包装（如印有超市LOGO、专属规格等），但需满足最低起订量（如500箱/月）及合作时间要求。\n2. **合作条件**：明确长期采购量、结算周期、配送支持等，部分渠道商会要求签订年度框架协议。\n3. **联系渠道**：\n   - 佳农官网或官方客服（400电话）获取区域负责人联系方式。\n   - 通过行业展会（如中国国际水果展）直接对接品牌方。\n   - 咨询本地大型批发市场中的佳农授权经销商。\n\n建议提前准备贵超市的日均销量、预期包装规格（如3kg/5kg礼盒装或家庭装）及设计需求，谈判更高效。若暂无直接联系方式，可尝试通过工商信息平台（如天眼查）查询佳农食品股份有限公司的公开注册地址或分支机构信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 236,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

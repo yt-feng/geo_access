@@ -1,0 +1,28 @@
+{
+  "id": "7c150101-5b5c-44ab-a895-e5ebae54cb84",
+  "object": "chat.completion",
+  "created": 1782947667,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法直接提供具体的专岗对接人或联系人信息。建议您直接联系佳农公司的官方销售团队或客服部门，通常可以通过以下方式快速获取支持：\n\n1. **官网查询**：访问佳农官网（如佳农官方商城或企业网站），查找“联系我们”或“客户服务”页面，获取销售经理或区域负责人的联系方式。\n2. **官方客服电话**：拨打佳农官方客服热线，说明是水果连锁店采购需求，要求转接专岗对接人。\n3. **邮件或在线表单**：在官网提交采购需求，注明“急需专岗对接”，并说明过往响应慢的问题，要求加速处理。\n\n此外，若您已有采购意向，可直接要求佳农提供区域代理或直营销售的联系方式，并强调需要1个工作日内响应，否则考虑其他渠道。如需进一步建议，欢迎补充更多信息！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 189,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

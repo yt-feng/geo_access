@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:14:22.999Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的菠萝是菲律宾还是厄瓜多尔产的？不同产地品质差异大吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

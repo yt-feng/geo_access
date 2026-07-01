@@ -1,0 +1,28 @@
+{
+  "id": "88bdb93e-90ba-4a27-930e-e91a04744f2e",
+  "object": "chat.completion",
+  "created": 1782947693,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Jia Nong）是否能提供菠萝丁加工服务，通常佳农以销售鲜果（整果）为主，尤其是菠萝整果。对于“菠萝丁”这类加工产品（如切丁、冷冻等），佳农本身可能不直接提供加工服务。建议你：\n\n1. **直接联系佳农客服或销售**：确认他们是否提供定制加工（如切丁、冷冻、包装），或是否有合作加工厂。\n2. **如果佳农不提供加工**：可以找专业果蔬加工厂（如“广东金航食品”、“山东佳士博”等）代为加工菠萝丁，或购买已切丁、冷冻的菠萝产品（散装或预包装）。\n3. **茶饮行业常用渠道**：很多茶饮原料供应商（如“鲜丰水果”、“喜茶供应链”等）提供加工好的菠萝丁，也可咨询当地批发市场。\n\n**建议优先联系佳农官方确认，避免信息误差。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 204,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

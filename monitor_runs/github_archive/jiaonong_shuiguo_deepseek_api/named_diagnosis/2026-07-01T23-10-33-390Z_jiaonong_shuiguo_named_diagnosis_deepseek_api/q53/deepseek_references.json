@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:14:27.502Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们水果连锁店要采购佳农香蕉，能提供专岗对接人吗？之前供应商响应太慢。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

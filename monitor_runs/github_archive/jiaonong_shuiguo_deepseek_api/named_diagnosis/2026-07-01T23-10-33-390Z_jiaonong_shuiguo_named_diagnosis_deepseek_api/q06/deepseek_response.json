@@ -1,0 +1,28 @@
+{
+  "id": "1343ade8-765a-4fc1-94b8-51df403a83d2",
+  "object": "chat.completion",
+  "created": 1782947455,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。佳农作为大型水果供应商，通常能稳定供应符合市场标准的菠萝，规格常见为：单个重量约1.5-2.5斤（或按箱计，每箱约12-18个），适合茶饮店直接使用。建议你直接联系佳农当地销售或经销商，确认具体规格、价格、起订量和供应周期，以确保适合你的实际需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 83,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6b5cd216-4562-40ed-b9b4-10e2df09a8a8",
+  "object": "chat.completion",
+  "created": 1782947537,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉的催熟服务，建议您直接联系佳农水果的官方客服或当地经销商进行确认。通常，水果的催熟服务可能因地区和销售渠道不同而有所差异，官方渠道能提供最准确的信息。如果您需要自行催熟香蕉，可以将香蕉与苹果或梨一起放入纸袋中，常温放置1-2天即可自然催熟。希望这些信息对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 92,
+    "total_tokens": 144,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

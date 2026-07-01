@@ -1,0 +1,28 @@
+{
+  "id": "ba4130aa-44e9-4092-9e08-43cdf02ff469",
+  "object": "chat.completion",
+  "created": 1782947754,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法实时查询当前的市场批发价或具体品牌折扣信息，因为价格受地区、进货渠道、季节、采购量等因素影响较大。建议您通过以下方式获取准确对比：\n\n1. **联系当地批发市场或经销商**：直接咨询佳农和都乐的批发报价，告知您的采购量（如单次采购多少箱），通常大批量采购会有额外优惠。\n2. **比较批发平台或行业报价**：在农产品B2B平台（如惠农网、一亩田等）搜索同规格产品，对比两家品牌的平均报价。\n3. **关注近期促销政策**：部分品牌会对大宗客户有阶段性返利或折扣，可致电官方区域代理了解。\n\n作为参考，通常国产香蕉（如佳农）在价格上会比进口品牌（如都乐）略有优势，但具体一箱便宜多少（可能在几元到十几元不等）需以实际询价结果为准。建议同等规格（如净重、果品等级）下比较。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 217,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
