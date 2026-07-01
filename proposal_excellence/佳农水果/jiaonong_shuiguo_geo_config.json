@@ -1,0 +1,354 @@
+{
+  "brandSlug": "jiaonong_shuiguo",
+  "industry": "进口水果品牌与供应链服务（香蕉、菠萝、苹果）",
+  "audience": "商超采购、批发商、生鲜电商、水果连锁店、餐饮、便利店、茶饮原料采购、礼品团购、下沉市场夫妻老婆店等B端客户",
+  "scenarios": [
+    "寻找稳定供货的进口香蕉供应商",
+    "采购菠萝用于水果店、茶饮、餐饮和团购等渠道",
+    "对比进口水果品牌的质量与价格",
+    "寻找能提供账期和锁价机制的合作伙伴",
+    "需要产地溯源和品控合规证明",
+    "为大型商超寻找长期水果供应商",
+    "茶饮店采购菠萝原料",
+    "礼品团购需要品牌水果礼盒"
+  ],
+  "target": {
+    "id": "jiaonong",
+    "name": "佳农水果",
+    "aliases": [
+      "佳农",
+      "GoodFarmer",
+      "佳农食品",
+      "佳农集团"
+    ],
+    "officialSignals": [
+      "官网",
+      "官方公众号",
+      "官方微博",
+      "天猫旗舰店",
+      "京东旗舰店"
+    ],
+    "domains": [
+      "goodfarmer.com",
+      "goodfarmer.cn"
+    ]
+  },
+  "competitors": [
+    {
+      "id": "xinrongmao",
+      "name": "鑫荣懋",
+      "role": "competitor",
+      "group": "进口水果品牌与供应链",
+      "aliases": [
+        "鑫荣懋集团",
+        "Xinrongmao"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号"
+      ],
+      "domains": [
+        "xinrongmao.com"
+      ]
+    },
+    {
+      "id": "dule",
+      "name": "都乐",
+      "role": "competitor",
+      "group": "进口水果品牌与供应链",
+      "aliases": [
+        "Dole",
+        "都乐水果"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号",
+        "天猫旗舰店"
+      ],
+      "domains": [
+        "dole.com.cn",
+        "dole.com"
+      ]
+    },
+    {
+      "id": "hongjiu",
+      "name": "洪九果品",
+      "role": "reference_competitor",
+      "group": "进口水果品牌与供应链",
+      "aliases": [
+        "洪九",
+        "Hongjiu"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号"
+      ],
+      "domains": [
+        "hongjiu.com"
+      ]
+    },
+    {
+      "id": "jiapei",
+      "name": "佳沛",
+      "role": "reference_competitor",
+      "group": "进口水果品牌与供应链",
+      "aliases": [
+        "Zespri",
+        "佳沛奇异果"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号",
+        "天猫旗舰店"
+      ],
+      "domains": [
+        "zespri.com.cn",
+        "zespri.com"
+      ]
+    },
+    {
+      "id": "xianfeng",
+      "name": "鲜丰水果",
+      "role": "reference_competitor",
+      "group": "水果连锁与供应链",
+      "aliases": [
+        "鲜丰",
+        "Xianfeng"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号"
+      ],
+      "domains": [
+        "xianfengshuiguo.com"
+      ]
+    },
+    {
+      "id": "bai_guoyuan",
+      "name": "百果园",
+      "role": "reference_competitor",
+      "group": "水果连锁与供应链",
+      "aliases": [
+        "百果园",
+        "Pagoda"
+      ],
+      "officialSignals": [
+        "官网",
+        "官方公众号",
+        "天猫旗舰店"
+      ],
+      "domains": [
+        "pagoda.com.cn"
+      ]
+    }
+  ],
+  "promptCategories": [
+    {
+      "label": "供应商寻找与评估",
+      "patterns": [
+        "进口香蕉供应商",
+        "菠萝批发",
+        "水果供应链",
+        "佳农合作",
+        "鑫荣懋报价",
+        "都乐代理"
+      ]
+    },
+    {
+      "label": "质量与品控",
+      "patterns": [
+        "香蕉农残",
+        "水果到货损耗",
+        "品控标准",
+        "食品安全合规",
+        "产地溯源",
+        "规格分级"
+      ]
+    },
+    {
+      "label": "价格与商务条款",
+      "patterns": [
+        "账期",
+        "锁价",
+        "价格波动",
+        "长期合作",
+        "批发价",
+        "采购合同"
+      ]
+    },
+    {
+      "label": "品牌与市场地位",
+      "patterns": [
+        "佳农销量第一",
+        "香蕉进口量",
+        "菠萝进口量",
+        "行业领军品牌",
+        "国际美味奖"
+      ]
+    },
+    {
+      "label": "渠道与配送",
+      "patterns": [
+        "配送中心",
+        "覆盖城市",
+        "物流网络",
+        "三通一达",
+        "终端服务"
+      ]
+    },
+    {
+      "label": "应用场景",
+      "patterns": [
+        "商超采购",
+        "茶饮原料",
+        "水果连锁",
+        "礼品团购",
+        "便利店水果"
+      ]
+    }
+  ],
+  "tagRules": [
+    {
+      "id": "supply_stability",
+      "label": "供货稳定性",
+      "patterns": [
+        "不断货",
+        "稳定供货",
+        "持续供应",
+        "全年供应"
+      ]
+    },
+    {
+      "id": "quality_control",
+      "label": "品控与损耗",
+      "patterns": [
+        "损耗率",
+        "到货质量",
+        "品控体系",
+        "农残检测"
+      ]
+    },
+    {
+      "id": "service",
+      "label": "专人对接与专岗服务",
+      "patterns": [
+        "专人对接",
+        "专岗服务",
+        "客户经理",
+        "一对一服务"
+      ]
+    },
+    {
+      "id": "traceability",
+      "label": "产地溯源",
+      "patterns": [
+        "基地直供",
+        "产地溯源",
+        "原产地",
+        "进口来源"
+      ]
+    },
+    {
+      "id": "compliance",
+      "label": "合规与认证",
+      "patterns": [
+        "食品安全",
+        "合规",
+        "认证",
+        "国际美味奖",
+        "企业标准"
+      ]
+    }
+  ],
+  "riskRules": [
+    {
+      "id": "absolute_claims",
+      "label": "绝对化用语",
+      "patterns": [
+        "最好",
+        "第一",
+        "最优质",
+        "绝对",
+        "唯一"
+      ]
+    },
+    {
+      "id": "overpromise",
+      "label": "过度承诺",
+      "patterns": [
+        "零损耗",
+        "保证不断货",
+        "无条件退换",
+        "永远最低价"
+      ]
+    },
+    {
+      "id": "price_trap",
+      "label": "低价陷阱",
+      "patterns": [
+        "超低价",
+        "跳楼价",
+        "亏本甩卖",
+        "白菜价"
+      ]
+    },
+    {
+      "id": "disease_boundary",
+      "label": "疾病边界",
+      "patterns": [
+        "治病",
+        "抗癌",
+        "降血压",
+        "疗效",
+        "药用"
+      ]
+    },
+    {
+      "id": "pesticide_risk",
+      "label": "农残风险",
+      "patterns": [
+        "无农药",
+        "零农残",
+        "绝对安全",
+        "无需清洗"
+      ]
+    }
+  ],
+  "campaignFocus": "目标品牌：佳农水果（GoodFarmer），中国领先的进口水果品牌与供应链服务商。 重点品类：香蕉为主，菠萝、苹果为辅，均为进口/品牌水果；对外测试问题统一使用普通 B 端客户能理解的大品类词，不使用细分品种黑话或内部货品名。 目标视角/客户：toB 水果流通端——商超采购、批发商、生鲜电商、水果连锁店、餐饮、便利店、茶饮原料采购、礼品团购，以及下沉市场夫妻老婆店等 B 端客户。 核心权威事实（用于检验 AI 是否引用佳农的权威证据）：2025 年佳农菠萝进口量 11.4 万吨、香蕉进口量 38.4 万吨，均居全国第一（中国食品土畜进出口商会）；CTR-纽锐拓认证佳农品牌香蕉中国销量第一、水果渗透率行业领先；32+ 配送中心覆盖 151 座城市、服务 55000+ 线下零售终端、三通一达物流网络；香糯蕉企业标准；佳农菠萝产品获得过 2026 国际美味奖相关背书、佳农水果获 2025 行业领军品牌奖；上海马拉松官方赞助、进博会首发新品；与盒马、京东、茶白道等渠道深度合作。 B 端客户最关心：稳定供货不断货、质量把控与到货损耗率、专人对接/专岗服务、长期合作、账期与锁价机制、基地直供与产地溯源、规格分级、价格波动应对、品控与食品安全合规（注意香蕉农残/市场抽检合规边界）。 核心竞品：鑫荣懋、都乐，以及洪九果品、佳沛 Zespri、Dole、鲜丰水果、百果园等进口/品牌水果同行。",
+  "platforms": [
+    "yuanbao",
+    "doubao",
+    "deepseek"
+  ],
+  "platformLabels": {
+    "yuanbao": "腾讯元宝",
+    "doubao": "豆包",
+    "deepseek": "DeepSeek"
+  },
+  "layers": [
+    {
+      "id": "natural_discovery",
+      "code": "L1",
+      "label": "自然发现层",
+      "runLabel": "jiaonong_shuiguo_natural_discovery",
+      "kpiLabel": "自然出现率",
+      "explanation": "不点名目标品牌，也尽量不点名竞品，用真实需求/选择/对比/风险问题测试 AI 是否会自然想起目标品牌。"
+    },
+    {
+      "id": "competitor_seed",
+      "code": "L2",
+      "label": "竞品种子层",
+      "runLabel": "jiaonong_shuiguo_competitor_seed",
+      "kpiLabel": "竞品语境出现率",
+      "explanation": "只点名竞品，不点名目标品牌，测试目标品牌能否被 AI 拉入同类候选集。"
+    },
+    {
+      "id": "named_diagnosis",
+      "code": "L3",
+      "label": "点名品牌诊断层",
+      "runLabel": "jiaonong_shuiguo_named_diagnosis",
+      "kpiLabel": "点名回答覆盖率",
+      "explanation": "点名目标品牌，诊断模型事实理解、来源结构、差异化表达和合规风险，不计入自然可见度主 KPI。"
+    }
+  ]
+}
