@@ -1,0 +1,112 @@
+name: Jiaonong DeepSeek API Archive
+
+on:
+  schedule:
+    # 05:17 Asia/Shanghai. GitHub cron uses UTC.
+    - cron: "17 21 * * *"
+  workflow_dispatch:
+    inputs:
+      max_prompts:
+        description: "How many prompts to run. 0 means all selected prompts."
+        required: false
+        default: "0"
+      start_index:
+        description: "1-based prompt index to start from."
+        required: false
+        default: "1"
+      model:
+        description: "DeepSeek model."
+        required: false
+        default: "deepseek-v4-flash"
+      commit_results:
+        description: "Commit archive files back to this repository."
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jiaonong-deepseek-api-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        layer:
+          - id: natural_discovery
+            code: L1
+            prompt_file: proposal_excellence/佳农水果/jiaonong_shuiguo_natural_discovery_prompts.txt
+            run_label: jiaonong_shuiguo_natural_discovery_deepseek_api
+          - id: competitor_seed
+            code: L2
+            prompt_file: proposal_excellence/佳农水果/jiaonong_shuiguo_competitor_seed_prompts.txt
+            run_label: jiaonong_shuiguo_competitor_seed_deepseek_api
+          - id: named_diagnosis
+            code: L3
+            prompt_file: proposal_excellence/佳农水果/jiaonong_shuiguo_named_diagnosis_prompts.txt
+            run_label: jiaonong_shuiguo_named_diagnosis_deepseek_api
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_MODEL: ${{ github.event.inputs.model || 'deepseek-v4-flash' }}
+      GEO_ARCHIVE_PROMPT_FILE: ${{ matrix.layer.prompt_file }}
+      GEO_ARCHIVE_CONFIG_FILE: proposal_excellence/佳农水果/jiaonong_shuiguo_geo_config.json
+      GEO_ARCHIVE_OUT_ROOT: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/${{ matrix.layer.id }}
+      GEO_ARCHIVE_RUN_LABEL: ${{ matrix.layer.run_label }}
+      GEO_ARCHIVE_MAX_PROMPTS: ${{ github.event.inputs.max_prompts || '0' }}
+      GEO_ARCHIVE_START_INDEX: ${{ github.event.inputs.start_index || '1' }}
+      GEO_ARCHIVE_DELAY_MS: "1000"
+      GEO_ARCHIVE_RETRIES: "2"
+      GEO_ARCHIVE_TIMEOUT_MS: "180000"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check DeepSeek secret
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "Missing repository secret: DEEPSEEK_API_KEY"
+            exit 1
+          fi
+
+      - name: Archive DeepSeek answers (${{ matrix.layer.code }})
+        run: node monitor/deepseek_api_archive.js
+
+      - name: Upload archive artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jiaonong-deepseek-api-archive-${{ matrix.layer.id }}
+          path: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit archive files
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.commit_results != 'false' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api
+          if git diff --cached --quiet; then
+            echo "No archive changes to commit."
+            exit 0
+          fi
+          git commit -m "Archive Jiaonong DeepSeek API answers"
+          git pull --rebase --autostash
+          git push
