@@ -1,0 +1,50 @@
+{
+  "questionId": "q70",
+  "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋有吗？",
+  "createdAt": "2026-07-01T23:09:05.160Z",
+  "summary": [
+    {
+      "questionId": "q70",
+      "prompt_index": 70,
+      "promptIndex": 70,
+      "promptHash": "3fba59654467",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋有吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 370,
+      "text_length": 370,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 221,
+        "total_tokens": 286,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 221,
+      "total_tokens": 286,
+      "latencyMs": 3602,
+      "latency_ms": 3602,
+      "createdAt": "2026-07-01T23:09:05.160Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q70/prompt.txt",
+        "answer": "q70/deepseek.txt",
+        "response": "q70/deepseek_response.json",
+        "sources": "q70/deepseek_sources.json",
+        "references": "q70/deepseek_references.json"
+      }
+    }
+  ]
+}

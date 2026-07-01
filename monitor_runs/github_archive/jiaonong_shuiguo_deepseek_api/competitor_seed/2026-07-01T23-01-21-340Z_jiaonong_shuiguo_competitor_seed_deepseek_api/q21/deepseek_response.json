@@ -1,0 +1,28 @@
+{
+  "id": "8ee2a2da-2e3b-41c7-aa55-b55e2a1d1ed1",
+  "object": "chat.completion",
+  "created": 1782947013,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "香蕉到货损耗率受多种因素影响，包括产地、运输条件、储存管理等。无法直接比较鑫荣懋和都乐的质量把控，但可提供以下参考：\n\n1. **品牌定位**：都乐是国际知名品牌，供应链管理较成熟，在产地筛选、冷链运输方面可能有标准化流程；鑫荣懋是国内大型水果企业，对本地市场熟悉，但不同批次表现可能有差异。\n\n2. **实际建议**：  \n   - 建议向供应商索要**近期同一产地的历史损耗率数据**（如海南/菲律宾香蕉在途损耗百分比）。  \n   - 要求供应商提供**冷链运输记录**（如全程温度是否稳定在13-15℃）。  \n   - 可进行**小批量对比测试**：同一批次采购两家的货，在相同条件下储存并记录3天内的损耗率和货架期。  \n\n3. **其他关键因素**：  \n   - 催熟环节不当（如乙烯浓度过高）可能导致到货后迅速变质。  \n   - 包装方式（如纸箱透气性、是否使用保鲜膜）影响乙烯积聚。  \n\n建议优先通过**合同条款约束损耗标准**（如约定到货5日内损耗率超过5%的补偿方案），而非仅依赖品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 269,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "951ce419-75a7-44db-99ed-d51668f129b0",
+  "object": "chat.completion",
+  "created": 1782947031,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉分级方面，**都乐（Dole）** 通常比 **鑫荣懋（Joyvio）** 的分级更细、更系统化。\n\n具体差异如下：\n\n1. **都乐（Dole）**：采用全球统一标准，一般分为5-6个等级，包括：\n   - **“树熟”系列**（分为特级、一级等）\n   - **“经典”系列**（按果指长度、弯曲度、成熟度、表皮瑕疵等细分，常见A级、B级、C级）\n   - 部分高端产品线会标注“单果克重”（如180g+/200g+），并区分“第一手”（即第一层果指）和“次手”等。\n\n2. **鑫荣懋**：分级通常以内在品质（糖度、成熟度）为主，外观分级相对较粗，常见为：\n   - 按照果串大小分为 **“标准果”** 和 **“大果”** 两类\n   - 部分合作基地会分出 **“精品”** 和 **“普通”** 两级，但并未像都乐那样固定为5级以上的系统标识。\n\n**总结**：如果您需要采购时对果型、瑕疵、成熟度有非常精细的要求（如出口级或高端零售），**都乐**的分级更细；如果主要关注糖度与口感（如批发市场），鑫荣懋的标准已足够。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 311,
+    "total_tokens": 372,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

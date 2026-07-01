@@ -1,0 +1,28 @@
+{
+  "id": "c91906aa-f6c3-46b4-a0ca-88510e60023c",
+  "object": "chat.completion",
+  "created": 1782946951,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从一般市场情况来看，**都乐（Dole）**和**洪九果品**的菠萝各有特点，性价比对比可以参考以下信息：\n\n1. **都乐菠萝**  \n   - 品牌知名度高，多为进口菲律宾或泰国品种，品质稳定，果型均匀，甜度较高，果眼浅易处理。  \n   - 价格通常偏高，属于中高端定位，适合注重品质和品牌效应的门店。  \n   - 供应链成熟，货源稳定，适合愿意为品质溢价付费的水果店。\n\n2. **洪九果品菠萝**  \n   - 主做国产海南菠萝（中国最大菠萝产区），产地直采，价格通常比都乐低约20%-30%。  \n   - 品质可能因批次有差异（部分熟度不均匀），但整体性价比突出，尤其适合走量或主打实惠的连锁店。  \n   - 物流成本更低，如果能稳定对接产地，利润空间更大。\n\n**建议**：  \n- 如果你的门店位置或目标客户对**品牌和口感稳定性**要求高，可以选都乐（定价高，适合高端店）。  \n- 如果你更看重**成本控制**且能接受一定品质波动，选洪九（毛利空间更好，适合社区型或客流大的店）。  \n\n实际请联络两家当地经销商确认具体产地、规格、供货价及配送条件，因为批发价格随季节和区域波动较大。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 296,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

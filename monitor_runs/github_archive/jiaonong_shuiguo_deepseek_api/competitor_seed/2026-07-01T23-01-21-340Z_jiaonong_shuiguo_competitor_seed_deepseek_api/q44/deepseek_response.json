@@ -1,0 +1,28 @@
+{
+  "id": "55ab34e7-72e5-4788-a6e4-60d22916942c",
+  "object": "chat.completion",
+  "created": 1782947179,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋作为国内头部水果供应链企业，进口苹果的供货稳定性通常较高，但需结合具体合作模式判断：\n\n1. **都乐**：主攻高端市场，进口苹果（如新西兰爱妃、美国青苹）多为直采或长年协议，淡旺季波动小，但需预付比例较高的定金，对中小连锁的起订量门槛可能较高。\n2. **鑫荣懋**：覆盖中高端市场，渠道更灵活，进口苹果（如智利嘎啦、南非金冠）价格带更宽，能配合促销和分批次补货，但临时加单响应速度可能受其自有仓储规划影响。\n\n**建议**：\n- 若量大（月均5吨以上）、追求稳定，选都乐并签年度框架协议；\n- 若品类多、需灵活调货，选鑫荣懋并与其区域经理确认基地直发或市场调拨的优先通道；\n- 双源头备货分化风险：将主销品种（如红玫瑰、富士）保底量给都乐，弹性量给鑫荣懋。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 239,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

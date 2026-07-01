@@ -1,0 +1,28 @@
+{
+  "id": "2f9c8f75-20ca-438f-9d51-8b9a75ca5ddc",
+  "object": "chat.completion",
+  "created": 1782947211,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，都乐（Dole）和鑫荣懋（Golden Wing Mau）均以提供定制化客户服务著称，但具体是否提供“专岗对接服务”（即指定专人负责客户需求）可能因合作规模、地区或项目需求而异。建议您直接联系这两家公司的客户部门确认：\n\n- **都乐中国**：可通过其官网或客服热线（如400电话）咨询，说明需长期稳定合作及专人负责。\n- **鑫荣懋**：同样建议通过官方渠道联系，强调“对口专岗服务”需求，获取销售经理或区域负责人信息。\n\n若需进一步帮助（如如何有效沟通、准备合同条款），可补充说明您的具体需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 150,
+    "total_tokens": 213,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

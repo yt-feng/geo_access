@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:02:47.344Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "餐饮渠道需要稳定供货的香蕉，都乐和鑫荣懋谁的服务响应更快？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

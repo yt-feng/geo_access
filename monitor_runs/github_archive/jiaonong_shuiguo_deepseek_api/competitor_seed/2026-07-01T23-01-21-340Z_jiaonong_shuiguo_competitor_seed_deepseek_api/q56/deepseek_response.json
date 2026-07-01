@@ -1,0 +1,28 @@
+{
+  "id": "a1f15ce0-5990-4a25-9bd6-41bd1963586a",
+  "object": "chat.completion",
+  "created": 1782947255,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）作为国际知名香蕉品牌，在全球范围内的品牌知名度更高，尤其在欧美市场；鑫荣懋（Xin Rong Mao）则是中国本土大型水果企业，在国内市场尤其是南方地区有较强影响力。**在生鲜电商平台上，都乐的国际品牌认知度和品质背书通常更强**，常被用于高端或安全性诉求的营销；鑫荣懋则更适合强调本地供应链和性价比。建议根据目标用户群体和平台定位选择：若主打国际品质与信任感，优先都乐；若侧重国产新鲜与成本控制，则鑫荣懋更优。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 128,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

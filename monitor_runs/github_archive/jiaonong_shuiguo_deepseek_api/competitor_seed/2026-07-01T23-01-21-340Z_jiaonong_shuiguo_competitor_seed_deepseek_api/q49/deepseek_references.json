@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:06:51.645Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们想找能提供专岗对接服务的供应商，都乐和鑫荣懋谁有专人服务？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

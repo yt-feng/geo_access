@@ -1,0 +1,28 @@
+{
+  "id": "fd8f0e43-6f96-4443-a8f4-ae9c787ae0e6",
+  "object": "chat.completion",
+  "created": 1782946975,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio）外，市场上还有以下几个较为靠谱的进口苹果品牌，供对比参考：\n\n1. **爱妃（Envy）**  \n   - 特点：主打高端市场，果肉紧实、甜度高，耐储存，产自新西兰。\n   - 建议：适合追求极致口感和送礼场景。\n\n2. **纽西兰（Zespri）**  \n   - 特点：虽然以奇异果闻名，但旗下苹果品牌如“爵士”（Jazz）、“太平洋玫瑰”（Pacific Rose）等也较知名，产自新西兰。\n   - 建议：适合偏好新西兰果味、注重品牌信誉的消费者。\n\n3. **美国华盛顿苹果（Washington Apple）**  \n   - 特点：产自美国华盛顿州，品种包括红蛇果（Red Delicious）、嘎啦（Gala）等，果形统一、脆甜。\n   - 建议：适合日常食用，性价比较高。\n\n4. **加州阳光（Sunkist）**  \n   - 特点：以柑橘闻名，但旗下进口苹果（如富士、青苹果）品质稳定，产地美国。\n   - 建议：如需多种采购，可作为补充选择。\n\n5. **意大利/法国品种（如Pink Lady）**  \n   - 特点：粉红女士（Pink Lady）源自澳洲，但欧洲产区（意大利、法国）品质更优，甜酸平衡，适合烘焙。\n   - 建议：适合对甜度有特殊要求的用户。\n\n**选择建议**：\n- 如果侧重甜度和耐储存，优先爱妃或华盛顿苹果；\n- 如果追求品牌口碑和多样性，可考虑纽西兰或加州阳光；\n- 尝试小众高端款，可关注意大利的“Red Love”等品种。\n\n实际购买时，注意查看产地、认证标识（如GLOBALG.A.P.）及包装日期，避免假冒。如有特定超市（如山姆、盒马）采购需求，可进一步询问其常驻品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 427,
+    "total_tokens": 488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

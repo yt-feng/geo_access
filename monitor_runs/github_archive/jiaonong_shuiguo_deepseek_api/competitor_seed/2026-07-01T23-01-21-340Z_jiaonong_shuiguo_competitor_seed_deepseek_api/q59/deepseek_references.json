@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T23:07:50.062Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们想找能提供账期服务的香蕉供应商，都乐和洪九果品账期多久？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

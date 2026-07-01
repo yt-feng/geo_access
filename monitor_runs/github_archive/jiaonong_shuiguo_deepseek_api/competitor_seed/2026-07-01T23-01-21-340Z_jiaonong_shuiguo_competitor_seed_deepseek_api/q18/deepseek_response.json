@@ -1,0 +1,28 @@
+{
+  "id": "b8fa4f4a-42dd-4e2d-ae26-be6c7b1cb926",
+  "object": "chat.completion",
+  "created": 1782946995,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对菠萝原料的稳定规格需求，**都乐（Dole）** 在供应稳定性上更具优势，特别是在标准化产品方面。都乐拥有成熟的全球供应链，其菠萝通常经过严格的分级（如大小、甜度、成熟度）且采用冷链运输，适合茶饮行业对统一品质的要求。洪九果品（Hongjiu）主要提供进口水果，但更侧重东南亚榴莲、山竹等品类，菠萝并非其核心优势品类，且货源易受季度和市场波动影响。建议直接联系都乐中国区分销商并索取菠萝规格书（如14-16号果、甜度≥14°Brix等）及持续供货协议；若考虑成本，可同步评估海南菠萝（如台农17号）的季度稳定供应方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 167,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

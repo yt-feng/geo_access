@@ -1,0 +1,28 @@
+{
+  "id": "11ee5e33-2c98-4243-b914-3e5a90ac541c",
+  "object": "chat.completion",
+  "created": 1782947349,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品是茶饮行业常用的菠萝供应品牌，以下是它们的核心种植与供应基地信息：\n\n1. **都乐（Dole）**：在中国的主要菠萝供应基地为**海南省**（尤其是澄迈、万宁等南部产区），以及**广东省**（如湛江徐闻）。都乐在菲律宾等东南亚国家也有自有农场，但针对国内稳定供应以海南和广东为主。\n\n2. **洪九果品**：核心采购与加工基地集中于**广西南宁**（隆安、武鸣等地）和**云南西双版纳**（勐海、勐腊），这两处作为主要仓储和分拣中心。其菠萝来源部分来自海南和广东的契约种植户。\n\n**建议**：  \n- 若需长期稳定供货，可优先对接洪九果品在南宁的采购中心，或者都乐在海南的分销商。  \n- 直接联系双方销售部门确认当前供应基地及合同履约能力，因资源可能季节性调整。  \n- 菠萝产量受台风、气温等影响较大，建议同时备选1-2个本地中小供应商作为补充。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 245,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

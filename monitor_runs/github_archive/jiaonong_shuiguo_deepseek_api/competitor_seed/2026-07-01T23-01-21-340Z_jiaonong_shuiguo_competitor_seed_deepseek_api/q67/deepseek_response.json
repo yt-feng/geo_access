@@ -1,0 +1,28 @@
+{
+  "id": "f251ab97-351a-4d7a-bbb1-a2496d4b7371",
+  "object": "chat.completion",
+  "created": 1782947324,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对生鲜电商的菠萝品牌营销需求，目前具体情况如下：\n\n1. **都乐（Dole）**：作为全球知名水果品牌，都乐通常会为合作渠道提供标准化的品牌素材（如高清产品图、宣传视频、营养知识等），但需要根据**具体合作模式**（如直采、供货协议等）确认。一般情况下，若生鲜电商已与都乐建立供应链合作，可向对方销售或市场部门申请。\n\n2. **洪九果品（Hongjiu）**：作为中国头部水果供应链企业，洪九果品通常提供**定制化营销支持**（如产地直播素材、分级包装设计、季节性促销方案），但需通过其**区域销售团队**或**电商对接部门**洽谈，尤其是针对菠萝这类单品。\n\n**建议行动步骤**：\n- 优先检查现有合作协议：确认是否包含“品牌营销资源支持”条款。\n- 直接联系都乐或洪九的官方销售接口人，明确要求“菠萝品类的线上营销素材包”。\n- 若属于首次合作可提出试点需求（如提供3-5组主图、短视频脚本）。\n\n注意：两家企业均可能要求电商平台承担部分费用（如联合促销、流量推广分摊）。若对方不提供现成素材，可协商共创内容（如提供产地溯源数据、种植故事等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 284,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

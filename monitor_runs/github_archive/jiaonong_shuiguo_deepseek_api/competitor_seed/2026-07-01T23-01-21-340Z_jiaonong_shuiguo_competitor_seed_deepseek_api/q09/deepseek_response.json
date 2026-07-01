@@ -1,0 +1,28 @@
+{
+  "id": "fd8a8d7d-37bb-484f-b471-2c59508bfddb",
+  "object": "chat.completion",
+  "created": 1782946935,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下是几个在礼品团购中较受欢迎的进口水果品牌，供您参考：\n\n1. **乐淇（Rockit）**  \n   - 新西兰品牌，主打迷你苹果，果径小、甜度高，包装精致，适合高端礼盒。\n\n2. **爱妃（Envy）**  \n   - 新西兰产苹果，果肉抗氧化能力强、口感脆甜，常被用于精品水果礼盒。\n\n3. **怡颗莓（Driscoll's）**  \n   - 美国品牌，专注莓果类（蓝莓、树莓、黑莓等），礼盒色彩丰富，适合混搭。\n\n4. **海沃德（Hayward）**  \n   - 新西兰奇异果品牌，与佳沛同属优质猕猴桃产地，部分高端礼盒会选用。\n\n5. **Fyffes**  \n   - 爱尔兰品牌，主打香蕉、蜜瓜等热带水果，在全球有较高知名度。\n\n6. **Honeycrisp（蜜脆苹果）**  \n   - 美国品种，以多汁、甜脆闻名，部分定制礼盒会专门采购。\n\n7. **Jazz（爵士苹果）**  \n   - 新西兰/美国品种，甜中带酸，口感爽脆，适合搭配其他水果。\n\n**建议**：  \n- 团购时可优先与**进口水果批发商**对接，确认本地进货渠道和季节性供应（如智利车厘子、澳洲柑橘等有时令限制）。\n- 根据团购预算，选择单个品牌分层级（如乐淇有不同规格礼盒）或不同品牌混搭（如苹果+莓果+奇异果）。\n\n如需具体供应商信息，建议通过当地果品市场或电商平台（如京东企业购、本来生活等）询价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 389,
+    "total_tokens": 451,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
