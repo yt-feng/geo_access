@@ -1,0 +1,28 @@
+{
+  "id": "5b02f7d3-9edd-4c79-aea8-a086a6eae784",
+  "object": "chat.completion",
+  "created": 1782888175,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，大多数水果供应商能够提供包装与规格支持，具体取决于以下方面：\n\n1. **包装定制**：供应商通常支持按商超要求定制包装（如品牌标识、规格大小、保鲜包装、礼盒装等），但需确认最小起订量。\n2. **规格支持**：可协商水果分级（如按大小、重量、成熟度）、标准化分拣（如每箱固定数量/重量），部分供应商还能提供预包装（如切块、托盘）。\n3. **合作模式**：建议与供应商明确包装成本、规格标准（如每箱误差范围）、运输损耗责任，并索要样品确认。\n\n**行动建议**：\n- 联系3-5家供应商（如专业水果采购平台、产地直供商）提交需求清单（包含包装设计、规格要求、预计采购量）。\n- 要求提供包装样品及规格确认函，避免后续纠纷。\n- 对于初级供应商，可考虑引入第三方包装公司辅助。\n\n注意：如果供应商无法满足特殊包装（如环保材料、异形盒），需提前协商或自购包装后委托其分装。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 235,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,11 @@
+{
+  "updatedAt": "2026-07-01T06:56:34.385Z",
+  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-01T06-36-24-177Z_jiaonong_shuiguo_natural_discovery_deepseek_api",
+  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-01T06-36-24-177Z_jiaonong_shuiguo_natural_discovery_deepseek_api/summary.json",
+  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-01T06-36-24-177Z_jiaonong_shuiguo_natural_discovery_deepseek_api/matrix_summary.csv",
+  "total": 120,
+  "okCount": 120,
+  "errorCount": 0,
+  "withSourcesCount": 0,
+  "model": "deepseek-v4-flash"
+}

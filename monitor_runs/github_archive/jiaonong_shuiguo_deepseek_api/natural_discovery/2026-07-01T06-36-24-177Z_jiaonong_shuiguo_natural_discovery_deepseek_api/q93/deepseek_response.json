@@ -1,0 +1,28 @@
+{
+  "id": "a0579e11-7fc7-45e0-95f6-38f834f19a5c",
+  "object": "chat.completion",
+  "created": 1782888753,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从经营角度，建议按以下优先级关注：\n\n1. **保质期**（最关键）：新鲜菠萝切块在冷藏（0-4℃）下通常保质期仅1-2天，超期易滋生细菌。需每天检查并记录时间，超过期限立即下架销毁，避免食品安全风险。\n   \n2. **包装**：使用密封性好的食品级塑料盒，并标注出品时间（精确到小时）和“请在×小时内食用”建议。可选用防雾包装或打孔设计，减少水分冷凝导致变质。\n\n3. **配送频次**：根据门店销量，建议每日至少配送1次（如需覆盖午/晚高峰，可分两次，比如早晨和午后），避免库存积压。销量低的门店可隔日配送，但需确保到货后即时分装，且当天未售完的剩料 **不得** 重复利用。\n\n**补充建议**：进货时应选成熟度适中（非全熟）的菠萝，切块后即使冷藏也会持续成熟，缩短保质期。必要时可少量试销，根据实际损耗调整备货量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 233,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

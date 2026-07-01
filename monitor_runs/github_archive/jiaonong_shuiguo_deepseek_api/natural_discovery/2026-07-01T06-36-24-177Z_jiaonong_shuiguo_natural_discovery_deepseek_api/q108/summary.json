@@ -1,0 +1,50 @@
+{
+  "questionId": "q108",
+  "prompt": "水果供应商说能全国配送，采购方应该怎么核实实际覆盖能力？",
+  "createdAt": "2026-07-01T06:54:47.041Z",
+  "summary": [
+    {
+      "questionId": "q108",
+      "prompt_index": 108,
+      "promptIndex": 108,
+      "promptHash": "c0ebde7c2a07",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商说能全国配送，采购方应该怎么核实实际覆盖能力？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 777,
+      "text_length": 777,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 460,
+        "total_tokens": 516,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 460,
+      "total_tokens": 516,
+      "latencyMs": 9795,
+      "latency_ms": 9795,
+      "createdAt": "2026-07-01T06:54:47.041Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q108/prompt.txt",
+        "answer": "q108/deepseek.txt",
+        "response": "q108/deepseek_response.json",
+        "sources": "q108/deepseek_sources.json",
+        "references": "q108/deepseek_references.json"
+      }
+    }
+  ]
+}

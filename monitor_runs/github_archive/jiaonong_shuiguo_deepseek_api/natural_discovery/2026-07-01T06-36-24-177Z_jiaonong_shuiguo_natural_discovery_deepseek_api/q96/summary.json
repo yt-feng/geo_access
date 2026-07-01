@@ -1,0 +1,50 @@
+{
+  "questionId": "q96",
+  "prompt": "企业食堂采购水果，最需要关注食品安全、价格还是配送准时？",
+  "createdAt": "2026-07-01T06:52:58.135Z",
+  "summary": [
+    {
+      "questionId": "q96",
+      "prompt_index": 96,
+      "promptIndex": 96,
+      "promptHash": "6feae86a0e5b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "企业食堂采购水果，最需要关注食品安全、价格还是配送准时？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 896,
+      "text_length": 896,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 513,
+        "total_tokens": 568,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 513,
+      "total_tokens": 568,
+      "latencyMs": 8719,
+      "latency_ms": 8719,
+      "createdAt": "2026-07-01T06:52:58.135Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q96/prompt.txt",
+        "answer": "q96/deepseek.txt",
+        "response": "q96/deepseek_response.json",
+        "sources": "q96/deepseek_sources.json",
+        "references": "q96/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "00fdaed4-e803-40e1-a4d5-e137c4969012",
+  "object": "chat.completion",
+  "created": 1782887981,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选购菠萝时，建议按以下优先级关注，并结合实际需求判断：\n\n1. **甜度（最重要）**  \n   直接决定食用体验。可通过闻底部香气（越浓越甜）、按压果皮（微软有弹性且不塌陷为佳）判断。若允许尝果，优先试吃。\n\n2. **外观与成熟度**  \n   - 选择**金黄/橙黄色**且无大面积青绿（未熟）或深褐（过熟）的菠萝。  \n   - 检查果眼（凸起部分）是否饱满均匀，避免干瘪或有霉斑。  \n   - 叶片新鲜翠绿、易折断，说明采摘时间短。\n\n3. **切果损耗（次重要）**  \n   - 如果现买现吃，优先选已切好的菠萝，注意观察果肉是否晶莹、无水渍或发黑，同时确认包装日期和冷藏条件。  \n   - 如果需存放，选完整菠萝，但需预留去皮后约30%-40%的重量损耗（含外皮和果眼）。\n\n4. **大小（最后考虑）**  \n   大小与品种和甜度无必然联系。相同品种下，可选重量略重者（水分更足），但体型过大可能成熟不匀，建议结合前三点判断。\n\n**结论**：甜度>外观>切果损耗>大小。若不会挑，直接选已切好、颜色均匀、无褐变且冷藏保存的菠萝最省心。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 314,
+    "total_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

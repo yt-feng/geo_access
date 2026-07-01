@@ -1,0 +1,50 @@
+{
+  "questionId": "q28",
+  "prompt": "超市想引入稳定的进口水果，应该先从香蕉、菠萝还是苹果开始？",
+  "createdAt": "2026-07-01T06:40:58.354Z",
+  "summary": [
+    {
+      "questionId": "q28",
+      "prompt_index": 28,
+      "promptIndex": 28,
+      "promptHash": "7ec45c5cca30",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市想引入稳定的进口水果，应该先从香蕉、菠萝还是苹果开始？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 311,
+      "text_length": 311,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 186,
+        "total_tokens": 242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 186,
+      "total_tokens": 242,
+      "latencyMs": 3933,
+      "latency_ms": 3933,
+      "createdAt": "2026-07-01T06:40:58.354Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q28/prompt.txt",
+        "answer": "q28/deepseek.txt",
+        "response": "q28/deepseek_response.json",
+        "sources": "q28/deepseek_sources.json",
+        "references": "q28/deepseek_references.json"
+      }
+    }
+  ]
+}

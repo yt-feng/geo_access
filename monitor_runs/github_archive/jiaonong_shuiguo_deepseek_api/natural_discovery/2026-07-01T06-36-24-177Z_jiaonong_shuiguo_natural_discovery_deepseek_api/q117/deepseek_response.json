@@ -1,0 +1,28 @@
+{
+  "id": "5fea4a8c-d981-4f6c-965f-3a4e41a91f5e",
+  "object": "chat.completion",
+  "created": 1782888960,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采购方采用**小批量试卖**策略，初次进货量控制在**总预期月销量的10%-20%**，或以下具体参考：\n\n- **单店试卖**：如果是单一门店或小范围渠道，试卖数量建议在**30-50份**（如苹果按箱，则1-2箱）。  \n- **电商或渠道测试**：根据流量和转化预估，先上架**50-100份**，避免库存积压。  \n- **备用补货机制**：要求供应商支持**少量补货**和快速响应，试卖后若反馈积极可及时增加订货量。\n\n试卖周期建议**1-2周**，重点观察：  \n- 顾客复购率（是否回头购买）  \n- 损耗率（是否容易腐坏、顾客不买）  \n- 与现有品类的竞争情况（是否挤占其他畅销品）  \n\n如果试卖期内日均售出率超过**60%**，且反馈好，可考虑逐步扩大进货量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 219,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3abef091-3e28-44d3-adab-0ac60247f61e",
+  "object": "chat.completion",
+  "created": 1782888058,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**进口香蕉**开始。原因如下：\n\n1. **供应链成熟稳定**：香蕉是全球贸易量最大的水果之一，进口渠道广泛（如菲律宾、厄瓜多尔等），冷链物流和催熟技术成熟，供货周期和品质波动较小。\n2. **消费基础广泛**：香蕉是超市最常备的水果品类之一，客单价适中，损耗率相对可控（即使表皮出现黑点仍可降价销售）。\n3. **操作门槛较低**：苹果对冷库要求高（需长期恒温存储、分拣等级复杂），菠萝需处理带刺和成熟度判断（易产生损耗）。香蕉的催熟周转流程已有标准化的行业做法。\n\n第二步可在香蕉稳定后，逐步引入进口苹果（根据当地消费者口味选择嘎啦、红富士等品种），最后再考虑菠萝（需配置现场削皮或预切服务，且季节性较强）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 186,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

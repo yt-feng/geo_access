@@ -1,0 +1,28 @@
+{
+  "id": "bc6212de-aaf6-4422-a331-5a4a4bede92f",
+  "object": "chat.completion",
+  "created": 1782888015,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为确保超市采购的水果通过农残抽检，建议您提前向供应商索取以下资料：\n\n1. **农药使用记录**：包括水果生长过程中使用的农药名称、有效成分、使用时间、用量、安全间隔期等信息。\n2. **第三方检测报告**：由具备资质的检测机构出具的水果农残检测报告，重点关注是否含有禁用农药或超标情况（如有机磷、氨基甲酸酯类等）。\n3. **产地证明或合格证明**：供应商自检报告或产地政府出具的农残合格证明（如“食用农产品合格证”）。\n4. **供应商资质文件**：营业执照、食品经营许可证或种植/加工许可证，确认其合法经营。\n5. **批次追溯信息**：水果的采收日期、批次号、产地地址、包装日期等，便于问题溯源。\n6. **承诺书或合同条款**：在采购合同中明确约定农残达标要求，并让供应商签署书面承诺，承担违约责任。\n\n建议：要求供应商提供近期（如1个月以内）的第三方检测报告，并保留样本以备后续抽检比对。如果采购量大或高风险水果（如草莓、葡萄、苹果等），可委托第三方进行抽检或要求供应商提供每批次的快检报告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 259,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T06:54:42.117Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "采购香蕉和菠萝时，起订量太高会不会增加损耗风险？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

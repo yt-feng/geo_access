@@ -1,0 +1,28 @@
+{
+  "id": "16fe1a1c-9e58-4cca-a26d-b3b254975b88",
+  "object": "chat.completion",
+  "created": 1782888727,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于消费者，您可以从以下几点解释进口香蕉的价格差异：\n\n1. **产地与运输成本**：进口香蕉通常来自东南亚或南美等地，长途海运或空运需承担冷链物流、关税、检验检疫等费用，成本远高于国内香蕉。\n\n2. **品种与品质**：进口香蕉多为特定品种（如都乐香蕉），果形更规整、口感更软糯香甜，且对甜度、成熟度有标准化要求，选果和保鲜技术投入更高。\n\n3. **供应链保障**：进口香蕉从采摘到上架需经过严格的催熟处理和质量把控，减少损耗，这也增加了成本。\n\n4. **附加价值**：部分进口香蕉通过有机认证、品牌包装或产地溯源等，满足高端消费的体验和信任需求。\n\n建议在商品页面或促销文案中突出“直采”“冷链直达”“精选品种”等关键词，也可以搭配试吃活动，让消费者通过口感对比直观感受差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 201,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

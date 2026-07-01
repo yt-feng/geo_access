@@ -1,0 +1,28 @@
+{
+  "id": "8537a86b-9108-46d7-b505-25d23739e9b5",
+  "object": "chat.completion",
+  "created": 1782888317,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以考虑固定产地或供应批次，这有助于保持水果口味的一致性。建议采取以下措施：\n\n- 优先选择稳定产区：选择气候、土壤条件相对稳定的产地（如云南、广西等），并签订长期合作合同，确保优先供货。\n- 分批测试：每次更换批次前，先小批量试做饮品，对比风味差异，确认可接受后再扩大采购。\n- 建立备选方案：同时保留1-2个备用产地或供应商，以防主产地因天气等原因出现品质波动。\n\n最终可根据实际成本、客户反馈和供应链稳定性来权衡，灵活调整策略。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 124,
+    "total_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
