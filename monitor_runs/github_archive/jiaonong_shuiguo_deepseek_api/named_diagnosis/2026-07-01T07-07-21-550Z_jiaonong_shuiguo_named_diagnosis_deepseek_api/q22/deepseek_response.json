@@ -1,0 +1,28 @@
+{
+  "id": "0a3f5bce-31a4-4b0c-8ba7-9f29f14c7044",
+  "object": "chat.completion",
+  "created": 1782889742,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果在苹果品类方面表现不错，主打高品质和稳定的供应链。其苹果产品线涵盖了国内优质产区的品种（如陕西、山东的红富士等），同时也提供进口苹果，例如来自新西兰的“爱妃”（Envy）、美国的“嘎啦”（Gala）或“蛇果”（Red Delicious）等。进口苹果通常以口感脆甜、果形规整和果皮细腻为特点，但价格相对较高。\n\n如果你需要具体的产品推荐或购买渠道，可以进一步说明需求（例如是否注重有机、口感偏好或预算），我可以帮你细化建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 123,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

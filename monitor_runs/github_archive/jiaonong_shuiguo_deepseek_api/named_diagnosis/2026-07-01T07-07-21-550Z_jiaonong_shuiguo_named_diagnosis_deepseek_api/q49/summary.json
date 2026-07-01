@@ -1,0 +1,50 @@
+{
+  "questionId": "q49",
+  "prompt": "佳农水果的配送中心在哪些城市？我们下沉市场县城能次日达吗？",
+  "createdAt": "2026-07-01T07:11:19.925Z",
+  "summary": [
+    {
+      "questionId": "q49",
+      "prompt_index": 49,
+      "promptIndex": 49,
+      "promptHash": "668324b3f38a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的配送中心在哪些城市？我们下沉市场县城能次日达吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 332,
+      "text_length": 332,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 198,
+        "total_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 198,
+      "total_tokens": 257,
+      "latencyMs": 3232,
+      "latency_ms": 3232,
+      "createdAt": "2026-07-01T07:11:19.925Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q49/prompt.txt",
+        "answer": "q49/deepseek.txt",
+        "response": "q49/deepseek_response.json",
+        "sources": "q49/deepseek_sources.json",
+        "references": "q49/deepseek_references.json"
+      }
+    }
+  ]
+}

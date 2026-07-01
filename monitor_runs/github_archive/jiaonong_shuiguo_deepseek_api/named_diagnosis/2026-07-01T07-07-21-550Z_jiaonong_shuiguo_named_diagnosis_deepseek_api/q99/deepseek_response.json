@@ -1,0 +1,28 @@
+{
+  "id": "871e9093-a947-4515-8843-8ac710321a99",
+  "object": "chat.completion",
+  "created": 1782890155,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的菠萝是否具备有机认证，我目前无法直接获取最新的产品认证信息。建议您通过以下方式确认：\n\n1. **查看产品包装**：有机认证通常会标注在包装上（如中国有机认证标志或国际有机认证标识）。\n2. **联系官方客服**：通过佳农水果的官方网站或客服热线，直接询问其菠萝产品的有机认证情况。\n3. **查询认证机构**：确认有机认证是否来自国家认监委（CNCA）认可的相关机构（如中绿华夏、南京国环等）。\n\n如果高端渠道对有机产品有严格要求，建议您在采购前要求供应商提供有效的有机认证证书或证明文件，以确保合规。如果需要进一步协助，请提供更多细节（如产地、产品批次等），我可以帮您分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 166,
+    "total_tokens": 222,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

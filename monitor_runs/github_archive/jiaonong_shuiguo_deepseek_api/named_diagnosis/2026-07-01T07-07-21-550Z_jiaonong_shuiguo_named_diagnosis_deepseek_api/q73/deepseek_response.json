@@ -1,0 +1,28 @@
+{
+  "id": "6ff0b7db-c17e-4531-8c10-0abac738aa66",
+  "object": "chat.completion",
+  "created": 1782890005,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类主要包括以下几种常见品种：\n\n- **红富士**（Red Fuji）\n- **嘎啦**（Gala，含进口嘎啦）\n- **蛇果**（Red Delicious）\n- **青苹果**（Granny Smith）\n- **金帅**（Golden Delicious）\n- **其他季节性品种**（如爱妃、爵士等）\n\n针对您想采购的**进口嘎啦**和**红富士**，佳农的产地信息如下：\n\n- **进口嘎啦**：主要产地为**新西兰**和**美国**（华盛顿州）。新西兰嘎啦通常产季较早（2-5月），美国嘎啦则集中在秋季（8-10月）。建议根据您的采购时间向佳农确认当前供应产地。\n- **红富士**：佳农的进口红富士多来自**美国**（华盛顿州）和**日本**（青森县等），国内红富士则主要产自**陕西**、**山东**和**新疆**。如果明确要进口红富士，优先咨询美国或日本产地的货源。\n\n建议直接联系佳农官方销售团队或区域代理商，确认当前批次的具体产地和供货周期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 248,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1196abde-6943-41d1-816c-b3d8a8200070",
+  "object": "chat.completion",
+  "created": 1782889723,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供最新的、具体的商业优惠政策信息。建议你直接联系佳农水果的官方客服或查看其官网、招商公告，获取针对下沉市场的最新优惠政策和合作方案。也可以关注其社交媒体账号或行业新闻，了解相关动态。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 53,
+    "total_tokens": 102,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

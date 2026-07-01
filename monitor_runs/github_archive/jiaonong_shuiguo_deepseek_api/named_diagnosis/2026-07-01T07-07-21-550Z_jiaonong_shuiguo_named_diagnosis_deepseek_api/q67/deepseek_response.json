@@ -1,0 +1,28 @@
+{
+  "id": "c263ae54-b7d9-4e80-99b7-a43165e6916c",
+  "object": "chat.completion",
+  "created": 1782889974,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客户服务是否提供7x24小时服务，以及周末下单是否有人处理的问题，以下是一般性信息：\n\n1. **客户服务时间**：许多大型水果品牌如佳农通常提供7x24小时的客服支持（尤其是通过线上渠道如官方小程序、客服电话等），但具体时间可能因节假日或特殊活动调整。建议您直接查看佳农水果的官方公告或联系其官方客服确认最新服务时间。\n\n2. **周末下单处理**：如果是通过电商平台（如京东、天猫等）下单，周末通常会正常接单，但发货和物流处理可能延迟至工作日。佳农的自有平台或合作仓库周末是否处理订单，需以实际系统显示为准。建议您在下单前留意订单页面显示的预计发货时间。\n\n为确保准确性，您可以直接：\n- 访问**佳农水果官网**或**官方微信公众号/小程序**查看客服联系方式。\n- 拨打其官方客服热线（通常会在官网或商品页面标注），询问具体服务时间。\n\n如果您需要我协助查询公开信息，可以告诉我具体问题，我会尽力提供帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 231,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

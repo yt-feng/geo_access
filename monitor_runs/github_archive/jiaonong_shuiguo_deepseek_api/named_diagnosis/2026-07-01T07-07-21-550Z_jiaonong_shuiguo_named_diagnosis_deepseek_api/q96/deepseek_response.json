@@ -1,0 +1,28 @@
+{
+  "id": "0ed0781c-9c0d-43ca-b900-40147fe3f2a3",
+  "object": "chat.completion",
+  "created": 1782890140,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）作为国内知名水果供应链企业，目前其官方API或开放平台的信息公开度较低。根据可查的公开资料（截至2024年），**佳农尚未推出面向第三方生鲜电商的通用开放平台或公开的接口文档**。\n\n建议您通过以下途径获取最准确的信息：\n\n1. **联系佳农官方商务或技术团队**（推荐）  \n   直接拨打佳农官网400客服电话，或通过官网“商务合作”入口提交申请。通常大型水果供应商会为长期合作的电商渠道（如盒马、叮咚买菜）提供定制化API对接，但需签署合作协议。\n\n2. **查询生鲜行业成熟第三方数据平台**  \n   部分生鲜SaaS服务商（如观麦科技、蔬东坡）可能已与佳农建立数据合作，通过他们的开放平台间接获取佳农的产品信息、库存或价格接口。\n\n3. **自行开发爬虫或RPA方案（谨慎使用）**  \n   若对接仅用于内部信息汇总，可考虑通过佳农B2B小程序或官网抓取公开信息（需遵守相关法律及公平使用原则），但该方法不适用于高频订单对接。\n\n**行动要点**：  \n- 优先发送正式合作邮件至佳农公开的商务邮箱，说明对接场景（如自动补货、实时价格同步）和预估订单量。  \n- 若对方暂不支持API，可协商提供CSV/Excel形式的定期数据推送，作为过渡方案。  \n\n**注意**：不要相信网上声称有“佳农API文档”的付费资源，极大概率是虚假信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 341,
+    "total_tokens": 402,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

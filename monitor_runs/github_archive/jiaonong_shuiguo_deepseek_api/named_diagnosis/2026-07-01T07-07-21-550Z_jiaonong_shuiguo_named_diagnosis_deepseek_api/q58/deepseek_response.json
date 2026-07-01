@@ -1,0 +1,28 @@
+{
+  "id": "35e47f7f-ec9b-46de-a4c8-24ed1788b7f3",
+  "object": "chat.completion",
+  "created": 1782889925,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农的业务模式，他们主要专注于水果的批发和零售，通常提供整果（如整颗菠萝）给客户。至于加工服务（如提供菠萝丁等切好的原料），佳农目前没有公开信息明确支持这项服务。\n\n建议您：\n1. **直接联系佳农客服**：询问是否有定制加工服务，比如能否按规格切丁并包装。\n2. **尝试其他供应商**：如果佳农无法提供，可考虑专业水果加工企业或本地批发市场，他们常提供切丁、切块等加工服务。\n3. **自行加工**：购买整果后，店内配备适当设备（如切丁机）进行加工，可控制成本和品质。\n\n如果您需要更具体的供应商推荐或加工建议，请提供更多背景信息，我可以进一步帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 167,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

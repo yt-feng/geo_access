@@ -1,0 +1,28 @@
+{
+  "id": "bb7f246b-31ac-481f-90de-44aafb2d71dd",
+  "object": "chat.completion",
+  "created": 1782889759,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，建议您直接联系佳农水果的官方客服或当地经销商进行确认。因为这类服务可能因地区、销售渠道或具体业务模式而有所不同。一般来说，香蕉的催熟多由批发商或大型零售商在专业催熟库中完成，个人消费者可直接购买已自然成熟或经过催熟处理的香蕉。如果您有大量采购需求，可以与供应商协商相关服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 92,
+    "total_tokens": 144,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

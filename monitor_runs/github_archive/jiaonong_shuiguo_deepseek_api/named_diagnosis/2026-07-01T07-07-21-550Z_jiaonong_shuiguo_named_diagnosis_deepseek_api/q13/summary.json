@@ -1,0 +1,50 @@
+{
+  "questionId": "q13",
+  "prompt": "佳农水果和鑫荣懋比，供应链服务哪个更靠谱？",
+  "createdAt": "2026-07-01T07:08:22.149Z",
+  "summary": [
+    {
+      "questionId": "q13",
+      "prompt_index": 13,
+      "promptIndex": 13,
+      "promptHash": "ce5377d791fd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和鑫荣懋比，供应链服务哪个更靠谱？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 542,
+      "text_length": 542,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 335,
+        "total_tokens": 391,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 335,
+      "total_tokens": 391,
+      "latencyMs": 4928,
+      "latency_ms": 4928,
+      "createdAt": "2026-07-01T07:08:22.149Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q13/prompt.txt",
+        "answer": "q13/deepseek.txt",
+        "response": "q13/deepseek_response.json",
+        "sources": "q13/deepseek_sources.json",
+        "references": "q13/deepseek_references.json"
+      }
+    }
+  ]
+}

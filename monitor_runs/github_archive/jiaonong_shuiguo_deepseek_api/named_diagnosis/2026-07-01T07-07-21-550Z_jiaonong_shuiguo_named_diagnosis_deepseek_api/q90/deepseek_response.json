@@ -1,0 +1,28 @@
+{
+  "id": "f0da0f13-d28e-4cde-bc3a-10670ee62816",
+  "object": "chat.completion",
+  "created": 1782890106,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，根据我目前掌握的信息，佳农（Goodfarmer）作为知名的水果品牌，主要产品线涵盖新鲜菠萝、菠萝切片及罐头类制品。**关于其是否提供“冷冻菠萝丁”这一具体规格的原料，我无法确认，因为信息可能随市场供应链调整而变化。**\n\n为了给您最准确的答案，建议您通过以下方式直接确认：\n1. **官方渠道查询**：访问佳农官方网站或联系其官方客服，询问是否有“冷冻菠萝丁”产品。\n2. **冷冻食品分销商**：联系当地大型冷冻食品批发市场或餐饮供应链公司（如美团快驴、美菜等），查询其冻品目录中是否有佳农或其他品牌的冷冻菠萝丁。\n3. **直接采购**：若您需要固定规格（如1kg/袋、2.5kg/袋等）的冷冻丁，可向供应商提出定制或询价。\n\n目前茶饮行业常见的冷冻菠萝丁规格多为 **1kg/袋、2.5kg/袋或10kg/箱**，颗粒大小通常为1-2厘米立方体。建议您在询问时明确需求，例如：“我需要用于茶饮的2.5kg/袋的冷冻菠萝丁，是否可供应？”\n\n请务必以官方最新的产品目录为准。如果还有其他需求，欢迎随时告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 275,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

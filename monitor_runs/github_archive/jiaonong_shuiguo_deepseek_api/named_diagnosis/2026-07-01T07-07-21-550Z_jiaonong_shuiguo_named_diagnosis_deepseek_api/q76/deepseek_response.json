@@ -1,0 +1,28 @@
+{
+  "id": "6ec43fd2-c5f0-4d38-bec1-9f93d2a1dc76",
+  "object": "chat.completion",
+  "created": 1782890024,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制需求，通常可以支持Logo和包装定制，但具体政策可能因渠道（如直营经销商、团购部门或区域代理）略有差异。以下是一般情况下的参考信息：\n\n1. **定制服务**：佳农部分水果礼盒产品支持企业Logo印刷（如贴纸、丝带、礼盒封面）及外包装颜色/图案调整。建议直接联系佳农官方团购渠道或授权经销商，确认具体工艺和设计限制（如礼盒材质、印刷方式等）。\n2. **起订量**：常规企业团购的起订量可能在 **50-200盒** 之间，高端定制（如特殊包装设计、异形盒）起订量可能更高（500盒以上）。具体以合作方的生产能力而定。\n3. **注意事项**：部分季节性水果（如车厘子、秋月梨）库存有限，定制需提前1-2周沟通；若仅为加贴Logo贴纸，起订量可能较低（10-20盒可操作）。\n\n**建议操作**：\n- 拨打佳农官方客服或联系企业团购对接人，直接确认最新方案。\n- 提前提供《设计需求确认单》（包括包装尺寸、Logo文件格式、印刷颜色等），缩短沟通周期。\n\n需要帮您整理一份《团购咨询话术》或《定制需求清单》吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 293,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

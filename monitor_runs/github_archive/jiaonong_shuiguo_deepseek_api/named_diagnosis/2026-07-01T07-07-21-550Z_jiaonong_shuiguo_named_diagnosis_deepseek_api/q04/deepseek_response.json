@@ -1,0 +1,28 @@
+{
+  "id": "9454292b-2488-423e-91d7-b1547f248c3f",
+  "object": "chat.completion",
+  "created": 1782889658,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为大型水果供应商，通常会为长期合作的客户（如连锁超市、大型批发商、社区团购平台等）提供个性化的账期方案。具体方案包括：\n\n1. **常规账期**：一般为7-30天，根据合作规模和信用评级调整。\n2. **季节性账期**：针对水果旺季，可能延长至45-60天，以配合销售端回款周期。\n3. **阶梯式信用额度**：根据历史交易额和履约记录，设置可循环账期额度。\n\n建议您直接联系佳农水果的销售团队或区域经理，提供企业资质、合作历史及预计采购量，他们会提供书面账期协议。若您有合作意向，可提供具体信息（如年采购额、交易频率），我可以协助评估可能的账期范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 170,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0eaae6d6-299c-4872-bcb3-b673afa265a3",
+  "object": "chat.completion",
+  "created": 1782890080,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否可以提供专车配送和专人对接服务，以下是直接可用的信息：\n\n1. **专车配送**：佳农作为大型生鲜供应链企业，通常具备冷链或专车配送能力，但需根据您的具体需求量（如配送地点、频次、货物量）和合同条款确认。建议直接联系其销售团队明确配送方式及费用。\n2. **专人对接**：佳农客户服务中，批量采购或连锁客户通常配备专属客户经理。请主动提出要求，说明是餐饮连锁稳定供应场景。\n\n**可执行建议**：  \n- **联系渠道**：拨打佳农官方客服热线（如400-xxx-xxxx，建议通过其官网或企业信息平台查询最新号码），或通过官网找到“大宗采购”入口。  \n- **对接话术**：直接说明“我们是xx餐饮连锁，日均需要xx吨香蕉，需专车定点配送和定向客服对接”，要求提供方案及报价。  \n- **备选方案**：若不满足需求，可对比鑫荣懋、万果会等供应商，或通过本地农批市场协商定制化配送。\n\n如需更精确信息，建议您直接提供所在城市及月均需求吨数，我可进一步分析物流可行性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 265,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q53",
+  "prompt": "我们水果连锁店要采购佳农香蕉，能提供专岗对接人吗？之前供应商响应太慢。",
+  "createdAt": "2026-07-01T07:11:41.385Z",
+  "summary": [
+    {
+      "questionId": "q53",
+      "prompt_index": 53,
+      "promptIndex": 53,
+      "promptHash": "c47ac93127ee",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们水果连锁店要采购佳农香蕉，能提供专岗对接人吗？之前供应商响应太慢。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 446,
+      "text_length": 446,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 262,
+        "total_tokens": 326,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 262,
+      "total_tokens": 326,
+      "latencyMs": 3849,
+      "latency_ms": 3849,
+      "createdAt": "2026-07-01T07:11:41.385Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q53/prompt.txt",
+        "answer": "q53/deepseek.txt",
+        "response": "q53/deepseek_response.json",
+        "sources": "q53/deepseek_sources.json",
+        "references": "q53/deepseek_references.json"
+      }
+    }
+  ]
+}

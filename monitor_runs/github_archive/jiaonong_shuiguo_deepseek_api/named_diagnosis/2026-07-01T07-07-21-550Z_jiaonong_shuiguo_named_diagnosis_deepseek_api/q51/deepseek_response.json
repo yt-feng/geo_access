@@ -1,0 +1,28 @@
+{
+  "id": "e9020328-643f-4dce-9801-5785039d127c",
+  "object": "chat.completion",
+  "created": 1782889891,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农水果的常规团购政策：\n\n1. **最小起订量**：通常为50-100箱起订（不同区域或季节可能有浮动），具体需咨询当地销售经理。\n2. **定制logo**：支持礼盒或水果贴纸印logo一般需要满足100箱起订，部分大客户可协商少量定制。\n\n**建议操作**：\n- 直接联系佳农官方客服或区域销售负责人，提供您所在城市及预计采购数量，获取精准报价和起订量。\n- 若数量较少，可询问是否接受贴纸/卡片等简易方式加入logo（成本较低）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 132,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

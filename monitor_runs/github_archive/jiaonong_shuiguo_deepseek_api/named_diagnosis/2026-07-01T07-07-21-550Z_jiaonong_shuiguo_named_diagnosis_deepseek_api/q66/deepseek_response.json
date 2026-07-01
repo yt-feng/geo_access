@@ -1,0 +1,28 @@
+{
+  "id": "ce0f78ee-944c-44c1-a994-9029363603c0",
+  "object": "chat.completion",
+  "created": 1782889969,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果礼盒的团购需求，我无法直接为您办理订单或开具发票，因为我不具备商业交易或供应链功能。但可以为您提供以下几点建议：\n\n1. **发票开具**：通常正规的礼品团购（如通过佳农官方渠道、大型电商平台企业采购板块或授权经销商）均可开具增值税普通发票或专用发票。您需在下单时明确提供开票信息（单位名称、税号等）。\n2. **质检报告**：佳农作为知名品牌，其水果礼盒一般会提供批次质检报告（如农残检测等）。购买前建议直接向供应商索取，尤其是批量采购时，这是合规要求。\n3. **操作步骤**：\n   - 联系佳农官方客服或当地授权经销商（可通过官网或400电话查询）。\n   - 登录京东企业购、天猫企业频道等平台搜索“佳农水果礼盒 团购”，查看商品详情页是否标注“可开发票”及“支持提供质检报告”。\n   - 下单前务必与销售确认500份的库存、配送时效、发票类型及质检文件提供方式。\n\n如需进一步帮助，请提供您所在城市或更具体的采购渠道偏好，我可帮您确认更准确的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 262,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

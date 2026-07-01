@@ -1,0 +1,50 @@
+{
+  "questionId": "q36",
+  "prompt": "佳农水果和洪九果品比，哪个在香蕉品类上更有优势？",
+  "createdAt": "2026-07-01T07:10:08.549Z",
+  "summary": [
+    {
+      "questionId": "q36",
+      "prompt_index": 36,
+      "promptIndex": 36,
+      "promptHash": "6968791cd9f6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和洪九果品比，哪个在香蕉品类上更有优势？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 723,
+      "text_length": 723,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 439,
+        "total_tokens": 497,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 439,
+      "total_tokens": 497,
+      "latencyMs": 5651,
+      "latency_ms": 5651,
+      "createdAt": "2026-07-01T07:10:08.549Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q36/prompt.txt",
+        "answer": "q36/deepseek.txt",
+        "response": "q36/deepseek_response.json",
+        "sources": "q36/deepseek_sources.json",
+        "references": "q36/deepseek_references.json"
+      }
+    }
+  ]
+}

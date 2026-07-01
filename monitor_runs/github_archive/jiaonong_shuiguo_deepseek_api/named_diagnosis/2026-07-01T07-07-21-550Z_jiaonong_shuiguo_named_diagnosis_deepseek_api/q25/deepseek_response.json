@@ -1,0 +1,28 @@
+{
+  "id": "1f795131-e448-43ca-8c3a-163b5bb1e00b",
+  "object": "chat.completion",
+  "created": 1782889755,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络以**自营为主，结合外包补充**。其核心物流环节（如仓储、干线运输、城市配送）多由自建团队管理，以保障水果品质和时效；部分偏远地区或高峰期可能会外包第三方物流作为辅助。\n\n在冷链能力方面，佳农投入较大：配备专业冷库和冷藏运输车队，覆盖从产地预冷、仓储到终端配送的全链条温控。其冷链管理符合行业标准，尤其对进口水果（如香蕉、菠萝等）的成熟度控制和损耗率表现较好。整体冷藏运输能力可支撑全国主要城市的订单需求，但在极端天气或大促期间，末端配送的稳定性可能受外包合作伙伴影响。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 148,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

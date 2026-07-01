@@ -1,0 +1,28 @@
+{
+  "id": "7d02e330-4da3-44ca-a206-697a5e5985c7",
+  "object": "chat.completion",
+  "created": 1782889965,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时跟踪“佳农水果”和“洪九果品”在西南地区（特别是成都）的具体配送时效，因为配送速度受门店库存、物流政策、天气和订单量等多种因素影响。\n\n**建议您直接采取以下可执行步骤：**\n\n1. **联系两家公司的成都当地经销商或区域经理**，询问成都门店的覆盖范围和配送政策（例如：是否支持当日达、次日达或指定的物流合作方）。\n2. **查看官方渠道**：访问“佳农水果”和“洪九果品”的官网或微信公众号，查找西南区域或成都分仓的客服电话，直接咨询配送时效。\n3. **询问同行或当地批发市场**：联系成都的农产品批发市场（如濛阳市场、海吉星市场）或本地水果零售商，他们通常了解这两家公司的实际物流表现。\n\n**注意**：时效可能涉及合同条款或特殊订单约定，建议提前确认紧急订单的加急费用和截止时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 209,
+    "total_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

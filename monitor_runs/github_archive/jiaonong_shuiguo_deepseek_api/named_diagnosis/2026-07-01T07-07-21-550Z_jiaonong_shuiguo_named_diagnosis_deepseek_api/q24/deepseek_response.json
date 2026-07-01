@@ -1,0 +1,28 @@
+{
+  "id": "f4e70691-8d16-42fc-98c5-83749c9d9ef7",
+  "object": "chat.completion",
+  "created": 1782889751,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会。在2023年的第六届中国国际进口博览会（进博会）上，佳农集团作为参展商亮相，展示了其进口水果产品。至于最近的新品，根据公开信息，佳农近年来推出了如“佳农泰国金枕榴莲”、“佳农厄瓜多尔麒麟果”等差异化产品。具体到2024年或最近几个月的新品，建议您查阅佳农官方渠道（如官网、微信公众号或新闻稿）获取最新信息，因为产品线会随季节和市场动态调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 114,
+    "total_tokens": 166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

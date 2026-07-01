@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T07:08:49.409Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的配送时效如何？下单后多久能到？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

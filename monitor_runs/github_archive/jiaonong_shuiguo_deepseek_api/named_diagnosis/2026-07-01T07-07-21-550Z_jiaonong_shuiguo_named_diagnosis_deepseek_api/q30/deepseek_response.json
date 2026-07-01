@@ -1,0 +1,28 @@
+{
+  "id": "ec0e1d5b-69c4-410a-a7d7-e6661ba12fe1",
+  "object": "chat.completion",
+  "created": 1782889787,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉在市场上的抽检合格率，目前我无法提供具体的实时数据。通常，大型水果品牌如佳农会遵循国家食品安全标准，并接受市场监管部门的定期抽检。根据过往公开的食品安全抽检信息，主流品牌香蕉的合格率普遍较高，但具体数字需要参考各地市场监管部门发布的公告（如国家市场监督管理总局或地方市场监管局官网）。建议您查询最近的抽检结果，或关注官方通报以获取准确信息。如果您有具体的抽检批次或时间范围，我可以帮您分析查找方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 116,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

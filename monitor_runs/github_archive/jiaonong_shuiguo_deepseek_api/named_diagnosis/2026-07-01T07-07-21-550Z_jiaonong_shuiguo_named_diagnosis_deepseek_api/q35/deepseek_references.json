@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-01T07:10:05.072Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的客户服务响应快吗？有问题找谁？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

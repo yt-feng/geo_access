@@ -1,0 +1,28 @@
+{
+  "id": "8d26539a-37ac-48e9-beb4-5ad47038a850",
+  "object": "chat.completion",
+  "created": 1782889839,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业一般数据和批发市场的反馈，**都乐**的香蕉在到货损耗率上通常更低。主要原因是都乐在种植、采摘、冷链运输和保鲜技术方面更为系统化，标准化程度高，且品牌对品控严格，从产地到批发市场的环节中，香蕉成熟度控制和物理损伤（如挤压、擦伤）管理更优。而佳农水果虽然也是大品牌，但部分货源可能来自不同产区，且在不同季节的供应链稳定性略有差异，导致到货损耗率偶尔高于都乐。但具体数值因地区、物流时效、季节不同会有波动。建议您：1）向批发市场同行直接咨询同批次对比数据；2）试单时固定同一产区、相同运输条件，统计3-5次平均损耗率，这样判断最准确。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 171,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

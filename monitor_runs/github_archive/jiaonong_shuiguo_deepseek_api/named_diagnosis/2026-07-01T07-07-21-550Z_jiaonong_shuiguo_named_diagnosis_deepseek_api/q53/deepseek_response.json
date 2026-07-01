@@ -1,0 +1,28 @@
+{
+  "id": "5af99d6a-7c97-4639-881e-9f931f21d2f2",
+  "object": "chat.completion",
+  "created": 1782889901,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常理解您对供应商响应速度的重视。作为AI助手，我无法直接提供具体公司的专岗对接人信息或联系方式。建议您通过以下途径快速解决：\n\n1. **官方渠道**：访问佳农集团官网或拨打其全国客服热线（可搜索“佳农水果集团官网”获取），直接询问“水果连锁店采购对接专岗”的联系方式。\n2. **交易平台**：如果您通过B2B平台（如1688、惠农网）采购，可在平台上联系佳农旗舰店客服，要求分配专岗对接人。\n3. **合同条款**：审核历史采购合同中的联系人条款，若有长期合作供应商，可要求其提供“7×24小时业务专线”并写入新合同（如：合同约定“乙方应指定一名采购经理作为固定对接人，响应时间不超过2小时”）。\n\n如需进一步规避响应慢问题，建议：\n- **明确服务标准**：要求供应商在合同中承诺“专岗对接人”及“响应时效”（如24小时内必回），并约定违约处罚。\n- **备用供应商**：建立2-3家核心供应商清单，降低单一依赖风险。\n\n若您需要，我可协助起草标准采购合同中的“供应商响应条款”示例。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 262,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
