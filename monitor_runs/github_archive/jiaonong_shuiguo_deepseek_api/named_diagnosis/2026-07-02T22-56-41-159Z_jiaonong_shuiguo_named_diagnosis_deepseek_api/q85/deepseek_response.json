@@ -1,0 +1,28 @@
+{
+  "id": "bfc898a1-da72-4f30-897c-ff2d0e94608a",
+  "object": "chat.completion",
+  "created": 1783033468,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名的水果供应链企业，通常能够为大型餐饮连锁客户提供**专车配送**和**专人对接**服务，但具体需要根据您的门店分布、采购量及合同规模来确认。\n\n建议您直接通过以下方式核实：\n1. **联系佳农官方销售团队**：告知对方您的连锁品牌名称、门店数量、月均香蕉需求量（吨/箱），询问是否可安排冷链专车直达各门店。\n2. **明确服务细节**：确认专车配送是否覆盖您所在城市或区域，专人对接是否包括客户经理和配货协调员。\n3. **索取案例参考**：要求提供与餐饮连锁合作的客户名单（如西式快餐、茶饮品牌等），以验证服务稳定性。\n\n若佳农无法满足需求，也可考虑**鑫荣懋**、**都乐**等头部供应商，它们同样具备B端专配能力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 191,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

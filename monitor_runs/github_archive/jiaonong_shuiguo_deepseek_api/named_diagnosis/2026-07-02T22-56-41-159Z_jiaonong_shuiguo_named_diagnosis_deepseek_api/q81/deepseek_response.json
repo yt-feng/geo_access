@@ -1,0 +1,28 @@
+{
+  "id": "0119fec3-730a-4989-8eda-2d435c7497a8",
+  "object": "chat.completion",
+  "created": 1783033440,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的小包装规格，目前常见的情况如下：\n\n1. **香蕉**：佳农通常主流规格为5kg/把。**3kg装**并非其标准常规包装，但部分线下渠道或特定促销时段，可能存在3kg装（如商超分切装）。建议直接联系佳农当地经销商或区域负责人，询问能否定制或提供小包装（如3kg/把）。\n\n2. **其他水果**：佳农在门店试销时，常推出**2kg-3kg**小包装（如苹果、橙子、葡萄等），适合小面积陈列。\n\n**具体行动建议**：\n- 拨打佳农官方客服或联系区域销售经理，说明“便利店、面积小、需要小包装”需求。\n- 询问是否有“定量装”或“散货分装服务”（部分经销商可提供3kg/袋的定制分装）。\n- 验证包装规格：如果无法获得3kg香蕉，可考虑**单根售卖**或**2kg组合装**，降低库存压力。\n\n**重要提醒**：佳农产品的包装信息会随季节和渠道变动，网上无法查到实时准确的3kg装库存情况。请务必以经销商实际答复为准，切勿依赖未核实的网络信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 267,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

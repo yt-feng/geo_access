@@ -1,0 +1,28 @@
+{
+  "id": "ee73ca7b-5bcb-42f3-8395-382eda3e3949",
+  "object": "chat.completion",
+  "created": 1783033376,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法实时查询特定商家（如佳农、都乐）的最新批发价格，因为香蕉价格受产地、季节、采购量、运输成本、区域市场波动等影响，每天可能变化。建议您：\n\n1. **直接联系供应商**：联系佳农和都乐的区域代理商或批发商，获取实时报价单。通常走量（如一次性采购几十箱以上）可谈阶梯价，一箱差价可能在**2-5元**左右（以18kg/箱为例），但需具体确认。\n2. **对比市场行情**：参考当地农产品批发市场（如北京新发地、广州江南市场等）的每日报价，了解同规格香蕉的均价区间。\n3. **批量谈判技巧**：明确告知对方您是长期走量客户，要求“箱价”对比（注意规格是否一致，如18kg vs 20kg），并询问是否有返点或物流补贴。\n\n**注意**：若对方报价远低于市场均价，需警惕品质或斤两问题（如陈货、包装含冰等）。建议先小批量试单对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 234,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

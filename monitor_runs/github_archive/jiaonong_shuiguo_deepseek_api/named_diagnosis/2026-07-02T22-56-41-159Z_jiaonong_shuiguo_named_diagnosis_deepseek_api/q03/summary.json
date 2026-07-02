@@ -1,0 +1,50 @@
+{
+  "questionId": "q03",
+  "prompt": "佳农和都乐比，香蕉的质量和价格哪个更有优势？",
+  "createdAt": "2026-07-02T22:56:50.763Z",
+  "summary": [
+    {
+      "questionId": "q03",
+      "prompt_index": 3,
+      "promptIndex": 3,
+      "promptHash": "15d8959831be",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农和都乐比，香蕉的质量和价格哪个更有优势？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 457,
+      "text_length": 457,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 277,
+        "total_tokens": 332,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 277,
+      "total_tokens": 332,
+      "latencyMs": 3999,
+      "latency_ms": 3999,
+      "createdAt": "2026-07-02T22:56:50.763Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q03/prompt.txt",
+        "answer": "q03/deepseek.txt",
+        "response": "q03/deepseek_response.json",
+        "sources": "q03/deepseek_sources.json",
+        "references": "q03/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a68cfa7-04de-4bf6-9c56-4fe01b2c82b7",
+  "object": "chat.completion",
+  "created": 1783033360,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对餐饮渠道的定制化服务，包括菠萝产品。他们可以提供切块、切片等规格的定制，具体规格（如厚度、大小、包装形式）和起订量会根据餐饮客户的需求协商。建议你直接联系佳农的官网客服或区域销售代表，获取准确的报价和供货方案，这样可以明确是否有适合你餐厅的标准规格，或是否可以按需生产。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 84,
+    "total_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9abf1cb6-9c30-4c3d-8c57-b9318c53db77",
+  "object": "chat.completion",
+  "created": 1783033489,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的产品线，根据公开信息，佳农确实有销售红富士苹果，但通常其主打的红富士是来自山东、陕西等地的品种。至于新疆阿克苏苹果，佳农可能有相关产品，但目前我无法直接核实确切的在售情况（比如不同时间、不同渠道的具体库存）。\n\n建议您直接通过以下方式确认：\n1. **联系佳农官方客服**：拨打客服热线或通过其官网、微信公众号咨询，明确询问“是否采购新疆阿克苏苹果”以及“红富士的具体产地”。\n2. **查看电商平台**：在京东、天猫等平台的佳农官方旗舰店搜索“阿克苏苹果”或“红富士”，查看商品详情页的产地说明。\n3. **大型商超查询**：如果您在永辉、盒马等线下超市见到佳农专柜，可以查看包装上的产地信息。\n\n此外，如果贵公司有批量采购需求，建议直接联系佳农的批发销售部门，这样能获得更准确的上市时间和价格信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 215,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

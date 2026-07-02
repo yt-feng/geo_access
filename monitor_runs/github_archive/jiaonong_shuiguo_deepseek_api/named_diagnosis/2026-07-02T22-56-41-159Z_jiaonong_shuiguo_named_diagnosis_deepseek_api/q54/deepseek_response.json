@@ -1,0 +1,28 @@
+{
+  "id": "73ff5a6c-a1f2-421d-8735-adf057113c54",
+  "object": "chat.completion",
+  "created": 1783033280,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（通常指佳农食品控股（集团）股份有限公司）主要采用**自有车队与第三方物流结合**的方式，而非仅依赖“三通一达”这类普通快递。其核心业务是生鲜水果，对时效和温控要求高，因此自有车队主要用于干线运输（如从产地到区域分仓），而末端配送（如从分仓到消费者）部分会与顺丰、京东物流等高标准快递合作，**三通一达较少使用**。\n\n关于冷链覆盖率，佳农**基本实现全程冷链**，覆盖率较高：\n- **产地端**：采摘后立即预冷，进入冷链环节。\n- **运输端**：干线使用冷藏车或控温集装箱，根据不同水果品种设定0-15℃不等的温区。\n- **存储与配送**：区域分仓配备冷库，末端配送使用冷藏车或保温箱（如泡沫箱+冰袋）。\n\n具体数据未公开披露，但作为大型水果供应链企业，其冷链**已覆盖主要销售渠道（如商超、电商）的高端水果需求**，在行业内属于领先水平。不过，特殊偏远地区的最后一公里冷链可能存在部分降级风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 248,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

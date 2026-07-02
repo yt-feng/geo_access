@@ -1,0 +1,28 @@
+{
+  "id": "c9858694-c39e-45f8-98b4-416794d9685a",
+  "object": "chat.completion",
+  "created": 1783033234,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法提供佳农水果最新的具体商业合作政策和价格信息，因为这些内容通常属于企业内部机密或会根据市场情况动态调整。建议您通过以下方式获取准确信息：\n\n1. **直接联系佳农水果官方**：拨打其官网或客服电话，咨询大客户（年采购量1000吨以上）专属的阶梯折扣、返利政策或物流支持。\n2. **要求定制化方案**：向佳农销售团队提出合作需求，他们可能会根据您的采购量、付款周期、品类集中度等因素提供定制优惠，例如：\n   - 价格折扣（如按吨数递增比例）；\n   - 账期优惠；\n   - 优先供货权或产地直发服务；\n   - 联合营销支持（如品牌露出、试吃活动）。\n3. **关注行业展会或公告**：部分生鲜供应商会在行业活动（如中国国际水果展）发布合作政策，可留意近期的企业动态。\n\n建议您在洽谈时明确您的采购品类（如香蕉、火龙果等）、区域及物流需求，以便对方给出针对性方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 228,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cb75a51f-bea2-4818-9fba-36874267883b",
+  "object": "chat.completion",
+  "created": 1783033351,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的客户服务通常不是7x24小时，而是有固定的工作时间（一般是工作日9:00-18:00，具体以官方渠道公告为准）。周末下单，订单可能会在下一个工作日才被处理和安排发货，但您仍然可以随时在官方商城或电商平台提交订单。建议您：\n1. 登录佳农官方小程序或电商平台客服页面，查看公告中的工作时间。\n2. 如果周末有紧急问题，可以尝试在官方APP或店铺内留言，客服会在工作日优先回复。\n3. 下单前注意商品页面是否标注“工作日发货”等提示。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 127,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

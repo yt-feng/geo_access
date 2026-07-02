@@ -1,0 +1,28 @@
+{
+  "id": "ba2f50c8-46c3-432f-b5dc-c703cb6388a0",
+  "object": "chat.completion",
+  "created": 1783033187,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农水果为餐饮渠道提供定制化的菠萝解决方案，主要包括：\n\n1. **定制化规格与包装**：提供去冠、去皮的菠萝或菠萝块，减少餐厅预处理工序。\n2. **供应链支持**：根据餐饮客户用量需求进行分批配送，保证新鲜度。\n3. **品种选择**：供应适合餐饮场景的菠萝品种，如甜度高、纤维少的品种，适合鲜食、烹饪或饮品制作。\n4. **配方与运用建议**：可配合餐饮客户研发菠萝菜品（如菠萝炒饭、菠萝咕咾肉）、甜品或饮品。\n\n建议直接联系佳农餐饮渠道客户经理，确认具体合作方式与起订量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 145,
+    "total_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

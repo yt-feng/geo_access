@@ -1,0 +1,28 @@
+{
+  "id": "84fc8cb1-a561-44dc-9e82-57d1d6ba0557",
+  "object": "chat.completion",
+  "created": 1783033218,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的账期问题，由于具体政策可能因客户资质、合作规模、区域及时间等因素有所不同，我无法提供完全准确的最新信息。通常生鲜行业内，账期（如30天、45天等）需要根据双方合同约定。\n\n建议您可以：\n1. **直接联系佳农水果的销售或客服人员**，询问新客户首单的账期政策。\n2. 明确告知对方您的企业信息、采购规模及合作意向，以便他们评估是否支持30天账期申请。\n\n**请注意**：具体账期需以佳农官方书面合同或确认为准，请勿仅凭外部信息进行决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 139,
+    "total_tokens": 202,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

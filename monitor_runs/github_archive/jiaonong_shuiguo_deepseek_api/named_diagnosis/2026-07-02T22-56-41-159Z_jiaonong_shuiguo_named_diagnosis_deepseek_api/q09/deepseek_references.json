@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:57:17.781Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的到货损耗率一般控制在多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

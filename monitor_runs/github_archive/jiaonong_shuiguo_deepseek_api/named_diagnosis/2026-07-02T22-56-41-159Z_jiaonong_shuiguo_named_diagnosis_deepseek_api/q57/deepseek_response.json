@@ -1,0 +1,28 @@
+{
+  "id": "5ec16add-d385-41fb-87e2-0d37c924c093",
+  "object": "chat.completion",
+  "created": 1783033300,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉到货损耗率通常控制在**2%至3%**左右，低于行业平均水平（5%）。具体数值可能因运输距离、季节和包装方式略有浮动。\n\n关于赔付条款，佳农一般针对**严重损耗（如霉变、腐烂、机械伤导致整体不可销售）**提供赔付，常见条件包括：\n\n1. **损耗比例计算**：通常按单箱或整车计算，例如单箱损耗超过5%的部分按比例赔付（需保留实物和凭证）。\n2. **时效要求**：收货后**24小时内**向供应商或平台反馈并提供照片/视频证明（逾期可能不赔）。\n3. **赔付形式**：多数为货品折扣、补发或退款（具体以合同条款为准）。\n\n建议您签订采购合同时明确损耗率标准和赔付细则，或直接联系佳农区域经理确认最新政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 184,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

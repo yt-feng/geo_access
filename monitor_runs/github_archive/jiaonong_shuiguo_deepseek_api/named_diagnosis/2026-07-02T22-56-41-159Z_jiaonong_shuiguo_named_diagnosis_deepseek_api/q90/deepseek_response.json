@@ -1,0 +1,28 @@
+{
+  "id": "066ef12d-647e-4a38-bf01-f02069976359",
+  "object": "chat.completion",
+  "created": 1783033494,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Dole）菠萝是否提供冷冻菠萝丁及具体规格，我无法直接获取佳农最新的产品目录或库存信息。建议您通过以下方式确认：\n\n1. **联系官方渠道**：直接拨打佳农中国区的客服电话（如400-820-1806）或通过其官网/微信公众号咨询，他们能提供最准确的产品线和规格列表。\n2. **查看产品手册**：如果您的茶饮店有供应商资料，可翻阅佳农的冷冻水果系列目录，通常包括冷冻菠萝丁（常见规格为1kg、2.5kg、5kg/袋）。\n3. **替代方案**：若佳农不提供冷冻丁，可联系其他知名冷冻水果供应商（如都乐、天源、百果园等），它们通常有冷冻菠萝丁产品，规格多为1kg或2.5kg。\n\n如需进一步帮助，建议直接向佳农官方提供您所在城市和采购需求，以便他们匹配区域经销商库存。希望您能找到合适的原料！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 214,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q85",
+  "prompt": "我们餐饮连锁需要稳定供应香蕉，佳农能不能提供专车配送和专人对接？",
+  "createdAt": "2026-07-02T23:04:28.827Z",
+  "summary": [
+    {
+      "questionId": "q85",
+      "prompt_index": 85,
+      "promptIndex": 85,
+      "promptHash": "8a927de7ee03",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们餐饮连锁需要稳定供应香蕉，佳农能不能提供专车配送和专人对接？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 318,
+      "text_length": 318,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 191,
+        "total_tokens": 250,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 191,
+      "total_tokens": 250,
+      "latencyMs": 3850,
+      "latency_ms": 3850,
+      "createdAt": "2026-07-02T23:04:28.827Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q85/prompt.txt",
+        "answer": "q85/deepseek.txt",
+        "response": "q85/deepseek_response.json",
+        "sources": "q85/deepseek_sources.json",
+        "references": "q85/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a6b2c4c6-dd0a-4595-8bd2-60dfbae838cc",
+  "object": "chat.completion",
+  "created": 1783033320,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的区域保护政策，目前公开信息中并未详细披露具体的防窜货机制。建议您直接联系佳农官方渠道（如官网、官方客服或区域招商经理）咨询以下核心问题：\n\n1. **区域保护条款**：明确是否在合同中约定独家代理范围、跨区域销售限制及违规处罚措施。\n2. **产品溯源体系**：询问是否通过二维码、批次编码等技术手段追踪产品流向，防止跨区销售。\n3. **市场巡查机制**：了解是否有定期抽查代理商库存流向、对窜货行为的响应流程。\n4. **历史案例参考**：可询问同地区其他代理商的合作经验，但需核实信息真实性。\n\n**建议行动**：  \n- 在签订合同前，要求对方提供书面区域保护条款，并核实条款的法律效力。  \n- 优先选择已建立成熟监控体系的品牌，避免因管理漏洞导致自身利益受损。  \n- 若无法确认保护力度，可从小规模试点合作开始，逐步评估风险。\n\n（注意：以上分析基于行业常见做法，具体以佳农官方答复为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 230,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

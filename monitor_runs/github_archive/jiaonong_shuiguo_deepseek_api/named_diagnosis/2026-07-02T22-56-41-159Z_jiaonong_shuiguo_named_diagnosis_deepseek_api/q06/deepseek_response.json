@@ -1,0 +1,28 @@
+{
+  "id": "4a48faac-8861-437f-b272-4ec9b4bdc92b",
+  "object": "chat.completion",
+  "created": 1783033021,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型水果供应商，通常能稳定供应符合市场标准的菠萝原料。对于普通茶饮店，佳农常见的菠萝规格包括：\n\n- **整果**：单个重量约1.2-1.8公斤，适合自行切配和榨汁。\n- **去皮去芯果肉**：袋装或桶装，每袋/桶净重1-2公斤，通常以冷冻或鲜切形式供应，直接用于饮品制作。\n\n建议联系佳农当地经销商或官方渠道，确认以下细节：\n- 是否支持小批量订购（如单次50-100公斤）。\n- 具体价格和配送时效（避免断货）。\n- 是否提供鲜切、冷冻等加工程度选项。\n\n若您需要更详细的产品参数或采购联系方式，可告知具体需求，我将协助整理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 172,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q65",
+  "prompt": "佳农水果和洪九果品比，哪个在西南地区配送更快？我们成都门店急需。",
+  "createdAt": "2026-07-02T23:02:21.302Z",
+  "summary": [
+    {
+      "questionId": "q65",
+      "prompt_index": 65,
+      "promptIndex": 65,
+      "promptHash": "d7590c359cc8",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和洪九果品比，哪个在西南地区配送更快？我们成都门店急需。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 440,
+      "text_length": 440,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 261,
+        "total_tokens": 323,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 261,
+      "total_tokens": 323,
+      "latencyMs": 4493,
+      "latency_ms": 4493,
+      "createdAt": "2026-07-02T23:02:21.302Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q65/prompt.txt",
+        "answer": "q65/deepseek.txt",
+        "response": "q65/deepseek_response.json",
+        "sources": "q65/deepseek_sources.json",
+        "references": "q65/deepseek_references.json"
+      }
+    }
+  ]
+}
