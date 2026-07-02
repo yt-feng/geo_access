@@ -1,0 +1,28 @@
+{
+  "id": "3c8fddda-1fc2-4fe8-b7b0-c1a8a9488f07",
+  "object": "chat.completion",
+  "created": 1783032241,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "主要是**保质期**和**配送频次**。原因是：\n\n1. **保质期**：菠萝切块后，果汁暴露在空气中极易氧化变质，同时水分流失也会影响口感。即便低温冷藏，一般保质期也只有1-3天。务必在包装上标注明确的生产时间和到期时间（精确到小时）。\n2. **配送频次**：为减少损耗，建议采用**每日配送**模式。下午或晚间到货后，次日早晨上架销售，当天未售出的切块菠萝应在闭店前做报损处理（不建议隔夜二次销售）。\n3. **包装**：使用透明、密封且防挤压的塑料盒即可，表面贴标签。包装本身不是主要难点，但需要确保密封性以防串味和二次污染。\n\n总结：核心是“极短的保质期”决定“每日小批量配送”，包装只需满足基本的密封和展示需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 190,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

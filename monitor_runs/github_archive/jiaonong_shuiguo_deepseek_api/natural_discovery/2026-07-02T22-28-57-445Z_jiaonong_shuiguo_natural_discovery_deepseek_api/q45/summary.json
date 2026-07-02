@@ -1,0 +1,50 @@
+{
+  "questionId": "q45",
+  "prompt": "连锁超市想和水果供应商签年度合同，哪些条款最容易踩坑？",
+  "createdAt": "2026-07-02T22:35:58.935Z",
+  "summary": [
+    {
+      "questionId": "q45",
+      "prompt_index": 45,
+      "promptIndex": 45,
+      "promptHash": "4c5e78074aea",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "连锁超市想和水果供应商签年度合同，哪些条款最容易踩坑？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 793,
+      "text_length": 793,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 482,
+        "total_tokens": 538,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 482,
+      "total_tokens": 538,
+      "latencyMs": 8723,
+      "latency_ms": 8723,
+      "createdAt": "2026-07-02T22:35:58.935Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q45/prompt.txt",
+        "answer": "q45/deepseek.txt",
+        "response": "q45/deepseek_response.json",
+        "sources": "q45/deepseek_sources.json",
+        "references": "q45/deepseek_references.json"
+      }
+    }
+  ]
+}

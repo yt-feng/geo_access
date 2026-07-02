@@ -1,0 +1,28 @@
+{
+  "id": "fa1753f0-d237-4b2e-b794-52253ccbc36e",
+  "object": "chat.completion",
+  "created": 1783031520,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市选购菠萝时，建议按以下优先级综合考虑：\n\n1. **甜度（最核心）**  \n   - 可通过观察颜色（金黄色通常更甜）、按压弹性（稍软有弹性说明熟透）、闻底部香气（浓郁甜香为佳）判断。  \n   - 避免青绿色或过硬、无香味的菠萝，通常酸涩。\n\n2. **外观（判断新鲜度）**  \n   - 选择果眼大而平、叶片翠绿挺拔、无霉斑或软烂的菠萝。  \n   - 避免表皮有黑斑、裂口或挤压痕迹。\n\n3. **大小（影响性价比）**  \n   - 同等甜度下，大菠萝果肉占比更高，但需结合价格判断，中小果可能更实惠。\n\n4. **切果损耗（针对预切菠萝）**  \n   - 若购买切好的，注意看果肉是否发暗、出水，边缘干枯或变色说明不新鲜。  \n   - 整果自己切更可控，损耗主要在果皮和果眼，熟练后约损失30%。\n\n**执行建议**：优先用手感、颜色和气味判断甜度与新鲜度，再结合价格与切果损耗做最终选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 261,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

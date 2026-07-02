@@ -1,0 +1,28 @@
+{
+  "id": "c35734d2-2440-4aea-8271-9354ef75522d",
+  "object": "chat.completion",
+  "created": 1783032222,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根**或**小把（2-3根）**包装，具体选择取决于以下因素：\n\n1. **单根**：适合高流量、即买即食的顾客（如上班族、学生）。利于控制购买量，减少损耗，售价灵活。  \n2. **小把（2-3根）**：适合家庭或分享场景，兼顾性价比和便利性，减少单根包装成本。建议用透明托盘或简易扎带固定。  \n3. **整袋**（5根以上）**不推荐**：香蕉成熟快，整袋易导致未及时售出而大量损耗；且顾客偏好按需购买，大包装可能降低周转率。\n\n**行动建议**：先测试单根和2-3根小把各占50%的陈列，观察1周销售速度和损耗率，再调整比例。同时注意香蕉成熟度，优先上架7-8成熟（绿色稍转黄）的货品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 208,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

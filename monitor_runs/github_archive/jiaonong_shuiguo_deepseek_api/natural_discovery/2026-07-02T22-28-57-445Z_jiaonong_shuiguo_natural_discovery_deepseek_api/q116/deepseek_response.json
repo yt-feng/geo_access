@@ -1,0 +1,28 @@
+{
+  "id": "09fbc1f3-ef8d-4aa2-9c70-32eadeb80741",
+  "object": "chat.completion",
+  "created": 1783032406,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "小商家采购水果时，现金结算和月结账期各有以下风险：\n\n**现金结算风险：**\n- 资金压力大：需要立即支付全款，可能占用周转资金，影响其他采购或日常经营。\n- 质量无保障：收货后若发现水果变质或瑕疵，因已付款，追索难度较大，对方可能不认账或拖延解决。\n- 无账务凭证：若未索要正规收据或发票，未来对账、税务或纠纷时缺乏书面证据。\n\n**月结账期风险：**\n- 信用风险：供应商若经营不善或恶意拖延，可能导致断供或收到劣质货品，而款项已承诺支付。\n- 账期违约风险：若自身销售不佳或资金链紧张，无法按时结款，可能面临供应商停止合作、加收滞纳金或法律纠纷。\n- 信任成本：需要长期合作方才能建立，新供应商可能要求押金或高息，且月结后一旦质量出问题，调换流程更复杂。\n\n建议：根据自身现金流和供应商信誉灵活选择，对高风险供应商优先现金交易并索要凭证；对长期可靠供应商可协商短账期（如周结），并签订书面协议明确违约责任。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 262,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

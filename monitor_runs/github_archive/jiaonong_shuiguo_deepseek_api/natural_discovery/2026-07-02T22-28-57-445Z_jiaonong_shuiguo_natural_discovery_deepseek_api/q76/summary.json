@@ -1,0 +1,50 @@
+{
+  "questionId": "q76",
+  "prompt": "生鲜电商想卖香蕉，怎么控制配送途中压坏和变黑？",
+  "createdAt": "2026-07-02T22:41:14.636Z",
+  "summary": [
+    {
+      "questionId": "q76",
+      "prompt_index": 76,
+      "promptIndex": 76,
+      "promptHash": "91a5584e7504",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商想卖香蕉，怎么控制配送途中压坏和变黑？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1005,
+      "text_length": 1005,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 660,
+        "total_tokens": 717,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 660,
+      "total_tokens": 717,
+      "latencyMs": 11880,
+      "latency_ms": 11880,
+      "createdAt": "2026-07-02T22:41:14.636Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q76/prompt.txt",
+        "answer": "q76/deepseek.txt",
+        "response": "q76/deepseek_response.json",
+        "sources": "q76/deepseek_sources.json",
+        "references": "q76/deepseek_references.json"
+      }
+    }
+  ]
+}

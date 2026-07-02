@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:45:17.543Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "单位采购水果，如果到货品质不一致，应该怎么验收和售后？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q55",
+  "prompt": "餐厅做水果拼盘，苹果、橙子、菠萝怎么选规格更划算？",
+  "createdAt": "2026-07-02T22:37:35.311Z",
+  "summary": [
+    {
+      "questionId": "q55",
+      "prompt_index": 55,
+      "promptIndex": 55,
+      "promptHash": "269069e63fbb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐厅做水果拼盘，苹果、橙子、菠萝怎么选规格更划算？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1212,
+      "text_length": 1212,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 829,
+        "total_tokens": 887,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 829,
+      "total_tokens": 887,
+      "latencyMs": 14289,
+      "latency_ms": 14289,
+      "createdAt": "2026-07-02T22:37:35.311Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q55/prompt.txt",
+        "answer": "q55/deepseek.txt",
+        "response": "q55/deepseek_response.json",
+        "sources": "q55/deepseek_sources.json",
+        "references": "q55/deepseek_references.json"
+      }
+    }
+  ]
+}

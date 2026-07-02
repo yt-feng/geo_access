@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:38:11.880Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "甜品店采购菠萝，鲜果切配和直接买成品果丁哪个损耗更低？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "64850ee1-a54d-4ea0-ab73-71479b28f7d8",
+  "object": "chat.completion",
+  "created": 1783032020,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "重要，但不是最关键的。主要原因有三点：\n\n1. **提升销售效率**：促销素材（如电子海报、产品卖点图、短视频、话术）能帮你更快吸引顾客注意力，特别是在档口这种视觉竞争激烈的场景，有现成素材可以省去你自己设计的时间和成本。\n\n2. **体现供应商专业性**：愿意提供素材的供应商通常更重视市场推广，说明他们了解市场需求，也能帮助你解决一些生意上的实际问题（比如季节性热销品的推荐话术）。\n\n3. **但不是决定性因素**：相比素材，**水果本身的质量、价格、稳定性、供货及时性**更关键。素材可以自己拍、自己简单制作，甚至用手机拼图工具搞定，但供应商一旦在品质或价格上出问题，素材再多也没用。\n\n**建议**：\n- 优先找能提供基础素材的供应商（尤其是图片和卖点文案），可提高效率\n- 但不要求“必须有素材”作为筛选条件，核心还是看品质、价格、供货能力\n- 如果自己缺设计能力，可以找有素材的供应商合作，节省人力成本\n\n如果你需要，我也可以帮你快速生成简单的水果促销话术或海报文案思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 250,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

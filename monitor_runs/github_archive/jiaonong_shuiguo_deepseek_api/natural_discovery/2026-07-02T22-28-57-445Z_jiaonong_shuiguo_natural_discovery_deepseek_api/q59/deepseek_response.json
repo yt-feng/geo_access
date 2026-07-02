@@ -1,0 +1,28 @@
+{
+  "id": "a022f5e5-ad79-49ba-8c2e-171c1b934145",
+  "object": "chat.completion",
+  "created": 1783031900,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以尝试与供应商谈锁价。建议采取以下步骤：\n\n1. **明确锁价范围**：锁定核心常用水果（如苹果、香蕉、柑橘类），避开季节性波动大的品种（如草莓、榴莲）。\n2. **设定锁价周期**：建议按季度或半年度签约，而非全年锁价，避免供应商因长期亏损违约。\n3. **约定弹性条款**：在合同中加入“若市场价格波动超过±10%，双方重新协商”的条款，降低双方风险。\n4. **量化承诺换取价格**：向供应商承诺“每月固定采购量”（如500斤/月）或“独家供应”，以此作为锁价谈判筹码。\n5. **附加质检标准**：锁价时需明确“果径、甜度、成熟度”等具体标准，防止供应商降低品质。\n\n**风险提示**：极端天气（如霜冻、暴雨）可能导致供应商无法履约，建议准备2-3个备用供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 202,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

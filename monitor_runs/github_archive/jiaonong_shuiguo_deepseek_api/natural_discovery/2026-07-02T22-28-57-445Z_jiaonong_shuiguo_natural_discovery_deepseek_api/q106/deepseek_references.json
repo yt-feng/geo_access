@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:45:33.176Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商报价每天变，采购方怎么判断是不是合理波动？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

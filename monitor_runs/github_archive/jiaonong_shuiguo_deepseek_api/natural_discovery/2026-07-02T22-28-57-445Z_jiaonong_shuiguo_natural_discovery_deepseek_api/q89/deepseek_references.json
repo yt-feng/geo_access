@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:43:30.117Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "团购客户价格敏感，供应商给阶梯价还是返利更合适？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

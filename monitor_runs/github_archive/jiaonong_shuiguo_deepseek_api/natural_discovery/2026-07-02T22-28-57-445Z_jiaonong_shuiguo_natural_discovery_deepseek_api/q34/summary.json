@@ -1,0 +1,50 @@
+{
+  "questionId": "q34",
+  "prompt": "商超采购水果，价格低和损耗低哪个更影响最终毛利？",
+  "createdAt": "2026-07-02T22:34:13.141Z",
+  "summary": [
+    {
+      "questionId": "q34",
+      "prompt_index": 34,
+      "promptIndex": 34,
+      "promptHash": "5e8a12046cfe",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超采购水果，价格低和损耗低哪个更影响最终毛利？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 600,
+      "text_length": 600,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 373,
+        "total_tokens": 429,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 373,
+      "total_tokens": 429,
+      "latencyMs": 7011,
+      "latency_ms": 7011,
+      "createdAt": "2026-07-02T22:34:13.141Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q34/prompt.txt",
+        "answer": "q34/deepseek.txt",
+        "response": "q34/deepseek_response.json",
+        "sources": "q34/deepseek_sources.json",
+        "references": "q34/deepseek_references.json"
+      }
+    }
+  ]
+}

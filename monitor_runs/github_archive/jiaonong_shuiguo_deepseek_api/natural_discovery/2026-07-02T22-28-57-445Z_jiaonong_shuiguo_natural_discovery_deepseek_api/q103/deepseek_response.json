@@ -1,0 +1,28 @@
+{
+  "id": "9f0aa3b4-8f58-4a4f-992e-17a9f4b290a4",
+  "object": "chat.completion",
+  "created": 1783032312,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "按**斤结算**更适合食堂管理。原因如下：\n\n1. **按斤结算最公平透明**：水果重量是客观数据，不容易产生争议。按箱结算可能因水果大小、成熟度不同导致每箱实际重量差异大，容易产生纠纷；按份结算需要人工分装，增加时间和人力成本，且每份重量难统一。\n2. **便于成本核算**：根据实际采购重量和单价，能精确计算每餐水果成本，避免浪费或虚报。\n3. **减少损耗**：按斤采购可灵活控制采购量，避免按箱采购可能带来的积压和腐烂。\n\n建议做法：\n- 采购时与供应商约定好单价（元/斤），现场称重、双方确认。\n- 入库时记录重量、单价、总价。\n- 出库时按需取用，剩余水果妥善保存。\n\n特殊情况下（如统一配送的套餐、固定餐标），可按份结算，但需提前与供应商协商好每份具体重量和规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 214,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

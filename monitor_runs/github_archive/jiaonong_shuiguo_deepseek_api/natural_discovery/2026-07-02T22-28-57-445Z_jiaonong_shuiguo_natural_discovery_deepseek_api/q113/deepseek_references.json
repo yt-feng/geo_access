@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-02T22:46:24.458Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商能提供门店陈列支持，对商超和水果店有多大帮助？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

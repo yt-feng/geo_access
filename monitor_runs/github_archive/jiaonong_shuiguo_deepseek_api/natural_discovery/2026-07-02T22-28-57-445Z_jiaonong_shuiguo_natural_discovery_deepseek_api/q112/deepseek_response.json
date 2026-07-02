@@ -1,0 +1,28 @@
+{
+  "id": "a80d4b90-5f62-4d0f-8cdd-998022dff3fe",
+  "object": "chat.completion",
+  "created": 1783032380,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在水果采购合同中，常见的坏果率赔付标准如下：\n\n1. **行业惯例**：一般约定 **坏果率超过5%** 或 **10%** 时启动赔付机制。具体比例取决于水果品种、运输距离和储存条件（如易损水果可能更低，耐储存水果稍高）。\n\n2. **常见赔付阶梯**（可参考）：\n   - **5%-10%**：按超出部分比例抵扣货款（如坏果率12%，则扣除2%的货款）。\n   - **10%-20%**：按双倍或更高比例赔偿，或允许免费补发。\n   - **超过20%**：整批次拒收或全额退款，并要求养殖/运输方承担违约损失。\n\n3. **建议操作**：\n   - 在合同中**明确约定“坏果”定义**（如腐烂、明显霉变、过熟软烂，不含轻微碰伤）。\n   - 设定**验货时限**（如到货后24小时内验收，逾期视为承认合格）。\n   - 保留**拍照、称重、抽检记录**作为索赔依据。\n\n**具体比例需双方协商**，建议根据水果价格、损耗承受能力度身定制，并写入合同条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 261,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b422ecd5-7a66-42ee-b2e3-207e15e41f96",
+  "object": "chat.completion",
+  "created": 1783032115,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该问**配送**。因为水果保质期短、易损耗，配送时效和冷链条件直接决定到货品质。如果配送不稳（如延迟、破损），后续售后和价格都没意义。\n\n建议优先顺序：配送（时效、冷链、批次稳定）> 售后（退换、补货规则）> 价格（是否支持阶梯价、账期）。具体问法：\n\n- 配送：每日截单时间、发车频次、是否专线冷链、破损率控制措施。\n- 售后：坏果包赔比例、退款流程时效、是否需要留证据。\n- 价格：询价单是否含运费、批量是否支持议价、上浮范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 146,
+    "total_tokens": 202,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

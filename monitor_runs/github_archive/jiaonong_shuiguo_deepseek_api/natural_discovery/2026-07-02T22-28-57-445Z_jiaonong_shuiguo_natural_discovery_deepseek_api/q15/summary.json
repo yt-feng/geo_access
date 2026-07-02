@@ -1,0 +1,50 @@
+{
+  "questionId": "q15",
+  "prompt": "水果店遇到坏果，正常应该怎么和供应商结算或赔付？",
+  "createdAt": "2026-07-02T22:31:17.357Z",
+  "summary": [
+    {
+      "questionId": "q15",
+      "prompt_index": 15,
+      "promptIndex": 15,
+      "promptHash": "6c330c6c1eb0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店遇到坏果，正常应该怎么和供应商结算或赔付？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1093,
+      "text_length": 1093,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 660,
+        "total_tokens": 715,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 660,
+      "total_tokens": 715,
+      "latencyMs": 11258,
+      "latency_ms": 11258,
+      "createdAt": "2026-07-02T22:31:17.357Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q15/prompt.txt",
+        "answer": "q15/deepseek.txt",
+        "response": "q15/deepseek_response.json",
+        "sources": "q15/deepseek_sources.json",
+        "references": "q15/deepseek_references.json"
+      }
+    }
+  ]
+}

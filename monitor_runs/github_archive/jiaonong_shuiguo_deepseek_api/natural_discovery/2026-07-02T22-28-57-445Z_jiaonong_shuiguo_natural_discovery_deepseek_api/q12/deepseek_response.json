@@ -1,0 +1,28 @@
+{
+  "id": "9a1b1035-1bec-48c4-8b04-7d5b3f9d0c29",
+  "object": "chat.completion",
+  "created": 1783031454,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购菠萝时，判断熟度主要从以下几点入手：\n\n1. **看颜色**：成熟适中的菠萝表皮呈金黄色或黄中带绿。如果全绿说明未熟，发暗或出现黑斑则过熟或开始腐烂。\n2. **压硬度**：用手轻轻按压菠萝外壳，稍微有弹性、微软说明恰熟；过硬则生，过软或塌陷则过熟。\n3. **闻香味**：靠近底部闻一下，有淡淡甜香说明熟度刚好；无香则生，酒味或酸味过浓则过熟。\n4. **看叶子**：摘一片顶部的叶子，轻松拔下说明熟度较好；拔不动则生。\n5. **掂重量**：同等大小选较重的，说明含水量足、果肉饱满，过轻可能水分流失或内部变质。\n\n**采购建议**：宁可稍生（带点绿、手感硬、无香），也别买过熟。未熟的菠萝常温存放2-3天就会自然成熟，损耗更低；过熟的容易在运输和销售中烂掉。如果是批量采购，选七成熟的（表皮黄绿相间、略硬、微香），到店后按需求分批催熟。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 260,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
