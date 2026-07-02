@@ -1,0 +1,28 @@
+{
+  "id": "5f343450-a38d-423f-af93-736f506ba9b5",
+  "object": "chat.completion",
+  "created": 1783032936,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、山姆、Costco等）通常要求供应商通过权威的食品安全管理体系认证。针对鑫荣懋（Xinrongmao）和都乐（Dole）这两家知名水果和农产品供应商，它们通常持有的食品安全认证包括：\n\n1. **鑫荣懋**：\n   - **GlobalG.A.P.（全球良好农业规范）**：针对农业生产的食品安全和可持续性认证。\n   - **BRC（英国零售商协会食品安全全球标准）**：涵盖食品生产、包装和储存的认证。\n   - **ISO 22000（食品安全管理体系）**：国际通用的食品安全管理标准。\n   - **HACCP（危害分析与关键控制点）**：预防性食品安全体系。\n   - 部分超市可能还要求 **FSSC 22000** 或 **有机认证**（如中国有机产品认证）。\n\n2. **都乐（Dole）**：\n   - **GlobalG.A.P.**：同样广泛应用于其全球供应链。\n   - **BRC** 或 **IFS（国际食品标准）**：符合欧美零售商的准入要求。\n   - **ISO 22000** 或 **FSSC 22000**。\n   - **HACCP**。\n   - **Rainforest Alliance（雨林联盟）认证**：关注可持续农业和伦理采购。\n   - **有机认证**（如USDA Organic、EU Organic、中国有机产品认证）。\n\n这些认证的具体组合可能因供应链环节（种植、加工、物流）或商超的具体要求而略有差异。建议您直接联系鑫荣懋和都乐的中国公司或查阅其官网的“可持续发展/食品安全”页面，以获取最新的认证列表。如果您有特定商超（如沃尔玛、盒马等）的要求，也可告知，我可以进一步协助查找对应的准入条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 384,
+    "total_tokens": 444,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

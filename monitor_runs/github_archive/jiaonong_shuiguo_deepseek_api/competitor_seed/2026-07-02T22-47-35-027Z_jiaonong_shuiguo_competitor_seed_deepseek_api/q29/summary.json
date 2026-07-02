@@ -1,0 +1,50 @@
+{
+  "questionId": "q29",
+  "prompt": "便利店需要香蕉小包装，都乐和洪九果品谁有现成方案？",
+  "createdAt": "2026-07-02T22:51:05.849Z",
+  "summary": [
+    {
+      "questionId": "q29",
+      "prompt_index": 29,
+      "promptIndex": 29,
+      "promptHash": "5f69dc7a529f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店需要香蕉小包装，都乐和洪九果品谁有现成方案？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 858,
+      "text_length": 858,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 535,
+        "total_tokens": 594,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 535,
+      "total_tokens": 594,
+      "latencyMs": 7426,
+      "latency_ms": 7426,
+      "createdAt": "2026-07-02T22:51:05.849Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q29/prompt.txt",
+        "answer": "q29/deepseek.txt",
+        "response": "q29/deepseek_response.json",
+        "sources": "q29/deepseek_sources.json",
+        "references": "q29/deepseek_references.json"
+      }
+    }
+  ]
+}

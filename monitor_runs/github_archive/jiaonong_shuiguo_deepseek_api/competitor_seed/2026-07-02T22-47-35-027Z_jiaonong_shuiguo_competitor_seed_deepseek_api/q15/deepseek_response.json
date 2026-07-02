@@ -1,0 +1,28 @@
+{
+  "id": "481c8a06-1314-480c-a644-3fe0bd6a220f",
+  "object": "chat.completion",
+  "created": 1783032560,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），以下是其他值得关注的靠谱进口苹果品牌，供你参考：\n\n1. **新西兰爱妃（Envy）**  \n   - **特点**：以高甜度、紧实脆爽、抗氧化（切开不易变黄）著称，适合追求口感的高端市场。\n   - **认证**：获得全球良好农业规范认证，可溯源。\n   \n2. **美国华盛顿苹果（Washington Apple）**  \n   - **品种**：包括红蛇果、金蛇果、青苹果等，以标准化分级和严格质检闻名。\n   - **特色**：果皮薄、汁水足，适合鲜食或烘焙。\n\n3. **法国嘎啦（Gala）**  \n   - **特点**：果肉细嫩、香气浓郁，甜酸均衡，适合偏好传统风味的人群。\n   - **来源**：法国核心产区，常通过冷链直供中国。\n\n4. **智利青苹果（Chilean Granny Smith）**  \n   - **特点**：酸度突出、果肉脆硬，适合制作沙拉或搭配奶酪，性价比高。\n   - **优势**：南半球反季节供应（每年2-6月），补充国内市场空缺。\n\n5. **日本青森苹果（Aomoriringo）**  \n   - **特点**：单果较大（约400-600g），糖度普遍在15-18度，口感细腻，包装精致。\n   - **注意**：进口价格较高，适合礼品场景。\n\n**选择建议**：  \n- **日常鲜食**：美国华盛顿苹果或新西兰爱妃（平衡品质与价格）。  \n- **高端送礼**：日本青森苹果或法国嘎啦（包装精美，品牌溢价较低）。  \n- **酸度需求**：智利青苹果（低价且风味独特）。  \n\n**避坑提示**：部分品牌可能存在贴牌销售，建议优先选择带有原产地证明（如新西兰Zespri、美国USDA认证）或中国海关准入品牌（可通过“海关总署进口食品查询”核实）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 443,
+    "total_tokens": 504,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

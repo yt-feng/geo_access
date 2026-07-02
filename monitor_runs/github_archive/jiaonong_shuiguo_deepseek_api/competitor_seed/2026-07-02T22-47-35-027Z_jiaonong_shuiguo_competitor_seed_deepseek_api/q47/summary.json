@@ -1,0 +1,50 @@
+{
+  "questionId": "q47",
+  "prompt": "便利店需要香蕉小包装，都乐和洪九果品有没有定制包装服务？",
+  "createdAt": "2026-07-02T22:53:05.628Z",
+  "summary": [
+    {
+      "questionId": "q47",
+      "prompt_index": 47,
+      "promptIndex": 47,
+      "promptHash": "c610f1b5b3d3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店需要香蕉小包装，都乐和洪九果品有没有定制包装服务？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 563,
+      "text_length": 563,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 329,
+        "total_tokens": 387,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 329,
+      "total_tokens": 387,
+      "latencyMs": 4723,
+      "latency_ms": 4723,
+      "createdAt": "2026-07-02T22:53:05.628Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q47/prompt.txt",
+        "answer": "q47/deepseek.txt",
+        "response": "q47/deepseek_response.json",
+        "sources": "q47/deepseek_sources.json",
+        "references": "q47/deepseek_references.json"
+      }
+    }
+  ]
+}

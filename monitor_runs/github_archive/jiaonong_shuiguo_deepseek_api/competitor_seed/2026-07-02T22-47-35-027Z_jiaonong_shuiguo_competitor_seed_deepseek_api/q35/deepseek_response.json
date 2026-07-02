@@ -1,0 +1,28 @@
+{
+  "id": "48ce19d6-d75f-4766-a96d-05ad329254b8",
+  "object": "chat.completion",
+  "created": 1783032714,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在餐饮连锁的香蕉稳定供应方面，**鑫荣懋**和**都乐**均具备全国配送能力，但侧重点略有不同：\n\n- **鑫荣懋**：作为国内大型水果供应链企业，拥有覆盖全国的冷链物流网络，可针对B端客户（如餐饮连锁）提供稳定的产地直供和分仓配送服务，支持多城市同步发货。\n- **都乐（Dole）**：国际品牌，在中国多地设有加工配送中心，尤其擅长进口香蕉的标准化供应，同样支持全国范围内的B端物流配送。\n\n**建议**：\n- 如果偏好国产或就近产地直采以降低成本，优先联系**鑫荣懋**区域负责人确认其在你主要门店城市的配送时效和最低起订量。\n- 若需要稳定的进口香蕉品质（如标准化熟度控制），可咨询**都乐**的餐饮专供套餐。\n\n两家均需根据你具体的门店分布和需求量体定制报价。建议直接联系双方销售获取最新配送方案和合同条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 213,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

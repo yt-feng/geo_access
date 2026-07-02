@@ -1,0 +1,28 @@
+{
+  "id": "92f9aae8-e8c9-4e0d-bb90-47fa5ecd8467",
+  "object": "chat.completion",
+  "created": 1783032766,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋作为国内水果行业的主要进口苹果供应商，供货稳定性总体较好，但各有侧重：\n\n- **都乐**：国际品牌，供应链成熟，从产地到国内冷库有标准化流程，年供货波动较小。但受国际航运、产地气候（如美国、新西兰产区）影响，偶有短期断货，建议关注其合同中的调货条款。\n- **鑫荣懋**：国内头部水果企业，与多个原产地（如智利、新西兰）有长期合作，国内仓储和分销网络完善，对市场需求反应快。但若某一产地减产，可能影响其主推品种（如嘎啦、富士）的稳定度。\n\n**可执行建议**：\n1. 向双方索取近2年季度供货数据（或要求提供合同中的“保供率”条款，如90%月供应占比）。\n2. 到货后，与门店销售周期（如节假日）对比，评估断货风险。\n3. 可尝试小批量试单（如月订单100箱），观测实际到货时效、破损率及补货速度。\n\n若需进一步判断，可补充具体品种（如红玫瑰、爵士苹果）及供应月份。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 260,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

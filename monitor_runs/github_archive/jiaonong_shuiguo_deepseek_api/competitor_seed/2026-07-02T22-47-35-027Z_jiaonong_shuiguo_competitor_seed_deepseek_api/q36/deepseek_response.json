@@ -1,0 +1,28 @@
+{
+  "id": "9aaf79e9-cf57-4bbc-8082-9adb8a225713",
+  "object": "chat.completion",
+  "created": 1783032718,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从质量稳定性来看，**都乐（Dole）** 通常更受市场认可，主要原因如下：\n\n1. **品控体系较严格**：都乐作为全球最大的水果供应商之一，对进口苹果（如红富士、青苹果等）有更成熟的冷链管理和全流程品控标准，果径、甜度和成熟度的一致性较高。\n2. **供应链稳定**：都乐在中国的进口分销网络更完善，从产地到超市的周转时间较短，减少了因存储不当导致的质量波动。\n3. **口碑差异**：鑫荣懋虽然也是国内大型水果企业，但部分消费者反映其进口苹果（尤其是低价促销批次）偶有大小不匀、口感差异的问题。\n\n**建议**：\n- 如果追求**日常稳定品质**，首选都乐（注意挑选带有“都乐”品牌标签的独立包装或指定货架）。\n- 如果鑫荣懋产品有明确产地批次（如新西兰爱妃、美国蛇果等特定品种），其高端线质量同样可靠，但需避开无明确标识的散装货。\n- 购买时检查果蒂是否鲜绿、果皮有无皱缩，并优先选冷藏柜存放的商品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 252,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

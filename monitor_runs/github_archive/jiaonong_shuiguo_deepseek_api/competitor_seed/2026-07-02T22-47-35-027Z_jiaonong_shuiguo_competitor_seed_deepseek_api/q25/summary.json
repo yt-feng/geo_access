@@ -1,0 +1,50 @@
+{
+  "questionId": "q25",
+  "prompt": "我们想和能长期合作的供应商签年单，鑫荣懋和洪九果品谁更愿意？",
+  "createdAt": "2026-07-02T22:50:31.445Z",
+  "summary": [
+    {
+      "questionId": "q25",
+      "prompt_index": 25,
+      "promptIndex": 25,
+      "promptHash": "835dcccd74ac",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想和能长期合作的供应商签年单，鑫荣懋和洪九果品谁更愿意？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1067,
+      "text_length": 1067,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 669,
+        "total_tokens": 733,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 669,
+      "total_tokens": 733,
+      "latencyMs": 9699,
+      "latency_ms": 9699,
+      "createdAt": "2026-07-02T22:50:31.445Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q25/prompt.txt",
+        "answer": "q25/deepseek.txt",
+        "response": "q25/deepseek_response.json",
+        "sources": "q25/deepseek_sources.json",
+        "references": "q25/deepseek_references.json"
+      }
+    }
+  ]
+}

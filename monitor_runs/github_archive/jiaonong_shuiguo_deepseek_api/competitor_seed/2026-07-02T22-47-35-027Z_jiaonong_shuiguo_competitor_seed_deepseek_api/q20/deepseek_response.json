@@ -1,0 +1,28 @@
+{
+  "id": "32c879a0-5173-4f80-891c-ff6b43f4f9a9",
+  "object": "chat.completion",
+  "created": 1783032594,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从市场反馈和礼品场景来看，**佳沛（Zespri）奇异果礼盒**在进口品牌礼盒中通常更受好评，尤其适合商务送礼或高端礼品场景。主要依据如下：\n\n1. **品牌识别度**：佳沛作为新西兰奇异果的代表品牌，在消费者中认知度更高，包装设计更精致、统一（金果/绿果礼盒），常被直接视为高端水果礼盒的“标准选项”。\n2. **适用场景**：奇异果礼盒一般四季均可，不易出错。而都乐（Dole）虽然也是知名进口品牌，但其产品线更广（香蕉、菠萝、木瓜等），礼盒主题不如佳沛聚焦，且部分产品（如香蕉）保鲜期短，更适合日常消费而非礼品。\n3. **市场评价**：在节庆礼品采购中，佳沛的“安心选”“高颜值”标签更突出，重复购买率和客户满意度通常更高。\n\n**建议**：\n- 若客户偏向**高端、稳妥**：主推佳沛金果礼盒（甜度高、口感好）。\n- 若客户追求**多样化**：可搭配佳沛为主、都乐为辅的组合礼盒，但要确认都乐的产品（如非香蕉类不易损坏的品类）及包装档次符合要求。\n\n可进一步询问客户的具体预算、发放对象（企业员工/客户/亲友），以优化搭配方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 297,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

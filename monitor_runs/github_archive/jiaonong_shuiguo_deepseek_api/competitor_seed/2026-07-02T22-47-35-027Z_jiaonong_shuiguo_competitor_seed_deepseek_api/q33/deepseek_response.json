@@ -1,0 +1,28 @@
+{
+  "id": "0c34bbb7-c448-43db-bf12-c8c2ecdbc6a1",
+  "object": "chat.completion",
+  "created": 1783032698,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "洪九果品和鑫荣懋的到货速度受多种因素影响（如地域、仓库距离、配送方式、订单时段等），但综合市场反馈：\n\n- **洪九果品**：在部分主要批发市场（如广州江南市场、北京新发地等）有直发优势，同城或同区域加急订单通常能实现**次日达**，部分时段甚至当天到货。\n- **鑫荣懋**：渠道更偏大型商超和连锁，若在批发市场拿货，通常需通过经销商，到货时间相对常规，一般需要**1-3天**，加急需看具体合作方。\n\n**建议操作**：\n1. **直接联系当地批发市场档口**：询问具体配送时间表，不同仓库和线路差异大。\n2. **对比两家的“到货承诺”**：下订单时明确要求标注送达期限，优先选能书面承诺更短期限的。\n3. **备选预案**：若需求紧急，可同时向两家询价并比较最快到货时间，选择更有保障的一方。\n\n如果无法核验当前时效，建议以批发市场现场询问或电话确认为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 251,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

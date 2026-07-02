@@ -1,0 +1,28 @@
+{
+  "id": "d85b6317-7f8a-43f3-b4e7-2c35ee83f3f8",
+  "object": "chat.completion",
+  "created": 1783032849,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时确认洪九果品和都乐当前的具体供货政策或小批量供货渠道。不过，根据一般情况，洪九果品和都乐通常主要面向大型商超、批发商或连锁渠道供货，小批量直接供应夫妻店的可能性较低。\n\n建议您直接联系他们的客服或当地经销商，询问是否有面向小型零售商的批发政策或合作方案。也可以考虑通过本地批发市场或水果批发平台寻找适合小批量进货的供应商，这样更灵活。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 103,
+    "total_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "75ce86fe-c4f6-499e-96f9-2446e2a3f9ca",
+  "object": "chat.completion",
+  "created": 1783032797,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您提到的都乐（Dole）和鑫荣懋（Xinrongmao）两家公司，需明确以下信息：\n\n1. **都乐（Dole）**：作为国际知名果蔬供应商，通常具备客户服务团队，但**专岗对接服务**（如专职客户经理、固定接口人）需区分客户类型（如大型零售、批发商、电商等）。您可要求都乐提供专人服务，但需确认合作规模与合同条款。\n\n2. **鑫荣懋（Xinrongmao）**：作为国内大型果业集团，对企业客户（如连锁超市、餐饮、电商）可能提供定制化对接人服务。但此服务通常需满足一定采购量或签署长期协议。\n\n**建议操作步骤**：\n- **直接联系销售部门**：致电或邮件询问“是否提供专岗对接（如客户经理一对一服务）”，明确需求（如采购频率、品类、服务要求）。\n- **对比案例**：要求提供其他客户的专岗服务案例（如名称可验证的零售合作伙伴）。\n- **协议中明确**：若对方承诺专人服务，需在合同中写入条款，包含服务承诺、响应时效、人员变动通知等。\n\n若需要更具体信息（如联系方式、行业口碑），可提供您所在城市或业务类型，以便进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 282,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
