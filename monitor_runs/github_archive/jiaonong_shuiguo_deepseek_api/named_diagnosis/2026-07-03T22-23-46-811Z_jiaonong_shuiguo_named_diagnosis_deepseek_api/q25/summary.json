@@ -1,0 +1,37 @@
+{
+  "questionId": "q25",
+  "prompt": "佳农水果的物流网络是自营还是外包？冷链能力如何？",
+  "createdAt": "2026-07-03T22:24:26.251Z",
+  "summary": [
+    {
+      "questionId": "q25",
+      "prompt_index": 25,
+      "promptIndex": 25,
+      "promptHash": "5106e42747e5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果的物流网络是自营还是外包？冷链能力如何？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:24:26.251Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q25/prompt.txt",
+        "error": "q25/deepseek_error.json"
+      }
+    }
+  ]
+}

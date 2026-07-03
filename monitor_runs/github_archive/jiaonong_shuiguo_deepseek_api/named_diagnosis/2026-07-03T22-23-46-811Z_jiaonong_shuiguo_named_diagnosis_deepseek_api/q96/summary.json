@@ -1,0 +1,37 @@
+{
+  "questionId": "q96",
+  "prompt": "我们生鲜电商要对接佳农水果的API，有没有开放平台？接口文档有吗？",
+  "createdAt": "2026-07-03T22:26:21.371Z",
+  "summary": [
+    {
+      "questionId": "q96",
+      "prompt_index": 96,
+      "promptIndex": 96,
+      "promptHash": "4b97caa2633e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们生鲜电商要对接佳农水果的API，有没有开放平台？接口文档有吗？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:26:21.371Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q96/prompt.txt",
+        "error": "q96/deepseek_error.json"
+      }
+    }
+  ]
+}

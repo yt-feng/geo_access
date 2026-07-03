@@ -1,0 +1,37 @@
+{
+  "questionId": "q08",
+  "prompt": "佳农香蕉的价格波动大不大，有没有锁价机制？",
+  "createdAt": "2026-07-03T22:23:58.492Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt_index": 8,
+      "promptIndex": 8,
+      "promptHash": "d3560dfe76c6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农香蕉的价格波动大不大，有没有锁价机制？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:23:58.492Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q08/prompt.txt",
+        "error": "q08/deepseek_error.json"
+      }
+    }
+  ]
+}

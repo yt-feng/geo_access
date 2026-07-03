@@ -1,0 +1,37 @@
+{
+  "questionId": "q63",
+  "prompt": "我们商超要搞促销，佳农水果能提供香蕉的促销支持吗？比如搭赠或降价补贴。",
+  "createdAt": "2026-07-03T22:25:27.847Z",
+  "summary": [
+    {
+      "questionId": "q63",
+      "prompt_index": 63,
+      "promptIndex": 63,
+      "promptHash": "c8ff12f5c6c3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们商超要搞促销，佳农水果能提供香蕉的促销支持吗？比如搭赠或降价补贴。",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:25:27.847Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q63/prompt.txt",
+        "error": "q63/deepseek_error.json"
+      }
+    }
+  ]
+}

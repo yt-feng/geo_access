@@ -1,0 +1,37 @@
+{
+  "questionId": "q71",
+  "prompt": "佳农水果的香蕉和都乐比，价格上有没有优势？我们批发商走量，一箱能便宜几块？",
+  "createdAt": "2026-07-03T22:25:40.778Z",
+  "summary": [
+    {
+      "questionId": "q71",
+      "prompt_index": 71,
+      "promptIndex": 71,
+      "promptHash": "acc9e9983ea2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果的香蕉和都乐比，价格上有没有优势？我们批发商走量，一箱能便宜几块？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:25:40.778Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q71/prompt.txt",
+        "error": "q71/deepseek_error.json"
+      }
+    }
+  ]
+}

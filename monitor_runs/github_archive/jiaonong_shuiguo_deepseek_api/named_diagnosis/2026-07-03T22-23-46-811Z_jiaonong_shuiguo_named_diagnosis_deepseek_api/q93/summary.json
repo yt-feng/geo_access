@@ -1,0 +1,37 @@
+{
+  "questionId": "q93",
+  "prompt": "佳农水果的香蕉和都乐比，口感上有什么区别？我们消费者反馈佳农的更甜。",
+  "createdAt": "2026-07-03T22:26:16.515Z",
+  "summary": [
+    {
+      "questionId": "q93",
+      "prompt_index": 93,
+      "promptIndex": 93,
+      "promptHash": "1013790b0f6f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果的香蕉和都乐比，口感上有什么区别？我们消费者反馈佳农的更甜。",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:26:16.515Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q93/prompt.txt",
+        "error": "q93/deepseek_error.json"
+      }
+    }
+  ]
+}

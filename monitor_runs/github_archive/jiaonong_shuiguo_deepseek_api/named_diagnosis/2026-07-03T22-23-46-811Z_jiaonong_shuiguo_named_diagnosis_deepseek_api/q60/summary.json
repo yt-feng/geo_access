@@ -1,0 +1,37 @@
+{
+  "questionId": "q60",
+  "prompt": "佳农水果有没有针对便利店的小包装香蕉？我们便利店需要单根包装的。",
+  "createdAt": "2026-07-03T22:25:23.007Z",
+  "summary": [
+    {
+      "questionId": "q60",
+      "prompt_index": 60,
+      "promptIndex": 60,
+      "promptHash": "571c1046b3c2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果有没有针对便利店的小包装香蕉？我们便利店需要单根包装的。",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:25:23.007Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q60/prompt.txt",
+        "error": "q60/deepseek_error.json"
+      }
+    }
+  ]
+}

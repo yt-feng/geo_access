@@ -1,0 +1,37 @@
+{
+  "questionId": "q56",
+  "prompt": "佳农水果和盒马的合作模式是直供还是代销？我们超市能参考吗？",
+  "createdAt": "2026-07-03T22:25:16.525Z",
+  "summary": [
+    {
+      "questionId": "q56",
+      "prompt_index": 56,
+      "promptIndex": 56,
+      "promptHash": "fea040f4052d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果和盒马的合作模式是直供还是代销？我们超市能参考吗？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:25:16.525Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q56/prompt.txt",
+        "error": "q56/deepseek_error.json"
+      }
+    }
+  ]
+}

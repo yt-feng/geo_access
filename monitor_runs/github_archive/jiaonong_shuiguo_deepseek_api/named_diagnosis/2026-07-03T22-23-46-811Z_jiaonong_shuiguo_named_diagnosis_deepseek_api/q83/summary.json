@@ -1,0 +1,37 @@
+{
+  "questionId": "q83",
+  "prompt": "我们批发商想代理佳农水果，区域保护政策是怎样的？会不会串货？",
+  "createdAt": "2026-07-03T22:26:00.261Z",
+  "summary": [
+    {
+      "questionId": "q83",
+      "prompt_index": 83,
+      "promptIndex": 83,
+      "promptHash": "9dd125008152",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们批发商想代理佳农水果，区域保护政策是怎样的？会不会串货？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:26:00.261Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q83/prompt.txt",
+        "error": "q83/deepseek_error.json"
+      }
+    }
+  ]
+}

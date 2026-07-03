@@ -1,0 +1,37 @@
+{
+  "questionId": "q09",
+  "prompt": "佳农水果的到货损耗率一般控制在多少？",
+  "createdAt": "2026-07-03T22:24:00.121Z",
+  "summary": [
+    {
+      "questionId": "q09",
+      "prompt_index": 9,
+      "promptIndex": 9,
+      "promptHash": "899a15696ceb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果的到货损耗率一般控制在多少？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:24:00.121Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q09/prompt.txt",
+        "error": "q09/deepseek_error.json"
+      }
+    }
+  ]
+}

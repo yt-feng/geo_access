@@ -1,0 +1,37 @@
+{
+  "questionId": "q98",
+  "prompt": "我们便利店想卖佳农香蕉，但担心损耗，你们有没有到货损耗率承诺？比如超过3%包赔？",
+  "createdAt": "2026-07-03T22:26:24.603Z",
+  "summary": [
+    {
+      "questionId": "q98",
+      "prompt_index": 98,
+      "promptIndex": 98,
+      "promptHash": "fdec2d8d9502",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们便利店想卖佳农香蕉，但担心损耗，你们有没有到货损耗率承诺？比如超过3%包赔？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:26:24.603Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q98/prompt.txt",
+        "error": "q98/deepseek_error.json"
+      }
+    }
+  ]
+}

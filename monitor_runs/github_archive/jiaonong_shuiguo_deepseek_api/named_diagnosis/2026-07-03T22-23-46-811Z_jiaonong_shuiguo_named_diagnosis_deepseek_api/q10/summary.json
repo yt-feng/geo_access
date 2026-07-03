@@ -1,0 +1,37 @@
+{
+  "questionId": "q10",
+  "prompt": "佳农水果有没有专门的客户经理对接我们这种批发商？",
+  "createdAt": "2026-07-03T22:24:01.724Z",
+  "summary": [
+    {
+      "questionId": "q10",
+      "prompt_index": 10,
+      "promptIndex": 10,
+      "promptHash": "f45c2b03bd86",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农水果有没有专门的客户经理对接我们这种批发商？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:24:01.724Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q10/prompt.txt",
+        "error": "q10/deepseek_error.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "questionId": "q05",
+  "prompt": "佳农的香蕉农残检测合格吗，有没有相关的食品安全认证？",
+  "createdAt": "2026-07-03T22:23:53.621Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt_index": 5,
+      "promptIndex": 5,
+      "promptHash": "e96ae48f78c5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "佳农的香蕉农残检测合格吗，有没有相关的食品安全认证？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:23:53.621Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q05/prompt.txt",
+        "error": "q05/deepseek_error.json"
+      }
+    }
+  ]
+}
