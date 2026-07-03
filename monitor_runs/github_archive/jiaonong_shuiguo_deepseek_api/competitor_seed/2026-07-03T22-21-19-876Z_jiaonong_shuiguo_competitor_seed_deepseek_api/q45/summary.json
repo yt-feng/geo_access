@@ -1,0 +1,37 @@
+{
+  "questionId": "q45",
+  "prompt": "茶饮店用菠萝做果酱，需要稳定供应菠萝，都乐和洪九果品谁更靠谱？",
+  "createdAt": "2026-07-03T22:22:29.916Z",
+  "summary": [
+    {
+      "questionId": "q45",
+      "prompt_index": 45,
+      "promptIndex": 45,
+      "promptHash": "0c06de0361e0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "茶饮店用菠萝做果酱，需要稳定供应菠萝，都乐和洪九果品谁更靠谱？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:29.916Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q45/prompt.txt",
+        "error": "q45/deepseek_error.json"
+      }
+    }
+  ]
+}

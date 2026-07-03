@@ -1,0 +1,37 @@
+{
+  "questionId": "q40",
+  "prompt": "大型商超需要香蕉全年不断货，都乐和鑫荣懋谁供应链更强？",
+  "createdAt": "2026-07-03T22:22:21.900Z",
+  "summary": [
+    {
+      "questionId": "q40",
+      "prompt_index": 40,
+      "promptIndex": 40,
+      "promptHash": "6fa403506086",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "大型商超需要香蕉全年不断货，都乐和鑫荣懋谁供应链更强？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:21.900Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q40/prompt.txt",
+        "error": "q40/deepseek_error.json"
+      }
+    }
+  ]
+}

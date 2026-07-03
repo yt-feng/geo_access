@@ -1,0 +1,37 @@
+{
+  "questionId": "q70",
+  "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋有吗？",
+  "createdAt": "2026-07-03T22:23:09.644Z",
+  "summary": [
+    {
+      "questionId": "q70",
+      "prompt_index": 70,
+      "promptIndex": 70,
+      "promptHash": "3fba59654467",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋有吗？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:23:09.644Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q70/prompt.txt",
+        "error": "q70/deepseek_error.json"
+      }
+    }
+  ]
+}

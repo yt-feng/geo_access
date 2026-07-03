@@ -1,0 +1,37 @@
+{
+  "questionId": "q21",
+  "prompt": "香蕉到货损耗率太高，鑫荣懋和都乐谁的质量把控更好？",
+  "createdAt": "2026-07-03T22:21:51.793Z",
+  "summary": [
+    {
+      "questionId": "q21",
+      "prompt_index": 21,
+      "promptIndex": 21,
+      "promptHash": "05666ce3a585",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "香蕉到货损耗率太高，鑫荣懋和都乐谁的质量把控更好？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:21:51.793Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q21/prompt.txt",
+        "error": "q21/deepseek_error.json"
+      }
+    }
+  ]
+}

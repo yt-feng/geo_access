@@ -1,0 +1,37 @@
+{
+  "questionId": "q44",
+  "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋的供货稳定性如何？",
+  "createdAt": "2026-07-03T22:22:28.251Z",
+  "summary": [
+    {
+      "questionId": "q44",
+      "prompt_index": 44,
+      "promptIndex": 44,
+      "promptHash": "c8d53cadd1ba",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋的供货稳定性如何？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:28.251Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q44/prompt.txt",
+        "error": "q44/deepseek_error.json"
+      }
+    }
+  ]
+}

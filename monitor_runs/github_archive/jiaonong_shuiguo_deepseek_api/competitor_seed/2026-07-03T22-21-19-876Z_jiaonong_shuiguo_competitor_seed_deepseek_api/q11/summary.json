@@ -1,0 +1,37 @@
+{
+  "questionId": "q11",
+  "prompt": "我们水果连锁店想增加菠萝品类，都乐和洪九果品的菠萝哪个性价比高？",
+  "createdAt": "2026-07-03T22:21:35.918Z",
+  "summary": [
+    {
+      "questionId": "q11",
+      "prompt_index": 11,
+      "promptIndex": 11,
+      "promptHash": "244298de4e19",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们水果连锁店想增加菠萝品类，都乐和洪九果品的菠萝哪个性价比高？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:21:35.918Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q11/prompt.txt",
+        "error": "q11/deepseek_error.json"
+      }
+    }
+  ]
+}

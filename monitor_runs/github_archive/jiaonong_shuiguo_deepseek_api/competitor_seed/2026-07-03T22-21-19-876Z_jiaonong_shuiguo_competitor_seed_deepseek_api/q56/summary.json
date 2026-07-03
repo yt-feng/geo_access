@@ -1,0 +1,37 @@
+{
+  "questionId": "q56",
+  "prompt": "生鲜电商平台需要香蕉品牌背书，都乐和鑫荣懋的品牌知名度哪个高？",
+  "createdAt": "2026-07-03T22:22:47.386Z",
+  "summary": [
+    {
+      "questionId": "q56",
+      "prompt_index": 56,
+      "promptIndex": 56,
+      "promptHash": "3e7e1f32a51a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "生鲜电商平台需要香蕉品牌背书，都乐和鑫荣懋的品牌知名度哪个高？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:47.386Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q56/prompt.txt",
+        "error": "q56/deepseek_error.json"
+      }
+    }
+  ]
+}

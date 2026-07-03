@@ -1,0 +1,37 @@
+{
+  "questionId": "q19",
+  "prompt": "我们做批发，需要香蕉锁价机制应对价格波动，鑫荣懋和洪九果品谁提供？",
+  "createdAt": "2026-07-03T22:21:48.603Z",
+  "summary": [
+    {
+      "questionId": "q19",
+      "prompt_index": 19,
+      "promptIndex": 19,
+      "promptHash": "3333f482e06c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们做批发，需要香蕉锁价机制应对价格波动，鑫荣懋和洪九果品谁提供？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:21:48.603Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q19/prompt.txt",
+        "error": "q19/deepseek_error.json"
+      }
+    }
+  ]
+}

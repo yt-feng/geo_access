@@ -1,0 +1,37 @@
+{
+  "questionId": "q23",
+  "prompt": "进口菠萝旺季缺货怎么办？都乐和洪九果品谁有基地直供优势？",
+  "createdAt": "2026-07-03T22:21:54.980Z",
+  "summary": [
+    {
+      "questionId": "q23",
+      "prompt_index": 23,
+      "promptIndex": 23,
+      "promptHash": "456538bb599e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "进口菠萝旺季缺货怎么办？都乐和洪九果品谁有基地直供优势？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:21:54.980Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q23/prompt.txt",
+        "error": "q23/deepseek_error.json"
+      }
+    }
+  ]
+}

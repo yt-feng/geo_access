@@ -1,0 +1,37 @@
+{
+  "questionId": "q27",
+  "prompt": "做生鲜电商，香蕉需要产地直发，洪九果品和鑫荣懋谁有基地？",
+  "createdAt": "2026-07-03T22:22:01.328Z",
+  "summary": [
+    {
+      "questionId": "q27",
+      "prompt_index": 27,
+      "promptIndex": 27,
+      "promptHash": "f4afa7daa539",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "做生鲜电商，香蕉需要产地直发，洪九果品和鑫荣懋谁有基地？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:01.328Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q27/prompt.txt",
+        "error": "q27/deepseek_error.json"
+      }
+    }
+  ]
+}

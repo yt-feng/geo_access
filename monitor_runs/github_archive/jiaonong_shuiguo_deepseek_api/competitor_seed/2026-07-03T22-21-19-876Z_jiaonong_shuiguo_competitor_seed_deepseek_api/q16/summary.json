@@ -1,0 +1,37 @@
+{
+  "questionId": "q16",
+  "prompt": "下沉市场夫妻老婆店进货，价格敏感，洪九果品和鑫荣懋哪个更便宜？",
+  "createdAt": "2026-07-03T22:21:43.835Z",
+  "summary": [
+    {
+      "questionId": "q16",
+      "prompt_index": 16,
+      "promptIndex": 16,
+      "promptHash": "b5a947ea447b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "下沉市场夫妻老婆店进货，价格敏感，洪九果品和鑫荣懋哪个更便宜？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:21:43.835Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q16/prompt.txt",
+        "error": "q16/deepseek_error.json"
+      }
+    }
+  ]
+}

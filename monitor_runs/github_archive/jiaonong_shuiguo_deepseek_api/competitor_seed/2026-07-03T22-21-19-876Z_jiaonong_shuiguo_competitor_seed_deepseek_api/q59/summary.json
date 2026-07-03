@@ -1,0 +1,37 @@
+{
+  "questionId": "q59",
+  "prompt": "我们想找能提供账期服务的香蕉供应商，都乐和洪九果品账期多久？",
+  "createdAt": "2026-07-03T22:22:52.169Z",
+  "summary": [
+    {
+      "questionId": "q59",
+      "prompt_index": 59,
+      "promptIndex": 59,
+      "promptHash": "d946c5f49506",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "我们想找能提供账期服务的香蕉供应商，都乐和洪九果品账期多久？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:22:52.169Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q59/prompt.txt",
+        "error": "q59/deepseek_error.json"
+      }
+    }
+  ]
+}

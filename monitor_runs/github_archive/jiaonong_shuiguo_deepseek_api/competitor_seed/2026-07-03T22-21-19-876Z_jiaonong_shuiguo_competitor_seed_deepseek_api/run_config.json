@@ -1,0 +1,19 @@
+{
+  "createdAt": "2026-07-03T22:21:19.877Z",
+  "runId": "2026-07-03T22-21-19-876Z_jiaonong_shuiguo_competitor_seed_deepseek_api",
+  "runLabel": "jiaonong_shuiguo_competitor_seed_deepseek_api",
+  "brandSlug": "jiaonong_shuiguo",
+  "promptFile": "proposal_excellence/佳农水果/jiaonong_shuiguo_competitor_seed_prompts.txt",
+  "configFile": "proposal_excellence/佳农水果/jiaonong_shuiguo_geo_config.json",
+  "promptCount": 80,
+  "selectedCount": 80,
+  "startIndex": 1,
+  "maxPrompts": 0,
+  "model": "deepseek-v4-flash",
+  "baseUrl": "https://api.deepseek.com",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "maxTokens": 2400,
+  "thinking": "disabled",
+  "temperature": null,
+  "sourceArchiveMode": "archive source-like fields only when the API response includes them"
+}
