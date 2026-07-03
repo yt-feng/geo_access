@@ -1,0 +1,37 @@
+{
+  "questionId": "q85",
+  "prompt": "线上卖水果，品牌背书、产地说明和检测报告哪个更能提升转化？",
+  "createdAt": "2026-07-03T22:20:01.855Z",
+  "summary": [
+    {
+      "questionId": "q85",
+      "prompt_index": 85,
+      "promptIndex": 85,
+      "promptHash": "8163fe975a9e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "线上卖水果，品牌背书、产地说明和检测报告哪个更能提升转化？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:01.855Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q85/prompt.txt",
+        "error": "q85/deepseek_error.json"
+      }
+    }
+  ]
+}

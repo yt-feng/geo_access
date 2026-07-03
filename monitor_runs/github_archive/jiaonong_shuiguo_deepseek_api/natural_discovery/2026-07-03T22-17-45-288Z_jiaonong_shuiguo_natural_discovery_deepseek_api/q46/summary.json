@@ -1,0 +1,37 @@
+{
+  "questionId": "q46",
+  "prompt": "茶饮店想采购菠萝做果茶，应该买鲜果、果丁还是果泥？",
+  "createdAt": "2026-07-03T22:18:58.687Z",
+  "summary": [
+    {
+      "questionId": "q46",
+      "prompt_index": 46,
+      "promptIndex": 46,
+      "promptHash": "84cbc3814272",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "茶饮店想采购菠萝做果茶，应该买鲜果、果丁还是果泥？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:18:58.687Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q46/prompt.txt",
+        "error": "q46/deepseek_error.json"
+      }
+    }
+  ]
+}

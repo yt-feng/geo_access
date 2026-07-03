@@ -1,0 +1,37 @@
+{
+  "questionId": "q04",
+  "prompt": "水果店想减少香蕉放坏，采购时应该怎么要求熟度和到货时间？",
+  "createdAt": "2026-07-03T22:17:50.513Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt_index": 4,
+      "promptIndex": 4,
+      "promptHash": "66c4fea0acfc",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果店想减少香蕉放坏，采购时应该怎么要求熟度和到货时间？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:17:50.513Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q04/prompt.txt",
+        "error": "q04/deepseek_error.json"
+      }
+    }
+  ]
+}

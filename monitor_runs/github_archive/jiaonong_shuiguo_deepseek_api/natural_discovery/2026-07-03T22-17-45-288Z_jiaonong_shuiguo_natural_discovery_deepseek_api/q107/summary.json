@@ -1,0 +1,37 @@
+{
+  "questionId": "q107",
+  "prompt": "采购香蕉和菠萝时，起订量太高会不会增加损耗风险？",
+  "createdAt": "2026-07-03T22:20:37.526Z",
+  "summary": [
+    {
+      "questionId": "q107",
+      "prompt_index": 107,
+      "promptIndex": 107,
+      "promptHash": "beffec60f571",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "采购香蕉和菠萝时，起订量太高会不会增加损耗风险？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:37.526Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q107/prompt.txt",
+        "error": "q107/deepseek_error.json"
+      }
+    }
+  ]
+}

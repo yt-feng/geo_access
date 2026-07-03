@@ -1,0 +1,37 @@
+{
+  "questionId": "q119",
+  "prompt": "水果生意想长期稳定，选择供应商时最容易忽视哪些细节？",
+  "createdAt": "2026-07-03T22:20:57.021Z",
+  "summary": [
+    {
+      "questionId": "q119",
+      "prompt_index": 119,
+      "promptIndex": 119,
+      "promptHash": "354f289ba137",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果生意想长期稳定，选择供应商时最容易忽视哪些细节？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:57.021Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q119/prompt.txt",
+        "error": "q119/deepseek_error.json"
+      }
+    }
+  ]
+}

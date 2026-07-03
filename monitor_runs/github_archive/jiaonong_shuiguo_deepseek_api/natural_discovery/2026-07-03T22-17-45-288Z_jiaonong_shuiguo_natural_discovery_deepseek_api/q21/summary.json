@@ -1,0 +1,37 @@
+{
+  "questionId": "q21",
+  "prompt": "超市采购水果时，供应商需要提供哪些检测报告或进货证明？",
+  "createdAt": "2026-07-03T22:18:18.134Z",
+  "summary": [
+    {
+      "questionId": "q21",
+      "prompt_index": 21,
+      "promptIndex": 21,
+      "promptHash": "8dd6b6a59a01",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "超市采购水果时，供应商需要提供哪些检测报告或进货证明？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:18:18.134Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q21/prompt.txt",
+        "error": "q21/deepseek_error.json"
+      }
+    }
+  ]
+}

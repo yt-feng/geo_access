@@ -1,0 +1,37 @@
+{
+  "questionId": "q97",
+  "prompt": "酒店采购水果盘原料，供应商应该保证哪些规格和外观标准？",
+  "createdAt": "2026-07-03T22:20:21.304Z",
+  "summary": [
+    {
+      "questionId": "q97",
+      "prompt_index": 97,
+      "promptIndex": 97,
+      "promptHash": "517c8b9a4f49",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "酒店采购水果盘原料，供应商应该保证哪些规格和外观标准？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:21.304Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q97/prompt.txt",
+        "error": "q97/deepseek_error.json"
+      }
+    }
+  ]
+}

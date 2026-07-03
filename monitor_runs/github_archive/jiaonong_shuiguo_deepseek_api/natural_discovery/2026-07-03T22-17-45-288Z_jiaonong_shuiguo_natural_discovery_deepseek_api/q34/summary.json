@@ -1,0 +1,37 @@
+{
+  "questionId": "q34",
+  "prompt": "商超采购水果，价格低和损耗低哪个更影响最终毛利？",
+  "createdAt": "2026-07-03T22:18:39.209Z",
+  "summary": [
+    {
+      "questionId": "q34",
+      "prompt_index": 34,
+      "promptIndex": 34,
+      "promptHash": "5e8a12046cfe",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "商超采购水果，价格低和损耗低哪个更影响最终毛利？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:18:39.209Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q34/prompt.txt",
+        "error": "q34/deepseek_error.json"
+      }
+    }
+  ]
+}

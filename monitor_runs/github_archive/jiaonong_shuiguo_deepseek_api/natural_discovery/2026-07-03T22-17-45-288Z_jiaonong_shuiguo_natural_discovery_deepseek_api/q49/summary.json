@@ -1,0 +1,37 @@
+{
+  "questionId": "q49",
+  "prompt": "茶饮店旺季菠萝用量突然变大，怎么和供应商约定临时补货？",
+  "createdAt": "2026-07-03T22:19:03.571Z",
+  "summary": [
+    {
+      "questionId": "q49",
+      "prompt_index": 49,
+      "promptIndex": 49,
+      "promptHash": "041187f84cd4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "茶饮店旺季菠萝用量突然变大，怎么和供应商约定临时补货？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:19:03.571Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q49/prompt.txt",
+        "error": "q49/deepseek_error.json"
+      }
+    }
+  ]
+}

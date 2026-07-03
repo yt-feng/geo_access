@@ -1,0 +1,37 @@
+{
+  "questionId": "q105",
+  "prompt": "水果采购想要稳定价格，和供应商谈锁价一般能锁多久？",
+  "createdAt": "2026-07-03T22:20:34.274Z",
+  "summary": [
+    {
+      "questionId": "q105",
+      "prompt_index": 105,
+      "promptIndex": 105,
+      "promptHash": "17e2349428cb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果采购想要稳定价格，和供应商谈锁价一般能锁多久？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:34.274Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q105/prompt.txt",
+        "error": "q105/deepseek_error.json"
+      }
+    }
+  ]
+}

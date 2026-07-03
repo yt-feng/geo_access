@@ -1,0 +1,37 @@
+{
+  "questionId": "q113",
+  "prompt": "水果供应商能提供门店陈列支持，对商超和水果店有多大帮助？",
+  "createdAt": "2026-07-03T22:20:47.217Z",
+  "summary": [
+    {
+      "questionId": "q113",
+      "prompt_index": 113,
+      "promptIndex": 113,
+      "promptHash": "ade12ecf94d0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果供应商能提供门店陈列支持，对商超和水果店有多大帮助？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:47.217Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q113/prompt.txt",
+        "error": "q113/deepseek_error.json"
+      }
+    }
+  ]
+}

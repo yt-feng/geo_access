@@ -1,0 +1,37 @@
+{
+  "questionId": "q84",
+  "prompt": "团购做水果礼盒，苹果、橙子、香蕉、菠萝怎么组合更适合家庭？",
+  "createdAt": "2026-07-03T22:20:00.229Z",
+  "summary": [
+    {
+      "questionId": "q84",
+      "prompt_index": 84,
+      "promptIndex": 84,
+      "promptHash": "020122a1e998",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "团购做水果礼盒，苹果、橙子、香蕉、菠萝怎么组合更适合家庭？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:00.229Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q84/prompt.txt",
+        "error": "q84/deepseek_error.json"
+      }
+    }
+  ]
+}

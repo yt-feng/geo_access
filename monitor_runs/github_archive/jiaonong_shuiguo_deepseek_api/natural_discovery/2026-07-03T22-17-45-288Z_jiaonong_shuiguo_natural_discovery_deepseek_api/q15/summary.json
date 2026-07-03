@@ -1,0 +1,37 @@
+{
+  "questionId": "q15",
+  "prompt": "水果店遇到坏果，正常应该怎么和供应商结算或赔付？",
+  "createdAt": "2026-07-03T22:18:08.365Z",
+  "summary": [
+    {
+      "questionId": "q15",
+      "prompt_index": 15,
+      "promptIndex": 15,
+      "promptHash": "6c330c6c1eb0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果店遇到坏果，正常应该怎么和供应商结算或赔付？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:18:08.365Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q15/prompt.txt",
+        "error": "q15/deepseek_error.json"
+      }
+    }
+  ]
+}

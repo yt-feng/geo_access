@@ -1,0 +1,37 @@
+{
+  "questionId": "q118",
+  "prompt": "水果采购想减少中间环节，找产地、找品牌方还是找区域经销商更合适？",
+  "createdAt": "2026-07-03T22:20:55.404Z",
+  "summary": [
+    {
+      "questionId": "q118",
+      "prompt_index": 118,
+      "promptIndex": 118,
+      "promptHash": "de54bdaf8dff",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果采购想减少中间环节，找产地、找品牌方还是找区域经销商更合适？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:20:55.404Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q118/prompt.txt",
+        "error": "q118/deepseek_error.json"
+      }
+    }
+  ]
+}

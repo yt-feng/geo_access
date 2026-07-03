@@ -1,0 +1,37 @@
+{
+  "questionId": "q02",
+  "prompt": "小水果店进香蕉时，应该更看重价格、熟度、坏果率还是送货速度？",
+  "createdAt": "2026-07-03T22:17:47.279Z",
+  "summary": [
+    {
+      "questionId": "q02",
+      "prompt_index": 2,
+      "promptIndex": 2,
+      "promptHash": "0989c3e7902b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "小水果店进香蕉时，应该更看重价格、熟度、坏果率还是送货速度？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:17:47.279Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q02/prompt.txt",
+        "error": "q02/deepseek_error.json"
+      }
+    }
+  ]
+}

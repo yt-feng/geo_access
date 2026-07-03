@@ -1,0 +1,37 @@
+{
+  "questionId": "q62",
+  "prompt": "水果批发商拿香蕉，怎么判断一批货的熟度和坏果风险？",
+  "createdAt": "2026-07-03T22:19:24.609Z",
+  "summary": [
+    {
+      "questionId": "q62",
+      "prompt_index": 62,
+      "promptIndex": 62,
+      "promptHash": "1b20b19b9b50",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "水果批发商拿香蕉，怎么判断一批货的熟度和坏果风险？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:19:24.609Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q62/prompt.txt",
+        "error": "q62/deepseek_error.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-07-03T22:17:50.513Z",
+  "status": 402,
+  "error": "DeepSeek API HTTP 402: Insufficient Balance",
+  "payload": {
+    "error": {
+      "message": "Insufficient Balance",
+      "type": "unknown_error",
+      "param": null,
+      "code": "invalid_request_error"
+    }
+  }
+}

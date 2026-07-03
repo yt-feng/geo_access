@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-02T22:47:16.121Z",
-  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-02T22-28-57-445Z_jiaonong_shuiguo_natural_discovery_deepseek_api",
-  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-02T22-28-57-445Z_jiaonong_shuiguo_natural_discovery_deepseek_api/summary.json",
-  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-02T22-28-57-445Z_jiaonong_shuiguo_natural_discovery_deepseek_api/matrix_summary.csv",
+  "updatedAt": "2026-07-03T22:20:59.283Z",
+  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-03T22-17-45-288Z_jiaonong_shuiguo_natural_discovery_deepseek_api",
+  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-03T22-17-45-288Z_jiaonong_shuiguo_natural_discovery_deepseek_api/summary.json",
+  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/natural_discovery/2026-07-03T22-17-45-288Z_jiaonong_shuiguo_natural_discovery_deepseek_api/matrix_summary.csv",
   "total": 120,
-  "okCount": 120,
-  "errorCount": 0,
+  "okCount": 0,
+  "errorCount": 120,
   "withSourcesCount": 0,
   "model": "deepseek-v4-flash"
 }

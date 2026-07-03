@@ -1,0 +1,37 @@
+{
+  "questionId": "q45",
+  "prompt": "连锁超市想和水果供应商签年度合同，哪些条款最容易踩坑？",
+  "createdAt": "2026-07-03T22:18:57.058Z",
+  "summary": [
+    {
+      "questionId": "q45",
+      "prompt_index": 45,
+      "promptIndex": 45,
+      "promptHash": "4c5e78074aea",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "error",
+      "prompt": "连锁超市想和水果供应商签年度合同，哪些条款最容易踩坑？",
+      "model": "deepseek-v4-flash",
+      "textLength": 0,
+      "text_length": 0,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": null,
+      "prompt_tokens": "",
+      "completion_tokens": "",
+      "total_tokens": "",
+      "latencyMs": "",
+      "latency_ms": "",
+      "createdAt": "2026-07-03T22:18:57.058Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "error": "DeepSeek API HTTP 402: Insufficient Balance",
+      "files": {
+        "prompt": "q45/prompt.txt",
+        "error": "q45/deepseek_error.json"
+      }
+    }
+  ]
+}
