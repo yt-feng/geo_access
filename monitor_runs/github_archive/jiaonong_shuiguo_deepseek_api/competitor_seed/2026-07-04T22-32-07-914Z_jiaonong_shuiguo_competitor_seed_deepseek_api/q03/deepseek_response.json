@@ -1,0 +1,28 @@
+{
+  "id": "196b3645-2caf-441b-b6d4-c651c03b7c31",
+  "object": "chat.completion",
+  "created": 1783204340,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时获取洪九果品和鑫荣懋最新批次香蕉的具体质量数据或损耗统计。水果的到货损耗受品种、采摘成熟度、运输冷链、仓储时间、渠道库存周转等多重因素影响，不同地区、不同时间段的表现可能存在较大差异。\n\n建议您通过以下方式获取可靠判断：\n\n1. **查看近期客户评价或行业报告**：在批发平台（如水果批发市场、电商B2B平台）查看下游经销商或采购商的公开反馈，重点关注损耗率相关评论。\n2. **直接咨询两家公司的销售或售后**：询问他们针对您所在地区、预期的运输距离和仓储条件，是否有推荐的成熟度标准或到货损耗承诺。\n3. **小批量试单**：如果条件允许，对两家公司各试采一小批，在同一批次下对比实际到货新鲜度、硬度、磕碰比例及后续常温或冷库中的货架期表现。\n\n如果您已经有具体的采购场景（如水果店、社区团购、批发商），可以补充更多信息，我能帮您分析潜在风险和评估要点，但无法给出笼统的“哪个更好”的结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 242,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

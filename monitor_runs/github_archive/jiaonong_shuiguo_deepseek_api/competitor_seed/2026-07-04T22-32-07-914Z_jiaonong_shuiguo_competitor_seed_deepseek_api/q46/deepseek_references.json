@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:36:45.534Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "做生鲜电商，香蕉需要产地直发，都乐和鑫荣懋哪家物流更快？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

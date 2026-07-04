@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:36:52.314Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店需要香蕉小包装，都乐和洪九果品有没有定制包装服务？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

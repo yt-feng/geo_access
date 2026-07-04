@@ -1,0 +1,50 @@
+{
+  "questionId": "q62",
+  "prompt": "茶饮店采购菠萝原料，需要农残检测报告，都乐和鑫荣懋能提供吗？",
+  "createdAt": "2026-07-04T22:38:38.829Z",
+  "summary": [
+    {
+      "questionId": "q62",
+      "prompt_index": 62,
+      "promptIndex": 62,
+      "promptHash": "5b193170b7e5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店采购菠萝原料，需要农残检测报告，都乐和鑫荣懋能提供吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 433,
+      "text_length": 433,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 252,
+        "total_tokens": 316,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 252,
+      "total_tokens": 316,
+      "latencyMs": 3819,
+      "latency_ms": 3819,
+      "createdAt": "2026-07-04T22:38:38.829Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q62/prompt.txt",
+        "answer": "q62/deepseek.txt",
+        "response": "q62/deepseek_response.json",
+        "sources": "q62/deepseek_sources.json",
+        "references": "q62/deepseek_references.json"
+      }
+    }
+  ]
+}

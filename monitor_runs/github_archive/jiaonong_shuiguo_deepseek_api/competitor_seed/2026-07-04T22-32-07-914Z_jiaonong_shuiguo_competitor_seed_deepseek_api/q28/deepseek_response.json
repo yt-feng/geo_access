@@ -1,0 +1,28 @@
+{
+  "id": "1c3eba1e-72fe-4549-8a4b-3bf01d11e4b4",
+  "object": "chat.completion",
+  "created": 1783204494,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供实时的、具体的市场价格对比数据，因为价格会随季节、产地、运输成本和批发商议价等因素频繁变动。建议您：\n\n1. **直接联系两家公司的销售代表**，获取最新批发报价单（通常需要提供采购量、规格等）。\n2. **对比到岸成本**：除了单价，还需比较物流、损耗率、账期、返利、促销支持等附加成本。\n3. **关注产地源头**：都乐多主打美国/新西兰苹果，鑫荣懋有智利/法国等产地，不同产地的规格和价格差距较大。\n4. **实地调研发达市场**：如上海辉展、广州江南等一级批发市场可以反映竞争激烈的真实价格区间。\n\n如果您能提供具体采购量、规格（如果径、品种）和到货城市，我可以帮您拆解影响竞争力的核心因素。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 186,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

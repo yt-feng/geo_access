@@ -1,0 +1,28 @@
+{
+  "id": "cec817af-1eb5-4f47-b80f-bf4de634b0f0",
+  "object": "chat.completion",
+  "created": 1783204470,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，**都乐（Dole）** 在香蕉的规格分级上比 **鑫荣懋（Joywin）** 更细、更严格。\n\n主要区别如下：\n\n1. **都乐的分级体系**：采用国际通行的标准，例如按照香蕉的**果指长度、果把大小、成熟度（颜色等级）** 进行精细划分。常见规格包括：18千克/箱（不同长度的果指对应不同等级，如小果、中果、大果），并且对果形、表皮瑕疵有明确分级。\n\n2. **鑫荣懋的分级体系**：虽然也有分级（如按大小、成熟度），但通常比都乐宽松，更多以**常规超市采购标准**（如果指长度≥15厘米、成熟度7-8成）为主，缺少都乐那种细致的外观和尺寸梯度。\n\n**实际建议**：\n- 如果你需要**高规格、整齐划一、适合终端零售展示**（精品超市、高端水果店），都乐的分级更细、更适合。\n- 如果你需要**性价比高、批量采购**，鑫荣懋的分级能满足基本需求，但精细度不如都乐。\n\n采购时可以对比同规格（如都乐的“8-9根/把”与鑫荣懋的“普通把”），观察果指长度、弯曲度等差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 289,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

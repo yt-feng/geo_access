@@ -1,0 +1,28 @@
+{
+  "id": "d3c667cf-b74d-4bff-916b-b19099ed5836",
+  "object": "chat.completion",
+  "created": 1783204403,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开数据，鑫荣懋的冷链物流网络覆盖城市数量多于洪九果品。鑫荣懋在国内拥有超过30个冷链物流中心，服务覆盖全国主要一二线城市及部分三线城市；洪九果品主要聚焦于水果进出口及批发，冷链配送网络覆盖约20余个核心城市，多集中在华南、西南及华东地区。\n\n建议您直接联系两家公司确认最新覆盖城市清单，因为具体覆盖范围可能随业务调整而变化。如果您的需求集中在二三线城市，建议优先核实鑫荣懋是否能直达。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 116,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

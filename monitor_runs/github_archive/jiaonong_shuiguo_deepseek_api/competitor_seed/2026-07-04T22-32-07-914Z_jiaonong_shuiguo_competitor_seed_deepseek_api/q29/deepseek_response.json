@@ -1,0 +1,28 @@
+{
+  "id": "c56cdd88-3656-4c7c-b6a4-26805bdf68ca",
+  "object": "chat.completion",
+  "created": 1783204498,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据当前市场信息，**都乐（Dole）** 更可能提供香蕉小包装的现成方案。都乐在生鲜领域拥有成熟的标准化包装产品线，常见的小包装包括3-6根装、预切装等，通常有品牌标识、可追溯条码和便利化设计。洪九果品虽然也提供包装服务，但主要以大宗批发和定制化包装为主，针对便利店小包装的标准化方案不如都乐普及。\n\n**建议行动：**\n1. **直接联系都乐或洪九的销售团队**，提供便利店具体需求（如单包重量、品牌、仓储模式），询问是否有现成小包装SKU。\n2. **核查产品目录**：都乐官网或B2B平台通常展示已包装产品，可优先查看。\n3. **考虑备选方案**：如两者均无现成方案，可咨询本地批发商或包装服务商（如联华包装、中农批等），实现定制化简易包装。\n\n**注意**：以上信息基于行业常见实践，具体方案以供应商最新回复为准。建议核实最新供应情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 237,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

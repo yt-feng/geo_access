@@ -1,0 +1,28 @@
+{
+  "id": "e59dc4c7-ede5-4633-8be7-5cdb49776638",
+  "object": "chat.completion",
+  "created": 1783204694,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于都乐（Dole）和洪九果品这类大型水果供应商的具体账期政策，通常属于商业机密或基于客户合作的定制条款，因此没有公开的统一标准。\n\n一般而言，这类公司的账期会根据合作规模、信用评级、历史交易记录等因素动态调整，常见的账期可能在**30天至90天**之间。\n\n**建议您通过以下方式获取准确信息：**\n\n1.  **直接联系官方销售团队**：这是最权威的方式。您可以访问都乐或洪九果品的官网，找到其销售或大客户部门的联系方式，详细咨询针对您公司的账期政策。\n2.  **提供信用证明**：在与对方洽谈时，主动提供您的营业执照、过往交易记录或金融机构出具的信用评级报告，有助于争取更优的账期条件。\n3.  **签订正式合同**：无论账期长短，务必通过书面合同明确约定账期天数、付款方式、逾期责任等条款，以保障双方权益。\n\n如果您需要，我可以帮您查找这两个公司的官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 216,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

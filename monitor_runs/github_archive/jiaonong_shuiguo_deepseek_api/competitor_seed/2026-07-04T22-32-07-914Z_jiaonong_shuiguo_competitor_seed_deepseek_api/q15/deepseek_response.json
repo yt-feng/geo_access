@@ -1,0 +1,28 @@
+{
+  "id": "5adad31a-1fb7-4ac6-9911-975fe1e88912",
+  "object": "chat.completion",
+  "created": 1783204417,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joy Wing Mau）外，以下进口苹果品牌在中国市场较为常见且口碑较好，供您参考：\n\n1. **爱妃（Envy）**  \n   - 新西兰品牌，以甜脆多汁、果肉不易氧化著称，适合高端消费场景。\n\n2. **爵士（Jazz）**  \n   - 新西兰品种，果皮薄、口感紧实，酸甜平衡，适合鲜食。\n\n3. **红玫瑰（Pacific Rose）**  \n   - 新西兰培育，果肉细腻、甜度高，有淡淡玫瑰香气。\n\n4. **青森（Aomori）**  \n   - 日本品牌，主推富士系列（如“世界一号”），以香甜、果核小为特点，价格较高。\n\n5. **皇后（Queen）**  \n   - 新西兰品牌，主打皇家嘎啦（Royal Gala）等品种，口感脆甜。\n\n6. **南非苹果（如Fuji、Granny Smith）**  \n   - 部分南非品牌（如Capespan、Pomefresh）的富士或青苹果，性价比高，适合家庭日常。\n\n**建议**：  \n- 进口苹果品牌通常通过大型商超（如山姆、盒马、Ole’）或电商平台（天猫、京东）销售，可注意查看产地标识。  \n- 购买时关注“GAP（良好农业规范）”认证或官方溯源信息，降低假货风险。  \n- 若预算有限，可考虑国产高端品牌如“王林”、“维纳斯黄金”，品质接近部分进口品种。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 340,
+    "total_tokens": 401,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

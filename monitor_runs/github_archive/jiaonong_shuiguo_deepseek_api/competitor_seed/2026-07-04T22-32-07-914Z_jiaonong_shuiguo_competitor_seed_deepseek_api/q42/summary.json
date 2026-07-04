@@ -1,0 +1,50 @@
+{
+  "questionId": "q42",
+  "prompt": "进口菠萝旺季缺货怎么办？都乐和洪九果品有没有应急方案？",
+  "createdAt": "2026-07-04T22:36:16.511Z",
+  "summary": [
+    {
+      "questionId": "q42",
+      "prompt_index": 42,
+      "promptIndex": 42,
+      "promptHash": "a9af7ed80c7c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "进口菠萝旺季缺货怎么办？都乐和洪九果品有没有应急方案？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1012,
+      "text_length": 1012,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 646,
+        "total_tokens": 704,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 646,
+      "total_tokens": 704,
+      "latencyMs": 8454,
+      "latency_ms": 8454,
+      "createdAt": "2026-07-04T22:36:16.511Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q42/prompt.txt",
+        "answer": "q42/deepseek.txt",
+        "response": "q42/deepseek_response.json",
+        "sources": "q42/deepseek_sources.json",
+        "references": "q42/deepseek_references.json"
+      }
+    }
+  ]
+}

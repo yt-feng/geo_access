@@ -1,0 +1,28 @@
+{
+  "id": "6a125d0d-f39b-41a7-ba67-2520e3e280a7",
+  "object": "chat.completion",
+  "created": 1783204723,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的都乐和洪九果品是否有散装香蕉小包装选项，我需要说明：作为AI助手，我无法实时查询这两家公司的具体产品库存或散装采购政策，且无法提供未经核实的联系方式或链接。\n\n通常情况下，大型水果品牌如都乐（Dole）和洪九果品（Hongjiu）在社区团购渠道中主要提供预包装标准化产品，但散装（如按公斤或箱装）供应需直接联系其区域销售经理或批发部门确认。建议您：\n\n1. **直接联系官方客服**：通过都乐或洪九果品的官方网站或官方合作平台（如本地批发市场代表）询问散装小包装定制选项。\n2. **咨询本地批发市场**：联系您所在城市的果品批发市场或社区团购供应商，他们可能提供散装香蕉的灵活包装服务。\n3. **确认最小起订量**：如果对方提供散装，需问清最小订单量（如整箱或按托计算），以及是否支持分装为小包装。\n\n由于我无法核实文件的实时性，建议您以官方渠道的答复为准。如需进一步协助（如包装规格推荐），我会尽力提供通用参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 256,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

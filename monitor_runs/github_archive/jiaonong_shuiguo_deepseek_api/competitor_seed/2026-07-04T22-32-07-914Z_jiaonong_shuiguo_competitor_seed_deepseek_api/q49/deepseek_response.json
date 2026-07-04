@@ -1,0 +1,28 @@
+{
+  "id": "82e453ba-c310-49eb-94ba-9bad308d5436",
+  "object": "chat.completion",
+  "created": 1783204629,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我的知识库，都乐（Dole）和鑫荣懋（Joy Wing Mau）在客户服务模式上存在差异。通常，**大型企业级合作伙伴**（如连锁超市、餐饮集团）可能获得**专岗对接服务**，而中小型客户可能更依赖通用客服或销售团队。\n\n- **都乐**：作为国际品牌，对重点客户（如大型零售、长期合作企业）会安排专属客户经理或服务团队，但需评估客户订单规模或合作深度。\n- **鑫荣懋**：作为国内头部水果供应链企业，对战略客户（如大型电商平台、商超）同样提供专人服务，但一般需通过商务谈判确认。\n\n**建议**：\n1. 直接联系两家公司的销售团队，明确说明“需专岗对接”的需求（包括业务量、合作期限等）。\n2. 要求对方提供书面服务协议，确认是否配备**专属客户经理**及响应时效。\n\n如需进一步帮助，可提供更多业务背景（如年采购量、行业类型），我能给出更精准的对接策略。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 228,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

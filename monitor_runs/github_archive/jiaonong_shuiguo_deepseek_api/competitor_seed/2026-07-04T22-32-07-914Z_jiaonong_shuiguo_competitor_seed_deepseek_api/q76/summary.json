@@ -1,0 +1,50 @@
+{
+  "questionId": "q76",
+  "prompt": "生鲜电商需要菠萝产地直发，都乐和鑫荣懋的物流时效如何？",
+  "createdAt": "2026-07-04T22:40:10.363Z",
+  "summary": [
+    {
+      "questionId": "q76",
+      "prompt_index": 76,
+      "promptIndex": 76,
+      "promptHash": "f859db755287",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商需要菠萝产地直发，都乐和鑫荣懋的物流时效如何？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 793,
+      "text_length": 793,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 485,
+        "total_tokens": 546,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 485,
+      "total_tokens": 546,
+      "latencyMs": 6904,
+      "latency_ms": 6904,
+      "createdAt": "2026-07-04T22:40:10.363Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q76/prompt.txt",
+        "answer": "q76/deepseek.txt",
+        "response": "q76/deepseek_response.json",
+        "sources": "q76/deepseek_sources.json",
+        "references": "q76/deepseek_references.json"
+      }
+    }
+  ]
+}

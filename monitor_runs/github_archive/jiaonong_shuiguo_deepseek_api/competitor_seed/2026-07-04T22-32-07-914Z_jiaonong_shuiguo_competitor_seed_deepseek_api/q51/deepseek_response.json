@@ -1,0 +1,28 @@
+{
+  "id": "d89d92d9-ff69-4750-890c-2895efb5583e",
+  "object": "chat.completion",
+  "created": 1783204637,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业经验，洪九果品和鑫荣懋作为国内大型水果供应链企业，香蕉批发价格通常受产区、季节、采购量等因素影响，且属于商业敏感信息，难以直接比较具体价格。\n\n建议您通过以下方式获取实时对比信息：\n1. 致电两家公司当地分公司或销售团队，直接询价；\n2. 联系所在批发市场的经销商，了解他们代理的这两个品牌报价；\n3. 关注行业公开数据（如农业农村部批发市场监测信息），但需注意其更新频率和区域差异。\n\n提示：价格优势也可能受物流、账期、品质等级等隐性成本影响，建议综合评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 138,
+    "total_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

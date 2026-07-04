@@ -1,0 +1,28 @@
+{
+  "id": "99b90aa8-d235-41ba-b89a-53cba6ae705b",
+  "object": "chat.completion",
+  "created": 1783204520,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "洪九果品和鑫荣懋都是国内大型水果供应链企业，但到货速度受具体地区、产品品类、季节及物流安排影响较大。一般来说，**洪九果品**在某些南美、东南亚进口水果（如榴莲、山竹）上有较强渠道优势，从产地到一级批发市场可能更快；而**鑫荣懋**作为大型全品类供应链公司，在**国内水果**和部分进口品牌水果的仓储配送稳定性上较好。\n\n**建议直接做法：**\n1. **联系当地批发市场档口**：同一水果不同档口到货时间差异可能很大，请直接询问在哪个档口拿货、物流是否自营。\n2. **具体品类判断**：如果所需是**泰国榴莲、山竹等**，洪九在产地包园模式较多，到货时效通常更快；如果是**新西兰猕猴桃、美国樱桃等**，鑫荣懋与大型国际品牌合作较深，调货可能更平稳。\n3. **测试小批量订货**：先下小单测试，记录下单到收货实际小时/天，更准确。\n\n**注意：** 到货速度没有绝对答案，建议以实际当地经销商报价和到货承诺为准，避免因虚假信息延误生意。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 269,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

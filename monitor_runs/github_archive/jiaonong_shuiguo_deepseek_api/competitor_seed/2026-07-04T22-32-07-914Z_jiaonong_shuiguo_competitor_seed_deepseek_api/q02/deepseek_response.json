@@ -1,0 +1,28 @@
+{
+  "id": "695187bb-ff8f-4a15-9013-fea6bc56e1aa",
+  "object": "chat.completion",
+  "created": 1783204336,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）外，目前市场上能稳定供应菠萝的品牌还包括：\n1. **佳沃（Joyvio）**：国内大型果蔬品牌，菠萝供应稳定，常见于电商和超市。\n2. **佳沛（Zespri）**：以奇异果闻名，但也供应高品质菠萝，供应链较成熟。\n3. **鑫荣懋（Xinrongmao）**：知名水果供应链企业，旗下有菠萝产品线，覆盖多个渠道。\n4. **美莓（Meimei）**：专注热带水果，菠萝常年在售。\n5. **本地或区域品牌**：如广东“徐闻菠萝”产区、海南“文昌菠萝”等，部分产地直供品牌（如“海南农垦”）通过电商平台可稳定获取。\n\n建议优先选择有电商直营或大型商超连锁合作的品牌，如京东自营、盒马鲜生、山姆会员店等渠道，货源和品质更有保障。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 204,
+    "total_tokens": 262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
