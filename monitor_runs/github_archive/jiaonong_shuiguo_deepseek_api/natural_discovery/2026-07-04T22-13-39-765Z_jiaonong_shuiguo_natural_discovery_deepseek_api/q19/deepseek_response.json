@@ -1,0 +1,28 @@
+{
+  "id": "c8d81ce5-66a3-4ed1-9405-996539692a06",
+  "object": "chat.completion",
+  "created": 1783203397,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先关注**切果损耗**。因为超市卖菠萝时，消费者通常需要剥皮、去眼，损耗比例高（通常30%-40%），直接影响实际可食用量。其次关注**甜度**（通过按压果实弹性或闻香气判断，尾部更甜），**外观**（看果眼是否均匀、无霉斑、表皮橙黄自然）。**大小**不是关键因素，相同品种下中等个头更易成熟均匀。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 95,
+    "total_tokens": 152,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

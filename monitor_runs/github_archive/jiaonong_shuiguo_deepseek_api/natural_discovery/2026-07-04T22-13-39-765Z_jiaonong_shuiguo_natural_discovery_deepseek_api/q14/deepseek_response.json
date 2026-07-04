@@ -1,0 +1,28 @@
+{
+  "id": "fde1fa5d-0260-4563-ad14-2d6ea39d2a39",
+  "object": "chat.completion",
+  "created": 1783203352,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大多数供应商是愿意在周末促销时提供一定支持的，但这需要你主动沟通和协商。建议按以下步骤尝试：\n\n1. **明确需求量**：提前1-2周与供应商沟通，说明周末促销的计划、预计销量及对双方的好处（如清库存、增加曝光）。\n2. **争取价格支持**：直接询问是否有“周末特供价”或“满减补贴”，例如要求整箱采购价降低5%-10%，或提供“买一送一”活动的差价补贴。\n3. **物料支持**：询问是否可免费提供宣传海报、展架、试吃品、优惠券等。部分供应商会提供带有品牌logo的物料。\n4. **绑定条件**：可承诺主推其产品、设置专属堆头或同步线上推广（如美团、社群内宣传），以此换取支持。\n\n**小技巧**：提前对比2-3家供应商的答复，用“A供应商愿意给8%折扣和海报”作为谈判筹码。如果供应商回应“没预算”，可退一步要求“延长账期”或“退货权限”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 229,
+    "total_tokens": 284,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

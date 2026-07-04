@@ -1,0 +1,28 @@
+{
+  "id": "9ec0ec80-254a-4606-84b7-55b3582c362e",
+  "object": "chat.completion",
+  "created": 1783204237,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常水果采购合同中，坏果率超过 **3%-5%** 即可在合同中约定要求赔付。具体比例和赔付方式需根据水果品种（如易腐水果可能更高）、贮存条件、运输周期等因素协商确定。建议在合同中明确以下条款：\n\n1. **基准坏果率**：通常设定为3%（精品水果）到5%（常规水果），低于此标准视为合格。\n2. **超标赔付**：超出部分按 **单价乘以超出重量** 计算，或按 **采购总价的固定比例**（如超出1%赔付0.5%总价）。\n3. **验收期限**：约定收货后24-48小时内完成验货，逾期视为认可。\n4. **违约责任**：明确超过最高容忍率（如10%）可整批拒收。\n\n建议在合同中加入国际通用的 **《联合国国际货物销售合同公约》相关条款** 或引用 **国内《合同法》第一百一十一条**（质量不符合约定的违约责任）。必要时可委托第三方检测机构（如SGS）仲裁。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 218,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

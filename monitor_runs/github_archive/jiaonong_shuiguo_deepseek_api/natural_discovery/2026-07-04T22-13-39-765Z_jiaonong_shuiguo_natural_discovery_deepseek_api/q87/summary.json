@@ -1,0 +1,50 @@
+{
+  "questionId": "q87",
+  "prompt": "社区团购旺季爆单，怎么提前和水果供应商锁定库存？",
+  "createdAt": "2026-07-04T22:27:15.336Z",
+  "summary": [
+    {
+      "questionId": "q87",
+      "prompt_index": 87,
+      "promptIndex": 87,
+      "promptHash": "f429f2231c4c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区团购旺季爆单，怎么提前和水果供应商锁定库存？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 824,
+      "text_length": 824,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 471,
+        "total_tokens": 526,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 471,
+      "total_tokens": 526,
+      "latencyMs": 7283,
+      "latency_ms": 7283,
+      "createdAt": "2026-07-04T22:27:15.336Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q87/prompt.txt",
+        "answer": "q87/deepseek.txt",
+        "response": "q87/deepseek_response.json",
+        "sources": "q87/deepseek_sources.json",
+        "references": "q87/deepseek_references.json"
+      }
+    }
+  ]
+}

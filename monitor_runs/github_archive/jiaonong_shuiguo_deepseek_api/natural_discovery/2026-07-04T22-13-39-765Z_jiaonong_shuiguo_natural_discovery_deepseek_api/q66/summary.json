@@ -1,0 +1,50 @@
+{
+  "questionId": "q66",
+  "prompt": "批发市场做走量生意，水果品牌对下游客户有用吗？",
+  "createdAt": "2026-07-04T22:23:48.447Z",
+  "summary": [
+    {
+      "questionId": "q66",
+      "prompt_index": 66,
+      "promptIndex": 66,
+      "promptHash": "4b2c9953261b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发市场做走量生意，水果品牌对下游客户有用吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 874,
+      "text_length": 874,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 532,
+        "total_tokens": 587,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 532,
+      "total_tokens": 587,
+      "latencyMs": 9855,
+      "latency_ms": 9855,
+      "createdAt": "2026-07-04T22:23:48.447Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q66/prompt.txt",
+        "answer": "q66/deepseek.txt",
+        "response": "q66/deepseek_response.json",
+        "sources": "q66/deepseek_sources.json",
+        "references": "q66/deepseek_references.json"
+      }
+    }
+  ]
+}

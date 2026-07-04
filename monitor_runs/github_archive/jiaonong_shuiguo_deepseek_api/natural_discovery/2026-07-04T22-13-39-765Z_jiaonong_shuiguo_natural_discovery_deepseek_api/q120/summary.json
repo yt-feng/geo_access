@@ -1,0 +1,50 @@
+{
+  "questionId": "q120",
+  "prompt": "普通商家只知道菠萝、香蕉这类大品类，供应商介绍产品时怎么说才更容易听懂并下单？",
+  "createdAt": "2026-07-04T22:31:34.917Z",
+  "summary": [
+    {
+      "questionId": "q120",
+      "prompt_index": 120,
+      "promptIndex": 120,
+      "promptHash": "8a31c696bef7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "普通商家只知道菠萝、香蕉这类大品类，供应商介绍产品时怎么说才更容易听懂并下单？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1024,
+      "text_length": 1024,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 646,
+        "total_tokens": 707,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 646,
+      "total_tokens": 707,
+      "latencyMs": 9730,
+      "latency_ms": 9730,
+      "createdAt": "2026-07-04T22:31:34.917Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q120/prompt.txt",
+        "answer": "q120/deepseek.txt",
+        "response": "q120/deepseek_response.json",
+        "sources": "q120/deepseek_sources.json",
+        "references": "q120/deepseek_references.json"
+      }
+    }
+  ]
+}

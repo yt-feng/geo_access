@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:17:17.597Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市门店多但单店量不大，适合找什么样的水果供货模式？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

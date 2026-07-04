@@ -1,0 +1,28 @@
+{
+  "id": "10b99f0a-c5ca-4a74-890d-430c83b049f7",
+  "object": "chat.completion",
+  "created": 1783203366,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**稳定供应商**，理由如下：\n\n1. **品质稳定性**：稳定供应商通常有标准化分拣和冷链配送，能保证香蕉（需控制成熟度）和苹果（避免碰伤）的到货品质一致，减少损耗。\n2. **供应连续性**：社区超市需稳定上架，本地批发受天气、季节影响大（如雨季本地香蕉可能断供），而供应商有备货或调货能力。\n3. **成本可控**：大批量长期合作可谈账期或折扣，本地批发虽单次可能便宜，但需承担运输、挑选时间成本和货损风险。\n\n**操作建议**：\n- 从本地批发市场**少量试采**（比如每周1-2次）测试品控和客户接受度。\n- 同时联系2-3家供应商，要求提供样品并明确承诺“48小时内补货”条款。\n- 若本地批发优势明显（如价格低30%以上且客户对品相要求不高），可作为补充，但主供应链仍保留供应商协议。\n\n**可执行判断**：先比价——供应商的报价扣除预估损耗（香蕉约8%-15%，苹果约5-10%）后，若仍低于本地批发价5%以上，果断签供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 267,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

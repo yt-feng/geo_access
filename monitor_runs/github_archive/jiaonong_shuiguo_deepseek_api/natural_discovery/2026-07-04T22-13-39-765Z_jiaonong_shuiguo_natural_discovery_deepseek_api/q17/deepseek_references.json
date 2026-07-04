@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:16:12.735Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区超市进水果，怎么控制新鲜度和库存，不让货压在店里？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

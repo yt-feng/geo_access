@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:27:52.626Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店想上架香蕉，应该选择单根、小把还是整袋包装？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
