@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:44:03.883Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果有没有针对礼品团购的水果礼盒？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

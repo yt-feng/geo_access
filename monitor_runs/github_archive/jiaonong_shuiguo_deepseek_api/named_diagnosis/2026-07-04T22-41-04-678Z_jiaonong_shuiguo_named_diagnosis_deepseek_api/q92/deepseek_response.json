@@ -1,0 +1,28 @@
+{
+  "id": "45f12265-1e06-49c6-813b-b25f0a540c26",
+  "object": "chat.completion",
+  "created": 1783205437,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的促销合作，我建议您直接联系佳农公司的区域销售经理或市场部。根据行业常见做法，商超促销时供应商通常可以提供堆头陈列和试吃支持，但具体安排需协商。\n\n一般来说：\n- **堆头陈列**：可能涉及陈列位费用或合作促销计划，部分供应商会承担或分摊。\n- **试吃支持**：佳农作为品牌方，通常会提供试吃品或人员支持，但需确认是否收费。\n- **费用分担**：可能包括租金、物料费、人工费等，通常采用按销售提成或固定分摊模式。\n\n建议您：\n1. 确认佳农当地负责人的联系方式（可通过其官网或客服获取）。\n2. 明确促销时长、预期销量、场地条件，提出方案供对方评估。\n3. 准备合同条款，明确费用承担比例和结算方式。\n\n如果您已有初步方案，我可以帮您梳理沟通要点。如需，也可建议您参考同类竞品促销案例。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 211,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

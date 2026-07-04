@@ -1,0 +1,28 @@
+{
+  "id": "4ec98365-6a41-4636-adb0-8f8a1ab0bed3",
+  "object": "chat.completion",
+  "created": 1783204998,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会以及最近的新品情况，建议您通过以下方式获取最新、最准确的信息：\n\n1. **访问官方网站**：直接访问佳农水果的官方网站（如佳农集团官网），查看新闻中心、展会动态或产品介绍板块。\n2. **关注官方社交媒体**：在微信、微博等平台搜索“佳农水果”官方账号，获取最新发布的活动和新品信息。\n3. **联系客服**：通过官方客服电话或在线客服渠道直接咨询。\n4. **展会信息查询**：访问中国国际进口博览会（进博会）官方网站，查看往届或当届参展商名单，确认佳农水果是否参与。\n\n由于我的知识库具有时效性，无法实时提供当前年份的进博会参与情况和新品信息，建议您优先通过以上渠道核实。祝您顺利找到所需信息！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 180,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

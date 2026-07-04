@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:47:30.284Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们商超要搞促销，佳农水果能提供香蕉的促销支持吗？比如搭赠或降价补贴。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

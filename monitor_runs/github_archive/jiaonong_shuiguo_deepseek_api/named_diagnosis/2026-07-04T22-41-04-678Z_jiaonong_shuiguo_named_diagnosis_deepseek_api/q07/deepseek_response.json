@@ -1,0 +1,28 @@
+{
+  "id": "6eef6082-e975-4705-b5c8-353976b91173",
+  "object": "chat.completion",
+  "created": 1783204898,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的具体配送覆盖城市及是否配送到县城，我目前无法提供准确的实时信息。建议您直接联系佳农水果官方客服或查看其官网/APP的配送范围说明，以获得最准确的答复。如果您需要，我也可以帮您查找官方的联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 61,
+    "total_tokens": 116,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

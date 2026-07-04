@@ -1,0 +1,28 @@
+{
+  "id": "1f81c2dd-8b7f-4731-b78f-98e44b3e7f24",
+  "object": "chat.completion",
+  "created": 1783205217,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农主要销售新鲜水果和部分加工产品，但目前官方公开信息中未明确提到提供菠萝丁的定制加工服务。建议您直接联系佳农的销售或客服，咨询其是否支持根据客户需求（如切丁、规格、包装等）提供加工定制，或者是否已有预切菠萝丁产品在售。如果佳农无法提供，可以考虑联系其他专注水果加工或餐饮原料供应的厂商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 89,
+    "total_tokens": 152,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

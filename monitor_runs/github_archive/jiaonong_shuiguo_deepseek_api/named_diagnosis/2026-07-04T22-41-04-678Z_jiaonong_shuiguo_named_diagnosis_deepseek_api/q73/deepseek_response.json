@@ -1,0 +1,28 @@
+{
+  "id": "7e9291a4-8a68-40e4-b445-2a1700ea6790",
+  "object": "chat.completion",
+  "created": 1783205315,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类包括多种进口和国产苹果，例如嘎啦（Gala）、红富士（Fuji）、青苹果（Granny Smith）、蛇果（Red Delicious）等。针对您提到的进口嘎啦和红富士，佳农的进口嘎啦主要产地包括**美国（如华盛顿州）**、**新西兰**（如霍克斯湾地区）以及**智利**（具体产区如马乌莱大区）。进口红富士的产地通常来自**美国**（主要为华盛顿州）或**智利**（如中央山谷）。由于季节性供应链差异，建议您直接联系佳农的采购部门确认当前批次的具体产地，或查阅其官方渠道获取最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 149,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

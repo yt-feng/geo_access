@@ -1,0 +1,28 @@
+{
+  "id": "f5a390b5-f922-4554-af32-dc980d8506ee",
+  "object": "chat.completion",
+  "created": 1783205461,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果有对外开放的技术平台。具体信息如下：\n\n1. **开放平台名称**：佳农开放平台（Jianong Open Platform）\n2. **接口文档获取方式**：通常需要联系佳农的商务或技术对接团队，申请接入权限后，会提供接口文档（可能是PDF或在线文档）。目前没有公开的、可直接访问的在线文档链接。\n3. **申请渠道**：可以通过佳农官方网站的“合作咨询”入口，或联系其渠道运营人员（400热线或企业邮箱）。\n\n建议你先联系佳农水果的客户服务或销售团队，获取对接流程和API文档。通常生鲜平台的API对接需要签署合作协议，并完成一定测试流程。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 147,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "91da8c44-f5e6-4bfa-b3c9-4871b5a50a91",
+  "object": "chat.completion",
+  "created": 1783205354,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的香蕉产地溯源和GLOBALG.A.P.证书问题，我无法提供实时的商业信息或企业内部数据。不过，我可以给出一般性建议：\n\n1. **产地溯源**: 大型水果企业（如佳农）通常具备完善的供应链追溯体系，但能否追溯到具体农场，取决于其内部系统。建议您直接联系佳农的客户服务或销售代表，询问其香蕉产品的溯源能力，特别是能否提供农场的具体信息（如名称、地址）。\n\n2. **GLOBALG.A.P.证书**: 如果是正规商超采购要求，佳农作为大型供应商，其香蕉货源（尤其是进口或高端产品）通常应具备GLOBALG.A.P.等认证。您可以：\n   - 要求佳农提供该批次香蕉的**GLOBALG.A.P.证书复印件**（证书上会注明认证范围，可能覆盖到农场或种植基地）。\n   - 确认证书是否在有效期内，并通过GLOBALG.A.P.官网（www.globalgap.org）的数据库验证证书编号。\n   - 若佳农无法直接提供，可能其产品未完全认证，需进一步协商替代方案（如其他合规认证或产地证明）。\n\n3. **行动建议**:\n   - 在采购合同或协议中明确要求“提供可追溯至具体农场的生产记录”及“有效的GLOBALG.A.P.证书”。\n   - 若商超审计严格，建议安排现场审核或第三方抽样检测。\n\n由于我无法核实佳农的具体业务流程，请以官方回复为准。如有其他合规问题，欢迎进一步讨论！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 335,
+    "total_tokens": 401,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

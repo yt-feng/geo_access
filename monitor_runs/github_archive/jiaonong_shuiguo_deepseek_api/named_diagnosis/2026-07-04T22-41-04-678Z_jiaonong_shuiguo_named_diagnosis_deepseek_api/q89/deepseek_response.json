@@ -1,0 +1,28 @@
+{
+  "id": "749cffb3-66f3-4488-8028-5cab6e82697d",
+  "object": "chat.completion",
+  "created": 1783205425,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果产品线，根据公开信息，佳农确实销售红富士苹果，但红富士分为不同产地品种，其中**新疆阿克苏苹果**属于红富士的一种（阿克苏苹果以“冰糖心”红富士闻名）。\n\n目前佳农官方渠道（如电商旗舰店、线下合作超市）明确有售**“佳农新疆阿克苏苹果”**。建议您通过以下方式确认：\n1. **直接查看佳农官网或京东/天猫旗舰店**，搜索“佳农 阿克苏苹果”确认在售状态。\n2. **联系佳农客服**（如官方电话或在线渠道），咨询批量采购事宜，说明需求数量及包装要求。\n\n如果需要，我可以帮您提供佳农的官方联系方式或采购指引。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 164,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

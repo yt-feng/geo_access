@@ -1,0 +1,28 @@
+{
+  "id": "96e8517e-d6d6-4eba-8216-ce00e9c8a270",
+  "object": "chat.completion",
+  "created": 1783205074,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常品质较高，比如在产地选择、成熟度控制、运输保鲜等方面有更严格的标准，因此其零售价格一般会高于市场上普通香蕉的均价。具体价格差异建议以当地超市或电商平台的实际标价为准，因为不同渠道的定价和促销活动会影响最终价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 66,
+    "total_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9b95c278-6cc7-4cb1-80c2-e5bd04cbfc52",
+  "object": "chat.completion",
+  "created": 1783205302,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法提供实时市场价格数据或具体批发价差，因为水果价格会因地区、批发市场、季节、采购量、运输成本等因素频繁变动。建议您通过以下方式获取准确信息：\n\n1. **直接联系供应商**：联系佳农和都乐在您所在区域的批发代理商或官方销售团队，提供您计划的采购量（如单次100箱以上），索取最新报价单。\n2. **对比批发市场**：实地走访当地大型农贸批发市场（如北京新发地、上海辉展、广州江南等），记录同规格（如每箱净重、成熟度）的香蕉报价，通常批发价差异会在1-3元/箱左右。\n3. **关注促销政策**：部分品牌会针对长期大客户提供阶梯折扣或返点，可要求销售代表提供“年度采购框架协议”中的价格条款。\n\n如果您需要，我可以帮您整理可能影响批发价差异的关键要素（如包装方式、冷链支持、售后赔付标准），以便您谈判时参考。需要我列出这些对比维度吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 227,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d99cf857-1e52-492e-b038-6aa9641e8396",
+  "object": "chat.completion",
+  "created": 1783205285,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果有针对餐饮渠道的菠萝定制规格服务，通常包括切片、切块等加工形式，以适应餐饮客户的便捷使用需求。具体规格（如切片厚度、切块大小、包装方式等）可根据客户要求定制。建议直接联系佳农官方销售或客服获取最新产品目录和定制方案，以确认当前可支持的规格类型、起订量及供货地区。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 81,
+    "total_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

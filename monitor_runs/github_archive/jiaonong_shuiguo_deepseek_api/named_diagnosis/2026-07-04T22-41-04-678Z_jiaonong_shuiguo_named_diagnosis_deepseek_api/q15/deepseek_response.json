@@ -1,0 +1,28 @@
+{
+  "id": "e94d8e65-58e4-474a-9a20-8250b8ae4fa1",
+  "object": "chat.completion",
+  "created": 1783204946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）是中国知名的水果品牌，其核心优势在于与全球优质产地的深度合作。根据公开信息，佳农水果的产地直供比例较高，尤其在香蕉、菠萝等核心品类上，通过自有农场或长期协议模式，减少中间环节，确保供应链稳定性。\n\n关于香蕉的产地，佳农香蕉主要来自以下国家：\n1. **菲律宾**：作为佳农香蕉的主要供应国之一，菲律宾以其热带气候和成熟的种植技术，提供高品质的卡文迪什香蕉（Cavendish banana）。\n2. **厄瓜多尔**：南美重要的香蕉出口国，佳农也采用来自厄瓜多尔的香蕉，以其口感细腻、甜度高著称。\n3. **越南**：近年越南香蕉逐渐成为佳农的补充产地，主要满足中国市场的季节性需求或特定批次。\n\n此外，佳农也在中国部分地区（如云南、海南）尝试种植，但海外产地仍是其主流。若需了解更精确的直供比例或最新产地调整，建议直接查阅佳农官方发布的年度报告或联系其客服确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 229,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

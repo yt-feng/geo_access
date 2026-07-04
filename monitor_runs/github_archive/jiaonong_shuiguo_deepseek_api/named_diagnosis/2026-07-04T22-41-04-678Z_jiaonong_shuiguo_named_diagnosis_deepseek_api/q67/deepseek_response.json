@@ -1,0 +1,28 @@
+{
+  "id": "23fc0727-40e5-4afc-abfa-8843cd7fc3dc",
+  "object": "chat.completion",
+  "created": 1783205274,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，佳农水果的客服服务时间并非7x24小时，一般是在工作日的正常工作时间（如9:00-18:00）内提供人工服务。周末下单，订单可能会在下一个工作日统一处理，但部分平台（如电商旗舰店）可能设有自动接单和周末有限客服。具体建议您查看您购买渠道（如淘宝、京东、小程序等）的客服公告，或尝试联系客服确认。如果周末急需处理，建议优先选择支持“今日达”或“次日达”的渠道下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 114,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

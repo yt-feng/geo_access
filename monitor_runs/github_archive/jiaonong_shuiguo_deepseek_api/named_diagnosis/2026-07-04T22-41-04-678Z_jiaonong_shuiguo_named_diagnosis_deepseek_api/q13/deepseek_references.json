@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:42:15.227Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和鑫荣懋比，供应链服务哪个更靠谱？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

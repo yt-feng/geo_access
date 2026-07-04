@@ -1,0 +1,28 @@
+{
+  "id": "3ab8c124-32c0-4295-98b0-2f2cfd7b5076",
+  "object": "chat.completion",
+  "created": 1783205088,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果有针对餐饮渠道的菠萝解决方案。其产品线包括新鲜菠萝（如都乐金菠萝、云南香水菠萝等），以及预切菠萝块、菠萝罐头等加工品，可满足餐饮企业用于菜品搭配、饮品调制、甜品制作等需求。此外，佳农可能提供定制化供应方案，如规格选择、冷链配送、即用型包装等。建议直接联系佳农官方或区域销售了解具体合作模式、产品价格及餐饮渠道专属服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 104,
+    "total_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

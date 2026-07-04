@@ -1,0 +1,50 @@
+{
+  "questionId": "q82",
+  "prompt": "佳农水果和鑫荣懋比，哪个在华东地区的配送更快？我们上海门店要次日达。",
+  "createdAt": "2026-07-04T22:49:44.638Z",
+  "summary": [
+    {
+      "questionId": "q82",
+      "prompt_index": 82,
+      "promptIndex": 82,
+      "promptHash": "28264da2986a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和鑫荣懋比，哪个在华东地区的配送更快？我们上海门店要次日达。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 483,
+      "text_length": 483,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 282,
+        "total_tokens": 346,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 282,
+      "total_tokens": 346,
+      "latencyMs": 4934,
+      "latency_ms": 4934,
+      "createdAt": "2026-07-04T22:49:44.638Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q82/prompt.txt",
+        "answer": "q82/deepseek.txt",
+        "response": "q82/deepseek_response.json",
+        "sources": "q82/deepseek_sources.json",
+        "references": "q82/deepseek_references.json"
+      }
+    }
+  ]
+}

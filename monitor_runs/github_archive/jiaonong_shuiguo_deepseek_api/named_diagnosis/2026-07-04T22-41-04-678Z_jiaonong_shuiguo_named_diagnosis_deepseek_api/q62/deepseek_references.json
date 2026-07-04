@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-04T22:47:22.841Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的苹果品类有红富士吗？和鑫荣懋的比哪个性价比高？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

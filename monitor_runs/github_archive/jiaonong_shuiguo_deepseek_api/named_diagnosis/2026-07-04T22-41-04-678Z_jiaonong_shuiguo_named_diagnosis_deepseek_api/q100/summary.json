@@ -1,0 +1,50 @@
+{
+  "questionId": "q100",
+  "prompt": "我们餐饮连锁需要香蕉切片，佳农能不能提供加工好的香蕉片？规格多少？",
+  "createdAt": "2026-07-04T22:51:17.550Z",
+  "summary": [
+    {
+      "questionId": "q100",
+      "prompt_index": 100,
+      "promptIndex": 100,
+      "promptHash": "164ea8edf489",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们餐饮连锁需要香蕉切片，佳农能不能提供加工好的香蕉片？规格多少？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 461,
+      "text_length": 461,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 277,
+        "total_tokens": 336,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 277,
+      "total_tokens": 336,
+      "latencyMs": 4296,
+      "latency_ms": 4296,
+      "createdAt": "2026-07-04T22:51:17.550Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q100/prompt.txt",
+        "answer": "q100/deepseek.txt",
+        "response": "q100/deepseek_response.json",
+        "sources": "q100/deepseek_sources.json",
+        "references": "q100/deepseek_references.json"
+      }
+    }
+  ]
+}

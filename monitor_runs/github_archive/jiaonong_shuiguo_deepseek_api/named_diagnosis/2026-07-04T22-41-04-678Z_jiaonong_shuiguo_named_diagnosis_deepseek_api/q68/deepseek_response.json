@@ -1,0 +1,28 @@
+{
+  "id": "f36920db-c472-4a99-9fb1-751d646817e1",
+  "object": "chat.completion",
+  "created": 1783205279,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前佳农水果官方公开的API接口信息较少，建议通过以下方式确认：\n\n1. **直接联系佳农水果商务/技术团队**  \n   请通过其官方渠道（官网客服、400电话或商务邮箱）获取技术对接文档。生鲜电商通常需要签署合作协议后才会提供接口。\n\n2. **检查ERP系统类型**  \n   若佳农使用SAP、用友、金蝶等主流ERP，可通过这些平台的**开放平台**或**ISV生态**查询是否有预置对接方案。\n\n3. **行业通用协议对接**  \n   确认是否支持EDI（电子数据交换）标准协议（如EDIFACT、JSON/XML API），部分大型供应商会提供标准化接口文档。\n\n4. **替代方案**  \n   - 通过第三方生鲜供应链SaaS平台（如食享会、鲜桥）间接对接。  \n   - 如果量较大，可协商通过邮件/Excel定期订单同步的临时方案。\n\n**建议行动**：优先通过合同约定的商务接口人获取技术对接联系方式，说明“订单推送、库存查询、物流状态”等核心需求。若涉及敏感数据（如价格、库存），需签订保密协议（NDA）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 253,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
