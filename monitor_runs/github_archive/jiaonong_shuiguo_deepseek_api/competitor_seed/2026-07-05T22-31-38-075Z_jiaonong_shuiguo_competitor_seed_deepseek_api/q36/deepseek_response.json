@@ -1,0 +1,28 @@
+{
+  "id": "c20e8e4f-41f7-412a-a548-01a10e9e5eaf",
+  "object": "chat.completion",
+  "created": 1783290972,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从消费者和市场反馈来看，都乐（Dole）和鑫荣懋（Joyvio）都是大型水果供应链企业，但质量稳定性上存在一些差异：\n\n1. **品牌背景**：都乐是国际品牌，全球供应链成熟，产品标准化程度高，从种植、包装到运输有统一流程；鑫荣懋是国内龙头，但进口苹果多通过产地采购合作模式。\n\n2. **用户反馈**：都乐的品质稳定性通常略优于鑫荣懋。都乐苹果在果形、口感、新鲜度上波动较小，而鑫荣懋偶尔会因为批次或产地不同出现甜度或硬度差异。\n\n3. **购买建议**：\n   - 如果追求低风险、口味一致，优先选**都乐**。\n   - 如果预算敏感或想尝试不同风味，鑫荣懋也可选，但建议购买时检查外观（无软塌、无损伤）并尽量选择近期批次。\n\n**实际建议**：在超市现场查看两款产品的包装日期、果体状态，并对比价格。都乐溢价稍高，但适合做礼品或对品质要求严格的场景。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 239,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

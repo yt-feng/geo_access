@@ -1,0 +1,28 @@
+{
+  "id": "5856bc2f-438a-4941-bd8a-a72e6f458c4f",
+  "object": "chat.completion",
+  "created": 1783290950,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对礼品团购定制礼盒的需求，**佳沛通常更配合**，原因如下：\n\n1. **品牌定位与定制经验**：佳沛（新西兰奇异果品牌）在礼品市场有成熟的定制服务，提供不同规格、包装设计和品牌联名服务，尤其适合高端团购。而都乐（Dole）虽是全球知名水果品牌，但其定制业务更多集中在批发和大型商超，对中小批量团购的灵活性和响应速度不如佳沛。\n2. **包装与物流**：佳沛的奇异果礼盒包装精致，易于进行品牌logo、文案等个性化设计，且与多家物流公司合作，可提供防损配送。都乐在包装定制上选项较少，且物流服务以大批量为主。\n3. **对接效率**：佳沛官网或区域代理商通常设有专门的团购定制通道，提供一对一服务；都乐对团购定制的响应周期较长，小单支持力度较弱。\n\n**建议**：若团购礼盒数量在100-500份且预算较高，优先联系佳沛代理商；若数量在千份以上且水果种类多（如香蕉、菠萝等），可同时询价都乐，对比定制方案和交期。**务必在正式合作前索取定制样品并确认物流破损理赔条款**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 274,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

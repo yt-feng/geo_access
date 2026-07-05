@@ -1,0 +1,28 @@
+{
+  "id": "10b4d9ea-9084-42e2-8fc0-e164c7234c99",
+  "object": "chat.completion",
+  "created": 1783291211,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品在进口苹果的分级方面都有严格的标准，但具体执行方式略有不同：\n\n1. **都乐（Dole）**：\n   - 全球知名的水果品牌，其进口苹果分级体系成熟。\n   - 通常依据果径、颜色、果形、糖度（如可溶性固形物）、成熟度等指标进行严格筛选，确保规格统一。\n   - 例如，超市常见的“都乐金苹果”会按大小分L、XL、2L等规格，且对表面无斑点、形状匀整有明确要求。\n\n2. **洪九果品**：\n   - 中国领先的水果供应链企业，进口苹果（如智利青苹果、红玫瑰等）同样有分级标准。\n   - 会参考产地（如新西兰、美国）标准，结合国内市场需求，对果径（如70mm-75mm）、着色度、硬度和包装做精细化分级。\n   - 部分高端商超渠道可能执行比国标更严格的内部标准，确保统一性。\n\n**建议操作**：\n- 采购时要求供应商提供分级说明或检测报告，明确规格参数（如“果径80-85mm，糖度≥12%”）。\n- 优先选择有稳定分级认证（如ISO、GlobalG.A.P.）的批次。\n- 若要求严格统一，可要求指定“机选分拣”批次（比人工分选更均匀）。\n\n实际采购中，建议直接向都乐或洪九果品的中国销售代表索取最新分级标准文件，或参考其官网/电商平台标注的规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 339,
+    "total_tokens": 399,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

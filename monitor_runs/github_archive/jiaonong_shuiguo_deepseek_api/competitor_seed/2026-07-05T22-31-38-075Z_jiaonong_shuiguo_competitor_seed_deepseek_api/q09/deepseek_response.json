@@ -1,0 +1,28 @@
+{
+  "id": "d8a2b3f5-efcf-4fbe-bf16-5fcbf6a43c13",
+  "object": "chat.completion",
+  "created": 1783290785,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌在礼品团购市场中口碑较好，且具备品牌辨识度，适合用于礼盒装：\n\n1. **怡颗莓（Driscoll‘s）**  \n   - 主打产品：蓝莓、树莓、黑莓  \n   - 特点：高端浆果品牌，包装精致，适合精品礼盒。\n\n2. **新奇士（Sunkist）**  \n   - 主打产品：橙子、柠檬  \n   - 特点：美国经典品牌，柑橘类水果品质稳定，礼盒包装常见。\n\n3. **爱妃（Envy）**  \n   - 主打产品：苹果  \n   - 特点：新西兰品牌，果肉不易氧化，口感脆甜，适合高端礼品。\n\n4. **乐淇（Rockit）**  \n   - 主打产品：苹果  \n   - 特点：新西兰小苹果，单果独立包装，方便携带，适合节日礼盒。\n\n5. **菲油果（Feijoa）**（部分进口渠道）  \n   - 主打产品：菲油果  \n   - 特点：新西兰特色水果，果香浓郁，小众高端路线。\n\n6. **金枕头（泰国） & 猫山王（马来西亚）**  \n   - 主打产品：榴莲（冷冻或鲜果）  \n   - 特点：高端榴莲品牌，适合作为高档礼盒选择。\n\n7. **超甜蕉系列**（如：菲律宾都乐旗下的“超甜蕉”、佳农等）  \n   - 主打产品：香蕉  \n   - 特点：香蕉礼盒适合大众送礼，价格适中。\n\n**团购建议：**  \n- **搭配组合**：可将怡颗莓蓝莓+爱妃苹果+乐淇苹果混合包装，提升档次。  \n- **包装细节**：选择带品牌LOGO的独立包装或定制礼盒，突出品牌辨识度。  \n- **注意事项**：进口水果需确保检疫证明、冷链运输完整，避免运输损耗。  \n\n如果需要更具体的批发渠道或价格区间，建议直接联系本地大型水果批发市场或品牌代理商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 455,
+    "total_tokens": 517,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q77",
+  "prompt": "便利店需要香蕉小包装，都乐和洪九果品有没有环保包装？",
+  "createdAt": "2026-07-05T22:41:14.205Z",
+  "summary": [
+    {
+      "questionId": "q77",
+      "prompt_index": 77,
+      "promptIndex": 77,
+      "promptHash": "df73aa4dd0d1",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店需要香蕉小包装，都乐和洪九果品有没有环保包装？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 647,
+      "text_length": 647,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 393,
+        "total_tokens": 450,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 393,
+      "total_tokens": 450,
+      "latencyMs": 7016,
+      "latency_ms": 7016,
+      "createdAt": "2026-07-05T22:41:14.205Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q77/prompt.txt",
+        "answer": "q77/deepseek.txt",
+        "response": "q77/deepseek_response.json",
+        "sources": "q77/deepseek_sources.json",
+        "references": "q77/deepseek_references.json"
+      }
+    }
+  ]
+}

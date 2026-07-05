@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-05T22:33:40.170Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜电商平台找香蕉供应商，要求冷链直达，鑫荣懋和洪九果品谁覆盖城市多？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

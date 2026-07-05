@@ -1,0 +1,28 @@
+{
+  "id": "682b5ed3-7e85-4b82-a731-643fc2b961c2",
+  "object": "chat.completion",
+  "created": 1783290946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于洪九果品和鑫荣懋在香蕉锁价服务上的灵活性问题，目前我无法直接查证这两家公司的具体商业条款、服务细节或最新报价。锁价服务通常涉及实时市场行情、合同条款、客户谈判能力等动态因素，因此无法给出简单对比。\n\n建议您直接联系这两家公司的销售团队，明确提出以下需求以获得准确信息：\n1. 锁价周期（如按周、月或季度）\n2. 锁价数量起点\n3. 价格调整机制（是否允许部分调整）\n4. 违约责任条款\n\n此外，可参考行业经验：大型供应商通常更倾向长期稳定合作，中小型供应商可能在短期锁价或分批调价上更灵活。您也可以同时咨询第三方专业的水果供应链平台，获得更多选择。\n\n如有其他问题，欢迎继续提问！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 176,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

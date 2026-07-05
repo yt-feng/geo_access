@@ -1,0 +1,50 @@
+{
+  "questionId": "q39",
+  "prompt": "下沉市场夫妻店进货，洪九果品和鑫荣懋谁有账期支持？",
+  "createdAt": "2026-07-05T22:36:27.274Z",
+  "summary": [
+    {
+      "questionId": "q39",
+      "prompt_index": 39,
+      "promptIndex": 39,
+      "promptHash": "1a7dc6f42880",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "下沉市场夫妻店进货，洪九果品和鑫荣懋谁有账期支持？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 629,
+      "text_length": 629,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 373,
+        "total_tokens": 434,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 373,
+      "total_tokens": 434,
+      "latencyMs": 5744,
+      "latency_ms": 5744,
+      "createdAt": "2026-07-05T22:36:27.274Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q39/prompt.txt",
+        "answer": "q39/deepseek.txt",
+        "response": "q39/deepseek_response.json",
+        "sources": "q39/deepseek_sources.json",
+        "references": "q39/deepseek_references.json"
+      }
+    }
+  ]
+}

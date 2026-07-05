@@ -1,0 +1,28 @@
+{
+  "id": "66fc8ac1-4614-4cce-a585-4025a1bcfdc3",
+  "object": "chat.completion",
+  "created": 1783290962,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对菠萝原料的稳定规格和长期合作需求，建议优先选择**都乐（Dole）**，原因如下：\n\n1. **标准化与品控能力**：都乐拥有全球化的种植、分选和冷链体系，菠萝规格（如大小、甜度、颜色）的标准化程度高，且供应链成熟，适合大规模、高复购率的茶饮原料需求。\n2. **长期合作稳定性**：作为国际品牌，都乐在供应稳定性、合同保障和品质追溯方面更可靠，适合对规格一致性要求严格的长期合作。\n3. 若您需要**成本优先或区域性品种（如海南菠萝）**，洪九果品在国产高端水果采购上可能有价格优势，但其依赖国内产地，受品种和季节波动影响较大，规格稳定性可能略逊于都乐。\n\n**建议行动**：\n- 现阶段：向都乐索取样品进行批量测试（如切块大小、出汁率、耐储性），确认是否符合茶饮制作要求。\n- 同时：与洪九果品沟通其菠萝产品是否支持定制规格（如大小分级、包装标准），对比双方提供的质量承诺合同条款。\n- 短期合作测试：先与都乐签订3-6个月分阶段供货协议，评估实际履约能力后再决定长期合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 272,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-05T22:37:50.443Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发市场拿货，洪九果品和鑫荣懋的香蕉价格谁更有优势？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

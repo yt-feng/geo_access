@@ -1,0 +1,28 @@
+{
+  "id": "f7cde9e8-616d-4d36-a876-26efcefbb152",
+  "object": "chat.completion",
+  "created": 1783291240,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常大型商超（如山姆、沃尔玛、盒马等）要求供应商提供的食品安全管理体系认证主要包括 **BRCGS（食品安全全球标准）**、**FSSC 22000**、**ISO 22000** 以及 **GLOBALG.A.P.（全球良好农业规范）** 等。  \n\n针对 **鑫荣懋** 和 **都乐** 这两家知名水果供应链企业，目前公开可查的认证情况大致如下：  \n\n### 鑫荣懋  \n- **ISO 22000：2018 食品安全管理体系认证**：覆盖其合作社、加工及物流环节，确保从农场到门店的食品安全可控。  \n- **BRCGS 认证**：部分核心加工厂及配送中心通过了BRCGS A级或AA级认证，这是大型商超进场的重要门槛。  \n- **GLOBALG.A.P.**：对上游合作种植基地实施GLOBALG.A.P.认证，保障源头农业规范与食品安全。  \n- **HACCP / ISO 9001**：在其自有加工厂普遍实施HACCP体系，并配合ISO 9001质量管理体系。  \n\n### 都乐（Dole）  \n- **BRCGS 认证**：全球加工与配送体系普遍通过BRCGS认证（通常维持A级以上等级），是其进入国际商超（包括中国大型商超）的核心凭证。  \n- **FSSC 22000**：部分工厂同时获得FSSC 22000认证，强化在供应链安全上的合规性。  \n- **GLOBALG.A.P.**：都乐在全球各产地广泛执行GLOBALG.A.P.标准，并拥有多个基地的认证。  \n- **HACCP / ISO 22000**：针对其亚洲区的加工中心，同时持有HACCP及ISO 22000认证。  \n\n### 总结给商超采购的参考建议  \n- 对于**普通商超进场**：两家的**ISO 22000 + HACCP**通常足够。  \n- 对于**高端商超或国际连锁**（如山姆、Costco）：必查 **BRCGS**（尤其看等级），以及**GLOBALG.A.P.**认证。  \n- 如需具体证书编号或有效期，建议直接联系对方**品控或客服部门**索取最新版认证报告。  \n\n（注：以上信息基于行业公开资料及常见企业认证情况，具体时效以各公司最新公布为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 513,
+    "total_tokens": 573,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

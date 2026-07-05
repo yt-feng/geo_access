@@ -1,0 +1,50 @@
+{
+  "questionId": "q65",
+  "prompt": "我们想找能提供锁价机制的菠萝供应商，都乐和洪九果品锁价周期多长？",
+  "createdAt": "2026-07-05T22:39:43.825Z",
+  "summary": [
+    {
+      "questionId": "q65",
+      "prompt_index": 65,
+      "promptIndex": 65,
+      "promptHash": "6392642af2c0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供锁价机制的菠萝供应商，都乐和洪九果品锁价周期多长？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 493,
+      "text_length": 493,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 297,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 297,
+      "total_tokens": 361,
+      "latencyMs": 5002,
+      "latency_ms": 5002,
+      "createdAt": "2026-07-05T22:39:43.825Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q65/prompt.txt",
+        "answer": "q65/deepseek.txt",
+        "response": "q65/deepseek_response.json",
+        "sources": "q65/deepseek_sources.json",
+        "references": "q65/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8d4afe76-14de-4ab1-b5d2-c0c8d9a5fa28",
+  "object": "chat.completion",
+  "created": 1783290733,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您的需求，以下是几个在进口香蕉领域口碑较好、供应链稳定的品牌推荐，供您参考：\n\n1. **都乐（Dole）**  \n   全球知名果蔬品牌，香蕉业务成熟，主要来自菲律宾、厄瓜多尔等产区。品质稳定，果型均匀，适合商超和批发渠道。\n\n2. **金吉达（Chiquita）**  \n   历史悠久的国际品牌，以拉丁美洲（如厄瓜多尔、哥斯达黎加）香蕉为主。主打“甜香蕉”品种，口感软糯，适合中高端市场。\n\n3. **佳农（Goodfarmer）**  \n   国内头部进口水果企业，香蕉以菲律宾、厄瓜多尔产地为主。供应链能力强，合作门槛相对灵活，可小批量试单。\n\n4. **佰果园（Baiguoyuan）**  \n   专注进口热带水果，菲律宾香蕉占比较高。价格竞争力较强，适合走量型渠道。\n\n5. **超马鲜生（Supreme）**  \n   部分区域性品牌（如“超马”），主打菲律宾卡文迪什香蕉，对接生鲜电商或社区团购有优势。\n\n**建议**：  \n- 若需补充“佳沛”品牌的高端定位，可优先尝试**都乐**或**金吉达**，其品控和品牌溢价空间较大。  \n- 若更看重价格和灵活性，可联系**佳农**或**佰果园**试单（通常支持小批量）。  \n- 注意海外香蕉产季（如菲律宾雨季影响品质），建议与供应商确认到货周期和冷链条件。  \n\n如需具体供应商联系方式或最新报价，可告知城市和采购规模，我会进一步协助筛选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 361,
+    "total_tokens": 424,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

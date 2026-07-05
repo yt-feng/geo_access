@@ -1,0 +1,50 @@
+{
+  "questionId": "q58",
+  "prompt": "大型商超需要香蕉全年不断货，鑫荣懋和都乐能做到吗？",
+  "createdAt": "2026-07-05T22:38:44.018Z",
+  "summary": [
+    {
+      "questionId": "q58",
+      "prompt_index": 58,
+      "promptIndex": 58,
+      "promptHash": "68aaaa05acbd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "大型商超需要香蕉全年不断货，鑫荣懋和都乐能做到吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 884,
+      "text_length": 884,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 547,
+        "total_tokens": 606,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 547,
+      "total_tokens": 606,
+      "latencyMs": 9145,
+      "latency_ms": 9145,
+      "createdAt": "2026-07-05T22:38:44.018Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q58/prompt.txt",
+        "answer": "q58/deepseek.txt",
+        "response": "q58/deepseek_response.json",
+        "sources": "q58/deepseek_sources.json",
+        "references": "q58/deepseek_references.json"
+      }
+    }
+  ]
+}
