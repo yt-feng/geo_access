@@ -1,0 +1,28 @@
+{
+  "id": "def8a924-04ac-43de-9a62-7913b4c83b65",
+  "object": "chat.completion",
+  "created": 1783291345,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农可以稳定供应适合茶饮店使用的菠萝规格。他们的菠萝通常以**整果**或**去皮切块**两种形式供应，规格常见为：\n- **整果**：单果重量约1.2-1.5公斤（适合自行切配）。\n- **切块**：冷冻或冷藏包装，每袋约1-2公斤（即开即用，适合批量制作饮品）。\n\n如果你需要更具体的批量供应和价格，建议直接联系当地佳农经销商或咨询客服，说明你的茶饮店用量（比如每月需要多少公斤），他们会提供适合你的供应方案和包装规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 131,
+    "total_tokens": 193,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

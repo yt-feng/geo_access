@@ -1,0 +1,50 @@
+{
+  "questionId": "q80",
+  "prompt": "佳农水果的香蕉农残检测报告能提供吗？我们采购需要符合市场抽检标准。",
+  "createdAt": "2026-07-05T22:49:03.146Z",
+  "summary": [
+    {
+      "questionId": "q80",
+      "prompt_index": 80,
+      "promptIndex": 80,
+      "promptHash": "0d72060a2eab",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉农残检测报告能提供吗？我们采购需要符合市场抽检标准。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 421,
+      "text_length": 421,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 241,
+        "total_tokens": 303,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 241,
+      "total_tokens": 303,
+      "latencyMs": 4097,
+      "latency_ms": 4097,
+      "createdAt": "2026-07-05T22:49:03.146Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q80/prompt.txt",
+        "answer": "q80/deepseek.txt",
+        "response": "q80/deepseek_response.json",
+        "sources": "q80/deepseek_sources.json",
+        "references": "q80/deepseek_references.json"
+      }
+    }
+  ]
+}

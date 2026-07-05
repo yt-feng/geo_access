@@ -1,0 +1,28 @@
+{
+  "id": "ae651c77-836c-4f0f-b2fc-d3cb80032015",
+  "object": "chat.completion",
+  "created": 1783291504,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内知名的水果品牌，其香蕉产品因稳定的品质和良好的市场推广，在消费者中有一定的认知度。具体来说，佳农香蕉的认知度可能高于普通无品牌香蕉，尤其在注重品质和品牌的中高端消费群体中更为明显。不过，与一些老牌香蕉品牌（如都乐、香蕉先生）相比，佳农的整体市场认知度可能仍有提升空间，具体取决于区域和销售渠道。若需要更准确的数据，建议参考相关的市场调研报告或电商平台用户评价分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 111,
+    "total_tokens": 165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

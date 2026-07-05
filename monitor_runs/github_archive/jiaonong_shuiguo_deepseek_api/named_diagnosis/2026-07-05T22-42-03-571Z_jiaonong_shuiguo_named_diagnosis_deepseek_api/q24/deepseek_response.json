@@ -1,0 +1,28 @@
+{
+  "id": "751fdeaa-2840-4c1e-88ed-b11a65d5f18b",
+  "object": "chat.completion",
+  "created": 1783291438,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会，作为进博会的长期参展商之一，佳农通常在展会上展示其全球供应链能力和新品。根据公开信息，佳农在最近的进博会（如第六届或第七届）上推出了多款新品，例如来自东南亚的冷冻榴莲制品、新西兰的有机苹果，以及一些高端果汁和水果组合礼盒。具体新品清单和最新参展情况，建议您访问佳农官网或关注其官方公众号获取实时更新，因为产品信息会随季节和展会动态变化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 111,
+    "total_tokens": 163,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

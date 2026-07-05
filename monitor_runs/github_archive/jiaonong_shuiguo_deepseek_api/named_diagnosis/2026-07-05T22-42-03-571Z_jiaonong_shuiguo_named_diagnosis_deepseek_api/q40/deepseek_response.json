@@ -1,0 +1,28 @@
+{
+  "id": "8a762b8a-545d-48e1-8df1-f41e45d12658",
+  "object": "chat.completion",
+  "created": 1783291507,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农水果针对餐饮渠道提供了专门的菠萝解决方案，主要包括以下内容：\n\n1. **定制化规格**：提供多种包装和切割规格（如整果、去皮、切块、果丁等），满足不同餐饮场景（如茶饮、烘焙、沙拉、甜品等）的使用需求。\n\n2. **品种与品质**：优选适合餐饮加工的菠萝品种（如都乐金菠萝等），确保甜度高、酸度低、口感稳定，且具备良好的耐运输和储存特性。\n\n3. **冷链配送**：从产地到餐厅全程冷链运输，保障鲜度和安全，减少损耗。\n\n4. **方案应用支持**：可能包含菜品搭配建议、加工工艺指导（如去芯、切块技巧）以及季节性推广活动方案。\n\n建议直接联系佳农官方销售团队或区域代理商，获取针对您具体餐饮业态（如茶饮店、西餐厅、自助餐厅）的详细报价和定制服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 198,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

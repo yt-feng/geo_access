@@ -1,0 +1,28 @@
+{
+  "id": "62bfc2da-4d00-4b81-86de-eb2655a6efb2",
+  "object": "chat.completion",
+  "created": 1783291855,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的到货损耗率承诺，我无法提供具体的第三方数据或实时政策，因为这类信息通常由供应商或经销商制定。建议您直接联系佳农官方销售或当地代理商，咨询他们是否有“到货损耗率超过3%包赔”等承诺。\n\n不过，我可以给您一些降低损耗的实用建议：\n1. **采购少量试销**：先小批量进货，观察一周内的损耗情况（如成熟度、运输损伤等）。\n2. **协商灵活条款**：与供应商明确协商“收货时质量问题包换”或“固定损耗比例补偿”。\n3. **优化储存环境**：香蕉不宜冷藏（低于13℃易冻伤），建议室温通风存放，并分开未熟和已熟批次。\n4. **快速周转策略**：将接近成熟的香蕉做特价促销或搭配甜品销售，减少积压。\n\n您也可以尝试在电商平台搜索“佳农香蕉 供应商”，筛选本地经销商后直接沟通损耗条款。希望这些对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 214,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

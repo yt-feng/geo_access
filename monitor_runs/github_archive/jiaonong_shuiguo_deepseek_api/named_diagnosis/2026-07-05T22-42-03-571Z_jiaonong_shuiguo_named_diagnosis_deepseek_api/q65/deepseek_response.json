@@ -1,0 +1,28 @@
+{
+  "id": "6b05cef9-daf4-4122-8858-1db4ef92ed91",
+  "object": "chat.completion",
+  "created": 1783291658,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在西南地区（尤其是成都），**洪九果品**的配送通常更快，原因如下：\n\n- **洪九果品在成都设有大型分拨中心**，且其在西南地区（包括重庆、成都、贵州等）的冷链物流网络布局更成熟。对于成都门店的紧急订单，洪九通常能实现24小时内送达（具体需根据订单量确认）。\n- **佳农水果**主要依托全国性仓储体系，其西南地区的配送以昆明或重庆分仓为主，到成都的时效一般需要1-2天，紧急响应能力略逊于洪九。\n\n建议行动：\n1. **立即联系洪九果品成都区域销售**（可通过其官网或400客服获取），明确告知“成都门店急需”，确认当日或次日达的具体时间和起订量。  \n2. **备选方案**：若洪九无法满足，可咨询佳农的“紧急订单加急服务”（部分区域支持加价提速），或联系当地成都的批发市场（如濛阳水果批发市场）作为临时补充。\n\n注意：实际时效受订单规模、库存和当日物流调度影响，建议以电话直接确认为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 245,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

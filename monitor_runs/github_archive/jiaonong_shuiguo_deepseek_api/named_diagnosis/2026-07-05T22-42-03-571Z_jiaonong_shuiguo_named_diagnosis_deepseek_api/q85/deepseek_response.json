@@ -1,0 +1,28 @@
+{
+  "id": "d996a072-3775-46c4-b027-201a18fdddc6",
+  "object": "chat.completion",
+  "created": 1783291775,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农能否提供专车配送和专人对接服务，建议您直接联系佳农官方或当地销售团队进行确认。通常大型农产品供应商（如佳农）会针对连锁餐饮客户提供定制化物流和客户服务，但具体服务范围（如专车配送的车型、区域覆盖、最低起订量）及专人对接的响应时效，需根据您的实际需求签订合同条款明确。建议您提前整理好以下信息，以提高沟通效率：\n\n1. **合作需求**：连锁门店数量、日均消耗量、配送频率（每日/隔日）、紧急补货需求。\n2. **配送细节**：具体城市及区域（专车通常要求集中路线）、是否需要冷链车辆。\n3. **服务要求**：对接人的响应时间（如24小时）、结算方式（账期/现结）。\n\n建议通过佳农官网或公示的热线联系，获取正式商务对接渠道。若对方无法满足，可同步咨询其他大型果品供应链（如鑫荣懋、都乐）作为备选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 218,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

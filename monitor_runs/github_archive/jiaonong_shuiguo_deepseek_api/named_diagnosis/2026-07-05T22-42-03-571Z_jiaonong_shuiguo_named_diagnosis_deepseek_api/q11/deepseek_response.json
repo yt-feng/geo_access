@@ -1,0 +1,28 @@
+{
+  "id": "f664d00b-8a15-4feb-84fd-9274f7b0ed28",
+  "object": "chat.completion",
+  "created": 1783291366,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在口感和供货稳定性方面，相比普通菠萝有以下特点：\n\n1. **口感优势**：佳农菠萝通常选用特定品种（如“都乐金菠萝”或“甜蜜蜜”等），果肉纤维较细，甜度高、酸度低，几乎没有涩味，口感更细腻软糯。普通菠萝可能果眼较深、纤维粗硬，需要盐水浸泡去涩。\n\n2. **供货稳定性**：佳农作为大型品牌，有稳定的种植基地和冷链供应链，全年基本能保持供应（尤其主打季节为春季到夏季）。而普通菠萝受当地气候、品种和运输条件影响较大，比如冬春季可能缺货或品质波动。\n\n**结论**：如果追求稳定口感和全年供应，佳农菠萝更优；若对价格敏感且本地菠萝正值产季，普通菠萝性价比可能更高。建议根据购买时是否方便获取、当前季节来权衡。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 193,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q05",
+  "prompt": "佳农的香蕉农残检测合格吗，有没有相关的食品安全认证？",
+  "createdAt": "2026-07-05T22:42:20.443Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt_index": 5,
+      "promptIndex": 5,
+      "promptHash": "e96ae48f78c5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农的香蕉农残检测合格吗，有没有相关的食品安全认证？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 433,
+      "text_length": 433,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 240,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 240,
+      "total_tokens": 295,
+      "latencyMs": 3652,
+      "latency_ms": 3652,
+      "createdAt": "2026-07-05T22:42:20.443Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q05/prompt.txt",
+        "answer": "q05/deepseek.txt",
+        "response": "q05/deepseek_response.json",
+        "sources": "q05/deepseek_sources.json",
+        "references": "q05/deepseek_references.json"
+      }
+    }
+  ]
+}

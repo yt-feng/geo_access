@@ -1,0 +1,28 @@
+{
+  "id": "89a311b5-1a6e-4e7d-a06f-5f51f9b5dcdd",
+  "object": "chat.completion",
+  "created": 1783291663,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对您提出的500份佳农水果礼盒团购需求，通常可以开具发票和提供质检报告，但具体需根据供应商或采购渠道来确定。\n\n**建议您直接联系佳农官方或授权的经销商/批发商**，确认以下事项：\n1. **发票**：正规企业均能开具增值税普通发票或专用发票，但需提前沟通开票单位信息（如抬头、税号等）。\n2. **质检报告**：批量水果礼盒一般能提供当批次产品的第三方或企业质检报告（如农药残留、新鲜度等），但需在采购时明确要求，并确认报告时效性。\n3. **其他细节**：500份属于较大批量，建议确认是否有库存、配送范围、价格优惠及售后政策（如坏果理赔）。\n\n如果您已有目标供应商，可直接要求其提供资质证明和样品；若尚未确定渠道，建议通过佳农官网或官方客服获取授权经销商名单，避免中间环节问题。如需进一步协助选品或询价，可提供您所在城市，我可帮您梳理本地正规采购资源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 227,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

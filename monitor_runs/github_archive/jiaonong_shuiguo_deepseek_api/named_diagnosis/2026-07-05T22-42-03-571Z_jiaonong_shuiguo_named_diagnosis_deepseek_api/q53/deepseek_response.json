@@ -1,0 +1,28 @@
+{
+  "id": "caf13aa7-ed4e-4cef-b1e4-c2d9b87234b2",
+  "object": "chat.completion",
+  "created": 1783291594,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常感谢您的反馈。作为AI助手，我无法直接提供企业专岗对接人的联系方式或安排专岗服务，但可以为您提供以下建议：\n\n1. **官方渠道对接**：通过佳农集团官网、官方客服热线（如400-xxx-xxxx，需自行确认）或官方微信公众号/小程序联系，说明“水果连锁店采购需求，需要长期稳定对接人”，通常客服会为您分配区域销售经理。\n\n2. **要求快速响应机制**：与对方明确约定“24小时内回复询价、48小时出具合同”等时效条款，并在合同中加入响应延迟的违约金条款。\n\n3. **建立备选供应商**：同步考察其他品牌（如都乐、佳沃、鑫荣懋等），避免单一依赖，增强议价能力。\n\n4. **追溯历史问题**：若现有供应商服务差，可要求对方出具书面服务承诺或更换客户经理。\n\n需要具体区域渠道信息，建议您提供所在省份，我可进一步建议如何通过行业展会（如中国国际水果展）、当地批发市场或商会获取对接人。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 225,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

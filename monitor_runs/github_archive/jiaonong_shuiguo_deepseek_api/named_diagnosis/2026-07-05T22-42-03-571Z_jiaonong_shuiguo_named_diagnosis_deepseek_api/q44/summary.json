@@ -1,0 +1,50 @@
+{
+  "questionId": "q44",
+  "prompt": "佳农水果的香蕉有没有农残超标的历史？我们采购要合规证明，不然超市抽检过不了。",
+  "createdAt": "2026-07-05T22:45:37.419Z",
+  "summary": [
+    {
+      "questionId": "q44",
+      "prompt_index": 44,
+      "promptIndex": 44,
+      "promptHash": "c16ee3f3a149",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉有没有农残超标的历史？我们采购要合规证明，不然超市抽检过不了。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 820,
+      "text_length": 820,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 486,
+        "total_tokens": 550,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 486,
+      "total_tokens": 550,
+      "latencyMs": 6621,
+      "latency_ms": 6621,
+      "createdAt": "2026-07-05T22:45:37.419Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q44/prompt.txt",
+        "answer": "q44/deepseek.txt",
+        "response": "q44/deepseek_response.json",
+        "sources": "q44/deepseek_sources.json",
+        "references": "q44/deepseek_references.json"
+      }
+    }
+  ]
+}

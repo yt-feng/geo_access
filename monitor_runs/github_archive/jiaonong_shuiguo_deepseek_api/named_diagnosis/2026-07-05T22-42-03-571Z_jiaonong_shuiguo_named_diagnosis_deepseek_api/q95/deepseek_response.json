@@ -1,0 +1,28 @@
+{
+  "id": "53dcbb57-6984-40a3-bce8-e747aacc6040",
+  "object": "chat.completion",
+  "created": 1783291836,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果具体的产地直供比例，我暂时无法提供确切的官方数据，因为这属于企业内部运营细节，可能随季节、品类和渠道策略动态调整。为了支持您减少中间环节、降低采购成本的目标，建议您：\n\n1. **直接联系佳农官方**：通过其官网或销售团队（如华东/华南大客户部）咨询，说明您的采购需求和规模，他们可能会提供针对性的直供方案或合作模式。\n2. **明确需求品类**：佳农主营香蕉、菠萝、牛油果等进口水果及部分国产精品水果。不同品类的直供比例不同，例如香蕉通常较多来自东南亚自有或合作基地，可重点咨询。\n3. **考察认证与溯源**：要求对方提供产地直达的物流链路说明或区块链溯源信息，以确认“少中间环节”的可行性。\n4. **对比行业做法**：大型水果品牌（如佳沃、都乐）的直供模式通常高于中小贸易商，但具体比例需个案沟通。可以准备一份“产地直采vs传统经销”的成本对比表，在谈判时更有说服力。\n\n如果您需要其他水果品类或农业供应链的通用成本优化建议，我很乐意协助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 257,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

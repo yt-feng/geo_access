@@ -1,0 +1,28 @@
+{
+  "id": "a826554c-da8b-4288-80fa-793b126ad3f4",
+  "object": "chat.completion",
+  "created": 1783291695,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农菠萝的加工服务，建议您直接联系佳农官方客服或当地经销商确认。根据行业常规，大型水果供应商（如佳农）通常以销售整果为主，去皮切块等加工服务可能需要客户达到一定采购量或通过指定合作工厂提供。您可以询问以下信息：\n\n1. 是否有预加工（去皮切块）的菠萝产品供应。\n2. 最小起订量及配送条件。\n3. 是否支持定制切块规格（如大小、形状）。\n\n如果佳农不能直接提供，可考虑以下替代方案：\n- 从当地果蔬加工厂采购预处理菠萝。\n- 购买整果后自行或委托第三方加工（需注意卫生与保鲜）。\n- 寻找其他供应商专门供应切块菠萝（如巴奴、安得利等）。\n\n请以官方回复为准，避免依赖未经核实的二手信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 182,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

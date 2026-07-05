@@ -1,0 +1,28 @@
+{
+  "id": "1e0e211f-c806-4954-a1bd-f028c69fdfc5",
+  "object": "chat.completion",
+  "created": 1783291362,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有专门的客户经理对接批发商，我的知识库中没有具体的联系方式或内部对接流程信息。建议您通过以下方式获取准确信息：\n\n1. **直接访问官网**：在佳农水果官方网站（如佳农集团官网）查找“客户合作”、“批发业务”或“联系我们”板块，通常会提供业务对接邮箱或电话。\n2. **拨打官方客服**：搜索“佳农集团客服电话”，通过客服咨询批发客户对接事宜，他们能帮您转接或提供区域经理信息。\n3. **查询企业信息平台**：在企查查、天眼查等平台查看佳农水果的公司简介，有时会显示销售或业务负责人信息。\n\n如果您有具体合作意向或需要推荐的对接方式（如电话沟通、邮件等），我可以帮您进一步分析查找思路。需要我帮您整理企业公开信息吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 184,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
