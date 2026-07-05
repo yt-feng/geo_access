@@ -1,0 +1,28 @@
+{
+  "id": "4ae72e84-569a-4ed5-8a1c-fe8c4704d10d",
+  "object": "chat.completion",
+  "created": 1783289735,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了减少香蕉在水果店放坏，建议在采购时按以下标准要求：\n\n1. **熟度要求**：选择**七成熟**的香蕉（果皮基本全绿，仅果柄处略带微黄，果肉硬实、未充分软化）。这个熟度的香蕉耐储存，可在店内自然催熟，延长销售期。避免采购全黄或带斑点（过熟）的香蕉。\n\n2. **到货时间**：要求**到货后2-3天内**仍保持七成熟状态（即未提前变黄）。最好选择**周初（如周一、周二）**到货，避开周末前，避免因库存积压导致过期。同时，要求供应商提供**产地直发**或**冷链运输**，减少途中成熟加速。\n\n3. **附加要求**：明确告知供应商**批次均匀**（每箱香蕉熟度一致），避免混入过熟或未熟果。可要求供应商在包装箱上标注**采摘日期**和**推荐储存温度**（13-15℃最佳，避免低温冷害）。\n\n**总结：** 采购时明确指定“七成熟、绿香蕉”，要求周初到货、冷链运输，并检查批次均匀性和采摘日期。到货后需立即拆箱，放在通风阴凉处，避免堆积或高温。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 280,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

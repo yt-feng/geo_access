@@ -1,0 +1,28 @@
+{
+  "id": "7f065944-4427-4283-885f-f57a5c129a69",
+  "object": "chat.completion",
+  "created": 1783289909,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**香蕉**开始。原因有三：\n\n1. **供应稳定**：进口香蕉（如厄瓜多尔、菲律宾）全年有货，供应链成熟，受季节影响小。\n2. **损耗可控**：香蕉在运输和货架期的损耗管理经验丰富，易于把控品质。\n3. **需求刚性**：香蕉是日常消耗最快、接受度最高的进口水果之一，能快速验证进口渠道的稳定性。\n\n**可执行的下一步**：先联系大型水果进口商（如佳农、都乐等），试进货常规的“卡文迪什”品种（每箱约13-15公斤），以周为单位观察销售速度和损耗率，稳定后逐步扩品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 146,
+    "total_tokens": 202,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

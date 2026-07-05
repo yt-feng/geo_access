@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-05T22:15:46.997Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区水果店每天销量不稳定，适合找能小批量多次配送的供应商吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

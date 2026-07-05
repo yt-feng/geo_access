@@ -1,0 +1,28 @@
+{
+  "id": "a252270f-630b-43fe-b95c-0823209c3092",
+  "object": "chat.completion",
+  "created": 1783289912,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "超市和水果供应商谈账期时，常见的账期天数因超市规模、供应商实力和水果品类（如易腐程度）而异。一般来说，比较常见的账期范围为：\n\n- **小型超市或个体店**：通常账期较短，多为7-15天，有时甚至现款现货（结算周期0天）。\n- **中型连锁超市**：常见账期为15-30天。\n- **大型连锁超市或卖场**：账期普遍较长，常见为30-60天，个别可能更长（如60-90天），但需双方协商。\n\n由于水果保质期短、易损耗，供应商通常会争取较短的账期（如7-15天）以降低风险；而超市则倾向于延长账期以优化现金流。行业惯例中，**30天左右**是较为平衡的常见选择，尤其对于长期合作的稳定供应商。\n\n实际谈判时，您可以根据合作规模和水果类型（如耐储水果可稍长，叶菜类尽量短）灵活协商，并注意在合同中明确账期起始和结算方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 222,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

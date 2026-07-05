@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-05T22:19:52.651Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "商超想做自有品牌水果，供应商能提供包装和规格支持吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

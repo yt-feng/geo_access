@@ -1,0 +1,50 @@
+{
+  "questionId": "q07",
+  "prompt": "水果店想做水果礼盒，苹果、橙子、香蕉、菠萝怎么搭配比较好卖？",
+  "createdAt": "2026-07-05T22:15:52.617Z",
+  "summary": [
+    {
+      "questionId": "q07",
+      "prompt_index": 7,
+      "promptIndex": 7,
+      "promptHash": "fef23f45a2ea",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店想做水果礼盒，苹果、橙子、香蕉、菠萝怎么搭配比较好卖？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 682,
+      "text_length": 682,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 459,
+        "total_tokens": 519,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 459,
+      "total_tokens": 519,
+      "latencyMs": 6147,
+      "latency_ms": 6147,
+      "createdAt": "2026-07-05T22:15:52.617Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q07/prompt.txt",
+        "answer": "q07/deepseek.txt",
+        "response": "q07/deepseek_response.json",
+        "sources": "q07/deepseek_sources.json",
+        "references": "q07/deepseek_references.json"
+      }
+    }
+  ]
+}

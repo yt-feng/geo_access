@@ -1,0 +1,28 @@
+{
+  "id": "6114d28a-5e81-4794-adcd-c5dc307df70f",
+  "object": "chat.completion",
+  "created": 1783290534,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**支持开发票和定制包装**的供应商。原因如下：\n\n1. **开发票**：企业采购需要合规的财务报销和税务抵扣凭证，供应商必须能开具增值税专用发票或普通发票。若供应商不支持，会影响账务处理。\n2. **定制包装**：企业福利通常需要体现品牌形象或节日主题（如印LOGO、定制文案、特定礼盒样式）。若无定制能力，福利效果会打折扣。\n\n**可执行建议**：\n- 筛选供应商时，明确要求对方提供“增值税专用发票”和“包装定制服务”。\n- 定制包装时，提前确认起订量、设计费、生产周期（建议预留7-15天）及包装材质（如纸盒、保温箱等，根据水果保质期选择）。\n- 若预算有限，可协商“起订量达标后免设计费”或“批量采购优惠”。\n\n若供应商无法同时满足，可拆分需求：水果礼盒由A供应商提供（开发票），包装由B设计公司定制。但需注意成本增加和协调效率问题。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 229,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

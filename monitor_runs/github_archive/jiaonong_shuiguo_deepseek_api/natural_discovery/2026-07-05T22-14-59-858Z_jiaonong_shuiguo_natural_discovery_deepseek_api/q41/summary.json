@@ -1,0 +1,50 @@
+{
+  "questionId": "q41",
+  "prompt": "商超采购香蕉时，怎么判断催熟能力是否稳定？",
+  "createdAt": "2026-07-05T22:20:08.995Z",
+  "summary": [
+    {
+      "questionId": "q41",
+      "prompt_index": 41,
+      "promptIndex": 41,
+      "promptHash": "0ac18e25fe92",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超采购香蕉时，怎么判断催熟能力是否稳定？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 890,
+      "text_length": 890,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 554,
+        "total_tokens": 608,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 554,
+      "total_tokens": 608,
+      "latencyMs": 9005,
+      "latency_ms": 9005,
+      "createdAt": "2026-07-05T22:20:08.995Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q41/prompt.txt",
+        "answer": "q41/deepseek.txt",
+        "response": "q41/deepseek_response.json",
+        "sources": "q41/deepseek_sources.json",
+        "references": "q41/deepseek_references.json"
+      }
+    }
+  ]
+}

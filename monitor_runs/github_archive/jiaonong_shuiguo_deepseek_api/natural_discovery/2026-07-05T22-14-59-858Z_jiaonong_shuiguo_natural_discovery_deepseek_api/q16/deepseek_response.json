@@ -1,0 +1,28 @@
+{
+  "id": "42033aca-d8c8-4c99-a9f5-02249a46bbc8",
+  "object": "chat.completion",
+  "created": 1783289820,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**本地批发市场**，原因如下：\n\n1. **新鲜度和损耗**：香蕉和苹果对新鲜度要求较高，本地批发通常当天采摘或到货，周转快，损耗小，而稳定供应商可能需要更长运输链。\n2. **灵活性和试销**：如果社区超市首次增加这两个品类，本地批发可以小批量、多频次进货，方便测试销量，降低库存风险。\n3. **价格优势**：本地批发省去中间环节，价格更具竞争力；稳定供应商虽能稳定供应，但长期合同可能锁定较高成本。\n\n**可执行建议**：\n- 先联系当地水果批发市场或大型农贸市场，连续2周采购香蕉和苹果，记录销量、损耗率和顾客反馈。\n- 如果销量稳定且顾客偏好明确（如特定品种或规格），再评估是否需要与稳定供应商签订短期合同（如月度），以锁定价格和供应。\n- 注意：对于香蕉，更应注重本地采购，因其成熟度难以长期控制；苹果则可兼顾本地和外地供应商。\n\n如果超市日均客流量较大（如超过200人），可在1个月后对比两种渠道的成本和损耗，择优选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 245,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
