@@ -1,0 +1,28 @@
+{
+  "id": "1e20e5a8-e67d-4651-a9d0-c1185a38d6a5",
+  "object": "chat.completion",
+  "created": 1783377970,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "商超做自有品牌水果时，供应商通常可以提供包装和规格支持，具体取决于合作模式和供应商的能力。以下是常见支持内容：\n\n1. **包装定制**：供应商能根据商超需求设计专属包装（如品牌logo、颜色、尺寸），包括袋装、盒装、网兜装等。部分大供应商还可提供环保或差异化包装方案。\n\n2. **规格调整**：供应商可按商超要求提供不同重量、数量或品类组合（如小包装单人份、大包装家庭装或混装礼盒），需提前沟通最低起订量。\n\n3. **附加服务**：部分供应商支持打标签、贴码、分拣或配送至门店等增值服务。\n\n**操作建议**：  \n- 明确需求：列出具体品类（如苹果、柑橘）、目标规格（如单果大小、净重）、包装形式（如透气小袋）及预算。\n- 筛选供应商：优先选择有自有品牌合作经验的供应商，或与产地直供、加工批发商谈判。\n- 签订合同：明确包装材质标准、规格误差范围、检测费用承担及退换货条款。\n\n**注意**：供应商通常要求最低起订量（如1000箱/月），且包装成本可能影响最终定价。建议先进行小批量试产。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 272,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

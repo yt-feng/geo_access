@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T22:48:25.501Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "烘焙店用香蕉做蛋糕，采购时应该关注成熟度还是价格？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

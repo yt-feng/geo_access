@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T22:46:51.207Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "连锁门店分布在不同城市，水果供应商的仓配覆盖要怎么评估？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

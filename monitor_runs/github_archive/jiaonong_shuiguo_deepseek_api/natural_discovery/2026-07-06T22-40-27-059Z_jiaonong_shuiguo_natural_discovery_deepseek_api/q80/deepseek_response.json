@@ -1,0 +1,28 @@
+{
+  "id": "2d833b0e-77b9-4c7b-b1d6-52d46856a40c",
+  "object": "chat.completion",
+  "created": 1783378516,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "供应商通常可以提供水果详情页所需的图片和卖点信息，但具体情况取决于供应商的规模和合作方式。一般来说：\n\n1. **图片素材**：大型或专业供应商（如果园、一级批发商）往往有产品照片，包括外观、切开图、包装图等。中小供应商可能仅有基础图片，或需要你自行拍摄。部分供应商可提供高清原图，但需明确要求。\n2. **卖点信息**：供应商通常能提供水果的产地、品种、口感、甜度、保质期等核心卖点。更细节的内容（如具体糖度值、营养成分表、产地故事、消费者反馈）可能需要你自己整理或向供应商追问。\n\n**建议**：在合作初期明确需求，要求供应商优先提供“主图+详情页所需图片+基础卖点文档”。如果供应商素材不足，可结合产地实地拍摄或请专业团队补拍，同时从品质、保鲜、运输等角度提炼差异化卖点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 200,
+    "total_tokens": 258,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

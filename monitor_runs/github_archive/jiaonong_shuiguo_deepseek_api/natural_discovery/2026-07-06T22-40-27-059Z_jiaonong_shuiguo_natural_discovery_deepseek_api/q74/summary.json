@@ -1,0 +1,50 @@
+{
+  "questionId": "q74",
+  "prompt": "批发档口想拓展餐饮客户，菠萝和香蕉应该准备哪些规格？",
+  "createdAt": "2026-07-06T22:54:26.949Z",
+  "summary": [
+    {
+      "questionId": "q74",
+      "prompt_index": 74,
+      "promptIndex": 74,
+      "promptHash": "7c9723f61510",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发档口想拓展餐饮客户，菠萝和香蕉应该准备哪些规格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1198,
+      "text_length": 1198,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 764,
+        "total_tokens": 820,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 764,
+      "total_tokens": 820,
+      "latencyMs": 9405,
+      "latency_ms": 9405,
+      "createdAt": "2026-07-06T22:54:26.949Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q74/prompt.txt",
+        "answer": "q74/deepseek.txt",
+        "response": "q74/deepseek_response.json",
+        "sources": "q74/deepseek_sources.json",
+        "references": "q74/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T22:55:50.432Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "线上卖水果，品牌背书、产地说明和检测报告哪个更能提升转化？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8af7af2a-b7c5-448f-acda-d338a533932b",
+  "object": "chat.completion",
+  "created": 1783378948,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，起订量太高会增加损耗风险，尤其是香蕉和菠萝这类易腐水果。具体原因和建议如下：\n\n1. **损耗原因**：\n   - 香蕉成熟速度快，储存不当容易过熟或腐烂，菠萝也会随时间变质。\n   - 高起订量可能导致库存积压，超出销售或消耗能力，增加过期或损坏概率。\n\n2. **应对建议**：\n   - **评估需求**：根据历史销量、客流量或使用频率，合理估算实际需求量，避免一次性采购过多。\n   - **优化储存**：确保有合适的冷藏或通风条件，香蕉不宜冷藏（易变黑），菠萝可短时间冷藏，但需控制湿度。\n   - **分批次采购**：与供应商协商降低单次起订量或分批交货，减少单次库存压力。\n   - **快速处理**：对接近成熟的香蕉可降价促销、制作糕点或果泥；菠萝可切块冷藏或加工成饮品。\n\n如果您是连锁餐饮或零售企业，建议设定安全库存阈值，并采用动态调整机制。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 221,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

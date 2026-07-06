@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T23:02:05.284Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果采购想要稳定价格，和供应商谈锁价一般能锁多久？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T23:01:03.814Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "公司下午茶采购水果，怎么选择适合批量配送的供应商？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a1e0ffaa-f0c7-419a-9ca8-3ea346945be4",
+  "object": "chat.completion",
+  "created": 1783377842,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您应向供应商索要以下关键资料以确保水果的农残符合安全标准：\n\n1. **批次农残检测报告**：要求提供该批次水果的第三方或官方检测报告，重点查看有机磷、氨基甲酸酯等常见农药残留是否低于国家标准（如GB 2763）。\n2. **产地证明与合格证**：包括原产地农业部门出具的产地合格证明，或供应商自检的“食用农产品合格证”。\n3. **进货台账与溯源信息**：包含供应商名称、生产基地、采摘日期、运输记录等，便于追溯问题批次。\n4. **供应商资质文件**：营业执照、食品经营许可证（如适用）、种植基地的绿色食品或有机认证（如有）。\n5. **过往抽检记录**：近一年内供应商接受监管部门抽检的报告副本，确认无历史违规。\n\n**行动建议**：提前将上述资料清单写入采购合同条款，约定每批供货前提供。到货后保留至少2份样品（备用约1公斤），用于必要时自主送检。优先选择有绿色食品或良好农业规范（GAP）认证的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 233,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

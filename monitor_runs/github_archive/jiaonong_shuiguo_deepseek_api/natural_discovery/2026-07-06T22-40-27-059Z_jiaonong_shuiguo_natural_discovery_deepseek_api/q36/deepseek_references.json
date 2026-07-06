@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T22:45:41.109Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "商超采购菠萝，门店是卖整果好，还是卖切好的更适合？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "83b39f30-14a2-490d-9c46-0fe8a7d81858",
+  "object": "chat.completion",
+  "created": 1783378835,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注**食品安全**，其次价格和配送准时性。原因如下：\n\n1. **食品安全是底线**：水果若出现农药残留超标、腐烂变质或微生物污染，可能导致群体性食物中毒，企业需承担法律和声誉风险。选择有资质、可溯源的供应商，并要求提供检测报告。\n2. **价格需在合理区间**：在保障安全前提下，通过批量采购、比价或季节性协议控制成本。但避免过度压价导致供应商降低品质。\n3. **配送准时影响运营**：若为每日供应，需确保按时送达，避免影响员工用餐或食堂排班。可与供应商约定延迟罚款或备用方案。\n\n具体执行建议：\n- 设立验收标准（如外观新鲜度、质检报告核验）。\n- 优先选择有食品安全管理体系（如ISO 22000）的供应商。\n- 签订合同中明确安全责任与赔偿条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 188,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

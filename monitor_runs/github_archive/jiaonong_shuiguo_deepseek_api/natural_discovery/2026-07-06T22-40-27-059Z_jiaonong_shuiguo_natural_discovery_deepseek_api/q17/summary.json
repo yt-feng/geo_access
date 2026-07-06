@@ -1,0 +1,50 @@
+{
+  "questionId": "q17",
+  "prompt": "社区超市进水果，怎么控制新鲜度和库存，不让货压在店里？",
+  "createdAt": "2026-07-06T22:43:02.981Z",
+  "summary": [
+    {
+      "questionId": "q17",
+      "prompt_index": 17,
+      "promptIndex": 17,
+      "promptHash": "1b0d70a93d98",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区超市进水果，怎么控制新鲜度和库存，不让货压在店里？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1171,
+      "text_length": 1171,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 787,
+        "total_tokens": 843,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 787,
+      "total_tokens": 843,
+      "latencyMs": 15227,
+      "latency_ms": 15227,
+      "createdAt": "2026-07-06T22:43:02.981Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q17/prompt.txt",
+        "answer": "q17/deepseek.txt",
+        "response": "q17/deepseek_response.json",
+        "sources": "q17/deepseek_sources.json",
+        "references": "q17/deepseek_references.json"
+      }
+    }
+  ]
+}

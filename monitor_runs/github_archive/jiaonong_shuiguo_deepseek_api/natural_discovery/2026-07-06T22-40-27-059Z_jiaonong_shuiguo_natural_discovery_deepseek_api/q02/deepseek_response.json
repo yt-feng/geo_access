@@ -1,0 +1,28 @@
+{
+  "id": "c6e66eeb-a3d3-4ecb-a417-d3ff9f975159",
+  "object": "chat.completion",
+  "created": 1783377646,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对小水果店进货香蕉，建议按以下优先级权衡：\n\n1. **熟度（最核心）**  \n   香蕉的熟度直接影响可卖时间和损耗。一般选择七成熟（皮黄但两端带绿，果肉硬），既能满足顾客当天购买，又能在2-3天内销售。过熟易损坏，过青则无人问津。\n\n2. **坏果率**  \n   验收时当场抽查整箱，坏果率控制在5%以内。坏果会感染其他香蕉，且常见于运输磕碰或储存问题。低于批发价的次品除外。\n\n3. **送货速度**  \n   适合需求稳定的日常合作。如香蕉属于高频水果，断货后影响销售，需确保发货后24小时内到店。优先选择本城或邻近产地进货。\n\n4. **价格**  \n   在满足前三点后再比较价格。每斤低0.2-0.5元可接受，差距过大（超1元）需警惕品质问题。\n\n**执行建议**：  \n- 找2-3家供应商对比样品，每次少量试单（1-2箱）。  \n- 验收标准：提起来不断、手握无硬心、表皮无黑斑、不粘手。  \n- 当天未卖完的香蕉，用保鲜膜包住柄部放入冷柜（12-14℃），可延长1-2天。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 294,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

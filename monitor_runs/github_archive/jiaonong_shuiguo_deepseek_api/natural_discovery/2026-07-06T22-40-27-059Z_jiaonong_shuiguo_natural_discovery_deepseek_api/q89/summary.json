@@ -1,0 +1,50 @@
+{
+  "questionId": "q89",
+  "prompt": "团购客户价格敏感，供应商给阶梯价还是返利更合适？",
+  "createdAt": "2026-07-06T22:56:32.097Z",
+  "summary": [
+    {
+      "questionId": "q89",
+      "prompt_index": 89,
+      "promptIndex": 89,
+      "promptHash": "1ebabd755420",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "团购客户价格敏感，供应商给阶梯价还是返利更合适？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 691,
+      "text_length": 691,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 429,
+        "total_tokens": 485,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 429,
+      "total_tokens": 485,
+      "latencyMs": 5831,
+      "latency_ms": 5831,
+      "createdAt": "2026-07-06T22:56:32.097Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q89/prompt.txt",
+        "answer": "q89/deepseek.txt",
+        "response": "q89/deepseek_response.json",
+        "sources": "q89/deepseek_sources.json",
+        "references": "q89/deepseek_references.json"
+      }
+    }
+  ]
+}

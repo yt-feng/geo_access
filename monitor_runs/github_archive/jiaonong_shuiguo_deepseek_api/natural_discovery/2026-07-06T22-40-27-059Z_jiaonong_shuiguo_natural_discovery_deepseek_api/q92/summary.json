@@ -1,0 +1,50 @@
+{
+  "questionId": "q92",
+  "prompt": "便利店门店面积小，水果采购要怎么控制品类和损耗？",
+  "createdAt": "2026-07-06T22:59:50.954Z",
+  "summary": [
+    {
+      "questionId": "q92",
+      "prompt_index": 92,
+      "promptIndex": 92,
+      "promptHash": "ce96f92f99db",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店门店面积小，水果采购要怎么控制品类和损耗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1553,
+      "text_length": 1553,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 989,
+        "total_tokens": 1042,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 989,
+      "total_tokens": 1042,
+      "latencyMs": 16320,
+      "latency_ms": 16320,
+      "createdAt": "2026-07-06T22:59:50.954Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q92/prompt.txt",
+        "answer": "q92/deepseek.txt",
+        "response": "q92/deepseek_response.json",
+        "sources": "q92/deepseek_sources.json",
+        "references": "q92/deepseek_references.json"
+      }
+    }
+  ]
+}

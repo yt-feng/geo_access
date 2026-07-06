@@ -1,0 +1,50 @@
+{
+  "questionId": "q08",
+  "prompt": "小店进货量不大，找批发市场拿货还是找固定供应商更合适？",
+  "createdAt": "2026-07-06T22:41:44.715Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt_index": 8,
+      "promptIndex": 8,
+      "promptHash": "6ae2024b4fa3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "小店进货量不大，找批发市场拿货还是找固定供应商更合适？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 531,
+      "text_length": 531,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 323,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 323,
+      "total_tokens": 380,
+      "latencyMs": 6587,
+      "latency_ms": 6587,
+      "createdAt": "2026-07-06T22:41:44.715Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q08/prompt.txt",
+        "answer": "q08/deepseek.txt",
+        "response": "q08/deepseek_response.json",
+        "sources": "q08/deepseek_sources.json",
+        "references": "q08/deepseek_references.json"
+      }
+    }
+  ]
+}

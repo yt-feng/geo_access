@@ -1,0 +1,28 @@
+{
+  "id": "9aba0490-d87e-4d87-bdc7-8defe17859ba",
+  "object": "chat.completion",
+  "created": 1783378045,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**鲜果**，其次是**果丁**，最后考虑**果泥**。具体原因如下：\n\n- **鲜果**：风味最自然，适合对品质要求高的茶饮店。可现场制作、控制甜度和香气，但需固定供应商保证原料稳定，且处理耗时（削皮、切块、去芯）。\n- **果丁**（冷冻切块）：省去处理时间，质地保留一定果肉感，适合中高端果茶。相比果泥，能保持果肉颗粒口感，但风味通常不如鲜果鲜活。\n- **果泥**：成本低、易标准化，适合快速出杯，但口感单一、香气不足。长期使用可能影响品牌口碑（消费者能尝出非鲜果感）。\n\n**操作建议**：如果店铺日均出杯量高、人力不足，可“鲜果+冷冻果丁”混合使用（比如30%鲜果打底+70%冷冻果丁），平衡成本与品质。若主打低价位果茶，则用果泥。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 220,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bb1b2ce2-955b-4779-88be-b61a6e63e85f",
+  "object": "chat.completion",
+  "created": 1783377678,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "综合考虑成本和便利性，建议提供三种选项：\n\n1. **整果出售**：适合有经验、愿意自己处理的顾客（价格最低）。\n2. **现场去皮切块**：按需服务，适合需要即食的顾客（加收少许加工费）。\n3. **预先包装去皮果**：适合快节奏或初次尝试的顾客（定价可高于整果，但需注意保鲜损耗）。\n\n具体操作上：\n- **若以走量为目标**：主推整果+现场免费或低价去皮，吸引客流。\n- **若以利润为目标**：推出包装好的去皮果（高毛利）和加价去皮服务。\n- **需注意**：预先去皮的水果不宜大量库存，可根据当日销量灵活安排，避免损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 158,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
