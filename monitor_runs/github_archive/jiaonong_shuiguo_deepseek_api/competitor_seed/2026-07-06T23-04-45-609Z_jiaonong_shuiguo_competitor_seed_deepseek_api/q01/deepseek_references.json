@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-06T23:04:45.613Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们超市想找稳定的进口香蕉供应商，鑫荣懋和都乐哪家供货更靠谱？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

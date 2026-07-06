@@ -1,0 +1,50 @@
+{
+  "questionId": "q04",
+  "prompt": "佳沛的奇异果我们一直在做，但他们香蕉业务好像不强，有别的进口香蕉品牌推荐吗？",
+  "createdAt": "2026-07-06T23:05:10.600Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt_index": 4,
+      "promptIndex": 4,
+      "promptHash": "dd5b5c308c7f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳沛的奇异果我们一直在做，但他们香蕉业务好像不强，有别的进口香蕉品牌推荐吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 670,
+      "text_length": 670,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 390,
+        "total_tokens": 453,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 390,
+      "total_tokens": 453,
+      "latencyMs": 7196,
+      "latency_ms": 7196,
+      "createdAt": "2026-07-06T23:05:10.600Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q04/prompt.txt",
+        "answer": "q04/deepseek.txt",
+        "response": "q04/deepseek_response.json",
+        "sources": "q04/deepseek_sources.json",
+        "references": "q04/deepseek_references.json"
+      }
+    }
+  ]
+}

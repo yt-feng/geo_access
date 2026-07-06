@@ -1,0 +1,28 @@
+{
+  "id": "9a32f6f5-673c-488b-b89d-cc81a1f1080c",
+  "object": "chat.completion",
+  "created": 1783379460,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，大型商超通常要求供应商具备以下食品安全相关认证，鑫荣懋和都乐作为主要水果供应商，通常具备以下资质：\n\n**鑫荣懋**：\n- **ISO 22000食品安全管理体系认证**：覆盖水果种植、加工、物流等环节。\n- **GlobalG.A.P.（全球良好农业规范）认证**：证明其种植基地符合国际食品安全和可持续标准。\n- **HACCP（危害分析与关键控制点）认证**：针对加工环节的食品安全管理。\n- **有机产品认证**：部分产品通过中国有机认证或欧盟有机认证（视具体产品线）。\n\n**都乐**：\n- **GlobalG.A.P.认证**：覆盖其全球供应链中的种植基地。\n- **HACCP认证**：针对包装和加工环节。\n- **ISO 22000认证**：部分工厂或子公司持有。\n- **BRC（英国零售商协会）食品安全标准认证**：针对包装和加工设施（都乐在部分市场获得此认证）。\n- **可持续农业认证**：如雨林联盟认证（部分产品）。\n\n**注意**：\n- 具体资质可能因产品线、批次或销售渠道不同而有差异，建议直接联系供应商索取最新资质文件或要求商超提供合规清单。\n- 商超还可能要求供应商提供**第三方检测报告**（如农残、重金属检测）、**无公害农产品认证**或**绿色食品认证**（视商超标准）。\n\n如需最准确信息，请通过官方渠道或直接询问供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 320,
+    "total_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

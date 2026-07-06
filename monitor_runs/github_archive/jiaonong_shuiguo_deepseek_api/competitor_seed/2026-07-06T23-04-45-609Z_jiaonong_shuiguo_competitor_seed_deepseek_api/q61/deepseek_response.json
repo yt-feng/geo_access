@@ -1,0 +1,28 @@
+{
+  "id": "f9b9d747-9172-422c-8698-7f46c9238dfc",
+  "object": "chat.completion",
+  "created": 1783379560,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于水果连锁店的香蕉分级标准，都乐（Dole）和洪九果品作为大型水果企业，可能有内部的企业标准，但这些标准通常属于商业机密，未公开发布。不过，行业通用的香蕉分级标准可以参考国家或行业的推荐性标准，例如中国国家标准《香蕉》（GB/T 40950-2021）或行业标准《香蕉等级规格》（NY/T 1794-2009）。这些标准按果指长度、粗度、成熟度、外观（如无机械伤、病虫害）等指标区分等级，通常分为特级、一级、二级等。\n\n建议您：\n1. 直接联系都乐或洪九果品的官方客服或采购部门，询问其是否提供分级标准文件。\n2. 参考上述公开标准作为基础，结合连锁店客户需求（如外观、熟度、货架期）制定内部标准。\n3. 考虑加入水果行业协会（如中国果品流通协会），获取行业分级指导或培训。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 205,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

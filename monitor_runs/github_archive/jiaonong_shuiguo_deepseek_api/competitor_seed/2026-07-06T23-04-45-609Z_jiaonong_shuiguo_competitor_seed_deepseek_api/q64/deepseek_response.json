@@ -1,0 +1,28 @@
+{
+  "id": "ca150d51-faed-496a-89c5-dbcf199597a6",
+  "object": "chat.completion",
+  "created": 1783379577,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于鑫荣懋和都乐的冷链配送覆盖城市，建议您直接联系这两家公司的官方客服或访问其官网查询最新的服务网络范围，因为配送覆盖区域可能随业务调整而变化。作为通用人工智能，我无法实时获取或验证此类具体商业信息，提供不准确的数据可能会影响您的决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 66,
+    "total_tokens": 127,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f82fc1fb-71ac-4610-91b7-9e0be2e9a76d",
+  "object": "chat.completion",
+  "created": 1783379375,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对产地溯源透明度，**都乐（Dole）** 通常比洪九果品更透明。\n\n**理由：**\n- **都乐**：作为国际品牌，其供应链管理严格，通常会提供详细的产地信息（如具体种植基地、采收日期、包装地等），且可通过官方渠道或包装码进行追溯。其溯源体系成熟，适合对透明度要求高的客户。\n- **洪九果品**：作为国内大型水果分销商，近年也在推进数字化溯源，但规模大、合作产地多，透明度取决于具体供应商批次。部分大型商超渠道可能有追溯码，但普通客户获取的产地信息通常较笼统（如“云南”“泰国”），缺乏田间到市场的全链路细节。\n\n**建议：** 如果你需要严格的可执行溯源（如出口或高端订单），优先联系都乐区域销售，要求提供基地证明和批次追踪单；若预算有限，可要求洪九提供特定合作农户或果园的产地登记文件（需明确写入采购合同）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 212,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

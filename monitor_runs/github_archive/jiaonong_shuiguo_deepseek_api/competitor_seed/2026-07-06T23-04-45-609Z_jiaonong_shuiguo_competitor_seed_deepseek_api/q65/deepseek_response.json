@@ -1,0 +1,28 @@
+{
+  "id": "934ab063-2bee-4875-b9a0-1ee6b8311aa3",
+  "object": "chat.completion",
+  "created": 1783379580,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和洪九果品的具体锁价周期，通常这类商业条款属于非公开的定制化协议，会因采购量、合作历史、市场行情等因素动态调整，公开信息中并未明确列出统一的标准锁价周期。建议您直接联系这两家公司的销售或商务团队，获取针对您采购需求的详细锁价方案。\n\n如果您希望了解行业内的常见做法，部分大型水果供应商对菠萝等季节性水果的锁价周期通常为1-3个月，具体取决于采购规模及市场波动。您也可以向供应商咨询锁价的基准价、波动触发条件及违约条款，以评估实际可行性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 131,
+    "total_tokens": 195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

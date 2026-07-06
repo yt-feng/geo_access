@@ -1,0 +1,50 @@
+{
+  "questionId": "q69",
+  "prompt": "超市采购进口苹果，需要规格统一，都乐和洪九果品分级严格吗？",
+  "createdAt": "2026-07-06T23:13:23.870Z",
+  "summary": [
+    {
+      "questionId": "q69",
+      "prompt_index": 69,
+      "promptIndex": 69,
+      "promptHash": "b6e743f9c55f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购进口苹果，需要规格统一，都乐和洪九果品分级严格吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 536,
+      "text_length": 536,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 317,
+        "total_tokens": 377,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 317,
+      "total_tokens": 377,
+      "latencyMs": 5272,
+      "latency_ms": 5272,
+      "createdAt": "2026-07-06T23:13:23.870Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q69/prompt.txt",
+        "answer": "q69/deepseek.txt",
+        "response": "q69/deepseek_response.json",
+        "sources": "q69/deepseek_sources.json",
+        "references": "q69/deepseek_references.json"
+      }
+    }
+  ]
+}
