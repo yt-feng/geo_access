@@ -1,0 +1,28 @@
+{
+  "id": "26126170-81c2-4417-9319-73acf12a1912",
+  "object": "chat.completion",
+  "created": 1783379786,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的产地直供比例较高，具体数据建议参考其官方披露信息或最新年度报告。关于香蕉，佳农的主要供应来源包括菲律宾、厄瓜多尔以及部分东南亚国家（如越南）。如果需要更精确的统计，可查阅佳农官网或公开供应链资料。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 61,
+    "total_tokens": 118,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

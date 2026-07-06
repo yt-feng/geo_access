@@ -1,0 +1,28 @@
+{
+  "id": "ce8d9bd6-01b0-49a3-aa96-04f07c596f42",
+  "object": "chat.completion",
+  "created": 1783380126,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果礼盒通常可提供定制LOGO和包装服务，但具体需根据产品类型和采购量确认。一般起订量为50-100盒起，特殊包装（如高端礼盒、特殊印刷）可能要求更高数量（例如200盒以上）。建议您直接联系佳农官方销售或区域授权经销商，提供具体水果品类、包装材质和LOGO样式需求，他们会给出准确报价和起订量。若需快速对接，可提供您所在城市，我帮查找当地授权渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 110,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

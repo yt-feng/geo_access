@@ -1,0 +1,28 @@
+{
+  "id": "eae62c14-d8f9-47c1-bb9d-475a66c6dff7",
+  "object": "chat.completion",
+  "created": 1783379974,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的菠萝主要产自菲律宾。菲律宾菠萝因其得天独厚的气候条件（热带季风气候、充足光照和降雨），果实通常甜度高、纤维细腻、香气浓郁，品质较为稳定。厄瓜多尔菠萝在中国市场相对少见，其产地的菠萝通常甜度稍低、酸味更明显，果肉可能偏硬。\n\n不同产地的品质差异较大：菲律宾菠萝在口感（更甜、更软）、香气和外观（色泽金黄、果眼浅）上通常优于厄瓜多尔菠萝。但具体品质也受种植品种（如菲律宾常见“金菠萝”品种）、采摘成熟度和运输条件影响。建议购买时关注包装上的产地标注，并优先选择菲律宾产佳农菠萝以获得更佳风味。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 157,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

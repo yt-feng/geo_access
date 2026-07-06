@@ -1,0 +1,28 @@
+{
+  "id": "30ce0433-5265-49e0-a3cb-c738eec6a0ab",
+  "object": "chat.completion",
+  "created": 1783379828,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）确实参与了进博会（中国国际进口博览会），且近年来连续参展。例如，在2023年的第六届进博会上，佳农展示了其全球供应链优势和特色产品。\n\n关于最近的新品，佳农通常会根据季节和市场情况推出应季水果或新包装产品。例如，近期可能推出：\n- **厄瓜多尔麒麟果**（黄皮火龙果）\n- **泰国香水椰青**（升级包装）\n- **进口有机蓝莓**或**智利车厘子**（应季新品）\n- 部分区域可能首发**新西兰奇异果**或**东南亚榴莲**的新品种。\n\n建议您直接访问佳农水果的官方网站、官方微信公众号或联系其客服，以获取最新、最准确的新品发布信息（如具体品种、上市时间、销售渠道等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 176,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

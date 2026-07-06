@@ -1,0 +1,28 @@
+{
+  "id": "68712a3d-5812-4255-ba34-72b32f25bcd5",
+  "object": "chat.completion",
+  "created": 1783380202,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据我的了解，佳农（Goodfarmer）是国内知名的水果品牌，产品线涵盖多种水果，包括苹果。佳农确实有销售红富士苹果，并且也提供新疆阿克苏苹果。阿克苏苹果通常以“冰糖心”著称，是红富士的一种特色品种，佳农在部分地区或渠道（如电商、商超）会有供应。\n\n建议您直接联系佳农的官方销售渠道（如官网、客服或您当地的批发商），以确认当前是否有新疆阿克苏苹果的库存及采购方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 113,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a09659d9-989d-45f1-8563-9f3a62a6cee4",
+  "object": "chat.completion",
+  "created": 1783379867,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于“佳农水果的香蕉企业标准”的具体文本内容，我无法直接提供其内部文件。不过，可以明确的是：根据《中华人民共和国标准化法》，国家鼓励企业制定高于国家标准（国标）、行业标准的企业标准，用于提升产品质量。\n\n在中国，香蕉的强制性国家标准主要涉及食品安全方面，例如GB 2762《食品安全国家标准 食品中污染物限量》和GB 2763《食品安全国家标准 食品中农药最大残留限量》等。佳农作为大型水果企业，通常会建立自己的企业标准（Q/标准号），这些标准在理化指标、外观等级、包装、贮存运输条件等方面，往往比国标的要求更严格、更细化。\n\n简单来说：\n- **国标是底线**：确保食品安全和基本质量。\n- **企业标准通常更高**：为了品牌信誉和市场竞争，佳农的企业标准大概率会高于国标，尤其在果形、成熟度、糖度、无损伤率等商品性指标上。\n\n如果您需要查询该企业标准的具体编号（如Q/JNSP XXXX-XXXX），建议通过“企业标准信息公共服务平台”（）或向佳农官方客服咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 240,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

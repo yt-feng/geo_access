@@ -1,0 +1,28 @@
+{
+  "id": "1d34a42a-6104-4e13-b9ca-87cf5ea861a7",
+  "object": "chat.completion",
+  "created": 1783379969,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果礼盒的定制问题，我需要提醒您：我无法直接查询佳农公司最新的销售政策或具体联系方式。建议您直接联系佳农官方客服或授权经销商获取准确信息。\n\n不过，根据常见水果礼盒定制流程，通常注意以下几点：\n\n1. **最小起订量**：不同规格、水果品种或定制复杂度，起订量差异较大。一般可能从50盒到200盒起步，具体需与厂商确认。\n\n2. **LOGO印制**：多数情况下可以印公司Logo，但可能受包装材质（如纸盒、塑料盒）、印刷技术（丝印、烫金、贴标）影响。部分礼盒可能只能添加不干胶贴纸或吊牌。\n\n**建议您直接通过以下方式联系佳农：**\n- **佳农官方客服电话**：您可搜索佳农官方网站或关注其官方公众号，在“联系我们”页面获取最新客服热线。\n- **咨询要点**：明确告知“定制水果礼盒”需求，询问起订量、LOGO印制方式、工期、包装费用等。\n\n如需帮助查找佳农官方联系方式，您可以告诉我，我可以为您提供搜索建议（如：使用搜索引擎搜索“佳农集团 客服电话”）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 262,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q14",
+  "prompt": "我们超市想长期合作佳农香蕉，能提供专供包装吗？",
+  "createdAt": "2026-07-06T23:16:22.955Z",
+  "summary": [
+    {
+      "questionId": "q14",
+      "prompt_index": 14,
+      "promptIndex": 14,
+      "promptHash": "3b0e3b1c06d2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们超市想长期合作佳农香蕉，能提供专供包装吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 161,
+      "text_length": 161,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 96,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 96,
+      "total_tokens": 152,
+      "latencyMs": 2331,
+      "latency_ms": 2331,
+      "createdAt": "2026-07-06T23:16:22.955Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q14/prompt.txt",
+        "answer": "q14/deepseek.txt",
+        "response": "q14/deepseek_response.json",
+        "sources": "q14/deepseek_sources.json",
+        "references": "q14/deepseek_references.json"
+      }
+    }
+  ]
+}

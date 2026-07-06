@@ -1,0 +1,28 @@
+{
+  "id": "eaf03620-3513-4f98-b3af-2d38f2217aa8",
+  "object": "chat.completion",
+  "created": 1783380070,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农牧果（上海佳农香蕉实业有限公司）目前公开提供的API接口信息有限，但可以确认的是：\n\n1. **佳农通常通过EDI/EAI（企业数据交换平台）或定制接口对接大型商超及电商平台**，而非公开的标准化API。\n2. 建议你按以下步骤操作：\n   - **联系佳农业务/IT部门**：直接对接佳农的销售代表或技术支持，询问其ERP系统（如SAP等）是否支持WebService、RESTful API、SFTP文件传输等标准接口。\n   - **确认对接方式**：常见对接方式包括：数据文件（Excel/CSV/XML）定期传输、通过中间件（如MuleSoft、Oracle Data Integrator）实现，或使用私有API。\n   - **合同与权限**：合作通常需签署NDA（保密协议）及技术服务协议，明确接口规范、数据权限、安全认证（如OAuth、API Key）。\n3. **替代方案**：若无直连API，可通过成熟的B2B集成平台（如欧电云、伯俊）或直接使用佳农的供应商门户手动操作，待业务量提升后再推动技术对接。\n\n建议优先获取佳农的业务联系人，直接沟通接口可行性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 265,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

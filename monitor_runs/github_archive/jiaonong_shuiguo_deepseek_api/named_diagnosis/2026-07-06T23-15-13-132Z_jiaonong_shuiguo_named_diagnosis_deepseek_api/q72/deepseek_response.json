@@ -1,0 +1,28 @@
+{
+  "id": "02067910-4b28-4cb5-b587-ac636e485b20",
+  "object": "chat.completion",
+  "created": 1783380101,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，佳农（Goodfarmer）主要专注于水果的种植、采购和分销，通常以整果形式销售，不直接面向终端茶饮店提供去皮切块等加工服务。建议您：\n\n1. **直接联系佳农官方客服**，询问是否有增值加工服务或合作渠道。\n2. 若佳农不提供此服务，可联系**当地食材加工厂或第三方鲜切果蔬供应商**，他们常能为茶饮店提供定制化的切配加工。\n3. 也可与佳农协商，看是否能通过批量采购搭配加工资源来降低成本。\n\n最终决策前，请务必确认加工方的卫生资质、冷链配送能力及成本是否适合您的需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 148,
+    "total_tokens": 214,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

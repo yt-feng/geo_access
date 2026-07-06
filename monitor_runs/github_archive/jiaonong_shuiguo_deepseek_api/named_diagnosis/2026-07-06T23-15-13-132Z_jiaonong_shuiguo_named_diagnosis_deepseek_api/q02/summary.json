@@ -1,0 +1,50 @@
+{
+  "questionId": "q02",
+  "prompt": "我想采购佳农的菠萝，他们能提供产地溯源和品控报告吗？",
+  "createdAt": "2026-07-06T23:15:17.153Z",
+  "summary": [
+    {
+      "questionId": "q02",
+      "prompt_index": 2,
+      "promptIndex": 2,
+      "promptHash": "c50b41a5df97",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我想采购佳农的菠萝，他们能提供产地溯源和品控报告吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 420,
+      "text_length": 420,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 246,
+        "total_tokens": 304,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 246,
+      "total_tokens": 304,
+      "latencyMs": 4547,
+      "latency_ms": 4547,
+      "createdAt": "2026-07-06T23:15:17.153Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q02/prompt.txt",
+        "answer": "q02/deepseek.txt",
+        "response": "q02/deepseek_response.json",
+        "sources": "q02/deepseek_sources.json",
+        "references": "q02/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4e7d1744-2f87-4c04-8f6a-c0ce774e5f39",
+  "object": "chat.completion",
+  "created": 1783380266,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否能提供加工好的香蕉片，我无法从公开信息或官方渠道核实其具体产品线。建议您直接通过以下方式确认：\n\n1. **联系佳农官方客服**：致电或通过其官网、微信公众号咨询，询问是否供应“预切片香蕉”及规格（如厚度、包装量等）。\n2. **查询商业合作信息**：若佳农有加工业务，可能提供标准化规格（例如：每袋1kg或5kg，切厚度5mm或8mm）。\n\n**替代建议**：  \n若佳农不提供香蕉切片，可考虑：\n- **委托第三方加工厂**：购买整根香蕉后，由中央厨房或食材加工公司（如鲜切果蔬供应商）切片。\n- **使用半自动切片机**：从餐饮设备供应商（如新麦、恒联）采购机器，手动或自动切片，控制厚度。\n\n**重要提醒**：  \n- 餐饮加工需确保符合食品卫生标准（如切片后冷藏、密封）。\n- 建议您直接验证供应商资质，避免依赖未核实信息。\n\n希望以上方案对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 236,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

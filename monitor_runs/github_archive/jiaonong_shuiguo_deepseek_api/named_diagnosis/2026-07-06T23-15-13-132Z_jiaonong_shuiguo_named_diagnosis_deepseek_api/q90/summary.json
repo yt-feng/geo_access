@@ -1,0 +1,50 @@
+{
+  "questionId": "q90",
+  "prompt": "我们茶饮店需要菠萝丁原料，佳农菠萝能提供冷冻丁吗？规格多大？",
+  "createdAt": "2026-07-06T23:23:25.237Z",
+  "summary": [
+    {
+      "questionId": "q90",
+      "prompt_index": 90,
+      "promptIndex": 90,
+      "promptHash": "b7999ecf3609",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们茶饮店需要菠萝丁原料，佳农菠萝能提供冷冻丁吗？规格多大？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 201,
+      "text_length": 201,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 121,
+        "total_tokens": 182,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 121,
+      "total_tokens": 182,
+      "latencyMs": 2587,
+      "latency_ms": 2587,
+      "createdAt": "2026-07-06T23:23:25.237Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q90/prompt.txt",
+        "answer": "q90/deepseek.txt",
+        "response": "q90/deepseek_response.json",
+        "sources": "q90/deepseek_sources.json",
+        "references": "q90/deepseek_references.json"
+      }
+    }
+  ]
+}

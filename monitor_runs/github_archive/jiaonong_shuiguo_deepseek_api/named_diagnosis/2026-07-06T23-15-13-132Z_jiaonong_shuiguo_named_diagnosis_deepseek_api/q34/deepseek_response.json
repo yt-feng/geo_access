@@ -1,0 +1,28 @@
+{
+  "id": "8b501595-88ff-4811-bc07-1a8beaa25d01",
+  "object": "chat.completion",
+  "created": 1783379871,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前在全国设有多个配送中心，具体数量可能因业务调整而变化（建议通过其官网或官方客服查询最新数据，例如2023年资料显示其拥有约20个大型配送中心）。对于三线城市的覆盖情况：佳农主要依托其冷链物流网络，部分三线城市已实现配送，但具体能否覆盖您的城市，需确认您所在城市是否在其配送范围内。建议您直接联系佳农客服或登录其官网查询当地服务网点信息，或提供具体城市名称以便进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 110,
+    "total_tokens": 166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

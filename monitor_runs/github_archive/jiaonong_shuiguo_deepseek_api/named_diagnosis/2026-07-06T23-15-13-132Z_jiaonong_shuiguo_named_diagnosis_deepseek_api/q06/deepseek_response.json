@@ -1,0 +1,28 @@
+{
+  "id": "99903bf9-67b9-4cd9-a4dd-4eec46a941b7",
+  "object": "chat.completion",
+  "created": 1783379738,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Joy Wing Mau）作为国内较大的水果供应商，通常能稳定提供适合茶饮店使用的菠萝原料。他们一般会提供以下常见规格，普通商家能直接理解和使用：\n\n- **菠萝规格**：通常按“箱”或“个”售卖，常见规格为：\n  - **单个重量**：约1.2-1.8斤（600-900克），适合直接切块或榨汁。\n  - **箱装**：每箱约20-30斤（10-15个），具体视季节和产地调整。\n\n- **产品形式**：可提供新鲜菠萝（带皮或去皮）、冷冻菠萝块/丁（适合长期储存）、菠萝罐头（糖水或原味），均适合茶饮店使用。\n\n- **供货稳定性**：佳农在海南、广东等地有稳定种植基地，全年可供应（但最佳风味季为春夏季），需提前1-3天订货。\n\n建议联系佳农当地经销商或客服，明确告知需求（如“每周需100斤新鲜菠萝，单果1.2-1.5斤，去皮切块”），他们会提供详细报价和规格书。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 244,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

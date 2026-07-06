@@ -1,0 +1,28 @@
+{
+  "id": "96808fc6-71f3-4764-baaf-11215002c719",
+  "object": "chat.completion",
+  "created": 1783380005,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业惯例，香蕉的到货损耗率通常受运输、储存及成熟度影响。关于佳农的具体数据，目前公开信息中未明确公布其平均损耗率。建议您直接联系佳农的销售或客服部门，获取其内部品质管控标准及近年实际损耗统计。\n\n至于赔付条款，佳农通常会在采购合同中明确约定因产品质量问题（如腐烂、严重碰伤等）导致的损耗补偿规则，例如：**到货后24小时内，对超出约定损耗率（如5%-10%）的部分按比例进行赔付**。具体条款需以实际签订的合同为准。若您有合作意向，建议在签署前重点核查以下内容：\n- 损耗率的认定标准（如腐烂面积、硬度等）\n- 赔付触发条件及计算方式（如差价补偿或实物替换）\n- 争议解决流程（如是否需要第三方检测机构介入）\n\n建议通过佳农官方渠道获取最新合同模板或直接咨询业务代表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 201,
+    "total_tokens": 263,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

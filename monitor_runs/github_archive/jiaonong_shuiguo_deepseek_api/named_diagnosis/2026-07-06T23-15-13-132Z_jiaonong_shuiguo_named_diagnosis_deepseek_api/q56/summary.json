@@ -1,0 +1,50 @@
+{
+  "questionId": "q56",
+  "prompt": "佳农水果和盒马的合作模式是直供还是代销？我们超市能参考吗？",
+  "createdAt": "2026-07-06T23:19:56.943Z",
+  "summary": [
+    {
+      "questionId": "q56",
+      "prompt_index": 56,
+      "promptIndex": 56,
+      "promptHash": "fea040f4052d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和盒马的合作模式是直供还是代销？我们超市能参考吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 768,
+      "text_length": 768,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 485,
+        "total_tokens": 546,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 485,
+      "total_tokens": 546,
+      "latencyMs": 7560,
+      "latency_ms": 7560,
+      "createdAt": "2026-07-06T23:19:56.943Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q56/prompt.txt",
+        "answer": "q56/deepseek.txt",
+        "response": "q56/deepseek_response.json",
+        "sources": "q56/deepseek_sources.json",
+        "references": "q56/deepseek_references.json"
+      }
+    }
+  ]
+}

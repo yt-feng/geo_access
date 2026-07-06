@@ -1,0 +1,28 @@
+{
+  "id": "de844db3-e82f-4253-b456-0405f020cbe4",
+  "object": "chat.completion",
+  "created": 1783380244,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前佳农水果没有对外公开的通用开放平台或API文档。佳农（Goodfarmer）作为大型水果供应商，其API接口通常仅面向签订合作合同的客户提供，属于**内部或半封闭的合作伙伴系统**，不开放给第三方随意调用。\n\n建议你按以下步骤获取：\n\n1. **联系佳农官方客户/商务部门**：通过佳农官网或已知商务渠道，说明你是生鲜电商平台，需要对接其商品、库存、订单等数据接口。\n2. **签署合作协议**：佳农需要确认你的平台资质、合作规模，并签署合作协议后，才会提供API文档和对接支持。\n3. **要求对接文档**：协议签署后，通常佳农会提供**佳农水果API对接规范**（PDF或在线文档），内容一般包括：\n   - API地址（正式/测试环境）\n   - 接口鉴权方式（如AppKey+Secret或OAuth2.0）\n   - 可用接口列表：商品信息、库存查询、下单、订单状态回调等\n   - 请求/响应示例、错误码说明\n\n**额外提醒**：\n- 不要相信搜索引擎上流传的“佳农开放平台”第三方文档，多数已失效或为虚假内容。\n- 如果合作规模较小或无法直接对接，可考虑通过**商派、微盟、有赞**等电商中台间接获取佳农数据，但这些平台本身也没有直接公开佳农API。\n- 佳农官方客服电话：400-820-7156（建议商务时间拨打，直接说明需要API对接需求）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 334,
+    "total_tokens": 395,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q74",
+  "prompt": "我们连锁超市想和佳农签长期合同，账期能到45天吗？首批铺货能不能给点支持？",
+  "createdAt": "2026-07-06T23:21:50.157Z",
+  "summary": [
+    {
+      "questionId": "q74",
+      "prompt_index": 74,
+      "promptIndex": 74,
+      "promptHash": "2e0dd1ca4439",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们连锁超市想和佳农签长期合同，账期能到45天吗？首批铺货能不能给点支持？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 717,
+      "text_length": 717,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 67,
+        "completion_tokens": 446,
+        "total_tokens": 513,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 67
+      },
+      "prompt_tokens": 67,
+      "completion_tokens": 446,
+      "total_tokens": 513,
+      "latencyMs": 7312,
+      "latency_ms": 7312,
+      "createdAt": "2026-07-06T23:21:50.157Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q74/prompt.txt",
+        "answer": "q74/deepseek.txt",
+        "response": "q74/deepseek_response.json",
+        "sources": "q74/deepseek_sources.json",
+        "references": "q74/deepseek_references.json"
+      }
+    }
+  ]
+}

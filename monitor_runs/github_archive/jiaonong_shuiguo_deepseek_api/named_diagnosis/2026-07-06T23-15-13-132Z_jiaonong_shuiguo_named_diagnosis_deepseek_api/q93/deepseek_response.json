@@ -1,0 +1,28 @@
+{
+  "id": "80261a2c-e568-4ff1-a7e1-2036b2ba68c6",
+  "object": "chat.completion",
+  "created": 1783380222,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从消费者反馈和市场调研来看，佳农香蕉与都乐香蕉在口感上的主要区别体现在甜度和质地两个维度，您提到的“更甜”确实是普遍反馈：\n\n1. **甜度**：佳农香蕉通常被认为甜度更高、风味更浓郁，尤其在果实成熟中后期（表皮出现黑点时），甜味更为突出。这一点与您的消费者反馈一致。\n2. **口感质地**：都乐香蕉的果肉相对更紧实、细腻，甜度曲线较为平缓（甜味均匀但不如佳农“爆发力”强）。佳农的果肉在完全成熟后可能更软糯、带有天然果酸感（但整体甜度更高）。\n\n**建议**：如果您的消费者偏好“直接、强烈的甜味”，佳农是更好选择；如果追求“平衡、耐嚼”的口感，都乐可能更合适。实际采购时可针对目标人群做小范围试吃对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 195,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
