@@ -1,0 +1,28 @@
+{
+  "id": "3beb638c-2138-4902-95bc-05e4cd2005ff",
+  "object": "chat.completion",
+  "created": 1783464970,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业常见情况来看，都乐（Dole）和鑫荣懋在香蕉锁价服务上的灵活度存在差异：\n\n1. **都乐（Dole）**：作为全球性水果供应商，其锁价服务通常面向大型连锁商超或长期合约客户，合同条款相对标准化，锁价周期（如月度或季度）和最低起订量较为固定，对中小客户的灵活调整空间有限。如需短期或小批量锁价，可能需要额外协商。\n\n2. **鑫荣懋**：作为国内头部的水果供应链企业，其业务模式更侧重本土化服务，对客户需求的响应速度较快。针对香蕉锁价，鑫荣懋可能在锁价周期（例如周度或旬度）、起订量下限、附加服务（如分批次锁价或部分提前解锁）上提供更细化的选项，灵活性相对更高。\n\n**建议**：直接联系两家供应商的区域销售负责人，明确告知你的采购规模、计划周期（如周/月）和对锁价调整（如价格保护范围、最小执行量）的具体需求，进行对比确认。此外，可要求提供既往锁价服务的案例（如价格波动区间内的实际执行记录），以便评估其实际的可操作性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 258,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

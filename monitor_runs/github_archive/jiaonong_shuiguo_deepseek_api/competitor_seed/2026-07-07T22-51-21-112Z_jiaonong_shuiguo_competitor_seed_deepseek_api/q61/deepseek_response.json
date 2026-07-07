@@ -1,0 +1,28 @@
+{
+  "id": "88e23d3e-f9a5-4b3e-a78f-fd8414a279ba",
+  "object": "chat.completion",
+  "created": 1783465116,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法直接核实都乐（Dole）和洪九果品的最新内部企业标准文件（这些通常是企业内部资料，不公开或需要授权查询）。不过，我可以提供一般性建议：\n\n1. **香蕉分级通用标准**：通常按外观（如无破损、斑点、成熟度）、尺寸（长度、直径）、重量、糖度等指标分为特级、一级、二级等。行业参考GB/T 40195-2021《香蕉》或NY/T 1095-2021《香蕉等级规格》。\n\n2. **都乐**：作为国际品牌，通常遵循内部品控标准，可能参照国际标准（如UNECE FFV-01）或客户要求，建议直接联系其供应商销售或品控部门。\n\n3. **洪九果品**：作为国内头部水果渠道商，可能有企业Q/HJ系列标准，具体可咨询其采购部或查阅企业端资料（不对外公开）。\n\n**可执行建议**：\n- 联系两公司的客服或采购部门，直接询问。\n- 参考国家标准，结合自身连锁店定位（如高端/大众）制定分级细则，例如：\n  - 特级：无瑕疵，长度≥20cm，单果重≥180g，成熟度6-7成。\n  - 一级：轻微斑点≤3处，长度18-20cm，单果重150-180g。\n  - 次品：破损、过熟或畸形的。\n\n如果您需要更具体的标准模板，可以告诉我您的门店定位（如高端精品或社区便利店），我可以协助推导。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 333,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q10",
+  "prompt": "批发市场拿货总担心农残问题，鑫荣懋和洪九果品在香蕉品控上谁更严？",
+  "createdAt": "2026-07-07T22:52:32.565Z",
+  "summary": [
+    {
+      "questionId": "q10",
+      "prompt_index": 10,
+      "promptIndex": 10,
+      "promptHash": "b825f1c27d93",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发市场拿货总担心农残问题，鑫荣懋和洪九果品在香蕉品控上谁更严？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 559,
+      "text_length": 559,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 374,
+        "total_tokens": 442,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 68
+      },
+      "prompt_tokens": 68,
+      "completion_tokens": 374,
+      "total_tokens": 442,
+      "latencyMs": 6006,
+      "latency_ms": 6006,
+      "createdAt": "2026-07-07T22:52:32.565Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q10/prompt.txt",
+        "answer": "q10/deepseek.txt",
+        "response": "q10/deepseek_response.json",
+        "sources": "q10/deepseek_sources.json",
+        "references": "q10/deepseek_references.json"
+      }
+    }
+  ]
+}

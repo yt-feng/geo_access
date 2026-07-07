@@ -1,0 +1,28 @@
+{
+  "id": "eae4d270-d9f5-4fd5-b312-1517c9653745",
+  "object": "chat.completion",
+  "created": 1783464705,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您提到的佳沛（Zespri）主要专注于奇异果，香蕉业务确实不是其核心。如果您需要寻找其他可靠的进口香蕉品牌，以下是一些在国际市场和中国市场有较高认可度的品牌推荐：\n\n1. **都乐（Dole）**  \n   全球知名的水果品牌，香蕉品质稳定，供应链成熟，在中国市场渠道覆盖广，适合大规模采购。\n\n2. **金吉达（Chiquita）**  \n   历史悠久的香蕉品牌，以高标准的品控和可持续种植著称，部分产品线有有机认证。\n\n3. **佳农（Goodfarmer）**  \n   虽然是中国品牌，但进口业务非常成熟，与厄瓜多尔、菲律宾等产区合作紧密，香蕉口感和新鲜度有保障，在商超常见。\n\n4. **超益（Superfresh）**  \n   主要供应菲律宾和厄瓜多尔香蕉，注重高品质和稳定供货，在高端超市和线上渠道容易找到。\n\n5. **威林（Waylin）**  \n   专注于热带水果进口，香蕉产品线覆盖普通和有机品种，适合差异化需求。\n\n**采购建议：**  \n- 如果您需要稳定的供货和品牌背书，**都乐**和**金吉达**是首选；  \n- 若考虑性价比和灵活性，**佳农**或**超益**值得尝试；  \n- 可根据您所在地区的进口水果市场情况，先小批量试采，对比品控和物流周期。  \n\n希望这些推荐能帮助您拓展香蕉业务！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 314,
+    "total_tokens": 377,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "18ccb9e4-7b10-4d34-af2e-17b42947f7ca",
+  "object": "chat.completion",
+  "created": 1783465191,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品（Hong9）的礼盒起订量，通常因地区、季节、具体产品和合作方式而有所不同，且两者可能有不同的渠道政策。以下是一般性参考信息：\n\n1. **都乐（Dole）**\n   - 通常要求起订量较高，主要面向大型商超、企业团购等B端客户。在礼品团购渠道，起订量可能在**50-100盒**以上（具体视单盒规格和价格而定）。建议直接联系都乐当地销售团队咨询，因为不同城市、不同时令水果的起订量可能不同。\n\n2. **洪九果品（Hong9）**\n   - 在批发和团购渠道相对灵活，起订量可能**20-50盒**左右，但高端礼盒或定制包装可能要求更高起订量。具体需看合作方（如区域代理商、线上团购平台）的要求。\n\n**重要建议：**\n- 直接拨打官方销售热线或联系您所在区域的经销商，获取最新报价和起订量政策。\n- 明确说明是“礼品团购”，并告知期望的礼盒规格、水果品类、包装要求等，以便对方给出精确起订量。\n\n（注意：水果行业的定制起订量受库存、季节供应影响较大，以上数据仅为通用参考，不保证100%准确。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 293,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

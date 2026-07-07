@@ -1,0 +1,28 @@
+{
+  "id": "5cd6ef68-64a3-4d7d-bcc0-726aef739a59",
+  "object": "chat.completion",
+  "created": 1783464747,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，以下进口水果品牌在礼品团购市场也较受欢迎：\n\n1. **爱妃（Envy）**：新西兰高端苹果品牌，果肉抗氧化，口感脆甜，礼盒装精致。\n2. **卓莓（Driscoll's）**：美国浆果品牌，主推蓝莓、树莓等，适合高端水果礼盒。\n3. **JAZZ（爵士苹果）**：新西兰苹果品种，酸甜适中，礼盒包装常见。\n4. **金枕头（马来西亚猫山王）**：高端榴莲品牌，适合冷冻榴莲果肉礼盒。\n5. **晴王（日本阳光玫瑰）**：无核葡萄品种，国内多来自云南或进口，高端礼盒常见。\n6. **瑞士红肉苹果（Redlove）**：独特红色果肉，抗氧化性强，定位高端礼品。\n7. **智利车厘子（如 Santa Maria 等品牌）**：冬季礼品热门，通常按等级包装。\n\n建议根据团购预算和客户偏好选择，可优先联系当地大型水果批发商或进口商索取最新礼盒目录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 241,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

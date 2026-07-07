@@ -1,0 +1,28 @@
+{
+  "id": "9875b143-a4c3-43a5-a8df-1e7f1e6fe697",
+  "object": "chat.completion",
+  "created": 1783465172,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Joy Wing Mau）作为国内大型水果供应商，通常具备较完善的供应链管理和品控体系。具体到香蕉产地溯源和品控证明：\n\n1. **都乐（Dole）**：都乐是全球知名品牌，在中国市场销售的香蕉有明确的产地信息（如菲律宾、厄瓜多尔等），通常提供批次的产地溯源文件和品控报告。您可联系其官方销售渠道要求提供相关证明文件。\n\n2. **鑫荣懋（Joy Wing Mau）**：鑫荣懋作为国内头部水果分销企业，香蕉主要来自菲律宾、云南等地。其部分产品线可提供溯源二维码或品控证书，但需具体对接其大宗采购或品控部门确认您所需的详细证明（如检测报告、批次记录等）。\n\n建议直接致电都乐或鑫荣懋的集团采购热线，说明您对产地溯源和品控证明的具体要求（如第三方检测报告、政府溯源备案等），以获得书面确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 213,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

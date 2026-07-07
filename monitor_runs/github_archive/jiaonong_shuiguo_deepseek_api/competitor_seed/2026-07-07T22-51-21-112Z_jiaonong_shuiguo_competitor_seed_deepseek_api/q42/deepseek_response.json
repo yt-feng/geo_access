@@ -1,0 +1,28 @@
+{
+  "id": "f0daaea8-af0e-42e2-8dea-2b569b61e248",
+  "object": "chat.completion",
+  "created": 1783464976,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口菠萝旺季缺货时，建议优先考虑以下应对措施：\n\n1. **替代品类选择**：转向国产优质菠萝（如海南金钻菠萝、台湾凤梨）或其他热带水果（如芒果、火龙果），并调整营销策略强调新鲜度与性价比。\n\n2. **短期补货方案**：联系替代进口商（如菲律宾、哥斯达黎加其他供应商），或通过进境监管场所调取库存；优先采用空运补货（成本较高但快速）。\n\n3. **都乐（Dole）可能的应急措施**：\n   - 启动全球供应网络：加大从厄瓜多尔、菲律宾等非季节性产区调货。\n   - 调整产品线：转为供应冷冻菠萝或菠萝罐头，缓解鲜果短缺。\n   - 与零售商合作推出分装小规格或组合装，减少浪费。\n\n4. **洪九果品可能的应急措施**：\n   - 动态库存管理：利用自有仓储和产地端资源，协调云南、海南产区补充。\n   - 提前锁定合同：与供应商签订短期浮动价格合约，确保优先供货权。\n   - 推广“预售+定制”模式：引导消费者接受延时发货，降低即时缺货压力。\n\n建议直接联系以上公司华南或华东区销售经理确认最新应急方案；同时可关注海关总署官网、中国水果流通协会公告获取进口配额变动信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 290,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

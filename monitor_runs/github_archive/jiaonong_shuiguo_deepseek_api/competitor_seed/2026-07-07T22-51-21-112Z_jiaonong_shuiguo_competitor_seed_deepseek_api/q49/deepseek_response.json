@@ -1,0 +1,28 @@
+{
+  "id": "8443adf2-7887-4376-8c6f-8bb839720d06",
+  "object": "chat.completion",
+  "created": 1783465033,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常，都乐（Dole）和鑫荣懋（Joy Wing Mau）作为大型果蔬供应链企业，都具备提供专岗对接服务（如客户经理或大客户专员）的能力，但具体是否提供以及服务模式可能因合作规模、地区或客户级别而异。\n\n建议您通过以下方式确认：\n1. **联系销售代表**：直接致电或通过官网联系两家公司的销售部门，询问是否针对您的合作需求设置专人对接。\n2. **查看合作协议**：如果您已有合作，可查阅合同中是否明确列出专岗服务条款。\n3. **咨询行业同行**：了解同行业企业在该两家供应商处的实际对接体验。\n\n若您急需明确答案，建议优先联系都乐（因其在全球供应链中常配备客户专属团队），但最终以双方实际沟通为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 169,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

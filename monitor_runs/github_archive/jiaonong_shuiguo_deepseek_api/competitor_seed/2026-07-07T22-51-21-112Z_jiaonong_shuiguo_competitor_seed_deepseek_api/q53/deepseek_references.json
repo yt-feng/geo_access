@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:57:41.393Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们做餐饮连锁，需要香蕉稳定供货，都乐和洪九果品能签长期合同吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6a39373e-aa1c-4713-a93b-47adf927620f",
+  "object": "chat.completion",
+  "created": 1783465216,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品（Hongjiu）的香蕉小包装是否环保，目前没有找到这两家品牌明确以“环保”为宣传重点的官方信息或公开产品说明。但根据行业趋势，它们通常有以下做法：\n- **都乐**：在部分市场使用可回收纸箱或可降解薄膜，但未确认有小包装（如散装零售小包）的环保版本。\n- **洪九果品**：作为国内水果供应链企业，常见包装为普通塑料薄膜或纸箱，小包装环保信息不明确。\n\n**建议**：\n1. **直接联系供应商**：向都乐或洪九果品的区域经销商或客服咨询其小包装是否有环保认证（如FSC、可降解材料、可循环利用等）。\n2. **更换供应商**：如果环保要求高，可寻找提供明确环保包装的本地或替代品牌（如使用可堆肥包装的“绿色果园”等）。\n3. **自行改造**：若现有包装不环保，可与供应商协商剥离大包装，改用可重复使用的物流箱或纸袋配送。\n\n如需具体环保产品的推荐，建议提供更多需求（如预算、门店规模）以便进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 257,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eb3e920f-ce1e-4439-b005-175e6074d69c",
+  "object": "chat.completion",
+  "created": 1783464692,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）外，目前市场上能稳定供应菠萝的常见品牌包括：\n\n1. **佳沛（Zespri）**：虽然以猕猴桃闻名，但其也供应高品质菠萝，主要来自菲律宾等产地，全年有一定供应。\n2. **金果源（Golden Fruit）**：专注热带水果，提供东南亚产菠萝，渠道稳定。\n3. **鲜丰水果（Fresh Fruit）**：国内品牌，合作多个产区，在电商和批发渠道常见。\n4. **快乐果园**：线上销售活跃，供应泰国或海南菠萝，季节性但较稳定。\n5. **佳农（Goodfarmer）**：综合性水果品牌，菠萝为稳定产品，覆盖线上线下。\n6. **本地品牌（如海南农垦、云南热带作物）**：产季（3-6月）供应充足，部分全年有渠。\n\n建议优先选择大型连锁超市（如盒马、山姆）或电商平台的品牌专区，这些渠道通常与稳定供应商签约。购买时注意查看产地和进口日期，菲律宾和哥斯达黎加产菠萝全年供应较好。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 233,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q80",
+  "prompt": "超市采购进口苹果，需要品牌背书，都乐和鑫荣懋哪个品牌更响？",
+  "createdAt": "2026-07-07T23:00:36.266Z",
+  "summary": [
+    {
+      "questionId": "q80",
+      "prompt_index": 80,
+      "promptIndex": 80,
+      "promptHash": "b8a3c4c99433",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购进口苹果，需要品牌背书，都乐和鑫荣懋哪个品牌更响？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 258,
+      "text_length": 258,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 163,
+        "total_tokens": 224,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 163,
+      "total_tokens": 224,
+      "latencyMs": 3224,
+      "latency_ms": 3224,
+      "createdAt": "2026-07-07T23:00:36.266Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q80/prompt.txt",
+        "answer": "q80/deepseek.txt",
+        "response": "q80/deepseek_response.json",
+        "sources": "q80/deepseek_sources.json",
+        "references": "q80/deepseek_references.json"
+      }
+    }
+  ]
+}

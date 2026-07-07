@@ -1,0 +1,28 @@
+{
+  "id": "c6c3dc59-06dc-4ece-9a32-478089a02909",
+  "object": "chat.completion",
+  "created": 1783464766,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业常见产品信息，**鑫荣懋**和**都乐**均有适合便利店渠道的小包装香蕉产品，但具体规格可能因地区或季节性调整，建议优先参考以下常见规格：\n\n1. **鑫荣懋**：常见的小包装香蕉规格为 **4-5根/袋**，净重约 **400-500克**，适合即食或短途携带。\n2. **都乐**：常见的小包装香蕉规格为 **5-6根/袋**，净重约 **500-600克**，部分产品会标注“小把”或“快餐装”。\n\n**建议行动**：\n- 联系当地经销商或区域销售代表，确认当前库存和最小起订量（如便利店通常需要 **10-20袋/箱** 的整箱供货）。\n- 自行搜索“鑫荣懋 小包装香蕉 便利店”或“都乐 小包装香蕉”查看最新产品目录。\n\n**注意**：若无法直接验证来源，请勿使用虚构的供应商联系方式或未公开的详细参数。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 226,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

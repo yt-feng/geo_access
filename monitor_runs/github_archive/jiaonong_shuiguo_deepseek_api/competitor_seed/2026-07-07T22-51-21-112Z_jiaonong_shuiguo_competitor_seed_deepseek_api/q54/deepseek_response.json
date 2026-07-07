@@ -1,0 +1,28 @@
+{
+  "id": "5185e78f-9e9c-49c5-b6dc-0e6aff65bdff",
+  "object": "chat.completion",
+  "created": 1783465069,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于超市采购的进口苹果（如都乐或鑫荣懋品牌），产地溯源可以通过以下步骤进行：\n\n1. **查看产品包装和标签**：  \n   - 进口苹果包装上通常有中文标签，标注原产国（如美国、新西兰、智利等）和具体产地（如华盛顿州、霍克湾等）。  \n   - 标签上可能有“溯源二维码”或“追溯码”，扫码可查看详细信息。\n\n2. **联系供应商或经销商**：  \n   - 直接向供货商索要产地证明文件（如原产地证书、植物检疫证书）。  \n   - 要求提供进口商信息（如海关报关单号），通过海关系统查询入境记录。\n\n3. **利用第三方追溯平台**：  \n   - 部分品牌（都乐的“Dole”官网、鑫荣懋的“佳沃鑫荣懋”追溯系统）可能提供在线查询功能，输入包装上的编码可查看产地、运输、检验等信息。\n\n4. **核对官方认证**：  \n   - 关注“中国食品农产品追溯平台”（如“中国追溯”系统），输入苹果品种或批次号进行验证。\n\n**注意**：  \n- 进口苹果可能由多个国家混装销售，需确认单批次来源。  \n- 如果无法核验来源，不要虚构引用、链接或数据出处。可直接向当地市场监管部门求助（如“全国12315平台”）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 301,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

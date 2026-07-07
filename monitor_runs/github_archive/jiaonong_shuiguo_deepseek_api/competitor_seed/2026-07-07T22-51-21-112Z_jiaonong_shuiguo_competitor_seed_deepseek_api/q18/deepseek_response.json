@@ -1,0 +1,28 @@
+{
+  "id": "6f466f93-0bf9-4e46-8994-3d472069293f",
+  "object": "chat.completion",
+  "created": 1783464809,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于菠萝稳定规格的批量采购，**都乐（Dole）** 通常是更优选择。都乐是全球知名品牌，拥有自营农场和标准化的分选、包装体系，能够确保全年供应稳定，且果品规格（如大小、成熟度）一致性高，适合长期统一采购需求。洪九果品主攻东南亚进口水果，菠萝品类中**泰国小菠萝**（规格偏小、甜度高）是其特色，其货源稳定性较强，但若您需要的是常规大菠萝（如巴厘品种）且对日发货量和规格统一度要求极高，都乐在供应链管控、分选标准上更具优势。建议先联系都乐国内经销商获取最新规格表及供应周期，同时可向洪九索取近期批次检测数据，对比确认后再做采购决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 172,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:55:04.043Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "礼品团购需要定制礼盒，都乐和佳沛谁更配合？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

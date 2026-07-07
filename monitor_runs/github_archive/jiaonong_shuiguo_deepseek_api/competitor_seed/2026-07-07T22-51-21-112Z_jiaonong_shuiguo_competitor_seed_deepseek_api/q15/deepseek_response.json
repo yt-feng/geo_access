@@ -1,0 +1,28 @@
+{
+  "id": "eedeacfd-0aca-4769-9349-88eaa045e908",
+  "object": "chat.completion",
+  "created": 1783464782,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），以下进口苹果品牌也比较常见且口碑较好：\n\n1. **爱妃（Envy）**：新西兰品牌，口感脆甜、果肉紧实，适合喜欢甜度高的消费者。\n2. **爵士（Jazz）**：同样来自新西兰，酸甜平衡，香气浓郁，常与爱妃并称。\n3. **嘎啦/皇家嘎啦（Royal Gala/Tenroy）**：原产新西兰，但市场上常见的是美国、智利等产地的果种，果型较小，味道酸甜适口。\n4. **红玫瑰（Red Rose/Sweetie，也有“蜜脆”等译名）**：部分品牌如“蜜脆”或“红粉佳人”（Pink Lady）系列，在新西兰、南非等地有种植，特点是颜色粉红、果肉硬脆。\n\n**一些选购建议：**\n- **可去盒马、山姆、Ole‘等精品超市或电商搜索**上述品牌名称，很多有官方或专区销售。\n- **注意产地**：同一品牌的苹果可能产自不同国家（如南非、美国、智利），口感风味会有差异。\n- **查看是否通过检验检疫**：正规渠道进口的苹果应有中文标签及检疫证明，避免购买水货。\n\n如果你需要购买对比，建议优先选择以上品牌中的一两种，结合你的口味偏好（偏甜还是酸甜）来决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 307,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
