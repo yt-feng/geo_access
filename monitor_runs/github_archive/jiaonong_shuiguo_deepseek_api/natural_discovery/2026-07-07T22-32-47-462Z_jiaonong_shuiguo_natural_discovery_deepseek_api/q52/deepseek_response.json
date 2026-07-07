@@ -1,0 +1,28 @@
+{
+  "id": "f503b395-2232-4107-ae4e-406ab0b3efbf",
+  "object": "chat.completion",
+  "created": 1783464062,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为减少香蕉到店后快速变黑，建议采取以下措施：\n\n1. **选择成熟度适中的香蕉**：采购时优先选果皮呈黄色、略带青头或少量褐色斑点（表明已成熟但未过熟）的果实，避免选果皮已全黄或出现大面积黑斑的。\n2. **分离乙烯源**：香蕉会释放乙烯加速自身成熟，单独存放，不要与苹果、梨、番茄等产乙烯水果混装。\n3. **控制温度**：到店后立即放入12-15℃的通风环境（如空调房或冷藏柜），避免低于12℃导致冷害（果皮变黑更快）。\n4. **轻柔搬运**：运输和摆放时轻拿轻放，避免磕碰和挤压，破损处会迅速氧化变黑。\n5. **适当清洗**：到店后可用清水轻轻冲洗香蕉表面（去除乙烯残留），擦干后存放，但不要打湿果柄。\n6. **悬挂或分挂**：将香蕉用挂钩悬挂，或分串平放（避免叠压），减少接触面加速成熟。\n\n按以上操作，可有效延长香蕉在甜品店的保鲜期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 250,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

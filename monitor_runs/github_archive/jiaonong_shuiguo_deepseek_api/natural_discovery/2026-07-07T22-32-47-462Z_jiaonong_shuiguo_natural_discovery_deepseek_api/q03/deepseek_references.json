@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:33:06.732Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "夫妻店第一次找水果供货商，香蕉、苹果、橙子这些常见货应该怎么试单？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

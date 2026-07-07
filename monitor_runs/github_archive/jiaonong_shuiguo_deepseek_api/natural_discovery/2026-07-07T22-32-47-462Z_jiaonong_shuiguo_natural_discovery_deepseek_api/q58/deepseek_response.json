@@ -1,0 +1,28 @@
+{
+  "id": "b30c3fea-a96b-4fe1-b459-2817d36ffae1",
+  "object": "chat.completion",
+  "created": 1783464114,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从损耗角度分析，**直接买成品果丁的损耗更低**，具体原因如下：\n\n1. **鲜果切配的损耗环节多**：  \n   - 菠萝去皮、去眼、去芯时，通常会产生约30%-40%的不可食用部分（皮、芯、果眼）。  \n   - 切配过程中若操作不当，还可能因切块大小不均或刀具损耗增加额外浪费。  \n   - 若当日未用完，新鲜菠萝切配后保质期短（冷藏约1-2天），容易因氧化或变质导致二次损耗。\n\n2. **成品果丁损耗可控**：  \n   - 工厂加工果丁时会标准化处理，去除非食用部分，剩余果肉几乎100%转化为成品。  \n   - 商家通常按需采购，包装密封性强，保质期较长（冷藏3-5天或冷冻更久），减少仓储和销售期的浪费。  \n\n**注意事项**：  \n- 如果采购量小且切配效率高，鲜果成本可能更低（需权衡人力、设备投入），但损耗率仍高于成品。  \n- 购买成品果丁时，需确认供应商的冷链运输和保质期，避免因品质问题导致额外损耗。  \n\n**建议**：优先选择成品果丁，尤其是不具备专业切配人员或高周转需求的甜品店。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 285,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

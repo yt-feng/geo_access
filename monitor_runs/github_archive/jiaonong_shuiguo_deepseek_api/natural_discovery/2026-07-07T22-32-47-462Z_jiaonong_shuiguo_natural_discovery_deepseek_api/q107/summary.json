@@ -1,0 +1,50 @@
+{
+  "questionId": "q107",
+  "prompt": "采购香蕉和菠萝时，起订量太高会不会增加损耗风险？",
+  "createdAt": "2026-07-07T22:49:17.844Z",
+  "summary": [
+    {
+      "questionId": "q107",
+      "prompt_index": 107,
+      "promptIndex": 107,
+      "promptHash": "beffec60f571",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "采购香蕉和菠萝时，起订量太高会不会增加损耗风险？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 550,
+      "text_length": 550,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 334,
+        "total_tokens": 389,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 334,
+      "total_tokens": 389,
+      "latencyMs": 4849,
+      "latency_ms": 4849,
+      "createdAt": "2026-07-07T22:49:17.844Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q107/prompt.txt",
+        "answer": "q107/deepseek.txt",
+        "response": "q107/deepseek_response.json",
+        "sources": "q107/deepseek_sources.json",
+        "references": "q107/deepseek_references.json"
+      }
+    }
+  ]
+}

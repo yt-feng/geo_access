@@ -1,0 +1,28 @@
+{
+  "id": "b6da90da-411a-4d69-a1d2-42d801ddb541",
+  "object": "chat.completion",
+  "created": 1783463807,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从稳定性角度考虑，建议先从**香蕉**开始引入。\n\n理由如下：\n1. **供应链成熟**：香蕉是全球贸易量最大的水果之一，国内进口香蕉（如菲律宾、厄瓜多尔等产地）的冷链物流和分销体系非常完善，断货风险低。\n2. **销售稳定**：香蕉是日常高频消费水果，复购率高，受季节影响较小，适合作为新品类打开市场。\n3. **处理简单**：香蕉的成熟度可通过乙烯催熟控制，损耗相对可控。相比之下，菠萝（易腐、需处理冠芽）和苹果（高端进口品种价格敏感、竞争饱和）的初始运营难度更高。\n\n建议先小批量试水国产香蕉（南方产区）和进口香蕉并行，观察本地消费者对价格和品质的接受度，再逐步扩展品类。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 172,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

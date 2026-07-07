@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:38:14.542Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "商超做会员日水果活动，供应商需要提前配合哪些准备？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

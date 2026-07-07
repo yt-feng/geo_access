@@ -1,0 +1,28 @@
+{
+  "id": "aefec1ea-2c8f-42fd-abd1-1aea8b2f5f73",
+  "object": "chat.completion",
+  "created": 1783464542,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "水果采购的锁价时长通常取决于市场行情、供应商类型和水果品种，一般有以下几种常见情况：\n\n1. **短期锁价（1-2周）**：最普遍，适用于季节性强、价格波动大的水果（如荔枝、榴莲），供应商通常只愿意在短期内锁定价格以规避风险。\n2. **中期锁价（1-3个月）**：适用于较稳定的产地或品种（如苹果、橙子），如果采购量较大且双方有长期合作，部分供应商可接受。\n3. **长期锁价（半年以上）**：较少见，主要针对耐储存、产地集中的水果（如冷冻果肉），需签订合同并附加价格调整机制（如极端行情下浮动条款）。\n\n**建议**：\n- 对高波动品项，优先争取2周内的锁价，结合期货或预付款增加供应商接受度。\n- 对稳定品项，尝试签订“价格保底+市场价浮动”的协议（如约定最低价，市价上涨时按比例上调）。\n- 签订锁价合同时，明确起止日期、质量标准、违约条款（如供应商中途涨价或断货的赔偿）。\n- 关注产地天气、物流、节日需求等预警，提前与供应商协商锁价窗口。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 267,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q19",
+  "prompt": "超市卖菠萝，应该关注甜度、大小、外观还是切果损耗？",
+  "createdAt": "2026-07-07T22:35:27.665Z",
+  "summary": [
+    {
+      "questionId": "q19",
+      "prompt_index": 19,
+      "promptIndex": 19,
+      "promptHash": "894465bbdb2c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市卖菠萝，应该关注甜度、大小、外观还是切果损耗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 405,
+      "text_length": 405,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 256,
+        "total_tokens": 313,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 256,
+      "total_tokens": 313,
+      "latencyMs": 5417,
+      "latency_ms": 5417,
+      "createdAt": "2026-07-07T22:35:27.665Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q19/prompt.txt",
+        "answer": "q19/deepseek.txt",
+        "response": "q19/deepseek_response.json",
+        "sources": "q19/deepseek_sources.json",
+        "references": "q19/deepseek_references.json"
+      }
+    }
+  ]
+}

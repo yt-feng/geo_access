@@ -1,0 +1,50 @@
+{
+  "questionId": "q44",
+  "prompt": "商超采购菠萝和香蕉，怎么判断供应商有没有稳定的售后响应？",
+  "createdAt": "2026-07-07T22:39:40.657Z",
+  "summary": [
+    {
+      "questionId": "q44",
+      "prompt_index": 44,
+      "promptIndex": 44,
+      "promptHash": "f8c8298e16c9",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超采购菠萝和香蕉，怎么判断供应商有没有稳定的售后响应？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 736,
+      "text_length": 736,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 426,
+        "total_tokens": 481,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 426,
+      "total_tokens": 481,
+      "latencyMs": 8371,
+      "latency_ms": 8371,
+      "createdAt": "2026-07-07T22:39:40.657Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q44/prompt.txt",
+        "answer": "q44/deepseek.txt",
+        "response": "q44/deepseek_response.json",
+        "sources": "q44/deepseek_sources.json",
+        "references": "q44/deepseek_references.json"
+      }
+    }
+  ]
+}

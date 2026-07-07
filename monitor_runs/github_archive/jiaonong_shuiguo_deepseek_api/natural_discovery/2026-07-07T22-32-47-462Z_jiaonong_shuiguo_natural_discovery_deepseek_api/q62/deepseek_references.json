@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:42:29.045Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果批发商拿香蕉，怎么判断一批货的熟度和坏果风险？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

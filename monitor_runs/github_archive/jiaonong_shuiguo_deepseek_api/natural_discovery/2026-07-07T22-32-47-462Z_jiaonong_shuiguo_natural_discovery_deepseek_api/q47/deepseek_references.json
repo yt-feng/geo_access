@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:40:05.401Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店用香蕉做饮品或甜品，采购时应该怎么控制熟度？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

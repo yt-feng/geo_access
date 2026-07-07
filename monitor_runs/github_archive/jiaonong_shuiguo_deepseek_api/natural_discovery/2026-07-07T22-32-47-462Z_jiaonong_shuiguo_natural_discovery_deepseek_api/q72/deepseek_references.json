@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:43:55.318Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发商想做稳定大客户，水果供应商的账期和额度怎么谈？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

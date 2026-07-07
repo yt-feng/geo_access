@@ -1,0 +1,28 @@
+{
+  "id": "8bcbfcdd-84a4-4f67-ae21-a7acd500e40d",
+  "object": "chat.completion",
+  "created": 1783463999,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**菠萝果丁**，其次是**菠萝果泥**。具体原因如下：\n\n1. **鲜果**：成本较低，但加工繁琐（去皮、去眼、切块），果肉硬度和甜度不稳定，需要额外储存和人工，且容易氧化变色。适合少量、现做现用，但大批量采购效率低。\n2. **果丁**：冻品或罐头形式，果肉大小均匀，耐储存，开袋即用，能保持果肉口感。适合追求效率、需稳定出品的大多数茶饮店。\n3. **果泥**：风味浓郁，适合打底或调味，但缺少果肉颗粒感。若果茶主打清爽口感和咀嚼感，则不如果丁。\n\n**操作建议**：\n- 若果茶需体现真实果肉，选**果丁**（优选冷冻果丁，风味损失少）。\n- 若主做菠萝味基底或冰沙类，可搭配**果泥**（减少用量即可节省成本）。\n- 不建议大量采购鲜果，除非有专门切配人员且销量稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 233,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

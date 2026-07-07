@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T22:34:00.278Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果店旺季怕断货，和供应商谈合作时要提前问哪些问题？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

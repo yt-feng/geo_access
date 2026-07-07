@@ -1,0 +1,28 @@
+{
+  "id": "00e2e756-d890-46c4-8857-fc77e7c7724b",
+  "object": "chat.completion",
+  "created": 1783463722,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "要避免买到太生或太熟的香蕉，可以注意以下几点：\n\n1. **看颜色**：选择果皮**均匀黄色**、略带青色（淡绿）的香蕉。完全青绿说明太生，出现大块黑斑或褐色则过熟。\n2. **检查硬度**：轻轻按压香蕉中部，果肉应**有弹性但不软塌**。太硬说明生，按压后凹陷不回弹则过熟。\n3. **观察棱角**：香蕉棱角分明（五棱）通常比圆润的**更生**，圆润饱满的成熟度更高。\n4. **看果柄**：果柄新鲜、绿色为佳，若变黑或发干则可能已采下太久。\n5. **少量购买**：如果当天吃，选偏黄带小点的香蕉；想多放几天，就选稍带青皮的。\n\n提示：存放时不要放冰箱（会变黑），悬空挂或平放于阴凉处可延长保存。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 213,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
