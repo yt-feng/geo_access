@@ -1,0 +1,50 @@
+{
+  "questionId": "q07",
+  "prompt": "佳农水果的配送覆盖哪些城市？我们县城能送到吗？",
+  "createdAt": "2026-07-07T23:01:32.357Z",
+  "summary": [
+    {
+      "questionId": "q07",
+      "prompt_index": 7,
+      "promptIndex": 7,
+      "promptHash": "eed83ed6690e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的配送覆盖哪些城市？我们县城能送到吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 375,
+      "text_length": 375,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 215,
+        "total_tokens": 270,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 215,
+      "total_tokens": 270,
+      "latencyMs": 3203,
+      "latency_ms": 3203,
+      "createdAt": "2026-07-07T23:01:32.357Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q07/prompt.txt",
+        "answer": "q07/deepseek.txt",
+        "response": "q07/deepseek_response.json",
+        "sources": "q07/deepseek_sources.json",
+        "references": "q07/deepseek_references.json"
+      }
+    }
+  ]
+}

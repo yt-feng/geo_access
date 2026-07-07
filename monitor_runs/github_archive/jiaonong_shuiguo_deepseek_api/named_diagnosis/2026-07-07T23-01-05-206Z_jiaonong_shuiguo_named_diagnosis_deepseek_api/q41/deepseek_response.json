@@ -1,0 +1,28 @@
+{
+  "id": "3a2abc4c-9651-47aa-9b94-1cb1244ed113",
+  "object": "chat.completion",
+  "created": 1783465462,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为大型水果品牌，在供应链管理上通常有较强的资源整合能力，尤其香蕉是其核心品类之一。针对商超旺季日需求20吨的情况，建议直接向佳农区域销售经理提供具体用量计划和旺季时间周期，要求签订保供协议并约定最小应急库存量。同时可查询其近三年在目标区域是否有因天气、运输或价格波动导致的断供记录。另外建议储备1-2家备选供应商，以防突发因素影响供应。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 103,
+    "total_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

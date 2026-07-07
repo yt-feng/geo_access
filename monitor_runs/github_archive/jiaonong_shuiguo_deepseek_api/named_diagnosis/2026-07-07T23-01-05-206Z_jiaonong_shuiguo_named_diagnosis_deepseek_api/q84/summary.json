@@ -1,0 +1,50 @@
+{
+  "questionId": "q84",
+  "prompt": "佳农水果的香蕉企业标准是什么？和国标比，糖度、果指长度有什么差异？",
+  "createdAt": "2026-07-07T23:08:11.329Z",
+  "summary": [
+    {
+      "questionId": "q84",
+      "prompt_index": 84,
+      "promptIndex": 84,
+      "promptHash": "42c14b1ad884",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉企业标准是什么？和国标比，糖度、果指长度有什么差异？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 541,
+      "text_length": 541,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 326,
+        "total_tokens": 389,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 326,
+      "total_tokens": 389,
+      "latencyMs": 4790,
+      "latency_ms": 4790,
+      "createdAt": "2026-07-07T23:08:11.329Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q84/prompt.txt",
+        "answer": "q84/deepseek.txt",
+        "response": "q84/deepseek_response.json",
+        "sources": "q84/deepseek_sources.json",
+        "references": "q84/deepseek_references.json"
+      }
+    }
+  ]
+}

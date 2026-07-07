@@ -1,0 +1,28 @@
+{
+  "id": "bd5ffa80-de54-474f-8923-f7238b0a0d12",
+  "object": "chat.completion",
+  "created": 1783465604,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否提供标准的ERP系统API接口，我目前无法确认其具体的技术开放情况。建议您通过以下方式获取准确信息：\n\n1. **直接联系佳农官方**：拨打其客服或商务热线（可访问佳农官网或通过“佳农食品”官方微信公众号获取联系方式），询问其对接技术文档、API接口规范及合作流程。\n\n2. **查询 佳农开放平台/开发者中心**：部分大型生鲜供应商会提供开放平台（如“佳农云”等），您可以搜索“佳农API接口文档”或“佳农开放平台”确认是否有公开入口。\n\n3. **确认对接场景**：如果是通过第三方平台（如电商ERP平台、SaaS服务商）对接，可直接咨询您的ERP服务商是否已与佳农预对接（例如使用“聚水潭”“旺店通”等常见ERP可查询其服务商列表）。\n\n4. **注意时间因素**：接口开放可能需签署合作协议或付费，建议提前准备企业信息及技术需求文档以便快速沟通。\n\n如果您需要进一步协助（如查找佳农官方联系方式模板），请提供更多背景信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 240,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

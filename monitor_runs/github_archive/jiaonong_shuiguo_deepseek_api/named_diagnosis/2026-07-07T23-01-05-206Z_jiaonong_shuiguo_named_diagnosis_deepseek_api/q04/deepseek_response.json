@@ -1,0 +1,28 @@
+{
+  "id": "19c3142a-2dad-4501-8473-30e6ac9ba6f4",
+  "object": "chat.completion",
+  "created": 1783465280,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供关于“佳农水果”具体商业合作政策或账期方案的实时信息。建议您直接联系佳农水果的官方客服或业务代表，咨询是否有针对长期合作客户的账期安排。您可以访问其官方网站或拨打客服热线获取准确详情。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 58,
+    "total_tokens": 109,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

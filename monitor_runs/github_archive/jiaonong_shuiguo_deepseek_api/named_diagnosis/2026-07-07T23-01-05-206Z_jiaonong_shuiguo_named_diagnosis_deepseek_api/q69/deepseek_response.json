@@ -1,0 +1,28 @@
+{
+  "id": "db689e9d-cb77-4915-92b5-91253fbd3f6a",
+  "object": "chat.completion",
+  "created": 1783465608,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果针对餐饮渠道确实提供菠萝产品的定制化服务，包括切片、切块等规格。具体来说，他们通常根据餐饮客户的需求（如餐厅、酒店、连锁餐饮等）供应去皮的菠萝、菠萝切片、菠萝块或冷冻菠萝产品。定制规格一般包括包装形式（如真空包装或冷冻）、尺寸（如厚度、切块大小）以及新鲜度要求。\n\n建议你直接联系佳农的销售或客服团队，提供具体的用量、包装类型和配送需求，以获取准确报价和定制方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 113,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

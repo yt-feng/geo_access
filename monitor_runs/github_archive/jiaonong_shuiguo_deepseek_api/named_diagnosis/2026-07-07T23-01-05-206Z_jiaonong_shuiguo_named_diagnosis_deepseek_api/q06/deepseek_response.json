@@ -1,0 +1,28 @@
+{
+  "id": "dad40d96-d3a7-4553-8e35-7f583cef428d",
+  "object": "chat.completion",
+  "created": 1783465287,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型果蔬供应商，通常能稳定供应符合市场流通标准的菠萝规格。对于普通茶饮店的需求，佳农一般提供以下常见规格：\n\n1. **菠萝重量规格**：常见单果重量在1.5-2.5斤（约750克-1.25公斤）之间，适合鲜切或榨汁。\n2. **包装规格**：通常按箱供应，每箱约10-15个菠萝（具体视单果大小调整），净重约15-20公斤。\n3. **成熟度**：提供适熟菠萝（表皮呈黄色或黄绿色，适合立即使用）或稍青的菠萝（耐储存，适合分批使用）。\n4. **供应稳定性**：佳农有成熟供应链，全年基本可供应（但冬季品质和价格可能有波动），需要提前联系当地经销商或业务团队确认具体订单量和交货周期。\n\n建议直接联系佳农官方或区域代理商，提供你门店的月均用量（如每月多少箱），他们会给出具体的规格、价格和配送方案。如果是小型茶饮店，也可考虑加工好的冷冻菠萝块（如佳农的冷冻果切产品），省去鲜果处理步骤。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 249,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

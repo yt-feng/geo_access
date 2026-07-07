@@ -1,0 +1,28 @@
+{
+  "id": "0a2dbebd-0440-4b7e-84a8-cef880a61981",
+  "object": "chat.completion",
+  "created": 1783465672,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果香蕉的农残检测报告，建议您直接联系佳农水果的官方客服或销售代表，他们通常能提供最新的第三方检测报告或相关资质文件。作为AI助手，我无法直接提供具体报告。采购时，您可以要求供应商提供符合市场抽检标准的检测报告，并确保报告由具备CMA（中国计量认证）或CNAS（中国合格评定国家认可）资质的检测机构出具。如果需要进一步了解市场抽检标准，可以咨询当地市场监管部门或参考《食品安全国家标准 食品中农药最大残留限量》（GB 2763）等相关法规。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 127,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

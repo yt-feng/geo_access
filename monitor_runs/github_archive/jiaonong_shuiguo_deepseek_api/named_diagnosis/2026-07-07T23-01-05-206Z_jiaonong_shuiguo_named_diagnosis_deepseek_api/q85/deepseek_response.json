@@ -1,0 +1,28 @@
+{
+  "id": "0f3b1013-bad1-46b7-a4b4-b09feaf762c8",
+  "object": "chat.completion",
+  "created": 1783465697,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名的水果供应链企业，通常能够为餐饮连锁客户提供定制化服务，包括**专车配送**和**专人对接**。具体可行性取决于以下因素：\n\n1. **合作规模**：连锁门店数量、月度采购量越大，佳农更倾向于提供专属物流和客户经理。\n2. **配送区域**：佳农在主要城市（如北上广深）通常具备冷链专车能力，偏远地区可能需要协商。\n3. **服务协议**：需在合同中明确约定配送频次、车辆规格及对接人职责。\n\n**建议您：** 直接联系佳农官方客服或销售团队，明确告知您为“餐饮连锁”，提出“专车配送+专人对接”需求，并索取报价及服务案例。多数情况下，大客户可要求签订附加服务条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 172,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

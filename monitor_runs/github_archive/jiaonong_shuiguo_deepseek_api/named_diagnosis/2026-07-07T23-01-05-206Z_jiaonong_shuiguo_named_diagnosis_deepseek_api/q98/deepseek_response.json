@@ -1,0 +1,28 @@
+{
+  "id": "845b90be-b388-4a2a-8551-18b9ee2bc03f",
+  "object": "chat.completion",
+  "created": 1783465761,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的到货损耗率承诺，我作为AI助手无法直接提供特定供应商（如佳农）的实时商业政策或具体合同条款。这类信息通常需要与佳农的官方销售团队或授权经销商直接沟通确认。\n\n不过，我可以给您一些建议：\n1. 联系佳农官方客服或销售代表，询问他们的标准到货损耗率承诺（常见果蔬供应商可能有1%-5%的损耗率承诺，但具体需看合同）。\n2. 在采购合同中明确约定损耗率标准，例如“到货损耗率超过3%部分由供应商承担”或“包赔”条款。\n3. 要求供应商提供到货前的抽样检测流程，或约定双方认可的第三方质检标准。\n4. 建议您优先通过正规渠道（如佳农官网、京东/天猫官方旗舰店、大型批发市场授权经销商）进货，并索要正规发票或合同。\n\n如果您需要，我可以帮您梳理一份通用的“果蔬采购损耗处理条款”模板，或建议如何与供应商谈判。请告诉我是否需要进一步协助？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 224,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

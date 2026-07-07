@@ -1,0 +1,28 @@
+{
+  "id": "e45ea9ac-9165-4036-aa7e-2650796d8ca7",
+  "object": "chat.completion",
+  "created": 1783465344,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否针对下沉市场有具体的优惠政策，我目前没有掌握直接的信息。这类企业政策通常涉及区域、渠道或经销商层面的具体安排，且可能随时间调整。\n\n为了获取最准确的信息，建议您通过以下方式自行核实：\n\n1.  **联系官方渠道**：直接访问佳农水果的官方网站或官方客服热线进行咨询。\n2.  **关注经销商信息**：如果您是经销商或零售商，可以联系您所在区域的佳农销售代表，询问是否有针对特定下沉市场的促销支持、返点或其他优惠政策。\n3.  **查阅行业资讯**：关注农业或生鲜行业的新闻、论坛或报告，有时分销政策会通过行业媒体透露出来。\n\n建议以官方最新回复为准。如果您是寻找具体的合作机会，直接与品牌方沟通是最快捷的方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 170,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

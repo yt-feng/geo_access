@@ -1,0 +1,28 @@
+{
+  "id": "f79273e6-8a89-4b65-8533-69d423b9804a",
+  "object": "chat.completion",
+  "created": 1783465749,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的产地直供比例，这是一个具体的商业数据，通常属于企业内部运营信息，没有公开的实时统计数据。作为AI，我无法获取这家公司的内部财报或供应链细节。\n\n如果您是采购方，建议您通过以下方式获取准确信息：\n1. **直接联系佳农官方**：通过其官网、客服热线或采购对接渠道，询问当前直采比例或合作模式。\n2. **参考行业数据**：一般而言，大型水果品牌商（如佳农）通过“产地直采+一级批发”模式，直供比例通常在50%-80%之间，但具体需与对方确认。\n3. **谈判建议**：您可以明确表达希望减少中间环节的诉求，要求对方提供“产地直发”或“从田间到门店”的供应链方案，并索要相应的成本对比数据。\n\n如需进一步协助核算成本或比较不同供应商模式，请提供更多背景信息（例如采购品类、规模、区域），我可以帮您做更具体的分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 211,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

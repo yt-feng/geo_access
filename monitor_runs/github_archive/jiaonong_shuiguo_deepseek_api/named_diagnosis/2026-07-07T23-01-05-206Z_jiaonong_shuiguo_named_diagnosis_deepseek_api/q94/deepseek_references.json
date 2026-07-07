@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-07T23:09:03.985Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们批发商想了解佳农水果的香蕉分级标准，一级果和二级果价格差多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

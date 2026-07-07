@@ -1,0 +1,50 @@
+{
+  "questionId": "q88",
+  "prompt": "我们做社区团购，佳农水果能不能一件代发？物流成本怎么算？",
+  "createdAt": "2026-07-07T23:08:32.184Z",
+  "summary": [
+    {
+      "questionId": "q88",
+      "prompt_index": 88,
+      "promptIndex": 88,
+      "promptHash": "39fe317b3a7a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们做社区团购，佳农水果能不能一件代发？物流成本怎么算？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 666,
+      "text_length": 666,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 407,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 407,
+      "total_tokens": 466,
+      "latencyMs": 5124,
+      "latency_ms": 5124,
+      "createdAt": "2026-07-07T23:08:32.184Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q88/prompt.txt",
+        "answer": "q88/deepseek.txt",
+        "response": "q88/deepseek_response.json",
+        "sources": "q88/deepseek_sources.json",
+        "references": "q88/deepseek_references.json"
+      }
+    }
+  ]
+}

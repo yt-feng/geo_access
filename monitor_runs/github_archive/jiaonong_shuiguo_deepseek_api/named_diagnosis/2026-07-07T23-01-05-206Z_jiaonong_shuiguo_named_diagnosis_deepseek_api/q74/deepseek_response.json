@@ -1,0 +1,28 @@
+{
+  "id": "9c10c637-cd23-412e-adc8-e599a9d3d379",
+  "object": "chat.completion",
+  "created": 1783465637,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！对于您提到的与佳农（Goodfarmer）签订长期合同的具体账期和首批铺货支持问题，作为AI助手，我无法提供佳农真实的商业决策或内部政策。建议您通过以下方式直接联系佳农的销售或商务团队进行洽谈：\n\n1. **直接联系**：访问佳农官方网站或拨打其官方客服电话，询问负责连锁超市渠道的销售负责人。\n2. **谈判要点**：\n   - **账期（45天）**：这在生鲜或快消品行业内属于较长账期，佳农可能会根据您的采购量、信用记录、合作历史等综合评估。您可以强调长期合作意向、稳定订单量或预付款比例来争取。\n   - **首批铺货支持**：常包括新品试销、陈列费用、促销物料、退换货政策等。您可提出“试销期后结算”或“按销售额返点”等灵活方案。\n3. **书面合同**：务必在正式合同明确账期、铺货支持细则（如金额、品类、期限、违约责任等）。\n\n建议您根据自身采购规模、付款能力，提前准备好详尽的合作方案（如预估年采购额、门店数量、回款计划等），这样更利于谈判。祝您洽谈顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 269,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

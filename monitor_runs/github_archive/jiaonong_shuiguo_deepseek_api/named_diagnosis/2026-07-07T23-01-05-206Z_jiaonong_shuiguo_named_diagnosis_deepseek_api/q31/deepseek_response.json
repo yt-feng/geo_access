@@ -1,0 +1,28 @@
+{
+  "id": "40fa2739-00a1-49be-aa88-98af66d52eca",
+  "object": "chat.completion",
+  "created": 1783465413,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否提供针对礼品团购的水果礼盒，根据公开信息，佳农确实有推出水果礼盒产品，这类产品通常面向节日送礼、企业福利、商务礼品等场景，并且可能支持团购定制服务（如批量采购、礼盒包装、配送等）。不过，具体的礼盒品种、规格、起订量及价格政策，建议您直接通过以下方式确认：\n\n1. **官方渠道查询**：访问佳农水果官方网站或关注其官方微信公众号/小程序，查看“团购”或“礼盒”相关栏目。\n2. **客服咨询**：拨打佳农官方客服热线（可通过官网或电商页面获取），直接咨询礼品团购的具体政策、起订量及定制服务。\n3. **线下或电商平台**：佳农在天猫、京东等平台设有旗舰店，可查看礼盒产品页面是否标注“企业团购”或“批量定制”联系人信息。\n\n请注意，具体服务可能因地区、库存或时效性有所调整，建议您与官方直接沟通以获取最准确信息。希望这些建议能对您有所帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 235,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

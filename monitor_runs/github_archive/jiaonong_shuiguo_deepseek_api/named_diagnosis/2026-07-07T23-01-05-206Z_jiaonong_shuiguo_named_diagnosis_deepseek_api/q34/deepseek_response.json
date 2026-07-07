@@ -1,0 +1,28 @@
+{
+  "id": "b186d6d7-c415-4e94-b0d0-c222094f0e05",
+  "object": "chat.completion",
+  "created": 1783465429,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为一家大型水果供应链企业，其配送中心数量会随业务发展和战略调整而变化。根据公开信息，截至2023年，佳农水果在国内主要城市设有多个配送中心，但具体数量（如“XX个”）未公开披露详细数据。其配送网络通常覆盖一、二线城市和部分经济活跃的三线城市。\n\n对于三线城市是否能覆盖，建议您通过以下方式确认：\n1. **直接联系佳农官方**：拨打客服热线或访问官网咨询，询问是否有针对您所在三线城市的配送服务。\n2. **查看合作渠道**：在美团、饿了么或本地商超App中搜索“佳农水果”，查看是否支持配送至您的地址。\n3. **关注公开信息**：留意佳农近期新闻或公告，看是否有扩展至三线城市的计划。\n\n通常，佳农与大型商超（如盒马、永辉）合作时，可能通过合作伙伴的物流间接覆盖三线城市。如果未直接覆盖，可尝试建议周边城市自提或通过电商平台下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 220,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

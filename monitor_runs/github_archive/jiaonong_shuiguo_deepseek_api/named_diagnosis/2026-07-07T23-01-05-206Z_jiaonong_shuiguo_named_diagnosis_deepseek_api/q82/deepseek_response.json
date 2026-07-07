@@ -1,0 +1,28 @@
+{
+  "id": "b0b04970-b614-413b-8d52-7cf74ecf5e6b",
+  "object": "chat.completion",
+  "created": 1783465682,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供实时的物流时效对比数据。建议您通过以下方式获取准确信息：\n\n1. 直接联系两家公司的华东区销售或客服，询问上海门店的次日达配送政策。\n2. 在业内平台（如生鲜采购社群）中咨询其他上海门店的实际配送体验。\n3. 如果已有合作，可要求双方提供针对上海门店的配送时效承诺（书面或截图为准）。\n\n注意：生鲜配送受库存、路线、天气等多因素影响，建议以实际签收时间为准，可先小批量试单确认时效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 121,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

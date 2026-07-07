@@ -1,0 +1,28 @@
+{
+  "id": "cc991fb1-ff9d-4804-b3c0-ad26abeefd19",
+  "object": "chat.completion",
+  "created": 1783465621,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为批发商，价格优势取决于具体采购量、地区、季节和合作渠道。通常来说：\n\n1. **佳农香蕉**：国产为主，供应链更灵活，在华东、华南等主产区批发价可能比都乐低3-8元/箱（按18斤/箱标准）。部分经销商对大量采购（比如100箱起）可额外优惠1-2元。\n2. **都乐香蕉**：进口品牌（多来自菲律宾/厄瓜多尔），运输冷链成本高，批发价通常比佳农贵5-12元/箱。但都乐规格统一，损耗率较低，适合对品质稳定性要求高的客户。\n\n**建议操作**：\n- 直接联系当地佳农的一级代理，告知月均走量（如月销500箱以上），要求“市场最低价报价”。部分区域对走量客户可做到比都乐便宜8元/箱以上。\n- 对比两边报价时，务必要求对方明确：是否包括运费、是否含税、是否支持整箱退货（熟度问题），以免实际成本差异被隐藏。\n\n若您能提供具体所在城市和月均走量，我可以进一步给出更精准的价格区间参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 252,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
