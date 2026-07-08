@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:30:58.367Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜电商需要水果详情页素材，供应商一般能不能提供图片和卖点？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

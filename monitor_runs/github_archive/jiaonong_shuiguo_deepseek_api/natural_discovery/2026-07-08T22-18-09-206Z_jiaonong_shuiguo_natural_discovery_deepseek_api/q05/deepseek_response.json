@@ -1,0 +1,28 @@
+{
+  "id": "87356bc3-b529-4139-97b1-51802fdf8f18",
+  "object": "chat.completion",
+  "created": 1783549148,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先采用**让顾客自己挑，然后提供免费或低价去皮服务**的模式。理由是：\n\n- **信任感更强**：顾客可以亲手挑选熟度、大小和外观，避免买到内部损坏或不新鲜的菠萝，减少售后纠纷。\n- **体验更灵活**：部分顾客需要整果送礼或存放，部分希望当场处理带走，两种需求都能满足。\n- **差异化服务**：提供免费去皮、甚至切块装盒服务（可额外收少量加工费），能增加复购率。\n- **损耗更低**：提前去皮果常因氧化或挤压需打折处理，自己挑+现场去皮可减少损耗。\n\n**操作建议**：\n- 在售卖区摆放整果，旁边展示去皮效果和切块样品（用保鲜膜密封）。\n- 张贴去皮服务的价格（免费或5元/个），并明确告知“保证现切，不积压隔夜果”。\n- 提供一次性手套或湿巾，方便顾客挑果后清洁。\n\n如果是客流量大的社区店，可少量备一些去皮的（2-3小时售完），但主要推广“选果+现切”模式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 241,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

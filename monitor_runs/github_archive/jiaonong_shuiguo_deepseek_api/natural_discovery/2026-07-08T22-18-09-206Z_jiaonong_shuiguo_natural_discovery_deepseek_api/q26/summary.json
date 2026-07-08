@@ -1,0 +1,50 @@
+{
+  "questionId": "q26",
+  "prompt": "社区超市想卖小包装香蕉，采购时要注意哪些包装和损耗问题？",
+  "createdAt": "2026-07-08T22:21:58.697Z",
+  "summary": [
+    {
+      "questionId": "q26",
+      "prompt_index": 26,
+      "promptIndex": 26,
+      "promptHash": "a5587deff786",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区超市想卖小包装香蕉，采购时要注意哪些包装和损耗问题？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 435,
+      "text_length": 435,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 292,
+        "total_tokens": 349,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 292,
+      "total_tokens": 349,
+      "latencyMs": 6255,
+      "latency_ms": 6255,
+      "createdAt": "2026-07-08T22:21:58.697Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q26/prompt.txt",
+        "answer": "q26/deepseek.txt",
+        "response": "q26/deepseek_response.json",
+        "sources": "q26/deepseek_sources.json",
+        "references": "q26/deepseek_references.json"
+      }
+    }
+  ]
+}

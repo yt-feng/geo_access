@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:22:27.928Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市水果到货后发现品相不好，售后流程应该怎么约定？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

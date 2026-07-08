@@ -1,0 +1,28 @@
+{
+  "id": "67263930-6818-4c57-97e6-f6539f28d2bc",
+  "object": "chat.completion",
+  "created": 1783549596,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购时**应优先关注香蕉的成熟度**，价格作为辅助考量。具体建议如下：\n\n1. **成熟度标准**：选择表皮出现黑色斑点（芝麻斑）或整体呈深黄色、手感微软但未软烂的香蕉。这种成熟度下的香蕉甜度高、香气浓郁，且含水量适中，容易压泥并融入蛋糕糊，能提升蛋糕的风味和湿润度。\n2. **价格权衡**：如果成熟度不够（如仍带绿色或过硬），即使价格低，烘焙后也容易导致蛋糕发涩、甜味不足或口感干燥。建议在成熟度达标的前提下，通过批量采购、关注当季价格或与供应商协商来降低成本。\n3. **操作建议**：可提前沟通供应商，指定到货时的成熟度要求。如果采购的香蕉过于生涩，可常温放置1-2天催熟后再使用。\n\n优先级：成熟度＞价格，因为熟度直接影响蛋糕品质，而品质不佳会导致顾客流失或原料浪费，长期成本更高。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 214,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

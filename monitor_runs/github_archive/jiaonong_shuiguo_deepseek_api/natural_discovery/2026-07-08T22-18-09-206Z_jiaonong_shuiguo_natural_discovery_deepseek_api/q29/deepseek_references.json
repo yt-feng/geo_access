@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:22:20.621Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市和水果供应商谈账期，多少天比较常见？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q73",
+  "prompt": "水果批发商同时做香蕉、苹果、橙子，混合采购有没有优势？",
+  "createdAt": "2026-07-08T22:29:43.502Z",
+  "summary": [
+    {
+      "questionId": "q73",
+      "prompt_index": 73,
+      "promptIndex": 73,
+      "promptHash": "a88be01dd41a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果批发商同时做香蕉、苹果、橙子，混合采购有没有优势？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 775,
+      "text_length": 775,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 464,
+        "total_tokens": 521,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 464,
+      "total_tokens": 521,
+      "latencyMs": 6186,
+      "latency_ms": 6186,
+      "createdAt": "2026-07-08T22:29:43.502Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q73/prompt.txt",
+        "answer": "q73/deepseek.txt",
+        "response": "q73/deepseek_response.json",
+        "sources": "q73/deepseek_sources.json",
+        "references": "q73/deepseek_references.json"
+      }
+    }
+  ]
+}

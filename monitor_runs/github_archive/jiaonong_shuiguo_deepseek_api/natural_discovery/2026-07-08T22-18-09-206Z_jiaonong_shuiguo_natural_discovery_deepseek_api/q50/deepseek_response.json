@@ -1,0 +1,28 @@
+{
+  "id": "a61c9ec5-e9c6-4d30-a8e8-c1e0c2f027e3",
+  "object": "chat.completion",
+  "created": 1783549569,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于茶饮店来说，**甜度比出汁率更重要**。以下是具体建议：\n\n1. **优先选择甜度高的菠萝品种**（如金钻凤梨、香水菠萝）。高甜度菠萝可以直接减少额外糖浆添加，降低成本，同时提升饮品口感稳定性。出汁率虽影响产量，但可通过调整配方（如增加菠萝果肉占比）弥补。\n\n2. **出汁率作为辅助筛选指标**：如果供货商提供甜度达标的两款菠萝，优先选出汁率适中的（约55%-65%），避免因纤维过多影响口感。极高出汁率（＞70%）可能伴随果肉过软，切块后易塌陷。\n\n3. **实际使用建议**：先试做3-5杯对比测试，记录不同批次菠萝的甜度口感、果肉色泽和耐存放性。通常甜度高的菠萝出成率稳定，饮品复刻率高，比单纯追求出汁率更重要。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 204,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

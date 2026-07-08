@@ -1,0 +1,28 @@
+{
+  "id": "57d0de60-31fd-4477-8612-b3882a90ed03",
+  "object": "chat.completion",
+  "created": 1783550071,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从管理角度看，**按斤结算**通常更便于精确核算成本和库存，但需要秤具和现场监督；**按箱结算**适合标准包装、规格统一的水果，能简化验收流程，但可能存在损耗和重量差异；**按份结算**（如一份为固定品种和数量）更利于定价和销售，但需提前分装。\n\n**建议：**\n- 若食堂规模大、水果种类多、价格浮动频繁，优先用**按斤结算**，做好进销存台账。\n- 若水果品种单一、供应商稳定、包装标准，可用**按箱结算**，并抽检箱内质量。\n- 若提供固定配餐或自助形式，可用**按份结算**，并设定合理规格。\n\n实际操作中可结合使用：如大宗水果（苹果、橙子）按箱，昂贵或易损水果（蓝莓、草莓）按斤，即食拼盘按份。关键在于**每次入库需记录实际毛重、净重及包装重量**，避免按箱或按份时产生隐形损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 226,
+    "total_tokens": 284,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

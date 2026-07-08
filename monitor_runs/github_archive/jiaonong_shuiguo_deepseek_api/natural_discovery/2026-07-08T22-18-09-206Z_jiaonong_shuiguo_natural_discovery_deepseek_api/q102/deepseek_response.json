@@ -1,0 +1,28 @@
+{
+  "id": "2768985c-2a31-468c-898a-d0344cc1e91d",
+  "object": "chat.completion",
+  "created": 1783550066,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常需要支持开发票和定制包装，具体建议如下：\n\n1. **开发票**：绝大多数企业采购需要发票用于财务报销或税务抵扣，因此供应商应具备开具正规发票（增值税专用发票或普通发票）的能力。建议在签订合同前明确要求供应商提供相应发票类型，并确认其经营范围是否涵盖。\n\n2. **定制包装**：如果企业希望体现品牌形象、节日问候或特定设计（如企业logo、祝福语），则需要供应商支持定制包装。部分供应商可能对最低起订量有要求（如50份起），请提前沟通确认。\n\n**建议**：\n- 优先选择同时具备发票资质和包装定制能力的供应商，可节省协调成本。\n- 若预算有限，可选择性满足其中一项（如仅要求发票，使用通用包装），但需明确告知对方需求。\n- 务必在采购合同中列明对发票和包装的具体要求，避免后续纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 193,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

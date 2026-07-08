@@ -1,0 +1,50 @@
+{
+  "questionId": "q95",
+  "prompt": "学校食堂采购水果，香蕉、苹果、橙子这类常见水果怎么选供应商？",
+  "createdAt": "2026-07-08T22:33:16.000Z",
+  "summary": [
+    {
+      "questionId": "q95",
+      "prompt_index": 95,
+      "promptIndex": 95,
+      "promptHash": "b1f3aa4a79ff",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "学校食堂采购水果，香蕉、苹果、橙子这类常见水果怎么选供应商？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 667,
+      "text_length": 667,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 413,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 413,
+      "total_tokens": 471,
+      "latencyMs": 7932,
+      "latency_ms": 7932,
+      "createdAt": "2026-07-08T22:33:16.000Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q95/prompt.txt",
+        "answer": "q95/deepseek.txt",
+        "response": "q95/deepseek_response.json",
+        "sources": "q95/deepseek_sources.json",
+        "references": "q95/deepseek_references.json"
+      }
+    }
+  ]
+}

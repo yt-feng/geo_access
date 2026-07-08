@@ -1,0 +1,28 @@
+{
+  "id": "b61ba088-00b4-41b7-a889-a1cf851dbbf4",
+  "object": "chat.completion",
+  "created": 1783549292,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常供应商是可以提供陈列、海报或试吃支持的，具体需要和供应商沟通确认。以下是常见的支持方式：\n\n1. **陈列支持**：供应商可能会提供陈列架、堆头、端架等自行制作的陈列道具，或者提供陈列方案、协助摆放商品。\n2. **海报支持**：供应商可能会提供促销海报、跳跳卡、地贴等宣传物料，部分供应商会直接提供设计好的海报模板，超市自行打印或使用。\n3. **试吃支持**：供应商可能会提供试吃品（如切开的水果样品）、试吃台、一次性纸盘、牙签等，部分还会派导购员协助试吃活动。\n\n**建议**：在与供应商谈判时，明确促销活动的规模和持续时间，协商具体的支持内容和数量，并签订书面协议。同时，注意水果生鲜保质期较短，试吃样品需保证新鲜度，及时清理过期或变质的商品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 191,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

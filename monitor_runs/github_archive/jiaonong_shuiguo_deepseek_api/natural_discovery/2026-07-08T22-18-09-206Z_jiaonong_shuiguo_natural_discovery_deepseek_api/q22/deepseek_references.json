@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:21:22.439Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市水果区想提高客单价，香蕉、菠萝、苹果怎么组合促销？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

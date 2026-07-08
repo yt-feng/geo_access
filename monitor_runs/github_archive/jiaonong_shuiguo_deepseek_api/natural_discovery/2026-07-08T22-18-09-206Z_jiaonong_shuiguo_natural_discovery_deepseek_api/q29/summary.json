@@ -1,0 +1,50 @@
+{
+  "questionId": "q29",
+  "prompt": "超市和水果供应商谈账期，多少天比较常见？",
+  "createdAt": "2026-07-08T22:22:20.621Z",
+  "summary": [
+    {
+      "questionId": "q29",
+      "prompt_index": 29,
+      "promptIndex": 29,
+      "promptHash": "d2bef8e051a2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市和水果供应商谈账期，多少天比较常见？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 534,
+      "text_length": 534,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 322,
+        "total_tokens": 375,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 322,
+      "total_tokens": 375,
+      "latencyMs": 6306,
+      "latency_ms": 6306,
+      "createdAt": "2026-07-08T22:22:20.621Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q29/prompt.txt",
+        "answer": "q29/deepseek.txt",
+        "response": "q29/deepseek_response.json",
+        "sources": "q29/deepseek_sources.json",
+        "references": "q29/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "30494731-8e79-45ef-a87c-ef64474d7ead",
+  "object": "chat.completion",
+  "created": 1783549296,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议向供应商索要以下关键资料，以确保水果符合农残安全标准：\n\n1. **第三方检测报告**：要求提供由具备资质的检测机构（如SGS、华测、谱尼等）出具的近期农残检测报告，重点关注是否包含《食品安全国家标准 食品中农药最大残留限量》（GB 2763）中涵盖的常见水果品种相关指标。\n\n2. **产地证明及追溯信息**：包括明确标注水果产地、种植户或合作社、采收日期、运输记录的证明文件，便于源头追溯。\n\n3. **供应商资质文件**：供应商的营业执照、食品经营许可证或生产许可证，确认其合法经营资格。\n\n4. **生产管理记录**（如可能）：如果是来自规模基地，可要求提供用药记录、施肥记录、病虫害防治记录（包括农药名称、用量、使用日期、安全间隔期），以验证是否合规用药。\n\n5. **合格供应商评估报告**：内部或第三方的供应商评估记录，证明供应商通过农残风险管控审核。\n\n建议在采购合同中明确约定农残超标的法律责任，并保留对每批次抽检的权利。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 233,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

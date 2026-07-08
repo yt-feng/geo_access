@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:32:02.005Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区团购旺季爆单，怎么提前和水果供应商锁定库存？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

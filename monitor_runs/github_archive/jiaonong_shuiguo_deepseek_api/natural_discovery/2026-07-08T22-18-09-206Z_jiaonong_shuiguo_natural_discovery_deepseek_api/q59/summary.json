@@ -1,0 +1,50 @@
+{
+  "questionId": "q59",
+  "prompt": "餐饮店想把水果成本稳定下来，能和供应商谈锁价吗？",
+  "createdAt": "2026-07-08T22:27:14.086Z",
+  "summary": [
+    {
+      "questionId": "q59",
+      "prompt_index": 59,
+      "promptIndex": 59,
+      "promptHash": "54eb17498c59",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐饮店想把水果成本稳定下来，能和供应商谈锁价吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 755,
+      "text_length": 755,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 441,
+        "total_tokens": 496,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 441,
+      "total_tokens": 496,
+      "latencyMs": 6918,
+      "latency_ms": 6918,
+      "createdAt": "2026-07-08T22:27:14.086Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q59/prompt.txt",
+        "answer": "q59/deepseek.txt",
+        "response": "q59/deepseek_response.json",
+        "sources": "q59/deepseek_sources.json",
+        "references": "q59/deepseek_references.json"
+      }
+    }
+  ]
+}

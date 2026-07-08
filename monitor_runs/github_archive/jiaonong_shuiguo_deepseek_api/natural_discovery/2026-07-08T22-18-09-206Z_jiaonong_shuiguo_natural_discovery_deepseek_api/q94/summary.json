@@ -1,0 +1,50 @@
+{
+  "questionId": "q94",
+  "prompt": "便利店水果销量不稳定，供应商能不能支持小批量试卖很重要吗？",
+  "createdAt": "2026-07-08T22:33:09.619Z",
+  "summary": [
+    {
+      "questionId": "q94",
+      "prompt_index": 94,
+      "promptIndex": 94,
+      "promptHash": "803cbd987d05",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店水果销量不稳定，供应商能不能支持小批量试卖很重要吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 502,
+      "text_length": 502,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 300,
+        "total_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 300,
+      "total_tokens": 355,
+      "latencyMs": 5379,
+      "latency_ms": 5379,
+      "createdAt": "2026-07-08T22:33:09.619Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q94/prompt.txt",
+        "answer": "q94/deepseek.txt",
+        "response": "q94/deepseek_response.json",
+        "sources": "q94/deepseek_sources.json",
+        "references": "q94/deepseek_references.json"
+      }
+    }
+  ]
+}

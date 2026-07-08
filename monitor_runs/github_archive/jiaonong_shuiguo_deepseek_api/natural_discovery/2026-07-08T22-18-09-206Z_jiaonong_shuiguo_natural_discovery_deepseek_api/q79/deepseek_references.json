@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:30:52.496Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "团购团长选水果供应商，最应该问配送、售后还是价格？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
