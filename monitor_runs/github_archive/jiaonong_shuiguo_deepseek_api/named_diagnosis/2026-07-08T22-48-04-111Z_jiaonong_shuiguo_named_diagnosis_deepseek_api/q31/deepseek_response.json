@@ -1,0 +1,28 @@
+{
+  "id": "e86b4e8f-8e03-4aeb-ac07-a45dc7928895",
+  "object": "chat.completion",
+  "created": 1783551033,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的，佳农水果通常提供针对礼品团购场景的定制化水果礼盒服务。具体的产品系列、最低起订量、价格区间以及个性化包装方案（如企业logo印刷、贺卡定制等），建议您直接联系佳农水果官方客服或访问其官网及官方小程序查看最新团购目录。此外，部分大型批发市场或区域经销商也可能承接团购业务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 83,
+    "total_tokens": 135,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

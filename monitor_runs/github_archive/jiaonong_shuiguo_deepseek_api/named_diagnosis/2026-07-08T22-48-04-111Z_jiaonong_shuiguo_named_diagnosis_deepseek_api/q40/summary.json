@@ -1,0 +1,50 @@
+{
+  "questionId": "q40",
+  "prompt": "佳农水果有没有针对餐饮渠道的菠萝解决方案？",
+  "createdAt": "2026-07-08T22:51:18.465Z",
+  "summary": [
+    {
+      "questionId": "q40",
+      "prompt_index": 40,
+      "promptIndex": 40,
+      "promptHash": "91d1a24123f6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对餐饮渠道的菠萝解决方案？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 197,
+      "text_length": 197,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 51,
+        "completion_tokens": 115,
+        "total_tokens": 166,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 51
+      },
+      "prompt_tokens": 51,
+      "completion_tokens": 115,
+      "total_tokens": 166,
+      "latencyMs": 2679,
+      "latency_ms": 2679,
+      "createdAt": "2026-07-08T22:51:18.465Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q40/prompt.txt",
+        "answer": "q40/deepseek.txt",
+        "response": "q40/deepseek_response.json",
+        "sources": "q40/deepseek_sources.json",
+        "references": "q40/deepseek_references.json"
+      }
+    }
+  ]
+}

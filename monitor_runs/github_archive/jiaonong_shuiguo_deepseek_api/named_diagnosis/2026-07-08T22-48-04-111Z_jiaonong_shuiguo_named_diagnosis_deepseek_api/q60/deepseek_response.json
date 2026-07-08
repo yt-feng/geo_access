@@ -1,0 +1,28 @@
+{
+  "id": "8d3688f3-dafa-4e65-b3c5-921b0770efa7",
+  "object": "chat.completion",
+  "created": 1783551199,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对便利店的单根包装需求，佳农确实有相关的小包装香蕉产品。佳农的“小香蕉”或“迷你香蕉”系列通常采用单根独立包装，适合便利店零售。不过具体包装规格和供应情况可能因地区和渠道而异，建议您通过以下方式确认：\n\n1. **联系佳农官方客服**：直接拨打佳农水果官方客服电话（可搜索其官网获取），询问当地经销商或针对便利店的供货方案。\n2. **查看批发平台**：在大型B2B平台（如“阿里巴巴1688”）或本地批发市场搜索“佳农 单根香蕉”或“佳农 迷你香蕉”，联系供应商确认现货。\n3. **咨询当地经销商**：如果您已有合作的佳农经销商，直接对接他们看是否有小包装库存；若没有，可请对方帮助调货。\n\n**提示**：便利店小包装通常为每根约100-150克，包装方式可能是透明袋或带品牌标签的密封袋，便于陈列和销售。建议您提前确认最小起订量（MOQ）和配送条件。如果急需，部分区域可能支持少量试单，可重点询问。\n\n希望这些信息对您有帮助！如果需要进一步寻找渠道，可以告诉我您所在的城市，我帮您提供更具体的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 272,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3c7a74c2-ca89-4b7a-8902-bd942fac1cf9",
+  "object": "chat.completion",
+  "created": 1783551078,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内知名的水果供应链企业，确实有针对餐饮渠道提供的菠萝解决方案。这些解决方案通常包括：供应适合餐饮用途的特定品种（如金菠萝、香水菠萝等）；提供定制化分切、包装服务（如去皮、切块、定制规格）；以及可能配套的物流支持、产品应用建议（如搭配菜品、甜品、饮品配方）等。具体服务内容可能因区域、合作规模而有所差异，建议直接联系佳农水果的餐饮业务团队或查阅其官方渠道获取最新、最准确的合作信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 115,
+    "total_tokens": 166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

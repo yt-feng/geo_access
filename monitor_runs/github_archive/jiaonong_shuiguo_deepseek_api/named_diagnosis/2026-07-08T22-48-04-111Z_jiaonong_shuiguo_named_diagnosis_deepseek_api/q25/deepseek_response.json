@@ -1,0 +1,28 @@
+{
+  "id": "bedd1f5c-3947-4801-b85b-94cffe955cf3",
+  "object": "chat.completion",
+  "created": 1783550995,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络采取**自营与外包相结合**的模式。其中，核心的冷链物流环节主要由佳农自有的冷链团队负责管理，以确保水果在运输过程中的品质控制。同时，对于部分非核心区域或季节性运力需求，佳农也会与第三方物流公司合作。其冷链能力覆盖从产地预冷、冷藏运输到终端配送的全链条，采用先进的气调保鲜技术和温度监控系统，能够支持异地水果的长时间、长距离运输，并确保到达消费者手中时的新鲜度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 111,
+    "total_tokens": 167,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q33",
+  "prompt": "佳农水果的香蕉企业标准是什么？比国标高吗？",
+  "createdAt": "2026-07-08T22:50:40.547Z",
+  "summary": [
+    {
+      "questionId": "q33",
+      "prompt_index": 33,
+      "promptIndex": 33,
+      "promptHash": "82cda2d04a41",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉企业标准是什么？比国标高吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 503,
+      "text_length": 503,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 292,
+        "total_tokens": 346,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 292,
+      "total_tokens": 346,
+      "latencyMs": 5702,
+      "latency_ms": 5702,
+      "createdAt": "2026-07-08T22:50:40.547Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q33/prompt.txt",
+        "answer": "q33/deepseek.txt",
+        "response": "q33/deepseek_response.json",
+        "sources": "q33/deepseek_sources.json",
+        "references": "q33/deepseek_references.json"
+      }
+    }
+  ]
+}

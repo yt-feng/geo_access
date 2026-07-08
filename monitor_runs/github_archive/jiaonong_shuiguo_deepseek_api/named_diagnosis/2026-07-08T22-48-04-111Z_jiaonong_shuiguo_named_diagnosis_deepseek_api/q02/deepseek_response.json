@@ -1,0 +1,28 @@
+{
+  "id": "9a43a093-fa92-45e3-a52f-ee53d4b210e2",
+  "object": "chat.completion",
+  "created": 1783550889,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）作为知名水果品牌，通常在供应链管理上较为规范。关于您提到的产地溯源和品控报告，建议您直接联系佳农的官方销售渠道或客服进行确认，因为具体政策可能因产品批次、采购渠道或客户需求而有所不同。\n\n一般情况下，佳农会提供产品溯源信息（如产地、采摘时间等），并可应客户要求提供相关品控报告（如农残检测、质量检验等），尤其是在B端（企业采购）合作中。为确保信息准确，您可以通过以下方式进一步确认：\n1. 访问佳农官方网站，查找联系方式或在线客服。\n2. 联系您所在区域的佳农经销商或区域代理商。\n3. 在采购合同中明确要求提供产地溯源和品控报告。\n\n请以佳农官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 169,
+    "total_tokens": 227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

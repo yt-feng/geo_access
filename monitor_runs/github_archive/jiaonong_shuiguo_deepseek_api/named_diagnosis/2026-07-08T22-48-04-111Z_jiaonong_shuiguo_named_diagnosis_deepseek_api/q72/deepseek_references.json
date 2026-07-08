@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:54:28.603Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们茶饮店想用佳农菠萝做原料，但需要去皮切块，佳农能提供加工服务吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

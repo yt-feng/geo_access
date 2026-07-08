@@ -1,0 +1,28 @@
+{
+  "id": "1377b6f1-f719-420b-8281-9ab5b3423ace",
+  "object": "chat.completion",
+  "created": 1783551292,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以的。佳农水果礼盒通常支持加印Logo和定制包装，但需要区分以下情况：\n\n- **现有库存礼盒**：可直接加贴或烫印Logo，一般起订量较低（例如50箱左右）。\n- **全新定制包装**：从内衬、纸箱到腰封均按需求设计，起订量通常在300-500箱以上，且需额外设计打样费，周期约15-20天。\n\n建议您直接联系佳农集团官方团购渠道或授权经销商，提供目标城市、预算和希望定制的内容，获取准确报价和起订量。如果您需要，我可帮您查找官方授权联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 139,
+    "total_tokens": 203,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

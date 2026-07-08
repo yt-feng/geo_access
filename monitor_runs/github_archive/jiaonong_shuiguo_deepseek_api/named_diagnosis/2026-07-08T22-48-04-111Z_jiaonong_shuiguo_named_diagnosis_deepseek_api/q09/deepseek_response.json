@@ -1,0 +1,28 @@
+{
+  "id": "8e0f8c5b-7f4c-4644-ad40-e8f5e70ee4d5",
+  "object": "chat.completion",
+  "created": 1783550922,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业通用标准及佳农水果的公开信息，其到货损耗率一般控制在 **2%-5%** 之间。这一范围取决于水果品类、运输距离、季节及包装方式。例如：\n- **高损耗品类**（如草莓、蓝莓、葡萄等软果）：损耗率可能接近 **5%**  \n- **耐储存品类**（如苹果、橙子、柚子等）：损耗率通常低于 **3%**  \n\n实际运营中，佳农会通过冷链物流、标准化分拣及冷链包装技术将损耗控制在较低水平。建议您根据具体水果种类及采购批次与供应商确认，或查看采购合同中约定的损耗率条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 142,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

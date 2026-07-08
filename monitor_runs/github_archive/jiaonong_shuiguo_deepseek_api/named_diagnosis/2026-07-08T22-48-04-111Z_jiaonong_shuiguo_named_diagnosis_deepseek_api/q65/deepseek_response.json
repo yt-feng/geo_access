@@ -1,0 +1,28 @@
+{
+  "id": "f5404a3a-1f5b-4b1c-9f65-a8b8fc313ab6",
+  "object": "chat.completion",
+  "created": 1783551231,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对成都门店的急单需求，**洪九果品在西南地区的配送速度通常更快**，理由如下：\n\n1. **区域仓储优势**：洪九果品在重庆、成都等地设有大型配送中心和前置仓，尤其是其“洪九鲜锋”品牌在西南布局较深，能覆盖成都市区及周边区域的日配或次日达服务。\n2. **时效承诺**：洪九果品对核心城市（如成都）的直营门店或合作商通常承诺**24小时内配送**，且提供应急调配支持。\n3. **佳农的局限性**：佳农的总部在上海，西南地区主要依赖第三方物流或批发市场分销，多数情况下需1-2天配送，急单响应较慢。\n\n**建议操作**：  \n- 直接联系洪九果品成都分公司或区域经理，确认：  \n  - 是否支持当日达加急服务（需说明门店位置和订单量）；  \n  - 有无“成都仓”直发能力（通常可缩短至6-12小时）。  \n- 若佳农已有合作且库存充足，也可要求其启用**特快配送**（可能需加价），但洪九仍是更优选项。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 257,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5a7e5fa4-43d0-415c-b144-591454324ec8",
+  "object": "chat.completion",
+  "created": 1783551171,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果在物流方面主要采用**自有冷链车队**与**第三方专业冷链物流**相结合的方式，并非完全依赖三通一达（通常指通达系快递，这类快递主要面向普通常温包裹）。三通一达在生鲜冷链方面的专业度较低，因此佳农的核心冷链运输更多由自有体系或合作的专业冷链物流公司完成。\n\n关于冷链覆盖率：佳农作为国内头部水果供应链企业，其**全程冷链覆盖率较高**，尤其在核心城市（如北上广深）及主要批发市场，可实现从产地到仓储、再到终端配送的温控管理。在部分偏远或末端环节，覆盖程度可能有所下降，但整体在生鲜水果行业中处于较好水平。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 149,
+    "total_tokens": 206,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

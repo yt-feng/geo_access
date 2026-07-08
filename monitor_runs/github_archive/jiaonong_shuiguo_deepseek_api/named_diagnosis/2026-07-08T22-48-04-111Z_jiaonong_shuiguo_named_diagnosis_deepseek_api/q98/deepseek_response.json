@@ -1,0 +1,28 @@
+{
+  "id": "40ac35ea-ce86-451d-85ae-c4205544a512",
+  "object": "chat.completion",
+  "created": 1783551414,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的到货损耗率承诺，我建议您直接联系佳农品牌方或您计划采购的供应商，因为他们具体会提供不同渠道的商务政策。通常，生鲜类产品（如香蕉）的损耗率承诺因供应商、批次和运输条件而异，部分供应商可能会提供如“到货损耗超过X%包赔”的条款，但具体数值（如3%）需以合同或销售协议为准。\n\n作为通用AI，我无法提供佳农的官方承诺信息或数据。为确保您获得最准确的信息，您可以：\n- 联系佳农官方客服或区域销售代表，询问其针对便利店的标准损耗赔偿政策。\n- 在采购前与供应商明确约定损耗率的计算方式、赔付条件及流程（如按重量或数量计算）。\n- 考虑小批量试单，评估实际损耗情况后再决定长期合作。\n\n如果您需要进一步帮助，建议提供更具体的供应商信息，但请注意验证来源的可靠性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 203,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

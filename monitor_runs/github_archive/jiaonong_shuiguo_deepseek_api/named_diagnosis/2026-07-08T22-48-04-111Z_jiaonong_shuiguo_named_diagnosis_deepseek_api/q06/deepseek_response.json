@@ -1,0 +1,28 @@
+{
+  "id": "769fbf4e-6b38-48f1-b7e1-67913b2233be",
+  "object": "chat.completion",
+  "created": 1783550905,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以的。佳农的菠萝产品在市面上有比较成熟的规格体系，你这种茶饮店的需求是常规商业客户，他们能稳定供货。\n\n**常见规格（你用得上）：**\n- **鲜切菠萝（冷冻）**：块状或条状，通常是1kg/袋或2.5kg/袋，箱子装，适合做果茶、奶昔。\n- **整果**：进口的都乐或佳农菠萝，按箱卖，一箱6-8个，果重约1.5-2kg/个，你让人工切也行。\n- **罐头/浓缩汁**：但也有一条龙服务。建议直接找佳农业务员说“做茶饮要冷冻菠萝丁”，他们会给你小样试口味，确认后再签合同。\n\n**沟通重点（直接问他们）：**\n1. 要 **“冷冻菠萝丁”**（通常1cm×1cm或切小片），不要整果，省人工。\n2. 每箱净重多少？保质期多久？\n3. 起订量？能不能一车（约20吨）或更少试单？\n4. 他们还能提供 **菠萝糖浆** 或 **浓缩果肉**，看你菜单设计。\n\n**提醒：** 你要注意季节性和海运周期，提前1-2周下计划，他们一般能稳定。如果只是小奶茶店起步，建议先订冷冻成品，比整果好操作、损耗低。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 307,
+    "total_tokens": 369,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

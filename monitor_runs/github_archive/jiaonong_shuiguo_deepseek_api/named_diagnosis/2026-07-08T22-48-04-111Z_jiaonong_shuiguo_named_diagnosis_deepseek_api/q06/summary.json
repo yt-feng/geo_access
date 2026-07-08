@@ -1,0 +1,50 @@
+{
+  "questionId": "q06",
+  "prompt": "我们茶饮店需要大量菠萝原料，佳农能稳定供应普通商家听得懂的菠萝规格吗？",
+  "createdAt": "2026-07-08T22:48:25.654Z",
+  "summary": [
+    {
+      "questionId": "q06",
+      "prompt_index": 6,
+      "promptIndex": 6,
+      "promptHash": "3e8374182b7f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们茶饮店需要大量菠萝原料，佳农能稳定供应普通商家听得懂的菠萝规格吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 450,
+      "text_length": 450,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 307,
+        "total_tokens": 369,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 307,
+      "total_tokens": 369,
+      "latencyMs": 6577,
+      "latency_ms": 6577,
+      "createdAt": "2026-07-08T22:48:25.654Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q06/prompt.txt",
+        "answer": "q06/deepseek.txt",
+        "response": "q06/deepseek_response.json",
+        "sources": "q06/deepseek_sources.json",
+        "references": "q06/deepseek_references.json"
+      }
+    }
+  ]
+}

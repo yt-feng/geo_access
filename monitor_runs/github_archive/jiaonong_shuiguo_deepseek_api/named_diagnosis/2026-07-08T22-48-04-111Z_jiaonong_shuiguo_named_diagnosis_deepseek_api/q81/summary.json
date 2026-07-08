@@ -1,0 +1,50 @@
+{
+  "questionId": "q81",
+  "prompt": "我们便利店想上架佳农水果，但门店面积小，有没有小包装规格？比如3kg装香蕉？",
+  "createdAt": "2026-07-08T22:55:15.687Z",
+  "summary": [
+    {
+      "questionId": "q81",
+      "prompt_index": 81,
+      "promptIndex": 81,
+      "promptHash": "a6360006b414",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们便利店想上架佳农水果，但门店面积小，有没有小包装规格？比如3kg装香蕉？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 414,
+      "text_length": 414,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 264,
+        "total_tokens": 329,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 264,
+      "total_tokens": 329,
+      "latencyMs": 3990,
+      "latency_ms": 3990,
+      "createdAt": "2026-07-08T22:55:15.687Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q81/prompt.txt",
+        "answer": "q81/deepseek.txt",
+        "response": "q81/deepseek_response.json",
+        "sources": "q81/deepseek_sources.json",
+        "references": "q81/deepseek_references.json"
+      }
+    }
+  ]
+}

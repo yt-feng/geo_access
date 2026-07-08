@@ -1,0 +1,28 @@
+{
+  "id": "c1b562a3-5682-4b26-a560-375010972be4",
+  "object": "chat.completion",
+  "created": 1783551047,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前在中国拥有多个配送中心，具体数量可能随业务扩展而调整。根据公开信息，佳农在全国主要城市（如上海、北京、广州、深圳、成都等）设有区域配送中心，但具体到三线城市的覆盖情况，建议您直接联系佳农官方客服或查询其官方公告、合作平台（如京东、天猫等）的配送范围说明。一般来说，佳农的物流网络可覆盖一二线城市及部分三线城市，但具体是否能送达您的所在地，需以实际收货地址是否在配送范围内为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 117,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

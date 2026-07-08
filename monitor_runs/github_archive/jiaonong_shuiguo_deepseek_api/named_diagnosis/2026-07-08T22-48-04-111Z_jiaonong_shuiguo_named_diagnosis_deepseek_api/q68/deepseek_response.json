@@ -1,0 +1,28 @@
+{
+  "id": "0fdc99e0-0cb5-4513-a7c6-68391e72158f",
+  "object": "chat.completion",
+  "created": 1783551244,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的ERP系统接口问题，我无法提供确切的答案，因为佳农的API接口信息通常不公开，需要与佳农的商务或技术团队直接沟通确认。建议你通过以下步骤获取准确信息：\n\n1. **联系佳农商务部门**：通过官网客服、销售或合作伙伴渠道，询问是否有开放的API接口用于系统对接。\n2. **明确接口类型**：如果存在接口，需确认是RESTful API、SOAP还是其他协议，以及是否需要加密认证（如OAuth 2.0）。\n3. **准备对接文档**：要求对方提供技术文档，包括数据字段、调用限制、测试环境等。\n4. **考虑中间件**：如果佳农无直接API，可以考虑通过第三方供应链平台（如菜鸟、京东物流等）间接对接其ERP数据。\n\n若后续获得具体接口信息，可进一步咨询技术实现细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 191,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

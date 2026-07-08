@@ -1,0 +1,28 @@
+{
+  "id": "612fef28-d634-442f-acf6-a9c67834c455",
+  "object": "chat.completion",
+  "created": 1783550894,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农和都乐都是中国市场常见的香蕉品牌，各有特点：\n\n**都乐**：国际知名品牌，品质相对稳定，香蕉外观匀称、成熟度控制较好，口感软糯甜度高。价格通常偏高，属于中高端定位。\n\n**佳农**：国内大型水果企业，香蕉品质也较可靠，部分批次果型或成熟度可能存在一定波动，但整体性价比较高，价格通常比都乐便宜一些（尤其在促销时差价更明显）。\n\n**简要比较**：\n- **质量**：都乐略胜一筹，标准化更强；佳农产品质量不错但偶有差异。\n- **价格**：佳农更具优势，日常购买更划算。\n\n**建议**：如果追求稳定高口感且预算充足，选都乐；如果注重性价比，佳农是很好的选择。购买时建议都看实际果品状态（成熟度、有无损伤），比只看品牌更关键。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 192,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

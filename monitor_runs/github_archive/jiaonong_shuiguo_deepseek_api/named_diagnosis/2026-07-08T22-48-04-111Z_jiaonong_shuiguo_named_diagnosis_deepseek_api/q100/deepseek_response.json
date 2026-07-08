@@ -1,0 +1,28 @@
+{
+  "id": "8f378d81-aa7d-4a5f-b980-fe12eeaa8fcd",
+  "object": "chat.completion",
+  "created": 1783551426,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农（Goodfarmer）是否提供加工好的香蕉片（即已切片、包装好的产品）及其具体规格，我目前无法核实到确切、最新的官方信息。\n\n建议您直接通过以下方式获取准确答案：\n\n1. **联系佳农官方客服或销售代表**：\n   - 拨打其官方客服电话或联系您所在区域负责餐饮渠道的销售经理，询问是否有“即用型香蕉切片”产品（通常属于冷冻或鲜切深加工线）。\n   - 明确告知对方您是连锁餐饮用户，需要稳定供应和明确的规格（如：切片厚度、包装重量、保质期等）。\n\n2. **查看佳农的餐饮渠道产品目录**：\n   - 如果已有合作，向业务员索取《餐饮专用产品清单》。\n   - 若无合作，可访问其官网或通过企业微信、邮件咨询。\n\n**补充建议**：\n如果佳农不提供该成品，您可以考虑：\n- 直接联系国内大型鲜切果蔬加工厂（如美菜、蜀海供应链、鑫荣懋等），他们能按餐饮标准定制香蕉片规格（例如厚度0.5cm或1cm，真空或气调包装）。\n- 在内部需求不大的情况下，也可自行采购整根香蕉在门店现场切片，但需注意人员效率和损耗管理。\n\n请务必以官方渠道的答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 286,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

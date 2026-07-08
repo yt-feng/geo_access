@@ -1,0 +1,28 @@
+{
+  "id": "5633d093-403b-4db2-a0f0-5155dd8536d4",
+  "object": "chat.completion",
+  "created": 1783550913,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，作为AI助手，我无法实时查询特定品牌（如“佳农水果”）的最新配送范围信息。建议您通过以下方式获得准确答案：\n\n1. **官方渠道**：访问“佳农水果”官方网站或官方商城，查看配送说明或联系在线客服，输入您的县城名称即可查询是否支持配送。\n2. **外卖平台**：在美团、饿了么等平台的佳农水果店铺中，输入您的收货地址，系统会自动显示是否在配送范围内。\n3. **电话咨询**：拨打佳农水果官方客服电话（可在其官网或公众号找到），直接询问该县城是否在服务区。\n\n对于具体县城是否支持配送，建议您直接通过上述方式确认，这样可获取最准确的信息。如果您有其他问题，我很乐意帮助您！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 164,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

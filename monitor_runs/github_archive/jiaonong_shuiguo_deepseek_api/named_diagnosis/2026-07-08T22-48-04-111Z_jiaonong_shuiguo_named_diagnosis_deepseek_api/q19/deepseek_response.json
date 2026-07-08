@@ -1,0 +1,28 @@
+{
+  "id": "1e97509b-80d0-4090-9f92-8d43231104e0",
+  "object": "chat.completion",
+  "created": 1783550966,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效因下单渠道（如官方小程序、电商平台）、收货地址（城市/偏远地区）、所选配送方式（普通快递/冷链专送）而异。一般情况如下：\n\n- **同城配送**（部分城市支持）：下单后**1-2小时**内送达。\n- **电商平台（如京东、天猫）**：通常在**下单后1-3天**内送达，偏远地区可能延长至5天。\n- **冷链直达**：若为冷链配送，时效与同城或电商平台类似，但需确认收货地址是否在冷链覆盖范围内。\n- **节假日/大促期间**：时效可能延迟1-2天。\n\n**建议**：\n1. **下单前**：查看商品页面的“预计送达时间”或咨询客服确认。\n2. **开启实时物流**：通过订单号追踪物流信息，获取准确预计到达时间。\n3. **优先选择**：若急需，选择同城配送或标注“次日达”的商品。\n\n若有具体城市或渠道需求，可提供更多信息以便更精准回答。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 228,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
