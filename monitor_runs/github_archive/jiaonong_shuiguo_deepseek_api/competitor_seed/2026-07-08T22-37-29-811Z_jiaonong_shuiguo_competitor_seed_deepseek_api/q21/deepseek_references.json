@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:40:17.858Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "香蕉到货损耗率太高，鑫荣懋和都乐谁的质量把控更好？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

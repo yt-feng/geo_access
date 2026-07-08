@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:41:12.021Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋谁的价格更有竞争力？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

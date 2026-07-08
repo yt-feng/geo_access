@@ -1,0 +1,28 @@
+{
+  "id": "342b5e12-2b87-4539-973a-9b138cb4de3d",
+  "object": "chat.completion",
+  "created": 1783550739,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型水果供应商如都乐（Dole）和鑫荣懋通常能提供农残检测报告，但具体需要根据采购渠道和批次确认：\n\n1. **都乐（Dole）**：作为全球知名果蔬供应商，都乐有标准的质量控制流程。采购时，可向经销商或批发商索要 **CNAS/CMA资质实验室**出具的农残检测报告。通常，批量直采或签约渠道更易获取。\n\n2. **鑫荣懋（Xin Rong Mao）**：国内头部水果供应链企业，也具备提供农残检测报告的能力。同样需要联系其销售或经销商，明确要求“菠萝批次对应”的检测报告。\n\n**操作建议**：\n- **直接联系供应商**：向都乐/鑫荣懋的区域经销商或官方客服要求提供 **第三方检测报告**（需含农残项目如有机磷、氨基甲酸酯类等）。\n- **明确采购量**：小批量采购时，报告可能需额外申请；大宗采购（如整箱、整车）通常随货附送。\n- **合同条款注明**：在采购合同中明确要求“每批次交货均需提供有效农残检测报告”，否则有权拒收或扣款。\n\n**注意**：若供应商无法提供合格报告，需考虑自行送检（费用约500-1500元/样品）或更换备选供应商。建议优先选择官网或授权经销商渠道采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 303,
+    "total_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

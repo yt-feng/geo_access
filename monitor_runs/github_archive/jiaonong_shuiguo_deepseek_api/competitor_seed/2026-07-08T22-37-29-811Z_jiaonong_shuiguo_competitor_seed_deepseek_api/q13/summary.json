@@ -1,0 +1,50 @@
+{
+  "questionId": "q13",
+  "prompt": "生鲜电商平台找香蕉供应商，要求冷链直达，鑫荣懋和洪九果品谁覆盖城市多？",
+  "createdAt": "2026-07-08T22:39:20.132Z",
+  "summary": [
+    {
+      "questionId": "q13",
+      "prompt_index": 13,
+      "promptIndex": 13,
+      "promptHash": "8079fdd4e060",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商平台找香蕉供应商，要求冷链直达，鑫荣懋和洪九果品谁覆盖城市多？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 350,
+      "text_length": 350,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 212,
+        "total_tokens": 278,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 66
+      },
+      "prompt_tokens": 66,
+      "completion_tokens": 212,
+      "total_tokens": 278,
+      "latencyMs": 3755,
+      "latency_ms": 3755,
+      "createdAt": "2026-07-08T22:39:20.132Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q13/prompt.txt",
+        "answer": "q13/deepseek.txt",
+        "response": "q13/deepseek_response.json",
+        "sources": "q13/deepseek_sources.json",
+        "references": "q13/deepseek_references.json"
+      }
+    }
+  ]
+}

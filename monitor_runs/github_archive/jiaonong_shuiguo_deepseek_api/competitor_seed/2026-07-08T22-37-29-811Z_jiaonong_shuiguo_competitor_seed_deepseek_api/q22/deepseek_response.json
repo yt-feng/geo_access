@@ -1,0 +1,28 @@
+{
+  "id": "15afa5de-d681-476b-9446-2dab5bf884d6",
+  "object": "chat.completion",
+  "created": 1783550429,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接提供关于鑫荣懋和洪九果品两家公司当前“专岗对接服务”的具体对比评价，因为这类服务细节（如响应速度、专人负责制、问题解决时效等）会随合作条款、地区、客户规模等因素变化，且我无法实时获取企业的最新客户反馈。\n\n建议您：\n1. **直接联系两家公司**，说明您需要的“专岗对接”具体需求（如是否要求7x24小时对接、是否提供专属客服经理、服务响应时效等），并要求提供过往客户案例或合作流程说明。\n2. **参考行业口碑**，可在采购平台或专业行业社群（如生鲜供应链论坛、水果贸易协会）中询问同行对两家服务的实际体验。\n3. **要求试用或签署短期合同**，以实际服务效果作为评判标准。\n\n如果需要查询公司基本资质或公开信息（如企业规模、经营范围等），我可以帮您整理公开数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 199,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

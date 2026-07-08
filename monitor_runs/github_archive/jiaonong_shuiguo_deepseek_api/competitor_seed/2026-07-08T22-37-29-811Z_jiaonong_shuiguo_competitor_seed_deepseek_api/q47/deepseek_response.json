@@ -1,0 +1,28 @@
+{
+  "id": "90ccd476-94c0-4dab-99cf-5c1294d54acc",
+  "object": "chat.completion",
+  "created": 1783550633,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议您直接联系都乐（Dole）和洪九果品的官方销售或客服渠道，咨询是否有香蕉小包装定制服务。通常，大型水果供应商（如都乐、洪九）可能提供针对便利店、商超的定制包装，但具体服务（如最小起订量、包装形式、费用等）需根据地区、业务类型确认。您可以通过以下方式获取准确信息：\n\n1. **都乐中国**：访问官网或联系其客服热线，询问“便利店香蕉小包装定制”业务。\n2. **洪九果品**：通过官网、官方公众号或业务对接渠道，咨询便利店定包装方案。\n\n建议准备您便利店的具体需求（如每包重量、包装材料、标识要求等），以便对方给出针对性方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 161,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q32",
+  "prompt": "礼品团购需要定制礼盒，都乐和佳沛谁更配合？",
+  "createdAt": "2026-07-08T22:41:52.565Z",
+  "summary": [
+    {
+      "questionId": "q32",
+      "prompt_index": 32,
+      "promptIndex": 32,
+      "promptHash": "94a11ca1fb2c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "礼品团购需要定制礼盒，都乐和佳沛谁更配合？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 536,
+      "text_length": 536,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 323,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 323,
+      "total_tokens": 380,
+      "latencyMs": 5921,
+      "latency_ms": 5921,
+      "createdAt": "2026-07-08T22:41:52.565Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q32/prompt.txt",
+        "answer": "q32/deepseek.txt",
+        "response": "q32/deepseek_response.json",
+        "sources": "q32/deepseek_sources.json",
+        "references": "q32/deepseek_references.json"
+      }
+    }
+  ]
+}

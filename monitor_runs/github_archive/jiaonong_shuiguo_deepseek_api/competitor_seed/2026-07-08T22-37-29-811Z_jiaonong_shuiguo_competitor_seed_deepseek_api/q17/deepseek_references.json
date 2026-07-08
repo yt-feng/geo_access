@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:39:46.614Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "大型商超招标长期水果供应商，都乐和鑫荣懋谁更擅长做KA？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "df317338-d8ff-4012-b17d-0b06684eb0bd",
+  "object": "chat.completion",
+  "created": 1783550442,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉规格分级方面，**都乐（Dole）** 的分级通常比鑫荣懋更细。都乐作为国际品牌，对香蕉有成熟的分级体系，比如按长度（如小于6英寸、6-7英寸、7-8英寸、8-9英寸等）、外观（如无斑点、轻微斑点、允许斑点比例等）和成熟度（如绿熟、黄熟、特选等）进行多层级划分，部分产品还分A级、B级等。\n\n鑫荣懋作为国内头部水果企业，也有分级标准（如按长度、重量、外观），但通常更侧重市场实际需求，分级层级相对简化（一般分2-3档，如特级、一级、二级）。具体到不同渠道（如餐饮、超市、电商），双方可能采用定制化分级，但就公开信息来看，都乐的分级更精细。\n\n建议采购时直接索要双方的规格表进行对比，并确认是否符合你的使用场景（如零售、加工）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 216,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

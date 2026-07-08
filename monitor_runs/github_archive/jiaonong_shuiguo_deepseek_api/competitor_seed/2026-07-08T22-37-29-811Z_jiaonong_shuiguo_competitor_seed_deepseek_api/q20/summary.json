@@ -1,0 +1,50 @@
+{
+  "questionId": "q20",
+  "prompt": "礼品团购客户指定要进口品牌，都乐和佳沛的礼盒哪个更受欢迎？",
+  "createdAt": "2026-07-08T22:40:11.860Z",
+  "summary": [
+    {
+      "questionId": "q20",
+      "prompt_index": 20,
+      "promptIndex": 20,
+      "promptHash": "e84a3709abe7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "礼品团购客户指定要进口品牌，都乐和佳沛的礼盒哪个更受欢迎？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 448,
+      "text_length": 448,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 291,
+        "total_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 291,
+      "total_tokens": 352,
+      "latencyMs": 4997,
+      "latency_ms": 4997,
+      "createdAt": "2026-07-08T22:40:11.860Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q20/prompt.txt",
+        "answer": "q20/deepseek.txt",
+        "response": "q20/deepseek_response.json",
+        "sources": "q20/deepseek_sources.json",
+        "references": "q20/deepseek_references.json"
+      }
+    }
+  ]
+}

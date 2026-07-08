@@ -1,0 +1,28 @@
+{
+  "id": "e3a40429-2973-41f5-b2e9-8ee4cad10877",
+  "object": "chat.completion",
+  "created": 1783550637,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业公开信息，大型商超（如沃尔玛、盒马、永辉等）通常要求供应商提供以下核心食品安全认证及相关资质：\n\n**鑫荣懋（Joyvio）**  \n- **全球食品安全倡议（GFSI）认可的认证**：如BRC（英国零售商协会）食品安全标准、IFS（国际食品标准）或FSSC 22000（食品安全体系认证）。  \n- **中国有机产品认证**（部分品类）。  \n- **GLOBALG.A.P.**（全球良好农业规范）认证（水果产地端）。  \n- **ISO 22000** 食品安全管理体系认证（部分加工环节）。  \n- **出口资质**（如出口至欧盟、美国时需满足相应法规）。  \n\n**都乐（Dole）**  \n- **BRC认证**：包装与加工环节。  \n- **ISO 22000** 认证。  \n- **中国有机产品认证**（部分产品线）。  \n- **GLOBALG.A.P.** 认证（产地农场）。  \n- **无公害农产品认证**（针对国内销售渠道）。  \n- **HACCP** 认证（危害分析与关键控制点）。  \n\n**注意**：  \n1. 具体资质可能因产品品类（如鲜果、加工果切）、供应区域（国内/出口）及终端客户要求而异。  \n2. 建议通过双方官网、合作商超的供应商名录或第三方认证机构（如SGS、Intertek）核实最新清单。  \n3. 大型商超还会审核**供应商的“食品安全信用等级”、“检测报告”、“追溯体系”及“突发问题应对预案”**。  \n\n如需进一步验证，可直接联系鑫荣懋或都乐的品控部门获取文件副本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 367,
+    "total_tokens": 427,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

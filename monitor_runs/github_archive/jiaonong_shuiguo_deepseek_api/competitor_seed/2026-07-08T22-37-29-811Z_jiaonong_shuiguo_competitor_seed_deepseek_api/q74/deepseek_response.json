@@ -1,0 +1,28 @@
+{
+  "id": "0b98c97d-9cd5-4da1-9bc1-c087bde405a7",
+  "object": "chat.completion",
+  "created": 1783550818,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品（Hongjiu）水果礼盒的起订量，具体政策可能会因地区、销售渠道（如经销商、直营客户）以及季节性供应有所调整。\n\n**建议操作：**\n1. **直接联系官方渠道**：拨打两家公司官网或官方客服电话，咨询礼品团购部门。通常大客户起订量可能在**20-50箱（礼盒规格）** 左右，但定制礼盒（如加LOGO、特殊包装）可能会要求**100箱起**。\n2. **提供需求信息**：主动告知对方你是礼品团购，说明礼盒规格（如净重、水果品类）、是否需要定制包装、预计订购数量，对方会给出精确报价和门槛。\n3. **参考通用经验**：根据行业惯例，非定制常规礼盒起订量较低（可能10箱即可），定制礼盒（特别是需要印制品牌Logo或特殊内衬）一般在**50-100箱**以上。\n\n**风险提示**：我没有实时最新数据，以上信息基于2025年前的行业经验。请以官方沟通结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 238,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

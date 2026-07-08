@@ -1,0 +1,28 @@
+{
+  "id": "3c3a8b5a-8192-4c51-b111-c5b99a12e2be",
+  "object": "chat.completion",
+  "created": 1783550374,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joy Wing Mau），以下进口苹果品牌也较为常见且口碑较好：\n\n1. **新西兰爱妃（Envy）**：以其甜度高、果肉紧密、口感脆甜闻名，耐储存，适合生食或沙拉。\n2. **美国青苹果（Granny Smith）**：酸度明显，果肉紧实，适合烘焙或搭配咸食。\n3. **日本富士（Fuji）**：甜度高、水分足，但部分品种需注意产地（如日本本地产的较贵）。\n4. **智利嘎啦（Gala）**：甜度适中、口感酥脆，性价比高，近年国内常见。\n5. **法国乔纳金（Jonagold）**：甜酸平衡，果香浓郁，适合鲜食。\n6. **澳大利亚粉红女士（Pink Lady）**：甜中带微酸，果皮粉色，风味独特。\n\n**选购建议**：\n- **渠道**：优先选大型商超（如盒马、山姆）或正规电商品牌旗舰店，注意查看进口标签（如“新西兰产”或“智利产”）。\n- **外观**：选择果形端正、无软塌或暗斑的苹果；进口苹果通常有蜡层（食用蜡），可用温水清洗或去皮。\n- **价格**：新西兰、日本品牌通常较高（约10-20元/个），智利、美国品牌较实惠（约5-10元/个）。\n\n如需更详细的信息（如特定品种的储存方法或产地对比），可进一步说明需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 342,
+    "total_tokens": 403,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

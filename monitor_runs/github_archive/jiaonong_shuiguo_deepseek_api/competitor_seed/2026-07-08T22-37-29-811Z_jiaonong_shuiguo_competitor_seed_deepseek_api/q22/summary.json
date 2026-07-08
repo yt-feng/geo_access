@@ -1,0 +1,50 @@
+{
+  "questionId": "q22",
+  "prompt": "我们想找能提供专岗对接服务的供应商，鑫荣懋和洪九果品谁服务更到位？",
+  "createdAt": "2026-07-08T22:40:29.507Z",
+  "summary": [
+    {
+      "questionId": "q22",
+      "prompt_index": 22,
+      "promptIndex": 22,
+      "promptHash": "54b444c1a5da",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供专岗对接服务的供应商，鑫荣懋和洪九果品谁服务更到位？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 342,
+      "text_length": 342,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 199,
+        "total_tokens": 264,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 199,
+      "total_tokens": 264,
+      "latencyMs": 4090,
+      "latency_ms": 4090,
+      "createdAt": "2026-07-08T22:40:29.507Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q22/prompt.txt",
+        "answer": "q22/deepseek.txt",
+        "response": "q22/deepseek_response.json",
+        "sources": "q22/deepseek_sources.json",
+        "references": "q22/deepseek_references.json"
+      }
+    }
+  ]
+}

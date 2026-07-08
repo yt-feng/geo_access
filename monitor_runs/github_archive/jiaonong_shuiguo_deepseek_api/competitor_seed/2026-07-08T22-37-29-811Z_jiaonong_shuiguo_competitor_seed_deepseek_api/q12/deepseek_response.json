@@ -1,0 +1,28 @@
+{
+  "id": "fbdae70c-f1f6-4cf1-aeca-1c1181f95a2e",
+  "object": "chat.completion",
+  "created": 1783550354,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于便利店渠道的小包装香蕉，鑫荣懋和都乐通常都有适合的规格，以下是常见选项供您参考：\n\n1. **鑫荣懋（Synergy）**：\n   - 常见规格：小包装香蕉（如2-3根装），重量约300-400克，适合便利店单次零售。\n   - 包装形式：通常为透明塑料袋或品牌包装，方便陈列和销售。\n\n2. **都乐（Dole）**：\n   - 常见规格：同样有2-3根装的小包装香蕉，重量约300-400克，部分产品可能推出迷你香蕉或特定促销装。\n   - 包装形式：采用品牌标识包装，注重新鲜度和卖相。\n\n**建议**：\n- 您可以直接联系鑫荣懋或都乐的区域销售代表，提供便利店的具体需求（如目标售价、包装设计、交货频率等），以获取最新规格表和报价。\n- 检查这些品牌是否在您所在区域有现货，因为部分小包装规格可能根据季节或分销渠道调整。\n\n如果您需要更详细的信息（如具体产品编号或门店案例），建议咨询当地批发市场或品牌客服，以确保准确性。希望这些信息对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 257,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

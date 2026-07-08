@@ -1,0 +1,50 @@
+{
+  "questionId": "q37",
+  "prompt": "我们想找能提供产地溯源的菠萝供应商，都乐和洪九果品谁更透明？",
+  "createdAt": "2026-07-08T22:42:32.607Z",
+  "summary": [
+    {
+      "questionId": "q37",
+      "prompt_index": 37,
+      "promptIndex": 37,
+      "promptHash": "24fb09cc719a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供产地溯源的菠萝供应商，都乐和洪九果品谁更透明？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 630,
+      "text_length": 630,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 371,
+        "total_tokens": 433,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 371,
+      "total_tokens": 433,
+      "latencyMs": 6590,
+      "latency_ms": 6590,
+      "createdAt": "2026-07-08T22:42:32.607Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q37/prompt.txt",
+        "answer": "q37/deepseek.txt",
+        "response": "q37/deepseek_response.json",
+        "sources": "q37/deepseek_sources.json",
+        "references": "q37/deepseek_references.json"
+      }
+    }
+  ]
+}

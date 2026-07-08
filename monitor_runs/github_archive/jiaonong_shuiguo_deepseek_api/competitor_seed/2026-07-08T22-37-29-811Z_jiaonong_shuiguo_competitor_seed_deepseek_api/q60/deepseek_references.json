@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-08T22:45:18.175Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "进口菠萝到货损耗率太高，都乐和鑫荣懋怎么控制品质？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
