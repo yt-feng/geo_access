@@ -1,0 +1,28 @@
+{
+  "id": "c3e069af-0ac0-4da8-a79c-9354c8f4bf62",
+  "object": "chat.completion",
+  "created": 1783638598,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品在进口水果领域都以其严格的分级标准著称，但两者侧重点略有不同。  如果您需要规格统一（如单果重、尺寸、外观一致），建议优先选择都乐，但其价格通常更高；洪九果品性价比好，但标准化程度可能略低于都乐。具体选择时，最好通过实际样品对比或要求供应商提供分级标准说明。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 90,
+    "total_tokens": 150,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

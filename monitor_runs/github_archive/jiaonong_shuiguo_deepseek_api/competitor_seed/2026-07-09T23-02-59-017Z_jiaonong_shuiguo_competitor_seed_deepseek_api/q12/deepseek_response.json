@@ -1,0 +1,28 @@
+{
+  "id": "6d4bc77f-e98c-4b67-87f3-519084b6e222",
+  "object": "chat.completion",
+  "created": 1783638261,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我的了解，鑫荣懋和都乐这类大型水果供应商确实有针对便利店渠道的小包装香蕉产品。常见的规格包括：\n\n- **小包装（约200-300克）**：适合单人消费或即食场景，通常为2-3根香蕉，使用透明塑料盒或简易包装袋。\n- **迷你包装（约100-150克）**：部分品牌会推出更小的单根独立包装，适合搭配早餐或便携需求。\n\n建议直接联系鑫荣懋或都乐的当地经销商或客户代表，确认具体产品线和最小起订量，因为不同区域和季节的供应情况可能有所不同。也可以通过便利店采购平台或批发市场查询实时库存。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 144,
+    "total_tokens": 203,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

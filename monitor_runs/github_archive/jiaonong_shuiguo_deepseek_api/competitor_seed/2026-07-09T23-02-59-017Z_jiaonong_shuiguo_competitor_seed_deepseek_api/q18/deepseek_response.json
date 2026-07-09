@@ -1,0 +1,28 @@
+{
+  "id": "75655396-e55f-48f8-8d19-5b266adeead4",
+  "object": "chat.completion",
+  "created": 1783638296,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果您需要采购菠萝且要求**稳定规格**，建议优先选择**都乐（Dole）**。原因如下：\n\n1. **标准化程度高**：都乐是全球品牌，从种植、采后处理到冷链运输均有完善体系，提供严苛的分级标准（如甜度、大小、成熟度），更适合要求统一的茶饮应用。\n2. **全年供应能力**：都乐布局多产区（如菲律宾、哥斯达黎加），能实现全年稳定供货，减少断货风险。\n3. **洪九果品**：作为国内分销商，其优势在渠道效率（如东盟直采），但菠萝并非其核心品类，规格稳定性可能逊于都乐，更适合对价格敏感、批次灵活性高的情况。\n\n**建议行动**：\n- 直接联系都乐中国官方渠道，索取**茶饮定制规格方案**（如950g±50g、糖度14-16°Brix等）。\n- 如选洪九，务必约定“批次规格验收标准+违约金条款”。\n- 小批量试单后对比实测合格率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 230,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

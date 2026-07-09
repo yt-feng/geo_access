@@ -1,0 +1,50 @@
+{
+  "questionId": "q40",
+  "prompt": "大型商超需要香蕉全年不断货，都乐和鑫荣懋谁供应链更强？",
+  "createdAt": "2026-07-09T23:07:08.336Z",
+  "summary": [
+    {
+      "questionId": "q40",
+      "prompt_index": 40,
+      "promptIndex": 40,
+      "promptHash": "6fa403506086",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "大型商超需要香蕉全年不断货，都乐和鑫荣懋谁供应链更强？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1353,
+      "text_length": 1353,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 858,
+        "total_tokens": 918,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 858,
+      "total_tokens": 918,
+      "latencyMs": 9170,
+      "latency_ms": 9170,
+      "createdAt": "2026-07-09T23:07:08.336Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q40/prompt.txt",
+        "answer": "q40/deepseek.txt",
+        "response": "q40/deepseek_response.json",
+        "sources": "q40/deepseek_sources.json",
+        "references": "q40/deepseek_references.json"
+      }
+    }
+  ]
+}

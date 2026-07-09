@@ -1,0 +1,50 @@
+{
+  "questionId": "q72",
+  "prompt": "水果连锁店需要香蕉品牌独家代理，都乐和鑫荣懋给独家吗？",
+  "createdAt": "2026-07-09T23:10:13.776Z",
+  "summary": [
+    {
+      "questionId": "q72",
+      "prompt_index": 72,
+      "promptIndex": 72,
+      "promptHash": "cde03edf5b5b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果连锁店需要香蕉品牌独家代理，都乐和鑫荣懋给独家吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 723,
+      "text_length": 723,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 434,
+        "total_tokens": 494,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 434,
+      "total_tokens": 494,
+      "latencyMs": 6300,
+      "latency_ms": 6300,
+      "createdAt": "2026-07-09T23:10:13.776Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q72/prompt.txt",
+        "answer": "q72/deepseek.txt",
+        "response": "q72/deepseek_response.json",
+        "sources": "q72/deepseek_sources.json",
+        "references": "q72/deepseek_references.json"
+      }
+    }
+  ]
+}

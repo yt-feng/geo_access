@@ -1,0 +1,28 @@
+{
+  "id": "d67655f2-c0de-4bb6-afef-dab7512b63e8",
+  "object": "chat.completion",
+  "created": 1783638367,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，鑫荣懋和都乐作为大型水果供应商，通常都具备较为全面的食品安全认证体系。具体来看：\n\n1. **鑫荣懋**：主要持有 **GLOBALG.A.P.**（全球良好农业规范）、**BRC**（英国零售商协会食品安全标准）、**ISO 22000**（食品安全管理体系）等认证，覆盖从种植到加工的全链条。  \n2. **都乐**：同样持有 **GLOBALG.A.P.**、**BRC**、**ISO 22000**，并额外具备 **PrimusGFS**（全球食品安全倡议认可的标准）等认证，在出口市场更为完善。\n\n**结论**：在核心认证上两者价值相近，但都乐因额外持有 **PrimusGFS** 等标准，在 **国际商超（如沃尔玛、Costco）** 的准入中更占优势。建议根据具体商超的认证清单进行核验（例如：家乐福可能要求BRC，而永辉更关注GLOBALG.A.P.）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 223,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

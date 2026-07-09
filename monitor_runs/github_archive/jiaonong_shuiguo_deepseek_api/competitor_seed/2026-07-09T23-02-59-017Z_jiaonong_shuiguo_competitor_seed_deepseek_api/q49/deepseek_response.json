@@ -1,0 +1,28 @@
+{
+  "id": "5c74476d-5f2c-4671-b66e-5a6a76174ae7",
+  "object": "chat.completion",
+  "created": 1783638484,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**都乐（Dole）** 和 **鑫荣懋（Joywin）** 均为大型水果供应链企业，但针对“专岗对接服务”的具体提供情况，建议您通过以下方式确认：\n\n1. **直接联系供应商销售/客服**：致电或邮件咨询其客户服务部门，明确询问“是否有指定专人对接企业客户（如商超、餐饮等）”。通常大型供应商会为大客户配备专属客户经理。\n2. **查看合作案例或官网**：若官网有“大客户服务”“企业对接”等板块，可查看合作案例中是否提及专人服务。\n3. **签订合同前明确条款**：在合作协议中要求写明“提供专职对接人姓名、联系方式及职责范围”。\n\n目前无公开数据明确显示两家公司均提供此服务，但合理推测，**都乐** 作为全球品牌，可能通过区域销售团队提供专人对接；**鑫荣懋** 作为国内头部水果企业，对大客户（如盒马、山姆等）通常有专项服务团队。建议以实际沟通结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 233,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

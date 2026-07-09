@@ -1,0 +1,28 @@
+{
+  "id": "0ae7e1cc-e78a-4a86-ab7f-6a9d9df40e02",
+  "object": "chat.completion",
+  "created": 1783638282,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于下沉市场的夫妻老婆店进货，价格敏感度高的情况下，**通常洪九果品在价格上更有优势**，但需要结合具体品类和渠道选择。\n\n1. **洪九果品**：以“产地直采+批发”模式为主，主打高性价比，尤其适合中低端市场。其供应链成本控制较强，针对下沉市场会有专门的低价批发方案，整体价格比鑫荣懋低10%-20%左右，但品质可能略逊于鑫荣懋。\n\n2. **鑫荣懋**：定位中高端，注重品牌和品控，价格相对较高。虽然部分单品（如进口水果）有促销价，但日常批发价普遍高于洪九果品，更适合对品质有要求的场景。\n\n**建议行动**：\n- 直接联系当地洪九果品经销商或区域代理，谈最低批发价，争取小批量优惠。\n- 对比两家在本地或周边城市的批发价目表（可通过微信、电话询价），重点看销量大的品类（如柑橘、苹果、香蕉）。\n- 若需要持续低价，可尝试与洪九果品签订长期采购协议，或参与其“社区团购”合作模式。\n\n**注意**：价格受季节、采购量、运费影响较大，建议货比三家后再决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 275,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

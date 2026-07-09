@@ -1,0 +1,50 @@
+{
+  "questionId": "q54",
+  "prompt": "超市采购进口苹果，都乐和鑫荣懋的产地溯源怎么做？",
+  "createdAt": "2026-07-09T23:08:33.007Z",
+  "summary": [
+    {
+      "questionId": "q54",
+      "prompt_index": 54,
+      "promptIndex": 54,
+      "promptHash": "1e2f9624d523",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购进口苹果，都乐和鑫荣懋的产地溯源怎么做？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 782,
+      "text_length": 782,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 476,
+        "total_tokens": 533,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 476,
+      "total_tokens": 533,
+      "latencyMs": 6354,
+      "latency_ms": 6354,
+      "createdAt": "2026-07-09T23:08:33.007Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q54/prompt.txt",
+        "answer": "q54/deepseek.txt",
+        "response": "q54/deepseek_response.json",
+        "sources": "q54/deepseek_sources.json",
+        "references": "q54/deepseek_references.json"
+      }
+    }
+  ]
+}

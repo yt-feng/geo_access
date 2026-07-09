@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T23:03:13.051Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "洪九果品的香蕉质量怎么样，和鑫荣懋比哪个到货损耗更低？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "80dc990c-6634-4f6b-86c9-e547e5a99899",
+  "object": "chat.completion",
+  "created": 1783638276,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joy Wing Mau），以下也是比较靠谱的进口苹果品牌，通常以品质稳定、供应链成熟著称：\n\n1. **Zespri（佳沛）**  \n   虽然更以奇异果闻名，但旗下也有少量高品质苹果出口业务。\n\n2. **Envy（爱妃）**  \n   新西兰品牌，主打高端市场，果肉紧实、甜度高、不易氧化，常见于高端超市。\n\n3. **Jazz（爵士）**  \n   同样源自新西兰，果香浓郁，脆甜多汁，适合直接食用或沙拉。\n\n4. **Pink Lady（粉红佳人）**  \n   原产澳大利亚，果皮粉红，酸甜平衡，在国际上很受欢迎。\n\n5. **Gala（嘎啦）**  \n   广泛种植于新西兰、美国等，口感酥脆，甜度高，性价比不错。\n\n6. **Granny Smith（青苹果）**  \n   源自澳大利亚，酸味明显，适合烘焙或配合其他甜食。\n\n7. **Fuji（富士苹果）**  \n   日本品种，在智利、美国等也有种植，甜度高，口感硬脆。\n\n**选择建议：**  \n- 如果偏好高甜度、不易氧化，推荐Envy（爱妃）。  \n- 如果喜欢酸脆口感，可尝试Granny Smith（青苹果）或Pink Lady。  \n- 日常性价比，Gala（嘎啦）或进口富士都可以。\n\n购买时注意查看标签：进口苹果通常标注原产国（如新西兰、美国、智利等），以及是否有中国海关检验检疫标志。大型超市或信誉良好的电商平台（如盒马、山姆）渠道更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 363,
+    "total_tokens": 424,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

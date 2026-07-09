@@ -1,0 +1,28 @@
+{
+  "id": "909404d0-8550-4058-b325-303a61807f0b",
+  "object": "chat.completion",
+  "created": 1783638471,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对便利店香蕉小包装的定制需求，**都乐和洪九果品通常有相关的定制包装服务**，但具体政策可能随市场变化或合作规模调整。以下是建议的确认路径：\n\n1. **直接联系官方销售团队**：通过两家公司的官网或客服热线获取当地销售经理联系方式，明确告知需求（如单包香蕉重量、外包装形式、是否需要印便利店品牌LOGO等）。\n2. **关注现成小包装产品**：若定制门槛较高（如起订量不足），可询问是否有标准的小包装规格产品（如3-6根/袋）直接供货。\n3. **行业案例参考**：大型连锁便利店（如全家、罗森）曾与都乐合作过定制款独立包装香蕉，洪九果品在社区生鲜店也有类似案例，可要求对方提供参考产品照片。\n\n若需要进一步帮助，建议提供：您所在城市、预期月用量、包装设计需求（如是否需要物流防护功能），我可以帮您更精准匹配供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 215,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
