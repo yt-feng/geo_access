@@ -1,0 +1,28 @@
+{
+  "id": "d2c49b59-bea2-434e-ba77-dd1d331349eb",
+  "object": "chat.completion",
+  "created": 1783638087,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常在水果采购合同中，**坏果率（腐烂、变质或严重损伤）超过3%-5%** 是行业常见的约定赔付门槛。如果合同未明确约定，建议参考以下标准：\n\n- **理想标准**：建议将赔付起点设在 **5%** 以内，超过此比例应启动按比例扣款或退货。\n- **严格标准**：对于高端水果或长运输链，可争取 **3%** 以内，超过则按超出部分数量×单价×1.5-2倍赔偿。\n- **例外情况**：如属批发级或次果，可在合同中约定 **10%** 以内免赔，但需明确此为“可接受瑕疵”而非坏果。\n\n**建议操作**：\n1. **明确写入合同**：一定写明“坏果率超过X%（如5%）时，超过部分由供货方按订单单价双倍赔付”或“超出部分不计价”。\n2. **界定坏果标准**：同时定义什么是“坏果”（如霉变、腐烂、挤压汁流等），以及运输损耗（如擦伤）是否包含在内。\n3. **抽样方式**：约定双方共同现场抽检（如按总箱数10%随机开箱），避免争议。\n\n如果对方不同意5%，可适当让步至7%-8%，但最好结合水果价格、保质期和物流时长综合判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 291,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

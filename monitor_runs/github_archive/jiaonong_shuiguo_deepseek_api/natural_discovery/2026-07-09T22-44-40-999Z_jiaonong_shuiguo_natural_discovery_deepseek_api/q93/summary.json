@@ -1,0 +1,50 @@
+{
+  "questionId": "q93",
+  "prompt": "便利店卖菠萝切块，需要关注保质期、包装还是配送频次？",
+  "createdAt": "2026-07-09T22:58:24.197Z",
+  "summary": [
+    {
+      "questionId": "q93",
+      "prompt_index": 93,
+      "promptIndex": 93,
+      "promptHash": "d4961f2bb1e4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店卖菠萝切块，需要关注保质期、包装还是配送频次？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 623,
+      "text_length": 623,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 373,
+        "total_tokens": 430,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 373,
+      "total_tokens": 430,
+      "latencyMs": 5623,
+      "latency_ms": 5623,
+      "createdAt": "2026-07-09T22:58:24.197Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q93/prompt.txt",
+        "answer": "q93/deepseek.txt",
+        "response": "q93/deepseek_response.json",
+        "sources": "q93/deepseek_sources.json",
+        "references": "q93/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T22:53:45.534Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发档口想降低退货纠纷，收货验货应该怎么做？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

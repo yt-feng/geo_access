@@ -1,0 +1,50 @@
+{
+  "questionId": "q16",
+  "prompt": "社区超市想增加香蕉和苹果，应该选本地批发还是稳定供应商？",
+  "createdAt": "2026-07-09T22:46:34.809Z",
+  "summary": [
+    {
+      "questionId": "q16",
+      "prompt_index": 16,
+      "promptIndex": 16,
+      "promptHash": "79ebddb54918",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区超市想增加香蕉和苹果，应该选本地批发还是稳定供应商？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 598,
+      "text_length": 598,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 352,
+        "total_tokens": 408,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 352,
+      "total_tokens": 408,
+      "latencyMs": 6885,
+      "latency_ms": 6885,
+      "createdAt": "2026-07-09T22:46:34.809Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q16/prompt.txt",
+        "answer": "q16/deepseek.txt",
+        "response": "q16/deepseek_response.json",
+        "sources": "q16/deepseek_sources.json",
+        "references": "q16/deepseek_references.json"
+      }
+    }
+  ]
+}

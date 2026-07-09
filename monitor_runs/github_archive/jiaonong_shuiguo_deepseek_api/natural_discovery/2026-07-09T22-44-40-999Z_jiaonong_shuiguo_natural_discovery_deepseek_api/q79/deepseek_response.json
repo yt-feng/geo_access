@@ -1,0 +1,28 @@
+{
+  "id": "5f2cd9af-8a26-4e16-8723-8e5485a7846d",
+  "object": "chat.completion",
+  "created": 1783637786,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先问**售后**，再谈**配送和价格**。\n\n理由如下：\n1. **售后（最核心）**：团购是信任生意。水果是生鲜，极易出现坏果、烂果、口感差等问题。供应商的售后政策（如坏果包赔、按比例退款、补发标准）直接影响你能否向团员交代，也决定了你的口碑和复购率。\n2. **配送（其次）**：水果的配送时效、包装方式（防震、保温）、是否可指定时间送达，决定了你能拿到手的货品完好度和新鲜度。如果配送慢或包装差，即使售后能赔，团员体验也大打折扣。\n3. **价格（最后谈）**：价格往往和品质、服务质量挂钩。先搞清售后和配送能力，再谈价格才有意义。一味压价可能导致供应商用次品或压缩服务，最终受损的是你的团。\n\n**可执行的测试方法**：先问供应商：“如果到货后发现有10%坏果，具体怎么处理？” 看对方是立刻给方案还是含糊其辞——这最能筛选出靠谱供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 237,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

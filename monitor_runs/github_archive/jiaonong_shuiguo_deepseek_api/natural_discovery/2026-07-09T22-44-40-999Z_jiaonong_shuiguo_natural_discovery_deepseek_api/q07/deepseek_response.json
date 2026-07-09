@@ -1,0 +1,28 @@
+{
+  "id": "b1c7daf4-7652-4e03-a0d6-67d6fc2e3443",
+  "object": "chat.completion",
+  "created": 1783637130,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "搭配水果礼盒时，建议遵循以下原则：\n\n1. **颜色搭配**：选择红（苹果）、橙（橙子）、黄（香蕉）、绿（菠萝部分）的颜色组合，视觉上鲜艳喜庆，适合送礼。\n\n2. **口感平衡**：苹果爽脆、橙子酸甜、香蕉软糯、菠萝清爽，后几种可以互补且解腻。\n\n3. **耐放程度**：苹果和橙子较耐放，香蕉和菠萝相对易熟，可以适当控制数量，比如：  \n   - 苹果 2-3个（垫底）  \n   - 橙子 2-3个（中间）  \n   - 香蕉 1串（单独固定）  \n   - 菠萝 1个（顶部点缀）\n\n4. **价格搭配**：苹果和橙子成本低、量多；菠萝现价较高，可作为“亮点”吸引顾客；香蕉价格适中。建议礼盒总价控制在市场接受范围内。\n\n5. **包装建议**：用衬纸或泡沫隔离香蕉和菠萝，避免挤压；外盒留通风孔延长保鲜。\n\n6. **推广话术**：可宣传“四季平安（苹果）、心想事成（橙）、招财进宝（蕉）、好运蓬勃（菠萝）”，寓意好易售卖。\n\n如果当地偏好甜口，可减少菠萝、增加苹果；若用户有特殊需求（如送礼、店庆等），可调整搭配比例。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 302,
+    "total_tokens": 362,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

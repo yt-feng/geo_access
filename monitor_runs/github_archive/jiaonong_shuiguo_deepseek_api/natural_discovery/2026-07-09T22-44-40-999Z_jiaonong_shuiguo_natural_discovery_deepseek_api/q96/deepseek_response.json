@@ -1,0 +1,28 @@
+{
+  "id": "0ec49f12-3d1e-4e96-8b58-b52ca9ede7ea",
+  "object": "chat.completion",
+  "created": 1783637926,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "综合来看，**食品安全是最需要优先关注的核心**，其次是价格，最后是配送准时性。以下是具体理由：\n\n1. **食品安全是底线**：食堂供应的是集体用餐，一旦出现农药残留超标、水果腐烂变质或携带病原体，可能导致群体性食物中毒或健康问题，责任重大且难以挽回。必须要求供应商提供检疫证明、农残检测报告，并定期抽检。\n\n2. **价格影响成本控制**：在确保安全的前提下，价格直接决定采购预算是否合理。建议通过比价、签订长期合同或选择季节性水果来平衡。\n\n3. **配送准时保证操作**：如果配送延迟，可能打乱食堂备餐节奏或导致库存断档。但这通常可通过合同条款（如违约金）和备用供应商管理来弥补，风险相对可控。\n\n**建议行动顺序**：先筛选有资质、安全记录良好的供应商 → 再对比其报价和配送条款 → 最终选择平衡安全与性价比的方案。日常采购中，可建立“食品安全一票否决制”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 215,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

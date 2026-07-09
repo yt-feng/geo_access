@@ -1,0 +1,28 @@
+{
+  "id": "62b221e2-98c5-4bab-b7bf-30138af0faff",
+  "object": "chat.completion",
+  "created": 1783637125,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，非常适合。社区水果店由于销量波动大，选择能小批量、多次配送的供应商有以下优势：\n\n1. **降低库存压力**：避免一次性进货过多导致水果损耗（水果易坏）。\n2. **灵活调整品种**：可以根据当天实际销售情况，及时补充畅销品或替换滞销品。\n3. **减少资金占用**：不需要一次性支付大额货款，现金流更健康。\n4. **应对高峰需求**：周末或节假日人流增加时，可以快速追加补货。\n\n建议你这样做：\n- **优先选择本地农贸市场批发商**：他们通常愿意配合小批量、高频次送货，尤其适合刚开店或销量不稳定的店铺。\n- **与供应商约定最小订货量**：明确每次最低起送金额或数量（比如每次至少50元或5斤），双方都方便。\n- **尝试电商平台或批发App**：如美团优选、快驴进货等，支持次日达、小批量下单，但注意对比价格和质量。\n- **建立备选供应商名单**：至少联系2-3家，避免临时缺货或供应商断供影响经营。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 236,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

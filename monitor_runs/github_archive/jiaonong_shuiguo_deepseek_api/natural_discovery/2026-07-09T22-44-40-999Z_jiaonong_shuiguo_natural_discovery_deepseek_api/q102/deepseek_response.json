@@ -1,0 +1,28 @@
+{
+  "id": "c724010e-b3f6-44ed-9840-1e0337122dd8",
+  "object": "chat.completion",
+  "created": 1783637968,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常企业福利采购水果礼盒时，建议优先选择支持以下两项服务的供应商：\n\n1. **开发票**：正规供应商应能开具增值税普通发票或专用发票（具体根据企业财务要求），建议在采购前明确发票类型、抬头和税率，并确认是否支持电子发票。\n\n2. **定制包装**：若需统一企业标识、节日贺卡或特殊包装（如礼盒外观、丝带、手提袋等），应提前与供应商沟通定制能力、起订量及额外费用。部分供应商可提供免费基础定制，但复杂设计可能需收费。\n\n**建议操作**：  \n- 可在电商平台（如京东企业购、天猫企业频道）或本地水果批发市场中筛选标注“可开发票”的供应商。  \n- 直接联系时，用书面方式（如邮件、聊天记录）确认上述两项服务细节，并留存凭证。  \n- 如果采购量较大（如50份以上），可要求供应商提供样品包装，并索要发票样本（如照片）核实。  \n\n注意：若供应商拒绝提供发票或明确不可定制包装，建议更换供应渠道，避免后续报销或品牌形象问题。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 245,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
