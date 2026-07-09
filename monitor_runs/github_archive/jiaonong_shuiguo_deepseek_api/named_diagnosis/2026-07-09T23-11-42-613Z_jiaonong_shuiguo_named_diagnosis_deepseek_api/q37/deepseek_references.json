@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T23:14:38.203Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的香蕉价格比市场均价高还是低？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

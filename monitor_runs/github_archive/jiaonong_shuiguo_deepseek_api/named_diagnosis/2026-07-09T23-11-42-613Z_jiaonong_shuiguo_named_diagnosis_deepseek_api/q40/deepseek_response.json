@@ -1,0 +1,28 @@
+{
+  "id": "b59251b8-1aea-40a6-9904-3d5c3ded35fd",
+  "object": "chat.completion",
+  "created": 1783638889,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果有针对餐饮渠道的菠萝解决方案。具体来说，佳农为餐饮渠道提供标准化的菠萝产品，包括新鲜菠萝、冷冻菠萝块和预切菠萝等，以满足不同餐饮场景（如甜品、饮品、烹饪配菜等）的需求。这些产品通常经过品质分级和加工处理，便于厨房直接使用，减少人工操作。\n\n如果您需要更详细的合作方式或产品规格，建议直接联系佳农官方或访问其官网的“餐饮服务”板块获取最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 105,
+    "total_tokens": 156,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

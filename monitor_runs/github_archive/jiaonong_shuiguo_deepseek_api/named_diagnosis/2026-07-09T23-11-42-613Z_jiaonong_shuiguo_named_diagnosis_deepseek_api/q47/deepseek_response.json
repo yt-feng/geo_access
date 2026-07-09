@@ -1,0 +1,28 @@
+{
+  "id": "5df8bff8-4ea8-41cc-974a-34e6ba8a2341",
+  "object": "chat.completion",
+  "created": 1783638935,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果主要产自中国陕西省洛川县和山西省运城市等优质苹果产区。关于GAP认证，佳农的部分苹果产品已获得全球良好农业规范（GAP）认证，但具体批次需以产品包装或企业提供的证书为准。针对生鲜电商溯源需求，建议您直接联系佳农官方客服（电话：400-820-1028）或在其官网查询具体批次的溯源信息，包括产地证明、GAP认证编号及检测报告等。如有合作需求，可要求提供涵盖种植、加工和物流的全链条追溯文件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 122,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

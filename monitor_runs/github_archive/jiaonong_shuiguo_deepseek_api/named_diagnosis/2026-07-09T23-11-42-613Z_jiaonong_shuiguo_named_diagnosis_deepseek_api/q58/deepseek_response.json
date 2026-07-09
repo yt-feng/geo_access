@@ -1,0 +1,28 @@
+{
+  "id": "f7bc3145-0a79-4e67-94df-2eee7da88304",
+  "object": "chat.completion",
+  "created": 1783638995,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农（Goodfarmer）主要以销售新鲜水果和部分加工果蔬产品为主，通常提供**整果**销售，但可能也具备一定规模的**分切加工**能力（如菠萝丁、切片等），具体取决于与采购渠道的对接。\n\n建议您直接联系**佳农官方客服**或当地**经销商**核实以下两点：\n1. 是否接受针对茶饮店的定制化菠萝丁加工订单（规格、包装等）。\n2. 最小起订量、交付方式及价格。\n\n如果佳农不提供加工服务，可考虑以下替代方案：\n- 向其他专做**冷冻水果丁、罐头菠萝丁**的食品加工企业采购（如山东、浙江等地果品加工厂）。\n- 购买佳农的整果自行分切，或委托第三方代加工。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 174,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bd07ce8d-93d7-4c6c-a837-941381ca4d50",
+  "object": "chat.completion",
+  "created": 1783639004,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否针对便利店提供小包装（单根包装）香蕉，建议您直接联系佳农的销售代理或区域经销商确认具体产品规格。根据常规市场情况，佳农通常会有适合便利店售卖的预包装产品，但单根包装可能属于特定定制或试点产品，不同区域可能有差异。\n\n**可执行建议：**\n1. **查询官方渠道**：访问佳农官网或官方微信小程序，查看产品目录或联系在线客服。\n2. **联系区域经销商**：拨打佳农官方客服电话（建议通过官网获取），询问您所在区域的便利店供货政策及小包装选项。\n3. **本地批发市场**：直接向您所在城市的佳农水果批发代理商咨询，他们通常了解当地小规格产品供应情况。\n4. **提出定制需求**：如果暂无现成产品，可以尝试与销售代表沟通，看是否能为便利店渠道提供小包装试销批次。\n\n由于我无法实时获取每家公司的产品库存或定制信息，以上建议可帮助您快速获得准确答复。祝您采购顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 224,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

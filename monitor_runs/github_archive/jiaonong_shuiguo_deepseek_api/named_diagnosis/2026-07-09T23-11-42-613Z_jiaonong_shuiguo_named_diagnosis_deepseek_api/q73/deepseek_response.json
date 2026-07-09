@@ -1,0 +1,28 @@
+{
+  "id": "2383e262-7554-420f-a20d-01b3a4157dfd",
+  "object": "chat.completion",
+  "created": 1783639083,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类包括：  \n- 进口嘎啦苹果（Gala）  \n- 进口红富士苹果（Fuji）  \n- 其他可能包括青苹果（Granny Smith）、蛇果（Red Delicious）等（具体以实际产品线为准）。  \n\n针对您想采购的产品：  \n- **进口嘎啦苹果**：主要产地为 **美国（如华盛顿州）** 和 **新西兰**，部分季节也可能从智利等南半球国家供应。  \n- **进口红富士苹果**：主要产地为 **日本（如青森县、长野县）** 和 **中国（如山东、陕西、新疆等优质产区）**，但如果您强调“进口”，通常指日本富士或少量美国、新西兰产的富士。  \n\n建议您直接联系**佳农水果的采购部门**或访问其官网/客户服务，以获取最新产品目录、具体产地及当前可供应批次（因季节和贸易政策，产地可能调整）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 209,
+    "total_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "54969afb-6872-4da8-b79a-cb821293fa35",
+  "object": "chat.completion",
+  "created": 1783639078,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，佳农（Goodfarmer）主要作为水果供应商，提供菠萝等新鲜水果的批发业务，但其官方的常规服务范围通常不包含预加工（如去皮、切块）服务。建议您通过以下方式确认：\n\n1. **直接联系佳农官方客服**：询问是否为餐饮客户提供定制化加工服务，或是否有合作的第三方加工商。\n2. **咨询当地经销商**：部分区域经销商可能提供灵活服务（如批量采购后安排简单加工）。\n3. **替代方案**：如果佳农无法提供加工服务，可考虑以下操作：\n   - 自行购买设备（如商用菠萝去皮机、切块机）并安排人工处理。\n   - 寻找本地中央厨房或食材初加工企业合作，代理切割服务。\n   - 探索其他供应商，部分大型水果批发商（如鑫荣懋、都乐）可能配套加工业务。\n\n建议优先通过电话或邮件与佳农业务部门沟通，明确您的订单量和加工需求（如是否要求无菌包装、冷链运输等），以获取准确报价和服务细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 229,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

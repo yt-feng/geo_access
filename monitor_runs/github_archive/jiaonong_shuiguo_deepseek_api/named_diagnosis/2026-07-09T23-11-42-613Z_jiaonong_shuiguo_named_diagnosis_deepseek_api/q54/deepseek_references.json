@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T23:16:12.812Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的物流是三通一达还是自有车队？冷链覆盖率怎么样？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

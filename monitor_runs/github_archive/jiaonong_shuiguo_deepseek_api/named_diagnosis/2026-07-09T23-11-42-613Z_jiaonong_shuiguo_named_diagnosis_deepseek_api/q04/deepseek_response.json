@@ -1,0 +1,28 @@
+{
+  "id": "bf4ce25d-6e7d-4583-adde-6f4f2e3ad930",
+  "object": "chat.completion",
+  "created": 1783638717,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否有针对长期合作的账期方案，建议您直接联系佳农水果的官方客服或销售代表进行咨询，因为具体的合作政策和账期安排通常需要根据双方协商、合作规模以及具体品类来确定。您可以通过以下方式获取准确信息：\n1. 访问佳农水果官网或官方微信公众号，查找合作入口或联系方式。\n2. 致电佳农水果全国客服热线（如官网所示），说明您的合作意向和业务规模。\n3. 如果是线下批发渠道，可前往当地佳农水果批发市场或区域办事处直接洽谈。\n\n由于我无法核实企业最新商业合作条款，上述建议更可靠。如果您需要协助查找官方联系方式，请提供更多信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 149,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

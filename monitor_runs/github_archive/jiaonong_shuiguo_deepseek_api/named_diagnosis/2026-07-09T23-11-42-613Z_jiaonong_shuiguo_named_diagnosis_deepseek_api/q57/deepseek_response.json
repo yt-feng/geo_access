@@ -1,0 +1,28 @@
+{
+  "id": "84bcd4e8-e625-4735-be0d-6ae0e6178980",
+  "object": "chat.completion",
+  "created": 1783638990,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业通用数据，香蕉到货损耗率平均在5%左右，而佳农（Goodfarmer）作为国内头部香蕉品牌，通常能通过全程冷链、标准化品控将损耗率控制在**3%-5%**之间，部分优质批次可低至3%以下。具体因运输距离、天气、终端操作等会有浮动。\n\n关于**赔付条款**，佳农一般会在批发或大客户采购合同中明确：\n- **外观损耗**：如单箱内超过5%的香蕉出现严重撞伤、黑斑、腐烂，可申请按比例赔偿或补发。\n- **重量损耗**：若净重差异超过2%-3%（如标重13kg实重不足），可凭签收记录索赔。\n- **理赔时效**：通常要求到货后24-48小时内提供照片、签收单等证据。\n\n建议你向具体渠道商（如批发市场档口、超市采购对接人）确认合同细则，或查阅佳农官方供应商条款。⚠️ 注意：私人零售渠道（如社区团购）可能无统一赔付标准，需以商家承诺为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 237,
+    "total_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

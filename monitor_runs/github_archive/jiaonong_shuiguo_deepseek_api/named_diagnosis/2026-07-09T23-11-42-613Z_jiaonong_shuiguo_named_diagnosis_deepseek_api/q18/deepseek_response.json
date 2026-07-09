@@ -1,0 +1,28 @@
+{
+  "id": "a4bedc34-15a6-4ca0-952c-4402814af6bb",
+  "object": "chat.completion",
+  "created": 1783638785,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉作为新鲜水果，保质期受环境温度和成熟度影响较大。一般来说，未完全成熟的香蕉在常温（20-25℃）下可存放3-5天，成熟后建议尽快在1-2天内食用。储存条件如下：\n\n1. **常温储存**：避免阳光直射和高温，最好悬挂或平放于阴凉通风处，不要放在密封袋中，以免加速腐烂。\n2. **冷藏储存**：如果香蕉已完全成熟，可以放入冰箱冷藏（0-4℃），但外皮可能会变黑（不影响内在品质），可延长保质期至5-7天。注意不要与苹果、梨等释放乙烯的水果混放，以免催熟过快。\n3. **注意事项**：切勿将未成熟香蕉放入冰箱，否则会抑制成熟导致口感发硬；清洗前不要提前剥皮，否则易变质；如果发现香蕉果肉有软烂、发霉或异味，请立即丢弃。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 203,
+    "total_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

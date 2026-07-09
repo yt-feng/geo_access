@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T23:13:05.827Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农香蕉的保质期和储存条件是什么？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q50",
+  "prompt": "佳农水果和鑫荣懋比，哪个在华东地区的商超渠道更强势？我们想换供应商。",
+  "createdAt": "2026-07-09T23:15:50.858Z",
+  "summary": [
+    {
+      "questionId": "q50",
+      "prompt_index": 50,
+      "promptIndex": 50,
+      "promptHash": "3d1fbace774e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和鑫荣懋比，哪个在华东地区的商超渠道更强势？我们想换供应商。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 516,
+      "text_length": 516,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 321,
+        "total_tokens": 386,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 321,
+      "total_tokens": 386,
+      "latencyMs": 4632,
+      "latency_ms": 4632,
+      "createdAt": "2026-07-09T23:15:50.858Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q50/prompt.txt",
+        "answer": "q50/deepseek.txt",
+        "response": "q50/deepseek_response.json",
+        "sources": "q50/deepseek_sources.json",
+        "references": "q50/deepseek_references.json"
+      }
+    }
+  ]
+}

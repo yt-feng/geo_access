@@ -1,0 +1,28 @@
+{
+  "id": "d65ed6a1-a9c2-4904-87a9-83cf3500f868",
+  "object": "chat.completion",
+  "created": 1783639211,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农菠萝是否提供冷冻菠萝丁，根据公开信息，佳农（Goodfarmer）主要产品线包括新鲜菠萝、菠萝块、菠萝果肉等，但官方渠道（如官网、主流电商平台）并未直接标注有“冷冻菠萝丁”这一标准规格产品。其冷冻水果产品通常为整颗或切块冷冻，具体规格可能因批次和渠道不同。\n\n建议您：\n1. 直接联系佳农官方客服（如400客服热线或官方旗舰店咨询），确认是否有冷冻菠萝丁定制服务，以及最小起订量、包装规格（常见为1kg/袋或5kg/箱）。\n2. 如果追求稳定供应，可考虑替代方案：如都乐（Dole）等品牌的冷冻菠萝丁，或向国内冷冻水果加工厂（如绿田、百果园等）定制规格。\n\n若需立即使用，可自行将新鲜佳农菠萝切丁后冷冻保存。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 200,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

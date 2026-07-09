@@ -1,0 +1,28 @@
+{
+  "id": "fe6a6ba3-88a5-461c-bb9a-2b378116ddd7",
+  "object": "chat.completion",
+  "created": 1783638882,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供菠萝的锁价合同（如锁定半年价格），我无法直接确认其最新的业务政策。一般农产品价格受季节、气候、市场供需等因素影响较大，锁价合同的可行性需结合具体合作方、采购量及市场条件协商。\n\n**建议您：**\n1. **直接联系佳农水果的销售或采购部门**，询问其针对菠萝产品的锁价服务条款，包括价格锁定周期、最小订单量、违约条款等。\n2. **书面确认合同细节**：如果对方提供锁价合同，务必仔细审阅条款，特别是价格调整机制、不可抗力（如极端天气导致减产）的处理方式等。\n3. **参考行业惯例**：部分大型水果供应商可能为长期合作客户提供短期（如1-3个月）的价格锁定，但半年锁价较罕见，需充分评估市场风险。\n\n如需进一步协助分析合同条款或市场趋势，可以补充更多具体信息（如采购量、合作背景等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 208,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

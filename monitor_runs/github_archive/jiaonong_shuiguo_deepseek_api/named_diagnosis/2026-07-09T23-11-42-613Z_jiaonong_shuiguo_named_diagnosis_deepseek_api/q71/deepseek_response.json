@@ -1,0 +1,28 @@
+{
+  "id": "0a873066-91d9-4aae-bde9-260e90657142",
+  "object": "chat.completion",
+  "created": 1783639071,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法实时获取市场价格数据，因此不能直接提供佳农与都乐香蕉的具体价差或当前批发价。不过，根据过往市场情况，这通常取决于以下因素：\n\n1. **采购量**：作为批发商走量，双方均会给予阶梯价格，建议直接联系当地一级批发商或品牌销售代表，获取实时报价。\n2. **规格差异**：一箱香蕉的规格（如净重、品级、包装）可能影响单价，需确认对比的是同规格（如：22斤/箱或18斤/箱）。\n3. **地区与渠道**：不同城市、港口或批发市场的价格不同，例如沿海港口城市可能更便宜。\n\n**建议您**：\n- 向佳农和都乐的本地经销商或销售团队索取报价，明确是走量价（如月采购量50箱、100箱等）。\n- 对比两者“每斤”价格，而非仅看箱价，因为箱重可能不同。\n- 关注近期香蕉市场行情（如产地天气、供需），价格会有波动。\n\n若您有具体规格或区域信息，我可以协助分析一般价格范围（但无法替代询价）。请注意：不要轻信非官方来源的“每箱便宜XX元”数据，以免影响决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 273,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

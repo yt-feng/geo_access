@@ -1,0 +1,28 @@
+{
+  "id": "2ab8d4be-09ca-487a-b55c-925c005c6665",
+  "object": "chat.completion",
+  "created": 1783638725,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农（Goodfarmer）作为国内较大的水果供应链企业，通常能向茶饮店等商家供应标准化的菠萝原料。针对普通商家，他们一般会提供明确规格的鲜切菠萝、菠萝果泥或速冻菠萝块等产品。\n\n具体到规格，比如：\n- **鲜切菠萝**：常见规格为袋装或桶装，如1kg/袋、2kg/桶，果肉已去皮去芯，切块大小均匀（如1.5cm x 1.5cm）。\n- **菠萝果泥**：通常以桶装或袋装供应，如2.5kg/桶、10kg/桶，原浆含量较高，适合调制饮品。\n- **速冻菠萝块**：常见为500g/袋、1kg/袋，方便长期保存。\n\n建议你直接联系佳农当地销售代表或访问其官方B2B平台（如“佳农鲜果”公众号或APP），确认当地仓库是否支持小批量分装（如1-5公斤起订），以及商用标准包装（如真空袋、无菌桶）的配送周期。如果对接商超渠道的佳农产品通常会有更详细的产品规格表和检验报告（如糖度、酸度范围），普通商家完全可以通过官方渠道明确了解。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 273,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

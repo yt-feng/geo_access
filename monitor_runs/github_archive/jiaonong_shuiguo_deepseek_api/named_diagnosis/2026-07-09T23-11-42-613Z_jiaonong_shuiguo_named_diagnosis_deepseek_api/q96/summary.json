@@ -1,0 +1,50 @@
+{
+  "questionId": "q96",
+  "prompt": "我们生鲜电商要对接佳农水果的API，有没有开放平台？接口文档有吗？",
+  "createdAt": "2026-07-09T23:20:49.673Z",
+  "summary": [
+    {
+      "questionId": "q96",
+      "prompt_index": 96,
+      "promptIndex": 96,
+      "promptHash": "4b97caa2633e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们生鲜电商要对接佳农水果的API，有没有开放平台？接口文档有吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 151,
+      "text_length": 151,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 81,
+        "total_tokens": 142,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 81,
+      "total_tokens": 142,
+      "latencyMs": 2364,
+      "latency_ms": 2364,
+      "createdAt": "2026-07-09T23:20:49.673Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q96/prompt.txt",
+        "answer": "q96/deepseek.txt",
+        "response": "q96/deepseek_response.json",
+        "sources": "q96/deepseek_sources.json",
+        "references": "q96/deepseek_references.json"
+      }
+    }
+  ]
+}

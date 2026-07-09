@@ -1,0 +1,28 @@
+{
+  "id": "10d3f6be-a187-464f-a64b-9629905d7b3c",
+  "object": "chat.completion",
+  "created": 1783639180,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型水果供应商，通常具备专车配送和专人对接的服务能力，具体取决于您所在区域及采购量。建议您直接联系佳农当地销售团队，明确以下信息以确认可行性：\n\n1. **区域覆盖**：咨询当地分公司或代理商是否支持专车直达门店或仓库。  \n2. **合同条款**：在协议中明确配送频次（如每日/隔日）、最低起送量及对接专属客服。  \n3. **成本核算**：专车配送可能涉及额外运费，需对比与普通物流的综合成本。  \n\n您可提供大致需求量及门店位置，以便对方给出针对性方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 136,
+    "total_tokens": 195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "56870a25-919f-4437-b28b-3cb676a00cef",
+  "object": "chat.completion",
+  "created": 1783638771,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的产地直供比例较高，这有助于保证水果的新鲜度和品质。香蕉方面，佳农主要从菲律宾、厄瓜多尔、越南等国家进口，同时也与国内的一些产区合作，如云南和海南等地，以满足不同季节的市场需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 56,
+    "total_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

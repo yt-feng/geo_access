@@ -1,0 +1,28 @@
+{
+  "id": "22af2be8-a57f-41f2-8258-17c62e4531cb",
+  "object": "chat.completion",
+  "created": 1783639249,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前佳农水果并没有公开的开放平台或通用API文档。要对接API，建议直接联系佳农水果的商务或技术团队，沟通合作模式和数据对接细节，通常需要签订合作协议后才会提供接口文档。如果是小规模尝试，也可以先查看佳农水果官网或App是否有现有的商家入驻/系统对接入口。如果需要技术实现建议，可以进一步提供需求细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 81,
+    "total_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

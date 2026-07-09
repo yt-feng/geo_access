@@ -1,0 +1,28 @@
+{
+  "id": "17ab9556-2f60-4461-977d-b39c2486c6d6",
+  "object": "chat.completion",
+  "created": 1783639113,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的香蕉产地溯源和GLOBALG.A.P.证书问题，我可以提供以下信息：\n\n**1. 产地溯源到具体农场的可能性：**\n- 佳农作为大型水果供应商，通常具备较完善的供应链追溯体系，理论上可以实现从农场到货架的追溯。但能否精确到具体农场（如某个种植园或合作社）取决于其内部管理系统的细化程度。  \n- 建议您直接联系佳农的销售或品控团队，提供采购批次号或合同信息，询问他们是否支持“农场级”溯源（如提供农场名称、地址或地块编号）。\n\n**2. GLOBALG.A.P.证书的获取：**\n- 佳农的香蕉若出口到商超渠道，通常应持有相关证书。GLOBALG.A.P.是全球良好农业规范认证，覆盖食品安全、环保和劳工标准等，您可要求佳农提供以下材料：  \n  - **证书复印件**（需在有效期内，且涵盖具体产品类别如“香蕉”）。  \n  - **认证机构名称**（如SGS、Eurofins等，便于您核验）。  \n  - **证书编号**（可通过GLOBALG.A.P.官网查询真伪）。  \n- 若佳农无法直接提供，可要求其授权供应商或产区出具产地证明和认证文件。\n\n**建议行动：**  \n- 联系佳农客户服务或区域销售代表，明确要求提供“完整溯源报告（含农场级信息）”及“GLOBALG.A.P.证书副本”。  \n- 若对方提供证书，注意检查认证范围是否包括“香蕉种植/生产”，以及证书名称是否与贵司采购的批次一致。  \n- 必要时，您可要求联合第三方审核机构（如SGS、Intertek）进行现场或文件验证。\n\n希望这些信息能帮助您顺利推进合作！如有进一步问题，欢迎随时追问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 401,
+    "total_tokens": 467,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

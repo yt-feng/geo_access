@@ -1,0 +1,28 @@
+{
+  "id": "129c0c5d-a951-43f9-a9f8-994e7c8207ad",
+  "object": "chat.completion",
+  "created": 1783638973,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果主要采用**自有冷链物流体系**，并非依赖三通一达（中通、圆通、申通、韵达）等普通快递公司。佳农作为专注于高端水果的品牌，其物流配送核心是自建的冷链车队，以确保水果新鲜度。\n\n关于冷链覆盖率：佳农的冷链物流网络覆盖**全国主要城市**，尤其在生鲜产品的高需求区域（如一线及新一线城市）覆盖率较高。具体而言，其自有的冷链车队能够实现全程温控，并通过与第三方冷链资源（如专业冷链物流公司）合作，延伸至二三线城市。但偏远地区或非核心市场的冷链覆盖可能仍存在缺口，部分订单会通过合作物流完成，但会严格监控温控条件。\n\n如需最新或具体区域覆盖率数据，建议直接联系佳农官方客服或查阅其公开的物流服务说明。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 181,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-09T23:20:28.388Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的香蕉和都乐比，口感上有什么区别？我们消费者反馈佳农的更甜。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
