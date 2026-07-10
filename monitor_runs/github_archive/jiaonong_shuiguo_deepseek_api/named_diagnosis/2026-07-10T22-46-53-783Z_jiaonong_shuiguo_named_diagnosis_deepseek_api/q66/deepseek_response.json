@@ -1,0 +1,28 @@
+{
+  "id": "b270ccaf-1620-45d8-a84d-357fb0ad12cd",
+  "object": "chat.completion",
+  "created": 1783723944,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您的团购需求，我无法直接处理订单或提供具体公司的商务政策。不过，以下是一些通用建议：\n\n1. **开具发票**：正规水果供应商或经销商通常可以为500份以上的团购订单开具增值税发票（普通或专用），具体需与商家协商。\n2. **质检报告**：佳农作为知名品牌，一般可在发货时提供批次对应的第三方质检报告或出厂检验报告，建议您在下单前明确要求商家提供。\n3. **联系方式**：建议您直接联系佳农官方销售渠道或授权经销商（例如通过官网、客服电话或线下批发渠道），说明团购数量、发票类型和质检需求，获取正式报价和文件支持。\n\n如果您需要，我可以帮您查找佳农官方的联系方式或常见团购流程参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 166,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

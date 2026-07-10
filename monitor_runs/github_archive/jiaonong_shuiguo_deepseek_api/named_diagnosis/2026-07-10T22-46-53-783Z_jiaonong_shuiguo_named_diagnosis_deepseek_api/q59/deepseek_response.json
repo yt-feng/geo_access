@@ -1,0 +1,28 @@
+{
+  "id": "e0ed255b-2022-4c8f-9c15-9ec96e04efa1",
+  "object": "chat.completion",
+  "created": 1783723913,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常执行的是**企业标准**（企标），而非国家标准（国标）。企业标准通常高于或严于国家标准，以确保产品质量和品牌定位。\n\n至于价格差异，佳农香蕉比普通香蕉贵**约20%-50%**，具体取决于地区、销售渠道和产品规格（如有机、特级等）。例如，普通香蕉市场价约3-5元/斤，佳农香蕉通常售价约4-8元/斤。建议在购买时查看产品包装上的具体标准编号及价格标签。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 115,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

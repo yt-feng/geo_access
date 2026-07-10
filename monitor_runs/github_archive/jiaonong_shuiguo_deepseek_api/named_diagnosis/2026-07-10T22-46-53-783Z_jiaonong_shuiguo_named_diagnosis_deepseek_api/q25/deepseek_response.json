@@ -1,0 +1,28 @@
+{
+  "id": "5957e0b2-b8ec-4cb1-8249-47f0b04e3c26",
+  "object": "chat.completion",
+  "created": 1783723737,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络模式以**自营为主、外包为辅**。其核心冷链能力主要体现在以下方面：\n\n1. **自营物流体系**：佳农在主要城市（如上海、北京、广州、深圳等）自建了仓储和配送中心，配备温控仓库和冷藏车队，覆盖从产地到销地的干线运输与“最后一公里”配送。  \n2. **冷链技术**：采用全程温控（如0-4℃预冷、-18℃冷冻、气调保鲜等），针对不同水果（如榴莲、蓝莓、猕猴桃）定制储运方案，可维持水果在运输中的新鲜度。  \n3. **外包补充**：在非核心区域或高峰时段（如春节、电商大促），会与顺丰冷链、鲜易等专业物流公司合作，补充运力或覆盖偏远地区。\n\n结论：佳农的冷链物流属于**行业较高水平**，自营体系保障了核心环节的质量控制，外包则提升了灵活性与覆盖范围。具体到冷链能力，其优势在进口水果（如智利车厘子、泰国产香椰）的长途保鲜，但配送时效可能受外包合作方影响。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 254,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

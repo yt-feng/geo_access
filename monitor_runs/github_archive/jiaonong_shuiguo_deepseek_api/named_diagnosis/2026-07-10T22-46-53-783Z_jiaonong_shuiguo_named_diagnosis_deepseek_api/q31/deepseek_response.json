@@ -1,0 +1,28 @@
+{
+  "id": "c56a6af9-17b7-4c9f-987e-aeb3c4b9ba8f",
+  "object": "chat.completion",
+  "created": 1783723771,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购场景推出的水果礼盒产品。这类礼盒通常包含精选的高品质水果，如进口香蕉、蓝莓、车厘子等，包装设计注重礼赠属性，适合企业定制、节日赠礼或商务往来。具体产品系列、起订量及价格，建议您直接联系佳农官方或当地授权经销商，以便获取最新的团购目录和定制服务信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 88,
+    "total_tokens": 140,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

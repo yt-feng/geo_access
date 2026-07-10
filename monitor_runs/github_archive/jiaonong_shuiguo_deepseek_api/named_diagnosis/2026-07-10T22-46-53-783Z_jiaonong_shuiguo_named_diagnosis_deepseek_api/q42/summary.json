@@ -1,0 +1,50 @@
+{
+  "questionId": "q42",
+  "prompt": "佳农水果和都乐比，香蕉的到货损耗率哪个更低？我们批发市场对损耗很敏感。",
+  "createdAt": "2026-07-10T22:50:20.325Z",
+  "summary": [
+    {
+      "questionId": "q42",
+      "prompt_index": 42,
+      "promptIndex": 42,
+      "promptHash": "e262857beb9d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和都乐比，香蕉的到货损耗率哪个更低？我们批发市场对损耗很敏感。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 474,
+      "text_length": 474,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 296,
+        "total_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 296,
+      "total_tokens": 361,
+      "latencyMs": 5079,
+      "latency_ms": 5079,
+      "createdAt": "2026-07-10T22:50:20.325Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q42/prompt.txt",
+        "answer": "q42/deepseek.txt",
+        "response": "q42/deepseek_response.json",
+        "sources": "q42/deepseek_sources.json",
+        "references": "q42/deepseek_references.json"
+      }
+    }
+  ]
+}

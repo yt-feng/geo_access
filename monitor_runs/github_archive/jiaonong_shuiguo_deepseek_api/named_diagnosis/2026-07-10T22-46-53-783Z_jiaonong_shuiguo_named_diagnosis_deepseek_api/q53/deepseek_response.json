@@ -1,0 +1,28 @@
+{
+  "id": "00762af8-4e18-4a30-8d07-d6c1d1c72fc0",
+  "object": "chat.completion",
+  "created": 1783723883,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "感谢您的咨询。作为AI助手，我无法直接提供具体企业或个人的联系方式。建议您通过以下方式高效对接：\n\n1. **官方渠道直接联系**：通过佳农（Goodfarmer）官方客服电话/企业官网提交采购需求，说明“连锁门店批量采购需求及需要专岗对接”，通常大型品牌会配备大客户经理。\n\n2. **签订框架协议**：若采购量稳定，建议与佳农签订年度框架协议，明确要求指定客服专员或区域销售经理作为第一联系人。\n\n3. **供应商考核机制**：在合同中加入响应时效条款（如：工作日4小时内回复询价、24小时处理投诉），并设置阶梯式佣金激励，提高服务优先级。\n\n需要了解更多采购谈判技巧或合同条款设计，可继续提问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 164,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

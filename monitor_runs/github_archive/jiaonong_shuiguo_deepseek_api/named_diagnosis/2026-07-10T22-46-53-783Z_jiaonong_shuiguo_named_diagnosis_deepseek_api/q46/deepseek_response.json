@@ -1,0 +1,28 @@
+{
+  "id": "eec34088-d4cd-4701-9971-9673162e2a6c",
+  "object": "chat.completion",
+  "created": 1783723847,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉催熟服务通常由公司内部完成，而非外包。佳农作为国内大型水果供应链企业，拥有自己的催熟库和冷链配送体系，可以控制催熟过程以达到标准品质。针对便利店“到店即熟”的需求，佳农在配送前会根据你的订单（如预计上架时间）进行催熟处理，确保香蕉到店时已处于可食用状态。建议直接联系佳农客服或在采购合同时明确要求“到店即熟”，他们会安排相应催熟时间表。如果你需要小批量或快速补货，也适合采用此服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 126,
+    "total_tokens": 187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

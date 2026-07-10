@@ -1,0 +1,28 @@
+{
+  "id": "548e1536-37c9-45a4-8beb-da95a1dc7ffe",
+  "object": "chat.completion",
+  "created": 1783723907,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（佳农食品控股集团）是否提供菠萝丁的加工服务，根据公开信息，佳农主要以**整果批发**为主，尤其是鲜果业务，例如菠萝、香蕉等。他们通常不直接为下游茶饮店提供定制化的切丁、冷冻加工服务，更多是供应新鲜整果。\n\n**建议您：**\n1. **联系佳农确认**：直接致电当地佳农销售或客服，询问是否提供定制化的菠萝切丁或冷冻加工服务。部分大客户合作可能支持。\n2. **选择专业加工商**：若佳农不提供，可寻找专业的果蔬切丁加工厂或冷冻水果批发商，他们能根据茶饮标准（如丁大小、糖度、冻鲜状态）供货。\n3. **替代方案**：考虑使用**冷冻菠萝丁**（如来自泰国、菲律宾产地加工）或是**鲜切菠萝**供应商，这类产品在茶饮市场更常见，且规格稳定。\n\n如需进一步核实，建议您提供具体城市信息，我可以帮您检索更精准的本地供应商渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 230,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

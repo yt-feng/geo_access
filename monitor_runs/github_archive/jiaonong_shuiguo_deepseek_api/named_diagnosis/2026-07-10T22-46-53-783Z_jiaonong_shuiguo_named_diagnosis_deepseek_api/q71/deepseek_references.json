@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:52:54.223Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的香蕉和都乐比，价格上有没有优势？我们批发商走量，一箱能便宜几块？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

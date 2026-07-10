@@ -1,0 +1,28 @@
+{
+  "id": "0627e5ce-c742-4991-b000-aa70bfd9eead",
+  "object": "chat.completion",
+  "created": 1783723892,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于香蕉价格波动及佳农水果的价格保护机制问题，作为AI助手，我无法直接核实佳农公司具体的商业政策或内部操作细节。不过，根据行业一般情况，大宗水果交易中确实存在价格保护或锁价机制，但这通常由双方合同约定（如大型商超或长期采购商），且锁价周期、条件（如数量、品质、市场异常波动处理）可能因客户而异。普通消费者或小规模采购方较少直接享有3个月的锁价服务。\n\n建议您通过以下渠道获取准确信息：\n1. **联系佳农官方客服**：拨打其官网或包装上公布的客服电话，直接询问针对特定采购场景（如批发、零售或合作）的价格保护政策。\n2. **查阅合同条款**：如果您是潜在采购方，可以要求销售人员在合同明确写明锁价期限、触发条件（如市场价下跌是否补偿）及违约责任。\n3. **参考行业惯例**：大型水果供应商（如佳农）可能对长期合作协议（如月采购量超20吨）提供浮动保护，但需具体协商。\n\n若您需要进一步分析价格波动对采购的影响，请提供更详细的业务场景（如采购量、目标区域），我可以提供一般性的风险管理建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 261,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

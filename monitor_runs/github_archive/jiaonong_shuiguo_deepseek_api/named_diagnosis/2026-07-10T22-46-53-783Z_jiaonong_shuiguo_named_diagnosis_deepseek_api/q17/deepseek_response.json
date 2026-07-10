@@ -1,0 +1,28 @@
+{
+  "id": "ce5c31bf-d659-4386-ab17-715d6cda2e73",
+  "object": "chat.completion",
+  "created": 1783723693,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内知名的水果供应商，通常会根据不同的市场区域和渠道推出针对性的政策。关于下沉市场（如三四线城市及农村地区），其优惠政策可能包括但不限于：\n1. **价格补贴**：针对下沉市场的经销商或零售商提供更低的进货价格，或推出批发直降活动。\n2. **区域代理扶持**：对在下沉市场开拓新门店的合作伙伴给予品牌授权费减免、物流补贴或前三个月供货折扣。\n3. **联合促销支持**：联动下沉市场超市、便利店，提供“买赠”或“满减”活动（如买榴莲送荔枝），降低终端消费门槛。\n4. **小规格产品**：针对下沉市场消费习惯，推出更小份量、更低单价的水果包装（如2-3斤袋装），减少决策压力。\n5. **物流优化**：在县域物流站点提供免费中转或降低配送门槛，例如满500元包邮或运费补贴。\n\n建议您直接联系佳农水果的区域代理商或通过其官方公众号、订货平台查询最新政策，具体优惠会因地区时效性而调整。若您想了解某个特定省份的政策，可以补充信息，我帮您推断可能的方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 252,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

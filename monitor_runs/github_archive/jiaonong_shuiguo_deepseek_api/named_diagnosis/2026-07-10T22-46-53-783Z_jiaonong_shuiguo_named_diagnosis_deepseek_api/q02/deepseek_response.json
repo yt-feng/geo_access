@@ -1,0 +1,28 @@
+{
+  "id": "4b2431ae-4b75-46c4-827e-33df53c2de3d",
+  "object": "chat.completion",
+  "created": 1783723620,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农菠萝的产地溯源和品控报告，通常佳农作为知名水果品牌，会对产品进行质量管控。为避免提供不准确的信息，我建议您直接联系佳农官方客服或访问其官网、授权销售渠道进行咨询。他们能提供最权威的产地信息和相关品控文件。如果您需要进一步协助，请告知具体需求，我会尽力帮您查找公开信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 85,
+    "total_tokens": 143,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

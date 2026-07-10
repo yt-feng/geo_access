@@ -1,0 +1,28 @@
+{
+  "id": "468e4e19-e2fc-441f-baa7-b3073df37476",
+  "object": "chat.completion",
+  "created": 1783723796,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉价格通常比市场均价略高，主要是因为其品牌定位、品质控制和冷链物流成本较高。建议您在实际购买时对比当地超市或线上平台的具体售价，因为市场均价会因地区、季节和渠道不同而有所波动。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 54,
+    "total_tokens": 107,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

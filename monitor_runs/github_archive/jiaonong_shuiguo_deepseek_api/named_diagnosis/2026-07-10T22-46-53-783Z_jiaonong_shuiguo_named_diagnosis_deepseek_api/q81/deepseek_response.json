@@ -1,0 +1,28 @@
+{
+  "id": "39d21248-5bc4-45d5-bfcb-c4694bf68bd5",
+  "object": "chat.completion",
+  "created": 1783724051,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的小包装规格，建议您直接联系佳农的官方销售或当地经销商咨询具体产品线。一般来说，佳农确实有提供小包装选项，例如：\n\n- **香蕉**：常见有3kg装（约8-12根），适合小门店快速周转。\n- **其他水果**：如苹果、橙子等，可能有2-2.5kg的礼盒或袋装规格。\n\n您可以通过佳农官网、客服热线或向所在区域的批发商询问最新包装清单。同时，考虑到门店空间小，还可考虑：\n1. **混合小包装**：如将几种水果组合成2-3kg的“混搭装”，既能满足需求又减少库存压力。\n2. **按箱拆分**：咨询是否支持整箱拆零配送，比如5kg箱可分装为2份2.5kg+1份0.5kg零售。\n\n建议优先联系客服确认库存和起订量，以避免因规格不符造成浪费。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 209,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

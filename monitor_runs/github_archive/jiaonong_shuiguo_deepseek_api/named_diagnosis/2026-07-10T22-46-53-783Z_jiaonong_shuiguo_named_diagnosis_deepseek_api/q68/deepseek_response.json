@@ -1,0 +1,28 @@
+{
+  "id": "d228e0ad-1736-4c33-ad49-ed1a0e64a247",
+  "object": "chat.completion",
+  "created": 1783723953,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个问题我需要先说明：我无法实时查询佳农水果当前的具体API文档或确认其ERP系统是否对外提供标准化API接口。但可以为您提供最直接的操作建议：\n\n**最佳行动路径**（按优先级）：\n\n1. **立即联系佳农水果的“大客户部”或“渠道合作负责人”**  \n   生鲜电商对接供应商通常是业务驱动的，建议直接联系您的佳农采购经理或业务对接人，由其内部协调IT部门是否开放API。大多数大型供应商（如佳农）对核心电商客户会开放定制化接口。\n\n2. **检查佳农官网/企业服务页面**  \n   访问佳农集团官网（如www.goodfarmer.com），查找“合作伙伴”“供应商门户”或“技术支持”栏目，看是否有公开的API文档或对接指引。\n\n3. **确认ERP系统品牌**  \n   佳农可能使用SAP、用友、金蝶等主流ERP。如果了解其ERP品牌，可直接参考该ERP厂商的开放平台文档（例如：SAP BAPI、用友YonSuite开放API），但通常仍需佳农配置权限才能使用。\n\n4. **备选方案：EDI或文件对接**  \n   如果佳农暂时没有实时API，可协商采用：\n   - SFTP/EDI标准文件（如EDIFACT、CSV订单/库存文件）\n   - 手动导出+导入的临时方案\n   - 通过第三方集成平台（如菜鸟、京东物流云）间接对接\n\n**需要您确认的信息**（方便进一步建议）：\n- 您目前是已经有佳农的客户账户，还是正在寻找合作入口？\n- 对接的核心需求是：订单下发、库存同步、对账单，还是三者都有？\n\n如果您能提供更多业务场景，我可以给出更具体的对接流程框架。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 378,
+    "total_tokens": 436,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

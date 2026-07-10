@@ -1,0 +1,50 @@
+{
+  "questionId": "q99",
+  "prompt": "佳农水果的菠萝有没有有机认证？我们高端渠道需要有机产品。",
+  "createdAt": "2026-07-10T22:56:00.258Z",
+  "summary": [
+    {
+      "questionId": "q99",
+      "prompt_index": 99,
+      "promptIndex": 99,
+      "promptHash": "fabcc1506c68",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的菠萝有没有有机认证？我们高端渠道需要有机产品。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 354,
+      "text_length": 354,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 198,
+        "total_tokens": 254,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 198,
+      "total_tokens": 254,
+      "latencyMs": 3591,
+      "latency_ms": 3591,
+      "createdAt": "2026-07-10T22:56:00.258Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q99/prompt.txt",
+        "answer": "q99/deepseek.txt",
+        "response": "q99/deepseek_response.json",
+        "sources": "q99/deepseek_sources.json",
+        "references": "q99/deepseek_references.json"
+      }
+    }
+  ]
+}

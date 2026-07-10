@@ -1,0 +1,28 @@
+{
+  "id": "3ab1debd-cd84-4367-9c48-25e90bfd5d0d",
+  "object": "chat.completion",
+  "created": 1783723858,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供佳农水果具体的商业优惠政策信息。建议您直接联系佳农水果的官方销售团队或客户服务部门，他们能根据您的采购需求（如年采购量1000吨以上）提供准确的合作方案、折扣细节或长期合作条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 57,
+    "total_tokens": 117,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

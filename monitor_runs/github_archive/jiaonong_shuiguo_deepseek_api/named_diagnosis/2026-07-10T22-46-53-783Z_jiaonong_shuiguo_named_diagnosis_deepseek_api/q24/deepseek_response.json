@@ -1,0 +1,28 @@
+{
+  "id": "5d7108d0-7828-498b-ad42-01509ab970b9",
+  "object": "chat.completion",
+  "created": 1783723733,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会。在第六届中国国际进口博览会（2023年）上，佳农集团作为参展商亮相，展示了其全球供应链和水果产品。\n\n关于最近的新品，由于我无法获取实时数据，建议您查看佳农官方渠道（如官网、微信公众号或电商平台）的最新信息。通常佳农会推出当季特色水果或创新产品，例如翡翠蜜瓜、香蕉等品类的新品种。如果您需要更具体的上市时间或地区信息，可提供更多细节，我会尽力帮您分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 114,
+    "total_tokens": 166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
