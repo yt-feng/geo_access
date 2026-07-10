@@ -1,0 +1,28 @@
+{
+  "id": "9bd684a8-b9b1-4659-b89c-ab5352aaf7c6",
+  "object": "chat.completion",
+  "created": 1783722712,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口香蕉价格较高，主要因为以下三点，您可以用简洁、易懂的方式向消费者解释：\n\n1. **生产成本更高**  \n   进口香蕉通常来自东南亚或南美，需要符合更严格的国际质量与安全标准（如无农残、无病害）。种植、运输过程中的冷链保鲜成本也更高。\n\n2. **运输与损耗大**  \n   进口香蕉需经海运+陆运，耗时数周。全程需控温、控湿，运输途中难免有部分果实损耗，这些成本会分摊到最终售价中。\n\n3. **品牌与品质差异**  \n   进口香蕉通常通过国际品牌销售，果形、口感、色泽更统一，且耐存放、不易变黑。国产香蕉则多用于就近市场，口感和存放期较短。\n\n**建议话术**（可直接用于商品页或客服）：  \n> “我们这款进口香蕉，从产地直采到您家全程冷链，果甜度高、不易变黑，保质期比普通香蕉长1-2天。虽然贵一些，但每一口都更放心、更省心。”\n\n如果消费者仍有疑虑，可以补充强调“价格差异主要来自物流和标准成本，实际每根贵不足几毛钱”，并用试吃活动或促销装降低首次尝试门槛。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 266,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

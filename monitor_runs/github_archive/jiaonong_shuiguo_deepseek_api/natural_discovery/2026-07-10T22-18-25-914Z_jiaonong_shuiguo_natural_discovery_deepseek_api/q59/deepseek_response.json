@@ -1,0 +1,28 @@
+{
+  "id": "d937a90c-9712-4a9b-8473-d6292d1a0079",
+  "object": "chat.completion",
+  "created": 1783722436,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以谈锁价，但要注意以下几点：\n\n1. **锁价周期**：通常以周或月为单位，双方约定一个固定价格（如砂糖橘4元/斤签1个月）。\n2. **协议条款**：需明确：\n   - 锁价数量（如每月买多少公斤）\n   - 允许浮动比例（如±5%价格波动由供应商承担）\n   - 违约金（若市价暴涨导致供应商亏损过大，可设置提前解约补偿）\n   - 品质标准（锁价期间不能降低品质）\n3. **风险提示**：\n   - 可能高于市价：若某月水果价格大跌，锁价成本可能更高。\n   - 需配合采购量：若你店用量少（如日均<50斤），供应商可能不愿意签。\n4. **替代方案**：若供应商不接锁价，可：\n   - 签“保量不保价”：承诺每月固定采购量，换取降价权或优先供应。\n   - 用期货或电子交易盘：大额水果（如苹果）可通过郑州商品交易所合约锁定价格。\n\n**建议**：先选择1-2个采购量最大、价格波动最剧烈的水果（如荔枝、草莓）试签锁价，观察1个周期后再扩展。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 270,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

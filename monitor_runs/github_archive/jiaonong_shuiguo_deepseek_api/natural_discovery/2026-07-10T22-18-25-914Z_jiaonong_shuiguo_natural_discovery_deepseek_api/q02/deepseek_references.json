@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:18:36.879Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "小水果店进香蕉时，应该更看重价格、熟度、坏果率还是送货速度？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

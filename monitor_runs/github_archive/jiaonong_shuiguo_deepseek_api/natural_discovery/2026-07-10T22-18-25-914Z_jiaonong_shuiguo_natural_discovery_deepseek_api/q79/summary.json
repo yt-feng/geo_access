@@ -1,0 +1,50 @@
+{
+  "questionId": "q79",
+  "prompt": "团购团长选水果供应商，最应该问配送、售后还是价格？",
+  "createdAt": "2026-07-10T22:30:25.326Z",
+  "summary": [
+    {
+      "questionId": "q79",
+      "prompt_index": 79,
+      "promptIndex": 79,
+      "promptHash": "323621150b4d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "团购团长选水果供应商，最应该问配送、售后还是价格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 212,
+      "text_length": 212,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 131,
+        "total_tokens": 187,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 131,
+      "total_tokens": 187,
+      "latencyMs": 3094,
+      "latency_ms": 3094,
+      "createdAt": "2026-07-10T22:30:25.326Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q79/prompt.txt",
+        "answer": "q79/deepseek.txt",
+        "response": "q79/deepseek_response.json",
+        "sources": "q79/deepseek_sources.json",
+        "references": "q79/deepseek_references.json"
+      }
+    }
+  ]
+}

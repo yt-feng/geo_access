@@ -1,0 +1,28 @@
+{
+  "id": "f9d67bf1-fd12-4059-99e0-38873ba6ffc3",
+  "object": "chat.completion",
+  "created": 1783722637,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "支持。即时零售平台的水果用户通常追求新鲜和时效，小批量高频补货能帮助供应商：\n1. 减少库存积压和损耗，尤其适合易腐水果；\n2. 更快响应订单波动，避免缺货；\n3. 降低资金占用压力。\n\n建议根据平台订单数据（如每日销量、用户下单时段）设定合理的补货频次和最小起订量，初期可试点测试频次对成本和新鲜度的影响。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 96,
+    "total_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

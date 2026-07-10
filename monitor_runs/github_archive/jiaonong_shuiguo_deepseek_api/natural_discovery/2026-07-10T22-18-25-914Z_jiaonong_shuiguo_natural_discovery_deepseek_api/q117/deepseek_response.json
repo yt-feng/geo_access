@@ -1,0 +1,28 @@
+{
+  "id": "0086d274-7b41-41d7-9bde-2c6c4c345fc0",
+  "object": "chat.completion",
+  "created": 1783722923,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采用**小批量试卖**策略，初期采购量控制在**常规周销量的10%-20%**，或者**单店首次进货5-10箱**（根据店铺日均客流调整）。\n\n**具体操作建议：**\n\n1. **最低试卖量**：根据品类风险\n   - 高损耗易腐水果（如荔枝、杨梅）：单店1-2箱（约20-50斤）\n   - 常温耐存水果（如苹果、梨）：单店3-5箱（约50-100斤）\n   - 进口高价水果（如车厘子）：单店0.5-1箱，先测价格敏感度\n\n2. **试卖周期**：控制在**3-7天**内，观察每日出货量、损耗率、顾客反馈\n\n3. **数据指标**：\n   - 日周转率 > 60%（当天进货能卖出6成以上，可加量）\n   - 损耗率 < 15%（否则说明选品或定价有问题）\n   - 复购率 > 20%（回头客占比高，新品值得推）\n\n4. **特殊保护**：要求供应商提供**试卖期售后保障**（如滞销包退、损耗补贴），降低你的囤货风险。\n\n**所以最稳的做法是**：先要1-2周的试卖配额（如每周到货2箱），若数据达标再签正式订单。切勿一次性大量订入，除非供应商支持滞销包退。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 316,
+    "total_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

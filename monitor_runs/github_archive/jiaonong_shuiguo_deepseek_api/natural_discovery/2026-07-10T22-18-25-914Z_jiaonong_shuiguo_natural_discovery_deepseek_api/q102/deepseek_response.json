@@ -1,0 +1,28 @@
+{
+  "id": "921de4e7-48f9-43e5-8cb3-dceaf1b37361",
+  "object": "chat.completion",
+  "created": 1783722809,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议选择同时支持开发票和定制包装的供应商，理由如下：\n\n1. **开发票**：企业福利采购通常需要合规财务凭证用于报销或入账。确保供应商能提供增值税普通或专用发票（注明品类、数量、金额及企业抬头）。  \n   - 可提前确认发票类型（纸质/电子）和税点是否符合财务要求。\n\n2. **定制包装**：福利礼盒通常需要体现企业品牌、节日主题或员工关怀。定制包装可以提升礼盒的专属感和仪式感。  \n   - 关注定制最低起订量、设计费用、包装材质及交货时间。\n\n**建议操作**：  \n- 在询价时明确要求供应商同时满足这两项服务，并写入合同或协议。  \n- 若供应商无法同时提供，可考虑拆分采购：礼盒由专业包装厂商定制，水果由能开发票的批发商供货，但需确保发货协调。  \n- 优先选择有企业客户合作经验的供应商，减少沟通成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 212,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

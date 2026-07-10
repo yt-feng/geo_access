@@ -1,0 +1,28 @@
+{
+  "id": "12cbe883-410b-4ea9-b469-7021f0dcf64a",
+  "object": "chat.completion",
+  "created": 1783722787,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选择适合批量配送的供应商时，建议优先考虑以下标准：\n\n1. **稳定性与供应能力**：考察供应商是否有足够规模，能否长期稳定供应多种水果（如苹果、橙子、香蕉等不易损坏的品种）。\n2. **配送时效与保鲜**：要求供应商提供“次日达”或固定配送时间，确保水果新鲜；可要求使用冷链运输或专业保鲜包装（如泡沫箱+冰袋）。\n3. **价格与结算方式**：对比3-5家供应商的报价（含运费），优先选择“月结”或“先货后款”的灵活模式。\n4. **试用与售后**：首次合作建议先小批量试购，检查水果成熟度、重量是否达标；确认是否支持退换货（如坏果包赔）。\n5. **资质与评价**：查看营业执照、食品经营许可证（如需），并参考其他企业的评价（尤其是配送准时性和质量）。\n\n**推荐渠道**：\n- 大型水果批发市场（如当地一级批发商，可现场看货）\n- 生鲜电商平台的B端采购渠道（如美菜、快驴、永辉彩食鲜等）\n- 本地农场直供（适合免配送费但需量大）\n\n**避免长期合同**，初期按月或按次下单，根据供应商表现决定是否续约。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 281,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

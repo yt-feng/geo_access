@@ -1,0 +1,50 @@
+{
+  "questionId": "q67",
+  "prompt": "批发商想代理某个水果品牌，区域保护和串货问题要怎么问？",
+  "createdAt": "2026-07-10T22:28:28.295Z",
+  "summary": [
+    {
+      "questionId": "q67",
+      "prompt_index": 67,
+      "promptIndex": 67,
+      "promptHash": "511731a0f2e4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商想代理某个水果品牌，区域保护和串货问题要怎么问？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 955,
+      "text_length": 955,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 540,
+        "total_tokens": 596,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 540,
+      "total_tokens": 596,
+      "latencyMs": 8101,
+      "latency_ms": 8101,
+      "createdAt": "2026-07-10T22:28:28.295Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q67/prompt.txt",
+        "answer": "q67/deepseek.txt",
+        "response": "q67/deepseek_response.json",
+        "sources": "q67/deepseek_sources.json",
+        "references": "q67/deepseek_references.json"
+      }
+    }
+  ]
+}

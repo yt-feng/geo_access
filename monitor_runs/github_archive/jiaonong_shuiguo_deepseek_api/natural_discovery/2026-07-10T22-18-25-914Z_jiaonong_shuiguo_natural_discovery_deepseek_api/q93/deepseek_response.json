@@ -1,0 +1,28 @@
+{
+  "id": "c70e462a-2e3c-47a9-8a93-9cc2897fcc98",
+  "object": "chat.completion",
+  "created": 1783722739,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在便利店销售菠萝切块时，需要同时关注以下三个方面：\n\n1. **保质期**：菠萝切块的保质期通常较短（一般为1-3天），需根据产品包装说明和储存条件（2-6℃冷藏）严格执行，并定期检查有无发酸、变色或异味。建议每天核对日期，过期商品立即下架并记录损耗。\n\n2. **包装**：必须使用食品级、密封性好的容器（如带盖塑料盒或真空包装），防止汁液泄漏、氧化褐变或细菌侵入。标签需清晰标注生产日期、保质期、储存条件和净含量。建议采用小份包装（如200-300克/盒），方便顾客即买即食。\n\n3. **配送频次**：根据历史销量和天气（高温季节需求更高），建议每日至少配送1次，优选早晨到货，避免午后温度升高后品质下降。若门店周边社区需求稳定，可考虑午间补货1次。配送车辆需具备冷藏功能，全程温度控制在0-4℃。\n\n**执行优先顺序**：保质期＞包装＞配送频次。一旦发现保质期内包装破损或温度异常，需立即报废处理。数据记录表可设置为每日一更新，重点监控保质期剩余天数。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 266,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

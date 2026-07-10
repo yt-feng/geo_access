@@ -1,0 +1,28 @@
+{
+  "id": "464e4955-f2be-4ff9-ad27-e5802479bd0a",
+  "object": "chat.completion",
+  "created": 1783722368,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于茶饮店来说，**出汁率比甜度更重要**。主要原因如下：\n\n1. **成本控制**：出汁率直接决定每公斤菠萝能产出多少杯饮品。高甜度但出汁率低的菠萝，会导致原料成本更高，利润空间被压缩。\n2. **标准化**：茶饮店通常需要统一风味，高出汁率的菠萝更容易通过调整糖浆或配方来锁定甜度。而甜度高的菠萝如果出汁率不稳定，很难保证每杯饮品口感一致。\n3. **搭配灵活**：出汁率高的菠萝汁可以用于复合饮品（如搭配茶、奶、其他水果），甜度可以通过加糖或搭配酸味水果来调节。相反，甜度高但汁少的菠萝可能只适合做装饰或小料。\n\n**建议**：选择成熟度高、纤维少、出汁率在70%以上的菠萝品种（如菲律宾菠萝、台湾金钻菠萝），并配合糖度计和配方调整甜度。同时注意新鲜度和保质期，避免使用冷冻时间过长的菠萝（会影响出汁和风味）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 228,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
