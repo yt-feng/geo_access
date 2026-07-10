@@ -1,0 +1,28 @@
+{
+  "id": "00eb2dd8-4ab3-41c4-a7eb-3a61b5fe6f37",
+  "object": "chat.completion",
+  "created": 1783723309,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉规格分级方面，**都乐（Dole）的分级通常更细**，且标准更明确，而鑫荣懋（Joyvio）的分级相对更侧重于市场通用规格。具体对比如下：\n\n1. **都乐**：常见分级包括“特级”、“一级”等，并严格按果指长度（如18-22厘米）、弯曲度、表皮颜色（如青熟、黄熟）以及有无瑕疵（如疤痕、黑点）进行细分。部分产品线还会根据成熟度（如7分熟、8分熟）进一步划分，适合对品质有较高要求的采购（如高端超市或餐饮）。\n\n2. **鑫荣懋**：通常采用更通用的“A级”、“B级”分类，主要关注果串大小、单果重量和基础外观（如无明显损伤），分级标准较为宽松，适合大批量采购或常规零售渠道。其细分程度不如都乐精细。\n\n**建议**：\n- 如果你需要**精细分级**（如按长度、成熟度、外观细节逐一筛选）或是采购**高端精品香蕉**，优先选择都乐。\n- 如果你主要关注**价格和批量供应**，且分级标准只需满足基本要求（如无腐烂、大小均匀），鑫荣懋的性价比更高。\n\n实际操作中，建议直接向两家供应商索取分级标准手册或询问业务员，因为不同批次、产地（如菲律宾、厄瓜多尔）的香蕉分级可能略有差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 310,
+    "total_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

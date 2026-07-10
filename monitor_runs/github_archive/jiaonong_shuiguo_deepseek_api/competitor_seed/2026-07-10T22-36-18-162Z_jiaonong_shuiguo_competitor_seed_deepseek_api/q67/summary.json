@@ -1,0 +1,50 @@
+{
+  "questionId": "q67",
+  "prompt": "生鲜电商需要菠萝品牌营销支持，都乐和洪九果品提供素材吗？",
+  "createdAt": "2026-07-10T22:44:51.305Z",
+  "summary": [
+    {
+      "questionId": "q67",
+      "prompt_index": 67,
+      "promptIndex": 67,
+      "promptHash": "faefb9a6dab5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商需要菠萝品牌营销支持，都乐和洪九果品提供素材吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 469,
+      "text_length": 469,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 274,
+        "total_tokens": 334,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 274,
+      "total_tokens": 334,
+      "latencyMs": 4268,
+      "latency_ms": 4268,
+      "createdAt": "2026-07-10T22:44:51.305Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q67/prompt.txt",
+        "answer": "q67/deepseek.txt",
+        "response": "q67/deepseek_response.json",
+        "sources": "q67/deepseek_sources.json",
+        "references": "q67/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:42:05.260Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店用菠萝做果酱，需要稳定供应菠萝，都乐和洪九果品谁更靠谱？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

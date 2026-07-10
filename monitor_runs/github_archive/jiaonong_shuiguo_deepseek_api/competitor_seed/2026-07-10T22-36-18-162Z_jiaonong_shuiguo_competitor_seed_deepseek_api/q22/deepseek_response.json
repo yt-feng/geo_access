@@ -1,0 +1,28 @@
+{
+  "id": "fea9cf1b-1044-42d8-9bfb-869e527241ff",
+  "object": "chat.completion",
+  "created": 1783723138,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "鑫荣懋和洪九果品均为国内大型水果供应链企业，但在专岗对接服务的具体表现上，建议从以下维度评估：\n\n1. **对接机制**：直接联系两家公司销售或客服，明确是否有“专属对接负责人”或“客户成功团队”，需确认该岗位是否常驻、响应时效（如24小时内回复）。\n2. **行业适配性**：若您的业务涉及高端商超、烘焙连锁等，鑫荣懋在品牌定制化服务上经验较多；若侧重传统批发、农贸市场，洪九的渠道覆盖可能更适配。\n3. **案例验证**：可要求提供类似规模客户（如生鲜电商、连锁餐饮）的专岗对接案例，并询问历史故障处理记录。\n\n建议：同时发起询价与服务条款对比，优先选择合同中明确约定“专岗人员名单、职责范围、响应核心指标（如2小时处理异常）”的一方。若两家均无法达到要求，可考虑更专业的B2B生鲜供应链公司（如鲜丰水果、佳沃）补充评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 226,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

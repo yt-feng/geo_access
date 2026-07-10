@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:45:32.263Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "大型商超需要供应商有食品安全管理体系，鑫荣懋和都乐通过哪些认证？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d6e0401b-c6b7-4e45-8eca-bb4676d110f4",
+  "object": "chat.completion",
+  "created": 1783723357,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前可获取的公开信息，都乐和鑫荣懋作为国内外知名的水果供应商，通常都会为大型客户（如商超、餐饮连锁、企业采购等）提供**专岗对接服务**（如专属销售经理、客户经理或客服专员），但具体是否提供以及服务细节需根据合作模式、采购规模等因素而定。\n\n建议您通过以下方式确认：\n1. **直接联系双方官方客服或销售部门**，说明合作需求（如：公司名称、预计采购量、服务要求等），询问是否可以指定专人对接。\n2. 要求提供案例或协议条款，确认专岗服务的具体内容（如：对接人员是否固定、响应时效、是否提供定制化方案等）。\n3. 参考行业惯例：大型供应商通常对年采购额达到一定门槛（例如几十万至百万级）的客户提供专岗服务，中小型客户可能仅提供客户经理轮值或团队支持。\n\n若您需要更具体的建议，可补充说明您的采购规模、行业类型（如餐饮连锁、企业福利采购等），以便进一步分析。请注意，以上信息基于行业常规，实际服务需以供应商的最新政策为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 244,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:41:42.666Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "进口菠萝旺季缺货怎么办？都乐和洪九果品有没有应急方案？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

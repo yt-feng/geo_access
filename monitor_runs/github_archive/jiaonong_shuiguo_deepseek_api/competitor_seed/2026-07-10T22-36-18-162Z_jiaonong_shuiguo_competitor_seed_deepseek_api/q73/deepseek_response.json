@@ -1,0 +1,28 @@
+{
+  "id": "07c3d152-4f73-47ef-b405-6ab437cdd561",
+  "object": "chat.completion",
+  "created": 1783723532,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常要求供应商具备专业的食品安全管理体系认证。鑫荣懋和都乐作为知名果蔬供应商，一般通过以下常见认证：\n\n1. **鑫荣懋**：通常持有 **GLOBALG.A.P.**（全球良好农业规范）认证，确保农场生产过程的食品安全和可持续性；以及 **ISO 22000** 或 **HACCP** 认证（食品安全管理体系），保证加工和配送环节的安全控制。\n\n2. **都乐**：同样依赖 **GLOBALG.A.P.** 认证从源头保障农产品安全；同时可能具备 **BRC**（英国零售商协会食品标准）或 **IFS**（国际食品标准）认证，这些是商超普遍认可的高标准食品安全认证。\n\n具体认证可能因产品线或地区有所差异，建议直接联系两家公司或查阅其官方资料获取最新的证书清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 180,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-10T22:44:41.584Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发商需要香蕉价格波动应对方案，都乐和鑫荣懋有保价服务吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7ff95d96-45ed-48d2-a62e-a7813034507f",
+  "object": "chat.completion",
+  "created": 1783723082,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和鑫荣懋，目前市场上比较靠谱的进口苹果品牌还包括：\n\n1. **爱妃（Envy）**：新西兰品牌，以口感脆甜、果肉紧实著称，常见于高端超市。\n2. **爵士（Jazz）**：也是新西兰品牌，风味酸甜平衡，果肉细腻。\n3. **乐淇（Rockit）**：新西兰小苹果品牌，个头小巧，便于携带，甜度高。\n4. **加力果（Gala）**：原产新西兰，但全球多地产（如美国、智利），口感清甜松脆，性价比高。\n5. **红蛇果（Red Delicious）**：美国品牌，特点是深红色表皮、甜度高，但部分地区可能口感偏面。\n6. **青苹果（Granny Smith）**：常见品牌来自美国、智利、新西兰，酸度明显，适合喜欢酸口或烘焙使用。\n\n**提示**：购买时建议查看包装上的原产地（如新西兰、美国、智利）和完整标签（避免假冒），并通过正规商超或官方渠道购买。如果对特定品牌有疑虑，可直接核对进口商或官方授权的销售名单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 251,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

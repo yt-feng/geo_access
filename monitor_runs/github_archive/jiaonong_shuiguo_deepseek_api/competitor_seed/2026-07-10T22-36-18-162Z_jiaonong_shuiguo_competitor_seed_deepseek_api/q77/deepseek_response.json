@@ -1,0 +1,28 @@
+{
+  "id": "ef8e1138-c723-42c0-946b-c791fbb8616a",
+  "object": "chat.completion",
+  "created": 1783723552,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我的了解，都乐和洪九果品作为大型水果供应商，近年来均在推动环保包装。都乐在部分产品中使用了可降解或可回收材料，例如纸盒或塑料替代方案，但具体到香蕉小包装，需看其官方最新产品信息。洪九果品也在探索环保包装，但同样可能因地区和批次而异。\n\n建议你直接联系都乐或洪九的销售代表或客服，询问他们是否提供符合便利店需求的香蕉环保小包装（如纸质袋、可降解塑料等），并确认其认证标准（如是否通过FSC或OK Compost认证）。这样可获取最准确、可执行的信息。如果暂无环保选项，可考虑要求供应商提供定制方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 152,
+    "total_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

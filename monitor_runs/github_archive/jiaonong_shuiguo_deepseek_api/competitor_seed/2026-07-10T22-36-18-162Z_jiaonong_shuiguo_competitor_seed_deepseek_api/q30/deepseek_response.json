@@ -1,0 +1,28 @@
+{
+  "id": "00287c03-2606-47a1-98f4-dc0f70b632b8",
+  "object": "chat.completion",
+  "created": 1783723197,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超对供应商的食品安全认证要求通常包括ISO 22000（食品安全管理体系）、HACCP（危害分析与关键控制点）、FSSC 22000、BRC（全球食品安全标准）或中国国内的SC认证等。具体到鑫荣懋和都乐两家公司：\n\n1. **鑫荣懋**：作为中国知名的水果供应链企业，通常持有ISO 22000、HACCP等主流食品安全认证，并可能根据客户要求获取FSSC 22000或BRC认证。其认证体系覆盖了种植、加工、仓储、物流全链条，以符合国内商超（如永辉、盒马等）的准入标准。\n\n2. **都乐**：作为全球性果蔬品牌，在食品安全方面通常具备更国际化的认证体系，包括ISO 22000、HACCP、BRC、GlobalG.A.P.（全球良好农业规范）等，同时可能针对不同出口市场持有特定认证（如美国的USDA有机认证、欧盟的有机认证）。其认证覆盖范围更广，尤其在国际零售商的准入要求（如沃尔玛、家乐福）中更具优势。\n\n**结论**：如果仅从“更全”角度（即认证种类和覆盖的商超范围），**都乐**的食品安全认证体系通常更全面，尤其是其持有的BRC、GlobalG.A.P.等国际认证，更可能满足大型商超（尤其是外资或高端商超）的严格标准。但若商超仅要求国内主流认证（如ISO 22000+HACCP），则两者均可满足。建议具体核实目标商超的准入清单，并直接向两家公司索取其当前认证列表（因认证会动态更新）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 357,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

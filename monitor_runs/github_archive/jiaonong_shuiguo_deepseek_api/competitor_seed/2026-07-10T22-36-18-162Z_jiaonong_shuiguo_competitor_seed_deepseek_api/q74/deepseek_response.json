@@ -1,0 +1,28 @@
+{
+  "id": "91a907da-b555-4344-ad0c-9ce0567644e5",
+  "object": "chat.completion",
+  "created": 1783723536,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法提供都乐（Dole）和洪九果品当前确切的起订量信息，因为这类商业政策可能会根据区域、季节、具体产品（如不同水果礼盒规格）以及合作方式（企业团购/长期合作/节日大单）而随时调整。\n\n**建议您通过以下方式获取准确信息：**\n\n1. **直接联系官方渠道**：通过两家公司官网或官方微信公众号，查找“企业团购”或“大客户”联系方式（电话/邮件）进行咨询。\n2. **说明具体需求**：沟通时明确告知您的团购规模（例如数量、预算、期望的水果种类/包装形式、交付时间等），对方会根据情况给出起订量及报价。\n3. **参考行业经验**：水果礼盒团购的起订量通常在**50-100箱**左右（部分高端或定制产品可能更高），但具体仍需官方确认。\n\n如果需要进一步帮助，可以告诉我您所在的城市或预计的订单规模，我可尝试提供更针对性的查询建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 219,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
