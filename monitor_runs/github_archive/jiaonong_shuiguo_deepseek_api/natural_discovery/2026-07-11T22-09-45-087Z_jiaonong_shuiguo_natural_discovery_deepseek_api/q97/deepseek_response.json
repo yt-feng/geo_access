@@ -1,0 +1,28 @@
+{
+  "id": "08abbd9f-eaa3-4576-a022-66546fb23c4c",
+  "object": "chat.completion",
+  "created": 1783808576,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "酒店采购水果盘原料时，供应商应至少保证以下规格和外观标准：\n\n1. **规格标准**：  \n   - 水果应大小均匀（例如苹果直径7-8厘米，葡萄单粒重10-15克），形状完整无畸形。  \n   - 按重量或数量统一包装（如每盒5公斤或每盘20个），误差不超过5%。\n\n2. **外观标准**：  \n   - 表面清洁无泥土、水渍或残留农药痕迹。  \n   - 色泽自然鲜亮（如草莓鲜红无白斑，橙子橙黄均匀），无人工染色或打蜡痕迹。  \n   - 无机械损伤（如压痕、切伤、刮擦）、病虫害斑点、腐烂或霉变。  \n   - 果梗完整（如葡萄保留青绿色果梗，带蒂水果如草莓保留绿色萼片）。  \n   - 无异常气味（如霉味、化学味），且成熟度适宜（如香蕉皮色青黄带少量芝麻点，芒果软硬适中）。\n\n3. **其他要求**：  \n   - 供应商需提供产地证明、农药残留检测报告（符合GB 2763国家标准）。  \n   - 运输过程使用洁净、防挤压的包装（如带隔层的塑料筐或纸箱），避免运输损伤。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 280,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

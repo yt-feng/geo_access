@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:23:02.117Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "养老院或医院食堂采购水果，怎么判断供应商的合规和稳定性？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

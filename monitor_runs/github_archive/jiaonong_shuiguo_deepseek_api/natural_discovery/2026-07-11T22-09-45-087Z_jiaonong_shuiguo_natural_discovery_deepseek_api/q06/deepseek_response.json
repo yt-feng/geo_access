@@ -1,0 +1,28 @@
+{
+  "id": "36a325a8-f18e-4eec-ac50-c663cff00660",
+  "object": "chat.completion",
+  "created": 1783807827,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，完全适合。社区水果店销量波动大，选择能小批量、多次配送的供应商可以带来以下好处：\n\n1. **减少损耗**：水果保鲜期短，大批量进货容易积压腐烂，小批量配送能按实际需求补货。\n2. **灵活应对需求**：工作日和周末销量不同，可临时加单或调整品类，避免缺货或浪费。\n3. **资金压力小**：每次进货金额小，现金流更健康，适合小微店铺。\n4. **尝试新品风险低**：可以少量试销小众水果，观察顾客反馈后再决定是否长期进货。\n\n建议你：\n- 优先找本地农贸批发市场或区域级水果供应商，他们通常支持灵活配送（可能需要提前电话沟通多频次、低起订量）。\n- 与2-3家供应商合作，以备某家暂停配送时补位。\n- 明确要求配送时间（如清晨6点前）和最低订单金额（如50元起送）。\n\n如果销量波动特别大（比如周末是平日的3倍以上），还可以考虑与供应商约定“阶梯式配送计划”，例如周一三五固定小量，周六额外加单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 248,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

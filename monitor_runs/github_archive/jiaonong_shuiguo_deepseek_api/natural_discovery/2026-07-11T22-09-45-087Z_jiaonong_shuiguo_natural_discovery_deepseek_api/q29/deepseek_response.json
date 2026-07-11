@@ -1,0 +1,28 @@
+{
+  "id": "c587ccfc-c0d9-4757-b869-d5b64fa27319",
+  "object": "chat.completion",
+  "created": 1783807998,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "超市和水果供应商谈账期时，常见的账期长度根据超市规模和供应商实力有所不同：\n\n1. **大型连锁超市**（如沃尔玛、永辉等）：通常账期较长，常见为 **30-60天**，部分可达90天。\n2. **中型超市或区域连锁**：账期一般在 **15-30天** 左右。\n3. **小型超市或便利店**：账期较短，多为 **7-15天**，甚至要求现结。\n\n**需要注意**：\n- 水果属于生鲜品类，保质期短、损耗高，账期过长会增加供应商资金压力和坏账风险，因此超市可能在合同中加入“快速结算”条款（如7天内结算）。\n- 实际谈判时，供应商应根据自身资金周转能力、超市信誉及合作历史灵活调整。建议首次合作争取 **15-30天** 作为折中方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 186,
+    "total_tokens": 239,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:25:30.019Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商推荐新品，采购方应该先试卖多少比较稳？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

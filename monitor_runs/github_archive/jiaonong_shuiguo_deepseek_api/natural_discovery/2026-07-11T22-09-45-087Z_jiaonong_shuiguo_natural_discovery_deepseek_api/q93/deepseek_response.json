@@ -1,0 +1,28 @@
+{
+  "id": "84c1124f-6b25-43f1-bd8f-d10820daf026",
+  "object": "chat.completion",
+  "created": 1783808555,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "主要需要关注以下三个方面，按优先级排序：\n\n1. **保质期**（最关键）\n   - 新鲜菠萝切块在冷藏（0-4℃）条件下，保质期通常只有2-3天。\n   - 必须明确标注包装日期和到期时间，严格执行“先进先出”。\n   - 建议每日检查并下架临期（如剩余1天）产品，避免顾客买到变质菠萝。\n\n2. **包装**\n   - 使用**透气但防漏**的食品级容器（如带小孔的塑料盒），避免积水导致腐烂。\n   - 包装需密封防污染，但保留微透气（可用保鲜膜+扎孔）。\n   - 每份重量规格要统一（如200g/盒），标签标明名称、日期、价格、保存条件。\n\n3. **配送频次**\n   - 如果门店自切：建议**每日早晨**现切一次，中午补货一次，控制单次切量（如3小时内销售量）。\n   - 如果由中央厨房配送：必须**每日配送**（或至少隔日配送），且配送过程全程冷链。\n   - 周末或节假日销量波动较大，需提前调整配送/切制量。\n\n**额外提醒**：菠萝切块切开后极易氧化变黑，切好后可浸入淡盐水片刻再包装，能轻微延缓变色。如果发现变色、酸味或出水，立即下架。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 298,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

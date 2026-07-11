@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:23:31.562Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "酒店早餐需要稳定水果供应，和供应商谈合作要注意什么？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

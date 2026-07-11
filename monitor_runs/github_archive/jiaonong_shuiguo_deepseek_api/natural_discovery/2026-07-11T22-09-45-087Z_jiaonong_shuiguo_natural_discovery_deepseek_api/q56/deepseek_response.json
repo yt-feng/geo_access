@@ -1,0 +1,28 @@
+{
+  "id": "4e6ad668-efc0-4e4d-a6cb-a8db0565f7b1",
+  "object": "chat.completion",
+  "created": 1783808228,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "水果供应商需要提供以下几类证明文件，以确保茶饮店的食品安全合规：\n\n1. **营业执照**：供应商的合法经营资质证明，确保其为正规注册企业。\n2. **食品经营许可证**：证明供应商具备从事食品生产或经营的资质，尤其涉及切割、包装或初加工的水果。\n3. **产品检测报告**：每批次或定期提供的第三方或供应商自检报告，涵盖农药残留、重金属、微生物等指标，符合《食品安全国家标准》（如GB 2762、GB 2763）。\n4. **农产品合格证明**：如《食用农产品合格证》或产地证明，确保水果来源合法且无质量安全问题。\n5. **进货票据**：详细记录水果名称、数量、进货日期、供应商信息等，实现可追溯。\n6. **冷链物流记录**：如果水果需要冷藏运输，应提供温控记录，证明运输过程符合要求，避免腐烂或滋生细菌。\n7. **相关认证（可选）**：如有机认证、绿色食品认证或GMP认证，增强可信度。\n\n建议茶饮店在签订供货合同时明确要求这些文件，并定期核查更新（如每年一次），同时保存复印件或电子版备查。如发现问题供应商，应立即更换并重新评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 261,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

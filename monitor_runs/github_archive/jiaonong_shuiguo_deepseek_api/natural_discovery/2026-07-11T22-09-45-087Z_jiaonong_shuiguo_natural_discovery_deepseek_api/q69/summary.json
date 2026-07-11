@@ -1,0 +1,50 @@
+{
+  "questionId": "q69",
+  "prompt": "批发商给小店供货，香蕉和菠萝怎么分级报价比较清楚？",
+  "createdAt": "2026-07-11T22:18:50.399Z",
+  "summary": [
+    {
+      "questionId": "q69",
+      "prompt_index": 69,
+      "promptIndex": 69,
+      "promptHash": "3e4a9274b405",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商给小店供货，香蕉和菠萝怎么分级报价比较清楚？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 2187,
+      "text_length": 2187,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 1429,
+        "total_tokens": 1484,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 1429,
+      "total_tokens": 1484,
+      "latencyMs": 15990,
+      "latency_ms": 15990,
+      "createdAt": "2026-07-11T22:18:50.399Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q69/prompt.txt",
+        "answer": "q69/deepseek.txt",
+        "response": "q69/deepseek_response.json",
+        "sources": "q69/deepseek_sources.json",
+        "references": "q69/deepseek_references.json"
+      }
+    }
+  ]
+}

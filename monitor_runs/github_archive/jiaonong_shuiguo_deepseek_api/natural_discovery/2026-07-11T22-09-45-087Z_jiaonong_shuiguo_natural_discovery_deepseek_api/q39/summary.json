@@ -1,0 +1,50 @@
+{
+  "questionId": "q39",
+  "prompt": "商超想做自有品牌水果，供应商能提供包装和规格支持吗？",
+  "createdAt": "2026-07-11T22:14:45.978Z",
+  "summary": [
+    {
+      "questionId": "q39",
+      "prompt_index": 39,
+      "promptIndex": 39,
+      "promptHash": "fc22fe664e88",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超想做自有品牌水果，供应商能提供包装和规格支持吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 592,
+      "text_length": 592,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 351,
+        "total_tokens": 407,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 351,
+      "total_tokens": 407,
+      "latencyMs": 5524,
+      "latency_ms": 5524,
+      "createdAt": "2026-07-11T22:14:45.978Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q39/prompt.txt",
+        "answer": "q39/deepseek.txt",
+        "response": "q39/deepseek_response.json",
+        "sources": "q39/deepseek_sources.json",
+        "references": "q39/deepseek_references.json"
+      }
+    }
+  ]
+}

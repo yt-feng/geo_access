@@ -1,0 +1,50 @@
+{
+  "questionId": "q105",
+  "prompt": "水果采购想要稳定价格，和供应商谈锁价一般能锁多久？",
+  "createdAt": "2026-07-11T22:23:58.003Z",
+  "summary": [
+    {
+      "questionId": "q105",
+      "prompt_index": 105,
+      "promptIndex": 105,
+      "promptHash": "17e2349428cb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果采购想要稳定价格，和供应商谈锁价一般能锁多久？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 468,
+      "text_length": 468,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 276,
+        "total_tokens": 332,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 276,
+      "total_tokens": 332,
+      "latencyMs": 4181,
+      "latency_ms": 4181,
+      "createdAt": "2026-07-11T22:23:58.003Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q105/prompt.txt",
+        "answer": "q105/deepseek.txt",
+        "response": "q105/deepseek_response.json",
+        "sources": "q105/deepseek_sources.json",
+        "references": "q105/deepseek_references.json"
+      }
+    }
+  ]
+}

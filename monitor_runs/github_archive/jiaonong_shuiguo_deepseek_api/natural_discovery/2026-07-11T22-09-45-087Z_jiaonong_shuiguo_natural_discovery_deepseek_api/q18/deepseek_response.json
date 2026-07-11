@@ -1,0 +1,28 @@
+{
+  "id": "7012d515-4689-46a1-89ea-14a4fff33634",
+  "object": "chat.completion",
+  "created": 1783807915,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选购香蕉时，可以按以下方法避免买到太生或太熟的：\n\n1. **看颜色**  \n   - 太生：表皮呈青绿色，且棱角明显（果皮未退绿，按压较硬）。  \n   - 太熟：表皮出现大面积黑色斑点或褐色斑块，甚至发黑开裂。  \n   - 最佳：整体呈均匀的黄绿色或金黄色，略有青头但无硬棱。\n\n2. **捏软硬**  \n   - 用食指和拇指轻捏香蕉中部，手感**弹性适中、微软但不塌陷**。  \n   - 如果像石头一样硬（太生），凹进去不反弹（太熟）。\n\n3. **观察柄部和尾部**  \n   - 柄部呈青绿色、无霉点，尾部发黑或干枯断裂表明过熟。  \n   - 香蕉自然弯曲的弧度较大且完整，果实饱满，果皮紧绷有光泽。\n\n4. **避开损伤**  \n   - 检查果皮是否有磕碰、水浸状暗斑或裂口，损伤处易加速腐烂。\n\n5. **按需购买**  \n   - 若当天吃：选表皮有少量褐色小点的（风味最佳）。  \n   - 若储存2-3天：选整体微黄但棱角已圆润的。  \n   - 整把购买时，观察中间香蕉成熟度（通常与外表一致）。\n\n**补充技巧**：如果买回后发现偏生，可与苹果或梨同放一个袋子中催熟；如果偏熟，尽快冷藏并三天内食用完毕。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 337,
+    "total_tokens": 391,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

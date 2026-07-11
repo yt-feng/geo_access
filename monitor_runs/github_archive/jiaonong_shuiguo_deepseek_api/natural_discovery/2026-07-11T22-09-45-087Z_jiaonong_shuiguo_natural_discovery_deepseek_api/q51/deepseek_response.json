@@ -1,0 +1,28 @@
+{
+  "id": "273bfa47-4260-4de4-818a-d23304e9f83b",
+  "object": "chat.completion",
+  "created": 1783808191,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，固定产地和供应批次是控制茶饮店水果品质波动的有效策略，但并非适合所有情况。建议如下：\n\n1. **易标准化、销量大的核心水果（如柠檬、橙子）**：建议固定**产地**，因为不同产地的气候、土壤会导致甜酸度和香气差异明显。固定批次可确保每次到货的成熟度、大小更一致，便于饮品配方稳定。\n\n2. **季节性、小众水果（如杨梅、荔枝）**：固定单一产地反而可能因天气导致断供或品质不稳定。建议**固定供应商**，并与其协商在产季内分批次供应不同产区的水果，同时约定每批次的糖度、重量等验收标准。\n\n3. **操作要点**：\n   - 与供应商签订协议，明确**最小订货量、到货周期、验收标准（如糖度仪抽检、外观大小）**。\n   - 每次到货后留样封存，与上批次做对比测试，及时反馈调整。\n   - 对无法固定产地的品种，准备1-2个备选供应商，防止突发事件断货。\n\n综上：核心大单品固定产地+批次，灵活品种固定流程+标准，同时做好备选方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 261,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

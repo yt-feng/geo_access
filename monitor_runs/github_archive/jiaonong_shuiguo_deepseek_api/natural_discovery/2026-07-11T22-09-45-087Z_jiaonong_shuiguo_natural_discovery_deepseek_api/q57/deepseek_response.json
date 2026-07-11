@@ -1,0 +1,28 @@
+{
+  "id": "e1fe261c-cca8-4bc2-bad4-b89715d236d9",
+  "object": "chat.completion",
+  "created": 1783808232,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "中央厨房统一收货通常更优，原因如下：\n\n1. **质量控制**：可集中检验水果的新鲜度、规格、成熟度，确保一致性，减少门店因验货差异导致的损耗。\n2. **成本优势**：大宗采购能获得更低单价，且减少单次运输费用。中央厨房可采用专业分选、分切设备，降低加工浪费。\n3. **标准化流程**：统一清洗、预加工（如去核、切块）、分装，便于门店直接使用，减少操作差异。\n4. **库存管理**：集中库存更易控制周转，避免门店各自囤货造成过期或断货。\n\n**注意事项**：\n- 需具备冷链运输能力和中央厨房的加工产能（如冷库、分拣线）。\n- 对运输距离较远的门店，可考虑\"区域性中央厨房+周边门店直配\"模式。\n- 若门店销量波动大，可门店自行视销量按日补货（如直送新鲜整果），但需统一采购渠道以维持品质。\n\n综合中小型连锁，建议先试点中央厨房统一收、预处理后分送，再根据损耗率、客户反馈调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 244,
+    "total_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
