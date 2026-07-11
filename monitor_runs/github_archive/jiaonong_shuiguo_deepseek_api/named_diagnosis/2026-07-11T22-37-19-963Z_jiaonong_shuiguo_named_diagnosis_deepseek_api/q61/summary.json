@@ -1,0 +1,50 @@
+{
+  "questionId": "q61",
+  "prompt": "我们批发商想代理佳农水果，区域保护政策怎么样？会窜货吗？",
+  "createdAt": "2026-07-11T22:42:44.100Z",
+  "summary": [
+    {
+      "questionId": "q61",
+      "prompt_index": 61,
+      "promptIndex": 61,
+      "promptHash": "a29702e92e92",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们批发商想代理佳农水果，区域保护政策怎么样？会窜货吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1704,
+      "text_length": 1704,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 1001,
+        "total_tokens": 1060,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 1001,
+      "total_tokens": 1060,
+      "latencyMs": 14535,
+      "latency_ms": 14535,
+      "createdAt": "2026-07-11T22:42:44.100Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q61/prompt.txt",
+        "answer": "q61/deepseek.txt",
+        "response": "q61/deepseek_response.json",
+        "sources": "q61/deepseek_sources.json",
+        "references": "q61/deepseek_references.json"
+      }
+    }
+  ]
+}

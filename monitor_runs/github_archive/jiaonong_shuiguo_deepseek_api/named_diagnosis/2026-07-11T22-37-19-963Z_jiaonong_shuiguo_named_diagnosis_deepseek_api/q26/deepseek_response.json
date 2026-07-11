@@ -1,0 +1,28 @@
+{
+  "id": "66895f0a-edba-4672-ad43-874a745e0f20",
+  "object": "chat.completion",
+  "created": 1783809562,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常抱歉，我无法提供关于“佳农”品牌具体服务细节的实时信息，因为企业服务政策可能会随时间调整。\n\n**建议您通过以下方式获取最准确的答案：**\n\n1.  **直接联系佳农官方客服：** 搜索“佳农水果”或“佳农食品”的官方网站、微信小程序或官方客服电话，咨询其香蕉产品是否提供商业或零售端的催熟服务。\n2.  **查看产品包装或购买渠道：** 如果您是在超市或线上平台购买，可以查看产品包装上的热线电话或联系购买平台的客服，询问该批次香蕉的状态（如绿熟蕉/黄熟蕉）及是否可定制催熟。\n\n通常来说，大型水果供应商（如佳农）会为餐饮连锁、超市等B端客户提供定制的催熟服务，但面向普通消费者的零售产品大多以自然成熟或经过统一催熟后直接上架销售。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 193,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

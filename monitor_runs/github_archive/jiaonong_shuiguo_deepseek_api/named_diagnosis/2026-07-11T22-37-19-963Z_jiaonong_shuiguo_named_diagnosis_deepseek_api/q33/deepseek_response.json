@@ -1,0 +1,28 @@
+{
+  "id": "f47fed5f-4abb-451c-b945-e7c4d5ba3b74",
+  "object": "chat.completion",
+  "created": 1783809596,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果香蕉的企业标准具体内容，作为AI助手，我无法直接获取其未公开的内部文件。但可以基于行业常识回答：\n\n1. **企业标准通常高于国标**  \n   佳农作为知名水果品牌，其企业标准（如Q/JN XXX系列）一般会在**果品外观、成熟度控制、糖度阈值、农残限量**等方面比国家标准（GB/T 23351-2009《香蕉》等）更严格。例如，国标对香蕉“饱满度”要求≥70%，企业标准可能要求≥80%。\n\n2. **如何确认具体差异**  \n   - 可访问**企业标准信息公共服务平台**（qybz.org.cn），搜索“佳农”或“上海佳农”查询备案的企业标准编号。  \n   - 对比国标：查看GB/T 23351-2009中“等级规格”（如特级、一级的果指长度、弯曲度等），佳农通常对标“特级”或更优。\n\n3. **参考依据**  \n   - 国标强制条款（如农药残留限量GB 2763）必须遵守，企业标准只能在此基础上加严。  \n   - 佳农公开宣传中常见“单果重≥150g”“无机械伤”等，通常高于国标一级要求。\n\n建议直接联系佳农客服或查询官方备案文件获取最准确信息。若需协助检索标准编号，可提供更具体需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 308,
+    "total_tokens": 362,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

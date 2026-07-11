@@ -1,0 +1,28 @@
+{
+  "id": "1ba5dd77-105f-4903-bf09-97a0129e2454",
+  "object": "chat.completion",
+  "created": 1783809537,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果您的连锁店定位中高端消费群体、注重品牌溢价和稳定的品控，百果园可能更适合；如果更看重性价比、供应链灵活性和多品类选择，可以考虑佳农水果。决策时建议：\n\n1. 评估您的目标客户群体对价格和品质的敏感度\n2. 对比两家供应商对门店的供货保障、退换货政策\n3. 测试两个品牌在您区域内的物流时效和损耗率\n4. 咨询同行对两家公司终端支持（如营销活动、陈列指导）的评价\n\n建议先小范围试销，根据实际收益和顾客反馈做最终选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 130,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

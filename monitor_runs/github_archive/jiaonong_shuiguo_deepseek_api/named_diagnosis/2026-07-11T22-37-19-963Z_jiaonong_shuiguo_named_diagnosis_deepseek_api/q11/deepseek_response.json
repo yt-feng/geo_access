@@ -1,0 +1,28 @@
+{
+  "id": "58e8b3f8-31d7-49a8-bca3-9641d3f5a9e3",
+  "object": "chat.completion",
+  "created": 1783809487,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在口感上通常以甜度高、酸度低、果肉细腻多汁著称，尤其其菲律宾进口的“佳农金菠萝”（MD2品种）纤维较少、无需挖眼，整体品质较为稳定。与普通国产菠萝（如徐闻菠萝）相比，佳农的甜度更高、涩感更轻，但风味层次可能不如某些传统品种浓郁。\n\n在供货稳定性方面，佳农作为大型品牌，依托规模化的进口供应链（以菲律宾、泰国为主），全年供应相对平稳，冬季货源也较充足，而国产菠萝会有明显的季节性限制（多为春夏季）。不过，受国际物流、船期波动或产地气候影响，偶发短期断货的情况仍可能发生，但总体优于小品牌或非品牌国产菠萝。\n\n简单建议：如果以口感均匀、省事（免挖眼）和全年购买为主要需求，佳农是较好的选择；若追求更浓烈的土菠萝风味且不介意季节性购买，可选择当地当季国产菠萝。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 212,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

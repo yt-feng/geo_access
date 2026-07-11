@@ -1,0 +1,28 @@
+{
+  "id": "9e5d94ef-0791-4f01-b159-2898eadffaf4",
+  "object": "chat.completion",
+  "created": 1783809633,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有面向餐饮渠道的菠萝解决方案。通常包括标准化切分（如菠萝丁、菠萝块、菠萝圈）、定制化包装（如冷冻保鲜）、以及针对不同餐饮场景（如披萨、甜品、饮品或热菜）的产品规格。此外，他们可能提供冷链配送和现场技术支持。\n\n具体的产品目录和采购细节，建议直接联系佳农餐饮业务部门或访问其官网查看最新解决方案，因为产品线会随季节和市场需求调整。如需进一步信息，我也可以搜索更新的公开资料。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 111,
+    "total_tokens": 162,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

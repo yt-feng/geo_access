@@ -1,0 +1,28 @@
+{
+  "id": "ce564793-91ef-4a5a-ac65-74b4faee315e",
+  "object": "chat.completion",
+  "created": 1783809520,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前可获取的公开信息，佳农水果作为主要面向一二线城市及中高端市场的品牌，**尚未有公开明确的下沉市场专项优惠政策**。不过，针对下沉市场的潜在需求，以下建议供参考：\n\n1. **关注渠道合作政策**：下沉市场通常以社区团购（如美团优选、多多买菜）、线下批发市场或区域经销商为主。建议联系佳农官方渠道（客服或区域销售经理），询问针对这类渠道的**批量采购折扣**、**分销返点**或**季节性促销支持**。\n   \n2. **区域性临时活动**：部分品牌会在春节、中秋等节点通过区域代理推出满减或赠品活动。可关注佳农官网、公众号（如“佳农水果”）的促销通知，或询问当地经销商。\n\n3. **对比替代方案**：若主打低价走量，可考虑佳农的**临期品折扣**（部分经销商有）、**次级果（如B级果）特惠**，或转向同类高性价比品牌（如“百果园”的部分子品牌有下沉市场专供系列）。\n\n建议直接通过佳农官方客服电话（可查官网）或企业微信对接销售团队，明确说明“下沉市场分销”需求，获取更具针对性的报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 266,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

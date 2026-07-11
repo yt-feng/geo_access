@@ -1,0 +1,28 @@
+{
+  "id": "76a71e13-c373-4857-acc2-9465050230b3",
+  "object": "chat.completion",
+  "created": 1783809810,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果通常提供标准化的API接口用于ERP系统对接，尤其是针对批发、电商或供应链合作场景。具体接口情况如下：\n\n1. **是否开放API**  \n   佳农作为大型水果供应链企业，通常向合作客户（如生鲜电商、大型超市）开放API接口，但一般需要商务对接后获取。建议直接联系佳农的客户经理或技术对接团队确认（联系渠道：官网“合作咨询”或400客服电话）。\n\n2. **常见对接方式**  \n   - **订单与库存API**：查询实时库存、推送订单、同步物流状态。  \n   - **商品与价格API**：获取SKU信息、价格变动通知。  \n   - **结算与回传API**：对账、销售数据回传。\n\n3. **对接流程建议**  \n   - 先与佳农商务团队签署合作协议，明确接口权限、数据范围、费用（部分开放免费，高级功能可能收费）。  \n   - 获取技术文档（通常为RESTful API格式，支持JSON/XML，需HTTPS加密）。  \n   - 开发测试：使用佳农提供的测试环境（Sandbox）验证接口功能。  \n   - 验收上线：联调通过后切换至正式环境。\n\n**特别注意**：若您是小型电商或非核心合作伙伴，佳农可能仅提供手动文件传输（如CSV或Excel）而非API。建议优先确认合作资格。\n\n需要帮助可以进一步说明您的具体场景（如订单量、是否需要实时库存），我将提供更精确的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 325,
+    "total_tokens": 383,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

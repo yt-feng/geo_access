@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:39:12.964Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果有没有参与进博会？最近有什么新品？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "30b0f8a0-1137-4502-abec-9a7dede7e53f",
+  "object": "chat.completion",
+  "created": 1783809590,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农水果通常会针对礼品团购需求推出水果礼盒，常见品类包括进口车厘子、蓝莓、榴莲、凤梨等高端水果礼盒，部分还会配合节日推出定制包装或组合装。具体产品、起订量及价格信息，建议你直接联系佳农官方客服或当地经销商确认，不同地区和时段政策可能有所不同。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 79,
+    "total_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

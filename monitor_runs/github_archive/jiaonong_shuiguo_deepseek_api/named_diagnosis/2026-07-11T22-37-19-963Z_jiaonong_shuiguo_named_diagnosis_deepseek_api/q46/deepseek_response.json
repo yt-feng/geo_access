@@ -1,0 +1,28 @@
+{
+  "id": "0a8c9916-7803-4ac5-8292-847ac39b12e8",
+  "object": "chat.completion",
+  "created": 1783809675,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉催熟服务通常是由其**自有的成熟中心**（Ripening Centers）完成的，而非外包给第三方。佳农作为大型水果品牌，拥有成熟的供应链和专门的催熟技术团队，确保香蕉到店时达到最佳食用状态。\n\n对于您便利店“到店即熟”的需求，建议您：\n1. **直接联系佳农的销售或客服**，确认您所在区域是否提供“即熟”规格的配送服务（通常他们会有不同成熟度的香蕉分类，如绿果、转色、黄熟等）。\n2. 如果您需要完全成熟（黄熟）的香蕉，佳农一般可以在冷链运输中通过调节乙烯和温度来实现到店即熟，您只需告知对方您的到店时间窗口。\n\n如果佳农无法满足您的“即熟”频率或时间要求，可以考虑其他专业水果催熟服务商，但佳农对自家产品通常更可控。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 194,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

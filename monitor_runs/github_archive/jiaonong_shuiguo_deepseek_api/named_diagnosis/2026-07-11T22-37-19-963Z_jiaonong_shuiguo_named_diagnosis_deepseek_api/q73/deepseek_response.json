@@ -1,0 +1,28 @@
+{
+  "id": "2182ccd9-b5b6-4039-8b92-7eb9feb2c56f",
+  "object": "chat.completion",
+  "created": 1783809847,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据佳农水果（Goodfarmer）的公开信息，其苹果品类主要包括**进口嘎啦（Gala）**、**红富士（Fuji）**、**青苹果（Granny Smith）**、**蜜脆（Honeycrisp）** 等。针对您关注的**进口嘎啦**和**红富士**，佳农的常规产地如下：\n\n- **进口嘎啦（Gala）**：主要来自**新西兰**（尤其是霍克湾、尼尔森地区）或**美国**（华盛顿州）。新西兰嘎啦以果肉细腻、甜度高著称，美国嘎啦则颜色更红、口感脆爽。\n- **红富士（Fuji）**：进口红富士主要来自**美国**（华盛顿州）和**新西兰**。美国红富士个头大、水分足，新西兰红富士果香浓郁、糖分积累更高。\n\n建议您直接联系佳农水果的区域销售经理或官方渠道（如官网客服、400电话）确认当前批次的**具体产地**和**供应状态**，因为不同季节和产季的货源可能轮换（例如南半球产季以新西兰为主，北半球产季以美国为主）。同时，您还可以要求提供**原产地证明**和**检验检疫单**，以确保采购合规。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 275,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

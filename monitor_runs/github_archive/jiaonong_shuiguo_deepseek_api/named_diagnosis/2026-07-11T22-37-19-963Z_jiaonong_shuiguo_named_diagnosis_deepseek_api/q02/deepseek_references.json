@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:37:25.575Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我想采购佳农的菠萝，他们能提供产地溯源和品控报告吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

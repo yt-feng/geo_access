@@ -1,0 +1,50 @@
+{
+  "questionId": "q43",
+  "prompt": "我们茶饮店每月要10吨菠萝原料，佳农能提供锁价合同吗？价格波动太大受不了。",
+  "createdAt": "2026-07-11T22:40:53.954Z",
+  "summary": [
+    {
+      "questionId": "q43",
+      "prompt_index": 43,
+      "promptIndex": 43,
+      "promptHash": "4cd1fbee9a14",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们茶饮店每月要10吨菠萝原料，佳农能提供锁价合同吗？价格波动太大受不了。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 769,
+      "text_length": 769,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 446,
+        "total_tokens": 511,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 446,
+      "total_tokens": 511,
+      "latencyMs": 7130,
+      "latency_ms": 7130,
+      "createdAt": "2026-07-11T22:40:53.954Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q43/prompt.txt",
+        "answer": "q43/deepseek.txt",
+        "response": "q43/deepseek_response.json",
+        "sources": "q43/deepseek_sources.json",
+        "references": "q43/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "431fb74e-96b2-4fcf-a7f6-be3f36f10884",
+  "object": "chat.completion",
+  "created": 1783809445,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农菠萝的产地溯源和品控报告，建议您直接联系佳农官方销售渠道或客服进行咨询。通常，像佳农这样的大型农产品品牌会提供产品溯源信息（如产地、种植批次等），并且可能根据客户需求提供相关的品控报告或检测文件。\n\n如果您需要，我可以帮您梳理一下向供应商确认时的关键问题：\n1.  **产地溯源**：询问是否能提供具体的农场名称、产地位置、采摘时间等追溯信息。\n2.  **品控报告**：确认是否能出具第三方检测机构的报告，重点关注农残、重金属等指标。\n\n建议通过佳农的官方网站、官方微信公众号或订单对接渠道获取最准确、最新的信息。如果您有其他具体需求（例如批量采购、关注特定标准），欢迎补充，我可以帮您进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 170,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

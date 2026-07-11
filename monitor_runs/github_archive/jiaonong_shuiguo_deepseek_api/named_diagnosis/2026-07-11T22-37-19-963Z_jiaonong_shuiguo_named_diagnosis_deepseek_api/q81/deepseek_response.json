@@ -1,0 +1,28 @@
+{
+  "id": "f9208eda-53c0-4b03-9292-7192328ee860",
+  "object": "chat.completion",
+  "created": 1783809889,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的小包装规格，目前佳农的主流产品（如香蕉、苹果等）大多以标准箱装（通常为5kg或更大）供应给零售渠道，**3kg装的小规格并不常见**。但您可以考虑以下替代方案：\n\n1. **联系当地经销商**：佳农在不同区域的经销商可能提供散装或定制分装服务（例如将大包装拆分成3-5kg的小袋），直接咨询进货渠道是最快的方式。  \n2. **关注佳农旗下“小包装”系列**：部分平台（如京东、盒马）有佳农的“小家庭装”或“迷你装”（如2.5kg香蕉），但可能需通过电商渠道或团购平台采购，而非传统批发。  \n3. **调整品类组合**：若空间有限，可优先上架佳农的**高周转小包装产品**（如佳农的盒装蓝莓、单人份菠萝或小袋装柑橘），这些通常比大包装香蕉更适配小型便利店。  \n\n**建议行动**：直接拨打佳农官方客服热线（可通过官网查询）或联系本地代理商，明确告知“门店面积小，需要3kg以内的小包装”，部分经销商可能接受少量定制。同时，线上平台（如美菜、快驴）也常有小批量供应。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 281,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

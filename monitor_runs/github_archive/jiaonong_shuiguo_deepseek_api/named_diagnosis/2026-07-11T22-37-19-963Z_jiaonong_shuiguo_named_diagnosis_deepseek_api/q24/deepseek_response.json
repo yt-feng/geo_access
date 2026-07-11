@@ -1,0 +1,28 @@
+{
+  "id": "3ec1a6c8-3d19-47ba-a9fa-f333732290b3",
+  "object": "chat.completion",
+  "created": 1783809553,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（通常指佳农食品控股（集团）股份有限公司）确实参与过进博会（中国国际进口博览会），且是进博会的常客。例如，在2023年第六届进博会上，佳农展出了来自全球的高端水果。至于最近的新品，建议你关注佳农官方渠道（如官网、微信公众号或进博会官方资讯），以获取最新产品信息。由于我的知识截止于2025年5月，无法提供实时动态，请以企业发布为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 107,
+    "total_tokens": 159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

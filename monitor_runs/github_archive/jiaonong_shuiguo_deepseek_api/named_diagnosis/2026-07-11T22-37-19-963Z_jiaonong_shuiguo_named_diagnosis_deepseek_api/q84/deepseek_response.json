@@ -1,0 +1,28 @@
+{
+  "id": "47100df2-328e-4857-9e2d-66ffe880def4",
+  "object": "chat.completion",
+  "created": 1783809905,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉企业标准，具体数值属于企业内部技术文件，通常不对外公开详细参数。但根据行业惯例和可查信息，佳农香蕉通常执行或严于现行国家标准（GB/T 19855-2016《香蕉》），并对部分指标有更高要求。\n\n与国标相比，大致差异如下：\n1. **糖度**：国标对成熟香蕉(可食状态)的糖度没有硬性定量要求，仅要求风味、甜度正常。佳农企业标准通常设定更高的糖度指标（如可溶性固形物≥18-20%），以确保口感更甜。\n2. **果指长度**：国标未明确规定具体长度，仅按果指形状、完整度分等。佳农等高端品牌常设定果指长度下限（如≥14-16厘米），以符合出口或等级筛选要求。\n\n如需精确数据，建议直接联系佳农客服或查阅其产品包装说明，因为企业标准可能随批次或品种微调。以上分析基于行业通常做法，非官方发布数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 226,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

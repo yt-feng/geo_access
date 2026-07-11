@@ -1,0 +1,28 @@
+{
+  "id": "4e38d9e9-1c27-4146-a329-36a695d9b6c6",
+  "object": "chat.completion",
+  "created": 1783809966,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果具体的产地直供比例，目前公开资料中并未明确给出一个固定的数值。作为一家大型水果供应链企业，佳农通常采用“基地直采+一级市场分销”的模式，但具体的直供比例可能因水果品类（如香蕉、奇异果、苹果等）、季节、产地合作深度以及项目时间而动态变化。为满足贵方减少中间环节、降低成本的需求，建议直接联系佳农的销售或采购部门（如通过其官网或业务热线），询问特定品类或合作项目的产地直供比例，并可要求提供具体的直采基地分布、供应能力及价格对比方案。这样既能获取最准确信息，又能基于实际情况谈判更优采购方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 149,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
