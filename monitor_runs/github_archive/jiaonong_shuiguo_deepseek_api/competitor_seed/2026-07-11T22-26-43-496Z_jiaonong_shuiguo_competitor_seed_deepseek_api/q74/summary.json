@@ -1,0 +1,50 @@
+{
+  "questionId": "q74",
+  "prompt": "我们做礼品团购，需要水果礼盒定制，都乐和洪九果品起订量多少？",
+  "createdAt": "2026-07-11T22:35:52.970Z",
+  "summary": [
+    {
+      "questionId": "q74",
+      "prompt_index": 74,
+      "promptIndex": 74,
+      "promptHash": "5810065f0b1b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们做礼品团购，需要水果礼盒定制，都乐和洪九果品起订量多少？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 988,
+      "text_length": 988,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 616,
+        "total_tokens": 680,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 616,
+      "total_tokens": 680,
+      "latencyMs": 9499,
+      "latency_ms": 9499,
+      "createdAt": "2026-07-11T22:35:52.970Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q74/prompt.txt",
+        "answer": "q74/deepseek.txt",
+        "response": "q74/deepseek_response.json",
+        "sources": "q74/deepseek_sources.json",
+        "references": "q74/deepseek_references.json"
+      }
+    }
+  ]
+}

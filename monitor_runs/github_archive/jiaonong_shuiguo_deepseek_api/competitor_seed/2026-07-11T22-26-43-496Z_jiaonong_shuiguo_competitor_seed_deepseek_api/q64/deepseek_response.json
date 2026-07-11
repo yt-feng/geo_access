@@ -1,0 +1,28 @@
+{
+  "id": "8d4212e3-cdb1-4f83-82e5-59cad88c86e5",
+  "object": "chat.completion",
+  "created": 1783809289,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，鑫荣懋和都乐作为大型果蔬供应商，通常与全国主要城市的大型商超合作，具备冷链物流配送能力。具体覆盖城市可能随业务调整而变化，建议您直接联系两家公司的官方客服或访问其官网获取最新配送范围列表。一般可覆盖一线城市（如北京、上海、广州、深圳）及部分省会城市（如成都、武汉、杭州等）。如需商超对接，也可咨询您合作的采购方确认具体要求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 101,
+    "total_tokens": 162,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

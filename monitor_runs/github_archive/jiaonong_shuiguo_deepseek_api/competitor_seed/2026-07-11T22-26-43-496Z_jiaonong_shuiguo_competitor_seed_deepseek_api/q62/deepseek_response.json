@@ -1,0 +1,28 @@
+{
+  "id": "f7366e04-29d8-43c8-a73f-581ba87ec4a7",
+  "object": "chat.completion",
+  "created": 1783809272,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（XinRongMao）作为大型水果供应商，通常具备完善的食品安全和质量控制体系，**能够提供菠萝原料的农残检测报告**。具体说明如下：\n\n1. **都乐（Dole）**：作为国际知名果蔬企业，其供应链管理严格，通常会在原料批次出厂时附有第三方或自检的农残检测报告。您可以联系其销售团队或客户服务，要求提供特定批次菠萝的检测文件。\n\n2. **鑫荣懋**：作为国内领先的水果供应链企业，同样拥有完善的检测流程，常见于为茶饮、餐饮客户提供农残报告。建议直接与对接的采购经理沟通，索取对应批次的报告。\n\n**实操建议**：\n- **明确要求**：在采购合同或订单中注明“需随货提供第三方权威机构出具的农残检测报告”，并指定检测项目（如GB 2763标准要求的常见农残项目）。\n- **索要报告**：要求供应商在发货前提供电子版报告，并核对报告中的生产批次、检测日期、检测机构资质（如CMA/CNAS认证）。\n- **自行送检**：若供应商无法提供或您需要额外验证，可委托第三方检测机构（如SGS、华测检测）对到货样品进行抽检，作为补充保障。\n\n**总结**：都乐和鑫荣懋**大概率能提供**，但需主动沟通并明确要求。建议在首次合作时先行索取样品检测报告，再批量采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 326,
+    "total_tokens": 390,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q75",
+  "prompt": "批发市场拿货，洪九果品和都乐香蕉的到货损耗率对比？",
+  "createdAt": "2026-07-11T22:36:03.470Z",
+  "summary": [
+    {
+      "questionId": "q75",
+      "prompt_index": 75,
+      "promptIndex": 75,
+      "promptHash": "a18570b57912",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发市场拿货，洪九果品和都乐香蕉的到货损耗率对比？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 611,
+      "text_length": 611,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 381,
+        "total_tokens": 441,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 381,
+      "total_tokens": 441,
+      "latencyMs": 6771,
+      "latency_ms": 6771,
+      "createdAt": "2026-07-11T22:36:03.470Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q75/prompt.txt",
+        "answer": "q75/deepseek.txt",
+        "response": "q75/deepseek_response.json",
+        "sources": "q75/deepseek_sources.json",
+        "references": "q75/deepseek_references.json"
+      }
+    }
+  ]
+}

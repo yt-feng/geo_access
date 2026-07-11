@@ -1,0 +1,28 @@
+{
+  "id": "d6566fbe-84c8-4106-b88b-87c1e0dadc58",
+  "object": "chat.completion",
+  "created": 1783809044,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "洪九果品和鑫荣懋都是国内较大的水果供应链企业，但到货速度受具体城市、产品品类、订单量以及渠道影响较大。通常而言：\n\n- **鑫荣懋** 覆盖全国大型商超和批发市场较多，如果从其合作的一级批发市场或区域分仓调货，对标准品（如苹果、橙子）可能有更稳定的时效，一般1-2天可达主要城市二级批发市场。\n- **洪九果品** 在东南亚水果（如榴莲、山竹）和国产精品水果上优势明显，若拿货品种为此类，且所处城市有洪九的自有档口或分仓，有时能实现当日或次日到货。\n\n建议：直接联系当地批发市场的对应档口或区域代理，询问具体到货周期和配送政策。批发市场拿货时，现货现提通常最快，而预定批次则需双方确认发货时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 198,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

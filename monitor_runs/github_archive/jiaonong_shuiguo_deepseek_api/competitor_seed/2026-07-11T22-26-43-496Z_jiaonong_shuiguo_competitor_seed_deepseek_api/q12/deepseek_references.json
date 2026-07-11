@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:28:15.822Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店渠道需要小包装香蕉，鑫荣懋和都乐有没有适合的规格？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

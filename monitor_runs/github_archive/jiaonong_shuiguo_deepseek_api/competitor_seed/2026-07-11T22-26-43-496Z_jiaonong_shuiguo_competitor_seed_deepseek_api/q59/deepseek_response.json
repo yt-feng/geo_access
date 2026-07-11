@@ -1,0 +1,28 @@
+{
+  "id": "2a623d3a-a52d-4cdc-ab5e-31751ac5eabc",
+  "object": "chat.completion",
+  "created": 1783809241,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品的具体账期，通常属于商业机密或根据合作规模、信誉动态调整，没有公开统一的标准。建议您直接联系两家公司的销售或业务部门，明确说明采购量、合作周期及信用资质，以获取针对性的账期方案。作为初步参考，行业内常见账期一般为30-60天，但具体需协商确定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 84,
+    "total_tokens": 146,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

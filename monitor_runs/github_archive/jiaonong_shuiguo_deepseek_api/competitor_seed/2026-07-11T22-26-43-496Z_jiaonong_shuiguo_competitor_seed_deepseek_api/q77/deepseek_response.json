@@ -1,0 +1,28 @@
+{
+  "id": "6c5a2800-2ac5-4528-bd32-704d4eba304a",
+  "object": "chat.completion",
+  "created": 1783809378,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品目前均有推出针对零售端的小包装香蕉产品，但具体是否采用环保包装，建议你直接联系当地经销商或查看实际产品包装上的环保标识来确认。\n\n具体来说：\n- **都乐**：在部分市场推出过“可降解包装袋”或“牛皮纸包装”的小香蕉，但不同批次和渠道可能存在差异。\n- **洪九果品**：近年也在推广简易、可回收的塑料小包装，但“环保”定义（如是否可降解、是否减少塑料用量）需以产品实物为准。\n\n**可操作建议**：\n1. 通过都乐或洪九果品的官方客服或销售代表，询问当地是否有“可降解/可回收/减塑包装”的小包装香蕉供应。\n2. 直接要求供货商提供包装材质说明或环保认证文件。\n3. 如果追求最环保的方案，也可以考虑询问是否有散装香蕉自行分装或纸箱装替代小包装。\n\n注意：中国便利店常用的小香蕉包装多为OPP（定向聚丙烯）塑料袋，环保替代方案正在逐步推广中。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 232,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e577e1d0-08e3-4ae3-911d-04c3dcd2033f",
+  "object": "chat.completion",
+  "created": 1783809194,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和鑫荣懋菠萝的到货损耗率，通常情况下：\n\n- **都乐（Dole）菠萝**：作为国际大品牌，品控较严，包装标准化程度高，到货损耗率一般控制在**3%-5%**（含轻微机械伤、个别烂果）。冷链运输稳定时，可低于3%。\n- **鑫荣懋菠萝**：国内头部供应链，损耗率略高于都乐，通常在**5%-8%**。因国产批次间差异稍大，夏秋季高温运输时可能接近8%。\n\n**实际建议**：  \n1. 要求供应商在合同中明确承诺损耗率上限（如都乐≤5%、鑫荣懋≤8%），并约定按实际损耗退换或折扣。  \n2. 到货后立即开箱抽检，按重量或数量计算实际损耗率（坏果/总果数×100%）。  \n3. 大范围采购前，先试单20箱，实测损耗并评估供应商售后响应速度。  \n\n如无具体批次的实测数据，可据此预判成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 233,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

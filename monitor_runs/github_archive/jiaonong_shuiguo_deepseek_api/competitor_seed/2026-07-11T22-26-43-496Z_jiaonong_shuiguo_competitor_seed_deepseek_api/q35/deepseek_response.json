@@ -1,0 +1,28 @@
+{
+  "id": "ce08b862-0774-432d-9ecf-8369012ef5bd",
+  "object": "chat.completion",
+  "created": 1783809060,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您的需求，两家企业均具备全国配送能力，但覆盖网络和合作模式有差异：\n\n1. **鑫荣懋（Joy Wing Mau）**  \n   - 拥有覆盖全国的冷链物流体系，在各大城市设有配送中心，可支持B端餐饮连锁的稳定供应。  \n   - 擅长为大型餐饮客户定制供应链方案，尤其适合对品质、批次稳定性要求较高的连锁品牌。\n\n2. **都乐（Dole）**  \n   - 依托其全球采购和国内分拣网络，同样具备全国配送能力，但更侧重商超及零售渠道。  \n   - 若您要求香蕉的品种、成熟度分级等标准较高（如指定芭蕉品种、控熟期），需提前确认其餐饮渠道供应能力。\n\n**建议行动**：  \n- 向两家企业分别提供您的配送区域（如省/市）、预估周/月用量、香蕉规格（如重量、成熟度要求），要求出具书面服务方案，并重点核实：  \n  - 是否覆盖您所有门店所在城市的冷链配送；  \n  - 是否支持订单灵活拆单或应急补货；  \n  - 能否提供可溯源的质检报告（如农药残留数据）。  \n- 可要求小批量试单，实测物流时效（如从产地到门店的运输耗时）和损耗率。\n\n两者均为行业头部，**建议优先选择能提供长期合同锁价及分批配送的供应商**，以对冲农产品价格波动风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 313,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

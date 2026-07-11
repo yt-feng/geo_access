@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-11T22:27:45.263Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "礼品团购需要品牌水果礼盒，除了都乐和佳沛，还有哪些进口品牌可选？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

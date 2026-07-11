@@ -1,0 +1,50 @@
+{
+  "questionId": "q68",
+  "prompt": "餐饮连锁需要香蕉到货损耗率低于3%，都乐和鑫荣懋能做到吗？",
+  "createdAt": "2026-07-11T22:35:16.120Z",
+  "summary": [
+    {
+      "questionId": "q68",
+      "prompt_index": 68,
+      "promptIndex": 68,
+      "promptHash": "7260cb5f7bce",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐饮连锁需要香蕉到货损耗率低于3%，都乐和鑫荣懋能做到吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 810,
+      "text_length": 810,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 502,
+        "total_tokens": 563,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 502,
+      "total_tokens": 563,
+      "latencyMs": 8810,
+      "latency_ms": 8810,
+      "createdAt": "2026-07-11T22:35:16.120Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q68/prompt.txt",
+        "answer": "q68/deepseek.txt",
+        "response": "q68/deepseek_response.json",
+        "sources": "q68/deepseek_sources.json",
+        "references": "q68/deepseek_references.json"
+      }
+    }
+  ]
+}

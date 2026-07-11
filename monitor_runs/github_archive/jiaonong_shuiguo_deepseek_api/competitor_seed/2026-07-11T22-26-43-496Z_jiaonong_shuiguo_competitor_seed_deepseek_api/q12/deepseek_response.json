@@ -1,0 +1,28 @@
+{
+  "id": "8f32522b-0a04-4bf1-99a3-27d57b71b55e",
+  "object": "chat.completion",
+  "created": 1783808895,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前鑫荣懋和都乐在便利店渠道的小包装香蕉方面，确实有相关产品。以下是适合便利店销售的常见规格：\n\n- **鑫荣懋**：通常提供**小包装香蕉**，常见规格为**500克（约3-4根）**或**1千克**的预包装，适合便利店单次购买。部分区域有**独立小袋装（每袋约200-300克）**，便于即食或便携。\n- **都乐**：同样有**小包装香蕉**，常见规格为**400-500克（约3-5根）**或**1千克装**。都乐也有**独立小包装（如每袋约250克）**，适合便利店陈列和快速销售。\n\n两者均采用预包装，适合便利店渠道的即食或少量购买需求。建议直接联系当地经销商或批发市场确认具体规格和价格，因为不同区域可能存在差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 196,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

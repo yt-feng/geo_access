@@ -1,0 +1,28 @@
+{
+  "id": "c97cd0db-59ad-4b4f-b92f-1542cb3a0457",
+  "object": "chat.completion",
+  "created": 1783808828,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "好的，针对您想寻找除了佳沛（Zespri）之外的其他进口香蕉品牌，以下是几个在国际市场和中国市场均有较高知名度的品牌，供您参考：\n\n1. **都乐（Dole）**：全球领先的水果供应商之一，其香蕉业务非常成熟，在各大超市常见，品质稳定。\n2. **金吉达（Chiquita）**：美国老牌香蕉品牌，以蓝贴纸为标志，在中国进口香蕉市场有较高认知度。\n3. **超值（Del Monte）**：也是全球知名的新鲜水果品牌，其香蕉产品线丰富，供应稳定。\n4. **佳农（Goodfarmer）**：虽然是中国企业，但主要进口南美（如厄瓜多尔）香蕉，品牌影响力大，品质可靠。\n5. **拉美香蕉（如来自厄瓜多尔、菲律宾的散装进口香蕉）**：许多商超会直接从产地采购，虽然没有特别突出的品牌，但价格通常更优，可关注产地标签。\n\n**建议**：\n- 如果您是采购或做生鲜业务，可以先在大型批发市场（如上海辉展、广州江南等）实地考察或咨询经销商，获取当地主流的进口香蕉品牌。\n- 对于零售端，都乐和金吉达往往有更成熟的冷链和市场推广支持，适合长期合作。\n\n希望这些信息对您有实际帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 289,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

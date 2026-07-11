@@ -1,0 +1,28 @@
+{
+  "id": "f313cbdf-7eb0-43b2-a358-258c2e81426e",
+  "object": "chat.completion",
+  "created": 1783809073,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品在产地溯源方面各有特点。都乐作为国际品牌，通常有较成熟的供应链管理体系，可通过包装上的溯源码或官方平台查询产地、采摘时间等信息，透明度较高。洪九果品作为国内企业，在数字化溯源方面也有投入，但透明度可能因具体批次和区域差异。整体看，都乐在标准化和公开信息上略占优势，但洪九果品对本土市场覆盖更灵活。建议你直接联系两家供应商，索取具体批次的溯源记录，并对比其可提供的细节（如产地坐标、种植日志、运输链路等）来验证透明度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 137,
+    "total_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

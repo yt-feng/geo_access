@@ -1,0 +1,28 @@
+{
+  "id": "992aa959-4452-4ffd-94d6-8e130904e40e",
+  "object": "chat.completion",
+  "created": 1783808913,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio Group），以下是一些在中国市场口碑较好、供应链稳定的进口苹果品牌，供你参考：\n\n1. **佳沛（Zespri）**  \n   虽然以猕猴桃闻名，但佳沛也运营高品质的苹果进口业务，尤其主打新西兰苹果（如爱妃、爵士等品种），在品质和冷链管理上较为可靠。\n\n2. **爱妃（Envy）**  \n   新西兰品牌，属于太平洋玫瑰（Pacific Rose）系列的升级品种，由Bostock New Zealand等公司供应。以果肉紧实、甜度高、耐储存著称，适合高端渠道。\n\n3. **爵士（Jazz）**  \n   同样源自新西兰，由Turners & Growers（现属Dole旗下）推广。口感脆甜，酸度适中，仓储性较强。\n\n4. **青森（Aomori）**  \n   日本品牌（如世界一号、红玉等），由日本青森县农业协同组合等机构出口。主打高颜值、高甜度，适合礼品市场。注意中国对日本水果有检疫准入限制，需确认官方准入品类。\n\n5. **智利车厘子品牌（如Garces Fruit、Prize）**  \n   虽然主要做车厘子，但部分智利农场也会出口苹果（如皇家嘎啦、蜜脆），性价比高，旺季常见于批发市场。\n\n6. **美国品牌（如Stemilt、Honeybear）**  \n   Stemilt是美国华盛顿州主要苹果出口商，主打富士、嘎啦等品种；Honeybear则专注于精品苹果（如宇宙脆），适合追求独特口感的需求。\n\n7. **南非品牌（如Capespan）**  \n   Capespan是南非大型水果出口商，其苹果（如粉红佳人、绿苹果）在南半球产季（4-6月）可补充市场缺口。\n\n**选购建议**：\n- **渠道验证**：优先选择天猫国际、京东自营或国内大型连锁超市（如盒马、山姆）的进口水果区，留意包装上的原产地和批次信息。\n- **品种适配性**：对酸度敏感的消费者推荐新西兰系（如爱妃、爵士），偏爱脆甜可选美国糖心/宇宙脆，需要长期储存可选智利或南非苹果。\n- **进口政策**：部分日本苹果可能通过中国香港或澳门转售，需要确认检疫证书。若为正规渠道，可要求查看原产地证明和海关检疫标签。\n\n你可以根据实际需求（价格、口感偏好、供应周期）进一步筛选。如果需要具体品牌的供应商联系方式或近期进口批次信息，建议通过国内水果协会或专业生鲜平台咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 570,
+    "total_tokens": 631,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
