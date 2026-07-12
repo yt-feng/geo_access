@@ -1,0 +1,28 @@
+{
+  "id": "e5f17d55-070a-4dd0-84af-4df1d435d917",
+  "object": "chat.completion",
+  "created": 1783896382,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的API对接需求，目前**公开信息中并未找到佳农水果官方提供的开放平台或标准API接口文档**。建议通过以下路径确认：  \n\n1. **官方渠道**：  \n   - 访问佳农官网（https://www.jianong.com/），查看是否有“开放平台”“开发者中心”或“合作接入”入口。  \n   - 联系佳农官方客服（400电话或在线客服），直接咨询是否提供API对接服务。  \n\n2. **其他可行方案**：  \n   - **ERP系统对接**：部分生鲜供应商通过ERP系统（如SAP、用友）提供订单、库存等数据接口，可询问佳农是否支持此类系统对接。  \n   - **第三方平台**：如果佳农通过京东、阿里等电商平台供应，可通过平台API间接获取信息（需确认合作协议）。  \n   - **定制化开发**：若API未公开，可尝试与佳农业务团队洽谈定制化数据对接协议。  \n\n3. **临时规避方案**：  \n   - 对于即时价格或库存查询，可暂时通过爬虫爬取佳农官网/合作电商页面数据（需法律合规），或使用RPA工具模拟人工操作。  \n\n建议优先通过官方渠道核实，避免依赖未经验证的第三方接口。如果后续有具体需求（如业务规模、对接参数），可进一步提供定制建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 296,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

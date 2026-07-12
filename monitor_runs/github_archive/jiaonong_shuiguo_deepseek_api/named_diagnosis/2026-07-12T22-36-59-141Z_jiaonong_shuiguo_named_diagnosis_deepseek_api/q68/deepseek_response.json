@@ -1,0 +1,28 @@
+{
+  "id": "2e464f0c-e8bb-4734-b10b-57b66c345e93",
+  "object": "chat.completion",
+  "created": 1783896202,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的ERP系统是否提供API接口，以及具体对接方式，建议直接联系佳农水果的官方商务或技术支持团队获取最准确的信息。以下是一些通用建议供参考：\n\n1. **官方渠道确认**  \n   - 通过佳农水果官网、客服电话或商务合作邮箱，询问其ERP系统是否支持API开放，以及接口文档和技术规范。\n   - 可说明“需与生鲜电商平台（如自建商城、美团、京东等）进行订单、库存、物流数据同步”。\n\n2. **常见对接方式**  \n   - **开放API**：如果佳农提供RESTful或SOAP接口，可要求获取《API接口文档》及测试环境。\n   - **中间件/第三方平台**：部分ERP厂商（如SAP、用友等）可能通过数据中台或EDI服务对接。\n   - **人工/半自动化**：若无标准API，可协商通过Excel导入、FTP文件交换或定制开发。\n\n3. **技术注意事项**  \n   - 明确需要交互的数据类型：商品信息、库存变动、订单推送、物流状态、账务等。\n   - 确认接口频率限制（如每秒请求次数）、认证方式（如API密钥、OAuth2.0）。\n   - 要求提供沙箱环境，完成联调测试后再上线。\n\n4. **替代方案**  \n   - 若佳农暂无API，可询问其是否支持第三方ERP接口（如旺店通、聚水潭等电商ERP），或通过其合作电商平台（如京东、天猫）的开放接口间接获取数据。\n\n建议直接通过佳农官方渠道推进，同时准备好自身系统的接口文档（如接受JSON/XML格式），便于双方技术评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 368,
+    "total_tokens": 426,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

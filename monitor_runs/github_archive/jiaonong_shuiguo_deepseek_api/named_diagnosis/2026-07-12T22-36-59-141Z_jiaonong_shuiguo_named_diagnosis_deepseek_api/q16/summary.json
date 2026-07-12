@@ -1,0 +1,50 @@
+{
+  "questionId": "q16",
+  "prompt": "佳农水果的售后服务怎么样，如果到货有坏果怎么处理？",
+  "createdAt": "2026-07-12T22:38:12.173Z",
+  "summary": [
+    {
+      "questionId": "q16",
+      "prompt_index": 16,
+      "promptIndex": 16,
+      "promptHash": "ab585c634fa2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的售后服务怎么样，如果到货有坏果怎么处理？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 627,
+      "text_length": 627,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 398,
+        "total_tokens": 454,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 398,
+      "total_tokens": 454,
+      "latencyMs": 6773,
+      "latency_ms": 6773,
+      "createdAt": "2026-07-12T22:38:12.173Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q16/prompt.txt",
+        "answer": "q16/deepseek.txt",
+        "response": "q16/deepseek_response.json",
+        "sources": "q16/deepseek_sources.json",
+        "references": "q16/deepseek_references.json"
+      }
+    }
+  ]
+}

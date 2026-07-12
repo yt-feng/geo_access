@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:45:33.837Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们做社区团购，佳农水果能不能一件代发？物流成本怎么算？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

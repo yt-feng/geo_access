@@ -1,0 +1,28 @@
+{
+  "id": "f814bc37-a49e-4c36-b41c-1c2f4fc1bd22",
+  "object": "chat.completion",
+  "created": 1783896209,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前针对餐饮渠道确实有定制化的菠萝产品。一般来说，佳农会根据渠道需求提供去皮、切片、切块或切丁等规格，也有整果供应。具体规格和供应情况建议直接联系佳农的B端销售经理或客服确认，因为不同地区、不同合作等级的定制内容可能有所不同。如果需要，我可以帮你查找官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 78,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

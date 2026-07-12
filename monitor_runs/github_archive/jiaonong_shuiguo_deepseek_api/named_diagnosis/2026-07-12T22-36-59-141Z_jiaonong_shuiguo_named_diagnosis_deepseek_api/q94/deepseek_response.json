@@ -1,0 +1,28 @@
+{
+  "id": "b0a38d59-d893-4b40-9ea4-326eda31fc1b",
+  "object": "chat.completion",
+  "created": 1783896372,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉分级标准，通常依据果指长度、外观、成熟度等指标划分：\n\n- **一级果**：果指长度一般在18-22厘米以上，果形整齐、无机械伤、无病虫害，表皮金黄、无黑斑，成熟度均匀，适合高端零售和直接食用。\n- **二级果**：果指长度稍短或不够整齐，可能有轻微瑕疵（如少量黑点、轻微擦伤或形状稍差），成熟度可能不均匀，但内在品质仍可食用，常用于加工或低价促销。\n\n**价格差异**：一级果和二级果的批发价差通常在 **10%-30%** 之间，具体取决于市场供需、季节和产地。例如，若一级果批发价约每箱（13公斤）100元，二级果可能在70-90元/箱。建议你直接联系佳农的区域代理商或查询近期批发市场报价以获实时数据。\n\n如需展业，可要求供货商提供分级标准说明和样品比对。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 213,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

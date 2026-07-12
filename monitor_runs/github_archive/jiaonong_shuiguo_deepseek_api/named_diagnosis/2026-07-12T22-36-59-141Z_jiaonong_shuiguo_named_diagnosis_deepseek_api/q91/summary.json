@@ -1,0 +1,50 @@
+{
+  "questionId": "q91",
+  "prompt": "佳农水果的客户服务是7x24小时吗？我们晚上下单，第二天能发货吗？",
+  "createdAt": "2026-07-12T22:45:54.494Z",
+  "summary": [
+    {
+      "questionId": "q91",
+      "prompt_index": 91,
+      "promptIndex": 91,
+      "promptHash": "69755fe38a28",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的客户服务是7x24小时吗？我们晚上下单，第二天能发货吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 273,
+      "text_length": 273,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 157,
+        "total_tokens": 219,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 157,
+      "total_tokens": 219,
+      "latencyMs": 2770,
+      "latency_ms": 2770,
+      "createdAt": "2026-07-12T22:45:54.494Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q91/prompt.txt",
+        "answer": "q91/deepseek.txt",
+        "response": "q91/deepseek_response.json",
+        "sources": "q91/deepseek_sources.json",
+        "references": "q91/deepseek_references.json"
+      }
+    }
+  ]
+}

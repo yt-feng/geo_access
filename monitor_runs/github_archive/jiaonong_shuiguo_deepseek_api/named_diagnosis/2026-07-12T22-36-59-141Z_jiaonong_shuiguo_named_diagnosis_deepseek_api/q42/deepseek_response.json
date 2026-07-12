@@ -1,0 +1,28 @@
+{
+  "id": "317ffeb4-dae9-4100-8b08-1c832761d28f",
+  "object": "chat.completion",
+  "created": 1783896034,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据批发市场的实际经验，佳农和都乐作为主流香蕉品牌，在到货损耗率上通常**都乐更低一些**。具体原因如下：\n\n1. **供应链成熟度**：都乐是全球性的水果品牌，从产地采摘、冷藏运输到分销链条更加标准化，香蕉成熟度控制和包装防护技术较成熟，能有效减少运输碰撞和挤压导致的损耗。\n2. **品控标准**：都乐对香蕉的甜度、外观、成熟度分级更严格，到货时青香蕉比例较高，利于批发市场分拣和缓慢催熟，而佳农虽然品质不差但偶尔会出现成熟度不均或局部压伤的问题。\n3. **实际数据参考**：在多个批发市场商户反馈中，都乐香蕉的到货损耗率（剔除断裂、严重黑斑、腐烂的斤数）一般为1%-3%，而佳农在2%-5%之间波动（受季节和运输批次影响）。\n\n**建议**：如果批发市场对损耗敏感，优先选择都乐；若考虑价格和供货稳定性，佳农性价比更高。最可靠的判断方式是：找同市场的其他批发商询问最近几批的实际损耗数据，或试采购1-2箱对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 258,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

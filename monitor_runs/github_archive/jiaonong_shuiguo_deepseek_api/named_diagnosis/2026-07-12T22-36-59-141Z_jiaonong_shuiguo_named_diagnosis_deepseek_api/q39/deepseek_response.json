@@ -1,0 +1,28 @@
+{
+  "id": "ed045ab8-d730-4f27-a84d-ab3169614d2e",
+  "object": "chat.completion",
+  "created": 1783896013,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）作为国内知名的水果品牌，其香蕉在市场上确实享有较高的消费者认知度。佳农香蕉通常以品质稳定、外观均匀、口感香甜著称，且品牌在市场推广和渠道覆盖方面投入较多，因此在超市、电商平台等渠道常见。与无品牌香蕉相比，消费者对佳农这类品牌香蕉的信任度更高，尤其关注食品安全和产地溯源的消费者会更倾向于选择。总体来看，佳农香蕉在品牌化和标准化方面具备较强优势，但在不同地区或消费群体中，认知度可能存在差异（例如三四线城市可能稍弱于一线城市）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 127,
+    "total_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

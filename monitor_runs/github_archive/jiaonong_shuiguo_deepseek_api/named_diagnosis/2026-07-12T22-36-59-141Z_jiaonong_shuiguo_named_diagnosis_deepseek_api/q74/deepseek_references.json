@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:43:56.054Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们连锁超市想和佳农签长期合同，账期能到45天吗？首批铺货能不能给点支持？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

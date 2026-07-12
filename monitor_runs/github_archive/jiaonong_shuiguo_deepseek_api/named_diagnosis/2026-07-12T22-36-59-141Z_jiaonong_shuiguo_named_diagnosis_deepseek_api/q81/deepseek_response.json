@@ -1,0 +1,28 @@
+{
+  "id": "5001ddb4-6fb6-47c5-8f55-f068aadba74b",
+  "object": "chat.completion",
+  "created": 1783896288,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法实时查询佳农水果的具体产品库存或规格详情，因此不能确认是否提供3kg装香蕉等小包装规格。建议您直接联系佳农官方客服、区域代理商或访问其官网/电商平台，查询符合小店需求的小包装产品（如3kg、5kg装等）。根据行业经验，部分品牌会针对便利店推出小包装规格，但具体以官方信息为准。您也可以向同行或佳农销售代表咨询定制化包装方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 106,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "db2fd450-056e-4e34-aaf4-9af1b53de1e1",
+  "object": "chat.completion",
+  "created": 1783895863,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在市场上口碑不错，相比普通菠萝，主要有以下特点：\n\n1. **口感**：佳农菠萝通常选用甜度高、酸度低的品种（如菲律宾菠萝或海南金钻菠萝），果肉纤维较细，汁水充足，口感更甜、更软糯，几乎没有普通菠萝常见的“扎嘴”或涩味。如果你喜欢纯甜、无需泡盐水的菠萝，佳农是不错的选择。\n\n2. **供货稳定性**：佳农在国内有成熟的供应链和冷链运输网络，全年大多数时间都能在大型商超（如盒马、山姆、永辉等）或线上平台买到，断货情况较少。但受季节和产地（比如菲律宾台风季或海南冬季）影响，偶尔会出现短暂缺货，不过相比小品牌或散装菠萝，其稳定性和标准化程度更高。\n\n**总结建议**：如果你追求口感稳定、甜度高且方便购买，佳农是可靠且值得复购的品牌。如果对价格敏感，可以对比当地应季散装菠萝，但在口感和一致稳定性上佳农通常更胜一筹。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 230,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

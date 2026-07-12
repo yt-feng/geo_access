@@ -1,0 +1,28 @@
+{
+  "id": "a5c88c1e-987b-4c73-8e89-a6e53ec0c88f",
+  "object": "chat.completion",
+  "created": 1783896156,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉企业标准通常是**企标**（企业标准），即佳农根据自身产品品质要求制定的内部标准，通常会高于国家推荐性标准（如GB/T 19377-2003《香蕉》等）。具体标准号可能为**Q/JN 001-2023**（示例，实际以产品包装或官网公示为准）。\n\n关于价格差异，佳农香蕉（尤其是精品、有机或特定产区系列）**通常比普通香蕉贵20%-60%**。例如：\n- 普通香蕉市场价约 3-5元/斤；\n- 佳农普通级香蕉约 4-6元/斤；\n- 佳农精选或有机香蕉可能达到 8-12元/斤。\n\n具体价格受季节、区域、促销等因素影响，建议参考当地超市或电商平台实时标价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 178,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

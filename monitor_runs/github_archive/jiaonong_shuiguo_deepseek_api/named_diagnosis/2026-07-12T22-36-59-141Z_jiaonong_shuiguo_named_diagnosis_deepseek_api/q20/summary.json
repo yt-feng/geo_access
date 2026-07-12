@@ -1,0 +1,50 @@
+{
+  "questionId": "q20",
+  "prompt": "佳农水果能提供菠萝的定制化加工服务吗？比如切块或包装？",
+  "createdAt": "2026-07-12T22:38:32.671Z",
+  "summary": [
+    {
+      "questionId": "q20",
+      "prompt_index": 20,
+      "promptIndex": 20,
+      "promptHash": "e14206326106",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果能提供菠萝的定制化加工服务吗？比如切块或包装？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 266,
+      "text_length": 266,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 159,
+        "total_tokens": 218,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 159,
+      "total_tokens": 218,
+      "latencyMs": 3052,
+      "latency_ms": 3052,
+      "createdAt": "2026-07-12T22:38:32.671Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q20/prompt.txt",
+        "answer": "q20/deepseek.txt",
+        "response": "q20/deepseek_response.json",
+        "sources": "q20/deepseek_sources.json",
+        "references": "q20/deepseek_references.json"
+      }
+    }
+  ]
+}

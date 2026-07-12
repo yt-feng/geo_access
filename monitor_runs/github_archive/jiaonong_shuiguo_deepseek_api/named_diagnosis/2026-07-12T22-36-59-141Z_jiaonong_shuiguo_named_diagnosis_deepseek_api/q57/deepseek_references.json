@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:42:18.549Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "香蕉的到货损耗率行业平均是5%，佳农能控制在多少？有赔付条款吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

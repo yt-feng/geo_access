@@ -1,0 +1,28 @@
+{
+  "id": "8c420176-3b74-4309-9470-a7601e9a3e72",
+  "object": "chat.completion",
+  "created": 1783895939,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络采用 **“自营+外包”混合模式**，其中核心冷链环节以自营为主，区域配送及末端部分依赖外包合作。  \n冷链能力方面：  \n- 拥有自有冷链车队及多温层仓储（如-18℃冷冻、0-4℃冷藏、常温），覆盖主要城市；  \n- 在水果主产区（如广西、云南、海南）和分拨中心配备预冷设备，支持从采摘到配送的全链路控温；  \n- 末端配送通常与顺丰、京东物流等合作，实现“最后一公里”生鲜级冷链覆盖。  \n\n整体冷链能力在国内水果行业处于头部水平，尤其对进口及高端水果（如智利车厘子、泰国榴莲）的跨区域运输有成熟管控方案。  \n如需具体城市的时效或合作商名称，建议联系佳农官方客服获取最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 190,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

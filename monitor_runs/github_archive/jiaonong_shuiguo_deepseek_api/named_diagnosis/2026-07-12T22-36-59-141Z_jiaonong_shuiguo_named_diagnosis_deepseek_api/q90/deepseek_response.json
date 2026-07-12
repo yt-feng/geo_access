@@ -1,0 +1,28 @@
+{
+  "id": "70fcc116-9377-44e9-bbfb-115b7af227e9",
+  "object": "chat.completion",
+  "created": 1783896349,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Dominos/佳农食品）是否提供冷冻菠萝丁，我目前无法从公开资料中直接核实到确切的产品线细节。不过，佳农作为知名水果品牌，通常主营业务是新鲜水果（如菠萝、香蕉等），其冷冻深加工产品（如冷冻丁）需要以官方信息为准。\n\n**建议您通过以下方式获取准确信息：**\n1. **直接联系佳农官方客服**（可通过其官网、官方旗舰店或电话咨询），询问是否有“冷冻菠萝丁”产品及其规格（常见规格如1kg/袋、2.5kg/袋等）。\n2. **查阅其线上批发平台**（如1688、京东企业购等），搜索“佳农 冷冻菠萝丁”查看在售规格和包装。\n3. **备选方案**：如果佳农不提供冷冻丁，市面上常见的冷冻菠萝丁供应商有：绿洲、海欣、乐事等，通常规格为1kg、2.5kg或5kg/袋（冷冻品需冷链运输）。\n\n请务必以官方答复为准，避免使用未核实的信息。如果需要进一步帮助，可以告诉我您所在的城市或用量，我可以提供更具体的采购渠道建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 255,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

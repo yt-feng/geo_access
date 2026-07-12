@@ -1,0 +1,28 @@
+{
+  "id": "f235c029-038b-48d2-82a4-15f0dff3950f",
+  "object": "chat.completion",
+  "created": 1783895834,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否有针对长期合作的账期方案，我无法提供确切的官方信息，因为这通常涉及商业条款且可能因合作规模、区域及具体协议而异。建议您直接联系佳农水果的销售或客户服务团队，说明您的合作意向和需求，他们能提供最准确的账期政策或定制化方案。如果方便，您也可通过其官网或官方渠道查询合作流程，或参考行业内的常见做法（如月度结算、季度结算等）。希望这能帮到您！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 110,
+    "total_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

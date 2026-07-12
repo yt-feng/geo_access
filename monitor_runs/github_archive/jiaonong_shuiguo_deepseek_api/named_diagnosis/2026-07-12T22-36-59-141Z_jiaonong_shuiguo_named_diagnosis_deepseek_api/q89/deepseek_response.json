@@ -1,0 +1,28 @@
+{
+  "id": "e4eb6ef0-ab11-41a2-9f53-82fab349bd90",
+  "object": "chat.completion",
+  "created": 1783896345,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果产品，根据我的了解，佳农（Goodfarmer）主要经营进口水果、国产精品水果及其它生鲜产品。至于佳农是否提供红富士苹果以及新疆阿克苏苹果，建议您通过以下方式确认：\n\n1. **直接联系佳农官方客服**或访问其官网、电商平台旗舰店（如京东、天猫等）查询产品列表，了解当前供应的苹果品种和产地。\n2. 新疆阿克苏苹果通常以“阿克苏苹果”或“冰糖心苹果”为特色，佳农可能有此类产品，但具体品种（如红富士）是否涵盖，需由其官方确认。\n\n如果您有采购需求，我建议进一步提供联系方式或具体采购量，我可以帮您搜索佳农相关的采购渠道或联系方式。不过请注意，我无法直接为您生成不存在的链接或数据。希望这些信息对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 188,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

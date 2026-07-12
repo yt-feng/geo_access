@@ -1,0 +1,28 @@
+{
+  "id": "f87cf605-29f2-4613-b0b4-5f90056e6bc5",
+  "object": "chat.completion",
+  "created": 1783895924,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类整体表现不错，具有以下特点：\n\n1. **品质稳定**：佳农作为国内知名水果品牌，注重供应链管理，苹果的果形、甜度和新鲜度通常比较稳定，尤其主打的红富士、嘎啦等品种口感较好。\n\n2. **多产区覆盖**：除了国内优质产区（如陕西、山东、新疆等），佳农也会根据季节引进进口苹果。\n\n**关于进口苹果**：\n佳农确实有进口苹果，常见的有：\n- **新西兰爱妃（Envy）**：以脆甜多汁著称，果肉不易氧化。\n- **美国华盛顿蛇果（Red Delicious）**：色泽鲜艳，口感甜中带酸。\n- **智利青苹果（Granny Smith）**：酸度高，适合烘焙或偏好酸甜口味的人群。\n\n**选购建议**：\n- 若追求口感脆甜，优先选国产红富士或新西兰爱妃。\n- 若喜欢独特风味或送礼，可选美国蛇果或智利青苹果。\n- 建议关注产品包装上的产地信息，或咨询佳农官方客服确认当前在售的具体品种和产地。\n\n总的来说，佳农苹果品类丰富，进口和国产都有不错选择，但具体批次的口感和新鲜度可能因季节和储运而略有差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 272,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

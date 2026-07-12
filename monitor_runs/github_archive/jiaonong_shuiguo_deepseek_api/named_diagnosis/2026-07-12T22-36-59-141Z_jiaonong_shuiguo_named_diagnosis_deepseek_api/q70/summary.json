@@ -1,0 +1,50 @@
+{
+  "questionId": "q70",
+  "prompt": "佳农水果的香蕉供货稳定性怎么样？我们商超旺季一天要卖10吨，能保证不断货吗？",
+  "createdAt": "2026-07-12T22:43:32.145Z",
+  "summary": [
+    {
+      "questionId": "q70",
+      "prompt_index": 70,
+      "promptIndex": 70,
+      "promptHash": "eeca9f4d4acc",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉供货稳定性怎么样？我们商超旺季一天要卖10吨，能保证不断货吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 652,
+      "text_length": 652,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 404,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 404,
+      "total_tokens": 469,
+      "latencyMs": 7055,
+      "latency_ms": 7055,
+      "createdAt": "2026-07-12T22:43:32.145Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q70/prompt.txt",
+        "answer": "q70/deepseek.txt",
+        "response": "q70/deepseek_response.json",
+        "sources": "q70/deepseek_sources.json",
+        "references": "q70/deepseek_references.json"
+      }
+    }
+  ]
+}

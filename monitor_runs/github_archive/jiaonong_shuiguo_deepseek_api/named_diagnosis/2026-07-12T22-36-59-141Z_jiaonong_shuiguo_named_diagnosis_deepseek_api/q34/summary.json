@@ -1,0 +1,50 @@
+{
+  "questionId": "q34",
+  "prompt": "佳农水果的配送中心有多少个？能覆盖我们三线城市吗？",
+  "createdAt": "2026-07-12T22:39:47.070Z",
+  "summary": [
+    {
+      "questionId": "q34",
+      "prompt_index": 34,
+      "promptIndex": 34,
+      "promptHash": "e2d52c27f0a9",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的配送中心有多少个？能覆盖我们三线城市吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 306,
+      "text_length": 306,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 171,
+        "total_tokens": 227,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 171,
+      "total_tokens": 227,
+      "latencyMs": 3348,
+      "latency_ms": 3348,
+      "createdAt": "2026-07-12T22:39:47.070Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q34/prompt.txt",
+        "answer": "q34/deepseek.txt",
+        "response": "q34/deepseek_response.json",
+        "sources": "q34/deepseek_sources.json",
+        "references": "q34/deepseek_references.json"
+      }
+    }
+  ]
+}

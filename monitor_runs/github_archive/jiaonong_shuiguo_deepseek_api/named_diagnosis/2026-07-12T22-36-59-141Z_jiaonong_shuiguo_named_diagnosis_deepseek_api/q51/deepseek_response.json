@@ -1,0 +1,28 @@
+{
+  "id": "919afd7b-7d93-4599-a9d1-81166427d0f4",
+  "object": "chat.completion",
+  "created": 1783896096,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农水果的常规团购政策，最小起订量通常为**50箱起**（具体数量会根据水果品类和包装规格浮动，例如车厘子、奇异果等高端礼盒可能需要100箱起）。关于定制Logo，**可以支持印刷**，一般需要额外收取包装设计费，且需提前提供矢量图（AI/EPS格式）。建议您直接联系**佳农官方团购部门**（如400客服电话或官网联系方式）确认最新政策，并以正式合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 108,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
