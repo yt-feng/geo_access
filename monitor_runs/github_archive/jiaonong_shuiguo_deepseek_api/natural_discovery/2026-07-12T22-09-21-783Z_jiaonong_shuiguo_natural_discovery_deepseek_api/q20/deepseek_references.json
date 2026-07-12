@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:11:48.058Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区超市想找能每天配送的水果供应商，应该看哪些条件？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

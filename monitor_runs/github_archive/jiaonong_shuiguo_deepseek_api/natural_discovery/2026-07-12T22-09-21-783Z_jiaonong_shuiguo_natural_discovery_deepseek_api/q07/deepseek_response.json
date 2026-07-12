@@ -1,0 +1,28 @@
+{
+  "id": "d19ef653-e623-49b2-92b3-054363d2662d",
+  "object": "chat.completion",
+  "created": 1783894216,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "推荐以下几种经过市场验证的搭配方案，兼顾美观、实用和销量：\n\n1. **经典红火款**（适合送礼、年节）  \n   - 苹果（红富士） + 橙子（脐橙） + 火龙果（红心） + 小番茄/草莓  \n   - 主色调红、橙、黄，喜庆。苹果寓意平安，橙子寓意心想事成。\n\n2. **健康轻食款**（受欢迎度高）  \n   - 苹果 + 橙子 + 香蕉 + 猕猴桃 + 蓝莓  \n   - 颜色丰富，水果种类多，适合家庭日常或探病。香蕉补充能量，蓝莓提升品质感。\n\n3. **热带风情款**（夏季或差异化）  \n   - 菠萝 + 芒果 + 百香果 + 香蕉 + 青柠  \n   - 用菠萝做容器或切块装饰，搭配颜色鲜艳的热带水果，年轻人和烘焙爱好者喜欢。\n\n4. **高端精致款**（高毛利）  \n   - 进口红蛇果 + 新奇士橙 + 金手指香蕉 + 菠萝（凤梨） + 石榴  \n   - 水果个头均匀，包装用软纸分隔，定价可翻倍。\n\n**操作建议**：  \n- 每盒控制在4-6种水果，避免杂乱。  \n- 香蕉单独用隔层保护（压坏影响卖相）。  \n- 菠萝提前削皮切块，搭配密封盒装，方便即食。  \n- 挂牌写上寓意（如苹果=平安，橙子=成功），提升附加值。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 338,
+    "total_tokens": 398,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

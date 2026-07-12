@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:16:06.446Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店担心水果口味波动，采购时要不要固定产地或供应批次？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

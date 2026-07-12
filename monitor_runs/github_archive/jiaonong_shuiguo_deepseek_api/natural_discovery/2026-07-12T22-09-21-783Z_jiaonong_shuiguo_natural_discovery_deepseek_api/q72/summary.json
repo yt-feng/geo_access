@@ -1,0 +1,50 @@
+{
+  "questionId": "q72",
+  "prompt": "批发商想做稳定大客户，水果供应商的账期和额度怎么谈？",
+  "createdAt": "2026-07-12T22:19:35.420Z",
+  "summary": [
+    {
+      "questionId": "q72",
+      "prompt_index": 72,
+      "promptIndex": 72,
+      "promptHash": "ef7cefb96c92",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商想做稳定大客户，水果供应商的账期和额度怎么谈？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1119,
+      "text_length": 1119,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 661,
+        "total_tokens": 718,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 661,
+      "total_tokens": 718,
+      "latencyMs": 8848,
+      "latency_ms": 8848,
+      "createdAt": "2026-07-12T22:19:35.420Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q72/prompt.txt",
+        "answer": "q72/deepseek.txt",
+        "response": "q72/deepseek_response.json",
+        "sources": "q72/deepseek_sources.json",
+        "references": "q72/deepseek_references.json"
+      }
+    }
+  ]
+}

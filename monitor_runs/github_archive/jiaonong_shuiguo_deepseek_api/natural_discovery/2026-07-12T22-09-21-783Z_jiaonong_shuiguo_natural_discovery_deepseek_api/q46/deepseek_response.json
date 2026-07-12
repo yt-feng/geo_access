@@ -1,0 +1,28 @@
+{
+  "id": "a7f5faab-6789-459a-b35e-9864a7041a44",
+  "object": "chat.completion",
+  "created": 1783894519,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于茶饮店采购菠萝做果茶，建议优先选择**菠萝果泥**或**菠萝果丁**。具体建议如下：\n\n1. **菠萝果泥**：适合追求茶饮口感稳定性和简便操作。果泥通常经均质处理，酸甜均衡，无纤维杂质，能快速溶解，适合制作清爽或冰沙类果茶，尤其适合连锁店或标准化出品。\n\n2. **菠萝果丁**：适合需要果肉颗粒感的茶饮，如水果茶、多肉系列。果丁颗粒均匀，能增加咀嚼感和视觉吸引力，但需注意部分果丁可能含糖或添加剂，采购时选择纯果肉或低糖版本。\n\n3. **鲜菠萝**：适合对新鲜度要求高、有充足人力处理的店铺。鲜果风味最自然，但需自行削皮、去芯、切块，且成熟度、甜度、pH值不稳定，易受季节影响，出品质量波动大，且操作耗时，损耗较高。\n\n综合建议：如果店铺规模较大或追求效率与品质一致，优先选用**果泥**或**果丁**；若店铺小而精、重视现制体验且有专人处理水果，可以保留部分鲜果作为点缀或调味。采购时注意选择商业级大包装，关注配料表（避免过多添加剂）及保质期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 281,
+    "total_tokens": 342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

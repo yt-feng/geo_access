@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:20:35.018Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区团购做水果团，香蕉和菠萝这种高损耗品怎么控制售后？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2ca2ed7d-c040-4e73-9458-713333354c3f",
+  "object": "chat.completion",
+  "created": 1783894850,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该优先问**配送**。原因是：\n\n1. **配送决定了用户体验**：水果是生鲜，破损、腐烂、延误直接导致售后。如果配送不稳定，再便宜的价格、再好的售后承诺都没用——团长会每天被群友吐槽。\n2. **配送直接决定你的利润**：断货、到货晚、品控差（配送过程中磕碰）会造成大量坏果，你需要频繁退款或换货，无形中增加成本，团长在群里的信誉也会快速下滑。\n3. **价格和售后可以后期谈**：如果配送有保障，你可以要求供应商给阶梯价或长期折扣。售后问题（如坏果赔付比例、补发时效）也可以按配送表现来约定——配送差，售后条款写得再漂亮也是空头支票。\n\n**正确顺序是**：配送（到货准时率、冷链能力、破损率）> 售后（赔付标准、响应速度）> 价格（性价比）。\n\n建议你面试供应商时，先问清楚：**“你们的配送时效是多久？能否做到48小时内到货？坏果率控制在多少？如果延期或破损，怎么赔？”** 如果配送说不清，直接跳过。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 250,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

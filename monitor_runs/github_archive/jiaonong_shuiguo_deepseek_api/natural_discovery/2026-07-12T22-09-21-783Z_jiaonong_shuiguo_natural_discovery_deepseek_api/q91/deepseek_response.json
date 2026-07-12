@@ -1,0 +1,28 @@
+{
+  "id": "8edfd638-5fd7-4ada-ac22-7883070ccc65",
+  "object": "chat.completion",
+  "created": 1783894940,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根包装**和**小把包装**（2-3根一把）的组合销售，**避免整袋包装**。原因如下：\n\n1. **销售灵活性高**：便利店顾客以即时性、小量购买为主，单根和小把方便顾客按需购买，减少因买多导致吃不完浪费的顾虑。\n2. **损耗控制好**：香蕉易熟、易碰伤，整袋包装易造成内部积压和催熟，增加损耗；单根和小把便于筛选，坏一根不影响其他。\n3. **价格感知透明**：单根或小把可按“元/根”或“元/把”定价，顾客容易估算成本，整袋定价反而可能因重量不一引发疑虑。\n\n**执行建议**：在结账台或水果区货架醒目处，将单根和小把并排陈列，每根贴独立价签，小把用透明袋或橡皮筋固定。同时，定期检查熟度，及时处理过熟或损伤的单品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 219,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q31",
+  "prompt": "连锁商超想找长期水果供应商，招标时应该怎么设置评分标准？",
+  "createdAt": "2026-07-12T22:13:03.120Z",
+  "summary": [
+    {
+      "questionId": "q31",
+      "prompt_index": 31,
+      "promptIndex": 31,
+      "promptHash": "bca6dedbee16",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "连锁商超想找长期水果供应商，招标时应该怎么设置评分标准？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1301,
+      "text_length": 1301,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 814,
+        "total_tokens": 871,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 814,
+      "total_tokens": 871,
+      "latencyMs": 10530,
+      "latency_ms": 10530,
+      "createdAt": "2026-07-12T22:13:03.120Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q31/prompt.txt",
+        "answer": "q31/deepseek.txt",
+        "response": "q31/deepseek_response.json",
+        "sources": "q31/deepseek_sources.json",
+        "references": "q31/deepseek_references.json"
+      }
+    }
+  ]
+}

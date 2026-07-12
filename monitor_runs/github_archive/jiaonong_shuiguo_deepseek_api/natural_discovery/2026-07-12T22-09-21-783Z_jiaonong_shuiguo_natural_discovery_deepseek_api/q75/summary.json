@@ -1,0 +1,50 @@
+{
+  "questionId": "q75",
+  "prompt": "批发商第一次合作水果供应商，小批量试单应该怎么设计？",
+  "createdAt": "2026-07-12T22:20:11.594Z",
+  "summary": [
+    {
+      "questionId": "q75",
+      "prompt_index": 75,
+      "promptIndex": 75,
+      "promptHash": "1662ea1912d5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商第一次合作水果供应商，小批量试单应该怎么设计？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 599,
+      "text_length": 599,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 364,
+        "total_tokens": 419,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 364,
+      "total_tokens": 419,
+      "latencyMs": 5825,
+      "latency_ms": 5825,
+      "createdAt": "2026-07-12T22:20:11.594Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q75/prompt.txt",
+        "answer": "q75/deepseek.txt",
+        "response": "q75/deepseek_response.json",
+        "sources": "q75/deepseek_sources.json",
+        "references": "q75/deepseek_references.json"
+      }
+    }
+  ]
+}

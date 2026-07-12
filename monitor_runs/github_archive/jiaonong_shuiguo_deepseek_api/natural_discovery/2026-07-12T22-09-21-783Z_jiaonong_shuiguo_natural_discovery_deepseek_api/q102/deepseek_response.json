@@ -1,0 +1,28 @@
+{
+  "id": "4ecd4ab8-6590-44b9-bbb0-657c1a8c60fc",
+  "object": "chat.completion",
+  "created": 1783895026,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，企业在采购水果礼盒作为员工福利时，通常需要供应商支持以下两点：\n\n1. **支持开发票**：企业需要合规的发票用于财务报销和税务抵扣，建议优先选择能开具**增值税专用发票**（可抵扣进项税）或**普通发票**的供应商。合作前需确认发票内容（如“水果礼盒”或明细项目）和税率（农产品通常为免税或低税率）。\n\n2. **支持定制包装**：企业福利可能需要加入公司Logo、祝福语或个性化设计，以提升品牌形象或员工归属感。需确认包装材质、成本、起订量（如100份起）以及定制周期，避免影响发货。\n\n**建议**：  \n- 筛选供应商时，可要求对方提供**发票样本**和**包装样品**，明确税费、定制费用是否包含在报价中。  \n- 若采购量大或时间紧张，优先选择资质齐全（如食品经营许可证）、口碑较好的供应商，确保售后和时效。  \n\n最终选择需结合预算、需求及合同条款确认，确保发票合规与包装效果达标。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 232,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

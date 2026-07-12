@@ -1,0 +1,28 @@
+{
+  "id": "4cfca128-d792-4abe-8184-41eebb9a0fcf",
+  "object": "chat.completion",
+  "created": 1783894928,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于价格敏感的团购客户，**阶梯价**通常比返利更合适。原因如下：\n\n1. **直观性强**：阶梯价在购买前就能明确告知客户“买得多，单价更低”，降低客户的心理门槛和决策成本，更符合团购客户对“立即省钱”的需求。\n2. **转化率高**：客户可直接按阶梯下单，无需等待返利到账或计算复杂规则，流程简单，能提升成单率。\n3. **适合价格敏感群体**：这类客户更看重当下实付价格而非后期返现，阶梯价能直接满足其对“低价”的核心诉求。\n\n返利更适合长期稳定合作、关注总成本的客户（如企业采购），但会拉长感知周期，对价格敏感客户吸引力较弱。\n\n**建议操作**：\n- 设计3-4个清晰的价格阶梯（如10-50单、51-200单、201单以上）。\n- 在宣传中突出“买得越多，省得越多”的即时省钱效果。\n- 若客户体量非常大（如万单级），可将阶梯价与小额返利结合，作为长期激励。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 238,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

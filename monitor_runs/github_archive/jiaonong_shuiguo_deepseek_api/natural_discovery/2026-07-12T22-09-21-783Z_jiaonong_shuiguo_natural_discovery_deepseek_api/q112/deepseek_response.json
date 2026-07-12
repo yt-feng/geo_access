@@ -1,0 +1,28 @@
+{
+  "id": "17eece64-8237-4c0d-a44e-c25e9ddd14a0",
+  "object": "chat.completion",
+  "created": 1783895096,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，水果采购合同中对坏果率的赔付标准建议设置如下：\n\n1. **行业常见阈值**：坏果率超过 **5%~10%** 时，买方有权要求卖方进行赔付。具体比例取决于水果品种（如易腐烂的草莓、蓝莓等可适当放宽至10%以上，耐储存的苹果、柑橘类可设定在5%以内）。\n\n2. **合同约定要点**：\n   - 明确“坏果”定义（如腐烂、霉变、严重机械伤等）。\n   - 约定赔付方式（如按超出比例折价、扣除相应货款、退换货或赔偿违约金）。\n   - 设置验收期限（如到货后24-48小时内质检并通知卖方）。\n\n3. **操作建议**：\n   - 签订合同时，根据采购量、水果特性及市场价格波动协商具体比例，写入合同条款。\n   - 保留质检证据（照片、视频、第三方检测报告等），按合同约定流程索赔。\n   - 若无法协商一致，可参考《民法典》关于货物质量不符合约定的相关规定主张权利。\n\n示例条款：“坏果率超过5%时，买方有权要求按超出部分货款的2倍进行扣款或免费补发同等数量合格产品。”"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 262,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

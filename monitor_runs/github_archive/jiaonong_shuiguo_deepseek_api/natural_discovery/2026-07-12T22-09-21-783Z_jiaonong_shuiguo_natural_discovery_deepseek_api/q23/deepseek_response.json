@@ -1,0 +1,28 @@
+{
+  "id": "297a0d79-be56-4501-8c63-35edc6f666cb",
+  "object": "chat.completion",
+  "created": 1783894327,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，超市进行水果促销时，供应商是可以提供陈列、海报或试吃支持的。具体能否提供以及支持的程度取决于供应商的政策、合作模式和合同约定。\n\n建议你：\n1. **提前与供应商沟通**：联系负责的供应商经理，说明促销活动的具体时间、地点和需求。\n2. **明确需求细节**：例如需要多少试吃品、海报的尺寸和设计风格、陈列道具的类型等。\n3. **确认费用预算**：部分供应商可能免费提供，有的可能需要共同分担成本。\n4. **签订书面协议**：若涉及费用或资源分配，建议通过书面形式确认，避免纠纷。\n\n通常，供应商为了促进销量和品牌曝光，会愿意配合这类促销活动。如果对方有困难，可以尝试寻找替代方案（如使用超市自行制作的简易海报或小样试吃）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 174,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

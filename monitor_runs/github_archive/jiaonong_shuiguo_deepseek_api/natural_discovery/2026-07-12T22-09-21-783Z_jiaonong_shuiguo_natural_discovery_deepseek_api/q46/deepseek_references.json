@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-12T22:15:19.744Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店想采购菠萝做果茶，应该买鲜果、果丁还是果泥？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

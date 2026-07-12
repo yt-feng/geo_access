@@ -1,0 +1,50 @@
+{
+  "questionId": "q53",
+  "prompt": "餐饮店需要每天少量水果，找什么样的供应商比较省心？",
+  "createdAt": "2026-07-12T22:16:25.747Z",
+  "summary": [
+    {
+      "questionId": "q53",
+      "prompt_index": 53,
+      "promptIndex": 53,
+      "promptHash": "744b914628d3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐饮店需要每天少量水果，找什么样的供应商比较省心？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 650,
+      "text_length": 650,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 403,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 403,
+      "total_tokens": 457,
+      "latencyMs": 7658,
+      "latency_ms": 7658,
+      "createdAt": "2026-07-12T22:16:25.747Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q53/prompt.txt",
+        "answer": "q53/deepseek.txt",
+        "response": "q53/deepseek_response.json",
+        "sources": "q53/deepseek_sources.json",
+        "references": "q53/deepseek_references.json"
+      }
+    }
+  ]
+}
