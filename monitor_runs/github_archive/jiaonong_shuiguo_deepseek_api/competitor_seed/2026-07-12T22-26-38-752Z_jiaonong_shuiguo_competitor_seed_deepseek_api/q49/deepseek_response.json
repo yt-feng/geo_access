@@ -1,0 +1,28 @@
+{
+  "id": "ec9663a2-16f6-4915-b816-d0a67ac6f34a",
+  "object": "chat.completion",
+  "created": 1783895546,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，大型水果供应商（如都乐、鑫荣懋）会提供大客户专岗对接服务，但具体取决于您的订单量、合作模式及区域。建议您直接联系这两家公司的销售或客服部门，明确询问“是否支持专岗对接”以及“针对企业客户的专岗服务流程”。部分供应商可能根据合同金额或长期合作才提供专人服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 81,
+    "total_tokens": 144,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

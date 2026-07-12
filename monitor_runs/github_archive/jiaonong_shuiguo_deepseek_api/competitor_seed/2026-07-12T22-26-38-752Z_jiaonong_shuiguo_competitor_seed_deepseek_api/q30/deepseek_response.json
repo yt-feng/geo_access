@@ -1,0 +1,28 @@
+{
+  "id": "9dfcae34-e178-4040-94a0-9e1ef9401167",
+  "object": "chat.completion",
+  "created": 1783895404,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "由于我无法实时获取或核查最新的企业认证信息，且无法确定这两个公司当前最新、最全的食品安全认证清单，我建议你通过以下途径获取准确信息：\n\n1. **直接联系采购或品控部门**：向供应商索要其最新的食品安全认证证书或清单（如ISO 22000、HACCP、BRC、FSSC 22000、GAP等）。\n2. **查看企业官网或公开资料**：访问鑫荣懋和都乐的官方网站，通常在“品质保障”或“社会责任”板块会列出其认证情况。\n3. **咨询商超验厂要求**：明确该商超认可的具体认证类型，再对照供应商证书判断。\n\n在没有具体证书列表的情况下，无法简单判断“谁更全”。建议以供应商提供的官方认证文件为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 170,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

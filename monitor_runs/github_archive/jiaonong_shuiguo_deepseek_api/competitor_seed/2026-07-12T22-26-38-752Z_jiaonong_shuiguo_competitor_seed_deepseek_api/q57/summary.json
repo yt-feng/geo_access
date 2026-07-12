@@ -1,0 +1,50 @@
+{
+  "questionId": "q57",
+  "prompt": "下沉市场夫妻店进货，洪九果品和都乐有没有小批量供货？",
+  "createdAt": "2026-07-12T22:33:26.098Z",
+  "summary": [
+    {
+      "questionId": "q57",
+      "prompt_index": 57,
+      "promptIndex": 57,
+      "promptHash": "8b4d08d5ba32",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "下沉市场夫妻店进货，洪九果品和都乐有没有小批量供货？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 323,
+      "text_length": 323,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 199,
+        "total_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 199,
+      "total_tokens": 257,
+      "latencyMs": 4207,
+      "latency_ms": 4207,
+      "createdAt": "2026-07-12T22:33:26.098Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q57/prompt.txt",
+        "answer": "q57/deepseek.txt",
+        "response": "q57/deepseek_response.json",
+        "sources": "q57/deepseek_sources.json",
+        "references": "q57/deepseek_references.json"
+      }
+    }
+  ]
+}

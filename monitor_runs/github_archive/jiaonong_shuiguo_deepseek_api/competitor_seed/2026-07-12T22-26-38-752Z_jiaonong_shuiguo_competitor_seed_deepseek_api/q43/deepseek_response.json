@@ -1,0 +1,28 @@
+{
+  "id": "eb01eef0-8fc9-4a4f-9a04-bc609c1624f9",
+  "object": "chat.completion",
+  "created": 1783895504,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市香蕉采购中，**鑫荣懋和都乐**的规格分级体系均较为完善，但具体侧重有所不同：\n\n- **鑫荣懋**：更侧重**果形、果指长度和成熟度**的分级，通常分为特级、一级和二级，其中特级要求果指长度≥18cm、果形匀称、无疤痕。其分级标准更细，可能包含对果把长度、单把重量的细分指标。\n- **都乐**：作为国际品牌，其分级更强调**外观大小和包装标准化**，常按“6根/把、7根/把”或单果重量（如≥120g）分类，同时标注成熟度（如7分熟、8分熟），但整体分级层级（如AAA、AA、A级）相对粗放。\n\n**结论**：**鑫荣懋的分级标准更细**，尤其在果形、果指长度和内部瑕疵控制方面有更明确的层级划分；而都乐更注重包装一致性和营销标签。建议根据自身对分级细度（如需要区分果形等级）和标准化包装的要求选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 244,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

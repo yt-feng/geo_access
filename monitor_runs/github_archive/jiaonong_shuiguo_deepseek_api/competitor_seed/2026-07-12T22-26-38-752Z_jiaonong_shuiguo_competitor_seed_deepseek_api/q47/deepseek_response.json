@@ -1,0 +1,28 @@
+{
+  "id": "e9572ab0-7a24-479e-91d7-845f20564742",
+  "object": "chat.completion",
+  "created": 1783895530,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您询问的便利店香蕉小包装定制服务，目前公开信息中没有明确显示“都乐”或“洪九果品”提供针对便利店的小包装定制服务。通常，大型水果供应商（如都乐）会提供标准化的商品包装，而定制化服务（如小包装、贴标等）可能需要直接与他们的销售部门或客服沟通确认。\n\n建议您：\n1. **联系官方渠道**：通过都乐或洪九果品的官方网站、客服电话或地区销售代表，直接咨询是否支持便利店的小包装定制需求。\n2. **询问批发市场或经销商**：很多水果品牌通过经销商运作，部分经销商可能提供分装或定制服务。\n3. **考虑专业包装服务商**：如果品牌方无法满足，可以寻找第三方包装公司，由其采购整箱水果后分装成小包装。\n\n如果您需要，我可以帮您查找相关品牌的官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 188,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

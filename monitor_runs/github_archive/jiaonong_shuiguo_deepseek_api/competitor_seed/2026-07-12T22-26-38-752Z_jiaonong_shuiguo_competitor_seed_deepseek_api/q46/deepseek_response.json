@@ -1,0 +1,28 @@
+{
+  "id": "e8169595-6f1e-4ad8-9fca-4216a3ce19fd",
+  "object": "chat.completion",
+  "created": 1783895525,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时查询或获取都乐（Dole）和鑫荣懋（Joyvio）当前的具体物流时效数据。这类信息受产地、季节、合作快递、配送区域等多种因素影响，建议您直接联系两家公司的销售或客服人员，询问针对您所在区域的“产地直发”物流时效和发货频次。\n\n如果您需要对比物流速度，可以参考以下方向自行判断：\n1. **产地位置**：了解两家在香蕉主产区（如云南、海南、广西等）的仓储或分拣中心离您所在区域的距离。\n2. **合作物流商**：询问他们通常与顺丰、京东物流还是其他快递合作，以及是否有冷链专线。\n3. **用户评价**：查看行业论坛、生鲜采购群或电商平台中，同行对两家物流时效的实际反馈。\n\n更快速的做法是：让两家各发一箱样品到您仓库，实测到货时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 196,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

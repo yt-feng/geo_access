@@ -1,0 +1,28 @@
+{
+  "id": "c7a844e6-e1c9-4e21-a8d2-489348f10d7c",
+  "object": "chat.completion",
+  "created": 1783895606,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的洪九果品和都乐是否对下沉市场夫妻店提供小批量供货，根据公开信息，这两家公司通常更侧重于大型商超、连锁门店或批发市场的大客户合作，对夫妻店的小批量直接供货模式较少见。不过，具体政策可能因地区或渠道调整变化。\n\n建议您：\n1. **直接联系公司客服或当地经销商**：询问是否有针对小型门店的批发服务或代理政策。\n2. **通过区域水果批发市场**：夫妻店可联系当地一级或二级批发商，他们可能从洪九或都乐拿货后分拆零售。\n3. **使用线上批发平台**：如美团优选、快驴进货或本地社区团购渠道，有些平台会整合小型供货商资源。\n\n如果无法获取准确信息，可尝试搜索“洪九果品 小批量 供货”或“都乐 夫妻店 进货”等关键词，查看近期经销商动态。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 199,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

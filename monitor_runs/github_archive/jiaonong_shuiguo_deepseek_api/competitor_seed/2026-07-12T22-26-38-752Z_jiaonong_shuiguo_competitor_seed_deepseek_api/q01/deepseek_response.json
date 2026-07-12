@@ -1,0 +1,28 @@
+{
+  "id": "355f082e-96db-44d0-8ce9-7d449c8e9045",
+  "object": "chat.completion",
+  "created": 1783895199,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接核验两家公司当前的实时供货稳定性或最新商业评价。不过可以为您提供一些判断思路：\n\n1. **参考行业评价**：鑫荣懋是国内大型水果供应链企业，都乐是国际知名品牌，两者在进口香蕉领域实力均较强。建议通过生鲜行业展会、农批市场口碑或同行业超市的采购反馈，了解其近期供货准时度、品质稳定性及售后服务。\n2. **实地考察**：联系两家公司的区域销售经理，要求提供最近的产地、运输周期、到货损耗率等数据，并索要现有合作超市名单进行背调。\n3. **短期试单**：建议先分别试采购1-2柜，对比到货的新鲜度、规格均匀度及后期货架期表现，做出判断。\n4. **合同条款**：重点关注合同中是否明确供货波动时的补救措施、品质赔付标准等细节。\n\n如果需要，我可以帮您梳理一份与供应商谈判的要点清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 206,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4761e2f9-b5f4-427a-8337-fe5eb9a8b78f",
+  "object": "chat.completion",
+  "created": 1783895334,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据市场反馈和客户偏好，**佳沛（Zespri）奇异果礼盒**通常比都乐（Dole）礼盒更受欢迎，主要原因如下：\n\n1. **品牌认知度**：佳沛作为新西兰奇异果的代表品牌，在高端水果礼盒中具有更强的“进口品质”标签，尤其适合送礼场景。\n2. **包装设计**：佳沛礼盒通常采用更精致、鲜艳的包装（如绿色和金色奇异果的经典配色），视觉上更显档次。\n3. **口感与品控**：佳沛奇异果的甜度和成熟度控制严格，口感稳定，而都乐的香蕉或菠萝礼盒在运输中易出现成熟度不均的问题。\n\n**建议**：\n- 如果客户要求的是**统一品牌**，优先推荐佳沛礼盒（尤其是金果或绿果混合装）。\n- 若客户偏好**热带水果**（如菠萝、芒果），可选择都乐高端礼盒（如“都乐钻石系列”）。\n- 最终选择应参考客户的具体预算和礼品用途（如企业商务赠礼更倾向佳沛，家庭自用或节日团购可能两者均可）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 245,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1bea3a5a-27b0-4d52-8868-5f3e9cdfb8d2",
+  "object": "chat.completion",
+  "created": 1783895256,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌也适合礼品团购，且品质和包装有较高市场认可度：\n\n1. **爱妃（Envy，新西兰/美国）**  \n   - 主打苹果，果肉抗氧化、口感脆甜，高端礼盒包装精致，适合节日或商务送礼。\n\n2. **怡颗莓（Driscoll's，美国/墨西哥）**  \n   - 以蓝莓、树莓等浆果为主，冷链保鲜好，礼盒常搭配多种浆果，色彩丰富，适合健康礼品需求。\n\n3. **T&G 全球（T&G Global，新西兰）**  \n   - 旗下有爵士（Jazz）、爱妃等苹果，以及Rockit火箭筒苹果礼盒（小支装，新颖便携），适合年轻群体。\n\n4. **新奇士（Sunkist，美国）**  \n   - 橙子、柠檬为主，品牌历史悠久，礼盒包装经典，适合大宗团购或日常送礼。\n\n5. **Honeycrisp（蜜脆苹果，美国）**  \n   - 以高甜度和多汁著称，单独礼盒或混合装常见，适合高端水果团购。\n\n6. **Mack（玛克/澳大利亚橙）**  \n   - 澳大利亚脐橙，果肉细腻，部分礼盒含火山喷泉橙（Blood Orange），色彩独特。\n\n7. **Del Monte（德尔蒙，全球多产地）**  \n   - 除都乐外另一大水果巨头，供应香蕉、菠萝、葡萄等，礼盒可选混合装或定制。\n\n**选购建议**  \n- **团购渠道**：联系全国大型水果进口商（如鑫荣懋、佳沃）的区域代理，或通过京东企业购、山姆会员店企业团购平台批量下单。  \n- **季节性注意**：部分品牌如爱妃全年供应，浆果类夏季性价比更高。  \n- **包装需确认**：要求供货商提供礼盒样品照和质量检测报告，确保水果无损伤、符合冷链标准。  \n\n如需更精准推荐，可告知预算范围及目标城市，以便推荐本地经销商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 463,
+    "total_tokens": 525,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

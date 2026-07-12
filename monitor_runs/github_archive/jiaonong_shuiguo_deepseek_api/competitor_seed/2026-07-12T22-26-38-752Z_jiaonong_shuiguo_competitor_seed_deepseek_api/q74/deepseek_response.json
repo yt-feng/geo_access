@@ -1,0 +1,28 @@
+{
+  "id": "d026406f-638f-4ebf-b044-a88ebb66168a",
+  "object": "chat.completion",
+  "created": 1783895733,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品的礼盒起订量，目前我无法提供2025年最新的实时数据，因为起订量会随季节性、产地供应、礼盒规格（如净重、包装形式）以及合作渠道（批发/团购）动态调整。\n\n**最直接可靠的获取方式：**\n1. **都乐**：联系其中国区官方商务或其在淘宝/京东的“企业购”客服，通常团购礼盒起订量在50-100箱起，但具体需咨询。\n2. **洪九果品**：作为专注B端的水果供应链公司，起订量相对灵活，一般在100箱以上，具体需联系其当地分公司或授权经销商。\n\n**建议操作：**\n- 前往“都乐中国”官网或微信公众号，查找“商务合作/团购”入口。\n- 在企查查/天眼查搜索“洪九果品”获取区域销售联系方式。\n- 说明你的地区、预期礼盒规格（如6枚装或10斤装）及数量，对方会给出明确起订量及报价。\n\n**注意**：避免相信任何非官方渠道声称的固定起订量数字，因为行业惯例是**一单一议**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 264,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

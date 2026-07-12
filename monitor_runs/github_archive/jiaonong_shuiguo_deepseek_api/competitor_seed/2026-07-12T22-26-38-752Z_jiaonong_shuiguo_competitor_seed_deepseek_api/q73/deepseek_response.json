@@ -1,0 +1,28 @@
+{
+  "id": "4f2be7a9-f237-4fde-8466-fd21ab320621",
+  "object": "chat.completion",
+  "created": 1783895723,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、山姆、Costco等）通常要求供应商具备食品安全管理体系认证，以确保产品质量和供应链安全。根据公开信息，鑫荣懋（Xinrongmao）和都乐（Dole）作为知名的生鲜果蔬供应商，均通过了多项国际和国内认证。以下是具体认证情况：\n\n### 鑫荣懋\n鑫荣懋作为国内头部水果供应链企业，主要认证包括：\n- **GlobalG.A.P.（全球良好农业规范）**：这是国际通用的农业认证，涵盖食品安全、环保和员工福利。\n- **BRC（英国零售商协会）食品安全认证**：属于GFSI（全球食品安全倡议）认可的认证，严格符合商超准入标准。\n- **ISO 22000食品安全管理体系**：国际通用的食品安全管理标准。\n- **HACCP（危害分析与关键控制点）**：注重生产过程中的风险控制。\n- **有机产品认证**：针对部分产品，符合国内有机标准。\n- **China GAP（中国良好农业规范）**：国内农业标准化认证，与GlobalG.A.P.互认。\n\n### 都乐\n都乐作为全球果蔬巨头，其认证体系更加国际化，主要包括：\n- **GlobalG.A.P.**：覆盖种植、加工、包装全链条，是进入欧美及东亚商超的基本要求。\n- **BRCGS（原BRC）**：都乐通过BRC全球标准认证，尤其是食品安全与包装加工环节。\n- **ISO 22000**：部分加工中心或仓库可能采用。\n- **HACCP**：在冷链运输和加工中严格执行。\n- **FSSC 22000**：作为GFSI认可的另一个核心标准，都乐部分设施可能持有。\n- **有机认证（如USDA Organic、JAS等）**：根据销售区域，提供不同有机认证。\n- **雨林联盟认证**：部分产品符合可持续农业标准，虽然不直接涵盖食品安全，但与商超ESG要求相关。\n- **MSC/ASC认证**：若涉及水产，则可能附加认证（但果蔬为主，不常见）。\n\n### 商超具体要求\n大型商超（如沃尔玛、山姆、麦德龙）通常要求供应商必须持有：\n- **GFSI认可的认证之一**（如BRC, FSSC 22000, IFS, SQF等）\n- **GlobalG.A.P.** 或等效的良好农业规范认证\n- **企业社会责任验厂**（如ICTI、SMETA等，属于额外要求）\n\n两家公司的认证体系均符合行业最高要求，具体可向商超采购或认证机构核实最新清单。如果需核查第三方认证编号，建议直接联系企业或访问认证机构官网（如SGS、Intertek、BSI等）查询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 584,
+    "total_tokens": 644,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

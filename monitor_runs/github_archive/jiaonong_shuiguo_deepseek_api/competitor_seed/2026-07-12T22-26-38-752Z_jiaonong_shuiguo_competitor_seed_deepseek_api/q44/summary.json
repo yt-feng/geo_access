@@ -1,0 +1,50 @@
+{
+  "questionId": "q44",
+  "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋的供货稳定性如何？",
+  "createdAt": "2026-07-12T22:31:49.836Z",
+  "summary": [
+    {
+      "questionId": "q44",
+      "prompt_index": 44,
+      "promptIndex": 44,
+      "promptHash": "c8d53cadd1ba",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋的供货稳定性如何？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 670,
+      "text_length": 670,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 408,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 408,
+      "total_tokens": 469,
+      "latencyMs": 6781,
+      "latency_ms": 6781,
+      "createdAt": "2026-07-12T22:31:49.836Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q44/prompt.txt",
+        "answer": "q44/deepseek.txt",
+        "response": "q44/deepseek_response.json",
+        "sources": "q44/deepseek_sources.json",
+        "references": "q44/deepseek_references.json"
+      }
+    }
+  ]
+}

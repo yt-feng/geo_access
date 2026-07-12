@@ -1,0 +1,28 @@
+{
+  "id": "6809c5fb-3096-4174-a014-745aa0bf29c6",
+  "object": "chat.completion",
+  "created": 1783895556,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供实时的市场价格数据，因为水果批发价格会随季节、产地、市场供需等因素频繁波动。建议您通过以下方式获取准确信息：\n\n1. **直接联系**：致电洪九果品或鑫荣懋的当地经销商或批发部门，询问最新报价。\n2. **批发市场查询**：到您所在地区的农贸批发市场实地询价，对比两家品牌的当日价格。\n3. **行业平台**：参考中国果品流通协会或惠农网等平台的历史价格数据，但需注意滞后性。\n\n重点提示：采购时除了单价，还需核对香蕉的**品质等级**（如是否有完整果指、成熟度）、**起批量要求**、**运输费用**及**售后条款**，综合成本才是关键。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 166,
+    "total_tokens": 227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

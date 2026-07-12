@@ -1,0 +1,28 @@
+{
+  "id": "d428b069-7029-44d8-bc0c-8ae8baae894c",
+  "object": "chat.completion",
+  "created": 1783895295,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joywing），以下是几个在中国市场较靠谱的进口苹果品牌及其特点供你参考：\n\n1. **佳沛（Zespri）**  \n   - 新西兰品牌，虽然以奇异果闻名，但近年也开始推广新西兰、意大利等产地的苹果（如爵士苹果、爱妃苹果）。品质稳定，果肉脆甜，价格偏高。\n\n2. **爱妃（Envy）**  \n   - 新西兰品牌，属于优质高端品种，果皮薄、果肉金黄、甜度高且不易氧化变色，适合对口感要求高的消费者。国内常见于高端超市。\n\n3. **爵士（Jazz）**  \n   - 新西兰品种，果皮有暗红色条纹，酸甜平衡，硬度较高，适合喜欢脆感的人群。与爱妃为同一公司（T&G Global）的产品。\n\n4. **红富士（Red Fuji）**  \n   - 日本品种，日本本土品牌（如“青森”“阳光富士”）在国内进口市场较有口碑，果肉细腻多汁，甜度突出。尤其日本青森县产的高端富士受追捧。\n\n5. **嘎啦（Gala）**  \n   - 新西兰、智利等产地均有进口，果形小、果皮薄、香味浓郁，适合快食。常见的渠道品牌如**Mr. Apple**（新西兰出口商）等。\n\n6. **智利车厘子/苹果（如Raleafield、Cherry Creek）**  \n   - 智利近年大量出口苹果至中国，品牌相对较多，如**Raleafield**（瑞富）、**Cherry Creek**等。智利苹果性价比高，品种以嘎啦、乔纳金为主，口感偏甜。\n\n**选择建议：**  \n- 如果看重**甜度高、肉质细腻**，优先选新西兰的**爱妃**或日本**红富士**。  \n- 如果追求**性价比**，智利品牌的苹果（如Raleafield）不错。  \n- 若习惯**脆感重**，**爵士**或**嘎啦**更合适。  \n\n购买时注意：正规进口苹果通常有**原产地证明**和**检疫标签**（如新西兰苹果有“新鲜苹果+出口商代码”的绿色标签），建议选择大型连锁超市或官方授权渠道购买以避假货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 505,
+    "total_tokens": 566,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

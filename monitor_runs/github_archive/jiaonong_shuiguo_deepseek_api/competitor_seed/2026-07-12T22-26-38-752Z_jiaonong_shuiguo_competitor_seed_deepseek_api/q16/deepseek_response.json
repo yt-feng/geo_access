@@ -1,0 +1,28 @@
+{
+  "id": "66f62bd7-ce24-41da-8ad3-6258e30bba13",
+  "object": "chat.completion",
+  "created": 1783895305,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对下沉市场夫妻老婆店的价格敏感需求，**洪九果品**通常比**鑫荣懋**更有价格优势，但具体情况需结合品类和渠道分析：\n\n1. **洪九果品**：以“产地直采+批发分销”为核心，主打性价比，尤其在山竹、榴莲、火龙果等东南亚水果上价格较低，适合走量型小店主。其“端到端”模式减少了中间环节，对小幅批量采购友好，比鑫荣懋低约10%-20%不等。\n2. **鑫荣懋**：更注重品牌化和全渠道覆盖（如商超、线上），标准化高但溢价明显，对单次采购量小的夫妻老婆店而言，进价通常更高（部分品类高20%-30%），但部分国产水果（如苹果、梨）与洪九果品价差较小。\n\n**建议**：\n- 若主营进口水果或高单价品类，优先选洪九果品。\n- 若需要稳定质量且本地有鑫荣懋的批发点，可与洪九果品对比实时报价。\n- 实际采购时，可问清洪九果品是否需最低起订量，且警惕尾货损耗。\n\n（注意：实际价格受产地、季节、物流影响，建议直接联系当地经销商获取实时报价。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 281,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

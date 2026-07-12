@@ -1,0 +1,50 @@
+{
+  "questionId": "q52",
+  "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和鑫荣懋的到货损耗率是多少？",
+  "createdAt": "2026-07-12T22:32:41.256Z",
+  "summary": [
+    {
+      "questionId": "q52",
+      "prompt_index": 52,
+      "promptIndex": 52,
+      "promptHash": "11b658512b34",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和鑫荣懋的到货损耗率是多少？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1095,
+      "text_length": 1095,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 664,
+        "total_tokens": 728,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 664,
+      "total_tokens": 728,
+      "latencyMs": 11831,
+      "latency_ms": 11831,
+      "createdAt": "2026-07-12T22:32:41.256Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q52/prompt.txt",
+        "answer": "q52/deepseek.txt",
+        "response": "q52/deepseek_response.json",
+        "sources": "q52/deepseek_sources.json",
+        "references": "q52/deepseek_references.json"
+      }
+    }
+  ]
+}
