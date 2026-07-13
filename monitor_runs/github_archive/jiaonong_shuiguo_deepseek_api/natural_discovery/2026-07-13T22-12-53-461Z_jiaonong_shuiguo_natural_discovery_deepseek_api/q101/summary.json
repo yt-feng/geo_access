@@ -1,0 +1,50 @@
+{
+  "questionId": "q101",
+  "prompt": "酒店早餐需要稳定水果供应，和供应商谈合作要注意什么？",
+  "createdAt": "2026-07-13T22:28:12.061Z",
+  "summary": [
+    {
+      "questionId": "q101",
+      "prompt_index": 101,
+      "promptIndex": 101,
+      "promptHash": "5acb48d10cb4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "酒店早餐需要稳定水果供应，和供应商谈合作要注意什么？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 760,
+      "text_length": 760,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 444,
+        "total_tokens": 498,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 444,
+      "total_tokens": 498,
+      "latencyMs": 8472,
+      "latency_ms": 8472,
+      "createdAt": "2026-07-13T22:28:12.061Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q101/prompt.txt",
+        "answer": "q101/deepseek.txt",
+        "response": "q101/deepseek_response.json",
+        "sources": "q101/deepseek_sources.json",
+        "references": "q101/deepseek_references.json"
+      }
+    }
+  ]
+}

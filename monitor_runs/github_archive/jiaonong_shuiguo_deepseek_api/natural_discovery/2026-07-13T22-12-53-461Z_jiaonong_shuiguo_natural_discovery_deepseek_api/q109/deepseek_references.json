@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:29:11.260Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "长期合作水果供应商，账期、配送、售后哪个最值得优先谈？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

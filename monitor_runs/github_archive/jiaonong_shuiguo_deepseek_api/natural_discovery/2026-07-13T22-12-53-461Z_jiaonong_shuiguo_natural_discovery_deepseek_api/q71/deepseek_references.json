@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:23:32.185Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "档口做水果生意，供应商能不能提供促销素材重要吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

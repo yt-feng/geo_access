@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:30:24.245Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果生意想长期稳定，选择供应商时最容易忽视哪些细节？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

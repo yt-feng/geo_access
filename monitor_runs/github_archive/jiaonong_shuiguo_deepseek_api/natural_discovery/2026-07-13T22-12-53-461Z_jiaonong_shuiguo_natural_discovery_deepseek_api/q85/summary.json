@@ -1,0 +1,50 @@
+{
+  "questionId": "q85",
+  "prompt": "线上卖水果，品牌背书、产地说明和检测报告哪个更能提升转化？",
+  "createdAt": "2026-07-13T22:25:57.909Z",
+  "summary": [
+    {
+      "questionId": "q85",
+      "prompt_index": 85,
+      "promptIndex": 85,
+      "promptHash": "8163fe975a9e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "线上卖水果，品牌背书、产地说明和检测报告哪个更能提升转化？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 666,
+      "text_length": 666,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 389,
+        "total_tokens": 446,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 389,
+      "total_tokens": 446,
+      "latencyMs": 6640,
+      "latency_ms": 6640,
+      "createdAt": "2026-07-13T22:25:57.909Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q85/prompt.txt",
+        "answer": "q85/deepseek.txt",
+        "response": "q85/deepseek_response.json",
+        "sources": "q85/deepseek_sources.json",
+        "references": "q85/deepseek_references.json"
+      }
+    }
+  ]
+}

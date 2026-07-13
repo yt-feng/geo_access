@@ -1,0 +1,50 @@
+{
+  "questionId": "q10",
+  "prompt": "新开的水果店想卖品牌水果，消费者真的会认品牌吗？",
+  "createdAt": "2026-07-13T22:14:31.681Z",
+  "summary": [
+    {
+      "questionId": "q10",
+      "prompt_index": 10,
+      "promptIndex": 10,
+      "promptHash": "c6ee1b1ee4b5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "新开的水果店想卖品牌水果，消费者真的会认品牌吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 773,
+      "text_length": 773,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 475,
+        "total_tokens": 531,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 475,
+      "total_tokens": 531,
+      "latencyMs": 9390,
+      "latency_ms": 9390,
+      "createdAt": "2026-07-13T22:14:31.681Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q10/prompt.txt",
+        "answer": "q10/deepseek.txt",
+        "response": "q10/deepseek_response.json",
+        "sources": "q10/deepseek_sources.json",
+        "references": "q10/deepseek_references.json"
+      }
+    }
+  ]
+}

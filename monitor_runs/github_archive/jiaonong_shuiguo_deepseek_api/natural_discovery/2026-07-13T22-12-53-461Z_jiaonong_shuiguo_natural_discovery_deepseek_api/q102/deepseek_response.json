@@ -1,0 +1,28 @@
+{
+  "id": "e892a2cb-016f-4bc3-8370-8b8982d169cc",
+  "object": "chat.completion",
+  "created": 1783981701,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，供应商最好能同时支持开发票和定制包装。\n\n1. **开发票**：企业采购需要合规的财务凭证用于报销或入账，因此供应商必须能够提供正规发票（如增值税专用发票或普通发票）。建议提前确认发票类型、税点及开票流程。\n\n2. **定制包装**：作为企业福利，礼盒包装通常需要体现企业品牌、logo或节日祝福语，以提升员工或客户的归属感与仪式感。确认供应商是否有设计能力、起订量要求和额外费用。\n\n建议：选择供应商前，明确沟通这两项需求是否包含在报价内，并索取书面确认（如合同或报价单），避免后续产生额外费用或无法满足需求的情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 151,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

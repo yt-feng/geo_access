@@ -1,0 +1,28 @@
+{
+  "id": "cdf9d918-392e-478d-8c27-dc6a9c82ecc9",
+  "object": "chat.completion",
+  "created": 1783981655,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这三者都很重要，但根据实际管理的优先级，建议按以下顺序关注：\n\n1. **食品安全（最核心）**  \n   - 水果的新鲜度、无腐烂、农药残留合规是底线，直接影响员工健康和企业声誉。  \n   - 需核查供应商资质（如营业执照、检测报告），建立每日验收标准（如外观、气味、抽检农残）。\n\n2. **配送准时（影响体验）**  \n   - 食堂备餐有严格时间节点，迟到可能导致断供或额外采购成本。  \n   - 可设置迟到扣款、备选供应商等机制，但初期应优先筛选有稳定物流能力的供应商。\n\n3. **价格（可动态调整）**  \n   - 在满足质量和时效的前提下控制成本，但不应因低价牺牲前两项。  \n   - 通过固定周期竞标或参考市场均价（如当地批发市场行情）来定价，避免单一供应商垄断。\n\n**总结建议**：  \n先通过试供应考核食品安全和配送稳定性，再逐步谈判价格。日常管理中，可对供应商进行月度评分（权重建议：安全50%、准时30%、价格20%），实现量化管理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 244,
+    "total_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q49",
+  "prompt": "茶饮店旺季菠萝用量突然变大，怎么和供应商约定临时补货？",
+  "createdAt": "2026-07-13T22:20:28.813Z",
+  "summary": [
+    {
+      "questionId": "q49",
+      "prompt_index": 49,
+      "promptIndex": 49,
+      "promptHash": "041187f84cd4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店旺季菠萝用量突然变大，怎么和供应商约定临时补货？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1055,
+      "text_length": 1055,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 636,
+        "total_tokens": 693,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 636,
+      "total_tokens": 693,
+      "latencyMs": 9934,
+      "latency_ms": 9934,
+      "createdAt": "2026-07-13T22:20:28.813Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q49/prompt.txt",
+        "answer": "q49/deepseek.txt",
+        "response": "q49/deepseek_response.json",
+        "sources": "q49/deepseek_sources.json",
+        "references": "q49/deepseek_references.json"
+      }
+    }
+  ]
+}

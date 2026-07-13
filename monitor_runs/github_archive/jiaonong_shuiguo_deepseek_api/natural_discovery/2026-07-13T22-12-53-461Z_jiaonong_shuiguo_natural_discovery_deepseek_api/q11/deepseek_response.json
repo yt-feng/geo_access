@@ -1,0 +1,28 @@
+{
+  "id": "364a0c08-f7f5-4961-b825-9c82c8f27a4c",
+  "object": "chat.completion",
+  "created": 1783980882,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会。\n\n大小不一致可能产生以下影响，需根据销售策略具体判断：\n\n1. **影响定价与利润**  \n   - 若按统一售价，小香蕉会拉低整体性价比，大香蕉显得价高，可能导致顾客倾向挑选大果，小果滞销，增加损耗。\n   - 若按大小分级定价，操作成本增加。\n\n2. **影响顾客体验**  \n   - 顾客期望一致性（如家庭采购、拼盘制作），大小混杂可能引起不满，认为质量不齐。\n   - 部分顾客喜欢大果，部分偏好小果，混装难以满足精准需求。\n\n3. **损耗与库存管理**  \n   - 大小不一的香蕉成熟进度可能不同，小香蕉易熟透，大香蕉可能后熟，导致批次内部分过早腐烂。\n\n**建议调整方式**：  \n- **分级销售**：将大小果分开，分别定不同价格（如大果精品价、小果促销价）。  \n- **组合打包**：按重量或数量混装，注明“混合规格”，低价吸引对价格敏感的顾客。  \n- **定制品类**：小果可用于烘焙、果汁或特价区，大果陈列为主打商品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 256,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

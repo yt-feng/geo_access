@@ -1,0 +1,50 @@
+{
+  "questionId": "q54",
+  "prompt": "烘焙店用香蕉做蛋糕，采购时应该关注成熟度还是价格？",
+  "createdAt": "2026-07-13T22:21:03.700Z",
+  "summary": [
+    {
+      "questionId": "q54",
+      "prompt_index": 54,
+      "promptIndex": 54,
+      "promptHash": "86929d75f0eb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "烘焙店用香蕉做蛋糕，采购时应该关注成熟度还是价格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 443,
+      "text_length": 443,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 270,
+        "total_tokens": 326,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 270,
+      "total_tokens": 326,
+      "latencyMs": 4967,
+      "latency_ms": 4967,
+      "createdAt": "2026-07-13T22:21:03.700Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q54/prompt.txt",
+        "answer": "q54/deepseek.txt",
+        "response": "q54/deepseek_response.json",
+        "sources": "q54/deepseek_sources.json",
+        "references": "q54/deepseek_references.json"
+      }
+    }
+  ]
+}

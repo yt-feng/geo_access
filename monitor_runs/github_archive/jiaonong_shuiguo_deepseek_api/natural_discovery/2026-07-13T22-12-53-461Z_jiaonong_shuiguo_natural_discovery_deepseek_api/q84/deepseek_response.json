@@ -1,0 +1,28 @@
+{
+  "id": "a39541d8-6238-44f3-9ce8-1d3010a473dd",
+  "object": "chat.completion",
+  "created": 1783981553,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议以“健康全家福”为概念，组合如下：\n\n**推荐组合：苹果（4个）+ 橙子（4个）+ 香蕉（2-3根）+ 菠萝（1个）**\n\n理由：\n1. **老少皆宜**：苹果、橙子口感大众，香蕉软糯适合小孩和老人，菠萝酸甜开胃。\n2. **营养互补**：苹果富含纤维，橙子补充维生素C，香蕉提供钾和能量，菠萝含消化酶。\n3. **保存性**：苹果、橙子耐放，香蕉和菠萝需短期食用，适合家庭1周内吃完。\n4. **视觉搭配**：黄色（香蕉、菠萝）+红色（苹果）+橙色（橙子），色彩丰富，礼盒档次高。\n\n**附加建议**：\n- 若预算有限，可减少菠萝（换成1个蜜瓜或哈密瓜），或增加苹果/橙子数量。\n- 搭配少量薄荷叶或祝福卡片，提升礼盒精致感。\n- 售价建议参考：总成本价上浮30%-50%作为团购价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 228,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

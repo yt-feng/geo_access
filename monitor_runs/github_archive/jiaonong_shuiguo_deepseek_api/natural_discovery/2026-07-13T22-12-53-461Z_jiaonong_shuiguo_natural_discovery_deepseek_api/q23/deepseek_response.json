@@ -1,0 +1,28 @@
+{
+  "id": "9610d17d-2d2c-4594-b37c-3ba0389d4e4d",
+  "object": "chat.completion",
+  "created": 1783980989,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。一般情况下，超市促销水果时，供应商通常会提供以下几种支持：\n\n1. **陈列支持**：供应商可提供专门的陈列架、堆头、装饰道具或品牌展示物料，以提升水果的视觉效果和吸引力。\n2. **海报支持**：很多供应商会提供促销海报、价格标签、宣传单页，或者配合超市设计统一的广告画面。\n3. **试吃支持**：为了促进销售，供应商通常会安排试吃活动，并提供试吃用的水果、试吃台、一次性餐具等物料。\n\n建议你在和供应商沟通时，明确列出希望获得的支持类型和数量，并确认费用是否包含在采购价格中，或者是否需要单独结算。另外，最好将支持内容写进合同或促销协议中，避免后续产生分歧。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 160,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

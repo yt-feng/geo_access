@@ -1,0 +1,28 @@
+{
+  "id": "afb9ae5c-6390-4566-af5d-4d9f49618105",
+  "object": "chat.completion",
+  "created": 1783980959,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "以下是对四个关注点的优先级排序及实用建议：\n\n**1. 甜度（最重要）**  \n- 判断标准：按压果皮略软（非硬如石头）、底部有淡淡果香、果眼间隙较宽（成熟度更高）。  \n- 可要求店员切小块试吃，或选择标注“糖度14°以上”的批次。  \n\n**2. 切果损耗（次要）**  \n- 避开果皮发青、果眼深凹的菠萝，此类果皮厚、可食部分少。  \n- 若超市提供免费去皮服务，优先选略成熟菠萝（损耗更低）。  \n\n**3. 外观（参考项）**  \n- 果柄新鲜（无干枯）、果皮无大面积黑斑或软烂处。  \n- 警惕果眼有黑色霉斑（储存不当）。  \n\n**4. 大小（最末）**  \n- 相同价格下，中等大小（1.2-1.5斤）甜度稳定性通常优于超大果。  \n- 若直接食用，小菠萝单人更合适；需大量制作果酱可选大果。  \n\n**执行建议**：  \n- 优先测试甜度，再快速检查损耗（挤压果皮判断厚度），外观无异常即可。  \n- 注意：超市切好的盒装菠萝可能选用劣质果，尽量整颗挑选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 294,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6e93cbbf-a9a3-4f8f-8f47-748ded5d527e",
+  "object": "chat.completion",
+  "created": 1783981250,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了防止香蕉到店后快速变黑，可以采取以下措施：\n\n1. **选择成熟度适中的香蕉**：采购时挑选颜色偏绿或黄中带绿的香蕉，避免购买已经全黄或出现黑斑的，因为它们保鲜期更短。\n2. **检查无损**：确保香蕉没有挤压、磕碰或裂口，破损处容易加速氧化变黑。\n3. **切断乙烯源头**：运输和储存时，将香蕉与其他产生乙烯的水果（如苹果、梨）分开，乙烯会催熟香蕉。\n4. **控制温度和湿度**：- 运输途中保持温度在13-15℃左右，避免过高（加速成熟）或过低（导致冻伤变黑）。  \n- 到店后不要放在冰箱，常温（12-15℃）存放更佳；若需冷藏，只在成熟后短期存放且不超过2小时。\n5. **悬挂或平放**：- 用挂钩悬挂香蕉，减少与台面接触面积，防止受压变黑。  \n- 如果平放，用保鲜膜包裹茎部（香蕉柄），减少乙烯释放。\n6. **及时翻动和通风**：到店后立即取出并检查，将变软或受损的单独处理。保持储存处通风，避免密闭潮湿。\n\n通过以上方法，可以延长香蕉的保鲜期，减少到货后快速变黑的问题。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 290,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
