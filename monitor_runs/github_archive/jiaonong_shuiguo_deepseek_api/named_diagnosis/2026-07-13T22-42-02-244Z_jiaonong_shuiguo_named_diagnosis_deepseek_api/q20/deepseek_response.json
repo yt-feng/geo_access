@@ -1,0 +1,28 @@
+{
+  "id": "fbd669dd-e442-4135-8494-8ac2065ef58f",
+  "object": "chat.completion",
+  "created": 1783982608,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果通常提供多种水果加工服务，包括菠萝的定制化处理。具体服务内容（如切块、去皮、包装规格等）可能因订单量、客户需求和合作方式而有所不同。建议您直接联系佳农水果的官方客服或销售团队，咨询其具体的定制化加工选项、起订量、价格及交货方式。您可以通过官网或官方渠道获取联系方式，以获得最准确的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 88,
+    "total_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

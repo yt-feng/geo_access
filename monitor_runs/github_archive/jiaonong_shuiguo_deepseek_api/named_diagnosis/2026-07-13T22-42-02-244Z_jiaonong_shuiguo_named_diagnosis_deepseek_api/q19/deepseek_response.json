@@ -1,0 +1,28 @@
+{
+  "id": "3fa4f93e-2153-483d-84b4-6a841dc57cb0",
+  "object": "chat.completion",
+  "created": 1783982604,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效通常受以下因素影响：  \n1. **配送地区**：佳农在部分城市（如北上广深）有自建冷链仓，可实现**次日达**；偏远地区或通过第三方物流的订单，时效可能延长至**2-3天**。  \n2. **下单时间**：若在工作日**16:00前**下单，一般当天发货；16:00后可能次日发货。  \n3. **特殊时期**：电商大促（如618、双11）或极端天气下，配送可能延迟1-2天。  \n\n**建议**：下单前通过佳农官方App、小程序或客服确认具体区域时效；选择“次日达”标签商品可更快到货。实际到货时间以物流信息为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 167,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

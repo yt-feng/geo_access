@@ -1,0 +1,28 @@
+{
+  "id": "15c32324-02f5-40ea-ac2d-a5d04bf25546",
+  "object": "chat.completion",
+  "created": 1783982884,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前佳农水果确实有针对餐饮渠道的菠萝产品定制服务。其菠萝系列通常提供如下常见定制规格：\n\n1. **整果**：按不同重量分拣（如1.5-2.0kg/个），适合门店现切。\n2. **切片/环形片**：去除头尾、去皮后切片，厚度可按需（如0.5-1cm），常用于汉堡、披萨或甜品摆盘。\n3. **切块**：标准切丁（如1.5cm×1.5cm或2cm×2cm），适合沙拉、炒饭、果汁等批量使用。\n4. **去皮净肉**：仅提供可食用果肉部分，整块或进一步加工。\n\n如需具体规格（如切片厚度、切块尺寸、包装重量、冷藏配送条件等），建议直接联系佳农官方销售或区域餐饮代理，确认当前供应菜单和起订量。部分加工规格可能需要提前预定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 202,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q08",
+  "prompt": "佳农香蕉的价格波动大不大，有没有锁价机制？",
+  "createdAt": "2026-07-13T22:42:32.648Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt_index": 8,
+      "promptIndex": 8,
+      "promptHash": "d3560dfe76c6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农香蕉的价格波动大不大，有没有锁价机制？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 241,
+      "text_length": 241,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 139,
+        "total_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 139,
+      "total_tokens": 192,
+      "latencyMs": 3032,
+      "latency_ms": 3032,
+      "createdAt": "2026-07-13T22:42:32.648Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q08/prompt.txt",
+        "answer": "q08/deepseek.txt",
+        "response": "q08/deepseek_response.json",
+        "sources": "q08/deepseek_sources.json",
+        "references": "q08/deepseek_references.json"
+      }
+    }
+  ]
+}

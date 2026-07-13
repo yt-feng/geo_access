@@ -1,0 +1,28 @@
+{
+  "id": "b972a1a5-7994-47dd-bd74-20babf2968e8",
+  "object": "chat.completion",
+  "created": 1783982627,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会。在往届进博会（如2023年第六届进博会）中，佳农作为大型水果供应链企业，多次携旗下品牌和产品亮相，展示其全球优质水果资源。\n\n关于最近的新品，佳农近年来持续引进和推广国内外特色水果。例如：\n- 在2024年，佳农可能推出了**菲律宾凤梨**、**智利车厘子**、**新西兰奇异果**等当季优质水果的新品种或新包装。\n- 此外，佳农也常推出**有机或定制化水果产品**，以满足市场对健康、高品质进口水果的需求。\n\n由于产品更新较快，建议直接关注**佳农官方公众号或官网**获取最新进博会参展信息和当季新品清单，或查看近期新闻稿。如果信息有变动，请以官方发布为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 179,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1c62f5ed-ee92-4c3e-95e8-f46b74a87cec",
+  "object": "chat.completion",
+  "created": 1783982877,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果ERP系统的API接口问题，**目前公开可查的信息较少**，一般需要直接联系佳农官方进行对接。以下是一些建议步骤：\n\n1. **联系佳农商务或技术团队**：通过佳农官网（如佳农集团官网）的“联系客服”或“商务合作”渠道，咨询其ERP系统是否对外提供标准API接口。部分大型供应商（如佳农）可能已有成熟的与B端系统的数据接口方案。\n\n2. **明确对接需求**：提前梳理你需要的数据类型（如订单、库存、价格、物流状态等），以及API的调用方式（如RESTful、SOAP等）。这有助于与对方技术团队高效沟通。\n\n3. **参考行业常见模式**：生鲜电商与供应商的ERP对接，通常采用以下方式：\n   - **直连API**：供应商提供标准化接口（如订单推送、库存同步）。\n   - **EDI（电子数据交换）**：通过中间系统转换数据格式。\n   - **第三方平台**：如使用SAP、金蝶、用友等主流的ERP系统，也可能通过其API或中间件实现对接。\n\n4. **注意安全与合规**：确保API的认证机制（如OAuth2.0、API Key）和数据传输加密（HTTPS）。\n\n**简版回答**：没有公开的API信息，建议直接联系佳农官方商务或技术团队，提供《佳农集团官网联系信息》或通过合作渠道询问。如果已有商业合作合同，可查看其中是否包含数据对接条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 327,
+    "total_tokens": 385,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

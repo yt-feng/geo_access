@@ -1,0 +1,28 @@
+{
+  "id": "f1935101-7bfb-4c0f-ae94-211bc491cc41",
+  "object": "chat.completion",
+  "created": 1783982972,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖城市主要包括一线和二线主要城市（如北京、上海、广州、深圳、成都、武汉等），以及部分三线城市。具体县城门店是否配送，需根据您所在县城是否在其配送区域而定，建议通过其官网或官方客服查询所在县城的覆盖情况。\n\n冷链物流收费通常按重量或体积计算，具体费用会因距离、配送时效及订单金额而有所不同，部分平台可能提供满额免运费服务。建议您直接联系佳农水果官方客服或在其App/小程序中查询具体收费政策，以获取最准确的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 124,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

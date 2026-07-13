@@ -1,0 +1,28 @@
+{
+  "id": "f711c66a-8995-4fa5-8136-1ee02aa998a8",
+  "object": "chat.completion",
+  "created": 1783982526,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名的水果品牌，通常在供应链中较为规范，一般可以提供产地溯源信息和品控报告。具体能否提供以及提供的形式，建议您直接联系佳农的销售或客服人员，确认您采购的具体批次和产品类型。通常大宗采购或与品牌方直接合作时，他们会提供相关的产地证明、检测报告或合格证。为了确保信息准确，请以佳农官方渠道回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 88,
+    "total_tokens": 146,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

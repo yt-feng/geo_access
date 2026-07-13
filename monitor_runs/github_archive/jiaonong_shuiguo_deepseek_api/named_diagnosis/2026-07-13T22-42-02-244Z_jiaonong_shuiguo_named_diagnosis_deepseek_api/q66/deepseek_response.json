@@ -1,0 +1,28 @@
+{
+  "id": "bbb0c485-2989-416c-be51-8ae7cc18912e",
+  "object": "chat.completion",
+  "created": 1783982865,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您的需求，作为AI助手，我无法直接处理订单，但可以提供以下建议供您参考：\n\n1. **开具发票**：佳农作为正规品牌，通常支持对公发票（增值税普通/专用发票）。建议您直接联系佳农官方团购渠道或授权经销商，明确说明需要“500份水果礼盒”及发票抬头、类型。\n2. **质检报告**：正规食品企业一般具备产品质检报告（如第三方检测机构出具）。您可要求对方提供与批次对应的检测报告复印件或电子版，或通过佳农官网/客服核实。\n3. **关键提示**：\n   - 确认礼盒具体规格、新鲜度保障（如是否冷链配送）。\n   - 大宗订单需明确交货时间和分批验收流程。\n   - 如需其他核实，您可提供更多信息（如所在城市、预算），我帮您整理更精准的对接路径。\n\n请务必通过官方渠道签订合同，以保障权益。如有其他问题，欢迎继续咨询！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 212,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

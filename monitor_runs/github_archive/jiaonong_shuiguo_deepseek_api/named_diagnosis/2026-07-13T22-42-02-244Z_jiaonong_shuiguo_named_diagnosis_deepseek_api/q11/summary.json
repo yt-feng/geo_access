@@ -1,0 +1,50 @@
+{
+  "questionId": "q11",
+  "prompt": "佳农菠萝和其他菠萝比，口感和供货稳定性怎么样？",
+  "createdAt": "2026-07-13T22:42:44.977Z",
+  "summary": [
+    {
+      "questionId": "q11",
+      "prompt_index": 11,
+      "promptIndex": 11,
+      "promptHash": "6a4671eeb3c0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农菠萝和其他菠萝比，口感和供货稳定性怎么样？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 577,
+      "text_length": 577,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 355,
+        "total_tokens": 408,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 355,
+      "total_tokens": 408,
+      "latencyMs": 6838,
+      "latency_ms": 6838,
+      "createdAt": "2026-07-13T22:42:44.977Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q11/prompt.txt",
+        "answer": "q11/deepseek.txt",
+        "response": "q11/deepseek_response.json",
+        "sources": "q11/deepseek_sources.json",
+        "references": "q11/deepseek_references.json"
+      }
+    }
+  ]
+}

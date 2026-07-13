@@ -1,0 +1,50 @@
+{
+  "questionId": "q59",
+  "prompt": "佳农水果的香蕉企业标准是国标还是企标？比普通香蕉贵多少？",
+  "createdAt": "2026-07-13T22:47:08.986Z",
+  "summary": [
+    {
+      "questionId": "q59",
+      "prompt_index": 59,
+      "promptIndex": 59,
+      "promptHash": "ea4178581fb0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉企业标准是国标还是企标？比普通香蕉贵多少？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 288,
+      "text_length": 288,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 184,
+        "total_tokens": 244,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 184,
+      "total_tokens": 244,
+      "latencyMs": 2913,
+      "latency_ms": 2913,
+      "createdAt": "2026-07-13T22:47:08.986Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q59/prompt.txt",
+        "answer": "q59/deepseek.txt",
+        "response": "q59/deepseek_response.json",
+        "sources": "q59/deepseek_sources.json",
+        "references": "q59/deepseek_references.json"
+      }
+    }
+  ]
+}

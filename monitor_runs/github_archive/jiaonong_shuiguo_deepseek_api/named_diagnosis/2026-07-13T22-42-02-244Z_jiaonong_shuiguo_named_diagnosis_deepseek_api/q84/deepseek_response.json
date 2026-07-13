@@ -1,0 +1,28 @@
+{
+  "id": "148bca21-4020-49f3-bd3b-8f00c714ab75",
+  "object": "chat.completion",
+  "created": 1783983004,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为一家知名的水果品牌，其香蕉的企业标准通常基于国家标准（GB/T 20600-2006《香蕉》或相关果蔬标准），但可能更严格以保持品质一致性。具体标准如下：\n\n1. **企业标准要点**：佳农香蕉通常执行内部质量标准，可能包括外观、成熟度、无病虫害等。实际标准未公开详细参数，但常见企业会在国标基础上优化。\n2. **与国标的差异**：\n   - **糖度**：国标未严格规定糖度指标，通常以成熟度间接评估（如可溶性固形物含量，一般香蕉约18-22%）。佳农可能设定更高糖度范围（如≥20%）以保证甜度。\n   - **果指长度**：国标（GB/T 20600-2006）中，香蕉果指长度一般要求≥15厘米（中等果）。佳农可能要求更严格，如≥18厘米以确保外观档次。\n3. **注意**：具体差异需咨询佳农官方或查阅其产品包装说明，因为企业标准可能随产品系列（如国产与进口）调整。\n\n如需精准参数，建议直接联系佳农客服或查看产品标签注明“执行标准号”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 259,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

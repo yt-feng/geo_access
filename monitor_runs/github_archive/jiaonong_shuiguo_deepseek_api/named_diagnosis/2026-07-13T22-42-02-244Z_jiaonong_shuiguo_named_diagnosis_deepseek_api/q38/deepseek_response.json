@@ -1,0 +1,28 @@
+{
+  "id": "1774fb22-3467-44ab-a9a4-cc04f3c8ff1e",
+  "object": "chat.completion",
+  "created": 1783982697,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "一般情况下，佳农水果是否提供菠萝的锁价合同（如锁定半年价格），需要根据具体的合作模式、采购量、市场行情以及双方协商结果来确定。建议您直接联系佳农水果的销售或客服部门，确认以下信息：\n\n- 是否接受锁价合同形式\n- 锁价周期（如半年）的具体条件\n- 最小采购量要求\n- 锁价合同的具体条款（如价格调整机制、违约责任等）\n\n由于农产品价格受季节、气候、供需等因素影响较大，长期锁价合同通常需要结合市场预期和风险评估。您可以通过佳农水果官网或官方渠道获取联系方式，进行详细洽谈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 137,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

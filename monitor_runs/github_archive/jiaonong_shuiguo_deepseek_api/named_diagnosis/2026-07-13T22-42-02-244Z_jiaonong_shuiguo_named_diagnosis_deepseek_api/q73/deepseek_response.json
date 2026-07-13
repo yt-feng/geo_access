@@ -1,0 +1,28 @@
+{
+  "id": "187a6001-bf89-40f5-b8e1-9b3eaa745d97",
+  "object": "chat.completion",
+  "created": 1783982913,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果品类，目前我能提供的信息有限。通常佳农水果（Goodfarmer）会销售多种苹果，包括国产和进口品种，如嘎啦（Gala）、红富士（Fuji）、蛇果（Red Delicious）等。\n\n针对您想采购的**进口嘎啦**和**红富士**，常见产地如下：\n- **进口嘎啦**：主要来自**南非**、**智利**或**阿根廷**，这些南半球国家在果实成熟季节供应较多。\n- **进口红富士**：通常以**美国**（如华盛顿州）或**智利**为主要产地，日本青森等地也有少量但更稀缺。\n\n但请注意，**佳农水果的具体采购品类、当前供应产地、以及是否有进口产品等实时信息，我无法直接核实**。建议您：\n1. **直接联系佳农水果的销售团队或客服**，获取官方最新的采购目录和产地明细。\n2. 或者访问佳农水果的官方网站、电商平台旗舰店，查看产品页面上的产地标注。\n\n另外，进口果品的产地可能随季节和贸易政策变化，有条件的话可提供具体的采购量、时间窗口等需求，方便对方给出准确报价和物流方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 261,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

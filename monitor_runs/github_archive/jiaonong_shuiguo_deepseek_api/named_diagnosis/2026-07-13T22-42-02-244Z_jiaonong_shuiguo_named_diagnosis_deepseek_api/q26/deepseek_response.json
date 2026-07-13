@@ -1,0 +1,28 @@
+{
+  "id": "5b709205-0191-464e-9757-6743091cfb7e",
+  "object": "chat.completion",
+  "created": 1783982637,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常抱歉，根据我的知识库，我无法直接查询“佳农水果”具体提供哪些产品服务信息（如是否提供香蕉催熟服务）。这类信息与其公司政策、运营地点及销售渠道相关。\n\n建议您通过以下方式获取准确信息：\n1. 直接联系佳农水果官方客服，询问其是否提供催熟服务。\n2. 访问佳农水果官方网站或官方电商平台，查看其产品说明或服务项目。\n3. 若您在门店购买，可直接向销售人员咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 107,
+    "total_tokens": 159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

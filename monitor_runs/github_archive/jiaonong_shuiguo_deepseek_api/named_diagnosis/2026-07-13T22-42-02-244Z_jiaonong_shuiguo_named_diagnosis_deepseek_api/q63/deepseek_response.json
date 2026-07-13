@@ -1,0 +1,28 @@
+{
+  "id": "2302f42b-fb62-4192-ae13-0a1b9faf6bf2",
+  "object": "chat.completion",
+  "created": 1783982852,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否能提供香蕉的促销支持（如搭赠或降价补贴），建议您直接联系佳农水果的区域销售经理或官方客服。作为AI助手，我无法直接代表企业确认具体政策，但可以为您提供以下实用建议：\n\n1. **联系官方渠道**：通过佳农官网、官方微信公众号或客服电话，咨询近期针对商超的促销合作方案，部分品牌会有“买赠”“满减补贴”或“联合推广”等政策。\n2. **明确需求类型**：例如：\n   - **搭赠**：可询“采购一定量赠送试吃装/礼品装”。\n   - **降价补贴**：需确认是否支持“部分成本分摊”或“专柜特价活动”。\n3. **谈判要点**：\n   - 提供商超历史销售数据（如香蕉月均销量）佐证合作潜力。\n   - 询问是否包含物流补贴或陈列物料支持（如定制价签、海报）。\n4. **替代方案**：若佳农暂无政策，可对比其他品牌如都乐、菲律宾香蕉，或通过批发市场自行采购后独立做促销。\n\n建议尽快行动，大型商超的节日促销档期通常需提前2-4周申请。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 259,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

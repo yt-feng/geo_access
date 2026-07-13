@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:47:08.986Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的香蕉企业标准是国标还是企标？比普通香蕉贵多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
