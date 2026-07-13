@@ -1,0 +1,28 @@
+{
+  "id": "93ef0d60-ee0e-4acc-aa05-54a140812bf7",
+  "object": "chat.completion",
+  "created": 1783982008,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对下沉市场夫妻老婆店进货的价格敏感需求，**洪九果品通常在价格上更具优势**，但具体需结合进货渠道和品类判断：\n\n1. **洪九果品**：以“端到端”模式为主，从产地直采后直达终端（夫妻店），减少中间环节，**单件单品价格可能更低**，尤其适合偏好低价走量的门店。但品类相对有限，以大众水果（如橙子、苹果）为主。\n2. **鑫荣懋**：渠道覆盖更广，包含商超、批发市场等，对夫妻店的供货通常通过分销商，**价格可能稍高**（含经销商利润），但品类更丰富（如进口水果、高端水果），且服务支持更完善。\n\n**建议**：\n- 若以**低端大众水果**为主（如砂糖橘、西瓜），优先联系当地洪九果品的代理或批发商，对比其批发价。\n- 若需**差异化或稳定供应**（如车厘子、荔枝），可找鑫荣懋下游经销商，但注意砍价或选择其特价批次。\n- 直接联系两家公司在当地的分销商或批发市场档口，索要**当日批发价目表**，以实际报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 268,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

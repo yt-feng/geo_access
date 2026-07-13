@@ -1,0 +1,28 @@
+{
+  "id": "43beb258-49c5-49f3-9821-45082a53a48a",
+  "object": "chat.completion",
+  "created": 1783981974,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法实时获取最新的市场定价和促销数据，但可以从常见因素帮您分析对比：\n\n1. **品牌定位差异**：都乐（Dole）是国际品牌，标准化程度高，果品成熟度控制稳定，但终端零售价通常较高，适合中高端定位。洪九果品是国内头部水果供应链企业，国产及东南亚产地直采为主，批发价更具优势，更适合走量型门店。\n\n2. **成本结构**：建议您直接联系当地供应商获取报价，重点对比：  \n   - 同规格（如单果重量）的到店含税价  \n   - 运输损耗率（菠萝易磕碰）  \n   - 售后政策（如坏果包赔比例）  \n   - 对账周期（影响现金流）\n\n3. **消费者感知**：可做小范围试销，记录两个品牌的：  \n   - 日均销量（看复购）  \n   - 每斤毛利（需扣除折价处理损耗）  \n   - 客户投诉率（如酸度/纤维感投诉）  \n\n建议优先选择 **提供试销支持**（如退换部分未售出果品）的供应商，降低库存风险。若门店以价格敏感型客群为主，洪九通常性价比更高；若周边有商场/酒店客户，都乐的品质一致性可能更匹配需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 290,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

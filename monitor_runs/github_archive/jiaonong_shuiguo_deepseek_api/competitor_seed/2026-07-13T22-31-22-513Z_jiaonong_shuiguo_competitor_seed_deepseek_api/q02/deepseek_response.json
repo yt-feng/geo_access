@@ -1,0 +1,28 @@
+{
+  "id": "14dfb332-cb6b-458a-8852-87ff3155848d",
+  "object": "chat.completion",
+  "created": 1783981891,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）以外，目前在中国市场能稳定供应菠萝的品牌还包括：\n\n1. **佳农（Goodfarmer）**  \n   国内知名的水果供应链品牌，菠萝货源以菲律宾、泰国等地为主，批发和零售渠道覆盖面广。\n\n2. **金菠萝（Gold Pineapple）**  \n   主要来自菲律宾，品质稳定，常见于高端超市如盒马、山姆等。\n\n3. **鑫荣懋（Joyvio）**  \n   作为全球水果贸易企业，菠萝品类也是其核心产品，供应稳定性较强。\n\n4. **天地生（Tian Di Sheng）**  \n   主要在华南地区流通，部分电商平台也有销售。\n\n5. **海南菠萝（海南产区品牌）**  \n   如“琼海”“万宁”等地的本地品牌，季节性较强但供应稳定（4-6月为主力产季）。\n\n6. **正大（CP Group）**  \n   泰国正大集团旗下品牌，供应链体系成熟，在商超和线上渠道常见。\n\n建议关注各大生鲜电商平台（如盒马、美团优选、叮咚买菜）的货源信息，或向批发市场（如北京新发地、广州江南市场）询价，品牌供应稳定性会受季节、产地和进口政策影响，动态变化较大。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 272,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

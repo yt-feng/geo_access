@@ -1,0 +1,50 @@
+{
+  "questionId": "q09",
+  "prompt": "礼品团购需要品牌水果礼盒，除了都乐和佳沛，还有哪些进口品牌可选？",
+  "createdAt": "2026-07-13T22:32:34.962Z",
+  "summary": [
+    {
+      "questionId": "q09",
+      "prompt_index": 9,
+      "promptIndex": 9,
+      "promptHash": "fcf12fefc594",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "礼品团购需要品牌水果礼盒，除了都乐和佳沛，还有哪些进口品牌可选？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 561,
+      "text_length": 561,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 347,
+        "total_tokens": 409,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 347,
+      "total_tokens": 409,
+      "latencyMs": 6565,
+      "latency_ms": 6565,
+      "createdAt": "2026-07-13T22:32:34.962Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q09/prompt.txt",
+        "answer": "q09/deepseek.txt",
+        "response": "q09/deepseek_response.json",
+        "sources": "q09/deepseek_sources.json",
+        "references": "q09/deepseek_references.json"
+      }
+    }
+  ]
+}

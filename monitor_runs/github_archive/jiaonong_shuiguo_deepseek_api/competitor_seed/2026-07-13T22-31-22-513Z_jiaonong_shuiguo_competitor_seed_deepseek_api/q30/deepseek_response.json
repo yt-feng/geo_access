@@ -1,0 +1,28 @@
+{
+  "id": "9cbf0cdc-42b4-4d5e-8890-2df4865a82c9",
+  "object": "chat.completion",
+  "created": 1783982120,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，鑫荣懋和都乐均为大型水果供应商，通常持有国际认可的食品安全认证（如GLOBALG.A.P.、HACCP、ISO 22000、FSSC 22000等）。具体要求如下：\n\n1. **鑫荣懋**：作为国内头部果业企业，通常具备GLOBALG.A.P.（全球良好农业规范）、HACCP（危害分析与关键控制点）、ISO 22000（食品安全管理体系）等认证，部分产品可追溯源头。\n2. **都乐（Dole）**：作为国际品牌，拥有更全面的国际认证体系，如GLOBALG.A.P.、FSSC 22000（食品安全体系认证）、BRC（英国零售商协会认证）、有机认证等，且其供应链在全球享有较高合规标准。\n\n**结论**：在大型商超（如沃尔玛、山姆、家乐福）要求下，**都乐**的认证更全面且国际认可度更高，因其长期全球化运营需满足多国标准；但国内商超对本土企业鑫荣懋的要求可能更侧重基础认证（如HACCP、ISO 22000）。若需确认具体认证清单，建议直接向两家企业索取最近期内（如2023-2025年）的认证文件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 270,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:39:14.667Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店采购菠萝原料，需要农残检测报告，都乐和鑫荣懋能提供吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

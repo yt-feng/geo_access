@@ -1,0 +1,28 @@
+{
+  "id": "97edc9fb-2ec6-4b31-840d-646b94b0a297",
+  "object": "chat.completion",
+  "created": 1783982350,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法直接确认都乐（Dole）和洪九果品是否有公开的企业香蕉分级标准。但通常情况下，大型水果连锁企业会制定内部标准，可能未公开发布。建议你通过以下途径获取信息：\n\n1. **直接咨询企业**：联系都乐或洪九果品的官方客服或业务部门，询问是否有可供参考的分级标准文件。\n2. **参考行业通用标准**：国家推荐性标准如《香蕉等级规格》（GB/T 37494-2019）或《鲜香蕉》（NY/T 948-2006）等，可提供基础分级框架（如长度、外观、成熟度等指标）。\n3. **搜索公开资料**：在“全国标准信息公共服务平台”或企业官网、行业报告中查找是否有相关企业标准备案信息。\n\n如果你需要起草自己的分级标准，可结合通用标准并调整细节（如按长度分为小果（<15cm）、中果（15-20cm）、大果（>20cm），或按成熟度分级）。如需进一步协助，请说明具体需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 223,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

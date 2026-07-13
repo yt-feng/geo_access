@@ -1,0 +1,28 @@
+{
+  "id": "2f7edcf0-435c-4013-95cf-51cd1c294f20",
+  "object": "chat.completion",
+  "created": 1783982075,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉采购中，**都乐（Dole）的分级通常比鑫荣懋更细**。\n\n具体差异如下：\n\n- **都乐**：普遍采用较为严格和细致的商业分级标准，常见分级包括：标准（Standard）、精选（Premium/Choice）、特级（Extra Fancy/Extra Premium）。部分高端产品线还会有更多细化的颜色熟度、果指长度和排数（如5-7排）标准。\n- **鑫荣懋**：虽然是大型果品企业，但香蕉产品常见分级相对简洁，通常以“A级”、“AA级”或“通货”为主。在标准化、批量化供应零售端时，其分级颗粒度一般不如都乐细致。\n\n**关键判断依据**：都乐作为国际化香蕉巨头，全球供应链的等级划分历史悠久且精细化；鑫荣懋在部分高端自有品牌或特定渠道可能也有细化，但整体商业惯例上，采购时如需更细的规格筛选，建议首选都乐。\n\n**实操建议**：若你有具体进货标准（如：要求果指长度18-20cm、7排及以上、表皮无瑕），建议直接向两家供应商索取“最新规格书”或“采购验收标准表”对比确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 261,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

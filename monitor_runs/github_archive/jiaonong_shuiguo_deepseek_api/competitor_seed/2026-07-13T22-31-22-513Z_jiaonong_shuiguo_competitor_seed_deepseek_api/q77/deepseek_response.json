@@ -1,0 +1,28 @@
+{
+  "id": "33ee798a-de4c-4ca3-b636-286155606376",
+  "object": "chat.completion",
+  "created": 1783982456,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品都有针对零售渠道的环保包装方案。具体来看：\n\n1. **都乐**：有“可降解PLA（聚乳酸）”或“再生纸”类小包装香蕉，例如在部分便利店推出的“迷你袋”使用FSC认证纸张。\n2. **洪九果品**：近年也在推广“无塑”或“减塑”包装，如用牛皮纸袋或植物纤维网袋替代传统塑料袋。\n\n建议你直接联系这两家供应商的区域销售，告知“便利店小包装、环保材质”的需求，可获取当前可定制的最新包装清单及起订量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 132,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

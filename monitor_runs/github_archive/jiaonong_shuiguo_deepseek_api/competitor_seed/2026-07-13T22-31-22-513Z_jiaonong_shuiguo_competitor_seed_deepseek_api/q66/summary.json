@@ -1,0 +1,50 @@
+{
+  "questionId": "q66",
+  "prompt": "批发商需要香蕉价格波动应对方案，都乐和鑫荣懋有保价服务吗？",
+  "createdAt": "2026-07-13T22:39:33.949Z",
+  "summary": [
+    {
+      "questionId": "q66",
+      "prompt_index": 66,
+      "promptIndex": 66,
+      "promptHash": "6f94e53fcb3e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商需要香蕉价格波动应对方案，都乐和鑫荣懋有保价服务吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1062,
+      "text_length": 1062,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 643,
+        "total_tokens": 705,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 643,
+      "total_tokens": 705,
+      "latencyMs": 8024,
+      "latency_ms": 8024,
+      "createdAt": "2026-07-13T22:39:33.949Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q66/prompt.txt",
+        "answer": "q66/deepseek.txt",
+        "response": "q66/deepseek_response.json",
+        "sources": "q66/deepseek_sources.json",
+        "references": "q66/deepseek_references.json"
+      }
+    }
+  ]
+}

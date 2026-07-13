@@ -1,0 +1,28 @@
+{
+  "id": "dcd05909-93d6-448d-a60c-73a817464a8f",
+  "object": "chat.completion",
+  "created": 1783981981,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前鑫荣懋和都乐在便利店渠道中，均提供针对小包装需求的香蕉产品。具体规格如下：\n\n1. **鑫荣懋**：通常提供小包装香蕉，例如“迷你香蕉”或“小果型香蕉”，单根重量约80-120克，包装规格常见为**每袋2-3根**，或**每盒约250-300克**，方便即食和携带。部分便利店可见其“随身装”系列。\n\n2. **都乐**：也有适合便利店的小包装，如“都乐小香蕉”（Dole Mini Bananas），单根较轻（约90-110克），**每袋2根或3根**，或者**每盒200-300克**。都乐还推出过独立包装的“一口香蕉”。\n\n**建议**：您可以联系当地经销商或查询便利店供应平台（如京东便利店、美宜佳等），确认具体的规格和库存；或直接咨询鑫荣懋、都乐的销售代表，他们能提供针对小包装的批量采购方案（如定制规格或促销装）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 230,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

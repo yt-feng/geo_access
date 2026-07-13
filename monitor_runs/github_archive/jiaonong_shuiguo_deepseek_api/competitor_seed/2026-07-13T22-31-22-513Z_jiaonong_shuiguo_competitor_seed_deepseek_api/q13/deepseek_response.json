@@ -1,0 +1,28 @@
+{
+  "id": "b5dec498-4cbb-45be-80f1-12fb05528a92",
+  "object": "chat.completion",
+  "created": 1783981987,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在生鲜电商平台选择香蕉供应商时，**鑫荣懋**的冷链城市覆盖范围通常更广。根据公开信息，鑫荣懋在全国拥有约40个冷链配送中心，覆盖超过300个城市，能够实现从产地到终端门店的全程冷链直达。而洪九果品主要依托其“端到端”模式，覆盖城市数量相对较少，约在100-200个城市之间，且在部分二三线城市的冷链配送网络深度可能不如鑫荣懋。\n\n建议您进一步与这两家公司确认最新覆盖城市清单，因为具体数据可能随业务扩展而调整。同时，可要求对方提供冷链直达的案例和时效承诺，以确保满足您平台的需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 148,
+    "total_tokens": 214,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

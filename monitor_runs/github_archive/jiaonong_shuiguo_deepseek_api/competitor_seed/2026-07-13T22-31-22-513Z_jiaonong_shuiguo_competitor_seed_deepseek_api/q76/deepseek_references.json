@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-13T22:40:47.581Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜电商需要菠萝产地直发，都乐和鑫荣懋的物流时效如何？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

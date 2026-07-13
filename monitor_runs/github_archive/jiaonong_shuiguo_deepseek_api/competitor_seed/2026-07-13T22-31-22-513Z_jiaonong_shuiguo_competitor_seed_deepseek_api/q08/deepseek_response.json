@@ -1,0 +1,28 @@
+{
+  "id": "bcfb0491-6fff-4bc9-813f-47a2f0de403d",
+  "object": "chat.completion",
+  "created": 1783981946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对香蕉供应商的产地溯源和品控证明透明度，都乐（Dole）和鑫荣懋（Golden Wing Mau）均有对应体系，但侧重点和公开程度有所不同：\n\n1. **都乐（Dole）**  \n   - **产地溯源**：都乐在全球有自有农场和合作种植基地（如菲律宾、厄瓜多尔等），通常提供从种植、采摘到包装的完整链条信息。部分产品通过国际认证（如GlobalG.A.P.、Rainforest Alliance），可通过包装上的追溯码查询产地。  \n   - **品控证明**：公开发布品控报告（如第三方审计报告、农残检测结果），官网和产品包装上通常有可查询的二维码或批次号。  \n   - **透明度**：较为成熟，但针对具体订单的定制化溯源可能需要渠道商申请。\n\n2. **鑫荣懋（Golden Wing Mau）**  \n   - **产地溯源**：主要从东南亚（如泰国、越南）进口香蕉，与当地农场签订合作合同，部分批次提供基地溯源信息。目前尚未大规模开放消费者端实时查询系统。  \n   - **品控证明**：通过自有质检团队和第三方检测（如SGS、Intertek），能提供批次农残和重金属检测报告，但公开渠道透明度略低于都乐。  \n   - **透明度**：对B端客户（如大型商超）可提供详细证明，但对中小型采购方可能仅按需提供。\n\n**结论建议**：  \n- 若追求**系统化、可公开验证的溯源**，都乐更透明（尤其其官网和产品包装附带的数据追溯入口）。  \n- 若主要做B端（如超市、餐饮连锁），鑫荣懋可与客户直接对接品控报告（需在合同中明确要求）。  \n- 建议直接要求销售方提供：产地证书、批次检测报告（如农残、重金属）、第三方认证文件（如GlobalG.A.P.证书），并核查其官网公开信息或扫码追溯功能是否通畅。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 429,
+    "total_tokens": 496,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

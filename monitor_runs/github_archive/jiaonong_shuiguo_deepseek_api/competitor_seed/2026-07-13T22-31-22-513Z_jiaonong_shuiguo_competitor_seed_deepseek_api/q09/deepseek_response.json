@@ -1,0 +1,28 @@
+{
+  "id": "30d430ea-2aaa-4a5b-a539-e64269496df5",
+  "object": "chat.completion",
+  "created": 1783981955,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对礼品团购需求，除了都乐和佳沛外，以下进口水果品牌可供选择：\n\n1. **怡颗莓（Driscoll's）** - 专注于浆果类（蓝莓、树莓、草莓等），品质稳定，礼盒装适合高端礼品场景。\n2. **乐淇（Rockit）** - 新西兰苹果品牌，小果便携装形式独特，礼盒包装精致。\n3. **柯莱蒙（ClemenGold）** - 南非柑橘品牌，以易剥皮、甜度高的无核柑橘闻名，常推出节日礼盒。\n4. **爱妃（Envy）** - 新西兰/美国产苹果，口感脆甜，外观红色均匀，适合商务礼品。\n5. **金蜜（Goldpine）** - 菲律宾凤梨品牌，品种如Sugarloaf/Queen，甜度高，整箱礼盒常见。\n6. **牛油果先生（Mr. Avocado）** - 主推墨西哥/智利牛油果，部分礼盒含专用工具，适合健康礼品需求。\n\n选购建议：\n- **验证渠道**：优先选择品牌官方授权经销商或大型批发市场（如上海辉展、广州江南），确保正品及包装质量。\n- **季节性考虑**：部分品牌如柑橘、苹果全年供应，浆果类需确认产季（如智利蓝莓冬季、美国蓝莓夏季）。\n- **礼盒规格**：团购通常要求统一包装，可咨询品牌方是否提供定制LOGO或贺卡服务。\n\n如需核验具体品牌代理信息，可提供您所在地区，以便推荐当地可靠供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 347,
+    "total_tokens": 409,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q45",
+  "prompt": "茶饮店用菠萝做果酱，需要稳定供应菠萝，都乐和洪九果品谁更靠谱？",
+  "createdAt": "2026-07-13T22:37:03.500Z",
+  "summary": [
+    {
+      "questionId": "q45",
+      "prompt_index": 45,
+      "promptIndex": 45,
+      "promptHash": "0c06de0361e0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店用菠萝做果酱，需要稳定供应菠萝，都乐和洪九果品谁更靠谱？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 510,
+      "text_length": 510,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 328,
+        "total_tokens": 393,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 328,
+      "total_tokens": 393,
+      "latencyMs": 5525,
+      "latency_ms": 5525,
+      "createdAt": "2026-07-13T22:37:03.500Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q45/prompt.txt",
+        "answer": "q45/deepseek.txt",
+        "response": "q45/deepseek_response.json",
+        "sources": "q45/deepseek_sources.json",
+        "references": "q45/deepseek_references.json"
+      }
+    }
+  ]
+}

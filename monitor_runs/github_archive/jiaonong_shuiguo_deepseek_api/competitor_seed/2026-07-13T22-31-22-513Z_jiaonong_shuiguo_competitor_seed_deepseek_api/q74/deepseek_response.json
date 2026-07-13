@@ -1,0 +1,28 @@
+{
+  "id": "28849c49-3439-4693-8980-040c47af70c2",
+  "object": "chat.completion",
+  "created": 1783982436,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于都乐和洪九果品的起订量，我目前没有掌握最新的官方数据，因为这些信息会随季节、产品种类、地区及销售政策变化。建议您直接联系这两家公司的官方销售或客服渠道，获取最准确的起订量和定制要求。\n\n若您需要进一步帮助，如寻找其他可定制水果礼盒的供应商或比较报价，请告诉我您的具体需求（如城市、预算、水果品类等），我可以提供更实用的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 100,
+    "total_tokens": 164,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

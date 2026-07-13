@@ -1,0 +1,50 @@
+{
+  "questionId": "q33",
+  "prompt": "批发市场拿货，洪九果品和鑫荣懋谁到货更快？",
+  "createdAt": "2026-07-13T22:35:37.314Z",
+  "summary": [
+    {
+      "questionId": "q33",
+      "prompt_index": 33,
+      "promptIndex": 33,
+      "promptHash": "88b3a559ed80",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发市场拿货，洪九果品和鑫荣懋谁到货更快？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 378,
+      "text_length": 378,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 233,
+        "total_tokens": 292,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 233,
+      "total_tokens": 292,
+      "latencyMs": 4362,
+      "latency_ms": 4362,
+      "createdAt": "2026-07-13T22:35:37.314Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q33/prompt.txt",
+        "answer": "q33/deepseek.txt",
+        "response": "q33/deepseek_response.json",
+        "sources": "q33/deepseek_sources.json",
+        "references": "q33/deepseek_references.json"
+      }
+    }
+  ]
+}
