@@ -1,0 +1,28 @@
+{
+  "id": "d9b54070-e5ab-4fd5-8c87-74eb6308b9bc",
+  "object": "chat.completion",
+  "created": 1784068016,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于团购客户价格敏感的场景，通常**阶梯价更为合适**，原因如下：\n\n1. **直观明确**：客户能立刻看到“买越多、省越多”的具体金额，决策门槛低，符合价格敏感的消费心理。\n2. **减少猜疑**：返利需事后结算或满足条件，客户可能怀疑“返还方式是否有陷阱”或担心资金占用。\n3. **快速转化**：阶梯价无需二次沟通，成交速度更快。\n\n**建议做法**：\n- 设置2-3个清晰的价格阶梯（如：10-50单享9折，51-200单享85折，201+单享8折）。\n- 对超大宗订单（如单次超500单），可额外一次性返利（如总价再减3%），作为冲刺奖励。\n\n仅当客户合作稳定、信任度高且下单频率不均时，返利（如季度返2%）更利于锁定长期关系，但初创或一次性团购客户慎用返利。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 211,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

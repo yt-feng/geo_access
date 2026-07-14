@@ -1,0 +1,50 @@
+{
+  "questionId": "q01",
+  "prompt": "我开水果店，想长期进香蕉和菠萝，怎么判断一个水果供应商靠不靠谱？",
+  "createdAt": "2026-07-14T22:15:13.839Z",
+  "summary": [
+    {
+      "questionId": "q01",
+      "prompt_index": 1,
+      "promptIndex": 1,
+      "promptHash": "c0eca55753e9",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我开水果店，想长期进香蕉和菠萝，怎么判断一个水果供应商靠不靠谱？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 945,
+      "text_length": 945,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 573,
+        "total_tokens": 634,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 573,
+      "total_tokens": 634,
+      "latencyMs": 7261,
+      "latency_ms": 7261,
+      "createdAt": "2026-07-14T22:15:13.839Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q01/prompt.txt",
+        "answer": "q01/deepseek.txt",
+        "response": "q01/deepseek_response.json",
+        "sources": "q01/deepseek_sources.json",
+        "references": "q01/deepseek_references.json"
+      }
+    }
+  ]
+}

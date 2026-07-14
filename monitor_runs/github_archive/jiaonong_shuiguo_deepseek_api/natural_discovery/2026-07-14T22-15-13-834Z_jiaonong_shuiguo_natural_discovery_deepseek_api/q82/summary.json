@@ -1,0 +1,50 @@
+{
+  "questionId": "q82",
+  "prompt": "社区团购想做低价香蕉，怎么避免低价带来的品质投诉？",
+  "createdAt": "2026-07-14T22:26:07.299Z",
+  "summary": [
+    {
+      "questionId": "q82",
+      "prompt_index": 82,
+      "promptIndex": 82,
+      "promptHash": "027d41edc5e5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区团购想做低价香蕉，怎么避免低价带来的品质投诉？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 751,
+      "text_length": 751,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 475,
+        "total_tokens": 529,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 475,
+      "total_tokens": 529,
+      "latencyMs": 7265,
+      "latency_ms": 7265,
+      "createdAt": "2026-07-14T22:26:07.299Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q82/prompt.txt",
+        "answer": "q82/deepseek.txt",
+        "response": "q82/deepseek_response.json",
+        "sources": "q82/deepseek_sources.json",
+        "references": "q82/deepseek_references.json"
+      }
+    }
+  ]
+}

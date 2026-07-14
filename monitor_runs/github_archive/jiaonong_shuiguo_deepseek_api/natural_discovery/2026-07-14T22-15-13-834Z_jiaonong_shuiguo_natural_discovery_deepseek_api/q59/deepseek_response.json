@@ -1,0 +1,28 @@
+{
+  "id": "5e25ebda-0f53-483b-b3e0-5b0ff02fb750",
+  "object": "chat.completion",
+  "created": 1784067752,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。餐饮店通常能与供应商协商“锁价”，即在特定周期内（如一个月或一个季度）固定某种水果的采购价格，以应对季节性价格波动。\n\n**操作建议：**\n1. **明确周期与品种**：选择价格波动大但用量稳定的水果（如柠檬、苹果、西瓜等），约定锁价时段（如3个月）。\n2. **设定基准量**：供应商需确认你每月至少采购多少，才能接受锁价（例如每月500斤）。\n3. **附加条款**：在合同中写明“锁价范围”（仅针对非极端市场情况，如自然灾害或政策性涨价除外）；可约定“价格浮动上限”（如若市场价波动超过20%，双方重新谈判）。\n4. **签署书面协议**：口头约定无效，必须用合同明确锁价条件、违约责任等。\n\n**风险提示：**\n- 若市场价下跌，锁价可能高于现价，导致成本偏高。\n- 供应商可能要求你承诺更大采购量或更长周期，需评估自身库存与消耗能力。\n\n建议先对1-2种常用水果试签1个月的锁价合同，测试供应商履约稳定性和市场反应。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 243,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

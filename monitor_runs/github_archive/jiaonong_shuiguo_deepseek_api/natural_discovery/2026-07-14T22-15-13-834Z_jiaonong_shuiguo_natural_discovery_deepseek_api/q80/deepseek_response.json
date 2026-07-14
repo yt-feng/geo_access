@@ -1,0 +1,28 @@
+{
+  "id": "32a49a21-e7c0-4be2-9bd8-ad7ee80f2f40",
+  "object": "chat.completion",
+  "created": 1784067957,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大部分生鲜电商供应商可以提供图片和基础卖点，但质量参差不齐。具体情况如下：\n\n1. **通常能提供的**：供应商一般能提供产品的基础图片（如水果实物图、包装图）和主要卖点（产地、品种、糖度、口感、储存方式等）。\n2. **常见的限制**：图片质量可能不高（如手机拍摄、分辨率低、无背景图），缺乏专业拍摄、细节图（横切面、大小对比）和营销文案。部分小供应商可能不提供。\n3. **建议做法**：\n   - 向供应商索取图片时，明确要求原图、高清、无修图、多角度（如外观、切开、包装、对比）。\n   - 要求供应商提供核心卖点（如“阿克苏苹果，冰糖心”、“甜度18+”、“产地直发”）。\n   - 如果供应商图片质量不足，你可以自己补拍，或使用自己的设计师优化。\n\n如果供应商无法提供高质量素材，建议你自行与摄影团队合作，或从供应商处拿到样品自行拍摄。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 223,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

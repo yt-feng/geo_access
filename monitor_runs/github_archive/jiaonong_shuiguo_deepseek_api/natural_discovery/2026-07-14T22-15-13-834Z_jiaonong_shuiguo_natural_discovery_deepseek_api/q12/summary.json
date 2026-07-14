@@ -1,0 +1,50 @@
+{
+  "questionId": "q12",
+  "prompt": "水果店卖菠萝总有损耗，采购时怎么判断菠萝熟度比较合适？",
+  "createdAt": "2026-07-14T22:16:25.920Z",
+  "summary": [
+    {
+      "questionId": "q12",
+      "prompt_index": 12,
+      "promptIndex": 12,
+      "promptHash": "116f4c3bf95d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店卖菠萝总有损耗，采购时怎么判断菠萝熟度比较合适？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 616,
+      "text_length": 616,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 409,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 409,
+      "total_tokens": 466,
+      "latencyMs": 6354,
+      "latency_ms": 6354,
+      "createdAt": "2026-07-14T22:16:25.920Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q12/prompt.txt",
+        "answer": "q12/deepseek.txt",
+        "response": "q12/deepseek_response.json",
+        "sources": "q12/deepseek_sources.json",
+        "references": "q12/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q47",
+  "prompt": "茶饮店用香蕉做饮品或甜品，采购时应该怎么控制熟度？",
+  "createdAt": "2026-07-14T22:20:54.991Z",
+  "summary": [
+    {
+      "questionId": "q47",
+      "prompt_index": 47,
+      "promptIndex": 47,
+      "promptHash": "ecb5c7f01c91",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店用香蕉做饮品或甜品，采购时应该怎么控制熟度？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 957,
+      "text_length": 957,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 655,
+        "total_tokens": 713,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 655,
+      "total_tokens": 713,
+      "latencyMs": 11849,
+      "latency_ms": 11849,
+      "createdAt": "2026-07-14T22:20:54.991Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q47/prompt.txt",
+        "answer": "q47/deepseek.txt",
+        "response": "q47/deepseek_response.json",
+        "sources": "q47/deepseek_sources.json",
+        "references": "q47/deepseek_references.json"
+      }
+    }
+  ]
+}

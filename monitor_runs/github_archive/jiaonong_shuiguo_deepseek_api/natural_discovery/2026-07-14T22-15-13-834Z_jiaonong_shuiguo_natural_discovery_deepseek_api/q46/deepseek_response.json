@@ -1,0 +1,28 @@
+{
+  "id": "3dd44f35-872d-4a3d-9068-87c4b1d0cf37",
+  "object": "chat.completion",
+  "created": 1784067648,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议根据以下三点进行选择：\n\n1. **鲜果**：适合追求新鲜口感、制作现切菠萝果茶的门店。需自行削皮、去芯、切块，耗时且损耗率较高（约30-40%），但风味和色泽最佳。适合主打新鲜、高客单价产品。\n\n2. **果丁**：适合标准化出餐、控制成本。通常为速冻或罐装菠萝丁，大小均匀，无需预处理，损耗低。但口感较鲜果偏软，风味略逊。推荐用于批量果茶、冷饮或与鲜果混搭。\n\n3. **果泥**：适合快速出杯、追求稳定浓度的果茶或冰沙类产品。果泥是打成细腻糊状的菠萝，可滤除纤维，酸甜度均一，但风味最弱，且部分产品含添加剂。适合主打性价比或连锁店。\n\n- **优先级建议**：若预算与人力充足，选鲜果提升品质；若注重出杯效率和成本控制，选果丁（推荐速冻，比罐装更接近新鲜风味）；若门店主打复配果茶或冰沙，果泥是便捷选择。\n\n- **注意**：无论选哪种，务必确认产地和成熟度（如菲律宾或泰国菠萝更甜）、有无人工添加（果泥需看配料表）、冷链运输条件等。小批量试制后再定大货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 295,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

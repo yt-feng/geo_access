@@ -1,0 +1,50 @@
+{
+  "questionId": "q97",
+  "prompt": "酒店采购水果盘原料，供应商应该保证哪些规格和外观标准？",
+  "createdAt": "2026-07-14T22:27:51.298Z",
+  "summary": [
+    {
+      "questionId": "q97",
+      "prompt_index": 97,
+      "promptIndex": 97,
+      "promptHash": "517c8b9a4f49",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "酒店采购水果盘原料，供应商应该保证哪些规格和外观标准？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 576,
+      "text_length": 576,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 365,
+        "total_tokens": 420,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 365,
+      "total_tokens": 420,
+      "latencyMs": 5031,
+      "latency_ms": 5031,
+      "createdAt": "2026-07-14T22:27:51.298Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q97/prompt.txt",
+        "answer": "q97/deepseek.txt",
+        "response": "q97/deepseek_response.json",
+        "sources": "q97/deepseek_sources.json",
+        "references": "q97/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:24:10.368Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果批发商进香蕉，如何判断供应商能不能按时到车？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

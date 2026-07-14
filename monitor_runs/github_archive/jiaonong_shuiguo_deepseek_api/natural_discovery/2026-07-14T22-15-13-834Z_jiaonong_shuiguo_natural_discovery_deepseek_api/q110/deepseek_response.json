@@ -1,0 +1,28 @@
+{
+  "id": "61b29c5b-8c9d-4544-b038-1beb9d506eaa",
+  "object": "chat.completion",
+  "created": 1784068158,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，供应商拥有产地直采能力通常可以降低成本，从而提供更优惠的价格。主要原因是减少了中间环节（如批发商、分销商），从而节省了加价和物流费用。此外，直采还能在水果旺季或供需紧张时获得更稳定的货源，避免临时高价采购。不过，具体价格优势还取决于供应商的采购规模、产地距离和运输成本。建议您与供应商确认其直采能力，并要求提供报价进行比较，以判断实际价格是否更有竞争力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 103,
+    "total_tokens": 158,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

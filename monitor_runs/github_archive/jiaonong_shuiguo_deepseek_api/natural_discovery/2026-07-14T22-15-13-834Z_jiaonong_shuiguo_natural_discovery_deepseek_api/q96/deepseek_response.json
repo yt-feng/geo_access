@@ -1,0 +1,28 @@
+{
+  "id": "75d1d2a4-3ddf-481e-98f1-849444e5de1b",
+  "object": "chat.completion",
+  "created": 1784068067,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从综合管理角度，最需要优先关注的是**食品安全**，其次是**价格合理**和**配送准时**。具体原因如下：\n\n1. **食品安全是底线**：水果若出现农药残留超标、腐烂变质、异物污染等问题，直接威胁员工健康，可能引发群体性食物中毒或法律纠纷，影响企业声誉。采购时必须要求供应商提供检测报告、资质证明，并现场抽检。\n\n2. **价格影响成本控制**：在保障安全前提下，需通过比价、协议价或批量采购控制成本。但若因低价忽视安全，潜在风险损失远高于节省的费用。\n\n3. **配送准时影响运营效率**：若水果不能及时到货，食堂可能无法按计划供应，影响员工就餐体验。但此问题可通过合同条款约束（如迟到扣款）或备用供应商缓解，属于可管理的次要风险。\n\n**建议采购优先级排序**：  \n食品安全（必须保障） → 价格合理（需权衡质量） → 配送准时（可设置标准应对）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 213,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

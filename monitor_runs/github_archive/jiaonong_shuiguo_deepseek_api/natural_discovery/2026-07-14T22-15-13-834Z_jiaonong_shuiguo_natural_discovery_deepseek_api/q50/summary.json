@@ -1,0 +1,50 @@
+{
+  "questionId": "q50",
+  "prompt": "茶饮店买菠萝原料，甜度和出汁率哪个更重要？",
+  "createdAt": "2026-07-14T22:21:29.350Z",
+  "summary": [
+    {
+      "questionId": "q50",
+      "prompt_index": 50,
+      "promptIndex": 50,
+      "promptHash": "56858e1cbdd3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店买菠萝原料，甜度和出汁率哪个更重要？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 555,
+      "text_length": 555,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 343,
+        "total_tokens": 398,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 343,
+      "total_tokens": 398,
+      "latencyMs": 5495,
+      "latency_ms": 5495,
+      "createdAt": "2026-07-14T22:21:29.350Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q50/prompt.txt",
+        "answer": "q50/deepseek.txt",
+        "response": "q50/deepseek_response.json",
+        "sources": "q50/deepseek_sources.json",
+        "references": "q50/deepseek_references.json"
+      }
+    }
+  ]
+}

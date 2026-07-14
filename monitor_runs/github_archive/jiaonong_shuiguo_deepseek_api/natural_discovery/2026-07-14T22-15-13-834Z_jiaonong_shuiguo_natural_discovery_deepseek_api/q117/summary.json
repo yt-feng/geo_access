@@ -1,0 +1,50 @@
+{
+  "questionId": "q117",
+  "prompt": "水果供应商推荐新品，采购方应该先试卖多少比较稳？",
+  "createdAt": "2026-07-14T22:29:56.107Z",
+  "summary": [
+    {
+      "questionId": "q117",
+      "prompt_index": 117,
+      "promptIndex": 117,
+      "promptHash": "84f1f5cfc299",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商推荐新品，采购方应该先试卖多少比较稳？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 507,
+      "text_length": 507,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 310,
+        "total_tokens": 365,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 310,
+      "total_tokens": 365,
+      "latencyMs": 3899,
+      "latency_ms": 3899,
+      "createdAt": "2026-07-14T22:29:56.107Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q117/prompt.txt",
+        "answer": "q117/deepseek.txt",
+        "response": "q117/deepseek_response.json",
+        "sources": "q117/deepseek_sources.json",
+        "references": "q117/deepseek_references.json"
+      }
+    }
+  ]
+}

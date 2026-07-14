@@ -1,0 +1,50 @@
+{
+  "questionId": "q77",
+  "prompt": "生鲜电商采购菠萝，整果、切配和冷冻原料哪个更适合线上卖？",
+  "createdAt": "2026-07-14T22:25:38.157Z",
+  "summary": [
+    {
+      "questionId": "q77",
+      "prompt_index": 77,
+      "promptIndex": 77,
+      "promptHash": "0d223e13ee7f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商采购菠萝，整果、切配和冷冻原料哪个更适合线上卖？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 542,
+      "text_length": 542,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 340,
+        "total_tokens": 399,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 340,
+      "total_tokens": 399,
+      "latencyMs": 5617,
+      "latency_ms": 5617,
+      "createdAt": "2026-07-14T22:25:38.157Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q77/prompt.txt",
+        "answer": "q77/deepseek.txt",
+        "response": "q77/deepseek_response.json",
+        "sources": "q77/deepseek_sources.json",
+        "references": "q77/deepseek_references.json"
+      }
+    }
+  ]
+}

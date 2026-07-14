@@ -1,0 +1,28 @@
+{
+  "id": "b927db9e-9a1e-493b-8aad-72cec312806c",
+  "object": "chat.completion",
+  "created": 1784068055,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常重要。支持小批量试卖能帮你：\n\n1. **降低库存风险**：避免一次性压货过多导致损耗（尤其是易腐水果）。\n2. **测试市场需求**：通过少量铺货摸清哪些品种、价位更受顾客欢迎。\n3. **灵活调整陈列**：根据试卖结果及时更换商品组合。\n4. **减轻资金压力**：减少初创期或旺季前的资金占用。\n\n建议你在筛选供应商时，优先确认对方是否接受**最小起订量（MOQ）较低**且**支持分批到货**的条款。如果供应商完全没有小批量试卖合作意向，初期需谨慎选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 134,
+    "total_tokens": 189,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

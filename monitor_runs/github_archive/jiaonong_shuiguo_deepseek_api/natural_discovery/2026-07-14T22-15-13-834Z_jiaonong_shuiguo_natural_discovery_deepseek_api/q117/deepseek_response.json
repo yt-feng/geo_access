@@ -1,0 +1,28 @@
+{
+  "id": "90d5f3f5-e5e7-45e7-945d-1fa5de3ca9bd",
+  "object": "chat.completion",
+  "created": 1784068196,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于新品水果，建议按以下策略控制试卖数量：\n\n1. **最小可行性试卖**：建议首批进货量控制在 **10-20公斤** 或 **1-2箱**（视水果单价和体积而定）。这个量既能满足小范围测试需求，又不会造成严重积压损失。\n\n2. **试卖周期**：设 **3-5天** 为试卖窗口。新鲜水果保质期短，需快速评估周转速度。\n\n3. **评估维度**：\n   - 顾客复购率（购买后一周内是否有人回头买）\n   - 每日自然损耗率（如第一天剩余30%，第二天剩余50%需警惕）\n   - 目标人群反馈（可让员工试吃并记录优缺点）\n\n4. **安全边界**：如果试卖3天后：\n   - 日销≥80%首批量 → 可考虑追加订货（增加至30-50公斤）\n   - 日销≤40% → 立即打折清货，避免库存腐烂\n\n5. **特殊节点**：\n   - 如果是高价进口水果（如日本晴王葡萄），建议首批量减半，先做样品展示+预购登记\n   - 如果是季节性爆款（如中秋石榴），可适当提至30公斤，但需提前和供应商确认退换条款\n\n**核心原则**：宁可错过首波销售高峰，也不要因囤货导致亏损。新品试卖的本质是用最小成本验证市场反应。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 310,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

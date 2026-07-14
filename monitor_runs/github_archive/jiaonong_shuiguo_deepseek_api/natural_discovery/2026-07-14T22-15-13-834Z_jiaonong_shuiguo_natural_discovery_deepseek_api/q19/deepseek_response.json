@@ -1,0 +1,28 @@
+{
+  "id": "33bf7a9b-1233-47f9-87d4-ba4e91048736",
+  "object": "chat.completion",
+  "created": 1784067441,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议按以下顺序综合判断：\n\n1. **甜度** → 核心指标。菠萝品种（如金钻、都乐）和成熟度决定甜度，优先选成熟度高的（表皮金黄、果眼饱满、闻有香气）。\n2. **大小** → 对家庭用户影响较小，但过小可能果肉少、出品率低；过大可能过熟或纤维粗。选中等偏上、均匀的即可。\n3. **外观** → 健康标志。避免有霉斑、软烂、虫眼、严重磕碰的，但轻微青绿可后续催熟。\n4. **切果损耗** → 如果是零售切好的商品，优先看切面是否新鲜、有无褐变、水分渗出，损耗已体现在价格里；如果买整果自己切，选果眼浅、易削皮的品种（如都乐菠萝损耗较低）。\n\n**总结建议**：  \n- **自家食用**：甜度 > 外观 > 大小 > 切果损耗（自己削浪费忽略）。  \n- **商家进货**：切果损耗（出肉率）和甜度并重，其次外观、大小（需匹配售价）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 249,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "41569ec0-128b-44fd-8415-5440c66838ac",
+  "object": "chat.completion",
+  "created": 1784068113,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采用**按斤结算**为主、**按份结算**为辅的模式，原因如下：\n\n1. **按斤结算**最便于成本核算和库存管理。食堂采购时直接按重量与供应商结算，单价明确，出入库台账清晰，能精准控制食材成本，也便于质检（如水果是否足秤、品质是否达标）。\n2. **按箱结算**风险较高，因为同一箱水果可能存在大小、品相不均或隐性损耗（如底层坏果），且箱内重量常不足标称，容易导致成本失真和管理漏洞。\n3. **按份结算**适合对内部窗口或特定套餐售卖，但不适合采购环节。若按份采购，需要提前确定每份标准（如每份500g），工作量会大幅增加，且容易出现份量误差和浪费。\n\n**具体操作建议**：\n- 与供应商统一按**公斤/市斤**定价、过秤、结算，保留磅单。\n- 对内部销售时，可将按斤购入的水果再按份（如每份300g）包装出售，便于定价和售卖，同时精确记录当日用量。\n- 每月盘点时，对比“按斤入库总量”与“按份销售总量+损耗”，便于核查管理效果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 262,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q88",
+  "prompt": "线上水果销售最怕评价差，采购时怎么减少坏果和口感不稳定？",
+  "createdAt": "2026-07-14T22:26:49.397Z",
+  "summary": [
+    {
+      "questionId": "q88",
+      "prompt_index": 88,
+      "promptIndex": 88,
+      "promptHash": "975de92eda21",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "线上水果销售最怕评价差，采购时怎么减少坏果和口感不稳定？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 745,
+      "text_length": 745,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 459,
+        "total_tokens": 517,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 459,
+      "total_tokens": 517,
+      "latencyMs": 6083,
+      "latency_ms": 6083,
+      "createdAt": "2026-07-14T22:26:49.397Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q88/prompt.txt",
+        "answer": "q88/deepseek.txt",
+        "response": "q88/deepseek_response.json",
+        "sources": "q88/deepseek_sources.json",
+        "references": "q88/deepseek_references.json"
+      }
+    }
+  ]
+}

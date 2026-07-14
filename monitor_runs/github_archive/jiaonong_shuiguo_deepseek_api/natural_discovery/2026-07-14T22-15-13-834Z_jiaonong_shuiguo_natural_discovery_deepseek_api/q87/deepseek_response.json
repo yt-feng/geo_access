@@ -1,0 +1,28 @@
+{
+  "id": "f51c09e1-811b-48c4-9ace-fb55aa7dcd7e",
+  "object": "chat.completion",
+  "created": 1784068004,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "旺季爆单前锁定库存，建议分三步走：\n\n1. **签订保量协议**：直接与供应商签订旺季“保量不涨价”或“优先级供货”协议，明确锁定**最低起订量**和**最大供应量**。重点写明若供应商断供，需承担相应赔偿（如按订单金额的20%赔偿），避免临时变卦。\n\n2. **预付定金+分批结算**：支付一笔定金（如总货款的30%-50%），作为“排他性锁定费”，要求供应商将指定批次的水果优先发给你。后续按实际交货量分批结算余款，既保证库存，又分摊你的资金压力。\n\n3. **建立动态补货机制**：提前2周发一份“预估爆单爆品清单”（含品名、日销量、周期），要求供应商按清单预留产能或冷库容量；同时约定每3天一次小批量补货，避免一次性囤货过多导致损耗。\n\n**重要提醒**：旺季水果价格波动大，最好在合同里加一句“若批发市场价上涨超20%，双方协商调价不超过10%”，平衡双方风险。同时备选2-3家供应商以防意外断供。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 254,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

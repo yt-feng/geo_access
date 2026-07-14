@@ -1,0 +1,28 @@
+{
+  "id": "f7b6e0dc-b1c5-489c-afe0-af77e95d663c",
+  "object": "chat.completion",
+  "created": 1784067953,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注**配送和售后**，价格可以先放在第三位。理由如下：\n\n1. **配送**：水果易损耗、保质期短，配送的时效性、包装质量和运输损耗率直接影响你收到的货品新鲜度。如果配送不稳定，再便宜的价格也会因为坏果而亏本。\n2. **售后**：水果常出现部分坏果、品相差等问题，供应商的售后政策（如赔付比例、处理速度、退换货流程）决定了你能否快速解决客户投诉，维护团购口碑。好的售后能帮你节省大量沟通成本。\n3. **价格**：在确定前两项有保障后，再对比价格。价格再低，如果配送烂果多或售后推诿，最终总成本反而更高。\n\n建议你向供应商同时问清楚这三点，并可以要求少量试单，验证实际配送和售后表现。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 184,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

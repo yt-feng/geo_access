@@ -1,0 +1,28 @@
+{
+  "id": "2e222c2a-b8e1-48ac-9a05-ded1b10812bb",
+  "object": "chat.completion",
+  "created": 1784067490,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在门店销售中，判断苹果和橙子的大小规格是否适合，建议参考以下标准：\n\n1. **苹果**  \n   - **大果**：直径约8-9厘米（适合高端零售或整箱销售）。  \n   - **中果**：直径约7-8厘米（最常见，适合家庭日常消费）。  \n   - **小果**：直径约6-7厘米（适合促销、切盘或低单价销售）。  \n\n2. **橙子**  \n   - **大果**：直径约7-8.5厘米（适合礼品装或高端渠道）。  \n   - **中果**：直径约6-7厘米（主流规格，口感与性价比平衡）。  \n   - **小果**：直径约5-6厘米（定价偏低，适合散称或特价）。  \n\n**实际操作建议**：  \n- 用**水果专用测径环**或**卡尺**现场抽样测量（每箱测5-10个）。  \n- 对比**同类竞品**或根据**历年销售数据**，优先选择该位置门店的主流规格（如社区店中果，商业区大果）。  \n- 注意**外观统一**：同规格误差不超过0.5厘米，避免大小混装影响陈列效果。  \n\n**示例**：如果门店用户多为家庭主妇，橙子选6-7厘米的中果更易动销；若主打节日礼盒，则选8厘米以上大果配高档包装。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 314,
+    "total_tokens": 370,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

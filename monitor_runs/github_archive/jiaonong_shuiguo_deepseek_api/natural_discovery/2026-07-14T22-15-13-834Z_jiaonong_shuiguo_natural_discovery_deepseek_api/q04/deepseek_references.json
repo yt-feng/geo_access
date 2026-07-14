@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:15:35.698Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果店想减少香蕉放坏，采购时应该怎么要求熟度和到货时间？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

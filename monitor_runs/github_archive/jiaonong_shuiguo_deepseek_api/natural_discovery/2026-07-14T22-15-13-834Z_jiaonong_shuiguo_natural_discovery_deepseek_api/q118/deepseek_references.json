@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:30:01.007Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果采购想减少中间环节，找产地、找品牌方还是找区域经销商更合适？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

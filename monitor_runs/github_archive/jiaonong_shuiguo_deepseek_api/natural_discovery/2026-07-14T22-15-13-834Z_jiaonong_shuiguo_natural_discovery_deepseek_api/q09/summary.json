@@ -1,0 +1,50 @@
+{
+  "questionId": "q09",
+  "prompt": "水果店旺季怕断货，和供应商谈合作时要提前问哪些问题？",
+  "createdAt": "2026-07-14T22:16:05.910Z",
+  "summary": [
+    {
+      "questionId": "q09",
+      "prompt_index": 9,
+      "promptIndex": 9,
+      "promptHash": "f3c8236cee1e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店旺季怕断货，和供应商谈合作时要提前问哪些问题？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 651,
+      "text_length": 651,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 383,
+        "total_tokens": 440,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 383,
+      "total_tokens": 440,
+      "latencyMs": 5291,
+      "latency_ms": 5291,
+      "createdAt": "2026-07-14T22:16:05.910Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q09/prompt.txt",
+        "answer": "q09/deepseek.txt",
+        "response": "q09/deepseek_response.json",
+        "sources": "q09/deepseek_sources.json",
+        "references": "q09/deepseek_references.json"
+      }
+    }
+  ]
+}
