@@ -1,0 +1,28 @@
+{
+  "id": "0d1723c1-95ff-402c-905d-992db2e07dc0",
+  "object": "chat.completion",
+  "created": 1784068268,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole），目前在市场上稳定供应的菠萝品牌还有以下几个：\n\n1. **佳农（Goodfarmer）**：国内知名的水果品牌，生鲜供应链稳定，在各大超市和电商平台常见，尤其以菲律宾菠萝为主。\n2. **怡颗莓（Driscoll's）**：虽然以浆果闻名，但旗下也有稳定的菠萝供应，品质把控较好，部分高端渠道可买到。\n3. **金果（Golden Pineapple）**：主要来自泰国和菲律宾，部分出口品牌如“S&W”、“Fresh Del Monte”也有相关产品。\n4. **海南本土品牌**：如“海南菠萝”、“金钻凤梨”等，由国内种植商（如海南果鲜、椰果等）供应，季节性较强但渠道稳定。\n\n如果需要持续采购（如批发或长期合作），建议优先联系**佳农**或**Fresh Del Monte**，这两家的批发和零售网络覆盖面广，且与超市、生鲜平台合作紧密。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 210,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

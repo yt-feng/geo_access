@@ -1,0 +1,28 @@
+{
+  "id": "d414c895-f988-4fa7-bc9d-5832aa28e738",
+  "object": "chat.completion",
+  "created": 1784068279,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您提到的佳沛（Zespri）在香蕉业务上相对弱势，以下是一些知名的进口香蕉品牌推荐，这些品牌在中国市场有较高的认可度和稳定的供应链：\n\n1. **都乐（Dole）**  \n   全球最大的水果供应商之一，香蕉品质稳定，口感香甜软糯，产地覆盖菲律宾、厄瓜多尔等地，在国内商超和电商平台较常见。\n\n2. **金吉达（Chiquita）**  \n   历史悠久的香蕉品牌，以黄色标签和蓝贴纸为标志，主打自然成熟、甜度高，适合直接食用或烘焙。\n\n3. **德尔蒙（Del Monte）**  \n   美国老牌水果企业，香蕉果肉细腻、甜度均衡，在永辉、盒马等渠道有供应，常推出小包装满足家庭需求。\n\n4. **超甜蕉（Sweetest Banana）**  \n   菲律宾品牌，主打无农药、自然香甜口感，部分进口商通过生鲜平台直供，适合追求高品质的消费者。\n\n5. **佳农（Goodfarmer）**  \n   国内头部进口水果分销商，代理多国香蕉（如厄瓜多尔、菲律宾），性价比高，常见于批发市场和社区团购。\n\n**选择建议：**  \n- 若注重品牌历史与口感，可优先尝试**都乐**或**金吉达**。  \n- 若关注性价比或批量采购，**佳农**或**德尔蒙**的散装产品更合适。  \n- 购买时注意检查香蕉成熟度（优先选带绿茎、果皮无大面积褐斑的），产地可参考厄瓜多尔（甜度高）或菲律宾（口感糯）。  \n\n如需具体渠道（如北京新发地、上海辉展等批发市场）或电商平台链接，建议您直接在生鲜APP（如盒马、山姆、叮咚买菜）搜索品牌名称，部分进口商需通过本地经销商对接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 404,
+    "total_tokens": 467,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

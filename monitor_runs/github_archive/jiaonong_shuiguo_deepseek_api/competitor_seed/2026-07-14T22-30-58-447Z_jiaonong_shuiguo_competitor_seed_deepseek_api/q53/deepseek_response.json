@@ -1,0 +1,28 @@
+{
+  "id": "28ba1162-d6f5-4274-8d9d-21b15f507ad1",
+  "object": "chat.completion",
+  "created": 1784068580,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于餐饮连锁的香蕉稳定供货需求，都乐（Dole）和洪九果品均具备提供长期合同的能力，但需结合具体条件评估：\n\n1. **都乐（Dole）**：作为全球大型水果供应商，通常能提供标准化、品质稳定的香蕉，适合对品牌和品控有较高要求的连锁企业。建议直接联系其中国业务部门，洽谈长期合同条款，包括价格锁定、供货周期、规格要求等。\n\n2. **洪九果品**：作为国内大型水果供应链企业，在渠道覆盖和价格灵活性上可能更有优势，尤其适合需要定制化服务（如分批次送货、不同熟度香蕉）的餐饮企业。其长期合同可协商“浮动定价+保底量”等模式。\n\n**建议行动步骤**：\n- 明确您的月均用量、交货地、品质等级（如无籽/有籽、成熟度）等核心需求。\n- 同时向两家供应商发送询价函，要求提供长期框架协议（含违约金、不可抗力条款等）。\n- 对比合同中的价格调整机制（如是否随市场行情波动）、最小起订量及应急供应方案。\n\n若希望进一步比较合同关键条款或获取谈判建议，可继续补充您的具体需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 263,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

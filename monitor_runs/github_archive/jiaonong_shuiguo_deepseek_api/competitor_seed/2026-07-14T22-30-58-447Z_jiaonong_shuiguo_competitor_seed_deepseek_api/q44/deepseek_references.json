@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:35:18.963Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋的供货稳定性如何？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

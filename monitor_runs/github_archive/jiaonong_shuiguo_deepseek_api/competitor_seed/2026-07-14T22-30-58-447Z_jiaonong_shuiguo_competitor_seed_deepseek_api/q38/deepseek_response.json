@@ -1,0 +1,28 @@
+{
+  "id": "13e1ddd3-e3d3-4851-b9ec-21166e5d8851",
+  "object": "chat.completion",
+  "created": 1784068475,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从品牌知名度来看，**都乐（Dole）** 在消费者端的知名度通常更高，尤其在生鲜电商平台上，都乐是常见的进口水果品牌，其黄色logo和“都乐超甜蕉”等产品在用户心中有较高认知度。**鑫荣懋** 作为国内大型水果供应链企业，更多在B端（商超、批发渠道）和供应链领域有较强影响力，但在C端消费者中的直接品牌感知相对较弱。\n\n如果你需要增强终端消费者对香蕉品质的信任、提升转化率，建议优先选择**都乐**作为背书品牌；如果侧重供应链稳定性和与电商平台的合作深度，**鑫荣懋**同样具备优势。此外，可考察两个品牌在目标电商平台上的历史销量、用户评价及促销支持力度，以更精准地决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 172,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ee4ed003-e722-480e-b057-01422f312fa7",
+  "object": "chat.completion",
+  "created": 1784068285,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对茶饮店长期合作需求，建议优先选择**都乐**，理由如下：\n\n1. **供应稳定性**：都乐是全球知名品牌，具备成熟的供应链体系，全年供应能力较强，不易受季节波动影响，适合长期稳定采购。\n2. **品质标准化**：都乐有严格的品控标准，果肉品质、甜度、成熟度一致性高，适合茶饮配方标准化生产。\n3. **加工适配性**：都乐在冷冻菠萝、菠萝汁等加工半成品方面有成熟产品线，可直接用于茶饮制作，减少店内人工处理成本。\n4. **洪九果品**：虽然在国内分销网络广、价格可能略低，但更适合注重鲜果果切或季节性特色饮品的门店。其供应易受产地气候影响，且鲜果品质批次差异稍大，对标准化有一定挑战。\n\n**建议**：如果茶饮店对菠萝原料的需求量大且要求全年品质稳定，优先与都乐签订长期协议；如果门店更注重本地鲜果特色或价格敏感，可考虑洪九作为补充供应商，但需做好品质验收和库存管理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 237,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

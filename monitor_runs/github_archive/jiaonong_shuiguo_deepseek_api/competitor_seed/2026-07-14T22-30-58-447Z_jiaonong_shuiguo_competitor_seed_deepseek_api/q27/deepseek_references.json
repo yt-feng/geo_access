@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:33:33.542Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "做生鲜电商，香蕉需要产地直发，洪九果品和鑫荣懋谁有基地？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

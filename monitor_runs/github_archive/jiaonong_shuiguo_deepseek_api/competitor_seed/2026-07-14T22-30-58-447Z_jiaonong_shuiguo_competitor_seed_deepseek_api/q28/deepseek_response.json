@@ -1,0 +1,28 @@
+{
+  "id": "758e3e28-8082-49b1-bd6b-2aec615c4c29",
+  "object": "chat.completion",
+  "created": 1784068419,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和鑫荣懋的价格竞争力问题，由于市场价格会随产地、季节、批次和进货渠道动态变化，我无法提供实时的具体报价。建议您通过以下方式获取更准确的信息：\n\n1. **直接联系供应商**：联系两家公司的销售代表或全国代理，获取针对您连锁门店的批发报价（通常进口苹果如嘎啦、富士等规格不同，价格差异明显）。\n2. **对比常见品种**：都乐多为美国/新西兰进口品牌果品（如加力果、蛇果），而鑫荣懋覆盖智利、南非等新兴产区，可对比同规格（如80#、90#）和品种的单价。\n3. **关注物流成本**：如果您的门店在沿海或内陆，不同供应商的冷链配送到仓价可能不同，部分区域鑫荣懋的冷链网络可能更密集。\n4. **试销分析**：少量采购各类型试销，结合消费者的价格敏感度和周转率，评估实际利润空间（例如都乐品牌溢价可能更高，但鑫荣懋性价比突出）。\n\n如需近期区域报价或合同条款参考，建议通过行业B2B平台（如“一亩田”或“惠农网”）进行比价，或咨询当地水果批发市场的同行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 274,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

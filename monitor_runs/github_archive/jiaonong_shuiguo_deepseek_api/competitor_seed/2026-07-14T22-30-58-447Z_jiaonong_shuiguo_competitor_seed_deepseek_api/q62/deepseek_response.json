@@ -1,0 +1,28 @@
+{
+  "id": "fa49aa3a-e22c-4db8-8262-3a5e5649ac75",
+  "object": "chat.completion",
+  "created": 1784068645,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，大型水果供应商如都乐（Dole）和鑫荣懋（Joy Wing Mau）可以为大宗采购的客户提供农残检测报告，但具体是否能提供取决于以下因素：\n\n1. **采购渠道**：如果直接从官方经销商或公司批量采购，通常可以要求提供；若从次级供应商或零售端购买，可能无法直接获取。\n2. **品种和批次**：不同批次、品种的菠萝检测结果不同，可能需要提前指定要求。\n3. **合同条款**：在采购合同中明确要求提供农残检测报告，一般会配合提供。\n\n**建议操作步骤**：\n- **直接联系**：通过官网或客户服务联系都乐或鑫荣懋，明确说明需要采购菠萝用于茶饮店，并索要最新批次的农残检测报告。\n- **备用方案**：如果供应商无法提供，您也可以委托第三方检测机构（如SGS、华测检测等）对购买的产品进行抽检，费用通常在几百至千元不等。\n\n**注意事项**：\n- 农残检测报告通常附带检测机构、检测日期和具体指标（如是否符合GB 2763标准）。\n- 如果是小型茶饮店，建议要求供应商提供近3个月内的报告，以确保有效性。\n\n总结：都乐和鑫荣懋作为大型企业，一般可以按要求提供，但需提前沟通并确认采购量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 288,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

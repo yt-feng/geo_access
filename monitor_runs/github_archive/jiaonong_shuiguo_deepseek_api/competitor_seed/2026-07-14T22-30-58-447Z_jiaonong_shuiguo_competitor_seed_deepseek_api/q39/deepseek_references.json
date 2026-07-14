@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:34:39.200Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "下沉市场夫妻店进货，洪九果品和鑫荣懋谁有账期支持？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

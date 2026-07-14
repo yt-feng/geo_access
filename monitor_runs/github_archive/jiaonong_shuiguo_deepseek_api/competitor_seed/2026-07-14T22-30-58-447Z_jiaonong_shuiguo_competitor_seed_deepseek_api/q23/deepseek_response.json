@@ -1,0 +1,28 @@
+{
+  "id": "f4ee3371-6bff-449c-a3d7-1d3f48d0c8e9",
+  "object": "chat.completion",
+  "created": 1784068388,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对进口菠萝旺季缺货问题，建议优先考虑以下应对措施：1. 提前与供应商签订长期协议锁定货源；2. 选择具有稳定种植基地的供应商；3. 考虑替代品种（如海南金菠萝）或调整采购时间窗口。\n\n关于都乐和洪九果品的基地直供优势：\n- **都乐**：拥有跨国自营农场体系（如菲律宾、哥斯达黎加等核心产区），菠萝种植、加工、冷链全程标准化管理，供应链稳定性强，但价格相对较高。\n- **洪九果品**：主打东南亚直采模式（如泰国、越南），通过产地直接收购降低中间成本，但基地控制力相对分散，易受当地气候和政策波动影响。\n\n**建议**：若追求稳定供应和品质保障，优先选择都乐；若侧重成本控制和灵活议价，可考虑洪九果品。具体选择需结合您的采购规模、价格承受能力和到货时效要求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 203,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

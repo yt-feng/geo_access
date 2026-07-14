@@ -1,0 +1,28 @@
+{
+  "id": "f6a49fc4-50d9-461e-af4e-d496aded8336",
+  "object": "chat.completion",
+  "created": 1784068307,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口品牌水果礼盒也是品质和知名度较高的选择，适合礼品团购场景：\n\n1. **怡颗莓（Driscoll's）**  \n   - 以高端浆果（蓝莓、树莓、黑莓、草莓）为主，果粒饱满，礼盒包装精致。  \n   - 适合搭配其他水果组合成混合礼盒。\n\n2. **新奇士（Sunkist）**  \n   - 主打橙子、柠檬、西柚等柑橘类水果，美国加州产地，礼盒设计大气。  \n   - 尤其是“新奇士脐橙”礼盒，果香浓郁。\n\n3. **爱妃（Envy）**  \n   - 新西兰高端苹果品牌，果肉紧实多汁，耐储存，适合长途运输。  \n   - 礼盒包装简约，常与洛川苹果等国产高端品牌竞争。\n\n4. **Rockit（乐淇）**  \n   - 新西兰苹果品牌，特点是“试管苹果”小规格包装，口感脆甜，适合个人化礼品。  \n   - 桶装或盒装设计独特，适合年轻消费群体。\n\n5. **SunMoon**  \n   - 东南亚品牌，主打菠萝、牛油果、红毛丹等特色热带水果。  \n   - 礼盒常包含混合品类，适合搭配节日主题。\n\n6. **Berry World**  \n   - 澳大利亚品牌，专注蓝莓、树莓等高价值浆果。  \n   - 礼盒产品通常有冷链运输保障，适合高端礼品需求。\n\n7. **Zespri Gold（佳沛金果）**  \n   - 若用户已考虑佳沛，可重点推荐其“金果”系列（阳光金果），口感比普通绿果更甜，礼盒溢价高。\n\n**团购建议**：  \n- 包装差异：选择带有品牌LOGO、防伪条码或独立包装的礼盒，提升礼品感。  \n- 冷链要求：浆果类、热带水果需确认供应商的冷链物流覆盖区域。  \n- 组合策略：可混合搭配2-3个品牌（如新奇士橙+爱妃苹果+怡颗莓蓝莓）形成差异化礼篮。  \n\n建议直接联系上述品牌的中国区代理商或批发商，咨询批量采购折扣及定制礼盒服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 503,
+    "total_tokens": 565,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

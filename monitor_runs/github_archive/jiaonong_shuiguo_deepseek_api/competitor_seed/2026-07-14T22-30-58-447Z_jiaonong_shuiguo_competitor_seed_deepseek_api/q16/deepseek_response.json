@@ -1,0 +1,28 @@
+{
+  "id": "bb72d97a-26ab-4ed9-aa7c-d38639c639b8",
+  "object": "chat.completion",
+  "created": 1784068351,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对下沉市场夫妻老婆店对价格高度敏感的特点，**洪九果品**在批发价上通常更具优势，适合这类客户。主要原因如下：\n\n1. **定位差异**：洪九果品主要深耕批发市场，尤其是下沉渠道，通过源头直采和规模化采购降低中间成本，其价格策略更贴近小B端（夫妻店）的采购需求。鑫荣懋则更侧重品牌化运营和商超、高端渠道，零售端溢价较高。\n2. **采购门槛**：洪九果品对单批次采购量要求较低，支持小批量多频次进货，而鑫荣懋的批发合作可能更倾向于大客户或固定配送模式。\n\n**建议**：夫妻老婆店优先联系洪九果品在当地的水果批发市场或区域代理，要求直接看“到货价”（不含物流加价），对比同类单品（如红提、苹果）的每斤成本，通常洪九会比鑫荣懋便宜10%-20%。注意要求对方提供现结账期的价格（如“现金价”），避免账期附加费。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 231,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
