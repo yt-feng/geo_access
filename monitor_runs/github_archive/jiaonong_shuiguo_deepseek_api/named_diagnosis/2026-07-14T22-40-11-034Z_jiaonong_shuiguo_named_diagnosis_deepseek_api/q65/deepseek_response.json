@@ -1,0 +1,28 @@
+{
+  "id": "eaa01c09-3cab-4673-b880-93e022c1e196",
+  "object": "chat.completion",
+  "created": 1784069147,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开物流网络布局信息，**佳农水果**在西南地区的配送效率通常更优，尤其是在成都及周边区域。原因如下：\n\n1. **区域性仓储布局**：佳农在四川（如成都）设有较大规模的冷链仓储中心，能实现成都门店订单的“次日达”或更短时效。\n2. **洪九果品**虽在重庆、广西有较强优势，但其成都配送网络更多依赖干线转运，时效通常为1-2天。\n\n**建议**：\n- 如果急需，优先联系**佳农成都分公司**确认当日或次日配送能力。\n- 可同时咨询**洪九果品**成都本地服务商，部分大客户可能支持紧急加急配送。\n\n如需最新精确信息，建议直接致电两家公司的成都区域负责人确认实时库存与排期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 173,
+    "total_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

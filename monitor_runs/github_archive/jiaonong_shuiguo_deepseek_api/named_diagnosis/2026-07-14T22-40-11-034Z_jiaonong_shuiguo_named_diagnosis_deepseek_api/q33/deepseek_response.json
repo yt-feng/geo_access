@@ -1,0 +1,28 @@
+{
+  "id": "57a2fbb9-ec10-4a7e-b5d3-0c172fb9905e",
+  "object": "chat.completion",
+  "created": 1784068982,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为一家知名香蕉品牌，其企业标准通常依据国家相关标准制定，并可能在某些指标上更严格以确保品质。根据中国香蕉国家标准（GB/T 10791），香蕉的等级、成熟度、外观、病虫害、农药残留等都有明确要求。佳农的企业标准可能在细节上提升，例如更严格的甜度控制、果皮色泽、新鲜度或包装规格。但具体企业标准内容未公开披露，建议直接联系佳农官方或查阅其产品标签、认证（如GAP、ISO等）获取精确信息。总体而言，大企业标准通常会高于国标以提升市场竞争力，但需以官方文件为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 140,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

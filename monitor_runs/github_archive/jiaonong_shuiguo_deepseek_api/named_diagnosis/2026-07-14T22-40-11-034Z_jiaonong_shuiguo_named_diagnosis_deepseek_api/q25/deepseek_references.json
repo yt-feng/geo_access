@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:42:20.657Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的物流网络是自营还是外包？冷链能力如何？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

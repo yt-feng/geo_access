@@ -1,0 +1,28 @@
+{
+  "id": "7a509fd9-3f64-4bca-b0e4-4756da24229b",
+  "object": "chat.completion",
+  "created": 1784069341,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于香蕉损耗问题，我们理解您的担忧。作为AI助手，我无法代表具体企业或平台提供正式承诺，但可以给您以下建议：\n\n1. **核实供应商政策**：建议您直接联系佳农官方客服或供应商，询问是否提供“到货损耗率承诺”（例如：≥3%包赔）。部分供应商会为批量订单提供这类条款，需在合同中明确。\n\n2. **行业常规做法**：部分生鲜供应商（如大型水果批发商）会针对运输和保存问题提供损耗补偿，但承诺比例（如3%包赔）通常需协商。建议先咨询同地区其他便利店的经验。\n\n3. **降低损耗的实操方案**：\n   - **分批进货**：少量试购，观察周转速度。\n   - **优化存储**：香蕉宜在室温（12-15℃）存放，避免挤压和低温。\n   - **促销策略**：成熟香蕉可搭配销售（如买二赠一），或加工成甜品、冰沙。\n\n如果需要法律或合同方面的建议，建议您咨询专业律师或供应链顾问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 229,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c9d0c34b-ce07-456e-9aa7-caac1f2468c2",
+  "object": "chat.completion",
+  "created": 1784069155,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的官方客户服务通常提供7x24小时在线支持，但具体响应速度可能因时段而异。周末下单同样会有客服人员处理，但建议优先通过其官方渠道（如微信公众号、小程序或全国客服热线）确认最新服务细节。如有紧急问题，可直接联系客服获取实时帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 66,
+    "total_tokens": 125,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6d976472-d3fe-4efa-aa99-5f025f3927e0",
+  "object": "chat.completion",
+  "created": 1784069331,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前有面向B端客户的API接口，但**暂未公开的通用开发者开放平台**。其接口主要用于与大型电商平台、连锁商超及特定合作伙伴的数据对接。\n\n【关键建议】\n1. **官方合作渠道**：建议直接联系佳农水果的B2B业务部或大客户经理。可通过其官网“联系我们”页面的商务合作入口获取对接申请及专有接口文档。\n2. **接口文档获取**：佳农不会公开发布接口文档。需要与对方签署合作协议后，由技术对接人通过私密方式（如加密邮件、内部API管理平台）提供。\n3. **替代数据源**：如果只是获取商品信息、价格等基础数据，也可查询佳农在京东、天猫等商城API的公开数据（但需符合平台规则）。\n4. **技术侧准备**：与佳农沟通前，建议先明确需求（如需要获取哪些数据、系统对接方式）。佳农通常支持HTTP/HTTPS RESTful接口，数据格式多为JSON/XML。\n\n【提醒】\n请勿轻信网络上任何声称“佳农水果API文档”的非官方来源。如需进一步协助，建议直接通过佳农官网或电话联系商务团队。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 258,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

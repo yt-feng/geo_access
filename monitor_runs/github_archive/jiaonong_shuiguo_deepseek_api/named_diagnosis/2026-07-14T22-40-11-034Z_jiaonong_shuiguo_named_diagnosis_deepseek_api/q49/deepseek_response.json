@@ -1,0 +1,28 @@
+{
+  "id": "ba8a7d35-d491-4c79-a2d2-fc81e585d550",
+  "object": "chat.completion",
+  "created": 1784069060,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果配送中心的具体城市分布，我目前没有掌握完整的官方实时数据。通常，佳农水果作为大型水果供应链企业，其核心配送中心多位于省会城市或重要物流枢纽（如上海、广州、北京、武汉、成都等），但具体下沉市场（县城）的次日达服务需分情况判断：\n\n1. **县域覆盖可能性**：若您的县城位于上述核心配送中心所在省份的邻近区域（如长三角、珠三角、成渝地区周边县城），且当地有冷链物流合作网络，可能支持次日达；但偏远或非核心物流节点县城，通常为隔日达或更久。\n2. **建议确认方式**：  \n   - 通过佳农官方客服或合作电商平台（如京东、天猫生鲜）查询您所在县城的配送范围及时效。  \n   - 在平台下单时输入完整地址，系统会显示预计送达时间。  \n   - 联系本地大型超市（如华润万家、永辉）的佳农专柜，咨询其补货周期。\n\n**注意**：下沉市场县域的次日达服务受运力、订单密度和冷链成本影响较大，建议优先以平台实时结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 254,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

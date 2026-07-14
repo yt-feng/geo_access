@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:44:13.216Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的苹果产地是哪里？有GAP认证吗？我们生鲜电商要求溯源。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-14T22:44:19.888Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的配送中心在哪些城市？我们下沉市场县城能次日达吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

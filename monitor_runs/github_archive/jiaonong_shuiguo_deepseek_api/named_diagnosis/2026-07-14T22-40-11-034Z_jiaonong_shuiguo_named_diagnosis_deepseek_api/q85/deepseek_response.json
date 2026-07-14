@@ -1,0 +1,28 @@
+{
+  "id": "60d0b088-1026-4391-bd0f-4c5ba8c5b80e",
+  "object": "chat.completion",
+  "created": 1784069268,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名的农产品供应商，通常具备一定的供应链服务能力。针对您提到的专车配送和专人对接需求，建议您直接联系佳农官方客服或区域销售经理，确认其是否提供以下服务：\n\n1. **专车配送**：需核实其配送网络是否覆盖您门店所在区域，以及是否支持冷藏车专线运输（香蕉对温控要求较高）。\n2. **专人对接**：佳农对有稳定需求的连锁客户通常会分配专属客户经理，但需根据您的采购量级和合同周期确认。\n\n**建议行动**：  \n- 明确您的门店分布、预估周均需求量（如X吨/周）及配送频率。  \n- 联系佳农官方热线或官网提交合作意向，要求提供《配送方案》和《客户服务协议》样本。  \n- 对比其他供应商（如中粮、百果园）的配套服务，评估性价比。  \n\n如果需要具体沟通模板或合同要点核查帮助，可以进一步说明需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 207,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

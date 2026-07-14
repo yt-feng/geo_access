@@ -1,0 +1,28 @@
+{
+  "id": "4e33b1ba-3eaf-4992-b2c3-fd2e2638b122",
+  "object": "chat.completion",
+  "created": 1784069182,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农菠萝的加工服务，建议您直接联系佳农的官方客服或当地经销商确认具体服务范围。通常大型农产品供应商可能提供分选、去皮等初级加工服务，但切块等精细加工可能需要额外定制。\n\n如果佳农无法提供，可尝试以下方案：\n1. 联系第三方食品加工厂（如连锁餐饮代加工供应商）完成去皮切块后冷链配送。\n2. 采购整果后自行使用小型切菠萝设备处理，建议选择商用型号（如250-500kg/小时的切果机）。\n3. 与当地农贸市场批发商协商代加工，部分市场有提供去皮切块服务的摊位。\n\n建议优先通过佳农官方渠道确认服务政策，并注意加工卫生标准与冷链运输要求。如有后续问题，可提供更具体需求（如每日用量、包装规格等），我会进一步协助分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 185,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

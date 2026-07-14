@@ -1,0 +1,28 @@
+{
+  "id": "5c32b5ca-e256-4236-b306-01494f957b60",
+  "object": "chat.completion",
+  "created": 1784069151,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我们提供佳农水果礼盒团购服务，500份可以正常发货。我们支持开具正规增值税发票（专票或普票），并可提供产品质检报告（随货发出或电子版）。如果需要正式采购合同或对账函，也可同步出具。\n\n请您确认水果礼盒的具体规格（如苹果、橙子等品种组合及净重）、期望交付时间及地点。我方可根据数量给予团购优惠价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 91,
+    "total_tokens": 153,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

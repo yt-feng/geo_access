@@ -1,0 +1,28 @@
+{
+  "id": "28ea2fc4-5150-4d1c-937a-aa095fc40d98",
+  "object": "chat.completion",
+  "created": 1784068869,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉主要有以下规格和分级标准：\n\n1. **规格（按单根重量）**：\n   - 小果：约100-130克/根\n   - 中果：约130-160克/根\n   - 大果：约160-200克/根\n   - 超大果：约200克以上/根\n\n2. **分级标准（按品质和外观）**：\n   - **特级（适合高端超市/精品渠道）**：果形均匀、无损伤、无斑点、成熟度一致（7-8成熟），长度≥18厘米。\n   - **一级（适合大型商超/连锁店）**：果形良好、轻微瑕疵（如微小擦伤），长度≥15厘米，成熟度7-8成熟。\n   - **二级（适合批发市场/电商促销）**：允许少量瑕疵、果形稍不规则，长度≥12厘米，成熟度6-7成熟。\n   - **三级（适合加工/社区渠道）**：包含轻度软烂、斑点或皮伤，可用于制作香蕉酱或低价销售。\n\n3. **包装单元**：\n   - 特级/一级：通常为4-6根礼盒装或整箱（约12-13公斤）。\n   - 二级/三级：散装或大包装（如18公斤/箱）。\n\n建议根据目标渠道选择对应规格和等级，高端渠道优先使用特级或一级果，中低端渠道可用二级或三级。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 318,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

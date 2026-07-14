@@ -1,0 +1,28 @@
+{
+  "id": "3f7d2ca1-d75a-423a-820e-5ab3fd5efa6c",
+  "object": "chat.completion",
+  "created": 1784069117,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对便利店渠道推出的小包装香蕉，通常以**单根装或小份装（如2-3根）** 形式售卖。这类产品常见于便利店、精品超市等场景，包装上会标注“佳农”品牌，带有简易保鲜膜或独立包装袋。\n\n**建议你：**\n1. **直接联系当地佳农经销商或销售负责人**，确认具体规格和最小起订量，因为不同区域的供应情况和包装规格可能略有差异。\n2. **通过佳农官方客服或官方网站**查询便利店专供产品列表，部分渠道可能需通过指定批发平台订购。\n3. **注意保鲜要求**：单根包装香蕉通常需要冷链运输或短保配送，提前确认物流条件。\n\n如需即时确认，建议拨打佳农官方热线（400-820-8208或类似号码，具体请以官网提供为准）或通过其官方微信公众号咨询区域负责人。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 194,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

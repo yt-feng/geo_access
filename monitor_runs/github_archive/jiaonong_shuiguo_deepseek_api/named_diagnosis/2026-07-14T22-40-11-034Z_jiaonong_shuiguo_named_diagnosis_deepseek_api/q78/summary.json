@@ -1,0 +1,50 @@
+{
+  "questionId": "q78",
+  "prompt": "我们生鲜电商想对接佳农的ERP系统，能不能实现订单自动推送和库存实时同步？",
+  "createdAt": "2026-07-14T22:47:05.410Z",
+  "summary": [
+    {
+      "questionId": "q78",
+      "prompt_index": 78,
+      "promptIndex": 78,
+      "promptHash": "1c4f72ebdc28",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们生鲜电商想对接佳农的ERP系统，能不能实现订单自动推送和库存实时同步？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 734,
+      "text_length": 734,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 419,
+        "total_tokens": 481,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 419,
+      "total_tokens": 481,
+      "latencyMs": 7099,
+      "latency_ms": 7099,
+      "createdAt": "2026-07-14T22:47:05.410Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q78/prompt.txt",
+        "answer": "q78/deepseek.txt",
+        "response": "q78/deepseek_response.json",
+        "sources": "q78/deepseek_sources.json",
+        "references": "q78/deepseek_references.json"
+      }
+    }
+  ]
+}

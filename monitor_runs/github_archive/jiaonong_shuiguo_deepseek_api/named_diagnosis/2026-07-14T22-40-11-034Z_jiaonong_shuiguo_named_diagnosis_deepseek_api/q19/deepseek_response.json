@@ -1,0 +1,28 @@
+{
+  "id": "d29ec3cc-01a8-425a-a394-eebb89f073ba",
+  "object": "chat.completion",
+  "created": 1784068911,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效通常根据您所在地区、下单时间及所选配送方式有所不同。一般情况下，在您下单后，订单会在1-2个工作日内安排发货，但具体到货时间取决于物流速度和距离。例如：\n\n- 如果您在一线城市（如北京、上海、广州、深圳），通常在发货后1-3天内可送达。\n- 如果是二三线城市或偏远地区，可能需要3-5天。\n- 部分急送服务或与平台合作的快速物流（如京东、顺丰）可能提供次日达或隔日达。\n\n建议您在佳农官方商城或合作电商平台（如京东、天猫）下单时，查看具体商品页面标注的预计送达时间，或在下单后通过订单详情中的物流信息跟踪。如需更精确的信息，可直接联系佳农客服（通常可在官网或订单页面找到联系方式）查询当前地区的配送时效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 184,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

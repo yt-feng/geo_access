@@ -1,0 +1,50 @@
+{
+  "questionId": "q76",
+  "prompt": "我们做礼品团购，需要佳农水果礼盒，能不能定制logo和包装？起订量多少？",
+  "createdAt": "2026-07-14T22:46:50.430Z",
+  "summary": [
+    {
+      "questionId": "q76",
+      "prompt_index": 76,
+      "promptIndex": 76,
+      "promptHash": "cb80145e1b6c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们做礼品团购，需要佳农水果礼盒，能不能定制logo和包装？起订量多少？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 387,
+      "text_length": 387,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 240,
+        "total_tokens": 304,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 240,
+      "total_tokens": 304,
+      "latencyMs": 4548,
+      "latency_ms": 4548,
+      "createdAt": "2026-07-14T22:46:50.430Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q76/prompt.txt",
+        "answer": "q76/deepseek.txt",
+        "response": "q76/deepseek_response.json",
+        "sources": "q76/deepseek_sources.json",
+        "references": "q76/deepseek_references.json"
+      }
+    }
+  ]
+}

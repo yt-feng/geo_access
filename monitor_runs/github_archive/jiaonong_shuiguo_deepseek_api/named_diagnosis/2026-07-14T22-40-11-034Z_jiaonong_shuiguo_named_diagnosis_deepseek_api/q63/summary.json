@@ -1,0 +1,50 @@
+{
+  "questionId": "q63",
+  "prompt": "我们商超要搞促销，佳农水果能提供香蕉的促销支持吗？比如搭赠或降价补贴。",
+  "createdAt": "2026-07-14T22:45:35.727Z",
+  "summary": [
+    {
+      "questionId": "q63",
+      "prompt_index": 63,
+      "promptIndex": 63,
+      "promptHash": "c8ff12f5c6c3",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们商超要搞促销，佳农水果能提供香蕉的促销支持吗？比如搭赠或降价补贴。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 746,
+      "text_length": 746,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 435,
+        "total_tokens": 500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 435,
+      "total_tokens": 500,
+      "latencyMs": 6976,
+      "latency_ms": 6976,
+      "createdAt": "2026-07-14T22:45:35.727Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q63/prompt.txt",
+        "answer": "q63/deepseek.txt",
+        "response": "q63/deepseek_response.json",
+        "sources": "q63/deepseek_sources.json",
+        "references": "q63/deepseek_references.json"
+      }
+    }
+  ]
+}

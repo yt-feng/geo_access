@@ -1,0 +1,28 @@
+{
+  "id": "0be4c49e-53e6-4b25-bf11-4d961ef3df8a",
+  "object": "chat.completion",
+  "created": 1784068946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据目前公开信息，佳农水果主要专注于水果的种植、采购、加工和销售环节，但关于是否直接提供面向个人消费者的香蕉催熟服务，我暂时没有找到明确资料。通常，催熟服务更多是供应链或批发环节的一部分，个人购买时建议直接联系您所在地的佳农水果经销商或门店进行确认。\n\n如果您有更具体的需求（比如批量购买后的催熟安排），可以告知我，我会尽力提供进一步建议！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 98,
+    "total_tokens": 150,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

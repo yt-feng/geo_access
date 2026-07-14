@@ -1,0 +1,28 @@
+{
+  "id": "18f1f063-1021-4d63-bb94-476e7733538f",
+  "object": "chat.completion",
+  "created": 1784069013,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果在餐饮渠道确实有针对菠萝产品的解决方案，主要内容包括：\n\n1. **产品形态多样化**：提供新鲜菠萝、去皮菠萝、菠萝块、菠萝丁、菠萝罐头等多种规格，方便餐饮用户根据菜品需求（如披萨、炒饭、甜品、饮品）直接使用。\n\n2. **带量定制服务**：根据连锁餐饮客户的出餐量，提供定制包装和标准化切配服务，减少后厨处理时间和损耗。\n\n3. **品质与供应**：依托产地直采和冷链物流，保证菠萝甜度、成熟度稳定，支持全年稳定供应。\n\n4. **应用场景支持**：协助餐饮企业开发菠萝特色菜品（如菠萝咕咾肉、菠萝炒饭、菠萝饮品），提供应用方案建议。\n\n如果你对具体定制规格、最低起订量或合作模式感兴趣，建议直接联系佳农的区域销售经理或客服获取最新报价和方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 191,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

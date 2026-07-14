@@ -1,0 +1,28 @@
+{
+  "id": "6186c75d-8938-4a5d-9dcc-34aa996621d8",
+  "object": "chat.completion",
+  "created": 1784069010,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为一家知名的水果品牌，其香蕉产品在市场上具有一定的品牌影响力。消费者对其认知度相对较高，主要得益于品牌在品质管控、供应链管理和市场推广方面的持续投入。佳农香蕉通常以稳定的品质、适中的价格和良好的口感赢得消费者信赖，尤其在大型超市和电商平台中占有一定份额。不过，具体认知度可能因地区、消费习惯和市场竞争（如都乐、洪九等品牌）而有所差异。若需更精确数据（如市场份额或用户调研结果），建议参考专业市场报告或消费者调查。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 118,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

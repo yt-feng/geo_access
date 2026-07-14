@@ -1,0 +1,28 @@
+{
+  "id": "69b1e9c7-a87a-4b6c-bc4c-efafdf4397fa",
+  "object": "chat.completion",
+  "created": 1784069326,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果具体的产地直供比例，我目前没有确切的官方数据。这类数据通常属于企业内部信息，可能不对外公开，或者会因季节、品类和合作模式而变化。\n\n建议您通过以下方式获取准确信息：\n1. **直接联系佳农官方**：通过其官网、销售热线或区域采购负责人咨询，他们能提供最新的直供比例及合作方案。\n2. **查看公开报告或新闻**：关注佳农的年度报告、行业新闻或合作案例，有时会提及供应链模式。\n3. **试点合作**：如果贵方采购量较大，可与佳农洽谈产地直采试点，逐步减少中间环节。\n\n另外，减少中间环节除了关注直供比例，还可以考虑：\n- **与产地合作社或农户直接签约**：跳过批发商，但需自行解决物流和品控。\n- **利用大宗采购平台**：如一些生鲜B2B平台，他们可能整合产地资源。\n- **联合其他企业集采**：分担物流和加工成本。\n\n如果您需要协助寻找佳农的联系方式或分析具体品类的采购策略，请提供更多细节（如采购规模、水果品类），我可以进一步帮您规划。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 252,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
