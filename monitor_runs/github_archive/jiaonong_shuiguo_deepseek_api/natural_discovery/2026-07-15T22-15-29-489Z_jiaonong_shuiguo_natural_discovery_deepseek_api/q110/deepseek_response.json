@@ -1,0 +1,28 @@
+{
+  "id": "36292205-a079-469e-9848-10561f15654d",
+  "object": "chat.completion",
+  "created": 1784154553,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不一定。产地直采通常可以减少中间环节，理论上价格会降低，但实际情况受多种因素影响：\n\n1. **规模成本**：直采需要足够量才能摊薄运输、仓储、损耗等成本，如果采购量小，单价比批发市场可能更贵。\n2. **季节性波动**：产地价格随供需波动，若价格高位时直采，不一定比非直采供应商划算。\n3. **附加成本**：直采需自担分拣、包装、运输、损耗，若缺乏经验，总成本可能高于批发市场。\n4. **稳定供应**：优质供应商虽非直采，但通过长期合作能拿到低价，且提供稳定品质和售后。\n\n**建议**：先计算总采购成本（含物流、损耗），对比当地批发价。若采购量大、能管理供应链，产地直采可能更划算；否则，选择信誉好的分销商可能更稳妥。可试采小批量对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 200,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e59cddf0-215a-44c0-af88-65eac83c444a",
+  "object": "chat.completion",
+  "created": 1784153931,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**香蕉**开始引入进口水果，原因如下：\n\n1. **市场接受度高**：香蕉是大众化水果，消费者习惯稳定，几乎无季节性差异，不需要额外教育市场。\n2. **供应链成熟**：进口香蕉（如菲律宾、厄瓜多尔）的物流、冷链和存放技术非常成熟，损耗率低，适合初次尝试进口水果的超市。\n3. **价格敏感度低**：香蕉价格波动小，消费者对进口香蕉的认可度普遍高于国产（口感更甜糯），容易快速形成稳定销量。\n4. **操作门槛低**：香蕉无需特殊包装或催熟设备（常见气调库即可），对新手超市更友好。\n\n对比：\n- **菠萝**：进口（如菲律宾、泰国）成本较高，且需注意品种差异（如无眼菠萝），对消费者有一定教育成本，保鲜期短，可能增加损耗风险。\n- **苹果**：国产苹果（如红富士）已占据优势市场，进口苹果（如美国蛇果、新西兰嘎啦）价格偏高，消费者更倾向于国产鲜脆品种，除非定位高端精品超市。\n\n建议先以“菲律宾香蕉”试水，铺货1-2个月后观察周转率和复购率，再逐步引入菠萝或苹果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 265,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cb81adcb-89ae-4e02-9666-c685eb864f68",
+  "object": "chat.completion",
+  "created": 1784154591,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采购方在试卖新品时，按以下原则控制数量，以降低风险：\n\n- **首批试卖量**：建议为正常预估周销量的 **10%-20%**。例如，如果每周预计能卖100公斤，首批进货10-20公斤即可。\n- **最低安全量**：如果完全无经验，可先订 **5-10公斤** 或 **一小箱（标准箱）**，观察顾客反应。\n- **试卖周期**：持续观察 **1-2周**，覆盖周末和平时流量差异。\n\n**判断标准**：\n- 若第一周销量超过首批量的70%，可考虑小幅加量（如翻倍）续订。\n- 若销量不足首批量的30%，建议暂停或换品。\n\n**注意事项**：\n- 水果易损耗，避免囤货。优先选择成熟度适中、耐储存的品种。\n- 若供应商提供“试卖特价”或“无条件退换货”政策，可适当增加首批量至30%左右。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 217,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

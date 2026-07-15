@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:16:49.880Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果店采购香蕉，一箱里面大小不一样会不会影响销售？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

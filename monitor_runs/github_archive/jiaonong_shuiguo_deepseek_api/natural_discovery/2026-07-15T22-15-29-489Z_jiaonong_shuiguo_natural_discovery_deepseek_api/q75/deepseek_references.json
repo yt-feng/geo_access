@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:24:53.294Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发商第一次合作水果供应商，小批量试单应该怎么设计？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

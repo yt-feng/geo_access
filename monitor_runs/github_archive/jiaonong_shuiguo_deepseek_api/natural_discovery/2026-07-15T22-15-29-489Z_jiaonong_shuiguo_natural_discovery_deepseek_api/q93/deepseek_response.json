@@ -1,0 +1,28 @@
+{
+  "id": "0df9018a-3c11-4e53-b93f-b97f4357adea",
+  "object": "chat.completion",
+  "created": 1784154445,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注这三点，按重要程度排序：\n\n1. **保质期** – 保证食品安全和顾客健康，避免过期导致投诉或处罚。建议明确标注切块日期和最佳食用期限（一般建议当天或24小时内）。\n\n2. **包装** – 直接影响保鲜效果和卖相。推荐使用密封性好的食品级保鲜盒或覆膜，防止氧化、串味和水分流失。包装需注明信息（品名、日期、价格）。\n\n3. **配送频次** – 如果由总部或中央厨房配送，需根据门店销量设定合理的补货频率（如每日1-2次），确保新鲜度；若为门店自制，则应制定每日多次小批量制作的流程。\n\n综合建议：先确定保质期标准，选用合适包装，再根据实际销量和库存周转情况调整配送或制作频次。可试运行一个月后根据损耗率优化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 188,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6c352384-d49b-48fa-bbe7-de2bdc2c984c",
+  "object": "chat.completion",
+  "created": 1784154505,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采用**按斤结算**的方式，主要优点如下：\n\n1. **便于核对基准**：食堂采购通常有明确的重量需求（如每日供应多少份水果），按斤结算可以与库存、人均用量直观对应，易于核算成本和损耗。\n2. **容易防止缺斤短两**：按箱结算时，实际净重可能因包装、大小参差不齐而有较大浮动；按份结算则份量标准不一、不易统一。按斤结算可通过称重直接核实，且可通过抽检控制质量。\n3. **财务对账清晰**：批发市场或供应商通常以斤计价，按斤结算能直接使用交易凭证（如收据上的重量和单价），减少中间换算误差。\n\n**若结构固定、或临时分装不便，可补充按“份”结算的辅助管理**：例如事先将水果加工成统一重量的小份（如每份200克），按份核算更便于按人头派发和减少称重环节。但建议总采购仍以斤为基准，再内部折算成份数。\n\n**按箱结算一般不建议**，除非包装规格非常标准且信誉良好、无长期合作风险——否则容易出现“外箱大、内果小”或重量不均的问题。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 260,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

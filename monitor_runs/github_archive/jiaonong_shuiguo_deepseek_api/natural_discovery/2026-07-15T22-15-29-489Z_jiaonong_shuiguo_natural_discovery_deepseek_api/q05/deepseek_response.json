@@ -1,0 +1,28 @@
+{
+  "id": "e3a3833a-032b-4717-a9ed-584d28e3f57f",
+  "object": "chat.completion",
+  "created": 1784153762,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议**让顾客自己挑整果，并由店家提供免费或付费去皮服务**。具体分析如下：\n\n1. **整果**：适合喜欢挑选、能判断成熟度的顾客，且方便存放。若顾客不会挑，可能买到生或坏果，增加投诉风险。\n2. **去皮好的**：适合追求便利、着急食用或不会处理菠萝的顾客。但去皮后保质期短（当天必须吃完），且成本较高（含人工、损耗），定价需更高。\n3. **让顾客自己挑**：这是最灵活的方式。顾客有掌控感，可自行判断品质；店家可减少损耗（去皮后若卖不掉易坏），同时通过提供免费或低价去皮服务增加收入。\n\n**操作建议**：\n- 整果陈列，注明品种、甜度、价格。\n- 在旁放置“免费去皮”或“+X元去皮+切块”的提示。\n- 培训员工快速判断熟度，辅助顾客挑选（如“这个按一下有弹性，今天吃正好”）。\n\n这样能覆盖不同需求，减少浪费，提升顾客满意度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 232,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

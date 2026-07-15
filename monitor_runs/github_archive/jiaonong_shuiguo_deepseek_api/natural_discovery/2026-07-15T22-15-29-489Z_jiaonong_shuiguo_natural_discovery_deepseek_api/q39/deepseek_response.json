@@ -1,0 +1,28 @@
+{
+  "id": "2105933a-88d7-45e9-a14f-68d76413b3d4",
+  "object": "chat.completion",
+  "created": 1784154018,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常大型商超在做自有品牌水果时，供应链成熟的供应商可以按商超需求提供**定制化包装**（如品牌logo、规格标签、透气包装等）和**多种规格**支持（如按重量、数量或消费场景分装）。\n\n具体建议如下：\n1. **与供应商确认**：在合作前，明确要求对方提供包装设计文件（如尺寸、材质）和规格参数（如每箱净重、果径范围、每袋个数等）。\n2. **常见规格支持**：例如每袋500g装、2粒装、家庭装（5kg）、礼盒装等。供应商通常可按商超的SKU需求调整。\n3. **包装形式**：可选择塑料托盘、网袋、纸盒、密封保鲜袋等，并印上商超自有品牌标识（含条形码、产地、保质期等）。\n4. **小批量测试**：建议先小批量试产，确认包装密封性、物流损耗率及规格是否符合终端陈列要求。\n\n若需进一步了解特定水果的包装标准（如苹果、柑橘、香蕉等），可要求供应商提供样品或参考行业通用规格（如《水果包装与储运技术规范》）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 254,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

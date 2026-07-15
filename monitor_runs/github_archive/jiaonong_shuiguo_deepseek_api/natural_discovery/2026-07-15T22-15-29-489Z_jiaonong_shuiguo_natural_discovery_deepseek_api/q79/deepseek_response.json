@@ -1,0 +1,28 @@
+{
+  "id": "fe827415-5003-4d3f-8281-cd09a3a76112",
+  "object": "chat.completion",
+  "created": 1784154336,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在团购场景中，**最应该先问配送**，其次是**售后**，最后是**价格**。原因如下：\n\n1. **配送能力决定生意成败**  \n   团购的关键是“时效”和“稳定性”。如果供应商无法保证准时、完整、冷链合规地送达，水果容易变质、缺货，导致团长无法交付给用户。优先问：是否支持次日达、有无冷链、起送量、配送区域、延迟/漏发如何处理。\n\n2. **售后政策是底线保障**  \n   水果易损耗，一旦出现坏果、重量不足、品相差等问题，团长需要供应商快速响应。问清：坏果包赔比例、赔付流程、是否上门回收、售后响应时间。这比单纯低价更重要。\n\n3. **价格最后谈，但需对比**  \n   价格可以结合配送和售后能力综合评估。在配送和售后靠谱的前提下，再谈阶梯价、账期、试吃补贴等。警惕“低价”但配送慢或售后难的供应商，长期风险高。\n\n**一句话建议**：先锁定配送能力过关的供应商，再谈售后保障，最后谈价格优惠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 242,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

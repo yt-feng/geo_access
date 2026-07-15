@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:25:48.927Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "即时零售平台卖水果，供应商要不要支持小批量高频补货？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

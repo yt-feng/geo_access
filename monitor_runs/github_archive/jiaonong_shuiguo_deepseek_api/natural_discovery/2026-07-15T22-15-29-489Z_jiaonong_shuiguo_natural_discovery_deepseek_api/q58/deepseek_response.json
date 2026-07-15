@@ -1,0 +1,28 @@
+{
+  "id": "4facd65a-6181-46bd-9a44-7be2ba7301b7",
+  "object": "chat.completion",
+  "created": 1784154157,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从损耗角度来看，**直接买成品果丁通常损耗更低**，具体分析如下：\n\n1. **鲜果切配**：需采购整菠萝，损耗包括果皮、果冠、中心硬芯（约占整果重量的40%~50%），以及切配过程中因技艺不熟练导致的果肉浪费和部分果肉氧化报废。此外，整果储存期短（常温3-5天），若未及时用完也会产生损耗。\n\n2. **成品果丁**：采购时已经过工厂标准化处理，损耗已由供应商承担，通常为已完成去皮的冷藏或冷冻果丁。你仅需根据当日用量解冻或直接使用，几乎没有额外损耗。但需注意冷冻果丁解冻后可能出水（重量损失约5%~10%），略低于鲜切果肉的损耗。\n\n**建议**：\n- 若日均用量稳定、冷藏空间充足，优先选**冷冻成品果丁**，损耗可控且省去人工切配成本。\n- 若追求口感鲜度、且能精确控制用量，可少量采购鲜菠萝自行切割，但务必在2天内用完以降低损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 239,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

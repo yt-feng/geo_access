@@ -1,0 +1,50 @@
+{
+  "questionId": "q43",
+  "prompt": "连锁门店分布在不同城市，水果供应商的仓配覆盖要怎么评估？",
+  "createdAt": "2026-07-15T22:20:49.712Z",
+  "summary": [
+    {
+      "questionId": "q43",
+      "prompt_index": 43,
+      "promptIndex": 43,
+      "promptHash": "4f4f2f2056b9",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "连锁门店分布在不同城市，水果供应商的仓配覆盖要怎么评估？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 988,
+      "text_length": 988,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 607,
+        "total_tokens": 662,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 607,
+      "total_tokens": 662,
+      "latencyMs": 8239,
+      "latency_ms": 8239,
+      "createdAt": "2026-07-15T22:20:49.712Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q43/prompt.txt",
+        "answer": "q43/deepseek.txt",
+        "response": "q43/deepseek_response.json",
+        "sources": "q43/deepseek_sources.json",
+        "references": "q43/deepseek_references.json"
+      }
+    }
+  ]
+}
