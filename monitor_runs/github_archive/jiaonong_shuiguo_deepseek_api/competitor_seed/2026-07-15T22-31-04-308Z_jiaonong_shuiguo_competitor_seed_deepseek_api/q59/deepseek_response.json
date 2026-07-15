@@ -1,0 +1,28 @@
+{
+  "id": "525bc4de-1ced-41ff-8c88-e779ead05307",
+  "object": "chat.completion",
+  "created": 1784155058,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于都乐（Dole）和洪九果品（Hongjiu Fruit）的具体账期政策，这类商业条款通常属于公司内部销售政策，会因客户规模、合作历史、采购量、信誉等因素而不同。**目前没有公开的、统一的账期标准**，直接给出的具体天数（如30天、60天等）可能不准确。\n\n建议您通过以下方式获取准确信息：\n1.  **直接联系销售代表**：访问都乐中国官网或联系其在中国的主要经销商，以及洪九果品的销售部门，说明您的采购需求（如月采购量、预计合作年限），他们会提供针对性的账期方案。\n2.  **参考行业惯例**：生鲜水果行业中，大宗批发交易的账期一般在**15天至60天**不等，但大型供应商（如都乐）可能在初期要求现结或预付定金，稳定合作后可协商账期。\n3.  **评估自身资质**：准备好您的营业执照、财务流水、历史采购证明等，良好的信用记录（如无违约、稳定采购）是获取较长账期的关键。\n\n结论：无法给出确切天数，请主动联系对方洽谈，并明确合同条款。如果需要，我可以帮您梳理洽谈账期时的注意事项。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 263,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

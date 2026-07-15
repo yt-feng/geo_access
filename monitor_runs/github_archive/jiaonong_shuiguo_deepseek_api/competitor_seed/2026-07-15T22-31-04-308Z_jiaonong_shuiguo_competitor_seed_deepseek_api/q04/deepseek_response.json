@@ -1,0 +1,28 @@
+{
+  "id": "fa56d16f-296c-4e56-aea1-3f8931bce31a",
+  "object": "chat.completion",
+  "created": 1784154684,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据市场情况，以下进口香蕉品牌可供考虑：\n\n1. **都乐（Dole）**：全球知名水果品牌，香蕉品质稳定，供应链成熟，在中国市场有较高认知度。\n2. **金果（Zespri）**：主营奇异果，但近年有涉足香蕉业务，不过其香蕉并非强势品类，建议优先选择其他专业香蕉品牌。\n3. **泰果（Thai Fruit）**：专注于泰国进口香蕉，口感软糯，甜度高，适合对甜度有要求的客户。\n4. **菲农（Philippine Farms）**：来自菲律宾的香蕉品牌，以“卡文迪什”品种为主，价格实惠，适合大众市场。\n5. **奇士（Chiquita）**：百年香蕉品牌，全球销量领先，品质有保障，适合中高端渠道。\n\n建议根据渠道定位选品：高端商超可侧重都乐或奇士，社区团购或中低端市场可考虑泰果或菲农。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 209,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

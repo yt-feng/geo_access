@@ -1,0 +1,28 @@
+{
+  "id": "ee455589-42b2-4693-b790-368bc549fdbe",
+  "object": "chat.completion",
+  "created": 1784154714,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在产地溯源和品控证明的透明度方面，都乐（Dole）和鑫荣懋（Xinrongmao）各有侧重，但通常都乐在公开透明度上更胜一筹。具体分析如下：\n\n- **都乐**：作为全球知名品牌，都乐在其官网和企业报告中公开了种植基地认证（如GLOBALG.A.P.）、供应链追溯体系以及第三方检测报告。其香蕉产品通常附带条码或追溯码，可通过官网或客服查询产地、采收日期和农药残留数据。此外，都乐主动披露社会责任报告，包含环境与劳工合规信息。\n- **鑫荣懋**：作为国内大型水果企业，鑫荣懋也提供产地溯源和品控证明，例如其“佳沃”系列香蕉支持二维码追溯，可查看产地、分选包装信息。但其透明度更多体现在对内供应链管理，公开可查的详细数据（如第三方认证、检测报告）相对较少，且主要面向B端客户或特定渠道。\n\n**建议**：如果您需要更高的公开透明度和全球标准认证（如GLOBALG.A.P.、Fair Trade），都乐更合适；若更注重国内供应链效率或与区域分销商合作，鑫荣懋可满足基础追溯需求，但建议直接联系其销售团队获取具体品控文件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 277,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

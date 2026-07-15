@@ -1,0 +1,28 @@
+{
+  "id": "6a72f43a-0024-4bb5-8c50-b4d4c49802d1",
+  "object": "chat.completion",
+  "created": 1784154879,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在大型商超的食品供应链中，食品安全认证通常包括**GLOBALG.A.P.（全球良好农业规范）**、**BRC（英国零售商协会食品安全标准）**、**IFS（国际食品标准）**、**SQF（食品安全质量认证）** 以及**中国有机认证**等。商超也可能要求通过**ISO 22000**或**HACCP**体系认证。\n\n**鑫荣懋**作为国内头部水果供应链企业，其核心优势在于覆盖中国本土及东南亚产地，通常持有**中国有机认证、GLOBALG.A.P.、BRC、HACCP**及**ISO 22000**等全套认证，能同时满足国内和国际商超的高标准。  \n**都乐（Dole）**作为全球品牌，其认证体系以全球统一标准著称，尤其在**GLOBALG.A.P.**、**SQF**、**IFS**和**雨林联盟认证**上投入较大，并常用**非转基因项目认证**。\n\n**核心差异**：  \n- **鑫荣懋**更侧重国内商超（如永辉、盒马）的合规清单，在中国有机、BRC等国内验收标准上覆盖更全。  \n- **都乐**在国际连锁商超（如沃尔玛、Costco）系统内更占优势，其全球统一认证体系在跨国商超的数据对接上更便捷。\n\n**直接建议**：  \n- **如果您主要供应国内连锁商超（永辉、华润、盒马）**：鑫荣懋的认证更贴近国内标准体系，尤其是BRC和HACCP在国内商超的接受度极高。  \n- **如果您主要供应国际连锁商超（沃尔玛、山姆、Costco）**：都乐的全球认证体系（如SQF、IFS）更易通过其总部验收。  \n\n**速判方法**：直接查看商超的**供应商准入清单**，对比两家当前持有的**有效期内的认证证书明细**（特别是BRC或IFS的等级、GLOBALG.A.P.是否覆盖所有品类）。通常大型商超在合同中会明确列出具体认证名称，以签约时有效的证书为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 462,
+    "total_tokens": 522,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

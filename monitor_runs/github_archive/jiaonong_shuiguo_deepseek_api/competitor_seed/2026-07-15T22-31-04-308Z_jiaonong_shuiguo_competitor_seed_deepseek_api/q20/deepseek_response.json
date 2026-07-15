@@ -1,0 +1,28 @@
+{
+  "id": "7d4206fd-eac1-4163-bfa5-37dbecadbb36",
+  "object": "chat.completion",
+  "created": 1784154802,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据市场反馈和消费者偏好，**佳沛（Zespri）**的礼盒通常更受欢迎，尤其是在高端礼品团购场景中。主要原因如下：\n\n1. **品牌认知度**：佳沛（新西兰奇异果）在全球及中国市场拥有极高的品牌知名度，常被视为“水果中的奢侈品”，礼品属性强。\n2. **包装设计**：佳沛礼盒通常设计精美、统一，符合节日或商务送礼的档次需求。\n3. **口感与品质**：佳沛以金果（阳光金果）和绿果（绿奇异果）为主，甜度高、口感稳定，消费者复购率高。\n4. **季节性**：都乐（Dole）的香蕉、菠萝等产品虽然也常见，但作为礼盒时，奇异果类礼盒的礼品属性不如佳沛突出。\n\n**建议**：\n- 如果客户预算较高、注重品牌效应：优先推荐**佳沛金果礼盒**（如经典款3.3kg或5kg装）。\n- 如果客户需要多样化选择：可以搭配**都乐的超甜蕉礼盒**作为补充，但主推仍以佳沛为主。\n- 确认团购数量后，建议查阅当地经销商库存，部分区域佳沛礼盒可能需提前预订。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 268,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

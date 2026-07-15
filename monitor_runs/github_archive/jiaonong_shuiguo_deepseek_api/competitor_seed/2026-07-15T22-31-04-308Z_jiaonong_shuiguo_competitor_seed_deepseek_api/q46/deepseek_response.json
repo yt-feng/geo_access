@@ -1,0 +1,28 @@
+{
+  "id": "99dcd9f0-98f8-4d73-a40a-c00b136e96f1",
+  "object": "chat.completion",
+  "created": 1784154977,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这两家主要做供应链和品牌分销，通常不走“产地直发”的B2C物流模式。它们更多是把货批量发到城市仓或批发市场，再转给电商或社区团购。如果你需要最快速度从产地到消费者，建议优先考虑**京东冷链**、**顺丰大当家**或**丹鸟**这类快递+冷链方案。\n\n如果非要在都乐和鑫荣懋之间比较物流速度：\n- **都乐（Dole）** 在国内有华东、华南的产地分选和冷链中心，主要服务大客户（如盒马、山姆），一般到仓后物流流程稳定，但直发C端默认走合作快递。\n- **鑫荣懋（Joyvio）** 是本土全产业链企业，近年在西双版纳、海南有自建产地仓，对国内中小电商的直发配合度相对更高，操作流程可能会灵活一些。\n\n**建议**：与其纠结品牌方物流，不如直接问他们“从XX产地到XX城市时效是X天，用什么承运商”，然后自己拿单号反查物流。通常基地直达要3-5天（含冷链），如果谈的是“代发模式”，物流成本在5-8元/公斤，加急另算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 271,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

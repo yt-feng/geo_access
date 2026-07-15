@@ -1,0 +1,28 @@
+{
+  "id": "67689375-d736-4897-a76f-f84ff2f3071a",
+  "object": "chat.completion",
+  "created": 1784154959,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，都乐（Dole）在香蕉的分级标准上更为细致和系统化。都乐作为国际知名水果品牌，其香蕉从长度、外观、成熟度到包装细节都有严格的等级划分（如“皇帝蕉”“标准蕉”等），并针对不同市场（如零售、餐饮）制定专门规格。\n\n而鑫荣懋虽然也有分级（如大小、成熟度），但更多以整体品质和符合国内采购标准为主，细分化程度可能略低于都乐。\n\n如果你需要具体采购参数（如长度范围、允许瑕疵率等），建议直接联系两家公司的销售或索要最新分级标准文档，因为不同批次和渠道可能会调整规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 143,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

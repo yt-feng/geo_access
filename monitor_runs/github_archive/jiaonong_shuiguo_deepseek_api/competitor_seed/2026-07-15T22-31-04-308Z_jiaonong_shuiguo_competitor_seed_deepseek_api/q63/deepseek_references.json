@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:38:03.111Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们做社区团购，需要香蕉小包装，都乐和洪九果品有没有散装选项？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

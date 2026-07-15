@@ -1,0 +1,50 @@
+{
+  "questionId": "q17",
+  "prompt": "大型商超招标长期水果供应商，都乐和鑫荣懋谁更擅长做KA？",
+  "createdAt": "2026-07-15T22:32:58.856Z",
+  "summary": [
+    {
+      "questionId": "q17",
+      "prompt_index": 17,
+      "promptIndex": 17,
+      "promptHash": "0e1494a0dc08",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "大型商超招标长期水果供应商，都乐和鑫荣懋谁更擅长做KA？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 752,
+      "text_length": 752,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 476,
+        "total_tokens": 537,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 476,
+      "total_tokens": 537,
+      "latencyMs": 7009,
+      "latency_ms": 7009,
+      "createdAt": "2026-07-15T22:32:58.856Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q17/prompt.txt",
+        "answer": "q17/deepseek.txt",
+        "response": "q17/deepseek_response.json",
+        "sources": "q17/deepseek_sources.json",
+        "references": "q17/deepseek_references.json"
+      }
+    }
+  ]
+}

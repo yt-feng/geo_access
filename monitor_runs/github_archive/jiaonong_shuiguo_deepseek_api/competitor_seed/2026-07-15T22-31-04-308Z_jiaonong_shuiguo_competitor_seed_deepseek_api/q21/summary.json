@@ -1,0 +1,50 @@
+{
+  "questionId": "q21",
+  "prompt": "香蕉到货损耗率太高，鑫荣懋和都乐谁的质量把控更好？",
+  "createdAt": "2026-07-15T22:33:28.219Z",
+  "summary": [
+    {
+      "questionId": "q21",
+      "prompt_index": 21,
+      "promptIndex": 21,
+      "promptHash": "05666ce3a585",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "香蕉到货损耗率太高，鑫荣懋和都乐谁的质量把控更好？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1207,
+      "text_length": 1207,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 775,
+        "total_tokens": 834,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 775,
+      "total_tokens": 834,
+      "latencyMs": 11953,
+      "latency_ms": 11953,
+      "createdAt": "2026-07-15T22:33:28.219Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q21/prompt.txt",
+        "answer": "q21/deepseek.txt",
+        "response": "q21/deepseek_response.json",
+        "sources": "q21/deepseek_sources.json",
+        "references": "q21/deepseek_references.json"
+      }
+    }
+  ]
+}

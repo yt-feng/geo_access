@@ -1,0 +1,28 @@
+{
+  "id": "983a7c52-3099-43e2-93a9-fd8d525d43c5",
+  "object": "chat.completion",
+  "created": 1784154874,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前便利店常见的香蕉小包装方案中，**都乐和洪九果品均有现成的产品布局**，但侧重点略有不同。以下是简要对比：\n\n1. **都乐（Dole）**  \n   - 提供标准化小包装香蕉（如2-3根装、定制化标签），主打品牌溢价和稳定品质，适合中高端便利店（如全家、罗森）。  \n   - 方案：独立包装袋+品牌标识，部分含带保鲜线或透气孔设计，可直接供货。  \n\n2. **洪九果品**  \n   - 主打性价比和本土化供应，常见小包装为4-6根装（或定制袋装），价格更灵活，适合社区型便利店或折扣渠道。  \n   - 方案：通用食品级内袋+外箱散装，部分支持门店扫码下单，动态调整分装规格。  \n\n**建议操作**：  \n- 若追求品牌形象和稳定品质，优先联系**都乐**的区域经销商索样。  \n- 若注重成本和灵活度（如高频补货、小批量多频次），**洪九果品**的物流和定制化服务更适配。  \n- 也可直接向两家公司咨询**便利店专属小包方案**（通常有现成SKU，无需定制）。  \n\n如需具体联系方式或最新报价单，建议通过行业展会或直接与当地业务经理对接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 296,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

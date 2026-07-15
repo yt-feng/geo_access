@@ -1,0 +1,28 @@
+{
+  "id": "01dd7ad0-1332-41a4-8f30-77a626b9a390",
+  "object": "chat.completion",
+  "created": 1784155155,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的“都乐”（Dole）和“洪九果品”是否有环保包装的香蕉小包装，目前我无法直接核验最新的产品信息。建议您通过以下方式确认：\n\n1. **直接联系两家公司**：通过其官网或客服热线，询问便利店香蕉小包装的环保材质（如可降解塑料、纸包装或可重复使用设计）。\n2. **查询产品包装标识**：查看现有产品包装上是否有环保认证标志（如FSC、可降解标签等）。\n3. **行业趋势参考**：部分水果品牌已推出可降解或再生纸包装，但需以具体批次为准。\n\n若需要进一步帮助，可以提供更多信息（如目标销售区域、包装规格要求），以便给出更精准的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 159,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

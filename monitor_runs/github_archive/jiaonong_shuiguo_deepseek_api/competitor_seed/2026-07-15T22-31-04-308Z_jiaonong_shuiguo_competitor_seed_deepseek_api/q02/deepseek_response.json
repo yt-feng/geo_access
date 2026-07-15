@@ -1,0 +1,28 @@
+{
+  "id": "3722c544-5209-4fbc-ae22-3c101fe7f26c",
+  "object": "chat.completion",
+  "created": 1784154672,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）之外，目前市场上稳定供应的菠萝品牌还有：\n\n1. **佳沃（Joyvio）**：国内知名水果品牌，菠萝供应链稳定，尤其在电商和超市渠道常见。\n2. **金菠萝（MD2）**：通常以品种为卖点，由不同供应商包装（如金香、金钻等），在高端生鲜店和盒马、山姆等渠道有售。\n3. **菲尼克斯（Phoenix）**：部分进口渠道的菠萝品牌，在精品超市有售。\n4. **自然熟（Ziran Shu）**：主打菠萝产地直销，部分便利店和社区团购平台可见。\n5. **易初莲花（Lotus）**：部分自有品牌菠萝，在超市渠道供应稳定。\n\n此外，部分本地品牌（如海南的“琼黄”菠萝、广东徐闻的“菠萝的海”系列）在南方市场区域供应稳定。建议根据你所在的地区选择，优先查看产地为海南或广东的菠萝，因国内多个产季衔接，整体供货更稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 227,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

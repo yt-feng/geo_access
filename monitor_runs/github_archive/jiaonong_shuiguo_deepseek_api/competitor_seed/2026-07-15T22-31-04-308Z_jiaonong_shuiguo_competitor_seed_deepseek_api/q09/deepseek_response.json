@@ -1,0 +1,28 @@
+{
+  "id": "4d956e18-e711-4cff-bae5-9355d1cca06c",
+  "object": "chat.completion",
+  "created": 1784154720,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口品牌水果礼盒在礼品团购中口碑较好，适合作为备选：\n\n1. **新奇士（Sunkist）**  \n   - 主打：橙子、柠檬、葡萄柚  \n   - 亮点：美国老牌，果品标准化高，礼盒包装精致，适合商务送礼。\n\n2. **爱妃（Envy）**  \n   - 主打：苹果（特别是红苹果）  \n   - 来源：新西兰/美国  \n   - 特点：果肉紧实、不易氧化变黄，礼盒档次高，适合高端客户。\n\n3. **金枕头（Monkey Durian）**  \n   - 主打：冷冻榴莲肉或整果礼盒  \n   - 来源：泰国/马来西亚  \n   - 注意：适合偏好榴莲的客户群，需冷链配送。\n\n4. **晴王（Shine Muscat）**  \n   - 主打：阳光玫瑰青提  \n   - 来源：日本/韩国（国内也有引进）  \n   - 亮点：颗粒大、甜度高，礼盒高端且有节日氛围。\n\n5. **舞茸（Maitake）**  \n   - 主打：稀有水果（如日本哈密瓜、草莓）  \n   - 特点：包装精致，适合极致高端礼赠，但价格高且需提前预定。\n\n6. **怡颗莓（Driscoll's）**  \n   - 主打：蓝莓、草莓、树莓  \n   - 来源：美国/墨西哥/智利  \n   - 优点：果品新鲜、包装密封性好，适合混合浆果礼盒。\n\n7. **金果（Gold Kiwi）**  \n   - 主打：黄金奇异果（与佳沛不同品牌，如新西兰“Gold 9”等）  \n   - 注意：需确认具体供货商，部分高端超市有独家进口款。\n\n**建议**：  \n- **团购搭配**：可组合不同品牌（如新奇士橙+爱妃苹果+怡颗莓蓝莓）做成混合礼盒，增加新鲜感。  \n- **渠道选择**：优先找大型进口水果批发商（如上海辉展、广州江南市场批发部）或授权经销商，确保货源和节日包装。  \n- **定制服务**：部分品牌（如新奇士）支持企业LOGO贴标，可在礼盒上体现团购方品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 520,
+    "total_tokens": 582,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
