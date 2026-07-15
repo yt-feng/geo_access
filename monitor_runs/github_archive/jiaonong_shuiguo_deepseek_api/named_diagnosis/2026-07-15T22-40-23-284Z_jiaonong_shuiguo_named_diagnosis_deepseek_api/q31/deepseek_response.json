@@ -1,0 +1,28 @@
+{
+  "id": "5131c5ad-ef63-4fa1-b09a-5f1682eb91be",
+  "object": "chat.completion",
+  "created": 1784155354,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农水果在礼品团购方面提供了多种水果礼盒选择，通常包括高端水果组合（如车厘子、蓝莓、进口猕猴桃等）和节日定制礼盒（如中秋、春节等）。您可以联系佳农官方客服、区域销售代表，或在其电商平台（天猫、京东等）查看“礼品卡/团购”专区，获取具体的礼盒规格、批发价格及起订量信息。建议告知所需水果品种、预算和交付时间，以便获取精准方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 109,
+    "total_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

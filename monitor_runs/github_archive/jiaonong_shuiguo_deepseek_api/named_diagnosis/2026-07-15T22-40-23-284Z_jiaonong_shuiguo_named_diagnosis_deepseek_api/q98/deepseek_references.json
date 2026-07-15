@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:48:20.415Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们便利店想卖佳农香蕉，但担心损耗，你们有没有到货损耗率承诺？比如超过3%包赔？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

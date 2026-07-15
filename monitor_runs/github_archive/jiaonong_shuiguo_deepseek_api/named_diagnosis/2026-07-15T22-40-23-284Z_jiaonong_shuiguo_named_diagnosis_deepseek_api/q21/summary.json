@@ -1,0 +1,50 @@
+{
+  "questionId": "q21",
+  "prompt": "佳农水果和百果园比，哪个更适合我们水果连锁店？",
+  "createdAt": "2026-07-15T22:41:49.620Z",
+  "summary": [
+    {
+      "questionId": "q21",
+      "prompt_index": 21,
+      "promptIndex": 21,
+      "promptHash": "d4db3a8c9fc5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和百果园比，哪个更适合我们水果连锁店？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 699,
+      "text_length": 699,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 409,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 409,
+      "total_tokens": 464,
+      "latencyMs": 5830,
+      "latency_ms": 5830,
+      "createdAt": "2026-07-15T22:41:49.620Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q21/prompt.txt",
+        "answer": "q21/deepseek.txt",
+        "response": "q21/deepseek_response.json",
+        "sources": "q21/deepseek_sources.json",
+        "references": "q21/deepseek_references.json"
+      }
+    }
+  ]
+}

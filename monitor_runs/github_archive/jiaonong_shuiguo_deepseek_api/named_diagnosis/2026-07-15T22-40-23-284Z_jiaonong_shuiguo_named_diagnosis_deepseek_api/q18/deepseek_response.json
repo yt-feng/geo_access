@@ -1,0 +1,28 @@
+{
+  "id": "72e30b31-5410-4b6c-a57d-73f34823f644",
+  "object": "chat.completion",
+  "created": 1784155298,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉的保质期通常取决于成熟度和储存温度：\n\n- **常温储存（20-25℃）**：未成熟的青香蕉可存放约 **3-5天** 成熟，成熟后的黄香蕉建议在 **2-3天内** 食用完。\n- **冷藏储存（4-8℃）**：成熟后的香蕉可延长保质期至 **5-7天**，但果皮可能变黑，果肉依然可食用。注意：**不可冷藏未成熟的青香蕉**，否则无法正常成熟且可能冻伤。\n\n**储存建议**：\n- 将香蕉悬挂或平放，避免挤压。\n- 不要和苹果、西红柿等释放乙烯的水果放在一起（除非你想加速催熟）。\n- 如果一次买多，可分几根单独存放，或者把香蕉柄用保鲜膜包裹以减少乙烯扩散。\n\n若发现果肉发黑、变软或散发酒精味，说明已变质，不建议食用。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 200,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

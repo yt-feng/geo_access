@@ -1,0 +1,50 @@
+{
+  "questionId": "q35",
+  "prompt": "佳农水果的客户服务响应快吗？有问题找谁？",
+  "createdAt": "2026-07-15T22:42:49.880Z",
+  "summary": [
+    {
+      "questionId": "q35",
+      "prompt_index": 35,
+      "promptIndex": 35,
+      "promptHash": "aac742cf8561",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的客户服务响应快吗？有问题找谁？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 378,
+      "text_length": 378,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 218,
+        "total_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 218,
+      "total_tokens": 272,
+      "latencyMs": 3479,
+      "latency_ms": 3479,
+      "createdAt": "2026-07-15T22:42:49.880Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q35/prompt.txt",
+        "answer": "q35/deepseek.txt",
+        "response": "q35/deepseek_response.json",
+        "sources": "q35/deepseek_sources.json",
+        "references": "q35/deepseek_references.json"
+      }
+    }
+  ]
+}

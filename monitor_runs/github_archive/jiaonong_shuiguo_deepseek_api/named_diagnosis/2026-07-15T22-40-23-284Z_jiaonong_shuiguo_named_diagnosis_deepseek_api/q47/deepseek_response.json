@@ -1,0 +1,28 @@
+{
+  "id": "884b8040-3384-4af9-ba3d-11f21a26cc31",
+  "object": "chat.completion",
+  "created": 1784155426,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果主要产自中国山东（如烟台、栖霞等传统优质产区）以及陕西、新疆等地，具体产地可能因季节和品种调整。关于GAP认证，佳农集团通常持有GlobalG.A.P.（全球良好农业规范）认证，这是国际通行的农业规范标准，但建议您直接通过佳农官方渠道（如官网、客服或采购合同文件）核实其具体产品批次是否附带有效认证证书。作为生鲜电商，您可要求佳农提供完整的溯源信息，包括产地证明、GAP证书编号及有效期、种植日志或第三方检测报告，以确保合规性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 133,
+    "total_tokens": 195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

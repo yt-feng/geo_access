@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:43:17.750Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和都乐比，香蕉的到货损耗率哪个更低？我们批发市场对损耗很敏感。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

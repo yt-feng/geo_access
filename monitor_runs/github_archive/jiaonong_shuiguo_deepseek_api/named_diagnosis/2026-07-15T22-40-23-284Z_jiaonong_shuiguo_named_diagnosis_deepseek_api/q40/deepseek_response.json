@@ -1,0 +1,28 @@
+{
+  "id": "0f47a16a-9359-4975-9da4-0167bcffae7e",
+  "object": "chat.completion",
+  "created": 1784155387,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果有专门针对餐饮渠道的菠萝产品解决方案。这类方案通常包括：\n1. **产品形态多样**：提供新鲜菠萝、去皮菠萝块、菠萝切丁、菠萝汁等方便餐饮加工的形式。\n2. **品质稳定**：选用特定品种（如香水菠萝或菲律宾菠萝），确保甜度、酸度、果肉颜色和成熟度一致。\n3. **定制化服务**：根据餐饮客户需求（如披萨店、甜品店、果汁吧、烤肉配菜等）提供包装规格、切分尺寸、保鲜冷链配送等定制。\n4. **应用指导**：提供菜品研发建议、搭配方案或应用菜谱，帮助餐厅更好使用菠萝原料。\n具体方案细节（如最小起订量、价格、配送区域）建议直接联系佳农官方客服或当地餐饮渠道负责人获取最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 181,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

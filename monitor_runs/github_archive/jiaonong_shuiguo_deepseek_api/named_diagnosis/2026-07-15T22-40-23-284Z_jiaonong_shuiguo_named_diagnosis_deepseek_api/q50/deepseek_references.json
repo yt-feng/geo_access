@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:43:57.674Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和鑫荣懋比，哪个在华东地区的商超渠道更强势？我们想换供应商。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

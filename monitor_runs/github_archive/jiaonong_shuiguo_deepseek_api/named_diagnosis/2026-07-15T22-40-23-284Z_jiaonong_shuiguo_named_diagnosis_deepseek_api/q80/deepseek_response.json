@@ -1,0 +1,28 @@
+{
+  "id": "ffb04ea1-2660-4225-9116-80bba80681b6",
+  "object": "chat.completion",
+  "created": 1784155599,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果香蕉的农残检测报告，建议您通过以下方式获取：\n\n1. **直接联系供应商**：联系为您供货的佳农经销商或区域销售代表，他们通常能提供最新的批次检测报告。作为采购方，您完全有权利索要符合市场抽检标准的官方文件。\n2. **查询官方渠道**：访问佳农集团官网或官方客服渠道，部分企业会在“品质保障”或“售后服务”板块公开检测报告样本，或提供申请途径。\n3. **要求随货附带报告**：在采购合同中明确约定：每批次到货需附带第三方检测机构出具的农残检测合格报告（如具备CMA/CNAS资质的实验室报告）。\n\n**提示**：市场抽检标准通常依据《食品安全国家标准 食品中农药最大残留限量》（GB 2763）执行，您可要求供应商出具专项检测该标准中香蕉相关项目的报告（如吡虫啉、多菌灵等常见指标）。\n\n如果供应商无法提供，建议您谨慎交易，或与当地市场监管部门核实该品牌产品近期的抽检记录。需要我帮您查询该品牌的公开合规信息吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 243,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

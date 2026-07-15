@@ -1,0 +1,28 @@
+{
+  "id": "fdeb5c44-1a46-4d94-9660-cd412ec94ddd",
+  "object": "chat.completion",
+  "created": 1784155259,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果通常设有专门的客户经理对接批发商客户。建议你直接联系佳农水果的官方客服或区域销售团队，提供你的批发需求、规模等信息，他们会为你分配对应的客户经理。也可以访问佳农水果官网或拨打官方电话查询批发合作渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 58,
+    "total_tokens": 111,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

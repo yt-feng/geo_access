@@ -1,0 +1,28 @@
+{
+  "id": "a20924c5-e552-41fb-a7f4-82ca72a7d01b",
+  "object": "chat.completion",
+  "created": 1784155262,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在口感和供货稳定性方面相比普通菠萝具有一定的优势，具体如下：\n\n1. **口感**：佳农菠萝通常选用优质品种（如都乐金菠萝、香水菠萝等），果肉纤维较细、糖度高、酸度低，口感更甜润且多汁，几乎没有普通菠萝常见的生硬涩味。此外，佳农对采摘成熟度控制较严，一般在果糖积累充分后采摘，因此风味更浓郁。\n\n2. **供货稳定性**：佳农作为大型水果品牌，拥有成熟的供应链管理能力，包括自有或合作种植基地、冷链运输网络等。相比散装或小品牌菠萝，佳农的供货季节性波动较小，全年大部分时间都能维持稳定供应（尤其冬季可通过南半球产地补充）。但需注意，极端天气或物流问题仍可能影响短期供应。\n\n**建议**：如果追求稳定品质和便利性，佳农菠萝是不错的选择；若对价格更敏感，可考虑本地当季菠萝。购买时注意查看产地和成熟度标识。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 218,
+    "total_tokens": 271,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

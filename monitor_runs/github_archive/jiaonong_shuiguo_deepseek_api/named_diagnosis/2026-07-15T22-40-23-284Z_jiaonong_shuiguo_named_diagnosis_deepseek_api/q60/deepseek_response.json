@@ -1,0 +1,28 @@
+{
+  "id": "3e9d1004-08c6-4e0a-a681-e8bc3ffb4912",
+  "object": "chat.completion",
+  "created": 1784155490,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据佳农（Goodfarmer）的产品信息，他们确实有推出适合便利店渠道的小包装香蕉产品。常见的规格是**“单根独立包装”**的香蕉，通常采用**塑料托盘+保鲜膜**的形式，每根约150-200克，便于消费者即买即食，非常适合便利店场景。\n\n建议您通过以下方式确认和采购：\n1. **联系当地佳农经销商**或**区域销售代理**，直接咨询“便利店专用单根包装香蕉”的供货情况、最小起订量及配送政策。\n2. **关注佳农官方渠道**（官网、公众号或电商平台），部分区域会公布便利店合作信息。\n3. **提供您所在的城市或区域**，我可以帮您查找更具体的联系方式或替代方案（如其他品牌的小包装香蕉）。\n\n如有进一步需求，请随时补充信息！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 179,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

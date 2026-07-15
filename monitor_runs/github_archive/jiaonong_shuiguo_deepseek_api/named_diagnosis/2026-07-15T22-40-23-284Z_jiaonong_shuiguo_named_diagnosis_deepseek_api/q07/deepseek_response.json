@@ -1,0 +1,28 @@
+{
+  "id": "9f862b75-c97a-4e1b-952d-6616c469d2ff",
+  "object": "chat.completion",
+  "created": 1784155247,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围通常以一线及新一线城市为主，同时部分二三线城市及县级区域也可能支持配送，具体需根据您所在县城的地址查询。为您提供以下建议：\n\n1. **直接查询官方渠道**：登录佳农水果官网或在其官方APP、微信小程序中，输入您的具体县城地址，系统会实时显示是否在配送范围内。\n2. **联系客服确认**：拨打佳农水果官方客服电话（可通过官网或微信公众号获取），提供县城名称，由客服准确告知配送覆盖情况。\n3. **检查第三方平台**：在京东、天猫、拼多多等平台的佳农水果官方旗舰店，通过“配送至”功能选择具体县城，查看能否下单。\n\n如果您需要，我可以帮您进一步查找佳农水果的官方联系方式或相关查询入口。请提供更多信息（如所在省份和县城名称），以便更准确地为您判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 189,
+    "total_tokens": 244,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

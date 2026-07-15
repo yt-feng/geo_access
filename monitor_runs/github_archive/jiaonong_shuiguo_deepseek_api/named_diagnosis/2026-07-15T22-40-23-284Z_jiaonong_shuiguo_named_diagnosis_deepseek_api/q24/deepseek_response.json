@@ -1,0 +1,28 @@
+{
+  "id": "ccc16cc5-fe4e-413b-b616-fb4328257611",
+  "object": "chat.completion",
+  "created": 1784155328,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会。在2024年的第七届中国国际进口博览会（进博会）上，佳农集团携旗下新品亮相。其最近的主要新品包括：\n\n- **佳农黑钻菠萝**：这是佳农在进博会上重点推出的新品，主打高甜度和稀有品种。\n- **厄瓜多尔麒麟果**：作为高端水果新品，强调进口品质和营养。\n- **菲律宾黑钻凤梨**：与黑钻菠萝系列相关的新品，主打特色凤梨产品。\n- **云南蓝莓**：虽然不是进博会首秀，但佳农在进博会上展示了其在国内供应链的拓展，作为新品线的一部分。\n\n这些新品在进博会期间进行了首发或重点推广。如需更详细的产品信息（如上市时间、购买渠道），建议关注佳农官方渠道或公告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 175,
+    "total_tokens": 227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

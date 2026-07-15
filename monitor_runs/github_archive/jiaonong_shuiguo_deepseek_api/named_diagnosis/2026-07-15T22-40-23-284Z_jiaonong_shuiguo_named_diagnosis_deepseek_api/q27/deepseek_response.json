@@ -1,0 +1,28 @@
+{
+  "id": "2f93266a-b13a-4e2b-a1d4-c60749488a9d",
+  "object": "chat.completion",
+  "created": 1784155340,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的账期，通常根据客户资质、合作规模及具体业务模式有所不同。一般来说：\n\n- **常规账期**：多为**30天至60天**，部分长期合作客户可能享有更长的账期。\n- **新客户申请**：可以申请账期，但通常需要提供营业执照、经营资质证明、过往销售记录等材料，并可能需经过信用评估。部分新客户可能先以“现结”或“预付”方式合作，待建立信任后再转为账期结算。\n\n建议直接联系佳农水果的区域销售或商务团队，提供详细业务信息，获取准确账期方案。具体条款以官方回复或合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 143,
+    "total_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

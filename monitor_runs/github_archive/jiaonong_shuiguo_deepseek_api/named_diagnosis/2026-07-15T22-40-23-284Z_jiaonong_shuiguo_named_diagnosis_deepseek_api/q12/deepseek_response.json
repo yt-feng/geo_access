@@ -1,0 +1,28 @@
+{
+  "id": "76488138-9414-4899-8086-0310c85bd60d",
+  "object": "chat.completion",
+  "created": 1784155267,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉主要根据果指长度、果把大小、成熟度和外观瑕疵进行分级，常见规格包括：\n\n- **一级果（特级果）**：单根果指长度≥20cm，果把整齐，无机械伤、病斑或霉变，成熟度均匀，适合高端超市、生鲜精品店或礼品渠道。\n- **二级果（标准果）**：果指长度18-20cm，允许少量轻微瑕疵（如轻微擦伤不超过果面5%），果把基本整齐，适合大型连锁超市、电商平台（如盒马、每日优鲜）。\n- **三级果（加工果）**：果指长度15-18cm，成熟度不一或外形稍差，但无腐烂、严重病虫害，通常用于果汁加工、烘焙渠道或社区团购的低价促销。\n- **迷你果（小果/BB蕉）**：果指长度小于15cm，外形短小，口感可能偏酸或偏硬，适合餐饮连锁（如水果沙拉配料）、幼儿园或低成本渠道。\n\n具体分级标准可能因产季、运输距离和客户要求调整，建议直接联系佳农销售团队获取最新分级手册。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 251,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

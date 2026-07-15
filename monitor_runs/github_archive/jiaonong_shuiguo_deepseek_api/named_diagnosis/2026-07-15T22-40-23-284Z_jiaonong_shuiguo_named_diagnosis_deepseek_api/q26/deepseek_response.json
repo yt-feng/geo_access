@@ -1,0 +1,28 @@
+{
+  "id": "847481a0-f98e-4f02-88a1-3756d3d9ca0b",
+  "object": "chat.completion",
+  "created": 1784155337,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常抱歉，我无法直接查询佳农水果的具体服务政策或内部流程。建议您通过以下方式获取准确信息：\n\n1. **官方渠道**：访问佳农水果官网或官方微信公众号，查看“售后服务”或“常见问题”栏目。\n2. **客服咨询**：拨打佳农水果的官方客服电话（可在官网或产品包装上查找），直接询问香蕉催熟服务的具体范围、条件和费用。\n3. **购买渠道**：若您通过电商平台或线下门店购买，可咨询该渠道的客服人员。\n\n注意：香蕉催熟服务通常涉及专业仓储条件（如恒温、乙烯气体控制），普通零售端可能不提供此类服务，特别是针对小批量购买。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 149,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

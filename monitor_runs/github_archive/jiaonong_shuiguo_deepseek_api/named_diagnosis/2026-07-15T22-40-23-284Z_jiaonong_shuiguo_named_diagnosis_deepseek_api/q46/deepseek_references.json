@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-15T22:43:41.248Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "香蕉的催熟服务是佳农自己做还是外包？我们便利店需要到店即熟的香蕉。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7fad8966-4215-4a85-a052-164e6d696b95",
+  "object": "chat.completion",
+  "created": 1784155546,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农集团的公开信息，佳农主要提供新鲜水果的批发与零售，通常不直接为终端茶饮店提供去皮、切块的加工服务。不过，为了确认最新政策，建议：\n\n1. **直接联系佳农**：拨打其官方客服或区域销售电话，询问是否有针对商业客户的定制化加工服务（例如预切、真空包装等）。\n2. **查询合作加工商**：佳农或可通过合作中央厨房提供切割服务，需主动咨询。\n3. **替代方案**：若佳农无此项服务，可考虑与本地食品加工厂合作分装，或采购冷冻菠萝块（佳农可能有冷冻产品线）。\n\n注意：果品加工涉及卫生、保鲜、物流等成本，需明确是否满足起订量。建议优先通过官方渠道确认，避免依赖第三方未经核实的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 177,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
