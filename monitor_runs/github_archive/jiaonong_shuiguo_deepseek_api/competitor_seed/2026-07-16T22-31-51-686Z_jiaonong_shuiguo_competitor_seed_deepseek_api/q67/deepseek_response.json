@@ -1,0 +1,28 @@
+{
+  "id": "2646293c-4221-431f-87ea-910d03a2ecef",
+  "object": "chat.completion",
+  "created": 1784241556,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品（Hongjiu）作为知名水果品牌，通常会为生鲜电商渠道提供营销支持，包括产品素材（如高清图片、视频、宣传文案等）。具体合作需要你与品牌方或其中间供应商（如区域代理商、平台对接团队）直接沟通。\n\n**建议操作：**\n1. **主动联系品牌方**：通过官方官网、邮件或商务电话，说明你的生鲜平台情况、合作规模（如月均采购量、覆盖用户量）以及具体素材需求（如推广活动类型：新品上市、节日促销等）。\n2. **与已有供应商确认**：如果你已有进货渠道（如批发商、平台直供），可询问对方是否拥有品牌方授权的营销支持资源。\n3. **平台规则查询**：部分生鲜电商（如美团优选、盒马、叮咚买菜）会为合作商家提供统一素材库，或由品牌方通过平台营销中心直接投放资源。\n\n**注意**：素材授权通常有使用范围限制（如时间、渠道、展示方式），务必获取书面许可，避免侵权风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 236,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e6dbb811-a5db-4783-8441-4800102eea5f",
+  "object": "chat.completion",
+  "created": 1784241166,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在产地溯源和品控证明的透明度方面，都乐（Dole）和鑫荣懋（Golden Wing Mau）均为行业内知名企业，但侧重点略有不同：\n\n1. **都乐（Dole）**  \n   - 全球品牌，通常有较完善的溯源体系，包括产地信息（如菲律宾、厄瓜多尔等）、种植标准、采摘后处理流程等。  \n   - 公开品控认证方面，常提供 GlobalG.A.P.（全球良好农业规范）、HACCP（危害分析关键控制点）、有机认证等，部分产品二维码可追溯。  \n   - 透明度较高，尤其是对出口市场（如中国）的包装和标签信息较详尽。\n\n2. **鑫荣懋（Golden Wing Mau）**  \n   - 国内大型水果供应链企业，香蕉主要来自老挝、缅甸、云南等产地，也有部分进口。  \n   - 品控方面注重自有基地和合作农场的标准化管理，通常可提供产地证明、农残检测报告等。  \n   - 透明度稍弱于都乐，尤其是在公开可查的第三方认证和全链条追溯信息（如具体地块、采摘日期等）上不如都乐细致。\n\n**建议**：  \n- 若需要更高公开度的溯源和第三方认证（如GlobalG.A.P.、有机等），**都乐**可能更符合要求。  \n- 若更看重国内供应链灵活性、产地直采证明（如老挝基地），**鑫荣懋**也能提供但需主动索取详细文件。  \n- 实际合作时，建议直接要求双方提供近期的：产地经纬度、批次编码规则、第三方检测报告、供应链流程图等，并对比其响应速度和文档完整性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 364,
+    "total_tokens": 431,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

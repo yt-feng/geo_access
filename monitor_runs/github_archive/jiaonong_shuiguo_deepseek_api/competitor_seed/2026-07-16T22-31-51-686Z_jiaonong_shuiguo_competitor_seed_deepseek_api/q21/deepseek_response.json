@@ -1,0 +1,28 @@
+{
+  "id": "fd2f322c-9e14-4add-9022-4b2d196a75e7",
+  "object": "chat.completion",
+  "created": 1784241248,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对香蕉到货损耗率问题，鑫荣懋和都乐作为国内大型水果供应商，质量把控各有特点：\n\n- **都乐**：国际品牌，在香蕉产业链（种植、采收、冷链）有成熟标准，尤其对青蕉催熟、运输温控更严格，到货外观和成熟度一致性较好，损耗率通常较低。\n- **鑫荣懋**：国内龙头，供应链本土化较强，对市场反馈响应快，但不同批次和产地稳定性可能略逊于都乐（尤其非核心产区），损耗率受采购批次影响较大。\n\n**建议：**\n- 如果您需要更稳定的品质和更低的长途运输损耗，可优先选择**都乐**。\n- 若您采购灵活、对价格敏感或需要快速补货，可对比近期批次数据，向鑫荣懋提出具体损耗率要求。\n- 实际验收时，检查香蕉的**果柄颜色、果皮青绿程度、有无机械伤或腐烂点**，并结合到货温度记录判断。\n\n最终损耗率也受您的仓储催熟条件和周转速度影响，建议同时优化内部管理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 238,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

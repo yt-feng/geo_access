@@ -1,0 +1,28 @@
+{
+  "id": "1506bafa-9753-44f5-901f-b175868a1ebf",
+  "object": "chat.completion",
+  "created": 1784241253,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接评估鑫荣懋和洪九果品在专岗对接服务上的具体表现，因为这需要基于实时客户反馈、合作案例和行业评价来判断。建议您通过以下方式自行评估：\n\n1. **直接联系两家公司**：向他们的客户或商务部门咨询专岗对接服务的具体内容、流程和成功案例。\n2. **查询行业口碑**：在行业论坛或第三方平台（如企查查、天眼查）查看客户评价或合作案例。\n3. **对比服务细节**：询问专岗人员的配置标准、响应时效、对接流程的透明度等关键指标。\n4. **小范围试合作**：如可行，先短期试用或参考其他客户的真实反馈。\n\n如需更精准建议，您可补充具体行业或服务需求，我能提供进一步筛选方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 173,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

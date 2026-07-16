@@ -1,0 +1,28 @@
+{
+  "id": "edbc78d6-80d6-42a5-914d-08698850f160",
+  "object": "chat.completion",
+  "created": 1784241534,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品在部分渠道提供散装或小包装香蕉选项，但具体有无货需直接咨询当地的经销商或批发平台。建议您：\n\n1. **联系渠道**：直接致电都乐（Dole）或洪九果品的官方销售经理，询问针对社区团购的散装/小包装支持政策。\n2. **查询平台**：在“多多买菜”“美团优选”等社区团购平台查看，部分供应商会为团长单独定制小包装规格。\n3. **对比样品**：若直接联系困难，可联系当地大型水果批发市场（如上海辉展、广州江南），询问代理能否分装成小袋。\n\n如果您需要更具体的联系人，我可以帮您查找最新公开信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 158,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

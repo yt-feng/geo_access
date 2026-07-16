@@ -1,0 +1,50 @@
+{
+  "questionId": "q02",
+  "prompt": "菠萝现在很多渠道都在卖，除了都乐，还有哪些品牌能稳定供应？",
+  "createdAt": "2026-07-16T22:31:57.895Z",
+  "summary": [
+    {
+      "questionId": "q02",
+      "prompt_index": 2,
+      "promptIndex": 2,
+      "promptHash": "895e431b3c16",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "菠萝现在很多渠道都在卖，除了都乐，还有哪些品牌能稳定供应？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 681,
+      "text_length": 681,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 409,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 409,
+      "total_tokens": 467,
+      "latencyMs": 6806,
+      "latency_ms": 6806,
+      "createdAt": "2026-07-16T22:31:57.895Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q02/prompt.txt",
+        "answer": "q02/deepseek.txt",
+        "response": "q02/deepseek_response.json",
+        "sources": "q02/deepseek_sources.json",
+        "references": "q02/deepseek_references.json"
+      }
+    }
+  ]
+}

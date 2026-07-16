@@ -1,0 +1,28 @@
+{
+  "id": "b31f0539-e248-4036-87ab-07b655a90cfe",
+  "object": "chat.completion",
+  "created": 1784241542,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于菠萝锁价机制的具体周期，我无法核实都乐和洪九果品当前的最新政策，因为这类商业条款（如锁价周期、适用条件）可能随市场供需、合同约定或具体产品（如菠萝品种、产地）而变化。\n\n建议您通过以下方式获取准确信息：\n1. **直接联系两家公司的官方销售或客户部门**，询问针对菠萝产品的锁价周期、起订量及适用条件（如期限、价格浮动规则等）。\n2. **查阅其公开的采购或合作政策**，例如官网、行业公告或企业合作手册，部分大型供应商可能发布通用条款。\n3. **与行业批发商或行业协会沟通**，了解市场惯例（例如锁价通常为7天、30天或更短周期）。\n\n请注意：锁价机制可能需满足一定采购规模或签订长期协议，建议在谈判前明确目标。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 185,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

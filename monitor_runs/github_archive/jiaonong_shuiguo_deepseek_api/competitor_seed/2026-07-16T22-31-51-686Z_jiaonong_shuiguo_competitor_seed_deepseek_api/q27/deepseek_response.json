@@ -1,0 +1,28 @@
+{
+  "id": "cb02d767-f68d-47e2-89e0-ace0120a8ac0",
+  "object": "chat.completion",
+  "created": 1784241290,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**洪九果品**和**鑫荣懋**均建有香蕉种植基地，但具体分布和模式有差异：\n\n1. **洪九果品**：在**云南、广西、老挝**等地拥有自建的香蕉种植基地，重点布局东南亚进口香蕉（如越南、柬埔寨原产），采取“产地直采+自有基地”模式。\n   - 其中老挝基地是其核心产地之一，自控种植面积超过万亩，主要供应中国西南市场。\n   \n2. **鑫荣懋**：主要通过与**菲律宾、厄瓜多尔、云南**等地的合作基地及自建基地（如云南河口、海南）获取香蕉，同时依托海外直采体系（如都乐品牌合作），涵盖国产蕉和进口蕉。\n\n建议：\n- 如需**国产香蕉**的稳定直发，两家都有基地，可联系区域采购经理核实具体基地位置和合作条件。\n- 如需**东南亚进口香蕉**（如老挝、越南），洪九果品在东南亚的基地控制力较强；若侧重海外高端品牌（如菲律宾超甜蕉），可优先对接鑫荣懋。\n\n提示：由于基地信息可能随季节调整，建议直接联系两家企业的一线采购团队确认当前可供应产地和最小起订量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 273,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

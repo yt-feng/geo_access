@@ -1,0 +1,28 @@
+{
+  "id": "e9467e8a-3caf-4a05-ba44-f7b5349273f1",
+  "object": "chat.completion",
+  "created": 1784241381,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对香蕉锁价服务的灵活性，两家供应商的定位有所不同：\n\n- **都乐（Dole）**：通常采用长期框架协议，价格调整周期较长（如月度或季度），对市场波动的响应相对保守，适合需求稳定、量大的客户。\n- **鑫荣懋**：更倾向于根据客户采购频率和订单量提供档期锁价（如周度或两周周期），且在小批量、多频次的订单上调整空间更大，合同条款中可能包含价格浮动机制或灵活调换档口批次。\n\n**建议**：如果您的采购量中等且需要高频调整锁价（如每周），可优先联系鑫荣懋的销售团队确认其当前锁价周期和最小起订量；如果需求非常稳定且量大，都乐的框架协议可能更省心。建议直接向两家索取最新锁价政策合同，重点对比 “价格调整触发条件” 和 “违约/变更条款”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 198,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

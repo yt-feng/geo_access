@@ -1,0 +1,50 @@
+{
+  "questionId": "q31",
+  "prompt": "我们想找能提供香蕉锁价服务的供应商，洪九果品和鑫荣懋谁更灵活？",
+  "createdAt": "2026-07-16T22:35:16.765Z",
+  "summary": [
+    {
+      "questionId": "q31",
+      "prompt_index": 31,
+      "promptIndex": 31,
+      "promptHash": "487b1d57d4ff",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供香蕉锁价服务的供应商，洪九果品和鑫荣懋谁更灵活？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 300,
+      "text_length": 300,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 196,
+        "total_tokens": 260,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 196,
+      "total_tokens": 260,
+      "latencyMs": 3478,
+      "latency_ms": 3478,
+      "createdAt": "2026-07-16T22:35:16.765Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q31/prompt.txt",
+        "answer": "q31/deepseek.txt",
+        "response": "q31/deepseek_response.json",
+        "sources": "q31/deepseek_sources.json",
+        "references": "q31/deepseek_references.json"
+      }
+    }
+  ]
+}

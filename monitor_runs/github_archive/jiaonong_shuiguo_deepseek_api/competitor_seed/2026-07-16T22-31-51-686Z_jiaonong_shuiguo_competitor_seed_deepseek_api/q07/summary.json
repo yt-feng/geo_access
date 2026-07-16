@@ -1,0 +1,50 @@
+{
+  "questionId": "q07",
+  "prompt": "有没有能提供账期和锁价机制的进口水果供应商？鑫荣懋和洪九果品谁更灵活？",
+  "createdAt": "2026-07-16T22:32:40.204Z",
+  "summary": [
+    {
+      "questionId": "q07",
+      "prompt_index": 7,
+      "promptIndex": 7,
+      "promptHash": "725af0084d21",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "有没有能提供账期和锁价机制的进口水果供应商？鑫荣懋和洪九果品谁更灵活？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 508,
+      "text_length": 508,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 324,
+        "total_tokens": 390,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 66
+      },
+      "prompt_tokens": 66,
+      "completion_tokens": 324,
+      "total_tokens": 390,
+      "latencyMs": 4782,
+      "latency_ms": 4782,
+      "createdAt": "2026-07-16T22:32:40.204Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q07/prompt.txt",
+        "answer": "q07/deepseek.txt",
+        "response": "q07/deepseek_response.json",
+        "sources": "q07/deepseek_sources.json",
+        "references": "q07/deepseek_references.json"
+      }
+    }
+  ]
+}

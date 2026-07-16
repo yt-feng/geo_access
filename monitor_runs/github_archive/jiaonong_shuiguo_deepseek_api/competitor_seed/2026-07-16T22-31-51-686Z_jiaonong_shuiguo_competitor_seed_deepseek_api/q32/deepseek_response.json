@@ -1,0 +1,28 @@
+{
+  "id": "75485a30-67be-4902-913b-a09a0be1d2a5",
+  "object": "chat.completion",
+  "created": 1784241321,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于礼品团购的礼盒定制，都乐（Dole）和佳沛（Zespri）各有优势，但配合度取决于具体需求。建议如下：\n\n1. **都乐**：通常更灵活配合定制，尤其在水果礼盒的包装、尺寸、混搭（如多种水果组合）和个性化设计上经验丰富，适合需要快速响应、中小批次或创意包装的团购。若礼盒侧重新鲜水果多样性或节日主题，都乐优势明显。\n\n2. **佳沛**：专注于奇异果，品牌高端且品控严格，定制化相对标准化（如品牌标识、礼盒样式可选范围较小）。若团购强调单一高端水果（如金奇异果）、品牌溢价或长期稳定供应，佳沛更专业，配合度体现在品质保障和成熟供应链上。\n\n**结论**：若需高度灵活定制（如混合水果、独特设计），都乐更配合；若需高端单一水果礼盒且希望简化流程，佳沛更合适。建议直接联系两家销售团队询问批次起订量、定制周期及设计支持，以最终确定合作方。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 236,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

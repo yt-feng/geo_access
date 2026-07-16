@@ -1,0 +1,28 @@
+{
+  "id": "99dee03f-36a6-4b9c-badd-94e348313414",
+  "object": "chat.completion",
+  "created": 1784241179,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉批发市场中，鑫荣懋和洪九果品均为大型品牌供应商，但品控标准和执行力度存在差异：\n\n1. **鑫荣懋**：作为国内头部水果供应链企业，其香蕉品控通常更严格。公司对农药残留采取“基地源头把控+第三方检测”（如SGS、CTI），执行国标GB2763（食品中农药最大残留限量）及企业更严的内部标准（如部分批次需低于国标50%）。香蕉多来自自建标准化种植基地或直采模式（如菲律宾、厄瓜多尔），对采摘、冷处理、催熟环节有全链条监测。\n\n2. **洪九果品**：侧重东南亚产地直采（如越南、柬埔寨），品控依赖产地初筛与国内实验室抽检，农药残留管控主要符合中国国标。由于采购渠道较为分散，部分批次可能存在产地管理差异，整体品控严格度略逊于鑫荣懋，但性价比更高。\n\n**建议**：若优先考虑农残风险，**鑫荣懋**更可靠；若权衡成本且能自行处理（如去皮、浸泡），**洪九果品**也是可选项。进货时可要求供应商提供**近3个月第三方检测报告**（重点看联苯菊酯、咪鲜胺、多菌灵等香蕉常用农残项），同时购买便携式农残速测卡抽查。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 297,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

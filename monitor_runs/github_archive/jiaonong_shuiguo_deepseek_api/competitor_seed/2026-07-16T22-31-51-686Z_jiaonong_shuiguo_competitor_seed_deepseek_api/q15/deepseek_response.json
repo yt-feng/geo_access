@@ -1,0 +1,28 @@
+{
+  "id": "db3396b1-1eba-4882-b600-30604b367725",
+  "object": "chat.completion",
+  "created": 1784241207,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，以下进口苹果品牌在国内市场较为常见且品质靠谱，可供对比参考：\n\n1. **爱妃（Envy）**  \n   产自新西兰或美国，主打甜脆、耐储存，果肉不易氧化，适合送礼或高端消费。\n\n2. **爵士（Jazz）**  \n   新西兰品牌，由皇家嘎啦和布瑞本杂交培育，口感酸甜均衡、紧实爽脆。\n\n3. **太平洋玫瑰（Pacific Rose）**  \n   新西兰品种，果皮粉红、果肉甜度高，香气浓郁，适合偏好甜口的消费者。\n\n4. **加力果（Gala）**  \n   全球常见品种，新西兰、智利进口为主，果形小巧、甜度适中，性价比高。\n\n5. **智利青苹果（Granny Smith）**  \n   经典酸味品种，适合烘焙或沙拉，果肉紧实耐储存，国内超市常售。\n\n6. **阿克苏（国内产地但属高档）**  \n   新疆阿克苏“冰糖心”苹果，虽非进口，但甜度高、口感酥脆，可作为进口替代选择。\n\n**选购建议**：\n- **渠道**：大型商超（如盒马、山姆）、京东/天猫进口生鲜专区。\n- **识别**：注意原产地标签和IFG（International Fruit Genetics）授权编号（部分品种如爱妃、爵士为专利品种）。\n- **季节**：新西兰苹果（3-10月）、智利苹果（11-次年4月）可错峰供应。\n\n这些品牌均经过市场检验，可根据口感偏好（甜/酸/脆）和预算灵活选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 356,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

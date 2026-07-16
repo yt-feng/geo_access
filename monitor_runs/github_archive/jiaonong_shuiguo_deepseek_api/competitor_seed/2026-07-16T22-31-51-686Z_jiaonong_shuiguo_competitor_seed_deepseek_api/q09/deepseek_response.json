@@ -1,0 +1,28 @@
+{
+  "id": "d290fcca-28d3-4a5f-a15b-f857b6ac9e3d",
+  "object": "chat.completion",
+  "created": 1784241173,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口品牌水果礼盒也适合礼品团购，品质和包装均有保障：\n\n1. **新奇士（Sunkist）**  \n   - 主推：橙子、柠檬、葡萄柚；美国老牌，礼盒装常用亮橙色设计，辨识度高。\n\n2. **爱妃（Enza）**  \n   - 主推：苹果（如爱妃苹果）；新西兰品牌，果肉细腻、耐储存，礼盒简约高档。\n\n3. **乐淇（Rockit）**  \n   - 主推：小苹果；新西兰品牌，单果独立包装，适合高端便携礼盒。\n\n4. **哈斯（Hass）**  \n   - 主推：牛油果；墨西哥/智利进口，礼盒常见搭配其他水果，健康轻食主题。\n\n5. **怡颗莓（Driscoll's）**  \n   - 主推：蓝莓、树莓；美国品牌，保鲜工艺好，适合混装礼盒。\n\n6. **都那（Dona）**  \n   - 主推：芒果（如菲律宾吕宋芒）；包装精致，热带水果主题。\n\n7. **金枕头（Mon Thong）**  \n   - 主推：榴莲；泰国品牌，冷冻果肉礼盒或整果，适合高端团购。\n\n**建议**：  \n- 首选新奇士（橙/柠檬）和乐淇（苹果），包装坚固、物流损毁率低；  \n- 如需差异化，可搭配怡颗莓浆果或爱妃苹果，组合成“混装进口水果礼盒”。  \n- 采购前确认代理商资质的授权链路，避免来路不明货品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 372,
+    "total_tokens": 434,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

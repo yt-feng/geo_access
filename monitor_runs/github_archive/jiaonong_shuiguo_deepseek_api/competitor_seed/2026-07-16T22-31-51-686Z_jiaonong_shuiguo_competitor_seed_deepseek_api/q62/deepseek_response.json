@@ -1,0 +1,28 @@
+{
+  "id": "419768c5-4af7-41db-9589-3962f5ba9549",
+  "object": "chat.completion",
+  "created": 1784241530,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，大型水果供应商如都乐（Dole）和鑫荣懋会为其供应的原料提供相关的食品安全证明文件，包括但不限于农残检测报告。具体能否提供以及报告的覆盖范围（如是否针对特定批次、检测项目是否符合你的要求），建议直接联系这两家公司的销售或品控部门进行确认。作为茶饮店采购方，你可以要求供应商提供符合国家食品安全标准（如GB 2763）的检测报告，并确保报告出自有资质的第三方检测机构。\n\n如果对方无法提供，你可以：\n- 要求其提供原料供应商的原始报告；\n- 自行送检样品至有CMA/CNAS资质的检测机构；\n- 在采购合同中明确约定必须提供合规的农残检测报告作为交货条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 161,
+    "total_tokens": 225,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

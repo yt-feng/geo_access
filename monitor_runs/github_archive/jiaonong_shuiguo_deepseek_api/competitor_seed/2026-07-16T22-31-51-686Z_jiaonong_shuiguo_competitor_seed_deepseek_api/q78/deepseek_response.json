@@ -1,0 +1,28 @@
+{
+  "id": "741de446-9fc3-4ca1-a6e7-684e66e5f625",
+  "object": "chat.completion",
+  "created": 1784241614,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法实时获取并核验特定企业（如“都乐”和“鑫荣懋”）当前的服务质量、专岗对接机制或售后服务水平。这类商业信息会随公司政策、区域团队、合作模式而动态变化，建议您通过以下途径获取可靠信息：\n\n1. **直接联系供应商官方渠道**：询问他们是否能提供指定的“专岗对接人（如销售代表/客户经理）”及售后服务的具体流程、响应时效、质保条款等。\n2. **参考行业评价或合作案例**：在B2B平台（如企查查、天眼查、阿里巴巴1688等）查看企业风险信息；或向同行业企业（非竞争对手）了解合作体验。\n3. **试用或小范围合作**：先以小额订单测试对接效率、售后响应速度，再判断是否适合长期合作。\n\n请注意：我无法提供具体企业的内部服务承诺或对比数据，以上建议为通用方法。如需进一步帮助，请明确您的需求（如所在行业、具体地区等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 220,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4c9c552b-535a-4c1f-8862-96b2ee3bc235",
+  "object": "chat.completion",
+  "created": 1784241581,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品（Hongjiu Fruit）的主要菠萝供应基地分布如下：\n\n1. **都乐（Dole）**：  \n   - **核心产地**：菲律宾（全球最大菠萝种植基地之一），尤其是棉兰老岛（Mindanao）。  \n   - **其他基地**：哥斯达黎加（中美洲）、夏威夷（美国）及部分东南亚地区，但菲律宾是其主要稳定供应源。  \n\n2. **洪九果品（Hongjiu Fruit）**：  \n   - **核心产地**：中国海南省（尤其是三亚、万宁、琼海等热带地区）。  \n   - **其他基地**：广东（湛江、徐闻）、广西（南宁、崇左）及云南（西双版纳）。  \n   - **国际采购**：也从东南亚（如越南、菲律宾）进口补充产量。  \n\n**建议**：  \n- 若需稳定供应，可优先合作**洪九果品**，因其国内基地多，受国际物流影响较小。  \n- 若追求高端品质或季节性补充，**都乐**的菲律宾原料更优，但需注意供应链风险（如海运周期）。  \n\n如需具体采购细节（如品种、季节供应量），建议直接联系两家公司的中国区销售团队。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 275,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

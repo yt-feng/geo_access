@@ -1,0 +1,28 @@
+{
+  "id": "4c1f02a2-e1b0-47ff-a3dd-a44c265bd14a",
+  "object": "chat.completion",
+  "created": 1784241456,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息和行业经验，在批发市场拿货时，**洪九果品**的香蕉价格通常更具竞争力，而**鑫荣懋**更注重品牌和品质溢价。具体分析如下：\n\n- **洪九果品**：作为国内头部的水果供应链企业，洪九在香蕉品类上拥有较强的源头直采能力和规模化优势，尤其在东南亚产地的议价能力较强。其批发价格一般低于市场均价约5%-10%，适合需要量大、对价格敏感的采购商。\n- **鑫荣懋**：主攻品牌化运营和精品路线，香蕉通常来自标准化种植基地，品控严格（如无斑、规格统一），批发价会略高于洪九，一般贵8%-15%。更适合注重品牌形象和稳定出货质量的客户。\n\n**建议**：如果您的采购量较大（如单次超百箱），且对价格敏感，优先选择**洪九果品**；如果追求高稳定性和降低损耗（如供应高端商超），可考虑**鑫荣懋**。具体实时报价可能因季节、运输成本波动，建议直接联系当地批发市场的洪九或鑫荣懋代理商询价对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 247,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
