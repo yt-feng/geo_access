@@ -1,0 +1,28 @@
+{
+  "id": "c8a3e68a-11db-4dd9-a47e-cfe368b1a87a",
+  "object": "chat.completion",
+  "created": 1784241954,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有红富士苹果，佳农的红富士通常产自陕西、山东等优质产区，主打口感脆甜、果形端正。鑫荣懋也销售红富士，其供应链和品控同样稳定。\n\n**性价比对比建议：**\n- **价格区间**：佳农的红富士日常价格约在8-15元/斤（根据包装规格和促销浮动），鑫荣懋的红富士价格相近，但鑫荣懋部分高端礼盒款（如加力果、Gala等品种）价格更高。\n- **关键差异**：佳农更侧重传统商超和电商直营，适合追求稳定品质的日常消费；鑫荣懋在沃尔玛、山姆等渠道铺货更广，且常推出大包装（如5kg家庭装），单价可能更低。\n- **判断维度**：如果单纯比红富士，**同规格下佳农性价比稍高**（常做满减活动）；如果追求更多品种选择或囤货需求，鑫荣懋的大包装更划算。\n\n**建议操作**：直接比较两者同规格（如5斤装）的现时售价，关注标注的“果径”（70mm以上更优）+“糖度”（通常≥12度）。目前两者线上渠道（如京东、淘宝）常有“首单立减”或“买二免一”，可结合优惠券决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 296,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

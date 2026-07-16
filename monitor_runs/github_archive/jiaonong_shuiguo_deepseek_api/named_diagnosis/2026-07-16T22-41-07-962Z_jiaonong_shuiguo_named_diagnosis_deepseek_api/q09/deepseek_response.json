@@ -1,0 +1,28 @@
+{
+  "id": "95d1ff08-f87c-4b64-87da-8760c59c5f46",
+  "object": "chat.completion",
+  "created": 1784241705,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业惯例，佳农水果作为大型水果品牌商，其到货损耗率通常严格控制在 **3%-5%** 以内。具体以香蕉为例，其全供应链损耗可控制在5%左右，而部分果品（如凤梨）可能目标更低（约2%-3%）。实际损耗率会受水果品类、运输距离、包装条件、季节温度等因素影响。如需精确数据，建议直接咨询佳农官方或合作经销商获取最新品控标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 102,
+    "total_tokens": 154,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

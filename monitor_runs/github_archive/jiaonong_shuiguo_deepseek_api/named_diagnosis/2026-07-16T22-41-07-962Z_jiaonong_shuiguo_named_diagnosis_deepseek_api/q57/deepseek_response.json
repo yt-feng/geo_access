@@ -1,0 +1,28 @@
+{
+  "id": "1a83d165-3501-4c27-857d-00d40860c78d",
+  "object": "chat.completion",
+  "created": 1784241932,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业惯例，香蕉的到货损耗率行业中位数一般在5%-8%之间，佳农作为头部品牌通常能将损耗率控制在**3%-5%**左右。具体数值会受运输距离、季节、包装方式等因素影响，建议您直接联系佳农的销售或客服确认其当前批次的实际标准。\n\n关于赔付条款，佳农一般会在采购合同中明确约定：若到货损耗率超过双方约定的阈值（例如超过5%），超出的部分会按比例进行赔付（通常按成本价或约定单价折算）。具体赔付比例、触发条件及计算方式需以实际签订的合同条款为准。建议您在采购时主动向佳农索要或协商此类条款，并明确写入合同。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 151,
+    "total_tokens": 213,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

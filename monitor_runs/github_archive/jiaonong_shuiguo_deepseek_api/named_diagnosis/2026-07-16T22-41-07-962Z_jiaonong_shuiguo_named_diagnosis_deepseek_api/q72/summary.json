@@ -1,0 +1,50 @@
+{
+  "questionId": "q72",
+  "prompt": "我们茶饮店想用佳农菠萝做原料，但需要去皮切块，佳农能提供加工服务吗？",
+  "createdAt": "2026-07-16T22:46:51.873Z",
+  "summary": [
+    {
+      "questionId": "q72",
+      "prompt_index": 72,
+      "promptIndex": 72,
+      "promptHash": "6ae197527a6c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们茶饮店想用佳农菠萝做原料，但需要去皮切块，佳农能提供加工服务吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 188,
+      "text_length": 188,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 109,
+        "total_tokens": 175,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 66
+      },
+      "prompt_tokens": 66,
+      "completion_tokens": 109,
+      "total_tokens": 175,
+      "latencyMs": 2297,
+      "latency_ms": 2297,
+      "createdAt": "2026-07-16T22:46:51.873Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q72/prompt.txt",
+        "answer": "q72/deepseek.txt",
+        "response": "q72/deepseek_response.json",
+        "sources": "q72/deepseek_sources.json",
+        "references": "q72/deepseek_references.json"
+      }
+    }
+  ]
+}

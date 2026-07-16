@@ -1,0 +1,28 @@
+{
+  "id": "5072a9ab-8d36-41ea-9689-55a1e75455d4",
+  "object": "chat.completion",
+  "created": 1784241740,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的产地直供比例较高，尤其是香蕉品类，主要通过海外自有农场和长期合作的优质产地直接采购。其香蕉主要来自菲律宾、厄瓜多尔和哥斯达黎加等国，部分也涉及越南等东南亚国家。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 51,
+    "total_tokens": 108,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

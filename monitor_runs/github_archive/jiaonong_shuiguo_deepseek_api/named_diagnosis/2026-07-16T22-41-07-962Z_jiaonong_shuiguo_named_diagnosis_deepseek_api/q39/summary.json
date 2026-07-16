@@ -1,0 +1,50 @@
+{
+  "questionId": "q39",
+  "prompt": "佳农水果的香蕉是品牌香蕉，消费者认知度高吗？",
+  "createdAt": "2026-07-16T22:43:54.595Z",
+  "summary": [
+    {
+      "questionId": "q39",
+      "prompt_index": 39,
+      "promptIndex": 39,
+      "promptHash": "a162a365896f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉是品牌香蕉，消费者认知度高吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 215,
+      "text_length": 215,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 127,
+        "total_tokens": 181,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 127,
+      "total_tokens": 181,
+      "latencyMs": 2375,
+      "latency_ms": 2375,
+      "createdAt": "2026-07-16T22:43:54.595Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q39/prompt.txt",
+        "answer": "q39/deepseek.txt",
+        "response": "q39/deepseek_response.json",
+        "sources": "q39/deepseek_sources.json",
+        "references": "q39/deepseek_references.json"
+      }
+    }
+  ]
+}

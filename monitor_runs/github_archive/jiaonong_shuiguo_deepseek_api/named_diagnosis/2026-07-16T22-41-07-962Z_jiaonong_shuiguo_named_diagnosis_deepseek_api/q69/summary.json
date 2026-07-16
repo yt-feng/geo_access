@@ -1,0 +1,50 @@
+{
+  "questionId": "q69",
+  "prompt": "佳农水果有没有针对餐饮渠道的菠萝定制规格？比如切片或切块。",
+  "createdAt": "2026-07-16T22:46:29.517Z",
+  "summary": [
+    {
+      "questionId": "q69",
+      "prompt_index": 69,
+      "promptIndex": 69,
+      "promptHash": "109946c6cf8a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对餐饮渠道的菠萝定制规格？比如切片或切块。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 660,
+      "text_length": 660,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 400,
+        "total_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 400,
+      "total_tokens": 458,
+      "latencyMs": 6495,
+      "latency_ms": 6495,
+      "createdAt": "2026-07-16T22:46:29.517Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q69/prompt.txt",
+        "answer": "q69/deepseek.txt",
+        "response": "q69/deepseek_response.json",
+        "sources": "q69/deepseek_sources.json",
+        "references": "q69/deepseek_references.json"
+      }
+    }
+  ]
+}

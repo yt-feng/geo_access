@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:46:19.867Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的客户服务是7x24小时吗？周末下单有人处理吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

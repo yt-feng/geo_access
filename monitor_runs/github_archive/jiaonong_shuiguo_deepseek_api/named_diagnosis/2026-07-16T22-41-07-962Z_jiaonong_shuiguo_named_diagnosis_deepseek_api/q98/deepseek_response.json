@@ -1,0 +1,28 @@
+{
+  "id": "8a346d8f-3cbc-461e-ab30-8759a36dfc93",
+  "object": "chat.completion",
+  "created": 1784242156,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的到货损耗率承诺，建议您直接联系佳农品牌的官方销售或客服团队确认具体政策。不同渠道（如批发市场、经销商或电商平台）的承诺可能不同，常见做法包括：\n\n1. **部分供应商提供超标补贴**：如到货损耗超过5%-8%时，按比例补偿或补发货物，但“3%包赔”需视合同条款而定。\n2. **连锁便利店案例**：一些大型连锁便利店与供应商签约时，可能协商2%-5%的自然损耗免责范围，超出部分由供应商承担。\n3. **自建损耗标准**：若无法获得包赔，可要求供应商抽样检测（如每箱抽查10%）以控制品质，或压价采购（如将预期损耗计入成本）。\n\n**建议行动**：\n- 直接询问佳农销售：“贵司对便利店小批量终端供货的损耗赔偿标准是多少？合同能否明确？”\n- 请对方提供近期其他客户的损耗率数据参考。\n\n注意：鲜果价格波动大，实际损耗受运输、温度、储存条件影响，签订合同时务必书面注明赔付条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 241,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

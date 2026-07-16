@@ -1,0 +1,28 @@
+{
+  "id": "6808ce68-d213-4f9f-a9b8-40261a387ce3",
+  "object": "chat.completion",
+  "created": 1784241807,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的，佳农水果针对礼品团购市场有专门的水果礼盒产品。你可以通过佳农官方商城、企业微信客服或合作的团购平台（如美团企业购、京东企业购等）咨询具体款式、规格和起订量。建议直接联系佳农的团购业务部门获取最新报价和定制方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 70,
+    "total_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

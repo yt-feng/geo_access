@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:47:31.702Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的配送覆盖哪些城市？我们县城门店能送到吗？冷链物流怎么收费？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

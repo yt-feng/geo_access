@@ -1,0 +1,28 @@
+{
+  "id": "98f137c1-c010-4683-b3e2-0334eb4d1b5f",
+  "object": "chat.completion",
+  "created": 1784241672,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Goodfarmer）的菠萝采购，我可以为您提供以下信息：\n\n1. **产地溯源**：佳农作为大型果蔬品牌，通常具备完善的供应链管理体系，能够提供菠萝的产地溯源信息（如种植基地、采摘时间等）。建议直接联系其官方客服或销售代表，确认具体溯源服务（例如二维码扫码可查、批次证明等）。\n\n2. **品控报告**：佳农一般会提供产品检测报告，包括农残、重金属等指标，但需明确要求。建议在采购合同中约定提供第三方检测报告（如SGS、Eurofins等）或内部品控文件。\n\n**建议操作**：\n- 访问佳农官网或拨打其官方热线（400-820-8758），直接询问“批量采购菠萝时能否提供产地溯源材料及品控报告”。\n- 要求对方提供历史检测报告样例，或确认是否支持定制化检测（如出口需符合进口国标准）。\n- 有条件可要求现场审核或委托第三方机构验货。\n\n若您有具体采购量或用途（如出口、超市上架、深加工等），可进一步提供针对性建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 243,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:46:14.266Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们礼品团购要500份佳农水果礼盒，能开发票和提供质检报告吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

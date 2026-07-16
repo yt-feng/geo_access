@@ -1,0 +1,28 @@
+{
+  "id": "fc2215d0-fb31-4b23-a65a-644f7c81f827",
+  "object": "chat.completion",
+  "created": 1784242129,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农和都乐都是市场上常见的香蕉品牌，其口感差异主要源于品种、种植区域和成熟度处理方式：\n\n1. **品种与甜度**：佳农香蕉通常选用 **巴西蕉** 或 **菲律宾蕉** 品种，这些品种在成熟后糖分转化更充分，甜度较高，质地软糯，且带有更浓郁的果香。消费者反馈“更甜”很可能是因为佳农对采收和催熟阶段的把控更倾向于高甜度方向。  \n2. **都乐香蕉**：多采用 **卡文迪什蕉**（如东南亚产区），口感偏扎实，甜度相对温和，酸度略低，熟透后果肉较紧实，咀嚼时略带韧性。  \n3. **新鲜度与后熟差异**：佳农常主打“树上自然熟”或“低温慢熟”工艺，糖分积累时间更长；都乐则侧重冷链运输中的稳定成熟过程，口感更均匀但甜度提升较平缓。  \n\n**总结**：若偏好甜糯、香气突出的香蕉，佳农更符合反馈；若喜欢口感较紧实、甜度清淡的香蕉，都乐可能更合适。建议消费者根据个人口味选择，拆袋后尽快食用以保证风味。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 264,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

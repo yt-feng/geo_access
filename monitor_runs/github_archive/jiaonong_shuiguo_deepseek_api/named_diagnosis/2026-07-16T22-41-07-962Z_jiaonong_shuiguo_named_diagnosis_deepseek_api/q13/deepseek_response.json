@@ -1,0 +1,28 @@
+{
+  "id": "872b97d6-de7a-45a1-86a6-edce728d1a64",
+  "object": "chat.completion",
+  "created": 1784241732,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农和鑫荣懋都是中国领先的水果供应链企业，各有优势。从供应链服务角度看：\n\n- **佳农水果**：专注于香蕉、菠萝等单品，在产地直采、冷链物流和品控上有较强能力，适合对特定水果有稳定需求、追求性价比的客户。\n- **鑫荣懋**：品类更全（覆盖多种进口和国产水果），供应链网络更广，尤其是从海外产地到国内分销的整合能力突出，适合需要多品类、一站式采购的客户。\n\n**可靠性判断**：  \n- 如果你需要**单一品类、成本控制强**的供应链，佳农更专注可靠。  \n- 如果你需要**品类多样、进口资源丰富**的供应链，鑫荣懋更全面。  \n\n建议根据你的具体业务需求（如主要经营品类、采购规模、对进口依赖度等）对比两者的报价和物流时效。两家公司都有成熟的案例，没有绝对更优，但可参考行业反馈（如生鲜电商、商超合作的口碑）做最终选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 220,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

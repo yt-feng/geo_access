@@ -1,0 +1,28 @@
+{
+  "id": "7e5e4ee8-1450-4250-9ec4-1612d4fb8024",
+  "object": "chat.completion",
+  "created": 1784241668,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内较大的水果供应商，其香蕉产品的供货稳定性整体较高。佳农通常与多个香蕉主产区（如菲律宾、厄瓜多尔等）建立长期合作关系，并拥有成熟的冷链运输和库存管理体系，因此在正常市场条件下，断货情况较少见。\n\n不过，供货稳定性可能受到以下因素的影响：\n- **极端天气**：台风、洪涝等自然灾害可能导致产地减产或物流中断，短期内影响供应。\n- **季节性变化**：不同产区的产量周期性波动，可能影响特定月份的供给量。\n- **市场供需波动**：消费旺季或突发事件（如疫情封控）可能导致短期供不应求。\n\n建议直接联系佳农官方客服或查询其合作零售商（如盒马、沃尔玛等）的实时库存信息，以获取最新供货状态。总体而言，佳农香蕉的断货风险较低，但无法完全排除极端情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 184,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f172e646-9983-4c9d-b6e6-c03c26ea85d7",
+  "object": "chat.completion",
+  "created": 1784241757,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效通常根据您所在地区、下单时间和物流方式有所不同。一般情况下，在您下单后：\n\n- **常规配送**：大部分城市（尤其一线及二线城市）可实现**次日达或1-2天内送达**。\n- **偏远地区**：可能需要**2-4天**。\n- **加急/特殊服务**：部分平台提供当日达或半日达选项（需确认具体商品和地区）。\n\n**建议**：\n1. **查看平台具体承诺**：下单时，在商品详情页或结算页面一般会显示“预计送达时间”或“配送时效说明”，这是最准确的参考。\n2. **确认仓库位置**：佳农在多地设有仓库，商品从距离您最近的仓库发货，时效会更快。\n3. **特殊时期**：如遇节假日、促销高峰或天气影响，时效可能延长1-2天。\n\n如果您需要更精确的预估，可以联系您购买渠道（如京东、天猫、拼多多等平台）的客服，提供具体地址查询实时配送时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 221,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

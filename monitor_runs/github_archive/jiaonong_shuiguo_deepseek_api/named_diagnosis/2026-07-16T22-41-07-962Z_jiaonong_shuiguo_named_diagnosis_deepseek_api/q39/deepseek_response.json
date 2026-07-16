@@ -1,0 +1,28 @@
+{
+  "id": "9c5ed1cb-6c03-4b92-853b-1e80520bb981",
+  "object": "chat.completion",
+  "created": 1784241834,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为知名品牌，其香蕉在市场上有一定的消费者认知度。佳农香蕉通常以品质稳定、口感好和供应链成熟为特点，尤其在大型商超和电商平台常见，因此被部分消费者视为可靠选择。但具体认知度高低因地区、渠道和消费群体差异较大：在一二线城市和注重品牌水果的消费者中，佳农香蕉的认知度相对较高；而在低线城市或非品牌偏好群体中，可能不如一些本地或散装香蕉常见。总体而言，佳农香蕉属于有一定品牌影响力的产品，但并非在所有细分市场都处于绝对领先地位。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 127,
+    "total_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

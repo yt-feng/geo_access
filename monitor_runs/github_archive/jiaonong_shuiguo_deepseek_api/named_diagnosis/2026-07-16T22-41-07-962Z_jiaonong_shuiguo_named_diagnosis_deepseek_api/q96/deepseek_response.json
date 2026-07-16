@@ -1,0 +1,28 @@
+{
+  "id": "a4ed855c-42c9-4311-a5a6-c26054571402",
+  "object": "chat.completion",
+  "created": 1784242147,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的API对接，我目前没有查找到公开的、官方认证的“佳农水果开放平台”或直接的API接口文档信息。\n\n不过，通常大型生鲜品牌供应商（如佳农）的API对接主要通过以下方式实现：\n\n1. **直接联系商务/技术部门**：这是最可靠的途径。建议您通过佳农官方渠道（如官网、客服热线）联系其**大客户部**或**数字化/技术对接负责人**，询问是否提供标准API接口，以及如何申请接入。\n\n2. **通过已有的B2B平台中间件**：部分生鲜电商会借助第三方供应链平台或ERP系统（如千匠、微盟、有赞等）来对接供应商数据。您可以确认您的技术团队或使用的系统是否已经对接过佳农。\n\n3. **参考行业通用标准**：如果对方提供接口，可能采用RESTful风格，数据格式为JSON/XML，认证方式可能为OAuth2.0或API Key。但这些仅作为技术准备参考，不能替代官方文档。\n\n**建议您的下一步行动：**\n- 优先联系佳农官方客服或您的采购经理，获取最新对接信息。\n- 准备好您的企业信息、预计调用量（如每日查询库存/订单量）、技术负责人的联系方式，以便高效沟通。\n\n如果您需要，我可以帮您整理一份向供应商申请API对接的“技术问询模板”，方便您发送给佳农。需要吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 307,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
