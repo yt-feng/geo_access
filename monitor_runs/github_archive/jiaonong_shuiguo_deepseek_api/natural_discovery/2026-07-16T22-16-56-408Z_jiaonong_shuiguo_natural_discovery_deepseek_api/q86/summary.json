@@ -1,0 +1,50 @@
+{
+  "questionId": "q86",
+  "prompt": "生鲜平台想做一件代发水果，供应商需要具备哪些仓配能力？",
+  "createdAt": "2026-07-16T22:27:15.232Z",
+  "summary": [
+    {
+      "questionId": "q86",
+      "prompt_index": 86,
+      "promptIndex": 86,
+      "promptHash": "25b735bef525",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜平台想做一件代发水果，供应商需要具备哪些仓配能力？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 955,
+      "text_length": 955,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 578,
+        "total_tokens": 635,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 578,
+      "total_tokens": 635,
+      "latencyMs": 6731,
+      "latency_ms": 6731,
+      "createdAt": "2026-07-16T22:27:15.232Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q86/prompt.txt",
+        "answer": "q86/deepseek.txt",
+        "response": "q86/deepseek_response.json",
+        "sources": "q86/deepseek_sources.json",
+        "references": "q86/deepseek_references.json"
+      }
+    }
+  ]
+}

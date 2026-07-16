@@ -1,0 +1,28 @@
+{
+  "id": "79dc3ac4-e9d7-4952-a7d0-8960adaa2b03",
+  "object": "chat.completion",
+  "created": 1784241006,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在水果采购合同中，坏果率的赔付标准没有统一法律强制规定，主要取决于双方协商。通常建议：\n\n1. **常见标准**：坏果率超过 **5%-10%** 时，可要求赔付。具体比例应写在合同中。\n2. **行业惯例**：高端水果（如进口车厘子）标准更严，可能要求坏果率不超过3%-5%；普通水果可放宽至8%-10%。\n3. **合同条款**：明确约定：\n   - 坏果率的定义（如腐烂、磕碰、霉变等）。\n   - 验收方法（抽样比例、第三方检测机构）。\n   - 赔付方式（按单价折算、按重量扣除、无条件退货或换货）。\n4. **实际操作**：若合同未约定，可参照《民法典》中关于质量不符合约定的规定，与供应商协商补偿。建议首次合作时，直接约定“坏果率超过5%按单价1.5倍赔偿”等明确条款。\n\n请务必将具体比例写入合同，避免口头约定。如已有纠纷，保留好现场照片、验收单等证据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 234,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

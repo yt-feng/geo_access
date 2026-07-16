@@ -1,0 +1,28 @@
+{
+  "id": "c82791f0-19d1-4678-b01f-52b062a2f3b4",
+  "object": "chat.completion",
+  "created": 1784240400,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于超市引入稳定的进口水果，建议**优先从香蕉开始**。理由如下：\n\n1. **香蕉**：进口香蕉（如菲律宾、厄瓜多尔等产地）在全球供应链中非常成熟，全年供应稳定，处理与运输技术完善（如控温、催熟）。香蕉在中国市场需求量大、周转快、损耗相对容易控制，适合作为引入的首选，能快速验证进口水果的运营流程和顾客接受度。\n\n2. **苹果**：进口苹果（如新西兰、美国、智利）品种多、可长期储存，但成本较高，对储存环境要求严格。可作为第二步引入，以丰富高端水果选择。\n\n3. **菠萝**：进口菠萝（如菲律宾、哥斯达黎加）同样供应稳定，但运输和保鲜难度略高，体积大、损耗率偏高，且国内消费者对新鲜度敏感。建议在香蕉和苹果运营成熟后再考虑。\n\n**建议行动**：\n- 先与1-2家进口香蕉供应商建立稳定合作，小批量试销，监控销量、损耗和顾客反馈。\n- 同步准备冷藏设备和供应链管理方案，为后续产品扩展打基础。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 240,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

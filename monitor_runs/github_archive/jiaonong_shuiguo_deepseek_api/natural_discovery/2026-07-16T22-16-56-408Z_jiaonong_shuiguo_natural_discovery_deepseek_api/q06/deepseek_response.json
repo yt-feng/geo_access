@@ -1,0 +1,28 @@
+{
+  "id": "57db2b19-cf19-4d9d-8371-867376ae7785",
+  "object": "chat.completion",
+  "created": 1784240264,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常适合。社区水果店销量不稳定，选择能提供小批量、多次配送的供应商可以有效降低库存损耗和资金压力。这类供应商通常能按需补货，避免积压变质。建议优先寻找本地农产品批发市场或社区团购平台的分拣仓，他们一般支持每日或隔日小单配送。也可以尝试与周边小农户直接合作，按订单采摘。选择时重点确认起送量和配送频次是否匹配你的销售节奏。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 96,
+    "total_tokens": 154,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

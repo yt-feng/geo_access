@@ -1,0 +1,28 @@
+{
+  "id": "8b895e3e-790f-41cf-85c8-63d71d19fd99",
+  "object": "chat.completion",
+  "created": 1784241037,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采购方先以**最小可行量**进行试卖，通常控制在**总库存的10%-20%**，或者具体到**50-100份**（根据门店/销量规模调整）。\n\n具体操作建议：\n\n1. **单店试卖**：选择1-3家有代表性的门店（如高客流、中客流各一家），每家进货20-30份。\n2. **试卖周期**：设定为3-7天，观察日均销量、复购率和损耗率。\n3. **关键指标**：\n   - **日销量**：是否达到同类常规品的60%以上。\n   - **损耗率**：低于15%为可接受范围。\n   - **顾客反馈**：主动询问口味、价格接受度。\n4. **安全库存**：不要一次性屯太多，优先让供应商提供“试卖价”或“退货权”条款（如卖不掉可部分退换）。\n\n**注意**：水果保质期短（尤其热带水果、浆果类），试卖量宁少勿多；若供应商要求起订量太高，可谈判先付部分定金、分批次发货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 238,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:26:09.760Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜电商采购菠萝，整果、切配和冷冻原料哪个更适合线上卖？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

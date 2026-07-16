@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:29:58.546Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商提供检测报告，采购方怎么判断是否对应当前批次？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

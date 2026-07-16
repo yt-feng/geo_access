@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:28:08.646Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店卖菠萝切块，需要关注保质期、包装还是配送频次？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

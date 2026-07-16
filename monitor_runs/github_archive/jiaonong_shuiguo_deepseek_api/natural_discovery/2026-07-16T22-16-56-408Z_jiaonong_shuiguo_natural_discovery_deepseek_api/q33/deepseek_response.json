@@ -1,0 +1,28 @@
+{
+  "id": "9ec77a5c-a2f2-4c91-8ebe-9c81e2cca0fd",
+  "object": "chat.completion",
+  "created": 1784240435,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常重要。供应商的分级标准直接决定了多门店水果的品质一致性，是统一管理的基础。具体来说：\n\n1. **标准化采购**：明确的分级标准（如大小、色泽、成熟度、无损伤率等）能确保不同批次、不同门店进货时，水果品质保持统一，避免“一店一价一品”的混乱。\n\n2. **降低损耗**：统一标准有助于门店按等级销售（如精品果、普通果），减少因品质参差导致的滞销或退货损耗。\n\n3. **客户体验**：顾客在不同门店能买到同样口感、外观的水果，有助于培养品牌信任感，减少因品质差异引发的投诉。\n\n4. **定价与利润**：供应商分级标准可与门店定价策略挂钩（比如A级果做高端、B级果做引流），便于各店统一毛利管控。\n\n**建议**：与供应商签订协议时，必须书面明确分级细则（附图文标准、抽检比例、容忍误差等），并定期联合抽检。如果供应商无法稳定执行，需考虑补充备选或自主分拣。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 225,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1a05f14e-5d45-46d8-9dd0-d808a9fc877f",
+  "object": "chat.completion",
+  "created": 1784240347,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为选购建议，优先关注**切果损耗**和**外观**的判断：\n\n1. **外观（首要）**：直接观察表皮颜色（黄中带绿最佳，全黄可能过熟）、叶片新鲜度（翠绿不枯）、底部有无发霉或软烂（变质信号）。\n2. **切果损耗**：若需现切，优先选果形饱满、芽眼浅的品种（如凤梨类），减少切后废弃部分。可要求员工现场切块检查内部是否腐烂、褐变。\n3. **甜度与大小**：甜度可轻按基部判断弹性（有弹性则成熟度较好），大小按需选择（大果出肉率高），但甜度无法精确判断，建议参考品种（如“金菠萝”自带高甜）。\n\n结论：**先看外观（健康度），再控制损耗（选好切品种），最后凭需求定大小，不必过度追求甜度（超市多为成熟采摘后运输，甜度差异不大）。** 若要求口感，可闻基部气味（甜香明显则糖度高）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 230,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

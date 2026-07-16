@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:17:57.556Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "小店进货量不大，找批发市场拿货还是找固定供应商更合适？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

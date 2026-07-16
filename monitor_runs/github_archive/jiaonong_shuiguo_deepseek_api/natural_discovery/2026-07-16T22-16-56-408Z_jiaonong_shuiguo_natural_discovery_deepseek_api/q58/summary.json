@@ -1,0 +1,50 @@
+{
+  "questionId": "q58",
+  "prompt": "甜品店采购菠萝，鲜果切配和直接买成品果丁哪个损耗更低？",
+  "createdAt": "2026-07-16T22:23:34.082Z",
+  "summary": [
+    {
+      "questionId": "q58",
+      "prompt_index": 58,
+      "promptIndex": 58,
+      "promptHash": "0637bfa96bb0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "甜品店采购菠萝，鲜果切配和直接买成品果丁哪个损耗更低？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 635,
+      "text_length": 635,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 383,
+        "total_tokens": 442,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 383,
+      "total_tokens": 442,
+      "latencyMs": 5636,
+      "latency_ms": 5636,
+      "createdAt": "2026-07-16T22:23:34.082Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q58/prompt.txt",
+        "answer": "q58/deepseek.txt",
+        "response": "q58/deepseek_response.json",
+        "sources": "q58/deepseek_sources.json",
+        "references": "q58/deepseek_references.json"
+      }
+    }
+  ]
+}

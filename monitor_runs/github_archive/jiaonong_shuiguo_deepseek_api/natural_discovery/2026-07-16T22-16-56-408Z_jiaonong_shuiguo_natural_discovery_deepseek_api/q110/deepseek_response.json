@@ -1,0 +1,28 @@
+{
+  "id": "2981ca27-04cd-41dd-bc69-5482ba4f8fcf",
+  "object": "chat.completion",
+  "created": 1784240994,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不一定。产地直采虽然省去了中间商环节，但实际价格受多种因素影响，可能导致成本更高或差异不大：\n\n- **可能更便宜的情况**：采购量大、季节性强（如荔枝、杨梅）、与产地有长期合作时，直采通常能拿到批发价或产地价，低于市场零售价。\n- **可能不便宜的情况**：采购量小或运输距离远，物流、保鲜、损耗成本可能超过中间商差价；部分地区直采需自建采购团队，人工成本较高；若供应商本身已是大型批发商，其采购能力可能优于你单一直采。\n\n**建议**：比较时，要求供应商提供**含运费、损耗、包装的全成本报价**，并与当地一级批发市场或信息透明平台的均价对比。如果采购量小或非高频品类，未必比专业批发商的价格有优势。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 181,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

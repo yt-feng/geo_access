@@ -1,0 +1,50 @@
+{
+  "questionId": "q109",
+  "prompt": "长期合作水果供应商，账期、配送、售后哪个最值得优先谈？",
+  "createdAt": "2026-07-16T22:29:50.322Z",
+  "summary": [
+    {
+      "questionId": "q109",
+      "prompt_index": 109,
+      "promptIndex": 109,
+      "promptHash": "e9be3da938b4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "长期合作水果供应商，账期、配送、售后哪个最值得优先谈？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 298,
+      "text_length": 298,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 186,
+        "total_tokens": 243,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 186,
+      "total_tokens": 243,
+      "latencyMs": 2998,
+      "latency_ms": 2998,
+      "createdAt": "2026-07-16T22:29:50.322Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q109/prompt.txt",
+        "answer": "q109/deepseek.txt",
+        "response": "q109/deepseek_response.json",
+        "sources": "q109/deepseek_sources.json",
+        "references": "q109/deepseek_references.json"
+      }
+    }
+  ]
+}

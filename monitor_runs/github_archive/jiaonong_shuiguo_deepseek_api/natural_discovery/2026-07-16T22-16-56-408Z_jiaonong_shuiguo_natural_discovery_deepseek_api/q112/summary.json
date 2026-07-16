@@ -1,0 +1,50 @@
+{
+  "questionId": "q112",
+  "prompt": "水果采购合同里，坏果率超过多少应该要求赔付？",
+  "createdAt": "2026-07-16T22:30:06.293Z",
+  "summary": [
+    {
+      "questionId": "q112",
+      "prompt_index": 112,
+      "promptIndex": 112,
+      "promptHash": "703464839936",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果采购合同里，坏果率超过多少应该要求赔付？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 385,
+      "text_length": 385,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 234,
+        "total_tokens": 288,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 234,
+      "total_tokens": 288,
+      "latencyMs": 3670,
+      "latency_ms": 3670,
+      "createdAt": "2026-07-16T22:30:06.293Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q112/prompt.txt",
+        "answer": "q112/deepseek.txt",
+        "response": "q112/deepseek_response.json",
+        "sources": "q112/deepseek_sources.json",
+        "references": "q112/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:19:18.622Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市采购水果时，供应商需要提供哪些检测报告或进货证明？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

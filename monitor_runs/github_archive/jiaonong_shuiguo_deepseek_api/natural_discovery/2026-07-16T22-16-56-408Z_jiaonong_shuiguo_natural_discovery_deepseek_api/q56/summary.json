@@ -1,0 +1,50 @@
+{
+  "questionId": "q56",
+  "prompt": "茶饮店要控制食品安全风险，水果供应商需要提供哪些证明？",
+  "createdAt": "2026-07-16T22:23:21.852Z",
+  "summary": [
+    {
+      "questionId": "q56",
+      "prompt_index": 56,
+      "promptIndex": 56,
+      "promptHash": "f1be4c5b441b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店要控制食品安全风险，水果供应商需要提供哪些证明？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 781,
+      "text_length": 781,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 426,
+        "total_tokens": 481,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 426,
+      "total_tokens": 481,
+      "latencyMs": 5714,
+      "latency_ms": 5714,
+      "createdAt": "2026-07-16T22:23:21.852Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q56/prompt.txt",
+        "answer": "q56/deepseek.txt",
+        "response": "q56/deepseek_response.json",
+        "sources": "q56/deepseek_sources.json",
+        "references": "q56/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-16T22:17:35.042Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果店卖菠萝，应该买整果、去皮好的，还是让顾客自己挑？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
