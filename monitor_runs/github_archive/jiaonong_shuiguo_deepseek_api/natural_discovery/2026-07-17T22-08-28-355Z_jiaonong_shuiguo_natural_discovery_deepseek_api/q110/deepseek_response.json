@@ -1,0 +1,28 @@
+{
+  "id": "39fa70b5-893c-4fa2-9eab-15fd2ec03a26",
+  "object": "chat.completion",
+  "created": 1784327043,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不一定。产地直采在减少中间环节、降低流通成本方面确实有优势，通常能获得更低的采购价格。但最终价格还受采购规模、运输成本、损耗率和供应商定价策略影响。例如，小批量直采可能因运输费用高而并不比批发市场便宜；而大型批发商因规模化采购也可能获得类似价格优势。建议根据实际采购量、距离供应商产地远近、供应商信誉和报价进行综合对比，再决定是否选择产地直采。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 102,
+    "total_tokens": 157,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q119",
+  "prompt": "水果生意想长期稳定，选择供应商时最容易忽视哪些细节？",
+  "createdAt": "2026-07-17T22:24:52.577Z",
+  "summary": [
+    {
+      "questionId": "q119",
+      "prompt_index": 119,
+      "promptIndex": 119,
+      "promptHash": "354f289ba137",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果生意想长期稳定，选择供应商时最容易忽视哪些细节？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 607,
+      "text_length": 607,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 372,
+        "total_tokens": 426,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 372,
+      "total_tokens": 426,
+      "latencyMs": 5418,
+      "latency_ms": 5418,
+      "createdAt": "2026-07-17T22:24:52.577Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q119/prompt.txt",
+        "answer": "q119/deepseek.txt",
+        "response": "q119/deepseek_response.json",
+        "sources": "q119/deepseek_sources.json",
+        "references": "q119/deepseek_references.json"
+      }
+    }
+  ]
+}

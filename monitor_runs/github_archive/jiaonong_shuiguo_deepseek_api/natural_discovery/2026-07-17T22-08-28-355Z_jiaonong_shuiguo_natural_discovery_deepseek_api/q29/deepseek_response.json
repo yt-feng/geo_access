@@ -1,0 +1,28 @@
+{
+  "id": "20f3621f-076b-4cf5-bdd0-c72525714a51",
+  "object": "chat.completion",
+  "created": 1784326333,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，超市与水果供应商的账期常见范围为**30天至60天**。具体天数可能因超市规模、供应商实力、水果品类（如易腐程度）以及合作历史等因素有所浮动。例如，大型连锁超市可能争取更长的账期（如45-60天），而小型超市或合作初期可能缩短至15-30天。建议你根据实际业务情况和双方协商确定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 86,
+    "total_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

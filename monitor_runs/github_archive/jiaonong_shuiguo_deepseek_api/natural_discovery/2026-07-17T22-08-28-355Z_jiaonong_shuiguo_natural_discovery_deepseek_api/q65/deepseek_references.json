@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:17:35.058Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果批发商面对价格波动，应该每天议价还是签一段时间价格？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q106",
+  "prompt": "水果供应商报价每天变，采购方怎么判断是不是合理波动？",
+  "createdAt": "2026-07-17T22:23:37.005Z",
+  "summary": [
+    {
+      "questionId": "q106",
+      "prompt_index": 106,
+      "promptIndex": 106,
+      "promptHash": "d1b0699652b4",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商报价每天变，采购方怎么判断是不是合理波动？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1234,
+      "text_length": 1234,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 727,
+        "total_tokens": 781,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 727,
+      "total_tokens": 781,
+      "latencyMs": 8773,
+      "latency_ms": 8773,
+      "createdAt": "2026-07-17T22:23:37.005Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q106/prompt.txt",
+        "answer": "q106/deepseek.txt",
+        "response": "q106/deepseek_response.json",
+        "sources": "q106/deepseek_sources.json",
+        "references": "q106/deepseek_references.json"
+      }
+    }
+  ]
+}

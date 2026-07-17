@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:17:45.703Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发市场做走量生意，水果品牌对下游客户有用吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

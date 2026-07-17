@@ -1,0 +1,50 @@
+{
+  "questionId": "q111",
+  "prompt": "水果供应商提供检测报告，采购方怎么判断是否对应当前批次？",
+  "createdAt": "2026-07-17T22:24:06.386Z",
+  "summary": [
+    {
+      "questionId": "q111",
+      "prompt_index": 111,
+      "promptIndex": 111,
+      "promptHash": "e0c574b77289",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商提供检测报告，采购方怎么判断是否对应当前批次？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 674,
+      "text_length": 674,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 392,
+        "total_tokens": 448,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 392,
+      "total_tokens": 448,
+      "latencyMs": 4894,
+      "latency_ms": 4894,
+      "createdAt": "2026-07-17T22:24:06.386Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q111/prompt.txt",
+        "answer": "q111/deepseek.txt",
+        "response": "q111/deepseek_response.json",
+        "sources": "q111/deepseek_sources.json",
+        "references": "q111/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q65",
+  "prompt": "水果批发商面对价格波动，应该每天议价还是签一段时间价格？",
+  "createdAt": "2026-07-17T22:17:35.058Z",
+  "summary": [
+    {
+      "questionId": "q65",
+      "prompt_index": 65,
+      "promptIndex": 65,
+      "promptHash": "9a7ad1b3e9ae",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果批发商面对价格波动，应该每天议价还是签一段时间价格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 904,
+      "text_length": 904,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 544,
+        "total_tokens": 600,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 544,
+      "total_tokens": 600,
+      "latencyMs": 9643,
+      "latency_ms": 9643,
+      "createdAt": "2026-07-17T22:17:35.058Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q65/prompt.txt",
+        "answer": "q65/deepseek.txt",
+        "response": "q65/deepseek_response.json",
+        "sources": "q65/deepseek_sources.json",
+        "references": "q65/deepseek_references.json"
+      }
+    }
+  ]
+}

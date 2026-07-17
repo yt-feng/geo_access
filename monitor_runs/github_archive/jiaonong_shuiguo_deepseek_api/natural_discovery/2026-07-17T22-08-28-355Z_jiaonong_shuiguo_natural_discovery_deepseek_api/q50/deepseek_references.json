@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:15:26.551Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店买菠萝原料，甜度和出汁率哪个更重要？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

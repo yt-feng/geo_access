@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:17:05.501Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发商卖菠萝，怎么判断哪个规格更容易出货？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

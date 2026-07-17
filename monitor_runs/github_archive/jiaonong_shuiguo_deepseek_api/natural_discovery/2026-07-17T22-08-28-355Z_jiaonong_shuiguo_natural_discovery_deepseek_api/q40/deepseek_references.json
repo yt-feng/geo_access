@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:13:36.262Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "连锁超市遇到节假日水果需求暴增，如何提前锁定货源？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

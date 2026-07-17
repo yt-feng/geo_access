@@ -1,0 +1,28 @@
+{
+  "id": "ef319b9c-3f90-4dd8-ba21-417a524dfaae",
+  "object": "chat.completion",
+  "created": 1784326531,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先考虑**固定产地**，同时保持**批次灵活性**，具体策略如下：\n\n1. **固定产地**：选择1-2个主要产地作为核心供应商（如云南柠檬、广西百香果），确保风味基线统一。例如，若主打“香水柠檬”，可指定广东或海南的特定果园，降低品种和成熟度差异。\n2. **灵活批次**：与供应商约定每周/每两周按需配送，避免大批量一次采购。签订合同时增加“风味验收条款”（如酸度、甜度范围），允许退换不符合标准的批次。\n3. **备选方案**：建立2-3个备用产地或供应商（如进口和国产替代），以防主产地因天气或产量波动导致口味突变。例如，夏季芒果可用海南替代进口台农品种。\n4. **数据化跟踪**：每次到货记录糖度、酸度等指标，与供应商共享数据，共同优化采前采摘标准。\n\n注：完全固定批次可能导致库存过期成本高，建议采用“80%固定产地+20%浮动采购”模式平衡风味一致性和供应韧性。若顾客对季节性风味有预期（如草莓季酸度不同），可主动在菜单标注“当季限定”，将口味波动转化为卖点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 267,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

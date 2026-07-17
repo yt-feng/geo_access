@@ -1,0 +1,28 @@
+{
+  "id": "bbab05aa-6b8a-4d17-9b12-63c1d1c861d1",
+  "object": "chat.completion",
+  "created": 1784326183,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响销售。具体影响程度取决于水果店的定位和目标客户：\n\n1. **影响情况**：\n   - **影响销售**：大多数消费者购买水果时倾向选择大小均匀、外观整齐的香蕉。大小不一可能让顾客觉得品质不佳、挑选麻烦，或怀疑是“挑剩的”，从而降低购买意愿。\n   - **影响定价**：如果香蕉大小混杂，很难制定统一售价，容易出现消费者只挑大的、小的卖不出去的情况，增加损耗。\n\n2. **减少影响的方法**：\n   - **分类销售**：将香蕉按大小分拣，大个的定价高（作为精品），小个的可低价促销或捆绑销售（如用于烘焙、配餐）。\n   - **按重量计价**：如果必须混装销售，建议按公斤称重计价而非按箱固定价，让顾客觉得公平。\n   - **明确告知**：在货架旁标注“大小混装，按重量售卖”，并强调香蕉新鲜度，让客户接受。\n   - **内部消化**：将小香蕉用于榨汁、员工福利、特价区，避免直接混入主货架。\n\n3. **结论**：\n   如果不处理，直接混装销售，会明显影响销量和顾客体验。建议采购时尽量选择规格统一的一箱，或者采购后主动分拣再上架。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 280,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
