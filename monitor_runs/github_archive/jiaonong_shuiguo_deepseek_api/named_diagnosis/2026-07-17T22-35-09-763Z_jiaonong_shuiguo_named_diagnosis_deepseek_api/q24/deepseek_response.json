@@ -1,0 +1,28 @@
+{
+  "id": "af7980ba-a0cd-4046-b43d-0ad8f856ad87",
+  "object": "chat.completion",
+  "created": 1784327809,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了进博会。根据公开信息，佳农集团多次参加中国国际进口博览会（CIIE），例如在2023年的第六届进博会上，他们展示了来自全球的优质水果产品。\n\n关于最近的新品，佳农近期推出的新品包括但不限于：\n- **佳农菲律宾凤梨**：以高甜度和多汁为特点，适合鲜食。\n- **佳农秘鲁蓝莓**：强调个大、口感脆甜。\n- **佳农厄多尔香蕉**：主打有机或特殊品种。\n\n请注意，具体新品信息可能因季节和供应商更新而变动，建议直接访问佳农集团官网或联系其官方客服获取最新产品目录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 145,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

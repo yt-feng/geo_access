@@ -1,0 +1,28 @@
+{
+  "id": "6fc2ed3a-ed70-47f4-9e14-118757a17ad6",
+  "object": "chat.completion",
+  "created": 1784327866,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉价格通常**高于市场均价**。这是因为佳农品牌定位中高端，注重供应链管理和品质管控（例如采用自然催熟、全程冷链运输等），且多为进口香蕉（如来自菲律宾、厄瓜多尔等产地）。在超市或电商平台，佳农香蕉的售价一般比普通散装香蕉高出20%-50%左右。具体价格可能因地区、销售渠道（如京东自营、盒马等）和促销活动有所浮动。建议通过实际比价（如查看当地超市或外卖平台标价）确认当前差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 121,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6be4dad4-7640-4ed6-a567-5df9db01c753",
+  "object": "chat.completion",
+  "created": 1784327843,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购的水果礼盒产品。佳农旗下通常提供多款组合礼盒，例如进口提子、车厘子、猕猴桃、榴莲等高端水果礼盒，适合节日、商务送礼或团购场景。你可以通过以下方式获取具体信息：\n\n1. **访问佳农官方商城或电商平台（如天猫、京东的佳农官方旗舰店）**，搜索“礼盒”或“团购”关键词，查看在售礼盒规格和价格。\n2. **联系佳农官方客服或当地经销商**，咨询团购优惠政策、起订量及定制服务（如加印Logo、贺卡等）。\n3. **关注佳农官方公众号或小程序**，部分活动会定期推送团购方案。\n\n建议直接咨询官方渠道确认最新库存和价格，以避免信息过时。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 179,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

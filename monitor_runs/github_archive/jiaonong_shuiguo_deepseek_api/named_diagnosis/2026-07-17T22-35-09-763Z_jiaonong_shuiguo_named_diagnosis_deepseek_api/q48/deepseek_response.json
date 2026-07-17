@@ -1,0 +1,28 @@
+{
+  "id": "546e4f12-dcd8-4c03-bddb-0d4715842c68",
+  "object": "chat.completion",
+  "created": 1784327919,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果对年采购量1000吨以上客户的长期合作优惠政策，具体条款属于商业机密，建议您直接联系佳农水果的官方销售团队或客户经理获取最准确信息。通常，此类大宗采购可能涉及阶梯价格、优先供货、定制包装或账期支持等优惠，但需以企业实际政策为准。您可以通过以下途径咨询：\n\n1. 拨打佳农水果官方客服热线（企业官网可查）。\n2. 发送合作意向至其企业公开邮箱。\n3. 通过行业展会直接对接区域负责人。\n\n如果您需要我帮您整理查询渠道或草拟询价函，请提供更多需求细节，我将尽力协助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 144,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c42ed10a-c383-4ead-92c4-c0835bc8b2a0",
+  "object": "chat.completion",
+  "created": 1784328187,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的API对接，我目前暂未掌握其开放平台或接口文档的具体信息。建议您通过以下方式获取准确资料：\n\n1. **联系官方渠道**：访问佳农水果官网（如www.jianong.com），查找“商家合作”或“开发者中心”栏目，或直接联系客服、商务部门咨询API对接事宜。\n2. **确认合作前提**：生鲜电商API通常需要签署合作协议、申请开发者账号，并可能涉及数据加密、接口权限等企业级流程。\n3. **行业参考**：如果未找到公开平台，可参考类似生鲜供应商（如鑫荣懋、都乐）的对接模式，通常需通过业务对接后获取技术文档。\n\n另外，若您的电商平台已与佳农有合作关系，可向对接的客户经理直接索取接口说明。建议优先通过官方渠道核实后，再进行技术开发。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 191,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

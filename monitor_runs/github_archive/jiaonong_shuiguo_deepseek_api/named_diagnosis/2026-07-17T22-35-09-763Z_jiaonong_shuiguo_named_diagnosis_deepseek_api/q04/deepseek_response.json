@@ -1,0 +1,28 @@
+{
+  "id": "55eb496d-b609-48ef-b7af-847da97b1723",
+  "object": "chat.completion",
+  "created": 1784327728,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "一般来说，佳农水果作为大型水果批发商，会对长期合作且信誉良好的客户提供账期方案。具体账期（如30天、45天、60天等）通常取决于合作时长、采购量、企业资质和信用评估结果。\n\n建议您直接联系佳农水果的销售经理或官方客户服务，提供您的公司信息和合作意向，他们会根据您的实际情况（如日均采购额、行业背景、付款历史等）给出具体的账期协议。如果是首次合作，可能需要先经历一段现金交易或预付阶段，后续再申请账期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 118,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

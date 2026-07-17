@@ -1,0 +1,50 @@
+{
+  "questionId": "q73",
+  "prompt": "佳农水果的苹果品类有哪些？我们想采购进口嘎啦和红富士，产地是哪里？",
+  "createdAt": "2026-07-17T22:40:32.355Z",
+  "summary": [
+    {
+      "questionId": "q73",
+      "prompt_index": 73,
+      "promptIndex": 73,
+      "promptHash": "69c1ff447887",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的苹果品类有哪些？我们想采购进口嘎啦和红富士，产地是哪里？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 629,
+      "text_length": 629,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 353,
+        "total_tokens": 415,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 353,
+      "total_tokens": 415,
+      "latencyMs": 3916,
+      "latency_ms": 3916,
+      "createdAt": "2026-07-17T22:40:32.355Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q73/prompt.txt",
+        "answer": "q73/deepseek.txt",
+        "response": "q73/deepseek_response.json",
+        "sources": "q73/deepseek_sources.json",
+        "references": "q73/deepseek_references.json"
+      }
+    }
+  ]
+}

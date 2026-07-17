@@ -1,0 +1,28 @@
+{
+  "id": "67516a92-110f-4952-9ed4-6948c7e905c2",
+  "object": "chat.completion",
+  "created": 1784327857,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的客户服务响应速度整体较好，尤其在官方渠道（如天猫旗舰店、京东旗舰店）的咨询通常能在短时间内得到回复。如果遇到问题，建议优先通过以下渠道联系：\n\n1. **官方微信公众号**：搜索“佳农水果”关注后，通过菜单栏的“在线客服”或直接输入问题，客服响应较快。\n2. **购买平台客服**：若在淘宝、京东等电商平台下单，可直接在订单页面联系店铺客服，平台也有介入处理机制。\n3. **客服电话**：可拨打佳农官方客服热线（如400-XXX-XXXX，具体号码可在其官网或售后卡片上找到）。\n\n注意：高峰期（如促销活动、节假日）响应时间可能延长，建议提供订单号、问题描述及照片（如坏果、物流异常）以加快处理速度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 178,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

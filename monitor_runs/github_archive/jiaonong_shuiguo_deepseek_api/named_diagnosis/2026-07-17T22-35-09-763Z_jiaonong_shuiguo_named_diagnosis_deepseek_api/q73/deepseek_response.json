@@ -1,0 +1,28 @@
+{
+  "id": "d18745f8-50e1-4d7a-9588-d188f107ac78",
+  "object": "chat.completion",
+  "created": 1784328032,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果品类，通常以进口苹果为主，常见品种包括：\n\n- **嘎啦（Gala）**  \n- **红富士（Red Fuji）**  \n- **金帅（Golden Delicious）**  \n- **青苹果（Granny Smith）**  \n- **蛇果（Red Delicious）**  \n- **乔纳金（Jonagold）**  \n\n针对您想采购的 **进口嘎啦** 和 **红富士**，以下是常见产地建议（以佳农等主流进口商为例）：\n\n1. **进口嘎啦**  \n   - **主要产地**：**美国**（尤其是华盛顿州）、**新西兰**、**智利**。  \n   - 特点：美国嘎啦口感脆甜，新西兰嘎啦香气浓郁，智利嘎啦供应季节（南半球反季）丰富。\n\n2. **进口红富士**  \n   - **主要产地**：**日本**（原产地，但量少且价格高）、**美国**（华盛顿州为主）、**新西兰**、**南非**。  \n   - 常见选择：美国红富士（常称“华盛顿红富士”）和新西兰红富士（果肉细腻、甜度高）。  \n\n**采购建议**：  \n- 佳农作为国际水果贸易商，其进口苹果通常来自上述国家。建议您直接联系佳农官方销售或区域代理，确认当前库存和具体产地（因季节、货源调整会变化）。  \n- 若需大规模采购，可要求提供**原产地证明**及**质检报告**。  \n\n如有其他具体需求（如包装规格、到货时间），请补充说明，我会进一步协助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 353,
+    "total_tokens": 415,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

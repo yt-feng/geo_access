@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:40:00.206Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和洪九果品比，哪个在西南地区配送更快？我们成都门店急需。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

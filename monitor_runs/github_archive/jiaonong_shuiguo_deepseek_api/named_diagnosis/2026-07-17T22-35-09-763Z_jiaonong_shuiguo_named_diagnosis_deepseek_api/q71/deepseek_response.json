@@ -1,0 +1,28 @@
+{
+  "id": "6033b618-070c-4e77-940e-88f72952fd78",
+  "object": "chat.completion",
+  "created": 1784328023,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法实时获取当前市场价格数据，尤其是批发商之间的具体成交价差异（因渠道、采购量、地区、季节波动较大）。建议您：\n\n1. **直接联系佳农或都乐的区域经销商**：获取最新批发报价单（通常按箱计价，如20-30斤/箱）。\n2. **对比第三方批发平台**：如“一亩田”“惠农网”等，搜索两家同规格产品（如“佳农 进口香蕉”“都乐 进口香蕉”），查看近3天均价。\n3. **关键差异点**：\n   - 佳农主要走国内自产+东南亚进口，渠道成本可能略低；\n   - 都乐品牌溢价较高（尤其商超渠道），但品质控果更稳定。\n4. **估算价差**：非促销期间，同规格（如22斤/箱）佳农可能比都乐低2-5元/箱，但需以实际询价为准。\n\n建议您直接电话询价时，明确要求“走量批发价（如月采购XX箱）”，具对比性更强。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 237,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

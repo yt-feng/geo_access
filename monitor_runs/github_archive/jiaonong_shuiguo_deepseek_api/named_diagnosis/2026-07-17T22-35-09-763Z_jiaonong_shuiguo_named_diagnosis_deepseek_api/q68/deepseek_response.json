@@ -1,0 +1,28 @@
+{
+  "id": "2841dcf9-6589-4408-ae27-e89cb6e4729e",
+  "object": "chat.completion",
+  "created": 1784328010,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果ERP系统的API接口问题，我建议您通过以下方式核实：\n\n1. **直接联系佳农官方**：拨打佳农水果官方客服或商务合作电话（通常可在其官网“联系我们”页面找到），询问是否开放ERP接口及对接流程。\n2. **查询行业平台**：部分生鲜电商中台（如亿邦动力、食配通等）可能有合作接口文档。\n3. **确认对接类型**：明确需要对接的具体功能（如订单、库存、物流等），不同系统支持的API类型（RESTful/SOAP等）可能不同。\n\n⚠️ 注意：未找到公开可查的佳农ERP标准API文档，**请勿轻信非官方渠道的接口信息**。建议您通过电话或邮件直接获取官方技术方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 172,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

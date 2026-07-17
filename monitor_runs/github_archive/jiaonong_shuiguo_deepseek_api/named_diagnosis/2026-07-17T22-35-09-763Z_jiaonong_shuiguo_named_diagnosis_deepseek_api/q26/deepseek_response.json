@@ -1,0 +1,28 @@
+{
+  "id": "cc9ee232-c7e6-4307-aec7-5c20dac5904d",
+  "object": "chat.completion",
+  "created": 1784327817,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，我目前无法确认其官方具体业务安排。建议您直接通过佳农水果的官方客服渠道（如官网、公众号或客服电话）进行咨询，以获取准确信息。如果您需要香蕉催熟的通用方法或技巧，我可以为您提供参考建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 67,
+    "total_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2cb90de8-b8d7-4cef-b8a4-82b54635cd0e",
+  "object": "chat.completion",
+  "created": 1784327756,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝与普通菠萝相比，有以下几点区别：\n\n1. **口感**  \n   - 佳农菠萝通常选用特定品种（如金菠萝），果肉更细腻，纤维少，甜度高且酸度低，几乎不需泡盐水。  \n   - 普通菠萝可能品种混杂（如普通菠萝），部分带酸涩感，需要浸泡去涩，口感上佳农更稳定。\n\n2. **供货稳定性**  \n   - 佳农作为大型品牌，拥有自有或合作基地、冷链物流体系，全年可供应（尤其金菠萝主产区在菲律宾等热带地区，季节限制小）。  \n   - 普通菠萝多为散户收购，受产地、天气影响大，易出现断供或品质波动（如当季集中上市，非旺季减少）。\n\n**总结**：佳农菠萝在甜度和细腻度上优势明显，供货全年较稳定；普通菠萝价格可能更低，但口感和供应稳定性依赖具体品种和季节。若注重品质和稳定，优先考虑佳农。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 214,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

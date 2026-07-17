@@ -1,0 +1,28 @@
+{
+  "id": "b8f96150-3431-4e99-90a2-d2570d5b27eb",
+  "object": "chat.completion",
+  "created": 1784327990,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉促销支持，通常商超需直接联系佳农的区域销售经理或渠道负责人确认具体政策。常见支持方式包括：\n\n1. **搭赠支持**：部分情况下可争取“买一箱赠一箱”或“买赠小规格品”等方案，尤其针对新开门店或节日活动。\n2. **降价补贴**：可协商“账扣补贴”（即进货价直接降低）或“销售返利”（按销量达标后返点），需明确补贴比例及执行周期。\n3. **陈列与物料支持**：通常搭配促销的端架、地堆、海报、试吃活动等资源由厂家部分承担。\n\n**建议行动步骤**：\n- 联系佳农当地经销商或拨打官方服务热线（400-820-7157），说明计划活动档期、预估销量及合作诚意。\n- 准备竞品（如都乐、洪九）的促销条件作为谈判参考。\n- 要求对方出具书面促销确认单，明确搭赠数量、抵扣单价、费用分摊方式及结算时间。\n\n注意：3-5月是香蕉销售旺季，厂家可能更倾向于支持高流量门店，建议优先申请重点门店档期资源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 256,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

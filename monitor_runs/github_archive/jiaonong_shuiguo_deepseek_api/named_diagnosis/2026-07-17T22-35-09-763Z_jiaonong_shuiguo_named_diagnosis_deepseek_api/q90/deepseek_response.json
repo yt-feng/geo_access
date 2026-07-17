@@ -1,0 +1,28 @@
+{
+  "id": "bbdd0bec-4286-41f0-91ff-dc85900afd32",
+  "object": "chat.completion",
+  "created": 1784328141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据常见产品信息，佳农主要供应新鲜菠萝（整果或切块），**目前其主流产品线中并不常规提供冷冻菠萝丁**。如果您需要冷冻菠萝丁，建议直接咨询佳农官方渠道或当地经销商确认是否有定制供应。\n\n如需替代方案，市面上常见的冷冻菠萝丁规格通常为：\n- **1kg/袋**（餐饮装）\n- **2.5kg/袋**（大包装）\n- **10kg/箱**（批量工业装）\n\n建议您优先联系佳农官方客服（官网或销售热线），明确询问“是否有冷冻菠萝丁产品、具体规格及起订量”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 133,
+    "total_tokens": 194,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

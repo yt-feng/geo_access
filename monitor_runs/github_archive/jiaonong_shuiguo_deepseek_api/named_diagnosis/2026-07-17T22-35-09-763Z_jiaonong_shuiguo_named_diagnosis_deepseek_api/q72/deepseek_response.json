@@ -1,0 +1,28 @@
+{
+  "id": "956ee89d-8653-4c96-9011-c9b7926dce9f",
+  "object": "chat.completion",
+  "created": 1784328028,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农（Goodfarmer）主要提供新鲜水果及蔬菜的批发、配送服务，目前**不直接面向茶饮店提供去皮、切块等加工服务**。建议您：\n\n1. 联系佳农官方客服或区域销售代表，确认是否有针对B端客户的加工定制方案（部分大型供应商可能支持批量代加工）。\n2. 若无法获取加工服务，可考虑以下替代方案：\n   - 采购**冷冻菠萝块**（如：舜禾、阿诺等品牌的冷冻菠萝，通常已去皮切块，适合茶饮）。\n   - 自行处理时，使用菠萝去核切块器提高效率，或委托本地第三方果蔬加工商代加工。\n\n若需进一步建议，可补充您所在城市或预计用量，方便推荐更具体的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 170,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

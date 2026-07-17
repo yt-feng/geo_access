@@ -1,0 +1,28 @@
+{
+  "id": "b0ef195e-4949-4125-ac5e-6f40e596992f",
+  "object": "chat.completion",
+  "created": 1784327806,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果的香蕉销量全国第一”这一说法，目前没有公开的、权威的第三方机构（如国家统计局、中国果品流通协会等）发布的全国性香蕉销量排名数据来直接证实。企业的市场地位通常需要通过行业报告、权威媒体或官方认证来佐证，但公开可查的信息中并未明确支持这一结论。\n\n建议你：\n1. 查看佳农官网或年报中是否有提及相关认证或排名依据。\n2. 关注中国果品流通协会、农科院等机构发布的行业报告。\n3. 留意是否有国家市场监督管理总局等官方机构认可的数据。\n\n如果无法找到明确来源，建议谨慎引用该说法。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 141,
+    "total_tokens": 195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

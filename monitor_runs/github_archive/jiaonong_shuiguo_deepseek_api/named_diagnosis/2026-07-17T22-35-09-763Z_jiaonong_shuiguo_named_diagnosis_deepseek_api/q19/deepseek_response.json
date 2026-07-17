@@ -1,0 +1,28 @@
+{
+  "id": "8a1a8996-4234-4bdd-b3fa-7bc6bcdf0635",
+  "object": "chat.completion",
+  "created": 1784327788,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的配送时效，通常在下单后1-3天内送达（以实际订单显示为准）。具体时间取决于您所在地区及选择的配送服务类型（如普通快递或加急配送）。建议您在提交订单时，查看页面预估的配送时间，或联系佳农客服获取更准确的预计到达日期。若遇节假日或促销高峰期，时效可能略有延长。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 81,
+    "total_tokens": 135,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

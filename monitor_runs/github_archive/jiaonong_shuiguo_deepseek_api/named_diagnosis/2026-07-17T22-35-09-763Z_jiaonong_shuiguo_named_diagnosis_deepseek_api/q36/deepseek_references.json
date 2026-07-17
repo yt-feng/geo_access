@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-17T22:37:40.877Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和洪九果品比，哪个在香蕉品类上更有优势？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

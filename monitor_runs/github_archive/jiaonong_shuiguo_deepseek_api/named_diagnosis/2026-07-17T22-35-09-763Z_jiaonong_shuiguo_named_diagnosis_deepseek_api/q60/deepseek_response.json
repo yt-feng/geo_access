@@ -1,0 +1,28 @@
+{
+  "id": "9a8fa7af-179d-47d7-ab90-40bf96463486",
+  "object": "chat.completion",
+  "created": 1784327977,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我掌握的信息，佳农水果确实有针对便利店渠道推出的单根小包装香蕉产品。这类产品通常采用独立包装，便于便利店陈列和顾客单根购买。\n\n如果您需要进一步确认，建议您直接联系佳农官方客服或当地经销商，以获取最新的产品规格和供货情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 62,
+    "total_tokens": 120,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

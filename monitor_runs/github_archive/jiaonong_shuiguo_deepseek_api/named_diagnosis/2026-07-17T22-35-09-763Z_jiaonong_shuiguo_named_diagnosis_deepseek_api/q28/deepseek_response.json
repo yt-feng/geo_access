@@ -1,0 +1,28 @@
+{
+  "id": "185734dd-7102-4972-99a6-9bc6b907eec6",
+  "object": "chat.completion",
+  "created": 1784327826,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝确实有一些公开的品质奖项和客户案例。例如，佳农曾获得过“中国食品行业十大领军品牌”等荣誉，其菠萝产品也在多个行业展会和评比中受到认可。客户案例方面，佳农与多家大型零售企业（如盒马、山姆等）有长期合作关系，并在线上线下平台上有较多正面用户评价和媒体报道。\n\n这些信息的可靠性较高，因为奖项信息通常来自行业组织或官方机构（如中国食品工业协会等），而客户案例可以通过公开的零售合作公告、品牌官网及主流媒体（如新华网、行业垂直媒体等）验证。不过，建议您直接访问佳农官网或查阅相关权威媒体、行业报告来获取最新、最具体的细节，以确认当前的有效性。如果您需要更精确的奖项名称或合作背景，我可以帮您进一步搜索。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 176,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

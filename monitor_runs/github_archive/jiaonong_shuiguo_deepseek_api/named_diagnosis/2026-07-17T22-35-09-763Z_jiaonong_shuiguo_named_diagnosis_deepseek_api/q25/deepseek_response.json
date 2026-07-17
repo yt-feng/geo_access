@@ -1,0 +1,28 @@
+{
+  "id": "2bb7ccd5-f218-4dc2-a767-227c289514c8",
+  "object": "chat.completion",
+  "created": 1784327813,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络以**自营为主**，同时结合部分外包模式。具体来说：\n\n1. **自营部分**：佳农在核心城市（如上海、北京、广州等）拥有自建冷链物流中心和车队，以保障高端水果（如佳沛奇异果、凤梨等）的鲜度控制。自营体系覆盖仓储、分拣、干线运输及终端配送环节。\n\n2. **外包部分**：在非核心区域或高峰期，会临时借用第三方冷链物流（如顺丰冷链、京东物流）补充运力，但整体以自营网络主导。\n\n**冷链能力方面**：\n- 佳农在冷链技术上投入较高，采用**多温层冷藏车**（0-4℃恒温）、GPS温控实时监测系统，以及预冷处理（如气调包装）。  \n- 其冷链网络可支撑水果从产地（如菲律宾、新西兰）到国内终端48小时内完成流转。  \n- 通过自建冷库与产地直采机制，维持水果损耗率低于行业平均水平（约3-5%）。  \n\n若需具体合作或数据验证，建议直接联系其官方客服或查询公开招股书/年报（如佳农曾提交上市材料中的物流成本披露）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 267,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

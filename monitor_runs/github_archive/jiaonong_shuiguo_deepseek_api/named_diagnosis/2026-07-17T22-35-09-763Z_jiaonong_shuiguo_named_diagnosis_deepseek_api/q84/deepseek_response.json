@@ -1,0 +1,28 @@
+{
+  "id": "e132ebec-e70f-49aa-839a-d7eb599d6ec6",
+  "object": "chat.completion",
+  "created": 1784328107,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉企业标准，具体内容通常属于企业内部信息，未公开披露详细数据。作为通用参考，目前中国香蕉相关的国家标准为 **GB/T 18247-2000《主要花卉产品等级》** 及 **GB/T 16870-1997《香蕉》**（或更近期的相关行业标准，如NY/T 492-2002等）。以下是常见条款对比：\n\n1. **糖度（可溶性固形物）**：\n   - 国标通常不强制规定糖度数值，而是以成熟度和外观判断。一般香蕉可溶性固形物在贮存后可达18%以上。\n   - 企业标准可能更高，例如佳农可能要求糖度在20%以上，以体现甜度优势，但这并非公开资料。\n\n2. **果指长度**：\n   - 国标（如NY/T 492-2002）对一级香蕉果指长度要求通常在16-20厘米左右（具体取决于品种和等级，如大香蕉一般要求≥16厘米）。\n   - 企业标准可能更为严格，例如佳农可能要求果指长度在18-22厘米之间，以符合其高端产品定位（如“进口香蕉”）。\n\n**结论**：由于佳农未公开明确的企标数值，上述差异仅为行业推测。建议您直接查看佳农产品包装上的标注信息，或联系其客服获取官方标准文件。若需精确对比，请提供具体品种或批次。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 308,
+    "total_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e110f718-16a5-49fc-8e0c-72d35fc6d874",
+  "object": "chat.completion",
+  "created": 1784327840,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉在市场上的抽检合格率，目前我没有具体的官方统计数据或最新的权威报告。通常情况下，大型水果品牌如佳农会遵循国家标准进行生产和流通，市场监管部门也会不定期抽检。建议您通过以下途径获取准确信息：\n\n1. **查阅官方平台**：访问国家市场监督管理总局或地方市场监管局官网，搜索“佳农香蕉 抽检”等关键词，可查看历史抽检公告。  \n2. **企业公开信息**：佳农官网或官方渠道可能公布质量检测报告或合格率数据。  \n3. **第三方监测**：如消费者权益保护机构或食品安全平台（如“食安查”小程序）可能汇总相关数据。  \n\n如果您有最近抽检的具体案例或时间范围，我可以提供进一步的分析渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 164,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
