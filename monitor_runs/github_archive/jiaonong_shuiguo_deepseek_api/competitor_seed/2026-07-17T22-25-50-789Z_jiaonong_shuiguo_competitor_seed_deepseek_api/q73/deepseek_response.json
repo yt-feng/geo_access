@@ -1,0 +1,28 @@
+{
+  "id": "07dfe967-9cab-4ebf-b2d5-c4eb0ce36917",
+  "object": "chat.completion",
+  "created": 1784327623,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、家乐福、山姆会员店等）通常要求供应商具备食品安全管理体系认证。关于鑫荣懋（Xinrongmao）和都乐（Dole），它们作为国内领先的水果供应链企业，普遍持有以下主要认证：\n\n1. **鑫荣懋**：\n   - **HACCP（危害分析与关键控制点）**：证明其从采购到加工、储存过程符合国际食品安全标准。\n   - **ISO 22000**：食品安全管理体系认证，覆盖全链条质量管理。\n   - **GLOBALG.A.P.**（全球良好农业规范）：确保水果从农场种植到配送的农业操作规范，尤其针对原料端。\n   - **有机认证**（如中国有机产品认证）：部分产品线通过。\n\n2. **都乐**：\n   - **GLOBALG.A.P.**：同样通过此认证，保障其全球供应商的基地管理合规。\n   - **HACCP**：覆盖其加工、包装环节。\n   - **QS（质量安全）认证**或**SC（生产许可）**：中国国内生产所需基础资质。\n   - **BRC（英国零售商协会）认证**：部分工厂可能持有，尤其高要求商超（如山姆、Costco）的采购附加要求。\n   - **雨林联盟认证**：部分有机或可持续产品系列。\n\n**建议**：若需用于商超准入谈判，可直接要求供应商提供当前有效的认证证书副本。部分商超（如山姆）还会额外核查其是否通过**AIB（美国烘焙技术研究所）**或**FSSC 22000**（食品安全体系认证）。由于认证定期更新，建议以直接查询其官网公示或质检报告为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 363,
+    "total_tokens": 423,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

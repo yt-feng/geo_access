@@ -1,0 +1,50 @@
+{
+  "questionId": "q79",
+  "prompt": "茶饮店用菠萝做果酱，需要菠萝全年供应，都乐和洪九果品能做到吗？",
+  "createdAt": "2026-07-17T22:34:17.156Z",
+  "summary": [
+    {
+      "questionId": "q79",
+      "prompt_index": 79,
+      "promptIndex": 79,
+      "promptHash": "721e1f67db9a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店用菠萝做果酱，需要菠萝全年供应，都乐和洪九果品能做到吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 663,
+      "text_length": 663,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 403,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 403,
+      "total_tokens": 467,
+      "latencyMs": 5697,
+      "latency_ms": 5697,
+      "createdAt": "2026-07-17T22:34:17.156Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q79/prompt.txt",
+        "answer": "q79/deepseek.txt",
+        "response": "q79/deepseek_response.json",
+        "sources": "q79/deepseek_sources.json",
+        "references": "q79/deepseek_references.json"
+      }
+    }
+  ]
+}

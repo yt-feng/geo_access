@@ -1,0 +1,28 @@
+{
+  "id": "5a849ea0-0745-44a2-b20f-94860b0972a9",
+  "object": "chat.completion",
+  "created": 1784327573,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，都乐（Dole）和洪九果品（Hongjiu Fruit）的锁价机制通常需根据具体合同条款、采购量及市场行情协商确定，暂未查到两家公司公开的统一锁价周期。建议您直接联系其销售部门或区域代理商，提供具体采购需求后获取准确报价与锁价周期。若需进一步行业参考，可咨询农产品贸易商或行业协会。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 89,
+    "total_tokens": 153,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

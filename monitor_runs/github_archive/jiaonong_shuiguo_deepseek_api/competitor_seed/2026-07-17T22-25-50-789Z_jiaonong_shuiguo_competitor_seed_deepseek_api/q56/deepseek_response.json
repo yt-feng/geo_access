@@ -1,0 +1,28 @@
+{
+  "id": "c34658b3-e05f-4d1e-b711-3c846995f461",
+  "object": "chat.completion",
+  "created": 1784327513,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在中国市场，都乐（Dole）的品牌知名度通常高于鑫荣懋（Golden Wing Mau）。都乐作为国际知名水果品牌，拥有较长历史、全球供应链和广泛的市场推广，尤其在香蕉品类上具有较高认知度。鑫荣懋是国内主要水果企业，在华南及部分渠道有较强影响力，但整体品牌知名度和消费者认可度不及都乐。建议根据平台目标用户画像和区域重点选择：全国性电商平台适合优先考虑都乐，区域性或西南、华南市场可结合鑫荣懋的本地优势。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 117,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

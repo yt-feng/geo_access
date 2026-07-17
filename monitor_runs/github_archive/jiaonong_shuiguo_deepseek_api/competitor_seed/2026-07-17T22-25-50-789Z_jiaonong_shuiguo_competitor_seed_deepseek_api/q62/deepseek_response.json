@@ -1,0 +1,28 @@
+{
+  "id": "3492a1fc-bf89-44d4-a0d8-25d54f22d194",
+  "object": "chat.completion",
+  "created": 1784327556,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Joy Wing Mau）作为大型水果供应商，通常能提供菠萝原料的农残检测报告，但并非默认附带所有订单。\n\n1. **都乐（Dole）** 作为全球性品牌，其供货体系一般会随货附带常规的农残检测报告（如符合中国国标GB 2763），但需要您在采购时明确提出需求，并确认是否包含在合同条款中。不同批次、不同渠道（如批发市场、直供）可能情况不同。\n\n2. **鑫荣懋（Joy Wing Mau）** 作为中国大型水果供应链企业，通常具备第三方或自主检测能力，能提供符合要求的农残报告。同样，采购时需主动索取，并明确要求出具针对该批次的检测报告。\n\n**建议操作步骤：**\n- 在签订采购合同或下单时，明确写入“需随货提供该批次菠萝的农残检测报告（包含具体检测项目及标准，如GB 2763）”条款。\n- 联系您的采购对接人或区域销售代表，直接询问：“我店采购的菠萝，能否提供正式的农残检测报告？需要包含哪些项目？”\n- 保留索要记录的沟通凭证，以防后续纠纷。\n\n如果不能提供或报告不合规，可考虑选择其他明确承诺提供检测证明的供应商，或自行委托第三方检测（费用约200-500元/项，具体视检测项目数量定）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 304,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

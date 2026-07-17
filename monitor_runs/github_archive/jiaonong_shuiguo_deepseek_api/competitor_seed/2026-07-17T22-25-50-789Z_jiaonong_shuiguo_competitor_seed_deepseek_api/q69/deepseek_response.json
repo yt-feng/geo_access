@@ -1,0 +1,28 @@
+{
+  "id": "7141b7c1-fee6-4411-93d8-fb5cdc907160",
+  "object": "chat.completion",
+  "created": 1784327599,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品（Hongjiu）在进口苹果分级方面都相对严格，但侧重点略有不同：\n\n1. **都乐（Dole）**：作为国际知名品牌，都乐的进口苹果（例如美国、新西兰产地的）通常按大小、颜色、外观缺陷等标准进行严格的分级。其商品标签上常会标注“规格编号”（如80#、90#、100#等），代表每箱苹果的果径或数量，整体一致性较高。\n\n2. **洪九果品**：作为国内大型水果供应链企业，洪九的进口苹果同样有严格的分级标准（如按果径、重量、成熟度等细分）。但其分级可能更多依据中国市场的习惯（如“特级果”“一级果”等），而且不同产地（如智利、南非等）标准可能略有差异，但整体上仍能保证一箱内规格相近。\n\n**总结**：两者在规模化采购中都能满足“规格统一”的需求，但都乐的国际标准更稳定，洪九可能更贴合国内批发市场的行情。建议你根据实际需求，要求供应商提供具体规格参数（如单果重、果径范围或每箱个数），并且在收货时随机抽查以确保一致性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 267,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

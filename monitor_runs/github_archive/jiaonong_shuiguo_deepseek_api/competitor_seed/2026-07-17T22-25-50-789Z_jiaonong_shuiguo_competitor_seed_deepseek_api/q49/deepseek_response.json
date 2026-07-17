@@ -1,0 +1,28 @@
+{
+  "id": "f9911a7b-f6ce-4fc6-ab0c-9dfb410253ec",
+  "object": "chat.completion",
+  "created": 1784327465,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**都乐（Dole）** 和 **鑫荣懋** 在客户服务方面均提供专人对接服务，但具体需根据合作规模或合同内容判断：\n\n1. **都乐（Dole）**：作为国际大型水果品牌，通常为大型商超、批发渠道或长期合作客户安排专属客户经理或区域销售代表；若为中小型采购，可能通过客服热线或区域分销商对接。\n2. **鑫荣懋**：作为国内主要水果供应链企业，通常对大客户（如连锁超市、电商平台）提供指定客户经理或团队服务；普通客户可通过销售网点或官方渠道联系。\n\n**建议行动**：\n- 直接联系两家企业的官方客服或销售部门，明确说明“需要专岗对接服务”，并询问合作门槛（如最低采购量、合同期限等）。\n- 若您的需求规模较大（如连锁门店、年度采购），通常更易获得专人服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 203,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

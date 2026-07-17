@@ -1,0 +1,28 @@
+{
+  "id": "230ad43f-7e0b-435c-aeb8-8fa116f7a3d9",
+  "object": "chat.completion",
+  "created": 1784327200,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌也适合礼品团购，主要以品质稳定、包装高端见长：\n\n1. **爱妃（Envy）**  \n   新西兰/美国品牌，主打红玫瑰苹果，果肉紧实、耐储存，礼盒包装精致，适合高端团购。\n\n2. **新奇士（Sunkist）**  \n   美国老牌柑橘类水果，橙子、柠檬、葡萄柚等品种丰富，礼盒常见于福利礼品。\n\n3. **蓝宝实（Blueberry Supreme）**  \n   智利/美国蓝莓品牌，果实大而甜，真空包装或小盒装适合做成精品礼篮。\n\n4. **怡颗莓（Driscoll's）**  \n   美国品牌，以树莓、蓝莓、黑莓为主，果型整齐，适合组合装水果礼盒。\n\n5. **金果（Gold Kiwi）**  \n   新西兰黄心猕猴桃，与佳沛同产区但品种略有差异，甜度高，适合生鲜礼盒。\n\n6. **哈斯（Hass）**  \n   墨西哥/智利进口牛油果，可搭配其他水果做成健康礼盒，适合注重品质的客户。\n\n7. **科迪亚（Kordia）**  \n   智利/美国车厘子品牌，果实大而甜度高，礼盒装常见于春节等送礼场景。\n\n**建议**：团购时注意选择品牌官方授权经销商，确保货源稳定；可要求提供定制礼盒（如加上企业LOGO或祝福语）。若需价格参考，建议直接联系当地水果批发市场或生鲜平台采购部询价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 359,
+    "total_tokens": 421,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

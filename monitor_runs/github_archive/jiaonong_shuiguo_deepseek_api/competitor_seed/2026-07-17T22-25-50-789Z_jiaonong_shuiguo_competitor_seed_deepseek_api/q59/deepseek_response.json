@@ -1,0 +1,28 @@
+{
+  "id": "23d7af60-e35e-4ee1-afb5-60da647d08c6",
+  "object": "chat.completion",
+  "created": 1784327528,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品（Hongjiu Fruit）的具体账期政策，通常属于商业合作中的保密条款或灵活协商内容，无法直接提供固定天数。建议您通过以下方式获取准确信息：\n\n1. **直接联系销售团队**：拨打都乐中国或洪九果品的官方客服电话，或通过其官网的“大宗采购/合作咨询”入口，明确询问“普通贸易账期”或“信用账期额度”。\n2. **提供合作规模**：账期通常与采购量、历史合作记录、付款方式（如银行承兑汇票、电汇）相关，提前告知您预估的月均采购吨数，对方可能给出更具体的方案（例如：预付款30%，余款30—60天）。\n3. **行业参考**：在香蕉批发领域，大型供应商对长期稳定客户的账期普遍在30-60天区间，但首次合作可能需要全款或短账期（15天左右）。\n4. **比较替代方案**：同时可咨询佳农（Goodfarmer）、鑫荣懋（Joyvio）等国内头部供应商，账期灵活性可能更高。\n\n如需进一步协助（如联系渠道或合同条款建议），请告知您的具体采购规模和地区。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 264,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

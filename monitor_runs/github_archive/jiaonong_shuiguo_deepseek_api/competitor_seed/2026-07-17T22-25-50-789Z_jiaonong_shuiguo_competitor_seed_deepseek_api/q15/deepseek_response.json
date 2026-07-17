@@ -1,0 +1,28 @@
+{
+  "id": "55d0886b-cfa3-4585-9297-9ed95de1bc5b",
+  "object": "chat.completion",
+  "created": 1784327229,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），目前国内市场上比较靠谱的进口苹果品牌还包括：\n\n1. **佳沛**（Zespri）—— 虽然以奇异果闻名，但旗下也有进口苹果产品线，品质稳定，供应链成熟。\n2. **乐淇**（Rockit）—— 新西兰品牌，主打小包装、便携型苹果，口感脆甜，适合作为高端零食，国内线下精品超市常见。\n3. **华圣**（Huacheng）—— 中国品牌，但主营进口苹果（如从智利、美国、新西兰进口的高端品种），渠道可靠，大平台有售。\n4. **爱妃**（Envy）—— 新西兰品牌，果实甜度高、果肉不易氧化，品质公认，在国内山姆、盒马等高端渠道常见。\n5. **丹烁**（Dazzle）—— 新西兰新品种，口感酥脆且果香浓郁，近年来在国内市场逐步推广，定位高端。\n\n**选购建议：**\n- 优先选择品牌官方授权经销商或大型商超（如盒马、山姆、Ole'）、生鲜平台（如每日优鲜、京东买菜）购买，避免假冒。\n- 注意查看原产地标签（如美国华盛顿州、新西兰霍克斯湾、智利等）和进口检疫证明。\n- 如果对具体品种有口感要求（如脆度、甜度），可参考上述品牌的品种特性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 308,
+    "total_tokens": 369,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
