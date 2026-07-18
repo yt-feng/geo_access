@@ -1,0 +1,50 @@
+{
+  "questionId": "q02",
+  "prompt": "小水果店进香蕉时，应该更看重价格、熟度、坏果率还是送货速度？",
+  "createdAt": "2026-07-18T22:09:26.664Z",
+  "summary": [
+    {
+      "questionId": "q02",
+      "prompt_index": 2,
+      "promptIndex": 2,
+      "promptHash": "0989c3e7902b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "小水果店进香蕉时，应该更看重价格、熟度、坏果率还是送货速度？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 579,
+      "text_length": 579,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 386,
+        "total_tokens": 448,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 386,
+      "total_tokens": 448,
+      "latencyMs": 4981,
+      "latency_ms": 4981,
+      "createdAt": "2026-07-18T22:09:26.664Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q02/prompt.txt",
+        "answer": "q02/deepseek.txt",
+        "response": "q02/deepseek_response.json",
+        "sources": "q02/deepseek_sources.json",
+        "references": "q02/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bdaca60a-81ff-4c2b-a226-729ea177c6cf",
+  "object": "chat.completion",
+  "created": 1784412585,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为减少香蕉损耗，建议向供应商提出以下明确要求：\n\n**1. 熟度要求：**\n- 选择**绿熟期**（全绿但果形饱满）或**微黄熟期**（果柄附近轻微转黄，整体仍以绿色为主）的香蕉。不要采购已经全黄或出现黑斑的香蕉。\n- 根据预计销售速度调整：计划3-5天内卖完的可选微黄熟期；若需存放更久则选全绿。\n\n**2. 到货时间：**\n- 要求**低温运输**（13-15℃），并避开周末或高峰配送时段，最好在工作日早晨到货，以便第一时间验收和入库。\n- 到货后立即检查：确保果皮无大面积擦伤、无发黑、无腐烂，并测试硬度（手感坚实有弹性）。\n- 若无法立即售完，可要求**分批次到货**（例如每周到货2-3次，每次少量），避免一次性囤积。\n\n**3. 其他要求：**\n- 明确要求供应商使用**通风纸箱**包装，避免密闭袋装。\n- 到货后别和苹果、梨等释放乙烯的水果混放，这会导致香蕉快速成熟。\n\n**总结一句话：** 采购全绿或微黄熟度、要求低温早晨到货、分批次少量到货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 291,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

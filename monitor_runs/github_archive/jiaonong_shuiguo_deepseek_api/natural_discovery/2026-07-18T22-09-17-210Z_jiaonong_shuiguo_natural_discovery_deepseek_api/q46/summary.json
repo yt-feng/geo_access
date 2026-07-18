@@ -1,0 +1,50 @@
+{
+  "questionId": "q46",
+  "prompt": "茶饮店想采购菠萝做果茶，应该买鲜果、果丁还是果泥？",
+  "createdAt": "2026-07-18T22:14:20.485Z",
+  "summary": [
+    {
+      "questionId": "q46",
+      "prompt_index": 46,
+      "promptIndex": 46,
+      "promptHash": "84cbc3814272",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店想采购菠萝做果茶，应该买鲜果、果丁还是果泥？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 622,
+      "text_length": 622,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 425,
+        "total_tokens": 486,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 425,
+      "total_tokens": 486,
+      "latencyMs": 5349,
+      "latency_ms": 5349,
+      "createdAt": "2026-07-18T22:14:20.485Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q46/prompt.txt",
+        "answer": "q46/deepseek.txt",
+        "response": "q46/deepseek_response.json",
+        "sources": "q46/deepseek_sources.json",
+        "references": "q46/deepseek_references.json"
+      }
+    }
+  ]
+}

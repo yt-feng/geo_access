@@ -1,0 +1,28 @@
+{
+  "id": "203254c2-910e-41c4-92d7-4db9cd5454be",
+  "object": "chat.completion",
+  "created": 1784413012,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在合同中明确坏果责任，建议重点写清以下条款：\n\n1. **验收期限**：写明“收货方应在货到后【X】小时内（建议12-24小时）完成开箱验收，超时未提出书面异议视为货物合格。”\n2. **分级责任**：约定“自然损耗率”范围（如水果类通常约定3-5%以内由买方承担），超出部分由卖方负责。\n3. **举证方式**：要求“收货方需提供清晰照片/视频证明坏果比例及数量，作为索赔依据。”\n4. **赔偿标准**：具体写明“坏果按单价【X元/斤】从总货款中扣除，或直接退还坏果对应货款。”\n5. **争议处理**：约定“如双方对损耗率有争议，可委托【第三方检测机构名称】鉴定，费用由责任方承担。”\n\n建议在合同正文或附件中保留实物样品照片/录像，并明确运输保险是否覆盖此类风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 208,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6cced9cd-9b7a-4280-a0d7-941224d063dd",
+  "object": "chat.completion",
+  "created": 1784413332,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "长期合作中，优先谈判的次序建议为：**售后 > 账期 > 配送**。原因如下：\n\n1. **售后（如退换货、坏果率处理）**：水果是易损耗品，品质波动大。清晰的售后条款能直接降低你的损失，避免因批次质量问题导致长期纠纷。例如约定“到货24小时内可申请退换”或“坏果率超过5%全额赔付”，能保障核心利益。\n\n2. **账期**：现金流很重要，但可通过阶段性方案替代一次性长账期（如“30天付款，交易满3个月后再延长15天”）。售后问题如果没谈好，账期只会延长你处理问题的周期。\n\n3. **配送**：频率、到货时间可后续根据实际运营弹性调整（如加急补单），且多为标准服务，非核心痛点。\n\n**建议行动**：先以“试合作期（如1-2个月）”为基础，锁定售后条款；账期和配送可依据后续交易量、配合度再谈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 222,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

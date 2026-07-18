@@ -1,0 +1,28 @@
+{
+  "id": "e4648d51-8d02-42fc-b7c7-dce7f15ba18f",
+  "object": "chat.completion",
+  "created": 1784413228,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "酒店采购水果盘原料时，供应商需保证以下规格和外观标准：\n\n1. **新鲜度**：水果应无腐烂、霉变、软烂或明显机械损伤。切面应新鲜，无氧化变色。\n2. **成熟度**：根据水果种类，成熟度应适宜（如香蕉不过生或过熟，芒果软硬适中），便于食用和摆盘。\n3. **色泽**：颜色均匀自然，无明显斑点、褐变或异常色泽（如苹果无黑心、橙子无青斑）。\n4. **大小均匀性**：同一批次水果尺寸应基本一致，便于切配和摆盘美观（如草莓大小相近，葡萄颗粒均匀）。\n5. **外观完整**：表皮无严重磕碰、划伤、压痕或开裂（如西瓜无裂纹，蓝莓无瘪粒）。\n6. **清洁度**：无泥土、农药残留、虫卵或异物（如叶片、沙粒）。\n7. **包装**：符合食品卫生标准，包装材料无破损，标注清晰（如生产日期、产地、品种名称）。\n\n建议在采购合同中明确以上标准，并附上允许的误差范围（如每箱中允许2-3个轻微瑕疵品，但需提前约定）。收货时需进行现场外观检查，抽样检查内部质量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 277,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

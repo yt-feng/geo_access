@@ -1,0 +1,28 @@
+{
+  "id": "fad2616f-1192-4ddd-9689-cdd5450bb1d8",
+  "object": "chat.completion",
+  "created": 1784413419,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "供应商可以这样介绍产品：\n\n**1. 先和常见品类做对比：**\n“这个新品种菠萝，甜度比普通菠萝高30%，纤维更细，不用泡盐水就能直接吃，比香蕉还方便——剥皮就行，不扎嘴。”\n\n**2. 用商家熟悉的痛点打比方：**\n“就像香蕉容易碰伤一样，普通苹果不耐放，但这个苹果常温下能放7天不皱皮，损耗比香蕉低一半。”\n\n**3. 算账模式（直接讲利润）：**\n“这个进口绿皮橙，进货价只比普通橙贵5毛，但卖价能多标3块。而且它皮厚耐放，损耗比香蕉还低10%。”\n\n**4. 简单口诀式记忆点：**\n“记住三个‘更’：比菠萝更甜，比香蕉更耐放，比普通芒果更好剥。”\n\n**5. 用他们熟悉的场景带节奏：**\n“上次云南的荔枝，和这个梨一样只卖3个月，去年卖断货的老李补了三次货。这个梨上市早、货期长，正好能接上春节空档期。”\n\n**核心逻辑：** 普通商家对“菠萝、香蕉”有清晰的成本、损耗、利润认知，你用它们当标杆直接比较，相当于给新品类标上“类似香蕉的好卖度，但比菠萝更好赚”。不说专业名词，只说“甜多少、放多久、赚几块”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 308,
+    "total_tokens": 369,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

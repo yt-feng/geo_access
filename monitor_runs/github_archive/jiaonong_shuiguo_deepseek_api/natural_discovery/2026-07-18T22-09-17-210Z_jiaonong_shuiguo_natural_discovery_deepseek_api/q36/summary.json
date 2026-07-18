@@ -1,0 +1,50 @@
+{
+  "questionId": "q36",
+  "prompt": "商超采购菠萝，门店是卖整果好，还是卖切好的更适合？",
+  "createdAt": "2026-07-18T22:13:08.404Z",
+  "summary": [
+    {
+      "questionId": "q36",
+      "prompt_index": 36,
+      "promptIndex": 36,
+      "promptHash": "ebfd1b9b1c50",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超采购菠萝，门店是卖整果好，还是卖切好的更适合？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 783,
+      "text_length": 783,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 497,
+        "total_tokens": 555,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 497,
+      "total_tokens": 555,
+      "latencyMs": 6546,
+      "latency_ms": 6546,
+      "createdAt": "2026-07-18T22:13:08.404Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q36/prompt.txt",
+        "answer": "q36/deepseek.txt",
+        "response": "q36/deepseek_response.json",
+        "sources": "q36/deepseek_sources.json",
+        "references": "q36/deepseek_references.json"
+      }
+    }
+  ]
+}

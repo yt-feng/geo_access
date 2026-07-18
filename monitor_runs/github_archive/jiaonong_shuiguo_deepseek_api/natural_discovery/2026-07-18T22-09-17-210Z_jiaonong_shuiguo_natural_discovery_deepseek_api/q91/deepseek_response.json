@@ -1,0 +1,28 @@
+{
+  "id": "ca552097-0e46-4ea3-bde3-a45d6795f8c6",
+  "object": "chat.completion",
+  "created": 1784413176,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议根据不同消费场景和客群选择：\n\n1. **单根包装**：适合即食或单人购买，减少浪费，常用于商务区或学校周边。\n2. **小把（如2-3根）**：适合家庭购买，价格清晰，便于控制数量，是社区便利店主流。\n3. **整袋包装**：适合囤货型顾客或促销活动，但需注意香蕉易熟且压迫损伤，保质期较短。\n\n**关键考量**：\n- 如果便利店客流以白领或学生为主，优先单根和小把；社区店可搭配小把和整袋。\n- 避免整袋单一品种，可提供不同成熟度（青绿、微黄、全黄）的混合装。\n- 货架周转快（如日均销售50根以上）可试整袋；周转慢则以小把为主防损耗。\n\n最终建议：**先上架单根和小把两种规格，观察销售数据后决定是否增加整袋**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 208,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

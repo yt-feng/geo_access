@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:14:59.428Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "餐饮店需要每天少量水果，找什么样的供应商比较省心？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

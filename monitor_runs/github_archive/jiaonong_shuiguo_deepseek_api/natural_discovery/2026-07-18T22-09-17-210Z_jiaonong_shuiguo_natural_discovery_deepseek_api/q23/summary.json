@@ -1,0 +1,50 @@
+{
+  "questionId": "q23",
+  "prompt": "超市做水果促销，供应商能不能提供陈列、海报或试吃支持？",
+  "createdAt": "2026-07-18T22:11:42.536Z",
+  "summary": [
+    {
+      "questionId": "q23",
+      "prompt_index": 23,
+      "promptIndex": 23,
+      "promptHash": "b6ab53637a0b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市做水果促销，供应商能不能提供陈列、海报或试吃支持？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 251,
+      "text_length": 251,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 145,
+        "total_tokens": 201,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 145,
+      "total_tokens": 201,
+      "latencyMs": 2479,
+      "latency_ms": 2479,
+      "createdAt": "2026-07-18T22:11:42.536Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q23/prompt.txt",
+        "answer": "q23/deepseek.txt",
+        "response": "q23/deepseek_response.json",
+        "sources": "q23/deepseek_sources.json",
+        "references": "q23/deepseek_references.json"
+      }
+    }
+  ]
+}

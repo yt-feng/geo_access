@@ -1,0 +1,50 @@
+{
+  "questionId": "q116",
+  "prompt": "小商家采购水果，现金结算和月结账期各有什么风险？",
+  "createdAt": "2026-07-18T22:23:00.207Z",
+  "summary": [
+    {
+      "questionId": "q116",
+      "prompt_index": 116,
+      "promptIndex": 116,
+      "promptHash": "7dba67ca8257",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "小商家采购水果，现金结算和月结账期各有什么风险？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 596,
+      "text_length": 596,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 346,
+        "total_tokens": 402,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 346,
+      "total_tokens": 402,
+      "latencyMs": 6121,
+      "latency_ms": 6121,
+      "createdAt": "2026-07-18T22:23:00.207Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q116/prompt.txt",
+        "answer": "q116/deepseek.txt",
+        "response": "q116/deepseek_response.json",
+        "sources": "q116/deepseek_sources.json",
+        "references": "q116/deepseek_references.json"
+      }
+    }
+  ]
+}

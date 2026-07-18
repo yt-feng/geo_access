@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:15:22.408Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "餐饮连锁采购水果，中央厨房统一收货还是门店分开收货更好？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

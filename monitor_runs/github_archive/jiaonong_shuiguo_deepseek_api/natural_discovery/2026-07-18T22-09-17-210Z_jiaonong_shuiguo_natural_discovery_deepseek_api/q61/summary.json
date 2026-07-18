@@ -1,0 +1,50 @@
+{
+  "questionId": "q61",
+  "prompt": "批发档口想找香蕉一手货源，怎么判断对方是不是稳定供货？",
+  "createdAt": "2026-07-18T22:15:47.047Z",
+  "summary": [
+    {
+      "questionId": "q61",
+      "prompt_index": 61,
+      "promptIndex": 61,
+      "promptHash": "7927cadd5542",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发档口想找香蕉一手货源，怎么判断对方是不是稳定供货？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1201,
+      "text_length": 1201,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 745,
+        "total_tokens": 801,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 745,
+      "total_tokens": 801,
+      "latencyMs": 7968,
+      "latency_ms": 7968,
+      "createdAt": "2026-07-18T22:15:47.047Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q61/prompt.txt",
+        "answer": "q61/deepseek.txt",
+        "response": "q61/deepseek_response.json",
+        "sources": "q61/deepseek_sources.json",
+        "references": "q61/deepseek_references.json"
+      }
+    }
+  ]
+}

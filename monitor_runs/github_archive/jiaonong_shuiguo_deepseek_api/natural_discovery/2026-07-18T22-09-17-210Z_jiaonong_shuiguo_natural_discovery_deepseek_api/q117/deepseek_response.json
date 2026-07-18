@@ -1,0 +1,28 @@
+{
+  "id": "4c1b77fc-788d-46fa-a7b5-801d941004e5",
+  "object": "chat.completion",
+  "created": 1784413387,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先采用**小批量试卖**策略，具体数量可根据以下因素判断：\n\n1. **店铺/平台规模**：小型水果店或线上小卖家，建议首批**10-20斤**；中型超市或生鲜平台，可尝试**50-100斤**；大型连锁或批发商，首批控制在**200-500斤**以内。\n2. **新品特点**：如果是易损耗、季节性强的水果（如荔枝、草莓），试卖量宜更少（10-30斤）；如果是耐储存、需求稳定的品种（如苹果、橙子），可适当增加。\n3. **试卖周期**：建议设定**3-5天**为试卖窗口期，观察顾客反馈、复购率及损耗情况。若3天内售罄且好评多，可逐步追加；若滞销或损耗高，及时调整进货量。\n\n**核心原则**：宁可少订多补，避免积压损耗。试卖期间注意：\n- 记录每日销量、顾客询问频率、退货/投诉情况。\n- 对比同类竞品的价格和受欢迎程度。\n- 若首批库存能**在3天内售出50%以上**，可视为初期成功，再决定是否扩大订货量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 261,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

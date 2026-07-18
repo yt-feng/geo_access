@@ -1,0 +1,28 @@
+{
+  "id": "9f732537-f2dd-456c-86e4-80461d3ea64f",
+  "object": "chat.completion",
+  "created": 1784412702,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，供应商是否能提供陈列、海报或试吃支持，取决于双方的合同约定和供应商的政策。建议你直接与供应商沟通，明确以下问题：\n\n- **陈列支持**：询问是否能提供货架调整、促销台、专属陈列道具等。\n- **海报支持**：确认是否有标准促销海报、价签模板或允许自行制作后报销。\n- **试吃支持**：确认试吃产品、试用容器、试吃台及人员协调等细节。\n\n如果合同或长期协议中已包含促销支持条款，可直接据此执行；若未提及，可尝试协商作为临时促销附加条件。最终需以书面确认（如邮件或补充协议）为准，避免误解。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 145,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

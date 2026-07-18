@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:12:39.034Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "连锁超市采购香蕉，怎么判断供应商能不能全年稳定供货？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

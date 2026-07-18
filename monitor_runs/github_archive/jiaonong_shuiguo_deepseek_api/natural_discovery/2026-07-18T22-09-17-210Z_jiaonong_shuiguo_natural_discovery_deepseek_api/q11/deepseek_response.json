@@ -1,0 +1,28 @@
+{
+  "id": "1ee9bd0f-c86b-4b35-86dc-ef2b3f0ac820",
+  "object": "chat.completion",
+  "created": 1784412629,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，会影响销售。大小不一的香蕉在视觉上不整齐，顾客可能会觉得品质参差不齐，从而降低购买意愿。此外，大小差异也可能导致部分香蕉过于成熟或过于青涩，影响口感和食用体验。建议在采购时尽量选择大小均匀、成熟度一致的一箱香蕉，或者在销售前按大小和成熟度分拣陈列。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 77,
+    "total_tokens": 131,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

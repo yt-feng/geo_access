@@ -1,0 +1,28 @@
+{
+  "id": "bd183e4c-dabc-4f8f-b6da-8795a72173fa",
+  "object": "chat.completion",
+  "created": 1784412904,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购时建议**优先关注成熟度**，其次才是价格。具体原因如下：\n\n1. **成熟度影响成品口感**：做香蕉蛋糕常需熟透（表皮出现黑斑）的香蕉，甜度高、易捣碎、香味更浓。若为控制成本购买较生的香蕉，需要额外催熟，且成品甜度可能不足。\n2. **价格与成本的权衡**：熟透的香蕉常因品相不佳打折，反而可能比采购生香蕉更便宜。即使价格稍高，也要避免购买未熟的香蕉。\n3. **可操作性建议**：与供应商约定“适合烘焙的熟度标准”，如八成以上表皮变黄带黑斑，并优先选接近临界点需尽快使用的特价香蕉。同时检查是否有腐烂或过度软烂，避免损耗。\n\n如果价格差异过大（如生香蕉便宜50%以上），可考虑采购后放置2-3天自然催熟，但需确保烘烤计划能匹配时间窗口。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 208,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

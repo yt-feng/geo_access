@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:22:00.727Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商说能全国配送，采购方应该怎么核实实际覆盖能力？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

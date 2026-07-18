@@ -1,0 +1,28 @@
+{
+  "id": "ce1bfc60-fc4f-4031-82bd-de38b1431287",
+  "object": "chat.completion",
+  "created": 1784413082,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该优先问配送能力和售后政策，价格反而是最后确认的细节。具体逻辑如下：\n\n1. **先确认配送能力**（最核心）：水果保鲜期短，供应商能否按时、按量、按指定温度配送（尤其夏季或长途），直接影响团长能否正常开团。建议明确：起送量、配送时间窗口、坏果/磕碰的补发标准（如是否支持24小时内退换）。\n\n2. **再确认售后规则**：水果易损，退换货规则决定你的风险。重点问：坏果包赔比例（如5%以内正常还是100%赔付？）、赔付方式（补发还是退款）、是否需要提供照片/视频凭证。规避“生鲜不退不换”的霸王条款。\n\n3. **最后谈价格**：价格需结合前面两项核算。如果供应商配送能力差、售后苛刻，即使单价低20%，退换货率可能更高，最终成本反而上升。\n\n**建议话术框架**：\n“请问贵司的配送时间固定吗？水果出现磕碰或挤压，是全额赔付还是按比例？价格表能包含运费吗？”\n\n选择供应商时，建议先跟1-2家签试合作订单，实际验证配送时效和售后响应速度，再决定长期合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 267,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

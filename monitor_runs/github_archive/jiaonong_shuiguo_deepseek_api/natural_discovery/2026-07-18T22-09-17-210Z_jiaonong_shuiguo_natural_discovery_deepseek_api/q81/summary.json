@@ -1,0 +1,50 @@
+{
+  "questionId": "q81",
+  "prompt": "即时零售平台卖水果，供应商要不要支持小批量高频补货？",
+  "createdAt": "2026-07-18T22:18:15.260Z",
+  "summary": [
+    {
+      "questionId": "q81",
+      "prompt_index": 81,
+      "promptIndex": 81,
+      "promptHash": "5809657a828e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "即时零售平台卖水果，供应商要不要支持小批量高频补货？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 494,
+      "text_length": 494,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 312,
+        "total_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 312,
+      "total_tokens": 367,
+      "latencyMs": 4205,
+      "latency_ms": 4205,
+      "createdAt": "2026-07-18T22:18:15.260Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q81/prompt.txt",
+        "answer": "q81/deepseek.txt",
+        "response": "q81/deepseek_response.json",
+        "sources": "q81/deepseek_sources.json",
+        "references": "q81/deepseek_references.json"
+      }
+    }
+  ]
+}

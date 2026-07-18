@@ -1,0 +1,28 @@
+{
+  "id": "d91e8956-5669-4a44-a7d5-79817a41f6fb",
+  "object": "chat.completion",
+  "created": 1784413122,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对家庭团购水果礼盒，建议采用“高颜值+全家适口+耐储存+性价比”的组合。以下是具体搭配方案：\n\n**推荐组合方案：**  \n- **苹果（4个）**：象征平安，口感百搭，耐储存，几乎每个家庭都吃。  \n- **橙子（4个）**：颜色鲜艳，寓意吉祥（心想事成），富含维生素C，老少皆宜。  \n- **香蕉（1-2把）**：软糯易消化，适合老人和小孩，但易熟易碰伤，需单独隔层包装。  \n- **菠萝（1个，半熟）**：酸甜开胃，可作饭后水果，半熟状态方便家庭自行催熟，避免运输中过熟变质。\n\n**避坑建议：**  \n- 香蕉容易挤压变黑，建议用单独纸袋或气泡膜包裹，放在礼盒最上层。  \n- 菠萝去刺去皮反而易氧化，建议保留完整果皮，附赠削皮小工具更贴心。  \n- 礼盒总重量控制在3-4公斤，避免超重影响物流成本。\n\n**备注：**  \n若以性价比为主，可替换菠萝为哈密瓜（耐放、出肉率高）；若追求高端感，可增加阳光玫瑰葡萄（需防压包装）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 281,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eb9f5f1b-690f-4091-883c-3686bce4c7cb",
+  "object": "chat.completion",
+  "created": 1784412899,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对餐饮店每天少量水果的需求，推荐选择**本地农贸批发市场的二级批发商**或**社区生鲜配送平台**。理由如下：\n\n1. **农贸市场的二级批发商**  \n   - 他们通常服务小饭店、食堂，支持小批量采购（如每次几斤到几十斤）。  \n   - 可以固定合作，每天提前微信下单，送货上门或固定时间自提。  \n   - 新鲜度较高，且能根据季节调整品种。  \n   - 价格比超市便宜，比大批发市场略高但更省心。  \n\n2. **社区生鲜B2B配送平台**（如美菜、快驴、当地生鲜供货APP）  \n   - 支持每日小订单，一键下单，次日送达。  \n   - 品种固定，标准化包装，适合不想频繁询价的情况。  \n   - 注意选择有“餐饮专供”标识的平台，避免零售包装的浪费。  \n\n**避坑建议**：  \n- 不要直接找大型一级批发市场（如新发地），他们起批量大（通常整箱/整筐起卖），不合适。  \n- 避免个体摊贩：价格不稳定，无合同约束，可能临时缺货。  \n\n**最优策略**：先试用一个平台（如美菜）解决日常基础水果，再联系一个本地二级批发商作为备用应急渠道。每天提前一天下单，固定时间交接，基本不用操心。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 307,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

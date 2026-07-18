@@ -1,0 +1,28 @@
+{
+  "id": "42e7ff18-5b01-4448-9167-881b08374812",
+  "object": "chat.completion",
+  "created": 1784412706,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议向供应商索要以下资料以确保水果农残合规：\n\n1. **农药残留检测报告**：要求提供第三方检测机构（如SGS、华测等）出具的最新批次检测报告，列出具体农残项目和限量值，确认符合国标GB 2763。\n2. **产地证明或合格证**：需标注供应商名称、产地、采收日期等信息，证明来源可追溯。\n3. **供应商资质**：营业执照、食品经营许可证（如适用）及批次产品的出厂检验报告。\n4. **承诺书或协议**：部分超市可要求供应商签署农残合规承诺函，约定抽检不合格的赔偿责任。\n\n建议在采购合同中明确要求提供上述资料，并约定每批次交货前提供检测报告，或由超市方定期抽检核验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 166,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

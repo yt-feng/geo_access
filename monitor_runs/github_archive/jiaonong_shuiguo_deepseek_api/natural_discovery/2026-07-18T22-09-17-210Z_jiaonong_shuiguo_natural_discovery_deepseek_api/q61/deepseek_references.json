@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:15:47.047Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发档口想找香蕉一手货源，怎么判断对方是不是稳定供货？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

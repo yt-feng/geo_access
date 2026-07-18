@@ -1,0 +1,50 @@
+{
+  "questionId": "q06",
+  "prompt": "社区水果店每天销量不稳定，适合找能小批量多次配送的供应商吗？",
+  "createdAt": "2026-07-18T22:09:56.368Z",
+  "summary": [
+    {
+      "questionId": "q06",
+      "prompt_index": 6,
+      "promptIndex": 6,
+      "promptHash": "6872fbbd7a15",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区水果店每天销量不稳定，适合找能小批量多次配送的供应商吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 129,
+      "text_length": 129,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 83,
+        "total_tokens": 141,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 83,
+      "total_tokens": 141,
+      "latencyMs": 2000,
+      "latency_ms": 2000,
+      "createdAt": "2026-07-18T22:09:56.368Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q06/prompt.txt",
+        "answer": "q06/deepseek.txt",
+        "response": "q06/deepseek_response.json",
+        "sources": "q06/deepseek_sources.json",
+        "references": "q06/deepseek_references.json"
+      }
+    }
+  ]
+}
