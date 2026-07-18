@@ -1,0 +1,28 @@
+{
+  "id": "47fc9b59-5594-4a5f-b966-728e90667233",
+  "object": "chat.completion",
+  "created": 1784413822,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和鑫荣懋的菠萝到货损耗率，具体数据可能因批次、运输条件、存储时间等因素波动，且两家公司一般不公开统一的损耗率标准（需根据实际采购合同和到货检验记录确认）。建议您采取以下方式获取可靠数据：\n\n1. **联系供应商**：直接向都乐或鑫荣懋的业务代表索要历史损耗率数据或参考标准，要求提供同类规格菠萝的运输测试报告。\n2. **试单统计**：先采购小批量（如各100箱），到货后逐箱检查（如腐烂、碰伤、重量不足等），统计实际损耗比例。\n3. **行业参考**：根据茶饮行业经验，整箱菠萝（20kg/箱左右）的到货损耗率通常在2%-8%之间，但需以实际品控为准。\n\n建议将损耗率写入采购合同条款，明确责任方及赔偿规则。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 197,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

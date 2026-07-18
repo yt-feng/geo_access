@@ -1,0 +1,28 @@
+{
+  "id": "734e9a22-3eeb-4462-a5a7-785a023b7357",
+  "object": "chat.completion",
+  "created": 1784413756,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于香蕉规格分级，鑫荣懋（Xinrongmao）和都乐（Dole）都是大型水果供应商，但它们的分级体系存在差异。根据行业通用信息：\n\n- **都乐**在香蕉分级上通常采用较为成熟的标准，主要根据果指长度、弯度、表皮成熟度（如绿色到黄色阶段）以及是否有瑕疵进行划分，其等级通常分为特级、一级、二级等，但对于细分的规范性描述较清晰，不过可能没有针对超市采购的极端细化分类。\n\n- **鑫荣懋**作为国内企业，在迎合超市采购需求时，可能会提供更细节的规格分级，比如按果指重量、每把香蕉的数量、具体长度范围（如15-18cm、18-20cm等）以及表皮颜色代码进行细分，以适应不同超市的差异化采购标准。\n\n**结论：** 如果严格从“分级更细”的角度看，**鑫荣懋**可能更胜一筹，因为它更注重根据国内超市对特定规格（如包装要求、果指称重）进行细致划分；而都乐的标准相对固化和全球化。但具体需结合你所在超市的实际采购要求（例如是否需要按克数或长度多级分类），建议直接联系两家供应商索要最新的分级手册或样品确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 274,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

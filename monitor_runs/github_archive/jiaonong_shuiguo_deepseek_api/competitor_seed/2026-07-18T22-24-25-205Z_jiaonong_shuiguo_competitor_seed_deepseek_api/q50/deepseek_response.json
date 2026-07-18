@@ -1,0 +1,28 @@
+{
+  "id": "a1a165a1-7b1a-45c7-8495-eb24a105a149",
+  "object": "chat.completion",
+  "created": 1784413809,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的都乐与洪九果品品牌联名礼盒的问题，目前根据公开信息，**两者并没有官方公布的品牌联名合作项目**。以下是一些具体分析：\n\n1. **都乐（Dole）**：主要专注于进口水果、鲜切水果和预制食品，品牌授权和联名通常较为谨慎，多与大型IP或零售平台合作。\n2. **洪九果品**：是国内大型水果供应链企业，主要面向B端批发和品牌商超，自有联名活动较少。\n\n**建议：**\n- **直接咨询官方**：建议您通过都乐官网或洪九果品官方客服，明确询问是否有联名定制合作可能。\n- **替代方案**：如果仅为礼盒定制，可分别采购双方产品，自行组合包装（需注意商标使用限制，避免侵权）。例如：① 礼盒内分别放都乐和洪九的独立包装产品；② 联合设计“品牌联名”字样时需获得双方书面授权。\n- **其他品牌**：如果您追求联名效果，可以考虑永辉、盒马等自有品牌，或委托第三方平台如“礼多多”“美礼盒”进行整合定制。\n\n请根据您的团购规模、预算和授权需求做进一步决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 266,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

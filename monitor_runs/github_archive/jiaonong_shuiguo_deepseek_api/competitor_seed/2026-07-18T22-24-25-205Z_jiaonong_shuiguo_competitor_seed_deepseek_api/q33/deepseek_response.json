@@ -1,0 +1,28 @@
+{
+  "id": "c4a34e13-d72e-416a-b13e-90c55a8b0dff",
+  "object": "chat.completion",
+  "created": 1784413685,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "洪九果品和鑫荣懋作为国内大型水果批发企业，到货速度受区域分布、产品品类、采购量级及物流安排等因素影响较大。通常情况下：\n\n- **洪九果品**侧重源头直采和自有供应链网络，在西南、华南地区可能到货较快，尤其热带水果类。\n- **鑫荣懋**作为老牌果业龙头，在华东、华北等核心市场仓储和分拨体系较成熟，标准品到货相对稳定。\n\n**建议：**\n1. **联系当地批发市场**：直接询问摊主或仓库负责人，他们了解实际到货时间。\n2. **对比发货地**：确认你所在区域与两公司主要仓库的距离。\n3. **小额试单**：各下一单同品类、同量级订单，记录实际到货时间。\n\n如无法核验可靠来源，建议通过本地水果批发商微信群、市场管理方获取实时反馈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 199,
+    "total_tokens": 258,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de7eb18b-e275-46f8-9590-9a9352e96c88",
+  "object": "chat.completion",
+  "created": 1784413482,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果您在寻找高品质的进口香蕉品牌，以下是一些市场认可度较高的选择，供参考：\n\n1. **都乐（Dole）**  \n   全球知名水果品牌，以稳定的品质和供应链著称，其香蕉口感软糯、甜度高，在中国市场覆盖广泛。\n\n2. **佳农（Goodfarmer）**  \n   国内领先的进口水果供应商，香蕉主要来自菲律宾、厄瓜多尔等地，果肉细腻，适合商超和终端销售。\n\n3. **金考拉（Chiquita）**  \n   历史悠久的国际品牌，主打中美洲香蕉（如哥斯达黎加、危地马拉），果形均匀，甜度稳定，常用于高端零售。\n\n4. **超益（Superior）**  \n   专注于东南亚香蕉（如越南、菲律宾），性价比高，适合渠道大规模采购，尤其受中端市场欢迎。\n\n**建议：**  \n- 若注重品牌溢价和消费认知，优先考虑都乐或金考拉；  \n- 若需要平衡成本与品质，佳农和超益的供应链更灵活；  \n- 建议联系品牌在中国的代理或官网获取最新报价与区域分销信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 245,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

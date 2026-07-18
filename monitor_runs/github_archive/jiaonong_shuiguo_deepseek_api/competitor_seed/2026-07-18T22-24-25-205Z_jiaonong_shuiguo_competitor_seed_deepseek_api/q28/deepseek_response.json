@@ -1,0 +1,28 @@
+{
+  "id": "33d62ccc-35b7-4de4-a62c-d218b56b6f0f",
+  "object": "chat.completion",
+  "created": 1784413654,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法实时获取或核实企业最新报价数据。建议您通过以下方式对比价格竞争力：\n\n1. **直接询价**：联系都乐（Dole）和鑫荣懋的区域销售经理，提供您的采购量（如月均箱数）、配送周期等具体需求获取报价单。\n\n2. **渠道比价**：问询当地一级果品批发市场（如北京新发地、广州江南市场）的当日经销商价格，再对比两家品牌的出厂价。\n\n3. **总成本评估**：除单价外，需重点关注冷链运输费、破损率赔付标准、季节性价格波动条款等因素。\n\n注意：进口苹果价格受产地采收期、汇率、关税政策影响较大，建议签订短期框架协议并设定调价机制。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 166,
+    "total_tokens": 227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

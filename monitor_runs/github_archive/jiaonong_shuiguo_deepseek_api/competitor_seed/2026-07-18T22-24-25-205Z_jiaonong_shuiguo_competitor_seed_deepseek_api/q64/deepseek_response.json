@@ -1,0 +1,28 @@
+{
+  "id": "3fc131bc-bb23-490a-b9ab-e03a87470032",
+  "object": "chat.completion",
+  "created": 1784413909,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于鑫荣懋和都乐的冷链配送覆盖城市，目前暂无统一、公开的实时城市列表，因为配送范围可能随业务调整而变化。作为AI，我无法提供未经核实的具体城市名称，以免误导您。\n\n建议您：\n1. **直接联系官方**：通过鑫荣懋（如官网或客服热线）和都乐（如微信公众号或官方电话）咨询最新配送城市清单。\n2. **参考合作商超**：大型商超（如盒马、沃尔玛）通常已与这两家供应商在部分城市有合作，可咨询该商超的采购或供应链部门。\n\n如您有具体城市需求，我将尽力协助查找公开信息或提供查询路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 148,
+    "total_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

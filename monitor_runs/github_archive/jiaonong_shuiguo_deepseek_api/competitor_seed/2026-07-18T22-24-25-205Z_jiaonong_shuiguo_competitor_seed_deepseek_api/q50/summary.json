@@ -1,0 +1,50 @@
+{
+  "questionId": "q50",
+  "prompt": "礼品团购需要定制礼盒，都乐和洪九果品能不能做品牌联名？",
+  "createdAt": "2026-07-18T22:30:09.161Z",
+  "summary": [
+    {
+      "questionId": "q50",
+      "prompt_index": 50,
+      "promptIndex": 50,
+      "promptHash": "79a4deb3d268",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "礼品团购需要定制礼盒，都乐和洪九果品能不能做品牌联名？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 430,
+      "text_length": 430,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 266,
+        "total_tokens": 327,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 266,
+      "total_tokens": 327,
+      "latencyMs": 5635,
+      "latency_ms": 5635,
+      "createdAt": "2026-07-18T22:30:09.161Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q50/prompt.txt",
+        "answer": "q50/deepseek.txt",
+        "response": "q50/deepseek_response.json",
+        "sources": "q50/deepseek_sources.json",
+        "references": "q50/deepseek_references.json"
+      }
+    }
+  ]
+}

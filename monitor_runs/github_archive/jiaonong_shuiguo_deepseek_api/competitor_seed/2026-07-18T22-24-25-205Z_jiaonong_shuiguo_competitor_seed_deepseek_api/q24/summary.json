@@ -1,0 +1,50 @@
+{
+  "questionId": "q24",
+  "prompt": "超市采购香蕉，需要规格分级，鑫荣懋和都乐谁的分级更细？",
+  "createdAt": "2026-07-18T22:27:10.861Z",
+  "summary": [
+    {
+      "questionId": "q24",
+      "prompt_index": 24,
+      "promptIndex": 24,
+      "promptHash": "b8e0c9d97727",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购香蕉，需要规格分级，鑫荣懋和都乐谁的分级更细？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 223,
+      "text_length": 223,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 134,
+        "total_tokens": 195,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 134,
+      "total_tokens": 195,
+      "latencyMs": 3267,
+      "latency_ms": 3267,
+      "createdAt": "2026-07-18T22:27:10.861Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q24/prompt.txt",
+        "answer": "q24/deepseek.txt",
+        "response": "q24/deepseek_response.json",
+        "sources": "q24/deepseek_sources.json",
+        "references": "q24/deepseek_references.json"
+      }
+    }
+  ]
+}

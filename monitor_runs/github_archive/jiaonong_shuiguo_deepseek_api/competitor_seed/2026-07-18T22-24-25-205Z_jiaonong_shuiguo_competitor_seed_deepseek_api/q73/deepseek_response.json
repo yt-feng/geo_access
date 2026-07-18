@@ -1,0 +1,28 @@
+{
+  "id": "036840b7-2ee3-48a3-89dd-fbbd2addeb37",
+  "object": "chat.completion",
+  "created": 1784413967,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常要求供应商具备权威的食品安全管理体系认证。根据公开信息，鑫荣懋（Xinrongmao）和都乐（Dole）作为知名果蔬企业，通过了以下主要认证：\n\n- **鑫荣懋**：通常具备 **ISO 22000食品安全管理体系认证**、**Global G.A.P.**（全球良好农业规范）认证（针对种植基地），以及 **BRC**（英国零售商协会）或 **IFS**（国际食品标准）等国际认可认证，具体需以企业最新公告为准。\n\n- **都乐**：同样持有 **ISO 22000**、**Global G.A.P.**、**BRC** 认证，且部分环节可能通过 **HACCP**（危害分析与关键控制点）或 **FSSC 22000** 认证。\n\n建议：如需商业决策或供应商审核，请直接联系鑫荣懋和都乐公司核对最新认证文件，因为认证可能随时间更新或调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 206,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

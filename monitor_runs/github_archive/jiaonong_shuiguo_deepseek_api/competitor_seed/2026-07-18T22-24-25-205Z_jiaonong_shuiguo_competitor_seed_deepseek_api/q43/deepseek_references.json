@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:29:16.654Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市采购香蕉，需要规格分级，鑫荣懋和都乐哪家分级更细？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

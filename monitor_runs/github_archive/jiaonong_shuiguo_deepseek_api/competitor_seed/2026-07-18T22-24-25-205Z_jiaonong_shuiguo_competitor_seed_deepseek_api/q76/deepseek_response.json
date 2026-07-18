@@ -1,0 +1,28 @@
+{
+  "id": "2b0740de-1ade-4016-afdf-c55d283f0ccb",
+  "object": "chat.completion",
+  "created": 1784413986,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对菠萝产地直发，都乐（Dole）和鑫荣懋（Joy Wing Mau）的物流时效情况如下：\n\n1. **都乐**：作为国际知名水果品牌，其物流体系较为成熟。在菠萝产地直发（如菲律宾、广东、海南等）时，通常采用冷链运输，时效一般控制在**下单后48-72小时内送达**（具体视距离和天气因素）。建议直接联系其生鲜电商合作渠道或查询官方物流政策，以确认具体发运方案。\n\n2. **鑫荣懋**：国内领先的水果供应链企业，专注于产地直发。其菠萝（多来自海南、广东等产区）物流时效通常为**24-48小时**（同省或邻近省份可更快），且多与顺丰、京东物流等合作，支持冷链配送。建议在合作平台（如美团优选、盒马等）查看具体配送承诺，或咨询其客服获取实时时效。\n\n**建议**：考虑到菠萝易腐特性，建议优先选择距离仓库较近的产地直发方案，并关注平台是否标注“次日达”或“48小时极速达”标识。如需采购，可要求对方提供历史物流数据或合作快递的时效证明。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 260,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

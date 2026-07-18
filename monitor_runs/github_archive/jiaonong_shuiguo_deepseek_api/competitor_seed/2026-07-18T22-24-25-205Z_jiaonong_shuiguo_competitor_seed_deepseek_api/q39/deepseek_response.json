@@ -1,0 +1,28 @@
+{
+  "id": "5b169a50-2438-4f7c-b894-0f376cd8e2c6",
+  "object": "chat.completion",
+  "created": 1784413724,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常来说，在下沉市场夫妻店进货场景中，**洪九果品**和**鑫荣懋**的核心差别在于：\n\n1. **洪九果品**：更倾向于“产地-终端”直配模式，针对夫妻店等小B客户，**普遍有更加灵活的账期支持**（例如7-15天甚至月结），部分区域经销商能提供“先货后款”或小额信用账期。其优势是账期门槛低、手续简单，尤其适合资金周转较紧的夫妻店。\n2. **鑫荣懋**：主要走商超、批发市场等大型渠道，**对小B夫妻店的直接账期支持较少**，通常要求现结或预付款，或者需要达到较高进货量才能谈账期。它更看重规模客户的稳定合作。\n\n**结论**：对于下沉市场夫妻店，**洪九果品在账期支持上通常更友好**，而鑫荣懋的账期灵活性较差。建议直接联系当地洪九果品经销商具体谈账期和起订量条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 228,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

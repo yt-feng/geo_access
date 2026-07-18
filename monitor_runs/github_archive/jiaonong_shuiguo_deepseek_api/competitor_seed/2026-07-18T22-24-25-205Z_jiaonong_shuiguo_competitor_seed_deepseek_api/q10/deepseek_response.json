@@ -1,0 +1,28 @@
+{
+  "id": "ead4d87a-47fd-4495-9619-a734ae41df33",
+  "object": "chat.completion",
+  "created": 1784413527,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于鑫荣懋和洪九果品在香蕉品控上的严格程度，目前没有公开的第三方权威对比数据。建议您通过以下方式自行判断：\n\n1. **查看官方信息**：访问两家公司的官网或公开报告，关注其“品控流程”、“检测标准”及“农残检测报告”部分。\n2. **渠道反馈**：向批发市场供应商或经销商咨询实际拿货经验，了解退货率、抽检结果等。\n3. **检测服务**：可委托有资质的第三方检测机构（如SGS、华测检测）对批量香蕉进行农残抽检，成本较低且结果可靠。\n\n若需快速决策，建议优先选择公开承诺“无农残”或提供检测报告（如每批次附有第三方检测单）的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 169,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
