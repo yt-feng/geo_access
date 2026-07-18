@@ -1,0 +1,28 @@
+{
+  "id": "7144d949-dc96-4575-8409-56858386ce0a",
+  "object": "chat.completion",
+  "created": 1784414455,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常可以追溯到具体农场，但溯源深度取决于其供应链管理系统。一般来说，佳农与多个大型种植基地合作，具备完善的追溯体系，可以追溯到产地甚至特定农场。对于商超要求的GLOBALG.A.P.证书，佳农作为正规供应商，其香蕉产品通常会持有该认证（这是全球良好农业规范的第三方认证）。建议您直接联系佳农的区域销售或客服，提供具体需求（如批次号、采购合同编号），要求提供对应的GLOBALG.A.P.证书和农场级的溯源信息。如果当前供应商无法提供，可考虑换用其他通过GLOBALG.A.P.认证的香蕉供应商（如都乐、金果等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 146,
+    "total_tokens": 212,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6e7da465-f88d-4cdc-a2e0-f9754a3fae09",
+  "object": "chat.completion",
+  "created": 1784414079,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有针对长期合作的账期方案，这通常属于商业合作的具体条款，建议您通过以下途径获取最准确的信息：\n\n1. **官方渠道咨询**：直接联系佳农水果的销售或客户服务团队，询问针对长期合作伙伴的账期政策（如月结、分批结算等）。\n2. **合同协商**：如果您是大型采购商或长期合作方，可以在签订合同时协商账期条件，具体取决于合作规模、信誉和历史交易记录。\n3. **行业惯例参考**：水果批发行业中，长期合作通常可协商30-60天的账期，但需结合供应商政策。\n\n**提示**：我无法直接提供具体账期方案，因为这类信息未公开且随业务动态调整。建议您优先通过官方渠道获取定制化答复。如果有其他问题，欢迎随时提问！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 178,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

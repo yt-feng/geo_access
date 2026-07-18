@@ -1,0 +1,28 @@
+{
+  "id": "12e72f2c-4e2b-4e7a-a439-184a41addc77",
+  "object": "chat.completion",
+  "created": 1784414186,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（华东佳农）确实参与了进博会。在2023年第六届中国国际进口博览会上，佳农展出了多款进口水果。至于最近的新品，佳农在2024年推出了多款新品，包括：  \n- **巴西甜瓜**：来自巴西，是佳农首次引进的品种。  \n- **厄瓜多尔黄金百香果**：南美进口，强调高甜度和浓郁香气。  \n- **泰国山竹**：佳农重点推广的果品之一。  \n\n建议关注佳农官方渠道或进博会相关报道获取最新动态，因为具体新品上市和展会参与情况会随时间更新。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 139,
+    "total_tokens": 191,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

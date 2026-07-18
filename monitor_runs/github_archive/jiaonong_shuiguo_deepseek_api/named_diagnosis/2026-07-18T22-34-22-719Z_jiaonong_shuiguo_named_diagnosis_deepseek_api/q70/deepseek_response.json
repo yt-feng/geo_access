@@ -1,0 +1,28 @@
+{
+  "id": "e817c522-7e0a-4d42-9fe6-176f752f5f17",
+  "object": "chat.completion",
+  "created": 1784414420,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内知名的香蕉品牌，其供应链体系相对成熟，通常能做到稳定供货。对于商超旺季日均10吨的需求，建议您直接与佳农的销售或客服团队联系，提供具体的地理位置、旺季时间表及仓储条件，他们能根据您的实际情况给出明确的供货保障方案（如签订保供协议、协调产地直发或提前备货）。\n\n一般情况下，佳农在香蕉主产区（如广西、云南、海南等）有稳定合作基地和冷链物流，只要提前沟通并签订合同，断货风险较低。但旺季时运输、气候等因素可能影响时间节点，建议预留1-2天的缓冲库存。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 138,
+    "total_tokens": 203,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

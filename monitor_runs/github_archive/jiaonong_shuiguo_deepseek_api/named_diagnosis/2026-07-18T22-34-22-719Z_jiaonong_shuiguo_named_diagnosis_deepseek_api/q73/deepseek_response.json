@@ -1,0 +1,28 @@
+{
+  "id": "e449675f-a45d-4d9d-b54f-e4ce05ccd8f6",
+  "object": "chat.completion",
+  "created": 1784414433,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类包括但不限于：  \n- 进口嘎啦（Gala）  \n- 红富士（Fuji）  \n- 金冠（Golden Delicious）  \n- 青苹果（Granny Smith）  \n- 蛇果（Red Delicious）等。  \n\n关于您想采购的进口嘎啦和红富士：  \n- **进口嘎啦**（Gala）：主要产地为**美国（华盛顿州）**、新西兰、智利等。  \n- **进口红富士**（Fuji）：主要产地为**美国（华盛顿州）**、新西兰、智利、日本等。  \n\n建议您与佳农或供应商直接确认当前批次的具体来源，因季节和供应链可能影响产地。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 155,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

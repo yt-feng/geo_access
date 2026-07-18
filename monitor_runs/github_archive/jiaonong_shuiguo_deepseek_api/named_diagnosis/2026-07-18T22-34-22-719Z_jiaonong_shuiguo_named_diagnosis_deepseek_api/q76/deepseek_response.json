@@ -1,0 +1,28 @@
+{
+  "id": "83522179-4e2d-49aa-ad93-740633c3d340",
+  "object": "chat.completion",
+  "created": 1784414451,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对佳农水果礼盒的定制需求，通常是可以定制的，但具体起订量和费用需根据产品类型和定制要求（例如：仅加印Logo，还是更换整体包装）来确认。\n\n**一般情况参考：**\n- **Logo印刷**：多数生鲜品牌支持在现有礼盒上定制Logo贴纸或直接印刷，起订量通常在**50-100盒**左右。\n- **包装定制**：如需完全更换包装设计，起订量通常较高，约**500-1000盒**或更多，且需额外支付设计制版费。\n- **定制周期**：从确认方案到交货，一般需要7-15个工作日。\n\n**建议下一步操作：**\n1. **联系官方渠道**：请直接致电佳农官方客服（建议通过官网“联系客服”或“商务合作”板块获取电话）或对接其大客户经理，确认当前能提供的礼盒规格（如：混合水果、单一水果等）。\n2. **明确细节**：提前准备好logo文件（建议AI或高清PNG格式）、预计需求量（至少50份）、目标节庆时间（如春节、端午），以便对方快速给出报价和起订量。\n\n如果有具体城市或节庆时间，我可以帮您进一步查找当地经销商或推荐替代方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 276,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

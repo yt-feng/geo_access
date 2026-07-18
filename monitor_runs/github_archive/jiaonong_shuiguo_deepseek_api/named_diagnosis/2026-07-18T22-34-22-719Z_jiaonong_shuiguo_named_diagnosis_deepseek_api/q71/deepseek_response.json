@@ -1,0 +1,28 @@
+{
+  "id": "8bd49183-fd3e-4070-abda-61299a866a3f",
+  "object": "chat.completion",
+  "created": 1784414424,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，作为AI助手，我无法实时获取具体的批发市场价格数据，因为香蕉的批发价格会因地区、季节、采购量、运输成本等因素频繁波动。建议您通过以下方式获取准确比价：\n\n1. **直接联系供应商**：致电佳农和都乐在当地的一级或二级批发代理，询问当前“一箱（如13公斤或18公斤规格）”的批发报价。\n2. **参考平台比价**：登录水果批发B2B平台（如“一亩田”、“惠农网”），搜索“佳农香蕉批发价”和“都乐香蕉批发价”进行对比。\n3. **本地批发市场询价**：直接走访您所在地的大型农贸批发市场，向档口询问两者的实际成交价（通常“走量”的一箱差价会在2-10元人民币之间）。\n\n如果您能提供具体所在城市及采购量，我可以尝试建议更精准的询价渠道。另外需注意：都乐可能在某些高端渠道有固定品牌溢价，但佳农在某些时段促销时单价可能更低。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 224,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

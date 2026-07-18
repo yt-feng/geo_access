@@ -1,0 +1,28 @@
+{
+  "id": "387ffbd3-483d-4321-b9a8-c1fe44b2f3fc",
+  "object": "chat.completion",
+  "created": 1784414568,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Goodfarmer）是否提供加工好的香蕉切片，以及具体规格，我无法直接核实其最新的加工产品线。**建议您直接联系佳农的官方销售或客服部门**，查询其是否有预切香蕉片（通常称为“香蕉段”、“香蕉片”或“冷冻香蕉片”）的供应。\n\n根据餐饮行业常见的产品规格，如果佳农或其他供应商提供此类加工产品，通常可能的规格包括：\n\n- **包装形式**：冷冻冷藏袋装或真空包装。\n- **单份规格**：例如 500克/袋、1公斤/袋，或更符合连锁店出餐的 100-200克/小包装。\n- **切片厚度**：常见为 3-5 毫米厚片，或按客户要求定制。\n- **储存条件**：一般为-18℃冷冻储存，或0-4℃冷藏保鲜。\n\n**行动建议**：\n1.  **搜索关键词**：在浏览器中搜索“佳农 香蕉片 加工 规格”或“Goodfarmer sliced banana”。\n2.  **直接联系**：拨打佳农官网公布的客服热线或通过其官方公众号、企业微信咨询，明确告知您需要“预切香蕉片”以及“单份克重”和“包装规格”。\n\n请务必以厂家最新提供的产品目录和报价单为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 284,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

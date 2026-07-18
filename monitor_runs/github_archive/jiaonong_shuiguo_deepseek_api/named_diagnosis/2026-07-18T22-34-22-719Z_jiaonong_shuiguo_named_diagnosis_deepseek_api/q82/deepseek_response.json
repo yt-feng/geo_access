@@ -1,0 +1,28 @@
+{
+  "id": "a9946e72-8656-49da-a827-adc07c0c83ec",
+  "object": "chat.completion",
+  "created": 1784414477,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，佳农和鑫荣懋在华东地区（包括上海）都具备成熟的冷链配送网络，但具体配送速度可能因仓库位置、门店距离、订单时段以及合作物流商而异。\n\n针对“上海门店次日达”的需求，建议您直接联系两家公司的华东区销售或客服，提供门店具体地址，确认：\n1. **是否有前置仓或配送中心在上海或周边**（如苏州、嘉兴等地）；\n2. **当日截单时间**（例如下午3点前下单能否次日到）；\n3. **门店是否在常规配送路线内**（部分小门店可能需调拨）。\n\n从行业经验看，鑫荣懋在上海通常有较成熟的直配体系，佳农在华东的仓储布局也较为完善，但建议以官方实时答复为准。同时可要求对方发送 **《华东配送承诺书》或合同条款**，载明“次日达”细则，以作依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 196,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

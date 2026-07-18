@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-18T22:40:58.803Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们生鲜电商想对接佳农的ERP系统，能不能实现订单自动推送和库存实时同步？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

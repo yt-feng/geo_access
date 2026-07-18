@@ -1,0 +1,28 @@
+{
+  "id": "27de7bf5-7457-469a-a653-45a6d98122bd",
+  "object": "chat.completion",
+  "created": 1784414325,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对佳农水果礼盒的团购定制问题，具体信息建议您直接联系佳农官方或授权经销商确认，但根据行业常见情况，以下信息供参考：\n\n1. **最小起订量**：通常为50-100盒起订（具体视礼盒规格、水果品种和包装复杂度而定，定制礼盒的起订量通常高于标准成品）。\n2. **LOGO印刷**：一般支持印刷公司LOGO，常见方式包括在礼盒外包装、封口贴、手提袋或卡片上印刷/烫印，通常需额外计费（如制版费、设计费或单件加印费）。\n\n**建议您**：通过佳农官方客服（官网/电话）或您所在区域的分销商/经销商，提供具体礼盒规格（如水果组合、礼盒尺寸、预计数量），获取精确的起订量和LOGO印刷报价。同时建议要求提供样品或设计图确认效果，避免交付后出现视觉不符。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 209,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

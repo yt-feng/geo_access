@@ -1,0 +1,28 @@
+{
+  "id": "73a2e07f-243f-4aab-9983-8f28a65d59f5",
+  "object": "chat.completion",
+  "created": 1784414514,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常抱歉，我无法实时查询佳农菠萝的具体产品库存或规格信息。建议您直接通过以下方式获取准确信息：\n\n1. **联系佳农官方客服**：拨打其官网或包装上的客服电话，询问是否有“冷冻菠萝丁”产品及其规格（如尺寸、包装重量等）。\n2. **查看产品目录**：访问佳农官网或经销商平台，查找果蔬原料板块，确认冷冻菠萝丁的供货情况。\n3. **咨询行业同行**：作为茶饮店，可向其他饮品原料供应商询问佳农产品的备货信息，或获取替代方案。\n\n如果需要，您可以提供更多细节（如期望的丁状大小、包装方式等），我会尽量协助您分析潜在替代原料或采购建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 155,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

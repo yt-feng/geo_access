@@ -1,0 +1,28 @@
+{
+  "id": "d2dbcb0c-ac95-433d-b72e-b4e52ce1c294",
+  "object": "chat.completion",
+  "created": 1784414113,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在口感和供货稳定性方面表现不错，但具体对比其他品牌或产地菠萝，需结合实际品种分析：\n\n1. **口感**：  \n   - 佳农主推的通常是**都乐金菠萝**或**菲律宾菠萝**，果肉纤维较细、甜度高（普遍在14-18度），酸味少，口感软糯多汁，适合直接鲜食。  \n   - 相比**普通国产菠萝**（如徐闻菠萝），各品牌菠萝纤维更细、无需泡盐水去麻涩感；相比**泰国小菠萝**（迷你菠萝），佳农菠萝个头更大，汁水更足。\n\n2. **供货稳定性**：  \n   - 佳农作为大型进口商，**全年供应能力较强**，主要依赖菲律宾、哥斯达黎加等产区的固定合作农场，受季节波动影响较小。  \n   - 相比之下，国产菠萝通常集中在3-5月上市，其他时间供货不稳；小品牌进口菠萝可能因物流或产量问题出现断货。\n\n**选购建议**：若追求稳定供应且喜欢甜度高、易处理的菠萝，佳农是可靠选择；若偏爱浓郁酸香或更小果型，可尝试泰国小菠萝。建议购买时注意果皮颜色金黄、有浓郁香气，避免按压过软。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 278,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q95",
+  "prompt": "佳农水果的产地直供比例是多少？我们采购希望减少中间环节，降低成本。",
+  "createdAt": "2026-07-18T22:42:24.934Z",
+  "summary": [
+    {
+      "questionId": "q95",
+      "prompt_index": 95,
+      "promptIndex": 95,
+      "promptHash": "0bfdbf168ddf",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的产地直供比例是多少？我们采购希望减少中间环节，降低成本。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 365,
+      "text_length": 365,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 213,
+        "total_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 213,
+      "total_tokens": 272,
+      "latencyMs": 3244,
+      "latency_ms": 3244,
+      "createdAt": "2026-07-18T22:42:24.934Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q95/prompt.txt",
+        "answer": "q95/deepseek.txt",
+        "response": "q95/deepseek_response.json",
+        "sources": "q95/deepseek_sources.json",
+        "references": "q95/deepseek_references.json"
+      }
+    }
+  ]
+}

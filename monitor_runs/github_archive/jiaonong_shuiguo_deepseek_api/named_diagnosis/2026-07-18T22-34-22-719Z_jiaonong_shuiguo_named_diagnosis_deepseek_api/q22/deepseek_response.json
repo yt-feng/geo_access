@@ -1,0 +1,28 @@
+{
+  "id": "b5bd5441-baa6-419b-a074-77bd5cdf4d8b",
+  "object": "chat.completion",
+  "created": 1784414173,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果是国内知名的水果品牌，其苹果品类整体口碑较好，以品质稳定、果径均匀、口感脆甜为主要特点。佳农的苹果主要分为国产和进口两大类别：\n\n1. **国产苹果**：主要来自山东、陕西、新疆等优质产区，品种包括红富士、阿克苏冰糖心等，注重标准化种植和分级包装，果面干净、糖度高，适合家庭日常食用。\n\n2. **进口苹果**：佳农有稳定的进口苹果渠道，常见的有：\n   - **新西兰爱妃（Envy）、爵士（Jazz）、太平洋玫瑰（Pacific Rose）**：果肉紧实、香气浓郁，耐储存。\n   - **美国红蛇果（Red Delicious）、青苹果（Granny Smith）**：外观艳丽，酸甜分明，适合鲜食或烘焙。\n   - **智利/南非红富士、嘎啦（Gala）**：反季节供应，价格相对亲民。\n\n**购买建议**：\n- 佳农的苹果供应链规范，通常在大型商超（如盒马、永辉、山姆）、生鲜电商（京东、叮咚买菜）以及佳农官方旗舰店有售。\n- 购买时注意包装上的标签或溯源信息，进口苹果会明确标注原产国和检验检疫证明。\n- 如果需要特定进口品种（如新西兰爱妃），建议提前确认门店库存或线上预订，部分品种因应季销售可能出现断货。\n\n**注意**：佳农的进口苹果必须符合中国海关和检疫标准，正规渠道购买可确保无农残超标或检疫风险。如有特殊需求（如有机认证），建议直接咨询官方客服或查看商品详情页。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 354,
+    "total_tokens": 407,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

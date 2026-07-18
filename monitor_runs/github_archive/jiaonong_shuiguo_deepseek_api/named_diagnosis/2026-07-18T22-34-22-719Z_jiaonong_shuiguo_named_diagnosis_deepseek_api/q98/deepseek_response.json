@@ -1,0 +1,28 @@
+{
+  "id": "d05ecbfc-d84d-43d5-ac4d-ab8368fefd3c",
+  "object": "chat.completion",
+  "created": 1784414558,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法代表“佳农”品牌或任何具体企业做出承诺，但可以为您提供行业通用信息和查询建议：\n\n1. **行业现状**：生鲜水果（尤其是香蕉）在运输和储存中易有损耗，部分品牌确实会提供“到货损耗率承诺”（如3%-5%内包赔），但具体需与供应商协商。\n\n2. **建议您**：\n   - 联系“佳农”官方客服或当地经销商，直接询问是否有到货损耗包赔政策。\n   - 要求合同注明：如到货损耗超过X%（如3%），可补偿等值商品或现金。\n   - 签订采购合同前，明确验收标准（如单根香蕉外观、重量、成熟度等定义）。\n\n3. **额外提示**：香蕉后熟特性可能导致延迟损耗，建议协商“到店48小时内损耗”是否纳入承诺范围。\n\n如需进一步分析合同条款或谈判技巧，可提供更多细节，我会协助梳理关键点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 213,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q55",
+  "prompt": "香蕉价格波动大，佳农水果有价格保护机制吗？比如锁价3个月。",
+  "createdAt": "2026-07-18T22:39:09.305Z",
+  "summary": [
+    {
+      "questionId": "q55",
+      "prompt_index": 55,
+      "promptIndex": 55,
+      "promptHash": "8cd4a54c8cbd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "香蕉价格波动大，佳农水果有价格保护机制吗？比如锁价3个月。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 805,
+      "text_length": 805,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 473,
+        "total_tokens": 533,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 473,
+      "total_tokens": 533,
+      "latencyMs": 7806,
+      "latency_ms": 7806,
+      "createdAt": "2026-07-18T22:39:09.305Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q55/prompt.txt",
+        "answer": "q55/deepseek.txt",
+        "response": "q55/deepseek_response.json",
+        "sources": "q55/deepseek_sources.json",
+        "references": "q55/deepseek_references.json"
+      }
+    }
+  ]
+}

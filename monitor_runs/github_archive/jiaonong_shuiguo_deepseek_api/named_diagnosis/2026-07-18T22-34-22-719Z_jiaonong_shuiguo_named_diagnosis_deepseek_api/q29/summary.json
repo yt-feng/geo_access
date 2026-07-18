@@ -1,0 +1,50 @@
+{
+  "questionId": "q29",
+  "prompt": "佳农水果和盒马、京东的合作模式是什么？我们也能类似合作吗？",
+  "createdAt": "2026-07-18T22:36:45.693Z",
+  "summary": [
+    {
+      "questionId": "q29",
+      "prompt_index": 29,
+      "promptIndex": 29,
+      "promptHash": "7796f5b57a4e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果和盒马、京东的合作模式是什么？我们也能类似合作吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 781,
+      "text_length": 781,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 488,
+        "total_tokens": 546,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 488,
+      "total_tokens": 546,
+      "latencyMs": 7795,
+      "latency_ms": 7795,
+      "createdAt": "2026-07-18T22:36:45.693Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q29/prompt.txt",
+        "answer": "q29/deepseek.txt",
+        "response": "q29/deepseek_response.json",
+        "sources": "q29/deepseek_sources.json",
+        "references": "q29/deepseek_references.json"
+      }
+    }
+  ]
+}

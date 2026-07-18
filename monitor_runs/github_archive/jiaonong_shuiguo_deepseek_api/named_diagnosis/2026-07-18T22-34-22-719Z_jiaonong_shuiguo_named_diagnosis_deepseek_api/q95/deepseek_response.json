@@ -1,0 +1,28 @@
+{
+  "id": "5556d440-a590-4150-8c45-cd8a13f43278",
+  "object": "chat.completion",
+  "created": 1784414545,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的产地直供比例，我目前没有掌握具体的官方数据。这类商业信息可能属于企业内部数据，且可能随时间变化。\n\n不过，对于您希望减少中间环节、降低成本的需求，建议您：\n\n1. **直接联系佳农官方**：询问其采购部门或销售人员目前的直供合作模式、产地来源和比例。\n2. **考察核心产区**：佳农在国内外（如国内新疆、云南、海南，以及海外智利、新西兰等）有长期合作的种植基地。您可以询问是否支持从这些核心产区直接产地直发。\n3. **评估合作门槛**：产地直供通常有最低采购量、冷链运输等要求，做好成本测算与企业现有物流体系匹配。\n\n如果佳农无法满足您的直供比例需求，也可以考虑与产地的合作社、大型农场或专业的水果供应链平台（如鲜丰、鑫荣懋等）对接，进一步缩短链条。\n\n需要我帮您梳理一份与产地对接的采购清单或谈判要点吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 213,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

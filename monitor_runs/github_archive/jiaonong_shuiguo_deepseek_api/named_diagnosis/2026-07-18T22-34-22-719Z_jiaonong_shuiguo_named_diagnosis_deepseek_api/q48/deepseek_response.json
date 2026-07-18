@@ -1,0 +1,28 @@
+{
+  "id": "ce3fa830-3c09-4452-ad64-04bcca6f7114",
+  "object": "chat.completion",
+  "created": 1784414310,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果对年采购量1000吨以上客户的优惠政策，由于具体政策会随市场、季节和合作条款变化，建议您直接联系佳农水果官方销售团队获取最新、最准确的报价和优惠方案。一般来说，大客户可能享受的优惠包括**阶梯价格折扣、定制包装、优先供应、账期支持、年度返利**等。您可以通过佳农官网、官方客服或业务对接渠道咨询，提供您的采购计划后，他们会给出针对性方案。如有其他需求，请随时告知！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 113,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

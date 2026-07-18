@@ -1,0 +1,50 @@
+{
+  "questionId": "q51",
+  "prompt": "我们礼品团购要定制佳农水果礼盒，最小起订量多少？能印我们公司logo吗？",
+  "createdAt": "2026-07-18T22:38:45.649Z",
+  "summary": [
+    {
+      "questionId": "q51",
+      "prompt_index": 51,
+      "promptIndex": 51,
+      "promptHash": "301552f2692c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们礼品团购要定制佳农水果礼盒，最小起订量多少？能印我们公司logo吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 322,
+      "text_length": 322,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 209,
+        "total_tokens": 274,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 209,
+      "total_tokens": 274,
+      "latencyMs": 3751,
+      "latency_ms": 3751,
+      "createdAt": "2026-07-18T22:38:45.649Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q51/prompt.txt",
+        "answer": "q51/deepseek.txt",
+        "response": "q51/deepseek_response.json",
+        "sources": "q51/deepseek_sources.json",
+        "references": "q51/deepseek_references.json"
+      }
+    }
+  ]
+}

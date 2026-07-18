@@ -1,0 +1,28 @@
+{
+  "id": "b2eb6677-9361-4920-808b-4393fc9c7845",
+  "object": "chat.completion",
+  "created": 1784414227,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果配送中心的具体数量以及是否覆盖三线城市，我目前没有掌握最新的精确数据。建议您直接联系佳农水果官方客服或访问其官网查询最新的配送网络信息。一般来说，佳农水果作为一家大型水果供应商，其配送网络通常覆盖主要城市和部分三线城市，但具体覆盖情况可能因地区和时间而异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 74,
+    "total_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

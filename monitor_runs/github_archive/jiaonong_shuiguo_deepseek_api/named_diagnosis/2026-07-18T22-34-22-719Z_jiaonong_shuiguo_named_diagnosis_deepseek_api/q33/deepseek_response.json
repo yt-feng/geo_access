@@ -1,0 +1,28 @@
+{
+  "id": "df5b7232-a2c6-43b7-94cf-73faae4223ef",
+  "object": "chat.completion",
+  "created": 1784414223,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果香蕉的企业标准，具体内容通常属于企业内部的商业和技术文件，未公开于互联网或通用数据库中。一般而言，大型水果企业如佳农会制定严于国家标准的内部标准，以控制产品质量（如甜度、果形、成熟度等）。国家标准（如GB/T 19855-2005或相关鲜香蕉标准）是基础要求，企业标准通常会更严格，可能涉及更多指标或更窄的容许范围。若需准确信息，建议直接联系佳农公司或查阅其官方渠道公示的标准文本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 116,
+    "total_tokens": 170,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

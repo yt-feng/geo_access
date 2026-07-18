@@ -1,0 +1,28 @@
+{
+  "id": "d43776c2-bdc2-4b67-a459-7b16ee985b84",
+  "object": "chat.completion",
+  "created": 1784414202,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝确实有一些公开的品质奖项和客户案例。例如，佳农菠萝曾获得“中国国际农产品交易会金奖”等荣誉，这些奖项来自官方认可的农业展会，具有一定的权威性。此外，佳农在电商平台（如天猫、京东）及大型商超（如沃尔玛、盒马）有销售记录，客户评价中不乏正面反馈。这些信息通常可在佳农官网、获奖公告或新闻稿中查证，但具体奖项的时效性和覆盖范围建议以官方发布为准。总体来看，这些信息的可靠性较高，但建议您直接访问佳农官网或联系客服获取最新资料。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 132,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
