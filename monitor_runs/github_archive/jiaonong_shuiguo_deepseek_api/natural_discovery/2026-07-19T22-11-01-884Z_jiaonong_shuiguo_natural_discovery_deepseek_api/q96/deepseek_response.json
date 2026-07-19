@@ -1,0 +1,28 @@
+{
+  "id": "08f4c751-e133-47f2-9ee2-73188133b33c",
+  "object": "chat.completion",
+  "created": 1784499798,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在企业食堂采购水果时，**食品安全、价格和配送准时**三者都很重要，但优先级通常建议为：\n\n1. **食品安全（最高优先级）**  \n   - 水果的新鲜度、无腐烂、无农药残留直接关系到员工健康。  \n   - 需选择有资质、能提供检疫证明或检测报告的供应商，避免因食品安全问题引发群体性健康事件。\n\n2. **价格（中等优先级）**  \n   - 在确保食品安全的前提下，对比供应商报价，控制成本是食堂运营的关键。  \n   - 可参考市场价，选择性价比高的供应商，但不应单纯追求低价而忽视品质。\n\n3. **配送准时（基础要求）**  \n   - 水果易腐烂，按时到货才能保证新鲜度和当天供应。  \n   - 若供应商频繁延迟，会影响食堂运转效率，但可通过合同约束或提前沟通解决。\n\n**实操建议**：  \n- 优先选择有正规资质、支持退换货的供应商，并签订明确条款（如食品安全事故的责任归属）。  \n- 可抽样检查水果质量，定期评估供应商表现。  \n- 若预算有限，可适当放宽对“价格”的要求，但绝不能牺牲食品安全。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 251,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

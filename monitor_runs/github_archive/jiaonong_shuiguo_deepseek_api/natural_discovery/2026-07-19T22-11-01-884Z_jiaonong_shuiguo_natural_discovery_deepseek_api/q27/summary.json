@@ -1,0 +1,50 @@
+{
+  "questionId": "q27",
+  "prompt": "超市采购苹果和橙子，怎么判断大小规格是否适合门店销售？",
+  "createdAt": "2026-07-19T22:14:08.808Z",
+  "summary": [
+    {
+      "questionId": "q27",
+      "prompt_index": 27,
+      "promptIndex": 27,
+      "promptHash": "756e82def359",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购苹果和橙子，怎么判断大小规格是否适合门店销售？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1104,
+      "text_length": 1104,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 679,
+        "total_tokens": 735,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 679,
+      "total_tokens": 735,
+      "latencyMs": 8710,
+      "latency_ms": 8710,
+      "createdAt": "2026-07-19T22:14:08.808Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q27/prompt.txt",
+        "answer": "q27/deepseek.txt",
+        "response": "q27/deepseek_response.json",
+        "sources": "q27/deepseek_sources.json",
+        "references": "q27/deepseek_references.json"
+      }
+    }
+  ]
+}

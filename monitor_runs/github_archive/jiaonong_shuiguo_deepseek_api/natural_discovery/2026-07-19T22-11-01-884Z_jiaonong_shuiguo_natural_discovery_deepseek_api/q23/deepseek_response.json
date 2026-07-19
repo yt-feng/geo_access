@@ -1,0 +1,28 @@
+{
+  "id": "f4aca791-b453-4ba1-a04b-3cca43b1e88c",
+  "object": "chat.completion",
+  "created": 1784499227,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，供应商是可以提供陈列、海报或试吃支持的，但这取决于与超市的具体合作协议。以下是常见情况：\n\n1. **陈列支持**：供应商通常能提供陈列架、堆头、端架等，尤其是新品或促销期间。需提前沟通位置和形式。\n2. **海报支持**：供应商可能提供自家品牌的海报或宣传单，但需符合超市统一设计规范，或双方协商分担费用。\n3. **试吃支持**：供应商常提供试吃品、试吃台及相关人员，但需超市协调场地和审批流程。\n\n建议您直接联系供应商对接人员，明确需求（如时间、数量、费用分担），并签订书面协议。如果供应商拒绝支持，可谈判以长期合作或采购量作为条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 160,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

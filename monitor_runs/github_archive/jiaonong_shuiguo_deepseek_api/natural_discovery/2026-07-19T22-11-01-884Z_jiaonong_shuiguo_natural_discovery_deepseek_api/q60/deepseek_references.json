@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:18:32.502Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店遇到水果到货不合格，怎样约定补货才不影响营业？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e3d560d3-40a6-4c9d-8e15-f464f8804b34",
+  "object": "chat.completion",
+  "created": 1784499094,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了减少香蕉在店内变坏，建议按以下要求采购：\n\n1. **熟度要求**：  \n   - 要求供应商提供 **七到八成成熟度** 的香蕉（即果皮大部分仍为青绿色，仅果尖或局部开始转黄）。  \n   - 避免采购完全黄熟（九成以上）的香蕉，这类香蕉到店后2-3天内就会开始出现黑斑或软化腐坏。\n\n2. **到货时间**：  \n   - 要求 **每周到货2-3次**，每次到货量控制在3-5天能卖完的水平（根据日均销量计算）。  \n   - 到货时间最好安排在 **营业前或客流较低的时段**（如周一至周五上午），便于及时入库或上架。  \n   - 若销量波动大，可要求供应商支持 **“按需分批次发货”**，比如先发一半，根据销售情况再发尾货。\n\n3. **补充操作建议**：  \n   - 到货后立即拆箱散热，避免闷熟。  \n   - 使用冷藏库（13-15℃）或阴凉通风处储存，不与其他水果（如苹果、梨）混放，因为后者的乙烯会催熟香蕉。  \n   - 不同成熟度的香蕉分开陈列或销售：青香蕉放常温区，黄香蕉放冷柜或快速促销。\n\n执行上述要求后，可显著降低香蕉在店的损耗率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 310,
+    "total_tokens": 369,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:12:40.453Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果店想做周末促销，供应商一般能不能给价格或物料支持？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:23:06.746Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店水果销量不稳定，供应商能不能支持小批量试卖很重要吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

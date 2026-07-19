@@ -1,0 +1,28 @@
+{
+  "id": "4b1540cd-d9ac-4def-9e85-3bbb06a5e62c",
+  "object": "chat.completion",
+  "created": 1784499763,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根和小把包装**，具体可根据销售场景调整：\n\n1. **单根包装**（最推荐）：  \n   - 适合上班族、学生等单人即时消费场景，方便携带、控制单次摄入量；  \n   - 减少一次性购买压力，降低损耗。\n\n2. **小把包装**（3-5根/把）：  \n   - 家庭、合租群体或追求性价比的顾客会买，单次消耗适中；  \n   - 注意用保鲜膜或透气袋包装，延长成熟期，避免紧贴加速腐烂。\n\n3. **整袋包装**（5根以上）：  \n   - 仅推荐在**社区店**、**节假日促销**或**批发模式**下尝试；  \n   - 高消耗家庭或食堂可能选择，但需确保周转快（24小时内售出），否则黄斑、过熟风险高。\n\n**执行建议**：  \n- 初期优先上架单根（标价）和3根小把（标价），观察动销；  \n- 不要把所有香蕉都拆成单根，保留部分原串出售（覆盖喜好整串顾客）；  \n- 用**货架位置**区分：入口处放单根/小把（冲动消费），收银台旁促销区可试放整袋。  \n\n**风险提示**：香蕉属高乙烯释放水果，不要和海沃德猕猴桃、苹果、哈密瓜等挨着放，会催熟对方。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 316,
+    "total_tokens": 374,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

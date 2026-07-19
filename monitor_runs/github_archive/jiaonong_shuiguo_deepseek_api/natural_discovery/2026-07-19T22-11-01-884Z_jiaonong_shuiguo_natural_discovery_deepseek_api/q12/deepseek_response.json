@@ -1,0 +1,28 @@
+{
+  "id": "89d9b6b3-8a19-4936-9c65-6708a0ad7248",
+  "object": "chat.completion",
+  "created": 1784499149,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购菠萝时，为了减少损耗并保证销售期，建议参考以下成熟度判断方法：\n\n1. **看外观颜色**：选择表皮颜色**黄中带青**或**青黄相间**（约60%-80%转黄），避免全黄（过熟易腐）或全青（难催熟）。\n2. **按压果身**：用手轻压菠萝，如果**略微有弹性但不过软**，说明成熟度适中；如果太硬则未熟，太软则过熟。\n3. **闻气味**：靠近底部闻，若有**清淡果香**即可；无香味则偏生，有明显甜腻味则过熟。\n4. **观察叶子**：叶子翠绿挺直说明新鲜；叶子易拔下或发黄枯萎则存放时间较长。\n5. **掂重量**：同等大小的菠萝，**手感沉甸甸**的含水量高、果肉饱满；过轻可能脱水或空心。\n\n**实用建议**：采购时少量拿略偏生（青黄配比约7:3）的菠萝，配合销售情况自然成熟。同时要求供应商切割时保留1-2厘米果冠，减少切面氧化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 253,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6baebae6-bf97-4184-b3e2-2676156d7a28",
+  "object": "chat.completion",
+  "created": 1784499231,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议您向供应商索要以下资料以确保水果农残合规：\n\n1. **第三方检测报告**：要求提供近期（如3个月内）由有资质的检测机构出具的农药残留检测报告，需包含具体检测项目（如有机磷、氨基甲酸酯类等）和限量标准（参照GB 2763或其他国家标准）。\n2. **供应商资质证明**：包括营业执照、食品经营许可证或农产品生产许可证，确认其合法经营。\n3. **产地证明或溯源信息**：如水果产地、种植户信息、采摘日期等，便于追查问题根源。\n4. **合规承诺函**：由供应商出具书面承诺，保证产品符合国家农残限量要求，并自愿接受抽检和承担违规责任。\n5. **内部检测记录**（如适用）：若供应商自有自检能力，可要求提供批批检测记录或快检数据。\n\n另外，建议在合同中明确约定农残检测标准、抽检不合格的赔偿条款，并对高风险水果（如草莓、葡萄等）加强入仓快检。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 221,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

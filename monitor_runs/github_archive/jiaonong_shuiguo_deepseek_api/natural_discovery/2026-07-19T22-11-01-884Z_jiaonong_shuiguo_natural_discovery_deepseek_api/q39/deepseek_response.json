@@ -1,0 +1,28 @@
+{
+  "id": "fdac6f50-dbeb-444c-8b00-103cb386c5f9",
+  "object": "chat.completion",
+  "created": 1784499343,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。很多供应商会提供包装和规格支持，尤其是针对商超自有品牌的需求。具体支持程度取决于供应商规模、合作方式及订单量。\n\n建议你可以：\n1. **明确需求文档**：列出所需水果品类、规格（如单果克重、果径）、包装形式（如礼盒、袋装、散装）、用户定位（高端、中端、特价）。\n2. **筛选供应商**：优先找有商超合作经验的供应商，向对方索取现有包装案例和规格清单。\n3. **确认支持条款**：包括包装设计费用、起订量、最小包装单位、贴标服务、是否支持独家包装定制（如印上商超Logo）。\n4. **签合同前测试**：要求供应商提供样品，检查包装密封性、防挤压设计、无公害说明等合规性。\n\n如果供应商无法完全满足，可考虑：\n- 与专业水果包装工厂合作，由你方提供规格，对方生产。\n- 与商超采购部沟通，看是否有已合作的包装资源或补贴政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 224,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

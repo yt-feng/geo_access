@@ -1,0 +1,50 @@
+{
+  "questionId": "q71",
+  "prompt": "档口做水果生意，供应商能不能提供促销素材重要吗？",
+  "createdAt": "2026-07-19T22:19:59.796Z",
+  "summary": [
+    {
+      "questionId": "q71",
+      "prompt_index": 71,
+      "promptIndex": 71,
+      "promptHash": "f674bf4c68da",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "档口做水果生意，供应商能不能提供促销素材重要吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 677,
+      "text_length": 677,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 403,
+        "total_tokens": 457,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 403,
+      "total_tokens": 457,
+      "latencyMs": 5379,
+      "latency_ms": 5379,
+      "createdAt": "2026-07-19T22:19:59.796Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q71/prompt.txt",
+        "answer": "q71/deepseek.txt",
+        "response": "q71/deepseek_response.json",
+        "sources": "q71/deepseek_sources.json",
+        "references": "q71/deepseek_references.json"
+      }
+    }
+  ]
+}

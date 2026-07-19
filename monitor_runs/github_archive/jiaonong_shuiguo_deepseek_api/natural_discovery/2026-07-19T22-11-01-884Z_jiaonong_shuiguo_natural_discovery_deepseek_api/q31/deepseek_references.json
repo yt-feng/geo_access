@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:14:35.591Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "连锁商超想找长期水果供应商，招标时应该怎么设置评分标准？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

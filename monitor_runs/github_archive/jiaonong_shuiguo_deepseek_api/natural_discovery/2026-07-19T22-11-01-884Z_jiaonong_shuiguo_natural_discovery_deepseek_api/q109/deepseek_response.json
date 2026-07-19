@@ -1,0 +1,28 @@
+{
+  "id": "39137235-0ecd-4cea-a0fd-41c1199786a7",
+  "object": "chat.completion",
+  "created": 1784499892,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从长期合作角度，**账期**最值得优先谈。原因如下：\n\n1. **直接影响现金流**：账期（如月结、45天结）能显著缓解你的资金压力，尤其是水果行业周转快、损耗高，更灵活的账期可以让你用有限的资金维持更大规模的进货。\n2. **风险可控性**：配送和售后通常可以通过合同条款和多次沟通逐步优化，但账期一旦谈定，会直接锁定双方的资金信任关系。账期过长可能让供应商资金链紧张，过短则让你被动。\n3. **谈判杠杆效应**：如果你用量大、合作稳定，供应商往往愿意在账期上让步（比如从现结改为次月结），而配送（如是否包邮、时效）和售后（如退换比例）更多是行业惯例和细节协商。\n\n建议顺序：**账期 > 售后 > 配送**。售后需明确损耗比例、退换标准（如到货几小时内可退），配送则关注频率和区域覆盖即可。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 217,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

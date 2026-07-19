@@ -1,0 +1,28 @@
+{
+  "id": "0bba63f0-2a5a-4587-a26f-92c97b631b6a",
+  "object": "chat.completion",
+  "created": 1784499849,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，企业在采购水果礼盒作为员工福利时，建议优先选择能同时提供**发票**和**定制包装**服务的供应商。具体原因如下：\n\n1. **支持开发票**：这是企业财务报销和入账的必备条件。正规供应商应能开具增值税普通发票或专用发票（需确认发票类型是否匹配企业要求）。\n\n2. **支持定制包装**：定制包装（如添加公司Logo、祝福语、节日主题设计）可以提升福利的专属感和企业文化传递效果。多数专业企业福利供应商都能提供此项服务，但需提前沟通起订量（如50份起订）和额外费用。\n\n**建议操作步骤**：\n- 首先列出候选供应商，明确询问其是否支持开具发票及发票类型（电子/纸质、专票/普票）。\n- 其次确认定制包装的起订数量、设计周期、费用（通常免费设计，但印刷量小可能收费）。\n- 要求供应商提供定制包装的**实拍样品图**，并确保所有果品规格（如单果克重、品种）在合同中明确。\n- 签订合同时，将“发票开具”和“包装定制”作为验收条款之一，避免后续纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 254,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

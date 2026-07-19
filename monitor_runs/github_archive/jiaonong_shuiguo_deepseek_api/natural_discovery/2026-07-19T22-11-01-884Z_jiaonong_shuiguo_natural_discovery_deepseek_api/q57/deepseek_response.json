@@ -1,0 +1,28 @@
+{
+  "id": "d363283e-f9ed-4005-9acf-cbcfa6848177",
+  "object": "chat.completion",
+  "created": 1784499495,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采用中央厨房统一收货更优，但需结合品类和门店距离综合考虑。具体建议如下：\n\n1. **优先统一收货**：\n   - **优势**：集中采购可降成本，统一品控（尤其水果成熟度、新鲜度），减少门店验收压力；便于标准化清洗、分切、包装，降低损耗。\n   - **适用**：距离中央厨房1-2小时车程内的门店，高频消耗品（如切配果盘、汁用水果）。\n\n2. **门店直收备选**：\n   - **劣势**：门店独立验收易导致品控差异（如规格、熟度不一致），增加人力与损耗；高频配送（如每日）会推高物流成本。\n   - **适用**：门店距离过远（如跨城），或易腐严重的水果（如特殊熟度草莓、短期保质浆果）。\n\n**执行建议**：\n- **混用模式**：标准化水果（如苹果、橙子）统一配送；易损/高鲜度水果（如草莓、蓝莓）由本地供应商直送门店。\n- **物流关键**：统一收货需确保冷链车直达，门店内2小时内分拣入库；若日配且门店集中，效率最高。\n- **数据支撑**：先试点3-5家门店运行1个月，对比损耗率、综合成本（采购+物流+人工），再定终案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 295,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

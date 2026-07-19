@@ -1,0 +1,28 @@
+{
+  "id": "0fd50aca-a6c7-42a2-bdf4-29f8307a9629",
+  "object": "chat.completion",
+  "created": 1784499696,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "支持。即时零售平台的特点是用户下单后希望快速送达（通常几小时或当天），水果又是高损耗、高时效性商品。如果供应商不支持小批量高频补货，容易出现以下问题：\n\n- 库存积压导致损耗增加，尤其是易腐水果；\n- 缺货损失订单，用户可能转向其他商家；\n- 资金周转慢，仓储成本上升。\n\n建议采用小批量高频补货模式，具体操作上：\n- 根据平台历史订单数据，设定最低安全库存和补货触发阈值；\n- 与平台共享实时销售数据，按需调整补货频率（每天1-2次甚至更多）；\n- 选择离平台前置仓近的仓库或分拨点，缩短响应时间；\n- 与平台协商补货物流成本分摊或补贴机制。\n\n这样能提升履约效率、降低损耗，同时增强平台对你的依赖度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 183,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

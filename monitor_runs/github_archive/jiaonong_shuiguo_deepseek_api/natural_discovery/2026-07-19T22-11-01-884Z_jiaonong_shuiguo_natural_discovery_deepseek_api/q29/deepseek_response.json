@@ -1,0 +1,28 @@
+{
+  "id": "65ed88fc-f0ba-482b-9c08-8f284cae38f5",
+  "object": "chat.completion",
+  "created": 1784499264,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "超市与水果供应商的账期通常在**30天到60天**之间比较常见，具体视合作模式和水果品类而定：\n\n- **生鲜水果（易损耗类）**：如草莓、葡萄等，账期较短，一般为**7-15天**，部分大型超市可能压缩到3-7天，以减少供应商资金压力。\n- **常规水果（较耐储存）**：如苹果、橙子、梨等，账期多为**30-45天**。\n- **进口/高端水果**：如车厘子、牛油果等，账期可能延长至**45-60天**，因供应链较长、单价高。\n\n**行业惯例**：\n- 大型连锁超市（如永辉、沃尔玛）通常账期较长，常见**45-60天**。\n- 中小型超市或社区店可能缩短至**15-30天**以争取供应商合作。\n\n**建议**：\n- 如果是首次合作，可尝试提出**30天**作为基准，再根据水果品类和双方风险承受能力协商。\n- 对于损耗率高的水果，尽量争取**15天以内**账期，避免供应商因资金周转困难影响供货品质。\n\n实际谈判时，可参考当地行业习惯和对方合作意愿灵活调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 268,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

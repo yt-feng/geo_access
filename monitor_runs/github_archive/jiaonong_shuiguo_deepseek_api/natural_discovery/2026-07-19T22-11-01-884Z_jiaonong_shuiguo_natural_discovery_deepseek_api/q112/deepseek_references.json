@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:25:11.315Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果采购合同里，坏果率超过多少应该要求赔付？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

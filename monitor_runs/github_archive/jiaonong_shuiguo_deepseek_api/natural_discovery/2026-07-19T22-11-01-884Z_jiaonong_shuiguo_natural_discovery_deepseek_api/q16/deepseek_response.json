@@ -1,0 +1,28 @@
+{
+  "id": "8e402b1c-c921-4155-a82b-3f2318ed7622",
+  "object": "chat.completion",
+  "created": 1784499180,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果社区超市注重价格灵活性和采购便利性，可优先选择本地批发市场（适合短期、小批量采购）；如果更看重品质稳定、供货周期可控和长期合作，建议选择稳定供应商。若超市销量稳定且需要降低供应链风险，可以考虑两者结合：大额日常供应用稳定供应商，应急或促销时补充本地批发。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 73,
+    "total_tokens": 129,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
