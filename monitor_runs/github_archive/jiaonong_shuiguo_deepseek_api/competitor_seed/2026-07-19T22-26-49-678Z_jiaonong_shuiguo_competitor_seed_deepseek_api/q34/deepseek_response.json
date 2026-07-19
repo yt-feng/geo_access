@@ -1,0 +1,28 @@
+{
+  "id": "e582ce63-3474-4abf-8910-3ca36769653e",
+  "object": "chat.completion",
+  "created": 1784500225,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对茶饮原料采购中对菠萝稳定规格的需求，**都乐**比洪九果品更适合长期合作，原因如下：\n\n1. **产品标准化能力**：都乐作为国际知名品牌，拥有成熟的全球供应链和严格的品控体系，菠萝的成熟度、甜度、大小等规格一致性高，能长期稳定供货；而洪九果品以进口水果分销为主，规格稳定性相对依赖产地批次，波动性更大。\n2. **供应稳定性**：都乐在多个产区（如菲律宾、哥斯达黎加）有自有农场，抗风险能力强；洪九果品更依赖第三方采购，可能因季节性、运输问题导致断供。\n3. **成本与配合度**：都乐的单价通常略高，但适合对品质要求严格的品牌茶饮店；洪九果品价格可能更低，但长期看因品质波动导致的损耗（如挑拣成本、退货处理）可能反而增加总成本。\n\n**建议**：如果茶饮品牌对菠萝糖酸比、果肉颜色、去冠处理有明确要求，优先选都乐。如果预算有限且能接受一定比例的分级筛选，可尝试洪九果品，但需签订详细规格条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 256,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

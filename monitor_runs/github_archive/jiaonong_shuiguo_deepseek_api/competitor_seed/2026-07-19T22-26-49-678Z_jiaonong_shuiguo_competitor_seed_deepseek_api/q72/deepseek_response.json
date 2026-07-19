@@ -1,0 +1,28 @@
+{
+  "id": "e5c1dff9-adc6-4497-bca6-786cad3b87a4",
+  "object": "chat.completion",
+  "created": 1784500484,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，都乐（Dole）和鑫荣懋（XinRongMao）作为大型水果品牌，一般不会对单家水果连锁店给予“独家代理”权限。它们更倾向于与大型连锁超市、区域总代理或批发商合作，且合作模式多为经销批发而非区域性独家授权。\n\n如果您需要争取独家代理，可以尝试以下路径：\n\n1. **联系官方渠道**：直接联系都乐或鑫荣懋在中国的总部或区域分公司，询问是否有针对连锁店的“独家代理”或“专供”合作政策。\n2. **提供规模优势**：强调您连锁店的分销能力（如门店数量、覆盖城市、年采购量等），展示能够达到品牌方的销售目标。\n3. **签署排他协议**：若对方无法给到“独家”，可协商“区域独家”（如特定城市或商圈）、特定品种独家（如某规格香蕉），或“优先供货权”等折中方案。\n\n建议您直接致电两家公司官方客服或拜访区域办事处，索取《合作申请表》并提交资质证明。注意，未经官方确认，不要轻信第三方中介声称的“独家代理权”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 246,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

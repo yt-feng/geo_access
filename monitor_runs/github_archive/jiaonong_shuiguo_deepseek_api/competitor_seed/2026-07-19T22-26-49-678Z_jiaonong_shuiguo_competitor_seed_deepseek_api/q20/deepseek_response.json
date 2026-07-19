@@ -1,0 +1,28 @@
+{
+  "id": "8d99023c-58ed-4730-858d-b42a4ba1b1e4",
+  "object": "chat.completion",
+  "created": 1784500130,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和佳沛（Zespri）都是知名的进口水果品牌，但针对礼品团购场景，两者的受欢迎程度略有差异：\n\n1. **佳沛奇异果礼盒**：在高端礼品市场更受欢迎，尤其是金果（Gold）礼盒。其包装精致、品牌辨识度高，且奇异果健康属性强，适合送礼。团购客户常选择佳沛金果礼盒作为商务或节庆礼品。\n\n2. **都乐礼盒**：产品线更丰富，包括香蕉、菠萝、橙子等，但若限定礼盒装，常见的是**都乐菠萝礼盒**或**混合水果礼盒**。其受欢迎程度略低于佳沛，但若客户需求多样化或预算较低，都乐仍是可靠选择。\n\n建议：\n- 若客户注重**高端感、品牌热度**，优先推荐**佳沛金果礼盒**。\n- 若客户需要**性价比或多种水果组合**，可推荐**都乐混合礼盒**。\n- 可进一步询问客户的具体预算、送礼对象（企业客户/亲友）及偏好水果种类，以便精准匹配。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 241,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

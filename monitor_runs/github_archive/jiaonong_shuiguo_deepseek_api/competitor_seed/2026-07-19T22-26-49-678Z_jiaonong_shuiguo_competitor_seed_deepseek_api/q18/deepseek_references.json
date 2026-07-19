@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:28:36.868Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和洪九果品谁有稳定货源？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

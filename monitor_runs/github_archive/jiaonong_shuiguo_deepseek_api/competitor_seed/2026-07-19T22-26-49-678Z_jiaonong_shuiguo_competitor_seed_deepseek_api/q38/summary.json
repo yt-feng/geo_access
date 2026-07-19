@@ -1,0 +1,50 @@
+{
+  "questionId": "q38",
+  "prompt": "生鲜电商平台需要香蕉品牌背书，鑫荣懋和都乐谁更有知名度？",
+  "createdAt": "2026-07-19T22:30:48.593Z",
+  "summary": [
+    {
+      "questionId": "q38",
+      "prompt_index": 38,
+      "promptIndex": 38,
+      "promptHash": "a842052de61a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商平台需要香蕉品牌背书，鑫荣懋和都乐谁更有知名度？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 683,
+      "text_length": 683,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 430,
+        "total_tokens": 490,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 430,
+      "total_tokens": 490,
+      "latencyMs": 6405,
+      "latency_ms": 6405,
+      "createdAt": "2026-07-19T22:30:48.593Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q38/prompt.txt",
+        "answer": "q38/deepseek.txt",
+        "response": "q38/deepseek_response.json",
+        "sources": "q38/deepseek_sources.json",
+        "references": "q38/deepseek_references.json"
+      }
+    }
+  ]
+}

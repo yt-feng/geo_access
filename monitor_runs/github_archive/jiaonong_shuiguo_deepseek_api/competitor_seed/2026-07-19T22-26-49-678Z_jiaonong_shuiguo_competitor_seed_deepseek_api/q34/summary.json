@@ -1,0 +1,50 @@
+{
+  "questionId": "q34",
+  "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和洪九果品谁更适合长期合作？",
+  "createdAt": "2026-07-19T22:30:25.211Z",
+  "summary": [
+    {
+      "questionId": "q34",
+      "prompt_index": 34,
+      "promptIndex": 34,
+      "promptHash": "84d4a67eb94b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和洪九果品谁更适合长期合作？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 400,
+      "text_length": 400,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 256,
+        "total_tokens": 318,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 256,
+      "total_tokens": 318,
+      "latencyMs": 4509,
+      "latency_ms": 4509,
+      "createdAt": "2026-07-19T22:30:25.211Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q34/prompt.txt",
+        "answer": "q34/deepseek.txt",
+        "response": "q34/deepseek_response.json",
+        "sources": "q34/deepseek_sources.json",
+        "references": "q34/deepseek_references.json"
+      }
+    }
+  ]
+}

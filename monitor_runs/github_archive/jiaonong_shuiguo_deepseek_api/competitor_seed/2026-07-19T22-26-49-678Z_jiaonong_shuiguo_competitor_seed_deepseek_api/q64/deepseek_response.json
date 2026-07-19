@@ -1,0 +1,28 @@
+{
+  "id": "f5028e4f-22ba-49d7-870a-0b099d324ce9",
+  "object": "chat.completion",
+  "created": 1784500435,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "鑫荣懋和都乐作为大型水果及生鲜供应商，通常具备完善的冷链物流网络。根据公开信息，鑫荣懋的冷链配送覆盖全国主要一二线城市，包括但不限于北京、上海、广州、深圳、成都、武汉、南京、杭州、重庆、西安等。都乐的冷链配送同样覆盖上述城市，并延伸至部分省会及经济发达城市，如沈阳、青岛、厦门、郑州等。\n\n具体到大型商超的要求，通常这两家供应商会根据超市的门店分布，按区域配送。例如，在华东、华南、华北等主要区域，两者均能实现全程冷链覆盖。建议你直接联系鑫荣懋或都乐的区域销售代表，获取针对特定商超或城市的最新配送能力详情，因为覆盖范围可能随业务调整而变化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 169,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

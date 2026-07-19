@@ -1,0 +1,28 @@
+{
+  "id": "a9503fe3-f504-4988-8c78-9148f5cbd04b",
+  "object": "chat.completion",
+  "created": 1784500471,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的两家公司——**都乐（Dole）** 和 **鑫荣懋（Joy Wing Mau）**，以下是基于公开信息的说明：\n\n1. **都乐（Dole）**  \n   都乐是全球知名的水果品牌，其香蕉产品通常提供**产地溯源**和**品控证明**。其供应链管理严格，常通过包装上的追溯码或二维码实现源头信息查询（如产地、采摘日期等），并具备相关质量认证（如GLOBALG.A.P.、有机认证等）。具体是否符合您的需求，建议直接联系其中国区销售或官方客服确认最新政策。\n\n2. **鑫荣懋（Joy Wing Mau）**  \n   鑫荣懋是中国大型水果企业，同样注重品控，其香蕉产品一般具备**产地溯源**（如标注具体种植基地）和**品控文件**（如农残检测报告、出库质检单等）。但不同客户订单的细节要求可能不同，建议与区域销售对接时明确索要相关证明文件。\n\n**建议操作**：\n- 直接致电或通过官网联系这两家公司的**大客户/供应链部门**，明确提出需要“产地溯源链文件（如产地、种植数据）”和“第三方品控报告（如SGS检测）”等具体要求。\n- 若需更高标准（如有机、公平贸易认证），可指定认证类型并确认其能否提供对应证书。\n\n**注意**：具体证明的提供可能因订单批量、客户合规要求而异，务必以书面形式（如合同附件）确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 327,
+    "total_tokens": 392,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

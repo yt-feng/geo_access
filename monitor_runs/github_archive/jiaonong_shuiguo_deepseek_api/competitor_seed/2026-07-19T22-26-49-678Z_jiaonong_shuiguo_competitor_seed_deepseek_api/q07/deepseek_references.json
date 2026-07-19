@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:27:27.220Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "有没有能提供账期和锁价机制的进口水果供应商？鑫荣懋和洪九果品谁更灵活？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

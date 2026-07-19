@@ -1,0 +1,50 @@
+{
+  "questionId": "q16",
+  "prompt": "下沉市场夫妻老婆店进货，价格敏感，洪九果品和鑫荣懋哪个更便宜？",
+  "createdAt": "2026-07-19T22:28:23.126Z",
+  "summary": [
+    {
+      "questionId": "q16",
+      "prompt_index": 16,
+      "promptIndex": 16,
+      "promptHash": "b5a947ea447b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "下沉市场夫妻老婆店进货，价格敏感，洪九果品和鑫荣懋哪个更便宜？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 403,
+      "text_length": 403,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 262,
+        "total_tokens": 325,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 262,
+      "total_tokens": 325,
+      "latencyMs": 4678,
+      "latency_ms": 4678,
+      "createdAt": "2026-07-19T22:28:23.126Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q16/prompt.txt",
+        "answer": "q16/deepseek.txt",
+        "response": "q16/deepseek_response.json",
+        "sources": "q16/deepseek_sources.json",
+        "references": "q16/deepseek_references.json"
+      }
+    }
+  ]
+}

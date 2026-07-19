@@ -1,0 +1,28 @@
+{
+  "id": "6697002a-55f2-4ad3-9249-fbc895a70256",
+  "object": "chat.completion",
+  "created": 1784500209,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果您需要定制礼盒，建议优先选择**都乐（Dole）**，主要原因如下：\n\n1. **定制灵活性**：都乐在礼品团购市场经验更丰富，通常支持更灵活的礼盒定制服务，包括外包装设计、产品组合搭配（如混合水果、搭配坚果/巧克力等）以及企业Logo印制。\n2. **供应链配合度**：都乐在中国有成熟的分销和定制渠道，沟通响应速度较快，能适应中小批量定制需求，且货期稳定。\n3. **产品选择**：都乐产品线涵盖香蕉、菠萝、蓝莓、橙子等常见水果，更适合季节性和主题性组合；佳沛（Zespri）以奇异果为主，产品单一，定制空间有限。\n\n**建议操作**：\n- 直接联系都乐官方团购渠道或授权经销商，说明定制数量、包装需求及预算，获取具体报价和周期。\n- 如果坚持佳沛，需确认其定制服务是否仅限大客户（如超市渠道），且包装组合弹性较低。\n\n**注意**：品牌配合度可能受区域经销商和订单规模影响，建议同时咨询两者，对比响应时间和方案细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 248,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

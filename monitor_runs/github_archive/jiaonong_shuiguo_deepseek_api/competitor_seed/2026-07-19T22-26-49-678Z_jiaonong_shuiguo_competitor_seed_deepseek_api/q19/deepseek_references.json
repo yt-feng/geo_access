@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:28:43.382Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们做批发，需要香蕉锁价机制应对价格波动，鑫荣懋和洪九果品谁提供？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

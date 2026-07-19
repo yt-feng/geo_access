@@ -1,0 +1,28 @@
+{
+  "id": "648ba333-a5f0-4bd1-b991-21750cac18d1",
+  "object": "chat.completion",
+  "created": 1784500030,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对进口香蕉品牌推荐，以下是几个在中国市场表现较好的品牌，供参考：\n\n1. **都乐（Dole）**  \n   - 全球知名果蔬品牌，香蕉是其核心产品之一，品质稳定，供应链成熟。\n   - 常见于高端超市和线上平台（如盒马、京东生鲜）。\n\n2. **佳农（Goodfarmer）**  \n   - 中国本土进口水果龙头企业，香蕉主要来自厄瓜多尔、菲律宾等产地。\n   - 性价比高，渠道覆盖广（如大润发、美团优选）。\n\n3. **菲农（Fyffes）**  \n   - 爱尔兰百年品牌，专注于香蕉（如有机系列），在华东、华南市场有较强渗透。\n   - 部分精品超市和进口食品店有售。\n\n4. **超奇（Chiquita）**  \n   - 老牌香蕉品牌，主打“蓝色标签”高品质系列，口感甜糯。\n   - 线上平台（如天猫国际）或高端会员制超市（如山姆、Costco）可找到。\n\n**采购建议**：  \n- 如果追求渠道稳定和标准化，可选**都乐**；  \n- 若侧重性价比和本土化服务，**佳农**是传统超市常见选择；  \n- 需差异化产品（如有机、小包装），可尝试**菲农**或**超奇**。  \n\n若需要进一步分析（如产地对比、价格区间），请补充具体需求（如目标客户、采购渠道）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 315,
+    "total_tokens": 378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

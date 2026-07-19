@@ -1,0 +1,28 @@
+{
+  "id": "d1839fff-17d2-4e1e-aa79-9f7f2eed8322",
+  "object": "chat.completion",
+  "created": 1784500230,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于您的需求，**都乐（Dole）和鑫荣懋（Chinagrown）均具备全国配送能力**，但侧重点不同：\n\n1. **都乐**：国际品牌，在国内主要依托冷链物流体系覆盖一二线城市（如北上广深、省会及部分地级市），配送网络较成熟，但三四线及以下城市的覆盖需提前确认。\n2. **鑫荣懋**：国内深耕水果供应链，除大型商超外，对餐饮连锁客户的B2B配送体系更灵活，尤其在华南、华东、华中区域网络密集，且具备定制小批量直配能力。\n\n**建议**：  \n- 明确您的餐厅主要分布区域（如聚焦华东/华南，可选鑫荣懋；若全国一线城市广泛分布，都乐可能更高效）。  \n- 直接联系两家企业的大客户部门，要求提供《可配送城市清单》及冷链物流合作案例，重点确认**是否支持每周固定频次、最小起订量及应急补货**。  \n- 若您有实际采购量（如月均吨级），两家均会优先倾斜资源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 240,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

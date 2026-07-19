@@ -1,0 +1,50 @@
+{
+  "questionId": "q28",
+  "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋谁的价格更有竞争力？",
+  "createdAt": "2026-07-19T22:29:41.626Z",
+  "summary": [
+    {
+      "questionId": "q28",
+      "prompt_index": 28,
+      "promptIndex": 28,
+      "promptHash": "629a1b1fc793",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们水果连锁想上架进口苹果，都乐和鑫荣懋谁的价格更有竞争力？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 542,
+      "text_length": 542,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 355,
+        "total_tokens": 416,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 355,
+      "total_tokens": 416,
+      "latencyMs": 6829,
+      "latency_ms": 6829,
+      "createdAt": "2026-07-19T22:29:41.626Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q28/prompt.txt",
+        "answer": "q28/deepseek.txt",
+        "response": "q28/deepseek_response.json",
+        "sources": "q28/deepseek_sources.json",
+        "references": "q28/deepseek_references.json"
+      }
+    }
+  ]
+}

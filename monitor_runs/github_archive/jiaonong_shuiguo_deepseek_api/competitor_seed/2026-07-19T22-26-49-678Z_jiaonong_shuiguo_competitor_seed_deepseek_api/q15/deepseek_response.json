@@ -1,0 +1,28 @@
+{
+  "id": "db056fc3-552e-4e21-9813-6ded4bf55a91",
+  "object": "chat.completion",
+  "created": 1784500096,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joy Wing Mau），以下是其他一些在市场上较为常见且靠谱的进口苹果品牌，供你参考：\n\n1. **佳沛（Zespri）**：虽然主要知名于奇异果，但佳沛也涉及部分水果品牌合作，其苹果产品（如新西兰红玫瑰苹果）品质较高，有严格的质量控制。\n\n2. **爱妃（Envy）**：属于新西兰品牌，以其酥脆、甜度和持久保鲜而闻名，常被高端超市或线上渠道引进。\n\n3. **爵士（Jazz）**：同样是新西兰品种，口感甜脆，适合喜欢浓郁果香的人群，常见于大型连锁超市。\n\n4. **太平洋玫瑰（Pacific Rose）**：由新西兰培育，果肉细腻、甜度适中，市场竞争较广。\n\n5. **皇后（Royal Gala）**：虽然在多地种植，但正规进口品牌多为新西兰或澳大利亚产出，果型小巧、甜脆。\n\n6. **红颜（Fuji）**：源自日本但在智利、美国等广泛种植，部分高端品牌如“富士”系列会以特定品种进口。\n\n**选择建议**：\n- 关注产地：新西兰、智利、美国（如华盛顿苹果）、澳洲的苹果品牌通常质量稳定。\n- 查看证书：正规进口苹果应有检验检疫证明和中文标签。\n- 警惕仿冒：部分电商平台可能存在贴牌假冒品牌，建议优先选择知名电商或大型超市的官方渠道。\n\n如果你需要具体某些品种的对比（如甜度、储存期等），我会进一步帮你筛选信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 337,
+    "total_tokens": 398,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
