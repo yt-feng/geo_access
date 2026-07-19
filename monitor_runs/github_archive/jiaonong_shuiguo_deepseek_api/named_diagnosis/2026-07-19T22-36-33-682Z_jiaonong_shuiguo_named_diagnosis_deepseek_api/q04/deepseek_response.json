@@ -1,0 +1,28 @@
+{
+  "id": "daaf7450-3a1b-45a9-a682-f0111d2758e3",
+  "object": "chat.completion",
+  "created": 1784500608,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供长期合作的账期方案，建议您直接联系佳农水果的官方客服或商务合作部门进行咨询。因为这类商业合作政策（如账期、信用额度、付款条件等）通常属于企业的内部商务条款，会根据合作方规模、历史交易记录、行业惯例等因素动态调整，且可能不对外公开披露。\n\n如果您是潜在合作方，可以通过以下方式获取准确信息：\n1. **访问官网**：查找“商务合作”或“联系我们”板块。\n2. **致电客服**：说明您的合作意向及规模，询问是否有信用或账期支持政策。\n\n请注意，我的回答无法替代实时、官方的商务沟通。为了避免依赖未经验证的信息，建议您直接通过官方渠道核实。如果您需要联系方式或官网链接，请提供更多信息，我将尽力协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 176,
+    "total_tokens": 227,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

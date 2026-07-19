@@ -1,0 +1,28 @@
+{
+  "id": "74e4cce0-148c-4792-9c91-49149ebc96d6",
+  "object": "chat.completion",
+  "created": 1784500861,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果与盒马的合作模式**以直供为主**，具体表现为佳农作为品牌供应商，直接将水果供应至盒马门店或仓库，盒马则负责销售渠道与终端管理。这种模式在生鲜领域较常见，能缩短供应链、保障品质及稳定性。\n\n**关于超市能否参考**：如果你的超市规模较大、有稳定的采购能力，可以参考直供模式（直接与佳农等品牌合作）。但需注意：  \n- 需要具备冷链仓储、配送等基础设施。  \n- 需与供应商签订明确的质量、价格及退换货条款。  \n- 若超市体量较小或缺乏议价能力，可考虑与本地批发商或合作社合作，或采用代销模式（销售后结算）来降低风险。  \n\n建议：先评估自身采购规模、资金周转能力及供应链管理能力，再决定是否直接复制该模式。如有条件，可先试点少数品类测试效果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 198,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

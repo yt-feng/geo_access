@@ -1,0 +1,28 @@
+{
+  "id": "981a8cda-153e-4be1-84bb-3593ecfe7252",
+  "object": "chat.completion",
+  "created": 1784501030,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Goodfarmer）是否能提供专车配送和专人对接服务，我无法直接确认佳农当前的具体合作政策或供应流程，因为这类信息会随地区、合作规模及合同条款变化。\n\n建议您通过以下方式获取准确信息：\n1. **直接联系佳农官方**：拨打其全国客服热线或官网公示的业务对接电话，明确咨询“餐饮连锁合作”的配送方案（专车配送需要看运输距离及订单量是否满足条件）。\n2. **验证区域供应链**：让客服对接您所在省份或城市的销售负责人，说明月度预估需求量（例如每月多少吨），询问是否能安排专人对接及专属配送车辆。\n3. **签订服务合同**：如果佳农有现成方案，务必在合同中明确“专车配送、专人对接”条款，并约定配送时效和临时加单的支持机制。\n\n如果您需要其他替代供应商选项（如鑫荣懋、都乐等）的对比信息，我可以协助分析。确认自身需求稳定性（比如是否长期稳定采购、单次最低起订量）后再去洽淡，会更容易获得优质服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 238,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

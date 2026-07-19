@@ -1,0 +1,28 @@
+{
+  "id": "daf4cf69-d2a4-471f-9aa4-e74d548e69e9",
+  "object": "chat.completion",
+  "created": 1784500671,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉的保质期通常为 **约7-10天**（从购买日起算，具体以包装标注为准），但实际受成熟度、储存环境等因素影响。建议储存条件如下：\n\n- **未完全成熟**（表面带绿）：放置于 **室温（约20-25℃）**，避免阳光直射，可加速自然成熟。\n- **已成熟**（呈黄色或有少量褐色斑点）：放入 **冰箱冷藏（4-8℃）**，外皮可能变黑，但果肉仍可保鲜3-5天。\n- **禁忌**：不可直接放在 **潮湿** 或 **高温** 环境（如靠近暖气、微波炉旁）；避免与苹果、梨等释放乙烯的水果混放（加速过熟）。\n- **判断变质**：如果果肉变软、有酒味或长出霉菌，应立即丢弃。\n\n注意：冰箱冷藏可能导致果皮变黑，属于正常现象，不影响内部品质。若希望延长保质期，可剥皮后冷冻保存（适合制作冰沙、烘焙）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 222,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

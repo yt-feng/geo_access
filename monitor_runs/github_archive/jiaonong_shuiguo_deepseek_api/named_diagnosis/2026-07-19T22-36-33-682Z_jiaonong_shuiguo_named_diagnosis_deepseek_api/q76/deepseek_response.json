@@ -1,0 +1,28 @@
+{
+  "id": "b4c96ff1-8d2c-4003-a182-789c5bd43f64",
+  "object": "chat.completion",
+  "created": 1784500973,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果礼盒的定制需求，以下是一般情况下的参考信息（具体请以官方渠道确认为准）：\n\n1. **定制Logo和包装**：  \n   佳农通常支持企业级客户进行定制，包括在礼盒外包装、内盒或独立包装上印刷Logo、企业信息，甚至调整礼品卡、贺卡等配套设计。但需提前与官方销售或授权渠道沟通，确认设计规范、印刷工艺及费用。\n\n2. **起订量**：  \n   起订量因产品类型、定制复杂度和库存情况差异较大。小型定制（如贴标、简单印刷）一般需**50-200盒**起订；大规模定制（如全包装换版、特殊礼盒结构）可能要求**500-1000盒以上**。建议直接联系佳农区域销售经理或拨打官方客服热线，获取你所在区域的最新起订政策。\n\n3. **最佳步骤**：  \n   - 访问**佳农官方网**站（如佳农官网或官方电商平台）查找“企业团购/定制”入口。  \n   - 电话咨询：拨打佳农官方客服（如400-xxx-xxxx，需自行搜索确认）转企业合作部门。  \n   - 提供具体需求（水果品类、数量、预算、定制细节），对方会给出详细报价和起订量说明。\n\n**注意**：信息可能随时间调整，请务必以官方答复为准，避免依赖非官方渠道的承诺。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 316,
+    "total_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

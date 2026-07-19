@@ -1,0 +1,50 @@
+{
+  "questionId": "q38",
+  "prompt": "佳农水果能提供菠萝的锁价合同吗？比如锁定半年价格？",
+  "createdAt": "2026-07-19T22:39:21.057Z",
+  "summary": [
+    {
+      "questionId": "q38",
+      "prompt_index": 38,
+      "promptIndex": 38,
+      "promptHash": "5eaca220166f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果能提供菠萝的锁价合同吗？比如锁定半年价格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 135,
+      "text_length": 135,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 81,
+        "total_tokens": 138,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 81,
+      "total_tokens": 138,
+      "latencyMs": 1893,
+      "latency_ms": 1893,
+      "createdAt": "2026-07-19T22:39:21.057Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q38/prompt.txt",
+        "answer": "q38/deepseek.txt",
+        "response": "q38/deepseek_response.json",
+        "sources": "q38/deepseek_sources.json",
+        "references": "q38/deepseek_references.json"
+      }
+    }
+  ]
+}

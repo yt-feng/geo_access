@@ -1,0 +1,28 @@
+{
+  "id": "fcb10bc7-1bdf-4ff6-a858-6768e5aa0684",
+  "object": "chat.completion",
+  "created": 1784500983,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以实现。佳农作为大型生鲜供应商，其ERP系统通常具备标准接口（如API或EDI），可支持订单自动推送与库存实时同步。以下是具体建议：\n\n1. **接口对接方式**：需确认佳农提供的技术方案（如RESTful API、WebService或EDI）。建议优先使用API对接，灵活性高，适合实时数据交互。\n2. **订单自动推送**：通过API实现订单数据（含商品、数量、收货地址等）直接发送至佳农ERP，通常支持实时或定时推送，需双方定义数据格式（如JSON/XML）。\n3. **库存实时同步**：佳农ERP可向生鲜电商系统推送库存变化（如出库、退货、调整），通过Webhook或轮询接口，确保库存数据近实时更新（通常延迟在分钟级）。\n4. **实施前确认**：联系佳农业务方或技术团队，明确其接口文档、认证方式（如API Key/OAuth）、数据频率限制（如QPS）、错误处理机制（如重试逻辑）。\n5. **注意事项**：生鲜行业可能涉及批次、保质期等特殊字段，需在对接中确认能否同步；建议先做小范围测试（如单品订单验证）。\n\n如果需要，我可以提供更详细的API对接标准模板或测试计划示例。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 278,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

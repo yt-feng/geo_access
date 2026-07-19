@@ -1,0 +1,28 @@
+{
+  "id": "8b12d56f-b9c8-4510-84c2-bd0f88a60075",
+  "object": "chat.completion",
+  "created": 1784501038,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常采用**乙烯催熟**工艺，而非自然熟。这是因为香蕉在采摘后仍是青果，自然成熟时间太长且不均匀，无法满足商超的标准化供应需求。\n\n针对商超控制催熟时间的需求，建议如下：\n1. **确认供应商信息**：直接联系佳农水果的区域销售或技术支持，获取其标准催熟方案，包括乙烯浓度、温度、湿度及时间参数（通常为24-48小时）。\n2. **使用专业催熟库**：若自行催熟，需配备温控（18-22℃）和乙烯气体释放装置（如乙烯利溶液或气体），严格按比例使用。\n3. **定期检测**：每天检查香蕉颜色（从深绿到浅绿、黄绿到全黄）和手感硬度，按需调整时间，避免过熟。\n4. **记录批次数据**：记录每批香蕉的入库时间、乙烯使用量、温度波动，便于优化流程。\n\n若需自然熟（不推荐商超使用），需在25-30℃下放置5-7天，品质和损耗率难控制。建议优先采用可控乙烯催熟。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 245,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

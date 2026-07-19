@@ -1,0 +1,28 @@
+{
+  "id": "3378a07d-5a5c-48e1-9997-5e8f0a3ea716",
+  "object": "chat.completion",
+  "created": 1784500741,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉企业标准，具体的标准编号和详细内容属于企业内部非公开信息，通常不会对外公布。但一般来说，大型水果企业（如佳农）的香蕉标准会参照或高于国家推荐标准（如GB/T 16862-2023《鲜香蕉》等），在果形、成熟度、表皮瑕疵、糖度、农药残留、冷链物流等方面可能有更严格的把控。\n\n**初步结论：** 佳农作为品牌企业，其企业标准通常不低于国标，但具体是否“高”需结合其实际执行的检验指标判断。如果你需要获取最准确的官方信息，建议直接联系佳农官方客服或查阅其产品包装上的标准代号（如Q/开头号的企业标准）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 154,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

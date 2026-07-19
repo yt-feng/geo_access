@@ -1,0 +1,28 @@
+{
+  "id": "ed12bbfc-8b74-4782-8e3e-0a4a003b5ef9",
+  "object": "chat.completion",
+  "created": 1784501050,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据我所了解的信息，佳农水果确实销售红富士苹果，但关于**新疆阿克苏苹果**这一特定品种，佳农的产品线可能不完全固定，建议您通过以下方式确认：\n\n1. **直接查询佳农官方渠道**：访问佳农官网、官方小程序或联系其销售热线，查询当前在售的苹果品类和产地。新疆阿克苏苹果通常以其“冰糖心”特征闻名，佳农可能季节性采购或通过特定渠道供应。\n2. **联系当地批发商或采购部门**：如果您是通过企业采购，可直接与佳农的区域代理或大客户经理沟通，明确需求（如产地、规格、数量），获取最新报价和供货信息。\n3. **关注季节性供应**：阿克苏苹果采摘期通常在10月至11月，后续冷库储存可供应至次年春季，建议在产季前后重点关注。\n\n若您需要核实具体库存或采购细节，**直接联系佳农官方**是最可靠的方式。我无法实时查询其库存数据，建议以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 218,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

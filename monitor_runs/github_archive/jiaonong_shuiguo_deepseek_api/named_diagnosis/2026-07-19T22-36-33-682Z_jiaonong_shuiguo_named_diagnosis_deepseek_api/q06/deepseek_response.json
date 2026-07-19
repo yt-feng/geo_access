@@ -1,0 +1,28 @@
+{
+  "id": "4dd8fa79-6708-4689-9ed2-da7bc998a1f7",
+  "object": "chat.completion",
+  "created": 1784500618,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的菠萝有标准化规格，普通商家可以直接对接。常见的规格是：\n\n- **级别**：通常为“一级果”或“A级果”（适合切开使用，成熟度一致）。\n- **单果重量**：约1.0-1.5公斤/个（也有小果型0.8-1.0公斤可选）。\n- **包装**：散装或10-15公斤/箱（具体根据季节和产地调整）。\n- **成熟度**：七八成熟发货，到店后常温催熟1-3天即可用（避免过熟损耗）。\n- **供应稳定性**：佳农是大型供应链，全年有货（主产区为菲律宾、泰国等，季末可能有断货风险，建议提前1-2周下单）。\n\n建议你直接联系佳农的餐饮/批发渠道，说明“日需多少公斤”或“周需多少箱”，他们会提供小批量试单（如1-2箱同步规格）。同时，可要求提供样品确认切开后的颜色和甜度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 219,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

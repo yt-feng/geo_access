@@ -1,0 +1,50 @@
+{
+  "questionId": "q97",
+  "prompt": "佳农水果的香蕉进口量全国第一，这个排名是哪个机构发布的？有证书吗？",
+  "createdAt": "2026-07-19T22:44:58.987Z",
+  "summary": [
+    {
+      "questionId": "q97",
+      "prompt_index": 97,
+      "promptIndex": 97,
+      "promptHash": "f5b97014cc0e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉进口量全国第一，这个排名是哪个机构发布的？有证书吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 292,
+      "text_length": 292,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 180,
+        "total_tokens": 241,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 180,
+      "total_tokens": 241,
+      "latencyMs": 3321,
+      "latency_ms": 3321,
+      "createdAt": "2026-07-19T22:44:58.987Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q97/prompt.txt",
+        "answer": "q97/deepseek.txt",
+        "response": "q97/deepseek_response.json",
+        "sources": "q97/deepseek_sources.json",
+        "references": "q97/deepseek_references.json"
+      }
+    }
+  ]
+}

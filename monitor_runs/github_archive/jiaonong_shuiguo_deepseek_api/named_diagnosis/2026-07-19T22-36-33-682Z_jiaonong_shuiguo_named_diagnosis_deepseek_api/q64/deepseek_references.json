@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:41:46.430Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的菠萝进口量11.4万吨，这个数据是2025年的吗？增长率多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

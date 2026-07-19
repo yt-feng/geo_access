@@ -1,0 +1,28 @@
+{
+  "id": "5028a15a-4a59-4938-aa4f-cb6344effcb7",
+  "object": "chat.completion",
+  "created": 1784500719,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝是否拥有公开的品质奖项或客户案例，以及信息的可靠性，需要根据具体公开资料判断。一般而言，佳农作为知名品牌，旗下产品（包括菠萝）可能获得过行业奖项或认证，如中国绿色食品认证、国际质量安全认证等，也可能有合作客户案例（如连锁超市、餐饮企业等）。\n\n若需验证，建议：\n1. **查阅官方渠道**：佳农官网、官方微信公众号或微博，通常会有荣誉资质及合作伙伴介绍。\n2. **权威第三方平台**：如商务部、农业农村部相关公示，或权威媒体（如人民网、新华网）的报道。\n3. **行业报告**：中国果品流通协会等机构的评选或认证。\n\n这些来源通常具有较高可靠性。若通过非官方或非权威渠道获取信息（如论坛、非认证自媒体），需谨慎核实。建议直接联系佳农官方客服获取准确信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 190,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "857102ce-efb4-4ccf-af9c-1b30432906da",
+  "object": "chat.completion",
+  "created": 1784500895,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类：**佳农确实有红富士苹果**，这是其主力产品之一，通常来自陕西、山东等产区。\n\n至于**与鑫荣懋的性价比对比**，由于价格随季节、渠道、等级（如规格、糖度）波动，无法给出绝对结论。但以下分析可供参考：\n\n1. **产品定位**：  \n   - 佳农的红富士主打**家庭装、大包装**（如5-8斤装），定价更倾向于日常消费，性价比稳定。  \n   - 鑫荣懋的红富士常以**差异化品种**（如进口青森、国产精品“果佳人”系列）或**小包装**出现，单价通常偏高。  \n\n2. **性价比对比建议**：  \n   - 若追求**大众化、低单价**，同等规格下佳农通常更实惠。  \n   - 若需要**特定口感（如更脆甜）或高端包装**，鑫荣懋的精品线（如“佳沃”系列）可能更优，但需接受溢价。  \n\n3. **具体操作**：  \n   - 到生鲜平台（如盒马、山姆、美团）对比同规格（如10个装、4斤装）的实时价格与评分。  \n   - 优先看**用户反馈中的“口感”与“售后”**，避开单纯比价陷阱。  \n\n如需当前最准确信息，建议截图或提供具体产品链接，我可以进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 318,
+    "total_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

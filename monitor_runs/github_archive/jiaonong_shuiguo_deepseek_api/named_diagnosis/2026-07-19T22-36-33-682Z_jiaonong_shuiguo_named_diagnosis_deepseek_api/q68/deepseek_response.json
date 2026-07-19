@@ -1,0 +1,28 @@
+{
+  "id": "391b5893-cb2b-4583-8e9b-1b4eb0bae873",
+  "object": "chat.completion",
+  "created": 1784500923,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法直接确认佳农水果的具体接口开放情况，因为这类信息属于企业内部商务和技术资料，且API接口可能因合作模式（如直连、通过第三方平台）而不同。\n\n建议您通过以下可靠渠道核实：\n1. **联系佳农水果官方**：直接致电其商务或IT部门，询问是否有标准开放API（如基于RESTful或SOAP协议）或需要定制开发对接。\n2. **查看合作平台文档**：如果佳农已在“鲜桥”、“美菜”等生鲜B2B平台上线，可查看平台方是否提供标准API，或走平台数据交换通道。\n3. **咨询同行或IT服务商**：在生鲜电商行业交流群或向ERP实施公司（如用友、金蝶代理商）咨询，佳农可能已有标准化对接方案。\n\n如果决定对接，务必提前明确接口协议（如JSON/XML）、数据字段、认证方式（如API Key或OAuth）及是否支持实时同步。建议先获取《接口对接规范文档》进行评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 224,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

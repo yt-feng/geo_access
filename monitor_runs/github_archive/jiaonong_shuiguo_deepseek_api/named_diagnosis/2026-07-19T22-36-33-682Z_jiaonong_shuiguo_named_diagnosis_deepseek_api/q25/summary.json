@@ -1,0 +1,50 @@
+{
+  "questionId": "q25",
+  "prompt": "佳农水果的物流网络是自营还是外包？冷链能力如何？",
+  "createdAt": "2026-07-19T22:38:24.685Z",
+  "summary": [
+    {
+      "questionId": "q25",
+      "prompt_index": 25,
+      "promptIndex": 25,
+      "promptHash": "5106e42747e5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的物流网络是自营还是外包？冷链能力如何？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 487,
+      "text_length": 487,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 302,
+        "total_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 302,
+      "total_tokens": 358,
+      "latencyMs": 4901,
+      "latency_ms": 4901,
+      "createdAt": "2026-07-19T22:38:24.685Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q25/prompt.txt",
+        "answer": "q25/deepseek.txt",
+        "response": "q25/deepseek_response.json",
+        "sources": "q25/deepseek_sources.json",
+        "references": "q25/deepseek_references.json"
+      }
+    }
+  ]
+}

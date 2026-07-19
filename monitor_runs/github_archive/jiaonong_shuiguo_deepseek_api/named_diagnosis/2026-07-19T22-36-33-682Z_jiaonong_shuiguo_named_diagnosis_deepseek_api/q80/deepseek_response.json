@@ -1,0 +1,28 @@
+{
+  "id": "45bce7d4-0edf-48af-8f4f-da14052031f7",
+  "object": "chat.completion",
+  "created": 1784500994,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农香蕉的农残检测报告，建议您通过以下方式获取：\n\n1. **直接联系佳农官方客服或销售代表**：作为正规品牌，佳农通常能提供第三方检测报告（如SGS、华测等机构出具的报告），您可以要求对方提供最新批次的检测文件。\n\n2. **向采购渠道索要**：如果您是通过经销商或批发市场采购，可以要求供货商在每次批次发货时随货提供或邮件发送检测报告副本。\n\n3. **市场监管合规要求**：根据《食品安全法》，食品经营者有义务提供产品合格证明。如果对方无法提供，建议谨慎采购——正规批发商通常会备有报告以备市场抽检。\n\n4. **自行送检（可选）**：若采购量较大，可要求将样品送至有资质的第三方检测机构（如中检、华测等）进行农残全项检测，结果通常7-10个工作日出。\n\n**直接答案**：正规采购渠道下，供应商应能提供盖章的第三方检测报告。如果对方以“保密”等理由拒绝，可能涉及合规风险，建议优先选择能提供报告的品牌或批次。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 243,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-19T22:43:19.399Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们便利店想上架佳农水果，但门店面积小，有没有小包装规格？比如3kg装香蕉？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

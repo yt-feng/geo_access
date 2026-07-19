@@ -1,0 +1,28 @@
+{
+  "id": "9eadc101-be50-4d98-b5f4-20bfa4b3e285",
+  "object": "chat.completion",
+  "created": 1784500909,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农水果在西南地区（尤其是成都）的配送能力通常更强。佳农在成都设有分仓和成熟的冷链物流网络，能够实现次日达或当日达（需提前下单）。洪九果品主要侧重东南亚进口水果，其在西南地区的配送时效可能不如佳农稳定，尤其针对门店紧急补货需求，建议优先联系佳农成都本地服务商确认实时配送时间。若需更准确判断，可提供具体门店地址和需求时间，以便进一步查询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 107,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

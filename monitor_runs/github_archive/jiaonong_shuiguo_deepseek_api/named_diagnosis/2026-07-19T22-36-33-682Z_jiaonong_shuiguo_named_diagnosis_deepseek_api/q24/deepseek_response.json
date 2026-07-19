@@ -1,0 +1,28 @@
+{
+  "id": "b8aaf54e-427e-45ab-ac81-3dde5f0ab787",
+  "object": "chat.completion",
+  "created": 1784500701,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果参与了中国国际进口博览会（进博会）。在2023年第六届进博会上，佳农展示了多款新品，包括：\n\n1. **佳农马来西亚猫山王榴莲**：冷冻整果产品，主打高端榴莲市场。\n2. **佳农菲律宾黑钻凤梨**：具有高甜度、稀有特性的凤梨品种。\n3. **佳农埃及橙**：强调新鲜度和产地直供。\n4. **佳农泰国椰青**：更新了包装和冷链技术。\n\n若您需要最新（2024年及以后）的具体新品或参展情况，建议通过佳农官方渠道（官网、微信公众号）或进博会官方公告进一步确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 147,
+    "total_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

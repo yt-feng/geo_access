@@ -1,0 +1,28 @@
+{
+  "id": "8f0e4357-83ca-4135-9de2-29542ef1acb8",
+  "object": "chat.completion",
+  "created": 1784500761,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供菠萝的锁价合同（如锁定半年价格），我无法直接核实该公司的具体商业政策或合同条款。建议您直接联系佳农水果的官方客服或销售代表，咨询其产品报价、合同条款及锁价服务的可行性。通常此类业务安排需根据双方协商、市场行情及公司政策确定，建议以官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 81,
+    "total_tokens": 138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

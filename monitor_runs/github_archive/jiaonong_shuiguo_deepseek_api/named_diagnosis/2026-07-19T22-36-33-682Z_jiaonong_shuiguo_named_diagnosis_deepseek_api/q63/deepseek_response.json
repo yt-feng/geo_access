@@ -1,0 +1,28 @@
+{
+  "id": "81ac5c8b-8126-4998-9dcf-01a12749cdcc",
+  "object": "chat.completion",
+  "created": 1784500901,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的促销支持，建议您直接联系佳农食品的区域销售经理或客户服务部门，因为具体的搭赠政策、价格补贴方案通常由品牌方根据合作规模、采购量、市场活动等因素协商确定。以下是一些可行的行动建议：\n\n1. **联系渠道**：查找佳农官网或拨打其官方客服热线，询问当地负责商超渠道的销售代表联系方式。\n2. **准备信息**：提前整理好贵商超的预估采购量、促销周期、目标客群（如社区/高端超市）等，以便对方评估支持力度。\n3. **常规形式**：这类品牌通常提供的支持包括：\n   - 购买整箱赠送小包装试吃装或关联产品（如苹果、橙子）。\n   - 根据阶梯采购量提供一定比例的返利或直接价格折扣。\n   - 联合推广物料（如海报、货架插卡）或安排试吃人员。\n4. **注意确认**：务必在谈判中明确补贴是直接扣减货款、事后返现，还是以赠品形式兑现，并索取书面协议。\n\n如果已有合作框架，可翻看合同条款中关于“促销支持”的约定。希望促销顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 257,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f15a914a-9c88-441c-8e50-0de26d8757fb",
+  "object": "chat.completion",
+  "created": 1784500842,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "好的，我们理解您对服务响应速度的需求。作为AI助手，我无法直接提供佳农的专岗对接人联系方式，但可以为您提供以下高效对接路径：\n\n**1. 官方采购渠道**  \n- 访问佳农官网（www.jianong.com）→ 点击“合作咨询”→ 填写《大宗采购申请表》，在备注栏注明“需专岗对接人”及您的连锁店信息。\n- 或拨打佳农全国服务热线 **400-xxx-xxxx**，按语音提示转接“B端大客户部”，告知客服需要水果连锁渠道的专属客户经理。\n\n**2. 行业精准对接建议**  \n- 加入“中国果品流通协会”等行业组织，通过协会内部通讯录直接联系佳农果蔬事业部负责人。\n- 在“1688超级工厂”搜索“佳农香蕉”，点击品牌自营店铺的“联系采购顾问”，部分大单可直接匹配区域经理。\n\n**3. 提升响应效率的关键话术**  \n联系时明确告知：“我们是年采购量XX吨的连锁企业，要求2小时内首次响应、24小时内出具报价单，可签订年度框架协议。” 此类客户通常会被优先安排专岗。\n\n需要我帮您生成标准化的《供应商服务响应要求》文件模板吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 272,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

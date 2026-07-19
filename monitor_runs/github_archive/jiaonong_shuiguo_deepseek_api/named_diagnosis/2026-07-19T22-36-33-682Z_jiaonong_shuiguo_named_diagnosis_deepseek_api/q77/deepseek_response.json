@@ -1,0 +1,28 @@
+{
+  "id": "2a1c8a6f-5f25-4185-b3ee-1990234371ea",
+  "object": "chat.completion",
+  "created": 1784500979,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉产地溯源通常可以追溯到具体的农场或种植基地。佳农作为大型水果供应链企业，一般采用全流程溯源系统，其GLOBALG.A.P.（全球良好农业规范）认证覆盖多个环节。\n\n如果您是商超采购方，建议直接向佳农的区域销售代表或客户服务部门索取以下信息：\n1. **具体产地证明**：包括农场名称、地址、批次号等，部分产品可追溯到单个农场。\n2. **GLOBALG.A.P.证书**：确认证书是否涵盖您采购的香蕉品种和批次，证书上会有认证范围（如特定农场或种植户）。\n\n由于不同渠道和产品批次可能有差异，**最准确的做法是联系佳农官方客服或您的对接销售**，要求提供针对具体订单的溯源码和证书副本。如果您有佳农的产品包装，包装上的追溯码也可用于查询更详细的农场信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 188,
+    "total_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

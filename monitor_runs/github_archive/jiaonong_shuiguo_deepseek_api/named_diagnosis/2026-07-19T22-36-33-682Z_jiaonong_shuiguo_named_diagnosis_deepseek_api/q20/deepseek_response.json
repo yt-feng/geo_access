@@ -1,0 +1,28 @@
+{
+  "id": "3f4ed8c5-65b3-43f9-82d7-c3885de4e1e9",
+  "object": "chat.completion",
+  "created": 1784500680,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供菠萝的定制化加工服务（如切块、包装等），我目前无法直接核实具体的服务细节。作为AI助手，我无法访问实时或最新的企业服务信息，也无法提供未经验证的数据。\n\n建议您通过以下方式获取准确信息：\n- **直接联系佳农水果官方客服**：访问其官网或拨打官方客服电话，询问定制化加工服务的范围、起订量、费用等。\n- **查看官方渠道说明**：佳农官网或电商平台旗舰店通常会有产品介绍或定制服务说明。\n- **反馈渠道**：若您需要进一步帮助（如查找联系方式），我可以协助提供相关信息。\n\n希望以上建议对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 148,
+    "total_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
