@@ -1,0 +1,28 @@
+{
+  "id": "e0c9b06a-240e-4e53-a643-33a40e62c865",
+  "object": "chat.completion",
+  "created": 1784586395,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议根据便利店的具体情况选择：\n\n- **单根包装**适合人流量大、客单价低、频繁购买场景（如写字楼、车站、医院），方便消费者即买即食，减少浪费。\n- **小把包装**（2-3根）适合家庭或情侣小幅采购，可增加客单价，适合社区、学校周边店。\n- **整袋包装**（5根以上）适合大型或折扣型便利店，面向有储备需求的家庭，但损耗风险高（香蕉易熟，需控制进货量）。\n\n**建议优先上架单根和小把两种规格**，因香蕉属于易损耗水果，单根能降低剩货风险，小把提升客单价。首次尝试，可先以单根为主，少量搭配小把，并观察3-5天销售数据调整。同时需确保香蕉成熟度适中（稍带青头，可放2-3天），避免过熟损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 197,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

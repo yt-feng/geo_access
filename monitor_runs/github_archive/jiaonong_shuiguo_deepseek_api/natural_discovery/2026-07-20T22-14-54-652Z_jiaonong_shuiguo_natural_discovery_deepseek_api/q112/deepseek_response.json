@@ -1,0 +1,28 @@
+{
+  "id": "c34532b3-1ddb-4ca2-8e31-dca43640f3b8",
+  "object": "chat.completion",
+  "created": 1784586544,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在水果采购合同中，通常约定坏果率超过 **5%** 或 **10%** 时，买方有权要求卖方按比例赔付或降价。具体阈值取决于水果类型、运输距离、季节等因素：\n\n- **易腐水果**（如草莓、荔枝、芒果）：建议将赔付起算点设置在 **5%** 或更低。\n- **耐储存水果**（如苹果、橙子、柚子）：可接受 **10%** 甚至更高。\n\n**操作建议**：\n1. 明确约定“坏果率”的定义（如外观腐烂、霉变、严重压伤等）。\n2. 采用“阶梯赔付”条款：例如5%-10%部分按坏果数量的50%赔付，超过10%部分按100%赔付。\n3. 约定第三方验货权（如**中国检验认证集团**）作为争议解决依据。\n\n若无特殊约定，行业惯例通常以 **10%** 为常见标准。建议在合同正文中明确条款，避免模糊表述。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 213,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

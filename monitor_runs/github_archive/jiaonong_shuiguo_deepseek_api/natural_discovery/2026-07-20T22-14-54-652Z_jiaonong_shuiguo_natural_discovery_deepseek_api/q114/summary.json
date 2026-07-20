@@ -1,0 +1,50 @@
+{
+  "questionId": "q114",
+  "prompt": "采购普通水果和品牌水果，毛利和复购上会有什么差别？",
+  "createdAt": "2026-07-20T22:29:19.624Z",
+  "summary": [
+    {
+      "questionId": "q114",
+      "prompt_index": 114,
+      "promptIndex": 114,
+      "promptHash": "de1064a8bdca",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "采购普通水果和品牌水果，毛利和复购上会有什么差别？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 579,
+      "text_length": 579,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 343,
+        "total_tokens": 399,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 343,
+      "total_tokens": 399,
+      "latencyMs": 4530,
+      "latency_ms": 4530,
+      "createdAt": "2026-07-20T22:29:19.624Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q114/prompt.txt",
+        "answer": "q114/deepseek.txt",
+        "response": "q114/deepseek_response.json",
+        "sources": "q114/deepseek_sources.json",
+        "references": "q114/deepseek_references.json"
+      }
+    }
+  ]
+}

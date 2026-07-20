@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:17:41.125Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市做水果促销，供应商能不能提供陈列、海报或试吃支持？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

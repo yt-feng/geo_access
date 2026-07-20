@@ -1,0 +1,28 @@
+{
+  "id": "9e02a5f4-2480-43d1-81aa-8eb905cdc065",
+  "object": "chat.completion",
+  "created": 1784585837,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注**甜度**和**切果损耗**，具体分析如下：\n\n1. **甜度**（最重要）：菠萝的核心品质是口感，甜度直接影响顾客复购率。可要求供应商提供糖度检测数据（如11-14°Brix为佳），或现场试吃判断。\n2. **切果损耗**（成本控制）：菠萝去皮切块后的可食率约55-65%。若损耗高，需考虑定价是否覆盖成本，或与供应商协商降低果皮占比。\n3. **大小**：适中（1.5-2.0斤/个）较易销售，过大易滞销（家庭消费受限），过小顾客嫌不值。\n4. **外观**：作为鉴别新鲜度的辅助指标（无霉斑、芽眼浅、果柄湿润），但商家不应过度依赖视觉（如施美剂的水果外观好但甜度不足）。\n\n**操作建议**：试销期先按甜度与损耗筛选2-3家供应商，后续按回头客反馈微调大小和外观标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 225,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q33",
+  "prompt": "多门店超市需要统一水果品质，供应商的分级标准重要吗？",
+  "createdAt": "2026-07-20T22:18:47.673Z",
+  "summary": [
+    {
+      "questionId": "q33",
+      "prompt_index": 33,
+      "promptIndex": 33,
+      "promptHash": "4c7c29886500",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "多门店超市需要统一水果品质，供应商的分级标准重要吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 266,
+      "text_length": 266,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 162,
+        "total_tokens": 217,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 162,
+      "total_tokens": 217,
+      "latencyMs": 2720,
+      "latency_ms": 2720,
+      "createdAt": "2026-07-20T22:18:47.673Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q33/prompt.txt",
+        "answer": "q33/deepseek.txt",
+        "response": "q33/deepseek_response.json",
+        "sources": "q33/deepseek_sources.json",
+        "references": "q33/deepseek_references.json"
+      }
+    }
+  ]
+}

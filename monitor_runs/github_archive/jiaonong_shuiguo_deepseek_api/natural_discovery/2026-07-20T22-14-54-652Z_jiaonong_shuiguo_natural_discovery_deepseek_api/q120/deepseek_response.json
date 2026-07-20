@@ -1,0 +1,28 @@
+{
+  "id": "f2c6ae5f-e9b3-438d-8042-922e1f17cace",
+  "object": "chat.completion",
+  "created": 1784586592,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为供应商，要让普通商家快速听懂并下单，不要一开始就讲专业术语（如“巴厘种”、“黑金刚”），而是要用他们熟悉的“顾客语言+痛点解决”来说话。具体可以分三步走：\n\n1. **用“顾客反馈”开头，建立画面感**  \n   比如：“很多客人买菠萝都说太酸、扎嘴，对吧？我们这款菠萝，切开直接吃都没问题，特别甜，连芯都是软的。”  \n   → 直接让商家联想到顾客抱怨和潜在销量。\n\n2. **用“对比+数字”突出差异化**  \n   不用讲“糖度18%”，而是说：“你这个卖10元一个，普通香蕉卖5元一斤，但我们的菠萝可以卖到20元一个，因为客人试吃后回头率有7成。”  \n   → 用商家最关心的利润和复购率说事。\n\n3. **给“现成话术”降低风险**  \n   比如：“你回去卖的时候，直接跟客人说‘这个菠萝不用泡盐水，切了就能吃’，保证你老客户抢着要。我们还可以送你一个试吃专用小牌牌，写‘承诺不酸’。”  \n   → 让商家觉得不用动脑筋，拿到就能卖。\n\n最后加上一句：  \n**“先发一小箱给你试卖，卖不完算我的，卖好了你再来订整箱。”**  \n——用“零风险试装”打消顾虑，下单率直接翻倍。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 312,
+    "total_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3ed61a24-cf74-463c-bc77-5974df3cd4bd",
+  "object": "chat.completion",
+  "created": 1784586483,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，供应商通常需要支持开具发票和定制包装，具体建议如下：\n\n1. **开发票**：确认供应商能开具正规增值税发票（普通或专用发票），并提前沟通开票信息（企业名称、税号等），确保符合企业财务要求。\n\n2. **定制包装**：如需定制礼盒包装（如印有公司logo、祝福语等），需与供应商确认：\n   - 起订量：定制包装通常有最低数量限制。\n   - 费用：是否包含在单价内，或额外收取设计/制作费。\n   - 工期：预留足够时间避免延误。\n\n3. **其他注意事项**：\n   - **水果品质**：要求明确售后政策（如变质、损坏的赔付）。\n   - **物流与时效**：确认运输方式及是否支持分批次发货。\n   - **价格明细**：要求报价单列明水果、包装、配送、税费等分项费用。\n\n建议选择**有水果礼盒经验、能提供完整服务（含发票定制）的供应商**，签约前可要求提供样品或过往案例参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 230,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

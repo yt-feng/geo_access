@@ -1,0 +1,28 @@
+{
+  "id": "55339e09-13a8-4522-a9b2-350cd0bad017",
+  "object": "chat.completion",
+  "created": 1784585927,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常重要。供应商的分级标准是多门店超市实现水果品质统一的基础。如果供应商没有清晰、量化的分级标准（如按大小、色泽、成熟度、甜度等指标分A/B/C级），各门店在进货时只能靠经验和主观判断，很难保证一致。这会导致同一款水果在不同门店的卖相、口感和价格差异大，影响顾客体验和品牌口碑。\n\n建议做法：\n1. 与供应商协商统一采用行业或超市自有分级标准（如“特级果”要求糖度≥14%、单果重≥200g等）。\n2. 在采购合同中明确分级细则和验收流程。\n3. 定期抽检比对各门店到货水果，确保供应商执行到位。\n4. 对供应商进行持续培训和考核。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 162,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

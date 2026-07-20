@@ -1,0 +1,28 @@
+{
+  "id": "6a2bfc3e-ed6a-4e9a-a89b-007e38f1826f",
+  "object": "chat.completion",
+  "created": 1784586309,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选水果供应商时，最应该优先问**配送**，其次是**售后**，最后才是**价格**。具体原因如下：\n\n1. **配送（最关键）**  \n   - 水果时效性极强，配送是否准时、冷链是否到位直接影响品质（如腐烂、磕碰）。  \n   - 问清配送范围、时间、频率（如是否每日/隔日到）、最低起送量。  \n\n2. **售后（次关键）**  \n   - 水果易损耗，必须有明确的坏果包赔或退换标准（如“48小时内坏果按比例赔付”）。  \n   - 确认客服响应速度、售后处理流程（如是否需要拍照留证）。  \n\n3. **价格（最后考虑）**  \n   - 只有在配送和售后有保障的前提下，才比较价格。低于市场均价过多的供应商需警惕品质或服务隐患。  \n\n**执行建议**：  \n- 直接要求供应商提供至少2个现有团长的联系方式，私下核实配送和售后口碑。  \n- 初期小批量试单，观察配送时效和售后处理实际情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 230,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

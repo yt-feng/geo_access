@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:24:08.059Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果批发商同时做香蕉、苹果、橙子，混合采购有没有优势？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

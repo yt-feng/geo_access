@@ -1,0 +1,28 @@
+{
+  "id": "040ad33e-4418-4fb0-a26f-add498d7e615",
+  "object": "chat.completion",
+  "created": 1784585866,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "向供应商索要以下资料可以更有效地降低农残抽检风险：\n\n1. **产地证明/供货单**：明确标注水果产地、采摘日期、供应商名称，便于追溯。\n2. **农残检测报告**：要求提供**第三方检测机构**（如SGS、中检、各省市质检院）出具的**近期**（建议1-3个月内）的农残检测合格报告，重点关注GB 2763（食品安全国家标准 食品中农药最大残留限量）规定的项目。\n3. **承诺函**：供应商书面承诺其产品符合国家农残标准，并明确违约责任（如检测不合格愿承担赔偿等）。\n4. **产品合格证**：批次产品的出厂合格证明。\n5. **进货台账**：供应商提供给其他商超/渠道的销售记录，侧面验证其合规性。\n\n**提示**：不能轻信供应商口头保证，收到资料后应核验报告的真伪（可在检测机构官网查询报告编号）。如果采购量大或风险敏感度高，建议额外要求**产地预检**（供应商发货前送检）或自行安排**到货快检**（如使用胶体金法试纸检测部分高风险农药）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 249,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

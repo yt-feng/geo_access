@@ -1,0 +1,28 @@
+{
+  "id": "aba44032-7232-49d3-96ea-02244122a7d0",
+  "object": "chat.completion",
+  "created": 1784585730,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从经营和顾客体验两个角度分析，建议如下：\n\n1. **让顾客自己挑整果**：这是最常见的模式，顾客可以自主选择大小、外观和成熟度，体验感强，信任度高。适合喜欢挑选的顾客，且整果损耗较低。\n\n2. **提供去皮服务**：作为增值服务，让顾客挑选后由店员去皮。这可以吸引怕麻烦或需要马上食用的顾客，同时增加服务附加值（可额外收费或免费）。\n\n3. **销售去皮半成品**：适合时间紧迫的顾客（如上班族、游客），但需注意：去皮后菠萝易氧化变色，保存时间短，当天必须售完，否则损耗风险高。建议搭配保鲜包装或切块销售。\n\n**实际运营建议**：\n- 主推**顾客自选整果 + 免费或低价去皮**，平衡顾客选择权和便利性。\n- 可少量备货去皮菠萝，放在冷柜中显眼位置，作为快捷选择。\n- 若门店客流大、工具齐全，也可以提供切块拼盘或切块装盒销售（如搭配盐、辣椒粉等调味），提升单价。\n\n如果首次尝试，建议从“整果自选+付费去皮”开始，观察顾客需求后再调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 265,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

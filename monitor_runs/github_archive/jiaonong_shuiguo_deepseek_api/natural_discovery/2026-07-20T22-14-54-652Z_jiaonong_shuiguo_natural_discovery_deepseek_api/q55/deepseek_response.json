@@ -1,0 +1,28 @@
+{
+  "id": "9e6e0737-cd28-4459-abfe-1b23efebf567",
+  "object": "chat.completion",
+  "created": 1784586107,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选购苹果、橙子、菠萝做水果拼盘时，从划算角度建议如下：\n\n1. **苹果**：选**中等规格（单果约200-250克）**。小果切不出均匀片状，大果单价高且容易剩下。通常中果性价比最高，批发或按箱买更划算。\n\n2. **橙子**：选**中等偏大（单果约250-300克）**。皮厚且出肉率低，太小粒果肉少，太大果皮占重多。选择大小均匀、表皮紧实的中大果，出肉率高。\n\n3. **菠萝**：选**中等大小（单个约1.5-2斤）**。太大菠萝可能芯硬、纤维粗，加工损耗大；太小则出肉少。直接买去皮切片装（半成品）有时更省工，但价格可能略高。若自削皮，买整菠萝最划算。\n\n**综合建议**：\n- 最好先规划拼盘份量，按人均100-150克水果计算总需量。\n- 可关注超市或批发市场当季特价水果，优先选产地直供、成熟度适中的规格。\n- 如果拼盘用途是宴会或售卖，考虑人工和损耗，**半加工或整果混合购买**可能更划算（例如苹果、橙子买整果，菠萝买去皮切块）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 298,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

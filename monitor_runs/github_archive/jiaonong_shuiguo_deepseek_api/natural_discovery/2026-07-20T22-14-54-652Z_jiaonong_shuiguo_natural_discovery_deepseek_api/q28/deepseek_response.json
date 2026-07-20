@@ -1,0 +1,28 @@
+{
+  "id": "e529f0d8-bda8-4842-9363-09166bf92e90",
+  "object": "chat.completion",
+  "created": 1784585895,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**进口香蕉**开始。原因如下：\n\n1. **供应链稳定**：进口香蕉（如菲律宾、厄瓜多尔产地）供应充足，全年可稳定供货，不易受季节性大幅波动影响。\n2. **储存与损耗可控**：香蕉可在特定温湿度下长期存储，且货架期较长，损耗风险较菠萝和苹果低。\n3. **市场需求大**：香蕉是水果消费中的基础品种，大部分消费者对进口香蕉接受度高，能快速形成稳定销售。\n4. **操作门槛低**：无需复杂切割或特殊陈列，冷链要求相对简单。\n\n菠萝对冷链要求高、易腐烂，且进口价格波动大；进口苹果通常需要特定品种（如红蛇果、富士），且国内苹果竞争强，初次引入风险较高。\n\n建议先以进口香蕉为起点，建立稳定的进口供应链和客户信任后，再逐步引入菠萝和苹果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 189,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

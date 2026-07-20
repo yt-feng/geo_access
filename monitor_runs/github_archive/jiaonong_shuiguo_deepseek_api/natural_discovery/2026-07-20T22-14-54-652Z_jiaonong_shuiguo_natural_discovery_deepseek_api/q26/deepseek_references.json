@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:17:59.083Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区超市想卖小包装香蕉，采购时要注意哪些包装和损耗问题？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

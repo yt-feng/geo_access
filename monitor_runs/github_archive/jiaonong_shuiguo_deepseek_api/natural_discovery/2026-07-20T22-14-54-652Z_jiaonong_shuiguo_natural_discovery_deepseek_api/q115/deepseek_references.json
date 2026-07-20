@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:29:25.156Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "水果供应商的客户经理响应慢，会对门店经营造成哪些影响？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7e89e0af-157d-4754-86fd-eead329becd6",
+  "object": "chat.completion",
+  "created": 1784586104,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注**成熟度**，因为香蕉的成熟度直接影响蛋糕的风味、口感和质构。建议选择**成熟度高、表皮出现黑色斑点**的香蕉，此时淀粉已转化为糖，甜度最高且容易捣碎，能提升蛋糕的湿润度和香气。\n\n价格方面，可在控制成本的前提下适当考虑。如果采购的是未完全成熟的香蕉，需额外添加糖分并延长熟化时间，反而可能增加成本和风味损失。建议与供应商协商，批量采购熟度较高的次品香蕉（如表皮有瑕疵但无腐烂的），通常在价格上有优势，同时满足烘焙需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 128,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

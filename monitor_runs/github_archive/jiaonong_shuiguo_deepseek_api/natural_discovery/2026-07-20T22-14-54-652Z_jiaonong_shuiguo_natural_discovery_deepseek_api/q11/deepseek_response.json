@@ -1,0 +1,28 @@
+{
+  "id": "6b902421-7053-45d3-9809-0a500097a6e5",
+  "object": "chat.completion",
+  "created": 1784585782,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响销售。原因如下：\n\n1. **顾客偏好**：多数顾客购买香蕉时希望在大小、外观上一致，便于按根或按斤计价，大小不均可能让部分顾客觉得“挑剩的”或品质不一。\n2. **定价与损耗**：大小差异大时，若统一售价，小香蕉可能让顾客觉得不划算；分开定价则增加分拣成本。同时，小香蕉容易更快成熟或受损，增加损耗。\n3. **陈列效果**：整齐划一的香蕉陈列更吸引人，大小混搭可能显得杂乱，降低购买欲。\n\n建议：如果进货时已无法统一大小，可以按大小分拣后分别定价（如大香蕉按较高价，小香蕉作为特价促销或制作成香蕉制品），或者将混装作为“家庭装”按重量销售，并在醒目的位置说明价格优势。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 182,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

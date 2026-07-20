@@ -1,0 +1,28 @@
+{
+  "id": "7f7b673d-c817-43ea-9df1-bcb53234e2da",
+  "object": "chat.completion",
+  "created": 1784586434,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "企业食堂采购水果时，**最需要优先关注食品安全**。原因如下：\n\n1. **食品安全是底线**：水果若存在农药残留、腐烂变质、微生物超标等问题，可能导致食物中毒或群体性健康事件，影响员工安全和食堂信誉。\n2. **价格合理但非核心**：在确保安全的前提下，通过对比供应商报价实现成本可控，但低价不能以牺牲安全为代价。\n3. **配送准时次之**：如非极端天气或物流问题，准时配送可通过合同条款约束，灵活调度内部库存。\n\n**建议执行方案**：\n- **优先选择有资质供应商**：要求提供《食品经营许可证》、批次农残检测报告。\n- **现场验收与快检**：收货时检查外观、气味，有条件可备简易试剂盒测农残。\n- **合同明确条款**：规定安全责任、退换货标准、违约处罚（如配送延迟扣款）。\n\n若价格或配送出现问题，可调整供应商，但食品安全问题一旦发生，后果不可逆，故**必须优先保障安全**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 221,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

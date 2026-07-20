@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:25:56.241Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜平台想做一件代发水果，供应商需要具备哪些仓配能力？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
