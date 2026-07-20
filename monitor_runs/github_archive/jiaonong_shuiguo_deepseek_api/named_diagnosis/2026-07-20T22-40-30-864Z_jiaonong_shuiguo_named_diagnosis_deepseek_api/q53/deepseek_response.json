@@ -1,0 +1,28 @@
+{
+  "id": "baf2f89a-4483-44a2-99a9-904616572aa4",
+  "object": "chat.completion",
+  "created": 1784587508,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！理解您对供应商响应速度的重视。针对佳农香蕉的采购，建议您直接联系佳农集团的官方销售或客服部门，他们通常设有专门的“KA（重点客户）经理”或“渠道对接人”，能够提供专岗对接服务。\n\n**具体建议如下：**\n1. **官方渠道查询**：通过佳农官网或官方公众号的“联系我们”板块，获取其批发/大客户销售的电话或邮箱。明确说明您是水果连锁店，需“佳农香蕉采购专岗对接”，并要求对方提供固定对接人的联系方式。\n2. **本地化对接**：若连锁店分布多地，可询问是否能同步提供各省的销售经理联系方式，便于区域物流和价格协调。\n3. **设定服务标准**：主动提出您的需求——例如“48小时内响应报价”“每周更新库存”“到货异常12小时内处理”，并要求对接人确认能否达到该响应时效，避免再次出现响应慢的问题。\n\n如果您需要，我也可以帮您联网搜索佳农官方的最新联系方式。您希望我这样做吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 220,
+    "total_tokens": 284,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

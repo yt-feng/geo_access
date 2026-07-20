@@ -1,0 +1,28 @@
+{
+  "id": "4e8c2189-efb5-42e3-a1eb-aa265e44b468",
+  "object": "chat.completion",
+  "created": 1784587304,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的产地直供比例较高，具体比例可能因季节和品类有所不同，但公司长期致力于与核心产地的种植基地建立直接合作，以减少中间环节。香蕉方面，佳农的主要进口来源国家包括**菲律宾、厄瓜多尔**和**哥伦比亚**等，其中菲律宾是佳农香蕉的重要供应国之一。此外，公司也在国内云南等地有少量香蕉采购以满足特定需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 86,
+    "total_tokens": 143,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2c3c724e-af91-4605-aafd-47ce02a18ef3",
+  "object": "chat.completion",
+  "created": 1784587620,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果在苹果品类中，常见的产品包括：  \n- **进口嘎啦（Gala）**：主要产地为**新西兰**（如霍克湾地区）  \n- **红富士（Fuji）**：主要产地为**美国**（如华盛顿州）、**智利**或**新西兰**，具体产地需根据季节和采购批次确认。  \n\n建议您在采购前直接联系佳农水果的销售负责人，提供品名和预计到货时间，以获取更新的产地和现货信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 109,
+    "total_tokens": 171,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

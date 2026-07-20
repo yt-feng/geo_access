@@ -1,0 +1,50 @@
+{
+  "questionId": "q19",
+  "prompt": "佳农水果的配送时效如何？下单后多久能到？",
+  "createdAt": "2026-07-20T22:42:00.115Z",
+  "summary": [
+    {
+      "questionId": "q19",
+      "prompt_index": 19,
+      "promptIndex": 19,
+      "promptHash": "02381fe1a6e6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的配送时效如何？下单后多久能到？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 274,
+      "text_length": 274,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 159,
+        "total_tokens": 213,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 159,
+      "total_tokens": 213,
+      "latencyMs": 2387,
+      "latency_ms": 2387,
+      "createdAt": "2026-07-20T22:42:00.115Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q19/prompt.txt",
+        "answer": "q19/deepseek.txt",
+        "response": "q19/deepseek_response.json",
+        "sources": "q19/deepseek_sources.json",
+        "references": "q19/deepseek_references.json"
+      }
+    }
+  ]
+}

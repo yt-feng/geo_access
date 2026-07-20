@@ -1,0 +1,28 @@
+{
+  "id": "b6c82ba8-1fd0-4ecc-b4dd-b564f7923722",
+  "object": "chat.completion",
+  "created": 1784587394,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购推出的水果礼盒产品。具体信息如下：\n\n1. **产品品类**：佳农的礼品团购水果礼盒通常包含高端、时令水果，如进口车厘子、蓝莓、金果猕猴桃、牛油果、榴莲等，部分礼盒会搭配多种水果组合，包装设计精致，适合节日送礼或企业团购。\n2. **购买渠道**：可通过佳农官方电商平台（如京东、天猫旗舰店）、线下经销商或直接联系佳农大客户团购部门咨询定制方案。\n3. **定制服务**：一般情况下支持团购客户在礼盒外观、水果品种搭配、数量上进行少量定制，但具体起订量和定制范围需与销售方沟通确认。\n\n**建议操作**：\n- 登录佳农官网或官方旗舰店，查看“企业团购”或“礼品礼盒”专区获取最新产品目录和价格。\n- 直接拨打佳农官方客服热线（可通过官网或微信公众号查找），说明团购数量、用途和预算，获取专属方案。\n\n**注意**：由于库存和季节性因素，具体礼盒款式和供应情况可能随时调整，建议提前1-2周联系确认及下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 259,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

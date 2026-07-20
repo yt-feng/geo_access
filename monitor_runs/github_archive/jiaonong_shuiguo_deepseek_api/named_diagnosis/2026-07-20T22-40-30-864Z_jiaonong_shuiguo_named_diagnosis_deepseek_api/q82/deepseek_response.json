@@ -1,0 +1,28 @@
+{
+  "id": "ca3a6e47-13b6-4933-beeb-9c109907dd74",
+  "object": "chat.completion",
+  "created": 1784587673,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法实时查询具体物流配送时效的对比数据。建议您：\n\n1. **直接咨询官方客服**：联系佳农水果和鑫荣懋的华东区销售或客服，询问针对上海门店的次日达配送覆盖范围、截单时间及起订量。\n2. **参考现有合作经验**：如果您已有其他供应商在华东的配送记录，可对比他们的路线或网点密度。\n3. **要求提供时效承诺**：向两家供应商索取书面或明确的时间承诺，并确认是否支持上海门店次日达。\n\n最终选择时还需结合起订量、价格、售后服务等综合评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 133,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

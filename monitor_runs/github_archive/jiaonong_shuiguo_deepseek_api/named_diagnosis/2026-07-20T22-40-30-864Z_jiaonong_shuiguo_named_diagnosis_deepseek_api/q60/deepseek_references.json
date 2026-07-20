@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:45:47.571Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果有没有针对便利店的小包装香蕉？我们便利店需要单根包装的。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

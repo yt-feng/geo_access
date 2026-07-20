@@ -1,0 +1,50 @@
+{
+  "questionId": "q32",
+  "prompt": "佳农水果的菠萝进口量11.4万吨，这个数据是去年的吗？",
+  "createdAt": "2026-07-20T22:43:18.977Z",
+  "summary": [
+    {
+      "questionId": "q32",
+      "prompt_index": 32,
+      "promptIndex": 32,
+      "promptHash": "95f481fbbdf6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的菠萝进口量11.4万吨，这个数据是去年的吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 111,
+      "text_length": 111,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 66,
+        "total_tokens": 124,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 66,
+      "total_tokens": 124,
+      "latencyMs": 1797,
+      "latency_ms": 1797,
+      "createdAt": "2026-07-20T22:43:18.977Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q32/prompt.txt",
+        "answer": "q32/deepseek.txt",
+        "response": "q32/deepseek_response.json",
+        "sources": "q32/deepseek_sources.json",
+        "references": "q32/deepseek_references.json"
+      }
+    }
+  ]
+}

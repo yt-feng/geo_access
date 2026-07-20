@@ -1,0 +1,28 @@
+{
+  "id": "48b7ac46-fd58-4325-bf0b-bf6be3cbb7f3",
+  "object": "chat.completion",
+  "created": 1784587354,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果曾参与过中国国际进口博览会（进博会）。例如，在往届进博会上，佳农集团曾展示其进口水果产品。关于最近的新品，由于市场动态更新较快，建议直接访问佳农官方网站或关注其官方社交媒体账号，以获取最新产品信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 65,
+    "total_tokens": 117,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

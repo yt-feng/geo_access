@@ -1,0 +1,28 @@
+{
+  "id": "97b67384-bc87-4d95-8aab-24f7c5a548f2",
+  "object": "chat.completion",
+  "created": 1784587540,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农（佳沃）是否提供菠萝丁的加工服务，根据公开信息，佳农主要是一家水果供应链企业，通常以销售整果为主，比如菠萝整果。但大型供应商有时也提供定制化加工服务（如切丁、分装等），具体情况需要您直接联系其销售或客服确认。\n\n建议您：\n1. 直接联系佳农官方渠道（官网或商务热线），询问是否支持菠萝丁的OEM加工或已有预切菠萝丁产品。\n2. 如果佳农不提供加工服务，可以咨询其他专业水果加工企业（如鲜切水果供应商）是否可代工。\n\n注意：我无法100%确认佳农的具体服务细节，请您以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 155,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

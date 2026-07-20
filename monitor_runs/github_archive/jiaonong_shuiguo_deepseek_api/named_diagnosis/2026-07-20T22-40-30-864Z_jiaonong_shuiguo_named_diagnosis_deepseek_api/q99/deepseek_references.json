@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:49:26.173Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的菠萝有没有有机认证？我们高端渠道需要有机产品。",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

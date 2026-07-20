@@ -1,0 +1,28 @@
+{
+  "id": "30fc1e27-d4a3-4817-8230-ab76e0d0f402",
+  "object": "chat.completion",
+  "created": 1784587281,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝在口感和供货稳定性方面有以下特点：\n\n1. **口感**：佳农菠萝通常选用菲律宾或泰国等优质产区的品种，果肉纤维较细、甜度高（一般糖度可达14-18%）、酸度低，无需泡盐水即可直接食用，口感细腻多汁。相比普通菠萝（如都乐或国产菠萝），佳农的甜度和风味更稳定，但部分消费者可能觉得其香味不如传统菠萝浓郁。\n\n2. **供货稳定性**：佳农是品牌化运营的大型水果企业，拥有自有供应链和长期稳定的产地合作。全年均有供货（主产季为3-6月，非产季依靠南半球产区补货），渠道覆盖大型商超和电商平台，断货风险较低。相比之下，小品牌或散装菠萝受季节、天气影响更大，供货波动明显。\n\n**总结**：如果追求稳定、甜度高且免泡盐水的口感，佳农是可靠选择；若更看重传统菠萝的强烈香气，可考虑都乐或国产土菠萝。供货方面，佳农优势显著，常年可购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 233,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b0f8f302-121b-454c-8b28-59769394f718",
+  "object": "chat.completion",
+  "created": 1784587547,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的，佳农确实有针对便利店渠道推出小包装香蕉产品，通常为单根独立包装或小串包装（如2-3根一包）。这类产品一般标有“佳农”品牌标识，外包装为透明或半透明塑料袋，便于便利店陈列和顾客单根选购。\n\n建议您：\n1. **联系佳农当地经销商或销售代表**：直接询问是否有适合便利店的小包装规格，并了解起订量及配送条件。\n2. **咨询本地批发市场或供应链平台**：部分电商平台（如美菜、快驴）或水果批发市场也可查找到佳农小包装香蕉库存。\n3. **到店采买对照**：可先到附近已销售佳农产品的便利店查看实际包装样式，再向供应商确认进货渠道。\n\n由于具体供货情况会随季节和区域变化，建议优先通过官方渠道获取准确信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 186,
+    "total_tokens": 244,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

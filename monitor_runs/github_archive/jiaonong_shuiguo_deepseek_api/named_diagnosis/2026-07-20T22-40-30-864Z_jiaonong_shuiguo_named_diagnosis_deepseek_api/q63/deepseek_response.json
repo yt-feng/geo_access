@@ -1,0 +1,28 @@
+{
+  "id": "0753a896-d4ff-4a8e-9d61-51626eef1af5",
+  "object": "chat.completion",
+  "created": 1784587564,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否提供香蕉促销支持（如搭赠、降价补贴），作为AI助手，我无法直接获取佳农的最新合作政策或促销资源。建议您：\n\n1. **直接联系佳农水果销售代表**：通过其官方客服电话或区域经销商，咨询具体合作方案，包括搭赠条件、补贴比例等。\n2. **提供采购量信息**：在沟通时明确贵商超的采购规模、促销周期，便于对方评估支持力度。\n3. **关注官方渠道**：佳农官网或微信公众号常发布合作政策，可主动查询。\n\n如需快速行动，建议优先联系佳农的销售团队，他们能提供最准确的合作细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 146,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

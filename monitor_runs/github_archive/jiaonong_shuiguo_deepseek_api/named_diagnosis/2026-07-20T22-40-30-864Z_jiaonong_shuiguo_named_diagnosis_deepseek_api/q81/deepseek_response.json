@@ -1,0 +1,28 @@
+{
+  "id": "06eaabd2-8b82-4d66-9a68-761cc767ed3a",
+  "object": "chat.completion",
+  "created": 1784587668,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对小面积便利店的需求，佳农确实有一些更灵活的小包装规格可供选择。具体建议如下：\n\n- **佳农香蕉**：通常有 **3kg装** 的规格（约6-8根），相比传统大箱更小巧，适合门店预留少货架空间，周转也快。不过具体库存因区域不同，建议您联系当地经销商确认是否有此规格。\n\n- **其他水果小包装**：佳农也常见 **1.5kg盒装蓝莓**、**2kg袋装苹果**、**1kg盒装葡萄**等，这些小规格便于上架和控损。\n\n**最佳做法**：\n1. 直接联系佳农官方客服或当地经销商，询问可配送的小包装清单。\n2. 若暂时无3kg香蕉，可考虑**预包装（装袋）** 或**整箱拆上架**（如5kg大箱拆成小份售卖）。\n\n建议优先通过佳农官方渠道咨询，获取最准确的规格和订货政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 216,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

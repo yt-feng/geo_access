@@ -1,0 +1,50 @@
+{
+  "questionId": "q17",
+  "prompt": "佳农水果有没有针对下沉市场的优惠政策？",
+  "createdAt": "2026-07-20T22:41:52.069Z",
+  "summary": [
+    {
+      "questionId": "q17",
+      "prompt_index": 17,
+      "promptIndex": 17,
+      "promptHash": "9f5da9647883",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对下沉市场的优惠政策？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 253,
+      "text_length": 253,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 49,
+        "completion_tokens": 137,
+        "total_tokens": 186,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 49
+      },
+      "prompt_tokens": 49,
+      "completion_tokens": 137,
+      "total_tokens": 186,
+      "latencyMs": 2088,
+      "latency_ms": 2088,
+      "createdAt": "2026-07-20T22:41:52.069Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q17/prompt.txt",
+        "answer": "q17/deepseek.txt",
+        "response": "q17/deepseek_response.json",
+        "sources": "q17/deepseek_sources.json",
+        "references": "q17/deepseek_references.json"
+      }
+    }
+  ]
+}

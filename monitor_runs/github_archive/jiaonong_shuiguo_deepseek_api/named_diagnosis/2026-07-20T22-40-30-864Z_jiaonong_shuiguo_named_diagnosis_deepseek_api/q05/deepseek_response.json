@@ -1,0 +1,28 @@
+{
+  "id": "d092649d-6b3a-4bdf-b589-3e509b417f0d",
+  "object": "chat.completion",
+  "created": 1784587252,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据现有公开信息，佳农（Goodfarmer）作为知名农产品企业，其香蕉产品通常需符合国家食品安全标准，且大型商超及电商平台销售的产品一般会要求供应商提供农残检测报告。具体到**香蕉农残检测是否合格**，需以官方或第三方检测机构出具的批次报告为准，建议直接查看产品包装上的检测标签或联系佳农客服索取报告。\n\n关于**食品安全认证**，佳农香蕉可能持有的常见认证包括：\n- **绿色食品认证**（中国）\n- **GLOBALG.A.P.**（全球良好农业规范）\n- **有机产品认证**（如符合条件）\n- **无公害农产品认证**（根据品种和产地）\n\n但不同批次或经销商的产品认证情况可能不同。建议您：\n1. 查看产品包装上的认证标识（如绿色食品、有机等）。\n2. 登录国家或地方市场监管部门官网，查询佳农香蕉的抽检记录。\n3. 在购买时索要或扫描产品二维码，查看溯源信息及检测报告。\n\n若您有具体批次或购买渠道信息，可进一步查询更精确的结果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 236,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "13db63af-e8e9-4a82-ac24-63ed9074886e",
+  "object": "chat.completion",
+  "created": 1784587585,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内大型水果供应商，通常支持通过 **EDI（电子数据交换）** 或 **自研API** 与企业系统对接。但具体是否有标准的 **RESTful API** 或 **SOAP接口** 需要直接向佳农水果的**信息技术（IT）部门**或**商务合作部门**确认。\n\n**建议操作步骤：**\n\n1. **联系佳农官方商务**：通过官网或对接销售，询问“技术对接协议”或“开放平台文档”。  \n2. **确认数据交换方式**：一般有以下几种：  \n   - **佳农自研API**（需申请访问密钥/Token）  \n   - **第三方ERP中间件**（如SAP、用友等标准接口）  \n   - **直接接口文档**（Json/XML格式）  \n3. **要求提供技术文档**：包括接口地址、认证方式、字段定义、调用频率限制等。  \n\n**如果不能直接获取**：可要求佳农提供 **FTP/SFTP文件交换**（如CSV/Excel格式）或 **Webservice** 作为过渡方案。\n\n**注意**：目前公开信息中并未找到佳农水果的公开API文档，接口通常为**定制化对接**，建议以佳农官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 271,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
