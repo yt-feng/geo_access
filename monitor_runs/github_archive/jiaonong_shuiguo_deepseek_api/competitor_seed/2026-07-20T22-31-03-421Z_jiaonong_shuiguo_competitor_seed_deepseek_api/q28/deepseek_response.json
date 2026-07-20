@@ -1,0 +1,28 @@
+{
+  "id": "32574816-f50f-4b67-9ef1-744b076bba7d",
+  "object": "chat.completion",
+  "created": 1784586846,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "要判断价格竞争力，建议您直接联系都乐和鑫荣懋的区域销售经理获取最新报价（因为价格随产地、季节、等级、采购量实时变动）。通常而言：\n\n- 都乐（Dole）作为国际品牌，其进口苹果（如青森、加力果）定价策略偏向中高端，对品质和品牌溢价较高，小批量采购价可能偏高。\n- 鑫荣懋作为国内大型水果供应链企业，在进口苹果（如新西兰爱妃、美国蛇果）上通常有较强的议价能力，批量采购价可能更具竞争力，且常提供定制化包装和稳定供应。\n\n建议您做以下动作：\n1. 要求双方提供当前批次（如2024年10月）以下同规格产品报价：富士/青森/加力果，70-80果径，10kg/箱，到店含税价。\n2. 对比报价时注意：是否含运费、是否符合竞品保质期、是否支持散装或定制包装（影响损耗和陈列成本）。\n3. 同时索取近3个月的报价波动及促销政策（如买赠、账期支持），这些对实际成本影响很大。\n\n若只谈常规批发价，通常鑫荣懋的渠道成本控制更优，但具体以您询价时的报价单为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 280,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

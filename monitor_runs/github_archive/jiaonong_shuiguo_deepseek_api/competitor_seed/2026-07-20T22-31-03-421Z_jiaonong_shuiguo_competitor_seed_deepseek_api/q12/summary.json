@@ -1,0 +1,50 @@
+{
+  "questionId": "q12",
+  "prompt": "便利店渠道需要小包装香蕉，鑫荣懋和都乐有没有适合的规格？",
+  "createdAt": "2026-07-20T22:32:23.155Z",
+  "summary": [
+    {
+      "questionId": "q12",
+      "prompt_index": 12,
+      "promptIndex": 12,
+      "promptHash": "b7332f41e0f2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店渠道需要小包装香蕉，鑫荣懋和都乐有没有适合的规格？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 413,
+      "text_length": 413,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 260,
+        "total_tokens": 319,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 260,
+      "total_tokens": 319,
+      "latencyMs": 4589,
+      "latency_ms": 4589,
+      "createdAt": "2026-07-20T22:32:23.155Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q12/prompt.txt",
+        "answer": "q12/deepseek.txt",
+        "response": "q12/deepseek_response.json",
+        "sources": "q12/deepseek_sources.json",
+        "references": "q12/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4acaa80a-c9bc-450b-872a-ee71ffa8614e",
+  "object": "chat.completion",
+  "created": 1784587085,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于鑫荣懋和都乐两家公司的冷链物流配送覆盖城市范围，作为AI助手，我无法直接获取实时的、精确到具体城市的官方配送网络数据。企业的配送范围会随业务调整、区域合作等因素变化。\n\n为您提供以下建议以获取准确信息：\n\n1.  **直接联系官方客服**：这是最可靠的途径。\n    -   **鑫荣懋**：访问其官网或拨打官方客服电话，提供您所在城市，询问“冷链配送能否覆盖”以及具体的配送条件。\n    -   **都乐（Dole）**：访问其官网或联系其在中国区的销售或客户服务部门，同样询问您需要的城市是否在配送范围。\n\n2.  **查询合作伙伴**：检查您所在的具体商超（如沃尔玛、山姆、盒马等）的供应商准入要求或与这两家公司的合作公告，有时能间接推断配送区域。\n\n3.  **搜索网络公开信息**：在搜索引擎使用关键词如“鑫荣懋 冷链 配送 城市”、“都乐 冷链 物流 覆盖区域”，可能找到行业新闻或企业简介中的部分信息，但请注意信息的时效性，并优先选择企业官方发布或权威行业媒体的信息。\n\n请注意，我无法为您核实任何非我直接生成的具体城市名单。建议您通过上述官方渠道确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 282,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

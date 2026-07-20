@@ -1,0 +1,50 @@
+{
+  "questionId": "q59",
+  "prompt": "我们想找能提供账期服务的香蕉供应商，都乐和洪九果品账期多久？",
+  "createdAt": "2026-07-20T22:37:27.119Z",
+  "summary": [
+    {
+      "questionId": "q59",
+      "prompt_index": 59,
+      "promptIndex": 59,
+      "promptHash": "d946c5f49506",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供账期服务的香蕉供应商，都乐和洪九果品账期多久？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 268,
+      "text_length": 268,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 170,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 170,
+      "total_tokens": 232,
+      "latencyMs": 2840,
+      "latency_ms": 2840,
+      "createdAt": "2026-07-20T22:37:27.119Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q59/prompt.txt",
+        "answer": "q59/deepseek.txt",
+        "response": "q59/deepseek_response.json",
+        "sources": "q59/deepseek_sources.json",
+        "references": "q59/deepseek_references.json"
+      }
+    }
+  ]
+}

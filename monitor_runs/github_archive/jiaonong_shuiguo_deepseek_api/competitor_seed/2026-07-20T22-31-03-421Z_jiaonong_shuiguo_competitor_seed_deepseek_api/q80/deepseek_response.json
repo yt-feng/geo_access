@@ -1,0 +1,28 @@
+{
+  "id": "3be3cfb5-847f-4ea0-a330-893c66a7cb97",
+  "object": "chat.completion",
+  "created": 1784587187,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "两个品牌在国内进口水果领域都有较高知名度，但定位和侧重点略有不同：\n\n1. **都乐（Dole）**：国际老牌水果商，以香蕉起家，苹果品类覆盖较广（如蛇果、青苹果等），品牌历史久、全球供应链强，在高端超市和消费者心中认知度更高，常被视为“国际精选”的代名词。\n2. **鑫荣懋（Joyvio）**：国内头部水果企业，与佳沃（Joyvio）关联，侧重进口水果全品类运营，近年来品牌曝光和渠道铺设很快，在连锁超市和新零售平台（如盒马、叮咚）覆盖率可能更高，尤其在中高端市场有较强影响力。\n\n**结论**：如果单纯比“品牌响亮程度”和“历史沉淀”，都乐更响；如果考虑“国内市场渠道覆盖和性价比”，鑫荣懋不输甚至更强。建议根据采购渠道（如超市定位、目标客群）选择：高端精品超市倾向都乐，综合型超市或新零售平台两者均可，可对比具体价格和果品等级。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 230,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

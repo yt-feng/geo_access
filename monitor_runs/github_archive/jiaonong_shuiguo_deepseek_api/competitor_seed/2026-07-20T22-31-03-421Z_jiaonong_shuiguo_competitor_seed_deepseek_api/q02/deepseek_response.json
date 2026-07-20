@@ -1,0 +1,28 @@
+{
+  "id": "4ac018cc-672c-462e-b8d9-2bb4cb9224a4",
+  "object": "chat.completion",
+  "created": 1784586674,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole），目前市面上能稳定供应菠萝的品牌还有以下几个：\n\n1. **佳沛（Zespri）**：虽然以猕猴桃闻名，但也供应优质菠萝，尤其在东南亚市场有稳定渠道。\n2. **鑫荣懋（Xinrongmao）**：中国本土品牌，与海南、菲律宾等产地合作，全年有稳定供应。\n3. **金果（Golden Fruit）**：普利登（Priten）旗下的品牌，主打菲律宾菠萝，在国内超市常见。\n4. **佳农（Garimport）**：主要做进口水果，包括菲律宾、哥斯达黎加的菠萝，供应链较成熟。\n5. **麒麟（Qilin）**：部分区域品牌，在福建、广东等产地有合作农场，供应期较长。\n6. **海南农垦**：国内品牌，以海南菠萝为主，季节性较强，但夏季供应稳定。\n\n建议你结合销售渠道（如冷链物流覆盖范围）和季节偏好选择，例如菲律宾菠萝（如佳农、金果）全年供应，海南菠萝夏季更佳。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 229,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

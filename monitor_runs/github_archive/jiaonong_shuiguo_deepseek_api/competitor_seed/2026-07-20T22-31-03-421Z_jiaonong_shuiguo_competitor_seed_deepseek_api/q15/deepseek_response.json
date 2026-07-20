@@ -1,0 +1,28 @@
+{
+  "id": "f7a6651e-f8de-496a-9bdb-28e532daa378",
+  "object": "chat.completion",
+  "created": 1784586759,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio）之外，以下是几个在进口苹果领域公认可靠、且在中国市场常见的品牌：\n\n1. **爱妃（Envy）**  \n   - 新西兰品牌，属于高端品种，以甜度高、果肉不易氧化著称，通常包装上带有“爱妃”中文标签。\n\n2. **红玫瑰（Jazz）**  \n   - 同样源自新西兰，是布瑞本（Braeburn）×嘎啦（Gala）的杂交品种，口感脆甜带酸，适合喜欢复合风味的消费者。\n\n3. **加力果（Gala）**  \n   - 美国或新西兰产地常见，但品牌化程度较高的是**太平洋玫瑰（Pacific Rose）**或**SweeTango**，属于加力果的改良品种。\n\n4. **王林（Honeycrisp）**  \n   - 美国和欧洲品牌广泛销售，如**Honeycrisp**（常被译作“蜜脆”），果肉极致酥脆多汁，价格较贵但很受欢迎。\n\n5. **皇后（Queen）**  \n   - 法国或智利产，品牌通常带有“Queen”或“La Belle”字样，以细腻口感出名，适合偏好清甜口感的人。\n\n6. **美国蛇果（Red Delicious）**  \n   - 如**Washington Apple（华盛顿苹果）**或**Stemilt Growers**等品牌，注意选择产地明确的全红果，口感偏面但很甜。\n\n7. **智利嘎啦/青苹果**  \n   - 智利品牌**Unifrutti**或**GARCIA**提供了大量进口嘎啦和青苹果（Granny Smith），性价比高，适合餐饮或日常使用。\n\n**购买建议**  \n- 查看包装上的**原产国**与**品种全称**（如“Pacific Rose”非“Gala”）。  \n- 优先选择**官方授权经销商**（如盒马、山姆、水果连锁店）或电商自营渠道。  \n- 如需对比品质，可关注**果形是否端正、果梗新鲜度**及**储藏日期**（进口苹果通常经过气调保鲜，但过久会影响风味）。\n\n如果需要更具体的产地或价格对比，可以补充你关注的方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 493,
+    "total_tokens": 554,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

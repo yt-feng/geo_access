@@ -1,0 +1,28 @@
+{
+  "id": "233f9e4d-6728-418b-bba1-dac8fcbf79ca",
+  "object": "chat.completion",
+  "created": 1784586917,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于下沉市场的夫妻店进货，通常更倾向于提供账期支持的可能是**洪九果品**，而非鑫荣懋。\n\n- **洪九果品**主要面向B端（批发市场、社区夫妻店等），且其模式中常涉及“先货后款”或短期账期（如30天左右），尤其对长期合作或订单量稳定的客户有一定账期弹性。\n- **鑫荣懋**更侧重大型商超（如盒马、永辉）和高端渠道，对小型夫妻店通常要求现结，账期支持较少。\n\n建议您直接联系洪九果品当地办事处或渠道经理，并强调“首次合作可接受小额预付款，但希望后续有30天账期”，以提高谈判成功率。同时，确认合同中的信用条款和违约金细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 172,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

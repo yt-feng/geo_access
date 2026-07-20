@@ -1,0 +1,50 @@
+{
+  "questionId": "q19",
+  "prompt": "我们做批发，需要香蕉锁价机制应对价格波动，鑫荣懋和洪九果品谁提供？",
+  "createdAt": "2026-07-20T22:33:10.356Z",
+  "summary": [
+    {
+      "questionId": "q19",
+      "prompt_index": 19,
+      "promptIndex": 19,
+      "promptHash": "3333f482e06c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们做批发，需要香蕉锁价机制应对价格波动，鑫荣懋和洪九果品谁提供？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 766,
+      "text_length": 766,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 463,
+        "total_tokens": 528,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 463,
+      "total_tokens": 528,
+      "latencyMs": 7525,
+      "latency_ms": 7525,
+      "createdAt": "2026-07-20T22:33:10.356Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q19/prompt.txt",
+        "answer": "q19/deepseek.txt",
+        "response": "q19/deepseek_response.json",
+        "sources": "q19/deepseek_sources.json",
+        "references": "q19/deepseek_references.json"
+      }
+    }
+  ]
+}

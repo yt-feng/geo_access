@@ -1,0 +1,28 @@
+{
+  "id": "b5911b8e-62b3-46ca-9176-71294e83efcb",
+  "object": "chat.completion",
+  "created": 1784586934,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业通常情况，都乐（Dole）作为国际品牌，锁价条款通常较为标准化，适合长期稳定合同；鑫荣懋作为国内头部果业公司，在灵活性和定制化方案上可能更具优势，比如更短锁价周期、小批量试点、或结合市场行情的浮动调整等。\n\n**建议行动**：\n1. **直接沟通**：分别联系两家企业的销售或大客户经理，重点询问锁价周期（如月锁、周锁是否可行）、起订量限制、解约或调整条款。\n2. **历史数据对比**：若过往合作过，可对比实际锁价执行时的误差率和修改便捷度。\n3. **参考同行经验**：咨询生鲜供应链同行评价格（非公开数据源需自行通过行业群或展会核实）。\n\n若需更精确结论，需提供**具体锁价周期（如30天/7天）、预估月采购量、对浮动机制的接受度**等细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 207,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

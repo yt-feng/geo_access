@@ -1,0 +1,28 @@
+{
+  "id": "4e48309e-5d5a-48db-9c85-18273d84f74e",
+  "object": "chat.completion",
+  "created": 1784586842,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，洪九果品（Hongjiu Fruit）和鑫荣懋（Xinrongmao）在香蕉产地方面都有布局：\n\n1. **洪九果品**：在云南、广西等中国主要香蕉产区拥有自建或合作的种植基地，同时也在东南亚（如越南、菲律宾）有稳定的采购渠道，以“产地直发”模式运营。\n\n2. **鑫荣懋**：作为国内大型水果供应链企业，在云南、广西、海南等地也有香蕉种植基地，此外与菲律宾、厄瓜多尔等海外产区有长期合作。\n\n**建议**：  \n- 如果你需要**国内产地直发**，可优先联系洪九果品，其自有基地和直采体系更成熟；  \n- 如果你需要**进口香蕉**（如菲律宾品种），鑫荣懋的进口供应链能力较强。  \n- 建议直接联系两家公司的客户或采购部门，核实具体产地、供应量及合作条款（产地情况可能随季节调整）。  \n\n（注：具体基地布局可能随年份变化，请以最新官方信息为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 231,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

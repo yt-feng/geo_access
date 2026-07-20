@@ -1,0 +1,28 @@
+{
+  "id": "dcf2e091-106e-4a48-b1d3-59d97200b19f",
+  "object": "chat.completion",
+  "created": 1784587067,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于水果连锁店的香蕉分级标准，目前都乐（Dole）和洪九果品作为水果行业的主要企业，通常有各自内部的企业标准，但这些标准可能不对外公开发布或作为通用行业标准。根据行业实践，香蕉分级通常参考以下因素：成熟度（如青熟、黄熟）、果指长度（如16-20厘米为优）、果面瑕疵（如无黑斑、机械损伤）、果梳完整性等。\n\n如果你需要具体的企业标准，建议直接联系都乐或洪九果品的官方客服或商务部门咨询。此外，中国有推荐性国家标准 **GB/T 10652-2006《鲜香蕉》**，可作为参考基准，该标准规定了香蕉的等级（优级、一级、二级）和外观要求。你可以依据此标准结合连锁店的定位（如高端、平价）定制分级方案。\n\n对于连锁店操作，可简化为：\n- 特级：果指均匀长≥18cm，无伤斑，成熟度70%-80%\n- 一级：果指长15-18cm，轻微瑕疵≤5%\n- 二级：剩余合格品，主要用于特价或加工。\n\n确保分级标准有明确的品质、规格和包装要求，并定期培训员工一致性执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 263,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

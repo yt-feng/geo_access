@@ -1,0 +1,28 @@
+{
+  "id": "4b1950cc-5efd-4b74-823e-c58d6a8d1eff",
+  "object": "chat.completion",
+  "created": 1784586721,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对礼品团购，除了都乐（Dole）和佳沛（Zespri），以下进口品牌水果礼盒也具有较高知名度和市场接受度：\n\n1. **怡颗莓（Driscoll's）**：主打莓果类（蓝莓、树莓、黑莓），礼盒包装精致，适合高端礼品场景。\n2. **新奇士（Sunkist）**：以橙子和柠檬为主，品牌历史悠久，礼盒设计传统大方，适合企业团购。\n3. **乐淇（Rockit）**：新西兰苹果品牌，果型小且便于携带，礼盒通常采用筒装或精致小盒，适合作为伴手礼。\n4. **爱妃（Envy）**：新西兰高端苹果品种，口感极佳，礼盒包装采用独立包装，显高档。\n5. **金果（Jingold）**：意大利品牌，主打金猕猴桃，与佳沛绿果互补，礼盒外观典雅。\n6. **菲农（Fyffes）**：全球知名香蕉品牌，也提供菠萝等热带水果礼盒，性价比高。\n7. **都乐（Dole）**和**佳沛（Zespri）** 您已提及，以上补充海外主流品牌，具体可根据团购预算和水果偏好选择。\n\n建议在采购前联系当地进口水果批发商或大型水果超市（如百果园、盒马、山姆等）确认品牌供应和库存，部分品牌可能需要预订单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 314,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q11",
+  "prompt": "我们水果连锁店想增加菠萝品类，都乐和洪九果品的菠萝哪个性价比高？",
+  "createdAt": "2026-07-20T22:32:14.859Z",
+  "summary": [
+    {
+      "questionId": "q11",
+      "prompt_index": 11,
+      "promptIndex": 11,
+      "promptHash": "244298de4e19",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们水果连锁店想增加菠萝品类，都乐和洪九果品的菠萝哪个性价比高？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 677,
+      "text_length": 677,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 444,
+        "total_tokens": 505,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 444,
+      "total_tokens": 505,
+      "latencyMs": 7295,
+      "latency_ms": 7295,
+      "createdAt": "2026-07-20T22:32:14.859Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q11/prompt.txt",
+        "answer": "q11/deepseek.txt",
+        "response": "q11/deepseek_response.json",
+        "sources": "q11/deepseek_sources.json",
+        "references": "q11/deepseek_references.json"
+      }
+    }
+  ]
+}

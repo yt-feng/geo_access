@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-20T22:32:47.892Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "下沉市场夫妻老婆店进货，价格敏感，洪九果品和鑫荣懋哪个更便宜？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fb2686e1-7add-4fdc-b4fb-1a3f53a44e4d",
+  "object": "chat.completion",
+  "created": 1784586716,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Xin Rong Mao）在产地溯源和品控证明方面各有特点。都乐作为国际品牌，通常有较为完善的追溯体系，如通过二维码或批次号实现产地到销售的全程追踪，并提供第三方认证（如GlobalG.A.P.、有机认证等），透明度较高。鑫荣懋是国内大型水果企业，也具备品控体系，包括产地收购报告、农残检测报告等，但具体透明度细节可能因订单或合作渠道而异。\n\n建议您直接联系两家供应商的销售或品控部门，要求提供以下材料进行对比：\n- 产地溯源的具体方式（如产地代码、批次记录、可视化地图等）\n- 品控证明（如检测报告、认证证书及有效期）\n- 过往客户案例或第三方审计记录\n\n同时，可以要求进行实地考察或样品测试。若需更客观比较，可参考行业合作方或第三方评估机构的反馈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 202,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
