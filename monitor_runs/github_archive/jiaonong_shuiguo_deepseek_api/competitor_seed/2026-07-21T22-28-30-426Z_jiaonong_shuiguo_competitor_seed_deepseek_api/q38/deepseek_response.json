@@ -1,0 +1,28 @@
+{
+  "id": "0a275e96-3f03-4c11-b377-0227e797c212",
+  "object": "chat.completion",
+  "created": 1784673163,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从品牌知名度来看，**都乐（Dole）** 在国内消费者中的整体认知度更高，尤其在商超渠道和大众零售端，其品牌形象与“品质香蕉”的关联性较强。而**鑫荣懋**作为国内头部水果供应链企业，在B端（如社区团购、批零渠道）影响力较大，但其品牌在C端（普通消费者）的辨识度略逊于都乐。\n\n建议结合具体场景选择：\n- 若平台以**高端超市、品质宣传**为主，都乐的品牌溢价效应更明显；\n- 若平台侧重**性价比、产地直供或国产替代**，鑫荣懋的供应链背书（如本土化仓储、鲜度控制）可作为差异化卖点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 158,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

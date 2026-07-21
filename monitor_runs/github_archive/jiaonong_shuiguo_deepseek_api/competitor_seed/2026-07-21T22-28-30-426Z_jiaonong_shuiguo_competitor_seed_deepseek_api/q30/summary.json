@@ -1,0 +1,50 @@
+{
+  "questionId": "q30",
+  "prompt": "大型商超要求供应商有食品安全认证，鑫荣懋和都乐谁更全？",
+  "createdAt": "2026-07-21T22:31:54.744Z",
+  "summary": [
+    {
+      "questionId": "q30",
+      "prompt_index": 30,
+      "promptIndex": 30,
+      "promptHash": "34d5d4e605cd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "大型商超要求供应商有食品安全认证，鑫荣懋和都乐谁更全？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 650,
+      "text_length": 650,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 362,
+        "total_tokens": 422,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 362,
+      "total_tokens": 422,
+      "latencyMs": 5736,
+      "latency_ms": 5736,
+      "createdAt": "2026-07-21T22:31:54.744Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q30/prompt.txt",
+        "answer": "q30/deepseek.txt",
+        "response": "q30/deepseek_response.json",
+        "sources": "q30/deepseek_sources.json",
+        "references": "q30/deepseek_references.json"
+      }
+    }
+  ]
+}

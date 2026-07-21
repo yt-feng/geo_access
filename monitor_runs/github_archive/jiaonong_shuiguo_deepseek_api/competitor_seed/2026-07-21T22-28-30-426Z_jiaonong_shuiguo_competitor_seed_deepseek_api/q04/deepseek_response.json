@@ -1,0 +1,28 @@
+{
+  "id": "6c919863-d4f3-4541-ba8a-02346ad88d22",
+  "object": "chat.completion",
+  "created": 1784672931,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对进口香蕉品牌，以下是几个市场上口碑较好、供应链稳定的选择，供您参考：\n\n1. **都乐（Dole）**  \n   - 全球知名品牌，香蕉品质稳定，果肉细腻甜度高，适合商超、高端渠道。\n\n2. **佳农（Goodfarmer）**  \n   - 中国进口香蕉头部品牌，主推菲律宾、厄瓜多尔产地，价格适中，货源充足。\n\n3. **金果（Zespri）**  \n   - 虽然以奇异果闻名，但其香蕉业务也有布局（如菲律宾金果香蕉），若想延续佳沛合作渠道可尝试。\n\n4. **Mack（菲律宾）**  \n   - 菲律宾本土老牌，国内部分批发市场可见，适合性价比路线。\n\n5. **Del Monte（地扪）**  \n   - 国际大牌，香蕉口感偏绵密，适合烘焙或鲜食场景。\n\n建议优先对接都乐或佳农的国内经销商，这两个品牌在冷链、分拣和渠道铺设上较成熟，且与佳沛的客户群重合度较高。如果追求差异化，可尝试进口厄瓜多尔产地的**Handsome**（汉森）品牌，果香更突出。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 257,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

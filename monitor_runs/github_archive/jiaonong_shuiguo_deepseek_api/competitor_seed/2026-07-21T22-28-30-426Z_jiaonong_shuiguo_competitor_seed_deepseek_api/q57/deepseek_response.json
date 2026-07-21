@@ -1,0 +1,28 @@
+{
+  "id": "93927099-e251-478b-aa45-b0e9829a4854",
+  "object": "chat.completion",
+  "created": 1784673293,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "洪九果品和都乐作为大型水果供应链企业，通常以大批量、标准化供货为主，对夫妻店等小型商户的直接小批量供货能力有限。具体建议如下：\n\n1. **洪九果品**：主要服务商超、批发市场等大客户，可能不直接接待夫妻店的小订单。可尝试联系其区域经销商或批发市场档口，询问是否支持“混批”或“拼单”模式，降低起订量。\n2. **都乐（Dole）**：在中国市场以高端商超（如盒马、山姆）及电商平台为主，小批量供货需通过二级经销商或批发市场分发。可联系当地农贸批发市场中的都乐授权经销商，通常接受100-200箱以上的起订量。\n3. **替代方案**：若小批量需求（如单品种50箱以下），建议优先通过本地批发市场（如嘉兴水果市场、广州江南果菜市场）寻找中小批发商，他们更灵活且能混装多品种。或使用B2B平台（如美菜、快驴），支持小额定单次日达。\n\n建议夫妻店先尝试与洪九、都乐的区域代理沟通，或集中3-5家店铺拼单后直接联系。如需联系方式，请提供具体城市，可进一步查询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 278,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

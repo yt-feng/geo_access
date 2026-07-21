@@ -1,0 +1,28 @@
+{
+  "id": "91c09e3c-332f-46c3-b997-97976bb07b05",
+  "object": "chat.completion",
+  "created": 1784673002,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joywing），以下是一些在国内外市场较为知名且口碑较好的进口苹果品牌，可供对比参考：\n\n1. **美国华盛顿苹果（Washington Apples）**  \n   - 美国华盛顿州官方品牌，涵盖嘎啦、富士、红蛇果等多个品种。  \n   - 品质稳定，出口全球，国内大型商超常见。\n\n2. **新西兰爱妃苹果（Envy）**  \n   - 以高甜度、耐储存著称，果肉不易氧化，适合鲜食和烘焙。  \n   - 由新西兰Bostock集团等主要出口商运营。\n\n3. **日本青森苹果（Aomori Apples）**  \n   - 品种如“富士”、“王林”等，主打高品质和精致包装。  \n   - 通过日本农产品出口渠道进入中国，价格较高。\n\n4. **澳大利亚粉红女士（Pink Lady）**  \n   - 澳大利亚Brambles集团（现Costa集团）品牌，酸糖平衡，表皮有独特粉色条纹。  \n   - 出口至全球，在中国高端市场有稳定供应。\n\n5. **法国嘎啦苹果（Gala）**  \n   - 法国多家合作社（如Agrial、Socofin）运营，口感脆甜，适合即食。  \n   - 常见于欧洲和中国进口超市。\n\n6. **智利青苹果（Granny Smith）**  \n   - 智利主要出口商（如Subsole、Unifrutti）供应，酸度高，常用于烘焙或沙拉。  \n   - 与北半球反季节互补，中国市场占有率高。\n\n7. **南非苹果（如Fuji、Royal Gala）**  \n   - 南非核心出口商（如Capespan、Pilgrim Bokomo）提供，品质不输智利，价格相对略低。\n\n**选购建议**：  \n- 优先选择有贴标、可追溯产地的品牌（如产品包装上的品牌和产地信息）。  \n- 部分高端品牌（如日本青森）可能需通过精品超市或电商进口渠道购买。  \n- 可以关注水果批发市场或大型连锁超市（如盒马、山姆、Costco）的定期采购清单。\n\n如需具体品种对比（口感、价格区间），可以进一步提供细节需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 490,
+    "total_tokens": 551,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

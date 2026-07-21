@@ -1,0 +1,28 @@
+{
+  "id": "db0aec6a-5a04-4a66-8a12-5b996c7b7c41",
+  "object": "chat.completion",
+  "created": 1784673307,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于都乐（Dole）和洪九果品（Hongjiu Fruit）的账期具体时长，我没有实时更新的官方数据。这类信息通常取决于采购量、合作关系、信用状况及具体合同条款，不同时间、不同客户可能有差异。\n\n建议您：\n1. **直接联系**：通过官方渠道（官网、采购热线）咨询其销售或客户经理。\n2. **说明需求**：明确告知您的采购规模、合作意向及账期要求，对方会根据情况给出定制化方案。\n3. **参考行业惯例**：香蕉大宗贸易中，账期通常为30-60天，部分长期稳定客户可能获得更优条件。\n\n如果您需要，我可以帮您查找这两家公司的官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 155,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

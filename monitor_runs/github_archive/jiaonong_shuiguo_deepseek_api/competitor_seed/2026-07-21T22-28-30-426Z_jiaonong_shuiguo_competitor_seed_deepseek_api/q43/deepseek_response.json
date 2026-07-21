@@ -1,0 +1,28 @@
+{
+  "id": "472a72ae-154a-40a2-9432-d98dfc005939",
+  "object": "chat.completion",
+  "created": 1784673200,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉规格分级方面，**都乐（Dole）通常比鑫荣懋（Joy Wing Mau）分级更细**。\n\n都乐作为全球性品牌，其香蕉产品会根据目的国市场偏好进行精细分级，常见指标包括：重量（如每根120g-180g不等）、长度（如16-22cm）、果皮色泽（青/绿/黄/金，对应不同成熟度）以及有无斑点等，且通常以“一级果”“二级果”或“超级果”等明确标签区分。\n\n鑫荣懋作为国内大型水果企业，其香蕉分级主要集中在：重量（如每箱净重18kg）、果形直度、果指均匀度、无损伤及成熟度控制（通常分“即食”与“后期熟”），但标号等级（如“特级/一级”）和精细化维度（如长度与色泽分档）相对都乐更少。\n\n**建议**：若你需要更细致的规格参数（如针对高端甜品店、酒店或出口订单），优先选择都乐；若预算有限或批量商超供货，鑫荣懋的标准化分级已能满足多数需求。建议直接向供应商索取两者的最新分级标准表，以确认具体规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 261,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

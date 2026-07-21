@@ -1,0 +1,28 @@
+{
+  "id": "c3fcb3fe-ac7e-41b5-b114-3702455a6f21",
+  "object": "chat.completion",
+  "created": 1784673185,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对香蕉锁价服务的灵活性需求，这两家供应商的服务模式存在明显差异：\n\n**都乐（Dole）**\n- 锁价周期：通常按周或月协商，需提前7-14天书面确认\n- 调整机制：价格锁定后较难修改，如需调整需重新谈判，履约条款严格\n- 适用场景：适合订单量稳定、需求可提前预判的长期客户\n\n**鑫荣懋（Xin Rong Mao）**\n- 锁价周期：支持按旬/半月/月灵活定制，最快提前3天可锁定\n- 调整机制：可协商附加价格浮动条款（如市场波动超5%可按新价部分调整），对短期需求适配性更强\n- 适用场景：适合采购频率高、需应对行情变化的客户\n\n**具体建议：**\n1. 若需求量级大且计划性强（如每月固定30吨以上），可选都乐获取稳定报价；\n2. 若需频繁调整锁价周期或应对市场波动，鑫荣懋的条款弹性通常更优；\n3. 建议同时向两家发出询价时，明确要求提供\"价格调整触发条件\"和\"最短锁价起效时间\"的书面说明，便于横向对比。\n\n提示：最终灵活性还取决于您的采购规模、结算账期及是否签署年度框架协议，建议要求提供真实案例参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 292,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

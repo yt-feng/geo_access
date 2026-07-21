@@ -1,0 +1,28 @@
+{
+  "id": "5be80c47-c714-46cf-9953-b6030b50b6cc",
+  "object": "chat.completion",
+  "created": 1784673289,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于生鲜电商平台而言，**都乐（Dole）**的品牌知名度通常高于**鑫荣懋**。以下是具体分析：\n\n1. **都乐（Dole）**：作为全球知名的水果品牌，都乐在国际市场和国内一线城市（如上海、北京）有极高的认知度，尤其在香蕉品类中，其“阳光”品牌形象和标准化供应链常被视为品质象征。电商平台上，都乐的搜索量和复购率往往更高。\n\n2. **鑫荣懋**：作为国内领先的水果供应链企业（旗下有“佳沃”等品牌），鑫荣懋在行业渠道和专业市场（如二三线城市卖场）有较强影响力，但面向普通消费者的直接品牌知名度略逊于都乐，尤其在新兴电商用户中。\n\n**建议**：若你的平台主打**高端或进口品类**（如有机、定制化产品），优先选择都乐；若重点在于**性价比或本土供应链**，鑫荣懋的供应链稳定性和成本优势可能更突出。可依据目标用户画像和价格定位做决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 224,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

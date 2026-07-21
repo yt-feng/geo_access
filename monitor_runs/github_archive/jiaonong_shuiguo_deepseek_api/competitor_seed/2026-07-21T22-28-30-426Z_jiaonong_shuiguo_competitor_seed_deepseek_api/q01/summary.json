@@ -1,0 +1,50 @@
+{
+  "questionId": "q01",
+  "prompt": "我们超市想找稳定的进口香蕉供应商，鑫荣懋和都乐哪家供货更靠谱？",
+  "createdAt": "2026-07-21T22:28:30.430Z",
+  "summary": [
+    {
+      "questionId": "q01",
+      "prompt_index": 1,
+      "promptIndex": 1,
+      "promptHash": "e39b8eb93839",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们超市想找稳定的进口香蕉供应商，鑫荣懋和都乐哪家供货更靠谱？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 684,
+      "text_length": 684,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 406,
+        "total_tokens": 468,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 406,
+      "total_tokens": 468,
+      "latencyMs": 6958,
+      "latency_ms": 6958,
+      "createdAt": "2026-07-21T22:28:30.430Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q01/prompt.txt",
+        "answer": "q01/deepseek.txt",
+        "response": "q01/deepseek_response.json",
+        "sources": "q01/deepseek_sources.json",
+        "references": "q01/deepseek_references.json"
+      }
+    }
+  ]
+}

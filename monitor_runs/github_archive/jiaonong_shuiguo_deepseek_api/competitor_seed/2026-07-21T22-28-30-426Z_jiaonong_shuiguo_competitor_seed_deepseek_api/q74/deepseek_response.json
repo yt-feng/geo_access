@@ -1,0 +1,28 @@
+{
+  "id": "f0a6ee4a-e702-4e31-9cef-8ab5a570a32c",
+  "object": "chat.completion",
+  "created": 1784673400,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品属于不同体量的水果品牌商，起订量通常根据客户类型、季节和采购渠道有所不同。一般来说：\n\n- **都乐（Dole）**：作为国际大品牌，针对团购和礼品定制，常规起订量通常在 **50-100盒** 起，有时需按箱（如10-20kg/箱）计算。如果是首次合作或小批量打样，可能要求更高（比如200盒起），具体需联系当地经销商确认。\n- **洪九果品**：国内头部水果供应链公司，起订量相对灵活，**一般10-50盒起可定制**，但带有定制礼盒包装（如印logo、配贺卡等）通常要求30-100盒起。批量小可能只能选现有包装，另收设计费。\n\n**实操建议**：\n1. **直接电话或微信联系两家的团购/企业定制部门**（官网或400电话可查），说明“礼盒定制需要印logo/特定水果搭配/节日主题”，他们会给出准确数字及价格阶梯。\n2. 如果是试单，可询问是否接受“样品订单”或“先付设计打样费，后续大货抵扣”。\n3. 部分地方经销商（比如档口或城市代理）起订量可能更低（如10盒起），但定制能力和价格会弱于总部。\n\n注意：以上数据是基于行业惯例的估算，具体请以您与厂商最终沟通为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 316,
+    "total_tokens": 380,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

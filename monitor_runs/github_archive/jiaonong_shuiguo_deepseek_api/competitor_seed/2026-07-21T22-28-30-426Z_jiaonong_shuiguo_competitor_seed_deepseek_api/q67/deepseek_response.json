@@ -1,0 +1,28 @@
+{
+  "id": "42cd779a-4af3-4de1-a2b6-f466eb19822c",
+  "object": "chat.completion",
+  "created": 1784673358,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于生鲜电商的菠萝品牌营销支持，都乐（Dole）和洪九果品是否提供素材，通常需要根据具体情况确认：\n\n1. **都乐**：作为全球知名水果品牌，通常有较成熟的营销支持体系，包括产品图片、宣传视频、品牌故事等素材。建议直接联系都乐的区域市场或销售团队，询问针对电商渠道的素材合作或授权方式。他们可能提供基础素材包，但具体权限需协商。\n\n2. **洪九果品**：作为国内大型水果供应链企业，可能更注重渠道合作，营销素材支持通常与采购量、合作深度挂钩。建议通过其电商对接部门或客户经理沟通，确认是否有现成素材，或能否定制化提供。\n\n**建议操作**：\n- 优先联系两家品牌的官方渠道（官网客服、销售代表或电商合作邮箱）。\n- 明确需求（如素材类型、使用场景、授权范围），避免版权风险。\n- 若对方不直接提供，可参考其官方公开信息（如官网、社交媒体）自行制作，但需遵守品牌使用规范。\n\n若您已有具体合作或采购意向，可进一步询问对方的大客户支持政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 247,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "abf62c51-244a-4272-8b67-e9815b147a14",
+  "object": "chat.completion",
+  "created": 1784672987,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**都乐菠萝**。原因如下：\n1. **品质稳定性**：都乐是国际品牌，供应链成熟，菠萝果肉金黄、甜度高、纤维少，适合直接零售。\n2. **售后保障**：都乐在水果连锁渠道有成熟的客诉处理和退换货机制，降低损耗风险。\n3. **性价比对比**：洪九果品主打性价比，但菠萝作为高损耗品类（需削皮、切开零售），都乐的标准化包装和耐储存性更能降低隐形损耗成本，实际单斤利润可能更高。\n\n建议：先小批量试销都乐菠萝，配合现场去皮展示，观察复购率和损耗率。若当地消费偏好低价大果，再测试洪九果品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 157,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

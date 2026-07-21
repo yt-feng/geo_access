@@ -1,0 +1,28 @@
+{
+  "id": "37dd9506-12cf-4a77-b030-901176192b3e",
+  "object": "chat.completion",
+  "created": 1784672991,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业常规情况，鑫荣懋和都乐在便利店渠道通常有适合的小包装香蕉产品。一般规格为：单根重量约100-150克，每包装含3-5根，净重300-500克左右，便于即食和携带。\n\n建议您直接联系这两家公司的销售渠道或访问其官方网站查询最新产品目录，以核实具体规格和供货情况（产品可能因季节和区域调整）。同时，也可咨询当地便利店供应商，获取实际可订购的小包装香蕉信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 109,
+    "total_tokens": 168,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

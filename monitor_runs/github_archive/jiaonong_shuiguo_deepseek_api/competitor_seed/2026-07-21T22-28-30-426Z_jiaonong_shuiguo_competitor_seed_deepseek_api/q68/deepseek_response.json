@@ -1,0 +1,28 @@
+{
+  "id": "451aa840-8226-42ad-904b-7363c6a7a85a",
+  "object": "chat.completion",
+  "created": 1784673363,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业通用标准，香蕉批发环节的自然损耗率通常在3%-5%左右，具体受运输时长、储存温控、果实成熟度等因素影响。都乐（Dole）和鑫荣懋作为大型水果供应商，在供应链管理上具备较强能力，例如采用冷链物流、成熟度分级和快速分拣技术，理论上可将损耗率控制在3%以内。但能否稳定实现，需根据具体合作条件（如到货时间、温度控制要求、订单批次规模等）进行评估，建议直接与两家供应商沟通确认历史数据或签订损耗相关条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 122,
+    "total_tokens": 183,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

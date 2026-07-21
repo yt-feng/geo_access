@@ -1,0 +1,28 @@
+{
+  "id": "43ed439d-1397-4d83-a846-aec4234b4f61",
+  "object": "chat.completion",
+  "created": 1784673101,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对都乐（Dole）和鑫荣懋（XinRongMao）进口苹果的价格竞争力，作为通用AI助手，我无法实时获取具体的市场报价单或最新批发/零售价格。但根据行业一般规律，以下信息供您参考：\n\n1. **品牌定位差异**：都乐是国际知名品牌，主打高端市场，其进口苹果（如美国蛇果、新西兰爱妃等）通常品牌溢价较高，价格普遍偏高；鑫荣懋是国内大型水果供应链企业，既有进口也有国产渠道，价格策略更灵活，同级别苹果（如智利青苹果、澳洲粉红佳人）通常比都乐低10%-20%。\n\n2. **采购成本结构**：都乐多采用全球统一供应链，中间环节少但品牌成本高；鑫荣懋作为本土企业，对国内渠道、物流有成本优势，且更容易通过批量集采拿到较低进口价。\n\n3. **建议行动**：直接联系两家公司的销售或代理商，索取当前批次报价单；或依托您连锁的规模，要求竞标议价。同时关注时令（如新季上市或库存末期）带来的价差。\n\n请以实际询价结果为准，以上仅为行业经验参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 263,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

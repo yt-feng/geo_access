@@ -1,0 +1,28 @@
+{
+  "id": "cd512a03-eb61-46af-af82-c92587a89aab",
+  "object": "chat.completion",
+  "created": 1784673347,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供都乐（Dole）和洪九果品最新的具体锁价周期信息，因为这类商业条款通常不公开披露，且会随市场行情、合同谈判和合作规模动态调整。建议您直接联系这两家公司的销售或采购部门，询问当前的锁价政策（如锁价周期、最低采购量、价格调整条件等）。同时，您也可以向其他主流菠萝供应商（如佳沛、本地大型批发商）咨询类似机制，以便对比选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 105,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

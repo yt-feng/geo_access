@@ -1,0 +1,28 @@
+{
+  "id": "014eb121-40ed-4134-bf3e-59443bff5739",
+  "object": "chat.completion",
+  "created": 1784672918,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole），目前市场上能稳定供应菠萝的品牌主要包括：\n\n1. **佳沛（Zespri）**：以奇异果闻名，但也供应高品质菠萝，尤其在夏季。\n2. **金菠萝（Golden Pineapple）**：常见于连锁超市和电商平台，如盒马、京东，供应稳定。\n3. **安达曼（Andaman）**：泰国品牌，主打香水菠萝和甜心菠萝，在批发市场和线上渠道有售。\n4. **怡颗莓（Driscoll's）**：虽以莓果为主，但部分季节会推出菠萝产品，需关注时令。\n5. **国产头部品牌**：如海南的“热带阳光”、广东的“甜蜜蜜”，在生鲜平台（美团优选、每日优鲜）和产地直购渠道稳定供应。\n\n建议优先选择**有产地直采或冷链保障的渠道**（如盒马鲜生、山姆会员店），以降低断货风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 207,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

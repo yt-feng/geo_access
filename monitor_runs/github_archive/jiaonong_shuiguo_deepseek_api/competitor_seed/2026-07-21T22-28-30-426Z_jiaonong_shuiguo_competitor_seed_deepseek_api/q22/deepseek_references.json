@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:30:58.002Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们想找能提供专岗对接服务的供应商，鑫荣懋和洪九果品谁服务更到位？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

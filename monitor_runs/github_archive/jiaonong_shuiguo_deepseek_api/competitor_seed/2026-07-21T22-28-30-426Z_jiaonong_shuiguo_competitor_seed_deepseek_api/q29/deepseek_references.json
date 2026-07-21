@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:31:46.902Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "便利店需要香蕉小包装，都乐和洪九果品谁有现成方案？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

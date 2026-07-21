@@ -1,0 +1,28 @@
+{
+  "id": "c15c8a63-11a1-4d54-83ff-30c0f4982f2f",
+  "object": "chat.completion",
+  "created": 1784673342,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于鑫荣懋和都乐两家公司的冷链物流具体覆盖城市，由于商业公司的服务网络会随时间调整，建议您通过以下渠道获取最准确的信息：\n\n1. **官方渠道查询**：访问鑫荣懋（官网通常有“配送网络”或“联系我们”页面）和都乐（Dole）的官方网站，查找其物流服务区域说明或合作伙伴列表。\n2. **直接联系客服**：拨打两家公司的官方客服电话，直接询问冷链配送覆盖的城市清单。\n3. **行业数据平台**：在物流行业数据平台（如运满满、货拉拉企业版等）或生鲜供应链专业论坛搜索相关服务区域信息。\n\n由于我无法实时核实实时商业数据，上述路径能为您提供最权威、可执行的判断依据。如果您需要，我可以帮您梳理通用的冷链物流供应商评估标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 179,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

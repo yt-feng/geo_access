@@ -1,0 +1,28 @@
+{
+  "id": "18c7eb6d-26ef-4539-afed-692cb93bbe9e",
+  "object": "chat.completion",
+  "created": 1784672962,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，都乐（Dole）和鑫荣懋在供应链透明度方面各有特点：\n\n- **都乐**：作为国际品牌，都乐在产地溯源方面有较成熟的体系，通常提供地块级追溯信息（如种植农场、采摘时间），并通过第三方认证（如GlobalG.A.P.、ISO 22000）进行品控。其官网和包装上常印有追溯码，消费者可查询。\n- **鑫荣懋**：国内头部供应链企业，对国内产区的管理较细，例如与云南、广西的香蕉基地合作，提供批次溯源（如供应商基地、加工日期）。但在第三方品控认证的公开可见性上，可能弱于都乐（如缺乏类似GlobalG.A.P.的广泛披露）。\n\n**判断建议**：  \n若追求**国际标准、全程可追溯**，都乐更透明（其扫码溯源系统稳定）；若关注**国内产地细节**，鑫荣懋也可考虑，但需要求其提供具体的认证文件（如自行提供的检测报告或合作基地证书）。\n\n**直接行动**：  \n建议直接联系两家供应商，索要以下文件：  \n1. 产地溯源流程图（例如从农场到货架的各节点记录方式）。  \n2. 第三方品控审计报告（如SGS、Intertek的近期报告）。  \n3. 批次样品抽检记录（如农残、重金属报告）。  \n对比回复速度和文件详尽度，即可判断实际透明度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 311,
+    "total_tokens": 378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

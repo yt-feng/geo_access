@@ -1,0 +1,28 @@
+{
+  "id": "80d04742-665b-4f56-a713-d1c756096b3f",
+  "object": "chat.completion",
+  "created": 1784673244,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业惯例，都乐（Dole）和鑫荣懋（Xinrongmao）作为大型水果及生鲜供应链企业，通常对重点客户（如连锁商超、大型餐饮品牌）会提供专属客户经理或项目对接团队。但“专人服务”的具体形式取决于您的采购规模、合作模式和合同条款。  \n\n**建议行动步骤：**  \n1. **直接联系两家公司销售团队**：说明您的需求（如预计订单量、服务要求），询问是否可指定一名固定对接负责人。  \n2. **对比服务案例**：要求对方提供与您类似体量客户的合作案例，重点核实是否有专属服务人员调派历史。  \n3. **明确合同条款**：在签署协议前，将“固定专人对接”写入服务条款，并设定响应时效（如24小时内回复）。  \n\n**注意**：两家公司均无公开说明“所有客户均享专人服务”，合作前需以实际询价结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 206,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

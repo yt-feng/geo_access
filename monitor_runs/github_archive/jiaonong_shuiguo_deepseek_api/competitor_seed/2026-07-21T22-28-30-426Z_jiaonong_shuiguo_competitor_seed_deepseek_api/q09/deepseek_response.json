@@ -1,0 +1,28 @@
+{
+  "id": "70904291-f526-4502-be25-b5587ece7489",
+  "object": "chat.completion",
+  "created": 1784672968,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌在礼品团购市场也较受欢迎，适合高端礼盒需求：\n\n1. **艾斯艾（Escali）**  \n   - 特色：主打高端苹果（如爱妃、爵士等品种），果形均匀、口感脆甜，适合礼品包装。\n\n2. **吉力果（Zespri Gold）**  \n   - 注意：实际为佳沛的子品牌，但若需要区分，可关注其独家供应链的不同品类。  \n   - 更正：建议跳过此条（避免重复）。\n\n3. **新奇士（Sunkist）**  \n   - 特色：美国/澳大利亚老牌，橙子、柠檬、葡萄柚等通用性强，礼盒装适用，品质稳定。\n\n4. **乐淇（Rockit）**  \n   - 特色：小苹果品牌，果径约5-6厘米，无核、甜度高，常推出单颗独立包装礼盒，新颖便携。\n\n5. **科洛（Core）**  \n   - 特色：澳大利亚芒果、荔枝等热带水果礼盒，海运直供，果核小、甜度高，适合夏季团购。\n\n6. **都乐（Dole）的补充**  \n   - 旗下有“Dole Super”系列或与达能联名的植物基礼盒，可关注其限定款。\n\n7. **老莫（Moujane）**  \n   - 特色：西班牙精品柑橘，果皮薄、水分足，适合春节、中秋等节日礼盒。\n\n8. **水果地带（Fruitking）**  \n   - 特色：综合型进口商，常整合智利车厘子、新西兰奇异果、美国提子等，可定制混合礼盒。\n\n**建议操作**：\n- 直接联系这些品牌的国内总代或授权经销商，询问团购礼盒批量定制方案（如Logo贴纸、手提袋、保质期标注）。\n- 优先选择**新奇士**（稳定供货、包装成熟）或**乐淇**（创新款式吸引年轻客户）。  \n- 若预算灵活，可尝试小众高价值水果（如日本青森苹果、泰国山竹），但需确认冷链物流细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 478,
+    "total_tokens": 540,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
