@@ -1,0 +1,50 @@
+{
+  "questionId": "q37",
+  "prompt": "商超做会员日水果活动，供应商需要提前配合哪些准备？",
+  "createdAt": "2026-07-21T22:17:15.176Z",
+  "summary": [
+    {
+      "questionId": "q37",
+      "prompt_index": 37,
+      "promptIndex": 37,
+      "promptHash": "226efbd9de3f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超做会员日水果活动，供应商需要提前配合哪些准备？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 862,
+      "text_length": 862,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 563,
+        "total_tokens": 618,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 563,
+      "total_tokens": 618,
+      "latencyMs": 7857,
+      "latency_ms": 7857,
+      "createdAt": "2026-07-21T22:17:15.176Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q37/prompt.txt",
+        "answer": "q37/deepseek.txt",
+        "response": "q37/deepseek_response.json",
+        "sources": "q37/deepseek_sources.json",
+        "references": "q37/deepseek_references.json"
+      }
+    }
+  ]
+}

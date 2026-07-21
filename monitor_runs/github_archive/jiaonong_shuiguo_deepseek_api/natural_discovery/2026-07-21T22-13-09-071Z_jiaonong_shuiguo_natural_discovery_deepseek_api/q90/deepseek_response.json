@@ -1,0 +1,28 @@
+{
+  "id": "27dfeee1-5507-49eb-a455-ae981e3a4dab",
+  "object": "chat.completion",
+  "created": 1784672627,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你可以从以下几个角度向消费者解释：\n\n1. **产地与运输成本**：进口香蕉通常来自菲律宾、厄瓜多尔等热带国家，长途冷链运输、报关检疫、保鲜包装等环节成本远高于国内香蕉，这些费用都会体现在价格中。\n\n2. **品种与口感差异**：进口香蕉（如“都乐”“佳农”品牌）往往选用特定优质品种，果肉更紧实、甜度更高、香味浓郁，而部分普通香蕉可能口感偏淡或易软烂。\n\n3. **品质标准**：进口香蕉需符合严格的出口国检验标准（如欧盟、日韩标准），在品相、大小、无农药残留等方面要求更高，损耗率也较低。\n\n4. **稳定供应**：进口香蕉可全年供应，不受国内季节性减产影响，价格波动较小。\n\n建议在商品页或导购话术中突出这些点，并用对比表格或直观图片（如切开对比果肉颜色、展示产地溯源码）增强说服力。例如：“同样是香蕉，进口的是‘全球精选’版本，相当于普通车和豪华车的区别。”"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 230,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

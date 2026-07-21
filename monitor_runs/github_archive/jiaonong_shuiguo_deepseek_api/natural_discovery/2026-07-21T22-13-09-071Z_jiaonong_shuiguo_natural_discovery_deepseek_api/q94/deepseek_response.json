@@ -1,0 +1,28 @@
+{
+  "id": "400ba154-1d97-4e63-93f1-45c649b3013d",
+  "object": "chat.completion",
+  "created": 1784672649,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，供应商支持小批量试卖非常重要。因为便利店空间有限、库存周转要求高，如果水果销量不稳定，一次性大批量进货容易造成损耗和资金占压。小批量试卖可以帮你：\n\n1. **降低风险**：先试销几箱，观察顾客对品种、成熟度、价格的接受度；\n2. **灵活调整**：根据实际销售数据快速换品，避免滞销积压；\n3. **控制损耗**：水果保鲜期短，小批量能减少因卖不完导致的坏果损失。\n\n建议你在选供应商时，优先询问是否可以按件或按箱起订，是否支持首单低量采购。能灵活配合的供应商，更值得长期合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 150,
+    "total_tokens": 205,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

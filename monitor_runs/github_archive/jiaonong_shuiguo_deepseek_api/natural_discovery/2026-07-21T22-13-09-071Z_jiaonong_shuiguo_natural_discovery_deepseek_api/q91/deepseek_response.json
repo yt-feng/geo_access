@@ -1,0 +1,28 @@
+{
+  "id": "d1b55df5-d710-4e6a-aab4-809c3bef6707",
+  "object": "chat.completion",
+  "created": 1784672631,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根包装**，原因如下：\n\n1. **控制损耗**：香蕉是易损耗水果，单根售卖方便顾客按需购买，减少因整把或整袋中部分香蕉腐烂导致的整体丢弃。\n2. **提升便利性**：单根便于即买即食，适合便利店即食场景（如上班族、学生）。\n3. **陈列灵活**：可放收银台或显眼货架，单价低，促进冲动消费。\n\n**操作建议**：\n- 若顾客群体家庭多，可补充少量**小把（2-3根）包装**，用保鲜膜或纸袋简易包装，贴上“特惠”标签。\n- 避免**整袋包装**，除非是特价促销（如家庭装），否则高损耗和难周转。\n\n注意：上架前确认每日进货频率，并搭配温度控制，非成熟香蕉勿放冰箱。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 194,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

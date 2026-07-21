@@ -1,0 +1,28 @@
+{
+  "id": "3c0de943-f917-4dc5-aaa6-d842817f82b8",
+  "object": "chat.completion",
+  "created": 1784672022,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议让顾客自己挑并现场去皮，理由如下：\n\n1. **顾客信任**：自己挑能确保果子新鲜、无瑕疵，减少“被坑”的担忧。\n2. **体验感强**：选果过程有参与感，现场去皮能展示服务专业度。\n3. **减少损耗**：去皮好的菠萝易氧化、易坏，自己挑的销量更稳定。\n\n风险提示：需配备专业削皮工具，并告知顾客“如需去皮可以现场服务”。若库存较大，可额外准备部分去皮果作为“便利选项”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 118,
+    "total_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

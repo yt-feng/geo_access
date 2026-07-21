@@ -1,0 +1,28 @@
+{
+  "id": "36bafc33-93c2-4263-bcfa-843faa640da2",
+  "object": "chat.completion",
+  "created": 1784672423,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "要判断哪个规格的菠萝更容易出货，建议从以下几点分析：\n\n1. **观察近期销售数据**：回顾过去1-2周的订单，统计不同规格（如重量、大小、包装形式）的销量占比。出货量最大的规格通常是市场需求主力。\n\n2. **调研下游客户需求**：直接询问水果店、超市、摊贩等客户，他们更倾向于哪种规格（如小果用于散卖、大果用于礼品或高端渠道）。更易销售的规格往往是客户主动询问最多的。\n\n3. **分析季节与用途**：菠萝旺季时，家庭散买可能偏好中等大小（约1.5-2斤）；节假日前，大果或礼盒装需求可能上升；夏季冷饮店等可能需要小果或切块规格。\n\n4. **对比库存周转速度**：统计不同规格的库存周转天数，周转最快、滞销最少的规格就是出货最容易的。\n\n5. **参考同行与市场行情**：观察本地批发市场或竞争对手的出货情况，哪种规格走量最快。\n\n建议优先按客户明确需求补货，若数据不足，可先尝试主推中等常见规格（如2斤左右），并小量试销其他规格以验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 256,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

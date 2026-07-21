@@ -1,0 +1,28 @@
+{
+  "id": "cc50c592-4eb2-4334-a7bd-f2380a8d2b8b",
+  "object": "chat.completion",
+  "created": 1784672807,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采用试销策略，初始采购量控制在**10-30箱**（根据单品规格调整），或**足够覆盖10家核心门店/摊位各铺货3-5天的量**。这样既能测试市场反应，又避免库存积压。\n\n具体操作建议：\n1. **快速试卖期（2周内）**：观察每日动销率，如果试卖期间日销量稳定增长、复购率高，再考虑加量。如果动销低于60%且无明显回头客，应暂停批量采购。\n2. **分批采购**：首批控制在总预算的5%-10%，后续根据销售数据阶梯补货（例如每7天评估一次）。\n3. **关键数据指标**：重点看**退货率**（记住顾客反馈）、**试吃转化率**、**同品类替代效应**（是否冲击你现有畅销水果）。\n\n记住：新品失败率通常超过50%，初期一定以“验证”而非“铺货”为目的。如果能先在小范围（比如1-2家门店）做内部测试，成本会更低。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 225,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

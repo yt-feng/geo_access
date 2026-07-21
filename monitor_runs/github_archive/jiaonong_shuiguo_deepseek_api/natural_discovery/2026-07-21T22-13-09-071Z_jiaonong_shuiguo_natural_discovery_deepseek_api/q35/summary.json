@@ -1,0 +1,50 @@
+{
+  "questionId": "q35",
+  "prompt": "连锁超市想降低门店坏果率，合同里应该怎么约定赔付？",
+  "createdAt": "2026-07-21T22:16:58.380Z",
+  "summary": [
+    {
+      "questionId": "q35",
+      "prompt_index": 35,
+      "promptIndex": 35,
+      "promptHash": "638937225674",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "连锁超市想降低门店坏果率，合同里应该怎么约定赔付？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1374,
+      "text_length": 1374,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 878,
+        "total_tokens": 934,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 878,
+      "total_tokens": 934,
+      "latencyMs": 10462,
+      "latency_ms": 10462,
+      "createdAt": "2026-07-21T22:16:58.380Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q35/prompt.txt",
+        "answer": "q35/deepseek.txt",
+        "response": "q35/deepseek_response.json",
+        "sources": "q35/deepseek_sources.json",
+        "references": "q35/deepseek_references.json"
+      }
+    }
+  ]
+}

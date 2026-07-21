@@ -1,0 +1,28 @@
+{
+  "id": "9777c166-fa20-459c-8e36-c02e3f1fca91",
+  "object": "chat.completion",
+  "created": 1784672061,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会的。大小不一的香蕉会影响销售，主要原因包括：\n\n- **视觉不统一**：顾客偏好整齐美观的货架，大小参差会显得杂乱，降低购买欲望。\n- **定价困难**：同一箱混装，大香蕉顾客觉得贵，小香蕉可能被挑剩，导致损耗。\n- **成熟度差异**：大小不同的香蕉通常成熟时间不一，容易造成部分过熟或不熟的情况。\n\n**建议做法**：\n1. 若无法分箱，可拆箱后按大小分开陈列，并配合不同定价（大果卖高一些，小果低价促销或做特价堆头）。\n2. 直接以混装方式低价整箱销售（例如“特价混合装”），适合家庭消费或烘焙用途。\n3. 优先选择规格统一的货源进货，从源头减少销售阻力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 177,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

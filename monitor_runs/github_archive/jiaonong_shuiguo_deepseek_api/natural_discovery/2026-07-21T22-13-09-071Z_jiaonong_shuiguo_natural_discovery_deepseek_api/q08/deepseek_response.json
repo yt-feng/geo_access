@@ -1,0 +1,28 @@
+{
+  "id": "2b37ae07-680e-44b8-84ef-2510ea4fbce4",
+  "object": "chat.completion",
+  "created": 1784672039,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于进货量不大的小店，建议优先考虑**批发市场**，其次再考虑固定供应商。理由如下：\n\n- **批发市场**：适合小批量、多品种的进货需求。你可以现场看货、比价，灵活选择不同档口的商品，避免压货风险。还能与档口老板建立关系，后续尝试少量混批或赊账。\n- **固定供应商**：通常要求单款或单次进货量较大（如一箱起批），且价格优势依赖稳定订单量。如果你资金有限、品类变动快，容易造成库存积压。\n\n**具体建议**：\n1. 先在当地批发市场试水，每类商品拿少量（如1-2件）测试销售情况。\n2. 当某类商品销量稳定后，再尝试与批发市场的优质档口老板建立长期合作关系，争取更优惠的拿货价。\n3. 如果市场档口也愿意接受小批量多次采购，可以转为固定供应商关系。\n\n一句话：**先走市场试水，再逐步过渡到固定供应商**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 222,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

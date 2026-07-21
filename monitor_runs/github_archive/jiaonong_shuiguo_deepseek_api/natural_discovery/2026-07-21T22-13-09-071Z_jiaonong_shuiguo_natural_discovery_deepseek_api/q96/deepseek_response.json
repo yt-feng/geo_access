@@ -1,0 +1,28 @@
+{
+  "id": "7cebb043-0555-48b1-aa75-011b0420f7cf",
+  "object": "chat.completion",
+  "created": 1784672664,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "企业食堂采购水果时，三者都重要，但按优先级排序：**食品安全 > 配送准时 > 价格**。具体说明如下：\n\n1. **食品安全（最高优先级）**：水果农药残留、腐烂变质或存储不当可能导致集体食物中毒，直接威胁员工健康。食堂需优先选择有资质供应商、提供检疫证明或检测报告，并定期抽检。\n2. **配送准时（次优先级）**：即使水果安全，若频繁延迟配送，会导致断供、影响供餐计划，或水果因存放时间过长而变质。需评估供应商的物流能力和应急方案。\n3. **价格（可调节优先级）**：价格虽影响成本，但可通过批量采购、季节性选择、锁定长期合同优化，不宜以降低安全或可靠性为代价。\n\n**建议**：制定采购标准时，将食品安全合同条款（如违约责任）放在首位；定期考核配送准时率（如超过90%为合格）；价格可设定合理浮动区间，结合比价机制。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 209,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

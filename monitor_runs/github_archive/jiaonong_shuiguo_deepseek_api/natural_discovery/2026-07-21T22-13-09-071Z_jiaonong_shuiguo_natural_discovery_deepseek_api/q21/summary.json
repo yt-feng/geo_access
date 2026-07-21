@@ -1,0 +1,50 @@
+{
+  "questionId": "q21",
+  "prompt": "超市采购水果时，供应商需要提供哪些检测报告或进货证明？",
+  "createdAt": "2026-07-21T22:15:26.645Z",
+  "summary": [
+    {
+      "questionId": "q21",
+      "prompt_index": 21,
+      "promptIndex": 21,
+      "promptHash": "8dd6b6a59a01",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购水果时，供应商需要提供哪些检测报告或进货证明？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 416,
+      "text_length": 416,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 240,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 240,
+      "total_tokens": 295,
+      "latencyMs": 2885,
+      "latency_ms": 2885,
+      "createdAt": "2026-07-21T22:15:26.645Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q21/prompt.txt",
+        "answer": "q21/deepseek.txt",
+        "response": "q21/deepseek_response.json",
+        "sources": "q21/deepseek_sources.json",
+        "references": "q21/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cec8cc99-2c5c-425b-bbfa-1dbb697fbd7e",
+  "object": "chat.completion",
+  "created": 1784672017,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了减少香蕉损耗，采购时应从**熟度标准**和**到货时间**两个关键点提出明确要求：\n\n1. **熟度要求**：要求供应商提供**绿熟期**香蕉（果皮全绿，棱角分明，手感硬实）。避免采购黄熟或带有斑点的香蕉，因为这类香蕉在运输和店内储存期间极易过熟腐烂。建议指定“七成熟”以下（即果皮绿色占比超过80%，果肉尚未转色），并规定验收时若出现超过5%的黄熟或软果，可拒收或要求调换比例。\n\n2. **到货时间**：要求**次日或72小时内**到货（从产地采摘到店不超过3天）。若为长途运输，应明确要求在**冷链（13-14℃）**条件下运输，避免高温加速成熟。到货后应留出2-3天的店内“催熟缓冲期”，以便通过调整温度（18-20℃）控制销售节奏。\n\n**执行建议**：在采购合同中写明“验收时香蕉硬度≥50（使用硬度计）或果皮无黄斑、病斑”，并约定“到货后24小时内未售完需立即转入冷藏（13℃）”，可进一步降低损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 266,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

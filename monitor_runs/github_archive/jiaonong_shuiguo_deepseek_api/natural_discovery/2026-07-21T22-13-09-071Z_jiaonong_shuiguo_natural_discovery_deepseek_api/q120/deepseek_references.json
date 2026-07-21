@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:27:12.176Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "普通商家只知道菠萝、香蕉这类大品类，供应商介绍产品时怎么说才更容易听懂并下单？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cbecb1d1-466a-42dd-b0cd-342b413ea0be",
+  "object": "chat.completion",
+  "created": 1784672107,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "挑选香蕉时，可以参考以下技巧避免买到太生或太熟：\n\n1. **看颜色**：选择整体呈 **亮黄色**、略带 **绿色** 的香蕉（约七分熟）。避免全青（过生）或大面积黑斑、皮色发暗（过熟）。\n2. **摸硬度**：轻轻捏一下香蕉中部，**有弹性、微微柔软** 为佳。太硬则生，太软一捏就陷下去为过熟。\n3. **查果柄**：果柄（香蕉把）**完整、青绿或浅黄** 更好。若果柄发黑、干枯，说明存放时间较长。\n4. **观棱角**：香蕉横截面 **棱角分明** 可能偏生；**棱角圆润、接近光滑** 通常成熟度适中。\n5. **闻气味**：凑近闻根部，有淡淡 **香蕉清香** 为正常。无味则可能很生，有发酵酒味或酸味则过熟或变质。\n\n建议去超市时，**先拿较黄的，再补几根略青的**，这样回家后分批食用，避免同时成熟。如果买回家还需要存放2-3天，可以选微带绿色的；如果打算1-2天内吃完，选全黄的更安全。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 281,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

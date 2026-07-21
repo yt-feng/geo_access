@@ -1,0 +1,28 @@
+{
+  "id": "979458d0-1a54-419a-8812-a1d61efb30ab",
+  "object": "chat.completion",
+  "created": 1784672161,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "判断苹果和橙子的大小规格是否适合门店销售，可以从以下方面入手：\n\n1. **看包装标注**：正规批发包装上会标注果径（如苹果70-80mm、橙子60-70mm）。优先选果径均匀（差异≤5mm）、无超大或过小果的批次。\n\n2. **按门店定位选标准**：\n   - **高端/精品店**：苹果选75-85mm，橙子选65-75mm（果形圆整、无疤痕）。\n   - **社区/平价店**：苹果选70-80mm，橙子选60-70mm（允许轻微花皮，但无腐烂）。\n   - **特价引流**：苹果可放宽至65-75mm，橙子55-65mm（但需剔除畸形果）。\n\n3. **亲自手感判断**：\n   - **对比手掌**：苹果直径应接近成年人拳头（约70-80mm）；橙子直径应略小于拳头（约60-70mm）。\n   - **称重参考**：单个苹果约180-250g，橙子约150-220g（过轻可能失水）。\n\n4. **避免的“不合格”特征**：\n   - 明显大小混装（如一颗苹果80mm、另一颗60mm）。\n   - 果面有缩水、软斑或虫眼（即使大小合适也拒收）。\n   - 果梗断裂或损伤。\n\n最后建议：首次采购时带一个固定直径的测量卡尺（或硬纸板挖洞），对齐果径快速筛选。任何规格的果都需要随机切开抽查内部是否褐变或干硬。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 350,
+    "total_tokens": 406,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:21:17.969Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发商担心货到后损耗高，合同里应该怎么写坏果责任？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

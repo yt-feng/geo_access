@@ -1,0 +1,28 @@
+{
+  "id": "b67cb89c-ccbd-4536-8072-b938b2c95806",
+  "object": "chat.completion",
+  "created": 1784672167,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于超市引入稳定的进口水果，建议**优先考虑香蕉**。原因如下：\n\n1. **供应链成熟**：进口香蕉（如菲律宾、厄瓜多尔）的全球物流体系非常成熟，运输、冷藏和保鲜技术稳定，品质波动较小。\n2. **市场需求大**：香蕉是日常消耗量最大的进口水果之一，消费者接受度高，复购率强，适合作为稳定长期合作的基础品类。\n3. **库存风险低**：香蕉成熟度可通过控温调节，且从上架到销售周期相对可预测（通常3-5天），比菠萝或苹果更易管理鲜度损耗。\n\n菠萝对冷链要求高且果品成熟度难统一，易出现酸涩或腐烂；进口苹果（如美国、新西兰）则面临国产优质苹果竞争，且品种差异导致销售波动较大。\n\n建议先引入香蕉建立进口果品供应链基础，再逐步扩展至菠萝和苹果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 192,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

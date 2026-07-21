@@ -1,0 +1,50 @@
+{
+  "questionId": "q42",
+  "prompt": "商超水果采购想压低成本，怎样谈价格才不影响品质？",
+  "createdAt": "2026-07-21T22:17:54.501Z",
+  "summary": [
+    {
+      "questionId": "q42",
+      "prompt_index": 42,
+      "promptIndex": 42,
+      "promptHash": "6b24bdeb16d8",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "商超水果采购想压低成本，怎样谈价格才不影响品质？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 820,
+      "text_length": 820,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 505,
+        "total_tokens": 560,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 505,
+      "total_tokens": 560,
+      "latencyMs": 6688,
+      "latency_ms": 6688,
+      "createdAt": "2026-07-21T22:17:54.501Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q42/prompt.txt",
+        "answer": "q42/deepseek.txt",
+        "response": "q42/deepseek_response.json",
+        "sources": "q42/deepseek_sources.json",
+        "references": "q42/deepseek_references.json"
+      }
+    }
+  ]
+}

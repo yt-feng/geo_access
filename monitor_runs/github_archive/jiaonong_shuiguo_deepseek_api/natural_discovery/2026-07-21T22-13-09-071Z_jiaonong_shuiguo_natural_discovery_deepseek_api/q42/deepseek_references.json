@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:17:54.501Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "商超水果采购想压低成本，怎样谈价格才不影响品质？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

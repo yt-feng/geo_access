@@ -1,0 +1,28 @@
+{
+  "id": "bfabcae8-c659-4ecc-8793-23255a8756de",
+  "object": "chat.completion",
+  "created": 1784672141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "向供应商索要以下资料，能有效应对农残抽检风险：\n\n1. **农产品质量合格证明**：如产地出具的质量检测报告，明确标注农残项目及结果。  \n2. **农残检测报告**：第三方检测机构（如SGS、CTI等）出具的、符合GB 2763标准的检测报告。  \n3. **产地证明或产地准出证明**：如“食用农产品合格证”或“产地准出证明”，需包括产地信息、货主、检测结果等。  \n4. **供应商资质文件**：营业执照、食品经营许可证（若涉及）及供货合同中的质量承诺条款。  \n5. **批次生产/进货记录**：包括种植户信息、用药记录、采收日期等可追溯文件。  \n\n**特别提示**：  \n- 要求供应商在每批次供货时，提供**当批次的**检测报告，而非仅历史报告。  \n- 采购合同中明确约定“如抽检不合格，供应商承担全部责任及赔偿”条款。  \n- 对高风险水果（如草莓、葡萄等）可要求每次随机送检快检。  \n\n收到资料后，需核对检测项目是否全面（如有机磷、拟除虫菊酯等常见农残指标），报告有效期是否在合理范围内（一般不超过3个月）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 278,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

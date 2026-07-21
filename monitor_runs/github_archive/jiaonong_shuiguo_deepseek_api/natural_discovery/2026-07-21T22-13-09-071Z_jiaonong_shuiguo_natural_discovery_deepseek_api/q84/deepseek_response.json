@@ -1,0 +1,28 @@
+{
+  "id": "d4194e30-5e87-4ee0-8e6e-59c366261026",
+  "object": "chat.completion",
+  "created": 1784672581,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于家庭团购水果礼盒，推荐选择**营养均衡、老少皆宜、耐放易分享**的组合。建议用**苹果3-4个 + 橙子3-4个 + 香蕉2-3根 + 菠萝1个**，理由如下：\n\n- **苹果**：耐储存、口感清脆，适合全家日常食用，不易压坏。\n- **橙子**：富含维生素C，酸甜适口，适合老人和小孩补充营养。\n- **香蕉**：软糯易消化，但易熟怕压，建议少量放顶层或单独包装，尽快食用。\n- **菠萝**：热带风味突出，个头大但需现切。建议提前去皮切块分装，便于家庭直接吃或做菜。\n\n**成本与口感平衡**：苹果、橙子价格亲民；香蕉补充能量；菠萝提升礼盒颜值和新鲜感。若预算有限，可减少菠萝数量。\n\n**包装建议**：\n- 香蕉用纸单独包裹，避免磕碰；\n- 菠萝切好分装后冷藏，盒内用冰袋；\n- 苹果、橙子垫底，香蕉、菠萝放上层。\n\n这样搭配既有日常需求（苹果、橙子），又有丰富口感（香蕉、菠萝），一家老少都能享受。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 267,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

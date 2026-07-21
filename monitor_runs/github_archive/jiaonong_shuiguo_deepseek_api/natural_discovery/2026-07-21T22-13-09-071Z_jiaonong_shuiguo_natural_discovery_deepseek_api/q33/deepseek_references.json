@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:16:42.746Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "多门店超市需要统一水果品质，供应商的分级标准重要吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}
