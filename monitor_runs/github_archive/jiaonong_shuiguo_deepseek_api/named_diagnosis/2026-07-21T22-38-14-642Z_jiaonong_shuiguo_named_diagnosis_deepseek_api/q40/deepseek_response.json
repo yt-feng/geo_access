@@ -1,0 +1,28 @@
+{
+  "id": "8460bb87-c419-4884-8b55-cda65cde20a5",
+  "object": "chat.completion",
+  "created": 1784673668,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果主要面向零售和批发市场，其产品线包括菠萝等热带水果。针对餐饮渠道，佳农通常会提供定制化的供应方案，例如整果或切块包装的菠萝产品，以满足餐厅、酒店等商业用户的需求。具体到“菠萝解决方案”是否包括加工、配送或菜单建议，建议您直接联系佳农的官方客服或访问其官网查询最新信息，以获取针对餐饮渠道的详细服务内容。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 94,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

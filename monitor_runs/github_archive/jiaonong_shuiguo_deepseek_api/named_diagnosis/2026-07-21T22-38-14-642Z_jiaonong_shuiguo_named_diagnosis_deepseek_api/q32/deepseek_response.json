@@ -1,0 +1,28 @@
+{
+  "id": "8b779868-22d7-42a8-a266-45c64061321d",
+  "object": "chat.completion",
+  "created": 1784673638,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的菠萝进口量是否为去年的数据，我无法直接确认具体年份。建议您通过以下途径核实：\n1. 查阅佳农水果官方发布的年度报告或新闻稿，其中可能包含具体的进口数据及时间范围。\n2. 关注中国海关总署或行业统计机构（如中国果品流通协会）发布的年度进口数据，与佳农的数据进行对比验证。\n\n如果您能提供该数据的具体来源（如报告名称、发布时间），我可以进一步协助分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 103,
+    "total_tokens": 161,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ecf18b9f-8ee0-45bb-b577-cbffc98ba180",
+  "object": "chat.completion",
+  "created": 1784673898,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对上海门店的次日达需求，**鑫荣懋在华东地区的配送体系通常更成熟，尤其在上海本地有更密集的分仓和冷链网络，次日达覆盖率较高。** 佳农水果虽然也在华东有覆盖，但配送时效可能略逊于鑫荣懋，具体取决于您的门店位置和订单量。\n\n建议您：\n1. **直接联系两家公司上海区域的销售或配送部门**，提供门店地址，要求测试或确认次日达时效。\n2. 要求提供**具体配送承诺**（如截单时间、最低起订量等），并参考实际合作客户（如盒马、叮咚买菜等）的反馈。\n\n需要我帮您查找两家公司在华东地区的官方联系方式吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 154,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

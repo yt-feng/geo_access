@@ -1,0 +1,28 @@
+{
+  "id": "6d930f81-7aca-4521-9a56-301a36526dda",
+  "object": "chat.completion",
+  "created": 1784673758,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果（如香蕉）是否有价格保护机制（比如锁价3个月），我无法直接提供确切信息，因为这涉及企业的具体商业政策，可能因地区、合作渠道、合同条款等有所差异。\n\n不过，我可以给您一些可执行的建议：\n\n1. **直接咨询官方渠道**：联系佳农水果的官方客服、销售代表或查阅其官方网站/官方商城，询问是否有针对大宗采购或长期合作的价格保护或锁价服务。通常这类服务可能针对B端客户（如超市、批发商）提供。\n\n2. **查看合作协议条款**：如果您是合作伙伴或潜在客户，在签订合同时应明确是否有“价格保护”条款（如固定价格期、调价机制等）。建议在合作前详细沟通。\n\n3. **市场惯例参考**：在农产品（尤其是香蕉这类价格波动大的商品）中，部分大型供应商会提供短期锁价（如1-3个月）作为促销或稳定合作关系的手段，但非行业标准。您可对比其他供应商（如百果园、Dole等）的政策。\n\n建议您优先向佳农官方核实，以确保信息准确。希望这些思路对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 245,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

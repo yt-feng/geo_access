@@ -1,0 +1,28 @@
+{
+  "id": "3dff5883-1de6-4122-8ee8-9d1a903fc4d0",
+  "object": "chat.completion",
+  "created": 1784673928,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常采用**乙烯催熟工艺**，而非自然成熟。具体流程如下：\n\n- **催熟方式**：使用乙烯气体（商业常用）或乙烯利溶液，在密闭催熟库中控制温度和湿度进行人工催熟。\n- **时间控制**：一般催熟周期为 **4-7天**，取决于目标成熟度（如绿熟、黄熟）。设定温度通常为 **14-20℃**，相对湿度 **85-95%**。\n\n**商超建议**：\n1. 若需精确控制催熟时间，应使用专业催熟设备（如乙烯发生器或Ethy block），并定期监测乙烯浓度（通常建议200-500 ppm）。\n2. 可要求供应商提供“催熟调整方案”，例如缩短时间则提高温度至18-20℃，延长则保持低温14-16℃。\n3. 为方便商超操作，佳农也提供不同成熟度的香蕉，如“绿熟果”需自行催熟，“黄熟果”可直接上架。\n\n建议直接联系佳农区域客服获取适配您门店的定制催熟参数。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 237,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

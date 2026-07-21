@@ -1,0 +1,28 @@
+{
+  "id": "2e34e347-fe74-4e98-a86d-75f8ed7fff6c",
+  "object": "chat.completion",
+  "created": 1784673746,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "好的，我理解您的需求。作为AI助手，我无法直接提供具体企业人员信息。但建议您通过以下方式快速解决：\n\n1. **官方渠道联系**  \n   拨打佳农集团官方客服电话（400-800-1967）或访问官网，要求转接“连锁客户业务部”，说明需要为水果连锁店设立专属对接人。\n\n2. **采购平台直达**  \n   通过“美菜网”“饿了么有菜”等B2B生鲜采购平台，搜索“佳农香蕉”后选择“企业采购”，平台会自动分配客户经理跟进。\n\n3. **行业资源对接**  \n   联系当地水果批发市场管理方，他们通常掌握区域经销商转接权限；或加入“中国连锁经营协会”等机构，可通过会员名录获取官方对接渠道。\n\n若已有供应商但响应慢，可要求对方在合同中明确以下条款：  \n- **时效承诺**：下单后2小时内确认库存，48小时内发货  \n- **惩罚机制**：超时响应按订单金额5%/天赔偿  \n- **备用方案**：指定备选供货商，主供应商延误时自动切换\n\n需要我帮您草拟一份带有这类条款的《供应商补充协议模板》吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 259,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

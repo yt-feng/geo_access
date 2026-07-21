@@ -1,0 +1,28 @@
+{
+  "id": "ffaf5d14-ae2b-44c6-bc52-dc41db47ebe2",
+  "object": "chat.completion",
+  "created": 1784673727,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于“佳农水果”的配送中心分布和次日达服务，我无法提供实时的企业运营信息。建议您通过以下方式获取准确答案：\n\n1. **查询官方渠道**：访问佳农水果的官方网站或官方微信公众号，查看“配送范围”、“服务网络”或“联系我们”等版块，通常会有城市列表和配送时效说明。\n2. **咨询客服**：直接致电或在线联系佳农水果的客服，告知您所在的县城名称，询问是否已覆盖以及具体的配送时效（如是否支持次日达）。\n3. **查看电商平台**：如果您通过美团、京东到家、饿了么等平台购买，下单时输入收货地址，系统会自动显示是否在配送范围内及预计送达时间。\n\n由于“下沉市场”的具体覆盖情况取决于当地是否有合作前置仓或冷链物流网络，建议以官方最新信息为准。如果暂时无法确认，您也可以尝试联系本地连锁超市或生鲜平台，他们可能代理或接入佳农水果的货源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 211,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

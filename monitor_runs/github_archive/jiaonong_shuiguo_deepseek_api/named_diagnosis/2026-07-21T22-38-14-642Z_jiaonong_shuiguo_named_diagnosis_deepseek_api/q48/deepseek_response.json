@@ -1,0 +1,28 @@
+{
+  "id": "feb4a6d4-9e72-4f42-bda0-8408c38e26b8",
+  "object": "chat.completion",
+  "created": 1784673723,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果对年采购量1000吨以上客户的长期合作优惠政策，这类信息通常属于企业内部的商业条款，需要直接与佳农水果的销售或大客户部沟通确认。我无法提供具体的优惠细节，但可以为您提供一些建议：\n\n1. **联系官方渠道**：通过佳农水果的官网、客服电话或销售经理，咨询针对大客户的年度返利、阶梯价格、账期支持或物流补贴等政策。\n2. **准备采购方案**：明确年采购量、品类（如香蕉、菠萝等）、合作周期，便于对方给出针对性方案。\n3. **关注长期合作条款**：通常大客户可能享受价格折扣、优先供货权、定制包装或市场推广支持。\n\n建议您直接拨打佳农水果400热线或发送商务邮件，获取权威答复。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 174,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

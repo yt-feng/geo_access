@@ -1,0 +1,50 @@
+{
+  "questionId": "q12",
+  "prompt": "佳农水果的香蕉有几种规格？适合不同渠道的分级标准是什么？",
+  "createdAt": "2026-07-21T22:39:01.590Z",
+  "summary": [
+    {
+      "questionId": "q12",
+      "prompt_index": 12,
+      "promptIndex": 12,
+      "promptHash": "7ba61d8617ac",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉有几种规格？适合不同渠道的分级标准是什么？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 740,
+      "text_length": 740,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 479,
+        "total_tokens": 536,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 479,
+      "total_tokens": 536,
+      "latencyMs": 7810,
+      "latency_ms": 7810,
+      "createdAt": "2026-07-21T22:39:01.590Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q12/prompt.txt",
+        "answer": "q12/deepseek.txt",
+        "response": "q12/deepseek_response.json",
+        "sources": "q12/deepseek_sources.json",
+        "references": "q12/deepseek_references.json"
+      }
+    }
+  ]
+}

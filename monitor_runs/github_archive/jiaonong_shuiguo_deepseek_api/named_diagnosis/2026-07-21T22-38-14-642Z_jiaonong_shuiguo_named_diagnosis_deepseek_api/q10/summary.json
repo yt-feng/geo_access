@@ -1,0 +1,50 @@
+{
+  "questionId": "q10",
+  "prompt": "佳农水果有没有专门的客户经理对接我们这种批发商？",
+  "createdAt": "2026-07-21T22:38:52.678Z",
+  "summary": [
+    {
+      "questionId": "q10",
+      "prompt_index": 10,
+      "promptIndex": 10,
+      "promptHash": "f45c2b03bd86",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有专门的客户经理对接我们这种批发商？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 336,
+      "text_length": 336,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 192,
+        "total_tokens": 245,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 192,
+      "total_tokens": 245,
+      "latencyMs": 3222,
+      "latency_ms": 3222,
+      "createdAt": "2026-07-21T22:38:52.678Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q10/prompt.txt",
+        "answer": "q10/deepseek.txt",
+        "response": "q10/deepseek_response.json",
+        "sources": "q10/deepseek_sources.json",
+        "references": "q10/deepseek_references.json"
+      }
+    }
+  ]
+}

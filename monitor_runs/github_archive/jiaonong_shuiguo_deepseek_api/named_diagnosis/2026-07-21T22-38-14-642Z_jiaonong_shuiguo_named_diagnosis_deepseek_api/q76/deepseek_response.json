@@ -1,0 +1,28 @@
+{
+  "id": "1fb94691-3386-4893-bc2d-c3c43d2e0458",
+  "object": "chat.completion",
+  "created": 1784673866,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果礼盒的定制问题，我建议您直接联系佳农官方或授权经销商，因为这类定制政策（如起订量、logo印刷要求、包装设计限制）通常由厂家根据产能和季节动态调整。\n\n**一般行业信息参考（非佳农官方标准）：**\n- **起订量**：常规模具/贴标定制通常在100-500盒/单，高端礼盒或特殊包装可能要求1000盒以上。\n- **定制内容**：通常支持礼盒正面/侧面贴标、腰封定制、或外包装印刷；部分产品可订制手提袋。  \n- **流程**：一般需提供设计稿（AI/PDF格式），厂家审核版权与印刷可行性后确认排期。\n\n**建议您：**\n1. **搜索佳农官网或电商旗舰店**，查找“企业团购”或“定制服务”入口；\n2. **直接拨打佳农客服**（400/官方电话），询问近期团购政策；\n3. 提前准备**预计采购量、包装需求（如logo位置、颜色）、产品规格**，方便对方快速报价。\n\n⚠️ 请注意：水果礼盒受季节（如中秋节、春节）和水果产地影响较大，定制周期建议预留10-20天。如需更具体的价格或方案，需以佳农正式回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 287,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

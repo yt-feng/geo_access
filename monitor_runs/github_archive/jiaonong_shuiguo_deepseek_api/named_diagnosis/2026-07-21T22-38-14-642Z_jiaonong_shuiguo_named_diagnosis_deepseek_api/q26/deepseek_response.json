@@ -1,0 +1,28 @@
+{
+  "id": "0a3f751a-0bdb-4465-b882-0366f4009bc6",
+  "object": "chat.completion",
+  "created": 1784673611,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，这通常取决于具体的销售渠道和业务模式。一般来说，佳农作为大型水果品牌商，主要面向批发商或大型零售商提供标准化产品，有时会根据客户需求提供催熟服务，但针对普通消费者（如个人购买）可能不直接提供此项服务。\n\n建议您：\n1. **联系官方渠道**：拨打佳农水果的官方客服电话或通过其官方微信公众号、官网咨询，直接确认是否支持催熟服务。\n2. **询问购买渠道**：如果您是在电商平台（如京东、天猫）或线下超市购买，可以询问该渠道的客服或店员，有时他们会提供代催熟或到货后自行催熟的指南。\n3. **自行催熟方法**：若无法获得服务，您可以参考简单方法：将香蕉与苹果或梨一起放入纸袋，室温下放置1-3天即可。避免冷藏，否则会停止成熟。\n\n建议优先通过官方渠道获取准确信息，以免影响您的使用安排。如有其他问题，欢迎进一步询问！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 222,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

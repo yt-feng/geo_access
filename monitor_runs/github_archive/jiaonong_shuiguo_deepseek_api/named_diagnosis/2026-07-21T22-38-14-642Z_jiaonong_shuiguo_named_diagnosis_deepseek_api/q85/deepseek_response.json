@@ -1,0 +1,28 @@
+{
+  "id": "822cec1b-e102-4059-aa21-8313b6412b8b",
+  "object": "chat.completion",
+  "created": 1784673922,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内大型水果供应商，通常具备成熟的物流体系和客户服务团队，能提供专车配送和专人对接服务。但具体是否针对餐饮连锁客户提供此类服务，以及是否有起订量、配送范围、合作流程等附加条件，建议您直接联系佳农的官方销售或客服部门进行确认，以获取定制化方案和最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 77,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

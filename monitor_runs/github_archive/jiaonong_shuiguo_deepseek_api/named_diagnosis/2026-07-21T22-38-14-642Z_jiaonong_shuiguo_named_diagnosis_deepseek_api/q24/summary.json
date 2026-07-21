@@ -1,0 +1,50 @@
+{
+  "questionId": "q24",
+  "prompt": "佳农水果有没有参与进博会？最近有什么新品？",
+  "createdAt": "2026-07-21T22:40:01.347Z",
+  "summary": [
+    {
+      "questionId": "q24",
+      "prompt_index": 24,
+      "promptIndex": 24,
+      "promptHash": "4733ae725e74",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有参与进博会？最近有什么新品？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 224,
+      "text_length": 224,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 133,
+        "total_tokens": 185,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 52
+      },
+      "prompt_tokens": 52,
+      "completion_tokens": 133,
+      "total_tokens": 185,
+      "latencyMs": 2502,
+      "latency_ms": 2502,
+      "createdAt": "2026-07-21T22:40:01.347Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q24/prompt.txt",
+        "answer": "q24/deepseek.txt",
+        "response": "q24/deepseek_response.json",
+        "sources": "q24/deepseek_sources.json",
+        "references": "q24/deepseek_references.json"
+      }
+    }
+  ]
+}

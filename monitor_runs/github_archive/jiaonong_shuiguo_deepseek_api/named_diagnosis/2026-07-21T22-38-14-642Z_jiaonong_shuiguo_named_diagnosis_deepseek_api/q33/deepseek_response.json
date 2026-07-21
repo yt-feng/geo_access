@@ -1,0 +1,28 @@
+{
+  "id": "bdf78a40-5387-4705-a8ef-1853896a6839",
+  "object": "chat.completion",
+  "created": 1784673641,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果香蕉的企业标准，我没有具体的文件内容，也无法直接确认其是否高于国家标准（国标）。一般来说，国家标准（如GB/T 23416-2009《香蕉》等）是行业的最低要求，较大规模的品牌企业可能会制定更严格的企业标准，以控制品质、外观、成熟度等环节。\n\n**建议您：**\n1. **查看包装或官方渠道**：可以查看佳农香蕉的包装标签、其官网或客服，有时会公示企业标准编号（如Q/XXXX格式）。\n2. **对比关键指标**：关注国标中规定的成熟度、果指长度、干净度、病虫害等指标，再对比您实际购买产品的品相、口感等。\n3. **直接咨询**：拨打佳农官方热线或通过其电商平台客服询问。\n\n如果需要更准确的比对，建议以佳农官方公示的标准为准。如果您有具体指标想了解（如农药残留标准），我可以帮您分析一般情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 205,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f92fe6e8-cb68-4bdc-b1b7-0d203e46248c",
+  "object": "chat.completion",
+  "created": 1784673933,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果通常支持一件代发，但需具体联系其官方或授权渠道确认。一般流程是：联系业务代表或通过合作平台（如微信小程序、1688等）申请代发权限，需提供营业执照或社区团长资质。\n\n物流成本计算方式（以常见情况为例）：\n- 按重量或体积计费：如首重1公斤内约5-8元，续重每公斤2-4元（具体因地区和快递公司而异）。\n- 偏远地区（如新疆、西藏）可能加价或无法代发。\n- 部分平台有“包邮”政策（如满X元免运费），但需确认。\n\n建议：直接联系佳农官方客服（如电话400-820-xxxx或官网在线咨询），提供你所在城市和预估单量，索取最新代发政策及物流报价表。可要求试用一单测试时效和损耗情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 192,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

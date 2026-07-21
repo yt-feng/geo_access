@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:45:37.571Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果的苹果有没有红富士？我们想采购新疆阿克苏苹果，佳农有吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

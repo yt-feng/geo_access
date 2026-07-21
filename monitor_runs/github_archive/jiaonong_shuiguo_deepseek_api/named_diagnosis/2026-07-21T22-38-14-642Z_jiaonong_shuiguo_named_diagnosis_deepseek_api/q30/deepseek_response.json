@@ -1,0 +1,28 @@
+{
+  "id": "19ad6e3a-b1f8-4d1b-8124-8d910097cf66",
+  "object": "chat.completion",
+  "created": 1784673632,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时获取或验证具体品牌（如“佳农水果”）香蕉的市场抽检数据或合格率。这类信息通常由各地市场监管部门定期公布，且数据会随时间变化。\n\n建议您通过以下渠道查询：\n- 访问**国家市场监督管理总局**或**地方市场监督管理局**官网，查看“食品抽检公告”栏目。\n- 在权威新闻媒体或“食品安全信息公示平台”搜索相关抽检结果。\n- 直接联系佳农水果官方客服，咨询其产品的质量检测报告。\n\n如需进一步帮助，请提供具体查询时间或地区，我可以指导您更精准地搜索。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 131,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

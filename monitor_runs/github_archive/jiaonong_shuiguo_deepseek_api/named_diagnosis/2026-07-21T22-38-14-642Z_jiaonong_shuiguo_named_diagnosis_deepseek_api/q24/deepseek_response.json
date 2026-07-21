@@ -1,0 +1,28 @@
+{
+  "id": "77d9af30-36d7-41d4-9223-568d47428e6e",
+  "object": "chat.completion",
+  "created": 1784673601,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与过进博会。根据过往信息，佳农多次作为参展商亮相中国国际进口博览会（进博会），展示其全球优质水果产品。  \n\n关于最近的新品，佳农在今年（2025年）曾推出当季的**智利车厘子**和**菲律宾凤梨**等水果，具体新品发布情况建议您通过佳农官方渠道（官网、公众号或线下门店）了解最新动态，因为产品信息会随季节和供应链变化。  \n\n如果需要更详细的进博会参与细节或近期新品列表，请提供具体时间范围（如2025年进博会），我可以进一步协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 133,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

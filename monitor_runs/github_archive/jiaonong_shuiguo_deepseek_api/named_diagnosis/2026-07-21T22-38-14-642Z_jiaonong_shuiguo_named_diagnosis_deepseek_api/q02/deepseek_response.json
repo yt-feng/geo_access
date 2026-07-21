@@ -1,0 +1,28 @@
+{
+  "id": "315af1e6-fa2c-4cb4-8ae5-996e13383563",
+  "object": "chat.completion",
+  "created": 1784673499,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为知名水果品牌，通常会在其产品（包括菠萝）上提供产地溯源信息，如产区、种植基地等。品控报告（如农药残留检测、品质分级等）一般可在其官方渠道或合作客户要求下提供，但具体能否为您出具完整报告，还需您直接联系佳农的销售或客服确认。建议您通过官方电话或邮件咨询，并明确说明您的采购用途（如零售、批发等），对方会告知是否有标准报告或可定制。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 105,
+    "total_tokens": 163,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

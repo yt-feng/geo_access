@@ -1,0 +1,28 @@
+{
+  "id": "480cf51a-76ea-4573-a7dc-75819c02be1d",
+  "object": "chat.completion",
+  "created": 1784673563,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的售后服务整体评价较好，通常提供“坏果包赔”服务。如果到货发现有坏果，建议按以下步骤处理：\n\n1. **第一时间拍照**：在签收后24小时内，将坏果与快递单号（或包装箱上的发货单）放在一起拍照。确保照片清晰显示坏果数量、损坏情况以及包装信息。\n\n2. **联系客服**：通过购买平台（如电商平台的订单页面、佳农旗舰店等）或佳农官方售后渠道（如公众号、小程序内的客服）联系售后。说明情况并发送照片。\n\n3. **协商赔付**：客服审核后，通常会按比例赔付（例如坏几个赔几个），或直接退款、补发。部分平台可能支持全额退款。具体处理方式以客服沟通为准。\n\n4. **注意时间限制**：大部分生鲜水果的售后时间窗口为签收后24小时或48小时，建议尽快处理，避免超时导致无法理赔。\n\n建议保留好完整的包装和所有水果（包括好果），以便客服要求核对。整体流程较为规范，处理效率较高。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 233,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

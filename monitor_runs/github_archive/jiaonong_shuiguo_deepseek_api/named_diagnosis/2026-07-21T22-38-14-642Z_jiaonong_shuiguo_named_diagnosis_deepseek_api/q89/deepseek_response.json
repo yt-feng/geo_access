@@ -1,0 +1,28 @@
+{
+  "id": "b5e86f91-84c6-46ff-ba51-5940699fe489",
+  "object": "chat.completion",
+  "created": 1784673937,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品种，目前佳农（Goodfarmer）主要供应的是红富士苹果，但需要说明的是：\n\n1. **红富士品种**：佳农确实有红富士苹果，这是其主要的苹果品类之一。\n2. **新疆阿克苏苹果**：阿克苏苹果通常以“冰糖心”为特色，主要产自新疆阿克苏地区。根据佳农官方公开信息，其苹果产地一般覆盖多个地区，但**目前没有明确资料显示佳农直接销售或主打“新疆阿克苏苹果”**。如果您需要采购新疆阿克苏苹果，建议直接联系佳农的销售团队或查看其最新的产品目录确认是否有该产地产品。\n\n**建议行动**：\n- 直接联系佳农客服或销售代表，询问是否可供应新疆阿克苏苹果。\n- 如果佳农无法提供，可考虑其他专注新疆农产品的供应商（如天山、百果园等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 193,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

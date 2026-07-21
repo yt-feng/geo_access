@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-21T22:44:26.489Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们做礼品团购，需要佳农水果礼盒，能不能定制logo和包装？起订量多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

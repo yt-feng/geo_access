@@ -1,0 +1,28 @@
+{
+  "id": "07065554-8b56-42a0-8afc-35a1f04e262a",
+  "object": "chat.completion",
+  "created": 1784673820,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的ERP系统API接口，目前我没有官方公开的信息可直接提供给您。通常这类接口是为合作伙伴定制的，建议您通过以下方式确认：\n\n1. **直接联系佳农官方**：联系其客户经理或商务团队，询问是否提供ERP对接的API文档或接口规范。\n2. **查看合作协议**：若已有合作，合同中可能包含技术支持章节；若无，可提出对接需求。\n3. **咨询行业经验**：询问同行或生鲜电商技术社群，了解是否有现成的接口方案。\n\n若您需要，我可以帮您梳理一个“对接沟通清单”（如需要哪些字段、数据同步频率、鉴权方式等），方便您与佳农技术团队高效沟通。需要我整理吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 157,
+    "total_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
