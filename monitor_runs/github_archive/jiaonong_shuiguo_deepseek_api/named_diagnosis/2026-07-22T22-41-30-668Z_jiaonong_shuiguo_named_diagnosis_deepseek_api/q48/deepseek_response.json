@@ -1,0 +1,28 @@
+{
+  "id": "fde8ccb0-d531-4735-aaea-d91b1e97f2a7",
+  "object": "chat.completion",
+  "created": 1784760308,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果针对年采购量1000吨以上客户的长期合作优惠政策，这类信息通常属于企业间的商业协议，具体条款（如折扣比例、账期支持、定制服务等）可能因合作时间、市场情况或地区差异而不同。建议您直接联系佳农水果的官方销售团队或客户经理，他们能提供最新、最准确的优惠政策。如果您需要，我可以帮您查找佳农水果的官方联系方式或建议如何高效沟通。请确认是否需要这类协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 105,
+    "total_tokens": 165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

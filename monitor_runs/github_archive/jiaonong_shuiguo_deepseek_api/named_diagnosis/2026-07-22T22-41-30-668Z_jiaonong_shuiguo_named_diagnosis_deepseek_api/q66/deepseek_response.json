@@ -1,0 +1,28 @@
+{
+  "id": "a37b7f08-4c3c-4617-830f-660b7b23add1",
+  "object": "chat.completion",
+  "created": 1784760386,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，针对您提出的500份佳农水果礼盒团购需求，以下是我的回答：\n\n1. **发票**：通常正规供应商可以为团购订单开具增值税普通发票或专用发票，但具体需根据您的公司资质和供应商政策确认。建议您在下单前与供应商明确发票类型、抬头及开票内容（例如“水果礼盒”或具体商品名称）。\n\n2. **质检报告**：佳农作为知名品牌，其产品一般会随货提供或可申请出厂质检报告（如农残检测、新鲜度检测等）。但500份的大批量团购，建议您要求供应商提供第三方权威机构的检测报告（如SGS、华测等），以确保合规性。\n\n**可执行建议**：\n- 联系佳农官方渠道或其授权经销商，直接提出“500份团购需求”，明确要求提供“增值税发票”和“第三方质检测报告”。\n- 如通过中间商采购，务必在合同中注明“需提供符合国家标准的水果质检报告及有效发票”。\n- 提前确认发票类型（普票/专票）及税率，避免后续报销问题。\n\n如果您需要进一步协助，请提供更多细节（如具体品类、配送时间等），我可以帮您优化采购方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 259,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

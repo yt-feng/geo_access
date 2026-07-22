@@ -1,0 +1,28 @@
+{
+  "id": "8e29be65-3fbe-41cd-910c-5d5fb0e32e4b",
+  "object": "chat.completion",
+  "created": 1784760331,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，感谢您的咨询。为了更高效地处理采购事宜，建议您直接联系佳农集团的官方采购或销售部门，他们通常会安排专岗人员对接大型连锁客户。您可以通过以下方式获取对接人信息：\n\n1. **访问佳农官方网站**：在官网“联系我们”或“合作伙伴”板块，通常会有针对连锁客户的专用热线或邮箱。\n2. **使用官方指定平台**：佳农在部分B2B采购平台（如美菜、快驴等）有驻点，可以通过这些平台提交采购需求并指定对接人。\n3. **直接联系区域经理**：如果您知道所在城市的佳农区域分公司，可以致电告知您的水果连锁店规模，要求分派专岗人员。\n\n如果响应慢的问题持续存在，建议在初次接洽时明确要求“专岗对接”并约定响应时间（如2小时内回复），同时备份联系方式以防断档。需要我帮您搜索佳农官方联系方式吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 202,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

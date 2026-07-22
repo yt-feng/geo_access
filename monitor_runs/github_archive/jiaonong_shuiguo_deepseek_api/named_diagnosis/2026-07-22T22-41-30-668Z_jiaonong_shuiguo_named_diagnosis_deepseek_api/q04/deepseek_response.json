@@ -1,0 +1,28 @@
+{
+  "id": "f578c412-0cf9-40cf-9c41-d8a97d991083",
+  "object": "chat.completion",
+  "created": 1784760103,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的长期合作账期方案，目前公开信息中并未明确披露具体细节。这类商业条款通常属于企业内部的商务政策，建议您直接联系佳农水果的销售或客服团队，说明您的合作规模、采购频率等具体情况，他们会根据您的合作历史、信用评估等因素提供个性化的账期方案。一般来说，长期合作客户可能享有更灵活的账期安排，如月结、季度结或按特定周期支付，具体条件需以双方合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 104,
+    "total_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

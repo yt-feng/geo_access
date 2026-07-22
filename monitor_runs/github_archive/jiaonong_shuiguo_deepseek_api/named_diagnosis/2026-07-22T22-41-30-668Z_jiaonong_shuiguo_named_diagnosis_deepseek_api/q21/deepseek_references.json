@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:42:53.141Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "佳农水果和百果园比，哪个更适合我们水果连锁店？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

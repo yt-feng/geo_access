@@ -1,0 +1,50 @@
+{
+  "questionId": "q31",
+  "prompt": "佳农水果有没有针对礼品团购的水果礼盒？",
+  "createdAt": "2026-07-22T22:43:42.335Z",
+  "summary": [
+    {
+      "questionId": "q31",
+      "prompt_index": 31,
+      "promptIndex": 31,
+      "promptHash": "2ea3c549aaf7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对礼品团购的水果礼盒？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 112,
+      "text_length": 112,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 73,
+        "total_tokens": 125,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 52
+      },
+      "prompt_tokens": 52,
+      "completion_tokens": 73,
+      "total_tokens": 125,
+      "latencyMs": 1613,
+      "latency_ms": 1613,
+      "createdAt": "2026-07-22T22:43:42.335Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q31/prompt.txt",
+        "answer": "q31/deepseek.txt",
+        "response": "q31/deepseek_response.json",
+        "sources": "q31/deepseek_sources.json",
+        "references": "q31/deepseek_references.json"
+      }
+    }
+  ]
+}

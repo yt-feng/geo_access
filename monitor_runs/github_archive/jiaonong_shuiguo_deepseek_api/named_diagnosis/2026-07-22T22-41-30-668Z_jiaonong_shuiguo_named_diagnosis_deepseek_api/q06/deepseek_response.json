@@ -1,0 +1,28 @@
+{
+  "id": "c83c25ca-a169-43a1-a1bc-4802164054e5",
+  "object": "chat.completion",
+  "created": 1784760110,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以的。佳农作为大型水果供应商，通常提供的是比较标准化的菠萝规格。对于普通茶饮店来说，他们常见的规格是：\n\n- **单果重量**：约1.2-1.8公斤/个（中果）\n- **糖度**：一般13-15度（适合做饮品，不会太酸）\n- **成熟度**：通常供应七八成熟的果，便于运输和存放，到店后需要催熟1-2天再使用\n- **包装形式**：一般是纸箱装，每箱10-12个左右\n\n如果你想大量长期采购，可以联系佳农的区域销售或经销商，说明是做茶饮的，他们通常会提供稳定的供应计划，比如每周或每月固定配送。建议先要样品试做，确认口感符合你的配方需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 169,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

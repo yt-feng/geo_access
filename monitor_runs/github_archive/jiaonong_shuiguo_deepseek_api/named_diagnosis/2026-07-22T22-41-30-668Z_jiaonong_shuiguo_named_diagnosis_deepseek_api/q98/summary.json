@@ -1,0 +1,50 @@
+{
+  "questionId": "q98",
+  "prompt": "我们便利店想卖佳农香蕉，但担心损耗，你们有没有到货损耗率承诺？比如超过3%包赔？",
+  "createdAt": "2026-07-22T22:49:22.646Z",
+  "summary": [
+    {
+      "questionId": "q98",
+      "prompt_index": 98,
+      "promptIndex": 98,
+      "promptHash": "fdec2d8d9502",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们便利店想卖佳农香蕉，但担心损耗，你们有没有到货损耗率承诺？比如超过3%包赔？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 301,
+      "text_length": 301,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 67,
+        "completion_tokens": 180,
+        "total_tokens": 247,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 67
+      },
+      "prompt_tokens": 67,
+      "completion_tokens": 180,
+      "total_tokens": 247,
+      "latencyMs": 3209,
+      "latency_ms": 3209,
+      "createdAt": "2026-07-22T22:49:22.646Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q98/prompt.txt",
+        "answer": "q98/deepseek.txt",
+        "response": "q98/deepseek_response.json",
+        "sources": "q98/deepseek_sources.json",
+        "references": "q98/deepseek_references.json"
+      }
+    }
+  ]
+}

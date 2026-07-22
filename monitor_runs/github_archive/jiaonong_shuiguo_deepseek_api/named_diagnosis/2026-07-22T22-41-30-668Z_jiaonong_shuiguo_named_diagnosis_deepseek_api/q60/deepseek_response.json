@@ -1,0 +1,28 @@
+{
+  "id": "cf7942e7-da0e-4431-91bb-fb8e8d69fe2f",
+  "object": "chat.completion",
+  "created": 1784760359,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！我暂时无法核实佳农品牌目前是否专门生产针对便利店的小包装单根香蕉。建议您直接联系佳农的销售团队或访问其官网，查询是否有单根独立包装的产品。同时，您也可以咨询本地的水果批发市场或供应商，看看有没有类似规格的香蕉可供采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 65,
+    "total_tokens": 123,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

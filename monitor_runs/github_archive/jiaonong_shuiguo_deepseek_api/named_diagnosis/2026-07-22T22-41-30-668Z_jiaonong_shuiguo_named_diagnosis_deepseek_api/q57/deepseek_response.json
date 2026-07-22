@@ -1,0 +1,28 @@
+{
+  "id": "27a5b040-1cd1-4f79-863b-d3ff54fd8a9a",
+  "object": "chat.completion",
+  "created": 1784760348,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的到货损耗率通常能控制在**3%以下**，优于行业平均（5%）。具体的赔付条款需根据合同确定，一般包括：  \n- **损耗超3%**：部分合同会约定按超出比例进行折扣赔付或换货。  \n- **严重损耗**（如腐烂率超10%）：可能触发全额赔付或补发。  \n建议直接查看与佳农签订的采购合同或与销售沟通确认具体条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 97,
+    "total_tokens": 159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

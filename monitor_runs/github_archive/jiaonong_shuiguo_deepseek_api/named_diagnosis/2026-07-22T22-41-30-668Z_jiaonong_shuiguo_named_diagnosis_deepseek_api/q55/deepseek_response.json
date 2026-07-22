@@ -1,0 +1,28 @@
+{
+  "id": "b0b36f80-826b-4c4e-aff8-3c607df9c62f",
+  "object": "chat.completion",
+  "created": 1784760340,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有锁价3个月的价格保护机制，我目前无法直接核实到佳农公司具体的商业政策，因为这类信息通常属于企业内部条款或与客户签订的协议内容，未公开披露。\n\n建议您：\n- **直接联系佳农官方客服**：拨打官方客服电话或通过其官网、微信公众号咨询，确认是否提供锁价服务及具体条件。\n- **查看与供应商的合同条款**：如果您是采购方或合作商，可查阅已签署的协议中是否有价格保护或锁价条款。\n- **参考行业惯例**：在水果批发或大宗交易中，部分供应商会提供短期锁价（如1-3个月），但通常受市场行情、订单量等因素限制。\n\n如需更具体的帮助，您可以告诉我您的角色（如消费者、经销商等），我可以提供进一步建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 175,
+    "total_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

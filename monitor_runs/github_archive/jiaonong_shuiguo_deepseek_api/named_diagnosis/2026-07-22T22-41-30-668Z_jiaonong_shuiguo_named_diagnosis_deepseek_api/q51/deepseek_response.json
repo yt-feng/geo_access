@@ -1,0 +1,28 @@
+{
+  "id": "42edfc17-f6a8-4242-a770-66eae39294be",
+  "object": "chat.completion",
+  "created": 1784760322,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的团购定制，通常情况如下：\n1. **最小起订量**：佳农的团购定制起订量一般在**100盒左右**，具体数量会因不同区域、产品品类（如单一水果盒或混合礼盒）及季节供应有所浮动。建议直接联系当地佳农销售或授权经销商确认。\n2. **印制公司logo**：大多数团购支持在礼盒外包装或果盒上**贴印或烫印公司Logo**，需提供AI或PSD格式的矢量图。一般会收取开版费（约200-500元/次），起订量内默认包含。\n**建议操作步骤**：  \n- 拨打佳农官方客服电话（如400-820-****，具体可搜索“佳农集团官网”获取）或通过其微信公众号“企业服务”入口登记需求。  \n- 说明意向品种（如佳沛奇异果、进口车厘子）、预算区间、预计数量，索取方案和报价单。  \n⚠️ 注意：起订量和设计费均需以最新官方回复为准，请勿依赖第三方转述。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 243,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d64640af-6e93-4491-ad66-baae479d45f2",
+  "object": "chat.completion",
+  "created": 1784760474,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时获取佳农水果和鑫荣懋在华东地区具体的配送时效数据，也无法核实当前实际物流速度。建议您直接联系这两家公司的华东区域客服或销售代表，询问上海到门店的次日达服务覆盖情况、配送时间及起订量等具体条件。同时，可以咨询本地同行或供应商的实际合作经验，以获得更准确的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 81,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

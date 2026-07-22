@@ -1,0 +1,28 @@
+{
+  "id": "6d99be5a-40d9-4e8b-ae84-8098d9b8e98f",
+  "object": "chat.completion",
+  "created": 1784760523,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客户服务时间，通常并非7x24小时，一般工作时间为每日8:00-20:00左右，但具体可能因平台或店铺而异。晚上下单后，如果是在截单时间（例如下午16:00或18:00）之前，通常会在当天或次日上午处理；若在截单后下单，则一般会在第二个工作日安排发货。建议您查看具体购买平台（如天猫、京东、佳农官网等）的店铺公告或咨询在线客服，确认准确的截单时间和发货规则。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 116,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

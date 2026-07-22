@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:49:30.291Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们餐饮连锁需要香蕉切片，佳农能不能提供加工好的香蕉片？规格多少？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

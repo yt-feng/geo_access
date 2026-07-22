@@ -1,0 +1,28 @@
+{
+  "id": "a5a40882-d6fe-4a0b-8777-f5512f7c69bc",
+  "object": "chat.completion",
+  "created": 1784760219,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内知名的水果品牌，其香蕉产品通常会遵循国家食品安全标准进行生产和质检。根据公开的食品安全监测信息，大型品牌在抽检中的合格率通常较高，但这需要以具体年份、地区和监管部门发布的报告为准。如果你需要最新、最准确的数据，建议通过以下途径查询：\n\n1. 访问国家市场监督管理总局官网，查看“食品安全抽检公布结果”专栏。\n2. 查询当地市场监管局发布的月度或季度抽检公告。\n3. 关注佳农官方渠道发布的质检信息。\n\n由于我无法实时获取特定品牌的历史抽检记录，以上建议可帮助你获取精确的官方数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 133,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

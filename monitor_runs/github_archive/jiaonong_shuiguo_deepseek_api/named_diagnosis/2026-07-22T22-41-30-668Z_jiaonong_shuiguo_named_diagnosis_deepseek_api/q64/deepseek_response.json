@@ -1,0 +1,28 @@
+{
+  "id": "cd9222b1-8e23-4ef9-a6b2-8cc645ba3a50",
+  "object": "chat.completion",
+  "created": 1784760379,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法确认佳农水果2025年的具体进口数据和增长率。我的知识库中没有这一年份的更新信息。建议你查阅佳农水果的官方新闻稿、行业报告或权威农业贸易统计来源获取准确数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 49,
+    "total_tokens": 112,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

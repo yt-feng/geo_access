@@ -1,0 +1,28 @@
+{
+  "id": "48403358-3773-4e8e-9426-0ef2a5f09de5",
+  "object": "chat.completion",
+  "created": 1784760234,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法提供佳农水果配送中心的具体数量和覆盖范围，因为这类信息会随着业务调整而动态变化，我无法实时核验最新数据。建议您直接联系佳农水果官方客服或访问其官网、查询最新配送网络信息。一般来说，大型水果企业的配送中心主要覆盖一二线城市及部分经济发达的三线城市，但具体到您所在的三线城市是否覆盖，需要您通过以下方式确认：①查看佳农官网或官方App的配送范围说明；②联系当地大型超市或水果店，询问他们的佳农水果进货渠道；③拨打官方客服电话咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 126,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

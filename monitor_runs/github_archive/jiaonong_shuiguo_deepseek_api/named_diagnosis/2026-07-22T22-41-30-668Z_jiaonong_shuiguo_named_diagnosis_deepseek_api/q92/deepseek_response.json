@@ -1,0 +1,28 @@
+{
+  "id": "6dc0669b-8100-4304-97aa-c7ef56972062",
+  "object": "chat.completion",
+  "created": 1784760526,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的堆头陈列和试吃支持，通常需要根据具体合作渠道（如大型连锁超市、区域商超）和促销规模来确定政策。一般情况是：\n\n1. **堆头陈列**：佳农品牌商通常会提供标准化的堆头物料（如陈列架、海报等），部分费用可能由供应商（佳农或其经销商）承担，但商超可能需要提供位置或分担部分租金。建议与佳农的当地销售团队或经销商对接，明确是否属于联合促销（费用分摊）。\n\n2. **试吃支持**：多数品牌方愿意提供试吃产品（如切好的水果样品），但人员、试吃台等细节需协商。可能有免费支持或要求商超承担人工成本（如临时促销员工资）。\n\n**建议行动**：\n- 直接联系佳农官方客服或您所在区域的经销商，说明商超类型（普通/会员店等）、促销周期（如周末/节日）、预计销量。\n- 常见费用分担模式：品牌方提供物料和产品，商超承担场地和人力；或双方按比例分摊总费用（如6:4）。\n\n最终以合同或协议为准。若您是采购方，可强调“长期合作”或“首单测试”争取更多支持。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 267,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

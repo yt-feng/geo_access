@@ -1,0 +1,28 @@
+{
+  "id": "9e58cdd7-bca2-4cab-92fc-a4679302549d",
+  "object": "chat.completion",
+  "created": 1784760287,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，理解您作为采购方对合规证明的关注。针对您关于佳农香蕉农残超标历史的具体问题，我的知识库中没有相关官方通报或公开可查的明确记录，因此无法直接给出“有”或“没有”的确切结论。为满足超市抽检合规要求，建议您采取以下步骤获取最权威的证明：\n\n1. **直接联系佳农官方**：要求其提供批次对应的**第三方检测报告**，报告中应明确列出农残（如嘧菌酯、吡虫啉等常规项）的检测结果及是否合格。正规供应商通常会有此类报告。\n2. **核查官方监管信息**：建议您通过**国家市场监督管理总局**或**农业农村部**官网的“食品安全抽检”栏目、或“国家企业信用信息公示系统”，查询近年佳农相关的抽检通报记录。\n3. **签订合同明确条款**：在采购合同中明确约定“必须提供符合国标GB 2763的农残检测合格报告”，并注明如抽检不合格的违约责任与退换货条款。\n\n作为AI，我无法替代官方检测或核实具体批次数据。直接向供应商索要合规文件是当前最可靠、最快捷的解决方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 257,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

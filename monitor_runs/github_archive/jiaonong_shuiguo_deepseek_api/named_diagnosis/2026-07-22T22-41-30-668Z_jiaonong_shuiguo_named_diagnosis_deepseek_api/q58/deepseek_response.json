@@ -1,0 +1,28 @@
+{
+  "id": "0d41da1e-09ab-40ec-a2eb-98e1c5127777",
+  "object": "chat.completion",
+  "created": 1784760351,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您可以直接咨询佳农官方渠道获取最新业务信息。根据现有的公开信息，佳农的主要业务是水果贸易和生鲜供应链，其产品线以整果（如整颗菠萝）为主，通常不直接提供工业化的小包装菠萝丁加工服务。如果您的茶饮店需要标准化、开袋即用的菠萝丁原料，建议优先查看以下替代方案：\n\n1. **专业冷冻水果加工商**：如沪上阿姨、喜茶等茶饮品牌的供应商列表中，常有专业加工冷冻菠萝丁的企业，如青岛康大、广东金利等。\n2. **大型批发市场**：寻找已经过清洗、切块的成品菠萝丁冷冻包装。\n3. **本地代加工合作**：联系本地食品加工厂，将佳农整果委托其切块、速冻处理。\n\n**建议**：直接致电佳农官方客服（400-821-3876），明确询问“是否有B2B的菠萝丁加工产品”或能否提供定制化服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 209,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "54753131-bac7-4160-99f1-45bce4835d6b",
+  "object": "chat.completion",
+  "created": 1784760292,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的账期政策，作为AI助手，我无法获取其内部具体的商业合作条款，因此不能提供确切的账期天数或新客户首单能否申请30天账期的准确信息。\n\n**建议您：**\n1. **直接联系佳农水果的销售或客户服务部门**，他们能根据您的企业资质、合作规模、历史交易记录等给出最准确的账期方案。\n2. **明确您的需求**：如果您是经销商或大批量采购方，通常账期与采购量、信用评估挂钩。新客户首单申请较长账期（如30天）可能需要提供营业执照、财务报表等资质证明，并接受信用审核。\n\n如果您有佳农的官方联系方式，可以查找其官网或商家合作页面获取具体对接信息。请以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 171,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

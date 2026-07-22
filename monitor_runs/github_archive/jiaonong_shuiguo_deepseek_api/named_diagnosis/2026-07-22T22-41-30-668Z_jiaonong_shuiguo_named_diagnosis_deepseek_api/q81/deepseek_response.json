@@ -1,0 +1,28 @@
+{
+  "id": "44cae786-e723-4291-bec0-a77a6ca78007",
+  "object": "chat.completion",
+  "created": 1784760470,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对小面积便利店，佳农确实有推出小包装规格。目前佳农常见的香蕉包装有约**1.5kg**和**2.5kg**的密封袋装或礼盒装，以满足不同门店需求。**3kg装香蕉**目前不是佳农主推的小店包装，但您可以直接联系当地佳农经销商或通过其官方渠道确认是否有少量试销的定制包装。\n\n建议您优先尝试**1.5kg**或**2.5kg**规格，这类包装既减少库存压力，也适合门店陈列。望采纳！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 123,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

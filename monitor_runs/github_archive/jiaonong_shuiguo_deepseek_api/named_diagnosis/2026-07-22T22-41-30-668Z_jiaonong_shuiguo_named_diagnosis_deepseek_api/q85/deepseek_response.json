@@ -1,0 +1,28 @@
+{
+  "id": "dcf62188-c45a-4294-8caf-7a911a747e9e",
+  "object": "chat.completion",
+  "created": 1784760493,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否能为贵连锁餐饮提供“专车配送”和“专人对接”服务，建议您直接联系其官方业务团队获取最准确的答复。\n\n**可执行建议：**\n1. **查找联系方式**：访问佳农官网（如佳农食品集团）或关注其官方公众号，通常会有“大客户合作”或“B2B业务”入口，可找到华东、华南等区域销售电话。\n2. **明确需求**：打电话时直接说明“连锁餐饮门店数量、日均需求吨数、配送频次（如每日/每周）、门店分布城市”，询问能否安排**专属配送车队**（专车）和**一对一客户经理**（专人）。\n3. **备选方案**：若佳农无法满足，可同时咨询其他头部香蕉供应商（如都乐、鑫荣懋、百果园B端），对比服务条款。\n\n⚠️ 注意：专车配送通常要求订单量大、周期稳定，中小体量客户可能需拼车。建议提前沟通好冷链运输、到货验收标准等细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 227,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

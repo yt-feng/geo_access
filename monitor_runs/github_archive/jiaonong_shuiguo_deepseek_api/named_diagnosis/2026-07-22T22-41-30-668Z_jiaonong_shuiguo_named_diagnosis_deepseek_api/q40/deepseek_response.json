@@ -1,0 +1,28 @@
+{
+  "id": "bac61b4f-47df-4116-93f3-39995d29f7d4",
+  "object": "chat.completion",
+  "created": 1784760262,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对餐饮渠道的菠萝解决方案。他们提供定制化的菠萝产品，例如：\n- 新鲜菠萝：整果或去皮切块，适合餐厅、酒店、甜品店等直接使用。\n- 冷冻菠萝：可用于饮品、烘焙或快餐行业，保持风味且便于储存。\n- 菠萝果酱/浓缩液：适用于餐饮连锁调饮或酱料制作。\n- 定制化服务：根据餐饮客户需求调整熟度、包装规格或配送频次。\n\n建议直接联系佳农的餐饮业务部门或访问其官网，获取最准确的合作方案和报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 124,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

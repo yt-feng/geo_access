@@ -1,0 +1,50 @@
+{
+  "questionId": "q93",
+  "prompt": "佳农水果的香蕉和都乐比，口感上有什么区别？我们消费者反馈佳农的更甜。",
+  "createdAt": "2026-07-22T22:48:52.011Z",
+  "summary": [
+    {
+      "questionId": "q93",
+      "prompt_index": 93,
+      "promptIndex": 93,
+      "promptHash": "1013790b0f6f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉和都乐比，口感上有什么区别？我们消费者反馈佳农的更甜。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1028,
+      "text_length": 1028,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 655,
+        "total_tokens": 717,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 655,
+      "total_tokens": 717,
+      "latencyMs": 9913,
+      "latency_ms": 9913,
+      "createdAt": "2026-07-22T22:48:52.011Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q93/prompt.txt",
+        "answer": "q93/deepseek.txt",
+        "response": "q93/deepseek_response.json",
+        "sources": "q93/deepseek_sources.json",
+        "references": "q93/deepseek_references.json"
+      }
+    }
+  ]
+}

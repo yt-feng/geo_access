@@ -1,0 +1,28 @@
+{
+  "id": "1d04fb8a-4fbd-4730-8d94-a271d3e4fa8b",
+  "object": "chat.completion",
+  "created": 1784760514,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的产品信息，我目前无法直接查询其具体品种库存或采购目录，因为这类信息需要实时查询官方渠道或授权经销商。建议您通过以下方式确认：\n\n1. **官方渠道**：访问佳农水果的官方网站或联系其客服热线，直接询问是否有新疆阿克苏苹果（红富士属于富士系，阿克苏通常以“阿克苏苹果”为主，部分为红富士品种）。\n2. **电商平台**：在京东、天猫等平台的佳农官方旗舰店搜索“阿克苏苹果”或“红富士”，查看商品详情页。\n3. **采购对接**：如果您是批量采购，可联系佳农的销售团队，说明需求（如新疆阿克苏苹果的具体规格、产地要求等）。\n\n请注意：佳农产品线较广，但并非所有地区或季节都供应阿克苏苹果。建议直接核实，避免误判。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 188,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

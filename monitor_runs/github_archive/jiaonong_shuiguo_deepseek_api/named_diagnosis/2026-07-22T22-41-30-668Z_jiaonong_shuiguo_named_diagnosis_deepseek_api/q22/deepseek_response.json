@@ -1,0 +1,28 @@
+{
+  "id": "3925f2f0-4589-469f-bbc5-a3e262139d5d",
+  "object": "chat.completion",
+  "created": 1784760179,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类整体表现良好，以高品质、口感稳定和品控严格著称。其主要特点包括：\n\n1. **国内苹果**：佳农主推国内优质产区（如陕西、山东、新疆）的苹果，常见品种有红富士、嘎啦等，注重甜度、脆度和外观一致性，适合日常家庭食用。\n2. **进口苹果**：佳农有进口苹果业务，主要来自**新西兰**（如皇家嘎啦、爱妃、爵士苹果）和**美国**（如华盛顿蛇果、红地厘蛇果）。进口苹果通常果径更大、色泽明亮、耐储存，价格偏高，适合送礼或追求特定风味的消费者。\n3. **品质优势**：佳农对供应链管理较严格，苹果通常经过分选、冷藏处理，减少碰伤和腐烂风险。尤其是进口产品，会标注原产地和品种信息。\n\n**建议**：如果您偏好脆甜、多汁的苹果，可优先尝试佳农的国产红富士；若对风味有更高要求（如特殊香气、更高甜度），可选新西兰爱妃或美国蛇果。购买时注意查看包装上的产地和采摘日期，进口苹果建议通过大型商超或官方渠道购买，避免买到旧货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 265,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

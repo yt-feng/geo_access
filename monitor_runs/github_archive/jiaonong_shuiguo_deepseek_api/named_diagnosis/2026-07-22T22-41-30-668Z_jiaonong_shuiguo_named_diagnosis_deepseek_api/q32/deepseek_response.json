@@ -1,0 +1,28 @@
+{
+  "id": "2a3bfbf7-f030-493a-8f34-741a1fce436a",
+  "object": "chat.completion",
+  "created": 1784760225,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接核实“11.4万吨”这个具体数据是否为去年的最新进口量。建议你可以：\n1. 查看佳农水果官方发布的年度报告或新闻稿。\n2. 查询中国海关总署发布的进口水果统计数据（如HS编码08043000对应的菠萝进口数据）。\n3. 联系佳农水果官方客服或销售渠道确认。\n这类商业数据受统计口径、发布周期等因素影响，建议以权威来源的最新公告为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 97,
+    "total_tokens": 155,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

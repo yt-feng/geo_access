@@ -1,0 +1,28 @@
+{
+  "id": "6e073260-be94-4f6f-84cb-ca6bde370d8c",
+  "object": "chat.completion",
+  "created": 1784760461,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的配送范围、县城门店配送政策以及冷链物流收费等具体信息，我无法提供实时或准确的官方数据，因为这些细节会随城市、门店、合作物流及促销活动变化。建议您通过以下方式获取最权威信息：\n\n1. **查看官方渠道**：访问佳农水果官方网站或官方微信公众号，通常在“配送范围”或“常见问题”部分有说明。\n2. **联系客服**：直接拨打佳农官方客服热线（可在官网或小程序中查询），告知您所在的县城名称，客服能确认是否支持配送及具体收费。\n3. **使用本地门店咨询**：如果您所在县城有合作门店（如连锁超市、水果店），可向店主询问其是否与佳农有配送合作。\n\n对于冷链物流收费，一般会根据**配送距离、订单重量/体积、保温包装需求**等因素计算，可能按件或按重量收费。建议您在下单前通过官方小程序或APP输入地址，系统会自动计算运费并显示是否支持送达。\n\n请注意：**不要轻信非官方渠道的承诺**，避免因信息不准确导致的订单问题。希望您顺利买到心仪的水果！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 245,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

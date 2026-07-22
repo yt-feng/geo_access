@@ -1,0 +1,28 @@
+{
+  "id": "17751708-9b54-4f67-b520-390980325753",
+  "object": "chat.completion",
+  "created": 1784760311,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法提供佳农水果最新的配送中心具体城市名单和下沉市场县城的次日达服务情况。这类信息属于具体企业的运营细节，建议您通过以下方式获取准确信息：\n\n1. **联系官方客服**：拨打佳农水果官方客服电话或通过其官网/官方小程序在线咨询。\n2. **查看官方渠道**：关注佳农水果官网、官方App或微信公众号上的“配送范围”或“服务区域”说明。\n3. **直接下单测试**：在下单页面输入您所在的县城地址，系统会显示是否支持配送以及预计送达时间。\n\n通常，佳农水果主要在一二线城市及部分经济较发达的地级市设有配送中心。对于下沉市场县城，能否次日达取决于当地是否有合作物流网点及基础设施条件，建议以官方实际查询结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 172,
+    "total_tokens": 231,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
