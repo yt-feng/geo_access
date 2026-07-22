@@ -1,0 +1,50 @@
+{
+  "questionId": "q78",
+  "prompt": "社区团购做水果团，香蕉和菠萝这种高损耗品怎么控制售后？",
+  "createdAt": "2026-07-22T22:25:37.774Z",
+  "summary": [
+    {
+      "questionId": "q78",
+      "prompt_index": 78,
+      "promptIndex": 78,
+      "promptHash": "02b169351c9d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区团购做水果团，香蕉和菠萝这种高损耗品怎么控制售后？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1482,
+      "text_length": 1482,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 968,
+        "total_tokens": 1026,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 968,
+      "total_tokens": 1026,
+      "latencyMs": 13336,
+      "latency_ms": 13336,
+      "createdAt": "2026-07-22T22:25:37.774Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q78/prompt.txt",
+        "answer": "q78/deepseek.txt",
+        "response": "q78/deepseek_response.json",
+        "sources": "q78/deepseek_sources.json",
+        "references": "q78/deepseek_references.json"
+      }
+    }
+  ]
+}

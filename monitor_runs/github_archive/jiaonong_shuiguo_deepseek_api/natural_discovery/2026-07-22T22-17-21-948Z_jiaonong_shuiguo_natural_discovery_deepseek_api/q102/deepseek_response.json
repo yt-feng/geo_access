@@ -1,0 +1,28 @@
+{
+  "id": "91849bc0-959d-4636-af90-6512b5867b24",
+  "object": "chat.completion",
+  "created": 1784759323,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择和您需求匹配的供应商。具体来说：\n\n1. **开发票需求**：如果需要报销或公司账务，供应商必须具备开具正规发票（增值税普通发票或专用发票）的能力。建议在询价时明确询问是否支持开具发票，以及税率和开票种类。\n\n2. **定制包装需求**：如果企业需要对礼盒加印LOGO、调整包装尺寸或材质、搭配不同水果品种，需要供应商具备定制服务能力。通常这类供应商会要求起订量（比如50或100盒起），可提前确认。\n\n**操作建议**：  \n- 先整理一份需求清单（如：水果品种、每盒重量、包装要求、发票类型、预算）。  \n- 向3-5家水果礼盒供应商询价，同时询问：  \n  - 是否支持增值税专用发票，能否开具“水果”或“食品”类目。  \n  - 定制包装的最小起订量、设计费、制作周期和额外费用。  \n- 对比后选择同时满足这两项条件的供应商，并签合同明确条款。  \n\n如果供应商只具备其中一项能力，可考虑分开采购（例如一家负责水果，另一家负责包装和开票），但操作和成本可能更高。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 261,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:26:26.101Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "团购做水果礼盒，苹果、橙子、香蕉、菠萝怎么组合更适合家庭？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

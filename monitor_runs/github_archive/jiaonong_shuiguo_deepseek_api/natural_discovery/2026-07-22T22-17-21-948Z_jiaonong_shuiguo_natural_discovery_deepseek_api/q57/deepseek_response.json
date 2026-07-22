@@ -1,0 +1,28 @@
+{
+  "id": "6cda1b5a-fdad-4002-bfae-1f80a4d02846",
+  "object": "chat.completion",
+  "created": 1784759004,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "中央厨房统一收货通常更适合餐饮连锁，主要优势包括：质量控制更一致（可统一验收标准）、降低采购成本（批量议价）、减少门店管理负担（避免收货纠纷）。建议在以下场景优先选择中央厨房模式：\n\n1. 水果易损耗（如草莓、蓝莓），需快速分拣加工\n2. 连锁门店超过20家，且配送半径在2小时内\n3. 有标准化切割、包装需求（如水果拼盘）\n\n若门店距离分散或水果成熟度差异大（如榴莲），可考虑门店单独收货，但要严格控制每日采购量。建议以中央厨房为主，对特殊品类（如鲜切菠萝、本地时令水果）采用门店直采补充。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 152,
+    "total_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

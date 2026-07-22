@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:21:14.017Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "大型超市水果供应商必须有哪些食品安全和物流能力？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "678c54f3-fee8-463c-8edf-db4c19784842",
+  "object": "chat.completion",
+  "created": 1784758782,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "向供应商索要以下资料可以提前规避农残风险：\n\n1. **第三方检测报告**：要求提供近期（如3个月内）由具备CMA或CNAS资质的机构出具的农残检测报告，重点关注是否符合GB 2763（食品安全国家标准 食品中农药最大残留限量）。\n2. **产地证明/产地合格证明**：证明水果具体产地，便于追溯，尤其是高风险品种（如草莓、葡萄、韭菜等）。\n3. **供应商资质文件**：营业执照、食品经营许可证等，确认其合法经营资质。\n4. **产品追溯信息**：如为规模化基地，可要求提供种植基地备案编号、使用农药记录清单（包括用药日期、农药名称、安全间隔期）。\n5. **承诺书/质量保证函**：供应商对所供水果符合国家农残标准做出书面承诺。\n\n**建议操作**：  \n- 每批次收货时随机抽查，对高风险水果（如叶菜类、草莓、葡萄）要求每批提供检测报告。  \n- 若用量大或长期合作，可自行进行快速检测（如胶体金法农残试纸），或送至第三方实验室抽检。  \n- 注意：检测报告需与实物批次对应，避免虚假凭证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 259,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f2f848b0-1fb1-4318-ba99-67b8d4e8fa6a",
+  "object": "chat.completion",
+  "created": 1784758814,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市与水果供应商的账期谈判中，常见的天数范围主要取决于超市的规模、水果的品类以及双方的合作历史。一般来说：\n\n- **大型连锁超市**：账期通常较长，常见为 **30天至60天**，部分甚至可达90天。这是因为大超市议价能力强，资金周转压力大。\n- **中小型超市或社区店**：账期通常较短，常见为 **7天至30天**，尤其是对易腐烂的水果（如草莓、葡萄），可能要求现结或7天内结算。\n- **进口或精品水果**：因成本高、货值大，账期可能偏短（15-30天），或需预付部分定金。\n\n**建议**：\n- 如果你是供应商，可争取 **15-30天** 作为平衡资金和风险的起步方案，并考虑对易腐品设置更短账期。\n- 如果你是超市，可从 **30天** 开始谈判，但需注意水果的保质期和供应商的现金流承受力。\n- 最终账期应写入合同，并明确违约金条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 229,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

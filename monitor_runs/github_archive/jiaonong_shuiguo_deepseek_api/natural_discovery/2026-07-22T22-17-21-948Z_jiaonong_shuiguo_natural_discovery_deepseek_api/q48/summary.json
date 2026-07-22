@@ -1,0 +1,50 @@
+{
+  "questionId": "q48",
+  "prompt": "茶饮连锁采购菠萝，怎么判断供应商能不能稳定按规格送货？",
+  "createdAt": "2026-07-22T22:22:30.389Z",
+  "summary": [
+    {
+      "questionId": "q48",
+      "prompt_index": 48,
+      "promptIndex": 48,
+      "promptHash": "11c0be050fd6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮连锁采购菠萝，怎么判断供应商能不能稳定按规格送货？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 831,
+      "text_length": 831,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 500,
+        "total_tokens": 555,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 500,
+      "total_tokens": 555,
+      "latencyMs": 5911,
+      "latency_ms": 5911,
+      "createdAt": "2026-07-22T22:22:30.389Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q48/prompt.txt",
+        "answer": "q48/deepseek.txt",
+        "response": "q48/deepseek_response.json",
+        "sources": "q48/deepseek_sources.json",
+        "references": "q48/deepseek_references.json"
+      }
+    }
+  ]
+}

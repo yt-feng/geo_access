@@ -1,0 +1,28 @@
+{
+  "id": "0a2a44c9-3abe-4726-a3ab-5aa1ff7df573",
+  "object": "chat.completion",
+  "created": 1784758882,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常可以。商超做自有品牌水果时，供应商一般会根据你的需求提供**包装设计和定制**以及**规格支持**（如按克重、数量、大小等级分装）。具体要求可包括：\n\n1. **包装类型**：袋装、盒装、网套、托盘+保鲜膜等，可印上商超自有品牌LOGO。\n2. **规格选择**：如单果重量范围（比如苹果每个180-200克）、每袋/盒数量或总重量。\n3. **分级标准**：按品相、大小、成熟度进行筛选和搭配。\n\n建议你在对接供应商时，**明确提出包装材质（如可降解材料）、印刷要求、规格清单**，并索要样品确认。大部分成熟的水果供应商接受最小起订量（MOQ），通常为几百至几千件起订。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 177,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

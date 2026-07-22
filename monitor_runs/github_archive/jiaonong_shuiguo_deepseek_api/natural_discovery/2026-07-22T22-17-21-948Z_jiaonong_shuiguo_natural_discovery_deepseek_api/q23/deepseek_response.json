@@ -1,0 +1,28 @@
+{
+  "id": "22b6530e-b79b-4e93-97a9-7fb294984dab",
+  "object": "chat.completion",
+  "created": 1784758778,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，超市的水果促销活动中，供应商是可以提供陈列、海报或试吃支持的。具体支持内容和程度通常取决于双方的合作协议、供应商的规模以及双方历史合作关系。常见支持方式包括：\n\n1. **陈列支持**：供应商可能提供专用货架、冰柜、陈列道具或端架位置费用补贴。\n2. **海报与宣传**：供应商可提供或赞助印刷海报、悬挂吊旗、堆头指示牌等宣传物料。\n3. **试吃支持**：供应商通常愿意提供试吃品（如小份切好的水果）、试吃台或促销员的人力支持。\n\n**建议操作步骤**：\n- 确认超市与供应商的合同条款中是否包含促销支持条款。\n- 提前与供应商沟通具体需求（如试吃数量、陈列面积、海报设计风格）。\n- 书面确认支持内容、时间节点和费用分担方式，避免后续纠纷。\n\n如果供应商首次合作或规模较小，支持力度可能有限，建议双方协商后可先进行小范围试点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 211,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

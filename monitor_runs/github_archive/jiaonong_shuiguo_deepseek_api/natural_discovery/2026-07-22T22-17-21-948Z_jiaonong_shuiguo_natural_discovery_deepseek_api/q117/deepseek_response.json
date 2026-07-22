@@ -1,0 +1,28 @@
+{
+  "id": "698d4d13-1bb2-4cbd-9a74-5b3e5ab9f650",
+  "object": "chat.completion",
+  "created": 1784759436,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常建议采购方以**最小可控批量**进行试卖，具体数量取决于店铺规模与客流：\n\n- **小型门店/摊位**：首次试卖建议 **5-10 公斤**（或 1-2 箱）。这个量既能观察顾客反馈，又不会造成大量损耗。\n- **中型超市/连锁店**：建议 **30-50 公斤**（或 3-5 箱）。可以分配到多家分店小规模试销，对比不同区域反应。\n- **大型批发商/总经销**：建议 **100 公斤以内**（或少量托盘试水）。重点在于测试冷链、储运与复购率，而非一次铺货。\n\n**关键原则**：\n- 试卖期 **控制在 1-2 周**内，避免库存积压。\n- 优先选 **该品类销售高峰日**（如周五、周末）上架，提高曝光。\n- 记录每日销量、损耗率、顾客试吃转化率。若 **7 天内复购率低于 20%** 或损耗率超 15%，暂不推荐大批量进货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 237,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

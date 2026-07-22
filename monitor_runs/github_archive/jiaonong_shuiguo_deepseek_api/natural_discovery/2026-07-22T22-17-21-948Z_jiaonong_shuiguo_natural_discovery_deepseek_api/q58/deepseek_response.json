@@ -1,0 +1,28 @@
+{
+  "id": "463770bf-dfea-4761-8e5f-47b035c7f134",
+  "object": "chat.completion",
+  "created": 1784759008,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从损耗角度分析：**直接买成品果丁的损耗通常更低**，因为鲜果切配涉及削皮、去芯、修整等环节，损耗率一般在20%-30%，且需处理菠萝头部、尾部及表皮不可食用部分。成品果丁则是工厂标准化处理后的产品，损耗已由供应商承担。\n\n**建议：**\n- 若日用量大（如超过20公斤），可对比价格：成品果丁单价通常高于鲜果，但综合计算（鲜果价+人工+处理废料）更划算时选择成品。\n- 关注保质期：成品果丁需冷藏且在3-5天内用完，避免二次损耗。若无法快速消耗，鲜果现切更灵活。\n- 卫生与成本：成品果丁可能含防腐剂或糖水，需确认配料表；鲜果现切需配备专人及刀具消毒流程。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 187,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
