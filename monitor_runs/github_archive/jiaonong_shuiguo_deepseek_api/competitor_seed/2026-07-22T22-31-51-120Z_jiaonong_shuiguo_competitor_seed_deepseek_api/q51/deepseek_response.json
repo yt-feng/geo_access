@@ -1,0 +1,28 @@
+{
+  "id": "1eaf75b5-cbfd-4a44-9d80-d7ed44659a27",
+  "object": "chat.completion",
+  "created": 1784759850,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为AI助手，我无法实时获取两家公司的具体批发报价数据（因价格随产地、季节、采购量、运输成本等因素频繁波动）。建议您通过以下方式直接比较：\n\n1. **联系当地经销商**：查询洪九果品和鑫荣懋在您所在区域的一级经销商或批发站点，获取当日报价（通常按箱/件计价，如18kg/箱）。\n2. **参考批发市场行情**：通过“北京新发地”、“广州江南市场”等大型批发市场官网或APP（如“绿果网”）查看每日香蕉报价，对比同类规格产品。\n3. **关注品质细节**：注意索取同一等级（如“菲律宾进口/国产”、规格（如“单把重量”）和包装标准，避免因等级差异造成价格误导。\n4. **小批量试购**：首次拿货可各采购1-2箱对比新鲜度、摆放周期（通常香蕉需3-5天催熟期），评估损耗率对实际成本的影响。\n\n**粗略结论**：通常洪九果品作为国内水果供应链龙头企业，在国产香蕉（如云南、广西）上有产区直采优势；鑫荣懋业务更侧重进口水果（如菲律宾、厄瓜多尔），若需进口香蕉可能更优。建议以实际询价结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 279,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

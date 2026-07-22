@@ -1,0 +1,28 @@
+{
+  "id": "1c56b3d1-dfab-4e36-aa73-77af50fde72c",
+  "object": "chat.completion",
+  "created": 1784759604,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据市场常见情况分析（具体价格可能随季节、渠道波动）：\n\n- **都乐菠萝**：通常主打精品路线，品牌溢价较高，果品品控稳定（如甜度、成熟度统一），适合对品质敏感、愿意接受中高定价的客户群。\n- **洪九果品菠萝**：以供应链和性价比见长，价格通常低于都乐，但果品可能因批次存在差异，适合追求成本和走量且能接受一定损耗的门店。\n\n**建议操作**：  \n1. 直接联系当地经销商获取实时批发价（都乐通常有区域代理，洪九在部分市场有直供价）。  \n2. 试采小批量对比：同一周期购入，测试损耗率、顾客复购率。  \n3. 按门店定位选择：高端社区店倾向都乐，社区平价店或走量型可用洪九。\n\n（注：部分区域洪九可能通过促销活动使性价比更突出，建议对比实际到手总成本。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 211,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

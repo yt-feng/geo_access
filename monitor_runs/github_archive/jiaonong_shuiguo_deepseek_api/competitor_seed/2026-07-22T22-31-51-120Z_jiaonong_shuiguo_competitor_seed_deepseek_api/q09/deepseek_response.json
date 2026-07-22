@@ -1,0 +1,28 @@
+{
+  "id": "ea4be372-0c4f-4cd5-a809-6c1e6c6519fe",
+  "object": "chat.completion",
+  "created": 1784759582,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌在礼品团购中也较常见，品质和包装通常适合礼盒场景：\n\n1. **新奇士（Sunkist）**  \n   - 主要品类：橙子、柠檬、葡萄柚  \n   - 特点：美国老牌，果品标准统一，礼盒包装经典。\n\n2. **爱妃（Envy）**  \n   - 主要品类：苹果（布瑞本、太平洋玫瑰等品种）  \n   - 特点：新西兰高端苹果品牌，口感脆甜，红果亮丽。\n\n3. **乐淇（Rockit）**  \n   - 主要品类：小苹果（筒装/盒装）  \n   - 特点：新西兰品牌，果型小巧，适合个人便携或精致礼盒装。\n\n4. **津成泰（Zespri 非佳沛同名，注意区分）**  \n   - 实际上是金果、绿果同一品牌的不同系列，建议确认具体需求。\n\n5. **Driscoll's（怡颗莓）**  \n   - 主要品类：蓝莓、覆盆子、黑莓  \n   - 特点：美国浆果品牌，适合混合果盒或作为礼盒辅料。\n\n6. **Gala（嘎啦苹果，常做礼盒）**  \n   - 部分国际品牌如 **Queen**（皇后苹果）也可关注，新西兰产。\n\n7. **Mr. Apple**  \n   - 主要品类：苹果（红玫瑰、皇家嘎啦等）  \n   - 特点：新西兰品牌，红苹果礼盒常见于高端礼品。\n\n8. **Southern Orchard（南部果园）**  \n   - 主要品类：南非柑橘、葡萄、梨等  \n   - 适合作为季节性补充。\n\n9. **Del Monte（德尔蒙）**  \n   - 主要品类：香蕉、菠萝、芒果等热带水果  \n   - 全球品牌，礼盒装较常见。\n\n**建议**：  \n- 团购前可联系当地进口水果批发商或品牌官网，确认是否有定制礼盒服务。  \n- 部分品牌（如爱妃、乐淇）礼盒需提前预订，尤其在节假日高峰。  \n- 注意产地季节性：如新西兰苹果（3-8月）、美国柑橘（冬季）等。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 493,
+    "total_tokens": 555,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

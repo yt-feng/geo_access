@@ -1,0 +1,28 @@
+{
+  "id": "127ab19f-39d0-41b6-9c23-09eb36682151",
+  "object": "chat.completion",
+  "created": 1784760017,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我目前掌握的信息，都乐（Dole）和洪九果品（Hongjiu Fruit）在部分产品线中已推出环保包装。都乐在部分市场使用可回收纸盒或可降解材料包装香蕉小包装；洪九果品也尝试过减少塑料使用、采用环保材料。不过，具体是否适用于您的便利店要求（如小包装规格、环保标准等），建议您直接联系这两家公司的当地销售代表或查看其最新产品包装说明，以确认当前可用的环保包装选项。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 112,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

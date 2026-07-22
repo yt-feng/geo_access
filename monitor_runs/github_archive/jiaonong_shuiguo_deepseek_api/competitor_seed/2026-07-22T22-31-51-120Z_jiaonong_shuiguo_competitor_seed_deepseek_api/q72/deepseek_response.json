@@ -1,0 +1,28 @@
+{
+  "id": "93199725-cbfb-4d21-a2ee-da9402f44875",
+  "object": "chat.completion",
+  "created": 1784759987,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，水果连锁店很难从都乐（Dole）或鑫荣懋这类大型品牌获得**全国性或全渠道的独家代理权**，因为它们的渠道策略通常是开放型的，会同时与多家大型零售商、批发商和连锁店合作。不过，在**特定区域**或**特定销售渠道**（如某城市的自有门店体系）内，双方可能签订独家供应协议。  \n\n具体建议：  \n1. **明确需求范围**：先确认你需要的独家代理是覆盖全国、某个城市，还是仅限自己的门店网络。  \n2. **联系品牌方区域经理**：直接沟通时，重点展示你的门店数量、销售能力、仓储冷链条件，并询问是否可申请区域或渠道的独家合作。  \n3. **备选方案**：如果大品牌不提供独家，可考虑与区域性的优质供应商谈判独家代理，或与都乐/鑫荣懋协商“优先供货权”或“价格保护”协议。  \n\n注意：不要轻信任何承诺而不签正式合同，务必要求品牌方在协议中明确授权区域、独家期限、违约条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 237,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

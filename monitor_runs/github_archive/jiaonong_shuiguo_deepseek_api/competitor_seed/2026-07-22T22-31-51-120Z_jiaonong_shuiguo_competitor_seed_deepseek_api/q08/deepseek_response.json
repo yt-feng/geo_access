@@ -1,0 +1,28 @@
+{
+  "id": "0ad750d8-70df-43b0-bfc9-7148cb77169e",
+  "object": "chat.completion",
+  "created": 1784759575,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Joyvio）在香蕉供应链的透明度和品控追溯方面都有一定基础，但侧重点不同：\n\n1. **都乐**：\n   - 在产地溯源方面，都乐通常有较为完善的国际追溯系统，尤其是其海外香蕉基地（如菲律宾、厄瓜多尔等）会提供产地标识和部分批次追溯。\n   - 品控证明多为第三方认证（如GlobalG.A.P.、ISO等），但具体到中国市场的零售环节，部分消费者反馈其信息公开程度有限，主要通过包装信息获取。\n\n2. **鑫荣懋**：\n   - 作为国内大型果业企业，鑫荣懋在海南、广西等地有自有种植基地，并推行“一果一码”或批次码追溯，消费者可扫码查看产地、采摘时间等信息。\n   - 品控方面，鑫荣懋常提供国内无公害、绿色食品等认证，且因其供应链更贴近国内市场，在终端透明度上可能更直接（如通过合作商超的溯源系统）。\n\n**建议**：如果你更看重 **国际标准认证和较为完善的批次体系**，都乐可能更可靠；如果你需要 **国内产地可查、扫码直接验证** 的透明度，鑫荣懋可能更直观。建议直接联系两家供应商索取最新的供应商评审报告、产地证明文件及第三方检测报告，并要求实地参观1-2个代表性基地以作比对。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 306,
+    "total_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

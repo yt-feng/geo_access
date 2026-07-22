@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:34:55.824Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "茶饮店用菠萝做果酱，需要稳定品质，都乐和鑫荣懋谁更靠谱？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

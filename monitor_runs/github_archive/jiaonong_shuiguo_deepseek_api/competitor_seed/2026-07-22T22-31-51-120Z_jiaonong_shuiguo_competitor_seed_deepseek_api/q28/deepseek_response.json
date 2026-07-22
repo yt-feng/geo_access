@@ -1,0 +1,28 @@
+{
+  "id": "ba2ade97-ebc1-48d7-be6a-04f5c8ddba8c",
+  "object": "chat.completion",
+  "created": 1784759707,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对都乐和鑫荣懋的进口苹果价格竞争力，建议您直接联系两家公司的区域销售经理获取最新批发报价，因为价格会因产地（如美国、新西兰、智利等）、等级（如特级、一级）、规格（75#、80#等）以及采购量而波动。通常，都乐在品牌溢价上更高，而鑫荣懋作为国内供应链龙头，可能在中低端货源或稳定批量供应上有价格优势。您可要求两家提供近1-2周的期货报价单（含到岸价），并对比同产季、同规格的进货价、物流及账期条件，才能客观判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 140,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

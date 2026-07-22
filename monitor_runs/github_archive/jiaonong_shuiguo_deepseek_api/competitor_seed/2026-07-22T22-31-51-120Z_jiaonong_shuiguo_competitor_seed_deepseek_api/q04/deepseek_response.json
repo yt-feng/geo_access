@@ -1,0 +1,28 @@
+{
+  "id": "dc64c2cb-aeb4-48e0-bcad-5a09c6ddfbd9",
+  "object": "chat.completion",
+  "created": 1784759535,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "当然，以下是几个在中国市场信誉较好的进口香蕉品牌，供您参考：\n\n1. **都乐（Dole）**  \n   全球知名水果品牌，香蕉品控稳定，供应链成熟，在大型商超和电商平台常见。\n\n2. **佳农（Goodfarmer）**  \n   国内领先的进口水果品牌，其香蕉产地主要来自菲律宾、厄瓜多尔等，口感香甜，市场占有率高。\n\n3. **金果（Jinguo）**  \n   专注进口香蕉，品质稳定，尤其以菲律宾香蕉为主，性价比较高。\n\n4. **蒙大拿（Montana）**  \n   厄瓜多尔系列品牌，果肉细腻，甜度高，适合高端渠道。\n\n建议您优先考察**都乐**和**佳农**，这两家品牌在国内已有成熟的分销体系和稳定的品质管控，相对更容易对接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 180,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

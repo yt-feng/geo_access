@@ -1,0 +1,28 @@
+{
+  "id": "76d00feb-9220-4f5c-b71a-43056378c19e",
+  "object": "chat.completion",
+  "created": 1784759702,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**洪九果品**和**鑫荣懋**在水果供应链领域都有较强的产地资源，但针对香蕉的产地基地布局有所不同：\n\n1. **洪九果品**：  \n   以“端到端”模式著称，在东南亚（如越南、柬埔寨）和国内云南、海南等香蕉主产区有自建或合作的种植基地，尤其注重产地直采直发。如果你需要从产地直接发运香蕉，洪九的供应链体系可能更匹配“产地直发”需求。\n\n2. **鑫荣懋**：  \n   作为国内大型水果供应链企业，在香蕉方面主要依托菲律宾、厄瓜多尔等海外进口渠道，同时在国内广西、云南等地也有合作基地。但更偏向与大型种植园或供应商合作，而非自主持有大量种植基地。\n\n**建议**：  \n- 如果你是寻求直接对接产地基地、减少中间环节的“产地直发”模式，**洪九果品**的基地关联度可能更强（尤其是东南亚和云南基地）；  \n- 如需更详细的基地位置或合作条件，建议直接联系两家公司采购部门核实最新情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 240,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

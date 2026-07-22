@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-22T22:37:51.433Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市采购进口苹果，都乐和鑫荣懋的产地溯源怎么做？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

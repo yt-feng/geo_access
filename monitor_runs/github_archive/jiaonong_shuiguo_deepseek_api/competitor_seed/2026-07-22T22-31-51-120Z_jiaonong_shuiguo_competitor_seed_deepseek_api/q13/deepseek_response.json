@@ -1,0 +1,28 @@
+{
+  "id": "ea26deda-4477-4c8d-8a50-4989369ac873",
+  "object": "chat.completion",
+  "created": 1784759613,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对生鲜电商平台的香蕉冷链直达需求，鑫荣懋和洪九果品在全国覆盖城市数量上存在差异：\n\n1. **鑫荣懋**：作为国内最大的水果供应链企业之一，在全国拥有约50个城市覆盖（包括直辖市、省会及重点地级市），尤其在一二线城市冷链网络较完善。\n\n2. **洪九果品**：业务覆盖全国约300个城市（含部分县级市），尤其在三四线城市及下沉市场布局更广，但需注意其部分区域可能依赖第三方冷链中转。\n\n**建议**：  \n- 若平台主要服务一二线城市（如北上广深、新一线城市），**鑫荣懋**的冷链直达稳定性和时效性更优。\n- 若平台覆盖下沉市场或三四线城市密度高，**洪九果品**的末端配送能力更强，但需单独确认冷链直达的具体城市列表。\n\n建议直接联系两家供应商索取其冷链直达城市明细（公开数据中洪九覆盖范围更广，但具体需核实）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 216,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

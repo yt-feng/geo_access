@@ -1,0 +1,28 @@
+{
+  "id": "cf8f3a1f-6cca-42f1-8804-814899b1baad",
+  "object": "chat.completion",
+  "created": 1784759815,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据生鲜电商行业经验，都乐（Dole）和鑫荣懋（Xinrongmao）在香蕉直发物流时效上存在一定差异：\n\n- **都乐**：依托自建冷链物流体系，常见华东、华南核心城市可实现**48小时内**从产地（如菲律宾、海南）直达仓库或分拣中心，但对非核心城市可能需中转，时效延长至3-4天。\n- **鑫荣懋**：以整合第三方物流为主，在华南、西南地区配速较快（通常2-3天），但北方或偏远地区可能因仓库布点受限，延迟至4-5天。\n\n**建议**：\n1. **优先选都乐**，若你的客户主要集中在华东、华南，且对到货速度要求极高（如次日达）。\n2. **测试合作**：可向两家分别申请试单，实测到仓时间（发货地到你的仓库），并确认是否支持你的区域。\n3. **备选方案**：香蕉成熟度高，也可考虑本地大型批发市场直采或“产地+冷链直接”模式，避免单一依赖品牌物流。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 240,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q35",
+  "prompt": "我们做餐饮连锁，需要香蕉稳定供应，鑫荣懋和都乐谁有全国配送？",
+  "createdAt": "2026-07-22T22:35:46.459Z",
+  "summary": [
+    {
+      "questionId": "q35",
+      "prompt_index": 35,
+      "promptIndex": 35,
+      "promptHash": "0888c58bd13f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们做餐饮连锁，需要香蕉稳定供应，鑫荣懋和都乐谁有全国配送？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 416,
+      "text_length": 416,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 248,
+        "total_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 248,
+      "total_tokens": 310,
+      "latencyMs": 4362,
+      "latency_ms": 4362,
+      "createdAt": "2026-07-22T22:35:46.459Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q35/prompt.txt",
+        "answer": "q35/deepseek.txt",
+        "response": "q35/deepseek_response.json",
+        "sources": "q35/deepseek_sources.json",
+        "references": "q35/deepseek_references.json"
+      }
+    }
+  ]
+}

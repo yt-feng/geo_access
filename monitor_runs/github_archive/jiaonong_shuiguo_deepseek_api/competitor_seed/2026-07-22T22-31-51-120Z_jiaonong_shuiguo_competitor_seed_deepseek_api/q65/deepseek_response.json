@@ -1,0 +1,28 @@
+{
+  "id": "9383070e-a30e-4bdc-9c34-5204bca2013a",
+  "object": "chat.completion",
+  "created": 1784759946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您询问的菠萝供应商锁价机制，根据现有公开信息，具体锁价周期可能因合同条款、市场行情及具体对接业务部门而异，建议直接联系两家公司获取最新报价政策。以下为参考信息：\n\n- **都乐（Dole）**：作为大型跨国生鲜供应商，通常提供短期（如1-3个月）或季节性锁价协议，尤其针对大宗采购客户。具体周期需与区域销售经理协商，受产地气候、物流成本等因素影响，实际锁价期限可能缩短。\n- **洪九果品**：国内头部水果供应链企业，对菠萝等单品常推出“锁价锁量”服务，周期通常为3-6个月，适用于长期稳定订单。建议咨询当地分公司或通过“洪九星桥”平台查询定制化方案。\n\n**核心建议**：  \n1. 直接联系都乐中国（官网或客服）与洪九果品（如洪九优选App或采购专线），提供采购量、交割时间等需求后获取明确锁价周期。  \n2. 注意合同中需明确价格调整触发条件（如突发运费上涨或汇率波动）。  \n3. 可同步比较其他专业水果供应链企业（如佳沃、鑫荣懋）的锁价机制作为备选。\n\n若需进一步协助，请提供您的采购规模与目标时段，我可协助梳理谈判要点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 292,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

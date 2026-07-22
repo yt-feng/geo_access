@@ -1,0 +1,50 @@
+{
+  "questionId": "q26",
+  "prompt": "茶饮店用菠萝做果酱，需要稳定品质，都乐和鑫荣懋谁更靠谱？",
+  "createdAt": "2026-07-22T22:34:55.824Z",
+  "summary": [
+    {
+      "questionId": "q26",
+      "prompt_index": 26,
+      "promptIndex": 26,
+      "promptHash": "53b9f5a4525d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店用菠萝做果酱，需要稳定品质，都乐和鑫荣懋谁更靠谱？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 615,
+      "text_length": 615,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 398,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 398,
+      "total_tokens": 462,
+      "latencyMs": 5703,
+      "latency_ms": 5703,
+      "createdAt": "2026-07-22T22:34:55.824Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q26/prompt.txt",
+        "answer": "q26/deepseek.txt",
+        "response": "q26/deepseek_response.json",
+        "sources": "q26/deepseek_sources.json",
+        "references": "q26/deepseek_references.json"
+      }
+    }
+  ]
+}

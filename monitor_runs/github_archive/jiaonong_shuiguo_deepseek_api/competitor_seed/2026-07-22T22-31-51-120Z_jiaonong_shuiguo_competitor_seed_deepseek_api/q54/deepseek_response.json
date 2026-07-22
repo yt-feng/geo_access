@@ -1,0 +1,28 @@
+{
+  "id": "113805ad-0d44-414a-be2e-b985de503a8b",
+  "object": "chat.completion",
+  "created": 1784759871,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对超市采购进口苹果（如都乐或鑫荣懋），产地溯源主要通过以下步骤实现，优先建议通过包装信息和官方渠道核实：\n\n1. **核对包装标签**：  \n   - 都乐：标签通常印有“Product of”后接国家（如美国、新西兰、智利）和果园编号（如CA-XXXX）。  \n   - 鑫荣懋：标签标注“原产国”及具体品种（如Gala、Fuji），部分产品附有二维码或批次号。\n\n2. **扫描二维码/条形码**：  \n   - 都乐：包装上可能有“Dole Fresh”二维码，扫描后显示果园、采摘日期和出口记录。  \n   - 鑫荣懋：部分高端产品（如佳沛奇异果）带溯源码，扫描可查看产地、运输路径。\n\n3. **查询官方渠道**：  \n   - 都乐中国官网（dole.com.cn）提供“产品溯源”入口，输包装批次号可查产地。  \n   - 鑫荣懋公众号或客服热线，提供批次号或标签照片，人工核查。\n\n4. **验证第三方认证**：  \n   - 留意是否标注GLOBALG.A.P.（全球良好农业规范）证书号，可附官网查询（globalgap.org）。  \n   - 进口苹果需有海关检验检疫证明，超市可要求出示或要求供应商提供。\n\n**注意**：  \n- 部分低价平替产品可能为其他品牌贴牌，优先选择包装完整、标签清晰的批次。  \n- 若无法通过包装二维码直接查询，建议联系超市索要供应商的《进口货物报关单》和《检验检疫证明》。  \n\n如需更详细操作（如具体批次号查询入口），可进一步告知品牌和包装信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 379,
+    "total_tokens": 436,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
