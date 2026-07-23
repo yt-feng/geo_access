@@ -1,0 +1,50 @@
+{
+  "questionId": "q67",
+  "prompt": "佳农水果的客户服务是7x24小时吗？周末下单有人处理吗？",
+  "createdAt": "2026-07-23T22:45:49.137Z",
+  "summary": [
+    {
+      "questionId": "q67",
+      "prompt_index": 67,
+      "promptIndex": 67,
+      "promptHash": "8b5b392e7a1d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的客户服务是7x24小时吗？周末下单有人处理吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 193,
+      "text_length": 193,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 113,
+        "total_tokens": 172,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 113,
+      "total_tokens": 172,
+      "latencyMs": 2048,
+      "latency_ms": 2048,
+      "createdAt": "2026-07-23T22:45:49.137Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q67/prompt.txt",
+        "answer": "q67/deepseek.txt",
+        "response": "q67/deepseek_response.json",
+        "sources": "q67/deepseek_sources.json",
+        "references": "q67/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "efc4d3fb-711e-41a8-99ea-f90e44314cc0",
+  "object": "chat.completion",
+  "created": 1784846826,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的配送覆盖城市及冷链物流收费问题，建议您通过以下方式获取最准确信息：\n\n1. **城市覆盖查询**：佳农水果通常覆盖国内主要城市及部分县城。您可以直接使用佳农水果官方小程序或App，输入您所在县城的具体地址，系统会自动显示是否支持配送。\n\n2. **门店配送确认**：如果是通过本地实体门店购买，建议直接联系该门店咨询配送范围；若通过线上平台（如京东、拼多多等），可在商品详情页查看配送区域说明。\n\n3. **冷链物流收费**：佳农水果的冷链配送费用通常根据订单金额、重量、距离及促销活动而定。普遍规则包括：\n   - 订单满一定金额（如99元）可能免运费\n   - 不足金额时，冷链费用约10-30元不等\n   - 部分偏远地区可能加收附加费\n\n建议您直接拨打佳农官方客服热线（可在其官网或公众号查询）或通过在线客服输入具体地址，获取最准确的实时报价和配送方案。注意：不同平台及促销期间规则可能调整，以官方最新说明为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 243,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "34154eef-e67c-4a99-9a16-aa89f5002c1e",
+  "object": "chat.completion",
+  "created": 1784846778,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法实时获取最新市场价格，但可以为您提供一些通用分析方向供参考：\n\n1. **品牌定位差异**：佳农通常主打性价比路线，都乐更侧重品牌溢价和品质稳定性。批发市场价差可能因区域、季节、采购量浮动，通常佳农一箱（约13公斤）可能便宜5-15元，但需具体询价确认。\n\n2. **建议行动**：\n   - 直接联系当地一级批发市场或官方代理，要求报价单比对（标注品级、成熟度、箱规）。\n   - 参考中国果品流通协会或农产品批发价格指数网（如“全国农产品批发市场价格信息系统”）的周度数据。\n   - 试探性小批量采购测试品质，再谈大单折扣。\n\n3. **注意隐性成本**：部分低价货源可能因采购周期短（需加快销售）、标准化不足（损耗率较高），需综合计算综合成本。\n\n如需更精准信息，建议打开联网搜索功能查询当日报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 217,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

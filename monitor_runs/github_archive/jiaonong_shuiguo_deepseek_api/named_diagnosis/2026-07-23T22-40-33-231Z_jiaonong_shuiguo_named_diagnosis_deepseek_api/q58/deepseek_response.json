@@ -1,0 +1,28 @@
+{
+  "id": "148754b4-9756-486e-8634-079d89635022",
+  "object": "chat.completion",
+  "created": 1784846704,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否提供菠萝丁加工服务，根据公开信息，佳农（Goodfarmer）主要是一家专注于高端水果进口和销售的企业，其核心业务是提供新鲜整果（如菠萝、香蕉等），并非专门从事水果原料的深加工或定制切丁服务。\n\n**建议您采取以下步骤确认：**\n1. **直接联系佳农官方客服**：拨打其官方热线或通过官网、经销商渠道询问，明确是否提供菠萝丁代加工或定制服务。\n2. **说明具体需求**：告知需要的菠萝丁规格（如尺寸、包装、冷冻或新鲜）、起订量及配送要求，以获取准确报价和可行性。\n3. **备选方案**：如果佳农不提供加工服务，您可以考虑：\n   - 联系专业水果加工厂（如冷链供应商、速冻水果企业），他们通常能提供定制切丁、速冻服务。\n   - 购买佳农整果后，自行或委托第三方加工厂进行加工。\n\n请务必以佳农官方回复为准，避免依赖非一手信息。祝您采购顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 230,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

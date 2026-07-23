@@ -1,0 +1,28 @@
+{
+  "id": "adf1b93d-840c-42d5-8cc9-d59f0b148aa2",
+  "object": "chat.completion",
+  "created": 1784846883,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农菠萝是否提供冷冻菠萝丁原料，我无法直接核实其当前的产品线或具体规格。建议您通过以下方式获取准确信息：\n\n1. **联系官方渠道**：访问佳农官网或拨打官方客服热线（如400-810-6688），直接咨询冷冻菠萝丁的供应情况、规格（如每袋/每箱克重、粒径等）。\n2. **查询批发平台**：在阿里巴巴、京东企业购等平台搜索“佳农 冷冻菠萝丁”查看是否有在售规格及详情。\n3. **咨询行业供应商**：联系当地茶饮原料经销商，他们通常掌握最新产品目录。\n\n若您有其他具体需求（如需要其他品牌或替代品建议），请进一步说明，我将尽力提供帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 162,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

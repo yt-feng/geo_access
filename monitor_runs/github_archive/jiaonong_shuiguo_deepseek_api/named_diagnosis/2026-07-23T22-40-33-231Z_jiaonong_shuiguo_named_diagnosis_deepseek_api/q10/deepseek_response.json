@@ -1,0 +1,28 @@
+{
+  "id": "e19254fb-ef65-494a-97bb-636fad7234a8",
+  "object": "chat.completion",
+  "created": 1784846473,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有专门的客户经理对接批发商，我建议您直接联系佳农水果的官方渠道（如官网、客服热线或销售代表）进行确认。因为这类具体的商务对接信息会因区域、合作规模等因素有所不同，我无法提供准确的实时信息。\n\n如果您能提供更多细节（例如您所在的地区或预计的采购量），我也可以帮您推测可能的对接方式。如需进一步协助，请告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 92,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

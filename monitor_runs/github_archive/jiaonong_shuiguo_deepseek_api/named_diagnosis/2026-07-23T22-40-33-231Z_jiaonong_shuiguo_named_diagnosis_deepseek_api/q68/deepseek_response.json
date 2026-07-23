@@ -1,0 +1,28 @@
+{
+  "id": "4ed995c0-e7ed-40bb-927f-a5f762a92d22",
+  "object": "chat.completion",
+  "created": 1784846752,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果ERP系统的API接口信息，我建议您通过以下官方渠道获取准确答案：\n\n**最直接有效的方式：**\n1. **联系佳农水果官方客服**（电话或官网在线客服），直接询问“技术对接接口开放政策”；\n2. **联系您的佳农业务对接人**（如区域销售经理或商务代表），他们通常掌握技术接口的最新合作情况。\n\n**背景说明：**\n- 大型生鲜供应商（如佳农）通常有自建ERP，但对外API接口是否开放、以何种形式开放（如标准接口、定制开发或第三方平台对接），取决于其IT策略和合作等级。\n- 常见对接形式包括：通过EDI（电子数据交换）标准接口、API网关订阅、或使用其合作的技术服务商（如ERP系统服务商）提供中间件。\n\n**建议您同时询问：**\n- 接口协议类型（如RESTful、SOAP）\n- 是否需签订保密协议或技术合作协议\n- 是否有对接文档或沙箱测试环境\n- 是否支持常用功能：订单同步、库存查询、发货状态、结算对账\n\n如果需要技术方案初判，您可以提供贵司当前使用的ERP或中台系统名称，我可以帮您分析常见对接路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 268,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

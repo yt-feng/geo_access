@@ -1,0 +1,28 @@
+{
+  "id": "a86ef2a2-5e60-45d8-9f3b-e6cb374558be",
+  "object": "chat.completion",
+  "created": 1784846858,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型水果供应商，通常具备为连锁餐饮客户提供定制化物流服务的能力，包括专车配送和专人对接。不过具体能否执行取决于以下因素：\n\n1. **区域覆盖**：佳农在部分城市可能自建冷链物流，可安排专车；偏远地区可能需依赖第三方。\n2. **订单规模**：高频次、大批量订单更易获得专车支持。\n3. **合同条款**：需在合作协议中明确专车频率、专人响应时效及应急预案。\n\n**建议行动方案**：\n- 直接联系佳农官方客户部，说明“餐饮连锁月均需求量（如X吨/月）、配送城市/频率”，要求提供《定制化物流方案》。\n- 确认合同是否包含：① 48小时内专人对接响应；② 专车费用是否含在单价中。\n- 若当地无专车服务，可协商“固定时段班车+紧急备用车”替代方案。\n\n另外建议同步对比**鑫荣懋**、**都乐**等供应商的餐饮定制服务，优先选择同步提供“香蕉催熟技术指导”的合作伙伴（减少腐损率）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 242,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

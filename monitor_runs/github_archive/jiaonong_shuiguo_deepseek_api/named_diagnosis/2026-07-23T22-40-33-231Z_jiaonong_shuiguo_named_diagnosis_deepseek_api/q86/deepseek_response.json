@@ -1,0 +1,28 @@
+{
+  "id": "f773f543-1ab0-477b-85ea-5bdebc758da6",
+  "object": "chat.completion",
+  "created": 1784846863,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，该数据尚未在2025年的官方统计中确认。通常，中国的菠萝进口数据由中国海关总署或农业农村部定期发布，但截至当前时间（2025年7月），2025年全年或半年的进口总量数据可能尚未公布或无法直接验证。建议您查阅中国海关总署官网或农业农村部年度统计报告获取最新官方数据。如果您需要进一步核实，可以参考行业新闻报道或相关企业公告，但请注意区分来源的权威性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 101,
+    "total_tokens": 165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

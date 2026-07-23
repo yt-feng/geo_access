@@ -1,0 +1,28 @@
+{
+  "id": "1bdb88d3-0d3c-4f05-bbbc-2316e45fbb40",
+  "object": "chat.completion",
+  "created": 1784846523,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果是国内知名的水果品牌，其苹果品类整体品质较好，主打新鲜度和口感。佳农的苹果通常来自国内外优质产区，果形端正、色泽自然，甜酸适口，耐储存。  \n关于进口苹果：**佳农有进口苹果**，例如从美国、新西兰、智利等地引进的品种（如红玫瑰、加力果等），包装上会明确标注原产地。购买时可通过官方渠道或超市进口专区确认。  \n建议：购买时观察外观是否新鲜无软斑，并选择当季产品以获得最佳风味。如需具体品种信息，可查看商品标签或咨询客服。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 134,
+    "total_tokens": 187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

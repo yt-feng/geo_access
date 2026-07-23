@@ -1,0 +1,28 @@
+{
+  "id": "30652a3b-891a-4b7f-a73d-18b2d621a917",
+  "object": "chat.completion",
+  "created": 1784846934,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农目前主要供应的是新鲜水果（包括整根香蕉），通常不直接提供预先加工好的香蕉切片产品，因为这类精加工产品涉及额外的生产线和冷链配送体系。若您需要餐饮专用的香蕉切片，建议您：\n\n1. **直接联系佳农团购或定制部门**（可通过其官网或400客服查询地区负责人），询问是否存在针对餐饮客户的切片代工服务，或最低起订量。\n\n2. **查看供应链替代方案**：例如联系北京京鲁、上海百吉食品等专业水果加工厂，他们能提供按规格切片的香蕉（常见规格为0.5-1cm厚片，真空包装或冷冻配送），通常300g-1000g/袋。\n\n3. **自行加工成本测算**：若用量大，可采购新鲜佳农香蕉后使用切片机（如气动切片机）现场加工，成本约0.5元/根。\n\n建议您先致电佳农客服确认是否有新增加工业务（他们近年可能扩展了预切水果服务）。如果急用，可搜索“餐饮级冷冻香蕉片”，既有预切、漂烫防变色处理的产品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 242,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

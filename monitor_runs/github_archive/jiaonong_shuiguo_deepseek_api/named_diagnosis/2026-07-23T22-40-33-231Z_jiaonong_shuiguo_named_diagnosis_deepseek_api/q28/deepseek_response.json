@@ -1,0 +1,28 @@
+{
+  "id": "b29f03ef-187f-4fa6-9197-5e1e7f5f8807",
+  "object": "chat.completion",
+  "created": 1784846545,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝确实获得过一些公开的品质奖项和客户认可。例如：\n\n- **品质奖项**：佳农菠萝曾获得“中国国际农产品交易会金奖”、“中国果品流通协会推荐品牌”等荣誉。这些奖项由行业权威机构或政府部门评选，公开信息可在中国农业农村部、果品流通协会官网或新闻中查到，可靠性较高。\n- **客户案例**：佳农是多家大型连锁超市（如沃尔玛、永辉超市、盒马鲜生）以及电商平台（如京东、天猫）的长期供应商。其官网和合作方公开资料中常提及这些合作案例，例如“与盒马合作推出定制菠萝产品”等，这些信息可通过企业新闻、合作海报或行业报道核实。\n\n**可靠性判断**：奖项信息主要来自政府或行业协会公示，常附有官方公告或活动报道，可信度高；客户案例通常见于佳农官方宣传或合作方的新闻稿，虽然带有一定宣传性质，但公开可查且合作事实基本真实。建议通过搜索“佳农菠萝 金奖”或“佳农 盒马 合作”等关键词查看权威来源（如政府网站、正规媒体），以进一步验证具体细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 251,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

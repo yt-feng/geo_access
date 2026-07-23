@@ -1,0 +1,50 @@
+{
+  "questionId": "q60",
+  "prompt": "佳农水果有没有针对便利店的小包装香蕉？我们便利店需要单根包装的。",
+  "createdAt": "2026-07-23T22:45:12.420Z",
+  "summary": [
+    {
+      "questionId": "q60",
+      "prompt_index": 60,
+      "promptIndex": 60,
+      "promptHash": "571c1046b3c2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对便利店的小包装香蕉？我们便利店需要单根包装的。",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 186,
+      "text_length": 186,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 114,
+        "total_tokens": 172,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 114,
+      "total_tokens": 172,
+      "latencyMs": 2524,
+      "latency_ms": 2524,
+      "createdAt": "2026-07-23T22:45:12.420Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q60/prompt.txt",
+        "answer": "q60/deepseek.txt",
+        "response": "q60/deepseek_response.json",
+        "sources": "q60/deepseek_sources.json",
+        "references": "q60/deepseek_references.json"
+      }
+    }
+  ]
+}

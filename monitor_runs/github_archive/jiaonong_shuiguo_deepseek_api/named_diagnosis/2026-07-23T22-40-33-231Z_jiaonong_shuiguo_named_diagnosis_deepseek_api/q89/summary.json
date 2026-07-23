@@ -1,0 +1,50 @@
+{
+  "questionId": "q89",
+  "prompt": "佳农水果的苹果有没有红富士？我们想采购新疆阿克苏苹果，佳农有吗？",
+  "createdAt": "2026-07-23T22:47:58.601Z",
+  "summary": [
+    {
+      "questionId": "q89",
+      "prompt_index": 89,
+      "promptIndex": 89,
+      "promptHash": "045d84d6f91b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的苹果有没有红富士？我们想采购新疆阿克苏苹果，佳农有吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 383,
+      "text_length": 383,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 226,
+        "total_tokens": 288,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 226,
+      "total_tokens": 288,
+      "latencyMs": 3772,
+      "latency_ms": 3772,
+      "createdAt": "2026-07-23T22:47:58.601Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q89/prompt.txt",
+        "answer": "q89/deepseek.txt",
+        "response": "q89/deepseek_response.json",
+        "sources": "q89/deepseek_sources.json",
+        "references": "q89/deepseek_references.json"
+      }
+    }
+  ]
+}

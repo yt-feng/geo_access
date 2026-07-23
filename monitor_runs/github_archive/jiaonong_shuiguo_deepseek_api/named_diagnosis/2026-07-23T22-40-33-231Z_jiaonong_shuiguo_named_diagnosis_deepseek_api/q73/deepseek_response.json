@@ -1,0 +1,28 @@
+{
+  "id": "a0827732-33f9-4402-93e1-efe298e2e10a",
+  "object": "chat.completion",
+  "created": 1784846788,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类，佳农主要经营进口水果，其苹果品类包括但不限于以下几个常见品种：\n\n1. **嘎啦（Gala）**  \n   - 常见进口产地：新西兰、美国（华盛顿州）、智利等。  \n   - 佳农进口的嘎啦通常来自新西兰（如普伦蒂湾产区），口感脆甜、果香浓郁。\n\n2. **红富士（Fuji）**  \n   - 常见进口产地：日本（原产地）、美国（华盛顿州）、新西兰、智利、南非等。  \n   - 佳农进口的红富士主要来自美国（如华盛顿州）、新西兰或智利，果肉紧密、甜度高。\n\n**针对采购需求**：  \n- 如需采购进口**嘎啦**，建议优先联系佳农业务确认当前批次产地（通常新西兰供应期较稳定，美国次之）。  \n- 进口**红富士**佳农常供美国、新西兰产线，具体需根据季节（如美国产红富士秋冬季上市）。\n\n**获取准确信息**：  \n建议直接访问佳农官网或联系其销售团队（可通过官方客服渠道获取最新供应链信息），因为进口水果产地随季节、海运、采购合同动态调整。无需自行搜索虚构数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 267,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

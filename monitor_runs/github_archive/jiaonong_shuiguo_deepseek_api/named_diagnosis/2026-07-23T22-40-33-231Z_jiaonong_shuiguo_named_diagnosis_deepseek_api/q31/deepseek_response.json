@@ -1,0 +1,28 @@
+{
+  "id": "fa5ac8a3-5d74-4771-b7f0-3f2a34776657",
+  "object": "chat.completion",
+  "created": 1784846561,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农水果确实有针对礼品团购需求推出的水果礼盒产品线。常见的包括高端混合水果礼盒、单一品种礼盒（如进口车厘子、蓝莓、凤梨等），包装设计通常较为精美，适合企业福利、节日送礼或商务赠礼。\n\n具体礼盒种类、起订数量、定制包装（如印logo、贺卡）、价格和配送范围，建议你直接联系佳农官方客服或当地经销商获取最新、准确的团购方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 104,
+    "total_tokens": 156,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

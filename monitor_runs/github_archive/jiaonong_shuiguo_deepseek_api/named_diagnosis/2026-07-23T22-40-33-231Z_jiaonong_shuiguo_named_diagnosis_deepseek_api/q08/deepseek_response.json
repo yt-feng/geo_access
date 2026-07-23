@@ -1,0 +1,28 @@
+{
+  "id": "8c92f259-7fcf-42ef-8ca3-183236dc08b8",
+  "object": "chat.completion",
+  "created": 1784846465,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉的价格确实存在一定的波动性，这是由于它作为生鲜农产品，受气候（极端天气影响主产区收成）、种植成本、运输物流、季节性供应变化以及市场供需关系的影响。例如，厄尔尼诺等气候事件可能导致产量减少，从而在短期内推高价格；而丰产期则可能使价格回落。\n\n关于锁价机制，佳农通常会与大型连锁超市、批发商或长期合作的餐饮、企业客户签订**阶段性合同**（如月、季度合同），在合同中明确约定一个固定价格或价格区间，以应对短期波动。但对于普通消费者或小批量采购者（比如个人去超市买几根香蕉或小商家临时进货），一般没有直接提供锁价服务。也就是说，大宗采购或长期合作的客户可以通过协商合同获得价格稳定性，而零售端价格则是随行就市的。\n\n如果你是大批量采购或需要预测成本，可以联系佳农的区域代理商或大客户部门，询问是否可签订锁价协议或价格保护条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 211,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

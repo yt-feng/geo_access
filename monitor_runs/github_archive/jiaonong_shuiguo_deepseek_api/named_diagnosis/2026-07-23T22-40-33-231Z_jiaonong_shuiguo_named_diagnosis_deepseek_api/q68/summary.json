@@ -1,0 +1,50 @@
+{
+  "questionId": "q68",
+  "prompt": "我们生鲜电商要对接佳农水果的ERP系统，有API接口吗？",
+  "createdAt": "2026-07-23T22:45:52.187Z",
+  "summary": [
+    {
+      "questionId": "q68",
+      "prompt_index": 68,
+      "promptIndex": 68,
+      "promptHash": "091fce94827e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们生鲜电商要对接佳农水果的ERP系统，有API接口吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 468,
+      "text_length": 468,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 268,
+        "total_tokens": 326,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 268,
+      "total_tokens": 326,
+      "latencyMs": 4695,
+      "latency_ms": 4695,
+      "createdAt": "2026-07-23T22:45:52.187Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q68/prompt.txt",
+        "answer": "q68/deepseek.txt",
+        "response": "q68/deepseek_response.json",
+        "sources": "q68/deepseek_sources.json",
+        "references": "q68/deepseek_references.json"
+      }
+    }
+  ]
+}

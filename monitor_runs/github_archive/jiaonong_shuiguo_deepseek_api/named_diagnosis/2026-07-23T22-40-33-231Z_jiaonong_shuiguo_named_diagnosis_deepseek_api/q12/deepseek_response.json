@@ -1,0 +1,28 @@
+{
+  "id": "14f5ef51-e42a-4629-91a1-a86cf11deaf8",
+  "object": "chat.completion",
+  "created": 1784846483,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常提供以下规格和分级标准（具体可能因批次或区域微调）：\n\n**常见规格（按包装重量）：**\n1. **小箱**（约13-14公斤/箱）——适合便利店、水果店零售。\n2. **大箱**（约18-20公斤/箱）——适合超市、批发渠道。\n\n**分级标准（按果指长度和外观）：**\n1. **特级/精选级**：果指长度≥20厘米，无黑斑、无机械伤，果形整齐，适宜精品水果店、高端商超。\n2. **一级/标准级**：果指长度≥17厘米，允许轻微斑点，适合普通超市、连锁水果店。\n3. **二级/经济级**：果指长度≥14厘米，可有小面积瑕疵，适合批发市场、促销活动或加工用。\n\n**渠道适配建议：**\n- 高端超市/精品店 → 特级小箱（强调卖相、整齐度）\n- 普通超市/社区水果店 → 一级大小箱均可（平衡成本与品质）\n- 批发市场/食堂/工厂 → 二级大箱（成本优先，注重性价比）\n\n如需当前最新具体参数，建议直接联系佳农当地经销商或销售代表确认库存规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 272,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

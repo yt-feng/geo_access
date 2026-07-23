@@ -1,0 +1,28 @@
+{
+  "id": "9dd34e95-b3e8-4418-b583-7625e748c002",
+  "object": "chat.completion",
+  "created": 1784846712,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！佳农水果确实有针对便利店渠道的小包装香蕉。具体来说，佳农通常提供单根独立包装的香蕉，常见规格为每根约120克至150克，采用密封袋或贴标包装，适合便利店、超市等零售场景销售。建议您直接联系佳农的水果分销商或通过其官方渠道（如官网、批发平台）确认库存和订购方式，因为供应情况可能因地区和季节略有差异。小包装香蕉非常适合便利店，能减少损耗、提高周转率。希望这能帮助到您！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 114,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

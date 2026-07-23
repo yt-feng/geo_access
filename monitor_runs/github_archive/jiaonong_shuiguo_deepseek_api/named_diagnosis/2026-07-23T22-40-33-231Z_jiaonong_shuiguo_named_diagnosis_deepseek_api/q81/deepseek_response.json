@@ -1,0 +1,28 @@
+{
+  "id": "4cac8280-7767-4736-a5f5-cc11f49e4b54",
+  "object": "chat.completion",
+  "created": 1784846836,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "感谢您的询问！目前佳农品牌的香蕉产品主要常见规格为5kg及以上的整箱装（适用于超市、批发），3kg装的小包装香蕉在标准化产品线中并不常见，更适合小面积门店或家庭消费的规格可能是**1kg-2kg的散装/小箱装**，但具体需要直接向佳农官方确认或咨询当地经销商。\n\n**建议您采取以下步骤：**\n1. **联系佳农官方客服或区域销售代表**（电话或官网），询问是否有针对便利店的小包装定制方案，比如“3kg规格”或“混合小包装（如苹果、橙子等3kg混装）”。\n2. **查询本地批发市场或经销商**（如上海、杭州等地的水果批发集散地），许多经销商可按需分装成小包装，例如2kg纸箱装香蕉或苹果。\n3. **关注产品标签**：小型包装通常以“水果捞家庭装”、“小袋装”等形式出现，可直接询问是否有类似SKU。\n\n若暂时难以获得佳农小包装，也可考虑其他品牌的小规格水果（如“金牛津”的2kg装香蕉）作为替代品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 246,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
