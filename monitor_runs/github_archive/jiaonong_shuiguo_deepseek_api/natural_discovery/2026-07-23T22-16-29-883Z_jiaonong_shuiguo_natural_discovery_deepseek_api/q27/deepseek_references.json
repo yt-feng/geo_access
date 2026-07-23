@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:19:55.839Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市采购苹果和橙子，怎么判断大小规格是否适合门店销售？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

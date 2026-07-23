@@ -1,0 +1,28 @@
+{
+  "id": "2b3625ec-4971-4305-81f2-9725204c6455",
+  "object": "chat.completion",
+  "created": 1784845777,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "水果采购锁价的时间通常取决于市场供需、水果品类、季节以及双方的合作深度。一般来说：\n\n- **短锁价**：1-2周，适用于市场波动大或应季水果（如荔枝、樱桃）。\n- **中锁价**：1-3个月，适用于供需相对稳定的品类（如苹果、柑橘）。\n- **长锁价**：个别大客户或全年合作的可达半年以上，但需供应商认可，且价格通常高于市场均价。\n\n建议你根据水果的当季情况、历年价格波动和供应商的信用度，先尝试2-4周的锁价试点，再根据实际调价与交货量调整。关键是与供应商明确锁价协议内容（如数量、品质基准、违约条款），避免模糊约定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 160,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

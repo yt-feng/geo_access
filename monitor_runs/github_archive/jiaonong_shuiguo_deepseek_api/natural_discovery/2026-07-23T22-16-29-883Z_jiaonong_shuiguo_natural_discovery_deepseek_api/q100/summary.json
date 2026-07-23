@@ -1,0 +1,50 @@
+{
+  "questionId": "q100",
+  "prompt": "学校食堂采购香蕉，如何避免熟过头导致浪费？",
+  "createdAt": "2026-07-23T22:29:10.494Z",
+  "summary": [
+    {
+      "questionId": "q100",
+      "prompt_index": 100,
+      "promptIndex": 100,
+      "promptHash": "e8bab54910e2",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "学校食堂采购香蕉，如何避免熟过头导致浪费？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 560,
+      "text_length": 560,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 353,
+        "total_tokens": 405,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 52
+      },
+      "prompt_tokens": 52,
+      "completion_tokens": 353,
+      "total_tokens": 405,
+      "latencyMs": 5606,
+      "latency_ms": 5606,
+      "createdAt": "2026-07-23T22:29:10.494Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q100/prompt.txt",
+        "answer": "q100/deepseek.txt",
+        "response": "q100/deepseek_response.json",
+        "sources": "q100/deepseek_sources.json",
+        "references": "q100/deepseek_references.json"
+      }
+    }
+  ]
+}

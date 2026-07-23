@@ -1,0 +1,28 @@
+{
+  "id": "842080b9-333c-4139-8985-5b51fda94bc4",
+  "object": "chat.completion",
+  "created": 1784845167,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常超市做水果促销时，供应商可以提供以下支持：\n\n1. **陈列支持**：供应商常提供专门的陈列架、堆头或特殊展示道具，帮助突出促销商品位置和视觉效果。  \n2. **海报支持**：包括制作促销海报、价格标签、吊旗等宣传物料，部分供应商还可提供品牌专属设计。  \n3. **试吃支持**：供应商可提供试吃品、试吃台、一次性用具，以及安排工作人员现场推广。  \n\n**建议**：直接联系您的供应商确认具体合作条款。不同供应商的支持力度可能不同（如是否需最低采购量、费用分摊方式等），最好提前书面确认内容和责任划分。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 141,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

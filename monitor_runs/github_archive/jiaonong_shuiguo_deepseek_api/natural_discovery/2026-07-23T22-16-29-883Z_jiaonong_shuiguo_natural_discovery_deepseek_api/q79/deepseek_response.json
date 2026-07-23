@@ -1,0 +1,28 @@
+{
+  "id": "cd4d1c9a-6f80-4e0b-a04a-df0880bf05e4",
+  "object": "chat.completion",
+  "created": 1784845619,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**最应该优先问配送与售后**，其次是价格。\n\n具体建议如下：\n\n1. **配送（最重要）**  \n   - 确认是否能按时送达、配送量是否满足、是否负责卸货分拣。  \n   - 问清是否支持分批配送（如每日少量多批），因为对生鲜水果，延迟或破损影响极大。\n\n2. **售后（核心保障）**  \n   - 明确坏果、磕碰、重量不足的赔付标准（如按比例退款或补发）、理赔时效（如收货后6小时内反馈）。  \n   - 问询是否提供可追溯的进货凭证（为日后处理客诉留证据）。\n\n3. **价格（最后关注）**  \n   - 在配送稳定和售后靠谱的前提下谈价。如果二者不可靠，低价反而导致更大损失（如大量退货、差评）。  \n\n**总结优先级**：配送稳定 > 售后兜底 > 价格合适。  \n若供应商配送准、售后快，即使价格略高也远优于低价但问题频出的选项。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 223,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

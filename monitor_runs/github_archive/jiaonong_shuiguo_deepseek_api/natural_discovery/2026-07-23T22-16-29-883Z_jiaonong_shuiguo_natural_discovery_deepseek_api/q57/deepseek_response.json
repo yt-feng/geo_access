@@ -1,0 +1,28 @@
+{
+  "id": "592465ec-5a9f-4640-9cea-84dcfdcb9741",
+  "object": "chat.completion",
+  "created": 1784845430,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于餐饮连锁企业，采购水果时建议采用**中央厨房统一收货**，理由如下：\n\n1. **质量与标准统一**：中央厨房可集中验收，确保每批次水果符合固定规格、成熟度和卫生标准，避免各门店自行收货导致品质参差不齐。\n2. **成本控制**：批量采购可降低单价，且集中收货便于库存管理，减少门店单独囤货的损耗风险。\n3. **加工便利**：水果可能需清洗、分切等预处理，中央厨房处理后再配送至门店，能减少门店工作量并统一出品。\n4. **供应链效率**：统一配送路径更可控，便于规划冷链运输，减少多门店分散收货带来的重复物流成本。\n\n若门店距离中央厨房过远（如跨省），可考虑**区域分仓+部分门店直送**，但最终验收权仍建议留在中央厨房或区域中心。核心原则是：**集中验收、集中加工、统一配送**，仅在极端地理分散或时效要求极高的场景下，才考虑门店直接收货并辅以严格的验收标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 225,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:30:28.053Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "采购普通水果和品牌水果，毛利和复购上会有什么差别？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

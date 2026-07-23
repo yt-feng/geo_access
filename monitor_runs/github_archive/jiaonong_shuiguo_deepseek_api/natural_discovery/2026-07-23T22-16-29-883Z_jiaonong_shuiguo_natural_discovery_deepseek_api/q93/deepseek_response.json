@@ -1,0 +1,28 @@
+{
+  "id": "03decb87-ccee-461b-9422-114c838bd52d",
+  "object": "chat.completion",
+  "created": 1784845706,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "三个环节都值得关注，优先级建议如下：\n\n1. **保质期（最重要）**  \n   - 菠萝切块后极易氧化变质，一般冷藏保质期1-3天。需明确标注生产时间和到期时间，并配合“当日制作/当日销售”或“隔夜丢弃”制度。\n   - 建议按小时评估：早市切块上午出，下午快过期时打折或做成菠萝汁，避免隔夜。\n\n2. **包装（直接影响货架期与顾客体验）**  \n   - 使用**气调保鲜包装**（充氮或混合气体）或**真空密封**，能延长保质期至3-5天。\n   - 透明盒+防雾膜便于顾客选看，但不要完全密封（易积水）。标签需醒目提示“需冷藏”。\n\n3. **配送频次（与保质期强关联）**  \n   - 如果保质期仅1-2天，建议**每日配送一次**（清晨到货，当天卖完）。若高周转且包装良好，可降低至2-3次/周。\n   - 门店自提或外卖分时段：早高峰前到店，午高峰补一次，晚高峰前清货。\n\n**操作建议：**  \n- 按“保质期天数为基准，包装延长寿命，配送频次匹配销售峰谷”顺序设计流程。  \n- 未售完食材需有销毁记录，避免过期切块混入。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 310,
+    "total_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

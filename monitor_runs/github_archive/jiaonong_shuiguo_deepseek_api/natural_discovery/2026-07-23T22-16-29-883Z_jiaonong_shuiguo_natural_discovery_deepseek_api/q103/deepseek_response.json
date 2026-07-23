@@ -1,0 +1,28 @@
+{
+  "id": "42294a97-6dd6-4c10-9bf9-200fc6b19f63",
+  "object": "chat.completion",
+  "created": 1784845768,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这三种结算方式各有优劣，具体选择取决于食堂的规模和采购流程：\n\n1. **按斤结算**：适合大宗采购（如苹果、香蕉等散装水果），便于根据实际用量精确控制成本，但需要配备称重设备并记录每笔重量，管理相对繁琐。\n2. **按箱结算**：适合规格统一、包装标准的水果（如整箱葡萄、橙子），简化称重环节，但需注意箱内水果实际重量可能与标称不符，建议抽检。\n3. **按份结算**：适合已分装好的小份水果（如切好的果盒），方便直接销售或配餐，但单价较高，且需提前制定每份重量标准并监督分装质量。\n\n**建议**：如果食堂需求稳定、以散装水果为主，**按斤结算**最公平且易控制成本；若采购量大且供应商标准化程度高，**按箱结算**更省时；若食堂针对特定窗口或外带需求，**按份结算**更直接。实际操作中可混合使用：大宗水果按斤或按箱，加工后的水果按份。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 237,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

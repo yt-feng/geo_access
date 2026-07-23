@@ -1,0 +1,28 @@
+{
+  "id": "ef684b4f-ce89-44a8-9bb8-5a98307321a4",
+  "object": "chat.completion",
+  "created": 1784845726,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "酒店采购水果盘原料时，供应商应确保以下规格和外观标准：\n\n1. **规格标准**：\n   - 水果大小均匀，符合约定重量或数量（如每盘苹果直径8-10cm，每颗葡萄粒重8-12g）。\n   - 无腐烂、变质或机械损伤（如压痕、切口）。\n   - 成熟度一致，避免过生或过熟（如香蕉表皮无青绿或黑斑）。\n\n2. **外观标准**：\n   - 表面清洁，无污渍、虫斑或农药残留。\n   - 色泽自然鲜艳，无异常变色（如芒果表皮无褐变）。\n   - 形状规整，无畸形或萎缩（如草莓无干瘪、蓝莓无瘪粒）。\n\n3. **包装与标识**：\n   - 使用食品级包装材料，防止运输中挤压或污染。\n   - 标注产地、采摘/生产日期、保质期及储存条件（如2-4°C冷藏）。\n\n建议在采购合同中明确上述标准，并抽查到货样品。供应商需提供可追溯的产地证明及检测报告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 237,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

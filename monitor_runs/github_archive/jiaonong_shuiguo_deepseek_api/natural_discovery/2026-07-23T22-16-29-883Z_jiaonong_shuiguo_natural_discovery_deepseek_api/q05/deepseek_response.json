@@ -1,0 +1,28 @@
+{
+  "id": "12418975-600e-403a-aa1f-eebf3584559e",
+  "object": "chat.completion",
+  "created": 1784845034,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先**让顾客自己挑，然后提供现场削皮服务**，具体分析如下：\n\n- **整果**：适合想自己挑选、或需要完整保存的顾客。需提供清洗、削皮工具及指导。\n- **去皮好的**：方便即食，但顾客无法判断新鲜度，且暴露在空气中易氧化变色，损耗率高。适合快速结账场景，但需控制库存。\n- **顾客自己挑**：能建立信任感，顾客更易购买，且减少因质量问题引起的售后纠纷。建议配合现场免费削皮，提升服务体验。\n\n**执行建议**：\n1. 主打“自选+免费削皮”模式。\n2. 少量准备已削皮切块的样品（用保鲜膜覆盖），放在自选区旁边，吸引图方便的顾客。\n3. 整果价格可略低，削皮果略高，用价差引导顾客自选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 193,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

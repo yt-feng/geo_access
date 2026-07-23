@@ -1,0 +1,28 @@
+{
+  "id": "7794013a-f47c-4ce3-b059-8c2539b377ea",
+  "object": "chat.completion",
+  "created": 1784845688,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以向消费者解释以下几点，重点突出品质、成本和差异化价值：\n\n1. **品种与口感不同**：进口香蕉通常选用特定品种（如都乐、佳农的“芝麻蕉”），果肉更甜糯、香味更浓，普通香蕉可能偏酸或涩。\n\n2. **运输与保鲜成本高**：进口香蕉需从产地（如菲律宾、厄瓜多尔等）经冷链海运或空运到国内，途中需恒温仓储、催熟处理，物流和损耗成本远高于国内香蕉（海南、广东等产区运输半径短）。\n\n3. **标准化与品控严格**：进口香蕉通常经过分选（大小、色泽、成熟度一致），无机械损伤或病斑，而普通香蕉可能大小参差、外观不均匀。\n\n4. **产地溢价**：某些进口香蕉有品牌认证或地理标志（如菲律宾“GS”认证），消费者可视为“水果精品”购买。\n\n**话术参考**：“这款进口香蕉经过严格挑选，产地直采+冷链直达，比普通香蕉口感更甜、果肉更细腻，运输成本高所以价格稍贵，但口感和品控有保障。”\n\n如果价格差距过大（如2-3倍以上），需强调“少量试吃装”或“会员价”，避免消费者直接对比后放弃购买。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 277,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

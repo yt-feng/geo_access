@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:20:44.507Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "商超采购水果，价格低和损耗低哪个更影响最终毛利？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

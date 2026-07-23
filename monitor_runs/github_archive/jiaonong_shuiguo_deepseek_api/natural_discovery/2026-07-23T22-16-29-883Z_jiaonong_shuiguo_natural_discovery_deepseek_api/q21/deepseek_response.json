@@ -1,0 +1,28 @@
+{
+  "id": "e5954177-be3e-46f0-839e-854730fe4a27",
+  "object": "chat.completion",
+  "created": 1784845153,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市采购水果时，供应商通常需要提供以下检测报告或进货证明，以确保水果符合食品安全标准：\n\n1. **产地证明**：提供水果来源的产地证明，如生产基地的注册信息或产地检疫合格证。\n2. **农药残留检测报告**：需由专业机构出具，证明水果中的农药残留量符合国家或行业安全标准（如GB 2763-2021《食品中农药最大残留限量》）。\n3. **重金属检测报告**：检测水果中的铅、镉、汞等重金属含量，确保不超标。\n4. **检疫证明**：如果是进口水果，需提供海关出具的入境货物检验检疫证明，确保无病虫害。\n5. **合格证或出厂检验报告**：供应商自行出具或由第三方机构检验，证明产品符合质量标准。\n6. **进货凭证**：包括发票、送货单或合同，验证采购渠道的正规性。\n\n具体需求可能因超市要求或当地食品监督法规有所不同。建议采购时与供应商确认所提交的报告清单，并保留复印件备查。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 220,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

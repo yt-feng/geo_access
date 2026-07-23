@@ -1,0 +1,28 @@
+{
+  "id": "9a9f22a8-e642-4eae-9077-7d56a5daff3b",
+  "object": "chat.completion",
+  "created": 1784845848,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采购方新品试卖数量控制在**正常销量的10%~20%**之间，或者具体到**单店单日10~30份**左右，具体可参考以下原则：\n\n1. **按门店类型分**：  \n   - 社区店/小水果店：建议先试卖**10~20斤/天**，观察顾客复购率。  \n   - 商圈/写字楼店：客流量较大，可试卖**20~30斤/天**，配合试吃活动。  \n\n2. **按水果品类分**：  \n   - 易损耗品（如草莓、蓝莓）：首批数量需更保守，控制在**5~10斤/天**，避免积压变质。  \n   - 耐储存品（如苹果、橙子）：可增加至**15~25斤/天**，但需预留7天左右的陈列期。  \n\n3. **核心判断标准**：  \n   - 试卖期**3~5天**内，若日均销量达到试卖量的70%以上，可考虑追加订单；若低于30%，应暂停采购并分析原因（定价、口感、陈列位置等）。  \n\n**执行建议**：  \n- 先采购**最小包装单位**（如1箱或1筐），分给不同门店做对比测试。  \n- 同时搭配**试吃装**，记录顾客主动询问或复购的比例（高于40%可视为有潜力）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 309,
+    "total_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b7746dd7-79fa-4ea1-8d53-fdc165c7c59d",
+  "object": "chat.completion",
+  "created": 1784845773,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "验收方面：到货时按照订单标准（规格、颜色、成熟度、包装）逐箱抽样检查，通常抽10%-20%。关注明显损伤、腐烂、果形异常、大小不均、成熟度差异过大等。建议拍照或录视频留证，尤其是开箱后即时状态。\n\n售后方面：发现品质不一致，第一时间（通常24小时内）通知供应商，附上清晰照片或视频。根据合同约定，常见处理方式有“退换货”“补发”“按比例退款”或“折扣结算”。如果供应商无明确售后政策，建议优先协商折价处理，避免实物退回增加运输损耗。\n\n注意：对于“轻微不一致”（如个头稍小、颜色稍浅）影响不大的，可协商降价接受；对于严重不一致（如大面积腐烂、品种错误），坚决要求退换。保留所有沟通记录和验收凭证，作为后续追责依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 187,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

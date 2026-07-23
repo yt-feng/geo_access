@@ -1,0 +1,28 @@
+{
+  "id": "cd25a384-ee9f-4f50-acd4-68d9a0111427",
+  "object": "chat.completion",
+  "created": 1784845787,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，起订量太高确实会增加损耗风险。主要原因是香蕉和菠萝属于易腐水果，保质期相对较短，储存条件要求较高。如果采购量超出实际销售速度，可能导致部分水果在售出前变质、软化、发霉或失水萎蔫，造成直接经济损失。此外，大量进货还占用仓储空间和资金，增加管理成本。建议根据历史销售数据、客流量和保鲜条件合理设定起订量，或与供应商协商分批次、小批量采购，以降低损耗风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 111,
+    "total_tokens": 166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q05",
+  "prompt": "水果店卖菠萝，应该买整果、去皮好的，还是让顾客自己挑？",
+  "createdAt": "2026-07-23T22:17:14.100Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt_index": 5,
+      "promptIndex": 5,
+      "promptHash": "01c92ea93dae",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店卖菠萝，应该买整果、去皮好的，还是让顾客自己挑？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 299,
+      "text_length": 299,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 193,
+        "total_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 193,
+      "total_tokens": 252,
+      "latencyMs": 3935,
+      "latency_ms": 3935,
+      "createdAt": "2026-07-23T22:17:14.100Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q05/prompt.txt",
+        "answer": "q05/deepseek.txt",
+        "response": "q05/deepseek_response.json",
+        "sources": "q05/deepseek_sources.json",
+        "references": "q05/deepseek_references.json"
+      }
+    }
+  ]
+}

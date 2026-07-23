@@ -1,0 +1,28 @@
+{
+  "id": "a9e9699d-0707-470a-b403-6d236bf35e1e",
+  "object": "chat.completion",
+  "created": 1784845722,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "三者都需要关注，但**食品安全**是最优先的。原因如下：\n\n1. **食品安全是底线**：一旦出现农残超标、霉变或致病菌污染，会直接导致员工食物中毒，可能引发群体事件、法律纠纷和严重声誉损失。没有食品安全，价格再低、配送再准也毫无意义。\n\n2. **采购流程建议**：\n   - 首先，优先选择有资质、可溯源、有检测报告的正规供应商，并在合同中明确食品安全标准和赔付条款。\n   - 其次，在确保安全的基础上，通过比价和签订长期合同控制价格，同时要求供应商承诺配送时间（如每天固定时间送达，超时罚款）。\n   - 最后，定期抽样送检或快速检测，防止供应商后期降低品质。\n\n简而言之：**安全是前提，价格和配送是优化项**。如果预算有限，宁可降低品种或减少配送频次，也不能在食品安全上妥协。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 196,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

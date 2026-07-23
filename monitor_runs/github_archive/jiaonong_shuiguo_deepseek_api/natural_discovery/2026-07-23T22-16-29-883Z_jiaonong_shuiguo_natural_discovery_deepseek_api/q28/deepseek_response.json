@@ -1,0 +1,28 @@
+{
+  "id": "9a7f511e-e930-4080-bbdb-ab1f1a899fc6",
+  "object": "chat.completion",
+  "created": 1784845202,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议从**香蕉**开始。原因如下：\n\n1. **供应链成熟**：进口香蕉（如菲律宾、厄瓜多尔）的冷链和运输体系非常成熟，不易断货，且价格相对稳定。\n2. **受众广、周转快**：香蕉是大众消费频率最高的进口水果之一，损耗相对可控，能快速测试进口水果区的人气。\n3. **操作门槛低**：香蕉不需要复杂包装或特殊陈列，对店员培训要求低。\n\n**后续步骤**：\n- 先联系1-2家一级进口商或国内大型批发市场（如上海辉展、广州江南），要求提供小批量试销。\n- 观察前两周销量、损耗率和顾客反馈。如果日均销量超过30箱且损耗率低于8%，再考虑引入菠萝或苹果。\n\n注意：苹果进口品种（如红蛇果、青苹果）价格波动大，且国内优质苹果竞争激烈；菠萝（如都乐金菠萝）需要专用削皮工具和促销推广，适合在香蕉试销成功后再引入。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 218,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cdae9395-434d-4244-9d97-1c5feb2e8b9a",
+  "object": "chat.completion",
+  "created": 1784845806,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不一定。产地直采确实可能减少中间环节，从而降低采购成本，但实际价格还受运输、保鲜、损耗、起订量等因素影响。例如，远距离运输可能增加物流和冷藏成本，而中小批量采购时，直采方的单位物流成本可能高于批发市场。建议你根据实际采购量、距离、储存条件综合判断，可以先对比直采报价与批发市场价，同时评估质量一致性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 91,
+    "total_tokens": 146,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

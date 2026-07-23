@@ -1,0 +1,28 @@
+{
+  "id": "a799d4e9-7cd2-4ca2-a6fd-8cc12edac846",
+  "object": "chat.completion",
+  "created": 1784845244,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "商超采购水果时，**损耗低**通常比价格低对最终毛利的影响更大。原因如下：\n\n1. **损耗直接吞噬毛利**：水果易腐，损耗（如腐烂、磕碰、过期）会直接减少可售数量。即使进价低，若损耗率过高（如超过15%-20%），实际毛利率可能转为负数。例如：进价1元/斤，售价2元/斤，毛利率50%；若损耗20%，实际毛利仅0.6元/斤，毛利率降至30%，低于低损耗情景。\n\n2. **价格优势有限**：低价采购虽能降低单位成本，但若因品质差导致损耗上升，或影响销售速度（货架期短），综合成本反而更高。低价还可能伴随劣质货源，顾客复购率下降，进一步压缩长期利润。\n\n3. **控制损耗可提升周转**：水果毛利主要依赖快速周转。通过优化冷链、库存管理和分级销售（如将不完美的水果折扣处理），可将损耗控制在2%-5%，进而稳定毛利率。\n\n**建议**：优先选择品质稳定、损耗可控的供应商，即使进价略高；同时关注库存周转率和损耗率指标（如每日盘亏核算），而非单纯看采购价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 261,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

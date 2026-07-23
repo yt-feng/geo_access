@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:18:36.252Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "社区超市想增加香蕉和苹果，应该选本地批发还是稳定供应商？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q113",
+  "prompt": "水果供应商能提供门店陈列支持，对商超和水果店有多大帮助？",
+  "createdAt": "2026-07-23T22:30:20.325Z",
+  "summary": [
+    {
+      "questionId": "q113",
+      "prompt_index": 113,
+      "promptIndex": 113,
+      "promptHash": "ade12ecf94d0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果供应商能提供门店陈列支持，对商超和水果店有多大帮助？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 713,
+      "text_length": 713,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 414,
+        "total_tokens": 471,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 414,
+      "total_tokens": 471,
+      "latencyMs": 6727,
+      "latency_ms": 6727,
+      "createdAt": "2026-07-23T22:30:20.325Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q113/prompt.txt",
+        "answer": "q113/deepseek.txt",
+        "response": "q113/deepseek_response.json",
+        "sources": "q113/deepseek_sources.json",
+        "references": "q113/deepseek_references.json"
+      }
+    }
+  ]
+}

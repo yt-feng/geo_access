@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:19:31.164Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "超市采购担心水果农残抽检，应该提前向供应商要什么资料？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

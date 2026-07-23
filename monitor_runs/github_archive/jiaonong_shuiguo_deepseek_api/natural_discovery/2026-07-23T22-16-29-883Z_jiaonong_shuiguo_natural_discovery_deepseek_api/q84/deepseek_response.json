@@ -1,0 +1,28 @@
+{
+  "id": "60108305-adcb-46fa-997d-5f905f26afe4",
+  "object": "chat.completion",
+  "created": 1784845648,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对家庭团购水果礼盒，建议选择 **“经典营养搭配”** ，兼顾口感、营养和储存便利性。推荐组合如下：\n\n**组合方案：**\n- 苹果（2-3个）—— 寓意平安，耐储存，全家都爱吃\n- 橙子（2-3个）—— 补充维生素C，酸甜适口，适合老人和孩子\n- 香蕉（1-2根）—— 易消化、富含钾，适合早餐或加餐\n- 菠萝（1个）—— 促进消化，增加礼盒丰富度和视觉色彩\n\n**理由：**\n- 苹果、橙子较耐放，香蕉、菠萝需尽快食用，可形成“先吃香蕉和菠萝，再吃苹果和橙子”的自然食用节奏\n- 四种水果颜色（红、黄、橙、绿）搭配美观，提高礼盒档次\n- 价格适中，家庭一次性食用不浪费\n\n**注意：** 香蕉和菠萝不要放一起（乙烯催熟），建议分开放置或用隔板隔开；如果团购量大，可以改为2个苹果+2个橙子+1根香蕉+半个小菠萝的组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 249,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

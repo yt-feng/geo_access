@@ -1,0 +1,28 @@
+{
+  "id": "914355fc-eec0-48a0-ad51-6654a5303b00",
+  "object": "chat.completion",
+  "created": 1784845141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议按以下优先级关注：\n\n1. **外观**（第一优先级）  \n   - 判断成熟度：果皮呈金黄色（或橙黄色）、叶片翠绿挺拔，基部无发黑、霉斑。  \n   - 避免碰伤、软烂部位（易导致内部腐败）。  \n   - 叶子容易拔下通常代表熟度较高（可现场测试一根）。  \n\n2. **甜度**（第二优先级）  \n   - 闻果底：有浓郁菠萝香气者较甜。  \n   - 按果身：轻微弹牙（软硬适中）说明糖分积累充分。  \n   - 若允许，可要求试吃小块（尤其已切好的）。  \n\n3. **大小**（第三优先级）  \n   - 同等成熟度下，选择略重的（水分足、果肉紧实）。  \n   - 根据食量选：大菠萝可能纤维较粗（适合做菜/烤制），小菠萝通常更细嫩（适合生吃）。  \n\n4. **切果损耗**（需结合用途判断）  \n   - 若即食：优先选已去皮的，但需检查切面是否氧化变黑、透明化（可能已放置过久）。  \n   - 若需自切：避免形状奇特的菠萝（削皮后损耗率可能高达30-40%）。  \n\n**总结**：先看外观确保新鲜无伤，再通过气味与手感应证甜度，大小和损耗根据实际需求权衡。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 318,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
