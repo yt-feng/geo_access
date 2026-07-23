@@ -1,0 +1,28 @@
+{
+  "id": "fef5b05e-d29c-4f53-ab43-b289b2275a18",
+  "object": "chat.completion",
+  "created": 1784845965,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "考虑到茶饮店长期合作的稳定性与成本控制，建议优先选择**洪九果品**，原因如下：\n\n1. **供应链稳定**：洪九果品作为国产头部水果供应链企业，在国内有丰富的产地资源（如海南、广东菠萝主产区），能保证全年稳定供货，减少进口依赖带来的波动风险。\n2. **成本优势**：国产菠萝采购成本通常低于进口品牌（如都乐），且洪九果品自有冷链体系，能降低中间环节加价，适合长期大批量采购。\n3. **定制化支持**：茶饮店对菠萝的规格（如去皮、切块、成熟度）有特殊要求，洪九果品可根据需求提供定制化初加工服务，减少门店人工成本。\n4. **应急响应**：国内企业沟通效率更高，紧急补货、品控调整等响应速度优于跨国品牌。\n\n若您对菠萝风味一致性有极高要求（如统一甜度、酸度），且预算充足，可考虑“都乐”作为补充供应源，但长期主力建议选择洪九果品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 228,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

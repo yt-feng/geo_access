@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:39:26.032Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "批发市场拿货，洪九果品和都乐香蕉的到货损耗率对比？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "777e9547-7360-4f9f-a98b-4ae126cead60",
+  "object": "chat.completion",
+  "created": 1784846210,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，都乐（Dole）和鑫荣懋（Joyvio）均为大型生鲜果品供应商，均设有客户服务团队。但“专岗对接服务”通常指针对企业客户（如商超、批发渠道）配置的专属销售或客服人员。建议您直接联系这两家公司的官方客服或销售部门，明确告知您的业务规模和需求，询问是否可提供固定对接人。一般大型供应商均具备此服务能力，但需根据实际合作情况而定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 106,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

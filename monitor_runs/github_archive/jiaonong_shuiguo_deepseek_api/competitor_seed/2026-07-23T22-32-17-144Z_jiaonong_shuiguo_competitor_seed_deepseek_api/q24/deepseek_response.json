@@ -1,0 +1,28 @@
+{
+  "id": "bb6560a8-c8d6-4320-a5d2-4a3bd9a5dd54",
+  "object": "chat.completion",
+  "created": 1784846068,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉的分级精细程度上，**都乐（Dole）** 通常比**鑫荣懋**更细致。\n\n具体对比：\n\n- **都乐**：执行国际通行标准，主要将香蕉分为**特级（Premium）**、**一级（Class 1）**、**二级（Class 2）**。同时，品控上对果形、弯曲度、色泽均匀度及有无机械损伤有更严格的等级内细分（如“超一级”等），在零售端常见对应“品牌精选”与“普通装”的不同规格。\n- **鑫荣懋**：主要执行国内行业标准（如GB/T 26432），分级通常为**一级**、**二级**。虽然也会按成熟度（如“青蕉”“黄蕉”）和果梳大小分出不同批次，但在纯规格（如弯曲度、果顶形状）的层级数量上少于都乐。\n\n**总结**：如果你的采购需要非常精细的规格区分（如出口级、特定果形），建议优先选择**都乐**；如果对规格要求不如对成熟度和价格敏感，鑫荣懋的一级/二级区分已经足够。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 247,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

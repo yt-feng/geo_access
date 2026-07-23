@@ -1,0 +1,28 @@
+{
+  "id": "b4e8aed2-07e2-4273-8e83-df008adda0e1",
+  "object": "chat.completion",
+  "created": 1784846371,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对都乐和鑫荣懋在菠萝产地直发方面的物流时效，以下是基于行业通用情况的总结（具体时效可能因区域、季节或合作模式浮动）：\n\n1. **都乐（Dole）**  \n   - 主要依托自有冷链物流体系，从菠萝产区（如海南或菲律宾基地）到一线城市（如北上广深）通常需 **2-3天**。  \n   - 实施“产地直发”时，通常采用整车或拼车运输，每日固定班次，时效较稳定，但二线城市可能增加1天中转。  \n\n2. **鑫荣懋（Xinrongmao）**  \n   - 依赖第三方冷链物流（如顺丰冷运、京东冷链）覆盖更广，从产地（如云南、海南）到全国主要城市多数在 **3-4天**。  \n   - 季节性货源紧张时可能出现发车延迟，建议提前确认排期。  \n\n**建议**：  \n- **批量采购**：优选都乐，其自有物流对批次稳定性更可控。  \n- **小批量或偏远区域**：鑫荣懋的第三方合作物流网络覆盖更灵活，但需预留更多缓冲时间。  \n- 直接联系两家销售代表获取 **历史实际到货数据表**，要求提供针对你所在城市的“最近30天平均时效”案例。  \n\n若需更具体的数据（如到货准时率），建议直接要求供应商提供物流系统截图作为履约凭证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 314,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

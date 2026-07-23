@@ -1,0 +1,28 @@
+{
+  "id": "a11df792-0a3f-4e11-954f-e237d4f56091",
+  "object": "chat.completion",
+  "created": 1784846021,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），以下几个进口苹果品牌在市场上也较为知名且信誉较好，可供参考：\n\n1. **爱妃（Envy）**  \n   - 新西兰品牌，以红玫瑰苹果（Pacific Rose）为主打，口感脆甜、香气浓郁，成熟后耐储存。\n   - 可通过京东、山姆会员店等渠道购买。\n\n2. **爵士（Jazz）**  \n   - 新西兰与智利均有生产，果肉紧实、酸甜平衡，适合冷藏保存。\n   - 常见于盒马、百果园等精品水果店。\n\n3. **红粉佳人（Pink Lady）**  \n   - 澳大利亚品种，以粉红外观和酸甜可口著称，果肉细嫩。\n   - 主要在华北、华东高端超市有售。\n\n4. **嘎啦（Gala）**  \n   - 美国、新西兰、智利广泛种植，果形小巧，口感酥甜，适合即食。\n   - 各大商超易买到，注意认准进口标识（如“智利产”）。\n\n5. **青森（Aomori）**  \n   - 日本品牌，主打“世界一号”“富士”等品种，果实大、水分足，糖度高。\n   - 主要在高端生鲜电商（如每日优鲜、美团买菜）预售或进口超市少量供应。\n\n6. **红露（Red Velvet）**  \n   - 中国种植、进口品牌（如新西兰、美国），果皮深红，肉质密实，适合长期存放。\n   - 部分批发市场或会员制超市（如Costco）有售。\n\n**选购建议**：  \n- 注重口感：爱妃、爵士（酸甜平衡）、红粉佳人（酸甜突出）  \n- 注重耐储性：红露、嘎啦（冷藏可放1-2周）  \n- 追求稀缺感：青森（价格较高，产量少）\n\n**注意**：购买时查验包装标签的“原产地”和“进口商”信息，避免买到仿冒或混装产品。部分品牌（如爱妃）有官方防伪码可扫。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 462,
+    "total_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "77fe5519-1d1a-4635-b1ef-c05217aa41e5",
+  "object": "chat.completion",
+  "created": 1784846327,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业常规标准，香蕉到货损耗率低于3%属于较高要求。都乐（Dole）和鑫荣懋（Joywin）作为大型水果供应商，通常具备成熟的冷链管理和品控体系，在合同约定严苛、供应链稳定（如产地直采、全程温控、缩短中转时间）且门店验收标准明确的情况下，有可能实现该目标。\n\n但具体能否做到需根据实际合作条款、运输距离、季节等因素评估。建议：\n- 向两家供应商索取近期的历史损耗率数据（如月度统计）；\n- 要求合同中明确损耗率承诺及赔付条款；\n- 进行小批量试单测试，观察实际到货损耗情况。\n\n若对方无法提供明确承诺或实测损耗偏高，可考虑调整品控流程或采用其他规避损耗的方案（如增加协议中的补偿条款）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 175,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

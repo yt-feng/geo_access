@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:37:27.265Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "我们想找能提供产地溯源的菠萝供应商，都乐和洪九果品有基地直供吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

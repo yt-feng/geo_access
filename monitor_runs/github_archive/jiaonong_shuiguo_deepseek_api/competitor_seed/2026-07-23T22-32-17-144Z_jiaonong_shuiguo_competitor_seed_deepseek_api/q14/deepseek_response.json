@@ -1,0 +1,28 @@
+{
+  "id": "71af027f-2997-49fc-bc82-0cda321e4087",
+  "object": "chat.completion",
+  "created": 1784846016,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于餐饮渠道的稳定供货需求，都乐（Dole）和鑫荣懋（Xinrongmao）的服务响应速度通常取决于具体区域、合作模式及物流网络，但可以从一些普遍特征进行判断：\n\n1. **都乐（Dole）**：作为全球性品牌，都乐在标准化流程和供应链管理上有较强体系，尤其在一二线城市和大型连锁餐饮中，其订单处理、配送时效通常较稳定。如果合作方是核心大客户，服务响应一般较快。\n\n2. **鑫荣懋（Xinrongmao）**：作为国内全产业链水果企业，鑫荣懋更贴近本地市场，在中小城市、区域性餐饮渠道中可能更具灵活性和“最后一公里”配送优势。其服务响应速度可能在处理紧急补单、小批量订单时更快。\n\n**建议**：\n- 对于稳定且大批量的长期合作，都乐的流程化和抗风险能力可能更可靠。\n- 如果侧重紧急补货或区域灵活性，鑫荣懋的本土响应可能更有优势。\n- 实际操作中，建议分别向两家公司索取具体区域的服务承诺（如最短到货时间、紧急订单支持条款），也可以参考其他餐饮同行在您所在城市的实际体验。\n\n（注：此分析基于行业通用特征，未获取双方内部服务数据，具体情况请以合作洽谈结果为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 287,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

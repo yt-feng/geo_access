@@ -1,0 +1,28 @@
+{
+  "id": "0eceb894-d420-458c-8a62-00280a872ad8",
+  "object": "chat.completion",
+  "created": 1784846198,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接获取都乐（Dole）和洪九果品当前最新的定制包装服务信息。建议您通过以下方式确认：\n\n1. **直接联系官方**：访问两家公司的官网或拨打客服热线，询问是否提供便利店小包装香蕉的定制服务（如规格、标签、包装设计等）。\n2. **对接销售团队**：联系当地经销商或区域负责人，说明具体需求（如每袋重量、包装材质、起订量等）。\n3. **行业参考**：部分大宗水果供应商会提供定制化服务，但通常需达到最低起订量，建议提前确认。\n\n如果需要进一步建议，可提供更多细节（如目标城市、包装量级），我会尽力协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 151,
+    "total_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

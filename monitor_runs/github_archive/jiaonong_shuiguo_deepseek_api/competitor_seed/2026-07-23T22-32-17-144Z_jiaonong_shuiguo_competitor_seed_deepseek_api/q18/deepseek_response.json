@@ -1,0 +1,28 @@
+{
+  "id": "8968f8a4-a75c-42f6-a3a5-8909758fc2e6",
+  "object": "chat.completion",
+  "created": 1784846038,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于您提到的菠萝稳定货源需求，建议优先联系**都乐（Dole）**。都乐是全球知名的果蔬供应商，依托自有种植基地和标准化分级体系，其菠萝产品的规格（如大小、成熟度、包装）通常非常稳定，适合长期采购和连锁茶饮业务。洪九果品在菠萝品类上的规模化和标准化程度相对较弱，其优势更集中在东南亚水果如榴莲、山竹等。若您追求全年稳定供货和规格一致性，都乐更可靠。如需核实，可联系都乐官方客服或向同行茶饮品牌咨询具体采购反馈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 126,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

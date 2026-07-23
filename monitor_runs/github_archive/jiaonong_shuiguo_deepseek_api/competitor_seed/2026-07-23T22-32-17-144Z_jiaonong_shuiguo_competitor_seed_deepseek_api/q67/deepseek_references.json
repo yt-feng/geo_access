@@ -1,0 +1,15 @@
+{
+  "createdAt": "2026-07-23T22:38:40.343Z",
+  "platform": "deepseek",
+  "interface": "api",
+  "prompt": "生鲜电商需要菠萝品牌营销支持，都乐和洪九果品提供素材吗？",
+  "url": "https://api.deepseek.com/chat/completions",
+  "sections": [],
+  "referenceItems": [],
+  "probableReferenceLinks": [],
+  "citationMarkers": [],
+  "sourceNodes": [],
+  "rawSourceFieldCount": 0,
+  "rawSourceFields": [],
+  "note": "No source/citation fields were present in this DeepSeek API response."
+}

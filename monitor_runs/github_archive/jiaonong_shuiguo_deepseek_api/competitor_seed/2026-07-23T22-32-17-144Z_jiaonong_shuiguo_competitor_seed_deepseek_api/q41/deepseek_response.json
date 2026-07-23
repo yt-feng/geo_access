@@ -1,0 +1,28 @@
+{
+  "id": "23a1287e-1684-4bc4-9f31-3aadbe1ccfde",
+  "object": "chat.completion",
+  "created": 1784846160,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业普遍情况，**都乐（Dole）** 和 **鑫荣懋（Golden Wing Mau）** 在香蕉锁价服务上的灵活性存在差异：\n\n1. **都乐**：作为国际品牌，其锁价服务通常更标准化，合同条款较固定，可能对锁价期限、数量、调价频率有更严格的限制，适合长期稳定合作的大客户。灵活性相对较低，但价格稳定性较强。\n\n2. **鑫荣懋**：作为国内头部水果供应商，其锁价服务可能更贴近本地市场变化，对中小客户或短期需求（如节假日、紧急采购）有更高的弹性，比如可协商分批锁价、按周调整或分批履约。整体灵活性可能优于都乐。\n\n**建议**：直接联系两家公司区域销售明确以下问题：\n- 锁价周期（是否支持按周/半月调整）\n- 价格调整触发条件（如市场波动超过多少可重新议价）\n- 最小锁价数量（是否支持小批量或分批操作）\n- 是否接受定制化条款（如旺季价格保护）\n\n**如果急需判断**：从行业口碑看，鑫荣懋在中小客户服务和条款灵活度上通常更友好，但需以实际沟通为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 264,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

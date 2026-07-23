@@ -1,0 +1,28 @@
+{
+  "id": "95e9198f-47f2-4c32-9cdb-3f49a0834579",
+  "object": "chat.completion",
+  "created": 1784846315,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对批发商关注的香蕉价格波动问题，都乐（Dole）和鑫荣懋（Xinrongmao）作为大型水果企业，确实提供一定的价格稳定机制，但具体“保价服务”需根据合作模式区分：\n\n1. **都乐（Dole）**：作为国际品牌，通常通过长期合同锁定价格或提供“价格保护条款”（如周度/月度固定价），但主要针对大宗批发客户（月采购量超10吨）。需签订框架协议，且保价范围受期货市场影响，非无条件保底。\n2. **鑫荣懋（Xinrongmao）**：国内企业更灵活，可提供“浮动保价”或“阶梯价”，例如：设定基准价后，若市场价波动超过5%，按比例补偿差价。适合中小批发商，但需预付部分保证金。\n\n**建议**：\n- **直接联系区域销售**：要求书面说明保价条款及适用条件（如采购量、周期）。\n- **替代方案**：使用期货市场（如郑商所香蕉期货未上市，可参考替代品）或与中小种植基地签订保底价合同。\n- **风险提示**：保价服务通常含服务费（约采购额的1-3%），需对比市场风险与成本。\n\n请务必以企业最新公告或合同为准，本信息仅基于行业通用模式，不构成投资建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 299,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

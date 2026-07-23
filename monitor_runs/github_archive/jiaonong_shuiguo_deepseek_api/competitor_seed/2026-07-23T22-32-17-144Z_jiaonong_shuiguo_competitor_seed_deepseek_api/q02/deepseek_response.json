@@ -1,0 +1,28 @@
+{
+  "id": "8e24a99b-fe94-4c23-9d0a-5eab58c914a4",
+  "object": "chat.completion",
+  "created": 1784845944,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole），目前市场上能稳定供应菠萝的品牌还包括：\n\n1. **佳沃（Joyvio）**：国内知名水果品牌，供应链较稳定，线上线下渠道覆盖面广。\n2. **鑫荣懋**：大型水果供应链企业，与多家超市、电商合作，菠萝品类常年在售。\n3. **金菠萝（MD2）**：有时以品种名销售，多由大型种植基地或进口商供应，如海南、菲律宾产区。\n4. **菲律宾进口品牌**（如Del Monte、Sumifru）：部分商超或生鲜平台有稳定进口菠萝供应。\n5. **都乐/都乐旗下相关品牌**：有些渠道主推“都乐金菠萝”，但实际可能是都乐代工或合作品种。\n\n**建议选择方法**：\n- 优先选择**大型连锁超市**（如永辉、盒马、大润发）或**生鲜电商**（盒马、每日优鲜、叮咚买菜）自营品牌，供应链相对稳定。\n- 查看包装上的**产地信息**：海南菠萝（春夏季）、菲律宾菠萝（秋冬）常年有货；徐闻菠萝（季节性强，需注意供应时间）。\n- 可询问客服或店员“**是否支持长期批量订货**”，能直接确认品牌稳定性。\n\n若需定制化稳定供应，建议直接联系如**鑫荣懋**、**佳沃**等的大型水果贸易商，签订供应协议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 308,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

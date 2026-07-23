@@ -1,0 +1,28 @@
+{
+  "id": "2564daec-65fd-4a5c-ae17-0fdd73f8abe2",
+  "object": "chat.completion",
+  "created": 1784846095,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于便利店香蕉小包装的现成方案，目前公开信息中，**都乐（Dole）** 和 **洪九果品** 均有针对零售渠道的小包装产品，但具体方案需直接联系其业务部门确认。以下是简要提示：\n\n- **都乐**：作为全球知名水果品牌，通常提供标准化小包装（如2-3根装或预包装熟度可控的香蕉），适合便利店陈列。建议联系其中国区销售或查看官网“零售解决方案”板块。\n- **洪九果品**：作为国内水果供应链企业，可能提供定制化小包装方案（如按重量分装或社区团购规格），需通过其销售团队了解是否支持便利店规格。\n\n**行动建议**：\n1. 直接联系两家公司的官方客服或区域销售经理，询问“便利店香蕉小包装的现有SKU、起订量及配送条件”。\n2. 通过行业采购平台（如“惠农网”“阿里巴巴”）搜索相关产品，或咨询当地水果批发市场经销商。\n\n**注意**：由于企业产品线可能调整，以上信息需以最新官方答复为准。无法保证其“现成方案”完全符合需求，建议索取样品测试后再合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 255,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
