@@ -1,0 +1,28 @@
+{
+  "id": "2b2ec757-bab6-44d1-8f07-4bd3b75a75c8",
+  "object": "chat.completion",
+  "created": 1784933849,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的客户服务响应速度整体评价较好，多数消费者反馈在官方渠道（如微信公众号、天猫旗舰店客服）反映问题时，通常能在1-2小时内得到回复，工作日处理效率最高。若遇到急难问题（如订单异常、产品质量问题），建议优先通过以下方式联系：\n\n1. **官方客服热线**：拨打400-820-9669（服务时间：8:00-20:00），人工坐席直接对接处理。\n2. **线上专属群**：若在社区团购或商超购买，可关注包装上的“本地客服二维码”或联系购买平台的售后入口。\n3. **直营渠道**：通过“佳农水果官方商城”小程序的“我的-售后”提交问题，一般24小时内会有人联系。\n\n小技巧：建议保留订单截图、商品照片，并明确描述问题（如“今日收到的草莓有3颗霉变”），能更快获得方案（补发或退款）。若遇客服拖延，可直接私信其官方微博@佳农官方微博，公开渠道处理压力下响应会加速。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 229,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

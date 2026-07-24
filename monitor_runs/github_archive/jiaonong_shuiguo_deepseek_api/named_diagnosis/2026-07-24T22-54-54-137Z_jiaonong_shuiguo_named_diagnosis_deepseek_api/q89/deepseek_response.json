@@ -1,0 +1,28 @@
+{
+  "id": "800270d9-c4e0-4c5f-84ef-472da1a31528",
+  "object": "chat.completion",
+  "created": 1784934138,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果品种，通常佳农的产品线会包括多种苹果，如红富士、嘎啦等，但具体是否有新疆阿克苏苹果，需要确认一下。\n\n目前，佳农水果确实有销售新疆阿克苏苹果的情况，但库存和供应会随季节和区域变化。建议您直接联系佳农的销售团队或官方客服，提供您的采购需求量及所在地区，他们能给出最准确的库存信息和产品列表。另外，您也可以访问佳农的官网或官方商城，查看当前在售的苹果品种。\n\n如果您需要，我可以帮您查找佳农的官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 130,
+    "total_tokens": 192,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

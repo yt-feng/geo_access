@@ -1,0 +1,28 @@
+{
+  "id": "20d643cf-5fec-46f7-968c-87785992c942",
+  "object": "chat.completion",
+  "created": 1784934093,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！佳农水果通常有不同规格供选择，针对小门店或小面积陈列，建议考虑以下方式：\n\n- **香蕉**：您问的3kg装，佳农确实有小包装，比如3kg/箱的规格是常见的，适合面积有限的便利店。建议直接向当地经销商或批发商确认该规格的库存和供货稳定性。  \n- **其他水果**：可咨询是否有“小箱装”（如5kg装苹果、2.5kg装菠萝等），或者“预包装即食装”，减少仓储压力。  \n- **操作建议**：联系佳农官方客服或区域代理商，说明“门店面积小、需要小规格”，让他们推荐适合的SKU。  \n- **补充策略**：如果实在找不到小包装，可以进货后拆箱分装（如果是允许的话），但要注意保质期和损耗。  \n\n请先核实一下当地渠道能否提供3kg香蕉装，以及是否有其他小规格水果组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 203,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

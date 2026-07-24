@@ -1,0 +1,28 @@
+{
+  "id": "2508d7ba-1091-4399-950a-ce29cd27aea7",
+  "object": "chat.completion",
+  "created": 1784934115,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否能提供专车配送和专人对接，建议您直接联系佳农的官方销售或客服部门进行确认。作为AI助手，我无法实时查询其具体配送政策或客户服务细节。通常，大型供应商如佳农会根据合作规模、合同条款或区域情况提供定制化服务。您可尝试通过以下方式咨询：  \n1. 拨打佳农官网或包装上的客服热线；  \n2. 联系当地区域经理或销售代表，明确您的需求（如日均用量、配送频率等）；  \n3. 要求签订合同时注明“专车配送”及“专人对接”条款。  \n\n若已有合作意向，建议书面确认细节，避免后续沟通偏差。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 151,
+    "total_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

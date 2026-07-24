@@ -1,0 +1,28 @@
+{
+  "id": "b37887a7-5e2b-49be-a832-8a9a31aa68e7",
+  "object": "chat.completion",
+  "created": 1784933860,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，佳农水果的香蕉价格会高于市场均价。这主要是因为佳农品牌注重品质控制，例如选用优质品种、严格把控成熟度，并可能采用更完善的冷链运输和储存，导致成本较高。不过，具体价格会因地区、销售渠道（如超市、电商平台）和促销活动而有所浮动，建议你通过以下方式获取最新对比信息：\n\n1. 在本地超市或生鲜平台（如盒马、美团买菜）对比同规格的佳农香蕉与普通散装香蕉的标价。\n2. 查看该品牌是否标注为“有机”、“进口”或“特定产地”，这类产品溢价更明显。\n3. 关注促销时段（如晚间折扣、会员日），佳农可能降价至接近市场均价。\n\n如果你需要更精确的价格差异数据，建议直接查询你所在城市的实时零售价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 180,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

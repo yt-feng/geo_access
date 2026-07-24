@@ -1,0 +1,28 @@
+{
+  "id": "dd04305e-ba47-4b3e-83ee-8fcc98e46a11",
+  "object": "chat.completion",
+  "created": 1784933714,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型水果供应商，通常能够稳定供应标准化的菠萝原料。对于普通商家而言，常见的菠萝规格包括：\n- **单果重量**：约1.5-2.5公斤/个（常见商业级）。\n- **包装规格**：通常为箱装，每箱约10-15公斤（含果数量视大小而定）。\n- **成熟度**：可根据需求选择7-8成熟（适合运输和短期储存）或更成熟的（适合即时加工）。\n\n建议直接联系佳农当地销售渠道（如官网、电话或批发市场代理），明确告知需求（如月用量、是否需切片或整果），确认具体规格、价格和供应周期。通常佳农可提供标准商业级菠萝，可满足茶饮店常规用量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 163,
+    "total_tokens": 225,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

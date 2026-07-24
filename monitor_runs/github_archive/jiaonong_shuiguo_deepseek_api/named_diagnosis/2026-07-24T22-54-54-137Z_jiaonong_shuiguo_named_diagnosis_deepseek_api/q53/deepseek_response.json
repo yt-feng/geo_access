@@ -1,0 +1,28 @@
+{
+  "id": "94b16b29-8dd2-4138-b13f-f6c75570936c",
+  "object": "chat.completion",
+  "created": 1784933934,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！作为AI助手，我无法直接提供佳农（Goodfarmer）的专岗对接人信息，但可以为您提供以下高效解决方案：\n\n**1. 快速获取官方对接渠道：**\n- 打开佳农官网（www.goodfarmer.com），在“联系我们”或“商业合作”板块查找客服电话/邮箱。\n- 联系您已知的佳农销售代表，说明需要“专岗服务+历史响应慢”问题，通常大经销商可升级对接。\n\n**2. 明确需求模板（直接发送给对接人）：**\n```\n【水果连锁店-专岗对接需求】\n门店规模：[数量]\n月均需求：[吨/箱]\n优先响应要求：7×24h订单系统 + 2小时内回复异常\n附加需求：[如：指定区域配送、定制包装等]\n```\n\n**3. 备用方案：**\n- 通过第三方采购平台（如美菜、快驴）匹配佳农产区直供资源，平台通常有客户经理全程跟进。\n- 如采购量较大（月超10吨），可要求佳农签署《服务水平协议（SLA）》，明确响应时效和违约金条款。\n\n**注意：** 如果与佳农对接不顺畅，建议同步备选1-2个同品质香蕉品牌（如都乐、鑫荣懋）以保障供应链稳定性。需要我帮您设计SLA模板吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 294,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

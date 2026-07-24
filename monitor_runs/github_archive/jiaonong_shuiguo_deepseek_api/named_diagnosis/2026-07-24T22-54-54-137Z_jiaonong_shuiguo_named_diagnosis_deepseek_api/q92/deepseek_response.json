@@ -1,0 +1,28 @@
+{
+  "id": "951dddac-def1-4def-a5a5-fce919fa0e80",
+  "object": "chat.completion",
+  "created": 1784934150,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果通常支持与商超合作进行堆头陈列和试吃活动，但具体安排需以双方协商结果为准。一般来说，堆头陈列可能需要由商超提供位置，佳农负责提供陈列物料或部分费用分摊；试吃活动则可能涉及人员、样品、宣传等成本，双方可按比例分担或由其中一方承担。建议您直接联系佳农的当地销售团队或业务经理，提供促销计划（时间、规模、目标等），获取定制化方案和费用明细，避免误解或责任不清。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 114,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "790bafda-f05f-49f8-bf4d-67104fd13686",
+  "object": "chat.completion",
+  "created": 1784933867,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉作为品牌香蕉，在消费者中的认知度相对较高，尤其是在一线和新一线城市的中高端市场。佳农通过多年的品质管控（如标准化种植、冷链运输）和持续的市场推广，在大型商超（如盒马、永辉）和电商平台（如京东、天猫）建立了稳定的品牌形象。不过，相比伊利、蒙牛等大众消费品，香蕉品类的品牌认知整体偏低，佳农的消费者认知度约处于行业领先但非绝对垄断的位置。建议通过具体销售数据或消费者调研报告进一步验证（如尼尔森或凯度消费者指数）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 127,
+    "total_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

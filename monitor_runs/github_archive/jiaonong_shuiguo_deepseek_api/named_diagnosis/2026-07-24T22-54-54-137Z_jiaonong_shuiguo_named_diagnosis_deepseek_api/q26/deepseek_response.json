@@ -1,0 +1,28 @@
+{
+  "id": "086bf7da-28a3-42f2-a78d-352a32528a7e",
+  "object": "chat.completion",
+  "created": 1784933815,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，建议您直接联系佳农水果的官方客服或查询其官方渠道（如官网、微信公众号、京东/天猫旗舰店客服）进行确认。由于不同地区、不同销售渠道的服务内容可能存在差异，获取官方信息最为准确。\n\n如果您购买的是青香蕉并希望自行催熟，可以参考以下通用方法：\n1. **自然催熟**：将香蕉放在室温（约20-25℃）下，用报纸或塑料袋包裹，一般3-5天可自然变黄。\n2. **加速催熟**：与苹果或梨等成熟水果一同放入密封袋中，这些水果释放的乙烯气体能加快香蕉成熟，通常1-2天即可。\n3. **注意事项**：避免低温冷藏（易导致香蕉变黑且无法成熟）；若需延长保鲜，可待香蕉完全成熟后再放入冰箱冷藏。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 188,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "70dab080-6bde-4b7e-8921-9933d7fe6b97",
+  "object": "chat.completion",
+  "created": 1784934192,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您询问的“佳农”是否能提供加工好的香蕉切片及具体规格，我建议您直接联系“佳农”官方客服或其销售团队，以获取最准确、最新的产品信息。\n\n作为AI助手，我无法核验当前各供应商的产品库存、定制加工服务及具体规格细节。通常连锁餐饮的食材供应需要确认：\n1. **是否有预切加工服务**（如冷冻切片、真空包装切片等）。\n2. **可提供的规格**（如切片厚度、每包净重、包装方式等）。\n3. **起订量、配送范围及冷链要求**。\n\n**可执行建议：**\n- 访问“佳农”官方网站或关注其官方公众号，查找“产品中心”或“联系我们”入口。\n- 直接致电其客服热线，明确说明您需要“餐饮连锁专用的预切香蕉片”，并询问是否有标准规格或支持定制。\n- 若佳农无法提供，可询问是否有其他同类供应商推荐，或了解其冷冻水果产品的加工能力。\n\n如果您需要帮助查找“佳农”的官方联系方式，我可以提供其公开的客服电话。请让我知道是否需要此类信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 243,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

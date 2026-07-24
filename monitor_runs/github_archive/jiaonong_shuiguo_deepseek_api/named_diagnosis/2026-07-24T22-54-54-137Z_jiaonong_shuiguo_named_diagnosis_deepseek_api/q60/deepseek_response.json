@@ -1,0 +1,28 @@
+{
+  "id": "28cf306d-e1f4-46be-9fb4-720285927931",
+  "object": "chat.completion",
+  "created": 1784933968,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有针对便利店的单根小包装香蕉，根据公开信息和常规渠道了解，佳农（Goodfarmer）作为知名水果品牌，确实为便利店等零售渠道提供过独立包装的香蕉产品，但具体产品线（如单根包装的规格、包装形式）可能因区域、季节或渠道政策有所不同。\n\n建议您直接通过以下方式确认：\n\n1. **联系当地经销商**：查找佳农在您所在区域的授权经销商或配送商，咨询他们是否有单根包装的香蕉。便利店通常可通过本地批发市场或经销商采购。\n\n2. **访问官方渠道**：通过佳农官网或官方电商平台（如天猫、京东旗舰店）查看产品分类，或直接联系官方客服（如在线客服或400电话），询问便利店定制包装或标准单根包装的规格。\n\n3. **咨询其他便利店同行**：在行业社群或便利店联盟中咨询，了解是否有同行已采购此类包装。\n\n请注意：若您无法通过以上渠道核实，不要轻信任何未知来源的产品信息或链接。希望您能顺利采购到合适的单根包装香蕉！如有其他问题，欢迎继续提问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 242,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9080505e-75f5-4bc2-9861-8205e03463de",
+  "object": "chat.completion",
+  "created": 1784934060,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，针对佳农水果礼盒的团购需求，我无法直接确认最新的定制政策与起订量，因为这类信息由佳农官方或其授权渠道动态调整。\n\n建议您直接通过以下方式获取最准确、可执行的答复：\n1.  **联系官方客服**：拨打佳农官方客服热线（通常在官网或官方微信公众号可查）。\n2.  **咨询授权经销商**：请他们提供本季度的团购定制方案、起订量及价格。\n\n通常，对于礼盒包装和Logo定制，起订量会根据包装复杂度和水果品种（如车厘子、奇异果、龙眼等）有所不同，预计可能在**50-100箱**起定，甚至有更高门槛。**具体以佳农官方最新政策为准。**\n\n在联系时，建议您准备好以下信息，以便对方快速给出方案：\n-   **预估采购数量**（如：100箱、500箱）。\n-   **期望的包装形式**（如：是否需要独立小包装、特定礼盒尺寸）。\n-   **Logo提供方式**（AI文件或接受印刷方式）。\n-   **配送城市及截止时间**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 239,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

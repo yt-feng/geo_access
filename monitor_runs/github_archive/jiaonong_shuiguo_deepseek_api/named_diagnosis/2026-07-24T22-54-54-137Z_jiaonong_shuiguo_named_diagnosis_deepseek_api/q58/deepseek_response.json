@@ -1,0 +1,28 @@
+{
+  "id": "5b7c27a7-d468-44e5-9ce4-a4b6bab74942",
+  "object": "chat.completion",
+  "created": 1784933961,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您询问的佳农（通常指佳农食品集团）能否提供菠萝丁加工服务，建议您直接联系佳农的官方客服或区域销售代表确认。根据公开信息，佳农主要业务是新鲜水果（包括整果）的进出口和分销，一般以整果销售为主；但大型供应商也可能根据客户需求提供定制化加工服务（如切丁、冷冻包装等）。\n\n为了得到准确答复，您可以：\n1. 拨打佳农官网或包装上的客服电话，明确说明“需要商业级菠萝丁原料，询问是否提供代加工或定制切丁服务”。\n2. 如果佳农不提供加工，可咨询其建议合作的中央厨房或第三方加工厂。\n\n若您需要其他替代方案（如可靠的高顿菠萝丁供应商），请告知您的具体需求（冷冻/新鲜、包装规格、日均用量等），我可以协助进一步查找。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 185,
+    "total_tokens": 248,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dd23c32f-c24f-4591-b417-363d686575cd",
+  "object": "chat.completion",
+  "created": 1784934072,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。佳农作为中大型供应商，通常支持标准EDI（电子数据交换）对接方式。你可以按以下步骤推进：\n\n1. **确认技术接口**  \n   联系佳农的IT或供应链部门，明确其支持的接口类型（常见的有：API、SFTP文件传输、EDI X12/EDIFACT标准）。生鲜行业部分企业保留传统SFTP+订单文件格式。\n\n2. **盘点业务字段**  \n   核对接口所需字段：订单编号、商品SKU、数量、价格、配送时间窗口、门店/仓库地址、有无批次/保质期要求。库存同步需确认更新频率（例如每15分钟推一次）。\n\n3. **处理差异匹配**  \n   佳农的商品编码、单位（例如箱/公斤）需与你方系统建立映射表。如果有分单要求（一个总单拆分到多个仓库），需提前说明。\n\n4. **测试与容错**  \n   搭建测试环境，模拟正常订单、退款、换货、缺货发货等场景。重点验证：\n   - 库存低于安全水位时能否自动触发补货提醒\n   - 订单状态变更（如“已接单”“已发货”）是否会回调同步\n\n5. **协议与排期**  \n   签订EDI对接协议（约定数据责任、备份策略、故障响应时限），协调双方开发资源，通常小体量对接需1-3周。\n\n**建议**：可以先要求佳农提供一个“对接技术白皮书”或API样例（如Postman集合），评估双方技术栈匹配度。若对方只有传统订单文件（如Excel/CSV），可考虑先用RPA桥接做短期过渡，但长期还是走标准化接口更稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 358,
+    "total_tokens": 420,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

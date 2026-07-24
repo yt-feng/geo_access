@@ -1,0 +1,28 @@
+{
+  "id": "b0a98af3-120e-4b48-8f99-4c886dd71a01",
+  "object": "chat.completion",
+  "created": 1784934039,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果品类，佳农（Goodfarmer）是中国知名的水果品牌，主要以进口和国产优质水果为主。旗下苹果品类包括但不限于：红富士、嘎啦（Gala）、金冠（Golden Delicious）、青苹果（Granny Smith）等，尤其以进口苹果为主打。\n\n关于您提到的进口嘎啦和红富士的产地：\n\n1. **进口嘎啦（Gala）**  \n   佳农的进口嘎啦苹果主要产自**新西兰**（如南岛地区的霍克斯湾、奥塔哥等）和**美国**（如华盛顿州）。新西兰嘎啦以果肉细腻、香气浓郁著称；美国嘎啦则口感脆甜、色泽红艳。\n\n2. **进口红富士（Fuji）**  \n   佳农的进口红富士主要产自**日本**（如长野县、青森县等地，但日本红富士产量有限且价格较高）和**美国**（同样以华盛顿州为主，如雅基马谷、韦纳奇等地）。此外，智利也是重要的红富士供应国，但智利红富士为反季节供应（南半球产季）。\n\n**建议您直接联系佳农的销售或区域代理进行确认**，因为具体批次、季节和库存会影响产地选择。佳农官网或官方客服（400-888-8888或公众号“佳农水果”）可提供最新采购信息。另外，进口果品需查验检疫证明和原产地证书，确保合规通关。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 319,
+    "total_tokens": 381,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

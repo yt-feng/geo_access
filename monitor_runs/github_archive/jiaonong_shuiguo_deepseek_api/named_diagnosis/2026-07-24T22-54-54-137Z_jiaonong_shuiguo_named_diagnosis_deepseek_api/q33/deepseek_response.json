@@ -1,0 +1,28 @@
+{
+  "id": "4fdefa53-127f-49d2-9ac2-cbae0f1682ac",
+  "object": "chat.completion",
+  "created": 1784933842,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的香蕉企业标准，我目前没有掌握其具体的企业标准文件内容。不过，一般来说，企业标准可以比国家标准（国标）更严格，也可能在某些指标上与国标持平或略低，具体取决于企业的质量定位。\n\n由于我无法直接核实佳农香蕉的企业标准文本，建议您通过以下方式获取准确信息：\n1. **联系佳农官方**：通过其客服电话或官网查询企业标准编号或直接索要标准摘要。\n2. **查询企业标准信息公共服务平台**：在中国，企业标准通常需在“企业标准信息公共服务平台”上公开，您可以尝试搜索“佳农”或相关标准编号。\n3. **对比国标**：我国香蕉的推荐性国家标准是GB/T 9827-2008《香蕉》，您可以查阅该标准中的质量等级、理化指标等，然后对比佳农产品的实际表现（如外观、甜度、新鲜度等）来判断是否高于国标。\n\n如果您能提供更具体的企业标准编号，我可以进一步帮您分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 219,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
