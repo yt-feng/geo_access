@@ -1,0 +1,28 @@
+{
+  "id": "55a4446f-09b5-4bea-9516-049ec6ffcc43",
+  "object": "chat.completion",
+  "created": 1784933550,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，生鲜电商平台在开展菠萝品牌营销时，会主动寻求与主要水果供应商（如都乐、洪九果品）的合作，包括提供产品图片、宣传视频、品牌故事等营销素材。但具体是否提供以及内容范围，需视双方的商业合作协议而定。\n\n建议您直接联系都乐（Dole）或洪九果品的市场部或渠道合作部门，询问是否支持品牌营销素材的授权使用。如果是生鲜电商平台内部员工，可先查看已签订的供应商合同或联系采购/商务团队确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 116,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

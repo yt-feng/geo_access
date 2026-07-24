@@ -1,0 +1,28 @@
+{
+  "id": "f19e5fa8-2eb6-416a-97fc-91964a285f87",
+  "object": "chat.completion",
+  "created": 1784933405,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从稳定供应角度看，**洪九果品**通常更靠谱，因为其主要专注于国内水果供应链，尤其是热带水果（如菠萝），在产地直采和分拣上具备优势，货源相对更稳定。都乐是国际品牌，供应链覆盖全球，但可能受进口环节（如运输、海关）影响，在季节性波动或突发情况时，供应稳定性略逊于洪九。\n\n建议你直接联系两家公司的区域销售代表，让他们提供近期菠萝的稳定供货案例和价格波动数据。优先看洪九，并索要样板订单测试其履约能力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 122,
+    "total_tokens": 187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

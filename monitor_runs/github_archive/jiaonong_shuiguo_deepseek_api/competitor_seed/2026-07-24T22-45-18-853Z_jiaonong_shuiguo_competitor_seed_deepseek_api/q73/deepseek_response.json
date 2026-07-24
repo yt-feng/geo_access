@@ -1,0 +1,28 @@
+{
+  "id": "caf6f77e-040a-4fca-abfd-3a4a9c21f0ea",
+  "object": "chat.completion",
+  "created": 1784933585,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、永辉、盒马等）通常要求供应商具备符合国际或国家标准的食品安全管理体系认证。鑫荣懋（中国知名的果业公司）和都乐（Dole，全球知名的果蔬企业）作为大型水果供应商，普遍通过的认证包括：\n\n1. **ISO 22000（食品安全管理体系认证）**：这是国际通用的食品安全管理标准，覆盖从生产到交付的全流程。\n2. **FSSC 22000（食品安全体系认证）**：基于ISO 22000，额外关注食品链安全，被很多全球零售商认可。\n3. **HACCP（危害分析与关键控制点）**：专注识别和控制生产过程中的食品安全风险。\n4. **GLOBALG.A.P.（全球良好农业规范）**：针对农业生产的认证，确保种植、采收环节符合国际安全与可持续标准（水果类常需）。\n5. **BRCGS（食品安全全球标准，原BRC）**：尤其是在出口或与欧洲、英国商超合作时常见。\n6. **中国有机认证或绿色食品认证**：根据产品特性，可能也有。\n\n建议你直接咨询鑫荣懋或都乐官方，或查看其官网的“质量认证”或“社会责任”部分，以获取最新具体的认证清单。如果你需要进入特定商超，最好也向该商超的采购部门确认其认可的具体认证范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 291,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "660ed4ac-c6bc-47e0-9b81-94c90223dd43",
+  "object": "chat.completion",
+  "created": 1784933529,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品通常以整箱批发为主，但部分区域或特定业务场景下可能提供散装或小包装定制服务。建议您直接联系这两家公司的当地经销商或客服，说明您需要“香蕉小包装”且为社区团购用途，询问是否支持拆箱分装、最小起订量及价格。您也可以询问是否有现成的小包装产品线（如5-10斤装）。若对方明确表示无散装选项，可考虑对接本地大型水果批发市场，直接购入整箱后自行分装。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 119,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

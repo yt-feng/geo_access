@@ -1,0 +1,28 @@
+{
+  "id": "ec47618c-8fb6-4f46-88ff-83cbd22a4344",
+  "object": "chat.completion",
+  "created": 1784933432,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九果品均为知名水果品牌，通常具备礼盒定制及品牌联名的合作能力。具体能否联名需根据以下因素判断：\n\n1. **品牌政策**：需分别联系都乐（Dole）和洪九果品的商务或市场部门，确认其是否开放联名合作、是否有排他性协议或竞品限制。\n2. **资源匹配**：确认双方供应链、品控标准能否满足礼盒定制需求（如统一包装设计、果品等级、冷链物流等）。\n3. **法律条款**：联名需签订授权协议，明确品牌标识使用范围、责权分配、利润分成等。\n\n**建议操作步骤**：\n- 通过官方渠道（官网、客服热线）获取商务对接方式。\n- 准备礼盒需求方案（如联名主题、预期销量、交付时间）。\n- 分别沟通后，若双方均有意向，可推动三方洽谈。\n\n若短期内无法确认，可考虑单品牌定制或选择其他已开放联名渠道的品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 218,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

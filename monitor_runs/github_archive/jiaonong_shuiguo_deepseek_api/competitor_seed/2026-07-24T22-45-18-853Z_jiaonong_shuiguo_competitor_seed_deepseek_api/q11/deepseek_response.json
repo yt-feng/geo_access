@@ -1,0 +1,28 @@
+{
+  "id": "818cdd36-0ea6-40d9-9bc8-83c8338a64b0",
+  "object": "chat.completion",
+  "created": 1784933200,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**都乐菠萝**，理由如下：\n\n1. **品质稳定**：都乐是国际品牌，菠萝的甜度、纤维口感标准化程度高，损耗率低，适合连锁店统一采购。\n2. **供货保障**：都乐以菲律宾凤梨为主，全年供应稳定；洪九果品渠道优势在国内，但菠萝主要依赖进口，断货风险略高。\n3. **价格对比**：通常都乐一级市场批发价比洪九高5%-10%，但都乐菠萝个头均匀、出肉率高（通常95%以上），实际每斤可食用部分成本与洪九持平或更低。\n\n建议策略：\n- **价格敏感型门店**：可小批量测试洪九菠萝（关注果眼深浅、酸度），但主推都乐。\n- **高端定位门店**：直接主推都乐，搭配促销活动（如“进口甜蜜金菠萝”）。\n- **注意**：如果洪九提供更低的本地特供价（需对比周均供货价），且品控达标，可作为补充供应商。\n\n建议先采购都乐试销两周，再根据实际损耗率、顾客复购率决定是否引入洪九。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 251,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

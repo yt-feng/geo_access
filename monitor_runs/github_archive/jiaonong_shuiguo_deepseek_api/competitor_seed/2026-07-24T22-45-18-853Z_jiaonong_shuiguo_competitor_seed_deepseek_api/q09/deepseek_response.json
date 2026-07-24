@@ -1,0 +1,28 @@
+{
+  "id": "7cfc5f85-da44-4599-a83e-0a4b64d12acf",
+  "object": "chat.completion",
+  "created": 1784933181,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌同样适合礼品团购，且品质和包装均较受市场认可：\n\n1. **怡颗莓（Driscoll's）**  \n   - 主营：蓝莓、树莓、黑莓等浆果  \n   - 特点：高端浆果品牌，包装精致，适合节日礼盒  \n   - 来源：美国加州，在中国有稳定供应链\n\n2. **爱妃（Rockit）**  \n   - 主营：迷你苹果  \n   - 特点：新西兰品牌，单果包装便携，果肉细腻，适合商务礼品  \n   - 来源：新西兰，进口渠道成熟\n\n3. **新奇士（Sunkist）**  \n   - 主营：脐橙、柠檬、葡萄柚  \n   - 特点：美国百年品牌，橙类品质稳定，礼盒常配“阳光果园”主题包装  \n   - 来源：美国加利福尼亚州\n\n4. **乐淇（Rockit Global）**  \n   - 主营：苹果（与爱妃同公司但不同系列）  \n   - 注意：常见为乐淇（Rockit）品牌下的小苹果礼盒，适合单果包装\n\n5. **金果（Gold Kiwi）**  \n   - 源自信誉等级，实为佳沛旗下金色奇异果系列，但部分地区单独标识“金果”礼盒，适合送礼\n\n6. **西梅（Sun-Maid）**  \n   - 主营：加州西梅、无核西梅  \n   - 特点：健康品类，礼盒形式常见，适合长辈或健康主题礼品\n\n7. **丹东红颜草莓（非进口但类似进口标准）**  \n   - 注意：若严格限定进口品牌，可忽略；但许多高端礼盒选用日本进口的“甜王”或“章姬”草莓品种包装（如品牌“甜王”来自日本）\n\n团购建议：优先确认供应商能否提供**原产地证明**和**检疫证明**；可要求定制礼盒Logo或提货卡；大宗订购前索要样品确认果品新鲜度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 459,
+    "total_tokens": 521,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

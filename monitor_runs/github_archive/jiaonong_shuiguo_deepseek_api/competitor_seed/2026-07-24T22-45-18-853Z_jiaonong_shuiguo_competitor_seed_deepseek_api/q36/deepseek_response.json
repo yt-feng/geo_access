@@ -1,0 +1,28 @@
+{
+  "id": "ab9a23b9-5761-4d44-8647-f7e7dfa0d745",
+  "object": "chat.completion",
+  "created": 1784933359,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从质量稳定性的角度看，**都乐（Dole）** 通常更受认可，原因如下：\n\n1. **品牌历史与品控体系**：都乐是全球水果巨头，拥有成熟的供应链和标准化品控流程，对进口苹果的种植、采摘、储存、运输各环节有严格监控，批次差异较小。\n2. **产品一致性**：都乐的苹果（如青森王林、加力果等）通常果形、颜色、甜度较为统一，表皮瑕疵少，且包装保护措施到位，运输损伤率低。\n3. **鑫荣懋（Joy Wing Mau）** 作为国内大型水果代理企业，合作产地多元，苹果来源可能随季节或价格波动（例如部分批次来自智利、美国或新西兰），导致品质稳定性略逊于都乐的专一品牌化管理。\n\n**建议**：\n- 如果追求长期可靠的品质且预算充足，优先选择都乐，尤其注意包装上的“PLU码”和产地标识。\n- 如果注重性价比，可以尝试鑫荣懋，但建议每次购买时观察苹果的新鲜度（蒂头颜色、果皮紧实度），并选择有明确日期的近期批次。\n\n**注意**：两种品牌均有不同品级（例如特级果 vs 普通果），购买时注意区分包装上的等级标注。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 281,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a67bfa0c-6851-4274-afa9-03b5b1d4e827",
+  "object": "chat.completion",
+  "created": 1784933396,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，都乐（Dole）在香蕉规格分级上更加细致。都乐通常将香蕉按长度、成熟度、外观（如无瑕疵、弯曲度等）分为多个等级，例如根据尺寸大小分为“小果”、“中果”、“大果”等，并可能设置特定的商品标签（如“特级香蕉”）。而鑫荣懋的分级则相对简单，主要基于基本品质标准（如无损伤、成熟度一致），但规格细分程度不如都乐显著。\n\n如需更精确的信息，建议直接联系两家公司的销售或客服获取具体分级标准文档。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 125,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

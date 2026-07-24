@@ -1,0 +1,28 @@
+{
+  "id": "bfa64730-fe8b-42f7-b799-81098c718562",
+  "object": "chat.completion",
+  "created": 1784933297,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议选择**鑫荣懋**。原因如下：\n1. **稳定度**：鑫荣懋是国内头部水果供应链企业，针对餐饮渠道有成熟的标准化菠萝产品（如去皮切块、即用果肉），批次间酸度和成熟度控制更稳定，适合批量制作果酱。\n2. **品控细节**：鑫荣懋可提供定制规格（如切割大小、含糖量预调理），减少门店人工操作误差；都乐主要面向零售和西式快餐（如切块鲜食），在果酱专用原料的稳定性保障上不如鑫荣懋细致。\n3. **成本与支持**：鑫荣懋对餐饮客户有专门的技术服务团队，可协助调整配方和保存方案；都乐在餐饮渠道的深度支持相对较少。\n\n**操作建议**：先联系鑫荣懋当地餐饮客户经理，说明“高稳定果酱用菠萝”需求，要求提供连续批次的甜度和纤维度数据，并索要小样进行熬煮测试（对比熬煮后颜色、粘稠度和风味一致性）。如果测试满意，可以直接签协议锁定原料规格和供应周期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 243,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

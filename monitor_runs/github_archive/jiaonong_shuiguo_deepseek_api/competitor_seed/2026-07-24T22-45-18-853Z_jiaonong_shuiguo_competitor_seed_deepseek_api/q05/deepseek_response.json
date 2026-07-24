@@ -1,0 +1,28 @@
+{
+  "id": "8cebbf09-b9fb-41a5-864f-acc7dd37be04",
+  "object": "chat.completion",
+  "created": 1784933153,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对茶饮店长期合作需求，建议优先考虑**洪九果品**，原因如下：\n\n1. **供应稳定性**：洪九果品聚焦热带水果（包括菠萝），在东南亚产区有源头直采和加工能力，适合茶饮店对菠萝的大批量、季节性持续需求；都乐以多品类高端水果为主，菠萝虽强但更侧重零售端，批发的长期供应保障能力可能稍弱。\n\n2. **成本与定制**：洪九对餐饮渠道更灵活，可提供定制化规格（如去皮切块、糖度分级）和直供价格；都乐有严格品牌溢价，价格通常更高且定制化流程较复杂。\n\n3. **茶饮适配性**：洪九果品近年已与多个茶饮品牌（如蜜雪冰城、书亦烧仙草）合作，产品可开即用，减少后厨损耗；都乐虽品质稳定，但更适应商超、烘焙场景。\n\n4. **风险提示**：若您注重**品牌背书**（如高端连锁茶饮或需强化“优质原材料”宣传），都乐可能更合适；若您更看重**成本控制与供应链深度**，则选洪九。\n\n建议：先小批量试单洪九果品的菠萝原料（若可行，可要求提供冻品或鲜果样品），对比其糖酸比、出汁率及配送时效，再决策长期签约。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 302,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

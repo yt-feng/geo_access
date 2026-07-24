@@ -1,0 +1,28 @@
+{
+  "id": "18af6aa7-8ce9-4553-bed5-8bebfe6281fa",
+  "object": "chat.completion",
+  "created": 1784933126,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）之外，目前市场上能稳定供应的菠萝品牌主要有以下几个，它们都具备规模化种植和稳定的供应链：\n\n1. **佳沛（Zespri）**：虽然是新西兰奇异果巨头，但其菠萝业务也有一定规模，主要在菲律宾等地有种植基地，品质较稳定，但国内常见度不如都乐。\n2. **金菠萝（Gold Pineapple）**：也叫“MD2”品种，常以品牌形式（如“台湾金钻菠萝”或“海南金菠萝”）出现，在海南、台湾有固定产地。\n3. **进口品牌**：\n   - **德尔蒙（Del Monte）**：全球大型水果商，在菲律宾、墨西哥等有菠萝产区，供应稳定。\n   - **博得（Bonduelle）**：欧洲品牌，中国市场以罐装菠萝为主，但鲜果也有稳定渠道。\n4. **国内品牌**：\n   - **海南农垦**：作为大型国营农场，海南菠萝（如巴厘种、台农系列）供应充足，尤其夏季。\n   - **徐闻菠萝**：广东徐闻是“中国菠萝之乡”，本地品牌（如“徐闻菠萝”地理标志）在电商和批发市场稳定性高。\n\n**建议**：如果追求稳定、高端进口，可以看德尔蒙；如果国产性价比，选海南或徐闻品牌（如“菠萝的海”等）。具体可通过批发市场或电商平台对比供应商的产地和发货周期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 308,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

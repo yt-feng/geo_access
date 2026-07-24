@@ -1,0 +1,28 @@
+{
+  "id": "05386cc5-ee2a-49d1-a6ed-54649bbcbbf7",
+  "object": "chat.completion",
+  "created": 1784933501,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品的具体账期，由于这类商业条款通常属于企业与供应商之间的保密协议，且会因采购量、合作关系、市场行情等因素动态调整，因此无法直接提供精确的账期时长。建议您通过以下途径获取可靠信息：\n\n1. **直接联系供应商**：拨打都乐或洪九果品的官方销售热线，或通过其官网、企业微信等渠道咨询，销售代表会根据您的采购需求（如月采购量、结算方式等）给出具体账期方案。\n2. **行业经验参考**：在水果批发行业，账期通常为7-30天，部分长期稳定客户可能延长至45-60天，但需注意这仅为一般情况，不具法律约束力。\n3. **参考信用评估**：若您为大型商超或连锁餐饮，可通过企业信用信息查询平台（如天眼查）了解对方公开的信用政策，或参考类似企业的合作案例。\n\n由于商业条款的敏感性，建议您在洽谈时明确书面合同条款，并留意账期可能随市场波动调整。如果您需要，我可以协助查找都乐或洪九果品的官方联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 247,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

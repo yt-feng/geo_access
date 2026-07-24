@@ -1,0 +1,28 @@
+{
+  "id": "aab5d0e7-8c68-4e09-bbba-f06e3a539319",
+  "object": "chat.completion",
+  "created": 1784933261,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据市场反馈和团购趋势分析，**佳沛（Zespri）** 的礼盒在礼品团购中通常更受欢迎，主要原因如下：\n\n1. **品牌认知度**：佳沛是奇异果（猕猴桃）领域的全球领导品牌，其绿色和金色奇异果因口感稳定、品质统一而备受信赖，尤其适合作为高端健康礼品。\n2. **包装设计**：佳沛的礼盒包装精致，常采用防撞结构，适合长途运输和送礼场景，客户反馈开箱体验较好。\n3. **季节性供应**：佳沛的供应周期长（新西兰产季+其他产区补充），而都乐（Dole）的进口水果礼盒（如香蕉、菠萝）受季节和产地影响较大，部分品种可能存在断货风险。\n\n**建议**：如果客户明确要求“进口品牌”，可以优先推荐佳沛的礼盒；若客户偏好混合水果或热带水果（如芒果、木瓜），则都乐礼盒可作为补充选项。建议直接提供两种礼盒的近期团购价格和实物照片，让客户根据预算和喜好选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 235,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

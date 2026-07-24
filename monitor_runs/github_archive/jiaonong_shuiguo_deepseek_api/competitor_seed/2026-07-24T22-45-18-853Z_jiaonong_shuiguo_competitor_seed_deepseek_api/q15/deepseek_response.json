@@ -1,0 +1,28 @@
+{
+  "id": "03b926b6-ef44-40db-b067-a164fb4fc900",
+  "object": "chat.completion",
+  "created": 1784933223,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），以下是其他一些在中国市场比较常见的、口碑较好的进口苹果品牌：\n\n1. **乐淇（Rockit）**：来自新西兰的小苹果品牌，以迷你果型、高甜度著称，主打便携健康零食。\n2. **爱妃（Envy）**：也来自新西兰，以其多汁、高糖度和不易褐变的特点广受好评。\n3. **爵士（Jazz）**：同样是新西兰品牌，由嘎啦和布瑞本杂交培育，口感脆甜且带有酸度，适合鲜食。\n4. **红玫瑰（Pacific Rose）**：新西兰产，果肉细嫩，香气浓郁，甜度高。\n5. **华盛顿苹果（Washington Apple）**：美国品牌，包括蛇果、金冠、青苹等常见品种，品质稳定，供应量大。\n6. **南半球智利苹果**：智利车厘子商家也常同期带来苹果，如智利蛇果、嘎啦等，反季节供应，性价比高。\n\n购买建议：可优先选择有冷冻运输标识、品牌官网认证或有正规超市（如盒马、山姆、Ole’）进口凭证的货源，避免购买包装破损或标签模糊的散货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 271,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
