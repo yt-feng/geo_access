@@ -1,0 +1,28 @@
+{
+  "id": "694e62d7-da5b-4de5-b258-2d4ad4280e98",
+  "object": "chat.completion",
+  "created": 1784932883,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注以下三个核心问题：\n\n1. **保质期与出品时间**：新鲜菠萝切块在常温下一般仅能保存4-6小时，冷藏（0-4℃）约24小时。需明确标注“出品时间”和“销售截止时间”，同时设置每日定时清货机制（如每3小时检查一次），避免过期销售。\n\n2. **包装方式**：采用透明密封盒并标注日期，需特别注意防氧化（可使用食品级保鲜膜或加酸处理），包装上可印“建议2小时内食用”提示。可搭配冰袋或冷柜陈列，保证温度持续低于4℃。\n\n3. **配送频次**：若为连锁店中央配送，建议每日至少2次（早午各一次），每次配送量控制在当日预估销量的80%以内，避免积压。门店也可考虑现场分切，现切现卖，减少配送环节的新鲜度损耗。\n\n此外，建议在冷藏柜设置专门区域，并定期抽查切块中心温度（≤4℃），同时利用收银系统设置“制作时间超过4小时”的自动下架提醒。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 238,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

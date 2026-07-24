@@ -1,0 +1,28 @@
+{
+  "id": "ac725878-b3f3-4844-ab9a-786806bc876e",
+  "object": "chat.completion",
+  "created": 1784932865,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**小把包装**（2-3根/把）。原因如下：\n\n- **符合购买习惯**：便利店顾客多为即买即食，单根易压坏且单价低，整袋（5根以上）容易熟透浪费，小把刚好满足1-2天食用量。\n- **减少损耗**：香蕉成熟快，小把包装比整袋更易控制熟度，避免因卖不完造成大量损耗；比单根更耐运输，减少磕碰。\n- **提升客单价**：小把定价灵活（如4-5元），比单根（2元左右）利润更高，且顾客接受度高。\n\n若店铺位于高客流区域（地铁站、写字楼），可搭配少量**单根**作为低价引流品。避免上整袋包装，除非有低温冷藏柜台控制熟化速度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 181,
+    "total_tokens": 239,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "52cdd03a-182f-4549-9438-090f3c93a683",
+  "object": "chat.completion",
+  "created": 1784932973,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，起订量过高确实会增加损耗风险，主要原因包括：\n\n1. **熟化速度差异**：香蕉和菠萝属于呼吸跃变型水果，成熟后腐烂速度快。起订量超出实际销售或消耗能力时，容易因存放时间过长导致过熟、变质。\n2. **储存条件要求不同**：香蕉需避光、通风、温度13-15℃；菠萝需湿度85-90%、温度7-13℃。库存过多可能难以满足精准储存条件，加速损耗。\n3. **市场需求波动风险**：如果起订量基于预期销售而非历史数据，实际需求不足时，剩余货物可能无法及时消化。\n\n**建议可执行的措施**：\n- 优先与供应商协商小批量试销或分批次到货（如每周分两次交付）。\n- 根据历史销售数据（冻结期2-4周）计算安全库存上限，避免盲目翻倍。\n- 引入“先熟先出”的库存管理原则，并定期检查果品成熟度，及时促销或加工处理（如制作果切、冻品）。\n- 考虑短期冷冻或加工保存，但需注意菠萝冷冻后口感会变差，仅适合短期（1-2周）存放。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 258,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b1450234-cc49-48bc-a1ac-9f0f48b7b920",
+  "object": "chat.completion",
+  "created": 1784932528,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于茶饮店选购菠萝原料，**甜度通常比出汁率更重要**，但需结合具体用途综合判断。\n\n**建议优先级：**\n1. **甜度高**：直接决定饮品风味，避免额外加糖增加成本或影响口感层次。尤其用于果茶、奶茶等需突出果味的产品，高甜度菠萝能提升整体品质和顾客满意度。\n2. **出汁率适中**：若榨汁或制作果泥，出汁率影响产量和成本；但若仅切果肉做装饰或果粒，出汁率影响较小。\n\n**具体场景选择：**\n- **主打果茶或冰沙**：高甜度+高出汁率（如金菠萝、香水菠萝）最佳，甜度≥12°Brix，出汁率≥60%。\n- **饮品中作为果粒/装饰**：优先甜度，出汁率次之，选择脆肉、汁水少的品种（如杂交菠萝）避免果肉出水影响口感。\n- **与糖浆搭配**：若用普通甜度菠萝（10-12°Brix），需控制糖浆比例，避免过甜或成本上升。\n\n**副建议**：要求供应商提供样品试做，并参考当地市场接受度（如顾客喜甜则更侧重甜度）。常用品种：都乐金菠萝（甜度高、出汁率高但价格较高）、巴厘菠萝（甜度中、出汁率中、性价比好）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 309,
+    "total_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

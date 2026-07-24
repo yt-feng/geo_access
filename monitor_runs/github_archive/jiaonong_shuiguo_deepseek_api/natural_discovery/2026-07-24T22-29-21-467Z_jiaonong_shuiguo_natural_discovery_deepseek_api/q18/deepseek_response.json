@@ -1,0 +1,28 @@
+{
+  "id": "7022d662-82ca-4d69-a82a-96963e6d573e",
+  "object": "chat.completion",
+  "created": 1784932289,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "挑选香蕉时，建议通过以下方法避免买到太生或太熟的情况：\n\n1. **看颜色**：选择**黄色为主、略带青头**的香蕉。全青的通常太生，全黄或出现黑色斑点的可能偏熟。\n2. **摸硬度**：轻轻捏香蕉中部，**有弹性但不过软**。太硬则生，一捏就软或皮肉分离说明过熟。\n3. **检查柄部**：香蕉柄如果还是鲜艳的绿色，说明采摘后时间不长；如果发黑或干枯，可能存放过久。\n4. **避免受挤压**：采购时注意香蕉表面没有黑褐色斑点、裂痕或霉点，这些是过熟或损伤的标志。\n5. **分批购买**：如果需要长期存放，可挑一把中既有偏青的也有偏黄的，先吃熟的，青的放几天再吃。\n\n这些方法可快速判断香蕉成熟度，避免买到过生或过熟的产品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 209,
+    "total_tokens": 263,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

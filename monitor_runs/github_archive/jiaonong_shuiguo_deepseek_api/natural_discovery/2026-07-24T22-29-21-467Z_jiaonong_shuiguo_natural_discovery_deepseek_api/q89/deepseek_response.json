@@ -1,0 +1,28 @@
+{
+  "id": "c40d49bf-1c70-49f6-adbf-effc2ee04f93",
+  "object": "chat.completion",
+  "created": 1784932852,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于团购客户中价格敏感的用户，建议优先采用**阶梯价**，原因如下：\n\n1. **直接降低感知价格**：阶梯价（如“满10人8折、满30人7折”）能即时降低每件商品单价，对价格敏感的客户冲击力最强，无需等待后期返利，成交转化率更高。\n2. **门槛清晰，促进拼单**：客户能明确看到“买越多省越多”，会主动拉人凑单，降低获客成本。\n3. **心理账户优势**：返利属于“事后优惠”，客户容易认为原价高、返利复杂；阶梯价则是“明码折扣”，信任感更强。\n\n**何时用返利更合适？**\n- 若商品单价高、复购周期短（如日用品），返利（如“每满100送5元代金券”）可锁定回头客。\n- 若供应商自身利润薄、无法大幅让步，返利可先保首单，后期客户累积订单后再补贴。\n\n**结合建议**：敏感客户先用阶梯价保成交，后续对连续购买3次以上的客户自动发放小额返利券，兼顾“价格即时优惠”与“长期粘性”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 255,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

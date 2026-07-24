@@ -1,0 +1,28 @@
+{
+  "id": "caf5e265-710f-45d0-98e6-cf3c6527eea0",
+  "object": "chat.completion",
+  "created": 1784932938,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "企业在采购水果礼盒作为员工福利时，建议选择支持以下两项服务的供应商：\n\n1. **支持开发票**：必须的，用于财务报销和税务合规。确认供应商能开具符合公司要求的增值税专用发票或普通发票（含明细、税率等）。\n\n2. **支持定制包装**：视公司需求而定。如果需要体现企业文化、节日主题或个性化祝福，可优先选择提供包装定制（如烫金logo、丝带、贺卡等）的供应商。\n\n**建议**：  \n- 提前与供应商确认发票类型（专票/普票）及内容，避免后续报销问题。  \n- 定制包装需预留足够工期（通常5-10个工作日），并确认起订量是否满足采购数量。  \n- 如选择“一站式”供应商（连带配送、售后），可节省沟通成本。  \n\n若不确定具体需求，可先筛选2-3家供应商后要求其提供方案及模板验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 199,
+    "total_tokens": 256,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

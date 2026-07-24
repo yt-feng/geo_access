@@ -1,0 +1,28 @@
+{
+  "id": "dd1b8c0c-fd12-4128-ac0c-e0ed36fa70c3",
+  "object": "chat.completion",
+  "created": 1784932888,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，这很重要。原因如下：\n\n1. **降低库存风险**：小批量试卖可以帮助你测试不同水果的销量和顾客偏好，避免一次性大量进货造成滞销和损耗（水果保质期短，损耗风险高）。\n2. **灵活调整品类**：根据试卖数据，你能快速淘汰销量差的水果、增加潜力品种，提高整体盈利。\n3. **验证供应商的配合度**：支持小批量的供应商通常更灵活、服务意识更强，后续如果出现质量问题或需加量，也更容易沟通和调整。\n\n**操作建议**：\n- 试卖期建议选3-7天，覆盖周末和平时。\n- 优先选择能提供“多品种小批量配送”的本地或近郊供应商（交通成本低、补货快）。\n- 签约前明确试卖阶段能否无条件退换剩余库存，避免被迫承担滞销损失。\n\n如果供应商只肯大批量出货，建议换一家更灵活的。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 202,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

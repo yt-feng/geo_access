@@ -1,0 +1,28 @@
+{
+  "id": "82f992a2-e8f4-419f-b150-2fc5dc422d45",
+  "object": "chat.completion",
+  "created": 1784932258,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，供应商是愿意提供周末促销支持的，尤其是针对长期合作或采购量较大的水果店。具体支持方式包括：\n\n1. **价格支持**：供应商可能提供短期降价、折扣或“买赠”政策（如买10箱送1箱），但需要你提前沟通，说明促销计划并承诺销量。\n2. **物料支持**：供应商可提供宣传海报、试吃样品、促销台或品牌专属包装袋等，部分还会分摊广告费用。\n3. **联合推广**：对大品牌供应商，可能参与联合促销，分担部分成本。\n\n**建议**：\n- 提前（至少1周）联系供应商，明确促销时间、预期销量和所需支持。\n- 以书面或邮件形式确认支持内容和条件，避免误解。\n- 若供应商最初拒绝，可协商以“销量达标后补返点”或“长期合作优先”作为条件。\n\n如果供应商规模小或合作刚起步，支持力度可能有限，但主动沟通仍有机会获得部分帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 210,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q14",
+  "prompt": "水果店想做周末促销，供应商一般能不能给价格或物料支持？",
+  "createdAt": "2026-07-24T22:30:58.473Z",
+  "summary": [
+    {
+      "questionId": "q14",
+      "prompt_index": 14,
+      "promptIndex": 14,
+      "promptHash": "229fc512bf06",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店想做周末促销，供应商一般能不能给价格或物料支持？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 359,
+      "text_length": 359,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 210,
+        "total_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 210,
+      "total_tokens": 265,
+      "latencyMs": 3730,
+      "latency_ms": 3730,
+      "createdAt": "2026-07-24T22:30:58.473Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q14/prompt.txt",
+        "answer": "q14/deepseek.txt",
+        "response": "q14/deepseek_response.json",
+        "sources": "q14/deepseek_sources.json",
+        "references": "q14/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "818ce5aa-869e-49e9-8362-4a34a5fb0e26",
+  "object": "chat.completion",
+  "created": 1784932438,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，商超做自有品牌水果时，供应商可以提供的包装和规格支持包括：\n\n1. **包装定制**：供应商能按商超要求设计包装（如袋装、盒装、网袋等），印刷自有品牌logo、溯源信息、食用建议等，并可选择不同材质（如可降解材料）以符合环保需求。\n\n2. **规格分级**：根据商超定位，提供不同档次的水果规格（如特级果、一级果、家庭装、礼盒装），控制单果重量、大小、成熟度等标准。\n\n3. **小批量试产**：初期可支持小批量生产用于测试市场反应，降低库存风险。\n\n4. **物流适配**：部分供应商能配合商超的配送体系，提供特定包装规格（如便于分拣的标准化包装）。\n\n建议与供应商沟通时明确以下要点：\n- 预估下单量（影响包装成本分摊）\n- 水果品类（不同水果的包装耐储性要求不同）\n- 货架期要求（影响包装密封性与保鲜技术）\n- 是否需要支持“散装转预包装”的规格变更\n\n务必通过合同约定包装损耗率、规格偏差容忍度及退货条款，避免后期纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 256,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

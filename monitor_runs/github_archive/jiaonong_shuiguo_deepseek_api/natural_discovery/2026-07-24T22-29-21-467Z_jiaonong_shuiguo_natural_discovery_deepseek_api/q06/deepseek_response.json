@@ -1,0 +1,28 @@
+{
+  "id": "cc8de83b-c346-48fc-8a8f-28af1b878d0f",
+  "object": "chat.completion",
+  "created": 1784932209,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常适合。社区水果店由于客流量、天气、节假日等因素影响，销量波动较大。如果找大批量一次性配送的供应商，很容易造成库存积压和损耗。\n\n建议选择能提供 **“小批量、高频次”** 配送的供应商，主要优势如下：\n\n1. **降低损耗**：每次进货量少，水果新鲜度高，卖不完积压变质的风险小。\n2. **资金压力小**：不需要一次性垫付大量货款，周转更灵活。\n3. **补货灵活**：某款商品卖得快，可以立刻追加订单，不会断货；卖得慢则减少订购，避免浪费。\n\n**如何寻找这类供应商：**\n\n- **当地农贸批发市场**：很多批发商支持小批量拿货，可以多跑几家建立固定联系。\n- **线上生鲜B2B平台**（如美菜、快驴等）：通常有小额起订量，次日达。\n- **本地水果基地或合作社**：如果距离不远，可以和农户谈定期少量送货。\n\n**建议操作：**\n- 先和2-3家供应商建立试合作，下单频率定为每天或每隔一天。\n- 初期订货量控制在预估销量的80%左右，避免剩货。\n- 与供应商约定“当天订购，次日清晨到货”的模式，确保新鲜。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 279,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

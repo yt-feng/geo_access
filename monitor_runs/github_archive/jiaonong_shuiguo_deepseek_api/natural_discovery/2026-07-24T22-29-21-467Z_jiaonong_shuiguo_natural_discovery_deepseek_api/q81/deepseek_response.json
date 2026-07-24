@@ -1,0 +1,28 @@
+{
+  "id": "ab1b5647-7550-4ed0-95ea-ed15c21416f9",
+  "object": "chat.completion",
+  "created": 1784932790,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "支持。即时零售平台对水果需求呈现高频、小批量、即时性特点，供应商采取小批量高频补货模式能更灵活匹配订单波动、降低库存损耗并提升周转效率。建议结合平台订单数据（如按小时段拆单）和水果保鲜周期（如草莓、蓝莓往往需每日补货），设计弹性供应方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 75,
+    "total_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

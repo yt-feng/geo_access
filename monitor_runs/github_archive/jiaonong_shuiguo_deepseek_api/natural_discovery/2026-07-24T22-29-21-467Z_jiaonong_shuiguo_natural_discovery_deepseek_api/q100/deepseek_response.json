@@ -1,0 +1,28 @@
+{
+  "id": "76297b2c-b996-46f8-add0-5ac6f3e654d1",
+  "object": "chat.completion",
+  "created": 1784932924,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以从采购、验收、储存和销售四个环节入手，具体建议如下：\n\n1. **采购前明确标准**  \n   - 与供应商约定成熟度标准（如：七成熟或八成熟），要求香蕉表皮呈黄绿色，果肉硬度适中。  \n   - 分批采购：少量多次采购，避免一次性囤积过多。\n\n2. **验收时严格检查**  \n   - 检查香蕉表面是否有大量黑斑、皱缩或软塌，拒收过熟香蕉。  \n   - 轻捏香蕉中部，判断果肉硬度（不应过软）。\n\n3. **存放方式优化**  \n   - 常温阴凉通风处存放（避免阳光直射或高温），将香蕉悬挂或架空摆放，减少挤压。  \n   - 与苹果、梨等释放乙烯的水果分开放置，避免加速成熟。  \n   - 若发现个别熟果，立刻取出单独处理（如供当日食用）。\n\n4. **销售与加工调整**  \n   - 按成熟度分类售卖：较生的先储存，成熟适度的优先供应窗口。  \n   - 对即将过熟的香蕉，可制成果昔、香蕉布丁、冷冻香蕉块（作冰沙原料）等加工品，或降价促销。  \n\n通过以上措施，可系统减少香蕉因熟过头而报废。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 278,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

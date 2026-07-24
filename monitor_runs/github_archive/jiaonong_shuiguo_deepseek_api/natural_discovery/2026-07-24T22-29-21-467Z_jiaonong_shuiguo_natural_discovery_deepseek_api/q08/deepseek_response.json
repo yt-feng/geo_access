@@ -1,0 +1,28 @@
+{
+  "id": "28e95d4b-84f1-49d4-9fc2-5d608a21937d",
+  "object": "chat.completion",
+  "created": 1784932221,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于进货量不大的小店，建议优先考虑**批发市场拿货**，原因如下：\n\n1. **灵活性强**：批发市场可以按需少量、多批次采购，避免库存积压，资金压力小。\n2. **试错成本低**：新品或季节性商品可以先少量试卖，效果好再补货，降低风险。\n3. **议价空间**：即使是小批量，多对比几家摊位，仍可能拿到比固定供应商更低的单价（尤其傍晚收市前）。\n4. **货源即时**：随时去市场挑选，不用等待固定供应商的配送周期或起订量要求。\n\n**但也有一个例外情况**：如果某种商品是稳定、高频、且用量可预估的（例如奶茶店的常用纸杯、便利店的畅销水饮），可以找**固定供应商**签协议批量采购，获得更稳定的价格和供应保障。\n\n**实操建议**：\n- 先去本地大型批发市场跑3-5家同类摊位，记录每款商品的单价、最低起批量和运费。\n- 如果市场最低价 + 交通费仍高于固定供应商报价，再考虑改用供应商。\n- 若选择固定供应商，务必先要样品核对质量，并明确“无起订量”或“小单补货”条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 267,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
