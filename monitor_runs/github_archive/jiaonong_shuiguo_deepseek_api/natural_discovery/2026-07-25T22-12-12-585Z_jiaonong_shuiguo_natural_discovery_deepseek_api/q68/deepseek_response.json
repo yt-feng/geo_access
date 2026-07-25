@@ -1,0 +1,28 @@
+{
+  "id": "7d42cf1a-fa34-4097-a574-588e9a9eb038",
+  "object": "chat.completion",
+  "created": 1785017980,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "判断香蕉供应商能否按时到车，可以从以下几个维度快速评估：\n\n1. **历史交货记录**：优先选择长期合作、过去一个月内准时到车率高于90%的供应商。可查阅进销存记录的到货时间日志。\n\n2. **车辆储备情况**：询问供应商是否自有车队。自有车队且车辆数≥5辆的，稳定性更高。外包车辆需确认其合作物流公司是否在正常运营。\n\n3. **季节与天气因素**：香蕉产地（如广西、海南）当前是否为雨季或台风季？提前询问供应商是否有应对预案（如备用车辆、提前装车）。\n\n4. **合同约束条款**：在合同中明确到车时间，并约定迟到违约金（如每迟到1小时扣货款的1%）。若供应商接受严格条款，说明有履约信心。\n\n5. **实时沟通手段**：要求供应商提前24小时提供车辆定位或司机联系方式。不提供或推诿者，风险较大。\n\n建议：首次合作时，先小批量试单，要求供应商提供发车前3小时的装车照片和时间戳，以及发车后每2小时实时位置共享。若顺畅，再扩大订单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 246,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

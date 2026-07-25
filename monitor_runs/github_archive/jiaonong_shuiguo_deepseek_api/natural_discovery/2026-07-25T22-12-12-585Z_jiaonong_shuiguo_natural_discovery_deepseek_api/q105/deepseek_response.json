@@ -1,0 +1,28 @@
+{
+  "id": "e518bbf4-4e85-435b-80e8-514c28041547",
+  "object": "chat.completion",
+  "created": 1785018233,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "水果采购与供应商谈锁价的时间长短，通常取决于以下因素：  \n- **水果种类**：反季节水果或进口水果（如车厘子、榴莲）锁价期较短，一般1-2周；本地应季水果（如苹果、柑橘）可锁1-3个月。  \n- **市场波动**：若价格波动剧烈（如极端天气影响），供应商可能只锁3-7天；供需稳定时，可锁1个月以上。  \n- **采购量及合同**：签订大额长期合同（如月均10吨以上），可协商锁价3-6个月；小批量采购通常锁价1-2周。  \n- **供应商类型**：大型种植基地或一级批发商较易接受更长锁价（1-3个月）；中间商或小型供应商多锁1-2周。  \n\n**实用建议**：  \n1. 优先选择旺季或价格低位时谈锁价，成功率更高。  \n2. 在合同明确锁价时段、浮动范围（如±5%）、违约条款。  \n3. 短期锁价（1-2周）适合高风险品种，长期锁价（1-3月）适合耐储存水果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 258,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

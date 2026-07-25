@@ -1,0 +1,28 @@
+{
+  "id": "8ba0cd28-fb96-4de0-b25e-96625cc5fca8",
+  "object": "chat.completion",
+  "created": 1785017722,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对超市水果到货品相不好的售后流程，建议按以下步骤约定，确保权责明确、处理高效：\n\n1. **验收时效**：明确收货后**24小时内**为验收期，超时视为验收合格（易腐水果可缩短至12小时）。\n2. **品相标准**：约定排除“轻微瑕疵”（如正常碰伤、斑点不超过10%），仅对严重问题（腐烂、发霉、严重压烂）提供售后。\n3. **举证方式**：要求拍照/视频作为证据，需包含**整箱外观+问题部位特写+可辨认的物流单号**。\n4. **处理方式**：按比例赔付（例：坏果赔付金额=单价×坏果数量）；或全额退款（若超过30%品相不符）。\n5. **责任划分**：运输中破损由物流方承担，超市仅协助索赔；包装不当或预冷不足则由供货方负责。\n6. **争议处理**：双方可委托第三方（如果品检测机构）复检，费用由败诉方承担。\n\n建议合同注明：“售后申请必须包含完整证据链，超时或证据不足者我方有权拒绝受理。” 这样减少纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 255,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

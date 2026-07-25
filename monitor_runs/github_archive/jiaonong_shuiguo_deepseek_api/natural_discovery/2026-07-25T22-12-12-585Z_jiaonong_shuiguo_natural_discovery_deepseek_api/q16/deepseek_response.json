@@ -1,0 +1,28 @@
+{
+  "id": "2bc0c472-9d4c-4c8a-bdef-ef62632ff607",
+  "object": "chat.completion",
+  "created": 1785017642,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**本地批发**，原因如下：\n- **新鲜度和时效性**：香蕉和苹果对保鲜要求较高，本地批发可缩短运输时间，减少损耗。\n- **灵活性**：可根据社区超市的实时销售情况调整进货量，避免库存积压。\n- **成本可控**：本地批发通常无长期合同约束，适合试销阶段。\n\n若社区超市需求量较大且稳定（如日均销量超过50箱），可考虑**稳定供应商**，以获取更低单价和固定配送服务。初期建议先与本地批发商合作1-2个月，评估销量和客户反馈后再决定是否切换。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 131,
+    "total_tokens": 187,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1dbb86d1-e263-4ba1-8c4d-7fad53f27747",
+  "object": "chat.completion",
+  "created": 1785018101,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对家庭场景，实用、耐放、易分食是关键。推荐以下两种组合方案：\n\n**方案一：经典混搭（老少皆宜）**  \n苹果（耐储）+ 橙子（补充维C，果香浓郁）各3-4个，配1-2个菠萝（切块方便）和1把香蕉（即食，补能量）。  \n**优点**：苹果和橙子能存放5-7天，香蕉适合老人小孩直接吃，菠萝增加节日感，价格适中。\n\n**方案二：高性价比家庭装（量大实惠）**  \n苹果（6-8个）+ 橙子（5-6个）为主，减少香蕉（1把，避免过熟损耗），菠萝可替换为同价位的火龙果或蜜瓜（更耐切分）。  \n**搭配比例建议**：耐放水果占60%，即食型占20%，特色水果占20%。  \n**包装提示**：用分隔纸箱，香蕉单独套袋（释放乙烯催熟其它水果），菠萝可预切装盒（带小叉子）提升便利性。\n\n如果预算允许，可以统一用无纺布礼袋代替塑料袋，增加家庭温馨感，并附赠“水果保存小贴士”卡片（如：香蕉不要放冰箱、菠萝泡盐水更甜）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 279,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

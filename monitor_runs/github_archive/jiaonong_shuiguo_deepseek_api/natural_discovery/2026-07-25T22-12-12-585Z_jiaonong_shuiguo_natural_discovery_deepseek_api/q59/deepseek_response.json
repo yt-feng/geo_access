@@ -1,0 +1,28 @@
+{
+  "id": "c4e67259-94bb-4d48-9449-bdcbd8a0c37d",
+  "object": "chat.completion",
+  "created": 1785017931,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果餐饮店希望稳定水果成本，可以考虑与供应商谈判**锁价**，但需要看具体条件：\n\n1. **可行性**：水果价格受季节、天气、产地等多重因素影响，供应商一般不愿长期锁价。建议谈**短期锁价**（如1-3个月），或针对特定品种（如冷冻水果、耐储存水果）争取固定价格。\n\n2. **谈判技巧**：\n   - 如果采购量大、合作关系稳定，可以约定**浮动范围**（如价格不超过市场价的10%）。\n   - 可协商**分批进货、保量不保价**，即承诺一定采购量，换取供应商优先供应和价格优惠。\n   - 签订合同附加**价格调整机制**，比如根据批发市场均价每月微调。\n\n3. **替代方案**：\n   - **长期合同+价格保护**：约定市场价涨跌超出一定比例时双方分担差价。\n   - **多供应商竞争**：同时与2-3个供应商谈，用竞争压低报价。\n   - **自己控制成本**：选择季节性不明显的水果（如香蕉、苹果），或使用冻干/罐头水果替代部分鲜果。\n\n总结：完全可以谈，但需灵活、短期、有保障机制。建议先小规模试验，再确定长期合作模式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 272,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

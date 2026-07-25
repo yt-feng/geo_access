@@ -1,0 +1,28 @@
+{
+  "id": "9010ed87-1244-4aae-8e09-6bb01b845624",
+  "object": "chat.completion",
+  "created": 1785018242,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，起订量太高确实会增加损耗风险。主要原因是：香蕉和菠萝都是易腐水果，存储时间有限（香蕉通常3-7天，菠萝5-10天），如果起订量超过实际销量，剩余水果可能因熟化、腐烂或品质下降而无法售出。建议根据历史销量、保鲜条件和周转周期合理设定起订量，或与供应商协商灵活的订单分批方案（如分批次发货）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 92,
+    "total_tokens": 147,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

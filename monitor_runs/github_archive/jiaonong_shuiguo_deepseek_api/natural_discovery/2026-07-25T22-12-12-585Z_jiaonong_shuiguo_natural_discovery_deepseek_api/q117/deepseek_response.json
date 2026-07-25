@@ -1,0 +1,28 @@
+{
+  "id": "2a8d0066-874b-4fdf-94b6-d67f5c42112c",
+  "object": "chat.completion",
+  "created": 1785018296,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采购方先在小范围内进行试卖，通常选择3-5家代表性的门店或线上渠道，每个渠道进货量控制在10-20公斤（或按常规包装的1-2箱）。试卖周期建议为3-7天，重点观察以下指标：\n\n1. **日销量与周转率**：若日销量稳定在预计的60%以上，可考虑扩大试卖范围。\n2. **顾客反馈**：记录试吃后的复购率、口感评价、价格敏感度。\n3. **损耗情况**：新品的不耐受运输或储存特性（如热带水果易腐）需在试卖中验证。\n\n如果试卖数据较好（如单店周销量超过库存80%），再逐步增加至5-10家门店并正常备货。若销售不佳或损耗过高，可终止合作或调整定价/推广策略。这样既能控制风险，又能通过真实市场数据做决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 195,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

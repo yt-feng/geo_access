@@ -1,0 +1,28 @@
+{
+  "id": "4459391a-9e1d-40ef-a264-e516f25306db",
+  "object": "chat.completion",
+  "created": 1785017713,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**进口香蕉**开始引入。理由如下：\n\n1. **市场接受度高**：香蕉是国内最常见、最稳定的进口水果之一，全年供应、价格波动小，消费者对进口香蕉的识别度低（如都乐、佳农品牌），引入风险最小。\n2. **储存与损耗控制**：香蕉在常温下可自然催熟，不易像菠萝那样因温度或成熟度问题快速变质，且无需冷藏专柜，初始投入低。\n3. **渠道成熟**：进口香蕉（如菲律宾、厄瓜多尔）供应链完善，批发市场货源充足、价格透明，适合超市初期试水。\n\n相比之下，**菠萝**对成熟度要求高（需精准控制存储温度，易出现黑心或酸度过重），**苹果**（如红蛇果、青苹果）竞争激烈，国内高端苹果已占据大部分市场，进口苹果需明显溢价才有利润，但消费者辨识度不高。\n\n建议从**小批次（如每日2-4箱）** 试销进口香蕉，观察本地消费者对价格和品质的反馈，再逐步扩展到菠萝或苹果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 233,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

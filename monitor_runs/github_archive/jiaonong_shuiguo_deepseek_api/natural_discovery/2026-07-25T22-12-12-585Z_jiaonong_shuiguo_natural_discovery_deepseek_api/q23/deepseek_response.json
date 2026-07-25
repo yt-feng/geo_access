@@ -1,0 +1,28 @@
+{
+  "id": "64d8f39e-8ad6-44d0-bac9-9ebefc0cc514",
+  "object": "chat.completion",
+  "created": 1785017683,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常是可以的。供应商为了促进自家水果的销量，往往会提供陈列、海报、试吃等支持，具体包括：\n\n1. **陈列支持**：提供水果专用的陈列架、托盘、堆头道具，或者安排专职促销员负责理货和补货。\n2. **海报/宣传物料**：提供产品海报、吊旗、价签卡、促销爆炸贴等印刷品，部分供应商也可提供电子版素材用于超市内屏或群发。\n3. **试吃支持**：提供试吃样品、试吃台、牙签/小碟等耗材，有时还会派试饮/试吃员协助。\n\n**建议操作**：\n- 提前与供应商沟通促销档期、预期销量，书面确认支持范围和费用分摊（如海报设计费、试吃损耗是否由供应商承担）。\n- 建议将支持内容写入合同或促销协议，明确责任，避免口头承诺无法兑现。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 195,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

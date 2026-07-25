@@ -1,0 +1,28 @@
+{
+  "id": "500f81a4-4785-4860-a18e-184cc7eae574",
+  "object": "chat.completion",
+  "created": 1785017935,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在处理茶饮店水果到货不合格时，建议立即与供应商沟通以下四点补货约定，以保障营业：\n\n1. **明确补货时间**：要求供应商在**2小时内**或**当天内**完成补换货（根据食材用途，如急需品种可缩短至1小时），避免断货。\n2. **补货标准**：约定补货水果需**预检合格**后再发货，或提供**免费加急检测**，避免二次延误。\n3. **责任划分**：明确因供应商原因导致的**营业损失**（如日均销售额、可能损失的客流）由供应商承担，或给予**折扣或补偿**（如补货价格打8折）。\n4. **应急备份**：要求供应商提供**可调用的应急供应商名单**或**备用库存**，一旦无法及时补货，能立即调用其他货源。\n\n**可执行建议**：收到不合格水果后，先拍照留痕并通知供应商，同时启动**店内应急预案**（如主动告知顾客某款饮品暂时缺货或替换配方），避免影响顾客体验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 228,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

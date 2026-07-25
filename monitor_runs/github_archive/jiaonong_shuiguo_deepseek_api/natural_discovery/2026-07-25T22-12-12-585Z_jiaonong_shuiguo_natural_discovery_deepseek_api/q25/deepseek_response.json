@@ -1,0 +1,28 @@
+{
+  "id": "bdf16534-9616-4af1-a2a8-a6656c52b824",
+  "object": "chat.completion",
+  "created": 1785017692,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于门店数量多但单店体量不大的情况，建议优先考虑以下水果供货模式：\n\n1. **区域性批发市场+统一采购**：依托本地或临近的大型批发市场，由总部统一采购、分拣、分货。适合快速响应、品类灵活，同时通过批量采购压低单价。\n\n2. **产地直采+分仓或拼单**：选择1-2个核心单品（如苹果、橙子、香蕉）直接与产地合作社对接，其余品类从批发市场补货。通过总部下单、各门店聚合订单降低物流成本。\n\n3. **供应链平台或社区团购模式**：对接多多买菜、美团优选等平台的“供货商端”合作，或加入区域性的“水果批发共享仓”模式，按需下单、次日到店，适合低库存、小批量需求。\n\n4. **合作社+周配送**：与周边稳定的果蔬合作社签订周度供货协议，每店按照销售预估分批配送，减少库存积压，降低损耗。\n\n关键点是：**统一控价、灵活分货、集中议价**，而非每个门店独立采购。初期可先从“批发市场+2-3家稳定供应商”起步，逐步优化成本与效率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 256,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

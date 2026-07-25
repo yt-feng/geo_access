@@ -1,0 +1,28 @@
+{
+  "id": "0558dbd7-4c6e-495d-814a-eb08a333340a",
+  "object": "chat.completion",
+  "created": 1785017606,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，同一箱香蕉大小不一致会对销售产生一定影响，具体取决于销售场景和顾客群体：\n\n1. **零售影响**：对于普通顾客，大小不一可能被视作“挑选过的次品”或“不新鲜”，降低购买意愿。顾客往往偏好整齐统一、品相良好的商品。\n2. **批发影响**：如果是面向餐饮、果汁店等批量客户，大小差异影响较小，但若用于分装或摆盘卖相，客户可能要求均匀。\n3. **定价策略**：可以按大小分级销售（如大号贵、小号便宜），或混合促销（如“家庭装”按箱低价处理），避免因品相差导致滞销。\n4. **损耗风险**：小果可能更易被挑剩或压坏，造成额外损耗。\n\n**建议**：\n- 若采购价低，可尝试分拣后分级定价销售。\n- 若无法分拣，可标注“混合装”低价促销，或作为拼盘原料果出售。\n- 如果实际销售中顾客反映强烈，下次采购应明确要求规格统一（如每箱重量接近、大小相差不超过15%）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 243,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7c1a8243-0f14-4205-bcf7-7b009d7a3182",
+  "object": "chat.completion",
+  "created": 1785017800,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。很多水果供应商会为商超提供包装与规格的定制服务，包括：\n\n1. **包装支持**：供应商可以提供不同材质（如纸箱、塑料盒、网袋等）和印刷（自有品牌logo、产地信息等）的包装方案，通常有最低起订量。\n2. **规格支持**：可按商超要求细分水果品级（如大小、甜度、成熟度），并按需提供统一包装规格（如单果重量、盒装数量、礼盒装等）。\n\n**建议操作步骤**：\n- 向有意向的供应商明确自有品牌需求，索取其包装规格菜单和最小订单量。\n- 要求提供样品，并确认包装材料、设计稿及印刷费用是否包含在报价内。\n- 注意包装成本与终端定价的平衡，以及供应商对保鲜、运输的配套方案。\n\n若需进一步筛选供应商，可优先考察有商超合作经验的产地型或加工型企业。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 201,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

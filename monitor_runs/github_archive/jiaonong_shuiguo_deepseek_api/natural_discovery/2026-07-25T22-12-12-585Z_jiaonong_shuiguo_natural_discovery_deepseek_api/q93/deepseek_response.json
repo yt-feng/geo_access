@@ -1,0 +1,28 @@
+{
+  "id": "231e8090-9d88-4e98-a431-6cb10abf84d2",
+  "object": "chat.completion",
+  "created": 1785018163,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注三个环节的管控重点：\n\n1. **保质期管理**  \n   - 确认切块菠萝的保质期限（通常冷藏条件下为2-4天），标注明确的“包装日期+保质期至”信息。  \n   - 每日检查库存，对临期商品（如剩余1天）采取打折或下架处理，避免销售过期产品。  \n\n2. **包装要求**  \n   - 使用食品级密封盒或保鲜膜包裹，防止果肉氧化、串味或汁液泄露。  \n   - 标签需包含品名、净含量、保质期、储存温度（0-4℃）和加工日期。  \n\n3. **配送频次与补货策略**  \n   - 根据单品销量设定配送周期（如每日或隔日）。若日均销售20盒，建议单次配送量不超过3天销量，避免积压。  \n   - 季节性调整：夏季高温时缩短配送间隔（如每日配送），冬季可适当延长频次。  \n\n**执行建议**：  \n- 可设置“先进先出”货架管理，用临期标签（如“今日到期”）提醒员工优先销售。  \n- 与供应商约定配送时间窗口（如每日早间），到货后立即抽检温度（实测≤4℃）和包装完整性。  \n\n如果销量波动大，建议先用2周数据测试“每日配送”与“隔日配送”的损耗率差异，再确定最经济方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 314,
+    "total_tokens": 371,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

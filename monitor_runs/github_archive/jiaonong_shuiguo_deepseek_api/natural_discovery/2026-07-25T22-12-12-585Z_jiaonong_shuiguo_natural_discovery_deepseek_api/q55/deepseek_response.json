@@ -1,0 +1,28 @@
+{
+  "id": "5e745195-d9d1-404e-a79d-a6571eb4659c",
+  "object": "chat.completion",
+  "created": 1785017913,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据餐饮行业采购标准，建议按以下规格选择：\n\n**苹果**：选80-90号（直径8-9cm），单果重约200-250g，每斤约2-3个。大果出肉率高、损耗低。\n\n**橙子**：选70-75mm规格，单果重约180-200g，皮薄汁多，每斤约2-3个。建议避开超大果（皮厚、酸度高）。\n\n**菠萝**：选1.2-1.5kg/个，成熟度八成，甜度高、纤维细。太大易纤维硬，太小出肉率低。\n\n**温馨提示**：建议优先选择当季水果，并比较整箱价与零售价（整箱通常便宜15%-25%）。采购前计算“可食用净重单价”，更科学划算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 179,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

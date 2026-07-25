@@ -1,0 +1,28 @@
+{
+  "id": "982c8c9c-8a08-4940-9bb7-de099c94fd2f",
+  "object": "chat.completion",
+  "created": 1785018292,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "作为小商家，采购水果时选择现金结算或月结账期各有不同风险，以下简要说明：\n\n**现金结算的风险：**\n- **资金压力**：立即支付现金可能占用流动资金，影响其他开支。\n- **质量风险**：若付款后水果质量不达标或腐烂，追回款项较困难（需提前约定退货条件）。\n- **无账期缓冲**：无法通过延迟付款来检验水果品质或核对数量。\n\n**月结账期的风险：**\n- **信用风险**：供应商可能虚报价格或货不对板，需信任对方诚信。\n- **拖欠纠纷**：若自己逾期付款，可能被中断供货或产生额外费用。\n- **对账麻烦**：需记录每月交易明细，避免漏单或金额争议。\n- **供应商不稳定**：若供应商倒闭或跑路，预付款或有损失（如果采用“先款后货”模式）。\n\n**通用建议：**\n- 对长期合作、信誉好的供应商，可选择月结（降低日常现金压力）。\n- 对陌生或小规模供应商，建议现金结算，并当场验货。\n- 无论哪种方式，都应签订简单合同或保留送货单、收据等凭证，明确质量规格、退货政策和付款时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 262,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4fe75ebf-a085-4400-9ee6-56eab5f86796",
+  "object": "chat.completion",
+  "created": 1785017920,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议采用**中央厨房统一收货**，原因如下：\n\n1. **品质控制更稳定**：中央厨房可统一验收标准，避免各门店因人员、设备差异导致水果成熟度、新鲜度不一致，减少客诉。\n2. **成本更低**：集中采购量大，议价能力更强；减少各门店单独配送的运输成本和损耗（如一箱水果分拆运输易碰伤）。\n3. **加工与配送效率高**：中央厨房可预清洗、分切、包装（如沙拉、果切），门店直接需上架使用，节省人力与空间。\n4. **库存与损耗更可控**：中央厨房可按需调配，避免门店库存积压（如鲜果保质期短，易过期）。\n\n**例外情况**：\n如果水果为**高损耗、需即时保鲜的品类**（如草莓、杨梅），且门店距离中央厨房过远（配送时间>2小时），可允许部分门店**就近直采**或**供应商直送**，但仍建议由中央厨房统一调度标准。\n\n**执行建议**：\n- 中央厨房落实冷链配送，设定水果收货SOP（如规格、甜度、外观校验表）。\n- 每批水果留样并记录产地、批次，便于追溯。\n- 对门店开放紧急补货通道，应对突发缺货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 280,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

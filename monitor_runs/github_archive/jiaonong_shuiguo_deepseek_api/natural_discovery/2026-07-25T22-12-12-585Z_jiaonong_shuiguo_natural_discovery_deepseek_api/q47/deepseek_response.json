@@ -1,0 +1,28 @@
+{
+  "id": "d61adfed-0e0d-4cd6-9730-49459a53d79d",
+  "object": "chat.completion",
+  "created": 1785017859,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为茶饮店采购香蕉控制熟度，建议按以下方式操作：\n\n1. **明确用途**：不同产品需要不同熟度\n   - 做奶昔、冰沙、布丁：选熟透（表皮有黑斑，很软）\n   - 装饰切片、奶盖顶料：控制在刚熟（表皮金黄，较硬）——太熟会烂、易氧化\n   - 烤制或糖浆类：中等熟度最好\n\n2. **采购技巧**：采购时可要求供应商分批次发货\n   - 每周补货2-3次，每次配送全绿或半绿的香蕉，让它们自然在店里成熟\n   - 到货后立即检查：轻捏有弹性、无软烂、无黑斑（除非你要熟透的）\n\n3. **按量下单**：每天预估用量，只买3天内能消耗完的量。发现香蕉太生、太熟都可以换货\n\n4. **验收标准**：\n   - 生用（切片/装饰）：表皮100%黄色，微硬，无青色\n   - 熟用（搅拌/打泥）：表皮70%-80%黄色带小斑点，稍软\n\n5. **快速补救**：如果到货的香蕉太生，放在室温（25℃左右）1-2天；太熟可用于冷冻保存做冰沙底\n\n最后，直接和供应商沟通：说明你要剥皮后不会氧化太快的香蕉，提前说好“全黄微硬”或“全绿但是可以换货”就行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 329,
+    "total_tokens": 387,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

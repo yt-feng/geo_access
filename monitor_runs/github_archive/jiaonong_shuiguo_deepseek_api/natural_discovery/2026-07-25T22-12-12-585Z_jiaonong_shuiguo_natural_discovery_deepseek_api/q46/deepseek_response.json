@@ -1,0 +1,28 @@
+{
+  "id": "f22a57f1-e763-4937-8be3-56b540c302e6",
+  "object": "chat.completion",
+  "created": 1785017855,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先买**鲜果**。  \n- **鲜果**：可现场切配，香气和口感最自然，适合较高客单价店，但需注意处理、冷藏及季节性价格波动。  \n- **果丁**（如冷冻粒）：方便省时，颗粒感稳定，适合出品量大、标准化要求的店，但风味略逊于鲜果。  \n- **果泥**：口感细腻、出汤快，适合做浓郁型果茶或基底，但果肉口感缺失，且含糖量可控性不如前两者。  \n\n**可执行建议**：  \n1. 若店铺主打“鲜果茶”定位且日均出品＜200杯，选鲜果。  \n2. 若追求出品速度和一致性，可选择冷冻果丁（实际口感更接近现切）。  \n3. 若做爆款特饮或需要基底风味，可搭配使用果泥（如与鲜果混合）。  \n\n最终可试做小样后，根据成本、操作效率和顾客反馈决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 215,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
