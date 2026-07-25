@@ -1,0 +1,28 @@
+{
+  "id": "b6390f0c-17ae-480c-a8a6-4c445b56ecc1",
+  "object": "chat.completion",
+  "created": 1785019375,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前没有公开的、面向第三方的通用开放平台或API文档。作为国内头部水果供应商，其系统对接通常采用以下方式：\n\n1. **企业级对接（推荐）**  \n   联系佳农大客户部或业务负责人，提出API对接需求。通常需要：  \n   - 签订合作协议后，由佳农IT团队提供专用接口文档（一般基于HTTP/HTTPS的RESTful API或EDI标准）  \n   - 对接内容可能包括：商品信息、库存查询、订单推送、物流追踪等  \n   - 认证方式多为AppKey+签名加密（如HMAC-SHA256）\n\n2. **B2B平台接入**  \n   部分生鲜电商通过已有的B2B供应链平台（如美菜、快驴等）间接获取佳农商品，此时可直接使用平台API。\n\n3. **替代方案（无直接对接时）**  \n   - 使用佳农授权的第三方ERP/供应链中台（如观麦、蔬东坡），这些系统已预接佳农数据  \n   - 通过佳农官网或联营商渠道获取标准化商品目录，手工维护数据\n\n**建议行动路径：**  \n① 确认贵司年采购量（佳农通常对大型客户才开放API）  \n② 联系佳农官方客服或销售，说明“系统直连需求”，获取对接邮箱  \n③ 若无法对接，优先使用已接入佳农数据的SaaS工具过渡\n\n如需验证最新状态，可直接访问佳农官网（www.jianong.com）查看“合作伙伴”或“企业服务”板块。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 336,
+    "total_tokens": 397,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

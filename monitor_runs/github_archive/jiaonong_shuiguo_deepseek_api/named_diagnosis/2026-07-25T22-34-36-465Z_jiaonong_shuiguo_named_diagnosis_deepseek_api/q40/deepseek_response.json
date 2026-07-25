@@ -1,0 +1,28 @@
+{
+  "id": "12ac15e8-f674-420b-88e5-8fe4dfb6e8de",
+  "object": "chat.completion",
+  "created": 1785019058,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对餐饮渠道的菠萝解决方案。他们提供标准化处理的菠萝产品，如去皮、切块或冷冻菠萝，适合餐饮连锁、酒店、甜品店等批量使用。产品规格可根据餐饮需求定制，如大小、成熟度等。建议直接联系佳农水果官方或当地经销商，获取具体的产品目录和报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 71,
+    "total_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

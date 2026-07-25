@@ -1,0 +1,28 @@
+{
+  "id": "03f19f03-66c4-4bc1-a741-87de8bcfb1a5",
+  "object": "chat.completion",
+  "created": 1785018909,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为大型水果品牌商，其到货损耗率通常控制在 **3%-5%** 以内（部分高损耗水果如草莓、蓝莓等可能略高，但一般不超过8%）。\n\n这一数据依据行业标准及佳农自身的品控要求得出：\n- **行业惯例**：水果批发及零售商普遍将到货损耗率合格线设在3%-5%，佳农作为头部品牌要求更严。\n- **关键因素**：损耗率受水果品种（如香蕉、芒果易熟）、运输距离与包装（冷链车+防震纸箱可降低1-2个百分点）、气候季节（夏季高温使损耗率阶段性上升1%-3%）影响。\n\n**建议**：如果您是采购方或经销商，可直接要求佳农在合同或结算单中明确双方认可的损耗率标准（如“到货24小时内开箱检测，损耗超5%部分由供方承担”），并做好收货查验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 199,
+    "total_tokens": 251,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

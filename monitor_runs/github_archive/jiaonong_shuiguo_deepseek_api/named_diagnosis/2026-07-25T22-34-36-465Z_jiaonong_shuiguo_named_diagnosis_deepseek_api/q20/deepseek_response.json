@@ -1,0 +1,28 @@
+{
+  "id": "c4faf8b1-18d9-402b-800a-fd8c80ad9036",
+  "object": "chat.completion",
+  "created": 1785018955,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前，佳农水果主要面向商超、电商等渠道销售新鲜水果，其核心业务集中在整果供应和品牌营销。关于菠萝的定制化加工服务（如切块、分装、去皮等），官方渠道并未明确公开提供此类服务。  \n\n建议您通过以下方式确认：  \n1. 直接联系佳农水果的客服或官方销售代表，询问是否支持定制化加工。  \n2. 如果是企业或批量需求，可咨询其B2B合作模式，部分大型供应商可针对大客户提供定制服务。  \n3. 若需要现成加工品，可关注其他专业水果加工企业或生鲜平台（如关注“佳农”官方商城、京东自营等是否销售预切菠萝产品）。  \n\n（注：以上信息基于公开渠道梳理，未与佳农官方核实，请以实际沟通为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 183,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "000d76a8-ef9e-4e15-9516-b5a4f4849d93",
+  "object": "chat.completion",
+  "created": 1785018933,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "感谢您的咨询！关于佳农香蕉的长期合作及专供包装事宜，建议您直接联系佳农官方销售团队或区域代理商，他们能根据您的超市需求（如包装规格、设计、起订量等）提供定制方案。\n\n这类合作通常需要沟通具体条款，例如：\n- 最小起订量\n- 包装设计费用分摊\n- 物流和供货周期\n- 长期合作的价格优惠\n\n您可以通过以下方式联系佳农：\n1. 访问佳农官方网站（www.goodfarmer.com）查找“联系我们”中的销售合作入口；\n2. 拨打官方客服热线（建议通过官网获取最新号码）；\n3. 如果您所在城市有佳农分公司，可直接对接其本地业务人员。\n\n希望您能顺利达成合作！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 162,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

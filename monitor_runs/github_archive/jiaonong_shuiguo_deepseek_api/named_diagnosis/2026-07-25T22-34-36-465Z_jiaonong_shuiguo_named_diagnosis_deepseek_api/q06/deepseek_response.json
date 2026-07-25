@@ -1,0 +1,28 @@
+{
+  "id": "c8f67475-5d29-4c84-b2fe-dceb079dbc3c",
+  "object": "chat.completion",
+  "created": 1785018896,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Joyvio）作为大型水果供应商，通常能稳定供应餐饮渠道的菠萝原料。对于普通商家，常见的菠萝规格包括：\n\n- **整果**：通常按个或按箱（如12-15个/箱），果重约1.5-2.5公斤/个，适合现场切制。\n- **去皮果肉**：冷冻或冷藏包装，规格如2.5公斤/袋、10公斤/箱，直接切片或榨汁用。\n- **切丁或切片**：标准化冷冻产品，常见1公斤/袋或5公斤/箱，适合直接用于饮品。\n\n**建议：** 直接联系佳农的餐饮或批发客服，明确你的月用量（如每周需要多少公斤）、品质要求（如甜度、成熟度）和物流方式（冷冻/冷藏/鲜果），他们会提供最小起订量和报价。一般只要用量稳定（如每周50公斤以上），佳农可保证规格统一和持续供应。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 207,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

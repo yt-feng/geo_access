@@ -1,0 +1,28 @@
+{
+  "id": "31c96572-76ac-4ccc-ad4e-ea06f22214fb",
+  "object": "chat.completion",
+  "created": 1785019136,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，我们非常理解您对供应商响应速度的关切。作为AI助手，我无法直接为您提供具体的专岗对接人信息或实时供应商数据，但可以为您提供高效获取对接人的方案建议：\n\n1. **官方渠道直连**：建议您通过“佳农”官方微信公众号或官网（佳农集团）查找“销售/大客户服务”板块，通常会有区域经理或客服专线联系方式。  \n2. **连锁采购定向匹配**：若您需要专属对接人，可致电佳农全国服务热线（官网可查），说明“水果连锁店批量采购需求”，要求分配负责您所在区域的客户经理。  \n3. **响应时效提升**：联系时明确要求对方提供“48小时响应承诺”，并索要直属上级联系方式以备升级反馈。  \n4. **备用方案**：如需快速对接，也可通过“中国果品流通协会”等行业平台获取佳农官方授权经销商的联络信息。  \n\n如需其他供应链管理建议，请随时告知。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 212,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

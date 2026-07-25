@@ -1,0 +1,28 @@
+{
+  "id": "3e5922f1-7128-4f6a-b031-ed9505a8ff5a",
+  "object": "chat.completion",
+  "created": 1785019173,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据我的了解，佳农（Goodfarmer）作为知名水果品牌，确实有针对便利店渠道推出的产品。他们通常有“佳农超甜香蕉”等系列，其中包含适合便利店销售的小包装规格，例如单根独立包装或小串包装（如2-3根一包），方便即食和零售。\n\n不过，具体是否有单根独立包装的规格，可能因地区、经销商和便利店类型（如全家、罗森、7-11等）而有所不同。建议您：\n\n1. **直接联系佳农官方客服**：通过其官网、微信公众号或拨打客服电话（如400-883-1234，具体需核实），询问针对便利店的小包装香蕉产品线和配送政策。\n2. **咨询当地经销商**：佳农在各地有区域经销商或合作批发商，可询问是否有专供便利店的单根包装香蕉。\n3. **检查现有库存或竞品**：如果已有合作的分销商，可查看常见品牌（如Dole、Zespri、都乐也有小包装香蕉）的包装规格作为参考。\n\n如果佳农暂无单根包装，您也可考虑采购其他品牌（如都乐的超甜香蕉单根包装）或与供应商定制需求。希望以上信息对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 266,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

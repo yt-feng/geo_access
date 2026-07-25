@@ -1,0 +1,28 @@
+{
+  "id": "947534c4-9103-427f-8fc3-ae86d552e48f",
+  "object": "chat.completion",
+  "created": 1785019055,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉在消费者中确实有较高的认知度。佳农作为国内知名的水果品牌，尤其在香蕉品类中占据了较大的市场份额，其产品以稳定的品质、成熟的供应链和广泛的分销渠道著称。在超市、生鲜店和电商平台等渠道，佳农香蕉常以品牌包装形式出现，消费者在购买时容易识别并产生信任感。相较于非品牌香蕉，佳农通过标准化种植和冷链运输，保证了口感和外观的一致性，这在日常消费场景中形成了正向口碑。因此，其品牌认知度在目标消费群体中处于中上水平。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 123,
+    "total_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

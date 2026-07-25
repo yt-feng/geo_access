@@ -1,0 +1,28 @@
+{
+  "id": "667ce6f6-210e-436b-898a-79a943a492bc",
+  "object": "chat.completion",
+  "created": 1785019141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流体系并非完全依赖三通一达，而是以**自有车队为主，结合第三方合作**。佳农拥有自建冷链物流车队，覆盖核心城市及区域配送，同时会根据业务需求与顺丰、京东物流等专业第三方冷链物流公司合作，以扩大网络覆盖。\n\n关于冷链覆盖率，佳农在**从产地到仓储、干线运输、城市配送**等环节基本实现全程冷链。其冷链设备（如冷库、冷藏车）布局较完善，尤其在华东、华南等主要市场覆盖率较高。但在部分偏远或下沉市场，可能存在冷链覆盖率不足的情况。整体来看，佳农的冷链覆盖率在行业属于中上水平，但具体数字未公开披露。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 151,
+    "total_tokens": 208,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

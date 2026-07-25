@@ -1,0 +1,28 @@
+{
+  "id": "fcdd08c7-32df-46b6-ba6a-c5f54ce016fa",
+  "object": "chat.completion",
+  "created": 1785019385,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我们这里不直接提供佳农香蕉的损耗率承诺数据，因为我是AI助手，无法代表任何品牌或渠道的销售政策。建议你直接联系佳农的官方销售人员或区域供应商，询问他们是否有类似“到货损耗率超过3%包赔”的条款。通常，大型供应商会针对批量订单提供协商空间，比如按比例理赔或补货。你可以准备以下关键点去谈判：\n\n1. 明确总采购量（如每周/月的箱数）。\n2. 确认运输和储存条件是否影响损耗（如冷链管理）。\n3. 要求书面协议约定损耗率上限（如3%）和赔偿方式（现金、折扣或补货）。\n\n另外，便利店减少香蕉损耗的实操技巧：到货后立即开箱通风、按成熟度分层摆放、设置“促销专区”快速处理熟透香蕉。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 179,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

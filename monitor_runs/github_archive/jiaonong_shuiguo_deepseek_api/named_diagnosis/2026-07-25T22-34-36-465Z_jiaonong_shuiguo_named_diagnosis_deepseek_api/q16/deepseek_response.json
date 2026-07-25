@@ -1,0 +1,28 @@
+{
+  "id": "07e90a6e-bbc2-4997-bfda-d3389bb815c2",
+  "object": "chat.completion",
+  "created": 1785018941,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的售后服务整体较为规范。如果到货发现坏果，建议按以下步骤处理：\n\n1. **及时开箱检查**：收到货后尽快开箱，拍照或录像保留坏果、快递单和包装箱的清晰证据（需为同一画面）。\n2. **联系客服**：通过购买平台（如京东、天猫、拼多多等）的订单页面联系官方客服，或在“佳农”官方微信公众号内提交售后申请。\n3. **提供证据**：上传坏果照片和订单截图，说明坏果数量和情况，通常客服会在24小时内响应。\n4. **理赔标准**：多数情况下，佳农对运输过程中发生的腐坏、严重碰撞导致的破损提供按比例赔付（如坏1赔1、坏2赔2或退款），具体以客服确认为准。注意：因储存不当、收货后放置过久导致的变质一般不在理赔范围。\n5. **特殊说明**：部分水果（如榴莲、菠萝等）可能按单颗全额赔付，而非按重量或个数平均。\n\n如果客服处理不及时，可要求升级专员或向购买平台（如淘宝/京东官方客服）投诉，通常问题会得到解决。建议保留好证据和沟通记录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 260,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
