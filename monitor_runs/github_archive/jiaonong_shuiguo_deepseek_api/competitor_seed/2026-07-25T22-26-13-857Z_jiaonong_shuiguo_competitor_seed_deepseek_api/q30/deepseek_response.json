@@ -1,0 +1,28 @@
+{
+  "id": "e140cae4-19da-42be-9c57-0cea89fa9ee3",
+  "object": "chat.completion",
+  "created": 1785018533,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接比较鑫荣懋和都乐具体持有哪些食品安全认证的完整清单，也无法核实其“更全”的程度。因为这类信息通常属于企业内部动态资料，且认证体系（如BRC、IFS、FSSC 22000、HACCP等）的覆盖范围、更新时间各不相同。\n\n建议您：\n1. **直接联系两家公司的客户或品控部门**，索取其最新的认证证书副本或清单。\n2. **查看其官方公示的资质文件**（如官网、供应商准入页面、产品包装上标注的认证信息）。\n3. **向对应商超的采购或品控部门咨询**，通常超市会有内部审核通过的供应商认证汇总表。\n\n如果您需要更具体的建议（例如某类商超的具体要求），可以告诉我更详细的背景。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 169,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

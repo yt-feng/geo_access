@@ -1,0 +1,28 @@
+{
+  "id": "ecd52401-340e-4c1e-a0d2-81a6fc8df82d",
+  "object": "chat.completion",
+  "created": 1785018493,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法直接获取鑫荣懋与洪九果品这两家公司的实时服务评价或具体对接流程细节。建议您通过以下方式自行核实：\n\n1. **直接联系**：拨打两家公司的官方客服或专岗对接热线，询问具体服务流程、响应时间、案例参考等。\n2. **客户反馈**：在行业论坛、企业评价平台（如天眼查、企查查）或社交媒体上搜索过往合作客户的公开评价。\n3. **试用评估**：若条件允许，可申请小额试单或试用一段时间，实际体验对接效率与配合度。\n4. **对比参数**：要求对方提供专岗对接人员的工作方式（如专属微信群、定期汇报、紧急响应机制等），对比哪家更符合你的需求。\n\n如需进一步建议，请补充您所在行业、对接岗位类型或具体服务要求，我可以帮您梳理评估维度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 189,
+    "total_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5d9440e2-0dfe-4f1a-bc2f-c771cb946703",
+  "object": "chat.completion",
+  "created": 1785018394,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先考虑**都乐**，理由如下：\n\n1. **品牌与品控稳定性**：都乐是全球知名水果品牌，有成熟的供应链和标准化品控体系，菠萝品种（如超甜菠萝）和成熟度更稳定，适合长期标准化出品。\n2. **供应持续性与规模化**：都乐在国内有长期稳定的进口与分销渠道，全年供应能力较强（尤其菲律宾菠萝），洪九虽在国产菠萝（如徐闻菠萝）旺季有优势，但非季节时段供应可能波动。\n3. **售后与合规**：都乐的采购合同、发票、质检流程更规范，对奶茶店合规经营（如食安审查）更有利。\n4. **建议下一步**：  \n   - 对比同规格产品（如菠萝切块或整果）的价格与起订量。  \n   - 试采购1-2批，做实际出品测试（甜度、纤维感、损耗率）。  \n   - 如果追求季节性本地鲜果或成本敏感，可考虑洪九作旺季补充。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 220,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1a59782d-242b-4690-a237-c9dcaa76b740",
+  "object": "chat.completion",
+  "created": 1785018640,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，都乐（Dole）和鑫荣懋（Joy Wing Mau）在部分业务场景下均提供专岗对接服务，但具体安排可能因客户需求、合同条款或项目规模而异。建议您直接联系两家公司的销售或客户服务部门，明确询问是否支持“指定专人服务”以及相应的对接流程。若需进一步建议，可告知您的具体需求（如所在地区、合作类型等），以便提供更精准的指导。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 99,
+    "total_tokens": 162,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

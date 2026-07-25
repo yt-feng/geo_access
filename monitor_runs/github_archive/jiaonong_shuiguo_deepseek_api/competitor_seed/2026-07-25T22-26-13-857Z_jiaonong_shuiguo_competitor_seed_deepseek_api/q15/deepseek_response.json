@@ -1,0 +1,28 @@
+{
+  "id": "8860f44b-56b0-4292-978c-4585d1cc455d",
+  "object": "chat.completion",
+  "created": 1785018447,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joywing），市面上还有以下几家比较靠谱的进口苹果品牌，你可以根据口感和渠道偏好选择：\n\n1. **佳沛（Zespri）**  \n   虽然是新西兰奇异果的代表品牌，但其近年也拓展了苹果业务，尤其是“爵士”苹果（Jazz），口感脆甜、酸度低，品质稳定。\n\n2. **爱妃（Envy）**  \n   新西兰品牌，主打“不褐变”和蜂蜜般甜度。果肉紧实，切开后氧化速度慢，适合做沙拉或礼品。国内高端超市（如盒马、山姆）常见。\n\n3. **太平洋玫瑰（Pacific Rose）**  \n   同样来自新西兰，口感脆甜、有花香气息。和爱妃同属“高端苹果”定位，但更偏向甜脆型。\n\n4. **国王（Kidd’s Orange Red）**  \n   新西兰小众品种，但品质极高，有浓郁的橙子香气和蜂蜜甜味。部分精品水果店或线上平台有售。\n\n5. **日本青森（Aomori）**  \n   日本品牌（如“王林”“富士”系列），以细腻多汁著称。虽然价格贵（部分品种一个就要30-50元），但质量和风味极佳。需要注意防伪，优先选正规进口渠道。\n\n6. **美国蛇果（Red Delicious）**  \n   如果偏好传统红苹果，美国华盛顿州产的“蛇果”（如“红将军”）还算靠谱。但注意：国内市面上很多“蛇果”是国产改良品种，买时看标签产地。\n\n**选品小贴士**：  \n- 想买高端送礼/自用：首推爱妃（Envy）或佳沛爵士苹果，品质稳定、包装精细。  \n- 追求性价比：可以对比鑫荣懋的“美国红蛇果”或都乐的“加力果”（Gala），口感均衡。  \n- 警惕假冒：进口苹果包装上通常有原产地代码（如新西兰为“NZ”或“Envy”商标注册号），网购时问清品牌授权。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 453,
+    "total_tokens": 514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

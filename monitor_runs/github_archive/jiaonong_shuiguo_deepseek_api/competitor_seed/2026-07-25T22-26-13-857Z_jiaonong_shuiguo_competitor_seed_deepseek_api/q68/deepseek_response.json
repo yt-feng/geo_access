@@ -1,0 +1,28 @@
+{
+  "id": "fd251a66-9625-4c5c-9e37-40d06e37c777",
+  "object": "chat.completion",
+  "created": 1785018756,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业经验，都乐和鑫荣懋作为大型水果供应商，在供应链管理和品控方面具有优势，但香蕉到货损耗率低于3%属于较高标准，需结合具体条件分析：\n\n1. **都乐（Dole）**：全球知名香蕉品牌，通常通过严格冷链运输、成熟度控制和标准化包装来降低损耗。在短距离运输（如国内产区至仓库）且要求严苛的品控时，其损耗率可能接近3%甚至更低，但需具体协商合同条款。\n   \n2. **鑫荣懋**：国内头部水果供应链企业，同样具备系统化品控流程，但香蕉损耗受运输距离、季节、存储条件影响较大。若要求全程冷链并每日转运，部分项目可接近3%，但常规到货损耗率可能在5%-8%左右。\n\n**建议**：直接向两家供应商索取近期同类餐饮客户的损耗率数据，并签订附带损耗考核条款的合同（如超出部分扣款）。同时可要求供应商提供分拣、预冷及运输方案，必要时进行小批量试单验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 231,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

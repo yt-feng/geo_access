@@ -1,0 +1,28 @@
+{
+  "id": "ff42902d-d4fe-48e6-ad8b-2bb02c3787ff",
+  "object": "chat.completion",
+  "created": 1785018506,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "要判断鑫荣懋和洪九果品谁更愿意签年单，需结合双方的公司战略、合作模式及市场定位。以下是分析：\n\n1. **鑫荣懋**：作为国内大型水果供应链企业，业务覆盖全球，与永辉、山姆等渠道有长期合作。通常更注重稳定的大客户关系，对年单接受度高，但倾向于有一定规模和信誉的合作伙伴，且条款可能更细致（如价格锁定、产品标准）。\n\n2. **洪九果品**：以“端到端”模式著称，在越南等产区有深度布局，近年因上市需求扩张较快。其策略更依赖高周转，年单灵活性可能较高（尤其在量大的情况下），但需注意其资金链和对短期利润的敏感性。\n\n**结论**：\n- 若您的订单量较大、要求稳定供应和标准明确，**鑫荣懋**可能更愿意签年单，因其大客户服务经验丰富。\n- 若您追求价格弹性、对品种（如榴莲、龙眼）有特定需求且周转快，**洪九果品**可能更配合，但需明确结算条件和违约责任。\n\n建议同时接触两家，提供年度预估量、付款周期和品控要求，观察其反馈速度与条款细节。重点看哪家能接受价格波动调整或保底量条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 284,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

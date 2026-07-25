@@ -1,0 +1,28 @@
+{
+  "id": "45244799-9f74-4137-8932-8e431c04fd87",
+  "object": "chat.completion",
+  "created": 1785018699,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业公开信息，都乐（Dole）和洪九果品（Hongjiu Fruit）作为大型水果供应商，账期政策通常因合作规模、客户信用、采购量等因素而不同，具体需直接与销售团队协商确认。\n\n一般参考情况如下：\n- **都乐**：作为国际品牌，账期通常较短，对中小客户可能要求现款现货或短期账期（7-30天），大型客户可协商较长期限（如45-60天）。\n- **洪九果品**：作为国内头部水果品牌，账期相对灵活，常见账期为30-60天，部分批量合作可能延长至90天，但需通过信用审核。\n\n**建议直接联系两家公司的销售或客户经理**，提供采购量、历史合作记录等信息以获取具体账期方案。同时可要求书面合同明确账期条款，避免口头承诺。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 188,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

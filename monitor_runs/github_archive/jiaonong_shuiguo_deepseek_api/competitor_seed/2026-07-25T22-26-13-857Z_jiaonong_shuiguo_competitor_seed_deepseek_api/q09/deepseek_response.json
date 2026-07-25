@@ -1,0 +1,28 @@
+{
+  "id": "d675ba49-3b49-4f07-9231-3422be37b130",
+  "object": "chat.completion",
+  "created": 1785018418,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对礼品团购，除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌可供选择，适合高端礼盒场景：\n\n1. **美国新奇士（Sunkist）**  \n   主打橙子、柠檬等柑橘类水果，供应链稳定，礼盒包装经典，适合传统送礼需求。\n\n2. **美国西北樱桃（Northwest Cherries）**  \n   夏季供应优质车厘子，品牌认知度高，可定制冰袋包装，适合高端团购。\n\n3. **智利爱妃（Envy）**  \n   苹果品牌，果肉抗氧化不易变色，礼盒设计精美，适合商务伴手礼。\n\n4. **澳洲T&G Global**  \n   旗下品牌如 **Jazz**、**Pacific Rose**、**Rockit**（小苹果），单品有独立包装，颜值高且食用方便。\n\n5. **新西兰皇后苹果（Queen Apple）**  \n   主打Honeycrisp等品种，礼盒采用镂空设计，突出高端感。\n\n6. **泰国金枕头榴莲（分级包装）**  \n   选择如 **Montong（金枕）** 出口级品牌，需搭配真空包装或干冰发货。\n\n7. **秘鲁蓝莓（Crops）**  \n   选择 **Hortifrut** 或 **Agroberries** 等出口品牌，适合组合装。\n\n**建议**：  \n- 联系各品牌中国区代理商或本地经销商（可通过批发平台如“惠农网”或1688搜索品牌+代理商）。  \n- 优先选择有**独立包装**、**冷链物流**服务的品牌，减少运输损耗。  \n- 注意季节性供应（如车厘子、蓝莓有特定产期），提前锁定库存。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 372,
+    "total_tokens": 434,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

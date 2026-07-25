@@ -1,0 +1,28 @@
+{
+  "id": "18ed1543-f404-4193-be45-7399ff8c3967",
+  "object": "chat.completion",
+  "created": 1785018815,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在品牌知名度上，**都乐**（Dole）在全国范围内的品牌认知度和国际影响力通常高于**鑫荣懋**。都乐是全球水果巨头，拥有百年历史，进口苹果（如红富士、青苹果等）在商超渠道经常作为高端、品质稳定的代表，品牌背书能力更强。鑫荣懋是国内大型水果供应链企业，虽然在国内市场知名度高，但更偏向渠道和供应链而非消费者直接领会的独立品牌形象。如果超市面向中高端消费群体或需要突出进口品控，**都乐**是更稳妥的选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 121,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

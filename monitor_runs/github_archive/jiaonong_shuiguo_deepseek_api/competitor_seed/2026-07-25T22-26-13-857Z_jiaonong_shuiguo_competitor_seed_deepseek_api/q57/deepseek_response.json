@@ -1,0 +1,28 @@
+{
+  "id": "e562b5f0-5de4-4cab-95c6-68eff565ec35",
+  "object": "chat.completion",
+  "created": 1785018683,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于下沉市场夫妻店向洪九果品或都乐小批量进货的问题，目前没有公开信息明确表明这两家公司直接针对夫妻店提供小批量供货服务。不过，根据行业常识：\n\n1. **洪九果品**：主要面向大型商超、批发市场等渠道，供应链模式偏中大规模。夫妻店小批量进货可能性较低，但可通过当地经销商或批发市场间接采购其产品。\n\n2. **都乐（Dole）**：作为国际品牌，通常通过经销商或大型零售终端分销，小批量供应夫妻店不常见。个别区域可能有代理商灵活操作，但需自行联系当地业务核实。\n\n**建议**：\n- 直接联系洪九果品或都乐的官方客服或区域销售代表，询问是否有针对小型门店的试点或合作方案。\n- 考虑本地水果批发市场，这通常是小批量进货的主要来源，洪九果品或都乐的产品可能通过批发商流通至此。\n- 可关注社区团购、B2B平台（如美团优选、美菜网等），部分平台可能提供灵活的小批量水果供应。\n\n如果需要准确信息，建议直接致电企业官方电话确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 244,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

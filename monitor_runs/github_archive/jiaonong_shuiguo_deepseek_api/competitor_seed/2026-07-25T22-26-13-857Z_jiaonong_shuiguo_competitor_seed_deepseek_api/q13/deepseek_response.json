@@ -1,0 +1,28 @@
+{
+  "id": "6ccbaedf-2433-4b33-b438-d6917b03b6b5",
+  "object": "chat.completion",
+  "created": 1785018440,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**鑫荣懋**的冷链直达覆盖城市数量多于洪九果品。具体对比如下：\n\n1. **鑫荣懋**：作为国内大型水果供应链企业，拥有全国性冷链物流网络，能覆盖超300个城市（含县级市），在北上广深及多数省会城市可实现次日达或冷链直达。\n2. **洪九果品**：核心优势在东南亚进口水果和西南地区，冷链直达约200-250个城市，在二三线城市的渗透率相对较低，尤其在北方部分城市可能需中转。\n\n**建议**：若您平台需全国性覆盖（尤其下沉市场），优先选择鑫荣懋；若主营中高端进口水果、且区域集中在华东或华南，洪九果品也是可行选择。具体合作前请直接联系两家企业确认最新服务城市列表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 180,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

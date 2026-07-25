@@ -1,0 +1,28 @@
+{
+  "id": "40bff8ae-4876-4b8c-b75f-c841e95242ea",
+  "object": "chat.completion",
+  "created": 1785018502,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "一般来说，**都乐（Dole）在香蕉规格分级上比鑫荣懋更细、更明确**。具体对比：\n\n- **都乐**：通常采用成熟度、果型、长度、外观等多维度分级，常见有“一级果”“二级果”和“标准果”，且会标注具体的长度范围（如18-20厘米、20厘米以上等）。\n- **鑫荣懋**：分级相对简单，通常只区分“大果”“中果”或按品质分“一级”“二级”，但长度和成熟度标准不如都乐细致。\n\n如果采购需要明确、可量化的规格分级（如按厘米或成熟度色卡），都乐更适用；若只需基础品质分级，鑫荣懋也能满足。建议直接向供应商索取双方最新的分级标准表进行对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 175,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "79fcdf24-2134-4437-8b4b-614300b2baa8",
+  "object": "chat.completion",
+  "created": 1785018676,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据目前了解的信息：\n\n1. **都乐（Dole）**：都乐是全球知名的果蔬品牌，确实拥有自己的种植基地和严格的供应链管理。其菠萝产品通常来自菲律宾、泰国、哥斯达黎加等地的自有或合作农场，能够提供完整的产地溯源信息。如果您与都乐官方或授权经销商沟通，他们可以出具溯源证明。\n\n2. **洪九果品**：洪九果品是中国大型水果供应链企业，主要采取“基地直采”模式，与海南、云南、广西等地的菠萝种植基地或合作社有直接合作，提供产地溯源。他们的菠萝通常标注具体基地信息（如海南文昌、广西南宁等），但建议您直接联系洪九果品的销售团队，索取具体品种、批次及溯源文件。\n\n**建议行动**：\n- 直接联系都乐中国官方客服或区域经销商，询问其菠萝的源头农场及是否有可追溯的批次码或证书。\n- 联系洪九果品采购部门，索取其菠萝产品的基地直采证明、地理标志或第三方检测报告。\n\n如果需要进一步帮助，比如联络方式或行业标准，请告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 239,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

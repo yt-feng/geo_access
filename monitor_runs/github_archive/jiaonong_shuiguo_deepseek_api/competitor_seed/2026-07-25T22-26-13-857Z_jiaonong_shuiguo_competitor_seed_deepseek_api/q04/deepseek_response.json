@@ -1,0 +1,28 @@
+{
+  "id": "bd5bd13e-12dd-4dea-8bb6-631fca05ae01",
+  "object": "chat.completion",
+  "created": 1785018389,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对您提到的佳沛奇异果业务稳定但香蕉业务较弱的情况，以下是一些国内外市场上口碑较好、品质稳定的进口香蕉品牌推荐供您参考：\n\n1. **都乐（Dole）**  \n   全球知名的水果品牌，香蕉产品线成熟，供应链完善，果肉饱满、甜度高，适合长期合作。\n\n2. **金吉达（Chiquita）**  \n   国际经典香蕉品牌，主打热带风味，果实大小均匀，耐运输，商超渠道覆盖率较高。\n\n3. **德尔蒙（Del Monte）**  \n   美国老牌水果企业，香蕉种植经验丰富，品质管控严格，适合追求稳定供应的客户。\n\n4. **菲农（Fyffes）**  \n   欧洲市场主要香蕉供应商之一，原产地以中南美洲为主，口感软糯，适合侧重有机或可持续种植的客户。\n\n5. **本地或区域优质进口商**  \n   可关注如 **佳农（Goodfarmer）**、**鑫荣懋** 等国内大型水果进口商，它们常代理厄瓜多尔、菲律宾等地的优质香蕉，价格和供应灵活性较高。\n\n**建议**：  \n- 若注重品牌知名度：首选都乐或金吉达。  \n- 若需要差异化（如有机/公平贸易）：可考察菲农或部分区域品牌。  \n- 直接联系上述品牌的中国区代理或分销商，要求提供样品测试物流周期、损耗率和消费者反馈。\n\n希望这些信息对您有帮助！如需具体供应商对接方式，建议通过行业展会或专业水果交易平台进一步核实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 330,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
