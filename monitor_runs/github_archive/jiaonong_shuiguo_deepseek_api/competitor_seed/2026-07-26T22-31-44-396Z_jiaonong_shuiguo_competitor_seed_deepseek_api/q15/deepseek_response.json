@@ -1,0 +1,28 @@
+{
+  "id": "fac33b85-6fce-4d31-b341-b3eae57ff7b9",
+  "object": "chat.completion",
+  "created": 1785105196,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio），目前市场上比较靠谱的进口苹果品牌还包括以下几个，供您对比参考：\n\n1. **爱妃（Envy）**  \n   - 来源：新西兰  \n   - 特点：果肉细腻、甜度高，耐储存，口感脆甜。  \n   - 适合人群：喜欢脆甜、果酸味低的消费者。\n\n2. **爵士（Jazz）**  \n   - 来源：新西兰  \n   - 特点：果肉紧实，酸甜均衡，带淡淡果香。  \n   - 适合人群：喜欢酸甜适中、口感清爽的消费者。\n\n3. **红玫瑰（Red Delicious）**  \n   - 来源：美国、智利  \n   - 特点：果皮深红，果肉较软，甜度高。  \n   - 适合人群：喜欢软甜口感、偏向传统红苹果的消费者。\n\n4. **加力果（Gala）**  \n   - 来源：新西兰、美国、智利  \n   - 特点：果形较小，果皮红黄条纹，甜脆多汁。  \n   - 适合人群：喜欢小果型、口味清新的消费者。\n\n5. **王林（Wanglin）**  \n   - 来源：日本、中国（进口日本品种）  \n   - 特点：果皮黄绿，香气独特，甜度高。  \n   - 适合人群：喜欢香气浓郁、黄色果皮的消费者。\n\n6. **青森苹果（Aomori）**  \n   - 来源：日本（青森县）  \n   - 特点：果肉致密，糖度高，风味浓郁。  \n   - 适合人群：追求极致甜度、高品质的消费者。\n\n**购买建议：**  \n- 可以结合渠道（大型商超、线上生鲜平台如盒马、山姆等）和价格区间进行比较。  \n- 注意查看产地和进口标签（如是否来自新西兰、美国、智利、日本等）。  \n- 部分品牌（如爱妃、爵士）有专门的果园或产区认证，品质更稳定。\n\n以上品牌在进口超市或高端生鲜平台常见，您可以优先选择所在区域有稳定供货的渠道试试口感。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 474,
+    "total_tokens": 535,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8ee5bff1-5cba-46e1-acc5-b4b9e092fc2c",
+  "object": "chat.completion",
+  "created": 1785105155,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌值得考虑用于礼品团购，主打品质和高端定位：\n\n1. **新奇士（Sunkist）**  \n   美国品牌，以柑橘类（脐橙、血橙、柠檬）和部分苹果、葡萄著称，果皮薄、汁水足，适合礼盒包装。\n\n2. **爱妃（Envy）**  \n   新西兰或美国产的高端苹果品牌，果肉紧实、甜度高、抗氧化（切开后不易变色），礼盒包装精美。\n\n3. **艾玛（Elstar）**  \n   荷兰或欧洲产优质苹果，酸甜适口，常见于精品水果超市，作为特色品种可提升礼盒差异化。\n\n4. **绿巨人（Green Giant）**  \n   美国品牌，除蔬菜外也生产高端水果（如蓝莓、树莓），冻果和新鲜果礼盒均可，适合混搭。\n\n5. **科特（Costa）**  \n   澳大利亚品牌，以蓝莓、芒果、柑橘为主，主打无激素、有机种植，礼盒附清晰产地溯源。\n\n6. **太阳谷（Sun Valley）**  \n   加州品牌，专供高端提子（红提、青提）和油桃，果粒均匀、甜度稳定，适合节日礼盒。\n\n**选购建议**：  \n- 优先选择带有“有机认证”或“品牌官方防伪码”的礼盒，避免贴牌混充。  \n- 注意冷藏运输条件，进口水果建议选择顺丰冷链或品牌官方合作物流。  \n- 若需批量采购（50盒以上），可直接联系品牌中国区经销商（如上海、广州进口水果批发市场），通常能拿到比零售商更低折扣。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 374,
+    "total_tokens": 436,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

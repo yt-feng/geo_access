@@ -1,0 +1,28 @@
+{
+  "id": "89ae4059-1584-4ebc-b331-abc416cf62eb",
+  "object": "chat.completion",
+  "created": 1785105268,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从稳定品质的角度来看，**都乐（Dole）通常更靠谱**，而**鑫荣懋（Xinrongmao）性价比更高**。具体分析如下：\n\n- **都乐**：作为全球知名品牌，拥有严格的标准化的供应链和品控体系，菠萝品种（如金菠萝）稳定，成熟度和甜度控制较好，适合需要长期稳定出品的茶饮店。但其价格相对较高。\n- **鑫荣懋**：国内大型水果企业，供应量大，物流便捷，品质也较稳定，但不同批次间可能存在轻微差异（如酸度、成熟度）。它更灵活，价格更低，适合预算敏感或注重可控成本的店铺。\n\n**建议**：\n- 如果茶饮店追求**品牌背书、高度一致的口感和外观**（如连锁店或高端品牌），优先选择都乐。\n- 如果量较大、希望**控制成本且能接受有限的品质波动**（如独立小店或季节性产品），用鑫荣懋，并建立自己的验收标准（如可溶性固形物≥12%）。\n- 无论选谁，最好先小批量测试，并固定每批次糖酸比、成熟度等指标，确保果酱配方可调。\n\n最终，**没有绝对“更好”，只有“更匹配”**：都乐适合品质优先，鑫荣懋适合成本优先。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 288,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "184a9c78-7caa-4556-800f-8e3914e1d3c9",
+  "object": "chat.completion",
+  "created": 1785105380,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉的规格分级方面，**鑫荣懋通常比都乐分级更细**。\n\n具体来说：\n\n- **鑫荣懋** 在香蕉分级上采用较严格的果指长度、弯度、果柄和外观标准，通常按果指长度细分（如18-20cm、20-22cm、22-24cm等），并设有特级、一级等不同等级，对每把香蕉的支数和整体均匀度要求更高，适用于高端商超和精品水果店。\n- **都乐** 的分级相对标准化，主要基于成熟度（如绿、黄、泛黄等）和外观（无黑斑、无机械伤），但长度分段通常较粗（如整体分为大、中、小），更侧重于物流和货架期管理，分级精细度不如鑫荣懋。\n\n建议：如果采购时需要严格按特定长度和均匀度配比（例如烘焙或精品包装），优先选择鑫荣懋；如果侧重稳定供货和成熟度控制，都乐较为可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 220,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

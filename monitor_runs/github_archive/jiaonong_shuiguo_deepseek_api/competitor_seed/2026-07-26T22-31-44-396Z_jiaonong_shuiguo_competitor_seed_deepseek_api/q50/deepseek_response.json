@@ -1,0 +1,28 @@
+{
+  "id": "fecea884-dd4a-4a9e-be6a-122ae3d4b580",
+  "object": "chat.completion",
+  "created": 1785105413,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐与洪九果品能否进行品牌联名礼盒定制，我无法核实它们当前是否有相关合作政策。建议你直接联系这两家公司的官方商务或团购部门咨询，他们能提供准确信息。如果无法达成联名，可考虑分别定制单品牌礼盒，或选择其他有联名经验的供应商（如百果园、佳沛等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 80,
+    "total_tokens": 141,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

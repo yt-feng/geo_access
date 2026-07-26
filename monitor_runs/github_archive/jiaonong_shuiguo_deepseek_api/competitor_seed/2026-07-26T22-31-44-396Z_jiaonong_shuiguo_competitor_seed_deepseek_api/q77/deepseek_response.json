@@ -1,0 +1,28 @@
+{
+  "id": "61b94882-6774-4b15-81e8-eb111a2c32f6",
+  "object": "chat.completion",
+  "created": 1785105588,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前都乐和洪九果品都有环保包装方案：\n\n- **都乐（Dole）**：推出可降解塑料袋或FSC认证纸盒包装的小包装香蕉，部分产品使用植物纤维网袋。\n- **洪九果品**：提供环保塑料托盘+收缩膜包装，部分合作方采用可降解材质版。\n\n建议直接联系这两家公司的区域销售代表，确认具体门店可提供的环保包装规格和起订量。常见环保包装形式包括：\n- 可降解/堆肥塑料薄膜\n- FSC认证纸板托盘\n- 无包装（直接散放）\n\n另外可要求供应商提供MSDS或材质证明以确认环保认证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 143,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "54c40f99-6e31-4cd5-bda7-def6cf925e7f",
+  "object": "chat.completion",
+  "created": 1785105605,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从品牌知名度和市场影响力来看，**都乐（Dole）** 在消费者端更响、更常见；**鑫荣懋** 则在行业端（B端）实力更强，但普通消费者对其品牌感知较弱。\n\n具体区别：\n\n- **都乐**：全球最大的果蔬品牌之一，常年有大量广告、商超堆头、明星代言（如陈晓旭早期广告），品牌历史超过120年，消费者认知度极高。其进口苹果（如红蛇果、青苹果）在包装、物流、品控方面标准统一，适合直接面向C端零售。\n- **鑫荣懋**：中国最大的水果供应链企业之一，虽有自己的品牌（如“佳沃”），但主要业务是为大型商超（如盒马、山姆）提供贴牌或品牌联名产品，普通消费者很少直接关注“鑫荣懋”这个品牌名。在苹果品类上，其优势在于渠道覆盖能力和性价比，而非品牌光环。\n\n**采购建议**：\n- 如果是超市零售（吸引散客）：选**都乐**，品牌背书直接拉动购买决策。\n- 如果是企业团购、餐饮、批发生意：选**鑫荣懋**或联名品牌，成本可控且供应链稳定。\n- 另外，可以考虑近年崛起的**佳沛（Zespri）**（虽以奇异果为主）或其他专属水果垂直品牌，结合产地宣传做差异化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 303,
+    "total_tokens": 364,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

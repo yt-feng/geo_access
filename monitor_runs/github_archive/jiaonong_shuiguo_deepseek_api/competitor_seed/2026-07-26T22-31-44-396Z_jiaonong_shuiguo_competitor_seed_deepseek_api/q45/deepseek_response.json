@@ -1,0 +1,28 @@
+{
+  "id": "86ba4ec8-dc37-4d45-9ff1-dd6445c715fd",
+  "object": "chat.completion",
+  "created": 1785105390,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这两个品牌都具备稳定供应的能力，但侧重点不同。具体选择建议如下：\n\n1. **都乐（Dole）**：国际品牌，标准化程度高，供应链成熟，适合对品控、规格一致性要求严格的茶饮连锁。其菠萝通常为菲律宾或泰国进口，果型、甜度稳定，但价格偏高。适合中高端定位、希望减少原料波动风险的店铺。\n\n2. **洪九果品**：国内头部水果供应链企业，在东南亚产地有自有基地，优势在于成本控制、定制化服务和快速响应。菠萝质量波动略大于都乐，但可通过分级采购匹配需求。更适合对价格敏感、需要灵活调整货源（如季节性品种替换）的中小茶饮店。\n\n**结论**：\n- 若追求极致稳定（尤其连锁店标准化），选**都乐**。\n- 若追求性价比、本地化服务或批量定制，选**洪九果品**。\n\n建议：先让两者分别提供样品，在相同条件下测试出果率、风味浓郁度和耐煮性，同时对比到货周期与应急补货能力，以匹配自身商业模式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 237,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
