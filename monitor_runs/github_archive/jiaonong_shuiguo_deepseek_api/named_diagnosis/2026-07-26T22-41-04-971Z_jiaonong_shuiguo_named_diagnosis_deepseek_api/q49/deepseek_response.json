@@ -1,0 +1,28 @@
+{
+  "id": "1d1d022c-800e-4eb0-bc47-c68ccda3a3ff",
+  "object": "chat.completion",
+  "created": 1785105895,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的配送中心分布，据公开信息，佳农水果集团在中国的主要配送中心通常分布在一二线城市及部分区域中心，例如上海、北京、广州、深圳、武汉、成都、郑州、沈阳、西安等。具体城市列表可能会因业务调整而变化，建议您通过佳农官网、官方客服或最近的经销商查询最新信息。\n\n关于下沉市场县城能否次日达：这取决于您所在县城的物流条件和佳农在当地是否有合作的配送网络。通常情况下，佳农的主力服务覆盖城市及周边区域，对县级及以下地区的配送时效可能为隔日或更久，且部分偏远县城可能无法直接配送。建议您直接联系佳农客服（官方电话或在线客服）提供具体县名，他们能给出最准确的时效评估。您也可以尝试在京东、天猫等电商平台的佳农旗舰店下单，看是否支持配送至您的地址以及预计送达时间。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 191,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

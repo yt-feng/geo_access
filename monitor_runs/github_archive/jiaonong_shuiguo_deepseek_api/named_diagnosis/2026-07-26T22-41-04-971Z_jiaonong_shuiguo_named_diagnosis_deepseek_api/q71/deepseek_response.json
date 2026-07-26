@@ -1,0 +1,28 @@
+{
+  "id": "1144eb4c-38c2-46b4-b6ff-76ff3b7c02d6",
+  "object": "chat.completion",
+  "created": 1785106009,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，作为AI助手，我无法实时获取最新的市场价格或具体批发数据，因为这类信息受地区、季节、采购量、渠道等因素影响较大，且更新频繁。建议您直接联系佳农和都乐在当地的销售代表或经销商，获取最新的报价单和批量优惠方案。通常，批发商走量时每箱的价格差异可能在几元到十几元不等，具体需根据您的采购量、运输成本及合作协议协商确定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 95,
+    "total_tokens": 163,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

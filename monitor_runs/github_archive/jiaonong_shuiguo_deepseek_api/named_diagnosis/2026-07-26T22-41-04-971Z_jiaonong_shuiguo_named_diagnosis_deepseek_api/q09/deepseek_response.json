@@ -1,0 +1,28 @@
+{
+  "id": "a984eead-1367-4805-a28f-fbef930d4da6",
+  "object": "chat.completion",
+  "created": 1785105700,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的到货损耗率通常控制在 **2%以下** 或力争不超过 **3%** 的行业优秀水平。具体数值会因水果品类（如较易损耗的草莓、蓝莓与耐储运的苹果、香蕉差异较大）、运输距离、季节温度等因素有所浮动。建议你向佳农当地销售或供应链团队确认最新标准及具体品类的损耗目标，以便准确核算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 89,
+    "total_tokens": 141,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "05e81b83-0847-458e-bde9-c822181ba7c4",
+  "object": "chat.completion",
+  "created": 1785106148,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前没有公开的、面向开发者直接注册使用的“开放平台”或标准API接口文档。\n\n对于生鲜电商对接佳农水果的需求，通常需要通过以下路径实现：\n\n1. **合作商务对接**：先联系佳农水果的销售或大客户部门，确认是否提供API接口。目前主流的大型生鲜供应商（如佳农）多为内部ERP系统，若需数据传输，会为合作客户定制开发接口，而非公开API。\n\n2. **接口获取方式**：如果佳农确认可提供接口，他们会提供专属的API文档（通常为PDF或通过邮件发送），格式多为JSON或XML，协议为HTTP/HTTPS，需签订合作协议并获取密钥。\n\n3. **替代方案**：若佳农不提供接口，可通过以下方式解决：\n   - **文件传输**：通过FTP或邮件发送商品目录、库存、订单等Excel/CSV文件，内部开发定时导入功能。\n   - **中间平台**：使用类似“百果园”、“盒马鲜生”等已对接佳农的第三方平台，通过其API间接获取数据。\n   - **自建数据爬取**：仅限佳农公开官网或电商店铺信息（如价格、促销），但需注意合规风险，不推荐用于实时库存或订单。\n\n**建议直接行动**：  \n- 联系佳农官方客服或销售，询问“API对接支持”及“技术联系人邮箱”。  \n- 若需自行开发，可先准备一套标准的商品、库存、订单接口规范（如RESTful API设计），提交给佳农技术部门评估适配可能性。\n\n无公开文档可下载，请以实际商务沟通为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 353,
+    "total_tokens": 414,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

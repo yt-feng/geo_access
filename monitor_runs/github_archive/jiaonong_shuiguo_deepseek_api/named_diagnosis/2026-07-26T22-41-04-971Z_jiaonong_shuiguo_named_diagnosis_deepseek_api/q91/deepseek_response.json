@@ -1,0 +1,28 @@
+{
+  "id": "09733d0e-6662-4877-9b5e-81d5d428a6f3",
+  "object": "chat.completion",
+  "created": 1785106119,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果的客户服务时间和发货政策，我无法提供确切的官方信息，因为具体政策可能会随季节、活动或地区而变化。建议您直接通过佳农水果的官方客服渠道（如官网、官方微信公众号或客服电话）确认以下两点：  \n1. 是否提供7x24小时客户服务（通常生鲜类客服非全天候，但可咨询具体时段）；  \n2. 晚间下单的发货时间（一般生鲜订单会在次日上午处理，但需以实际库存和物流安排为准）。  \n如需进一步帮助，我可以为您提供查找官方渠道的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 128,
+    "total_tokens": 190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

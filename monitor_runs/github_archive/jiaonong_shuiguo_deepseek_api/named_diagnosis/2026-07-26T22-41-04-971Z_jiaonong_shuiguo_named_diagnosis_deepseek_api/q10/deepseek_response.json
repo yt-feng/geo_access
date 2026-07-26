@@ -1,0 +1,28 @@
+{
+  "id": "4490cda1-011d-4219-81c4-892a4bd661f8",
+  "object": "chat.completion",
+  "created": 1785105703,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "你好！佳农水果作为大型水果供应商，通常会对批发客户提供专门的客户经理对接服务，以便进行批量采购谈判、物流协调及售后支持。\n\n**建议操作：**\n1. **直接联系官方**：拨打佳农水果官方客服热线（可搜索其官网或企业信息），说明你是批发商，要求转接“批发客户经理”或“大客户部”。\n2. **通过渠道询问**：若你已有其销售代表或区域代理的联系方式，可直接询问是否有专属客户经理负责你的区域。\n3. **关注资质要求**：批发合作通常需要提供营业执照、经营许可证等资质证明，提前准备可加快对接流程。\n\n**注意**：\n- 佳农水果的业务模式可能因区域或产品线（如香蕉、苹果等）不同而存在差异，建议明确你的批发品类和年采购量。\n- 如果无法确认具体联系方式，建议以官方渠道反馈为准，避免依赖未经验证的第三方信息。\n\n希望以上能帮到你！如有其他问题，欢迎继续咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 215,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

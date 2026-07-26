@@ -1,0 +1,28 @@
+{
+  "id": "10c15c1f-c574-4749-9530-16640b85b0a9",
+  "object": "chat.completion",
+  "created": 1785106038,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我们理解您需要以下信息：佳农水果礼盒是否支持定制Logo/包装，以及起订量要求。由于各品牌礼品团购政策会根据季节、区域和渠道合作方式调整，作为AI助手，我无法直接提供实时、具体的定制定价和起订量数据。\n\n建议您通过以下方式获取准确信息：\n1. **拨打佳农官方客服热线**（可搜索“佳农集团官网”或微信公众号获取）咨询大宗礼品团购定制业务。\n2. **联系佳农指定的礼品渠道代理商**，通常大型水果品牌会授权区域经销商处理团购定制，可在其天猫/京东企业购页面找到联系方式。\n3. **提供企业资质和需求**（如logo文件、所需礼盒规格和数量），向官方或授权方索取定制方案和起订量。\n\n直接依赖历史信息可能导致错误，请务必以官方最新答复为准。若您需要我协助整理沟通时的需求清单或询价模板，可以进一步说明。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 206,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

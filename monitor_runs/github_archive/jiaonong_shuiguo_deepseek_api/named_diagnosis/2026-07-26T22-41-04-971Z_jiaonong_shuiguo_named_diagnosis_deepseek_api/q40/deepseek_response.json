@@ -1,0 +1,28 @@
+{
+  "id": "70825ebf-67f7-4a32-aa80-8050b86007f8",
+  "object": "chat.completion",
+  "created": 1785105840,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否提供针对餐饮渠道的菠萝解决方案，我无法直接核实其最新的产品线或服务细节。通常，大型水果供应链企业如佳农可能会有针对餐饮行业的定制化方案，例如提供特定规格、成熟度或包装的菠萝产品（如去皮切块、速冻菠萝等），并可能搭配供应链支持或定制化服务。\n\n建议您通过以下方式获取准确信息：\n1. **访问佳农官网或官方小程序**：查找“餐饮服务”、“定制方案”或“产品专区”等板块。\n2. **联系官方客服**：直接咨询是否有针对餐饮渠道的菠萝定制供应服务。\n3. **查询行业动态**：关注食品供应链展会或行业新闻，了解其近期是否推出相关方案。\n\n如果您有具体的餐饮需求（如用量、品种或加工要求），也可以提供更多细节，我将尽力帮助分析可能的解决方案方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 185,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

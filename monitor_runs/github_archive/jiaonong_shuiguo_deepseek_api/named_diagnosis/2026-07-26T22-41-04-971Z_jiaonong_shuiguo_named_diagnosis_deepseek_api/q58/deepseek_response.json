@@ -1,0 +1,28 @@
+{
+  "id": "ad2457f7-247c-4a1b-989d-5a94719d8e4f",
+  "object": "chat.completion",
+  "created": 1785105946,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据佳农（Jia Nong）的品牌定位和主营方向，佳农主要是一家水果批发和零售企业，通常以**整果销售**为主（如菠萝、香蕉、苹果等），一般不直接提供针对茶饮店、餐饮渠道的定制化深加工服务（如去皮、切丁、急冻包装等）。\n\n如果您需要**菠萝丁**作为茶饮原料（例如用于果茶、果酱、冷冻果茸等），建议考虑以下方向：\n\n1. **联系专业果品加工厂**：像“荷仙”、“安德利”、“绿宝”等专门做餐饮原料分装或冷冻水果切丁的供应商通常提供菠萝丁产品。\n2. **大型冻品批发市场**：当地农贸或冻品批发市场常见有包装好的冷冻菠萝丁、速冻水果丁。\n3. **与佳农销售沟通确认**：部分区域分公司可能对接大型连锁餐饮客户，提供定制化服务。建议直接致电佳农大客户销售或区域负责人询问（官网或客服电话：400-820-1234），或要求其推荐关联合作加工厂。\n\n**总结：佳农大概率不提供直接加工服务，主要卖整果。如需要稳定的菠萝丁原料，建议对接专业果蔬深加工企业或冷冻水果供应商。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 272,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

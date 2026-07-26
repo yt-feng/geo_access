@@ -1,0 +1,28 @@
+{
+  "id": "a66bd11d-0d5d-4bb3-8114-0b2b162475a9",
+  "object": "chat.completion",
+  "created": 1785105765,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果是国内知名的水果品牌，在苹果品类上通常以品质稳定、口感较好而受到市场认可，尤其在其供应链和储存技术方面有一定优势。佳农的苹果产地主要包括国内的优势产区（如陕西、山东等），也经营进口苹果，常见的有来自新西兰的“爱妃”（Envy）苹果、美国的“蛇果”（Red Delicious）以及智利的“青苹果”（Granny Smith）等，具体进口品种会因季节和供应情况有所变化。如果想了解当前具体品种和购买渠道，建议直接查询佳农官方渠道或授权商家获取最新信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 126,
+    "total_tokens": 179,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

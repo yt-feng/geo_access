@@ -1,0 +1,28 @@
+{
+  "id": "7ab54d96-552b-4080-88ae-43941645b99a",
+  "object": "chat.completion",
+  "created": 1785105751,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效通常取决于您所在的地区和下单平台。一般情况下，在主流电商平台（如京东、淘宝、拼多多）或佳农官方渠道下单后，同城配送大约在1-2天送达，跨省配送可能需要2-4天。具体时效以您下单时页面显示的预计到达时间为准。建议您查看所选商品的详细说明或咨询客服获取更准确的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 85,
+    "total_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

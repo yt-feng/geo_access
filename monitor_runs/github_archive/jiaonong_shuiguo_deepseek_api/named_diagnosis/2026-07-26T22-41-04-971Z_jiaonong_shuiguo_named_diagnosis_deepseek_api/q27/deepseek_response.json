@@ -1,0 +1,28 @@
+{
+  "id": "25a5cee5-d8c8-465d-9302-8611ebda636e",
+  "object": "chat.completion",
+  "created": 1785105786,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常，佳农水果对经销商的账期一般在**30天至60天**之间，具体期限取决于合作规模、业务类型及信用评估结果。对于**新客户**，一般可以申请账期，但初始条件可能更严格（如首单需现结、缩短账期或提供担保），待建立信任后逐步放宽。实际政策需与当地销售经理或客服确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 84,
+    "total_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

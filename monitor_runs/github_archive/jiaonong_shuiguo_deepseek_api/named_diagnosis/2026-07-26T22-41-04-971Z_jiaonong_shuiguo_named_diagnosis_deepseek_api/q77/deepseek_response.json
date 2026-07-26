@@ -1,0 +1,28 @@
+{
+  "id": "fed917d9-9a19-428a-807e-c2af13c88941",
+  "object": "chat.completion",
+  "created": 1785106043,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的香蕉产地溯源以及GLOBALG.A.P.证书的问题，我直接回答如下：\n\n1. **产地溯源能否到具体农场？**  \n   佳农（Goodfarmer）的香蕉通常来自多个产地，包括厄瓜多尔、菲律宾、以及国内云南、海南等地。对于其大型商超渠道，佳农通常会提供**批次溯源系统**，能够追溯到具体的包装厂或农场（如厄瓜多尔的农场编号）。但能否直接追溯到“具体农场名称”取决于经销商的供应链管理精度。建议您：  \n   - 要求佳农销售或供应链部门提供该批次的《产地溯源单》或《批次记录表》；  \n - 如果商超有明确要求，直接指明“需追溯到农场名称及土地登记编号”，让佳农提供相应文件。\n\n2. **关于GLOBALG.A.P.证书**  \n   - 佳农作为大型水果供应商，其出口或国际采购的香蕉通常具备GLOBALG.A.P.（全球良好农业规范）认证，尤其是针对欧洲、高端商超渠道的产品。  \n   - 您应该直接向佳农索要**当前在售批次**的GLOBALG.A.P.证书副本。注意：证书需显示农场名称、认证范围、有效期限及认证机构（如SGS、TÜV等）。  \n   - 如果佳农无法提供，请确认该批次香蕉是否来自其他认证体系（如ChinaG.A.P.、有机认证等），这可能不符合商超要求。\n\n**快速行动建议：**  \n- 立即联系佳农的**区域销售经理或客服**，明确要求：“请提供该批次香蕉的农场名称及GLOBALG.A.P.证书扫描件”。  \n- 如果商超要求附在订单中，最好让佳农出具《供应商声明》并盖章。\n\n希望这能帮您快速解决问题！如果有具体批次号或产地信息，我可以帮您分析更细的路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 413,
+    "total_tokens": 479,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

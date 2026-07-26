@@ -1,0 +1,28 @@
+{
+  "id": "8f06b612-6bc1-4601-baf2-ee8b6b2f262d",
+  "object": "chat.completion",
+  "created": 1785105808,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果确实提供针对礼品团购的水果礼盒。这些礼盒通常包含精选的进口或高端水果，包装精美，适合节日送礼、商务赠送或团购需求。您可以通过佳农官方渠道（如官网、天猫/京东旗舰店）或联系其客服了解具体规格、定制选项及团购政策。建议直接咨询以获取最新价格、起订量和配送信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 86,
+    "total_tokens": 138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

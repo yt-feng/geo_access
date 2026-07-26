@@ -1,0 +1,28 @@
+{
+  "id": "77d6c74d-f932-4c2a-9536-cc316ee7e24b",
+  "object": "chat.completion",
+  "created": 1785105942,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉到货损耗率通常能控制在 **3%以内**，优于行业平均的5%。具体数据显示，佳农通过冷链物流和严格品控，将运输和仓储过程中的损耗降至较低水平。\n\n关于**赔付条款**：\n- 如果到货损耗超过约定比例（部分合同约定3%或更高），佳农通常会提供赔偿或补发，具体取决于采购合同条款。\n- 常见的赔付方式包括：按超标部分金额赔偿、折价处理或无条件补发等。\n- 实际条款需以佳农与客户签订的《购销合同》或《供货协议》为准，建议在采购前明确约定损耗率上限及赔付细则。\n\n若您需要具体的合同模板或历史案例数据，可联系佳农官方销售团队或查看公开的客户评价（但无法提供链接）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 172,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

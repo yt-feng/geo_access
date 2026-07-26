@@ -1,0 +1,28 @@
+{
+  "id": "8d521d4a-bd45-4b18-8dda-a18e831084f0",
+  "object": "chat.completion",
+  "created": 1785105964,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类中确实有红富士。至于与鑫荣懋相比哪个性价比更高，需要结合具体产品、购买渠道和价格波动来看：\n\n1. **佳农红富士**：通常以果径较大（如80#以上）、甜度高、果肉脆爽为卖点，价格偏中高端。如果遇到促销或整箱购买，性价比会提升。\n2. **鑫荣懋红富士**：常有不同规格（如75#、80#），价格覆盖面较广，尤其是基础规格的产品定价可能更亲民，适合日常食用。\n\n**建议对比方法**：\n- 查看同渠道（如超市、电商平台）同等级（如果径80#、礼盒装或散装）的实时价格。\n- 关注产地：红富士主要来自陕西、山东、甘肃。佳农部分产地可能更集中在高端产区（如陕西洛川），鑫荣懋可能多源采购，性价比可能在中端规格上体现。\n- 注意季节：每年10月-次年1月是新果上市期，此时性价比普遍高；春季后存储果价格可能上升。\n\n**最终判断**：若偏好大果、稳定品质且预算充足，选佳农；若追求日常实惠、灵活规格，鑫荣懋可能更优。建议用具体规格的实时价格除以克重，计算单位成本对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 290,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a215c3f0-0ac0-4f90-8e3f-78f055259d2c",
+  "object": "chat.completion",
+  "created": 1785105673,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从品牌对比来看，**都乐（Dole）和佳农（Goodfarmer）** 都是市场上常见的香蕉品牌，两者在质量和价格上有一定差异：\n\n- **质量方面**：都乐作为全球知名品牌，香蕉通常果实饱满、成熟度控制更稳定，外观和口感一致性较高，适合追求稳定品质的消费者。佳农在新鲜度和口感上也很不错，部分消费者反馈其成熟度略偏青（适合存放时间更长），但整体质量可靠。\n- **价格方面**：佳农通常价格略低于都乐，尤其在大包装或促销时段性价比更高；都乐因为品牌溢价，价格普遍稍贵。\n- **综合建议**：\n  - 如果你追求**即食口感和品牌稳定**，且预算充足，选都乐。\n  - 如果你更看重**性价比**，或需要存放几天再吃，选佳农。\n- **购买提示**：无论选哪个品牌，建议选择**表皮金黄、无大块青斑或黑点**、果柄新鲜的香蕉。实际价格会因地区、超市、促销活动有差异，购买前可对比当地超市的实时标价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 243,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a3327286-8097-4ba8-8b6b-d5264c63946e",
+  "object": "chat.completion",
+  "created": 1785106064,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果香蕉的农残检测报告，通常这类信息由品牌方或供应商提供。作为采购方，您可以直接联系佳农水果的官方客服或销售代表，索取最新的第三方检测报告（如SGS、华测等机构出具的），以证明其符合国家或地方市场的农残标准（如GB 2763）。建议在邮件或沟通中明确要求提供“按市场抽检标准”的检测项，例如有机磷、拟除虫菊酯等常见农残指标。如果您需要具体联系方式，我暂时无法提供实时数据，但您可以访问佳农官网或通过其企业公开渠道查询。希望对您有帮助！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 139,
+    "total_tokens": 201,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

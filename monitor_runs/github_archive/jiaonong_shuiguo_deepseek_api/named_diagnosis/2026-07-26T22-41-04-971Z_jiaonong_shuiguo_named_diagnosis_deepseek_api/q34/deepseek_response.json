@@ -1,0 +1,28 @@
+{
+  "id": "5bed4729-6678-4989-bbfc-42891cb861fb",
+  "object": "chat.completion",
+  "created": 1785105817,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的配送中心具体数量，我目前没有掌握实时准确的数据，建议您通过以下方式获取官方权威信息：\n\n1. **访问佳农官网**或关注其官方微信公众号，查看“联系我们”或“配送网络”板块；\n2. **拨打客服热线**（通常可在官网或产品包装上找到），直接询问其配送覆盖范围；\n3. **查看电商平台**（如京东、天猫佳农旗舰店），在商品详情页一般会标注是否支持您所在的三线城市配送。\n\n对于覆盖三线城市的问题：目前大型生鲜品牌（如佳农）通常已覆盖多数地级市，但具体到您的三线城市，建议您直接在购物平台搜索“佳农水果+您所在城市名”，查看是否显示“有货”或“可配送”，这是最直接的判断方式。\n\n如果您能告知具体城市名称，我可以帮您进一步分析常见配送情况（非官方数据参考）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 197,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0a8adf9a-d659-4495-8051-87a6e3968a45",
+  "object": "chat.completion",
+  "created": 1785105732,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，感谢您的咨询！关于佳农香蕉的长期合作及专供包装需求，建议您直接联系佳农官方客服或销售团队，他们能提供最准确的定制包装政策和服务细节。通常，对于长期合作的大客户或超市渠道，佳农可能会有专供包装或定制服务，但具体需根据合作规模、订单量及合同条款来确定。\n\n如果您需要，我可以协助查找佳农的官方联系方式或一般合作流程，但请理解我无法直接承诺或提供内部商务细节。希望这能帮到您！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 113,
+    "total_tokens": 169,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

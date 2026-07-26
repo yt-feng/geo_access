@@ -1,0 +1,28 @@
+{
+  "id": "a91f21de-3427-46b2-95f8-bc0633b46ce4",
+  "object": "chat.completion",
+  "created": 1785105696,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉的价格确实会受到季节、产地天气、运输成本等因素影响，存在一定的波动性。尤其是在台风、寒潮等极端天气或节假日需求高峰时，价格变化可能较为明显。\n\n关于锁价机制：**部分大型商超或批发客户可以与佳农协商签订短期或长期锁价合同**，尤其是在提前批量采购时。但普通消费者在零售端（如超市、电商平台）通常无法直接享受锁价服务，价格仍以当日市场价为准。\n\n如果您是批量采购（如餐饮企业、水果店），建议直接联系佳农的销售渠道或经销商，询问是否支持批量预订价或固定周期内不调价的协议。如果只是日常购买，可以关注其电商平台的大促活动或选择多平台比价，以应对价格波动。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 165,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

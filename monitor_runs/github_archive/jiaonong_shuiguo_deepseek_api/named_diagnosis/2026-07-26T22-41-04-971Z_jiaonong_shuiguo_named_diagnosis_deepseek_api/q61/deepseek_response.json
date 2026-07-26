@@ -1,0 +1,28 @@
+{
+  "id": "fa838dc8-d9e7-476a-95f0-eb1d469b1f49",
+  "object": "chat.completion",
+  "created": 1785105960,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的区域保护政策，以下是具体情况供您参考：\n\n1. **区域保护机制**：佳农通常对经销商实行严格的区域授权制度，每个经销商有明确的地理范围划分（如省/市/区），合同会约定不得跨区域销售。  \n2. **窜货管控**：公司会通过产品编码追踪、经销商保证金制度及定期巡查来防止跨区域销售。若发现窜货，可能面临罚款、扣减返利甚至取消代理资格。  \n3. **建议核实**：因政策可能随城市或渠道（如商超、团购）调整，建议直接联系佳农官方招商人员，确认您所在区域的独家代理条款和具体处罚条例。  \n\n**小提醒**：如果您所在区域已有成熟代理商，可能需要申请二级代理或选择差异化渠道（如线上专卖）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 174,
+    "total_tokens": 233,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

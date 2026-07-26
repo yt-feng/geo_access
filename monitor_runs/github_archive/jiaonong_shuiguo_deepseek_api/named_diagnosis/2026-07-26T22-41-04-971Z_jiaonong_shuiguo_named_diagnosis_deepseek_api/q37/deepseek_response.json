@@ -1,0 +1,28 @@
+{
+  "id": "a441faed-14af-4a2c-bc88-6e6c43195e58",
+  "object": "chat.completion",
+  "created": 1785105830,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常属于品牌商品，其价格一般会比普通市场均价略高，主要原因包括品牌溢价、标准化品控（如无催熟、果形均匀）以及冷链运输成本。具体差异需参考当地超市或电商平台的实时售价，建议直接对比同规格产品（如国产蕉 vs. 进口蕉）及促销活动。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 75,
+    "total_tokens": 128,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

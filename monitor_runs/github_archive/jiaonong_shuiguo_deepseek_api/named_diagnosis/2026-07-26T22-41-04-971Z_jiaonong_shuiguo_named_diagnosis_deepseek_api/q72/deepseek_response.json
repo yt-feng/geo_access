@@ -1,0 +1,28 @@
+{
+  "id": "9cee1be8-f646-4d8b-8ef9-4f154406962c",
+  "object": "chat.completion",
+  "created": 1785106012,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我所了解的信息，**佳农（Goodfarmer）** 主要是一家专注于水果、蔬菜等生鲜产品的供应商，其核心业务是供应链和生鲜批发。针对直接提供“去皮切块”这样的加工服务，通常不属于其标准服务范畴，尤其是在零售或餐饮原料的采购场景中。\n\n**建议您：**\n\n1. **直接联系佳农的餐饮或企业销售部门**，询问是否有针对餐饮客户的定制化加工服务（如切割、分装）。部分大型供应商可能提供此类增值服务，尤其是针对连锁茶饮、食品加工企业。\n2. 如果佳农无法提供加工，可以考虑以下替代方案：\n   - **本地果蔬加工厂**：寻找当地专业的果蔬初加工企业，他们能提供去皮、切块、速冻等定制服务。\n   - **中央厨房或净菜加工企业**：这类企业通常承接餐饮原料的预处理订单。\n   - **自行加工**：购买商用菠萝去皮机、切块机，安排店内员工处理，可控制成本并保持新鲜度。\n\n**关键点**：茶饮店使用的菠萝需注意**规格统一**和**保鲜处理**（如是否需要冷冻或真空包装），建议优先与佳农确认其能否满足您的具体加工需求，再决定下一步。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 266,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
