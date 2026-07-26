@@ -1,0 +1,28 @@
+{
+  "id": "08fea726-fe14-41b3-a12d-c4e1c2f70d77",
+  "object": "chat.completion",
+  "created": 1785104208,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果你是顾客，建议按以下优先级关注：\n1. **外观**（最直观）：选择表皮金黄、叶片翠绿、无霉斑或软烂的菠萝。果眼小而均匀通常更甜。\n2. **甜度**（次重要）：可通过闻底部果香（越浓越甜）或轻按果皮（有弹性说明熟度适中）判断。超市一般不提供甜度数据。\n3. **大小**（参考项）：同等成熟度下，稍大的菠萝果肉更饱满，但部分品种（如台湾金钻）中小型可能更甜。\n4. **切果损耗**（购买切果时重点）：若买已切好的，观察果肉颜色是否均匀（发白或褐变说明不新鲜），避免购买切口渗出大量汁水的（可能已变质）。\n\n如果是超市经营者，则需按**损耗率 → 外观 → 甜度 → 大小**排序，优先控制切果损耗以降低运营成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 204,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

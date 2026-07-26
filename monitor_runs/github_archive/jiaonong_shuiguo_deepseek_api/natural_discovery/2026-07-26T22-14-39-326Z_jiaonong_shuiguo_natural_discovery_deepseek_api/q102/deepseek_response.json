@@ -1,0 +1,28 @@
+{
+  "id": "cad74645-5dde-49ed-a41a-66e6964ae59c",
+  "object": "chat.completion",
+  "created": 1785104891,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，供应商通常需要支持**开发票**和**定制包装**，这两点对福利采购至关重要：\n\n1. **开发票**：企业采购需要合规的增值税专用发票（或普通发票）用于财务报销和税务抵扣。如果供应商无法提供合法发票，可能影响企业账务处理或纳税流程。建议在合同或订单中明确约定发票类型、税率及开票内容。\n\n2. **定制包装**：福利产品常需体现企业品牌、节日氛围或员工关怀（如印上公司Logo、祝福语）。定制包装能增强福利的专属感和仪式感。需提前与供应商确认包装设计、材质、起订量及额外费用。\n\n**建议**：优先选择能同时提供这两项服务的供应商；若报价中包含定制设计费，注意对比成本。另外，可要求供应商提供**样品实物**或包装打样，确认质量后再批量采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 188,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

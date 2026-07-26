@@ -1,0 +1,28 @@
+{
+  "id": "c666ca1a-f5c9-4934-906f-2366ee34fdb8",
+  "object": "chat.completion",
+  "created": 1785104481,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先关注**成熟度**，原因如下：\n\n1. **烘焙需求**：香蕉蛋糕需要熟透甚至带黑斑的香蕉（甜度高、易压泥、风味更浓），未熟或太生的香蕉会影响口感和甜度。\n2. **价格平衡**：在满足成熟度要求后，再对比不同供应商的价格。通常过熟香蕉（烘焙店常用）成本可能更低，可优先采购这类处理品。\n\n操作建议：\n- 采购时明确要求“做蛋糕用香蕉”，适合的成熟度（表皮出现黑点、手感稍软）至少占90%以上。\n- 如果供应价差异大（如某家便宜但成熟度不足），需核算额外糖分添加和人工成本，通常得不偿失。\n- 合作前可要求供应商提供样品测试，确认风味和质地合格后再谈长期采购价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 182,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

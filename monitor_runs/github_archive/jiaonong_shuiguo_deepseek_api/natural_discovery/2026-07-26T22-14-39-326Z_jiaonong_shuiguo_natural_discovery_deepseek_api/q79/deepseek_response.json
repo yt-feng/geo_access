@@ -1,0 +1,28 @@
+{
+  "id": "3d993641-f146-43c9-b77d-7210a6d280ae",
+  "object": "chat.completion",
+  "created": 1785104693,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该优先问的是**配送**。\n\n原因很简单：水果是易损耗、时效性极强的生鲜品，配送能力直接决定了你能收到什么货。\n\n建议你按以下顺序考察，而不是只看价格：\n\n1.  **配送（核心）：** 问清楚是否冷链运输？截单时间和到货时间？是否保冰？缺货或迟到了怎么补？**配送不稳定，再便宜也是亏**（损耗大）。\n2.  **售后：** 问清楚坏果包赔标准（是按个赔还是按斤赔？需要现场开箱视频吗？赔付多久到账？）。**售后政策能看出供应商是否诚信**。\n3.  **价格：** 最后再聊价格。比较价格时，要把**预估损耗率**算进去（比如便宜但易烂，实际成本更高）。\n\n**可以这样问供应商：** “如果今天下午5点下单，冷链车大概几点到我这？路上大概会损耗多少？如果到了有15%的坏果，你们怎么处理？”\n\n最终建议：**先考察配送和售后，再谈价格。** 找到配送靠谱、售后爽快的，然后长期合作，适当议价即可，别只盯着低价选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 255,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

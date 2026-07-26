@@ -1,0 +1,28 @@
+{
+  "id": "ca9c4b15-6f00-4f5d-af0f-8fd1e04eebbb",
+  "object": "chat.completion",
+  "created": 1785104966,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从毛利率和复购率来看，普通水果与品牌水果的差异主要体现在以下几点：\n\n1. **毛利率差别**  \n   - **普通水果**：进货成本低，但市场竞争激烈，价格透明度高，容易打价格战，毛利率通常较低（约15%-30%）。  \n   - **品牌水果**：有品质、包装或产地背书，可溢价，毛利率通常更高（约30%-50%以上），但销量可能不如普通水果大。\n\n2. **复购率差别**  \n   - **普通水果**：消费者购买决策主要基于价格和外观，若品质不稳定，复购率可能波动较大；但性价比高时，基础复购率可保持，但忠诚度较低。  \n   - **品牌水果**：消费者因信赖品质、口感或品牌故事而购买，形成较强粘性，复购率通常更高且稳定，尤其是核心用户群。但价格敏感型客户可能流失。\n\n**总结建议**：  \n- 若追求短期快速周转、低风险，可侧重普通水果。  \n- 若注重长期客户忠诚度与高利润，优先引入品牌水果，配合品质把控与会员体系提升复购。  \n- 组合销售：用普通水果引流，品牌水果提升毛利和客单价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 265,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

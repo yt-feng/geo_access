@@ -1,0 +1,28 @@
+{
+  "id": "44e183a8-86c3-422c-baba-467fdf35859f",
+  "object": "chat.completion",
+  "created": 1785104941,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不一定。产地直采确实可能减少中间环节，从而降低部分成本，但实际价格是否更便宜还取决于以下因素：\n\n1. **批量与规模**：如果采购量较小，供应商的运输、仓储和分拣成本可能无法摊薄，反而比批发市场的综合价格更高。\n2. **季节性与物流**：当地产季时直采优势明显，但反季节或远距离运输时，冷链和损耗成本可能抵消产地优势。\n3. **品质与筛选**：直采通常能保证新鲜度和品种一致性，但中低端市场有时批发商能通过混卖降低均价。\n4. **供应商信誉**：部分“产地直采”可能是营销噱头，实际仍通过多层代理，需核实供应商的货源证明和实地能力。\n\n**建议**：对同品种水果，分别向直采供应商和大型批发市场询价，计算含运输、损耗后的总成本，并索要产地证明。小批量或快消需求可优先考虑批发市场；长期、大批量采购且对品质稳定有要求时，可谈判与可靠直采方签约。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 235,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

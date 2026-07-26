@@ -1,0 +1,28 @@
+{
+  "id": "14a6d997-9884-43fc-a8e2-2a678233ddf0",
+  "object": "chat.completion",
+  "created": 1785104985,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从减少中间环节的角度出发，**直接找产地（农户、合作社或产地批发商）最为合适**，其次是品牌方，最后是区域经销商。以下是具体分析：\n\n1. **直接找产地**：跳过所有中间层级，成本控制空间最大。适合采购量大、品种单一、对品质有直接把控需求的情况。可通过产地政府农业部门、行业协会或直接到产区调研对接。\n2. **找品牌方**：品牌方通常有稳定的供应链和标准化的产品，但可能保留部分中间利润。适合追求品质稳定、品牌背书的大宗采购。\n3. **找区域经销商**：经销商层级越多，中间环节越多，最终价格越高。除非小批量采购或需要快速配送、品种混批，否则不建议优先选择。\n\n**可执行建议**：\n- 如果采购量较大（如吨级），优先调研目标水果的主产区，直接联系合作社或大型种植户。\n- 如果追求品牌水果，直接联系品牌方销售部，要求产地直发。\n- 如需长期稳定供应，可与产地签订年度框架协议，进一步压缩成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 228,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

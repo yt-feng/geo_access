@@ -1,0 +1,28 @@
+{
+  "id": "0d9be64b-1388-487c-8f06-65ec80a6ac2d",
+  "object": "chat.completion",
+  "created": 1785104614,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在合同中明确坏果责任，建议重点约定以下几个条款：\n\n1. **验收时限与方式**：写明“收货方应在到货后【具体小时/天内】完成抽样验收，超过时限未提出异议视为合格”。避免因验收延迟导致责任不清。\n\n2. **损耗比例与责任划分**：约定一个合理损耗率（如：整箱坏果率≤3%），超出部分由供货方承担；若整体坏果率超过【例如10%】，收货方有权整批拒收或要求折价。\n\n3. **运输与仓储责任**：注明“在运输途中/仓库保管期间发生的腐烂、碰撞由【承运方/收货方】承担责任，但发货前应确保果实品质符合标准”。可要求发货方对每批次拍照留证。\n\n4. **举证与争议处理**：约定坏果须在验收时拍照留底，争议较大时可由第三方检测机构出具报告，费用由过错方承担。\n\n5. **赔偿方式**：明确“确认供货方责任后，可在应付货款中直接扣除，或要求补发/退款”。\n\n建议：批发商可考虑购买生鲜运输险，以分散损耗风险；同时在合同中加入“质量保证金”条款，从货款中暂扣10%-20%，待验收后结算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 271,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

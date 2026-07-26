@@ -1,0 +1,28 @@
+{
+  "id": "34e8b6cf-5555-462d-ab53-2ff8c2ddbcd1",
+  "object": "chat.completion",
+  "created": 1785104550,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "批发商判断菠萝规格是否容易出货，建议从以下三个维度进行实操验证：\n\n1. **统计近期出货量**：调取过去1-2周不同规格（如单果重1.5斤、2斤、2.5斤等）的日销量和库存周转天数，优先选择日均出货量最大、库存滞留时间最短的规格。如果数据缺失，可以询问老员工或观察仓库剩余量。\n\n2. **渠道反向确认**：主动询问下游客户（如水果摊、超市采购）对规格的偏好。比如：夜市摊位常需1.5斤左右小果（单价低、方便论个卖），社区团购可能需要2-2.5斤中等果（家庭单次消耗量）。直接记录客户反馈最多的规格。\n\n3. **试销对比**：若长期未分规格销售，可在下周进货时故意分装2-3种主流规格（如1.8斤、2.2斤），分别贴标签陈列，观察客户拿取频率。优先补货最先卖空的那批。\n\n⚠️ 注意：不要仅靠经验或表面判断（如“大果看着好卖”），因为不同区域消费力和场景差异大。建议**优先满足回单率最高的老客户需求**，再根据试销结果调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 275,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

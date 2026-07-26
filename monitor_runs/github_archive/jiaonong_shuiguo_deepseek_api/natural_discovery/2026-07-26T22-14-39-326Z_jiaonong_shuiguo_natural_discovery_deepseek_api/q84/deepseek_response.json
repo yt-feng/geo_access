@@ -1,0 +1,28 @@
+{
+  "id": "53d39071-af59-49eb-b144-42427f4d34e7",
+  "object": "chat.completion",
+  "created": 1785104729,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对家庭场景的团购水果礼盒，建议优先考虑**“口感多元+营养均衡+食用方便”**的组合。以下推荐2种组合方案及理由：\n\n**方案一：经典家庭装（性价比高、受众广）**\n- **组合**：苹果（4个）+ 橙子（4个）+ 香蕉（2把）+ 菠萝（1个）\n- **理由**：\n  - 苹果和橙子耐储存、老少皆宜，适合家庭多日食用；\n  - 香蕉当日/次日即食，补充能量和钾元素；\n  - 菠萝作为酸甜“水果明星”，适合家庭切片分享或烹饪菜肴。\n\n**方案二：简约小家庭装（适合3-4人、不易浪费）**\n- **组合**：苹果（3个）+ 橙子（3个）+ 香蕉（1把）+ 菠萝（半个，切盒包装）\n- **理由**：\n  - 减少菠萝整颗需自行削皮的麻烦，切盒提升便利性；\n  - 香蕉使用整把不易剩余，避免长时间保存变质；\n  - 苹果/橙子搭配量适中，更好匹配小家庭一周消耗。\n\n**配送建议**：菠萝可附赠削皮工具或成品切盒，香蕉单独包装防压，苹果/橙子用泡沫网分隔。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 279,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "80a2b9e8-d890-419e-ba7d-aa68e0257f90",
+  "object": "chat.completion",
+  "created": 1785104102,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了减少香蕉放坏，建议水果店在采购时从以下两方面明确要求：\n\n1. **熟度要求**：\n   - 建议采购**7成熟**左右的香蕉（果皮大部分绿色，仅果柄或顶端轻微转黄）。这个熟度的香蕉抗压性强，耐储存，到店后有3-5天的自然催熟窗口期，适合分批上架。\n   - 避免采购全绿（成熟度过低，催熟难控）或已出现明显黄斑（过熟，易快速腐烂）。\n\n2. **到货时间**：\n   - 要求**到货后立即进入冷库**（13-14℃恒温）或阴凉通风处，避免暴晒或密闭闷放。\n   - 建议**到货时间安排在开店前的早晨**，以便及时拆箱、分拣，将青香蕉与黄香蕉分开存放（青香蕉需单独催熟，黄香蕉优先销售）。\n   - 若无法早到，务必要求冷柜或避光运输，避免运输中预熟导致到店后集中变坏。\n\n**执行建议**：\n- 与供应商签订协议，明确“到货后24小时内若出现超过5%的软烂/黑斑，供应商承担损耗”。\n- 到货后立即检查：用手轻捏香蕉中部，应有微微弹性但不软塌；果皮无大量黑麻点或水渍斑。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 296,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
