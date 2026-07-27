@@ -1,0 +1,28 @@
+{
+  "id": "a1c2a010-ccc2-44f8-a13f-40aa6b4b43dc",
+  "object": "chat.completion",
+  "created": 1785191696,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议根据以下需求选择：\n\n1. **鲜果**：适合门店有现剥现切能力、追求果肉颗粒感与自然香气，且能接受较高损耗和季节性价格波动的情况。需冷链储存，保质期短（3-5天）。\n2. **果丁**（速冻菠萝丁）：口感接近鲜果，使用方便（解冻即用），损耗低，四季稳定供应，适合追求果肉果茶、不需复杂加工的店铺。成本通常低于鲜果。\n3. **果泥**（或果茸）：适合快速出杯、口感细腻的果茶（如冰沙类、分层类），无需咀嚼，风味稳定，但缺乏果肉纤维感。需要冷冻储存，解冻后尽快用完。\n\n**优先级建议**：如果门店销量大且追求新鲜感，可鲜果+果丁配合（普通出品用果丁，高价款用鲜果）；如果强调快速标准化，果丁+果泥混合更高效。最终需结合你的目标客群、出品价位和厨房空间决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 221,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

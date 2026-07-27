@@ -1,0 +1,28 @@
+{
+  "id": "56908189-3bfe-492f-b304-d37ca9b8a004",
+  "object": "chat.completion",
+  "created": 1785192210,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，采购香蕉和菠萝时，起订量太高会增加损耗风险。\n\n香蕉和菠萝都属于**易腐易熟**的水果，保质期较短，存储条件要求高。具体风险包括：\n\n1. **香蕉**：采摘后仍在呼吸和成熟，存放温度不当（低于13°C易受冷害）或时间过长，果皮会变黑、果肉软化变质。大量库存难以在成熟期内售出，极易产生损耗。\n2. **菠萝**：带冠的菠萝常温下保存期约3-7天，切开的容易发霉腐烂。高起订量可能导致库存积压，特别是如果销售速度跟不上消耗速度。\n3. **周转压力**：起订量超过日常或旺季的平均销量，会增加冷库、整理、翻包等环节的人工与设备成本，一旦滞销，损耗率会显著上升。\n\n**建议**：根据历史销售量、保质期、促销计划等因素，设定合理的周转天数（例如将香蕉库存控制在2-3天销量内）。如果供应商强制高起订量，可尝试与供应商协商分批交货、缩短交货周期，或与同行拼单分担库存压力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 242,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

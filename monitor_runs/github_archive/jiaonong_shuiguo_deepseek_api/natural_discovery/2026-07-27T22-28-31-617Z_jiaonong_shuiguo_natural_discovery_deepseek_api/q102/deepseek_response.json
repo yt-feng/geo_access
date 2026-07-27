@@ -1,0 +1,28 @@
+{
+  "id": "50ce92a6-785a-489e-80ee-e1be6732e25e",
+  "object": "chat.completion",
+  "created": 1785192179,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "企业福利采购水果礼盒时，建议优先选择支持开发票和定制包装的供应商，具体原因如下：\n\n1. **开发票**：正规发票是企业财务报销的必需凭证，确保采购成本的合法合规入账。建议在采购前明确供应商能否开具增值税专用发票（一般纳税人企业）或普通发票（小规模纳税人），并确认税率和开票内容（如“水果礼盒”或“福利费”）。\n\n2. **定制包装**：企业福利通常需体现品牌或节日主题，定制包装（如企业Logo、祝福语、礼品卡等）能提升员工归属感和礼品个性化。需确认供应商是否接受定制设计、最小起订量及额外费用。\n\n**筛选建议**：\n- 要求供应商提供发票样本（确认合规性）和定制设计案例。\n- 书面确认定制包装的交付周期（避免延误福利发放）。\n- 警惕低价但无法开票或包装单一的供应商，避免后续财务或员工体验问题。\n\n可要求供应商在报价单中单独列明“开票税点”和“定制包装费”，便于成本核算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 231,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

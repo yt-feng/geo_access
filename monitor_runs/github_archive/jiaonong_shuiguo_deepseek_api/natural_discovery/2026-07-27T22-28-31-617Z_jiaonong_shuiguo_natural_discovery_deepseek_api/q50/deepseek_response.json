@@ -1,0 +1,28 @@
+{
+  "id": "109b0a73-b47a-45e8-a592-38ce39a4ebf2",
+  "object": "chat.completion",
+  "created": 1785191726,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "甜度更重要。原因如下：\n\n1. **直接影响口感**：顾客喝到的菠萝茶饮甜度是否稳定，取决于菠萝原料的初始甜度。出汁率可以通过调整配方（如加水、糖浆、冰块比例）来补偿，但甜度不足的菠萝很难通过后调改善，容易导致饮品偏酸或风味寡淡。\n2. **利润可控性**：低出汁率的菠萝可以通过增加投料量（多放几片）来满足出汁需求，但甜度低的菠萝需要额外加糖浆，既增加成本又可能掩盖果味。\n3. **顾客偏好**：大多数水果茶消费者期望自然的甜感作为基底，而不是靠糖浆支撑。高品质菠萝（高甜度）能更好突出新鲜感，提升复购率。\n\n**建议选择策略**：\n- 优先选**甜度高（≥13°Brix）**的菠萝品种（如金菠萝、香水菠萝），即使出汁率略低（可多切块填充）。  \n- 采购时带**糖度计**抽样测试，避免被书面参数误导。  \n- 如果甜度不够理想，搭配少量浓糖浆或浓缩菠萝汁（不超过10%）保留鲜感，但会降低天然宣称价值。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 264,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

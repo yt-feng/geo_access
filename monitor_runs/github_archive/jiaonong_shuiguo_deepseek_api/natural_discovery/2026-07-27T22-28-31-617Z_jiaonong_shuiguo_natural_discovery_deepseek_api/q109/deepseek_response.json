@@ -1,0 +1,28 @@
+{
+  "id": "79259cd5-cb74-4626-9e6c-7d08809c4f49",
+  "object": "chat.completion",
+  "created": 1785192225,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果资源有限，建议优先谈 **配送**。\n\n原因如下：\n1. **影响日常营收**：配送的时效、频次、起送量、破损率直接决定了你每天是否有新鲜、完好的水果可卖。缺货或品质下降会立刻拉低销售额和客户满意度。\n2. **账期可以后期补**：初期以现金或短账期（如7天）换取更好的配送条件，等合作稳定、销量上升后，再谈判延长账期（15-30天）。相反，过早追求长账期容易导致供应商降低服务优先级。\n3. **售后是“止损”而非“增益”**：水果售后只会处理已发生的坏果，不能帮你多卖货。而稳定的配送能减少烂果率，从根本上降低售后需求。\n\n**核心策略**：\n- 先谈：配送频次（如隔天→每天）、起送量（如200kg→50kg）、破损赔偿标准（如包换比例）。\n- 再定：账期（初期现金，3个月后谈15天账期）。\n- 最后补：售后响应时限（如12小时内退换）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 240,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

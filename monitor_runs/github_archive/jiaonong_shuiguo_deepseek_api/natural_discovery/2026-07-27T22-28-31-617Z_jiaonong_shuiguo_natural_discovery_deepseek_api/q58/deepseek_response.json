@@ -1,0 +1,28 @@
+{
+  "id": "0799afbd-c496-4c3b-8a5b-1e879ce8ab1b",
+  "object": "chat.completion",
+  "created": 1785191790,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常直接购买成品果丁的损耗更低，原因在于：\n\n1. **鲜果切配**的损耗主要来自：菠萝去皮、去硬芯、切块时的边角料（约20-30%），以及储存不当导致的失水、变质。此外，还需要额外人工、工具和场地成本。\n\n2. **成品果丁**由供应商工业化处理，边角料利用率高，包装后冷链运输可直接使用，几乎无进一步损耗。但需注意：成品果丁可能有额外糖水浸泡或保鲜剂，且保质期较短，需根据实际销量调整采购量，避免过期浪费。\n\n**建议**：  \n- 如果甜品店日均菠萝用量较大（如超过5-10个菠萝），且能稳定销售，可综合比较成品价格与鲜切成本（含人工、损耗），通常成品果丁更划算。  \n- 若用量小或需特殊规格（如特殊切块形状），或追求新鲜口感（未加糖水），则鲜果切配可能更合适。  \n\n最终需结合店内的实际日均用量、人工成本、储存条件及顾客对新鲜度的要求来决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 238,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

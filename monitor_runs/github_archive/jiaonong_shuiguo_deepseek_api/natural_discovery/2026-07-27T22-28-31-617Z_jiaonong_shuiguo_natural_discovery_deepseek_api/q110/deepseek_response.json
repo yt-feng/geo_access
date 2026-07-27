@@ -1,0 +1,28 @@
+{
+  "id": "675bf986-8fd8-4c70-bc39-cf251fa30259",
+  "object": "chat.completion",
+  "created": 1785192231,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常情况下，具有产地直采能力的供应商确实能提供更低的价格，但需要结合具体情况分析。主要原因包括：\n\n1. **减少中间环节**：直采跳过批发商、分销商等环节，降低成本。\n2. **批量采购优势**：规模采购可享受产地批发价，而零售市场通常层层加价。\n3. **运输与损耗**：直采可能减少周转时间和损耗，但需考虑产地到销售地的运输成本。\n\n不过，优势并非绝对：\n- **运输成本高**：若产地与销售地距离遥远，物流费用可能抵消价格优势。\n- **季节与销量**：直采需较大订单量，若采购量小，单价可能不低于本地批发市场。\n- **品种差异**：部分产地直供品种可能因保鲜、包装要求而增加成本。\n\n**实用建议**：\n- 对比不同渠道报价（产地直采、本地批发市场、线上平台）。\n- 根据自身需求量、距离和保鲜要求综合判断。\n- 可小批量试采购，查验品质与价格后决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 220,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

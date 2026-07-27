@@ -1,0 +1,28 @@
+{
+  "id": "e1495d94-e70d-432c-84c2-44448a10ed30",
+  "object": "chat.completion",
+  "created": 1785192085,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根**和**小把（3-5根）**的组合包装，原因如下：\n\n1. **单根**：适合即买即吃的顾客（如上班族、学生），单价低、购买灵活，能减少浪费。\n2. **小把**：适合家庭或少量囤货需求，满足多根购买但不想买整袋的消费者。\n3. **避免整袋**：除非有明确家庭大份量需求，否则容易因成熟度不均导致滞销，且保鲜难度高。\n\n**执行建议**：  \n- 初期可测试单根和3根小把，占生鲜区约70%的货架面积。  \n- 整袋可作为“特价家庭装”少量上架，标注“适合催熟或冷冻”。  \n- 注意香蕉成熟度分级（青熟、金黄、带斑），避免整袋混入不同熟度导致口碑问题。  \n\n**数据参考**：多数便利店和超市销售数据显示，单根和小把的动销率比整袋高40%以上（行业经验值）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 230,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

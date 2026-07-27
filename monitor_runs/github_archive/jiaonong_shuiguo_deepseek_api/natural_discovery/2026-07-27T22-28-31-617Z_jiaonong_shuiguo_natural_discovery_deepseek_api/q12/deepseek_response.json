@@ -1,0 +1,28 @@
+{
+  "id": "aeea6893-bf3d-44af-8b13-8f7d48ff00c1",
+  "object": "chat.completion",
+  "created": 1785191393,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购菠萝时，判断熟度主要关注以下几点，以便控制损耗：\n\n1. **看颜色**：成熟度适中的菠萝外皮呈**橙黄色**或**亮黄色**，颜色均匀。如果还是青绿色或带明显绿色，说明生，需存放较久；如果是深褐色或发黑，说明过熟，不易存放。\n\n2. **闻气味**：靠近菠萝底部闻一下，成熟菠萝会散发**浓郁清香**。如果无味，说明还生；若有酒味或酸味，说明过熟或已开始变质。\n\n3. **摸硬度**：用手轻轻按压菠萝表面，**微微有弹性但不软塌**为好。太硬说明生，太软或按后凹陷说明过熟，容易腐烂。\n\n4. **看果眼（芽眼）**：成熟菠萝的果眼饱满、间隙明显。生的果眼扁平、间隙窄。\n\n5. **掂重量**：同等大小下，**手感较重**的菠萝水分足、成熟度适中；过轻可能水分流失或已变质。\n\n**采购建议**：  \n- 根据销售节奏，选择**七八成熟**（外皮黄色占70%左右，带少量绿）的菠萝，这样到店后还能自然成熟，减少损耗。\n- 避免采购全青或全熟透的，前者顾客不买、难熟，后者容易当天卖不掉就坏。\n- 轻拿轻放，避免外伤导致加速腐烂。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 308,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

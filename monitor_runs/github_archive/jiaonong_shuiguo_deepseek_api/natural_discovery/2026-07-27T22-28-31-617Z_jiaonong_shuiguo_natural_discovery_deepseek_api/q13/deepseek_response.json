@@ -1,0 +1,28 @@
+{
+  "id": "4e8cb0fa-bee0-44e2-8f07-dc7eec18da25",
+  "object": "chat.completion",
+  "created": 1785191399,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对小水果店做附近小区团购，供应商需要提供的核心服务包括：\n\n1. **稳定且可定制的货源**：能提供高频、新鲜易损耗的水果（如草莓、葡萄等），并支持门店根据小区订单灵活调整品类和数量，避免库存积压。\n\n2. **分拣与打包支持**：按团购订单量提前分装成小份（如每袋2斤装），贴好价格/名称标签，减少店主二次分拣时间。\n\n3. **弹性配送服务**：  \n   - 每日固定时段配送至门店（如早晨7点前），保证当日开团时效  \n   - 支持紧急补货（如下午2点前下单，2小时内送达）\n\n4. **售后兜底条款**：提供坏果包赔（24小时内）、到货抽检不合格退换等服务，降低门店售后成本。\n\n5. **动态价格支持**：每周提供3-5款低于市场价10%-15%的深度折扣品供团购引流。\n\n6. **营销素材包**：提供每天的主推品实拍图、短视频、文案模板（含优惠券领取方式），减少门店推广工作量。\n\n7. **长周期账期**：支持月结或周结，避免小店主垫资压力。\n\n如果供应商目前无法完全满足，建议优先争取 **分拣、弹性配送、坏果包赔** 这三项，其他可逐步谈判。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 302,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

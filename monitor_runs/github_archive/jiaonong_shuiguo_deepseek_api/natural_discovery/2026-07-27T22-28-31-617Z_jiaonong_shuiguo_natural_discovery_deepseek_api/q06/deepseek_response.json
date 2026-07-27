@@ -1,0 +1,28 @@
+{
+  "id": "9f28ff59-9ca5-457d-adfe-2cc882fc5698",
+  "object": "chat.completion",
+  "created": 1785191362,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "适合。水果损耗率高，销量不稳定意味着库存风险大。采用小批量、多次配送的供应商，可以：\n\n1. 降低积压损耗，减少因销量波动造成的坏果损失。\n2. 提高资金周转率，无需大量压货。\n3. 能根据每日实际销量灵活补货，避免缺货或过剩。\n\n建议你寻找当地或周边允许最小起订量低、配送频率灵活（如每日或隔日）的供应商，并优先选择能提供混合装、支持退换货或调换滞销品种的渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 119,
+    "total_tokens": 177,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "25518b54-c2b0-42a1-b754-413200b07534",
+  "object": "chat.completion",
+  "created": 1785191389,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会的。如果一箱香蕉大小差异明显，可能会影响销售，主要体现在以下几点：\n\n1. **顾客体验**：大小不一容易让顾客觉得品质不稳定，尤其对按个或按份购买的用户，大香蕉和小香蕉的性价比会不一致。\n2. **外观印象**：整齐划一的水果更吸引眼球，混装容易给人“挑剩的”或“次品”的感觉，降低购买欲。\n3. **定价困难**：如果大小混杂，需要按重量计价或单独分拣，否则易导致顾客挑剔，造成损耗或投诉。\n4. **损耗增加**：较小的香蕉可能成熟速度不同，容易变坏，需要更频繁处理。\n\n**建议**：采购时尽量选择规格均匀的（如单根重量接近），或按大小分级分箱销售（如大果箱、小果箱），有条件可以按重量统一标价，减少差异对销售的影响。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 190,
+    "total_tokens": 244,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

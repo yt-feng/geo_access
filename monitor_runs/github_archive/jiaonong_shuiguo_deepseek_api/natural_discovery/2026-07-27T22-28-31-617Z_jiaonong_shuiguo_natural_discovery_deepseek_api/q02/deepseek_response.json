@@ -1,0 +1,28 @@
+{
+  "id": "e8cd4de6-b2bf-417d-9f51-85abca2d0c3f",
+  "object": "chat.completion",
+  "created": 1785191322,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "小水果店进香蕉时，建议按以下优先级考虑：\n\n1. **熟度**（最核心）：香蕉是后熟型水果，进店后需要时间销售。优先选择7-8成熟的青黄香蕉（果面青黄相间，果柄完整）。太生（全青）不易催熟，太熟（全黄带黑斑）容易在1-2天内腐烂。\n2. **坏果率**（次关键）：现场开箱检查，坏果率控制在1%以内（每箱约40斤，可接受不超过2根有明显机械伤或发黑）。坏果会加速其他香蕉腐烂。\n3. **送货速度**（重要但可协调）：确保进货后24小时内到店，避免长期运输导致温度波动造成提前成熟。\n4. **价格**（相对次要）：如果价格极低但熟度差或坏果率高，后期损耗反而更高。建议在保证前3项的前提下，对比同规格批发价。\n\n**实操建议**：\n- 首次进货先少量试单，观察不同供应商的到货质量和损耗速度。\n- 进货时要求供应商提供不同成熟度的报价（如7成熟和9成熟），根据自己日销量选择。\n- 优先选择有冷藏车、能固定发货时间的供应商，而不是单纯低价但运输不稳定的渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 278,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

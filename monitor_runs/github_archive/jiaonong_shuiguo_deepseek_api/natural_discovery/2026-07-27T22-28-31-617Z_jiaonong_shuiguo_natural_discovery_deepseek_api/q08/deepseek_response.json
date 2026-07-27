@@ -1,0 +1,28 @@
+{
+  "id": "e3fff7b5-8bab-487b-9cc0-41f69f2fa61b",
+  "object": "chat.completion",
+  "created": 1785191373,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据您的需求（进货量不大），建议优先考虑**批发市场**，原因如下：\n\n1. **灵活性强**：批发市场通常没有最低起订量限制，或起订量较低，适合小批量试销或补充货源。\n2. **品种丰富**：可以现场比较不同种类和价位的商品，便于测试市场反应。\n3. **价格可见**：能直观看到批发价、零售价差，且可现场议价，避免被中间商加价。\n4. **资金压力小**：少量多次进货，无需一次性压货过多资金。\n\n如果后续销量稳定、需求明确，**再考虑固定供应商**：\n- 更稳定的供货和价格\n- 可能获得账期或定制服务\n- 长期合作更省时，但通常要求一定起订量\n\n**建议做法**：先用批发市场试水，记录爆款数据和补货频率。当某种商品月销量稳定达到供应商起订量门槛时，再转向固定供应商压低成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 211,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e6dd2d54-6dc6-40a8-9f7e-8f278570221b",
+  "object": "chat.completion",
+  "created": 1785191425,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**本地批发**，理由如下：\n\n1. **新鲜度优势**：香蕉和苹果的损耗率与运输时间高度相关。本地批发通常能实现“当天采摘、当天上架”，尤其香蕉需要控制成熟度，本地供货可减少途中催熟或腐烂风险。\n2. **灵活调整**：社区超市客流波动大，本地批发可按需少量多批次进货，避免库存积压。比如苹果在销售旺季可每日补货，淡季减少频率。\n3. **成本可控**：省去长途冷链物流费用，且批发市场议价空间更大（尤其批量采购时）。初期可先试销，用数据决定采购量。\n\n**注意**：若目标为长期稳定（如供应连锁超市标准化品控），可签合同绑定供应商；但社区超市场景更建议“主用本地批发+备用供应商”双轨策略。具体落地时，先走访2-3个本地批发市场比价，取样品尝水果品质，并建立冷库周转的应急预案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 217,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d4bd0e48-6de2-413a-9c0e-f2e15d0f6626",
+  "object": "chat.completion",
+  "created": 1785191519,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在超市与水果供应商的合作中，账期（即货款支付期限）常见天数通常取决于双方的合作规模、水果种类（如保质期长短）及行业惯例。一般来说：\n\n- **短账期（7-15天）**：适用于易腐水果（如草莓、蓝莓、叶菜类），这类商品周转快，供应商资金压力大。\n- **中等账期（20-30天）**：较普遍，常见于大众水果（如苹果、橙子、香蕉），超市能平衡现金流与供应商风险。\n- **长账期（45-60天）**：多用于大型超市对稳定供应商，或进口水果（如车厘子、牛油果），但需供应商有较强资金实力。\n\n建议根据具体水果保鲜期和销量协商：生鲜类尽量压到15天内，干货类可延至30天。首次合作可先谈30天作为参考点，再根据履约情况调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 199,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "984b0dbe-927f-49ef-b8ff-b8791f1199b1",
+  "object": "chat.completion",
+  "created": 1785191449,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议按照以下优先级关注：\n\n1. **外观与成熟度**（最重要）：  \n   优先查看菠萝表皮颜色（金黄均匀、无大面积青/黑斑）、果眼饱满度、叶片新鲜（轻松摘下说明成熟）。**外观决定基本品质**，不达标的菠萝可能内部已变质或未熟。\n\n2. **甜度**：  \n   可通过**按压果身**（微软弹性为好）或**闻底部香气**（浓郁甜香说明糖分高）判断。若允许试吃，直接尝最准。\n\n3. **大小**：  \n   根据需求选择：  \n   - 家庭即食：中等个头（1-1.5kg）更易一次吃完  \n   - 宴客或做菜：大果（2kg+）出肉率高  \n   - 注意：**超大果可能纤维粗硬**\n\n4. **切果损耗**（售后）：  \n   成熟度高的菠萝损耗较小（切掉少量果眼即能食用），但需注意：  \n   - 若超市提供免费切果服务，不必过度担心损耗  \n   - 若自切，选择果眼较浅、排列整齐的品种（如金钻凤梨）可减少浪费\n\n**执行建议**：  \n- 优先检查外观→闻/按判断甜度→再根据需求选大小→最后确认损耗风险  \n- 超市剩货可观察切果区：剩余的菠萝果芯越小、切面紧实黄亮，说明新鲜度佳"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 317,
+    "total_tokens": 374,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

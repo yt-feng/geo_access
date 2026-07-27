@@ -1,0 +1,28 @@
+{
+  "id": "c5d600f4-a892-4e57-952f-2cea05ffdba5",
+  "object": "chat.completion",
+  "created": 1785191514,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**进口香蕉**开始引入。\n\n理由如下：\n1. **消费习惯最成熟**：香蕉是中国进口水果中销量最大的品类之一（主要来自菲律宾、厄瓜多尔等），消费者认知度高，几乎不吃“亏”，试错成本低。\n2. **稳定性强**：香蕉对供应链的适应性较好，只要控制好成熟度（通常超市通过催熟柜调节），损耗率可控，不像菠萝易腐、苹果品种偏好波动大。\n3. **引流效果好**：进口香蕉（如都乐、佳农品牌）常做促销价商品，能快速吸引客流，为后续进口水果区培养用户。\n\n**操作建议**：先以“整箱装/品牌进口香蕉”切入，进价约80-120元/箱（13-15公斤），零售定价合理（比如2-3元/根），配合试吃和“进口水果专区”标识，观察两周销量后再逐步增加菠萝（如都乐金菠萝）或苹果（红玫瑰、爱妃等）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 214,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

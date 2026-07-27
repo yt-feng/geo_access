@@ -1,0 +1,28 @@
+{
+  "id": "cc5dad7e-e0c7-4e70-b4d6-2bf0e80b0e8e",
+  "object": "chat.completion",
+  "created": 1785191378,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "和供应商洽谈时，建议提前确认以下关键问题，以降低断货风险并保障合作稳定：\n\n1. **供货能力与稳定性**  \n   - 每日/每周最大供货量是多少？历史旺季最大单笔订单处理量？  \n   - 是否有备用供应商或产地，以应对突发状况（如自然灾害、物流中断）？\n\n2. **价格与付款条款**  \n   - 旺季价格是否会浮动？是否可以签订“保价协议”（提前锁定价格上限）？  \n   - 付款账期能否延长（如货到后15-30天结款）？是否需要预付定金？\n\n3. **品质与分级标准**  \n   - 供应商如何定义“A级/一级果”？是否有第三方质检报告？  \n   - 若到货水果出现腐烂、缩水、规格不达标等问题，赔付比例和流程如何？\n\n4. **物流与时效**  \n   - 从订单确认到送达门店需要几天？是否支持分批到货？  \n   - 配送过程中是否全程冷链？若因运输导致损耗，由谁承担？\n\n5. **违约与应急机制**  \n   - 若供应商断货，需提前几天通知？是否有补货替代方案？  \n   - 合同是否约定违约金（如断货按货值20%赔偿）？\n\n**追加建议**：  \n- 首次合作先小批量试单，观察对方实际履行能力。  \n- 保留2-3家备选供应商，避免单边依赖。  \n- 旺季前1个月签订书面协议，明确以上条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 329,
+    "total_tokens": 386,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
