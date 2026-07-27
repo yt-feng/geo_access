@@ -1,0 +1,28 @@
+{
+  "id": "609e8471-a108-4579-bcb3-e2f4eebfd880",
+  "object": "chat.completion",
+  "created": 1785192695,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和鑫荣懋的进口苹果供货稳定性，基于一般行业认知，简要分析如下（建议采购前结合自身区域和近期市调验证）：\n\n1. **都乐**：作为国际大型果蔬品牌，其进口苹果（如新西兰、美国产地）通常具有**较强供货稳定性**，供应链成熟、冷链体系完善，但价格略高，且需注意季节性断货（如南北半球产季切换期）及国际物流波动。适合中高端定位的连锁渠道。\n\n2. **鑫荣懋**：国内大型果业供应链企业，进口苹果品种较多（如智利、南非等），**国内仓储和分销网络更密集**，补货快，稳定性较好；但部分品项可能因产地天气、海运紧张出现短期波动，需提前锁定锁量协议。\n\n**建议动作**：\n- 向两家区域代理商索取**近6个月历史到货记录**（关注缺货天数、替代品项）。\n- 明确**滞销商品是都能调货退换**（影响库存稳定性）。\n- 若首次合作，建议各下首批30%-50%量作试销，并备选1-2家中小供应商对冲。\n\n最终决策需结合你所在城市、门店等级、采购预算及品控要求，最好实地考察其分仓库存周转率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 285,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

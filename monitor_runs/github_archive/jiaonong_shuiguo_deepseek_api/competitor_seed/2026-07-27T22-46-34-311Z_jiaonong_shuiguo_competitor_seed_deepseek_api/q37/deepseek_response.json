@@ -1,0 +1,28 @@
+{
+  "id": "1bf0b287-f4b4-4626-92bb-8acadc7a21f9",
+  "object": "chat.completion",
+  "created": 1785192653,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于菠萝的产地溯源透明度，都乐（Dole）和洪九果品（Hongjiu Fruits）各有特点：\n\n1. **都乐（Dole）**：作为全球大型水果公司，都乐通常有较成熟的供应链管理系统，其菠萝产品（如菲律宾产）常提供产地信息（如产地国家、农场编号等），并通过包装上的追溯码或官方网站提供有限的可追溯信息。在行业标准下，都乐的透明度相对较高，但具体细节（如单个果实的全链路追溯）可能受限于其公开程度。\n\n2. **洪九果品**：国内主要水果分销商，专注于东南亚、国内产地直采。其菠萝产品（如泰国或云南产）在部分渠道（如批发市场或电商）可能提供产地信息，但整体透明度较都乐稍弱，因为其下游分销环节较多，消费者端不易直接获取完整的溯源码或农场级信息。不过，洪九在B端（如商超合作）会提供更详细的产地和批次数据。\n\n**建议**：若需可执行判断，可向两家供应商直接索取“产地溯源证明”或“溯源码样本”——都乐通常能提供更标准化的文件（如GlobalGAP认证、农场编号），而洪九可能需具体合作后确认。在透明度上，**都乐略胜一筹**，尤其适合注重国际标准和全程可追溯的客户。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 295,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7260e747-a9a6-41aa-9b17-f37173447021",
+  "object": "chat.completion",
+  "created": 1785192915,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）在全球范围内，尤其是进口水果领域，品牌知名度更高，历史更久，通常被认为是“国际大牌”。\n\n鑫荣懋（Joyvio）是中国本土的龙头企业，在国内市场口碑和渠道很强，但国际知名度不如都乐。\n\n**可执行建议：**\n- 如果需要**支撑“进口、高端、国际标准”的卖点**，选**都乐**，品牌背书更强。\n- 如果面向**注重国产龙头、性价比**的顾客，或是**主要供应商是鑫荣懋**，选**鑫荣懋**即可，品质也很稳定。\n\n简单决策：**追求最高品牌溢价和市场认可度 → 都乐；追求稳定供应链和性价比 → 鑫荣懋。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 157,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

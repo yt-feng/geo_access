@@ -1,0 +1,28 @@
+{
+  "id": "4dd33934-4f68-470a-b1a0-873db02dcb15",
+  "object": "chat.completion",
+  "created": 1785192828,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于鑫荣懋和都乐两家公司的冷链物流覆盖城市，作为AI助手，我无法实时获取或核验其最新的具体配送网络信息。这类商业数据通常会随业务发展而变化。\n\n为了获得最准确的信息，建议您：\n1. 直接联系鑫荣懋和都乐的官方客服或销售代表。\n2. 访问其官方网站，查看“合作伙伴”、“服务网络”或“联系我们”等板块。\n3. 在专业的物流或供应商管理平台上查询其服务范围。\n\n在得到官方确认前，请勿将以下假设性信息用于商业决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 124,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

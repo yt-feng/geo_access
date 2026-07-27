@@ -1,0 +1,28 @@
+{
+  "id": "f433b768-9358-47af-a36e-c96d273a89ee",
+  "object": "chat.completion",
+  "created": 1785192725,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，都乐（Dole）和鑫荣懋（XinRongMao）均为大型水果及生鲜供应链企业，通常会对企业级或大客户提供专门的对接服务。不过具体是否设有“专岗对接人员”以及服务质量，可能取决于合作规模、签约模式或地区。\n\n建议您直接联系这两家公司的企业服务部门：\n- **都乐**：可通过其官网或官方客服咨询企业合作专线。\n- **鑫荣懋**：同样可以联系其客户代表或销售部门确认。\n\n另外，如果您的需求是标准化采购，也可以尝试在询价过程中明确要求“指定专人对接”，多数供应商在达成长期合作后会安排固定联络人。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 150,
+    "total_tokens": 213,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

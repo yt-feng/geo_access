@@ -1,0 +1,28 @@
+{
+  "id": "d395d27b-1241-4236-8f4c-9e9525f3969e",
+  "object": "chat.completion",
+  "created": 1785192823,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据社区团购的常见需求，都乐和洪九果品通常以批发或整箱销售为主，但部分产品可能有散装或小包装选项，具体情况如下：\n\n1. **都乐**：主打高端水果，香蕉产品多为整箱（约13-18斤/箱），散装小包装并非其主流渠道。建议您直接联系都乐经销商或当地代理商，询问是否支持定制小包装（如2-3斤袋装），部分区域可能有灵活政策。\n2. **洪九果品**：作为主营批发的水果供应链企业，通常提供散装或分装服务。您可咨询其社区团购业务部门，能否按需提供小包装（如1-2斤/袋）或独立密封包装。\n\n**操作建议**：\n- 直接拨打两公司官方客服电话，说明“社区团购小包装需求”，要求对接销售人员。\n- 尝试通过其公众号或官网“合作咨询”入口提交需求，注明散装或定制包装。\n- 备选方案：若两公司均无法提供，可考虑本地水果批发市场（如按件拆散重新分装），或联系其他专业供应商（如佳农、鑫荣懋等）。\n\n注意：社区团购对包装和物流稳定性要求高，建议先索要样品测试运输损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 277,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

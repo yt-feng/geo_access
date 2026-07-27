@@ -1,0 +1,28 @@
+{
+  "id": "5dacfa43-200f-468f-a1bf-334e04c4f9ea",
+  "object": "chat.completion",
+  "created": 1785192663,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于下沉市场夫妻店的进货账期支持，洪九果品通常更灵活。洪九果品在终端市场以“先货后款”或短期账期（如15-30天）支持小B端客户（包括夫妻店），尤其是合作稳定后，账期条件更易协商。而鑫荣懋更侧重大型商超和连锁渠道，对小规模夫妻店的账期支持较少，通常要求现结或预付。建议直接联系当地洪九果品的区域代理确认具体政策，并优先考虑洪九果品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 118,
+    "total_tokens": 179,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

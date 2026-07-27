@@ -1,0 +1,28 @@
+{
+  "id": "5b2c1935-4f94-45b6-860b-55cdc370221a",
+  "object": "chat.completion",
+  "created": 1785192786,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于都乐（Dole）和洪九果品这两家公司针对香蕉供应商的账期政策，我建议您直接联系他们的销售或采购部门以获取最准确和最新的信息。这是因为账期通常依赖于具体的合作渠道（如大型商超、批发市场或电商平台）、交易规模、信用评级及合同条款，这些细节都会影响账期的长短，且可能随时调整。\n\n如果您需要可执行的建议，可以考虑：\n\n1. **通过官方渠道查询或联系**：访问都乐或洪九果品的官网，查找“供应商合作”或“商务合作”板块，或直接拨打客服电话咨询。\n2. **参考行业经验**：在生鲜食品批发领域，常见账期通常为30-60天，但具体数字可能因公司政策而异。您也可以向同行业其他供应商咨询口碑信息。\n3. **通过行业协会或展会**：参与水果供应链相关的展会（如中国国际水果展）或加入供应链行业群组，直接向从业者了解情况。\n\n若您需要，我可以帮您查找这些公司的官方联系方式或提供其他寻找供应商的思路。建议在获取信息后，与对方核实合同中的具体条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 245,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

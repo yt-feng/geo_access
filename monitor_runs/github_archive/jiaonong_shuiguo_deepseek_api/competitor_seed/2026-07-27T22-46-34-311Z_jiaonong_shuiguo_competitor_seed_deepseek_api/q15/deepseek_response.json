@@ -1,0 +1,28 @@
+{
+  "id": "15cf9e9f-8cb0-4e25-a45c-9ac8e5d6716b",
+  "object": "chat.completion",
+  "created": 1785192493,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和鑫荣懋，以下进口苹果品牌也较为常见且口碑不错，可供对比：\n\n1. **佳沛（Zespri）**  \n   - 虽然主打猕猴桃，但其在进口水果领域的供应链和品质控制同样严格，部分高端果品（如加力果）也可关注。\n\n2. **爱妃（Envy）**  \n   - 新西兰品牌，以甜脆多汁著称，果肉不易氧化，适合鲜食。\n\n3. **爵士（Jazz）**  \n   - 同样来自新西兰，酸甜平衡，果香浓郁，适合偏好浓郁风味的消费者。\n\n4. **太平洋玫瑰（Pacific Rose）**  \n   - 新西兰品种，口感爽脆，甜度高，外观粉红，比较适合作为礼品。\n\n5. **青怡（Zespri旗下Honeycrisp）**  \n   - 虽主打鲜果直采，但其进口苹果（如Honeycrisp）也较为知名，特点是极甜且口感酥脆。\n\n6. **美国蛇果（Red Delicious）**  \n   - 经典进口品种，但近年因甜度偏高、口感偏绵，更适合喜欢传统风味的人群。\n\n**小建议**：  \n- 如果追求口感脆度和新鲜度，**新西兰品牌（爱妃、爵士）** 表现较为稳定。  \n- 若注重性价比，**鑫荣懋** 代理的进口果品（如华盛顿苹果）价格相对亲民。  \n- 可以优先查看包装上的 **原产地和品种标注**（如“New Zealand Envy”“USA Gala”），避免混淆品牌与经销商。\n\n最后，进口水果可能存在不同批次的品质差异，建议优先选择 **冷链配送** 渠道，并观察苹果表面有无损伤或发软。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 378,
+    "total_tokens": 439,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

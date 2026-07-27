@@ -1,0 +1,28 @@
+{
+  "id": "7520f8f0-91d5-44fb-9a2b-03740fdc6372",
+  "object": "chat.completion",
+  "created": 1785192889,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业经验，洪九果品和都乐香蕉的到货损耗率受供应链管理、包装及存储条件影响。通常：\n\n- **洪九果品**（专注水果全产业链）：其香蕉损耗率约为 **5%-10%**，因自有种植基地和冷链体系，但受运输距离和鲜度影响较大。\n- **都乐香蕉**（国际品牌，标准化流程）：到货损耗率通常控制在 **3%-6%**，因采用严格分选和冷藏技术，成熟度控制更稳定。\n\n**实际建议**：批发市场拿货时，建议直接检测到货批次（需现场开箱检查柄部褐变、果皮青度），并对比不同供应商的实际损耗情况。数据可能因季节（如台风季香蕉易损）、经销商冷链差异而波动，以上为一般参考范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 178,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
