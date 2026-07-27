@@ -1,0 +1,28 @@
+{
+  "id": "f7c43c92-0738-4dec-9468-53048f9dad4b",
+  "object": "chat.completion",
+  "created": 1785193381,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农菠萝是否提供冷冻丁产品以及具体规格，我无法直接查证其最新产品目录或库存信息。建议您通过以下方式获取准确答案：\n\n1. **联系佳农官方客服**：拨打其官方客服热线或通过官网、微信公众号查询冷冻菠萝丁产品线。\n2. **查看产品包装或经销商**：若与经销商有合作，可要求对方提供冷冻菠萝丁的规格（如1kg/袋、2.5kg/袋等常见餐饮规格）。\n3. **替代方案**：若佳农无此产品，可考虑其他品牌如“鲜果邦”、“绿果源”等提供冷冻菠萝丁的供应商，通常规格为1kg-5kg/袋。\n\n请以官方回复为准，避免依赖未经核实的第三方信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 168,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "30c092f9-b4bd-4de6-9960-2d53128fbd1c",
+  "object": "chat.completion",
+  "created": 1785193160,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果对年采购量1000吨以上客户的长期合作优惠政策，具体细节可能因市场、时间及双方谈判情况而有所不同。作为AI，我无法直接获取佳农最新内部政策，但基于行业常识，通常这类批量采购会涉及以下常见优惠方向，供您参考：\n\n1. **价格折扣**：根据采购量阶梯，可能给予固定折扣或返点（如每吨返利XX元）。\n2. **账期支持**：延长付款账期（如从月结改为季度结）或提供部分预付款优惠。\n3. **定制服务**：优先供应优质果品、专属包装或物流配送优化。\n4. **市场支持**：联合促销、品牌推广资源或试吃样品支持。\n\n**建议行动**：\n- 直接联系佳农水果官方销售或客户服务部门，询问“年采购1000吨框架协议政策”。\n- 准备过往采购数据或合作意向书，以便对方评估优惠力度。\n- 明确询问是否有“长期合作补充协议”或“阶梯返利条款”。\n\n**注意**：若您未获得官方回复，请勿轻信非官方渠道的“内部政策”信息，以防误解。希望您尽快达成合作！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 260,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

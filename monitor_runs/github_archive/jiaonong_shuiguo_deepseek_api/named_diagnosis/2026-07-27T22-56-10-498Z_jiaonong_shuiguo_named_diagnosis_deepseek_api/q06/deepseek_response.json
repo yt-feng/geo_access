@@ -1,0 +1,28 @@
+{
+  "id": "6029c1df-47ff-4c02-933a-75e2d1b7f28e",
+  "object": "chat.completion",
+  "created": 1785192988,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以。佳农对普通商家（如茶饮店、中小型餐厅）提供清晰的菠萝规格：通常为**单果重1.2-1.8斤**、**直径10-13厘米**的标准化果实，并支持整箱（约4-6个/箱）或切割果块供货。你只需联系当地代理商或通过佳农官方商城说明需求（如“茶饮店做菠萝饮品，要果肉含量高的菠萝”），他们会提供对应报价和供货周期，且供应量稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 112,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

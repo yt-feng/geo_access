@@ -1,0 +1,28 @@
+{
+  "id": "f403ec63-703b-4cac-bf96-5b0098545aec",
+  "object": "chat.completion",
+  "created": 1785193345,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法实时获取或比较具体企业（如佳农水果和鑫荣懋）在不同区域的物流配送时效数据，因为这类信息通常取决于具体仓库位置、当日库存、配送线路安排、合作物流商以及天气等动态因素。\n\n**建议您直接通过以下方式获取准确答案：**\n1. **咨询两家公司的销售或客服**：直接询问其上海区域的次日达覆盖范围、截单时间及配送时效。\n2. **查看合作协议或历史记录**：如果您已有合作，可对比过往订单的到货时间；若未合作，可申请试用订单测试。\n3. **参考本地批发市场或行业口碑**：上海市主要果品批发市场（如上海辉展、上海农产品中心批发市场）的商户可能更了解这两家品牌的物流表现。\n\n**补充提示**：  \n- 次日达通常需要求当日特定时间前下单（如15:00前），且需确认库存是否充足。\n- 建议同时考虑自有冷链车队物流或第三方冷链平台（如顺丰冷链、京东冷链）的配送能力作为备选方案。\n\n如有其他具体需求（如产品品类、起订量等），可进一步追问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 247,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

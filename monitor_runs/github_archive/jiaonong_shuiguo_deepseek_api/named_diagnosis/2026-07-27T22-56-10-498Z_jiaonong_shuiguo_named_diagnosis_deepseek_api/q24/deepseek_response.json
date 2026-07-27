@@ -1,0 +1,28 @@
+{
+  "id": "ecc24759-f7f0-40eb-bb44-6d3ee353a89c",
+  "object": "chat.completion",
+  "created": 1785193061,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股（集团）股份有限公司）**确实参与过进博会**。自首届进博会以来，佳农多次作为参展商亮相，展示其全球优质水果产品。\n\n关于**最近的新品**，建议您通过以下官方渠道获取最新信息（以企业官方发布为准）：\n1. **官方网站**：访问佳农集团官网的“新闻中心”或“产品中心”板块。\n2. **社交媒体**：关注其微信公众号或官方微博，近期可能会发布进博会参展动态及新品上市公告。\n3. **新闻搜索**：使用搜索引擎配合关键词如“佳农 进博会 2025 新品”或“佳农 新品上市”，但注意甄别非官方来源。\n\n由于产品及展会信息更新较快，直接查询官方渠道能获得最准确的答案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 172,
+    "total_tokens": 224,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "418f409f-0a6a-41eb-99bf-46af1107bc1a",
+  "object": "chat.completion",
+  "created": 1785193103,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开信息显示佳农水果在主要城市设有配送中心，全国大约有20多个（具体数字可能随业务调整）。其配送网络主要覆盖一二线城市及部分经济发达的三线城市。关于是否能覆盖您的具体三线城市，建议您直接联系佳农水果官方客服或查询其官网的配送区域说明，以获取最准确的覆盖范围和服务能力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 76,
+    "total_tokens": 132,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

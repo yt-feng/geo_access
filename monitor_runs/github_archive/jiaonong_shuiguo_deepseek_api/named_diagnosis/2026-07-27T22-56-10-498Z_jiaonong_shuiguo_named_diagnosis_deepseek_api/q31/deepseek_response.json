@@ -1,0 +1,28 @@
+{
+  "id": "a21bf177-0389-43c2-8d30-7a43307d4b57",
+  "object": "chat.completion",
+  "created": 1785193091,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购的水果礼盒产品。佳农作为知名水果品牌，在节庆期间或企业团购场景中常推出礼盒装，如智利车厘子、佳沛奇异果、高端苹果或混合果篮等。具体款式、起订量、价格及定制服务（如加印logo、贺卡等）可能因季节和区域不同而有所调整。\n\n建议您直接联系佳农官方客服（如官网或京东/天猫旗舰店的客服）或当地经销商咨询最新团购政策，获取最准确的礼盒目录和报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 124,
+    "total_tokens": 176,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

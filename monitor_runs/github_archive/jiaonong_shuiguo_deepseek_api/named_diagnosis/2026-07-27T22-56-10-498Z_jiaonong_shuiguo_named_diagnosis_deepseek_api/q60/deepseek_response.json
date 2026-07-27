@@ -1,0 +1,28 @@
+{
+  "id": "cc1bd4b4-3020-457f-93f3-50c6facee013",
+  "object": "chat.completion",
+  "created": 1785193221,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据我目前掌握的信息，佳农（Goodfarmer）确实有生产适合便利店渠道的小包装香蕉产品。通常，佳农会提供**单根包装**或**双根装**的香蕉，以方便便利店、生鲜店等渠道销售，满足即食和便携需求。\n\n**建议您采取以下操作：**\n\n1. **直接联系佳农官方或区域经销商**：这是最准确的确认方式。您可以通过佳农官网或拨打其客服热线，询问当地经销商联系方式，告知您需要“便利店单根包装香蕉”。\n2. **利用供应链查询**：如果您已有合作的批发商或采购平台，登录后台搜索“佳农 单根香蕉”或“佳农 小包装”，通常能查到相关规格。\n3. **关注包装规格**：便利店常见的佳农单根香蕉包装规格一般为**约120克-150克/根**，并带有品牌贴纸或小包装袋，方便直接陈列收银。\n\n**如果目前没有直接货源，可考虑替代方案：**\n- 其他品牌如都乐（Dole）、鑫荣懋也有类似小包装产品。\n- 您也可以采购整把香蕉，自行分装并粘贴便利店价格标签。\n\n希望这些信息对您有帮助！如果还需要其他支持，请随时告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 272,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

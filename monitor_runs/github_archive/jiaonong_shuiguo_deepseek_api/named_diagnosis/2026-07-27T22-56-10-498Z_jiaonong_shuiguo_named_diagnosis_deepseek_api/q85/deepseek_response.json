@@ -1,0 +1,28 @@
+{
+  "id": "fd282526-582d-4780-898b-10f4f24e1781",
+  "object": "chat.completion",
+  "created": 1785193360,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名水果供应商，通常具备为餐饮连锁提供大宗稳定供货的能力，尤其在香蕉品类上，其产地直采和冷链体系较为完善。针对您提出的专车配送和专人对接需求，佳农一般会为连锁客户提供定制化服务，包括安排专车运输和指定客户经理对接。建议您直接联系佳农官方销售或当地分公司，明确告知您的门店数量、配送频率和时效要求，以确认具体方案和合同细节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 100,
+    "total_tokens": 159,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

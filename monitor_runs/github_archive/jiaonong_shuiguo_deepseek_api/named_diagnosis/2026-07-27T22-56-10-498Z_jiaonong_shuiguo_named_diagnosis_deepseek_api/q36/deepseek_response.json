@@ -1,0 +1,28 @@
+{
+  "id": "d2a9a495-c3e1-497f-a01c-48fc72bb97fb",
+  "object": "chat.completion",
+  "created": 1785193109,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果和洪九果品在香蕉品类上各有优势，具体比较如下：\n\n- **佳农水果**：在香蕉领域以进口香蕉为主，尤其是来自南美（如厄瓜多尔）的高品质香蕉。佳农对供应链管理严格，注重果品品控，香蕉成熟度掌控较好，口感稳定。品牌在商超渠道（如盒马、沃尔玛）中认可度较高，适合追求高端稳定质量的消费者。\n\n- **洪九果品**：在香蕉品类上注重产地直采和成本控制，尤其擅长东南亚（如越南、菲律宾）香蕉的规模化运营。洪九的香蕉价格通常更具竞争力，渠道覆盖广泛，包括批发市场和社区零售。但在高端消费者中，佳农的品控口碑可能更优。\n\n**总结建议**：\n- 如果追求**稳定口感、高端超市渠道**，选佳农。\n- 如果注重**性价比、大批量采购或社区零售**，选洪九。\n\n（注：具体优势可能因地区供应、季节和渠道政策变化，建议结合当地市场实际体验判断。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 228,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

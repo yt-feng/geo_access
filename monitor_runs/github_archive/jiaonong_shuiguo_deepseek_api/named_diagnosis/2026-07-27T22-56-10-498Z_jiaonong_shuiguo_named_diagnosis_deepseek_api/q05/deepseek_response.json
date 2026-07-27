@@ -1,0 +1,28 @@
+{
+  "id": "6d1cc3b6-7935-4a08-94ca-2800d8d0e9f0",
+  "object": "chat.completion",
+  "created": 1785192985,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内知名的香蕉品牌，通常会遵循国家和行业相关食品安全标准。根据公开信息，佳农香蕉一般会经过农残检测，并可能获得以下认证：\n\n- **绿色食品认证**：佳农部分产品可能获得中国绿色食品发展中心的认证，确保农药残留符合绿色食品标准。\n- **GlobalG.A.P.（全球良好农业规范）**：如果产品出口或供应高端渠道，可能持有此国际认证，证明其农业实践符合安全要求。\n- **有机认证**：部分高端产品线可能通过中国有机认证，但需确认具体批次。\n- **出厂检测报告**：每批次产品通常有第三方检测报告，客户可向厂家索要。\n\n**建议**：购买时查看产品包装上的认证标识（如绿色食品、有机等），或通过佳农官方客服查询具体批次检测报告。日常食用时，建议清洗或去皮以进一步降低风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 190,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

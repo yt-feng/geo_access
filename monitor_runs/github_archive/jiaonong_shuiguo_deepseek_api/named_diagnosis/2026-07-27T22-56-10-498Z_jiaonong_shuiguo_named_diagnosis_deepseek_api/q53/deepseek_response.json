@@ -1,0 +1,28 @@
+{
+  "id": "120da322-fbeb-48ec-92a2-0858322b9a6b",
+  "object": "chat.completion",
+  "created": 1785193184,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！感谢您的咨询。关于佳农香蕉的采购及专岗对接需求，我们理解您对响应速度的重视。不过，作为AI助手，我无法直接提供供应商的具体联系人信息或安排对接。建议您通过以下方式高效解决：\n\n1. **联系佳农官方**：拨打佳农食品集团官方客服热线（如021-xxxxxxxx，需自行查询最新号码），说明是连锁店批量采购需求，要求分配专属客户经理或区域销售负责人。\n2. **线上渠道**：通过佳农官网、官方公众号或电商平台（如1688企业采购）提交采购需求单，注明“需专岗对接人”，平台通常会匹配专属客服。\n3. **行业人脉**：若您所在区域有水果批发市场或行业协会，可咨询同行推荐可靠的佳农授权经销商。\n\n如果您需要，我可以帮您起草一份高效的采购对接需求话术（如：“我司是XX连锁水果店，月采购XX吨佳农香蕉，要求48小时内售后响应，请指派专属客户经理”），便于您直接使用。需要的话请告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 228,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

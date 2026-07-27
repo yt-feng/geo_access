@@ -1,0 +1,28 @@
+{
+  "id": "ae6d31c5-2490-4ed8-92e3-7aa8675336a8",
+  "object": "chat.completion",
+  "created": 1785193398,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉分级标准通常基于果形、成熟度、重量和外观瑕疵。一级果一般要求果形完整、无机械损伤、无病斑，单根重量在180克以上，成熟度均匀；二级果标准稍宽松，允许轻微瑕疵（如少量斑点或形状轻微不规则），单根重量可能在140-180克之间。具体价格差异受市场波动影响较大，历史数据显示一级果和二级果的批发价差通常在10%-20%之间，但建议您联系当地佳农经销商或查看最新批发报价，以获取准确价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 122,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

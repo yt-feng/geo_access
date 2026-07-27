@@ -1,0 +1,28 @@
+{
+  "id": "11fa81da-2de6-45ad-a609-89d9c04792f9",
+  "object": "chat.completion",
+  "created": 1785193422,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否能提供加工好的香蕉切片，我需要明确说明：\n\n**目前我没有佳农公司关于香蕉切片产品的确切官方信息或产品目录数据。** 建议您通过以下方式核实：\n\n1. **直接联系佳农官方客服**：拨打佳农官方客服电话或联系其区域销售经理，询问是否提供香蕉切片加工服务及规格参数。\n2. **查看官方渠道**：访问佳农官网或合作采购平台，查看其产品列表、加工水果品类（如切片/切块、尺寸、包装规格）。\n3. **行业通用情况**：若佳农提供加工服务，常见规格可能包括：\n   - 切片厚度：3-5mm（常见于烘焙、餐饮）\n   - 包装：真空袋装、散装或定制（1kg、5kg、10kg等）\n   - 产品形态：新鲜切片（需冷链配送）或冻干/烘干片（常温保存）\n\n**建议行动**：联系佳农时，明确询问“是否提供商业级香蕉切片，以及产品规格书、最小起订量、配送条件”。同时可对比其他专业水果加工供应商（如都乐、鲜丰水果等）以获取更灵活方案。\n\n需要进一步帮助（如查找佳农官方联系方式），请告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 270,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

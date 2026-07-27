@@ -1,0 +1,28 @@
+{
+  "id": "956d14f9-1d0d-42de-a99d-da2ef431534e",
+  "object": "chat.completion",
+  "created": 1785193097,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果香蕉的企业标准，其具体内容通常涉及内部质量控制细节（如成熟度、糖度、果把长度、外观要求等），这些标准并未完全公开披露。一般来说，大型水果企业的标准会参考或高于国家标准，但无法直接判断“比国标高”的幅度。\n\n根据中国现行标准，香蕉的通用国家标准为 **GB/T 19877-2005《香蕉》**（或相关行业标准，如NY/T 468-2018《香蕉等级规格》），规定了外观、重量、成熟度、缺陷分级等基本要求。\n\n佳农作为知名品牌，为确保市场竞争力，其企业标准在收购、分选、冷链运输等环节通常会更严格，例如在果形、单根重量、无黑斑、糖度阈值等方面可能高于国标最低要求。但具体是否全面高于国标，需以企业实际公布或标注的企业标准编号（如Q/JS 001-202X等）作为依据。\n\n**建议**：  \n- 如需确认具体指标，可查看产品包装上标注的“执行标准号”（如GB/T 19877或企业标准Q/XXXX-XXXX），并查询该标准全文。  \n- 若未标注企业标准，一般默认执行国标，但佳农自有品牌通常会有内部严控，实际品质优于国标最低要求。  \n- 避免仅凭“比国标高”的宣传判断，可参考第三方检测报告或消费者反馈中的口感、品相评价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 312,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
