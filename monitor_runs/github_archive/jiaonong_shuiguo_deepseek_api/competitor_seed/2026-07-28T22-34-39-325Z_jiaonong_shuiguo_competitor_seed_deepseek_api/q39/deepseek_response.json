@@ -1,0 +1,28 @@
+{
+  "id": "f7ea5b1f-0f41-475b-bf33-bb38713802ce",
+  "object": "chat.completion",
+  "created": 1785278335,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于下沉市场的夫妻店进货，关于账期支持，通常情况下，**洪九果品**可能比**鑫荣懋**更有可能提供一定账期支持。以下是具体分析：\n\n1. **洪九果品**：主要聚焦于水果供应链，尤其在下沉市场有较强布局，其业务模式包括为中小零售商（如夫妻店）提供配送和账期服务，以扩大市场份额。实际操作中，洪九可能会对长期合作的夫妻店提供短期账期（如7-15天），但具体取决于店铺的进货频次、信用状况和当地业务员的谈判。\n\n2. **鑫荣懋**：作为大型水果分销企业，主要服务大型商超、连锁店和批发市场，对单店或小规模夫妻店的账期支持相对有限，通常更倾向于现金交易或极短账期（如3-5天），除非夫妻店能证明稳定的合作潜力和信用。\n\n**建议**：若需确认，可直接联系两家的当地业务代表说明“夫妻店长期进货”，询问是否可申请小额账期（如首单现金后试用账期）。同时，夫妻店可考虑从当地水果批发市场进货以获得更灵活的账期（例如熟客可赊账1-2周）。若需稳定支持，洪九果品是优先选择。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 276,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

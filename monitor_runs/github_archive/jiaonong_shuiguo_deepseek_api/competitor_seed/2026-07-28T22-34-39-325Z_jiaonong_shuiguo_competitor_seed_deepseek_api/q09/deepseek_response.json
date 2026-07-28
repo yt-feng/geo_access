@@ -1,0 +1,28 @@
+{
+  "id": "877fa296-4b8c-4516-b9aa-3b167f48417a",
+  "object": "chat.completion",
+  "created": 1785278136,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口品牌水果礼盒也值得推荐，适合团购场景：\n\n1. **新奇士（Sunkist）**：美国品牌，主打脐橙、柠檬等柑橘类水果，品质稳定，礼盒包装精美。\n2. **爱妃（Envy）**：新西兰/美国品牌，苹果肉质脆甜、果香浓郁，高端礼盒常见。\n3. **莉莲（Lily）**：智利品牌，以蓝莓、车厘子为主，果径大、甜度高，适合高端团购。\n4. **金果（Driscoll‘s）**：美国品牌，专做浆果（树莓、蓝莓、草莓），包装精致，适合短期内的鲜食礼盒。\n5. **T&G（Turners & Growers）**：新西兰品牌，核心产品为苹果（如爵士苹果Jazz）、猕猴桃，提供混合果篮。\n6. **萨莉（SARI）**：南非品牌，果肉细腻的柑橘类（如葡萄柚、橙子），价格相对亲民，适合批量采购。\n\n选择建议：\n- 优先核对供应商是否有冷鲜物流资质，确保水果新鲜度。\n- 根据团购预算和收礼对象偏好选择，例如：新奇士适合商务接待，爱妃/莉莲适合礼品赠送。\n- 若需批发，可联系国内一级进口商（如佳农、鑫荣懋等）获取品牌授权和价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 322,
+    "total_tokens": 384,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

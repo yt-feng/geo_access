@@ -1,0 +1,28 @@
+{
+  "id": "0eaa28c5-0c41-439a-a37b-99f285cd9aa8",
+  "object": "chat.completion",
+  "created": 1785278622,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）的品牌知名度在进口水果领域（尤其是苹果）通常更响，尤其是在大众市场和全球范围内。都乐是国际知名品牌，拥有较长的历史和更广泛的消费者认知。而鑫荣懋（Xinrongmao）虽然在国内进口水果渠道中也有一定影响力，但品牌知名度和“背书”效应相对较弱，多偏重于供应链端而非直接面向消费者的品牌形象。\n\n如果你需要的是面向普通消费者（例如家庭用户）的品牌信任感，选择都乐会更合适；如果更看重渠道资源或批发市场采购，鑫荣懋可能是性价比更高的选择。建议根据实际采购场景和客户群体决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 137,
+    "total_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

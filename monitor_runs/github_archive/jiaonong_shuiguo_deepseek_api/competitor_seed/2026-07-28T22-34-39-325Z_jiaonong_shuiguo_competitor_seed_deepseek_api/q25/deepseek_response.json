@@ -1,0 +1,28 @@
+{
+  "id": "d22aae66-8ea8-4ae1-9a78-39611c1aaef6",
+  "object": "chat.completion",
+  "created": 1785278246,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从长期合作意愿和稳定性来看，**鑫荣懋**通常更倾向于签年单，原因如下：\n\n1. **企业规模与稳定性**：鑫荣懋是行业头部企业，供应链体系成熟，内部流程规范，对长期稳定合作的需求更高，年单是其主要合作模式之一。洪九果品虽然也是大型企业，但近年来受上市后业绩压力及自身经营调整影响，短期波动较大，可能更灵活地调整合作策略。\n\n2. **市场反馈**：在生鲜行业，鑫荣懋在进口水果和分销渠道上更注重长期客户关系维护，对年单的履约能力和承接受限较小；洪九果品则更依赖区域分销和快速周转，对长期锁价、锁量的年单可能更谨慎。\n\n3. **建议**：如果你是长期稳定的需求方（如连锁商超或大型加工企业），优先联系**鑫荣懋**的销售或大客户部门，明确提出年单需求，他们通常有现成的年单框架和价格机制。若选择洪九，建议先签季度或短期试合作，评估其供货稳定性和配合度后再推进年单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 245,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

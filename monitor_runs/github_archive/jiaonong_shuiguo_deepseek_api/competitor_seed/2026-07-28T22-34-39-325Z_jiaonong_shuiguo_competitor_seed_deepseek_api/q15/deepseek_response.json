@@ -1,0 +1,28 @@
+{
+  "id": "290780d8-5034-422f-942e-ff036afc6f4f",
+  "object": "chat.completion",
+  "created": 1785278173,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joywing），以下这些进口苹果品牌在中国市场也比较常见且口碑不错，可供参考：\n\n1. **新西兰爱妃（Envy）**  \n   - 特点：果肉紧实、甜度高、不易氧化，主打高端市场。\n   - 来源可靠：由新西兰的ENZA公司授权销售。\n\n2. **美国蛇果（美国华盛顿苹果）**  \n   - 主要品牌如 **Stemilt**、**Chelan Fresh**、**Rainier**。  \n   - 注意：国内常见的“美国蛇果”多指红地厘蛇果（Red Delicious），也有青苹果、金苹果等品种。\n\n3. **法国嘎啦（Gala）**  \n   - 小果型、脆甜，常见于 **Pink Lady**（粉红女士）或 **Jazz**（爵士）等品牌。\n\n4. **日本富士（红富士类）**  \n   - 日本本土产的精品品牌如 **“青森”**、**“信浓”**（通过冷链进口），以及国内的合资种植品种（如“红将军”）。\n\n5. **南非富士/SAPO苹果**  \n   - 南非产的富士品种，口感接近，价格更实惠，品牌如 **Cape**、**Elgin**。\n\n6. **智利果农（Chilean Pome）**  \n   - 智利产的青苹果（Granny Smith）和嘎啦类，品牌如 **Unifrutti**、**Doña Francisca**。\n\n### 选购建议：\n- **认准标签**：正规渠道的进口苹果通常有原产地、种植者、品牌名称和进口商信息（如标签上会注明“来自新西兰Enza”或“美国华盛顿苹果协会”）。\n- **购买渠道**：大型连锁超市（如沃尔玛、盒马、山姆等）的进口水果区，或信誉好的电商平台（如天猫超市、京东自营）。  \n- **避免混淆**：注意区分“进口品牌”和“国产高端品种”（如“红富士”可能是国内产的，非进口）。\n\n如需具体类目推荐，可以补充你的预算或对口感（脆/软、甜/酸）的偏好。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 480,
+    "total_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

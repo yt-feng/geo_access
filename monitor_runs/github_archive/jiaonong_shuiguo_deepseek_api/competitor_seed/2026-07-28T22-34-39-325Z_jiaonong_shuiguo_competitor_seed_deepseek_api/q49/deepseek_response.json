@@ -1,0 +1,28 @@
+{
+  "id": "856a01a7-5269-4822-8e0a-c8533af62207",
+  "object": "chat.completion",
+  "created": 1785278408,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业惯例和公开信息，**都乐（Dole）** 和 **鑫荣懋** 通常都能提供客户对接服务，但“专岗专人”（即专属客户经理或专属服务团队）的具体设置可能取决于合作规模和客户需求。  \n\n建议您通过以下方式确认：  \n1. **直接联系双方销售或客服部门**，明确询问“是否能为特定客户配置专属服务人员或团队”。  \n2. **要求提供过往合作案例**，尤其是与您体量相似客户的对接流程说明。  \n3. **在合同中明确约定专岗人员的职责、响应时间及替代方案**，避免口头承诺。  \n\n若无法立即获得明确答复，可以优先选择行业口碑更注重精细化服务的供应商（例如都乐在全球市场有成熟的客户分级体系，鑫荣懋在国内供应链对重点客户支持较强），但最终建议以实际沟通结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 187,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

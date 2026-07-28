@@ -1,0 +1,28 @@
+{
+  "id": "687086d8-e697-49ea-8c88-1fc18d74ab05",
+  "object": "chat.completion",
+  "created": 1785278311,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "两家公司均具备全国配送能力，但侧重点不同：\n\n1. **都乐（Dole）**：作为全球知名的果蔬供应商，都乐在中国拥有成熟的冷链配送网络，覆盖主要一二线城市，能提供稳定的香蕉供应。其供应链优势在于标准化程度高，适合大型连锁餐饮的集中采购需求。\n\n2. **鑫荣懋（Xinrongmao）**：作为中国本土领先的水果供应链企业，鑫荣懋在全国有广泛的仓储和配送体系，尤其擅长针对餐饮连锁客户的灵活配送，包括二三线城市覆盖。其服务灵活性更高，利于定制化供应。\n\n**建议**：\n- 若您需要**全国性稳定供应、标准化产品**（如连锁门店统一规格），优先**都乐**。\n- 若您需要**更灵活的配送范围（含下沉市场）或定制化服务**，优先**鑫荣懋**。\n\n建议您直接联系两者的客户经理，提供具体配送城市及月需求量，获取精准报价和时效承诺。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 210,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

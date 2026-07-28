@@ -1,0 +1,28 @@
+{
+  "id": "32d9bb11-3bbd-49e4-8bca-c884033cd8f8",
+  "object": "chat.completion",
+  "created": 1785278515,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "鑫荣懋和都乐的冷链物流覆盖城市范围通常根据其业务布局动态调整，建议直接联系企业官方确认最新信息。以下为截至2023年10月的参考信息：\n\n1. **鑫荣懋**  \n   作为国内头部水果供应链企业，其冷链物流网络覆盖**全国主要一二线城市**（如北京、上海、广州、深圳、成都、武汉、杭州、南京等），且依托区域性分拣中心支持三四线城市配送，但具体覆盖需根据合作商超的采购范围确认。\n\n2. **都乐（Dole）**  \n   都乐在中国依托自有冷链及第三方物流，主要覆盖**一线及新一线城市**（如北京、上海、广州、深圳、成都、重庆、武汉、杭州、苏州等），部分非一线城市可能仅限核心商圈门店。\n\n**建议行动步骤：**  \n- 查询鑫荣懋官网或联系其业务部门（如“鑫荣懋集团客户服务”）。  \n- 都乐中国官网或致电其“商业合作”板块确认实时配送范围。  \n- 明确目标商超的需求城市，直接向对方索取供应商白名单中的物流覆盖说明。  \n\n**注意**：大型商超（如沃尔玛、家乐福）通常有更细化的区域配送要求，需结合具体入库地址评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 282,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

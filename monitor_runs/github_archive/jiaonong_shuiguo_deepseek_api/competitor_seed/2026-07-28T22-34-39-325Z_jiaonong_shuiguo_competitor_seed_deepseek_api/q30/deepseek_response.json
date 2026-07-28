@@ -1,0 +1,28 @@
+{
+  "id": "9e267be9-ec78-4778-b874-f46c1c6e3dfa",
+  "object": "chat.completion",
+  "created": 1785278280,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息和行业标准，鑫荣懋和都乐作为大型水果供应商，均拥有较为完善的食品安全认证体系。两者通常持有GLOBALG.A.P.（全球良好农业规范）、BRC（英国零售协会食品安全标准）、ISO22000（食品安全管理体系）等国际通用认证。但具体“谁更全”需结合以下方面判断：\n\n1. **覆盖范围**：都乐作为全球性品牌，通常覆盖更多地区的认证（如美国USDA有机认证、日本JAS认证等）；鑫荣懋作为中国本土企业，可能更侧重国内及亚太地区的认证（如中国有机认证、HACCP等）。\n2. **产品种类**：若商超要求针对不同品类（如进口水果、加工品），都乐可能涉及更多细分认证；鑫荣懋在国产水果及流通环节的认证可能更细化。\n3. **动态更新**：认证清单会随供应链调整变化，建议直接向两家公司索取最新的《供应商资质文件》或查询其官网公示的认证信息。\n\n**建议**：  \n若需精确对比，可要求供应商提供以下材料：\n- 当前有效的认证证书列表（包括认证机构、有效期、覆盖产品范围）。\n- 近三年内是否通过商超联合审核（如家乐福、沃尔玛的供应商审核）。\n- 针对特殊需求（如出口、有机、非转基因）的专项认证。\n\n**注意**：不要仅凭名称判断，重点检查认证是否被目标商超认可（如部分商超仅接受第三方审核机构如SGS、Intertek的认证）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 331,
+    "total_tokens": 391,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

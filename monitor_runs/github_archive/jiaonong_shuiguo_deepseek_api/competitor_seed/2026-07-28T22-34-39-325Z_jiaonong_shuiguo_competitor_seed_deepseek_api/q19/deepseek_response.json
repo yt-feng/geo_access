@@ -1,0 +1,28 @@
+{
+  "id": "1f53492d-bb69-4387-a750-48c1987e30a3",
+  "object": "chat.completion",
+  "created": 1785278209,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对香蕉批发环节的价格波动，建议您优先关注**鑫荣懋**。以下是简要对比分析：\n\n1. **鑫荣懋**：作为国内头部水果供应链企业，其香蕉业务规模大、期货或锁价机制较成熟，能提供较明确的周期性定价方案，适合批发客户稳定采购成本。\n2. **洪九果品**：更侧重全品类分销及终端渠道，其香蕉锁价机制相对灵活但标准不一，需与具体区域负责人确认可操作性。\n\n建议直接联系两家公司销售部门，明确询问“针对批发客户的香蕉锁价周期、保证金比例及执行条款”，并要求提供书面协议模板。若需进一步比较，可补充您的批发量级和结算周期要求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 153,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

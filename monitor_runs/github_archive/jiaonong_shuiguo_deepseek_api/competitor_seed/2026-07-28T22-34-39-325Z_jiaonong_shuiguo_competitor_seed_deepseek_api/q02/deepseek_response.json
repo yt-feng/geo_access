@@ -1,0 +1,28 @@
+{
+  "id": "8603068c-4b83-49a1-a38a-2f9698596497",
+  "object": "chat.completion",
+  "created": 1785278085,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）之外，目前国内市场上能稳定供应菠萝的品牌主要包括以下几类：\n\n1. **佳农（Goodfarmer）**：泰国、菲律宾进口菠萝，在大型商超（如盒马、永辉、山姆）及电商平台供应稳定。\n2. **鑫荣懋**：国内头部水果流通商，旗下有“Johnny's”等品牌，主要供应菲律宾菠萝。\n3. **光证（Sunkist）**：主要代理美国、哥斯达黎加进口菠萝，高端超市常见。\n4. **沃品源**：国产菠萝品牌，供货基地在海南、广东，全年不断档。\n5. **南国水果**：拼多多、京东等平台上有稳定的国产菠萝供应。\n6. **超市自有品牌**：如盒马、山姆、Costco等，通常会采购符合分级标准的常规菠萝，货源稳定。\n\n建议您根据销售渠道（如生鲜电商、批发市场、社区团购）或者客户对价格、产地的偏好，选择上述品牌作为备选。如果主要做批发，可以联系当地一级批发市场寻找“缅甸菠萝”“菲律宾菠萝”的稳定货源批发商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 250,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
