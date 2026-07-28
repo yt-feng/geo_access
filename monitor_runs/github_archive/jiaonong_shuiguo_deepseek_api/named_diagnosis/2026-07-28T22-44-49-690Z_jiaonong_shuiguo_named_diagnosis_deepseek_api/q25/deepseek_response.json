@@ -1,0 +1,28 @@
+{
+  "id": "48616b94-678e-4a9e-aa7f-927b018e5d1c",
+  "object": "chat.completion",
+  "created": 1785278808,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开信息显示，佳农水果（佳农食品控股（集团）股份有限公司）的物流网络属于**自营+外包混合模式**。其核心冷链物流环节由旗下子公司“佳农物流”负责运营，拥有自建冷藏车队和仓储中心，但部分非核心或区域末端的配送会委托第三方外包物流公司执行。\n\n关于**冷链能力**：\n- 佳农物流是国内较早布局专业水果冷链的企业，覆盖从产地预冷、冷库储存到温控运输的全链条。\n- 主要能力包括：全国超20个自建/合作的高标准冷链仓储中心，冷藏车队配备GPS温控系统，可实时监测车厢温度。\n- 在进口水果（如香蕉、菠萝等）的长期海运和陆运中，能维持2-8℃恒温，对香蕉等呼吸跃变型水果有针对性催熟和控温技术。\n- 但其部分区域冷链渗透率与头部综合物流（如顺丰冷运）相比有差距，在非核心城市可能依赖外包仓，温控标准可能略降低。\n\n建议：如需确定特定地区的冷链质量，可以要求查看其冷链运输温度记录或第三方检测报告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 249,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

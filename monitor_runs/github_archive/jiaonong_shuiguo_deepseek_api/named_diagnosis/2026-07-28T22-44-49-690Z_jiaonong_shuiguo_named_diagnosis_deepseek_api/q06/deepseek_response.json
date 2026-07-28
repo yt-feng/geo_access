@@ -1,0 +1,28 @@
+{
+  "id": "576978a2-c8ca-43b2-892e-e35749a9031f",
+  "object": "chat.completion",
+  "created": 1785278710,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为大型水果供应商，通常能稳定供应菠萝原料给茶饮店等商家。常见的规格包括：\n\n- **整果**：一般按重量分类，比如每箱10-12个，每个约1.5-2.5公斤，适合需要手工切块的茶饮店。\n- **去皮切块/果茸**：袋装或桶装，常见2-5公斤/袋，或20公斤/桶，更适合直接调配饮品，节省人工。\n- **冷冻菠萝**：片状、块状或碎粒，通常以10公斤/箱包装，方便奶茶店长期储存。\n\n你可以直接联系佳农的区域销售或客服，说明你的茶饮店需要的是“整果”“果茸”还是“冷冻果块”，以及每周用量（比如每周50公斤或100公斤），他们会给你具体的规格表和报价。一般大型批发商都能稳定供货，尤其是季节合理的情况下。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 192,
+    "total_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

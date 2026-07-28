@@ -1,0 +1,28 @@
+{
+  "id": "5eda4996-34c0-4cf4-9512-1065ff87ead6",
+  "object": "chat.completion",
+  "created": 1785278993,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Joy Wing Mau）是否能提供菠萝丁的加工服务，或者是否只卖整果，建议您直接联系佳农的官方客服或销售团队获取最准确的信息。不过，根据常见的业务模式：\n\n- 佳农主要以**整果（新鲜菠萝）**为主，如金菠萝。\n- 部分大型水果供应商也可能提供**定制加工服务**（如切丁、切块），但需要具体确认。\n\n**建议操作：**\n1. 访问佳农官网（如 joywingmau.com）或拨打其客服热线，明确询问：“是否提供菠萝丁加工服务？起订量是多少？”\n2. 如果佳农不提供加工，您可考虑：\n   - 采购整果后自己或找本地加工厂处理。\n   - 联系其他专业水果加工供应商（如**中果、鲜丰**等），他们常提供切丁、速冻菠萝丁产品。\n\n请以佳农官方答复为准，避免依赖非官方信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 210,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

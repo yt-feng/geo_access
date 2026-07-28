@@ -1,0 +1,28 @@
+{
+  "id": "6aecdde4-f179-45ff-a428-624445857cda",
+  "object": "chat.completion",
+  "created": 1785278765,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否针对下沉市场有专门的优惠政策，目前我无法提供确切的最新信息，因为这取决于该公司的营销策略和地区政策。通常，农产品企业会根据市场情况推出区域性促销、渠道补贴或合作优惠。建议您直接联系佳农水果的官方客服或访问其官方网站、社交媒体平台，查询是否有针对三四线城市或乡镇市场的专项活动。如果您能提供具体区域或购买渠道（如社区团购、线下门店等），我可以帮您进一步分析可能的模式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 102,
+    "total_tokens": 151,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

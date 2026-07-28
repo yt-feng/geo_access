@@ -1,0 +1,28 @@
+{
+  "id": "3213d1b7-af69-4254-b3a0-d6d7408e1d89",
+  "object": "chat.completion",
+  "created": 1785279230,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我目前没有关于“佳农水果（Goodfarmer）香蕉进口量全国第一”这一排名是由哪个具体机构发布的确切信息，也无法确认是否有相关的官方证书或认证。\n\n这类贸易数据或行业排名通常可能来源于：\n- **中国海关总署**（如按进口量或金额统计）\n- **中国果品流通协会**等行业协会\n- **权威市场研究机构**（如凯度、尼尔森等）\n- **企业内部公布**（如佳农集团自身发布的信息）\n\n**建议您**：\n- 直接联系**佳农水果集团**官方客服或市场部，询问发布该排名的来源及是否有证书。\n- 查询**中国海关总署**或**中国果品流通协会**的公开报告，以核实此类排名的官方依据。\n\n如果您需要更详细的行业数据，我也可以协助您分析如何查找或验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 185,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

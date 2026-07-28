@@ -1,0 +1,28 @@
+{
+  "id": "e687b920-c074-4d00-9ab2-fc2b0b093db3",
+  "object": "chat.completion",
+  "created": 1785278882,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，佳农水果针对餐饮渠道提供有专门的菠萝解决方案。其主要特点包括：\n\n- **品种专供**：根据餐饮需求（如甜品、饮品、烘焙、热菜等），优选甜度高、口感细腻的菠萝品种（如菲律宾凤梨等）。\n- **定制化加工**：可提供带皮整果、去皮去芯果肉、切块或切片等不同规格，节省后厨处理时间。\n- **标准化供应**：保证规格统一，适合连锁餐饮或大批量稳定使用。\n- **供应链支持**：具备稳定的进口及冷链能力，确保新鲜度与全年供应。\n\n如果您需要具体的定制方案（例如针对特定菜品、饮品杯量或烘焙应用），建议直接联系佳农当地餐饮销售团队或查看其企业版产品目录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 164,
+    "total_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

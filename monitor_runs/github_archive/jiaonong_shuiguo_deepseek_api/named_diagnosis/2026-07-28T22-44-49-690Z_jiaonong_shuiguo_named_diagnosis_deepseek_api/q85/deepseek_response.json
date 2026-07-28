@@ -1,0 +1,28 @@
+{
+  "id": "1c8e46e8-f831-4927-9d13-08559dd717b9",
+  "object": "chat.completion",
+  "created": 1785279161,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农能否提供专车配送和专人对接服务，建议您直接联系佳农的官方销售或客服团队进行确认，因为具体服务政策（如配送方式、对接人员配置等）可能因区域、订单规模或合作模式而有所不同。\n\n通常，大型连锁餐饮企业与佳农这类供应商合作时，若订单量较大且稳定，是可能争取到专车配送和专人对接服务的。您可以在咨询时明确以下信息：\n1. **您的需求量**（如月均采购吨数、配送频率）；\n2. **配送范围**（如城市、具体门店地址）；\n3. **合作意向**（如合同周期、结算方式）；\n\n建议通过官网、官方电话或已有业务联系人获取最新合作方案。如果暂无联系渠道，可尝试在线上平台（如餐饮供应链平台）搜索佳农的官方联系方式。祝合作顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 183,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
