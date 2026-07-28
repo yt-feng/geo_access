@@ -1,0 +1,28 @@
+{
+  "id": "3bc2cf9b-e127-4c2b-ad2c-e843de70d335",
+  "object": "chat.completion",
+  "created": 1785277771,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对团购客户价格敏感的特点，**阶梯价通常比返利更合适**，主要原因如下：\n\n1. **直观性**：阶梯价在购买时直接降低单价，客户能立即感知优惠，无需等待或达到额外条件，符合价格敏感型客户“即时省钱”的心理。\n2. **确定性**：客户无需计算复杂返利规则，避免了因返利延迟、门槛未达成或计算纠纷导致的信任问题。\n3. **激励明确**：阶梯价通过“买越多单价越低”直接驱动客户提高采购量，适合团购这种以量换价的场景。\n\n**建议操作**：  \n- 设计清晰的阶梯档位（如：10-50单 9折，51-100单 8.5折，100单以上 8折），并在报价单中突出显示。\n- 若供应商坚持返利形式，可要求将返利改为“下单即抵扣”或“发货前折算”，降低客户资金压力。\n\n**唯一需谨慎的场景**：  \n如果产品单价较低且团购频率高，返利（如季度返点）可能更适合粘性维护，但需配合明确的权益说明和自动结算功能，否则不建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 250,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

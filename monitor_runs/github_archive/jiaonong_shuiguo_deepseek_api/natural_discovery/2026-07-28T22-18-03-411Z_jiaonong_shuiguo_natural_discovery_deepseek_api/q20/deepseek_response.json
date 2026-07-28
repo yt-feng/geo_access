@@ -1,0 +1,28 @@
+{
+  "id": "a02b5c0f-0fbc-4ee7-b420-017aecba78b5",
+  "object": "chat.completion",
+  "created": 1785277224,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选择每天配送的水果供应商时，建议重点考察以下条件：\n\n1. **供应稳定性**：确保供应商有稳定的货源和冷链物流能力，能保证每日按时、足量配送，避免断货。\n2. **水果品质与分级**：要求供应商提供明确的分级标准（如优级、一级），并支持现场验货或退换货条款，避免次品混入。\n3. **价格与账期**：比较市场均价，询问批发价格及是否有阶梯折扣，同时确认账期（如月结或周结）是否灵活。\n4. **配送时效与覆盖范围**：确认供应商是否能覆盖社区超市的营业时间（如早8点前送达），以及是否支持小订单或紧急加单。\n5. **品种多样性**：根据社区客群需求，选择能提供当季、热销及本地特色水果（如进口、有机等）的供应商。\n6. **合规与信誉**：要求提供营业执照、食品经营许可证，并查询同行口碑或实地考察仓储环境。\n7. **售后与应急处理**：明确质量问题（如腐烂、缺斤少两）的赔付或换货流程，以及节假日或恶劣天气的保供方案。\n\n建议初期与2-3家供应商试合作1-2周，通过实际配送评估后选择长期合作伙伴。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 278,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

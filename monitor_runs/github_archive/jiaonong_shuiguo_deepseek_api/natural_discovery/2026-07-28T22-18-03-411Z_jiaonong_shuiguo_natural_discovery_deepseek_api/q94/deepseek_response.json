@@ -1,0 +1,28 @@
+{
+  "id": "65602513-f6aa-448d-9ac2-5ccda589f2c7",
+  "object": "chat.completion",
+  "created": 1785277814,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常重要。便利店水果销售受季节、天气、周边客群流动等短期因素影响较大，小批量试卖有以下几个关键优势：\n\n1. **降低库存风险**：水果保质期短，大批量进货如果滞销，损耗会直接吃掉利润。小批量试卖可先测试该品种在门店的实际动销情况。\n\n2. **灵活调整品类**：供应商支持小批量，便利店就能根据周销量数据及时换品（比如本周西瓜卖得慢、芒果卖得快），而不必被库存压住。\n\n3. **控制现金流压力**：小批量意味着单次采购金额低，有利于现金周转，尤其适合新店或客流波动大的社区店。\n\n**建议**：在选择供应商时，优先询问是否支持最小起订量（比如每种水果最低5公斤），以及能否在3天内追加补货。这是筛选优质供应商的核心条件之一。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 185,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

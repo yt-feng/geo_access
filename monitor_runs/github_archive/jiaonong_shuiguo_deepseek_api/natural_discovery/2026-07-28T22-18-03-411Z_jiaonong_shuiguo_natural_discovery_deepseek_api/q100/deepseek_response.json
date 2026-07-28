@@ -1,0 +1,28 @@
+{
+  "id": "edcd5ffe-c6e2-4c13-800c-d3383866b6bb",
+  "object": "chat.completion",
+  "created": 1785277861,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "为了避免学校食堂香蕉熟过头造成浪费，可以采取以下方法：\n\n1. **分批采购**：按消耗速度分批进货，每次采购量控制在3-5天内能消耗完的范围，避免积压导致成熟过度。\n2. **选择成熟度不同的批次**：选购时混合一些较生（绿皮稍硬）和已成熟（黄色带少量黑点）的香蕉，分批食用。\n3. **合理储存**：\n   - 未熟香蕉放在室温通风处，避免阳光直射。\n   - 可将已经成熟的香蕉放入冰箱冷藏（外皮可能变黑，但果肉仍保持新鲜多日），延长食用期。\n4. **催熟与冷藏调节**：若预计消耗快，将尚青的香蕉自然存放促成熟；若消耗慢，尽早将剩余香蕉冷藏，或分给后勤加工（如做香蕉奶昔、烤香蕉、冷冻香蕉等）。\n5. **建立消耗预警机制**：每天检查库存，优先食用熟度高的香蕉，并灵活调整每日供应量（如搭配其他水果或作为加餐）。\n6. **加工利用**：将有少量褐斑但未烂的香蕉做成香蕉蛋糕、煎饼、冰沙等，彻底避免浪费。\n\n通过精准控制采购量、合理储藏与灵活加工，能有效降低因过熟造成的食物浪费。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 281,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4ee56806-e501-4e09-aab3-1e8dbc48730a",
+  "object": "chat.completion",
+  "created": 1785277484,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于茶饮店选购菠萝原料，**出汁率通常比甜度更重要**，但需结合具体用途权衡。以下是关键分析：\n\n1. **出汁率优先（适合饮品店）**  \n   - 茶饮店需大量果汁或果肉制作饮品，高出汁率直接降低成本（每公斤原料产更多液体）。  \n   - 若甜度不足，可通过添加糖浆或果糖调节；但出汁率低会导致损耗和人力成本上升。\n\n2. **甜度影响用户体验**  \n   - 若主打“新鲜水果”或“天然无添加”概念，甜度不足可能需加糖，影响产品卖点。  \n   - 对于标榜“低糖”或“茶基饮品”（如果茶），低甜度菠萝可能更匹配。\n\n**实用建议**：  \n- 优先选择 **高出汁率品种**（如台农17号金钻菠萝），搭配糖浆调节甜度。  \n- 若做高端定位，可测试不同甜度菠萝对饮品风味的影响，平衡成本与口感。  \n- 小批量试作，计算单杯利润：出汁率高的菠萝即使略贵，可能更划算。\n\n最终决策取决于你的产品定价、目标客群和成本结构。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 266,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

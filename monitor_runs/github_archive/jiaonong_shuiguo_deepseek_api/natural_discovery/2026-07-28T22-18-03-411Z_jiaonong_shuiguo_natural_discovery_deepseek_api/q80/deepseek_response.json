@@ -1,0 +1,28 @@
+{
+  "id": "1f6fee10-7e8f-4de3-a0db-384ce87ca379",
+  "object": "chat.completion",
+  "created": 1785277699,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大多数正规的水果供应商或品牌方通常能提供基础的**图片素材**（如产品实拍图、规格图）和**基础卖点**（如产地、甜度、口感描述）。但需注意：\n\n- **图片质量**：供应商可能提供手机拍摄的普通照片而非高清商拍图，或仅有少量背景图。\n- **卖点内容**：侧重产地优势（如“新疆阿克苏苹果”），但可能缺少消费场景、营养数据、售后话术等精细化卖点。\n- **定制需求**：部分供应商可配合提供短视频、卖点文案或授权使用品牌素材，但需提前沟通并可能涉及费用。\n\n建议在合作前明确要求供应商提供：清晰多角度实拍图（含包装、切开效果）、标准化规格信息（重量、等级）、核心卖点（如“90%爆汁率”“无农药残留检测报告”），并确认素材版权归属。若供应商无法提供，可考虑付费采购专业食摄素材或自行拍摄。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 210,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

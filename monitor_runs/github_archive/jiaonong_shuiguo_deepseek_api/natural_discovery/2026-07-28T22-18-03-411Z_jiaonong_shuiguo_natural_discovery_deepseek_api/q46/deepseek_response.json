@@ -1,0 +1,28 @@
+{
+  "id": "0d651a95-2463-43b3-aef2-cf8459ca7da8",
+  "object": "chat.completion",
+  "created": 1785277451,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**冷冻果丁**或**果泥**，具体根据你的需求和成本决定。以下是三种方案的对比：\n\n- **鲜果**：适合品质要求高、能快速用完的店铺，菠萝需人工削皮去芯，切丁效率低，且成熟度难控（过生酸、过熟易氧化）。如果日均出杯量不大、厨房人手充足，可考虑。\n- **冷冻果丁**：工业级标准化产品，直接冷冻保存，无需处理，出杯时解冻即可。缺点是口感较鲜果略软，但适合稳定出品、节省人工。多数连锁茶饮店常用。\n- **果泥/果茸**：纯菠萝泥，无需咀嚼，适合做搅拌型果茶（如菠萝百香果）。成本较低，但纤维感不足，若想保留果肉感需额外加点果丁。\n\n**建议**：如果主打“真果肉”概念，用冷冻果丁（如品牌“海之梦”“益丰”等）；如果追求果茶风味浓郁且降低人工成本，用果泥；如果本地能买到优质鲜菠萝且每日销量可控，可鲜果少量采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 246,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

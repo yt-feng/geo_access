@@ -1,0 +1,28 @@
+{
+  "id": "e7f07ee6-9fa0-4747-9d7d-8e0c88a0d324",
+  "object": "chat.completion",
+  "created": 1785277129,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "是的，非常适合。社区水果店销量不稳定、损耗率高，小批量多次配送的供应商能帮你更灵活控制库存、减少积压浪费、提升水果新鲜度。你可以优先寻找当地批发市场、生鲜电商平台的B端服务（如美团快驴、美菜网）或周边的水果种植户/合作社，尝试按日或隔日采购，逐步磨合稳定合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 81,
+    "total_tokens": 139,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

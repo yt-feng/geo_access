@@ -1,0 +1,28 @@
+{
+  "id": "8c59fdbd-13b5-4c81-bace-e7c53e5b8795",
+  "object": "chat.completion",
+  "created": 1785277291,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**香蕉**开始，原因如下：\n\n1. **供应链稳定**：进口香蕉（如来自厄瓜多尔、菲律宾）是成熟、常见的大宗水果，供应商稳定，价格波动较小，适合新手引入。\n2. **受众广**：香蕉是日常高频消费水果，保质期相对较长（未成熟时储存），损耗风险较低。\n3. **操作简单**：不需要特殊处理（如冷链要求低于菠萝），陈列和售卖门槛低。\n\n相比之下：\n- **菠萝**：保质期短，易腐烂，需要冷链和快速流通，对新手不友好。\n- **苹果**：虽然耐储存，但国产优质苹果竞争激烈，进口成本高且利润空间有限。\n\n**行动建议**：\n1. 先联系1-2家可靠进口香蕉供应商（注意：要求提供检疫证明）。\n2. 试销小批量（比如1-2箱），观察顾客反馈和损耗率。\n3. 稳定后，可逐步引入菠萝（需提升冷链能力）或苹果（需差异化品种，如Gala或Envy）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 224,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q38",
+  "prompt": "大型超市水果供应商必须有哪些食品安全和物流能力？",
+  "createdAt": "2026-07-28T22:22:59.445Z",
+  "summary": [
+    {
+      "questionId": "q38",
+      "prompt_index": 38,
+      "promptIndex": 38,
+      "promptHash": "591cbcc3f89e",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "大型超市水果供应商必须有哪些食品安全和物流能力？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 696,
+      "text_length": 696,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 51,
+        "completion_tokens": 399,
+        "total_tokens": 450,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 51
+      },
+      "prompt_tokens": 51,
+      "completion_tokens": 399,
+      "total_tokens": 450,
+      "latencyMs": 4845,
+      "latency_ms": 4845,
+      "createdAt": "2026-07-28T22:22:59.445Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q38/prompt.txt",
+        "answer": "q38/deepseek.txt",
+        "response": "q38/deepseek_response.json",
+        "sources": "q38/deepseek_sources.json",
+        "references": "q38/deepseek_references.json"
+      }
+    }
+  ]
+}

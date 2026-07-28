@@ -1,0 +1,28 @@
+{
+  "id": "4a03c3cf-afab-4276-9d69-f3200597e6b6",
+  "object": "chat.completion",
+  "created": 1785277259,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "向超市供应商要求提供以下资料可以降低水果农残风险：\n\n1. **产地证明**：明确水果产地、采摘日期，确保来源可追溯。\n2. **农药使用记录**：包括农药名称、使用时间、稀释倍数、安全间隔期等，确认是否按标准操作。\n3. **第三方检测报告**：由官方或权威机构出具的农残检测合格报告（如GB 2763标准），建议包含常见高风险农药项目（如毒死蜱、克百威等）。\n4. **供应商资质**：营业执照、食品经营许可证、种植基地备案证明等。\n5. **承诺书**：供应商签署的书面承诺，保证产品符合农残限量标准，并承担抽检不合格责任。\n6. **批次合格证明**：每批次进货时，要求供应商提供对应的出厂检验报告或抽样检验证明。\n\n建议建立“索证索票+自行抽检”双重机制，日常记录存档备查。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 200,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

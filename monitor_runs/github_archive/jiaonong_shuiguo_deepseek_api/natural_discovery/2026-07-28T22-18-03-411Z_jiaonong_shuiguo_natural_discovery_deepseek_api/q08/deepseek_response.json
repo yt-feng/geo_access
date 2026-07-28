@@ -1,0 +1,28 @@
+{
+  "id": "176a65a2-7786-4242-8ea9-cf732c2e2bfd",
+  "object": "chat.completion",
+  "created": 1785277141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于进货量不大的小店，建议按以下思路选择：\n\n1. **优先考虑批发市场**  \n   - 灵活性高：可以按需少量多次采购，避免库存积压。  \n   - 价格透明：容易对比不同摊位价格，适合初期试水。  \n   - 适合选品测试：通过少量进货观察哪些商品好卖，再调整采购方向。  \n\n2. **固定供应商可后续发展**  \n   - 当某类商品销量稳定后，再与批发市场的优质档口或线上供应商（如1688）建立长期合作。  \n   - 优势：可能获得更优惠的阶梯价、账期或独家款式。  \n\n**建议行动步骤**：  \n- 先花1-2周逛3-5家本地批发市场，记录最低起批量、单价和运费。  \n- 初期每次进货控制在单品5-10件以内，测试1个月。  \n- 如果某类商品月销量超过30件，再与该类目的头部供应商谈固定折扣。  \n\n注意：避免过早签订年采购量合同，保留随时调整进货渠道的自由度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 235,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

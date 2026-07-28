@@ -1,0 +1,28 @@
+{
+  "id": "ff054262-9d2e-4f31-9693-eb0d0c0983fa",
+  "object": "chat.completion",
+  "created": 1785277787,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先选择**单根包装**，其次是**小把包装**，尽量避免整袋包装。原因如下：\n\n1. **单根包装**：香蕉易熟且易碰伤，单根包装方便顾客按需购买，减少因整根腐烂导致的损耗。同时，单根定价灵活，适合早餐、加餐等即时消费场景。\n2. **小把包装（2-4根）**：适合家庭或少量多次购买，平衡了便利性和销售量，但需注意包装的透气性，防止加快熟化。\n3. **避免整袋包装**：整袋（如5斤装）因香蕉熟化快，顾客难在短时间内吃完，易造成内部腐烂、退货或浪费，且搬运中易压伤，增加损耗。\n\n**执行建议**：先上架单根包装，测试一周内销量与损耗率；若客单价低或客户偏好多买，可增加小把包装，根据销售数据动态调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 204,
+    "total_tokens": 262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

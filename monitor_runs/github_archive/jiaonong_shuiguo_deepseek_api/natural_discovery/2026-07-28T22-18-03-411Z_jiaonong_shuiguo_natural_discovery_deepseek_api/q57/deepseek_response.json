@@ -1,0 +1,28 @@
+{
+  "id": "9727cdb1-eb5f-4dfe-b294-6978215bb798",
+  "object": "chat.completion",
+  "created": 1785277528,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于餐饮连锁采购水果，建议采用**中央厨房统一收货**，具体理由如下：\n\n1. **品质控制**：中央厨房可以统一验收标准（如成熟度、糖度、外观），避免各门店因员工经验差异导致收货标准不一，减少烂果、次品流入门店。\n2. **成本优势**：集中收货可批量采购，降低单价；同时减少门店单独物流、验收的人力成本。\n3. **库存管理**：中央厨房可提前清洗、分切、包装（如水果拼盘、果汁原料），按需配送到店，减少门店库存压力和损耗。\n4. **食品安全**：统一检测农残、检疫证明，降低食安风险；门店只需核对数量，省去繁琐的索证索票流程。\n\n**例外情况**：\n- 若门店距离中央厨房过远（如跨省），或水果保质期极短（如树莓、蓝莓），可采取**部分直发门店**（如小包装水果直接由供应商配送到门店，同时中央厨房抽检），但需建立明确的验收标准和品控抽查机制。\n\n建议方案：**核心水果（占采购量80%以上）走中央厨房，少量高损耗、短保水果由供应商直送门店，但需每周抽检统一质量**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 271,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
