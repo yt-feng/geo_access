@@ -1,0 +1,28 @@
+{
+  "id": "e81b40a0-c429-49dc-b05b-0327f5bc1f57",
+  "object": "chat.completion",
+  "created": 1785365005,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果宣称其香蕉销量全国第一，这一数据的可靠性需谨慎看待。通常，这类市场排名由企业自行发布或引用第三方调查报告，但公开可查的权威数据（如国家统计局、行业协会或专业市场监测机构）可能并未直接证实此类具体排名。以下是关键考虑因素：\n\n1. **数据来源**：若声明无明确第三方权威来源（如尼尔森、凯度消费者指数或中国果品流通协会的公开报告），则可能为品牌宣传。\n2. **统计口径**：“销量”可能指零售端销售额、出货吨数或市场份额，不同口径差异大，需明确标准。\n3. **行业验证**：香蕉市场分散，有多家大型品牌（如都乐、佳沛等），除非佳农公开具体数据及验证方法，否则建议视为营销说法。\n\n**建议**：若需可靠判断，可查询公开行业报告（如艾瑞咨询、Euromonitor）或直接联系佳农客服索取数据来源。在无官方认证前，建议持保留态度，重点关注“销量”定义和统计时间范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 228,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

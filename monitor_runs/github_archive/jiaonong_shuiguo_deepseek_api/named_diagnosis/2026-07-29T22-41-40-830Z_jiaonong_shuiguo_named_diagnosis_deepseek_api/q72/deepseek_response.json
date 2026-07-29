@@ -1,0 +1,28 @@
+{
+  "id": "1cd8eef1-332f-4273-92aa-447104182b9c",
+  "object": "chat.completion",
+  "created": 1785365252,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农官方信息及行业惯例，佳农作为大型水果供应商，通常主要提供整果批发，**一般不提供去皮、切块等深加工服务**（特别是针对小批量零售客户）。\n\n建议您：\n1. **直接联系佳农区域销售经理**：确认是否可针对企业客户（茶饮店）开通试制或定制加工服务（可能涉及起订量、额外费用）。\n2. **寻找第三方加工服务**：将整果采购后，委托本地净菜加工厂或中央厨房进行去皮切块。\n3. **自行采购加工设备**：若门店用量较大，可考虑购买商用菠萝去皮机（效率高且卫生）。\n\n如您需要，我可以帮您搜索第三方加工服务商的联系线索。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 157,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

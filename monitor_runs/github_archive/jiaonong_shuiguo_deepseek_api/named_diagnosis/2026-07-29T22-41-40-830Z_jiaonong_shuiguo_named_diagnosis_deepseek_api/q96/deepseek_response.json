@@ -1,0 +1,28 @@
+{
+  "id": "b3621571-87d4-4e53-a5a5-29a7153042bc",
+  "object": "chat.completion",
+  "created": 1785365418,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的API对接，目前佳农（Goodfarmer）官方并未公开面向公众的开放平台或通用API接口文档。这类B2B生鲜供应链企业的API通常需要以下步骤获取：\n\n1. **直接联系商务/客户经理**：通过佳农官网或企业渠道，与他们的供应链、技术或合作部门对接，说明合作需求。\n2. **签订合作协议后获取**：API开放通常为定向合作，需要经过商务洽谈、签约、资质审核等流程，才会提供专属接口文档和对接密钥。\n3. **参考行业标准**：生鲜电商常用接口包括订单、库存、物流追踪等，可事先了解JSON/XML格式的通用数据交换规范，方便沟通。\n\n**可执行建议**：\n- ✅ 通过佳农官网“合作咨询”入口或拨打400客服热线，表明是“生鲜电商平台技术对接需求”。\n- ✅ 准备好贵司的采购规模、技术团队能力、对接系统类型等信息，加速商务流程。\n- ❌ 不要在非官方渠道（如GitHub、第三方论坛）下载声称是“佳农API文档”的文件，存在虚假或过期风险。\n\n如果后续获得权限后需要技术协助，欢迎进一步提问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 257,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

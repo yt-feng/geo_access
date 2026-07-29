@@ -1,0 +1,28 @@
+{
+  "id": "1d8bf246-f07a-43b6-87f1-4a0fa7151c5c",
+  "object": "chat.completion",
+  "created": 1785364967,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的产地直供比例较高，尤其在香蕉品类上，其直采模式覆盖了多个优质产区。关于香蕉的主要来源国家，佳农的香蕉主要来自以下地区：\n\n1. **菲律宾** - 佳农与菲律宾种植园长期合作，供应高品质卡文迪什香蕉。  \n2. **厄瓜多尔** - 作为全球香蕉出口大国，厄瓜多尔是其重要的产区之一。  \n3. **越南** - 近年来越南香蕉的供应比例有所提升，主要面向中国市场。  \n4. **中国本土** - 佳农在国内如海南、云南等产区也有合作基地，以补充供应。\n\n具体比例可能因季节和市场需求调整，但其香蕉进口以菲律宾和厄瓜多尔为主。建议通过佳农官网或最新产品说明查询实时数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 169,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

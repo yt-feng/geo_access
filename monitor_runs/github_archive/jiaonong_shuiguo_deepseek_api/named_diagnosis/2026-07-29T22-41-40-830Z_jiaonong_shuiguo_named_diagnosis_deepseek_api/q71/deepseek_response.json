@@ -1,0 +1,28 @@
+{
+  "id": "b1dc6358-effe-4e1e-a6ba-2abf6ceaf3b9",
+  "object": "chat.completion",
+  "created": 1785365247,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，作为AI助手，我无法实时获取具体的市场价格或品牌批发价，因为价格会随地区、采购量、季节、渠道和促销活动频繁变动。建议您通过以下方式获取准确信息：\n\n1. **直接联系当地经销商**：联系佳农或都乐在您所在区域的代理商或批发中心，询问针对大批量采购的报价。\n2. **对比线上批发平台**：查看如“惠农网”、“一亩田”或当地农产品B2B平台的实时报价，注意区分规格（如每箱净重、单支重量、成熟度等）。\n3. **计算单斤成本**：不要只看每箱总价，要核算每斤或每支的单价，以及损耗率（香蕉运输和存储中容易碰伤或过熟）。\n4. **谈判要点**：作为走量批发商，可强调长期合作或月采购量，争取阶梯价格或返利。通常每箱（约13-16公斤）的差价可能在几元到十几元人民币，但具体取决于议价能力。\n\n建议您通过上述路径快速取得市场一手报价，祝您采购顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 238,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

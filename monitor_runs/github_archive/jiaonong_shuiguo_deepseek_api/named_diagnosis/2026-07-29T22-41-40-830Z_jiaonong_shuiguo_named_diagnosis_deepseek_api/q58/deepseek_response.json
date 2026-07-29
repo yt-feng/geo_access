@@ -1,0 +1,28 @@
+{
+  "id": "47b5d9f2-729f-4fe7-9873-ece42bdddee4",
+  "object": "chat.completion",
+  "created": 1785365186,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农是否提供菠萝丁的加工服务，建议您直接联系佳农官方客服或其销售代表确认。\n\n通常情况下，佳农作为大型水果供应商，主要业务是销售整果（如新鲜菠萝）。但部分供应商也可能根据客户需求提供定制化加工服务（如切块、去皮、包装等），这取决于他们的产能、资质和合作规模。\n\n**建议您采取以下步骤：**\n1. **访问佳农官网或官方电商平台**：查看产品目录或“加工服务”相关说明。\n2. **拨打官方客服电话**：直接询问是否支持菠萝丁代加工（如切成1cm³丁状、冷冻/冷藏包装等）。\n3. **说明茶饮店需求**：明确需求量级（如每周/每月多少公斤）、规格要求（如大小、是否需要去芯、糖度等）及包装方式。\n4. **索取样品/资质验证**：要求提供加工样品或查看其加工厂是否具备食品安全认证（如ISO22000、HACCP等）。\n\n**备选方案**：如果佳农不提供加工服务，您可以考虑：\n- 购买整果后自行或委托本地加工商处理。\n- 寻找专门生产冷冻菠萝丁的供应商（如海南、广东等地加工厂）。\n\n请务必以官方回复为准，避免依赖非官方渠道信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 279,
+    "total_tokens": 342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

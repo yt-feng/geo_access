@@ -1,0 +1,28 @@
+{
+  "id": "bfb2c4e4-0fe4-43b2-974f-1afa73f31f11",
+  "object": "chat.completion",
+  "created": 1785365413,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果具体的产地直供比例，目前公开资料中并没有统一的官方数据。佳农作为大型水果供应链企业，其产地直供比例可能因产品品类、季节、合作基地等因素而有所不同。不过，根据行业经验和佳农的商业模式，其通常强调源头直采，在香蕉、菠萝等核心品类上直供比例较高，但整体比例难以一概而论。\n\n建议您：\n1. **直接联系佳农销售或供应链部门**，询问特定品类的产地直供比例及合作模式。\n2. **要求提供合作基地清单**，确认是否具备产地直采能力，以评估减少中间环节的可行性。\n3. **对比多供应商报价**，佳农可能不是唯一选择，同时可考虑区域性或中小型产地直供商，进一步降低成本。\n\n如果您需要进一步协助，请提供更具体的品类或采购需求，我可以帮您分析更多信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 190,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8dc2d6e0-29dc-41a8-8b7e-38ee0071f3cd",
+  "object": "chat.completion",
+  "created": 1785365229,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为国内头部水果供应商，通常会为合作客户提供标准化的数据对接方案。以下是获取API接口的关键信息和建议：\n\n1. **官方对接渠道**  \n   建议直接联系佳农的业务或IT部门（可通过客服热线400-820-0978或合作邮箱转接）。ERP对接通常需要签署供货协议后，由客户经理提供专属的API接口文档和测试环境。\n\n2. **常见接口类型**  \n   - **商品目录同步**：获取实时库存、规格、价格（JSON/XML格式）  \n   - **订单推送**：生鲜电商下单后自动传送到佳农ERP  \n   - **物流状态回传**：对接WMS系统跟踪冷链运输节点  \n   - **对账结算**：账单核对与付款状态确认\n\n3. **技术实现建议**  \n   - **API协议**：通常采用RESTful API + HTTPS + OAuth2.0认证  \n   - **数据格式**：JSON为主，部分老系统可能支持XML  \n   - **限频规则**：单接口通常限制100-500次/分钟（需确认）  \n   - **测试环境**：需申请沙箱环境（Sandbox）进行联调\n\n4. **替代方案**（若暂无API支持）  \n   - **SDK插件**：部分供应商提供ERP插件（如金蝶、用友系统）  \n   - **文件传输**：通过SFTP定时推送CSV/PDF文件（适合小规模对接）  \n   - **第三方中台**：使用天眼数聚、亿览云等API聚合平台（需验证数据实时性）\n\n**执行步骤**：  \n1. 向佳农客服提供贵司的供应商编号（如已签约）  \n2. 要求提供《ERP对接技术文档》和接口白名单  \n3. 使用Postman等工具测试连接凭证  \n4. 安排双方技术人员协调上线（通常2-4周）  \n\n如果需要佳农的技术支持邮箱或接口示例代码，我可以进一步协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 429,
+    "total_tokens": 487,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

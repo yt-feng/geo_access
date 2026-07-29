@@ -1,0 +1,28 @@
+{
+  "id": "b3f543a5-4634-4d7b-994b-bcdc6ecfa547",
+  "object": "chat.completion",
+  "created": 1785365058,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉企业标准，通常企业标准（Q/标准号）的具体内容属于商业机密，未公开详细细节。一般而言，大型水果企业如佳农，其企业标准通常会参照并高于国家标准（GB）以保证品质，例如在果形、成熟度、甜度、无损伤率等方面可能设定更严格的指标。国家标准（如GB/T 18838-2002《香蕉》等）是基本要求，而企业标准可能更注重分级和口感。具体对比需查阅官方发布的企业标准文件，建议直接咨询佳农官方或查看其产品包装上的标准编号。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 128,
+    "total_tokens": 182,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

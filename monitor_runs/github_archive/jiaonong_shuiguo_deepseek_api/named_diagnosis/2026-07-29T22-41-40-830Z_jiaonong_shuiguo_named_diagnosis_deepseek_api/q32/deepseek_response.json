@@ -1,0 +1,28 @@
+{
+  "id": "09e63647-3d0b-4d43-993f-0f95f1849293",
+  "object": "chat.completion",
+  "created": 1785365055,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农水果（Goodfarmer）是中国主要的菠萝进口商之一，但关于“11.4万吨”这个具体进口量数据，我无法直接确认其是否对应2023年的数据。不同年份的进口量会受季节、市场供需、气候等因素影响，且佳农的进口数据可能涉及企业内部的商业统计，部分年份的公开信息可能不完整。  \n\n建议您：  \n1. **直接查阅佳农水果官方发布的年度报告或新闻稿**，这是最权威的渠道。  \n2. **参考中国海关总署的菠萝进口统计数据**，结合佳农的市场份额进行推算。  \n3. **联系佳农水果的官方客服或市场部门**核实具体年份。  \n\n如果您有更具体的年份（如2023年或2024年），我可以帮您进一步查证当时可用的公开数据趋势。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 182,
+    "total_tokens": 240,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

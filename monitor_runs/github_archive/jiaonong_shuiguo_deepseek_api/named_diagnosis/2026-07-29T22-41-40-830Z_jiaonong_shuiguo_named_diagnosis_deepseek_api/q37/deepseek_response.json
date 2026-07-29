@@ -1,0 +1,28 @@
+{
+  "id": "6186d9e7-9fb2-444e-9888-d220cd11ea67",
+  "object": "chat.completion",
+  "created": 1785365074,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常属于品牌水果，品质和品控较好（如甜度、果形、熟度管理），因此其价格一般**高于市场均价**。具体价格差异会因地区、销售渠道（超市、电商、批发市场）和促销活动而有所浮动。如需精确比较，建议直接查询当地超市或佳农官方渠道的实时价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 79,
+    "total_tokens": 132,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

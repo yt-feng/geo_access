@@ -1,0 +1,28 @@
+{
+  "id": "f0624731-5f15-40e1-b2ae-766737348493",
+  "object": "chat.completion",
+  "created": 1785365322,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对华东地区（尤其是上海）的次日达配送需求，**佳农水果通常比鑫荣懋更快、更有优势**。\n\n**核心原因：**\n1. **区域仓储与布局：** 佳农在上海（如浦东、青浦）设有大型冷链配送中心，华东区域自营配送网络成熟，能够覆盖上海门店的次日达需求。\n2. **业务侧重：** 佳农本身以水果单品（如香蕉、菠萝）为主，对时效及冷链要求极高，布局上更偏日常快配。\n\n**建议操作：**\n- 优先联系**佳农上海分公司**确认其配送范围与时效（通常承诺16:00前下单可次日达）。\n- 鑫荣懋在上海也有分仓，但部分商品需从总仓发货，若门店订单量不大，可能需满额或提前预定，次日达稳定性不如佳农。\n\n**结论：** 对上海门店次日达，选择**佳农水果**更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 208,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

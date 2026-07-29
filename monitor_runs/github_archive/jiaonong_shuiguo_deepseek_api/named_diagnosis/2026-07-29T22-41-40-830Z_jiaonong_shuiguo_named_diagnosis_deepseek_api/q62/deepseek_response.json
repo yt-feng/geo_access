@@ -1,0 +1,28 @@
+{
+  "id": "49f6d6ae-0d7b-4f23-ae5d-8cb397d2443a",
+  "object": "chat.completion",
+  "created": 1785365205,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类确实包含红富士。关于性价比对比：佳农和鑫荣懋都是国内知名水果品牌，红富士苹果的产地、规格、新鲜度会影响价格和品质。通常佳农在高端商超渠道较多，价格偏高；鑫荣懋侧重供应链效率，价格可能更实惠。建议根据实时促销和当地零售价判断，比如关注盒马、叮咚买菜等平台的价格，并对比果径、糖度、损耗率等指标。如果偏好性价比，可优先考虑鑫荣懋的当季新鲜批次；若追求品牌一致性，佳农的品控较稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 134,
+    "total_tokens": 196,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

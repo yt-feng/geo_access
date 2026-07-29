@@ -1,0 +1,28 @@
+{
+  "id": "6cebc944-1222-45d7-8078-13863de719a4",
+  "object": "chat.completion",
+  "created": 1785365279,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对佳农水果礼盒的礼品团购需求，以下信息供参考：\n\n1. **定制logo和包装**：佳农通常支持企业批量订单的定制服务，包括礼盒外包装印刷品牌logo、内附企业贺卡或腰封等。但具体需与佳农官方或授权经销商确认定制细节（如印刷工艺、设计稿要求）。\n\n2. **起订量**：起订量因产品、季节和定制复杂程度不同，通常最低10-20盒起订（标准通用礼盒），如果需要完全定制包装（如更换箱体设计或材质），起订量可能在50-100盒以上。建议直接联系佳农团购部门获取精确数字。\n\n**操作建议**：  \n- 拨打佳农官方客服或搜索“佳农企业团购”查找区域负责人，提供需求（产品、数量、包装设计类型）。  \n- 如果起订量无法满足，可考虑先采购常规礼盒，再自行定制不干胶贴纸/贺卡（成本更低，起订量灵活）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 223,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "880d5533-f11c-4f22-bd3c-fdc258828b0e",
+  "object": "chat.completion",
+  "created": 1785364943,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为大型水果供应商，通常设有专门的销售团队或客户代表对接批发商客户。具体职责可能包括协助订单管理、价格协商、物流协调及售后支持。建议您直接通过佳农官方网站、客服热线或联系当地分公司咨询，获取批发业务对接人的联系方式。在沟通时，说明您的采购规模（如月均吨数或金额），以便匹配对应级别的客户经理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 85,
+    "total_tokens": 138,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

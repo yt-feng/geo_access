@@ -1,0 +1,28 @@
+{
+  "id": "1b83d527-019b-4035-b2eb-09cedc882486",
+  "object": "chat.completion",
+  "created": 1785365010,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果曾参与往届中国国际进口博览会（进博会）。关于最近是否有新品上市，建议您关注佳农官方渠道或电商平台的最新动态，以获取准确的新品信息。由于网络信息更新频繁，我无法确认当前的即时新品，建议优先查阅官方发布。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 60,
+    "total_tokens": 112,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

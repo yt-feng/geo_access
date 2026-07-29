@@ -1,0 +1,28 @@
+{
+  "id": "30362436-cd4f-43bd-a8c8-97d45f7154f4",
+  "object": "chat.completion",
+  "created": 1785364916,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供长期合作的账期方案，这通常属于具体的商务合作政策，可能因合作规模、双方信任度及具体业务区域而有所不同。一般来说，大型水果供应商如佳农，对于长期合作、信誉良好的客户（如大型连锁超市、水果批发商或长期采购企业），会提供一定的账期支持，例如月结或按合同周期结算。\n\n为了获取最准确的信息，建议您直接联系佳农水果的销售或客户服务部门，说明您的合作背景与需求，他们会根据具体情况提供定制化的账期方案或合作条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 123,
+    "total_tokens": 174,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

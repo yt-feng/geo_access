@@ -1,0 +1,28 @@
+{
+  "id": "144c6415-605a-4d9b-b992-c61fc5408af1",
+  "object": "chat.completion",
+  "created": 1785365143,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农水果礼盒的常规定制政策，通常最小起订量为**50-100盒**（具体视水果品类和包装规格而定）。礼盒包装上可以**印刷公司logo**，一般支持丝印、烫金或贴标工艺，但需确认设计文件的分辨率和颜色要求。\n\n建议直接联系佳农官方团购渠道（如官网客服或区域经理），提供水果品种、数量及定制图案，获取准确的最小起订量和报价。部分季节性水果（如车厘子、高端礼盒）可能起订量更高。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 120,
+    "total_tokens": 185,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
