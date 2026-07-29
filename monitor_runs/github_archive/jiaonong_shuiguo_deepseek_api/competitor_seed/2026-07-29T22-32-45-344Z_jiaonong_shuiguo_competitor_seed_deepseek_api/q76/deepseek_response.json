@@ -1,0 +1,28 @@
+{
+  "id": "18ec806e-10c8-494c-aead-94f6739cd24d",
+  "object": "chat.completion",
+  "created": 1785364810,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都是国内知名的水果供应商，在菠萝等生鲜产品的产地直发方面通常具备较成熟的物流体系。具体到物流时效，会受以下因素影响：  \n\n1. **产地与发货仓**：都乐和鑫荣懋通常从海南、广东等菠萝主产地直发，部分地区可能有区域分仓备货。  \n2. **配送范围与时效**：一线城市通常可实现下单后24-48小时送达，二三线城市则可能需要2-4天。  \n3. **冷链覆盖**：均采用冷链运输，部分区域支持次日达，偏远地区可能延长至3-5天。  \n\n**建议**：  \n- 在下单前可查看电商平台（如京东、美团优选、盒马等）对应商品的“预计送达时间”，或直接问询客服确认具体区域时效。  \n- 若追求极致新鲜，可优先选择“次日达”或“产地直发”标识明显的链接，并检查是否包含“坏果包赔”服务。  \n- 不同季节、促销期（如春节、台风季）物流可能波动，建议紧急订单同时预留1-2天缓冲。  \n\n总体而言，都乐和鑫荣懋的物流时效在同行业中处于中上水平，实际体验需结合你的收货地址和所选平台的具体配送规则来判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 284,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

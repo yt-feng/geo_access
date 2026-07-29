@@ -1,0 +1,28 @@
+{
+  "id": "ac1eea02-60e7-4694-aeee-6187c1e3f7c6",
+  "object": "chat.completion",
+  "created": 1785364705,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对下沉市场夫妻店的情况，**洪九果品和都乐通常不提供小批量供货**，具体分析如下：\n\n1. **洪九果品**：主要面向大型商超、批发市场及连锁渠道，采用大宗交易模式，对单次采购量有较高门槛（通常至少整箱或整车），不太适合夫妻店零散进货。\n\n2. **都乐**：作为国际品牌，其供应链更侧重大型经销商和高端零售渠道，进入下沉市场主要通过代理商或区域性批发市场，很少直接对接个体小店，且小批量供货成本较高。\n\n**可执行建议**：\n- **寻找本地批发市场**：夫妻店可直接去所在城市的农产品批发市场（如北京新发地、广州江南市场等）采购小批量水果，价格更灵活。\n- **与区域经销商合作**：搜索“洪九果品/都乐 + 所在省份/城市 + 经销商”，部分经销商可能接受小单（如几件起批）。\n- **使用B2B采购平台**：手机APP如“快驴进货”（美团旗下）、“美菜”等，专为中小商户提供小批量生鲜（含品牌水果），次日达，无需囤货。\n- **关注社区团购供应链**：部分社区团购团长可批发零售，可尝试与其合作分装进货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 281,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

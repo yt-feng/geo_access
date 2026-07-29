@@ -1,0 +1,28 @@
+{
+  "id": "3bc3244b-a3bd-4bba-a67b-e8cba193cccf",
+  "object": "chat.completion",
+  "created": 1785364447,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口苹果除了都乐（Dole）和鑫荣懋，还有以下几个知名且可靠的品牌，可供对比参考：\n\n1. **爱妃（Envy）**  \n   - 产地：主要来自新西兰、美国、智利等  \n   - 特点：果肉脆甜、不易氧化变黄，适合日常食用和礼品  \n   - 可靠性：品牌有专利品种，品质稳定\n\n2. **皇后（Queen）**  \n   - 产地：以新西兰为主  \n   - 特点：肉质细腻、甜酸均衡，产量较低但口碑好  \n   - 注意：有时是与其他品种联名，需认准包装\n\n3. **太平洋玫瑰（Pacific Rose）**  \n   - 产地：新西兰、智利  \n   - 特点：外观粉红或浅红，口感酥脆、甜度高  \n   - 可靠性：经多年市场验证，属于经典进口品牌\n\n4. **加力果（Gala）**  \n   - 产地：广泛种植于新西兰、美国、智利、南非  \n   - 特点：果型较小，肉脆味甜，价格相对亲民  \n   - 注意：虽然品种常见，但进口品牌（如Bella等）可能更标榜产地品质\n\n5. **红玫瑰（Red Delicious）**  \n   - 产地：美国、智利等  \n   - 特点：颜色深红，果形较修长，口感略粉（依具体批次）  \n   - 可靠性：传统进口品种，但近年市场有所分化，需挑选新鲜批次\n\n6. **爵士（Jazz）**  \n   - 产地：新西兰、美国  \n   - 特点：酸甜爽口，香气浓郁，适合喜欢微酸口感的人群  \n   - 可靠性：自有品牌，品控较统一\n\n**对比建议**：  \n- 如果喜欢甜脆且耐放，优先考虑**爱妃**或**太平洋玫瑰**；  \n- 如果追求性价比，**加力果**或**红玫瑰**（注意新鲜度）更合适；  \n- 各地商超渠道可提供试吃，实际购买时也可根据产地标签（如新西兰、智利、美国等）进一步判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 470,
+    "total_tokens": 531,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

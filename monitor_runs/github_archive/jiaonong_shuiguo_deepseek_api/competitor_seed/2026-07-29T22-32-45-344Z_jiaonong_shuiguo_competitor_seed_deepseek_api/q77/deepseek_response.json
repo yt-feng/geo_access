@@ -1,0 +1,28 @@
+{
+  "id": "3a3f80b3-7f33-4598-96c1-de79fdf4a122",
+  "object": "chat.completion",
+  "created": 1785364815,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有公开信息确认都乐（Dole）或洪九果品（Hongjiu Fruit）是否专门针对“便利店小包装香蕉”提供环保包装。建议您直接联系这两家公司的销售或客服（通常可通过官网或业务热线），询问其现有小包装规格（如2-3根装）是否采用可降解材料、再生纸或简化包装设计。便利店小包装常用的环保方式包括：纸盒/纸袋（FSC认证）、生物基塑料（如PLA）、或可重复使用的塑料盒（需回收）。如果对方暂无环保选项，可以沟通定制需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 127,
+    "total_tokens": 184,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

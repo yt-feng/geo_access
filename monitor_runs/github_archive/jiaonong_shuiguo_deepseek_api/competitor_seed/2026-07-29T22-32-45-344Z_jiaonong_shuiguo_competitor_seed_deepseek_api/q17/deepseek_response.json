@@ -1,0 +1,28 @@
+{
+  "id": "ff7f1fa7-e559-46de-9528-28f0f52d9a74",
+  "object": "chat.completion",
+  "created": 1785364459,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋在大型商超KA（关键客户）业务方面各有优势，具体对比如下：\n\n1. **都乐**：作为全球知名品牌，都乐在品牌认知度、标准化产品（如香蕉、菠萝等）和供应链季节性调控方面较强，适合商超提升生鲜品类的国际形象。其成熟的分销网络和促销支持系统能高效配合商超的档期活动。\n\n2. **鑫荣懋**：深耕国内市场，熟悉本地消费习惯和采购模式，能提供更灵活的分级定价、定制化包装和区域化产品组合（如国产精品水果）。在商超日常运营、损耗控制和短保鲜果配送时效上更细致。\n\n**建议**：若商超侧重提升品牌曝光和全球供应链稳定性，都乐更优；若注重本土化运营、控损和灵活服务，鑫荣懋更具优势。实际评标时可结合商超定位（高端/大众）和需匹配的口味偏好综合判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 216,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

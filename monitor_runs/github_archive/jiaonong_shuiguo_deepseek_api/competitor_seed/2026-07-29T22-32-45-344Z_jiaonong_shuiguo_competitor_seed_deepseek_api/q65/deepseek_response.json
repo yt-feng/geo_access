@@ -1,0 +1,28 @@
+{
+  "id": "85241148-ff82-4b63-9509-f100b8adec07",
+  "object": "chat.completion",
+  "created": 1785364751,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品（Hongjiu）针对菠萝产品的锁价机制具体周期，目前公开信息中并未明确披露统一的官方标准。锁价周期的长度通常取决于双方签订的合同条款、市场供需、季节波动、采购量及合作信誉等因素。\n\n一般而言，锁价机制可能按月、季度或按特定订单周期设定。对于都乐这类跨国企业，锁价周期可能相对灵活，但通常不会超过1-3个月；而洪九果品作为国内头部水果供应链企业，其锁价周期也可能根据客户级别和订单规模有所不同。\n\n为确保获得准确信息，建议您直接联系这两家公司的采购或销售部门，询问最新合作条款及锁价政策。在询价时，请明确具体采购量、预期合作期限及菠萝品种（如金菠萝、普通菠萝等），以便他们提供针对性方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 183,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

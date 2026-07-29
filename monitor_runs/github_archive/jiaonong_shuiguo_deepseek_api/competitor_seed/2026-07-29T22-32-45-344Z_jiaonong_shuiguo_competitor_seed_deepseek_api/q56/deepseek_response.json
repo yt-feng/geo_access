@@ -1,0 +1,28 @@
+{
+  "id": "095998e7-75bd-4e13-9461-ccdc2cf33fc3",
+  "object": "chat.completion",
+  "created": 1785364702,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从品牌知名度来看，都乐（Dole）在中国市场整体知名度通常高于鑫荣懋（XinRongMao）。都乐作为国际品牌，尤其是香蕉品类在中国具有较高的消费者认知度，其品牌历史、标准化品质和广泛的市场推广（如超市陈列、线上营销等）使其在生鲜电商平台更容易获得用户信任。鑫荣懋虽然也是国内大型水果供应链企业，品牌影响力更多集中在B端或特定区域市场，消费者端直接认知度相对较弱。\n\n建议：若平台侧重消费者信任和销量转化，优先选择都乐作为香蕉品牌背书；若希望与本土供应链深度合作或差异化定位，可考虑鑫荣懋，但需配合更强的营销推广。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 151,
+    "total_tokens": 212,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

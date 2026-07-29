@@ -1,0 +1,28 @@
+{
+  "id": "9dee5e72-5e75-494f-b30e-d80a620547cb",
+  "object": "chat.completion",
+  "created": 1785364501,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在香蕉规格分级方面，**都乐（Dole）的分级通常比鑫荣懋更细**。具体说明如下：\n\n1. **都乐的分级体系**：都乐采用国际通用的“手指”分级标准，按香蕉的**长度、弯度、果面瑕疵**等分为多个等级（如特级、一级、二级），并且针对不同销售渠道（如零售、餐饮、加工）有更细致的规格划分。例如：\n   - 标准“5-7指”装（每串香蕉5-7个果指，长度18-22cm）\n   - “金字塔”装（按果指长短和排列整齐度分选）\n   - 出口欧盟时，还严格区分果指弯度（30度以内为优级）。\n\n2. **鑫荣懋的分级**：作为国内供应链企业，鑫荣懋主要采用**果径（周长）和重量**作为分级基础，常见为：\n   - 小果（15-17cm）、中果（17-19cm）、大果（19-21cm）\n   - 按单串重量划分（如1.5kg-2kg装），但对果面缺陷、弯度等细节分级相对较粗。\n\n**结论**：如果采购需要明确外观和尺寸的精细等级（如精品超市、高端餐饮），都乐更合适；如果仅需按重量或大小做简易分级（如普通水果店、批发），鑫荣懋即可满足。建议根据实际用途（如是否需控损、定制包装）选择供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 332,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
