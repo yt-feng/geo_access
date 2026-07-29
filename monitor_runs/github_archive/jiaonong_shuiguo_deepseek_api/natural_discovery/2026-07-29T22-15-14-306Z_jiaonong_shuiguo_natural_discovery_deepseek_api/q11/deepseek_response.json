@@ -1,0 +1,28 @@
+{
+  "id": "d10239df-507c-4bab-b8a0-bd98b6b61dec",
+  "object": "chat.completion",
+  "created": 1785363402,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "确实会有影响。**大小不一**会影响销售体验，主要体现在：\n\n1. **顾客心理**：部分顾客会优先挑选大的香蕉，剩下较小的或畸形的更难卖出，导致损耗增加。\n2. **定价困难**：混装后按斤卖，大香蕉相对划算，小香蕉显得不值；若按箱卖，顾客容易觉得“里面有小的不划算”。\n3. **陈列混乱**：大小悬殊的香蕉堆在一起，视觉上不够整齐，降低货架吸引力。\n\n**常规做法**：建议按大小分级销售（如大果做精品、中果做促销、小果打折或做深加工），或提前分类后再装箱，统一规格能显著提升销量和利润。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 148,
+    "total_tokens": 202,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

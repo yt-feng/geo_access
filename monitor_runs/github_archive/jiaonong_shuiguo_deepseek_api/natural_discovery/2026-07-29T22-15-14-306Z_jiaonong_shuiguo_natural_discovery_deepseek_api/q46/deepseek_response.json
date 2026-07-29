@@ -1,0 +1,28 @@
+{
+  "id": "465f8d71-fe37-425d-bc66-0243d828ae82",
+  "object": "chat.completion",
+  "created": 1785363691,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对茶饮店制作果茶，建议如下：\n\n**优先选择：冷冻/罐装菠萝果丁（或鲜果）**\n\n- **果丁（冷冻/罐装）**：最平衡的选择。优点是标准化程度高（大小、甜度稳定），无需额外处理（去芯、切块），保质期长，适合大量制作。注意选择无添加糖或低糖的品种，避免影响最终甜度。\n- **鲜果**：味道最自然新鲜，适合追求高品质或小批量现制的门店。但需要人工去皮、去芯、切块，耗时且损耗较高（约30%果肉损失）。建议作为提升产品价值的补充选项。\n- **果泥**：适合快速出杯或做冰沙类的饮品。但果泥通常含较多纤维和打碎的果肉，口感不如果丁清爽，且可能掩盖茶味。如果追求更清甜的果茶风味，不建议作为主要原料。\n\n**额外建议**：采购时注意查看配料表，优先选择“菠萝”成分单一、无防腐剂或香精的产品。若主推清爽型果茶，建议使用**冷冻果丁**搭配少量鲜果点缀，平衡成本与口感。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 252,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

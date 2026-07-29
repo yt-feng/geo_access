@@ -1,0 +1,28 @@
+{
+  "id": "ad264308-7321-4c36-97e1-c0e627472a4e",
+  "object": "chat.completion",
+  "created": 1785363500,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "供应商通常是可以提供陈列、海报或试吃支持的，具体需根据与供应商的合作协议和促销规模来协商。建议你直接联系供应商的销售或市场部门，说明促销需求（如活动时间、水果品类、预期销量等），一般对方会根据成本、利润和品牌推广意愿决定是否提供免费支持或收取部分费用。陈列和海报通常更易争取，试吃支持可能需要额外的人员或物料成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 89,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

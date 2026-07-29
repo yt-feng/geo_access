@@ -1,0 +1,28 @@
+{
+  "id": "23fa38e1-9d6e-4bbf-ac97-5d246e775f91",
+  "object": "chat.completion",
+  "created": 1785363479,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选择社区超市的每日水果供应商时，建议重点关注以下条件：\n\n1. **供货稳定性**：确保供应商能每天按时配送，不因天气、节假日等中断，且库存充足。\n2. **新鲜度保障**：要求供应商提供产地直采或冷链配送，水果到货时保持新鲜，避免损耗。\n3. **品种与性价比**：能提供常见水果（如苹果、香蕉、柑橘）及季节性品种，价格低于或持平市场批发价。\n4. **灵活订货量**：适应社区超市的日常销量，支持小批量（如每天几十斤）订货，避免压货。\n5. **售后与退换**：对不新鲜或破损水果提供及时退换，减少超市损失。\n6. **配送时间**：在超市营业前（如早6-8点）送达，确保上架销售。\n7. **资质与信誉**：供应商有食品经营许可证、营业执照，优先选择长期合作或口碑好的本地供应商。\n\n建议：试合作1-2周，观察配送稳定性和水果品质，再签正式协议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 227,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "acf9afe2-f50b-4978-8543-7a6dde3d2ca8",
+  "object": "chat.completion",
+  "created": 1785363758,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购时应**优先关注成熟度**，再考虑价格。\n\n原因如下：\n1. **用途决定需求**：做香蕉蛋糕通常需要熟透的香蕉（表皮出现大量黑点、果肉软糯），这样的香蕉甜度高、香气浓、易压碎，能提升蛋糕的风味和湿润口感。未熟或半熟的香蕉味道淡、质地硬，烘焙效果差。\n2. **成本权衡**：熟透的香蕉价格往往更低（因为卖相不好），但即使价格略高，只要成熟度合适，也能避免因品质问题导致的废品损失（例如蛋糕口感差、需额外加糖或调整配方）。\n\n**建议操作**：\n- 优先选择表皮已大量变黑、手感偏软的香蕉，必要时可现场轻按确认。\n- 确认使用时限：如果计划当天或次日制作，可接受较熟的香蕉；如计划数日内使用，可选七八成熟的香蕉，但需存放至成熟后再用。\n- 在成熟度达标的前提下，再比较不同供应商的单价，合理控制成本。\n\n综上，**成熟度是确保出品质量和稳定性的关键，价格是次要因素**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 239,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

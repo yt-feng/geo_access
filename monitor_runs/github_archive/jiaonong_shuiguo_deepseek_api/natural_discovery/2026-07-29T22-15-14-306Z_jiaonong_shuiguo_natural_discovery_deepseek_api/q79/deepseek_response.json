@@ -1,0 +1,28 @@
+{
+  "id": "358d6cfe-e0d6-4eab-ae93-544aeb02dc36",
+  "object": "chat.completion",
+  "created": 1785363978,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议优先问**售后**，其次问**配送**，最后看**价格**。\n\n理由如下：\n\n1. **售后决定风险控制**  \n   水果易损耗、品质波动大。遇到坏果、不熟、变质等情况，供应商的售后政策（是否包赔、赔付标准、赔付速度）直接决定团长是否亏钱或得罪客户。  \n   **核心追问点**：坏果包赔比例是多少？签收后多久内可以理赔？需要保留什么凭证？\n\n2. **配送影响体验和损耗**  \n   水果对时效和运输方式敏感。配送延迟、暴力分拣、冷链不达标都会导致大量售后问题。  \n   **核心追问点**：是专车配送还是混装快递？能否指定时间送达？破损包赔是否包含配送途中损耗？\n\n3. **价格是结果而非起点**  \n   低价往往对应低质或薄弱售后。在确认售后有保障、配送稳定后，再对比价格是否合理。如果售后严格、配送靠谱，单品贵10%-15%通常比低价但常出问题的供应商更省心。\n\n**一句话总结**：先问“出问题谁赔、怎么赔”，再问“何时到、怎么送”，最后谈“单价多少”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 261,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
