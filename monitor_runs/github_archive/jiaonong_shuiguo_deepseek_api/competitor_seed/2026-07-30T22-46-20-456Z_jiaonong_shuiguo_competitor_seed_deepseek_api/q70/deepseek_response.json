@@ -1,0 +1,28 @@
+{
+  "id": "7d646b62-8a79-4552-9cd8-cb5722f20a54",
+  "object": "chat.completion",
+  "created": 1785452027,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Xinrongmao）都是国内知名的水果企业，通常能够提供产地溯源和品控证明服务。\n\n都乐作为国际品牌，在香蕉供应链上通常具备完善的追溯体系，能够提供产地证明、农药残留检测报告等品控文件，具体可联系其官方销售渠道确认。\n\n鑫荣懋作为国内大型水果供应链企业，同样重视产地管理和品质控制，通常也能提供供应商相关的溯源信息和品控证明（如基地认证、检测报告等）。\n\n建议您直接联系这两家公司的客户服务或销售部门，说明需要“产地溯源”和“品控证明”的具体要求（如希望提供哪些检测项目、认证类型等），以获取准确信息和所需文件。如果用于大宗采购或特定渠道，请务必在合同中明确相关条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 173,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

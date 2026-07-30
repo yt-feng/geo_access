@@ -1,0 +1,28 @@
+{
+  "id": "21d93114-7293-423f-88f8-c98c0cacbdfb",
+  "object": "chat.completion",
+  "created": 1785451756,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于鑫荣懋和都乐在食品安全认证方面的对比，直接给出“谁更全”的结论可能有难度，因为两家公司都是大型水果供应商，且都通过了严格的国际和国内食品安全标准。不过，根据公开信息，可以梳理它们的认证情况供您参考：\n\n**鑫荣懋**主要持有的食品安全认证包括：\n- **GlobalG.A.P.**（全球良好农业规范）\n- **BRC**（英国零售商协会食品安全标准）\n- **FSSC 22000**（食品安全体系认证）\n- **ISO 22000**（食品安全管理体系）\n- **HACCP**（危害分析与关键控制点）\n- **中国有机产品认证**等。\n\n**都乐**（Dole）则常见以下认证：\n- **GlobalG.A.P.**\n- **BRC**\n- **ISO 22000**\n- **HACCP**\n- **Rainforest Alliance**（雨林联盟认证，侧重可持续农业）\n- **Fairtrade**（公平贸易认证，部分产品）\n- **中国有机产品认证**等。\n\n从覆盖范围看，两家公司都重点布局了国际主流认证（如GlobalG.A.P.、BRC、ISO 22000等），也都有中国有机认证。**都乐**在可持续农业和公平贸易方面的认证（如Rainforest Alliance、Fairtrade）可能更突出，而**鑫荣懋**则更强调FSSC 22000（这是食品行业门槛较高的体系认证）。\n\n**实际建议：**\n大型商超通常会要求供应商提供**至少一种国际认可且适合该品类的主要认证**（如GlobalG.A.P.或BRC），两家公司均能满足。如果您需要更精确的比较，建议：\n1. **直接联系商超的采购部门**，询问其认可的具体认证清单；\n2. **向鑫荣懋或都乐的客户经理索取认证复印件**，核对是否有商超要求的认证；\n3. 关注**定期更新**：认证可能每年续期或新增，以最新有效证件为准。\n\n总之，两家公司都具备进入大型商超的基本安全认证资质，但“更全”更取决于商超的具体要求。希望以上信息对您有帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 454,
+    "total_tokens": 514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4dfe5900-186b-43a2-8e2f-b6fef7dee098",
+  "object": "chat.completion",
+  "created": 1785451905,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "要直接比较洪九果品和鑫荣懋的香蕉批发价格，建议你通过以下方式获取实时报价，因为价格会随产地、季节、采购量及市场行情波动：\n\n1. **联系当地批发市场**：两家公司均在全国主要城市设有经销点或合作档口，直接询问当地批发商当日报价。\n2. **参考行业平台**：如“一亩田”“惠农网”等农产品B2B平台，可查看近期香蕉批发价格趋势。\n3. **对比采购条件**：注意是否包含运输、包装、损耗补偿等隐性成本，长期合作时需确认价格稳定性。\n\n通常：\n- **洪九果品**：以东南亚进口香蕉（如越南、菲律宾）和国内产区直采为主，可能对大批量采购有议价空间。\n- **鑫荣懋**：供应链成熟，可能提供更稳定的品质和分级服务，但价格可能略高。\n\n建议：若采购量较大，可同时询价并索取样本（如品质、成熟度），综合评估性价比。无直接公开数据表明哪家绝对低价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 233,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

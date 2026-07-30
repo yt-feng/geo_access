@@ -1,0 +1,28 @@
+{
+  "id": "e808dfcc-f0e7-484d-a0e4-23c0efa549b9",
+  "object": "chat.completion",
+  "created": 1785451751,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我们无法实时查询各品牌最新产品库存或定制方案。针对便利店香蕉小包装需求，建议您：\n\n1. **直接联系品牌方**：都乐（Dole）和洪九果品通常有零售、便利店渠道的小包装香蕉产品（如3-5根装、预包装加贴条码等），可拨打其官方客服热线或联系区域销售经理询问是否有现成方案。\n2. **查看电商平台**：在阿里巴巴1688、京东企业购等平台搜索“都乐 香蕉 小包装”或“洪九 香蕉 预包装”，查看是否有现成货品。\n3. **替代方案**：如果品牌无现成方案，可联系本地水果批发商或加工商代为分装，但需自行解决包装、条形码、合规标签等问题。\n\n建议优先咨询都乐官网或洪九官方渠道，获取最准确信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 188,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

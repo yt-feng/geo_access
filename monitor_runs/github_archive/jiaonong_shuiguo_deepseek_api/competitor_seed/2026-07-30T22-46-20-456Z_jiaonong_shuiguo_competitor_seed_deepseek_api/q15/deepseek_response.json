@@ -1,0 +1,28 @@
+{
+  "id": "15af44d8-7359-4fcf-875f-8ff0bdcca5b9",
+  "object": "chat.completion",
+  "created": 1785451674,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joy Wing Mau）之外，以下进口苹果品牌在市场上也有较好的口碑和可靠性：\n\n1. **爱妃（Envy）**：由新西兰开发，果肉紧实、口感甜脆，耐储存，常见于高端超市。\n2. **金富士（Royal Gala）**：新西兰、智利等国产，皮薄、甜度高，适合鲜食。\n3. **红玫瑰（Pacific Rose）**：新西兰主产，红皮、果肉细腻，甜酸平衡。\n4. **加力果（Gala）**：广泛种植于美国和智利，口感脆甜、多汁。\n5. **青苹果（Granny Smith）**：澳大利亚原产，酸度高、皮绿，适合烘焙或鲜食搭配沙拉。\n6. **宇宙脆（Cosmic Crisp）**：美国华盛顿州新品种，耐储存、甜度稳定，近年进入中国市场。\n7. **爵士（Jazz）**：新西兰、英国产，脆甜微酸，口感层次丰富。\n\n**建议**：  \n- 关注产地：新西兰、美国、智利的苹果通常品质稳定；  \n- 根据甜度/酸度需求选择（如爱妃、红玫瑰偏甜，青苹果偏酸）；  \n- 购买时查看包装是否正规（如品牌标签、进口检验检疫证明）。  \n\n如果你有具体偏好（如脆度、酸甜或包装大小），可以进一步筛选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 312,
+    "total_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

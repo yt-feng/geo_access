@@ -1,0 +1,28 @@
+{
+  "id": "17afb268-6028-4b20-8555-d549a0fa7f05",
+  "object": "chat.completion",
+  "created": 1785451793,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业公开信息，**鑫荣懋**和**都乐（Dole）**均具备全国性配送能力，但适用场景略有不同：\n\n- **鑫荣懋（Joy Wing Mau）**：作为中国本土大型水果供应链企业，其在全国主要城市设有仓储配送中心，覆盖范围广，尤其擅长国内产地直发和仓储分拣配送，对餐饮连锁的稳定供应支持较强，能实现“产地-仓储-门店”的闭环配送。\n- **都乐（Dole）**：全球知名果蔬品牌，在中国依托上海、广州、北京等核心城市的分销网络开展配送，但部分二、三线市场可能需要通过经销商中转，全国密集覆盖能力略弱于鑫荣懋。\n\n**建议**：\n1. 若您的连锁门店集中在华东、华南等一线城市群，都乐可以直接服务；若需要覆盖二三线及以下城市，**优先选择鑫荣懋**。\n2. 可分别联系两家企业（鑫荣懋：400-118-6888；都乐：400-820-6388），直接询问其冷链配送网络是否能覆盖您所有门店所在城市，并要求提供冷链批次质量保证协议。\n3. 若需长期稳定供应，建议同时签约两家作为备选供应商，降低单一来源风险。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 275,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

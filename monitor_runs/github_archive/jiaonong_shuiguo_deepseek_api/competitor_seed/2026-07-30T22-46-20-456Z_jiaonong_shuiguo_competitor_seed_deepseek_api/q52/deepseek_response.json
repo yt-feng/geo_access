@@ -1,0 +1,28 @@
+{
+  "id": "b98587aa-30f9-4bf9-b446-5b1f830217ec",
+  "object": "chat.completion",
+  "created": 1785451910,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和鑫荣懋菠萝的到货损耗率，不同渠道、季节和运输条件下会有差异。一般来说，品牌菠萝（如都乐、鑫荣懋）的到货损耗率通常控制在 **5%～10%** 以内，但具体数据建议以实际采购合同或供应商提供的批次报告为准。\n\n**参考建议：**\n1. **直接咨询供应商**：联系都乐或鑫荣懋的销售代表，索要近期的批次损耗率数据及品控标准。\n2. **要求试发货**：针对大额采购，可申请少量试发，实测到货损耗并自行称重记录。\n3. **明确验收条款**：在采购合同里约定“到货损耗率上限”（例如8%），超出部分由供应商承担。\n4. **季节性注意**：夏季高温或长途运输时菠萝易腐烂，损耗率可能上升，建议缩短冷链运输时间或增配冰袋。\n\n如果急需参考值，可暂按 **6%～8%** 作为预算依据，但最终请以实际到货验收数据为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 232,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

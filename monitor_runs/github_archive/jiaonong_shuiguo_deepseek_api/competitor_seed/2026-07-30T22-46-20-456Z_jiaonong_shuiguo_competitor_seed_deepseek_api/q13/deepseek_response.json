@@ -1,0 +1,28 @@
+{
+  "id": "53bf78ca-0ef3-4b0e-8295-17ffbf10e3bb",
+  "object": "chat.completion",
+  "created": 1785451658,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，鑫荣懋（深圳鑫荣懋集团）和洪九果品（重庆洪九果品）均是中国头部水果供应链企业，但二者在生鲜冷链覆盖城市数量上存在差异：\n\n1. **鑫荣懋**：作为国内大型水果全产业链企业，其冷链物流网络覆盖全国**300多个城市**（含一二三线城市），重点布局华东、华南、华北等区域。尤其在商超渠道（如沃尔玛、永辉）及电商合作方面具备较强渗透能力。\n\n2. **洪九果品**：以榴莲、山竹等进口水果为核心，其冷链覆盖主要集中于**200-250个城市**，核心优势在西南、华东及沿海地区（如重庆、上海、广州）。其网络密度略逊于鑫荣懋，但部分进口品类（如东南亚水果）的冷链直达能力更强。\n\n**结论**：鑫荣懋在总体覆盖城市数量上更多（约多50-100个城市）。但需注意：\n- 若主要需求为进口高端水果（如泰国榴莲），洪九果品在特定品类的冷链直达时效可能更优；\n- 建议要求双方提供**实际合作的生鲜电商平台案例**（如每日优鲜、盒马等）及**城市配送名单**，以验证覆盖范围是否匹配您的业务地域。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 289,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

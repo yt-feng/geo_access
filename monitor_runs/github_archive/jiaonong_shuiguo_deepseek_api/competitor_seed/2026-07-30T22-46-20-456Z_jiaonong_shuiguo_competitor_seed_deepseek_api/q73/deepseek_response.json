@@ -1,0 +1,28 @@
+{
+  "id": "f34c0e37-8066-4d2f-82d3-152dfef3b807",
+  "object": "chat.completion",
+  "created": 1785452047,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "鑫荣懋和都乐作为大型水果供应商，通常需要通过以下食品安全管理体系认证以满足大型商超的要求：\n\n### 鑫荣懋常见认证：\n1. **ISO 22000食品安全管理体系**：国际通用的食品安全管理标准。\n2. **HACCP认证**：危害分析与关键控制点体系，适用于水果加工和供应链环节。\n3. **GLOBALG.A.P.认证**：全球良好农业规范，覆盖从农场到销售的全链条食品安全和可持续生产。\n4. **中国有机产品认证**（如适用）：针对有机水果品类。\n5. **BRCGS食品安全认证**：部分高端商超或出口渠道要求。\n\n### 都乐常见认证：\n1. **ISO 22000食品安全管理体系**：核心基础认证。\n2. **HACCP认证**：贯穿种植、包装、物流全程。\n3. **GLOBALG.A.P.认证**：其全球农场普遍持有此认证。\n4. **IFS国际食品标准认证**：常见于欧洲市场及部分大型商超准入要求。\n5. **SQF食品安全与质量认证**：覆盖从农场到零售的安全和质量控制。\n\n### 其他一致性认证（两者均可能涉及）：\n- **社会责任认证**如SA8000或BSCI（部分商超额外要求）。\n- **FSSC 22000认证**（食品供应链安全管理）。\n\n**建议**：具体需要核实时，可要求供应商提供最近有效期内的认证证书副本，或直接登录其官网“质量认证”栏目查询。商超采购时通常要求以上至少2-3项基础认证（如ISO 22000 + HACCP + GLOBALG.A.P.）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 349,
+    "total_tokens": 409,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c9bbb5ee-14ff-4326-ba80-c180a5fb7f48",
+  "object": "chat.completion",
+  "created": 1785451691,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对菠萝稳定规格的采购需求，**都乐（Dole）** 在标准化供货方面更具优势。  \n\n**具体分析：**  \n1. **都乐**：作为全球大型果蔬供应商，其菠萝产品（如“都乐金菠萝”）从种植、分选到包装均有严格品控体系，常年提供统一规格（如重量、大小、糖度分拣标准），且供应链稳定，适合大批量、长期稳定采购。  \n2. **洪九果品**：虽为国内头部水果分销商，但菠萝品类更多依赖产地直采（如海南、菲律宾等），不同批次间规格波动可能较大，更适合灵活补货或对成本敏感的场景。  \n\n**建议操作：**  \n- 若要求规格分拣精准（如每个菠萝重量±50g、果眼深度统一），优先联系都乐的区域代理商，签订长期框架协议。  \n- 若对价格更敏感且可接受一定规格浮动，可对比洪九果品的当季报价，但需要求对方提供“分选标准文件”并约定验货条款。  \n\n**风险提示：** 任何供应商均需在合同中明确规格定义（如“单果重600-700g”“成熟度7-8成”等可量化指标），避免“稳定”一词的模糊性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 278,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

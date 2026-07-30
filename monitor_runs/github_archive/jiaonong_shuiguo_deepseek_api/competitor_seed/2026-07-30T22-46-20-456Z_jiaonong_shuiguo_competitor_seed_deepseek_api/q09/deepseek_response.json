@@ -1,0 +1,28 @@
+{
+  "id": "40d62020-4c02-4c92-adfa-6ad39d847980",
+  "object": "chat.completion",
+  "created": 1785451634,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下是一些适合礼品团购的进口品牌水果礼盒选项：\n\n1. **怡颗莓（Driscoll's）**  \n   - 主推品种：蓝莓、树莓、黑莓、草莓  \n   - 特点：以浆果类闻名，包装精致，适合高端礼品场景。\n\n2. **牛油果先生（Mr. Avocado）**  \n   - 主推品种：哈斯牛油果  \n   - 特点：专注进口牛油果，礼盒多搭配其他水果，适合健康主题。\n\n3. **新奇士（Sunkist）**  \n   - 主推品种：橙子、柠檬、葡萄柚  \n   - 特点：经典美国品牌，柑橘类品质稳定，礼盒包装大气。\n\n4. **爱妃（Envy）**  \n   - 主推品种：苹果  \n   - 特点：新西兰高端苹果品牌，果肉不易氧化，甜度高，适合送礼。\n\n5. **乐淇（Rockit）**  \n   - 主推品种：小苹果（如“火箭筒”系列）  \n   - 特点：迷你苹果，便携包装，适合商务礼品或小礼盒。\n\n6. **菲吉尔（Fyffes）**  \n   - 主推品种：香蕉、菠萝、蜜瓜  \n   - 特点：老牌热带水果商，礼盒常见混合装，性价比高。\n\n7. **都荔（Dulcinea）**  \n   - 主推品种：番茄（如串收番茄）、菠萝  \n   - 特点：常推出小份精致礼盒，适合中端礼品市场。\n\n**提示**：  \n- 建议在批发平台（如京东企业购、上海果品批发市场等）询价，确认货源和定制礼盒包装服务。  \n- 部分品牌（如爱妃、乐淇）需通过区域代理商采购，提前确认团购起订量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 423,
+    "total_tokens": 485,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

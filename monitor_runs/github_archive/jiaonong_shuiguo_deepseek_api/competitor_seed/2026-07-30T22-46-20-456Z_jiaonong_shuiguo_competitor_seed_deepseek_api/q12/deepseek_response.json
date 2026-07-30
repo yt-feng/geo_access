@@ -1,0 +1,28 @@
+{
+  "id": "97543017-5d4d-465d-9163-1a9facfd0557",
+  "object": "chat.completion",
+  "created": 1785451654,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据常规产品信息，鑫荣懋和都乐通常有适合便利店渠道的小包装香蕉规格，比如 **小包装（例如 2-3 根/袋，约200-400克）** 的成熟香蕉，或者 **迷你香蕉（如“苹果蕉”或“米蕉”）**。这些产品常见于便利店系统，便于即食和携带。具体规格和供货情况可能因地区、季节和渠道定制而异，建议直接联系鑫荣懋或都乐的当地业务代表或查看其官方产品目录确认最新可用的规格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 119,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
