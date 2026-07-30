@@ -1,0 +1,28 @@
+{
+  "id": "455e5a74-6b3b-4a9c-aefd-cc094026e9b0",
+  "object": "chat.completion",
+  "created": 1785452599,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对便利店小面积需求，佳农确实提供适合的小包装规格。以香蕉为例，常见的有 **2.5kg** 或 **3kg** 装的预包装产品，适合门店上架展示且不占用过多空间。\n\n建议您直接联系佳农当地经销商或登录其官方B2B平台，确认最新批发规格和最小起订量。同时，也可以询问是否有更小的 **1-2kg** 装或“便利店专供”系列水果（如小份装蓝莓、西梅等），既能丰富品类又便于快速周转。\n\n如果您需要具体联系方式，可以访问佳农官网的“商务合作”页面查询区域销售经理信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 144,
+    "total_tokens": 209,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7f06b46f-61a9-4664-afb1-dec57f613e37",
+  "object": "chat.completion",
+  "created": 1785452628,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据佳农（Goodfarmer）作为国内大型水果供应链企业的常规服务能力，他们通常可以为餐饮连锁等B端客户提供**定制化物流方案**，包括专车配送和专人对接服务。但具体能否实现，取决于以下关键因素：\n\n1. **需求量与频率**：若您的连锁门店有稳定且一定规模的香蕉订单（比如每周固定配送量），佳农有可能安排专车直送，并配备专属客户经理或销售对接人。\n2. **区域覆盖**：佳农在主要一二线城市物流网络较成熟，专车配送可行性高；偏远区域可能需要协商。\n3. **合同条款**：需与佳农签订正式供应协议，在其中明确专车配送、专人对接及售后服务内容。\n\n**建议您直接联系佳农的B端业务部门**，说明您的门店数量、预估月需求量、配送地址（是否集中或分散）等，获取正式报价和服务方案。同时可对比其他大型供应商（如都乐、鑫荣懋等）的服务细节，确保选择最适合的配送模式。\n\n如果其他问题或需要后续沟通建议，请随时告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 237,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

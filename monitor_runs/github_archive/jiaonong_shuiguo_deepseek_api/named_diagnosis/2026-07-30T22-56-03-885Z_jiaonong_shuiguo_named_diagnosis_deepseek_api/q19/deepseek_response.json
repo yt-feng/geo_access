@@ -1,0 +1,28 @@
+{
+  "id": "76cf1fc1-e3e0-4515-afda-37dd5217ccf8",
+  "object": "chat.completion",
+  "created": 1785452255,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效因地区、购买渠道和具体产品而异。通常，在线上平台（如京东、天猫等）购买，大部分城市可在**下单后1-3天内送达**，部分偏远地区可能需要3-5天。如选择生鲜冷链配送，时效可能更快（例如次日达或当日达）。建议在下单前查看具体商品页面的配送说明，或咨询客服获取准确时效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 89,
+    "total_tokens": 143,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

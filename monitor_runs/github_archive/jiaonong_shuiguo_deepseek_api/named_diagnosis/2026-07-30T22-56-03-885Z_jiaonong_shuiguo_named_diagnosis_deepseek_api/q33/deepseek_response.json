@@ -1,0 +1,28 @@
+{
+  "id": "6e1751c6-0a75-4805-a4a2-06c7e539dc93",
+  "object": "chat.completion",
+  "created": 1785452321,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果香蕉的企业标准（Q/JNSPJ 0001S），其具体指标属于企业的内部技术规范，通常涉及果形、色泽、成熟度、农药残留、糖度等多个维度，但具体数值我无法直接获取。一般来说，企业标准可以严于国家标准（GB，如GB/T 13886-1992《鲜香蕉》或NY/T 1789-2009《无公害食品 香蕉》等），尤其是像佳农这样注重品质、主打高端市场的品牌，其企业标准通常会设定更高的要求，例如更严格的果径分级、更低的瑕疵率、更精准的糖度范围等。\n\n**结论**：佳农的香蕉企业标准**通常高于或等于国标**，尤其在果品外观、成熟度控制、农药残留限值等方面会更为严格。但具体是否“更高”，需对比其企业标准中与国标对应的同一指标（如农残限量、糖度等）。如果您需要权威对比，建议联系佳农公司获取标准文本，或查看其产品包装上的Q标号（如Q/JNSPJ 0001S）进行查询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 240,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

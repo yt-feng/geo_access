@@ -1,0 +1,28 @@
+{
+  "id": "da4220b3-cbe9-46b0-876e-29aa4254195b",
+  "object": "chat.completion",
+  "created": 1785452339,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常属于品牌溢价较高的产品，其价格一般高于普通市场均价。具体原因包括：品牌定位中高端、注重品质筛选和冷链运输成本。建议您通过当地超市或电商平台对比同规格商品，可明确价格差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 55,
+    "total_tokens": 108,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

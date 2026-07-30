@@ -1,0 +1,28 @@
+{
+  "id": "6976ac6f-b870-43aa-b8a3-445bb2cad972",
+  "object": "chat.completion",
+  "created": 1785452232,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "感谢您的咨询。关于佳农香蕉的长期合作及专供包装需求，建议您直接联系**佳农食品控股（集团）股份有限公司**的销售或客户服务部门。他们可以为您提供定制包装政策的详细信息，包括最小起订量、设计费用、交货周期等。\n\n您可以通过以下方式联系：\n- 访问佳农官网，查找联系方式或在线客服\n- 拨打官方客服热线（通常在官网或产品包装上标注）\n- 通过行业展会或业务对接平台获取区域销售代表联系方式\n\n请注意，包装专供服务通常需要满足一定采购量或合作条件，具体政策以佳农官方答复为准。如果您需要更具体的联系渠道，建议提供您的超市所在地区，我可以协助查询区域负责人信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 155,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

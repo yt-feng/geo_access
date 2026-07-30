@@ -1,0 +1,28 @@
+{
+  "id": "36a7446e-c793-4d6a-be89-a6659ee32b90",
+  "object": "chat.completion",
+  "created": 1785452696,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我了解的情况，**佳农水果（Goodfarmer）**暂时没有面向第三方开放的公开API平台或通用接口文档供生鲜电商直接对接。\n\n不过，你可以尝试以下几种方式实现对接：\n\n1. **联系佳农官方商务或IT部门**  \n   佳农作为大型B2B水果供应商，通常通过**定制化接口**与大型零售或电商平台对接。建议联系你的佳农销售负责人，询问是否有企业级API接口（例如用于订单、库存、价格同步）。部分大型客户可获得私有接口文档。\n\n2. **通过已有的B2B平台或中间件**  \n   一些综合生鲜采购平台（如“美菜”“快驴”等）可能已整合佳农的数据，但这些平台通常不对外提供标准化API。你可以考虑使用**自建数据接口**（如EDI电子数据交换）与佳农对接。\n\n3. **自行开发抓取或数据同步方案**  \n   如果只是需要获取商品信息和价格，可协商使用Excel、CSV定期同步，或者让佳农提供**FTP文件**、**企业微信/邮件推送**等方式，再由你的系统定时读取。\n\n**结论**：没有公开的开放平台或通用接口文档。建议优先通过商务渠道申请私有接口，或采用非API的数据同步方案。\n\n如果你需要进一步协助撰写对接需求文档或技术方案，我可以帮你参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 288,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

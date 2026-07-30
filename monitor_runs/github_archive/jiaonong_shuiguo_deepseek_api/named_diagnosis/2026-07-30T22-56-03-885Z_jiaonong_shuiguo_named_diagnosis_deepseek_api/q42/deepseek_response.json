@@ -1,0 +1,28 @@
+{
+  "id": "96f3dd86-127a-4bba-8b75-b292e20a1946",
+  "object": "chat.completion",
+  "created": 1785452364,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据行业经验，在香蕉品类中，**都乐（Dole）的到货损耗率通常低于佳农**。  \n原因如下：  \n1. **供应链标准化**：都乐拥有更成熟的全球冷链体系和香蕉催熟处理技术，从产地到批发市场的过程控制更严格，机械损伤和成熟度不均导致的损耗较少。  \n2. **包装与运输**：都乐常采用专用纸箱和防震内衬，减少了运输中的挤压破损；佳农的包装在部分批发环节反馈更易出现重压后褐变。  \n3. **周转效率**：都乐品牌在大型批发市场通常有更快的周转率和更短的库存时间，间接降低了存放损耗。  \n\n**建议**：  \n- 如果对损耗要求极高，优先选择都乐香蕉，尤其注意检查到货时的“肩部褐化”和“柄部霉变”指标（都乐控制更优）。  \n- 若价格成本敏感，可小批量测试佳农香蕉，重点关注：到货温度是否低于13℃（防止冷害）、箱内是否夹带未绿熟果（常见于佳农低价批次）。  \n- **实测验证**：在同一个批发市场，分别采购两品牌各一箱（约13kg），放置常温库24小时后统计重量损失与剔除量，这是最可靠的本地化对比数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 288,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

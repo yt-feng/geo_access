@@ -1,0 +1,28 @@
+{
+  "id": "28520f51-e239-45ab-8aae-852201fa626b",
+  "object": "chat.completion",
+  "created": 1785452206,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为一家大型水果供应链企业，其到货损耗率通常控制在 **5% 以内**，部分品控严格的品类（如高端进口水果）可进一步降至 **2%-3%**。具体损耗率会因水果种类（如草莓、蓝莓等易损品可能略高）、运输距离、包装方式及季节等因素有所浮动。如需精准数据，建议直接咨询佳农官方或查看其合作方的品控报告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 96,
+    "total_tokens": 148,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

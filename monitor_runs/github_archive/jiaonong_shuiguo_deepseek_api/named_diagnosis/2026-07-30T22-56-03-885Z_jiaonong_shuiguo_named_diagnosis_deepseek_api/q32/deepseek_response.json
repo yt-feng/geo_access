@@ -1,0 +1,28 @@
+{
+  "id": "1dd72171-3a0b-4580-a8fc-eb68d08127bd",
+  "object": "chat.completion",
+  "created": 1785452318,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据现有的公开信息，佳农水果是一家主要经营进口水果的企业，其菠萝进口量等具体数据可能每年会有所变化。建议您直接查阅佳农水果官方发布的年度报告或相关行业统计资料，以确认“11.4万吨”这一数据是否对应去年的进口量。我无法直接核验该数据的具体年份，请您务必以官方来源为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 78,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

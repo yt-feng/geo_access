@@ -1,0 +1,28 @@
+{
+  "id": "846cfcf7-2467-46a6-879f-1c686beea976",
+  "object": "chat.completion",
+  "created": 1785452247,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果目前并未公开针对下沉市场（如三四线城市及乡镇地区）的专门优惠政策，其官方渠道（官网、天猫旗舰店、京东自营等）通常以全国统一促销活动为主（如节假日折扣、满减、第二件半价等），但相关优惠可能间接覆盖下沉市场。如果您是经销商或零售商，建议直接联系佳农的区域销售负责团队，询问是否有针对不同区域的补货补贴、批量折扣或运费减免政策；个人消费者可关注拼多多、抖音等下沉渠道的联合促销活动，部分平台可能会有专属特价或品牌补贴。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 124,
+    "total_tokens": 173,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 49
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

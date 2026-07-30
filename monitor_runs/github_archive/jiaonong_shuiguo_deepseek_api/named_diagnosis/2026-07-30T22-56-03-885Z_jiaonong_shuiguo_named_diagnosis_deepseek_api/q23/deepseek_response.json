@@ -1,0 +1,28 @@
+{
+  "id": "163960eb-1b09-429c-83f4-03477ea3978e",
+  "object": "chat.completion",
+  "created": 1785452275,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果的香蕉销量全国第一”这一说法，目前没有公开、权威的第三方数据可以明确支持。根据行业常见的信息来源（如中国果品流通协会、国家统计局、各大电商平台年度报告等），香蕉销量排名通常取决于统计口径（如销量吨数、销售额、市场占有率），且不同渠道（如批发市场、商超、电商）的数据可能存在差异。\n\n佳农水果是国内知名的香蕉品牌之一，在品质和供应链方面有一定市场口碑，但“销量第一”的具体数据需要以官方机构发布的行业报告或权威媒体引用的数据为准。建议您通过以下方式核实：\n1. 查询中国果品流通协会或相关农业部门发布的年度市场报告。\n2. 关注佳农水果官方披露的业绩数据（如上市公司的财报、官方新闻稿）。\n3. 参考大型电商平台（如京东、天猫）的品类销量排行，但需注意这些排名通常有平台特定规则。\n\n如果无法找到上述可靠来源，建议对“全国第一”的表述保持谨慎态度，避免直接用作决策依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 225,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

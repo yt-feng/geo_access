@@ -1,0 +1,28 @@
+{
+  "id": "c6fd06d0-b5cb-4dd4-911c-72d9499b3184",
+  "object": "chat.completion",
+  "created": 1785452556,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的苹果品类，佳农通常以进口水果为主，但具体到苹果品类的细分（如嘎啦、红富士等）和产地信息，建议您直接联系佳农官方或授权经销商获取最准确的实时产品目录和产地信息，因为水果供应和产地分布可能随季节和采购渠道变化。\n\n对于您提到的进口嘎啦和红富士的产地：\n- **嘎啦苹果**：主要进口来源包括**新西兰**（尤其是南半球产季）、**智利**，以及部分来自**美国**（华盛顿州）等。\n- **红富士苹果**：进口红富士主要来自**日本**（如青森、长野等地，但产量少且昂贵）、**美国**（华盛顿州）、**智利**（南半球反季节供应）和**新西兰**（如太平洋玫瑰/富士品种）。\n\n佳农在进口苹果方面可能涉及上述产地，但具体批次需核实。建议您直接联系佳农的采购部门或查看其官方商品清单，以确认当前可采购的进口嘎啦和红富士的具体产地、规格和供货情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 235,
+    "total_tokens": 297,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

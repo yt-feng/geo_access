@@ -1,0 +1,28 @@
+{
+  "id": "cfe44faa-ffa0-44c9-ba22-7cfe4f8a7953",
+  "object": "chat.completion",
+  "created": 1785452432,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的菠萝主要产自菲律宾，部分产品也可能来自其他产地。根据佳农官方信息，其菠萝以菲律宾进口为主，特点是果肉金黄、甜度高、纤维细腻。厄瓜多尔菠萝也常见于市场，但佳农品牌更常见的是菲律宾产地。\n\n**品质差异**：\n- **菲律宾菠萝**：通常甜度更高（平均糖度约14-16°Brix），酸度低，果肉细腻，适合直接鲜食。\n- **厄瓜多尔菠萝**：果形较大，酸度略高（糖度约12-14°Brix），纤维稍粗，更适合加工或搭配菜肴。\n\n**建议**：\n- 若追求纯甜口感，优先选择菲律宾产的佳农菠萝。\n- 若喜欢酸甜平衡或用于烹饪，可选厄瓜多尔品种。\n- 购买时建议查看包装标签上的原产地，不同批次可能有调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 190,
+    "total_tokens": 250,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

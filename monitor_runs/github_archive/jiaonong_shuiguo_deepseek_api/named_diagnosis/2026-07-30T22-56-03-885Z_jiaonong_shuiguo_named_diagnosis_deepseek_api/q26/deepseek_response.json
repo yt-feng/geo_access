@@ -1,0 +1,28 @@
+{
+  "id": "4911467c-bc69-4c61-8e0d-f6add0090b25",
+  "object": "chat.completion",
+  "created": 1785452288,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，这通常取决于具体的销售渠道或购买场景。一般来说，佳农作为大型水果品牌，其香蕉产品在出厂时已进行标准化催熟处理，以确保到达消费者手中时达到适宜食用状态。如果您是批量采购（如超市、水果店），可以联系佳农的销售代表或客服咨询定制化催熟服务；如果是个人消费者直接购买，建议查看产品包装说明或咨询购买平台的售后人员。最准确的方式是直接联系佳农官方客服（如通过其官网或客服热线），获取针对您具体需求的答复。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 126,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

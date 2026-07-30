@@ -1,0 +1,28 @@
+{
+  "id": "9b3353d9-84f3-490b-9924-764121a91192",
+  "object": "chat.completion",
+  "created": 1785452480,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！感谢您对佳农水果的关注。针对您提出的便利店小包装香蕉需求，我建议您直接联系佳农水果的官方销售渠道或客户服务进行确认，因为产品线、包装规格（如单根包装）可能存在区域差异或近期调整。\n\n根据过往信息，佳农确实有推出适合便利店、精品超市的小规格香蕉产品，通常会采用单根独立包装或小捆包装（如2-3根一包），以满足即食、便携需求。不过，具体是否在您所在区域有供应、合作条件和起订量，需要以官方最新答复为准。\n\n**建议行动：**\n1. **查找官方联系方式**：通过佳农官网、官方微信公众号或客服热线，咨询当地经销商或业务代表。\n2. **明确需求细节**：说明您需要“单根独立包装”，并且是长期供应给便利店，询问起订量、配送方式及价格。\n3. **替代方案**：如果佳农暂无此规格，可以询问是否有其他小包装方案，或联系其他知名品牌（如都乐、鑫荣懋）对比。\n\n如果您需要，我可以帮您模拟一个咨询模板，方便您直接使用。请告诉我您的需求！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 250,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

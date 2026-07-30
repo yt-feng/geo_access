@@ -1,0 +1,28 @@
+{
+  "id": "69ece8ad-986c-4643-92c3-3fd99c80eb45",
+  "object": "chat.completion",
+  "created": 1785452473,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农目前主要以供应新鲜整果为主，未公开提供标准化菠萝丁的加工服务。建议您直接联系佳农的区域销售经理，确认是否能按您的需求定制加工（比如规格、包装），或者推荐他们的合作加工厂。  \n\n另外，市面上也有专门的冷冻菠萝丁供应商（如山东、广东的加工企业），或可向本地批发市场询问是否有预切菠萝丁。如果量不大，也可考虑采购整果后自行用切丁机处理。  \n\n是否需要我帮您梳理一份替代供应商的查询思路？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 112,
+    "total_tokens": 175,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
