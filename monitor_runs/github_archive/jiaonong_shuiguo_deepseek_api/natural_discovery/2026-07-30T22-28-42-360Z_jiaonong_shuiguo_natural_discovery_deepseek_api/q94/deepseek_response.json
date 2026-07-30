@@ -1,0 +1,28 @@
+{
+  "id": "149e86c5-f6f7-4bf8-8f04-4045f5ba9e32",
+  "object": "chat.completion",
+  "created": 1785451310,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "非常支持小批量试卖。对于便利店而言，水果销量受季节、天气、周边竞争、促销活动等多种因素影响，波动大且难以精准预测。如果供应商支持小批量试卖，至少有以下3个关键作用：\n\n1. **降低滞销损耗风险**：水果保质期短，一旦进货量过大卖不完，直接变成损耗。小批量试卖能验证本店、本区域的实际需求，避免一次性压货造成的损失。\n\n2. **测试新品市场反馈**：比如你想上架当季的新品种（如晴王葡萄、进口牛油果），先用小批量观察顾客购买率和复购率。如果反馈不好，可以快速调整，不必承担大批量积压的后果。\n\n3. **保证货架更新和新鲜度**：小批量试卖意味着可以更频繁地补货，保证水果更新鲜。顾客多次看到新鲜水果，也会增加购买信心。\n\n**总结建议**：在合作前，优先选择明确支持小批量试卖、配送灵活（如按箱起送或3-5斤起送）的供应商。即使单价稍高，也比盲目大批量进货导致的高损耗成本更划算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 246,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

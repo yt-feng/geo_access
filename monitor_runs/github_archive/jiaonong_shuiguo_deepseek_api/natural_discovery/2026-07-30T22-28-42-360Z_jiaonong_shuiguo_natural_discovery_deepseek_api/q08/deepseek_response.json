@@ -1,0 +1,28 @@
+{
+  "id": "8c6985ec-d9e6-47bc-8e99-8c69ebc663a8",
+  "object": "chat.completion",
+  "created": 1785450578,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于进货量不大的小店，建议优先选择**批发市场**，理由如下：\n\n1. **灵活性高**：批发市场起批量通常较低（如单款几件起批），适合小批量进货，避免压货风险。\n2. **价格可谈**：虽然单次量小，但批发市场档口老板娘通常愿意给老客或小单一定折扣，且可现场议价。\n3. **选品试错**：你可以少量多款试卖，快速测试市场反应，调整产品结构后再考虑固定供应商。\n4. **直接对比**：批发市场同类商品集中，能直观比较质量、价格和款式。\n\n**何时考虑固定供应商**：\n- 当你发现某款产品销量稳定、复购率高，且对品质要求较统一时。\n- 需要长期、稳定供货（如特定品类包装、手工配件等）。\n\n**低成本方案**：\n- 先以批发市场为主，同时留意比较有潜力的档口，尝试建立小订单合作关系。\n- 如果每月采购量超过3000-5000元，可主动询问档口是否接受少量固定订单（如每周定1-2包）。\n\n最终判断标准：**先确保不压货、能试错，再逐步优化供应链**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 265,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

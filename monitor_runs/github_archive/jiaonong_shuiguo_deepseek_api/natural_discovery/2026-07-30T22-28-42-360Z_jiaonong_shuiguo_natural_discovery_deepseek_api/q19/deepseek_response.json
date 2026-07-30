@@ -1,0 +1,28 @@
+{
+  "id": "cea9bb4d-f25e-4b92-bad3-9d3ae0deecde",
+  "object": "chat.completion",
+  "created": 1785450666,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "首选关注**切果损耗**。  \n\n因为如果损耗大（比如果眼深、削皮后出肉率低），即使菠萝甜、外观好、大小合适，也会造成浪费（对商家是利润损失，对个人是花钱买“废料”）。  \n\n其次关注**甜度**——可以用按压菠萝底部或闻香气来初步判断（香气浓、底部微软的通常甜度高）。  \n\n**大小和外观**相对次要：大小影响单次食用量；而外观稍有瑕疵只要不影响果肉和切果，一般不影响食用和出肉率。  \n\n**简单排序建议**：切果损耗（优先看果眼浅、皮薄） > 甜度（按压+闻香） > 大小 > 外观。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 159,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

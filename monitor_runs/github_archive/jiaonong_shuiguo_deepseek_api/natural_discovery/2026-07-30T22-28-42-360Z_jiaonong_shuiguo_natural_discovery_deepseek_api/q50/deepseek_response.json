@@ -1,0 +1,28 @@
+{
+  "id": "48488d37-3876-4b2d-9bc3-bff0a7bbc149",
+  "object": "chat.completion",
+  "created": 1785450924,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在茶饮店选购菠萝原料时，**出汁率通常比甜度更重要**，原因如下：\n\n- **成本与出杯效率**：出汁率直接影响每公斤菠萝能制作多少杯饮品。高出汁率意味着原料利用率高，能降低单杯成本，且更易控制饮品浓度的一致性。\n- **口感可调节性**：甜度可以通过额外添加糖浆、果糖或搭配酸甜水果（如柠檬）来灵活调整。但低出汁率会导致饮品稀薄、风味寡淡，且难以补救。\n- **茶饮搭配需求**：多数茶饮会与茶底、糖浆、奶盖等混合，菠萝的酸度反而能提升层次感。即使原料偏酸，也可通过糖分平衡，而出汁不足会直接稀释整杯饮品的口感。\n\n**建议选择标准**：优先挑选出汁率≥65%的菠萝品种（如巴厘菠萝、金钻菠萝），甜度可适度宽松（例如Brix 12-14°即可），实际进货时可用便携糖度计验证。如果用于特调风味（如烤菠萝、糖渍菠萝），可结合甜度调整工艺，但基础原料仍需保证出汁率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 255,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

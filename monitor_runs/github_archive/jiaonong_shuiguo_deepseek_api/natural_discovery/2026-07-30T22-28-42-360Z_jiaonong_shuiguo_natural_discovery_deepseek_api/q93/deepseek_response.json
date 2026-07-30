@@ -1,0 +1,28 @@
+{
+  "id": "1333c339-ee2c-4765-b59c-dc35c2fceffa",
+  "object": "chat.completion",
+  "created": 1785451305,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "主要需要关注以下三点，按重要性排序：\n\n1. **保质期（核心）**  \n   - 菠萝切开后氧化快，建议保质期标定为**24-48小时**（冷藏条件下）。  \n   - 严格执行“生产时间+到期时间”标签，超时立即下架报废，避免食品安全风险。\n\n2. **包装（防护关键）**  \n   - 使用**食品级保鲜膜/密封盒**，隔绝空气减缓氧化。  \n   - 结合**气调包装**（如充氮气）可延长至3-5天，但需测算成本。  \n   - 包装上标注“开封后尽快食用”，并提醒冷藏保存。\n\n3. **配送频次（保证新鲜度）**  \n   - 建议**每日配送**，避免一次到货积压库存。  \n   - 根据历史销量动态调整：如周一到周四客流量较低，可减少单次配送量，改为隔日配送（配合冷柜库存管理）。\n\n**建议顺序**：先优化保质期管理流程，改进包装设计，再根据实际损耗数据调整配送频次。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 237,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

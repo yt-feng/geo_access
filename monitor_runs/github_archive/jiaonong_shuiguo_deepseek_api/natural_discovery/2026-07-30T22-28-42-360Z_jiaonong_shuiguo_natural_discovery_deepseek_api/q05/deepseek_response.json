@@ -1,0 +1,28 @@
+{
+  "id": "e300d0fb-158c-49cc-a235-d4104d9c27a2",
+  "object": "chat.completion",
+  "created": 1785450562,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议**让顾客自己挑**。原因如下：\n\n1. **新鲜度可感知**：顾客亲自挑选可以检查菠萝的外观（颜色、叶片新鲜度、底部气味）、硬度，更能确保买到新鲜的。\n2. **去皮的坏处**：去皮后暴露果肉，容易滋生细菌、氧化变味，且难以判断内部是否变质（如黑心菠萝）。\n3. **顾客心理**：自己挑的更容易放心，减少对“店家可能拿不新鲜果”的疑虑。  \n4. **销售灵活性**：可以同时提供“整果”和“去皮服务”（收费或免费），但不预先去掉所有皮——这样既满足不同需求，又降低损耗。\n\n**实操建议**：  \n- 整果区写明品种、价格、产地。  \n- 提供免费去皮服务（现场演示或用机器），让顾客挑好后当场去皮。  \n- 谨慎备货：控制当日去皮数量，避免过剩导致变质。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 200,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b6e1b6cd-96f8-49eb-ba1b-1d17dc755145",
+  "object": "chat.completion",
+  "created": 1785450535,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果您是小水果店，建议优先看重**熟度**和**坏果率**，其次是**价格**，最后是**送货速度**。原因如下：\n\n1. **熟度**：香蕉是后熟水果，太熟易烂不耐放，太生则需多天催熟，影响周转。最好选择7-8成熟（果皮黄绿相间、果体硬挺），这样到货后2-4天达到最佳食用期，减少损耗。\n2. **坏果率**：香蕉破损或黑斑多的批次会让您直接损失利润，且影响顾客印象。建议收货时当场抽查（至少开5箱，每箱翻查上层和中间层），坏果率超过5%可拒收或压价。\n3. **价格**：价格需与市场行情匹配，但在小量进货时，贵几毛但品质稳定的货，长期看比低价烂货更赚（避免频繁处理坏果和客诉）。\n4. **送货速度**：香蕉保鲜窗口短，但多数批发市场次日达已足够，除非您一天内要多次补货（极少数情况）。除非供应商能保证“台风天也定时到”，否则没必要为速度牺牲品质。\n\n一句话建议：**先定熟度标准（7-8成黄），验收时严控坏果率，价格合理即可，送货速度只要不拖过两天无需过分在意。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 297,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

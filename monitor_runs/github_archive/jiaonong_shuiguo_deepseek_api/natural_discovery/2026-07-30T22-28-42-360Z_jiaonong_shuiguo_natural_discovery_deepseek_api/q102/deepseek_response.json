@@ -1,0 +1,28 @@
+{
+  "id": "b5d07d9c-9240-445c-8b99-e69ec192efb4",
+  "object": "chat.completion",
+  "created": 1785451371,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "需要。企业在采购水果礼盒时，应优先选择支持以下两项服务的供应商：\n\n1. **开发票**：供应商需能够开具符合企业财务要求的正规发票（如增值税专用发票），以便报销、做账及税务抵扣。请在下单前确认发票类型、抬头及税率是否符合公司要求。\n\n2. **定制包装**：根据企业需求（如印公司Logo、节日祝福语、统一包装规格等），供应商应提供个性化包装服务。需提前沟通设计稿、包装材质、起订量及额外费用。\n\n建议：在询价或签订采购合同时，应明确标注“需提供正规增值税发票”和“支持定制包装”两项条件，并保留沟通记录，以避免后续纠纷。如果供应商无法同时满足，建议更换供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 162,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

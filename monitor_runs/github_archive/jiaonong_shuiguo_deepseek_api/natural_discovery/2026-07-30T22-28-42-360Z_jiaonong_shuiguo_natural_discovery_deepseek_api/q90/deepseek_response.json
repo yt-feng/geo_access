@@ -1,0 +1,28 @@
+{
+  "id": "641b4b35-7b3d-4fd6-a435-2545175fe86d",
+  "object": "chat.completion",
+  "created": 1785451276,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您可以这样向消费者解释：\n\n1. **产地与运输**：进口香蕉大多来自菲律宾、厄瓜多尔等热带国家，需要经过远距离冷链运输和严格的检疫流程，运输和保鲜成本较高。\n2. **品质标准**：进口香蕉通常有更严格的国际分级标准，比如大小、色泽、成熟度均匀，无腐无疤，果肉饱满细滑，口感和甜度更稳定。\n3. **品种差异**：进口香蕉常见的是“卡文迪什”等优质品种，国内普通香蕉可能是本地品种或大宗种植的普通品，外观和风味有区别。\n4. **损耗率**：进口香蕉从产地到售卖，中间环节多，控温仓储时间长，损耗率会高于国内短期流通的香蕉，这部分成本也会体现在价格上。\n\n**一句话总结**：“进口香蕉的产地远、冷链贵、标准高、损耗大，所以成本比普通香蕉贵，但您在吃到的每一根口感和品质上能明显感受到差异。”"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 210,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

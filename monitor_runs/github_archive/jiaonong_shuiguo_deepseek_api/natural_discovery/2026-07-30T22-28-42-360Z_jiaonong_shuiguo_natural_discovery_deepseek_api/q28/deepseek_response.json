@@ -1,0 +1,28 @@
+{
+  "id": "f95a6604-3bd1-4ca7-8a9e-413e20973a9c",
+  "object": "chat.completion",
+  "created": 1785450730,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议先从**香蕉**开始引入。原因如下：\n\n1. **消费频率高、受众广**：香蕉是进口水果中认知度最高、购买门槛最低的品类，几乎所有人都吃，容易快速形成稳定销量。\n2. **供应链成熟**：进口香蕉（如菲律宾、厄瓜多尔）的冷链、运输和保鲜技术非常成熟，损耗率相对可控，适合初学者稳定操作。\n3. **价格弹性小**：进口香蕉价格相对亲民，即使定价稍高，消费者长期购买意愿也较强，能较快回本。\n4. **对比菠萝和苹果**：\n   - 菠萝（如台湾、泰国）对成熟度判断和存储要求更高，易因切割不当造成损耗。\n   - 苹果（如美国、新西兰）口感差异化小，国内优质苹果竞争激烈，进口优势不明显。\n\n后续可等香蕉稳定后，再逐步测试菠萝和苹果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 189,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}

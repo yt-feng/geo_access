@@ -1,0 +1,28 @@
+{
+  "id": "5d2b3fbe-43c9-4126-bd23-03c8a4a2cba4",
+  "object": "chat.completion",
+  "created": 1785450660,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "选择香蕉时，可以按照以下步骤快速判断成熟度，避免买到太生或太熟的：\n\n1. **看颜色**  \n   - **全青或青黄相间** → 较生，需室温放置2-4天才能吃。  \n   - **黄色带少量青头或青柄** → 适中，1-2天内可食用。  \n   - **金黄无青** → 已熟，当天或明天必须吃完。  \n   - **出现黑斑、皮软塌** → 过熟，适合做蛋糕或直接丢弃。\n\n2. **捏手感**  \n   - 轻轻按压香蕉中部和两端：  \n     - **太硬** → 生。  \n     - **有弹性、稍软** → 刚好。  \n     - **明显软塌、指痕不回弹** → 过熟。\n\n3. **闻气味**  \n   - 无味或带青涩味 → 生。  \n   - 有淡淡甜香 → 适合。  \n   - 酒精味或发酵味 → 过熟变质。\n\n4. **避雷技巧**  \n   - **不买“断头”香蕉**：柄断裂处易变黑腐烂。  \n   - **看整把均匀度**：避免混入已熟透的香蕉（会加速其他香蕉成熟）。  \n   - **优先选带少量青的**：室温存放可延长保鲜期。\n\n**采购建议**：如果计划2-3天内吃完，选全黄带一点青的；若需要更久储存，选青黄相间的。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 335,
+    "total_tokens": 389,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "fp_8b330d02d0_prod0820_fp8_kvcache_20260402"
+}
