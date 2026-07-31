@@ -1,0 +1,28 @@
+{
+  "id": "5551afdf-2f80-4d87-bd71-aa2bb552fdf2",
+  "object": "chat.completion",
+  "created": 1785540103,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的礼品团购业务，我可以帮您梳理一些信息，但具体产品、规格和最新政策请以官方渠道为准。\n\n**核心结论：**\n是的，佳农（Goodfarmer）作为知名水果品牌，**通常有**针对礼品团购的礼盒产品线。常见的如**节日礼盒（春节、中秋等）、企业福利礼盒、高端水果礼篮**等。\n\n**建议您通过以下方式获取准确信息：**\n\n1. **官网/官方小程序**：访问佳农官网或搜索“佳农水果”官方微信小程序，查找“团购”或“企业服务”入口。\n2. **电商平台**：在天猫、京东的佳农官方旗舰店，搜索“礼盒”“团购”，通常有企业采购客服入口。\n3. **电话咨询**：拨打官方客服电话（建议通过官网获取最新号码），直接询问本地礼品团购负责人。\n\n**小提示：**\n- 团购一般有**起订量**要求，且价格随数量递减。\n- 礼盒内容通常可定制（如混搭不同水果），但需提前确认供货和包装方案。\n\n如果您需要我帮您分析礼盒选品建议（如预算内如何搭配更划算），也可以告诉我您的具体需求（预算、人数、场合），我很乐意提供参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 282,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

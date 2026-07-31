@@ -1,0 +1,28 @@
+{
+  "id": "b2d1d073-e5f0-477f-93dc-de1c78c59ad3",
+  "object": "chat.completion",
+  "created": 1785539916,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农香蕉的农残检测和食品安全认证问题，我目前无法实时核验其最新的检测报告或认证状态。食品企业的农残检测结果通常由第三方机构或监管部门定期公布，且会随时间变化。\n\n**建议您通过以下途径获取可靠信息：**\n1. **官方渠道**：查看佳农（品牌方）官网或官方旗舰店是否公示了检测报告、绿色食品认证、有机认证等文件。\n2. **市场监管部门**：搜索“国家市场监督管理总局”或您所在地的市监局官网，输入“佳农香蕉 抽检”查询历次抽检结果。\n3. **第三方认证平台**：如中国绿色食品网、有机产品认证信息系统，可查询佳农是否持有相关证书。\n4. **电商评论区**：部分商家会在商品详情页上传近期农残检测报告。\n\n**注意事项**：\n- 香蕉皮通常较厚，农残残留在果肉的风险相对较低，但建议食用前用清水冲洗或去皮。\n- 若您对品牌或批次有疑虑，可保留购买凭证，向12315投诉咨询。\n\n如有特别关注某批次或某时间点的检测数据，我可以帮您设计更精准的检索话术，但无法直接提供未经核实的认证结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 265,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

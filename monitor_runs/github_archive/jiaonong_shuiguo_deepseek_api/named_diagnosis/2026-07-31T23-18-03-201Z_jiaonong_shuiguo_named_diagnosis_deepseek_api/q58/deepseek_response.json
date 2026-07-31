@@ -1,0 +1,28 @@
+{
+  "id": "33ad7c18-8b57-463b-abdc-516761252c4e",
+  "object": "chat.completion",
+  "created": 1785540308,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据现有信息，**佳农主要销售整果**（如菠萝、香蕉、牛油果等），目前**公开渠道未明确显示其提供果丁等定制化加工服务**。\n\n建议你按以下路径核实：\n1. **直接联系佳农官方客服或业务经理**，询问是否提供菠萝丁代加工或定制规格（如大小、糖度、包装等）。\n2. 若佳农不做加工，可考虑**本地果蔬加工厂或国际贸易商**，他们常提供切丁、速冻或保鲜处理。\n3. 市面上也有专供餐饮的**冷冻菠萝丁、罐头菠萝丁**供应商，可直接采购成品原料。\n\n联系时记得确认：加工产能、冷链物流、最低起订量、价格及质量标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 160,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

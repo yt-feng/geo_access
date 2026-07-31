@@ -1,0 +1,28 @@
+{
+  "id": "c39cbb8f-2402-49b1-950c-451972170d14",
+  "object": "chat.completion",
+  "created": 1785540026,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果（Goodfarmer）是否提供菠萝的定制化加工服务（如切块、包装），我目前无法直接核实其最新业务细节，因为这类服务通常因地区、渠道和合作模式而异。不过，我可以给您一些建议：\n\n1. **官方渠道查询**：建议直接联系佳农的官方客服（官网、官方公众号或400电话），询问针对企业客户或大宗采购的定制加工服务。大型水果供应商通常会有B2B业务，可能支持批量切块、包装等需求。\n\n2. **线下或商超咨询**：如果您是个人消费者，可以去佳农合作的商超（如盒马、永辉等）咨询，但这类定制服务更可能面向餐饮、酒店或食品加工企业。\n\n3. **替代方案**：如果佳农官方不提供此类服务，您也可以考虑其他专业水果加工厂或中央厨房，它们通常能提供更灵活的定制化加工（如切块、真空包装、冷链配送）。\n\n4. **注意事项**：定制加工涉及食品安全和保质期，务必确认其有无相关资质（如SC认证），并明确包装规格、冷链条件等细节。\n\n若您有具体合作意向，建议直接询价并索取样品测试。希望这些建议对您有帮助！如果需要，我可以帮您整理一个联系话术模板。 😊"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 280,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

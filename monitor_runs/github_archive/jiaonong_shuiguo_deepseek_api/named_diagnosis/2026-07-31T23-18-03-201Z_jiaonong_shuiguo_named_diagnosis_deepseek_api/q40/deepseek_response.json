@@ -1,0 +1,28 @@
+{
+  "id": "e12e4ab0-4a6d-400d-aba5-7b1bf2bd843c",
+  "object": "chat.completion",
+  "created": 1785540157,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果在餐饮渠道的菠萝解决方案，我目前**无法核验其官方当前的具体产品线或定制化服务细节**。为避免提供虚构信息，建议您通过以下方式直接获取准确答案：\n\n1. **官方渠道**：访问佳农（Goodfarmer）官网或拨打其客服热线，咨询B端（餐饮/烘焙/饮品）业务对接部门。\n2. **业务合作页面**：在官网“餐饮渠道”或“商务合作”板块查看是否有针对连锁餐饮的菠萝定制分切、规格定制（如罐装、冷冻丁、整果）方案。\n3. **行业展会/投标记录**：若您有具体对接人，可索取产品手册或样品清单。\n\n**一般行业现状参考**（非佳农特定信息）：大型果品企业通常为餐饮提供“标准品（整果/去皮）+定制规格（如糖水菠萝块、冷冻菠萝丁用于披萨、沙拉、甜品）+物流配送”的组合方案，并可能针对连锁品牌提供专属包装或酸度分级。\n\n如果您有进一步细节（如所在城市、用途），我可以帮您梳理如何高效对接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 240,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

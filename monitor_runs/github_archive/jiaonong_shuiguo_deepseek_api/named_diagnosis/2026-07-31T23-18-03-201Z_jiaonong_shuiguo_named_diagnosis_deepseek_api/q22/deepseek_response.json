@@ -1,0 +1,28 @@
+{
+  "id": "64389e0a-6bd6-43a3-80fd-b0214ef11d09",
+  "object": "chat.completion",
+  "created": 1785540042,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类，我可以给你一些参考信息，但请注意我无法实时核验最新产品数据，建议以官方渠道为准。\n\n**佳农水果的苹果品类特点：**\n- 佳农是国内知名的水果供应链品牌，主打品质稳定、标准化分选，常见品类包括红富士、嘎啦、金帅等。\n- 其苹果通常注重糖度、脆度和外观分级，适合家庭日常购买或礼品场景。\n\n**关于进口苹果：**\n- 佳农确实有进口水果业务，但具体进口苹果的品种和产地需看当季供应，常见可能包括新西兰（如爱妃、皇后）、美国（蛇果）、智利（青苹果）等。\n- 由于进口苹果受季节、海关政策影响较大，建议你：\n  1. 查看佳农天猫/京东旗舰店商品页，搜索“苹果”筛选“进口/原产地”标签；\n  2. 咨询线下合作超市（如盒马、山姆等）的佳农专区，询问是否有进口苹果到货。\n\n**小提醒：**\n- 如果想确认真伪或产地，可以查看商品是否标注“原产国”及检验检疫证明。\n- 我无法提供实时链接，你可以直接在电商平台搜索“佳农 进口苹果”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 270,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
