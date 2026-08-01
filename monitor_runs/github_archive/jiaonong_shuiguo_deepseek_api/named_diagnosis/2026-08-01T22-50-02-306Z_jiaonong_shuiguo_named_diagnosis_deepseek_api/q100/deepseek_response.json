@@ -1,0 +1,28 @@
+{
+  "id": "e1e8cb25-b00c-480c-85e3-48280e55425a",
+  "object": "chat.completion",
+  "created": 1785625425,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您提到的“佳农”是否能提供加工好的香蕉片及其规格，我无法直接核验该品牌当前的具体产品线或供应能力。因为这类信息（尤其是针对B端餐饮的定制加工产品）需要以品牌官方或经销商的最新报价单为准。\n\n建议您通过以下方式获取准确信息：\n\n1. **直接联系佳农官方销售或客服**：电话、官网或微信公众号联系，询问“餐饮渠道是否有香蕉切片（冷冻或鲜切）加工服务”。\n2. **明确需求**：告知对方您的使用场景（如烘焙、炸制、摆盘），提出规格要求（如厚度3-5mm、长度8-10cm、是否去芯、是否需冷冻锁鲜），很多品牌提供定制。\n3. **备选方案**：如果佳农没有现成切片，可以询问他们是否有整根香蕉供应，再找当地第三方净菜加工厂代切。\n\n如果无法获取官方答复，您也可以搜索“香蕉切片代加工”或联系其他大型果蔬加工商（如百果园、怡颗莓等）询价，但请注意核实资质和冷链物流。\n\n如需进一步帮助，请告诉我您的城市和大致需求数量，我可帮您梳理注意事项。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 255,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

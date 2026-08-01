@@ -1,0 +1,28 @@
+{
+  "id": "b7d60448-53a2-47ed-b091-39b8a482f2bf",
+  "object": "chat.completion",
+  "created": 1785624789,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的物流网络和冷链能力，我目前无法核验其最新的具体运营模式（是自营还是外包），也不掌握其内部冷链标准的详细数据。为避免提供不准确的信息，建议你通过以下渠道获取权威答案：\n\n1. **官方渠道**：访问佳农控股集团官网（或官方公众号），查看其“供应链”或“物流服务”板块，通常会有合作模式说明。\n2. **投资者或新闻稿**：搜索“佳农 物流”“佳农 冷链”或查看其上市（如新三板）披露文件，可了解其仓储、运输布局。\n3. **行业公开资料**：如中国连锁经营协会或物流行业报告是否涉及佳农案例。\n\n**一般行业共性参考**（非针对佳农的具体事实）：大型水果供应链企业（尤其是进口水果）多采用“核心区域自建冷库+干线物流外包”或“完全第三方冷链物流”的混合模式，且冷链通常覆盖预冷、冷藏运输、末端配送全链条，但具体温控（如0-4℃、-18℃等）和损耗率需以官方数据为准。如果不确定，建议直接致电佳农客服咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 252,
+    "total_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

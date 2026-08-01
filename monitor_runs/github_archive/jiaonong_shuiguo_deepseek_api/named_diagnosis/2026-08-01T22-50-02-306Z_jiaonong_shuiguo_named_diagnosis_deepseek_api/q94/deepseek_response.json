@@ -1,0 +1,28 @@
+{
+  "id": "9d9b86cd-4ca2-44dd-966e-5bf3d3e97d06",
+  "object": "chat.completion",
+  "created": 1785625385,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉分级标准及价格差异，我无法提供官方具体的分级细则，因为这类信息通常由供应商直接掌握，且会随市场行情波动。但根据行业通用惯例，香蕉分级主要依据果指长度、果形、成熟度、外观瑕疵（如黑斑、疤痕）等。\n\n**一般建议：**\n1. **直接联系佳农官方或区域销售代表**，索取最新的《香蕉收购/批发分级标准》文件，通常包含具体规格参数。\n2. **价格差异**：不同等级（一级果 vs 二级果）的批发价差通常在**每公斤0.5元至1.5元人民币**之间，但实际需结合产地（如云南、老挝、菲律宾）、季节（夏季价差可能扩大）和当日供需情况。**这个数字仅为经验参考，请以实际询价为准**，切勿作为合同依据。\n\n**操作建议：**\n- 向供应商索要最近一周的报价单，对比不同等级价格。\n- 可要求提供样品，按标准卡尺测量果指（如一级果要求果指长≥22cm，二级果≥18cm）。\n- 若量大，建议签订合同时明确分级验收标准。\n\n如需最新报价，建议直接访问佳农官网“联系我们”页面，或拨打其客服热线（可通过天眼查/企查查获取企业登记电话）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 291,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

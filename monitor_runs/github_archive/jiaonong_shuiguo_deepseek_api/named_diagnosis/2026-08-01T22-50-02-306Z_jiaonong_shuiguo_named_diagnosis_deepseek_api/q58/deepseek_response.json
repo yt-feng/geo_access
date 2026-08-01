@@ -1,0 +1,28 @@
+{
+  "id": "80cebb01-dd83-4494-a9e3-8d2205bfbbca",
+  "object": "chat.completion",
+  "created": 1785625080,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Joyvio）是否提供菠萝丁加工服务，我无法直接核实其当前的业务范围。但根据一般行业情况，大型水果供应商（如佳农）通常以整果销售为主，同时可能提供定制化加工服务（如去皮、切丁、包装），具体需看其与客户签订的合同或工厂产能。\n\n**建议您直接采取以下可执行步骤：**\n\n1. **拨打佳农官方客服电话**（可通过其官网或电商平台旗舰店获取），明确询问“菠萝丁定制加工服务”是否支持，以及最小起订量、规格（如丁的大小、是否预冷、包装形式）和交货周期。\n2. **联系其B端销售团队**：如果是连锁茶饮店，通常佳农设有餐饮渠道负责人，可直接对接，询问能否按需分切或委托其OEM工厂加工。\n3. **备选方案**：如果佳农不支持，可考虑：\n   - 联系当地水果加工厂（如海南、广东产区的菠萝加工企业）代加工；\n   - 采购整果后自行切丁，或找第三方中央厨房代加工。\n\n请以佳农官方回复为准，切勿轻信网上二手信息。如果需要，我可以帮你梳理一份与供应商沟通时的需求清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 266,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

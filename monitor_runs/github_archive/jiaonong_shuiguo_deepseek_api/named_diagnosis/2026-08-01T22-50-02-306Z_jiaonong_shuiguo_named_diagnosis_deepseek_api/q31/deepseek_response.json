@@ -1,0 +1,28 @@
+{
+  "id": "228c8d19-5ef5-4eec-8092-bdad6bc36d42",
+  "object": "chat.completion",
+  "created": 1785624849,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开信息中，**佳农（Goodfarmer）** 确实有水果产品线，并且主要面向商超、线上生鲜平台及企业客户。关于**礼品团购（如企业节日福利、商务馈赠、批量采购）**，佳农官方渠道通常支持定制礼盒或批量采购。\n\n**可操作建议：**\n1. **直接联系官方**：访问“佳农Goodfarmer”官网或微信公众号，通常在“联系我们”板块能找到**批发/团购/企业商务合作**的专线或表单。这是最可靠的核实方式。\n2. **电商平台查询**：在京东、天猫等平台的“佳农旗舰店”，搜索“礼盒”或“团购”关键词，部分店铺会挂出团购客服二维码或专拍链接。\n3. **定制服务**：如果你需要的量较大（例如几十盒以上），佳农一般支持按预算搭配水果（如进口车厘子、蓝莓、苹果、香蕉等混搭），并可在包装上印企业LOGO（注意：**印刷LOGO通常有最低起订量要求**，建议提前问清起订量和工期）。\n\n**温馨提示**：由于水果礼盒的供货、规格和价格随季节波动，具体库存和方案请以官方最新回复为准，避免依赖过时效的第三方信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 280,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

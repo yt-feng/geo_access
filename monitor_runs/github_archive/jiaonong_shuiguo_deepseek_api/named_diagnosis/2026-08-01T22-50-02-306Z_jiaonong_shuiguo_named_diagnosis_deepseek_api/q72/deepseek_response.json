@@ -1,0 +1,28 @@
+{
+  "id": "cb6a710f-1a39-4037-b4e3-04428b084d50",
+  "object": "chat.completion",
+  "created": 1785625191,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）是否提供菠萝去皮、切块等加工服务，**目前公开信息中无法确认**。\n\n**建议你直接联系佳农的官方渠道（官网、客服电话或对接的业务经理）**，询问：\n1. 是否有针对餐饮/茶饮客户的B端加工服务（如去皮、切块、切丁、冷冻包装等）。\n2. 是否有最小起订量（MOQ）、加工规格（如块的大小、糖度要求）和冷链配送方案。\n\n如果佳农不提供现场加工，你可以考虑：\n- **自行采购后内部加工**：购买去皮机或切丁机，降低人工损耗。\n- **寻找第三方代工厂**：在当地找具备SC资质的果蔬分切厂，将整果委托加工成标准规格的冷冻或冷藏果丁。\n- **采购预制原料**：直接采购市面上已有的冷冻/冷藏菠萝丁（如都乐、百果园供应链等），虽然成本可能略高，但省时省力。\n\n**提醒**：茶饮使用菠萝需注意去皮后的氧化褐变和口感稳定性，建议要求供应商提供**糖度检测报告**和**农残检测报告**，确保品控。如果涉及加盟或连锁，建议先做小批量试产验证口感后再大规模铺开。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 273,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

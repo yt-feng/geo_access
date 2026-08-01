@@ -1,0 +1,28 @@
+{
+  "id": "a3cbfb42-d57f-4ffd-9fa9-59757246ea35",
+  "object": "chat.completion",
+  "created": 1785625398,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（Goodfarmer）是否提供开放API平台，**目前没有公开的、面向所有开发者的开放平台**。根据公开信息，佳农主要面向B端客户（如商超、电商平台）进行大宗供货或供应链合作，其数据对接通常需要**商务合作洽谈**后，由对方提供专属接口或通过ERP/EDI系统（如SAP、用友、金蝶）进行对接。\n\n**建议你按以下顺序操作：**\n\n1. **直接联系佳农官方**  \n   - 通过其官网（www.goodfarmer.com）找到“商务合作”或“大客户部”联系方式。\n   - 说明你是生鲜电商，需要对接商品、库存、订单、物流等数据，询问是否提供API或数据交换方案。\n\n2. **确认合作模式**  \n   - 如果对方支持，通常会提供**私有API文档**，并约定签名、加密、限流等规范。\n   - 若没有API，可能提供**CSV/Excel文件上传**或**FTP/SFTP数据同步**方式，需人工或定时任务处理。\n\n3. **咨询第三方数据服务商**  \n   - 部分供应链SaaS平台（如观麦、蔬东坡、食配通）已对接佳农等上游供应商，可购买其标准接口服务，避免自行开发对接。\n\n4. **技术备选方案**  \n   - 若无法获得API，可考虑通过爬虫抓取佳农官网公开商品信息（注意合规风险），但不建议作为正式业务依赖。\n\n**重要提醒：** 我没有佳农的官方API文档，也无法提供其内部接口说明。请务必通过商务渠道获取官方文档，避免采用来路不明的非官方接口。\n\n如果你有具体的对接需求（如字段、频率、数据量），可以进一步告知，我可以协助你整理技术方案或准备商务沟通话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 400,
+    "total_tokens": 461,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
