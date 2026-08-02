@@ -1,0 +1,28 @@
+{
+  "id": "b22c70af-3e0c-40b0-bdd3-93c0c9abe6a2",
+  "object": "chat.completion",
+  "created": 1785710140,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "提到进口香蕉，目前市场上比较常见且有稳定供货的主要是**都乐（Dole）**和**金吉达（Chiquita）**，另外还有**佳农（Goodfarmer）**和**波邦（Bonita）**。\n\n针对你的情况（一直在做佳沛奇异果），给你几个具体的参考建议：\n\n1.  **都乐（Dole）**：在南美香蕉（厄瓜多尔、菲律宾产区）上深耕渠道很久，供应稳定，品质分级清晰，对商超和新零售的适配度高。如果你们现有渠道接受度高，优先建议试这个。\n2.  **金吉达（Chiquita）**：老牌美资品牌，口感甜糯，供应链成熟，很多高端精品超市在用，溢价空间相对好谈。\n3.  **佳农（Goodfarmer）**：国产头部水果商，主做东南亚产香蕉（菲律宾、柬埔寨），价格有竞争力，适合走量。\n4.  **波邦（Bonita）**：主打高性价比，适合做传统批发渠道或社区团购。\n\n**实操建议：**\n- 香蕉不同于奇异果，**后熟管理**很关键，到货后要关注催熟库的能力，选品牌前先确认你们能对接催熟环节。\n- 如果你们已经有新零售或线上渠道，可以优先试**都乐**，因为他们对生鲜电商的损耗扶持政策通常更灵活。\n- 建议首批少量采购试单（比如一个托盘），对比一下到货成熟度和糖度，再谈长期合同。\n\n需要我帮你列一下这几个品牌各自的签约门槛或典型规格（如5Kg装还是18kg装）吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 354,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
