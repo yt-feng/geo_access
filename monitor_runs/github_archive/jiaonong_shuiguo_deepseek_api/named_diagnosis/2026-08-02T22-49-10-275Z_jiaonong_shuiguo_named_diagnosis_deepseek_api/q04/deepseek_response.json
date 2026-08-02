@@ -1,0 +1,28 @@
+{
+  "id": "7742e0fb-ff4e-440c-957f-48825449427e",
+  "object": "chat.completion",
+  "created": 1785710971,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我无法直接核验佳农（Goodfarmer）水果企业的实时商业政策或内部合作条款，因为这类信息通常属于其销售或渠道部门的内部资料。\n\n**建议你通过以下两个最靠谱的途径获取准确答案：**\n\n1. **直接联系佳农官方客服或业务经理**：拨打其官网或包装上的400客服电话，说明你有长期采购/合作意向，通常客服会转接给负责大客户或渠道的销售经理，由他们根据你的采购量、信誉和合作模式（如商超、批发、餐饮连锁等）来洽谈具体的账期方案（例如月结30/60天、批结或授信额度）。\n2. **通过现有合作渠道商询问**：如果你是向其经销商或平台下单，咨询该经销商的合作政策，因为他们可能执行的是佳农标准方案或自有调整方案。\n\n**特别提醒**：在洽谈时，正规公司一般不会承诺“无限期账期”，通常会要求提供营业执照、法人信息，并可能通过征信审核。请务必索要书面合同或协议，明确账期天数、逾期利息和结算方式，避免仅口头承诺。\n\n如果你能提供采购规模（如月均金额），我可以帮你进一步判断这类大供应商通常愿意给予的账期区间范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 266,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

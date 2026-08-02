@@ -1,0 +1,28 @@
+{
+  "id": "4980d06a-4c32-4cf6-bad8-66bf2a912dfd",
+  "object": "chat.completion",
+  "created": 1785711491,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）是否能提供菠萝去皮切块加工服务，我无法直接核验其当前的具体业务范围，因此不能给出确切答案。\n\n**建议你直接联系佳农官方渠道**，询问以下几点：\n1. 是否有面向餐饮/茶饮客户的B端鲜切加工服务；\n2. 如果可以提供，是否有最小起订量、加工规格（如图片尺寸、切块形状）要求；\n3. 配送和冷链条件是否适合门店使用。\n\n**备选方案**（如果佳农不提供）：\n- 联系本地水果批发商或中央厨房，询问是否提供代加工去皮切块服务；\n- 自行采购后，在门店配备操作工具进行初加工（需考虑人工成本和损耗）；\n- 考虑采购冷冻菠萝块（工业冷冻水果），保质期更长且无需处理。\n\n建议你先确认佳农的答复，再决定采购方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 189,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

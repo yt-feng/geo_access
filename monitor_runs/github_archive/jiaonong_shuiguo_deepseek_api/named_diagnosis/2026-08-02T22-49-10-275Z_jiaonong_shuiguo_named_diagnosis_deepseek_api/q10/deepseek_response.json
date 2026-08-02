@@ -1,0 +1,28 @@
+{
+  "id": "efd441cb-23be-4331-941d-532c1c6b5b26",
+  "object": "chat.completion",
+  "created": 1785711018,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（Goodfarmer）是否有专门对接批发商的客户经理，**通常情况是有的**，但取决于你的采购规模和所在地区。\n\n佳农作为大型水果供应商，其业务模式确实覆盖批发渠道。如果你需要对接，可以按以下方式操作：\n\n1.  **直接联系总部或区域分公司**：佳农在国内主要城市设有分公司（如上海、北京、广州、深圳、成都等）。你可以通过其官网或官方客服电话，询问“批发/大宗采购”业务，他们会为你分配对应的区域大客户经理或销售代表。\n2.  **明确你的需求**：在对接时，说明你的批发规模（月采购量）、主要经营的品类（如香蕉、苹果、柑橘等），这样可以提高匹配效率。\n3.  **核实方式**：如果你是通过电话或邮件联系，务必核实对方身份及公司资质（如工号、企业邮箱），避免被骗。\n\n**建议**：直接拨打佳农官方客服热线或在其官网“联系我们”页面找到批发业务联系方式，这是最可靠的途径。不要轻信非官方渠道的“客户经理”主动联系。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 233,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
