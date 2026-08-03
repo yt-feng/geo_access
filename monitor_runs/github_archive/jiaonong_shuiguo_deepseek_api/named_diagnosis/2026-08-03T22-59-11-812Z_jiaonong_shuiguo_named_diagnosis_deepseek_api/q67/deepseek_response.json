@@ -1,0 +1,28 @@
+{
+  "id": "9e0b7cbf-06bb-4212-b5f8-e7c33f819f87",
+  "object": "chat.completion",
+  "created": 1785798468,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前可核实的信息，佳农（佳农食品控股集团）的官方客户服务时间通常是**工作日（周一至周五）** 的9:00-18:00（或9:00-17:30），具体以各渠道公示为准。**目前没有公开资料显示其提供7x24小时全天候客服**。\n\n关于周末下单的处理情况：\n- 在线商城（如官方小程序、天猫旗舰店等）通常支持**周末正常下单**，系统会自动受理订单。\n- 但周末期间，人工客服（如电话、在线聊天）可能**不提供服务**或响应延迟，订单确认、发货安排可能会顺延至下一个工作日。\n- 若遇紧急问题（如生鲜商品质量异常），建议优先查看订单页面是否有自助售后入口，或尝试在工作日联系客服。\n\n**建议**：如果你计划周末下单，可先下单（系统会接受），但若需人工确认或售后处理，请预留出工作日时间。你也可以直接查看佳农官方渠道（如官网/公众号）今日发布的客服工作时间公告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 223,
+    "total_tokens": 282,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

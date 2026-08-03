@@ -1,0 +1,28 @@
+{
+  "id": "af9cd7ae-0968-432e-8f67-22dabfb5ea74",
+  "object": "chat.completion",
+  "created": 1785798356,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的团购定制，以下信息基于行业常见规则供你参考（**具体以佳农官方或经销商最新政策为准**）：\n\n1. **最小起订量**：  \n   - 常规礼盒（如普通混装或单品）通常**起订量为30-50份**，具体视款式和季节水果供应情况而定。  \n   - 如果涉及**专属包装设计、特殊水果搭配或节日定制**，起订量可能提升至**100份以上**，且需要提前15-30天预定。\n\n2. **印logo服务**：  \n   - **支持定制**，可以在礼盒外包装（如彩盒、手提袋）或水果贴标上印制公司logo。  \n   - 但需注意：水果本身不能印logo，除非采用可食用贴纸（部分高端礼盒可选），且需要额外费用。  \n\n3. **建议下一步**：  \n   - 直接联系佳农官方团购热线或当地经销商，告知具体需求（礼盒规格、水果品类、数量、交期），获取正式报价和样品。  \n   - 若需要，我可以帮你查找佳农官网或公开招商电话（但不会虚构链接，请以官方渠道为准）。  \n\n⚠️ 提示：不同区域、不同时间（如节假日）政策可能有差异，务必以销售合同中的条款为最终依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 293,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

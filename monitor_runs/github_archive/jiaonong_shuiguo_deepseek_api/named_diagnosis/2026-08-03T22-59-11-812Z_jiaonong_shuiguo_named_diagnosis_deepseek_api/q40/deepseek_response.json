@@ -1,0 +1,28 @@
+{
+  "id": "69595eb6-0ece-4162-9c3e-0df528ba5ecc",
+  "object": "chat.completion",
+  "created": 1785798246,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）作为国内头部水果供应链企业，确实有面向餐饮渠道的菠萝产品线。针对餐饮客户，他们的方案通常包含以下几个方向：\n\n1. **定制化规格**：针对餐饮后厨，他们提供不同熟度（如7分熟、9分熟）和不同切分形态（整果、去皮去心果肉、切块）的菠萝，便于后厨直接使用，减少损耗。\n2. **稳定供应**：依托东南亚（如菲律宾）及国内（海南、湛江）种植基地，保障全年稳定供货，解决餐饮行业“反季缺货”痛点。\n3. **应用解决方案**：提供从菠萝咕咾肉、菠萝炒饭到甜品饮品的标准化适用建议，部分大客户会有联合研发团队支持。\n\n**如何确认？**  \n由于企业政策会动态调整，建议你直接通过以下方式获取官方一手信息：\n- 拨打佳农官方客服热线（官网可查）或联系其 **B2B/餐饮渠道业务部**。\n- 访问其官网或关注“佳农食品”官方公众号，查找“餐饮服务”或“大客户”板块。\n\n如果只是小批量采购或不是连锁餐饮，他们可能更倾向于通过区域经销商供货，建议直接咨询当地经销商获取具体产品和报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 275,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "79a20108-8122-4148-8e05-68efad7bd10e",
+  "object": "chat.completion",
+  "created": 1785798589,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！针对您便利店面积小、想上架佳农水果的需求，建议如下：\n\n1. **关于3kg装香蕉**：  \n   佳农（Goodfarmer）常规的香蕉主要规格是**4kg/箱**（约15-18根），**3kg**规格较少见于官方常规渠道。但您可以直接联系当地经销商或佳农官方客服，询问是否有**3kg定制装**或**小规格试销装**，部分区域市场可能会有。\n\n2. **更适合便利店的批量建议**：  \n   - **小包装散称**：进常规4kg箱后，按**1-2根/袋**用保鲜袋现卖，既减少损耗又方便顾客即买即走。  \n   - **关注组合装**：佳农也有**1kg-2kg**的小箱蓝莓、小番茄、牛油果等适合小店。  \n   - **考虑产地直采替代**：若3kg拿不到，可询问附近水果批发市场的佳农代理，看是否可以拼单或分装。\n\n3. **执行提醒**：  \n   - 先电话确认当地**佳农城市代理**或**经销商电话**（可上佳农官网查区域联系方式），直接问“有没有3kg装或更小包装”。  \n   - 若没有，建议先上**4kg装**，拆箱按份卖，并配合“今日特价”促销，避免积压。\n\n如果您需要，我也可以帮您整理一份**给经销商打电话时的询价话术**，方便您快速沟通。需要吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 335,
+    "total_tokens": 400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

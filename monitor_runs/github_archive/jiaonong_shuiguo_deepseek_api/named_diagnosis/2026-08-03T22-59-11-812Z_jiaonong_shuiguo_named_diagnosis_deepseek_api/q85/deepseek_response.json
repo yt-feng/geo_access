@@ -1,0 +1,28 @@
+{
+  "id": "3cc29bc9-e63c-4aef-aa54-cd8594f9ae95",
+  "object": "chat.completion",
+  "created": 1785798624,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Goodfarmer）是否能提供专车配送和专人对接，我无法直接核实其具体业务政策或合同细节，因为这类信息通常需要与供应商直接确认。不过，我可以给您一些实用建议：\n\n1. **查询官方渠道**：建议直接联系佳农的官方客服或销售团队（官网、电话或线下办事处），询问他们针对连锁餐饮客户是否有专车配送服务、专属客户经理等定制化支持。\n2. **明确需求谈判**：在对接时，主动说明贵司的采购量、配送频次、冷链要求等，大型供应商通常可以谈“专车+专人”方案，但可能需要达到一定订单规模或签长期合同。\n3. **备选方案**：如果佳农无法满足，也可考虑本地批发市场、其他大型水果供应链（如鑫荣懋、百果园等），或与佳农协商“拼车配送+线上对接”的替代方案。\n\n如果您需要，我可以帮您梳理一份“供应商谈判清单”，包含冷链、损耗责任、价格锁定等关键条款。需要的话请告诉我！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 230,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2137f88a-c45a-437e-90cc-00b39118f1c3",
+  "object": "chat.completion",
+  "created": 1785798055,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的产地直供比例，目前没有公开的官方数据可供核验，因此无法给出具体数字。但佳农作为国内知名的水果供应链企业，通常以“产地直采”为宣传点，尤其在其核心品类（如香蕉、菠萝等）上，直供比例可能相对较高。\n\n至于香蕉的主要来源国家，佳农的香蕉采购基地主要集中在**菲律宾**和**厄瓜多尔**。此外，根据其业务布局，也可能涉及**柬埔寨**或**越南**等东南亚国家，但菲律宾和厄瓜多尔是其长期稳定合作的核心产区。如果需要更精确的信息，建议直接查阅佳农官方发布的产地报告或联系其客服确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 143,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

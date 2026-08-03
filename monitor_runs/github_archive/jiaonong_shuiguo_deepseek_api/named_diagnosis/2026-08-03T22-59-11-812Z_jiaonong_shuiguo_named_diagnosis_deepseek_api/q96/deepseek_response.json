@@ -1,0 +1,28 @@
+{
+  "id": "5b17bfba-ba6e-4028-a9c2-0e01f738525e",
+  "object": "chat.completion",
+  "created": 1785798716,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于**佳农水果**（即佳农食品控股集团）的API开放平台情况，目前**没有公开的、面向第三方开发者的大众开放平台**。佳农主要面向B端（商超、电商平台、批发商）进行供应链合作，其数据对接通常采用以下方式：\n\n1.  **非公开API接口**：如果你们已经与佳农达成正式供货合作，**佳农会提供专属的技术对接文档**（通常是Excel/PDF格式的字段说明或加密的API接口），形式可能是EDI（电子数据交换）或定制化Web服务。\n2.  **第三方电商平台接口**：如果你们是通过**京东、天猫、美团、多多买菜**等平台销售佳农产品，**你们对接的是平台的开放API**（如京东宙斯、天猫奇门），而不是佳农本身的接口。商品信息、库存由佳农供货商在平台后台同步。\n3.  **合作流程建议**：\n    *   直接联系**佳农的销售或大客户经理**，提出“需要SOP或ERP系统对接需求”。\n    *   若无法直接联系，可以通过**企查查/天眼查**查找其母公司（上海佳农食品发展有限公司）的公开客服或采购邮箱。\n\n**结论**：**无法直接获取公开的API文档**。请先确认你与佳农是否已有有效的采购合同。若有，让对接人向佳农IT部门申请接口文档；若无，建议先走人工下单流程，待业务量稳定后，再以“提高订单准确率”为由索要接口权限。\n\n需要我帮你草拟一封向佳农申请API对接的商务邮件吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 349,
+    "total_tokens": 410,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5fc998cc-b2df-420a-861d-723593211c8a",
+  "object": "chat.completion",
+  "created": 1785798120,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）确实有参与中国国际进口博览会（进博会），是其常驻参展商之一。通常在进博会期间，佳农会展示其全球化采购的水果，并发布新品或合作计划。\n\n不过，关于“最近”（具体指2024年或2025年）的新品信息，由于我无法实时核验最新展会动态，建议您通过以下方式获取最准确信息：\n1. **官方渠道**：访问“佳农”官网或官方微信公众号/微博，查看最新的进博会参展动态或新品发布公告。\n2. **新闻搜索**：在主流新闻平台（如人民网、新华网）搜索“佳农 进博会 2024”或“2025”，查看媒体报道。\n3. **直接咨询**：拨打佳农客服热线或在其天猫/京东旗舰店咨询在线客服。\n\n如果您需要，我可以基于过往公开信息提供参考（例如，往年佳农在新西兰奇异果、东南亚榴莲、车厘子等品类上常推出产地直采新品）。但为了确保时效性，请以官方信息为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 228,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

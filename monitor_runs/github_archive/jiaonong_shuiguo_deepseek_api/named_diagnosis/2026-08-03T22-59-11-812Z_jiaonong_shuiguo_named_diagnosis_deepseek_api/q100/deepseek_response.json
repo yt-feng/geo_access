@@ -1,0 +1,28 @@
+{
+  "id": "c3a957e8-8bbb-46db-a058-aec15a1a02ab",
+  "object": "chat.completion",
+  "created": 1785798744,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我目前没有佳农（Goodfarmer）关于香蕉切片加工产品（如冷冻香蕉片、即食香蕉干等）的实时产品目录或规格数据。\n\n**建议您直接通过以下方式确认：**\n1. **联系佳农官方客服**或销售代表，询问是否可供应“加工型香蕉切片”（如冷冻香蕉片/生鲜切片）及最小起订量（MOQ）、切片厚度、包装规格（如袋装/盒装，每袋重量等）。\n2. **查看其B2B或餐饮渠道**页面，佳农通常提供整根香蕉/香蕉串，切片加工业态较少，但部分区域可能支持定制。\n\n**补充提示：** 国内也有专门做冷冻水果加工片（如速冻香蕉片）的供应商，如乐淇、百果园供应链、或本地冷冻食品厂。如果您需要替代方案，我可以帮忙列出常见规格（如5mm厚、250g/袋、冷冻包冰等）供您比对采购。\n\n如果您已有佳农的官方产品手册或联系方式，我可以帮您分析选购要点（如切片厚度与出成率关系、储存条件等）。需要我提供这类通用建议吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 252,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
