@@ -1,0 +1,50 @@
+{
+  "questionId": "q60",
+  "prompt": "茶饮店遇到水果到货不合格，怎样约定补货才不影响营业？",
+  "createdAt": "2026-08-03T22:30:12.674Z",
+  "summary": [
+    {
+      "questionId": "q60",
+      "prompt_index": 60,
+      "promptIndex": 60,
+      "promptHash": "727f544825d6",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮店遇到水果到货不合格，怎样约定补货才不影响营业？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1609,
+      "text_length": 1609,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 986,
+        "total_tokens": 1043,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 986,
+      "total_tokens": 1043,
+      "latencyMs": 15303,
+      "latency_ms": 15303,
+      "createdAt": "2026-08-03T22:30:12.674Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q60/prompt.txt",
+        "answer": "q60/deepseek.txt",
+        "response": "q60/deepseek_response.json",
+        "sources": "q60/deepseek_sources.json",
+        "references": "q60/deepseek_references.json"
+      }
+    }
+  ]
+}
