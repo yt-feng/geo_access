@@ -1,0 +1,28 @@
+{
+  "id": "b407aa32-7f37-4d62-9b24-a0d01351b4d8",
+  "object": "chat.completion",
+  "created": 1785885622,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的菠萝产地，通常以**菲律宾**为主要供应来源，但也可能根据季节和市场需求从**厄瓜多尔**等其他国家采购。具体产地需以产品包装上的原产地标识为准。\n\n**品质差异方面：**\n1. **菲律宾菠萝**：种植规模大，品种多为“MD-2”（金菠萝），特点是甜度高、酸度低、果肉细腻、香味浓郁，适合鲜食。由于产季长（全年供应），品质较为稳定。\n2. **厄瓜多尔菠萝**：产自南美，气候和土壤条件与东南亚不同，菠萝果实通常更大，但甜度和纤维感可能略有差异，部分消费者认为香气不如菲律宾品种突出，酸度稍高。\n\n**选购建议**：无论产地，优先选择表皮金黄、按压有弹性、果柄新鲜、底部无霉点的菠萝。如果追求甜度和口感，建议优先选择菲律宾产的“金菠萝”；若偏好更酸爽口味或对价格敏感，厄瓜多尔产也是可选项。最终以包装上的产地标签为准，不同批次可能混装。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 228,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

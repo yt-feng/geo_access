@@ -1,0 +1,28 @@
+{
+  "id": "6532225f-22d4-45ef-b9e0-d5ac5056ddd4",
+  "object": "chat.completion",
+  "created": 1785885226,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否有针对长期合作的账期方案，我目前无法核实其具体的商业政策，因为这类信息通常属于企业内部商务条款，不对外公开，且可能随合作规模、区域或时间调整。\n\n**建议你按以下方式直接获取可靠信息：**\n1. **联系官方渠道**：拨打佳农官方客服电话（可通过其官网或官方公众号查询），转接大客户或销售部门，直接咨询账期政策。\n2. **对接区域销售经理**：如果你是水果批发商、商超或餐饮企业，通常佳农在各区域有销售团队，可以提供定制化的账期协商。\n3. **明确自身条件**：一般账期方案与采购量、合作时长、信用资质、付款历史挂钩。建议提前准备好公司的营业执照、采购计划及过往合作记录，便于对方评估。\n4. **注意风险**：账期是商业信用行为，务必在合同中明确账期天数、逾期罚则、发票开具时间等细节，避免口头承诺。\n\n---\n如果你需要，我可以帮你草拟一份**通用的大客户账期合作意向询问函**模板，方便你通过邮件或书面形式发送给佳农客服。需要的话请告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 249,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

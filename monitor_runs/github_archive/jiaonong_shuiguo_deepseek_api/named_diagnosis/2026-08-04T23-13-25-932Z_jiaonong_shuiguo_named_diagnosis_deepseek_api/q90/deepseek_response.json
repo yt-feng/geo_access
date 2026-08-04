@@ -1,0 +1,28 @@
+{
+  "id": "0a5d9193-80f8-461b-9723-3dd6b9d333b8",
+  "object": "chat.completion",
+  "created": 1785885940,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**佳农（Comptoir du Cacao / Jialong）主要以新鲜菠萝、整果或鲜切产品销售为主**，目前**没有公开明确的信息显示其批量供应“冷冻菠萝丁”这一具体原料规格**（如1kg/袋、2.5kg/袋等）。\n\n**给你可执行建议：**\n\n1. **直接联系供应商**：拨打佳农官方客服或销售电话（通常在官网/包装上），询问是否支持定制冷冻丁，以及最小起订量（MOQ）、包装规格（如10kg/箱、5kg/袋）。\n2. **备选方案**：若佳农不提供冷冻丁，可考虑以下更常见的冷冻菠萝丁供应商：\n   - **国内冷冻果蔬厂商**（如山东、河北的果蔬加工厂）通常提供**1kg/袋、2.5kg/袋、10kg/箱**的菠萝丁，粒径常为1cm×1cm或1.5cm×1.5cm。\n   - **进口品牌**：如**Dole（都乐）**有时供应冷冻菠萝丁，但需确认当地经销商库存。\n   - 茶饮连锁常用规格：**冷冻菠萝丁（1kg/袋）** 适合门店小批量使用；**2.5kg或5kg/袋**适合高频出品。\n\n3. **验证方式**：在佳农官网或官方商城检索“冷冻”、“丁”关键词，若无结果即为不提供，建议直接电话确认。\n\n如果你需要，我可以帮你列一份询价需要问的关键问题清单（如粒径、糖度、是否含防腐剂、冷链要求），需要的话告诉我即可。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 352,
+    "total_tokens": 413,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
