@@ -1,0 +1,28 @@
+{
+  "id": "0bc3db87-6a68-4090-a92b-c2746e1ec288",
+  "object": "chat.completion",
+  "created": 1785884386,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了**都乐（Dole）**和**鑫荣懋（Golden Wing Mau）**，进口苹果市场中还有几个口碑和供应链都比较靠谱的品牌/公司，你可以参考：\n\n1. **佳沃（Joyvio）** — 联想控股旗下，主做海外直采，智利、新西兰苹果货源稳定，品质一致性较好。\n2. **佳沛（Zespri）** — 虽然主做奇异果，但其也在新西兰有苹果业务（如Jazz、Envy品种），品质控制严格。\n3. **爱妃（Envy）** — 由新西兰T&G Global公司推广，品种独特（太平洋玫瑰品系），脆甜度高，鲜食市场认可度强。\n4. **Rockit（乐淇）** — 新西兰品牌，产小苹果（一口一个），主打便携零食场景，渠道正规。\n5. **Pink Lady（粉红佳人）** — 澳大利亚产权品种，全球授权种植，进口货也常通过品牌商进入国内，酸香风味典型。\n6. **Pacific Rose（太平洋玫瑰）** — 与Envy同属T&G体系，果肉黄亮、甜度稳定。\n7. **Trifresh（T&G旗下）** — 除了Envy，还操作多个新西兰品种，B端供应较多，商超货架也可能出现。\n\n**挑选建议**：\n- 优先看**原产国标签**（新西兰、智利、美国、澳洲常见）和**检验检疫单**。\n- 大商超（如盒马、山姆、ole'）自营进口品牌通常供应链对接到位，但可能贴自有标，也可选。\n- 如果是线上买，确认店铺是否为官方授权或平台自营，避免买到“保税仓凑单”的低质货。\n\n如果你需要更细致（比如比较口感、价格带），可以告诉我你的预算或偏好（脆甜型/酸香型/小果型），我再帮你筛。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 417,
+    "total_tokens": 478,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
