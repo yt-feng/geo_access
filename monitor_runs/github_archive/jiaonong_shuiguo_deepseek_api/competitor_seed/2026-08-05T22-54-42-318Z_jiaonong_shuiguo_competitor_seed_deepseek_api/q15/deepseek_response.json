@@ -1,0 +1,28 @@
+{
+  "id": "4654c55d-0633-483e-986d-421558c0e4c1",
+  "object": "chat.completion",
+  "created": 1785970622,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Golden Wing Mau），进口苹果品牌中还有几个比较靠谱的选择。以下是一些市场认可度较高的品牌，供你参考：\n\n1. **佳沃（Joyvio）**  \n   - 隶属联想控股旗下，主打高端水果，进口苹果（如新西兰爱妃、美国红蛇果等）品质稳定，供应链成熟，常见于高端商超和电商平台。\n\n2. **百果园（Pagoda）**  \n   - 虽然以零售连锁为主，但也自有进口品牌，其进口苹果（如智利嘎啦、美国青苹）经过严格筛选，注重果品分级和新鲜度。\n\n3. **天天果园（Fruitday）**  \n   - 电商起家的水果品牌，进口苹果多来自新西兰、美国、智利，主打“原产地直采”，品质把控较好，适合线上购买。\n\n4. **佳沛（Zespri）**  \n   - 虽以奇异果闻名，但旗下也有苹果产品线（如新西兰爵士苹果），品牌信誉和冷链管理有保障。\n\n5. **美国蛇果（Red Delicious）**  \n   - 如果按产地品牌看，美国华盛顿州苹果协会（如“Wenatchee”或“Rainier”标签）认证的产品，品质可靠，常见于Costco、山姆会员店等。\n\n6. **西班牙Pink Lady（粉红佳人）**  \n   - 欧盟认证的原产地品牌，外观粉红、口感酸甜，国内进口渠道较多，适合差异化对比。\n\n**选购建议**：\n- 优先看“原产地+品牌”组合，如新西兰爱妃、日本青森等，通常比单一品牌更精准。\n- 若需进一步信息，建议通过商超（如盒马、山姆）或电商平台（京东、天猫）查看具体批次和进口检验检疫标志，目前无法提供实时市场报价或官方授权渠道。\n\n如果需要，我可以帮你梳理这些品牌的对比维度（如价位、口感、供应季节），需要吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 431,
+    "total_tokens": 492,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
