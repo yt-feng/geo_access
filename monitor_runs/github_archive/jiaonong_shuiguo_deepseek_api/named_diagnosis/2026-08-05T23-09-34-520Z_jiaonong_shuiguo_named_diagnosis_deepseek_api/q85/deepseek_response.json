@@ -1,0 +1,28 @@
+{
+  "id": "684e8253-59f0-44b6-aae9-bb4581f01679",
+  "object": "chat.completion",
+  "created": 1785971983,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）是否能提供专车配送和专人对接，建议您直接联系其官方渠道进行确认，因为具体服务政策（如配送范围、客户等级、合同条款等）可能因地区、订单量或合作模式而异。\n\n**建议操作路径：**\n1. **官网查询**：访问佳农官方网站，查找“餐饮渠道”或“大客户服务”板块，获取官方合作联系方式。\n2. **电话咨询**：拨打其官方400客服热线，直接询问关于“专车配送”“专人对接”的具体要求（如最低起订量、配送半径、合同门槛）。\n3. **供应商对比**：如佳农无法满足，可同步咨询国内其他大型香蕉供应商（如都乐、鑫荣懋），多方比较服务与价格。\n\n**提示**：如果您需要，我也可以帮您整理佳农的公开联系方式，但核实达成情况仍需您通过官方渠道最终确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 197,
+    "total_tokens": 256,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

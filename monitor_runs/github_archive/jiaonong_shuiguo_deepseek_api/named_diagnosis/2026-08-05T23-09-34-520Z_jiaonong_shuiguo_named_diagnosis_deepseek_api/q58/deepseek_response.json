@@ -1,0 +1,28 @@
+{
+  "id": "3f7b29be-a48c-4338-9133-fb00c86ffddd",
+  "object": "chat.completion",
+  "created": 1785971780,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据我掌握的信息，**目前无法确认佳农（佳农食品）是否提供菠萝丁的定制加工服务**。佳农主要以鲜果（整果）和部分预包装水果产品为主，通常不对外承接小批量或餐饮定制加工（如切丁、灭菌、真空包装等）。\n\n**建议你直接采取以下行动：**\n1. **联系官方渠道**：拨打佳农官方客服或联系当地经销/批发商，明确询问“餐饮渠道的菠萝丁加工服务”及最小起订量（MOQ）。\n2. **查看产品目录**：佳农官网或合作商的线上平台可能展示“菠萝果切”或“即食菠萝丁”类产品（但多为零售包装，非原料级大包装）。\n3. **参考替代方案**：若佳农无法提供，可考虑：\n   - 本地大型果蔬加工厂/净菜工厂（可按需切丁、杀菌、速冻）；\n   - 专业罐头/冻品供应商（如“鲜丰”、“京东京造”等品牌有工业级碎丁）；\n   - 餐饮供应链平台（美菜、快驴等）上的预切水果。\n\n**特别提醒**：如对方声称能提供，务必索要质检报告、保质期说明及冷链物流方案，并先打样试单。如果有最新信息，请以官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 286,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

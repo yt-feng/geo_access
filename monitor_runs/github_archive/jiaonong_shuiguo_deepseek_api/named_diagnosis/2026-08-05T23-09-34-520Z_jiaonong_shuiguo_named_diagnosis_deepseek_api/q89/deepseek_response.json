@@ -1,0 +1,28 @@
+{
+  "id": "463eb891-e433-4860-80dc-de86c6bf8085",
+  "object": "chat.completion",
+  "created": 1785972017,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否有红富士苹果或新疆阿克苏苹果，根据当前公开信息，佳农（Joyvio）主要经营进口水果和部分国产水果，其常规产品线中**红富士苹果**曾有销售记录，但具体品类和产地会随季节、库存和渠道变化，且**未明确长期稳定供应新疆阿克苏苹果**。\n\n针对你的采购需求，建议按以下方式快速核实：\n\n1. **直接联系佳农官方客服**（官网/公众号/合作经销商），确认当前现货及新疆阿克苏苹果的供货情况，这是最准确的渠道。\n2. **明确采购要求**，例如：需整箱/批量、包装规格、到货地、认证要求（如绿色食品）等，便于对方提供匹配方案。\n3. **备用方案**：若佳农无货，可联系新疆当地大型合作社（如阿克苏地区红旗坡农场、温宿县果农直供平台）或国内大型果品批发市场（如广州江南市场、北京新发地），询价对比。\n\n请注意，我没有实时库存数据，无法虚构确认信息。建议以商家实际回复为准。如需我帮你整理询价话术或供应商查询思路，可以告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 254,
+    "total_tokens": 316,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d82ee661-f9d6-48c2-a7d0-4a5f2d4bddbd",
+  "object": "chat.completion",
+  "created": 1785971583,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农（Goodfarmer）是有水果礼盒业务的，并且面向企业团购、节日送礼、福利采购等场景提供定制化水果礼盒服务。\n\n具体信息如下：\n1. **产品类型**：常见的有佳农品牌专属礼盒，包含如佳沛奇异果、菲律宾香蕉、智利车厘子、泰国椰青、云南蓝莓等高端进口水果组合。\n2. **购买渠道**：可通过佳农官方微信公众号、天猫/京东的旗舰店，或者直接联系其大客户部/团购热线进行对接。线下商超渠道（如盒马、山姆、永辉等）也有部分礼盒现货。\n3. **定制服务**：支持企业LOGO印制、贺卡附赠、按预算设计档次等。\n\n建议您直接拨打佳农官方客服电话（可通过其官网或公众号查询最新号码），或在其官方旗舰店搜索“礼盒”关键词查看当前在售款式及起订量。如果需要确定具体报价和起订量，直接联系销售团队会更准确。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 221,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

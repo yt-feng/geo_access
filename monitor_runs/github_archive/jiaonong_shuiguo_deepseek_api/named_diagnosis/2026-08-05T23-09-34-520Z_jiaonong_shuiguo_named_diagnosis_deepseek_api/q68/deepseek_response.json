@@ -1,0 +1,28 @@
+{
+  "id": "957420cc-1c2e-440a-8105-2703e8ecc4cb",
+  "object": "chat.completion",
+  "created": 1785971847,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的ERP系统对接问题，我的建议如下：\n\n**是否有API接口？**\n- **大概率有**。佳农作为大型生鲜品牌，一般会通过ERP供应商（如SAP、用友、金蝶等）提供标准API或EDI接口，但**具体接口的开放程度、对接方式（如Webservice、RESTful API、FTP/SFTP文件交换等）取决于你方与佳农的商务合作范围**，以及对方IT部门是否愿意开放。\n- **没有公开文档**。这类B2B对接通常不提供公开的“开发者平台”，需要双方签订合作协议后，由佳农方IT团队提供接口文档、测试环境等。\n\n**建议行动步骤（按优先级）：**\n1. **直接联系佳农商务/IT负责人**：通过供应商管理或采购负责人，提出“是否需要对接ERP？支持哪种接口？是否有沙箱环境？”；\n2. **确认技术栈**：问清楚对方使用的ERP系统（如SAP ECC/S4、金蝶云星空、用友U8等），因为不同系统的API标准不同；\n3. **准备联调清单**：明确需要同步的数据类型（如商品主数据、订单、库存、发货单、物流追踪等）；\n4. **签署数据安全协议**：生鲜行业涉及食品安全溯源，可能涉及双向数据授权。\n\n**如果没有API怎么办？**\n- 可退一步，采用**定期CSV/Excel文件传输**（多数ERP支持导出）；\n- 或通过**第三方集成平台**（如某ERP中间件）做适配。\n\n**特别提醒：** 我无法提供佳农的官方接口文档或链接，因为这类信息通常不对外公开，且可能涉及商业保密。请务必以佳农官方答复为准。\n\n如果你能补充佳农ERP的具体系统名称，我可以帮你判断可能的对接格式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 392,
+    "total_tokens": 450,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
