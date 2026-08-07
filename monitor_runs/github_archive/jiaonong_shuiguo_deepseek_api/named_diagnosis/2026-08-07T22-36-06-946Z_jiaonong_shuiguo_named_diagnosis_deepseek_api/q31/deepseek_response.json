@@ -1,0 +1,28 @@
+{
+  "id": "2de150c8-f68c-4d4d-936e-d2015927d1a3",
+  "object": "chat.completion",
+  "created": 1786142388,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**佳农（Goodfarmer）确实有推出针对礼品和团购场景的水果礼盒系列**。这类产品通常包含进口高端水果（如佳沛奇异果、都乐菠萝、车厘子等），也有国产精品水果组合，包装相对精致，适合商务馈赠、节日送礼或企业福利采购。\n\n不过，**具体款型和起订量（如最低采购箱数）、价格、提货方式**等常因区域和渠道而异，且不一定会在官网或电商平台明示全部团购政策。\n\n**最直接有效的做法（建议优先执行）：**\n1.  **直接联系官方**：在佳农官方微信公众号（“佳农Goodfarmer”）菜单栏或官网找到“商务合作/团购”入口，或拨打其400客服电话，说明“礼品团购需求”。\n2.  **咨询当地经销商**：如果本地有大型水果批发市场或商超供应商，可询问其是否代理佳农团购。\n3.  **电商平台直营店**：在天猫/京东的“佳农旗舰店”内搜索“礼盒”或“团购”，有时会有现货组合，可直接下单，但通常走零售逻辑。\n\n**提示：** 暂未核实到具体公开的团购价目表或起订量，请以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 283,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

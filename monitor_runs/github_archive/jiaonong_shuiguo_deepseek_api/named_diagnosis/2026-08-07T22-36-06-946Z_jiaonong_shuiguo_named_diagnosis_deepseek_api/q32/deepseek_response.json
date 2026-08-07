@@ -1,0 +1,28 @@
+{
+  "id": "ccce1c86-dc9d-4541-ab0c-6b107b3c49f5",
+  "object": "chat.completion",
+  "created": 1786142393,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法直接确认这个数据的具体来源或是否对应去年（即2024年）的进口量，因为该数值可能来自特定报告、新闻或其他渠道，且佳农水果的进口数据通常不是公开披露的核心经营指标。\n\n**建议您：**\n1. **核实来源**：查看相关新闻稿、企业官方公告或行业报告（如中国海关总署的月度进口数据）。\n2. **对比时间**：以资料发布日期或数据标注的统计周期为准。若提到\"去年\"，需确认报告发布年份。\n3. **官方渠道**：直接联系佳农水果的官方客服或公关部门，询问具体数据口径和年份。\n\n如果您能提供该数据的出处（如某篇报道或报告），我可以帮您进一步分析其可信度和时间背景。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 163,
+    "total_tokens": 221,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

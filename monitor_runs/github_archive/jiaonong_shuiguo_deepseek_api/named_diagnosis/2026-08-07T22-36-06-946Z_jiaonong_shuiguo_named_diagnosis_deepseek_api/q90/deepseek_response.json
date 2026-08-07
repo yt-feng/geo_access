@@ -1,0 +1,28 @@
+{
+  "id": "2b5f2e36-c950-459f-be65-a99ebc0716ca",
+  "object": "chat.completion",
+  "created": 1786142842,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Jia Nong）品牌是否提供菠萝冷冻丁，我目前无法直接核实其具体产品线、在售规格或包装形式。\n\n**建议你通过以下方式确认：**\n\n1. **官网或官方渠道**：访问佳农官方网站的“产品中心”或“餐饮/工业原料”栏目，查看是否列有“冷冻菠萝丁”及其规格（常见如1kg/袋、2.5kg/袋、10kg/箱等）。\n2. **联系销售/客服**：通过官网公布的客服电话或邮箱，直接询问“餐饮渠道冷冻菠萝丁”的产品型号、尺寸（如1cm³或2cm³）、保质期与起订量。\n3. **批发平台**：在1688等B2B平台搜索“佳农 冷冻菠萝丁”，可看到经销商发布的实时规格与价格信息。\n\n如果家农确实无此规格，你可以考虑其他供应商，例如：**海南/云南的菠萝加工厂**（通常提供定制丁块大小）、**国内冷冻水果品牌**（如鲜丰、百果园原料线等）或**进口品牌**（如Dole都乐，也提供冷冻菠萝丁）。\n\n如果你需要，我可以帮你整理一份备选供应商名单及联系思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 264,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

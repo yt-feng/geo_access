@@ -1,0 +1,28 @@
+{
+  "id": "2d954bff-d4b2-4c96-b47a-a75887b66831",
+  "object": "chat.completion",
+  "created": 1786142336,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会，以及最新的新品信息，我无法提供实时、可核实的具体数据，因为这类企业动态会随时间变化。\n\n**针对你的问题，建议你通过以下途径获取最准确的信息：**\n\n1.  **官方渠道查询（最可靠）：**\n    *   访问佳农食品控股（集团）股份有限公司的官方网站（通常是 `chinagreque.com` 或相关域名），查看“新闻中心”或“展会动态”栏目。\n    *   关注其官方微信公众号或微博，通常展会参与和新品发布会第一时间在那里发布。\n\n2.  **进博会官方信息：**\n    *   中国国际进口博览会官网（ciie.org）有参展企业名录，你可以搜索“佳农”确认其是否参展及展位号。\n\n**关于新品的一般性判断（仅供参考）：**\n佳农作为国内头部水果进口商和品牌商，其新品通常围绕**进口水果的引进**（如新产季车厘子、蓝莓、牛油果）和**自有品牌的深加工**（如冻干水果、果汁、果切）展开。如果你想了解特定季节（比如春节档期）的新品，建议直接到其官方旗舰店（天猫/京东）查看最新上架商品。\n\n**如果你需要我帮你做更进一步的资料检索，或者你手头有具体的官方线索（比如某个公众号链接）想让我帮忙分析，可以补充提供给我。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 298,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

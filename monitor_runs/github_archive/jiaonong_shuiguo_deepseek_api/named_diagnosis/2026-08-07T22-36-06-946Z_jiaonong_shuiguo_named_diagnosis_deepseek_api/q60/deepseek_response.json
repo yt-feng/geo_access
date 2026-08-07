@@ -1,0 +1,28 @@
+{
+  "id": "11006575-c749-4d1e-ac6e-d2542a786bc7",
+  "object": "chat.completion",
+  "created": 1786142605,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。**佳农（Goodfarmer）有推出面向便利店、生鲜店等渠道的单根装香蕉**，通常是**独立透明袋或贴标签包装**，一袋一根，方便即买即走，也减少损耗。\n\n具体建议你这样做：\n\n1. **直接联系当地经销商或佳农业务员**：便利店渠道的规格经常变动，不同区域供货不同，最准确的是问本地经销商有没有“单根装”或“小规格（如5-6根/箱）”。\n2. **查看批发平台**：在“快驴进货”“美菜”或当地批发市场APP上搜“佳农单根香蕉”或“佳农小包装香蕉”，能看到当地实际有货的规格。\n3. **如果本地没有现货**：可以要**佳农普通整串装（约1.2-1.5kg/把）**，到店后自己**拆根、贴价签**，用透明拉伸膜或保鲜袋单根包好，也能达到便利店售卖效果——这是大多数便利店的常用做法。\n\n**判断标准**：跟经销商确认时，直接问“有没有**单根独立包装**（例如每袋1根，30-40g/根左右）”，或者“有没有**小把装（每把4-6根）**”，以他报的规格为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 286,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
