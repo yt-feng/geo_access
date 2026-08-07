@@ -1,0 +1,28 @@
+{
+  "id": "e4f8c9a2-aa54-49c7-ad4a-e9fad545e6f1",
+  "object": "chat.completion",
+  "created": 1786141421,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下进口水果品牌在礼品团购市场中较受认可，可根据预算和场景选择：\n\n**1. 高端柑橘类**\n- **新奇士（Sunkist）**：美国品牌，主打脐橙、柠檬，果实饱满，甜度高，包装经典。\n- **爱妃（Envy）**：新西兰苹果品牌，果肉紧实，脆甜多汁，单果外形漂亮，适合高端礼盒。\n\n**2. 顶级莓果类**\n- **怡颗莓（Driscoll's）**：美国品牌，蓝莓、树莓、草莓品质稳定，颗粒大，甜酸比好，适合生鲜礼盒。\n- **爱妃莓（Berrylicious）**：新西兰覆盆子和黑莓品牌，产量少，口感浓郁，适合小众高端需求。\n\n**3. 热带水果类**\n- **金枕头榴莲（Musang King）**：马来西亚猫山王榴莲，冷冻带壳果礼盒较常见，需冷链运输，单价高。\n- **蓝宝（Blueberry）**：秘鲁蓝莓品牌，果粉足、耐储存，适合拼装礼盒。\n- **都乐（可拓展）**：除常规果品，其凤梨礼盒（菲律宾产）和车厘子礼盒（智利产）也常见于团购。\n\n**4. 车厘子/樱桃类**\n- **安第斯（Andes）**：智利车厘子品牌，果径大（如J级、JJ级），脆甜度高，是年节礼盒的常见选择。\n- **科迪亚（Kordia）**：澳洲车厘子品种，深红色，口感极佳，但价格较高。\n\n**5. 综合类**\n- **佳农（Goodfarmer）**：虽为国内品牌，但代理进口果品如菲律宾香蕉、泰国椰青，包装大气，性价比高。\n- **百果园（Pagoda）**：自有进口果品线，如智利蓝莓、美国西梅，可提供组合礼盒定制。\n\n**选购建议**：\n- 若预算充足，推荐 **爱妃苹果+怡颗莓+新奇士** 组合，兼顾颜值与口味。\n- 若需冷链支持，提前确认供应商是否能覆盖目标城市。\n- 建议批量采购前索要样品试吃，并核实报关单和检疫证明，确保货源正规。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 527,
+    "total_tokens": 589,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
