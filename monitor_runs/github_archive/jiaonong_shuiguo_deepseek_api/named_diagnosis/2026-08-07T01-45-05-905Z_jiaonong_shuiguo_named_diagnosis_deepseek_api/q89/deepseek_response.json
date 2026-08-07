@@ -1,0 +1,28 @@
+{
+  "id": "3e123db6-88f0-4d1b-aee8-792c51957d95",
+  "object": "chat.completion",
+  "created": 1786067874,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您的问题，我可以为您提供以下信息：\n\n1. **佳农水果是否销售红富士苹果**：佳农（Joyvio）是知名的水果品牌，主要经营进口水果和部分国产优质水果。红富士苹果是国产苹果的主流品种，佳农有销售红富士苹果，但具体品种和产地可能因季节和库存而有所不同。\n\n2. **是否有新疆阿克苏苹果**：佳农的水果产品线中，**新疆阿克苏苹果**是其重点采购和销售的品种之一。阿克苏苹果以其“冰糖心”著称，甜度高、口感脆，是佳农在国产苹果品类中常见的高端产品。\n\n**建议**：\n- 如果您需要批量采购或确认当前是否有库存，建议直接联系佳农的官方销售渠道（如官网客服、区域销售代表或电商平台旗舰店），获取最新的采购信息和报价。\n- 也可以咨询佳农的区域代理商，了解当地是否有新疆阿克苏苹果的供货。\n\n**注意**：由于水果供应受季节性和区域限制，具体供应情况请以佳农官方实时回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 223,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
