@@ -1,0 +1,50 @@
+{
+  "questionId": "q04",
+  "prompt": "水果店想减少香蕉放坏，采购时应该怎么要求熟度和到货时间？",
+  "createdAt": "2026-08-07T21:58:10.651Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt_index": 4,
+      "promptIndex": 4,
+      "promptHash": "66c4fea0acfc",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果店想减少香蕉放坏，采购时应该怎么要求熟度和到货时间？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1037,
+      "text_length": 1037,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 680,
+        "total_tokens": 739,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 680,
+      "total_tokens": 739,
+      "latencyMs": 10712,
+      "latency_ms": 10712,
+      "createdAt": "2026-08-07T21:58:10.651Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q04/prompt.txt",
+        "answer": "q04/deepseek.txt",
+        "response": "q04/deepseek_response.json",
+        "sources": "q04/deepseek_sources.json",
+        "references": "q04/deepseek_references.json"
+      }
+    }
+  ]
+}
