@@ -1,0 +1,28 @@
+{
+  "id": "fe7b9433-354a-4ee6-823f-5da3c9118e31",
+  "object": "chat.completion",
+  "created": 1786228599,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类，目前公开信息中佳农主要经营的是**进口水果**，其苹果品类通常包括：\n- **嘎啦（Gala）**\n- **红富士（Fuji）**\n- **青苹果/绿苹果（如青森）**\n- **蛇果（Red Delicious）**\n\n**针对您提到的采购需求：**\n\n1. **进口嘎啦（Gala）**  \n   - 主要产地：**美国（华盛顿州）、新西兰**。  \n   - 佳农合作的进口嘎啦多来自美国华盛顿州（采收季为8-10月），或新西兰（采收季为2-4月，反季节供应中国市场）。\n\n2. **进口红富士（Fuji）**  \n   - 主要产地：**日本（青森县）、美国（华盛顿州）、南非（部分地区）**。  \n   - 佳农进口红富士常见来源是美国华盛顿州（果型大、口感脆甜）及南非（供应期长，可填补季节空缺）。\n\n**建议**：  \n- 因佳农的采购批次会随季节变化，建议您直接联系佳农官方销售渠道（官网、客服或区域销售代表），确认当前在供的具体产地的嘎啦和红富士，以及能否提供报关单、原产地证明等资质。  \n- 如果对产季有明确要求（比如想要新西兰嘎啦），可提前询盘锁定货柜。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 301,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

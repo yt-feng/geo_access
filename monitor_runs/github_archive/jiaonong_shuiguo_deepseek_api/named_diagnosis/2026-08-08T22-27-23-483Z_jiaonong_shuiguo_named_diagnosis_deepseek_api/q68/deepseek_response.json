@@ -1,0 +1,28 @@
+{
+  "id": "7c97fb25-62cd-40b7-970e-87cc294bdb84",
+  "object": "chat.completion",
+  "created": 1786228563,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果ERP系统的API对接，**目前没有公开的官方API文档或标准开放接口**。生鲜电商平台若需对接，通常需要**通过商务合作或技术协议**获取专属接口。\n\n建议按以下步骤操作：\n\n1. **联系佳农官方**：直接致电或邮件咨询“供应链/大客户部”或“IT数字化部门”，说明是生鲜电商平台，提出数据对接需求。\n   - 佳农官网：www.goodfarmer.com（请核实最新联系方式）\n   - 通常大型水果供应商（如佳农、鑫荣懋）会有定制化的EDI或API方案，但一般不对全行业公开。\n\n2. **确认对接范围**：明确你需要同步的数据类型，例如：\n   - 商品主数据（SKU、规格、库存）\n   - 订单状态（下单、发货、签收）\n   - 价格/促销信息\n   - 对账单/结算数据\n   \n   建议先梳理内部系统（如WMS、OMS）的字段映射。\n\n3. **技术实现方式**：\n   - 若佳农提供API，可能是RESTful或SOAP，需确认鉴权方式（如token、签名）、接口频率限制、数据格式（JSON/XML）。\n   - 若没有API，可协商**定时文件传输（FTP/SFTP）**或**中间表数据库直连**，但实时性较差。\n\n4. **合同与安全**：确保签署数据保密协议（NDA），明确接口维护责任、故障响应时间。\n\n5. **备选方案**：如果佳农暂不提供，可考虑：\n   - 使用第三方供应链协同平台（如观麦、蔬东坡）作为中间层对接；\n   - 半自动人工导入（Excel）过渡。\n\n**总结**：没有现成通用API，但通过商务渠道大概率可以谈定制对接。建议先联系对方IT部门确认技术可行性，再评估投入成本。如果你有具体对接场景（如库存同步频率），我可以帮你细化方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 430,
+    "total_tokens": 488,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
