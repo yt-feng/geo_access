@@ -1,0 +1,28 @@
+{
+  "id": "f8f5df12-1c76-4a39-985c-995c1bed71ef",
+  "object": "chat.completion",
+  "created": 1786227719,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您要找的菠萝供应商，我无法直接核实“都乐”或“洪九果品”当前的基地直供与产地溯源具体细节。建议您通过以下方式获取准确信息：\n\n1. **直接联系官方**：  \n   - 都乐（Dole）官网或客服热线，询问其在中国（如徐闻、海南等菠萝产区）的合作基地情况及溯源系统。  \n   - 洪九果品官网或公众号，了解其菠萝采购/直供模式（通常这类企业有“基地+农户”或“源头直采”承诺，但需官方确认）。\n\n2. **查询公开信息（非引用，仅提示）**：  \n   - 搜索两家公司近两年的供应链报道或合作新闻（例如与本地产区签约的公告）。  \n   - 查看其是否有“二维码溯源”标签，可要求样品或验厂。\n\n3. **备选供应商判断标准**：  \n   - 优先选择有**自有种植基地**或**长期签约合作社**（如广东湛江、海南万宁产区）。  \n   - 要求提供**产地证明、批次检测报告**及**可追溯编码**（实现从田间到仓储的闭环）。\n\n如果后续需要具体供应商名单或溯源体系对比，请补充说明您的采购量、目标产区及合规要求，我可以帮您细化筛选方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 283,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
