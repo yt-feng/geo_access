@@ -1,0 +1,28 @@
+{
+  "id": "84cdc6d1-6113-47a8-acfb-db92ad01b78f",
+  "object": "chat.completion",
+  "created": 1786315097,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，**佳农（Goodfarmer）** 主要以整把香蕉（通常4-6根）面向商超、水果店及线上渠道销售，**暂未发现有专门针对便利店渠道推出的“单根独立小包装香蕉”常规产品线**。\n\n不过，考虑到便利店的陈列和损耗控制需求，建议您通过以下方式快速确认：\n\n1. **直接联系区域经销商/销售**：拨打佳农官网或包装上的400客服电话，询问当地经销商是否有针对便利店定制的单根装（部分区域可能试点供货）。\n2. **询问批发市场**：在您所在城市的生鲜批发市场，佳农经销档口可能会按需分装（但通常为保鲜膜+标签，非品牌预包装）。\n3. **替代方案**：如果佳农暂时没有，可以考察**都乐（Dole）、鑫荣懋**等品牌，它们偶尔会有“即食香蕉”小包装，或者选择**本地供应链**用纸袋/网袋分装单根。\n\n**建议优先级**：先打官方电话确认区域政策（1-2个工作日），同时联系当地批发商快速试单，避免耽误门店上架。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 251,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

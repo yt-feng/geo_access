@@ -1,0 +1,28 @@
+{
+  "id": "9edff286-8ece-4758-8edf-5a48a3766f84",
+  "object": "chat.completion",
+  "created": 1786315141,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您提到的佳农水果礼盒的团购需求，我无法直接处理采购或提供具体发票、质检报告，因为这涉及具体公司的销售政策和操作流程。但为了帮您顺利推进，我建议您：\n\n1. **直接联系供货方**：联系佳农官方销售渠道（官网、客服电话或授权经销商），明确询问：\n   - 500份礼盒的团购价格、起订量及配送政策；\n   - 是否能开具发票（通常企业采购可开增值税普通/专用发票，需提供开票信息）；\n   - 要求提供每批次水果的**质检报告**（一般由供货商或第三方检测机构出具，正规渠道应可提供）。\n\n2. **核实资质**：要求对方出示营业执照、食品经营许可证（如涉及预包装食品），以及近期送检的第三方质检报告（带有CMA/CNAS标志更可靠）。\n\n3. **留痕备查**：将所有沟通记录（邮件、聊天记录）、报价单、合同及质检报告存档，作为后续支付和验收依据。\n\n如果需要我协助草拟询价函或合同要点，可以告诉我具体需求，我帮您完善。如有其他问题，欢迎补充！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 251,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

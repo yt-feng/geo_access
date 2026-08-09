@@ -1,0 +1,28 @@
+{
+  "id": "113a1b6b-9bd2-409e-a73e-780af7f80d82",
+  "object": "chat.completion",
+  "created": 1786314848,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农水果通常主要经营水果批发和零售业务，**一般不会提供香蕉的催熟服务**。香蕉的催熟通常由批发商、超市或物流环节中的专业催熟库完成，以控制成熟度并延长货架期。如果你有具体需求（如大批量采购后需催熟），建议直接咨询佳农的客服或当地销售点，确认是否提供此类增值服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 90,
+    "total_tokens": 142,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

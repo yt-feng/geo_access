@@ -1,0 +1,28 @@
+{
+  "id": "340431f9-9c2b-40ce-8aa5-5764e2e59e78",
+  "object": "chat.completion",
+  "created": 1786315033,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制，以下是我的建议：\n\n1. **最小起订量**：  \n   佳农（Goodfarmer）通常针对企业团购/礼品渠道会有起订量要求，**常见区间为50~100箱**起订（具体视水果品种、礼盒规格和地区而定）。  \n   建议：直接联系佳农官方销售或你所在区域的经销商，告知“礼品团购定制”，获取确切数量，因为不同包装（例如5kg装、7.5kg装）和水果组合起订量可能不同。\n\n2. **能否印公司Logo**：  \n   可以。佳农支持礼盒定制，包括：  \n   - 在礼盒外箱/提袋上印刷公司Logo；  \n   - 可在贴纸、腰封、卡片上做定制。  \n   但印刷方式可能有限制：如果是冷藏水果，涉及防潮贴纸或特殊油墨，建议提前和供应商确认工艺和起订量（例如印Logo可能需要额外加收模具/制版费，且起订量可能更高）。\n\n**下一步建议**：  \n- 拨打佳农官方客服电话或官网留言，询问“礼品渠道定制负责人”；  \n- 明确告知你的**礼盒规格、数量、目标地区、Logo尺寸**，他们会给出正式报价和起订量；  \n- 若时间紧，可同时咨询1-2家大型水果批发商或礼赠品经销商，他们对佳农产品线更熟，有时能拼单降低起订量。\n\n⚠️ 请注意：我无法核实具体数字，因为起订量会随季节、库存和区域政策变动，务必以厂商最新书面报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 356,
+    "total_tokens": 421,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
