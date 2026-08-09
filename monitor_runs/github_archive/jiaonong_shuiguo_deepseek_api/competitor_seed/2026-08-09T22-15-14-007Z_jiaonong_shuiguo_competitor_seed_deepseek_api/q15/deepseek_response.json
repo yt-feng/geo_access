@@ -1,0 +1,28 @@
+{
+  "id": "80488eea-ee4f-4a4d-9bba-c54bd8a027df",
+  "object": "chat.completion",
+  "created": 1786313855,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Joyvio）之外，进口苹果品牌中比较靠谱的还有以下几个，它们在中国市场有稳定供应和良好口碑：\n\n1. **佳沛（Zespri）**：虽然以奇异果闻名，但也经营进口苹果（主要是新西兰品种如Royal Gala、Envy等），品质控制严格，果肉紧实甜脆。\n2. **怡颗莓（Driscoll's）**：虽然主打浆果，但部分进口苹果（尤其是美国、智利产）也有供应，常见于高端商超。\n3. **新奇士（Sunkist）**：老牌美国柑橘品牌，但旗下也有苹果产品线（红地厘蛇果等），品牌信任度高。\n4. **GN（Global Nature）**：智利大型水果出口商，其苹果（如富士、嘎啦）性价比高，在批发市场常见。\n5. **ENZA**：新西兰苹果专营品牌，出口规格严格，常见品种有爱妃（Envy）、爵士（Jazz）等，果香足、耐储存。\n\n选购建议：\n- **看产地分级**：进口苹果不一定越贵越好，优先选择新西兰（甜脆）、美国（口感扎实）、智利（性价比高）这几个主产区。\n- **认准包装码**：正规进口品牌果面会贴有PLU码（4位/5位），且外包装有中文标签和原产地证明。\n- **检验渠道**：在盒马、山姆、永旺等大型商超或品牌官方电商旗舰店购买更可靠，避免到非授权小摊贩处买散装“进口”苹果。\n\n如果是要做采购对比，建议关注“佳沛爱妃”和“新西兰ENZA”这两个系列，它们目前在国内高端市场认可度仅次于都乐。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 389,
+    "total_tokens": 450,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
