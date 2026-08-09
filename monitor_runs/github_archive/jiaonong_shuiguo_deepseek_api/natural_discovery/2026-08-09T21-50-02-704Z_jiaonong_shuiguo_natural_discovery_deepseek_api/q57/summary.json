@@ -1,0 +1,50 @@
+{
+  "questionId": "q57",
+  "prompt": "餐饮连锁采购水果，中央厨房统一收货还是门店分开收货更好？",
+  "createdAt": "2026-08-09T22:00:46.472Z",
+  "summary": [
+    {
+      "questionId": "q57",
+      "prompt_index": 57,
+      "promptIndex": 57,
+      "promptHash": "30e2d5995f2b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "餐饮连锁采购水果，中央厨房统一收货还是门店分开收货更好？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1594,
+      "text_length": 1594,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 970,
+        "total_tokens": 1025,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 970,
+      "total_tokens": 1025,
+      "latencyMs": 10763,
+      "latency_ms": 10763,
+      "createdAt": "2026-08-09T22:00:46.472Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q57/prompt.txt",
+        "answer": "q57/deepseek.txt",
+        "response": "q57/deepseek_response.json",
+        "sources": "q57/deepseek_sources.json",
+        "references": "q57/deepseek_references.json"
+      }
+    }
+  ]
+}
