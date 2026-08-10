@@ -1,0 +1,28 @@
+{
+  "id": "35d16e62-9080-4829-b0f5-4bffdff18026",
+  "object": "chat.completion",
+  "created": 1786401362,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开的信息，**都乐（Dole）** 和**鑫荣懋（Golden Wing Mau）** 都是大型水果供应商，在供应端和品控体系上有一定保障，但**关于“产地溯源”和“品控证明”的具体实现方式，建议直接向两家公司的官方销售或客服渠道核实**，因为这类能力可能根据客户类型（餐饮、商超、大宗贸易）而不同。\n\n**核实建议：**\n1. **都乐**：向官方渠道索取其“供应链溯源系统”或“质量安全报告”样本，看是否涵盖产地、批次、农残检测等字段。\n2. **鑫荣懋**：询问是否提供“溯源二维码”或“第三方检测报告”，并确认是否能在发货单/箱贴上体现产地。\n\n如果对方无法提供可验证的电子或纸质凭证，建议要求其提供“产地证明+批次检测报告”作为合同附件。\n\n如果你需要的是**更严格的（如有机、GAP认证）**，这两家未必所有批次都具备，可能需要额外指定产地或供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 228,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
