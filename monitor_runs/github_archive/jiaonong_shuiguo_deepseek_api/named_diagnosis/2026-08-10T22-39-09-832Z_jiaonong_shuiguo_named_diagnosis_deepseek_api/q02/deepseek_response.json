@@ -1,0 +1,28 @@
+{
+  "id": "89a79f48-721c-4fc0-bc60-d37846f0f713",
+  "object": "chat.completion",
+  "created": 1786401555,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）菠萝的产地溯源和品控报告，建议您这样操作：\n\n1. **直接联系官方渠道**：最可靠的方式是通过佳农的官方网站、官方客服电话或您所在区域的销售/经销商进行咨询。他们通常能提供批次对应的产地证明、检验检疫证明（如进出口相关文件）、以及内部品控报告。\n\n2. **查看产品包装/追溯码**：正规进口或国产的佳农菠萝，外箱或标签上通常会印有追溯二维码或批次号。您可以用手机扫描或输入批次号，查询到该批果实的产地、采摘日期、加工厂信息等。\n\n3. **索要第三方检测报告**：如果是大宗采购（如商超、餐饮、团购），他们一般会提供SGS、Intertek等第三方机构的检测报告，或至少提供海关的《入境货物检验检疫证明》（若是进口）。\n\n4. **特例提醒**：若您是个人小量购买（如1-2箱），获取完整报告可能较难，但产地信息（如菲律宾、泰国或中国广东、海南等）通常能在包装上找到。\n\n**建议行动**：直接拨打佳农官方客服（可在其官网查询）并说明采购用途（企业合同采购或个人），对方会给出具体对接方案。如果对方无法提供任何纸质或电子档品控信息，建议谨慎采购。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 289,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

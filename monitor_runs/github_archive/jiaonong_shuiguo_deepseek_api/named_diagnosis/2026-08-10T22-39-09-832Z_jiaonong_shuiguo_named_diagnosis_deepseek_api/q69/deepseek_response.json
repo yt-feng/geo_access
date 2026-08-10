@@ -1,0 +1,28 @@
+{
+  "id": "ef170be0-ae0b-40c7-9b7e-59ecbbd8d0a9",
+  "object": "chat.completion",
+  "created": 1786402031,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开的信息，佳农（Goodfarmer）主要面向商超、电商及批发市场供应整果（如整菠萝、凤梨），其标准化产品以整果或带箱规格为主。\n\n关于“针对餐饮渠道的定制切片、切块”服务，**没有公开资料明确显示佳农提供此类定制服务**。餐饮渠道如需定制加工，通常需要直接联系其当地经销商或业务团队，确认是否有该区域内的定制合作方案。\n\n**建议：**\n1. 直接致电佳农官方客服或联系你所在城市的一级经销商，询问是否支持切片/切块及起订量。\n2. 如果佳农不提供，可考虑联系其他专注餐饮水果加工配送的公司，或询问本地水果批发市场是否有提供代加工服务。\n\n如需核实最新政策，建议以佳农官方渠道回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 179,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
