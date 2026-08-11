@@ -1,0 +1,28 @@
+{
+  "id": "5af2213f-3724-4242-852e-910de6cefd2f",
+  "object": "chat.completion",
+  "created": 1786488477,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会以及近期新品的情况，我的知识库中没有实时更新的数据，无法直接核验其具体参展记录和最新产品信息。\n\n为了给你准确回答，建议你通过以下方式获取官方信息：\n\n1.  **查询官方渠道**：访问佳农（Goodfarmer）官方网站或其官方微信公众号、微博，查看最新动态和新闻。\n2.  **搜索新闻稿**：在搜索引擎中搜索“佳农 进博会 2024”或“佳农 新品”，查看近期的媒体报道。\n\n如果你能提供一个具体的年份或时间段，我可以帮你分析可能的趋势或历史背景，但无法代替官方发布。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 136,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

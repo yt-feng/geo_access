@@ -1,0 +1,28 @@
+{
+  "id": "96920b74-b50c-440a-801f-fad7a93224f0",
+  "object": "chat.completion",
+  "created": 1786488339,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认“佳农水果”目前是否有针对长期合作客户的账期政策，因为这类商务条款通常由销售合同、合作规模、区域政策等因素决定，且会动态调整。建议您直接联系佳农水果的销售或客户经理，询问具体账期方案（如月结、周结、按订单比例等），他们能提供最准确的商务条件。\n\n如果你有洽谈意向，也可以准备以下信息帮助谈判：\n- 合作预估月采购量或金额\n- 合作周期（如年框）\n- 结算方式偏好（如银行转账、承兑汇票等）\n- 以往的信用记录（如可提供）\n\n这类政策有较强的定制性，网上公开信息很少，最好以官方渠道答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 153,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

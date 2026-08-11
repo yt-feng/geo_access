@@ -1,0 +1,28 @@
+{
+  "id": "dd442e89-8b00-44c0-8bc3-bad68188a344",
+  "object": "chat.completion",
+  "created": 1786488776,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对于您的礼品团购需求，以下是明确回复：\n\n**1. 关于发票**  \n我们可以开具正规增值税发票（普通发票或专用发票均可），支持“佳农水果礼盒”品名，抬头根据贵司需求填写。请在订单确认时提供开票信息（公司名称、税号等），我们会在发货后3-5个工作日内安排寄出。\n\n**2. 关于质检报告**  \n每批次的佳农水果均有出厂质检报告，我们会在发货时随礼盒附上一份盖有供货方公章的复印件；若您需要电子版或原件，请在订单备注中说明，我们会在48小时内提供扫描件。\n\n**补充建议**  \n- 500份订单量较大，建议提前3-5天预订，以便我们锁定货源和预留包装档期。  \n- 如需定制贺卡、外箱LOGO或分批次配送，请提前告知，可一并协调（可能涉及少量附加服务费）。\n\n若您需要确认具体价格、配送城市或库存，可直接回复礼盒规格（如5KG/8KG）或发送需求清单，我会协助您对接采购专员。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 239,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

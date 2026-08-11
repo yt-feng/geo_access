@@ -1,0 +1,28 @@
+{
+  "id": "b6e3f297-7282-43e2-a549-8bd7d6f44ace",
+  "object": "chat.completion",
+  "created": 1786488738,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，**佳农（Goodfarmer）水果有推出面向便利店/精品商超的小包装香蕉**，但具体规格和供应情况可能因地区和渠道而异。\n\n常见的小包装形式包括：\n- **单根独立包装**（带标签或透明保鲜膜，适合即食或单卖）\n- **两根装/小串装**（适合家庭或少量购买）\n- **迷你果（Baby Banana）**，果型较小，按根或小盒出售\n\n**建议您直接行动：**\n1. 联系佳农在您所在城市的**区域经销商**或**业务代表**（可通过佳农官网、微信公众号或客服电话查询）。\n2. 询问是否有针对便利店的**定制包装**或**整箱配送**方案（通常便利店进货走经销商通路）。\n3. 如果佳农本地无此规格，可询问是否有**贴牌/裸果+自行包装**的合作模式。\n\n如需具体联系方式，建议通过官方渠道获取，我无法提供未经核实的电话或链接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 216,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

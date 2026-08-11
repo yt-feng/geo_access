@@ -1,0 +1,28 @@
+{
+  "id": "9bc23366-ce14-446c-92d4-f0a629a5dced",
+  "object": "chat.completion",
+  "created": 1786489006,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果具体的产地直供比例，我没有可核验的公开数据。这类信息通常属于企业内部供应链细节，不对外披露。\n\n给你可操作的建议：\n\n1. **直接联系佳农官方**：可通过其官网、官方客服或商务合作邮箱，询问针对大客户的直供/基地合作政策。他们通常对批量采购有专门的“基地直采”或“产地直发”方案。\n2. **强调采购量**：在洽谈时明确你的采购规模和稳定需求。一般量越大，越有资格谈直供或减少中转层级。\n3. **要求供应商提供溯源**：在询价或合同阶段，明确要求对方提供产地证明、采摘/发货地、冷链物流路径等文件，以此判断实际直供程度。\n4. **询问替代方案**：如果佳农的直供比例不高，可问清是否有“总代-区域分销”模式，要求对方说明从产地到你收货地的具体运输层级，以判断中间成本。\n\n如果方便，建议直接电话沟通效率最高，问清“贵司在XX单品上是否支持直发我司仓”比问“直供比例”更切中需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 247,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

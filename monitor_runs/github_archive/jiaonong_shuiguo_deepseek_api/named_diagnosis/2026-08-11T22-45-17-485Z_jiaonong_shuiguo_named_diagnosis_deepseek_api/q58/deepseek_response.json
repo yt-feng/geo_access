@@ -1,0 +1,28 @@
+{
+  "id": "7843ae10-e62a-4d21-acbc-1858a0277b05",
+  "object": "chat.completion",
+  "created": 1786488727,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）是否能提供菠萝丁加工服务，我无法核验其具体业务范围，建议直接通过以下方式确认，避免信息误差：\n\n**1. 官方渠道咨询**  \n- 访问佳农官网（如 goodfarmer.com）查找“产品中心”或“食品加工”类目，或直接联系其客服热线。  \n- 在官网提交“原料定制”或“加工服务”需求，通常会转到对应业务部门回复。\n\n**2. 行业经验参考**  \n佳农以进口水果批发为主（如香蕉、菠萝），但通常**不直接提供果丁类深加工**，除非其旗下有专门的食品加工工厂。若需菠萝丁，更常见的是以下两类渠道：  \n- **专业果蔬加工厂**：找当地或广东、广西等产区的果蔬加工企业，定制切丁、速冻或常温装。  \n- **批发市场供应商**：部分大型批发商可配合“代切丁”服务，但需自行承担品质与损耗风险。\n\n**3. 替代方案建议**  \n如果佳农只能供整果，可考虑：  \n- 内部采购整果后，与附近中央厨房或配菜公司合作代切。  \n- 直接采购冷冻菠萝丁（如海南、广西产区品牌），成本可能更低且稳定。\n\n**最后提醒**：采购前务必索取样品试制，并确认加工厂是否具备SC资质、卫生标准及冷链保障，这对餐饮原料安全至关重要。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 316,
+    "total_tokens": 379,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
