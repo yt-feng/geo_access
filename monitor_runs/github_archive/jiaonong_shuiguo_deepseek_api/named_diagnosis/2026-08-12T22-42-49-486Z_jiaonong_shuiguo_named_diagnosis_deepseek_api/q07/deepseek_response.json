@@ -1,0 +1,28 @@
+{
+  "id": "a5560978-9b1c-42de-bd6b-2a96d1ffd62f",
+  "object": "chat.completion",
+  "created": 1786574610,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的配送覆盖范围，我目前无法提供具体的实时城市列表或配送区域详情，因为这类信息会因时间、渠道（如线上电商平台或线下门店）以及合作物流而异。\n\n为了帮您确认**是否能在您所在的县城配送**，我建议您采取以下方法：\n\n1.  **直接咨询官方渠道（最准确）**：访问“佳农”官方网站或官方微信公众号，查找“配送范围”、“联系我们”或“在线客服”功能进行咨询。\n2.  **查询主流电商平台**：在天猫、京东或拼多多的“佳农旗舰店”中，尝试将收货地址设置为您的县城，系统通常会在结账前自动提示该地址是否支持配送。\n3.  **使用本地生活服务App**：在美团、饿了么或社区团购平台（如美团优选、多多买菜）上搜索“佳农”，如果您的县城有货仓覆盖，通常可以显示可配送。\n\n如果通过以上方式仍无法确认，**建议您直接联系卖家客服并告知具体地址**，让他们为您查询最准确的结果。\n\n我没有覆盖到您县城的实时数据，因此无法直接回答“能”或“不能”。希望上述方法能帮您快速解决问题！如果需要其他帮助，请随时告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 268,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

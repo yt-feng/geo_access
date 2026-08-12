@@ -1,0 +1,28 @@
+{
+  "id": "432cedfd-d194-4089-82ea-c9650c20d20e",
+  "object": "chat.completion",
+  "created": 1786574804,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的配送中心具体数量，我暂时无法提供准确数字（可能因业务调整而变动），建议你通过以下方式直接确认：\n\n1. **官网查询**：访问佳农官网的“联系我们”或“配送网络”栏目，查看最新信息。\n2. **客服咨询**：拨打官方客服热线，直接询问覆盖范围。\n3. **业务合作**：如果你是采购方，可直接联系当地经销商或区域经理，获取最准确的配送时效。\n\n**关于三线城市覆盖**：  \n佳农作为大型水果供应商，通常会覆盖一二线及主要三线城市，但具体取决于你的城市。建议你：\n- 在佳农官方渠道输入你的城市名，查询是否在“配送范围”内；\n- 若你所在三线城市有大型商超（如永辉、大润发等），佳农水果很可能已通过商超渠道进入，可去当地超市实地确认。\n\n**若你是指采购批发**：更推荐直接联系佳农销售团队，他们会根据你的城市和订单量，评估是否能安排配送或中转。\n\n（注：我无法核实实时网点数据，以上建议基于一般供应链常识，请以官方回复为准。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 248,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a056185d-d520-413d-909c-62261fbc2e61",
+  "object": "chat.completion",
+  "created": 1786574961,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（佳农食品控股集团）是否提供“锁价3个月”的价格保护机制，**目前公开信息中未找到明确且官方确认的此类政策**。佳农主要以新鲜果蔬的批发、零售和进口业务为主，其销售模式多为按市场行情实时定价，通常不提供长期固定价格承诺。\n\n**建议您通过以下方式核实：**\n1. **直接联系官方客服**：通过佳农官网、官方旗舰店（如天猫/京东）客服，询问是否有针对大宗采购或特定客户的锁价协议。\n2. **查看经销合同**：如果您是经销商或B端客户，合同中是否有“价格调整条款”或“最低价保护”相关叙述。\n3. **关注实时报价**：香蕉价格受产地、海运、汇率影响大，佳农多数情况下随行就市。\n\n**补充提醒**：网络上若提到“锁价XX个月”多为营销话术或针对特定渠道的临时活动，并非全面政策。请勿轻信非官方渠道的承诺，以免产生履约争议。建议以书面合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 228,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "fp_a18b46594c_prod0820_fp8_kvcache_20260402"
+}
