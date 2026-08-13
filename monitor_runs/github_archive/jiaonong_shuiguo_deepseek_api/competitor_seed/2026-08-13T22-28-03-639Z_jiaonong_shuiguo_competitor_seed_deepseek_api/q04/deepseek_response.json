@@ -1,0 +1,28 @@
+{
+  "id": "50d042a1-4666-4e85-84e6-7bdb27df4334",
+  "object": "chat.completion",
+  "created": 1786660114,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳沛（Zespri）以奇异果闻名，确实不主推香蕉。**进口香蕉市场目前主要由都乐（Dole）、金吉达（Chiquita）和德尔蒙（Del Monte）这三家垄断**。如果你的渠道侧重高端商超或精品水果店，建议从以下三个方向选品：\n\n1. **都乐（Dole）**：全球最大的香蕉供应商之一，供应链稳定，果实偏长，甜度和口感在国内认可度极高。适合走量稳定，如果之前做佳沛，都乐在渠道对接上比较方便（很多精品超市同时有佳沛奇异果和都乐香蕉）。\n2. **金吉达（Chiquita）**：历史最悠久的香蕉品牌（蓝标），主打有机和公平贸易概念，口感软糯细腻，但价格通常比都乐高10%-15%。适合定位中高端的店铺或搭配礼盒。\n3. **地域特色品牌**：如果你在华南或沿海城市，可以关注**菲律宾或厄瓜多尔产地直采的小众品牌**（如菲律宾的“Davao”或“PHT”标签），这类香蕉成熟度更高、香气浓，但货架期短，需要快速周转。\n\n**一条实操建议**：进口香蕉的最大痛点是**催熟控制**——如果你们已有催熟库，优先选择都乐（成熟度标号标准）；如果走自然熟或冷链直发，建议直接对接金吉达的代理，他们针对精品店的DTC服务做得更好。\n\n如果需要具体报价或代理联系方式，建议直接查“中国水果进口商名录”或从“上海辉展市场”获取档口资源，我可以帮你分析选品逻辑。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 357,
+    "total_tokens": 420,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

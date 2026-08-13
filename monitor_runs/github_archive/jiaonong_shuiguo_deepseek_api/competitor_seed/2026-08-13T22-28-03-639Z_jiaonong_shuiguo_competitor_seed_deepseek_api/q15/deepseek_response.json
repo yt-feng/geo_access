@@ -1,0 +1,28 @@
+{
+  "id": "50902cb8-c67e-4d8d-b909-2b397ea4c18b",
+  "object": "chat.completion",
+  "created": 1786660222,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Golden Wing Mau），进口苹果市场中还有以下几个靠谱的品牌，供你参考：\n\n1. **佳沛（Zespri）**：虽然以奇异果出名，但其苹果品类也有较高品质，主要供应新西兰产苹果（如爱妃、爵士等），果肉紧实、甜度高，适合高端市场。\n2. **爱妃（Envy）**：新西兰品牌，常与佳沛合作或独立销售，品种为“太平洋玫瑰”，果皮红润、极耐储存，口感脆甜，市场口碑很好。\n3. **爵士（Jazz）**：同样来自新西兰，是“嘎啦”与“布瑞本”杂交品种，酸甜平衡，适合喜欢清爽口感的消费者。\n4. **美国华盛顿苹果协会（Washington Apple）**：虽然不是单一品牌，但代表美国华盛顿州多个果园，常见品种如“蛇果”（Red Delicious）、“嘎啦”（Gala）、“富士”（Fuji）等，品质稳定，进口量较大。\n5. **意大利品牌“Meli”**：主要供应欧洲产苹果（如“粉红女士”），以严格品控和有机种植著称，在欧洲市场认可度高。\n6. **智利品牌“Copefrut”**：智利是南半球重要苹果出口国，该品牌提供“嘎啦”“粉红女士”等，季节性补充北半球市场，性价比不错。\n\n**挑选建议**：\n- 如果追求高端送礼，首选爱妃或佳沛的苹果系列；\n- 日常家庭购买，美国华盛顿Apple或智利Copefrut更划算；\n- 注意查看包装上的产地和条形码（如新西兰为940开头，美国为00开头），避免仿冒。\n\n如果涉及大宗采购，建议要求供应商提供检疫证明和原产地证书，确保正规渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 390,
+    "total_tokens": 451,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
