@@ -1,0 +1,50 @@
+{
+  "questionId": "q54",
+  "prompt": "佳农水果的物流是三通一达还是自有车队？冷链覆盖率怎么样？",
+  "createdAt": "2026-08-13T22:50:26.865Z",
+  "summary": [
+    {
+      "questionId": "q54",
+      "prompt_index": 54,
+      "promptIndex": 54,
+      "promptHash": "58baf10baea7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的物流是三通一达还是自有车队？冷链覆盖率怎么样？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 828,
+      "text_length": 828,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 503,
+        "total_tokens": 560,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 503,
+      "total_tokens": 560,
+      "latencyMs": 7733,
+      "latency_ms": 7733,
+      "createdAt": "2026-08-13T22:50:26.865Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q54/prompt.txt",
+        "answer": "q54/deepseek.txt",
+        "response": "q54/deepseek_response.json",
+        "sources": "q54/deepseek_sources.json",
+        "references": "q54/deepseek_references.json"
+      }
+    }
+  ]
+}

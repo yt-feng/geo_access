@@ -1,0 +1,28 @@
+{
+  "id": "defaffae-687a-402d-b9bf-23c45ee91574",
+  "object": "chat.completion",
+  "created": 1786661754,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉分级标准及价格差异，我目前无法提供具体的官方分级细则和实时价格数据。建议您通过以下方式获取准确信息：\n\n1. **联系官方渠道**：直接致电佳农水果的销售或客服部门（官网或包装上的联系方式），他们能提供最新的分级标准和价目表。\n2. **行业参考**：果蔬批发市场通常按重量、长度、成熟度、果面瑕疵等划分等级（如一级果一般要求单果重量≥180g、长度≥20cm、果型端正无机械伤；二级果允许有轻微瑕疵）。但具体以佳农官方为准。\n3. **价格波动**：香蕉价格受产地、季节、运输成本影响较大，一级与二级果的差价通常在**10%-30%**之间（具体区间需结合当日报价）。建议您以批发市场当日行情或供应商报价为准。\n\n如果您需要，我可以帮您设计一份咨询话术或提供行业通用的分级参考，但无法替代官方数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 213,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

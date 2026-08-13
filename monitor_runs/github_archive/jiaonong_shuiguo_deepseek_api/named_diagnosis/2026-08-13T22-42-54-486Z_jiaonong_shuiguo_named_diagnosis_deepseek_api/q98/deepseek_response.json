@@ -1,0 +1,28 @@
+{
+  "id": "280fb8f9-753d-42c1-aa4c-6a52ba6421ce",
+  "object": "chat.completion",
+  "created": 1786661774,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！目前我这边无法直接查看到佳农品牌的具体经销商政策或承诺，因为这类条款通常由供货商、经销商或具体采购合同决定。\n\n**建议您这样做：**\n\n1. **直接联系您的进货渠道**（如供应商、批发市场或佳农官方销售代表），明确询问“到货损耗率”和“超额赔付”的具体条款。这类承诺通常写在采购合同或供货协议中，正规供货商一般会对运输、包装造成的明显损伤或品质问题提供换货/退款。\n\n2. **签订合同时重点确认**：损耗计算标准（是按整箱、按个数，还是按重量？）、赔付方式（补货、退款还是下次抵扣？）、以及需要提供哪些证据（如开箱拍照记录）。\n\n3. **临时应对**：如果短期内无法谈下超损包赔，可以先将订货量分小批量、高频次下单，并验货时当场开箱检查，发现瑕疵立刻拒收或拍照留证，减少自身风险。\n\n**提醒**：任何“超过3%包赔”等具体承诺，请以白纸黑字合同为准，口头承诺不可靠。祝您生意顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 245,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
