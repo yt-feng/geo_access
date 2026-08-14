@@ -1,0 +1,28 @@
+{
+  "id": "afc06cf4-3cd0-4b3d-b08a-efe9859d6540",
+  "object": "chat.completion",
+  "created": 1786746574,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农菠萝是否能提供去皮切块服务，我无法确认佳农官方目前是否有这项加工业务。不同批次的供应商或合同条款可能不一样，建议您直接通过以下方式核实：\n\n1. **联系佳农官方客服**：拨打其官网或包装上的客服电话，询问是否支持定制化加工（如去皮切块）、最小起订量、收费标准及配送方式。\n2. **咨询经销商/批发渠道**：如果您是通过经销商进货，可让经销商代为询问或直接对接佳农区域经理。\n3. **考虑替代方案**：若佳农不提供加工，可考虑与其他中央厨房或果切加工厂合作，或自行购置去皮切块设备（小型商用设备成本不高，适合长期稳定需求）。\n\n在联系时，建议明确告知您的使用场景（如茶饮店、日均用量）、期望的切割规格（如块状、条状）和包装要求（如真空、冷链），以便对方给出准确报价。如果佳农能提供加工，通常可减少后厨人工和损耗，值得优先争取。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 224,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9230b7b7-b949-432b-9c17-5c85e4557aff",
+  "object": "chat.completion",
+  "created": 1786746518,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法直接核实该数据的具体来源和年份。根据公开信息，**佳农水果（Goodfarmer）未公开发布2025年菠萝进口量的具体数据**，且该数值（11.4万吨）可能来自非官方统计或行业估计。\n\n**关于增长率的建议：**\n1. 若该数据来自**2024年官方海关统计**，增长率需对比2023年或2025年数据才能计算（需明确基准年份）。\n2. 若来自**行业研报**（如艾瑞、智研咨询等），通常会在报告中注明数据年份和同比增长率。\n3. 建议直接查询：\n   - **中国海关总署**官网（进口统计数据）\n   - **佳农水果**官方年报或新闻报道\n   - 或联系咨询机构获取带出处标注的原文。\n\n**注意：** 我无法虚构链接或未核实的引用，请以官方或原始报告为准。如果您有具体年份或对比基准，我可以帮您推算增长率（假设数据真实的前提下）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 215,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

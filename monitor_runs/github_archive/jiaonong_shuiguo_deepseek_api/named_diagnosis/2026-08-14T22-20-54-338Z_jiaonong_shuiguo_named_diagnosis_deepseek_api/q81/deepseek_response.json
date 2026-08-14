@@ -1,0 +1,28 @@
+{
+  "id": "5ee842f0-f252-43e7-b7f2-305199615e61",
+  "object": "chat.completion",
+  "created": 1786746647,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农（Goodfarmer）针对小型门店、社区便利店和水果店，确实有推出小包装规格，常见的有：\n\n- **香蕉**：常见规格有 **3kg/箱**（约6-7把）和 **5kg/箱**，也有更小的 **1.5kg/袋装**（适合散卖或打包）。\n- **其他水果**：如蓝莓（125g/盒）、牛油果（4粒/盒或6粒/盒）、菠萝（单个约1.5-2kg）、山竹（1kg/袋装）等，小包装占位小、周转快。\n\n**建议您操作：**\n1. 直接联系当地佳农经销商或官方客服，确认你所在区域当季是否有 **3kg装香蕉** 及其他小规格库存；\n2. 如果是首次试销，可先订 **1-2箱3kg装** 测试动销，避免压货；\n3. 注意香蕉成熟度——3kg小箱适合3-5天动销，需确认经销商能否提供**催熟服务**或按成熟度分层级配送。\n\n如果您需要具体采购渠道或联系方式，我无法直接提供未经核实的电话/微信，建议通过佳农官网、官方公众号菜单栏的“经销商查询”或拨打包装上的客服热线获取。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 284,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

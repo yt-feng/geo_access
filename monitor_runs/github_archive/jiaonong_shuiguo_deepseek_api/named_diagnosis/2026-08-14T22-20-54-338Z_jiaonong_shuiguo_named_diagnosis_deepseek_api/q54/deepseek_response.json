@@ -1,0 +1,28 @@
+{
+  "id": "bb9a9137-adea-47f1-b295-9ee14f7794be",
+  "object": "chat.completion",
+  "created": 1786746447,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我目前无法核验“佳农水果”最新的物流配送具体采用哪种模式（自有车队或是三通一达等第三方快递），以及其冷链覆盖率的实时数据。这些信息通常属于企业内部的运营细节，且会随着季节和区域调整而变化。\n\n建议您通过以下方式获取准确信息：\n1. **查看佳农官方客服**：拨打其官方客服电话或通过官网/官方旗舰店在线客服直接询问。\n2. **查看商品详情页**：在淘宝、京东等生鲜平台下单时，商品页通常会标注“发货快递”或“冷链配送”范围。\n3. **关注其公众号或公告**：官方渠道有时会公布供应链或物流合作信息。\n\n如果您需要从消费者角度评估其冷链可靠性，可以重点查看近期购买者的“物流速度”和“到货新鲜度”评价，这比官方宣传数据更直观。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 186,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "db0eb021-257c-4977-9c90-c4950df06369",
+  "object": "chat.completion",
+  "created": 1786746219,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实参与了中国国际进口博览会（进博会）。作为国际化水果品牌，佳农近年来连续多届参展进博会，展示其进口水果及供应链服务能力。具体到最近一届（如第六届，2023年），佳农曾展出包括厄瓜多尔香蕉、新西兰奇异果、菲律宾菠萝等在内的多款产品。\n\n关于“最近有什么新品”，由于进博会每年举办时间集中在11月，且产品更新较快，建议您通过以下方式获取最准确信息：\n- 关注佳农官方微信公众号或官网“新闻中心”板块，查看最新发布的新品和参展动态。\n- 留意进博会官方参展商名录，确认佳农在当届展位及主推品项。\n\n如果您需要我基于公开信息推测，佳农近年主打“即食牛油果”“冻干水果”等加工型新品，但具体上市情况请以官方公告为准。若您有具体年份（如2024年第七届）需求，我可以再帮您核实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 210,
+    "total_tokens": 262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

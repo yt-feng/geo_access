@@ -1,0 +1,28 @@
+{
+  "id": "9ee2c41c-0b39-4af3-aa6c-c0745ef8cf2f",
+  "object": "chat.completion",
+  "created": 1786746111,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农作为国内较大的水果品牌企业，在供应链管理上比较成熟，其到货损耗率通常会根据不同品类、运输距离、销售渠道有所差异，无法给出一个统一数值。\n\n一般行业参考标准如下（针对中高端品牌）：\n\n- **进口水果/高端水果**（如佳沛奇异果、进口车厘子等）：**整体损耗率控制在1%~3%** 以内较为理想。\n- **国产水果**（如香蕉、火龙果）：由于成熟度、催熟管理难，损耗率会略高，通常在**3%~5%**。\n- **电商渠道（冷链直发）**：损耗率目标通常在**2%以内**。\n- **批发市场大批量到货**：实际损耗可能受装卸、中转到市场时间影响，通常允许**5%以内**作为合理区间。\n\n需要注意的是，这些是行业经验值，并非佳农官方公开承诺的标准。如果您是经销商、采购商或供应商，建议直接与佳农当地的销售负责人确认具体的**验收标准、损耗率条款及赔付机制**，因为合同和账期条款里往往有明文约定。\n\n如果您有具体水果品类（如香蕉、菠萝、猕猴桃等）想了解，可以再告诉我，我可以给您更细致的参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 262,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
