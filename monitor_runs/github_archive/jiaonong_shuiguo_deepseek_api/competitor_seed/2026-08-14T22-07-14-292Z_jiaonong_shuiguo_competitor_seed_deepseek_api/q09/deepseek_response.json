@@ -1,0 +1,28 @@
+{
+  "id": "cd725f6c-3d46-40c0-a3bf-443a32f34946",
+  "object": "chat.completion",
+  "created": 1786745311,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下是比较知名且适合礼品团购的进口水果品牌，供你参考：\n\n**1. 美国/智利车厘子：**\n- **Ocean Spray（优鲜沛）**：主打蓝莓、蔓越莓等浆果，礼盒品质高。\n- **Driscoll's（怡颗莓）**：全球知名浆果品牌（草莓、蓝莓、树莓），包装精致，适合高端礼盒。\n\n**2. 新西兰/澳大利亚苹果：**\n- **Rockit（乐淇）**：新西兰小苹果品牌，桶装或礼盒装，果型小巧，适合送礼。\n- **Envy（爱妃）**：新西兰苹果品牌，甜度高、耐储存，礼盒装常见。\n\n**3. 菲律宾/东南亚热带水果：**\n- **Del Monte（德尔蒙）**：以菠萝、香蕉为主，礼盒装性价比高。\n- **Dole（你已提到）**，但可另选 **Chiquita（金吉达）** 的香蕉礼盒。\n\n**4. 日本/韩国高端水果：**\n- **青森苹果**、**晴王葡萄**、**静冈蜜瓜**：这些多为产地直供，没有统一品牌，但可通过进口商定制礼盒（如“日式高糖度礼盒”）。\n\n**5. 品牌综合型：**\n- **SunWorld（新奇士的母公司）**：涵盖脐橙、柠檬、葡萄等，有标准礼盒包装。\n- **Zespri（已提）**之外，**Mr. Apple** 是新西兰另一苹果出口商，适合大宗团购。\n\n**团购建议：**\n- 若追求品牌辨识度，优先选**Driscoll's（浆果）**、**Envy（苹果）**、**Rockit（小苹果）**。\n- 若需高端差异化，可考虑**日本进口提子、蜜瓜礼盒**（通过进口批发商定制）。\n- 建议提前向供应商索要检测检疫证明和批次证书，以备企业团购合规要求。\n\n如需具体批发渠道或价格参考，可告知城市和预算，我帮你梳理采购思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 474,
+    "total_tokens": 536,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
