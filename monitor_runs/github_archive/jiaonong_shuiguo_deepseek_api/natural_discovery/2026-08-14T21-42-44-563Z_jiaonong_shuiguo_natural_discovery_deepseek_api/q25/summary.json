@@ -1,0 +1,50 @@
+{
+  "questionId": "q25",
+  "prompt": "超市门店多但单店量不大，适合找什么样的水果供货模式？",
+  "createdAt": "2026-08-14T21:47:26.904Z",
+  "summary": [
+    {
+      "questionId": "q25",
+      "prompt_index": 25,
+      "promptIndex": 25,
+      "promptHash": "d6bcd13d65fd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市门店多但单店量不大，适合找什么样的水果供货模式？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 991,
+      "text_length": 991,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 647,
+        "total_tokens": 703,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 647,
+      "total_tokens": 703,
+      "latencyMs": 9809,
+      "latency_ms": 9809,
+      "createdAt": "2026-08-14T21:47:26.904Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q25/prompt.txt",
+        "answer": "q25/deepseek.txt",
+        "response": "q25/deepseek_response.json",
+        "sources": "q25/deepseek_sources.json",
+        "references": "q25/deepseek_references.json"
+      }
+    }
+  ]
+}
