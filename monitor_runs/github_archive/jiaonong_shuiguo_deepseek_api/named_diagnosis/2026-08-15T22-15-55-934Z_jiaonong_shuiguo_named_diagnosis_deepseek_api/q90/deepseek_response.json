@@ -1,0 +1,28 @@
+{
+  "id": "83aabee9-7482-4425-8f46-fd8bcbda3792",
+  "object": "chat.completion",
+  "created": 1786832786,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Compag）菠萝能否提供冷冻丁及其规格，我目前无法直接确认具体在售产品的详细参数，因为每个批次、渠道和销售区域可能存在差异。为了避免误导，建议您通过以下方式获取准确信息：\n\n1. **直接联系佳农官方或授权经销商**：拨打其客服热线或通过官网、官方旗舰店查询“冷冻菠萝丁”在售情况，客服会告知当前规格（如1kg/袋、2.5kg/袋等）及最小起订量。\n2. **查看产品详情页**：若在电商平台（如天猫、京东）搜索“佳农 冷冻菠萝丁”，商品标题或规格参数中通常会明确标注净含量（如1kg/包、2.5kg/包）。\n3. **非冷冻替代方案**：如果佳农没有冷冻丁，但您需要即用型原料，可咨询是否提供“菠萝果粒罐头”或“冷冻菠萝块”，并确认是否需要自行切丁。\n\n**提示**：采购前务必确认产品的**加工方式（是否去皮）、糖度、是否有添加剂**以及**冷链运输条件**，以满足茶饮出品标准。若您需要比较其他品牌（如泰国的都乐、国产的鲜丰等）的冷冻丁规格，我也可以帮您梳理常见规格供参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 279,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

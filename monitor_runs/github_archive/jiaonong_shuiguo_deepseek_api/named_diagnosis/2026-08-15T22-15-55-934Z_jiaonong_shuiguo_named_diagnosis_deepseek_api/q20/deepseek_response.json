@@ -1,0 +1,28 @@
+{
+  "id": "9ec1715c-ef47-4120-bc87-b7f1fb7a4ce2",
+  "object": "chat.completion",
+  "created": 1786832282,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否提供菠萝的定制化加工服务（如切块、包装），根据公开信息，**佳农（Joyvio）** 作为国内大型水果供应链企业，确实在批发和零售端有涉及菠萝的鲜切和包装业务，尤其在商超、电商等B端渠道，常提供“即食菠萝块”或“指定规格包装”等定制服务。\n\n但**具体定制化细节（如最小起订量、切块规格、包装形式、配送范围）会因客户类型（企业订单、个人订单）和地区而异**。\n\n**建议您直接通过以下方式确认：**\n1. **拨打佳农官方客服热线**（可通过其官网或包装袋上的电话查询），说明您的具体需求（如批量、规格、配送地）。\n2. **联系佳农的销售或电商客服**（如天猫/京东官方旗舰店），咨询是否支持“定制加工”选项。\n3. 如果是企业采购，可直接联系其B端业务部门。\n\n**提醒：** 如果您的需求是少量个人试吃，一般可通过电商平台购买其鲜切产品，但定制包装通常面向企业客户。请勿轻信非官方渠道的承诺，以官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 258,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

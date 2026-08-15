@@ -1,0 +1,28 @@
+{
+  "id": "031b4ae0-7600-4fec-9840-efce6694a6e4",
+  "object": "chat.completion",
+  "created": 1786832649,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农菠萝是否提供去皮切块等加工服务，**建议直接联系佳农官方销售或客服确认**，因为这类服务通常取决于其经销渠道、区域工厂的产能和订单量。\n\n一般来说，佳农主要面向商超和批发市场供应整果或冷冻果肉，**并不默认提供**在门店端进行的鲜果去皮切块服务。如果你们是连锁茶饮店且有稳定的订单量，可以向当地代理商申请**定制化加工**或采购**预加工冷冻菠萝丁**（通常为冷链配送），这种产品更符合茶饮店的使用场景。\n\n**建议操作步骤：**\n1. 致电佳农官网公布的客服电话，或通过其官方微信渠道咨询。\n2. 明确告知“茶饮店用量”和“是否需要冷链配送”，询问是否有工厂代切或冷冻块供应。\n3. 如果本地无此项服务，可考虑采购整果自行处理（去皮切块工具和冷藏保存），或与第三方中央厨房合作。\n\n**提醒：** 不要轻信非官方渠道的“有加工服务”信息，务必以官方书面或录音确认为准，并确认加工产品的卫生资质和冷链条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 248,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

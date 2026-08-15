@@ -1,0 +1,28 @@
+{
+  "id": "9199c38e-f7ad-4fcb-bce0-94de6cdc318e",
+  "object": "chat.completion",
+  "created": 1786832311,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法实时核验特定企业（如佳农水果）的展会参与情况和最新产品发布信息。建议你通过以下方式获取准确信息：\n\n1. **官方渠道**：访问佳农水果官网（www.jianong.com）或关注其微信公众号/官方微博，查看进博会相关公告和最新产品动态。\n2. **搜索关键词**：使用搜索引擎查询“佳农 进博会 2024”或“佳农 新品发布”，注意筛选近期的新闻稿或官方声明。\n3. **电商平台**：查看佳农在京东、天猫等平台的旗舰店，通常新品会提前上架并标注“新品”标签。\n\n如果你能提供更具体的时间范围（例如“2024年进博会”），我可以根据公开信息帮你梳理可能的线索，但需以官方发布为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 171,
+    "total_tokens": 223,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

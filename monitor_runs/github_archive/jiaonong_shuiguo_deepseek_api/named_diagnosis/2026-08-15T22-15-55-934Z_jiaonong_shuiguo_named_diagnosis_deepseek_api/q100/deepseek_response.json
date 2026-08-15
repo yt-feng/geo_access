@@ -1,0 +1,28 @@
+{
+  "id": "4a452fe4-e154-48e7-8e7b-02ed54e3ed93",
+  "object": "chat.completion",
+  "created": 1786832851,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**佳农目前主要提供新鲜果蔬（如香蕉、菠萝等）的原料供应，通常不直接提供餐饮级的工业切片加工服务。** 针对餐饮连锁，标准做法是：\n\n1. **寻找专业果蔬加工厂（OEM/代工）**  \n   比如找当地或周边有资质的中央厨房、果蔬加工企业，他们可以从佳农或市场采购新鲜香蕉，按你的需求切片（厚度、形状、包装、灭菌方式等），再冷链配送。\n\n2. **规格建议参考**  \n   如果是餐饮用（如甜品、果切、烘焙），常见规格为：  \n   - 厚度：3-5mm（易熟、口感合适）  \n   - 包装：1kg/袋，或按你门店日用量定制  \n   - 形式：真空包装或充氮包装，冷藏（0-4℃）保质期通常3-5天，冷冻（-18℃）可延长至数月  \n\n3. **直接联系佳农**  \n   你可以拨打佳农官方客服（建议通过官网或公众号查询）确认他们是否新增了深加工产品线（部分年份他们会试点做冻干或切片产品，但以整果供应为主）。\n\n**执行建议：** 先确认你的加工量（每日/每周多少吨），再找当地有SC认证的果蔬加工厂询价打样；不要让门店自行切片，成本高且品质不稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 297,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

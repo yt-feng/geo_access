@@ -1,0 +1,50 @@
+{
+  "questionId": "q18",
+  "prompt": "佳农香蕉的保质期和储存条件是什么？",
+  "createdAt": "2026-08-15T22:17:51.116Z",
+  "summary": [
+    {
+      "questionId": "q18",
+      "prompt_index": 18,
+      "promptIndex": 18,
+      "promptHash": "49302a8d5965",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农香蕉的保质期和储存条件是什么？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 837,
+      "text_length": 837,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 51,
+        "completion_tokens": 499,
+        "total_tokens": 550,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 51
+      },
+      "prompt_tokens": 51,
+      "completion_tokens": 499,
+      "total_tokens": 550,
+      "latencyMs": 5584,
+      "latency_ms": 5584,
+      "createdAt": "2026-08-15T22:17:51.116Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q18/prompt.txt",
+        "answer": "q18/deepseek.txt",
+        "response": "q18/deepseek_response.json",
+        "sources": "q18/deepseek_sources.json",
+        "references": "q18/deepseek_references.json"
+      }
+    }
+  ]
+}
