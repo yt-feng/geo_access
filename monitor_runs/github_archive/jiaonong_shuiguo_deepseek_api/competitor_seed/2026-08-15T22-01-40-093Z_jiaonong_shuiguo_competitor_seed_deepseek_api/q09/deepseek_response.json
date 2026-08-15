@@ -1,0 +1,28 @@
+{
+  "id": "3db3724a-3b88-47e9-9c21-25bc47a9b5a3",
+  "object": "chat.completion",
+  "created": 1786831376,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下是一些适合礼品团购的优质进口水果品牌，按品类整理供您参考：\n\n**1. 车厘子/樱桃类**\n- **Driscoll‘s（怡颗莓）**：美国品牌，主产蓝莓、草莓、树莓，但部分高端线也做车厘子。\n- **Cherry King / 智利车厘子产地**：智利品牌如“Police”或“Lala”常见于高端商超，礼盒装性价比高。\n\n**2. 柑橘/橙类**\n- **Sunkist（新奇士）**：美国老牌，主打橙子、柠檬，礼盒包装经典。\n- **Clementine（克莱门氏小柑橘）**：西班牙/摩洛哥产区，多见于冬季礼品。\n\n**3. 苹果/梨类**\n- **Envy（爱妃）**：新西兰品牌，果肉细腻，甜度高，适合高端送礼。\n- **Jazz（爵士）**：新西兰，口感脆甜，但知名度略低。\n- **Core（乔纳金）**：南非或智利，礼盒装常见。\n\n**4. 葡萄/提子类**\n- **Cotton Candy（棉花糖葡萄）**：美国/智利，甜度极高，礼盒精致。\n- **Morning Kiss（晨吻）**：智利红提，常用于高端果篮。\n\n**5. 牛油果/热带水果**\n- **Hass（哈斯）**：墨西哥或秘鲁，属品牌化较弱但常见。\n- **Pinkglow（粉红菠萝）**：美国Del Monte旗下，果肉粉红色，极具礼品属性（性价比高，一年仅一季）。\n\n**6. 综合礼盒品牌**\n- **Fruit Fresh / Dole 兄弟品牌**：部分区域代理商会提供混装进口果篮。\n- **Perfection Fresh（澳洲）**：主产葡萄和芒果，常做定制礼盒。\n\n**选购建议**：\n- **优先看产地认证**：如新西兰Zespri金果、智利车厘子（果径大）等，可要求供应商提供原产地证。\n- **注意时令性**：如车厘子（11-2月）、葡萄（6-8月）等，可提前联系供应商锁定货源。\n- **品牌授权商**：从官方代理或授权渠道采购，避免假货（尤其佳沛、Sunkist仿冒多）。\n\n**若需进一步定制**，可联系国内像鑫荣懋、鲜丰水果等大型供应链公司，他们通常代理多个进口品牌组合。如需具体报价，建议直接咨询当地进口水果批发市场（如上海辉展、广州江南市场）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 591,
+    "total_tokens": 653,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
