@@ -1,0 +1,28 @@
+{
+  "id": "5b5424af-6ddd-4b3e-ab82-346bbc4ce2e6",
+  "object": "chat.completion",
+  "created": 1786918629,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围通常与其合作的电商平台或自营渠道有关。目前，佳农主要通过京东、天猫、拼多多等平台以及部分线下商超销售，配送范围一般依托这些平台的物流网络。\n\n具体到你所在的县城能否配送，建议你：\n1. **直接查看电商平台**：在京东、天猫等搜索“佳农水果”，查看商品详情页的配送范围说明，并输入你的具体地址尝试下单。若显示“可配送”，则能送到。\n2. **客服确认**：联系佳农官方客服或平台卖家，提供你的县城名称，询问是否支持配送。\n3. **时效提示**：即使能送，县城配送时效可能比城市慢1-2天，且生鲜水果可能依赖冷链，需确认是否支持。\n\n如果无法核验来源，我不建议你仅凭我的回答判断，请以实际下单结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 188,
+    "total_tokens": 243,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

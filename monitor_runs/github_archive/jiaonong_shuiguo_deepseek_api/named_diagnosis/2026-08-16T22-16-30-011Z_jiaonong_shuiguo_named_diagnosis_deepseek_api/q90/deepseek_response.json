@@ -1,0 +1,28 @@
+{
+  "id": "cc5249e2-2724-4baa-92ec-566d7a190773",
+  "object": "chat.completion",
+  "created": 1786919267,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农菠萝”是否能提供冷冻菠萝丁，我无法核验其具体产品线，建议直接联系佳农官方客服或当地经销商确认。\n\n不过，根据行业通用情况，大型水果供应商（如佳农）通常会有冷冻果丁产品线，常见规格为：\n- **1kg/袋**（餐饮装）\n- **2.5kg/袋**（商用大包装）\n- 部分品牌也有 **500g** 小包装供门店试单\n\n**建议您按以下步骤操作：**\n1. 致电佳农官方客服（官网可查）或联系业务员，明确询问“冷冻菠萝丁”是否有货、批次、冷链配送范围。\n2. 若佳农无此产品，可考虑替代方案：\n   - 联系本地冷冻水果批发商（如“新希望”“绿果”等品牌）\n   - 要求供应商提供 **1kg 样品**，测试甜度、酸度、果肉硬度及解冻后出水率，再决定批量采购。\n3. 确认规格时，注意核对 **净含量（非毛重）**、**冷冻储存温度（-18℃）**、**保质期**。\n\n如果需要，我可以帮您整理一份水果原料采购询价单模板（含品名、规格、数量、包装要求、到货地址等字段）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 284,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

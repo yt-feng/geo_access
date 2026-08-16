@@ -1,0 +1,28 @@
+{
+  "id": "6f1504c9-9172-4ab3-b1b5-f74b66e5c1b2",
+  "object": "chat.completion",
+  "created": 1786918836,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开市场信息，佳农（Goodfarmer）作为高端水果品牌，其香蕉的定价通常**高于市场均价**。主要原因包括：\n\n1. **品质定位**：佳农主打进口或国产优质产区（如菲律宾、老挝、国内云南等）的香蕉，对甜度、果形、成熟度有更严格筛选标准。\n2. **供应链成本**：其采用冷链运输、标准化包装（如独立气调袋），且终端渠道多为商超、精品水果店，渠道费用推高价格。\n3. **品牌溢价**：相较于散装或无品牌香蕉，佳农有明确的品种和产地追溯，消费者为稳定品质支付额外费用。\n\n**具体价格差异**：在常见大型商超（如盒马、永辉、沃尔玛）中，佳农香蕉的单价通常比同摊位普通香蕉高约 **20%-50%**。例如，普通香蕉卖2.99元/斤时，佳农常标价4.99-5.99元/斤。\n\n**建议**：如果你追求高性价比，可选择市场内的本地当季香蕉；若更看重口感一致性和方便保存，佳农的溢价是合理的。购买时注意看促销（如周三会员日、晚间折扣），可缩小价差。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 269,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

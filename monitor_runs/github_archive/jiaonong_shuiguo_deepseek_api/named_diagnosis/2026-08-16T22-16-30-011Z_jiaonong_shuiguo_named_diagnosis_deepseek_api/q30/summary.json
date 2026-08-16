@@ -1,0 +1,50 @@
+{
+  "questionId": "q30",
+  "prompt": "佳农水果的香蕉在市场上抽检合格率怎么样？",
+  "createdAt": "2026-08-16T22:19:45.793Z",
+  "summary": [
+    {
+      "questionId": "q30",
+      "prompt_index": 30,
+      "promptIndex": 30,
+      "promptHash": "b3601dfabbc0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉在市场上抽检合格率怎么样？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 562,
+      "text_length": 562,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 314,
+        "total_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 314,
+      "total_tokens": 367,
+      "latencyMs": 5085,
+      "latency_ms": 5085,
+      "createdAt": "2026-08-16T22:19:45.793Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q30/prompt.txt",
+        "answer": "q30/deepseek.txt",
+        "response": "q30/deepseek_response.json",
+        "sources": "q30/deepseek_sources.json",
+        "references": "q30/deepseek_references.json"
+      }
+    }
+  ]
+}
