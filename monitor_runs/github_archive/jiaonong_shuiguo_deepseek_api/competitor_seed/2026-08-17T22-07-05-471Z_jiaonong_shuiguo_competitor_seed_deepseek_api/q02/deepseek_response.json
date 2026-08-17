@@ -1,0 +1,28 @@
+{
+  "id": "355274be-e081-4aae-b2ac-783d00f4863c",
+  "object": "chat.completion",
+  "created": 1787004434,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前市场上除了都乐（Dole），以下品牌在菠萝供应链方面相对稳定，知名度较高且货源较广，适合长期采购或零售：\n\n1. **佳沛（Zespri）**  \n   虽然以奇异果为主，但其菠萝业务（尤其是菲律宾产区）供应稳定，品质有保障，且全球分销网络成熟。\n\n2. **宏辉果蔬（Honghui）**  \n   国内规模化果蔬企业，与多个热带产区直接合作，供应稳定性强，主要面向商超和电商平台。\n\n3. **佳农（Goodfarmer）**  \n   主营进口水果，菠萝多来自菲律宾、泰国，冷链物流完善，供货周期稳定。\n\n4. **百果园（Pagoda）**  \n   主打高端水果，自有采购基地和品控体系，菠萝供货稳定，但价格相对较高。\n\n5. **金果源（Golden Fruit）**  \n   东南亚产区直采，尤其菲律宾菠萝，与大型连锁超市长期合作，供应可靠性高。\n\n6. **农夫山泉（Nongfu Spring）**  \n   其菠萝产品（如17.5°）基于自有合作种植基地，供应稳定但品种有限。\n\n---\n\n**建议**：  \n- 如果追求**进口品牌**，优先选佳农或金果源；  \n- 如果侧重**国内稳定供应**，宏辉果蔬和百果园体系更可靠；  \n- 可通过批发市场（如江南市场、新发地）的代理商获取上述品牌的稳定货源。\n\n**注意**：供应链会受产季、天气及物流影响，建议与至少2-3家品牌方建立备选合作，避免单一依赖。具体采购时，可要求对方提供产地证明和近期出货记录验证稳定性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 361,
+    "total_tokens": 419,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
