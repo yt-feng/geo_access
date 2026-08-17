@@ -1,0 +1,28 @@
+{
+  "id": "19a94a63-2fca-4ef9-a9bb-a49c80d269f7",
+  "object": "chat.completion",
+  "created": 1787005765,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农（Goodfarmer）在零售渠道确实提供小规格包装，常见的有：\n\n- **佳农香蕉**：常见小包装为 **1.5kg 装**、**2kg 装**（6-8根左右），比3kg更适合小面积便利店快速周转。\n- **佳农苹果/梨**：部分规格有 **1.2kg / 1.5kg 网袋装**。\n- **佳农蓝莓**：常见 **125g/盒**，适合收银台或冷藏柜小面积陈列。\n\n**针对你的情况建议：**\n- 优先选 **1.5kg左右的香蕉**，单串损耗低、货架期短，适合小门店。\n- 如果确实想要 **3kg装**，部分经销商或批发渠道有，但更适合大卖场，小门店容易积压造成过熟损耗。\n- 进货前可以联系当地佳农经销商确认具体在售规格，不同区域库存有差异。\n\n**额外提示：** 小门店上架水果时，把香蕉放在收银台附近或门口位置，利用“冲动消费”，同时每天检查熟度，避免损耗。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 248,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

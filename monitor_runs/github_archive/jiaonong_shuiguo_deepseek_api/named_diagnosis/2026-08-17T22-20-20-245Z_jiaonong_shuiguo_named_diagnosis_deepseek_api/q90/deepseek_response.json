@@ -1,0 +1,28 @@
+{
+  "id": "e117b33b-f0d0-446f-b9b2-fc60105f5cff",
+  "object": "chat.completion",
+  "created": 1787005839,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前的信息，**佳农（Goodfarmer）** 主要经营新鲜水果（如菠萝、香蕉等）的分销与零售，但在其公开的产品线中，**并未明确显示有“冷冻菠萝丁”这一工业原料品类**。\n\n如果你需要**冷冻菠萝丁**作为茶饮店的原料，建议通过以下途径直接核实：\n\n1. **联系佳农官方或区域经销商**：直接询问是否有该产品，或是否能按需定制（部分B端供应商可接受规格定制）。\n2. **询问规格**：如果对方有，常见的冷冻菠萝丁规格一般是 **1kg/袋** 或 **2.5kg/袋**，粒径通常在 **1cm × 1cm** 左右（适合做水果茶或果酱）。\n3. **替代方案**：若佳农不提供，可考虑其他专业冷冻水果原料商（如“鲜丰”、“恒都”或本地冻品批发市场），其冷冻菠萝丁规格多为 **1kg×10包/箱**，价格更具竞争力。\n\n> ⚠️ 由于原料产品线更新较快，建议直接拨打佳农客服（400-820-2020）或联系你当地的经销商确认，避免囤货失误。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 257,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

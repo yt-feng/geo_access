@@ -1,0 +1,28 @@
+{
+  "id": "11846e2c-a8f9-481c-8280-290b47cf73e8",
+  "object": "chat.completion",
+  "created": 1787005419,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购的水果礼盒业务。具体信息如下：\n\n1. **产品类型**：佳农提供多种规格的进口水果礼盒（如香蕉、凤梨、牛油果、车厘子、蓝莓等），也有混合水果礼篮，适合节日送礼或企业福利采购。\n\n2. **团购渠道**：可通过以下方式咨询：\n   - 佳农官方微信商城或小程序（搜索“佳农”）\n   - 天猫/京东旗舰店的“企业采购”或“团购”入口\n   - 拨打官方客服热线（400-XXX-XXXX，具体号码可在官网查询）\n\n3. **定制服务**：部分渠道支持礼盒LOGO定制、贺卡附赠或批量配送，需提前与销售代表沟通。\n\n**建议**：直接访问佳农官网或联系客服，提供采购数量、预算和送礼场景（如商务、节庆），获取最新报价和起订量要求。实际产品以官方渠道当季供应为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 214,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

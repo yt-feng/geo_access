@@ -1,0 +1,28 @@
+{
+  "id": "19faf930-2e14-44c3-b3f0-e1ae5ca6c695",
+  "object": "chat.completion",
+  "created": 1787005844,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客户服务时间及发货安排，以下是根据常见情况提供的信息：\n\n1. **客户服务时间**：佳农水果的客服通常提供**7x24小时**的在线服务（通过官网、小程序或电商平台），但具体是否全天候可能因渠道（如天猫、京东等第三方平台）而有所不同。建议您直接联系官方客服确认，或查看您下单平台的客服页面显示的时间。\n\n2. **晚上下单发货时间**：  \n   - 如果您在**晚上下单**，一般会视为**次日的订单**，仓库会在**第二个工作日或次日白天**安排发货（具体取决于库存和物流安排）。  \n   - 佳农是生鲜品牌，通常承诺**48小时内发货**，但周末或节假日可能会有延迟。  \n   - **建议**：下单后，您可以在订单详情页查看预计发货时间，或直接联系客服获取明确答复。\n\n**总结**：客服大概率7x24小时可用，但发货时间至少要等次日。如果急需，请优先选择“次日达”商品或提前下单，并确认售后政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 231,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

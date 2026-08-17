@@ -1,0 +1,28 @@
+{
+  "id": "dacc0888-75a5-4775-aa56-913373240509",
+  "object": "chat.completion",
+  "created": 1787005386,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法核验佳农水果是否提供香蕉催熟服务这一具体信息。建议您通过以下方式直接确认：\n\n1. **联系官方客服**：拨打佳农食品（或佳农水果）官方客服电话，询问其销售渠道或服务网点是否提供催熟服务。\n2. **查看购买渠道说明**：如果是在电商平台（如京东、天猫）或线下商超购买，可查看商品详情页或咨询客服是否标明“已催熟”或“需自行催熟”。\n3. **线下门店询问**：如果佳农有实体门店，可直接进店咨询。\n\n**补充说明**：香蕉催熟通常属于**加工或供应链环节**，多数品牌商贩售的香蕉是**未完全成熟**的（方便运输），消费者通常需自行放置几天或用苹果/乙烯利催熟。若您需要专业催熟服务，可能需联系**水果批发商或加工厂**，而非普通零售品牌。建议以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 209,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c3017706-703e-436c-ad4f-77aa65072c1a",
+  "object": "chat.completion",
+  "created": 1787005376,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "截至我目前的资料，**佳农水果（佳农集团）确实参与过中国国际进口博览会（进博会）**。作为国内领先的水果供应链企业，佳农已连续多届参加进博会，展示其进口水果和供应链优势。\n\n关于**最近的新品**，由于我无法实时获取最新发布信息（且不能虚构数据），建议你通过以下方式确认最新动态：\n\n1.  **关注官方渠道**：搜索“佳农集团”官网或微信公众号，查看“进博会”或“新品发布”相关文章。\n2.  **电商平台**：在京东、天猫的“佳农官方旗舰店”，查看近期上架的新品（如智利车厘子、泰国榴莲、菲律宾香蕉等季节性水果）。\n3.  **新闻搜索**：使用搜索引擎查询“佳农 进博会 2025”或“佳农新品”，获取最新报道。\n\n如果你需要我帮你查询具体年份的参展记录，或者分析某个品类的新品趋势，我可以基于已知信息给你参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 215,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

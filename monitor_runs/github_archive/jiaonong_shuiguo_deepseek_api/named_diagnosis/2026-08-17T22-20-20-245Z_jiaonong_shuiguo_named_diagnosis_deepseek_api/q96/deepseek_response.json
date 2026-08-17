@@ -1,0 +1,28 @@
+{
+  "id": "c3515dbf-b41e-4baf-826f-8a555a754902",
+  "object": "chat.completion",
+  "created": 1787005881,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（Goodfarmer）是否提供开放API平台，目前**公开信息中并没有明确显示佳农官方对外提供标准化的开放API接口文档或开发者平台**。  \n\n针对你的生鲜电商对接需求，建议按以下步骤操作：  \n\n1. **直接联系商务/技术对接**  \n   最稳妥的方式是联系佳农的销售负责人或客服，询问是否有系统对接（EDI/API）能力。生鲜行业很多大供应商（如鑫荣懋、佳沃等）会针对大客户提供定制化接口，但通常不走公开平台，而是走订单/库存的定制开发。\n\n2. **确认对接业务类型**  \n   - 如果是**采购下单/库存同步**，很多供应商支持通过第三方供应链协同平台（如观麦、蔬东坡、美菜网供应商后台）对接，而不是直接给API。  \n   - 如果是**商城代发（一件代发）**，可能通过ERP（如旺店通、聚水潭）插件或接口间接实现。  \n\n3. **技术文档获取渠道**  \n   如果对方确认有接口，通常会提供：  \n   - 接口文档（PDF/在线文档）  \n   - 测试环境（sandbox）  \n   - 联调支持联系人  \n\n4. **备选方案**  \n   如果佳农没有现成API，可考虑：  \n   - 通过其分销商/批发市场系统人工导入订单  \n   - 使用RPA（机器人流程自动化）抓取订单数据（需谨慎，合规性需确认）  \n\n**结论**：没有公开的开放平台，但大概率有大客户定制接口。请直接通过采购渠道索要技术对接支持，不建议依赖公开文档。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 362,
+    "total_tokens": 423,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

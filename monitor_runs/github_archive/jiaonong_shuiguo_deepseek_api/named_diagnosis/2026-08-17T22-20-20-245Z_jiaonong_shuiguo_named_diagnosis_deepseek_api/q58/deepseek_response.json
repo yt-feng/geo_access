@@ -1,0 +1,28 @@
+{
+  "id": "579fcaea-0a5d-498b-aac8-68a0ce591cba",
+  "object": "chat.completion",
+  "created": 1787005610,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农（Fresh Product）是否提供菠萝丁加工服务，我目前无法直接核实到其具体的业务细节。因为这类信息通常涉及B2B（企业对企业）合作政策，且会因区域、订单量、合作模式等有所不同。\n\n为了给您准确的信息，建议您按以下步骤操作：\n\n1. **联系官方渠道**：直接搜索“佳农食品”或“佳农鲜果”的官方网站，查找B2B销售热线或在线客服。他们的正规业务电话或表单通常会提供详细的产品和加工服务咨询。\n2. **询问批发/经销渠道**：如果您是从经销商或批发市场采购，可以直接问经销商能否协助联系佳农的加工部门，或者是否有同品牌的菠萝丁现货。\n3. **确认需求细节**：在咨询时，明确告知“我们茶饮店需要切丁的菠萝果肉，规格（如大小、糖度）和包装要求”，这样对方能快速判断是提供定制加工，还是只售卖整果供您自行处理。\n\n通常，大型果蔬企业确实会提供代加工（如去皮、切丁、速冻）服务，但肯定要基于订单量级。如果佳农无法提供加工，您也可以考虑寻找专业的鲜果切配工厂，或者选择市面上常见的即用型冷冻菠萝丁品牌。\n\n如果您需要，我可以帮您梳理一个通用的询价模板，方便您去沟通。需要的话请告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 297,
+    "total_tokens": 360,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
