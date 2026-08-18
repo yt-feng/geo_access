@@ -1,0 +1,28 @@
+{
+  "id": "82e7bf28-d809-4039-9d91-fbff64df9ad1",
+  "object": "chat.completion",
+  "created": 1787091768,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉价格，**通常高于市场均价**。具体原因如下：\n\n1. **品牌定位**：佳农属于中高端水果品牌，主打品质、品控和冷链运输，成本较高，因此定价一般高于农贸市场或普通超市的散装香蕉。\n2. **品质差异**：佳农香蕉多选用菲律宾、厄瓜多尔等进口产区或国内优质产区，规格标准（如大小、成熟度均匀），且经过严格选果，损耗率低，这部分溢价会体现在零售价中。\n3. **渠道差异**：佳农主要在精品超市（如盒马、山姆、Ole’）或线上高端生鲜平台销售，而市场均价（如菜市场）通常包含大量非品牌、低成本的本地或平价进口香蕉，价格相对更低。\n\n**建议**：如果追求性价比，可以按需购买散装香蕉；如果重视口感稳定、卖相统一或送礼需求，佳农是合理选择。具体价格因地区、促销活动浮动，可参考购买时超市或平台的实时标价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 225,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

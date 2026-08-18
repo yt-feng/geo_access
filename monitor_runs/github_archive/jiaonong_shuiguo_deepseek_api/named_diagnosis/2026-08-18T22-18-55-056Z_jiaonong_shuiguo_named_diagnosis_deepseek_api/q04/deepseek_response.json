@@ -1,0 +1,28 @@
+{
+  "id": "a753deeb-df12-4ee6-9818-ec5e84af6760",
+  "object": "chat.completion",
+  "created": 1787091555,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否有长期合作的账期方案，我无法提供其内部具体的商务政策或未公开的合作条款。\n\n要获取最准确的信息，建议你**直接联系佳农水果的官方销售或大客户部门**。你可以通过其官网（如“佳农集团”官网）查询联系方式，或向与你对接的销售代表咨询。\n\n在沟通时，你可以重点询问以下问题，以便快速评估：\n\n1.  **账期周期**：是否有30天、45天、60天等不同档位的账期？\n2.  **准入条件**：通常需要满足怎样的采购量、合作时长或信用资质才能申请？\n3.  **担保或抵押**：是否需要提供保证金、银行保函或其他担保？\n4.  **付款方式**：支持电汇、承兑汇票还是其他方式？\n\n**提示**：在与商家谈判前，建议你先评估自身的采购稳定性和现金流情况，以便准备合理的议价筹码。\n\n如果你需要，我可以帮你整理一个用于商务沟通的咨询邮件或电话话术模板，但无法直接获取佳农的内部政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 226,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

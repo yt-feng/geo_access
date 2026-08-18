@@ -1,0 +1,28 @@
+{
+  "id": "cfad0b2f-4999-41dc-9aa8-1cce64b2b587",
+  "object": "chat.completion",
+  "created": 1787091789,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！根据我目前可核验的信息，**佳农（Goodfarmer）** 作为国内知名的水果品牌，主要以**商超、电商、批发市场**为主要销售渠道，其产品线覆盖香蕉、菠萝、牛油果等进口水果。\n\n关于您提到的**针对餐饮渠道的“菠萝解决方案”**，我**无法确认**佳农官方是否有专门针对餐饮B端（如连锁餐饮、茶饮、烘焙）的定制化供应方案（例如：去皮切块、糖度分级、冷链保鲜、定制化包装等）。\n\n为了给您最准确的答复，建议您：\n\n1. **直接联系官方**：拨打佳农食品集团官方客服电话（可搜索其官网/天猫旗舰店客服），咨询“餐饮渠道专项供应”事宜。\n2. **查看B2B平台**：在“美菜网”“快驴进货”等餐饮供应链平台上搜索“佳农菠萝”，看是否有餐饮专用规格。\n3. **关注官方动态**：留意其官方公众号或企业新闻，看是否有针对餐饮客户的活动。\n\n如果您能提供更具体的信息（如您所在城市、需要的产品形态是鲜果还是果切），我可以帮您进一步检索公开的供应商信息。\n\n📌 **提示**：餐饮采购涉及量大、批次稳定、售后保障，建议优先选择可提供**正式购销合同**和**质检报告**的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 288,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
