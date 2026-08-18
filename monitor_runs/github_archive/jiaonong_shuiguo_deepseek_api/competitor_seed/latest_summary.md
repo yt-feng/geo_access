@@ -1,12 +1,12 @@
 # 佳农水果 DeepSeek API 回答归档
 
-- 最近运行: 2026-08-17T22:18:31.018Z
-- Run ID: 2026-08-17T22-07-05-471Z_jiaonong_shuiguo_competitor_seed_deepseek_api
+- 最近运行: 2026-08-18T22:17:25.317Z
+- Run ID: 2026-08-18T22-05-20-295Z_jiaonong_shuiguo_competitor_seed_deepseek_api
 - Prompt 文件: proposal_excellence/佳农水果/jiaonong_shuiguo_competitor_seed_prompts.txt
 - 模型: deepseek-v4-flash
 - 完成/总数: 80/80
 - 有 source 字段的回答: 0
-- 结果目录: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-08-17T22-07-05-471Z_jiaonong_shuiguo_competitor_seed_deepseek_api
+- 结果目录: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-08-18T22-05-20-295Z_jiaonong_shuiguo_competitor_seed_deepseek_api
 
 ## Source 说明
 
