@@ -1,0 +1,28 @@
+{
+  "id": "e32983c4-0fb7-42a6-9deb-fccc75466105",
+  "object": "chat.completion",
+  "created": 1787178400,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉标准问题，我目前没有确切的公开信息可以核验其具体执行的是“国家标准（国标）”还是“企业标准（企标）”。通常，规模化水果企业（如佳农）在种植、分拣、包装和运输环节，除了必须满足国家强制性食品安全标准（如GB 2763农药残留限量）外，也可能制定更严格的企业内部标准来体现品质等级。但具体佳农是否对外公开其企标编号，我无法确认。\n\n至于价格差异，佳农香蕉的定价受季节、产地（如菲律宾、厄瓜多尔等进口，或国内产区）、规格（如每把重量、果指长度）和销售渠道（商超、电商、批发）影响较大，与普通散装香蕉相比，一般溢价幅度在**30%~80%**之间。例如普通香蕉约3~4元/斤时，佳农礼盒装或精选装可能达到5~7元/斤。但这个比例只是经验范围，实际购买时建议以当地超市或线上平台当日标价为准。\n\n若您需要精确数据，建议直接查看佳农产品包装上的“执行标准号”（通常印在中文标签上），或咨询其官方客服。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 258,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

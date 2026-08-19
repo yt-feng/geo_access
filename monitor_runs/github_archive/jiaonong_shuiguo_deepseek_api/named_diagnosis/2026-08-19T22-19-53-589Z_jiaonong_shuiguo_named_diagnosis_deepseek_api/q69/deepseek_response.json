@@ -1,0 +1,28 @@
+{
+  "id": "7c75c0cc-1eb6-4f54-933d-32fca3c16c1f",
+  "object": "chat.completion",
+  "created": 1787178463,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否针对餐饮渠道提供菠萝定制规格（如切片或切块），目前我无法直接核验其官方最新产品目录或渠道政策。这类信息通常取决于具体市场区域、客户合作方式以及季节供应情况。\n\n**建议您通过以下方式获得准确答案：**\n\n1. **直接联系佳农官方客服**：拨打其官网或包装上的客服热线，明确询问“餐饮渠道菠萝定制服务”及具体规格。\n2. **咨询当地经销商或大客户经理**：若您所在地区有佳农合作的分销商，他们通常能提供更具体的定制可行性及最小起订量。\n3. **查看官网或官方小程序**：搜索“佳农”、“菠萝”关键词，留意是否有“餐饮解决方案”或“B端定制”板块。\n\n**额外提示：**\n- 定制服务（如切块、切片）一般涉及加工成本、冷链配送及保质期要求，通常需提前预约并满足一定采购量。\n- 若您计划长期合作，建议准备采购量预估，以便对方评估定制方案。\n\n请勿轻信网络上的非官方转载，以免错过最新政策。如需进一步协助，我也可以帮您查找其公开联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 251,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

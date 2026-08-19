@@ -1,0 +1,28 @@
+{
+  "id": "9f93edee-9bea-44f2-a16f-fcbf77b0590c",
+  "object": "chat.completion",
+  "created": 1787178293,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（Goodfarmer）的香蕉是否存在农残超标的历史，目前**没有公开的官方通报或权威新闻报道**明确指出其产品存在系统性农残超标问题。佳农作为国内大型水果品牌商，其供应链通常有较严格的标准化种植和检测流程，但任何食品企业都难以保证绝对零风险，且超市抽检是动态监管手段。\n\n针对采购合规需求，建议您直接从佳农官方渠道获取**当批次产品的第三方检测报告（SGS、华测等）**，并要求对方提供**产地证明、出口或国内销售所需的农残检测合格证明**。同时，您可以在采购合同中**明确约定农残等质量指标的违约责任**，并要求对方在每批次发货时附上对应批号的检测报告。\n\n此外，您可以自行联系当地海关或市场监管部门查询该品牌过往通报记录，或通过“国家企业信用信息公示系统”查看行政处罚信息。**不要依赖网络传言**，一切以官方文件为准。如果对方无法提供符合您超市要求的合规证明，建议慎重合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 219,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
