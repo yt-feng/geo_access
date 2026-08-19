@@ -1,0 +1,28 @@
+{
+  "id": "6f10bc84-88c0-44ae-824d-8cb905ce9897",
+  "object": "chat.completion",
+  "created": 1787177307,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前鑫荣懋（Golden Wing）和都乐（Dole）都推出了面向便利店渠道的小包装香蕉产品，通常规格为**1根装或2根装**，单包重量约**120g-250g**，以方便即食和便携销售。\n\n具体建议如下：\n1. **鑫荣懋**：其“佳农”系列或商超渠道有**小包装即食蕉**，部分便利店渠道有**4-6根装的家庭分享装**，但严格意义上针对单店即食小包装更多是**2根装（约200g）**。\n2. **都乐**：在便利店（如7-11、全家）常见**单根装（约150g）**或**2根装**，包装上会标注“即食”或“小包装”，且都乐有**超甜蕉**系列适合要求甜度的场景。\n\n建议你直接联系两家公司的**销售或经销商**，确认当前在售SKU及最小起订量，因为他们会按渠道（如便利店、生鲜店）调整包装规格。如果暂时联系不上，也可以参考目前市场上便利店冰柜/水果架常见的**1根装（约180g）**或**2根装（约300g）**作为基准来洽谈。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 275,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
