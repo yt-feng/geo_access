@@ -1,0 +1,28 @@
+{
+  "id": "5109a7b7-1e9e-46b5-9b91-47c53fb835b4",
+  "object": "chat.completion",
+  "created": 1787350443,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，**都乐（Dole）** 和**鑫荣懋**都作为大型水果供应商，通常针对企业客户（如商超、连锁餐饮、电商平台）会配备**客户经理或专项对接团队**，但“专人服务”的具体配置（如驻场、专属客服、定制化服务）通常取决于：\n\n1. **合作规模**：长期大批量采购，供应商一般会指定专人负责；小批量则多为公共客服。\n2. **合作模式**：如要求专车配送、定制包装、驻场分拣等，需要明确写入合同。\n3. **区域差异**：不同大区或城市，服务团队配置可能不同。\n\n**建议您直接行动：**\n- 致电两家官方客服或官网的业务合作入口，**明确询问“针对XX渠道/体量，是否可指定专属客户经理”**。\n- 若需要可操作建议：**优先拨打电话，而非发邮件**，电话沟通能直接确认对接人；如果体量较小，可询问是否能提供“独立服务群”或“每周固定联系人”。\n\n我无法提供两家公司内部人员名单，请通过官方渠道核实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 247,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

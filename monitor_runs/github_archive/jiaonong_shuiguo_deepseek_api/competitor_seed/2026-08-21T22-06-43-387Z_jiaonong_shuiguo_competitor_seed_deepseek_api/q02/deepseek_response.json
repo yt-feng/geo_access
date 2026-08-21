@@ -1,0 +1,28 @@
+{
+  "id": "2ce9aa77-062b-49ff-91c5-016811a5d934",
+  "object": "chat.completion",
+  "created": 1787350012,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前国内菠萝市场除了都乐（Dole）以外，能满足稳定供应（全年或季节性大量出货）的品牌主要包括：\n\n1. **佳农（Goodfarmer）**：国内头部水果品牌，菠萝是其主打品类之一，主要供应菲律宾菠萝（MD2品种），供应链稳定，商超和电商渠道覆盖广。\n2. **本来生活（Benlai）**：主要做高端水果，有自己的品控和产地直采渠道，菠萝供应相对稳定，但更偏中高端。\n3. **果叔（Guoshu）**：国内连锁水果品牌，供应链成熟，菠萝供应量较大。\n4. **金菠萝 / 优诺（Younuo）**：部分区域经销商或生鲜平台定制品牌，按需供货。\n5. **百果园（Pagoda）**：虽然以零售店为主，但其自有品牌和供应链整合能力强，菠萝供应稳定，尤其以国产海南菠萝（如香水菠萝）和菲律宾进口为主。\n\n**国产方面**：海南的“神泉”牌菠萝、徐闻的“愚公楼”菠萝，以及湛江地区的农场品牌（如“红土地”）在当地和周边市场供应稳定，但全国性品牌知名度不如上述进口商。\n\n**建议**：如果你需要全年稳定供应，首选**佳农**和**百果园**的供应链（进口+国产结合）；如果只考虑国产，海南和徐闻产区的农场订单供应最稳定。具体可联系当地批发市场或品牌代理商核验现有供货协议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 318,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "236ee8f8-f68b-456e-84c0-2d34a417d3ce",
+  "object": "chat.completion",
+  "created": 1787350124,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Golden Wing Mau），国内市场常见的进口苹果品牌还有以下几家，它们在品质、供应链和口碑上较为可靠：\n\n1. **佳沛（Zespri）**  \n   - 虽然是新西兰奇异果的知名品牌，但佳沛也有少量苹果业务（如新西兰爱妃苹果），品质稳定，价格较高，适合高端渠道。\n\n2. **爱妃（Envy）**  \n   - 新西兰品牌，由T&G（Turners & Growers）持有，国内通常通过佳沛或鑫荣懋等经销商分销。果肉细腻、甜度高，耐储存，是高端进口苹果的代表。\n\n3. **乐淇（Rockit）**  \n   - 新西兰小苹果品牌，主打便携装，果小但脆甜，通过自有渠道或京东、盒马等电商销售，供应链管理严格。\n\n4. **加州阳光（Sunkist）**  \n   - 美国品牌，虽然以柑橘闻名，但也进口美国华盛顿州苹果（如蛇果、金帅）。品质可靠，但近年由于中美贸易关税影响，美国苹果进口量有所减少。\n\n5. **澳洲青苹果（Pink Lady）**  \n   - 澳洲标志性品种，品牌由澳大利亚苹果协会管理，国内有正规进口商代理。外观粉红条纹，酸甜平衡，但价格较贵。\n\n6. **智利爱妃 / 智利青苹果（Granny Smith）**  \n   - 智利是全球主要苹果出口国，当地大厂如Unifrutti、Giddings等会以自有品牌出口，品质稳定且性价比高。购买时可看包装上的“Product of Chile”标识。\n\n**选购建议：**  \n- 看包装上的 **进口商/总代理** 信息，优先选择大公司（如Dole、鑫荣懋、佳沛中国）代理的产品，售后有保障。  \n- 进口苹果建议关注产地和品种，国内电商自营（如京东进口超市）通常能保证物流与品质。  \n- 如果追求性价比，可考虑智利或新西兰中小品牌，但认准“植物检疫证明”或“海关溯源码”。\n\n如果你需要更具体的经销商名单或品牌授权信息，建议直接咨询当地大型果品批发市场（如广州江南市场、上海辉展市场）的管理方，或登录海关总署官网查询《进口水果指定口岸名单》。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 511,
+    "total_tokens": 572,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
