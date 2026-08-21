@@ -1,0 +1,28 @@
+{
+  "id": "3a9873ca-c4be-4e77-ab6f-60cf8de10024",
+  "object": "chat.completion",
+  "created": 1787351200,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的采购对接，作为AI助手，我无法直接提供具体供应商专岗联系人，但可以给您以下可执行建议：\n\n**1. 查询官方渠道：**  \n- 直接访问**佳农集团官网**（www.goodfarmer.com），通常在“联系我们”或“供应商合作”板块能找到采购/大客户部门邮箱或电话。  \n- 如果门店当地有佳农分公司，可联系当地销售经理，响应通常更快。\n\n**2. 通过第三方平台介入：**  \n- 如果您在**美团快驴、美菜网、拼多多商家版**等生鲜B2B平台下单，平台有专属客服或采购对接人，可要求平台指派专岗跟进。\n\n**3. 优化合作方式（建议）：**  \n- 与佳农首次沟通时，明确要求**“指定一名客服经理或区域销售作为固定对接人”**，并说明您对响应时效的要求（如2小时内回复）  \n- 要求对方提供**24小时值班电话**，或加入其企业微信/钉钉群聊，避免邮件滞后。  \n- 在采购合同中注明响应时限和违约责任，作为谈判筹码。\n\n**4. 替代方案：**  \n- 如果佳农响应仍不理想，可同步询价**都乐（Dole）、金吉达（Chiquita）**等品牌，分散供应风险，同时反向促动供应商改善服务。\n\n需要提醒：我无法核实佳农当前实际对接人姓名及电话，请勿直接使用我提供的虚构号码。建议优先通过官网/官方电话验证。祝采购顺利！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 344,
+    "total_tokens": 408,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

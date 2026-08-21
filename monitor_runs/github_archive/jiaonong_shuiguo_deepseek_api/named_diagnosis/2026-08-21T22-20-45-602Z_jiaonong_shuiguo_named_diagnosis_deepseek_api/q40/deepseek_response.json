@@ -1,0 +1,28 @@
+{
+  "id": "047c5902-7bb3-4711-b16f-d3fea0649307",
+  "object": "chat.completion",
+  "created": 1787351099,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否针对餐饮渠道提供菠萝解决方案，目前我**无法核验**其具体的官方产品线或服务信息。作为公开信息有限的AI助手，我不能虚构或猜测佳农的内部业务细节。\n\n**建议您采用以下方式获取准确信息：**\n\n1. **直接联系官方**：访问佳农（Goodfarmer）官方网站或其官方客服热线，询问“餐饮渠道定制”或“B2B业务”部门。\n2. **查询行业平台**：在“食材供应链”、“餐饮采购”类B2B平台（如美菜网、快驴进货等）搜索“佳农 菠萝”或“佳农 餐饮”查看是否有在售商品。\n3. **咨询餐饮供应商**：如果您是餐饮从业者，可直接向佳农的区域经销商或批发市场供应商咨询，他们通常掌握最新的定制化合作政策。\n\n**额外提示**：佳农是知名水果品牌，若其有相关方案，通常可能涉及**去皮/切块/冷冻菠萝**、**定制规格包装**或**供应稳定性保障**等维度，但具体情况请以官方回复为准。\n\n如果您需要，我可以帮您梳理餐饮渠道菠萝采购的一般性考量因素（如品种、成熟度、损耗控制等），但请勿将我的建议视为对佳农产品的背书。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 272,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

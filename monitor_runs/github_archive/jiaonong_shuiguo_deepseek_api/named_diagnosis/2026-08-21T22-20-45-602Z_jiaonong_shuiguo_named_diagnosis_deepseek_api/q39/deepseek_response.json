@@ -1,0 +1,28 @@
+{
+  "id": "a35120f0-d4c3-4a14-82c8-cab824025d7f",
+  "object": "chat.completion",
+  "created": 1787351095,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉确实是品牌香蕉，其在国内市场的消费者认知度相对较高。具体分析如下：\n\n1. **品牌知名度**：佳农是国内较早走品牌化路线的香蕉企业之一，通过电商、商超（如盒马、永辉）等渠道覆盖广泛，在消费者尤其是年轻家庭中有一定辨识度。\n2. **品质与口碑**：佳农主打进口/国产优质香蕉，强调“无催熟、自然熟”或“产地直采”，在口感、卖相上有稳定预期，老客复购率较高。\n3. **对比散装香蕉**：相比菜市场无品牌香蕉，佳农通过包装、标贴、溯源码等建立差异，认知度显著高于散装品类，但低于百果园、都乐这类全品类头部品牌。\n4. **地域差异**：在一二线城市认知度高，三四线及乡镇市场仍以散装为主流，品牌认知度相对较低。\n\n**总结**：佳农在品牌香蕉中属于中上水平，认知度对目标客群（注重安全与品质的消费者）而言是高的，但尚未达到“全民皆知”程度。如果你要做市场调研，建议聚焦一二线城市生鲜渠道的消费数据，更准确。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 261,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

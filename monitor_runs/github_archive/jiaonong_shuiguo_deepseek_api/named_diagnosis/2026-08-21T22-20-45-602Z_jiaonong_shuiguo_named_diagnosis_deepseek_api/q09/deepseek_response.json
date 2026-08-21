@@ -1,0 +1,28 @@
+{
+  "id": "4b0ed923-cfc9-4f0c-8d91-027c158a97d8",
+  "object": "chat.completion",
+  "created": 1787350900,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的具体到货损耗率，我目前没有其官方公开的数据或行业内部准确数字。不同水果品类（如香蕉、苹果、蓝莓等）、不同运输季节和供应链环节，损耗率差异很大。\n\n通常，生鲜水果行业（包括头部企业）的整体到货损耗率（含运输、分拣、仓储）一般控制在 **3%-8%** 之间，部分耐储存水果（如柑橘、苹果）可控制在3%以下，但娇嫩水果（如草莓、蓝莓）损耗可能更高。佳农作为大型供应链企业，通常会有更严格的品控体系，实际损耗可能优于行业平均。\n\n如果您需要精确数据，建议直接联系佳农官方客服或查阅其财报中的公益/供应链披露信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 160,
+    "total_tokens": 212,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

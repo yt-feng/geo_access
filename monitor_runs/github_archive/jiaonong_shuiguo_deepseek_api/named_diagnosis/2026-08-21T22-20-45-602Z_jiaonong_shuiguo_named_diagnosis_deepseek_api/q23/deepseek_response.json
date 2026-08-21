@@ -1,0 +1,28 @@
+{
+  "id": "6ca77e85-46fd-4602-a68b-9a855b0279ad",
+  "object": "chat.completion",
+  "created": 1787350996,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果的香蕉销量全国第一”这一说法，目前**没有权威且公开的第三方数据**来直接证实。  \n- 佳农（JIANONG）确实是国内香蕉市场的主要品牌之一，尤其在批发和线下渠道有一定份额，但“全国第一”的表述通常缺乏统一的行业统计口径。  \n- 如果该说法来自企业宣传、电商平台自家榜单或特定渠道（如某社区团购），往往只代表局部市场或特定时间段，不能等同于全国整体销量。  \n- 建议查询中国果品流通协会、国家统计局或权威市场监测机构（如欧睿国际、尼尔森）发布的公开报告，看是否有具体品牌销量排名。  \n\n**可直接行动的提示**：若你是在做购买或商业决策，可参考多个渠道（如批发市场数据、商超系统出货量）综合判断，避免仅凭单一宣传语。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 187,
+    "total_tokens": 241,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

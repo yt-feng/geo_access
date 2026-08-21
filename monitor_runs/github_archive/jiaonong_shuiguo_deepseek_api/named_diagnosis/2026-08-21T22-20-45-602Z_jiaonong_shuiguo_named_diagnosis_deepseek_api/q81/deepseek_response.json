@@ -1,0 +1,28 @@
+{
+  "id": "f29b5b4d-14bd-4bcc-9159-b0ec10d523e7",
+  "object": "chat.completion",
+  "created": 1787351425,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。**佳农（Goodfarmer）确实有3kg装香蕉**，属于中小批量规格，适合面积较小的门店。\n\n具体建议如下：\n\n1. **规格确认**  \n   佳农常见的香蕉规格有：  \n   - **3kg/箱**（约4-5把，适合小店面或高周转）  \n   - **5kg/箱**（更常见，适合一般便利店）  \n   - 还有**13kg或18kg的批发大箱**（不适合小门店）。  \n\n   你直接向当地经销商订3kg装即可。\n\n2. **小包装的其他水果选项**  \n   如果佳农香蕉3kg装不够小，可以考虑：  \n   - **佳农凤梨**（单果装或2头装）  \n   - **佳农牛油果**（4-6粒装）  \n   - **佳农蓝莓**（125g小盒）  \n   - **佳农蜜瓜/西瓜**（整只或切块小盒）  \n\n   注意：佳农部分水果如榴莲、椰子通常是大包装，不适合小面积门店。\n\n3. **订货建议**  \n   - 联系佳农当地**经销商**或**美团优选/京东超市**等渠道，问是否有“便携装”“试销装”。  \n   - 首次建议订少量试销，比如1-2箱3kg香蕉+1盒蓝莓，观察周转速度。  \n   - 如果长期卖，可申请月度直供，降低损耗。\n\n4. **陈列提醒**  \n   小门店放香蕉时，不要堆太高（容易压损），建议斜放或悬挂，并保持通风干燥。\n\n如果你需要，我可以帮你查一下佳农在你们城市的经销商联系方式（但需要你提供城市名）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 375,
+    "total_tokens": 440,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
