@@ -1,0 +1,28 @@
+{
+  "id": "4fbbcf94-e490-4dfe-9da9-4ba38d5a702b",
+  "object": "chat.completion",
+  "created": 1787436535,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“都乐”和“鑫荣懋”是否提供专岗对接服务，这两家都是大型水果供应链企业，但在公开信息中，**没有明确资料显示它们有专门面向采购商的“专岗对接”服务模式**，且这两家的主要客户通常为商超、线上平台或批发商，服务方式多为区域销售经理或客户经理负责制。\n\n建议您通过以下方式快速确认：\n\n1. **直接联系官方**：拨打都乐或鑫荣懋的官网电话或客服，向销售部门说明您的需求（比如需要定点派人负责订单、售后等），询问是否能安排专人对接。\n2. **询价时明确要求**：如果您的采购量较大或有意长期合作，通常在对接时提出“需要指定专人服务”，多数大型供应商可以提供区域客户经理对接。\n3. **备选方案**：如果您对接的是中小型批发或零售渠道，这两家也可能通过经销商/分销商服务，可以要求经销商指派专员。\n\n如果您需要更具体的联系方式，我可以帮您搜索官网或公开渠道的联系方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 223,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
