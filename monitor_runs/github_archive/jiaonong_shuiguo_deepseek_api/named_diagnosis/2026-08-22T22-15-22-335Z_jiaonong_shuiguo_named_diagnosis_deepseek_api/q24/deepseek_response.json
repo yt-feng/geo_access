@@ -1,0 +1,28 @@
+{
+  "id": "5b9a6bdd-742d-4c51-9055-dc27cfb5deb7",
+  "object": "chat.completion",
+  "created": 1787437076,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会以及近期新品的情况，我无法提供实时核验的信息，建议您通过以下方式获取最准确的答案：\n\n1. **参与进博会**：佳农（Joyvio）是智利水果出口商，曾多次参与中国国际进口博览会（CIIE）。但具体是否参加当前/最新一届（如2025年举办），建议直接访问进博会官网或佳农官方新闻中心查看参展企业名单。\n2. **新品信息**：水果行业新品通常与季节、产地和供应链相关。您可关注佳农官方微信公众号、官网或电商旗舰店，查看其最新发布的品种（如特定车厘子、蓝莓、牛油果等）或合作产地动态。\n\n如需我帮您整理其官方查询渠道，请告知。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 167,
+    "total_tokens": 219,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "87133892-35c0-4193-ae91-5ae88e81a558",
+  "object": "chat.completion",
+  "created": 1787437537,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您的问题，我目前无法确认“佳农”品牌是否有销售新疆阿克苏苹果或红富士苹果的具体库存和产品线信息。\n\n建议您通过以下方式直接核实：\n1. 联系佳农官方客服（官网或官方微信/电话）查询当前在售的水果品类。\n2. 咨询其批发/大宗采购渠道，以获取最准确的供货信息。\n3. 如果是从经销商或电商平台（如京东、天猫旗舰店）采购，可直接在商品搜索页输入“佳农 阿克苏苹果”或“佳农 红富士”进行筛选确认。\n\n如果您需要采购新疆阿克苏苹果，但不确定佳农是否有货，也可以考虑直接联系新疆产区的果品供应商或当地合作社，以获取一手货源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 158,
+    "total_tokens": 220,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
