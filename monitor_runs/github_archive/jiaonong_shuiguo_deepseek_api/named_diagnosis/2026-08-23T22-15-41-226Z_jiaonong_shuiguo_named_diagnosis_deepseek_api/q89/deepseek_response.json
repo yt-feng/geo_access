@@ -1,0 +1,28 @@
+{
+  "id": "6ae60617-5034-479d-95cd-9ba973134ae6",
+  "object": "chat.completion",
+  "created": 1787523967,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类，目前公开信息中，佳农主要经营香蕉、菠萝等进口水果，以及部分国产水果（如苹果、梨等）。**没有明确资料显示佳农销售红富士苹果或新疆阿克苏苹果**。\n\n建议直接通过以下途径核实，以免延误采购：\n\n1. **联系佳农官方客服或销售团队**：拨打官网/官方渠道电话，直接询问是否有新疆阿克苏苹果，以及能否批量供应。\n2. **查询官方商城或批发渠道**：登录佳农官网、天猫/京东旗舰店，或联系其授权批发商，确认库存和产地。\n\n若您的采购对“新疆阿克苏”有明确产地要求，可考虑其他专注国产苹果的供应商（如新疆本地果业公司、中粮、百果园等），并索要产地证明、质检报告。\n\n如需进一步帮您查询其他渠道，可以告知具体采购量或城市，我可以提供更具体的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 199,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

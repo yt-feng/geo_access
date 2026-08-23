@@ -1,0 +1,28 @@
+{
+  "id": "8ba166a8-bb57-405e-83fb-eecd398e6a1e",
+  "object": "chat.completion",
+  "created": 1787523738,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农香蕉的标准和价格问题，说明如下：\n\n1. **标准性质**：佳农作为大型水果品牌企业，其产品执行标准通常是**企业标准（企标）**，而非国家标准（国标）。因为香蕉的国家标准（GB/T 或 NY/T）主要规定基础质量、安全指标，而企业标准会在此基础上更严格或细化（如甜度、果形、成熟度分级、装箱规格等）。具体可查看佳农产品包装上的“执行标准号”——若是Q/开头的代码即为企业标准。\n\n2. **价格差异**：佳农香蕉（通常为进口或精品国产蕉）比普通散装香蕉**贵1.5～3倍**（常见为普通蕉每斤3～5元，佳农大蕉在超市或电商渠道约每斤8～12元，部分精品礼盒更贵）。具体价格受产地（如菲律宾、厄瓜多尔）、季节、渠道（电商、商超）和促销影响，波动较大。\n\n**建议**：如果你是为了采购或核对资质，直接联系佳农官方客服或索取其企业标准文本是更权威的做法；如果是日常购买，价格差异主要反映在品控、新鲜度和品牌溢价上。若你无法核验，不要轻信第三方报价，以实际商超标价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 276,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

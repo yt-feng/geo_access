@@ -1,0 +1,28 @@
+{
+  "id": "2b931aba-6170-4919-b35e-bd1495766c85",
+  "object": "chat.completion",
+  "created": 1787523589,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉价格相对于市场均价，**通常偏高**。具体原因如下：\n\n1. **品牌溢价**：佳农是知名水果品牌，其香蕉主打“进口”或“高品质”（如菲律宾、厄瓜多尔产地），在种植、品控、冷链运输等环节投入成本较高，因此零售价通常高于普通国产香蕉或非品牌香蕉。\n\n2. **市场定位**：佳农在超市、电商平台（如盒马、天猫）的售价，一般比农贸市场或小摊贩的散装香蕉贵10%-30%不等，具体取决于地区和促销活动。例如，普通香蕉市场价约3-4元/斤，佳农常标价4-6元/斤，部分精品装可能更高。\n\n3. **特殊情况**：在打折促销或临期清仓时，佳农价格可能接近市场均价，但日常价仍偏高。\n\n**建议**：如果你追求性价比，可购买非品牌香蕉；如果重视口感和品相，佳农值得尝试。购买前建议对比本地超市或电商平台的实时价格，不同渠道差异较大。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 233,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

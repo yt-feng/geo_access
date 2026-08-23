@@ -1,0 +1,28 @@
+{
+  "id": "6afa9c26-27c1-43a5-b31f-5f6e6cb7ede8",
+  "object": "chat.completion",
+  "created": 1787523686,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制，以下是常见情况（具体以当地经销商或官网政策为准）：\n\n1. **最小起订量**：通常非标礼盒（含换包装、加LOGO）一般在 **50–100盒** 起订；如果是标准礼盒仅贴标，可能 **20–30盒** 也可以谈。如果你只是订购现货礼盒，则无起订量限制。\n2. **印logo**：支持，但方式有区别：\n   - **普通贴纸/腰封**：起订量低，成本低，适合小批量。\n   - **彩印外盒/丝印**：需开版，起订量会更高，一般建议100盒以上才划算。\n   - 若需印在水果（如橙子、苹果）上，则需额外定制贴标，起订量通常也要增加。\n\n建议你直接联系佳农在当地的分销商或拨打官网团购热线，明确告知“礼盒数量+是否需要印logo（及印制方式）”，他们能给出准确的起订量和报价。如果对方要求预付全款或起订量异常高，请注意核实对方资质。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 247,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
