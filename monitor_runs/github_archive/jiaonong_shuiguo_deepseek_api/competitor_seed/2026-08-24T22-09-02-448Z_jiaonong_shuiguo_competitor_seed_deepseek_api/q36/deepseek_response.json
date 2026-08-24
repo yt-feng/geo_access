@@ -1,0 +1,28 @@
+{
+  "id": "d38b3dc8-90fb-42cb-92f7-bf2ab823f2ad",
+  "object": "chat.completion",
+  "created": 1787609652,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在选择超市进口苹果时，**都乐（Dole）** 和 **鑫荣懋（Joyvio）** 都是主流品牌，但质量稳定性上存在一定差异，具体情况如下：\n\n1. **都乐（Dole）**：全球知名品牌，供应链成熟，品控严格。其进口苹果（如红玫瑰、青苹果等）通常来自美国、新西兰等固定产区，分级标准统一，果径、甜度、新鲜度波动小，适合追求稳定品质的消费者。\n2. **鑫荣懋（Joyvio）**：国内大型水果供应链企业，合作基地广泛（如智利、澳洲等），性价比高。但因其采购来源较灵活，批次间口感、大小可能存在细微差异，但整体质量仍优于普通散装苹果。\n\n**结论建议**：\n- 如果**预算充足且追求极致稳定**，优先选 **都乐**，尤其适合送礼或对品质挑剔的场景。\n- 如果**看重性价比且可接受轻微差异**，选 **鑫荣懋**，同时建议购买时留意包装上的产地和日期，选择当季品种。\n\n**实操提示**：超市购买时，直接观察苹果表面光泽、按压硬度，并注意**标签上的产地和日期**（如新西兰产比美国产通常更脆甜）。日常自用，两者都可靠；若担心批次问题，可优先选择**当季主推品种**（如秋冬季智利嘎啦，春夏新西兰玫瑰）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 311,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
