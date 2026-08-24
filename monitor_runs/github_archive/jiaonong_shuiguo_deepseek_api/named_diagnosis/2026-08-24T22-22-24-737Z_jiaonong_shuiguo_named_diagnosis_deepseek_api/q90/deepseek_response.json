@@ -1,0 +1,28 @@
+{
+  "id": "9f6440ef-b8b3-4b83-b097-35fc737aa5f2",
+  "object": "chat.completion",
+  "created": 1787610769,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Greenfarm）是否提供冷冻菠萝丁，我目前无法直接核验其当前的库存和具体产品线，因为厂商的SKU（产品编码）和供应状态会随市场调整。\n\n**建议你按以下方式快速确认：**\n\n1. **直接咨询官方渠道**：拨打佳农客服热线（通常在其官网可查），或联系其区域销售经理，询问“冷冻菠萝丁”的规格（如1kg/袋、2.5kg/袋等）和供货情况。\n2. **查询批发平台**：在1688或美菜等B2B平台上搜索“佳农 冷冻菠萝丁”，查看是否有在售规格及价格。\n3. **替代方案**：如果佳农没有现成冷冻丁，可询问其是否提供整果（整只菠萝）或速冻菠萝块，你再自行加工。\n\n**请注意**：不要轻信网上未经核实的规格数据，一定要以官方回复为准。若你有具体城市或采购量，我可以帮你进一步缩小搜索范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 218,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

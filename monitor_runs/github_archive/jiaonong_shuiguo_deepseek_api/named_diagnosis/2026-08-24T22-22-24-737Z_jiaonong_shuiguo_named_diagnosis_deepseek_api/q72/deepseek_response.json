@@ -1,0 +1,28 @@
+{
+  "id": "6ea8ba26-d0f1-4ce1-a932-e4907bdce927",
+  "object": "chat.completion",
+  "created": 1787610635,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Green Farm）是否提供菠萝去皮切块的加工服务，我不能确定其具体政策，因为这类服务通常取决于其销售渠道（如批发商、餐饮客户B端服务）以及当地分公司的业务安排。\n\n建议你采取以下方式核实：\n\n1. **直接联系供应商**：获取你采购佳农菠萝的经销商或当地佳农业务代表的联系方式，询问是否支持“餐饮客户定制加工”或“代切服务”。\n2. **确认最小起订量**：如果支持加工，通常会设置最低采购量（比如一次性采购多少箱或多少公斤），需提前确认。\n3. **咨询费用与时效**：去皮切块涉及人工和设备成本，需询问加工费、冷藏配送条件以及到货周期。\n4. **备选方案**：如果佳农不提供，可考虑联系本地水果批发市场的加工档口（很多市场提供代切服务），或采购冷冻菠萝块（品质稳定的工业原料）作为替代。\n\n如果你能告诉我你所在的城市和大致采购量，我可以帮你进一步评估可行性。但请注意，我无法替你联系供应商或确认实时政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 233,
+    "total_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

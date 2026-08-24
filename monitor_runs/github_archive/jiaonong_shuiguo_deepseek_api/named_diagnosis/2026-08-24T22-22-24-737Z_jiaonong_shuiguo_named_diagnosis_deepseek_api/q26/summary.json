@@ -1,0 +1,50 @@
+{
+  "questionId": "q26",
+  "prompt": "佳农水果能提供香蕉的催熟服务吗？",
+  "createdAt": "2026-08-24T22:25:14.526Z",
+  "summary": [
+    {
+      "questionId": "q26",
+      "prompt_index": 26,
+      "promptIndex": 26,
+      "promptHash": "63d43a3a53b7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果能提供香蕉的催熟服务吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 489,
+      "text_length": 489,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 291,
+        "total_tokens": 343,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 52
+      },
+      "prompt_tokens": 52,
+      "completion_tokens": 291,
+      "total_tokens": 343,
+      "latencyMs": 3559,
+      "latency_ms": 3559,
+      "createdAt": "2026-08-24T22:25:14.526Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q26/prompt.txt",
+        "answer": "q26/deepseek.txt",
+        "response": "q26/deepseek_response.json",
+        "sources": "q26/deepseek_sources.json",
+        "references": "q26/deepseek_references.json"
+      }
+    }
+  ]
+}
