@@ -1,0 +1,28 @@
+{
+  "id": "698d66fd-0383-412e-91df-569414ca047b",
+  "object": "chat.completion",
+  "created": 1787696629,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否提供菠萝的定制化加工服务（如切块或包装），我目前无法直接核验其具体的商业服务详情，因为这类信息通常需要以官方公布为准。\n\n不过，我可以给您一些实用建议：\n\n1. **建议直接联系佳农官方客服**：通过其官网、官方微信公众号或客服电话（可搜索“佳农食品”官方渠道）咨询，询问是否有针对B端客户（如餐饮、商超）的菠萝深加工/定制化服务，以及具体合作流程。\n\n2. **关注其业务定位**：佳农作为国内知名水果供应商，主要面向批发商、商超、电商等渠道，但部分大客户可能有定制化需求（如切块、包装规格），建议在咨询时明确您的采购量和加工要求。\n\n3. **替代方案**：如果佳农暂无该服务，您可以考虑与本地生鲜加工厂或水果配送公司合作，他们通常能提供切块、包装等后道服务。\n\n如果您需要，我也可以帮您进一步整理常见的水果加工供应商类型，便于您对比选择。不过请放心，我不会虚构任何联系信息，以上建议均基于常识，具体以官方答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 251,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

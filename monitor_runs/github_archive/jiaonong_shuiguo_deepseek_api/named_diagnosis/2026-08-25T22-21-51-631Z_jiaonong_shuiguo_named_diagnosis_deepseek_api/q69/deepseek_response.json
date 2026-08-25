@@ -1,0 +1,28 @@
+{
+  "id": "d65536b7-3b45-4799-b1f2-006c808efc5f",
+  "object": "chat.completion",
+  "created": 1787696955,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前可获取的公开信息，**佳农（Goodfarmer）水果没有公开宣传专门针对餐饮渠道的定制规格菠萝产品（如切片、切块）**。其产品线主要面向商超、电商及批发，以整果（如菲律宾菠萝、海南菠萝）为主。\n\n**建议操作：**\n1. **直接联系官方**：致电佳农客服或通过其官网/微信公众号的商务合作入口，咨询“餐饮渠道定制”服务。大型水果供应商通常能根据订单量（如每日/每周固定量）提供定制初加工（如去皮、切块、真空包装）。\n2. **线下渠道询问**：联系当地佳农经销商或大型农产品批发市场（如上海辉展、广州江南市场），询问是否有餐饮专用规格库存。\n3. **替代方案**：若需稳定供应切块菠萝，可考虑直接采购整果后自行加工，或联系其他专注餐饮供应链的配送商（如美团快驴、美菜网）查看其现有菠萝规格。\n\n**注意**：定制服务通常有最低起订量（如几百公斤起），单次少量需求可能不适用。建议先明确自身用量再咨询。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 249,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

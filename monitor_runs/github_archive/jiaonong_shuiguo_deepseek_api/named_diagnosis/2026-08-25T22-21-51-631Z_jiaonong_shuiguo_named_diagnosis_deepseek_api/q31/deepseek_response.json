@@ -1,0 +1,28 @@
+{
+  "id": "3cc2428c-de02-4a3d-8861-41f2089c81b4",
+  "object": "chat.completion",
+  "created": 1787696704,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**有的。** 佳农（Goodfarmer）是国内头部水果品牌，其产品线中包含针对礼品和团购场景的水果礼盒。\n\n**具体产品类型通常包括：**\n1. **精装礼盒**：例如进口车厘子礼盒、牛油果礼盒、金果（猕猴桃）礼盒、优质香蕉礼盒等，包装为硬盒或提篮，适合节日送礼。\n2. **组合礼盒**：有时会推出多种水果组合装（如苹果+橙子+猕猴桃），满足企业福利或高端团购需求。\n3. **定制服务**：针对大额团购（如企业年会、节日福利），佳农通常支持**定制包装（印logo）** 和**按需搭配**。\n\n**如何购买：**\n- **线下**：大型商超（永辉、沃尔玛、大润发等）及佳农专柜可直接购买，礼盒装通常有单独陈列。\n- **线上**：可在京东、天猫的**“佳农旗舰店”**搜索“礼盒”或“团购”；企业级采购建议直接联系其**官方客服或当地经销商**，说明团购数量和用途。\n\n**建议：** 如果您是个人送礼，直接在超市购买即可；如果是企业团购（量大），建议提前1-2周联系官方渠道，以便安排包装定制和配送。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 292,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

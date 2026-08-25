@@ -1,0 +1,28 @@
+{
+  "id": "cb9d6505-d920-4c18-bdd8-778e00b5c691",
+  "object": "chat.completion",
+  "created": 1787696937,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以的，我们支持为500份佳农水果礼盒开具增值税专用发票或普通发票，具体税率和开票项目（如“水果礼盒”）可根据贵司财务要求匹配。\n\n关于质检报告，我们可以提供该批次水果对应的**出厂检验报告**（包含农残、保鲜剂、外观等级等常规项目）。如果需要更高标准的第三方检测报告（如SGS、华测等），需提前3-5个工作日申请，且通常有最低检测费用（约300-500元/项），建议根据贵司验收要求确认是否有必要。\n\n另外，500份属于较大批量，建议您：\n1. 先确认**水果品种和规格**（如佳农香蕉、苹果、车厘子等），不同品种供应和报价差异较大；\n2. 我们可按合同约定提供**到货验收单**，方便贵司核对数量和质量；\n3. 如需分批配送，请提前告知地址和日期，以免仓储影响新鲜度。\n\n您可以发我具体需求（品种、包装规格、配送城市和期望到货时间），我这边先给您出正式报价方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 231,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
