@@ -1,0 +1,28 @@
+{
+  "id": "5acac314-fdd0-4b80-ac25-2901a332fafd",
+  "object": "chat.completion",
+  "created": 1787794228,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果香蕉的具体规格和分级标准，我无法提供最新的、来自官方渠道的详细数据，因为这类信息会随季节、产地和市场需求动态调整，且涉及到企业内部商业细节。\n\n为了给你准确、可执行的信息，我建议你通过以下方式直接获取：\n\n1.  **官方网站/客服**：访问佳农（Goodfarmer）的官方网站，查找“产品中心”或联系其销售客服，询问面向不同渠道（如商超、餐饮、电商）的包装规格（通常是箱装，如X公斤/箱）和等级划分标准。\n2.  **电商平台**：在京东、天猫等平台的佳农官方旗舰店，查看其商品详情页。不同渠道（如B2C零售、B2B批发）的产品规格和包装通常不同，线上详情页会标明净含量。\n3.  **行业通用标准**：如果佳农有公开资料，其分级通常参照国家标准或行业惯例，主要依据果实长度（如18-22cm）、果把大小、成熟度、表皮瑕疵率（黑斑、外伤）进行划分，分为特级、一级、二级或“A级/AA级”等，高级别通常用于高端商超和精品超市。\n\n**建议：** 如果你是采购商或渠道商，请务必联系佳农的销售代表，他们能提供针对你具体需求（如批发、门店直供）的报价单和分级指南，这是最可靠的信息来源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 309,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

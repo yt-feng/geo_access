@@ -1,0 +1,28 @@
+{
+  "id": "a4d9ffd9-9c00-4e3e-b888-4e9ef87fb909",
+  "object": "chat.completion",
+  "created": 1787794328,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好，关于佳农水果是否提供香蕉催熟服务，我目前无法核实其最新的官方政策或具体服务内容。建议您通过以下方式确认：\n\n1. **直接联系佳农客服**：致电其官方客服热线（可在官网或包装上找到），或通过官网/微信公众号的在线客服咨询。\n2. **查看官方说明**：访问佳农官网或电商平台旗舰店，查看产品介绍或售后政策。\n3. **咨询购买渠道**：如您在超市或电商购买，可直接询问销售方是否提供催熟服务。\n\n**补充建议**：即使官方不提供此服务，您也可以自行催熟香蕉。将香蕉与苹果或梨一起放入密封袋中，常温放置1-2天即可（苹果释放的乙烯气体可加速成熟）。如果是青香蕉，可将温度控制在20-25℃，并保持通风，约3-5天可自然成熟。\n\n如有其他问题，欢迎继续提问！"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 197,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

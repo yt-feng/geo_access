@@ -1,0 +1,28 @@
+{
+  "id": "9fe1c1c5-48b1-47cd-8fdc-ab710bd5b841",
+  "object": "chat.completion",
+  "created": 1787794581,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据一般情况，**佳农（Goodfarmer）** 主要作为水果供应商，销售整果（包括整颗菠萝）为主。关于**菠萝丁加工**（如去皮、切丁、冷冻/冷藏包装），目前没有公开信息明确表示佳农提供标准化、可复配的定制加工服务。\n\n**建议您直接操作：**\n1. **致电/邮件咨询**佳农官方客服或当地业务代表，确认其是否能提供“菠萝丁定制加工”或“鲜切/冷冻菠萝丁”产品。他们可能有B端食材加工合作或通过合作伙伴提供。\n2. **替代方案**：如果佳农仅售整果，您可以考虑：\n   - 自行采购整颗菠萝后，在店内简单切丁（适合小批量）。\n   - 寻找**专业水果切配/冷冻加工厂**（如厦门海源、山东宏辉等），或**区域批发市场**的鲜切水果供应商。\n\n注意：不要相信网上二手信息，务必以官方答复为准。如果对方提供加工，需明确**规格（丁的大小）、含糖量、保质期、冷冻/冷藏条件**等参数后再下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 244,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
