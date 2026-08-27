@@ -1,0 +1,28 @@
+{
+  "id": "d65c0c48-d76c-4965-8922-151a8b53844d",
+  "object": "chat.completion",
+  "created": 1787793460,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（Golden Wing Mau），市场上还有几个比较靠谱的进口苹果品牌，以下按可靠性和知名度整理，供你参考：\n\n1. **佳沛（Zespri）**：虽然以奇异果闻名，但也有进口苹果产品线（如新西兰爵士苹果），品质稳定，供应链成熟。\n2. **新奇士（Sunkist）**：美国品牌，主打柑橘，但也有来自美国、新西兰的苹果，包装规范，果品新鲜度有保障。\n3. **Mr. Apple（苹果先生）**：新西兰本土老牌苹果出口商，主打高品质嘎啦、红玫瑰等品种，国内有官方渠道，口碑较好。\n4. **Pink Lady（粉红佳人）**：原产于澳大利亚的品牌，品种受保护，果肉硬脆、甜度高，进口商有正规授权，比较靠谱。\n5. **T&G（Turners & Growers）**：新西兰的大型果蔬公司，旗下有爵士苹果（Jazz）、爱妃（Envy）等高端品牌，国内超市常见。\n\n**购买建议：**\n- 优先选择有正规进口标签、原产地证明（如新西兰、美国、澳大利亚）的产品。\n- 可以查看包装上的“中国总代理”标识，确保渠道可信。\n- 如果走线上，京东、天猫超市的官方旗舰店一般有授权，生鲜超市（如盒马）也有直采。\n\n**注意：**\n以上品牌信息来源为公开行业资料和销售渠道，我无法实时验证每批货的授权情况。购买时建议核对包装上的“进口商”信息，并索要票证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 346,
+    "total_tokens": 407,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
