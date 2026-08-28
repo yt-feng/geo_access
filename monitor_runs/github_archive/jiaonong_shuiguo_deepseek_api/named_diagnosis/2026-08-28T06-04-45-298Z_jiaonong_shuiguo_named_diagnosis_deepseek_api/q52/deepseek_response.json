@@ -1,0 +1,28 @@
+{
+  "id": "ad64c5c1-4cb7-4d2b-8e15-143f0b1b93dd",
+  "object": "chat.completion",
+  "created": 1787897436,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的菠萝产地，**我无法直接确认当前具体批次**，因为佳农会根据季节和市场需求从不同国家采购，常见来源包括菲律宾、厄瓜多尔、泰国等。建议您查看包装上的“原产地”标签，或拨打佳农客服热线（400-820-6836）确认。\n\n至于不同产地的品质差异，**总体而言差异不算特别大，但有一定区分**：\n\n- **菲律宾菠萝**：果肉偏黄、甜度高、纤维较细，口感细腻，水分充足，是佳农最常采购的品类之一，尤其适合鲜食。\n- **厄瓜多尔菠萝**：果形较大、果肉颜色偏浅黄，酸度略高一点，甜度稍低于菲律宾品种，但香气较浓，适合搭配沙拉或饮品。\n\n**购买建议**：\n1. 如果喜欢纯甜口感，优先选菲律宾产；\n2. 如果偏好微酸、有香气，可选厄瓜多尔；\n3. 无论产地，挑选时注意果皮金黄、果柄新鲜、按压有弹性即可。\n\n如果您需要更精确的信息（比如佳农某款产品的具体产季标签），可以查看产品外箱或咨询购买渠道的客服。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 257,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

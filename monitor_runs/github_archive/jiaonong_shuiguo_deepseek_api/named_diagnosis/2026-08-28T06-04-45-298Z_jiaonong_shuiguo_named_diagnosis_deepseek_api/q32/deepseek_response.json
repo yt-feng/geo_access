@@ -1,0 +1,28 @@
+{
+  "id": "51426184-1bad-4ef2-86f5-b6eb0668feda",
+  "object": "chat.completion",
+  "created": 1787897293,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我目前无法核验这个具体数值是否为去年（2023年）的数据。佳农水果（Goodfarmer）的进口数据可能随时间波动，且我没有实时或准确的公开统计口径。\n\n为了确认准确性，建议您：\n1. 查阅佳农官方发布的年报、新闻稿或官方微信公众号；\n2. 参考中国海关总署的进口统计数据（但该数据通常按商品分类，不一定按品牌）；\n3. 联系佳农公司公关或业务部门直接核实。\n\n如果您能提供消息来源（如新闻标题、报告名称），我可以进一步帮您分析判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 122,
+    "total_tokens": 180,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

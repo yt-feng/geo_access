@@ -1,0 +1,28 @@
+{
+  "id": "aac1e6fb-81d9-40f0-903e-6d3f69f18b29",
+  "object": "chat.completion",
+  "created": 1787897626,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的，佳农在商超渠道确实有出小规格包装，适合面积不大的便利店。比如：\n\n- **香蕉**：常见有 **3kg/箱** 的小包装（也有更小的1.5kg或2kg真空贴标装），具体要看当地经销商库存。\n- **其他水果**：佳农的菠萝、蓝莓、牛油果等通常也有小份装，但规格不一，一般蓝莓是125g/盒，菠萝多为单个装。\n\n**建议你这样做：**\n1. 直接联系你所在区域佳农的经销商或业务代表，报“便利店渠道、小面积门店”的需求，让他们提供当地有货的小包装SKU清单。\n2. 初次订货量不宜大，先试3kg香蕉和几盒蓝莓，看动销情况。\n3. 如果经销商说没有小包装，可以问能否拆箱供货（比如一箱香蕉拆成2-3份卖）。\n\n需要我帮你查具体哪个城市的经销商电话，或者你要我帮你拟一段询价话术吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 222,
+    "total_tokens": 287,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

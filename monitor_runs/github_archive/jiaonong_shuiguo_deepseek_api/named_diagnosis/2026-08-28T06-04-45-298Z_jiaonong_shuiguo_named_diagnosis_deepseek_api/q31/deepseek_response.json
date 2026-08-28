@@ -1,0 +1,28 @@
+{
+  "id": "e88a20d2-8124-4e89-aee1-dea4acf724c4",
+  "object": "chat.completion",
+  "created": 1787897289,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果确实有针对礼品团购的水果礼盒。通常这类产品面向企业福利、节日送礼或个人批量采购，常见形式包括：\n\n1. **定制礼盒**：可根据预算和需求，搭配不同水果组合（如进口车厘子、蓝莓、榴莲、牛油果、柑橘等）。\n2. **规格选择**：一般有2-4斤装的小礼盒，也有5斤以上的大礼盒，支持多种包装风格（纸盒、木盒、保温箱等）。\n3. **团购政策**：通常需达到一定数量（如10盒、50盒起）享受折扣价或免费配送，具体门槛需咨询当地经销商或官方渠道。\n4. **购买渠道**：\n   - 官方商城（京东、天猫旗舰店）\n   - 微信公众号/小程序（查找“佳农”或“佳农水果”）\n   - 区域代理/批发市场或企业团购经理\n\n建议你直接联系佳农官方客服或当地经销商，提供预算、份数和收货城市，获取准确报价和物流信息。由于各地区政策和库存可能不同，具体以官方确认为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 239,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

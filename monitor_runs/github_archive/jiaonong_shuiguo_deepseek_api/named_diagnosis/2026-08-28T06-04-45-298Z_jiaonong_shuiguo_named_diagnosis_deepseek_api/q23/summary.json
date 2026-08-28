@@ -1,0 +1,50 @@
+{
+  "questionId": "q23",
+  "prompt": "佳农水果的香蕉销量全国第一，这个数据可靠吗？",
+  "createdAt": "2026-08-28T06:07:12.023Z",
+  "summary": [
+    {
+      "questionId": "q23",
+      "prompt_index": 23,
+      "promptIndex": 23,
+      "promptHash": "8d62432057ed",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉销量全国第一，这个数据可靠吗？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 682,
+      "text_length": 682,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 415,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 415,
+      "total_tokens": 469,
+      "latencyMs": 5524,
+      "latency_ms": 5524,
+      "createdAt": "2026-08-28T06:07:12.023Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q23/prompt.txt",
+        "answer": "q23/deepseek.txt",
+        "response": "q23/deepseek_response.json",
+        "sources": "q23/deepseek_sources.json",
+        "references": "q23/deepseek_references.json"
+      }
+    }
+  ]
+}

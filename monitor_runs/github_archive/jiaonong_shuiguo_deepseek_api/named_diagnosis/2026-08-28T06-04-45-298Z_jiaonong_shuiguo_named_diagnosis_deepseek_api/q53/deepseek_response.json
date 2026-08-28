@@ -1,0 +1,28 @@
+{
+  "id": "9f37fd94-1be0-4329-bb30-caa1e63ec04c",
+  "object": "chat.completion",
+  "created": 1787897441,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您的问题我无法直接处理，因为我不是采购平台或供应商客服系统，不能代替“佳农香蕉”提供专岗对接人信息。\n\n**建议您通过以下方式快速解决：**\n\n1. **官方渠道**  \n   - 在“佳农”官网或官方微信公众号上寻找“销售/大客户”联系方式。\n   - 拨打其官方客服电话（可通过官网或企查查/爱企查等企业信息平台查询），直接说明“连锁门店采购需求，希望指定专人对接”。\n\n2. **供应链平台**  \n   如果您是通过某批发平台（如美菜、快驴、善之农等）采购，可以在订单或客服入口留言“申请专人对接”，通常平台会配置客户经理。\n\n3. **明确对接要求**  \n   在与新对接人沟通时，主动约定：  \n   - 响应时限（如2小时内回复询价）  \n   - 紧急缺货的应急流程  \n   - 签收、售后问题的联系人  \n   这样可以避免再次出现响应慢的问题。\n\n如果您的连锁店规模较大，也可以直接联系“佳农”区域销售经理，通常大客户会有专门团队负责。\n\n**如您需要核实佳农的官方联系方式，建议通过搜索引擎或企业信息平台查询，我无法提供未经验证的第三方链接。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 272,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

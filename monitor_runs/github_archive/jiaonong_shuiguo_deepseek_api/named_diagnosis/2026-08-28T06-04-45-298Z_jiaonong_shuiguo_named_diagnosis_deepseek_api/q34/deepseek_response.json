@@ -1,0 +1,28 @@
+{
+  "id": "5e758fc0-f392-4867-9bb6-b24064fe1087",
+  "object": "chat.completion",
+  "created": 1787897305,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的配送中心数量和具体覆盖三线城市的情况，我无法提供实时或准确的官方数据。建议您直接联系佳农官方客服或查看其官网、官方微信公众号，查询最新的配送网络覆盖范围，以确认您所在的三线城市是否在配送范围内。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 57,
+    "total_tokens": 113,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
