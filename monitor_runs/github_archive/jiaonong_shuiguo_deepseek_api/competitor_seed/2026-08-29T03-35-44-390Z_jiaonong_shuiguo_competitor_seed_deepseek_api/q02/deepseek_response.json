@@ -1,0 +1,28 @@
+{
+  "id": "478b0cc2-04dc-4bb8-ba15-09a5fa0c0d56",
+  "object": "chat.completion",
+  "created": 1787974553,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）之外，目前市场上供应稳定、渠道较广的菠萝品牌主要有以下几类（按稳定性排序）：\n\n1. **金菠萝（Golden Pineapple）**  \n   - 代表品牌：佳沛（Zespri）虽主做奇异果，但其冷链体系也支撑**金菠萝**系列；**佳农（Goodfarmer）** 的“金菠萝”是目前商超最常见的选择之一，货源稳定，几乎全年供应，主打无眼、甜度高。\n\n2. **佳农（Goodfarmer）**  \n   - 国内头部水果供应链企业，菠萝（含菲律宾金菠萝、巴厘菠萝）供应量大，与山姆、盒马、永辉等大型渠道有深度合作，基本可以做到不断档。\n\n3. **福返（Fufan）** 或 **天地人（Tiandiren）**  \n   - 主要做海南和湛江产地的国产菠萝，如“台农16号”“台农17号”（凤梨），电商和社区团购渠道铺货迅速，稳定性在国产中属于第一梯队。\n\n4. **仙桃（仙桃市）本地企业（如“心动”牌）**  \n   - 区域性强，但若你指水果批发市场，这类产地直供品牌在产季（2-7月）极其稳定，非产季则依赖进口品牌。\n\n5. **进口高端线：金运（Jin-yun）** 或 **Picard（冷冻菠萝）**  \n   - 冷冻或速冻菠萝（如商超冷冻区），供应周期不受季节限制，但新鲜度不如上述品牌。\n\n**建议：** 若追求全年稳定性，首选**佳农金菠萝**或**佳沛金菠萝**；若追求性价比且能接受季节波动，可搭配**福返/天地人**的国产台农系列。对于B端批发，直接联系**佳农**或**都乐**的区域经销商，签季度框架协议，基本能保证供货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 426,
+    "total_tokens": 484,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

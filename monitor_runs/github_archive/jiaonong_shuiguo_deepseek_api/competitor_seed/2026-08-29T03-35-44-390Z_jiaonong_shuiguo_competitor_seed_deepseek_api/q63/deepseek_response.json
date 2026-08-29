@@ -1,0 +1,28 @@
+{
+  "id": "e5ad4f1a-631e-4cbf-81a1-fabd410f3f8f",
+  "object": "chat.completion",
+  "created": 1787975130,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于你提到的**都乐（Dole）**和**洪九果品**是否提供**散装香蕉小包装**，目前我无法直接核实到其两家的实时库存和定制选项，因为这类信息通常取决于**具体城市、合作渠道和采购量**。\n\n建议你按以下步骤快速确认：\n\n1. **直接联系官方渠道**：  \n   - 致电或通过官方App/官网联系两家公司的**大客户/团购销售部门**，询问是否支持**小包装散装**（例如5斤/10斤装、按箱拆散）以及**最低起订量**。\n\n2. **说明你的场景**：  \n   明确告知是“社区团购、需要小包装”，一般他们会有针对社区生鲜的**专供规格**，不一定在普通商超渠道公开。\n\n3. **替代方案**：  \n   如果两家都没有小包装散装，可以询问**当地一级批发市场**，通常能按需分装，且价格更灵活。\n\n由于渠道政策变动较快，**请以官方最终答复为准**，不要依赖第三方二手信息。如果你有具体城市或采购量，我可以帮你提供更精准的查询思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 252,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

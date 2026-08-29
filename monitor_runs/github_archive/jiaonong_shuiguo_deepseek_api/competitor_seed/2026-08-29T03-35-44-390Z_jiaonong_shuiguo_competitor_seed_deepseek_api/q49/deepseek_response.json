@@ -1,0 +1,28 @@
+{
+  "id": "95756c0f-644a-49e2-b149-eaf809712a8f",
+  "object": "chat.completion",
+  "created": 1787974998,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您提到的“都乐（Dole）”和“鑫荣懋”（通常指鑫荣懋果业或类似企业）在供应链/水果行业里都有一定规模。但关于“专岗对接服务”（即专门安排一个固定人员或团队对接您公司业务）这一点，**目前公开信息无法确定哪一家一定提供专岗人员**，因为这属于商务合作中的具体服务条款，通常需要直接与销售或客户经理洽谈确认。\n\n建议您按以下方式快速确认：\n\n1. **直接联系两家公司的销售/大客户部门**，明确询问：“我们计划建立长期采购合作，是否可指定一名专属客户经理（或对口业务员）负责日常对接、订单跟进和售后？”\n2. **合同里明确服务承诺**：如果对方口头答应，务必在合作合同中写明“指定专人对接”及响应时限，避免后续换人。\n3. **参考行业惯例**：大型水果供应商对KA客户（大客户）通常会配备专属销售，但如果您采购量较小，则可能由区域经理兼管。\n\n如果您需要我帮您查询联系方式或比较两家公司公开的服务模式，也可以告诉我，我会尽力提供可核验的信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 247,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
