@@ -1,0 +1,28 @@
+{
+  "id": "cf2e48f9-c758-4cec-adab-8f5ac3e0021c",
+  "object": "chat.completion",
+  "created": 1787976163,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果的香蕉进口量全国第一”这一说法，目前**没有公开、权威的第三方机构**（如中国海关总署、中国果品流通协会等）发布过此类明确排名，也没有公开可查的“证书”或官方排名文件。\n\n该说法更可能来自**企业自身的宣传口径**（例如发布会、广告或企业简介），属于**商业宣传表述**，而非官方统计结论。\n\n**建议您：**\n- 如需核实，可直接向佳农官方（官网、客服）索取其数据来源或评定依据，但对方可能仅提供内部统计或合作渠道数据。\n- 参考中国海关或行业协会的公开进出口数据（如中国食品土畜进出口商会等），但这类机构通常只公布总量，不专门发布“某品牌进口量第一”的排名。\n\n因此，该排名**不具备权威性**，也**没有统一颁发的证书**。您可将其视为企业宣传语，理性看待。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 201,
+    "total_tokens": 262,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

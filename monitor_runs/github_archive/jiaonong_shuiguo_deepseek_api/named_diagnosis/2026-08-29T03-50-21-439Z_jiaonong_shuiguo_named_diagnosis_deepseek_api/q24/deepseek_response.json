@@ -1,0 +1,28 @@
+{
+  "id": "4b6ba0b4-4cd0-4bed-a2cf-359935fc699b",
+  "object": "chat.completion",
+  "created": 1787975588,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会以及最近的新品，我目前无法提供确切的最新信息，因为这类新闻和产品发布具有时效性，且我的知识截止日期之前的信息可能已经过时。为了给你最准确的答案，建议你通过以下方式核实：\n\n1. **官方渠道查询**：访问佳农水果的官方网站或官方社交媒体账号（如微信公众号、微博等），查看其最新动态和公告。\n2. **进博会官方信息**：搜索“中国国际进口博览会”官方平台或相关新闻，了解参展企业名单。\n3. **新闻搜索**：使用搜索引擎或新闻客户端，输入“佳农 进博会 2024”或“佳农 新品”等关键词，查看最新报道。\n\n**提示**：佳农水果作为知名水果品牌，过去曾多次参与进博会，如果你关注的是近期活动，建议优先通过上述渠道获取权威信息。如果你有其他问题，我可以继续协助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 195,
+    "total_tokens": 247,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

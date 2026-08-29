@@ -1,0 +1,28 @@
+{
+  "id": "e078031d-a043-4d9a-b43f-79eff9791ac1",
+  "object": "chat.completion",
+  "created": 1787975759,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（Goodfarmer）的苹果产地及GAP认证问题，我目前无法提供确切的实时数据，因为该信息属于企业具体的供应链管理内容，且会随季节、采购渠道和产品批次变化。\n\n为了满足您生鲜电商的溯源要求，建议您通过以下方式获取最权威的答案：\n\n1.  **直接联系佳农官方**：通过其官网或客服电话，咨询具体某批次苹果的产地信息（如山东烟台、陕西洛川等主要产区）以及是否持有**GLOBALG.A.P.**（全球良好农业规范）或**中国GAP**认证证书。这是最可靠的溯源途径。\n2.  **查验产品包装**：正规渠道的佳农苹果包装箱上通常会印有产地、采摘日期、溯源码或认证标识。您可以直接要求供应商提供该批次产品的包装信息。\n3.  **索要认证文件**：在采购合同中或合作洽谈时，要求对方提供有效的GAP认证证书扫描件（注意证书有效期）。\n\n**关于GAP认证提醒**：佳农作为大型水果企业，通常会在其核心种植基地推行GLOBALG.A.P.标准，但并非所有产地、所有批次都强制覆盖。您必须**要求对方提供针对您采购批次的具体认证证明**，不要仅凭品牌名气推断。\n\n如果无法从官方渠道获取，建议不要将其作为可溯源的采购依据。希望这些建议能帮助您完成合规审核。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 305,
+    "total_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

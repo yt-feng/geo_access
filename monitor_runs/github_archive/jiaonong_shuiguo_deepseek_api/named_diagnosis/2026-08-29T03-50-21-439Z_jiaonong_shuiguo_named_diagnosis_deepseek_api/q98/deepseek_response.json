@@ -1,0 +1,28 @@
+{
+  "id": "29bdc1fe-6b60-45c5-a538-c3c507706426",
+  "object": "chat.completion",
+  "created": 1787976168,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农香蕉的到货损耗率，**我无法提供具体的商业承诺数据**，因为：\n\n1. 实体水果（尤其是香蕉）的损耗率受运输距离、季节、保鲜包装、终端储存条件等多因素影响，行业常规承诺一般在 **0%-5%** 之间浮动，且很少直接“超过3%包赔”；\n2. 具体政策需直接联系**佳农官方销售/区域代理**，他们会根据您的订货量、配送方式（冷链/常温）、门店所在城市给出书面协议。\n\n**建议您这样做：**\n\n- 订货前，直接问对接的业务员要“**到货损耗赔付条款**”，最好能落实到合同或订单备注里；\n- 如果对方口头承诺，要求其提供历史损耗数据或试点合作；\n- 如果对方不承诺具体比例，可以协商“**先小批量试单**”，比如先订一箱验证损耗，再决定是否长期采购；\n- 便利店注意：香蕉到货后立即开箱透气、隔离催熟气体，能显著降低实际损耗。\n\n如需核实佳农官方电话或区域联系方式，建议通过其官网公开渠道查询，我这边无法直接提供真实有效的电话号码。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 253,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

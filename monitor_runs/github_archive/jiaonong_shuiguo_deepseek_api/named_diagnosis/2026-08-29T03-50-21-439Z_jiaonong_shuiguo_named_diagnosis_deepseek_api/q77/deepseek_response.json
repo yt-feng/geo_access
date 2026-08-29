@@ -1,0 +1,28 @@
+{
+  "id": "921b6eca-2f19-44b2-8461-0b8655e22d5d",
+  "object": "chat.completion",
+  "created": 1787975990,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常可以实现“产地溯源”到农场级别，但具体能否直接拿给商超审核，取决于你对接的是佳农的哪个业务板块（国内供应链、进口业务还是品牌商超定制）。\n\n**1. 溯源能力：**\n佳农（Goodfarmer）作为大型水果供应链企业，其香蕉主要来自菲律宾、厄瓜多尔、哥斯达黎加以及国内云南、广西等地。他们的正规供应渠道一般具备完整的批次追溯系统，通常可以追溯到具体种植园（Plantation）甚至地块（Block）的采收记录，而不仅仅是国家或港口。\n\n**2. 关于GLOBALG.A.P.证书：**\n- **需要明确证书主体**：商超要求的GLOBALG.A.P.证书，其证书持有人必须是**实际种植农场/种植者**，而不是贸易商或品牌商。佳农作为进口商或品牌方，本身通常不持有农场的GLOBALG.A.P.证书，而是其合作的境外农场或国内备案基地持有。\n- **可要求对方提供**：你需要向佳农的销售或品控负责人索取**该批次香蕉对应产地农场的GLOBALG.A.P.证书扫描件**（有效期内），以及**农场与佳农之间的供货协议或采购证明**，以形成追溯链闭环。\n\n**3. 操作建议：**\n- 直接要求佳农提供**农场代码（GlobalG.A.P. Number - GGN）**，并在GLOBALG.A.P.官网数据库中核对证书有效性。\n- 由于商超审核通常要求“证书需覆盖本次供货”，建议在采购合同或质量协议中明确：**“供应商必须提供本批次对应产地农场的有效GLOBALG.A.P.证书复印件，且证书有效期需覆盖交货期”**。\n\n**特别提醒：**\n如果佳农给你提供的是他们自己公司名下的GLOBALG.A.P.证书，那基本是无效的（除非他们自有农场），请务必核验证书上的生产商名称是否与香蕉包装箱上的农场标识一致。若无法提供，建议立即更换为直接与持有GLOBALG.A.P.证书的种植基地合作或寻找有该证书的进口商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 459,
+    "total_tokens": 525,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

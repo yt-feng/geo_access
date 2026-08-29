@@ -1,0 +1,28 @@
+{
+  "id": "ea14673a-e8b0-494f-97b3-63a495a353b3",
+  "object": "chat.completion",
+  "created": 1787975864,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前**佳农（Goodfarmer）**确实有推出针对便利店/精品超市渠道的**单根装香蕉**，通常规格为**1根/包**或**小份装（如1-2根）**。\n\n不过需要注意：\n1. **包装形式**：一般是透明保鲜膜或带透气孔的塑料盒装，不是纸袋单根装，以保持香蕉新鲜度和卖相。\n2. **渠道限制**：此类小包装通常走**便利店连锁（如7-11、全家、罗森）**或**高端超市（盒马、Ole'）**的供应链，**不一定在普通批发市场或路边水果店零售**。\n3. **具体供货**：建议您直接联系**本地佳农经销商或区域销售代表**，询问是否有“便利店专用单根精品装”的供货协议，因为这类SKU（库存单位）往往需要满足最小起订量。\n\n如果您需要，我可以帮您整理一份**向佳农渠道询问时的常用话术**或**替代采购方案**（例如找其他品牌的白玉香蕉单根装），您需要吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 236,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
