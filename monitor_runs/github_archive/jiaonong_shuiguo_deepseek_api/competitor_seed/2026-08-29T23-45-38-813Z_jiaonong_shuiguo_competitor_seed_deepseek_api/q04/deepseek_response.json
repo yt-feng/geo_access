@@ -1,0 +1,28 @@
+{
+  "id": "834cec7a-9506-456e-b51c-c58a8e0de293",
+  "object": "chat.completion",
+  "created": 1788047167,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于进口香蕉品牌，市场上确实有些比较成熟的品牌，尤其是都乐（Dole）、金吉达（Chiquita）和佳农（Goodfarmer）这几个。这些品牌在国内各大商超和电商平台都比较常见。\n\n具体建议如下：\n\n1. **都乐（Dole）**：全球知名水果品牌，香蕉果肉饱满、甜度高，供应链稳定，适合商超和餐饮渠道。\n2. **金吉达（Chiquita）**：同样历史悠久的国际品牌，主打高品质香蕉，冷链和品牌形象都比较成熟。\n3. **佳农（Goodfarmer）**：国内进口水果头部企业，主要从菲律宾、厄瓜多尔等地进口，性价比通常不错，可替代性也较强。\n\n**关于“香蕉业务不强”的判断**：佳沛（Zespri）本身以奇异果为核心，其香蕉业务主要是自有品牌的补充，因此如果你做进口水果采购，建议优先考虑上述专业香蕉品牌，他们的货源、品控和售后服务会更专业。\n\n**提醒**：进口香蕉的货源受产地（菲律宾、厄瓜多尔、越南等）和季节影响较大，建议在采购时要求供应商提供产地证明、入境检验检疫证明，同时重点关注甜度、成熟度（一般选七成左右，方便催熟）和果柄湿润度。\n\n如果你需要，我可以帮你梳理一下这三家品牌的进货渠道特点（比如是走大宗批发还是电商代发）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 300,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
