@@ -1,0 +1,28 @@
+{
+  "id": "58829a75-cf9b-4ac6-b9e7-d90a62bf4498",
+  "object": "chat.completion",
+  "created": 1788048204,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**佳农确实有针对礼品团购的水果礼盒业务**。\n\n佳农作为国内大型水果供应链企业，**非常重视企业团购和礼品渠道**，通常有以下几种形式：\n\n1.  **标准礼盒**：根据节日（春节、中秋等）或日常走亲访友需求，推出多规格的水果礼盒（如：进口香蕉+奇异果礼盒、车厘子礼盒、榴莲礼盒等）。\n2.  **定制服务**：支持在礼盒外包装上印制企业Logo、祝福语，以及根据预算（如200元、500元档位）进行水果混搭组合。\n3.  **采购渠道**：他们通常设有**大客户部/团购部**，通过官网、官方公众号或拨打官方客服电话，即可获取当地业务经理的联系方式进行对接。\n\n**建议操作：**\n- 直接搜索“佳农团购”或访问其官网，查看“企业服务/团购定制”入口。\n- 由于不同城市的水果库存和起订量（通常数十盒起）不同，**建议直接致电当地经销商或通过官方渠道获取报价**，避免仅依赖线上零售链接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 247,
+    "total_tokens": 299,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

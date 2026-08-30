@@ -1,0 +1,28 @@
+{
+  "id": "f5c33902-eac8-4129-a711-53f41fc6be02",
+  "object": "chat.completion",
+  "created": 1788048479,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）在水果加工及餐饮渠道方面，确实有针对B端客户的定制化服务。他们通常能提供：\n\n1. **定制规格**：除了整果，可以提供切片、切块、去皮、去芯等处理，具体取决于客户订单量和仓储物流条件。\n2. **包装形式**：常见有真空袋装、托盘覆膜或冷冻等形式，以延长保鲜期。\n3. **应用场景**：主要服务于连锁餐饮、茶饮品牌（如水果茶）、烘焙及酒店等。\n\n不过，**具体是否有标准化的现成切片/切块规格，会因地区和季节不同而变动**。建议你直接联系佳农的销售或餐饮事业部，确认你所在区域能否供应，以及起订量（MOQ）和冷链配送要求。\n\n**可执行建议**：拨打佳农官方客服（可通过官网或官方公众号查），或在其官网“餐饮渠道”页面提交询价表单，备注所需规格（如：去皮切块、每袋500g），他们会提供准确报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 220,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "85a769fc-0dc1-4a9b-9b90-609843534fdc",
+  "object": "chat.completion",
+  "created": 1788048644,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客户服务时间和发货安排，建议您**直接通过官方渠道（如官网、微信公众号或客服电话）确认**，因为具体政策可能随时调整，我无法实时核验。\n\n一般来说：\n\n1. **客服时间**：国内多数水果生鲜企业的客服并非7x24小时，通常为工作日（如9:00-18:00）或早8:00-晚22:00等。夜间是否有人工客服，需以官方公告为准。\n2. **发货时效**：若您**在晚上下单**，且订单状态显示“已付款”，通常次日（或第二个工作日）可安排发货，但受库存、节假日、配送区域影响。生鲜类商品发货后一般次日达或隔日达。\n\n**建议您**：\n- 下单前查看商品页的“发货说明”或“物流时效”提示。\n- 若下单后需紧急确认，可尝试拨打客服热线，若无法接通，可留言或次日一早联系。\n- 留意订单状态更新，未按时发货时通过官方渠道催促。\n\n如果方便，您也可以提供具体购买渠道（如天猫、京东、小程序等），我可以帮您分析该平台的常见规则。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 253,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
