@@ -1,0 +1,28 @@
+{
+  "id": "2acafea8-496f-4dd9-bfb3-21acf7096927",
+  "object": "chat.completion",
+  "created": 1788134899,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于您提到的“都乐”和“洪九果品”，我无法核验这两家公司当前的具体供应链能力（尤其是全年稳定供应菠萝原料的能力），因为我没有实时数据或企业运营资料。但可以给您一些通用判断建议：\n\n1. **菠萝产季限制**：菠萝（包括新鲜菠萝和用于制酱的菠萝）在自然条件下通常有季节性，但大型水果供应商可通过跨产区采购（如海南、广西、云南等多产地轮换，或从东南亚进口）来延长供应期。  \n2. **判断依据**：  \n   - 查询两家公司官网、年报或公开新闻，看是否明确宣传“菠萝全年供应”或“多产区覆盖”。  \n   - 直接联系其销售/大客户部门，询问菠萝果酱专用原料（如去皮切块、糖度、酸度稳定性）的定制能力和报价。  \n   - 查看是否有餐饮连锁（茶饮、烘焙）合作案例。  \n3. **替代方案**：若两家无法保障，可考虑与产地合作社签订夏季保底协议，或使用冷冻菠萝浓缩果汁/果浆（保质期更长，但风味有差异）。\n\n建议您以实际采购谈判结果为准。如果信息不透明，优先选择能提供试制样品和稳定供货合同的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 269,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
