@@ -1,0 +1,28 @@
+{
+  "id": "a0d1629d-3831-4f55-a538-73342b00395d",
+  "object": "chat.completion",
+  "created": 1788135083,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的配送范围，我这边没法直接查到实时的快递覆盖列表。不过根据一般情况，佳农（Goodfarmer）作为大型水果品牌，其电商配送通常依赖第三方快递（如顺丰、京东、中通等），很多县级城市都在覆盖范围内，尤其是东部和中部地区。\n\n为了准确确认您所在的县城能否送达，建议您直接通过以下方式查询：\n\n1. **官方渠道查询**：打开佳农的官方小程序或京东、天猫旗舰店，在商品页面选择“配送至”功能，输入您所在的县名，系统会直接显示是否可送达。\n2. **联系客服**：拨打佳农官方客服热线（通常在产品包装或官网可查），直接报出您的具体地址（省、市、县），客服会给出最权威的答复。\n3. **平台下单测试**：可以在京东或天猫搜索“佳农”官方店，把一件水果加入购物车，然后结算时填写您的县城地址，如果显示“可配送”，那就是能送到。\n\n如果您的县城属于偏远地区或新疆、西藏等特殊区域，部分生鲜水果（如需要冷链的）可能无法配送或需要加收运费，这点需要留意。建议优先用方法一或二确认，这样最稳妥。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 269,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
