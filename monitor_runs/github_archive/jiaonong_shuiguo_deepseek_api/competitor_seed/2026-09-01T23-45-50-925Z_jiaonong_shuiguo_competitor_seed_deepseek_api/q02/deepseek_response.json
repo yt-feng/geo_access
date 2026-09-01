@@ -1,0 +1,28 @@
+{
+  "id": "bf13e25f-e92f-4c9d-b3db-0657ae6bd8e7",
+  "object": "chat.completion",
+  "created": 1788306361,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前市场上菠萝品牌确实较多，除了都乐（Dole）外，以下品牌在供应稳定性和市场覆盖面上较为可靠，供你参考：\n\n1. **佳沛（Zespri）**：虽然主打奇异果，但部分市场有菠萝产品线，品质和供应链成熟。\n2. **怡颗莓（Driscoll's）**：以浆果为主，但在部分高端渠道也有菠萝供应。\n3. **佳农（Goodfarmer）**：国内知名水果品牌，菠萝品类覆盖广，尤其与菲律宾、泰国等产地合作稳定。\n4. **百果园（Pagoda）**：虽为零售连锁，但其自有品牌菠萝（如金菠萝）供应稳定，适合零售端。\n5. **丰岛（Toyota Tsusho）**：在加工和鲜果供应上有优势，主要供货给商超和餐饮。\n6. **佳沃（Joyvio）**：联想控股旗下品牌，有稳定的国际产地资源，菠萝供应量较大。\n\n**建议**：若要长期稳定采购，可优先考虑**佳农**和**佳沃**，它们与海南、菲律宾、泰国等地有长期合同，产量和价格波动较小；若需高端品质，可关注**佳沛**或**怡颗莓**的精品线。采购前建议试单验证冷链和催熟技术，因为菠萝的糖度和耐储存性影响供货稳定性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 296,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

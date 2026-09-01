@@ -1,0 +1,28 @@
+{
+  "id": "75b42a6e-705c-4010-b575-e0c8c1ba5dcc",
+  "object": "chat.completion",
+  "created": 1788306428,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），针对礼品团购场景，以下是几个在品质、包装和知名度上表现不错的进口水果品牌，适合礼盒装：\n\n1. **乐淇（Rockit）**  \n   - 新西兰品牌，主打迷你苹果，果径小、脆甜，单颗独立包装，非常精致，适合高端礼品篮。\n\n2. **爱妃（Envy）**  \n   - 新西兰苹果品牌，果肉紧实、极耐储存，礼盒包装简洁大气，适合商务馈赠。\n\n3. **金果（Jazz）**  \n   - 新西兰苹果，口感酸甜平衡，礼盒装常见，性价比略高于爱妃。\n\n4. **新奇士（Sunkist）**  \n   - 美国老牌柑橘/柠檬品牌，橙子、葡萄柚礼盒在年节和企业采购中认可度高，包装明亮。\n\n5. **邓肯（Duncan）**  \n   - 美国品牌，主要供应高端橙子和柑橘，礼盒装比新奇士更小众，但品质稳定。\n\n6. **红地球（Red Globe）**  \n   - 美国提子（葡萄）品牌，果粒大、甜度稳定，适合作为混装水果礼盒中的主打单品。\n\n7. **美国华盛顿苹果（Washington Apples）**  \n   - 产自华盛顿州，品牌以产地命名，代表品种如嘎啦、蛇果，礼盒装常见，价格适中。\n\n8. **菲吉（Figi）**  \n   - 主要进口自澳洲或智利的无籽红提，部分经销商使用“菲吉”作为品牌，需确认具体进口商。\n\n**补充建议：**  \n- 如果是企业团购，可联系国内大型进口水果经销商（如鑫荣懋、佳沃鑫荣懋、百果园B端渠道），他们常能提供“定制LOGO贴标”或“免税赠言卡”服务。  \n- 部分品牌（如乐淇、爱妃）有官方礼盒套装，内含高档纸盒/木盒，比普通散装水果更上档次。  \n- 注意核对海关进口检验检疫证明，确保正品授权，避免买到“仿冒包装”的国产果。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 479,
+    "total_tokens": 541,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
