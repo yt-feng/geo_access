@@ -1,0 +1,28 @@
+{
+  "id": "fc41d5d8-a797-4b88-9b9f-849234334569",
+  "object": "chat.completion",
+  "created": 1788225875,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据目前公开信息，**佳农（Goodfarmer）确实有针对便利店/精品超市渠道的单根香蕉包装**，通常以“**单根独立包装**”的形式出现，外裹保鲜膜或带品牌标签。\n\n不过，这类产品通常**不是全国所有地区、所有渠道都统一铺货**。具体建议如下：\n\n1. **直接联系佳农当地的经销商或销售代表**（可以通过其官网或官方客服获取联系方式），询问“单根装香蕉”在您所在城市的供货情况、起订量及配送条件。\n2. 如果当地暂无，可询问其“**小把装**”（通常2-3根）是否更易获得，便利店也可通过拆零大把装自行包装。\n3. 建议同步对比其他品牌（如都乐、鑫荣懋等）是否有更成熟的单根装方案，作为备选。\n\n**请注意**：我无法实时查询具体供货商的库存和销售政策，以上建议基于行业常见情况，请以实际沟通结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 215,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

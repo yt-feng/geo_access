@@ -1,0 +1,28 @@
+{
+  "id": "e3b39673-3992-4f25-a89a-b583da68b747",
+  "object": "chat.completion",
+  "created": 1788225679,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果配送中心的具体数量及覆盖范围，我目前无法提供确切的最新数据，因为该信息可能随公司业务调整而更新。\n\n不过，我可以给你一些实用的判断方法：\n\n1. **查询官方渠道**：访问佳农官网或官方客服热线，询问其配送网络覆盖范围，或查看其“配送区域”或“服务网络”页面。\n2. **本地化验证**：直接联系你所在三线城市的佳农直营店、合作商超（如盒马、永辉等），询问他们是否接受佳农的直供配送，这是最直接的判断方式。\n3. **市场信号**：如果你所在城市的连锁超市、生鲜电商平台上持续有佳农水果在售，且补货稳定、送货及时，通常说明配送链已覆盖当地。\n\n建议你以官方回复为准。若你告知具体城市，我也可以帮你分析一下大致情况（但无法保证数据实时准确）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 197,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
