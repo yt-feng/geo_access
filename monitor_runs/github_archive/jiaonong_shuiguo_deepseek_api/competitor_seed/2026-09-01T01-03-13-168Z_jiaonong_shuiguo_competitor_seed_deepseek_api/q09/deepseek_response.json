@@ -1,0 +1,28 @@
+{
+  "id": "22e4d63f-d935-4de9-84eb-3ef27ddd315c",
+  "object": "chat.completion",
+  "created": 1788224679,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），以下是一些在高端礼品团购市场中口碑较好的进口水果品牌，按品类划分供参考：\n\n---\n\n### 1. **柑橘类 / 橙子**\n- **新奇士（Sunkist）**：美国品牌，以香橙、柠檬为主，礼盒包装经典，适合商务馈赠。\n- **澳大利亚塔斯马尼亚樱桃（如“塔州车厘子”）**：虽然以樱桃为主，但高端礼盒中常以产地品牌出现（如“Tasmanian Cherries”），非单一企业品牌但认可度高。\n\n### 2. **苹果 / 梨**\n- **爱妃（Envy）**：新西兰品牌，苹果脆甜，红黑包装礼盒显高档。\n- **Rockit（乐淇）**：新西兰小苹果，圆筒包装，适合个人/小礼品。\n\n### 3. **葡萄 / 提子**\n- **青提/红提品牌**：澳洲“Crimson”（红地球）或“Autumn Royal”（秋皇家）常作为货品名，但礼品采购可关注“The Little Big Company”（新西兰）等定制款。\n- **美国“Sun World”**：拥有多个提子专利品种（如甜蜜蓝宝石），供货稳定。\n\n### 4. **奇异果（猕猴桃）**\n- **Zespri之外的替代**：意大利“Jingold”（金色奇异果）或法国“Oscar”品牌，包装精致，小众但显品味。\n\n### 5. **牛油果 / 西梅**\n- **墨西哥“Misionero”**：主打牛油果，礼盒有产地溯源码，适合健康理念客户。\n- **智利“Prize”**：西梅/蓝莓品牌，轻奢路线。\n\n### 6. **综合高端礼盒**\n- **“Daily Fresh”**（新西兰）或“Mountain Fresh”（南非）：提供多品种组合装，如苹果+猕猴桃+柑橘，适合企业批量定制。\n\n---\n\n### 团购建议：\n- **优先选产地+品种背书**：如“智利车厘子”“澳洲柑橘”往往比单一品牌更易被客户接受。\n- **确认进口资质**：要求供应商提供卫生证书、原产地证，尤其是批采时。\n- **定制化**：许多品牌可加印企业Logo，提升礼盒专属感（需提前10-15天定制）。\n\n如果预算充裕且追求稀缺性，可考虑“日本晴王葡萄”或“泰国柚子”（但进口限制较多，需提前确认政策）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 551,
+    "total_tokens": 613,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

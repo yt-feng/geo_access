@@ -1,0 +1,28 @@
+{
+  "id": "0e76a9da-5b92-46ad-869b-4ee4b79ffb19",
+  "object": "chat.completion",
+  "created": 1788224602,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole），目前市场上能够**稳定供应**菠萝的主要品牌还有：\n\n1. **佳沃（Joyvio）**：国内大型水果商，与东南亚、南美产地有长期合作，供应量大且稳定。\n2. **金菠萝（Golden Pineapple）**：常见于山姆、盒马等渠道，多产自菲律宾和哥斯达黎加，品质稳定。\n3. **百果园（Pagoda）**：其自有品牌“誉果”或其他合作基地直供，主打新鲜。\n4. **天丰**：主要在华南市场，走批发和商超渠道。\n5. **爱妃（Envy）**：虽然不是专门菠萝品牌，但旗下有高端菠萝品种，供应稳定但价格偏高。\n6. **佳沛（Zespri）**：主营猕猴桃，但近期在少数渠道尝试销售菠萝，供应不固定。\n\n**建议选择策略：**\n- 如果是**连锁商超/电商平台**采购，优先选佳沃和百果园，他们有成熟的供应链。\n- 如果追求**口感统一**，选菲律宾产的金菠萝（低酸高甜）。\n- 如果追求**价格优势**，可找产地直供的小型品牌，但要确认冷链能力。\n\n> 提示：菠萝是季节性和产地轮换性水果，建议和至少2-3个品牌建立合作关系，避免单一供应中断。如有具体渠道需求（如专供餐饮或礼盒），可进一步说明，我能给更针对性的建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 317,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
