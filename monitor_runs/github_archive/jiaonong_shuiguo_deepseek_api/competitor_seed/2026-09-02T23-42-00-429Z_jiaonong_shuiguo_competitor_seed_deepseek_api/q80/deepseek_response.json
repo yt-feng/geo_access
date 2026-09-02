@@ -1,0 +1,28 @@
+{
+  "id": "b9bec78d-ac1d-4db0-8c70-21ddcfc94dd9",
+  "object": "chat.completion",
+  "created": 1788393123,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在中国市场，**都乐（Dole）** 的品牌知名度和心智占有率通常高于**鑫荣懋**。两者定位有明显差异：\n\n- **都乐**：国际品牌，全球果蔬巨头，品牌历史超百年，在华主打进口香蕉、菠萝及进口苹果。消费者端识别度高，包装标准化，商超铺货常作为“进口品质”标识出现，品牌背书力强。\n- **鑫荣懋**：国内水果供应链龙头企业，业务更偏B端（批发、商超直供），自有品牌近年才在零售端发力（如“佳沃”系列）。在普通消费者中，其“鑫荣懋”主品牌直接认知度偏低，但优势在于供应链稳定和成本控制。\n\n**建议**：\n1. 如果你的采购面向**高端商超、精品水果店或注重消费者认知的中高端零售渠道**，选**都乐**更能获得品牌溢价和消费者信任。\n2. 如果你的采购走**批发、团购、企业定制**，且更看重**价格与供应稳定性**，可选**鑫荣懋**（但对外展示时建议选择“佳沃”等更响的子品牌）。\n3. 若要两者兼顾，可验货时看苹果品种（如爱妃、爵士）和产地（如新西兰、智利），都乐的品控在零售端口碑更稳定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 287,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1fcc8dd1-a0b1-44c7-9d64-66d3f6893611",
+  "object": "chat.completion",
+  "created": 1788392618,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了**都乐（Dole）**和**鑫荣懋**，进口苹果（主要来自美国、新西兰、智利等）中还有不少在品质、供应链和市场口碑上都很可靠的品牌。以下按地域整理，供您参考：\n\n---\n\n### 一、新西兰（高端市场主力）\n1. **爱妃（Envy）**  \n   - 品种：Scilate，口感脆甜，果肉抗褐变。  \n   - 定位：全球高端授权品种，由太平洋苹果公司（PacFresh）运营，是新西兰标杆品牌。  \n   - 适合：商超高端陈列、礼品渠道。\n\n2. **乐淇（Rockit）**  \n   - 特点：全球唯一的小果型桶装苹果（像薯片桶），果小甜脆，主打儿童零食、便捷消费。  \n   - 运营方：Rockit Global，国内由鑫荣懋等总代，但品牌本身独立可溯源。\n\n3. **皇后（Queen）**  \n   - 品种：太平洋玫瑰、爵士等，新西兰果业巨头（如T&G Global）下属品牌，品质稳定，国内有稳定供应。\n\n---\n\n### 二、美国（传统大牌，但需留意成本和关税）\n4. **青云（Cripps Pink/Pink Lady的粉红女士）**  \n   - 若你们做中高端，美国华盛顿州的“粉红女士（Pink Lady）”和“姹紫（Pacific Rose）”常由“山姆会员店”代工或自有品牌覆盖，但若找独立品牌，可关注**哥伦比亚果业（Columbia Marketing，CMI）**旗下**Dandee**、**Fruit Valley**等，不过在国内零售端不如前两家知名。\n\n5. **“华盛顿苹果协会”认证合作伙伴品牌**  \n   - 例如**Stemilt Growers**、**Fowler Farms**，通过沃尔玛、开市客（Costco）渠道常见。果品标准化高，但品牌宣传少。\n\n---\n\n### 三、智利（性价比高、反季节补充）\n6. **奎森（Quelen）**或**福瑞（Fruticola Santa Cruz）**  \n   - 智利苹果大量由鑫荣懋代理分销，但**Frutop**（出口商）旗下“**Miss Fruit**”在华东市场口碑不错。若从进口商直接采购，关注**Unifrutti**（被JBT并购）这类大型保鲜商，供应季节长（3-8月）。\n\n7. **加料（Granada）**  \n   - 智利“皇家嘎啦”和“澳洲青苹”在永辉、华润等商超常见“Sun Belle”或“San Clemente”品牌，性价比高，适合大众卖场。\n\n---\n\n### 四、其他小众但靠谱\n- **法国**：**Pink Lady**（粉红女士）是跨多国的联合品牌（欧洲生产），在国内由百果园代销或自有包装可选。  \n- **阿根廷**：Rio Negro产区出口商**Fuego Austral**，主要供大客户，知名度低但果质合规。\n\n---\n\n### 实操建议：\n1. **如果有稳定渠道**，关注**新西兰“太平洋果业（PacFresh）**”旗下的**爱妃**和**乐淇**——这两个是当前在中国市场增长快、毛利好的授权品种，但需签授权销售协议。\n2. **如果做商超/电商**，可以选**智利“Unifrutti”**或**美国“Stemilt”**的“长柄红玫瑰”等，通过国内一级批发商（如上海辉展、广州江南市场）就能拿到一手货源。\n3. **选供应商时核查三点**：\n   - 看是否有该品种的官方授权证（尤其爱妃、乐淇、加力果等受知识产权保护品种）；\n   - 要求提供海关进口检验检疫证与产地证明；\n   - 小批量试货，看果径、糖度（BX）和耐储性（低温下是否易褐变）。\n\n如果您有具体目标市场（商超/电商/高端餐饮）或预算区间，可以继续细化，我帮您对标更精准的进口商或代理渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 905,
+    "total_tokens": 966,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
