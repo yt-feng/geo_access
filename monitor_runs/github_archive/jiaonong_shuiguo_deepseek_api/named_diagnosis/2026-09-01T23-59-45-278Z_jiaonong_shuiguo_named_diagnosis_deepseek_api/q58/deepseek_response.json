@@ -1,0 +1,28 @@
+{
+  "id": "6371b62b-dd64-4f04-8506-9c3ebaf1d674",
+  "object": "chat.completion",
+  "created": 1788307591,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Goodfarmer）是否能提供菠萝丁的加工服务，**目前没有官方公开信息明确说明佳农提供切丁、分装等深加工服务**。\n\n一般情况如下：\n1. **佳农主要业务**：佳农是知名的水果供应链企业，主打整果（如菠萝、香蕉、牛油果等）的批发和零售，通常不涉及终端的果蔬切配加工。\n2. **加工服务可能性**：如果你需要菠萝丁，这通常属于“水果深加工/切配”范畴，这类服务更多由专业的“净菜/鲜果切加工厂”或“中央厨房”提供。佳农是否可定制，**建议直接咨询其官方销售或客服**，询问他们是否有针对B端客户的定制加工产线（有些大客户有定制需求才能开通）。\n\n**实操建议**：\n- 最直接的方式：联系佳农的销售负责人，明确说明你的茶饮店采购量（比如月需求量），询问“能否供货菠萝丁，如果不能，能否提供整果，我们自行切丁”或“你们是否有合作的加工商推荐”。\n- 备选方案：可以联系一些果切代工厂（比如当地的鲜切水果供应商），他们会采购整果并加工成菠萝丁，专供餐饮渠道。\n\n如果你有采购量或所在城市，我可以帮你进一步分析如何寻找这类货源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 286,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

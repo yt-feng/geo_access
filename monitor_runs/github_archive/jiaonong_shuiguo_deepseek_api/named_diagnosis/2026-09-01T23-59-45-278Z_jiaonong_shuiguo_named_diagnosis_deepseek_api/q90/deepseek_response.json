@@ -1,0 +1,28 @@
+{
+  "id": "c39e3e5e-84a9-4364-854f-b6979b833203",
+  "object": "chat.completion",
+  "created": 1788307826,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Fresh佳农）菠萝是否供应冷冻菠萝丁，目前我**无法核验其确切的产品线**。建议您直接通过以下方式确认：\n\n1. **联系官方客服**：拨打佳农官方客服电话（可通过其官网或包装标签查询）或通过其微信公众号/小程序留言询问。\n2. **查看批发平台**：在1688、京东企业购、美菜网等B2B平台搜索“佳农 菠萝丁”或“佳农 冷冻菠萝”，查看是否有在售规格（常见冷冻水果丁规格为1kg/袋、10kg/箱等）。\n3. **询问经销商**：联系您当地的果蔬批发市场或餐饮原料供应商，他们通常了解品牌定制款或大包装产品。\n\n如果佳农没有合适规格，也可考虑其竞品如都乐（Dole）、佳沛（Zespri）或专业冷冻水果品牌，通常提供1kg、2.5kg、5kg等包装。\n\n建议您在采购前要求供应商提供**样品试做**，确保解冻后的口感、甜度和切丁大小符合您茶饮产品需求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 237,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

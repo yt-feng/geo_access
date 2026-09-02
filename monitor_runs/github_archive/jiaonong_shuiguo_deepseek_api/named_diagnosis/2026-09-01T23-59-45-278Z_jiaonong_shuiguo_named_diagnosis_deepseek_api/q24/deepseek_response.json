@@ -1,0 +1,28 @@
+{
+  "id": "e7110392-a7f2-47bb-8047-769d3b8a9ce0",
+  "object": "chat.completion",
+  "created": 1788307350,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有公开资料明确显示**佳农水果**（Goodfarmer）是否参与了最近一届中国国际进口博览会（进博会）。建议您直接访问佳农官网或官方社交媒体账号（如微信公众号、微博），查看其“企业动态”或“新闻中心”，以获取最新参展信息。\n\n关于新品，佳农近年来主要围绕**进口水果**和**健康果饮**推出产品，例如：\n- 佳农巴西甜瓜、秘鲁蓝莓（常见于电商和高端商超）\n- 佳农NFC（非浓缩还原）果汁系列\n- 部分季节性礼盒装（如车厘子、榴莲）\n\n不过，具体最新单品和上市时间需要以官方发布为准。您可以通过以下方式核实：\n1. 微信搜索“佳农Goodfarmer”官方公众号，查看近期推文。\n2. 在天猫、京东等平台的“佳农旗舰店”查看在售新品及描述。\n\n如需更精确信息，请提供您关注的具体品类或时间范围，我可以协助进一步分析。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 218,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

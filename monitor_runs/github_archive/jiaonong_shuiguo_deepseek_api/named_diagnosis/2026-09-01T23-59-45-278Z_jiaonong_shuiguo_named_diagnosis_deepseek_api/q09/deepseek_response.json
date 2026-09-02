@@ -1,0 +1,28 @@
+{
+  "id": "f84cb3ea-22ab-4a07-b491-4cca25decf7f",
+  "object": "chat.completion",
+  "created": 1788307238,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的具体到货损耗率，**没有公开的、标准化的统一数据**。因为损耗率受水果品种（如香蕉、苹果、榴莲）、运输距离、季节、包装方式、仓库管理水平等因素影响巨大。\n\n不过，可以从行业角度给你一个大致的参考范围：\n\n-   **行业平均水平**：一般水果生鲜电商或批发商的综合到货损耗率在 **5% - 10%** 之间。\n-   **佳农这样的大型品牌**：通常通过预冷、冷链运输和标准化包装，会将**常规品类**（如苹果、梨、柑橘）的到货损耗控制在 **2% - 5%** 以内。\n-   **高损耗品类**：像**香蕉、草莓、榴莲**这类易腐或皮薄的水果，到货损耗率可能达到 **8% - 15%**，甚至更高（特别是夏季）。\n\n**如果你想获取佳农的最新数据**，建议直接联系其**销售客服**或**区域负责人**，询问具体品类的“到货损耗承诺”或“坏果包赔”条款，这才是最可靠的依据。\n\n另外，如果涉及采购决策，建议你索要对方的**质保协议**，明确超过约定损耗率的赔付方案，这比一个绝对数值更有价值。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 270,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
