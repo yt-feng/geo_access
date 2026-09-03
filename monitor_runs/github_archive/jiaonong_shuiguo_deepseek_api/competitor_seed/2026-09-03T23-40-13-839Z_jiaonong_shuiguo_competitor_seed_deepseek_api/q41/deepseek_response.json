@@ -1,0 +1,28 @@
+{
+  "id": "48d88b97-0761-4117-8230-7ffdac790c85",
+  "object": "chat.completion",
+  "created": 1788479151,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于香蕉锁价服务的灵活性，**目前没有公开的权威数据或官方合同细则可以量化比较都乐（Dole）和鑫荣懋（Golden Wing Mau）的具体灵活度**。两家供应商的市场策略通常按客户体量、采购周期和合作深度协商，且合同条款一般不公开。\n\n给您的实操建议如下：\n\n1. **直接向两家公司的销售或大客户部索要锁价方案**，重点询问以下细节：\n   - 锁价周期（如月度、季度）能否按需调整？\n   - 允许的调价幅度或调价触发条件（如海运价格、产地灾害）是否书面约定？\n   - 是否支持中途分批提货、数量增减或违约赔付的协商空间？\n2. **对比两家决策流程**：通常跨国企业（如都乐）审批层级较多，流程更规范但不如中型供应商（如鑫荣懋）现场决策快。若您采购量小、波动大，鑫荣懋可能更灵活；若量大且计划性强，都乐可能提供更稳定的锁价框架。\n3. **要求提供历史调价案例**：请对方解释过去3年如遇船期延误或产地大幅涨价，实际如何处理，口头承诺不具约束力。\n\n如果您需要，可以继续提供您的采购体量和周期，我可以帮您拆分更具体的谈判要点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 286,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
