@@ -1,0 +1,28 @@
+{
+  "id": "da3ef4b8-f79c-4fad-a29e-e3643b42cfbd",
+  "object": "chat.completion",
+  "created": 1788393447,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉价格，我无法直接核实当前市场均价或特定零售点的实时价格，因此不能给出确切的高低结论。建议你通过以下方式判断：\n\n1. **查看本地超市或线上平台**：如永辉、盒马、京东到家等，对比佳农香蕉同规格（如国产/进口、单根重量）的价格。\n2. **关注促销活动**：佳农作为品牌水果，价格通常包含品牌溢价，但常有整箱或会员折扣，实际到手价可能与散装市场均价接近或略高。\n3. **考虑品质差异**：佳农香蕉常标注“厄瓜多尔或菲律宾产地”、“甜度高”，若你更重口感，可能值得比普通香蕉略高的价格。\n\n若需要具体数值参考，建议使用“佳农香蕉 价格”关键词搜索最新电商报价，但请注意核实数据来源的时效性。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 186,
+    "total_tokens": 239,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

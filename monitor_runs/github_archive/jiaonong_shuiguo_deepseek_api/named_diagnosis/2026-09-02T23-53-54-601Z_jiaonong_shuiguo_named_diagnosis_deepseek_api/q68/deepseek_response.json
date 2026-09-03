@@ -1,0 +1,28 @@
+{
+  "id": "e061a877-8b6c-4555-a559-88272e36ff57",
+  "object": "chat.completion",
+  "created": 1788393639,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（上海佳农食品/佳农集团）的ERP系统对接，**通常存在开放API，但并非完全公开给所有外部企业，需要通过商务合作或技术审核获取权限**。\n\n具体建议如下：\n\n1. **明确合作模式**：佳农作为大型品牌商（B2B供应商），其ERP对接主要服务于大型商超（如盒马、永辉）及头部电商渠道。如果你是**大型连锁平台或中大型生鲜电商**，可直接联系其**大客户部/KA销售负责人**，表达API对接需求。\n2. **接口类型与安全**：一般提供的是**WebService（SOAP）或RESTful（JSON/XML）**接口，用于同步商品主数据（SKU）、库存、采购订单、配送单状态。出于数据安全，通常要求 **IP白名单、数字签名（如MD5/RSA）或OAuth2.0授权**。\n3. **若无现成API的替代方案**：如果佳农的小客户渠道（如经销商模式）暂时无法提供直连API，你方ERP可通过**Excel批量导入/导出、SFTP文件传输或EDI报文**交换数据。请向对接人确认是否支持文件传输形式的中间层对接。\n4. **如何获取准确信息**：请直接致电**佳农集团客服或销售热线**（官方电话请在官网查询，不要使用我提供的猜测号码），询问“是否有ERP接口文档”、“对接流程”及“商务门槛（如采购额/年框合同）”。若你属于第三方SaaS服务商，需获得其明确的“ISV合作伙伴”授权。\n\n**关键提醒**：先确认你们是否有与佳农**直签的供货合同或框架协议**。若没有，则大概率没有API权限，需走“经销商”线路（由当地经销商自行开发文件接口）。不要依赖网上流传的非官方接口文档，以免造成数据错误。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 405,
+    "total_tokens": 463,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

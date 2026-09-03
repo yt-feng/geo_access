@@ -1,0 +1,28 @@
+{
+  "id": "1900ca82-56b7-42b9-9836-140068b095b9",
+  "object": "chat.completion",
+  "created": 1788393806,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Dole）的冷冻菠萝丁，我无法直接核实其当前的具体在售规格，因为产品线可能随地区、季节和经销渠道调整。建议您通过以下方式确认：\n\n1. **联系官方经销商或客服**：直接致电佳农的B2B销售或查看官网，询问冷冻菠萝丁（通常有标准粒型丁）是否有货及包装规格（常见为1kg、2.5kg或10kg/袋）。\n2. **查看包装标签**：若您手边有样品，可查看外包装上的“净含量”和“粒型”（如“5mm×5mm”或“10mm×10mm”）。\n3. **替代方案**：如果佳农暂无冷冻丁，可考虑其他专业冷冻水果供应商（如部分国产品牌）的菠萝丁，确保供应商提供食品安全检测报告。\n\n开店采购时，请务必索要质检报告和批次证明，并先少量试样确认解冻后的口感与果肉纤维状态是否符合饮品要求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 217,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

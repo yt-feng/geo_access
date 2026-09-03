@@ -1,0 +1,28 @@
+{
+  "id": "d22f6368-c66b-48f4-ad03-43eecc39ffd6",
+  "object": "chat.completion",
+  "created": 1788393377,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会，根据我目前可核验的信息，**佳农（Joinfruit）曾多次参与中国国际进口博览会（CIIE）**，例如在往届（如2022年、2023年）的进博会上，佳农作为参展商展示了其进口水果产品，并举办过新品发布活动。但具体到**最近一届（2024年11月举办的第七届进博会）**，由于我的信息截止时间较早，无法确认其是否参展。\n\n关于**最近的新品**，佳农通常在进博会或重要展会期间推出新品，如榴莲、蓝莓、香蕉等进口水果的新品种或新包装。但具体最新动态（如2024年下半年或2025年上半年）我无法核实，建议你：\n\n- **查看佳农官方微信公众号或官网**：搜索“佳农水果”或“Joinfruit”，查询最新新闻或新品公告。\n- **搜索进博会官方参展商名单**：访问中国国际进口博览会官网（ciie.org），查询下参展企业名录。\n- **关注生鲜零售平台**：如盒马、叮咚买菜、京东生鲜等，看是否有佳农新品上架。\n\n如果你需要更具体、最新的信息，请开启联网搜索功能，我可以帮你实时查询官方来源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 273,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
