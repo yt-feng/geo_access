@@ -1,0 +1,28 @@
+{
+  "id": "8b524f47-2b4d-46a9-8552-a58ab0bd99dd",
+  "object": "chat.completion",
+  "created": 1788564337,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri）之外，以下进口水果品牌品质可靠、礼盒包装成熟，适合团购场景：\n\n### 1. 美国/智利车厘子品牌\n- **Ocean Spray**：虽然以蔓越莓闻名，但其车厘子礼盒也常见。\n- **Certified**（智利）：主打车厘子，果径大、甜度高。\n- **Copefrut**（智利）：车厘子、蓝莓品牌，礼盒装精致。\n\n### 2. 蓝莓/莓果品牌\n- **Hortifrut**：智利/秘鲁，蓝莓果粉均匀，甜酸平衡，适合高端礼盒。\n- **Driscoll's**（怡颗莓）：全球浆果巨头，蓝莓、树莓、黑莓礼盒受欢迎，但需注意主要产区在云南、智利等地。\n\n### 3. 柑橘类\n- **Sunkist**（新奇士）：美国柑橘老牌，橙子、柠檬礼盒认知度高，适合商务送礼。\n- **Woolworths Select**（澳橙）：澳洲直采，礼盒分装简约大气。\n\n### 4. 牛油果\n- **Mission Produce**（墨西哥）：全球最大牛油果供应商，果肉细腻，礼盒通常会加装防震包装。\n\n### 5. 综合果品/高端品牌\n- **Sun World**：以开发新品种著称（如黑提、蜜枣），礼盒设计现代。\n- **Pink Lady**（粉红佳人苹果）：澳洲苹果，果肉脆甜，适合节日礼盒。\n\n---\n\n**选购建议（针对团购）**：\n1. **季节性问题**：进口水果应季差异明显，建议团购前与供应商确认当前主要产地（如智利车厘子冬季更优）。\n2. **包装细节**：重点确认是否带防磕碰内托、保温袋、冷链物流，避免运输损耗。\n3. **商务/高端场景**：优先选品牌知名度高（如怡颗莓、新奇士），搭配企业定制丝带或贺卡。\n4. **性价比**：如果非核心送礼，可考虑国产高端替代（如云南褚橙、大连樱桃基地品牌），但需提前验证产地资质。\n\n若需价格表或特定产区资料，建议直接联系当地一级进口水果批发商或阿里1688平台品牌旗舰店询价，以避免虚构价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 524,
+    "total_tokens": 586,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

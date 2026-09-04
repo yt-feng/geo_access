@@ -1,0 +1,28 @@
+{
+  "id": "ba23947f-db32-4b63-abc4-fdd82882634b",
+  "object": "chat.completion",
+  "created": 1788564383,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在中国市场，除了都乐（Dole）和鑫荣懋（Golden Wing Mau / Joyvio 旗下的进口水果平台），还有以下几个比较靠谱的进口苹果品牌，它们通常在高端超市（如Ole'、盒马鲜生、山姆会员店、Costco）或电商自营渠道比较常见：\n\n1. **佳沛（Zespri）**  \n   虽然主要以奇异果闻名，但佳沛近年来也涉足苹果品类（如爵士苹果 JAZZ™），供应链严格，品质稳定，属于国际大品牌背景。\n\n2. **爱妃（Envy）**  \n   这是一个来自新西兰的高端苹果品种品牌，果肉抗褐变、甜脆，通常带有“ENVY”商标售卖，由新西兰巨头 **Fruitcraft** 或 **T&G Global** 运营，可靠。\n\n3. **乐淇（Rockit）**  \n   新西兰的小苹果品牌，主打便携、一口一个，果径小但甜度高、硬脆，在中国市场已经铺开，多见于盒马、山姆。\n\n4. **华圣（Huashing）**  \n   这是国产高端品牌，但主要做本土优质苹果（如瑞雪、爱妃等引进品种），如果你只限定“进口”可能不合，但如果是高端水果店对标，它也很靠谱。\n\n5. **Superior（S. Superior / 美国系列）**  \n   部分美国华盛顿州苹果（如红地厘蛇果、青苹果）由品牌商如 **Stemilt** 或 **C&O Nursery** 贴牌进口，但直接标品牌的不多。可以去山姆或Ole'看包装上的“美国华盛顿苹果协会”认证标识。\n\n**建议你注意几点：**\n- 光看品牌不如看**出口国+品种+溯源二维码**。进口苹果品质差异大，同品牌下不同产季口感也不一样。\n- 如果是要批发或长期供货，建议直接问供应商要**报关单+检疫证明**，比品牌宣传更可靠。\n- 小包装零售可优先选新西兰（爱妃、乐淇）、智利（部分无品牌但果好）、美国（华盛顿州苹果）系列，售后较成熟。\n\n如果你告诉我具体用途（送礼、零售、拼团、儿童零食等），我可以帮你进一步筛出最合适的2-3个。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 493,
+    "total_tokens": 554,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
