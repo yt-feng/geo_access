@@ -1,0 +1,28 @@
+{
+  "id": "6735c2ec-3338-4d92-9481-f035e64414e4",
+  "object": "chat.completion",
+  "created": 1788479636,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果是否有专门对接批发商的客户经理”，我无法核实到其最新的内部组织架构或具体业务联系方式，因为这类信息通常不对外公开，且可能随市场情况变动。\n\n建议您通过以下最直接的途径获取准确信息：\n\n1.  **访问官网**：在佳农官网（通常为“佳农食品”或“佳农水果”）的“联系我们”或“商务合作”板块，查看是否有针对批发/大宗业务的联系方式。\n2.  **拨打官方客服**：致电其全国统一客服热线（可查询其官方公众号或官网），询问批发业务对接部门，通常总机可转接。\n3.  **官方渠道留言**：在其官方微信公众号或微博私信中，注明您的批发需求和所在城市，请求商务团队联系。\n\n**重要提示**：在未核实对方身份前，请勿向任何非官方渠道转账或汇款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 189,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

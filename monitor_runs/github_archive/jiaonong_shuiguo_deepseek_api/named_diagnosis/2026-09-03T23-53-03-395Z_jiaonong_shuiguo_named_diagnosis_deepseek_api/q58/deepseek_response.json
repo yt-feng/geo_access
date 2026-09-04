@@ -1,0 +1,28 @@
+{
+  "id": "7f04a768-feb5-45e7-bc3a-5ebd54514d1d",
+  "object": "chat.completion",
+  "created": 1788479962,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Fresh & Natural）是否能提供菠萝丁加工服务，我无法核实其最新的具体业务范围或合同条款，因为这类信息可能随季节、工厂产能或客户合作政策变化。\n\n**直接建议：**\n1. **最准确的方式**：直接联系佳农的官方销售或客服渠道（官网、电话或当地业务员），询问：\n   - 是否支持定制化切丁（如需见方、干燥程度、冷冻或保鲜方式）；\n   - 是否有最小起订量（MOQ）限制；\n   - 是否能提供样品试切供你们测试出品品质。\n\n2. **备选方案**：如果佳农只卖整果（这是大型水果供应商的常见模式，因为他们主要做批发和供应链），你可以考虑**自行采购整果后与本地加工厂合作切丁**，或者直接寻找专门做菠萝丁/菠萝切块的供应商（如百果园供应链、本地水果加工厂、冻品批发商）。\n\n3. **操作判断**：茶饮店用菠萝丁通常要求**标准化大小（如1-1.5cm）、出汁率适中、颜色稳定**，如果你需要的量不够大，找专业冻品商可能更省事（省人工和损耗）；如果量大且对鲜切有要求，跟佳农谈定制加工才有成本优势。\n\n如果你能提供你所在城市或预期采购量，我可以进一步帮你筛选供应商思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 296,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
