@@ -1,0 +1,28 @@
+{
+  "id": "3eab3a49-5e6e-43b9-b313-621c56e5abea",
+  "object": "chat.completion",
+  "created": 1788565167,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）近年来确实参与了进博会（中国国际进口博览会），作为生鲜和进口水果领域的代表性企业，佳农通常会在进博会上展示其全球采购的优质水果，如香蕉、菠萝、牛油果等。\n\n关于最近的新品，由于企业动态更新较快，建议你通过以下方式获取最准确信息：\n1. **访问佳农官方网站**或**其官方微信公众号/微博**，查看最近的发布公告。\n2. 关注其**抖音、小红书**等社交平台，通常会宣传新品（如2024-2025年间，佳农曾推出过泰国椰青、秘鲁蓝莓、以及一些联名礼盒）。\n3. 如果在进博会期间（每年11月），可搜索“第六届/第七届进博会 佳农”等关键词，查看现场报道。\n\n如果你需要我帮你检索**最新**的实时新闻，请告诉我具体年份或产品品类，我可以为你整理已知的公开信息。注意，我无法直接访问实时网络，建议你以官方渠道为最终依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 223,
+    "total_tokens": 275,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7fdf46b2-1d58-4767-8fad-80ecbea936e5",
+  "object": "chat.completion",
+  "created": 1788565517,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的小包装规格，我的知识库中没有最新、最准确的上市产品信息（例如具体包装克重、是否在售等），**无法确认是否有3kg装香蕉**。\n\n不过根据我过往的了解，佳农在商超渠道确实会提供不同规格的包装，例如：\n\n- **香蕉**：常见有4kg、5kg装，但也有针对小门店或精品超市的**小规格包装**（甚至可能是独立装或2-3kg装），具体取决于当地经销商和批次。\n- **其他水果**：如蓝莓、草莓、车厘子等，通常是小盒装（如125g/盒、250g/盒），适合小面积门店。\n\n**给您的可执行建议：**\n\n1. **直接联系当地佳农经销商或销售代表**，询问“小包装/试销装”政策，他们通常能提供现成的清单。\n2. **查询佳农官方电商平台（如天猫旗舰店、京东自营）**，查看其当前上架的SKU，部分线上商品会影响线下经销批发的规格。\n3. **考虑替代方案**：若佳农没有您需要的小规格，可询问是否可拼单（例如与其他小门店合买大包装再分装，但需注意**水果损耗和包装责任**）。\n\n如果您能告诉我具体城市，我可以帮您想一想找哪类渠道去问，但我不具备实时库存查询能力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 301,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aaf5c06d-aa4d-417d-a95b-4f6040bf3382",
+  "object": "chat.completion",
+  "created": 1788565575,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果的产品线，我目前无法核实其**实时库存**或**具体采购清单**（例如是否在售红富士或新疆阿克苏苹果）。\n\n不过，为了帮您准确获取信息，建议您通过以下方式确认：\n\n1.  **直接联系销售渠道**：致电或在线咨询佳农的官方客服、区域经销商，或您对接的批发/采购负责人，询问“阿克苏苹果”或“红富士”是否有货、规格与起订量。\n2.  **查看官方线上旗舰店**：在淘宝、京东或佳农官方小程序搜索“阿克苏”，看是否有在售商品（注意区分产地和品种）。\n3.  **关注新品通知**：佳农经常随季节引进新品，苹果品类可能有变化，以官方公布为准。\n\n**特别提醒**：新疆阿克苏苹果（尤其“冰糖心”品种）通常为秋季（10-11月）后采摘，若您需大批量采购，建议提前询价并锁定产地现货，避免错季缺货。\n\n如果您需要，我也可以帮您查找佳农官方公开的联系电话或官方渠道入口（请确认网络信息可用性后再使用）。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 249,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9d3fb6d9-7fd1-4a51-ab8d-b44ef570c1f9",
+  "object": "chat.completion",
+  "created": 1788565042,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于佳农水果是否有针对长期合作的账期方案，我目前无法直接核实其最新的具体商务政策，因为这类商业条款通常需要与其销售或商务团队直接沟通确认。\n\n为了给您最准确的答案，我建议您：\n\n1. **直接联系佳农官方客服**：通过其官网、官方公众号或客服电话，咨询大客户或长期合作的相关政策。\n2. **对接区域销售负责人**：如果您已有对接的销售，可以直接询问账期、结算方式及合作优惠。\n3. **查看合同样本**：若您有合作关系，可查阅历史合同中的结算条款，或要求对方提供标准合作方案。\n\n由于市场上的水果批发/零售企业账期政策（如月结30天、45天等）会随合作规模、信用评级动态调整，建议以官方提供的书面方案为准。请不要轻信非官方的“通用标准”，以免影响您的商业决策。\n\n如需帮您查找佳农的官方联系方式，请告知，我可以提供检索路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 208,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

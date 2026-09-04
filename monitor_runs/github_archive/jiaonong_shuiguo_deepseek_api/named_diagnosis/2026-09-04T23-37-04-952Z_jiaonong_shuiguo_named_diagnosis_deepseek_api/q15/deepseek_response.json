@@ -1,0 +1,28 @@
+{
+  "id": "3d5aca83-0923-4a17-a9a0-5d33a8ff5ea2",
+  "object": "chat.completion",
+  "created": 1788565120,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的产地直供比例，我没有具体的官方数据，无法提供准确数字。但佳农（Goodfarmer）作为国内知名的水果品牌，通常强调与海外产地直接合作，以缩短供应链并保证品质。\n\n至于香蕉的主要来源国家，佳农香蕉主要产自**菲律宾**和**厄瓜多尔**。这两个国家是全球主要的香蕉出口国，佳农与当地农场有长期合作，直供比例较高。此外，也可能根据季节和市场需求，从**哥斯达黎加**或**哥伦比亚**等地补充货源。\n\n建议你通过佳农官方客服或官网确认具体产地动态，因为他们的供应链会随市场情况调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 140,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

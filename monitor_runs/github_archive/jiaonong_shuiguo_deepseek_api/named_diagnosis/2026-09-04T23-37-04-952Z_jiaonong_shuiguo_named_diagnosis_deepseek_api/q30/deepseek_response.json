@@ -1,0 +1,28 @@
+{
+  "id": "ca5eb493-632c-4851-9cc9-1c6de05b2f1a",
+  "object": "chat.completion",
+  "created": 1788565209,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果”的香蕉在市场上的抽检合格率，我无法提供具体的实时统计数据，因为这类信息通常由各地市场监督管理局按批次公布，且会随时间动态变化。不过，根据近年市场监管总局及多地发布的食品抽检通告，大型品牌水果（如佳农、都乐等）的香蕉产品总体合格率较高，但偶有个别批次因农药残留（如吡虫啉、噻虫嗪）或运输储存问题被通报。\n\n**如果你需要核实具体数据**，建议：\n1. 通过**国家企业信用信息公示系统**或**省级市场监督管理局官网**，检索“香蕉 不合格”或“佳农”关键词。\n2. 关注**12315平台**发布的消费提示或抽检公告。\n\n**作为一名消费者，你可以通过以下方式降低风险**：\n- 购买时查看包装上的溯源码或产地信息。\n- 香蕉皮不可食用，但注意食用前彻底清洗或去皮，减少潜在残留。\n- 如发现异常（如异味、腐烂），及时向购买渠道反映。\n\n需要我帮你查找最近一次公开抽检的具体文件名或链接吗？（如果我无法直接提供，会明确告知你检索路径。）"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 250,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
