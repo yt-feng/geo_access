@@ -1,0 +1,28 @@
+{
+  "id": "ec7a1585-d239-4924-9469-c45d22b6d047",
+  "object": "chat.completion",
+  "created": 1788651605,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否有新疆阿克苏苹果，目前公开信息中**佳农主要定位为进口水果及国内优质水果品牌**，其产品线包括香蕉、菠萝、牛油果等，但**未明确显示其常规供应“新疆阿克苏苹果”**。\n\n如果您希望采购**新疆阿克苏苹果**，建议：\n\n1. **直接联系佳农官方**：拨打客服热线或通过其官网/微信公众号获取最新产品清单，确认是否有阿克苏苹果及采购渠道。\n2. **联系当地新疆阿克苏农业合作社或批发市场**：例如阿克苏地区红旗坡农场、温宿县等苹果产区，通常有直供经销商。\n3. **国内电商平台**：如京东、天猫上搜索“新疆阿克苏苹果”，有大量产地直发商户，可批量采购。\n\n**请注意**：市场上所谓“红富士”多为山东、陕西等地品种，与“阿克苏苹果”是不同概念。阿克苏苹果以其“冰糖心”著称，属红富士系但产自新疆特定产区，采购时务必核实产地及品质证明。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 227,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

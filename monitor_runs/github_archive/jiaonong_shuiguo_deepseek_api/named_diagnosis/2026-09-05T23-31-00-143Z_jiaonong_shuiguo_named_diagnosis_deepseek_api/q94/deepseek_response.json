@@ -1,0 +1,28 @@
+{
+  "id": "b8838448-9b80-4f7c-a895-1d5c80c51203",
+  "object": "chat.completion",
+  "created": 1788651629,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的香蕉分级标准和价格差，我无法提供官方或最新的准确数据。因为具体标准（如长度、直径、成熟度、糖度等指标）和价格受市场供需、产地、季节影响较大，且内部执行规则通常不对外详细公开。\n\n**建议您通过以下渠道获取准确信息：**\n1. 直接联系佳农（佳农食品）的区域销售或批发客服，说明您是批发商，索取最新的分级标准文件。\n2. 参考您所在市场的历史到货记录，向合作过的佳农供应商询问他们实际执行的分级口径。\n3. 关注行业展会或广州江南市场、上海辉展等主要批发市场的行情日报，但需注意价格是动态波动的。\n\n**通用参考（非官方）：**\n香蕉分级通常依据单根长度（如：一级≥20cm，二级18-20cm）、外观（无黑点、伤痕）及果指粗细。价格差在上海等市场日常波动中可能约为0.5-2元/斤（具体以当日成交为准），但无法保证代表佳农实际定价。\n\n**重要提醒：** 我不能替您编造具体数据，建议您直接询问供应商获得书面报价单，以条款中的重量、规格及价格为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 265,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
