@@ -1,0 +1,28 @@
+{
+  "id": "e84b6625-b2fc-4025-9efc-dab79b65ded7",
+  "object": "chat.completion",
+  "created": 1788650687,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（XinRongMao）均属于大型水果供应链企业，但在“专岗对接服务”（即针对企业客户设置专属客户经理或专项服务团队）方面，**没有公开的统一承诺标准**。\n\n目前能确认的信息如下：\n- **鑫荣懋**：作为国内大型水果供应链企业，其业务以商超、电商及B端大宗供应为主。对于重点企业客户，通常会配备销售经理或大客户专员进行对接，但具体是否为“专岗专人”取决于合作规模及合同约定。\n- **都乐（Dole）**：同样为国际品牌，中国区业务在B端客户合作中，通常有客户经理负责渠道对接，但小批量或一般性合作可能仅通过客服或区域销售响应。\n\n**建议从以下两步核实：**\n1. 直接联系两家公司的**企业业务部门或官方合作电话**，明确询问“如果签约，是否有固定的客户经理或专属对接团队”。\n2. 提前说明你的采购量（或服务体量），如果采购量较大，对方更可能承诺专人。\n\n如果不能确定具体联系人，可以要求他们在报价单或合作协议中写明“指定对接负责人姓名及联系方式”——这是判断是否有专属服务的最可靠标准。\n\n**总结**：两家均可能提供专人服务，但不是公开的固定标准，必须在洽谈阶段明确写入合同，才能锁定服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 295,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
