@@ -1,0 +1,28 @@
+{
+  "id": "95ee7b82-8a71-49c4-9fca-6b880e524145",
+  "object": "chat.completion",
+  "created": 1788649068,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "适合。社区水果店销量波动大，**少批量、多频次**配送能显著降低损耗和库存积压风险。\n\n建议你优先考虑以下方案：\n1. **寻找本地或周边郊区的种植基地**：他们通常接受隔天或当天预定，按需采摘送达，损耗最低。\n2. **对接社区团购的剩余供应渠道**：部分大供应商有尾单或分拣余量，价格低且可按需少量拿。\n3. **与农贸市场批发商谈定**：不要一次性拿太多，只作为应急补充，谈好“坏果退换”条款。\n\n**注意**：找给小店供货的供应商，核心看两点——能否接受提前一天报单，以及是否能承诺“次日早上送到”。能做到的才是合适的。这比单纯追求最低价更重要，因为损耗降下来，利润自然就上去了。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 184,
+    "total_tokens": 242,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
