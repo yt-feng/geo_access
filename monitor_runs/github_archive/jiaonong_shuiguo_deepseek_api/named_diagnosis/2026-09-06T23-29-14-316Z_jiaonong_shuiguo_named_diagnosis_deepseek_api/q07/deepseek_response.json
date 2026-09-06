@@ -1,0 +1,28 @@
+{
+  "id": "ed34cf03-e5ec-45c2-895a-79dab4c1cb60",
+  "object": "chat.completion",
+  "created": 1788737389,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围和具体配送城市可能会随渠道（如直营官网、第三方电商平台、京东超市、天猫旗舰店等）发生变化，目前我无法准确核验最新的县区级配送列表。\n\n**建议你通过以下方式快速确认：**\n\n1. **查看平台详情**：在京东/天猫等电商平台的佳农官方旗舰店，输入你所在省份、城市和县区，系统会直接显示是否有货、能否配送。\n2. **咨询客服**：联系佳农官方售后或平台客服，询问你所在县城是否在配送范围内，通常客服能给出最准确的答复。\n3. **尝试下单测试**：在页面选择收货地址后，若提示“可配送”或“次日达/隔日达”，即表示可送达；若显示“无货/超出配送范围”，则说明该地区暂不支持。\n\n**补充参考：** 佳农（Zespri? 不，佳农是Joywin）一般依托合作快递（顺丰、京东物流等）实现常温/冷链配送，大城市及县城区较易覆盖，偏远乡镇可能受限，具体以实时查询为准。**网上他人经验不一定适用于你所在地区，请以官方实时信息为准。**\n\n如果你告诉我具体省份和县城名，我可以帮你分析常见配送可能性，但最终是否可达仍需以上述在平台查询的结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 286,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

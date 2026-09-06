@@ -1,0 +1,28 @@
+{
+  "id": "0d3f2907-c036-487a-9ef3-abf98a69b4da",
+  "object": "chat.completion",
+  "created": 1788737886,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于“佳农水果的菠萝进口量11.4万吨”这一数据，**目前没有确切的公开信息或官方出处可以证实它是2025年的数据**。  \n- **佳农（Joyvio）** 是一家主要经营进口水果的企业，但其具体的年度进口量（尤其是特定品类如菠萝）通常不会以如此精确的吨数对外单独披露。  \n- 这类数据可能出现在企业内部报告、行业分析（如中国果品流通协会、海关总署统计）、或新闻稿中，但2025年的全年数据在2025年尚未结束前（或未到统计周期结尾）不太可能公开。  \n- 11.4万吨的量级对于单一企业来说也非常大（约占中国年菠萝进口总量的一定比例），需要谨慎核对来源。  \n\n**建议您：**  \n1. 直接查询**佳农官方公告**或联系其投资者关系、品牌部门核实。  \n2. 参考**中国海关总署**每月公布的《进出口水果统计》或**行业协会报告**，核实全国菠萝进口量是否匹配。  \n3. 如果该数据来自某篇新闻报道或自媒体，请提供链接，我可以帮您辅助判断其可信度。  \n\n若您能提供原始出处，我将进一步验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 262,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

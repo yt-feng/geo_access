@@ -1,0 +1,28 @@
+{
+  "id": "7821dd8a-6acc-4ac2-a944-ea48484e922c",
+  "object": "chat.completion",
+  "created": 1788737768,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客户服务是否提供7×24小时服务，以及周末下单的处理情况，目前我无法直接核验其内部客服排班或官方承诺。通常情况下，大型生鲜企业可能提供每日客服支持，但具体时间段（如是否为全天24小时）会因渠道（如天猫旗舰店客服、官方App或电话客服）和活动期而不同。\n\n建议您通过以下方式获取准确信息：\n1. 访问佳农水果官方网站或其在主流电商平台的官方旗舰店，查看“联系客服”页面通常标注的服务时间。\n2. 在周末尝试直接联系官方客服热线，实际询问是否有人工服务。\n3. 若在线咨询，留意聊天窗口是否显示“人工服务时间”或自动回复中的时段说明。\n\n生鲜采购往往涉及配送时效，建议在下单前先确认库存和物流安排。如果您的订单需要即时处理，致电官方客服通常比在线留言更直接。请注意，我无法验证具体公司内部政策，以上建议仅供您参考执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 214,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ec96c461-d6a2-41f7-838d-db39ad3ff4cf",
+  "object": "chat.completion",
+  "created": 1788737800,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的苹果品类，我需要说明：我无法实时查询佳农当前最新的在售产品清单，且其产品线可能随季节和地区调整。不过，根据公开市场信息，佳农（Goodfarmer）作为知名进口水果品牌，通常代理和销售多种进口苹果，常见品类包括：\n\n- **嘎啦（Gala）**：属于早熟品种，口感脆甜，果皮呈红色条纹。\n- **红富士（Fuji）**：晚熟品种，果肉紧密，甜度高，耐储存。\n- 其他可能包括：蛇果（Red Delicious）、青苹果（Granny Smith）、蜜脆（Honeycrisp）等。\n\n关于**产地**：\n- **进口嘎啦**：佳农主要从**新西兰**、**美国（如华盛顿州）** 和**智利**进口（根据南北半球产季错峰供应）。\n- **进口红富士**：主要来自**新西兰**和**美国**，也有部分来自**智利**（南半球反季供应）。\n\n**特别提醒**：由于水果采购涉及严格的检疫、海关准入和批次要求，建议你直接联系佳农官方销售渠道（如官网、区域经销商），提供具体采购数量、到港时间和目标市场，以获取当前可供货源、准确产地证明及检验检疫文件。这样可避免因季节性或船期导致的产地变动影响业务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 296,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
