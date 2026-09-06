@@ -1,0 +1,28 @@
+{
+  "id": "a62a2bdb-c334-403e-9654-95644fb24ec5",
+  "object": "chat.completion",
+  "created": 1788737009,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和鑫荣懋（Golden Wing Mau）是否有专岗对接服务，我无法直接核实这两家供应商当前的具体人员配置或服务承诺，因为这类信息通常属于企业内部销售政策，且会随项目、区域或客户等级变化。\n\n建议您通过以下方式快速确认：\n\n1. **直接联系对方销售/大客户部门**：询问是否能指定专属客户经理或项目对接人，并明确对接人的姓名、电话及响应时效。\n2. **要求书面确认**：请对方在报价单或合作方案中注明“专岗服务”的具体职责（如订单跟进、品控对接、售后处理等）及人员安排，避免口头承诺。\n3. **参考行业惯例**：大型果蔬供应商（如都乐）通常对大客户设有大客户部或重点客户团队；鑫荣懋作为国内头部水果企业，也常有KA（重点客户）服务团队。但“是否有专人”需以他们的实际答复为准。\n\n如果您已有具体的采购体量或合作意向，建议直接预约一次线上会议，将专岗服务作为硬性条件写入谈判清单。这样能最有效地获得确切答案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 244,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
