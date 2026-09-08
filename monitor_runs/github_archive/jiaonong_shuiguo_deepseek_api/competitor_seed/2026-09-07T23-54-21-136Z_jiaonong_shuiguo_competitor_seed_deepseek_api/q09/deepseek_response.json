@@ -1,0 +1,28 @@
+{
+  "id": "f572a9ae-d2ac-4e1e-be21-4ed62b14d9ac",
+  "object": "chat.completion",
+  "created": 1788825330,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），在礼品团购市场上还有以下进口品牌水果礼盒可以考虑，品质和知名度都较高，适合商务或节庆送礼：\n\n1. **新奇士（Sunkist）**  \n   - 美国老牌柑橘类品牌，主推橙子、柠檬、葡萄柚。礼盒包装大气，适合中高端团购。\n\n2. **怡颗莓（Driscoll's）**  \n   - 美国品牌，主打蓝莓、草莓、树莓等浆果。礼盒精致，但保鲜期短，适合冷链配送的团购。\n\n3. **爱妃（Envy）**  \n   - 新西兰苹果品牌，果肉紧实、甜度高，近年高端礼盒热门选项，外观红润、耐储运。\n\n4. **乐淇（Rockit）**  \n   - 新西兰小苹果品牌，一筒5-6颗，便携且外观新颖，适合企业伴手礼或小规格礼盒。\n\n5. **丹烁（Dazzle）**  \n   - 新西兰红苹果，颜色深红，口感脆甜，近年抢占高端苹果市场，与爱妃形成竞争。\n\n6. **JAZZ爵士苹果**  \n   - 新西兰品牌，果肉带微微香气，酸甜平衡好，也常见于进口礼盒组合。\n\n7. **金果（Zespri金果）**——您已提及佳沛，但请注意其下属也有“金果”“绿果”区分，团购时常按猕猴桃细分口味选择。\n\n8. **柯莱蒙（ClemenGold）**  \n   - 南非品牌，主打无籽蜜橘（克里曼丁橘），皮薄易剥、甜度稳定，国内冬季春节档期常见。\n\n9. **智利樱桃（品牌如Garces Fruit吉制）**  \n   - 智利车厘子品牌Garces Fruit，主打J级、JJ级大果，春节前后团购需求高，但属于季节性产品，需提前订货。\n\n**提示**：若采购量大，建议直接联系品牌中国总代理或进口商（而非零售商），可获得礼盒定制（如加贴企业LOGO）、组合装（多品牌混搭）及更优的阶梯价。另外，务必确认产品的检疫证明与产地证，避免因信息不全影响交付。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 501,
+    "total_tokens": 563,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

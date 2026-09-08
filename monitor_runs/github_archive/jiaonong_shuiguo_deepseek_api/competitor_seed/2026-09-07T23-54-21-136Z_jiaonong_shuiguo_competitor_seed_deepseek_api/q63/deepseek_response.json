@@ -1,0 +1,28 @@
+{
+  "id": "062c5c40-86b6-43f7-afb3-d577cd6eb913",
+  "object": "chat.completion",
+  "created": 1788825824,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于您的问题，我需要先说明：\n\n**我没有实时数据库来确认具体供应商的散装小包装库存情况。**\n\n不过，我可以给您非常实用的操作建议，帮您自己快速核实：\n\n1. **都乐（Dole）**：都乐在国内通常以标准化预处理产品为主，常供大型商超。如果您需要“小包装”，建议直接联系您区域内的都乐经销商或通过其官方B2B渠道来询问是否能做定制分装或最小起订量。  \n2. **洪九果品**：洪九主营进口水果和国内优势产区的供应链，合作模式上对社区团购和生鲜电商较开放。您可以联系洪九的销售客服，重点咨询**“一手货源散装/按箱批发”**，一般他们可以提供整箱，但不一定提供预先分装的小袋。\n\n**关键建议（最靠谱的办法）：**  \n👉 直接打这两个品牌的**官方客服电话**，或在它们的**微信公众号/官网“合作咨询”入口**留言，说明：  \n“我们是社区团购平台，日单量XX份，需要香蕉小包装（如1KG/袋），请报价及散装最小订单量。”\n\n由于社区团购通常有稳定起订量，很多供应链上游能定制包装。\n\n如果您需要，我可以帮您起草一段话术模板，方便您发给它们。要试试吗？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 289,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
