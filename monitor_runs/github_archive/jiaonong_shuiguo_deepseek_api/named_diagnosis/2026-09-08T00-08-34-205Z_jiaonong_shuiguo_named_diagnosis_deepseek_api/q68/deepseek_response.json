@@ -1,0 +1,28 @@
+{
+  "id": "bd3bcb66-dff1-4127-a2ff-a84a0d8b7153",
+  "object": "chat.completion",
+  "created": 1788826569,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的ERP系统对接，我没有掌握其公开的API接口信息。你能提供更具体的背景吗？比如：\n\n1. 你们当前使用的是什么ERP/系统架构（如SAP、用友、金蝶、自研）？\n2. 对接的核心诉求是哪些？例如：\n   - 订单同步（下单、取消、改单）\n   - 库存实时查询\n   - 商品主数据（SKU、价格、包装规格）\n   - 物流单号回传\n   - 财务对账数据\n3. 你们是通过佳农官方电商平台，还是通过中间批发商/经销商联系？\n\n由于生鲜供应链对时效性要求高，通常佳农会提供标准的EDI（电子数据交换）或API文档，但需与他们的IT/商务团队确认：\n- 是否有开放API白名单/授权流程？\n- 接口版本、认证方式（如签名鉴权、OAuth）、数据格式（JSON/XML）？\n- 沙箱测试环境是否提供？\n\n**我的建议路径：**\n1. 先联系佳农的客户成功部门或商务对接人，索要“系统集成接口规范”或“API开发者文档”。\n2. 如果对方没有现成文档，可询问是否支持标准的EDI报文（如X12、EDIFACT）或CSV/Excel定时文件交换作为备选方案。\n3. 在签约前，务必约定好数据更新的频次（如库存每3分钟刷新）、异常重试机制、以及QPS（每秒请求数）上限，避免高峰期消息阻塞。\n\n如果你们有具体的技术文档或接口示例，我可以帮你分析字段含义、鉴权逻辑或幂等处理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 357,
+    "total_tokens": 415,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

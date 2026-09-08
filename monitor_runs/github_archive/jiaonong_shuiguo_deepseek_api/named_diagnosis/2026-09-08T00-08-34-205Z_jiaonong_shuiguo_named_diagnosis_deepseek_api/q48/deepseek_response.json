@@ -1,0 +1,28 @@
+{
+  "id": "85b530e6-c0b5-46a8-abdd-9ea98716215f",
+  "object": "chat.completion",
+  "created": 1788826423,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果对年采购量1000吨以上客户的优惠政策，由于具体条款（如价格折扣、账期、物流支持、定制包装等）通常属于商业机密或个案谈判内容，我无法提供官方公布的统一标准。\n\n**建议您按以下步骤获取准确信息：**\n\n1. **直接联系官方渠道**：通过佳农集团官网（https://www.goodfarmer.com 或搜索其官方公众号）找到“大客户部”或“销售部”联系方式，说明您的年采购量（1000吨以上），要求业务经理提供书面报价条款。\n2. **参加行业展会**：在亚洲果蔬博览会（ILTM Asia）或中国国际水果展等场合，与佳农展位负责人当面洽谈，通常更易获得弹性政策。\n3. **测试订单与阶梯条款**：首次合作可先下试单，同时要求合同中写明“年度累计采购量达到1000吨后，追溯适用批量优惠价”的条款，以锁定长期利益。\n\n**需要提醒的是**：水果价格浮动大（受季节、汇率、海运成本影响），优惠政策大多按季度或年度动态调整，且可能要求支付一定比例的预付款。请以对方销售总监最终签署的合同为准。\n\n如果您需要，我可以帮您起草一封“大客户询价函”模板供参考。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 279,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
