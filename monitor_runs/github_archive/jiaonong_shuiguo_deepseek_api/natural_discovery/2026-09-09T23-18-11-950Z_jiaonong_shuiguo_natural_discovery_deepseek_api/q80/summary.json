@@ -1,0 +1,50 @@
+{
+  "questionId": "q80",
+  "prompt": "生鲜电商需要水果详情页素材，供应商一般能不能提供图片和卖点？",
+  "createdAt": "2026-09-09T23:31:52.312Z",
+  "summary": [
+    {
+      "questionId": "q80",
+      "prompt_index": 80,
+      "promptIndex": 80,
+      "promptHash": "211b514100bd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商需要水果详情页素材，供应商一般能不能提供图片和卖点？",
+      "model": "deepseek-v4-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1263,
+      "text_length": 1263,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 788,
+        "total_tokens": 846,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 788,
+      "total_tokens": 846,
+      "latencyMs": 10423,
+      "latency_ms": 10423,
+      "createdAt": "2026-09-09T23:31:52.312Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q80/prompt.txt",
+        "answer": "q80/deepseek.txt",
+        "response": "q80/deepseek_response.json",
+        "sources": "q80/deepseek_sources.json",
+        "references": "q80/deepseek_references.json"
+      }
+    }
+  ]
+}
