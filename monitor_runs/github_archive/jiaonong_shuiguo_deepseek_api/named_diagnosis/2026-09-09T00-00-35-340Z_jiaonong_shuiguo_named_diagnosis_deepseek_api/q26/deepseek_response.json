@@ -1,0 +1,28 @@
+{
+  "id": "8e9d6242-ea5b-4f77-bb67-063473647de8",
+  "object": "chat.completion",
+  "created": 1788912221,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，我无法确认“佳农水果”具体门店或线上服务是否提供香蕉催熟服务。这类信息通常由具体门店或客服决定，建议您直接联系佳农官方客服（如官网、官方App或购买渠道的客服热线）进行核实。\n\n如果一般水果零售商提供催熟服务，通常可能有以下情况：\n- **部分门店**可能提供“催熟”处理，但需提前咨询；\n- **线上平台**购买时，可备注“需要催熟”或“需要生蕉”，客服会确认是否支持。\n\n**建议您**：\n1. 拨打佳农全国服务热线（可搜索其官网/包装上的客服电话）；\n2. 通过购买平台（如京东、天猫旗舰店）客服聊天窗口直接提问；\n3. 到临近的实体店询问店员。\n\n如果买到了生香蕉，也可以在室温下放置几天，或与苹果/梨放在一起密封催熟。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 194,
+    "total_tokens": 246,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

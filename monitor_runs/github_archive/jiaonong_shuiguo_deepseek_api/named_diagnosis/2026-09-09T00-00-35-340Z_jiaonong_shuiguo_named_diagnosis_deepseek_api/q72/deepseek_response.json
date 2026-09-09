@@ -1,0 +1,28 @@
+{
+  "id": "1226b1b9-9b14-4e03-94ef-b05475caa9bf",
+  "object": "chat.completion",
+  "created": 1788912532,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农菠萝是否提供去皮切块服务，**我无法直接核实其最新的具体加工政策**。这通常取决于你购买的渠道（如批发市场、电商平台或直接对接其工厂）以及订单量。\n\n建议你按以下步骤处理：\n\n1.  **核实渠道**：如果是通过经销商采购，直接询问对接的销售负责人。如果是直采，建议联系其官方客服或业务部门。\n2.  **明确规格**：询问是否可以定制“去皮切块”或提供“冷冻菠萝块”的工业原料规格，这通常比门店手动加工更稳定且卫生。\n3.  **备选方案**：如果对方不提供此类服务，你可以考虑：\n    - 在当地寻找合格的**中央厨房或食材加工外包商**，提供鲜切水果服务。\n    - 直接采购**冷冻佳农菠萝块**（如有该产品线），解冻后使用，节省人工且损耗低。\n    - 购买原果后使用**菠萝切块机**（门店端设备）自行处理。\n\n**核心建议**：不要仅凭网络信息下单，先通过电话/邮件确认产能、起订量及冷链配送条件，并要求对方提供**样品试切**以便检验品控。若对方无法提供，尽快启动备用供应商评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 269,
+    "total_tokens": 335,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

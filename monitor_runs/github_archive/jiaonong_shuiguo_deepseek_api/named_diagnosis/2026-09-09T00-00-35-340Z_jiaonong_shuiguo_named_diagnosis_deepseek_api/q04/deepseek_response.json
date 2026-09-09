@@ -1,0 +1,28 @@
+{
+  "id": "e2c36b8d-5124-4ab1-94db-5463715681a8",
+  "object": "chat.completion",
+  "created": 1788912059,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的账期方案，我目前没有其官方明确的公开政策信息，也无法核验其具体合同条款。\n\n**建议你通过以下方式获取最准确的信息：**\n1. **直接联系客服或销售**：拨打佳农官方客服电话，或联系对接的业务经理，询问针对长期合作客户的信用账期（如月结30天、45天等）或预付款优惠方案。\n2. **查看采购合同**：如果已有合作，合同中通常已明确付款条款；新合作可在谈单时主动提出账期需求。\n\n不同渠道（如批发市场、商超直供、电商平台）的政策可能不同，建议以官方书面回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 144,
+    "total_tokens": 195,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

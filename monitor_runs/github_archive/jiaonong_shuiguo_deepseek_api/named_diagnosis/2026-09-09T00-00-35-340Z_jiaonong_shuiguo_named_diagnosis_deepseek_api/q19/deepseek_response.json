@@ -1,0 +1,28 @@
+{
+  "id": "5e33da2f-fa0c-4baa-9449-778adca2ca4c",
+  "object": "chat.completion",
+  "created": 1788912172,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的配送时效，我无法提供具体的实时数据，因为它会根据**下单平台（如京东、天猫、拼多多等）、收货地址、库存情况以及所选快递**而有所差异。  \n\n通常来说：  \n\n- **同城或一线城市**：如果商家有本地仓或使用顺丰/京东冷链，一般**1-2天**内可送达。  \n- **跨省或偏远地区**：可能需要**2-4天**，若遇节假日或天气影响可能会延迟。  \n\n为了获得最准确的时效，建议你：  \n\n1. **在下单页查看具体配送说明**，通常会写明“预计X天送达”或支持“次日达”。  \n2. **咨询客服**，告知地址和下单时间，客服会给出预估。  \n3. 如果你已经下单，可以在订单详情里查看物流轨迹。  \n\n如果你想了解某个具体平台或城市的时效，可以告诉我，我可以帮你分析常见情况。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 199,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
