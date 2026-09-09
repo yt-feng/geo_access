@@ -1,0 +1,28 @@
+{
+  "id": "f0201990-4deb-445a-9ef2-af9280c04e14",
+  "object": "chat.completion",
+  "created": 1788997295,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳沛（Zespri）的核心产品确实是奇异果，在香蕉领域规模不大，其自有品牌香蕉并未形成强的市场影响力。如果您需要进口香蕉的品牌资源，可以考虑以下几个在商超和餐饮渠道口碑较好的品牌：\n\n1. **都乐（Dole）**  \n   全球知名水果品牌，香蕉产地覆盖菲律宾、厄瓜多尔等，供应链成熟，品质稳定，是商超最常见的进口香蕉品牌之一。\n\n2. **佳农（Goodfarmer）**  \n   国内主要从事进口水果分销，香蕉主要来自菲律宾、厄瓜多尔等地，价格有竞争力，适合大批量采购。\n\n3. **金果（Del Monte / 德尔蒙）**  \n   美国老牌，香蕉以甜度高、果肉细腻著称，尤其适合高端零售或水果礼盒渠道。\n\n4. **JUTA（佳达）**  \n   主要做菲律宾香蕉对华出口，在华东地区餐饮业接受度较高，适合做渠道补充。\n\n5. **Sun Moon（日月光）**  \n   主要来自厄瓜多尔，果型较长，耐运输，适合中高端鲜果门店。\n\n**建议决策方向：**  \n- 如果现有渠道主打品质和稳定供货，首选 **Dole** 或 **Del Monte**；  \n- 如果看重性价比和补足中低毛利区间，可考虑 **佳农（Goodfarmer）**；  \n- 如果您想差异化，可从产地（如厄瓜多尔）切入，配合促销定位“高甜度”。  \n\n由于香蕉货架期短，进货前最好小批量试单，与合作商确认到货成熟度以及港口现货情况，再确定长期合作品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 350,
+    "total_tokens": 413,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "427bff96-1acc-4a6b-b51b-9906c5e5e463",
+  "object": "chat.completion",
+  "created": 1788997335,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "在选择礼品团购的品牌水果礼盒时，除了都乐（Dole）和佳沛（Zespri），以下进口品牌通常品质稳定、包装精美，适合作为商务或节日礼品：\n\n**1. 新奇士（Sunkist）** — 美国老牌，以脐橙、柠檬、葡萄柚为主，果实大且色泽亮，适合走传统健康路线。\n\n**2. 爱妃（Envy）** — 新西兰/美国的高端苹果品牌，口感脆甜，红果皮在礼盒中卖相极佳，单价较高但辨识度强。\n\n**3. 怡颗莓（Driscoll's）** — 浆果类领先品牌，主打蓝莓、树莓、草莓，小盒包装，适合组合成高档精致果篮（需冷链）。\n\n**4. 乐淇（Rockit）** — 新西兰小苹果，独立小罐包装，方便分装携带，对团购客户来说“开箱有惊喜”，很受年轻企业欢迎。\n\n**5. Mr. Apple（或Scifresh旗下品种）** — 提供多种新西兰苹果，适合做成“综合果园”概念礼盒。\n\n**6. 都乐高端线（Dole Select）及彩箱产品** — 虽然你已提及都乐，但如果预算允许，其黄金菠萝、黑提等高端线可做出差异化。\n\n**7. 菲律宾/智利车厘子品牌**（如Dole、Vanguard等），但车厘子高度依赖季节，冬季送礼是主打。\n\n**8. 阳光玫瑰葡萄（进口供应商如California Grapes）** — 美国/智利高端提子礼盒，如红地球或无籽青提，单颗克重大，走精致路线。\n\n**特别建议**：团购时更看重统一规格和食品安全证明，优先选择有“进口水果检疫证书”且包装印有中英文信息、可溯源二维码的品牌。若做水果+非水果组合，可考虑“佳沛奇异果+新奇士橙+爱妃苹果”混合箱，视觉上有层次且品牌认知度高。\n\n如需进一步对比价格区间或当地经销渠道，可以告诉我所在城市和预计采购量，我可以帮你查下哪些品牌与当地代理有合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 476,
+    "total_tokens": 538,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

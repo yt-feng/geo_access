@@ -1,0 +1,28 @@
+{
+  "id": "c933320b-997e-49b8-b86d-9a38bb2f3e54",
+  "object": "chat.completion",
+  "created": 1788997580,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "针对生鲜电商平台给香蕉做品牌背书的需求，**都乐（Dole）在国际和全国性知名度上更强，鑫荣懋（Xinrongmao）则在供应链和自有品牌整合上更具优势**。具体对比如下：\n\n1. **都乐（Dole）**——全球知名品牌，品牌溢价最高\n   - 国际巨头，历史悠久，消费者心智中“高品质进口香蕉”的代名词。\n   - 在电商平台搜索、超市货架曝光率极高，自带“信任状”。\n   - 适合主打**海外产地（如菲律宾、厄瓜多尔）或进口精品**的香蕉货架。\n\n2. **鑫荣懋（Xinrongmao）**——国内龙头，供应链背书强\n   - 是中国最大的水果分销商之一，与多个国产优质产区及国际品牌深度合作。\n   - 在**国内生鲜电商（如盒马、美团优选等）渠道渗透率**很高，更懂本地化采购和效期管理。\n   - 如果香蕉是**国产（如云南、海南）或主推性价比**，用鑫荣懋背书更稳妥。\n\n**对你平台的实际建议：**\n- 优先看你的**香蕉定位**：若走高端/进口路线，选**都乐**；若走日常走量/国产路线，选**鑫荣懋**。\n- 如果平台已有两家的稳定供货，可以都展示，但主推广位置建议偏向**都乐**（消费者搜品牌时记忆更牢）。\n- 务必要**实际核验授权资质**（部分渠道存在贴牌或串货），避免宣传违规。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 349,
+    "total_tokens": 409,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
