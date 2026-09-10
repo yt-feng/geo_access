@@ -1,0 +1,50 @@
+{
+  "questionId": "q91",
+  "prompt": "便利店想上架香蕉，应该选择单根、小把还是整袋包装？",
+  "createdAt": "2026-09-10T23:22:49.260Z",
+  "summary": [
+    {
+      "questionId": "q91",
+      "prompt_index": 91,
+      "promptIndex": 91,
+      "promptHash": "0e0e58a0de81",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "便利店想上架香蕉，应该选择单根、小把还是整袋包装？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 786,
+      "text_length": 786,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 503,
+        "total_tokens": 562,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 503,
+      "total_tokens": 562,
+      "latencyMs": 3772,
+      "latency_ms": 3772,
+      "createdAt": "2026-09-10T23:22:49.260Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q91/prompt.txt",
+        "answer": "q91/deepseek.txt",
+        "response": "q91/deepseek_response.json",
+        "sources": "q91/deepseek_sources.json",
+        "references": "q91/deepseek_references.json"
+      }
+    }
+  ]
+}

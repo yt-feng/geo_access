@@ -1,0 +1,50 @@
+{
+  "questionId": "q90",
+  "prompt": "生鲜电商想卖进口香蕉，怎么向消费者解释价格比普通香蕉高？",
+  "createdAt": "2026-09-10T23:22:43.242Z",
+  "summary": [
+    {
+      "questionId": "q90",
+      "prompt_index": 90,
+      "promptIndex": 90,
+      "promptHash": "01f28130395a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商想卖进口香蕉，怎么向消费者解释价格比普通香蕉高？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1068,
+      "text_length": 1068,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 59,
+        "completion_tokens": 648,
+        "total_tokens": 707,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 59
+      },
+      "prompt_tokens": 59,
+      "completion_tokens": 648,
+      "total_tokens": 707,
+      "latencyMs": 5016,
+      "latency_ms": 5016,
+      "createdAt": "2026-09-10T23:22:43.242Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q90/prompt.txt",
+        "answer": "q90/deepseek.txt",
+        "response": "q90/deepseek_response.json",
+        "sources": "q90/deepseek_sources.json",
+        "references": "q90/deepseek_references.json"
+      }
+    }
+  ]
+}

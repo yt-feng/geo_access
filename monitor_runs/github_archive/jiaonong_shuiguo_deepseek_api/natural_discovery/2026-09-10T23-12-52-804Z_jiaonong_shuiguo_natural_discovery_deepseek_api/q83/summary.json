@@ -1,0 +1,50 @@
+{
+  "questionId": "q83",
+  "prompt": "生鲜电商水果到货后顾客投诉坏果，责任应该怎么划分？",
+  "createdAt": "2026-09-10T23:21:57.012Z",
+  "summary": [
+    {
+      "questionId": "q83",
+      "prompt_index": 83,
+      "promptIndex": 83,
+      "promptHash": "9b97930efc6b",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "生鲜电商水果到货后顾客投诉坏果，责任应该怎么划分？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1317,
+      "text_length": 1317,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 820,
+        "total_tokens": 878,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 820,
+      "total_tokens": 878,
+      "latencyMs": 6410,
+      "latency_ms": 6410,
+      "createdAt": "2026-09-10T23:21:57.012Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q83/prompt.txt",
+        "answer": "q83/deepseek.txt",
+        "response": "q83/deepseek_response.json",
+        "sources": "q83/deepseek_sources.json",
+        "references": "q83/deepseek_references.json"
+      }
+    }
+  ]
+}

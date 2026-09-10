@@ -1,0 +1,50 @@
+{
+  "questionId": "q98",
+  "prompt": "养老院或医院食堂采购水果，怎么判断供应商的合规和稳定性？",
+  "createdAt": "2026-09-10T23:23:27.577Z",
+  "summary": [
+    {
+      "questionId": "q98",
+      "prompt_index": 98,
+      "promptIndex": 98,
+      "promptHash": "6488ab77691a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "养老院或医院食堂采购水果，怎么判断供应商的合规和稳定性？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1159,
+      "text_length": 1159,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 687,
+        "total_tokens": 744,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 687,
+      "total_tokens": 744,
+      "latencyMs": 4552,
+      "latency_ms": 4552,
+      "createdAt": "2026-09-10T23:23:27.577Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q98/prompt.txt",
+        "answer": "q98/deepseek.txt",
+        "response": "q98/deepseek_response.json",
+        "sources": "q98/deepseek_sources.json",
+        "references": "q98/deepseek_references.json"
+      }
+    }
+  ]
+}

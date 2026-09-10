@@ -1,0 +1,50 @@
+{
+  "questionId": "q20",
+  "prompt": "社区超市想找能每天配送的水果供应商，应该看哪些条件？",
+  "createdAt": "2026-09-10T23:14:45.869Z",
+  "summary": [
+    {
+      "questionId": "q20",
+      "prompt_index": 20,
+      "promptIndex": 20,
+      "promptHash": "6bef3b4bc48a",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "社区超市想找能每天配送的水果供应商，应该看哪些条件？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 604,
+      "text_length": 604,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 398,
+        "total_tokens": 454,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 398,
+      "total_tokens": 454,
+      "latencyMs": 3138,
+      "latency_ms": 3138,
+      "createdAt": "2026-09-10T23:14:45.869Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q20/prompt.txt",
+        "answer": "q20/deepseek.txt",
+        "response": "q20/deepseek_response.json",
+        "sources": "q20/deepseek_sources.json",
+        "references": "q20/deepseek_references.json"
+      }
+    }
+  ]
+}

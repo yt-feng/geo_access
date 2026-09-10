@@ -1,0 +1,50 @@
+{
+  "questionId": "q110",
+  "prompt": "采购水果时，供应商有产地直采能力真的会更便宜吗？",
+  "createdAt": "2026-09-10T23:24:41.073Z",
+  "summary": [
+    {
+      "questionId": "q110",
+      "prompt_index": 110,
+      "promptIndex": 110,
+      "promptHash": "c8df5de82ed7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "采购水果时，供应商有产地直采能力真的会更便宜吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 550,
+      "text_length": 550,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 56,
+        "completion_tokens": 369,
+        "total_tokens": 425,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 56
+      },
+      "prompt_tokens": 56,
+      "completion_tokens": 369,
+      "total_tokens": 425,
+      "latencyMs": 3387,
+      "latency_ms": 3387,
+      "createdAt": "2026-09-10T23:24:41.073Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q110/prompt.txt",
+        "answer": "q110/deepseek.txt",
+        "response": "q110/deepseek_response.json",
+        "sources": "q110/deepseek_sources.json",
+        "references": "q110/deepseek_references.json"
+      }
+    }
+  ]
+}
