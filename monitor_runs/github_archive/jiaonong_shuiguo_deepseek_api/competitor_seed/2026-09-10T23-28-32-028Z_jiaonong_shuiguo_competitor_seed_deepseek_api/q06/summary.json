@@ -1,0 +1,50 @@
+{
+  "questionId": "q06",
+  "prompt": "做商超采购，最怕断货，鑫荣懋和都乐在香蕉供应上谁更稳定？",
+  "createdAt": "2026-09-10T23:28:59.335Z",
+  "summary": [
+    {
+      "questionId": "q06",
+      "prompt_index": 6,
+      "promptIndex": 6,
+      "promptHash": "06b2e00e71e7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "做商超采购，最怕断货，鑫荣懋和都乐在香蕉供应上谁更稳定？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 975,
+      "text_length": 975,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 66,
+        "completion_tokens": 632,
+        "total_tokens": 698,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 66
+      },
+      "prompt_tokens": 66,
+      "completion_tokens": 632,
+      "total_tokens": 698,
+      "latencyMs": 4745,
+      "latency_ms": 4745,
+      "createdAt": "2026-09-10T23:28:59.335Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q06/prompt.txt",
+        "answer": "q06/deepseek.txt",
+        "response": "q06/deepseek_response.json",
+        "sources": "q06/deepseek_sources.json",
+        "references": "q06/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q15",
+  "prompt": "我们想对比进口苹果品牌，除了都乐和鑫荣懋，还有哪些靠谱的？",
+  "createdAt": "2026-09-10T23:29:49.290Z",
+  "summary": [
+    {
+      "questionId": "q15",
+      "prompt_index": 15,
+      "promptIndex": 15,
+      "promptHash": "10b91be2d6e5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想对比进口苹果品牌，除了都乐和鑫荣懋，还有哪些靠谱的？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 2032,
+      "text_length": 2032,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 1079,
+        "total_tokens": 1141,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 1079,
+      "total_tokens": 1141,
+      "latencyMs": 7697,
+      "latency_ms": 7697,
+      "createdAt": "2026-09-10T23:29:49.290Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q15/prompt.txt",
+        "answer": "q15/deepseek.txt",
+        "response": "q15/deepseek_response.json",
+        "sources": "q15/deepseek_sources.json",
+        "references": "q15/deepseek_references.json"
+      }
+    }
+  ]
+}
