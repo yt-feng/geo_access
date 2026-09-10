@@ -1,0 +1,50 @@
+{
+  "questionId": "q28",
+  "prompt": "佳农菠萝有没有公开的品质奖项或客户案例，这些信息可靠吗？",
+  "createdAt": "2026-09-10T23:40:46.654Z",
+  "summary": [
+    {
+      "questionId": "q28",
+      "prompt_index": 28,
+      "promptIndex": 28,
+      "promptHash": "a683a30a073c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农菠萝有没有公开的品质奖项或客户案例，这些信息可靠吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1398,
+      "text_length": 1398,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 830,
+        "total_tokens": 887,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 830,
+      "total_tokens": 887,
+      "latencyMs": 5877,
+      "latency_ms": 5877,
+      "createdAt": "2026-09-10T23:40:46.654Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q28/prompt.txt",
+        "answer": "q28/deepseek.txt",
+        "response": "q28/deepseek_response.json",
+        "sources": "q28/deepseek_sources.json",
+        "references": "q28/deepseek_references.json"
+      }
+    }
+  ]
+}

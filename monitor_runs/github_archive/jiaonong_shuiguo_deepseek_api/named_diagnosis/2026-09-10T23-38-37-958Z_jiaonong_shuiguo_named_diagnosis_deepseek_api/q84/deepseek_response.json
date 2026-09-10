@@ -1,0 +1,28 @@
+{
+  "id": "0a5a8c7d-895e-4a43-ac0f-264c4f2ab4ae",
+  "object": "chat.completion",
+  "created": 1789083928,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）公开可查的企业标准文本我无法核验，因此不能给出其标准号、条文原文，也不能编造其糖度、果指长度的具体数值。\n\n**能确定的部分：**\n\n- **香蕉相关的国家标准**主要是 **GB/T 9827《香蕉》**（现行版本为 GB/T 9827-2020 前后修订版，具体以现行有效版本为准），它规定的是鲜香蕉的质量要求，包括等级、感官、理化指标等。\n- 企业标准（Q/开头）只要技术上不低于强制性国标即可，**可以严于国标**。佳农如果执行自有企标，通常会在糖度、果指规格、外观等上做更细分要求，尤其针对出口或商超渠道。\n\n**关于糖度和果指长度：**\n\n- **糖度**：国标一般对香蕉可溶性固形物（糖度）有基础阈值要求，偏向“合格线”；企标常见做法是把糖度门槛往上抬，或按成熟阶段细分。\n- **果指长度**：国标按等级对果指长度有区间要求；企标常在长度、粗细（周径）、单果重上做更窄的分级，以匹配特定渠道。\n\n**要拿到准确对比，建议这样做：**\n\n1. 在企业标准信息公共服务平台（qybz.sac.gov.cn）搜“佳农”或“Goodfarmer”，查其备案的企标号并下载文本。\n2. 对照现行 GB/T 9827 的指标表，逐项比对糖度、果指长度等。\n3. 若平台查不到，可直接向佳农客服/品控部索取所执行标准号。\n\n如果你把企标编号或文本发给我，我可以帮你逐项和国标做对照。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 381,
+    "total_tokens": 445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

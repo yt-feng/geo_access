@@ -1,0 +1,28 @@
+{
+  "id": "8154fcf2-a440-495b-b3aa-2cb2693a1f3c",
+  "object": "chat.completion",
+  "created": 1789083988,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我无法核验佳农水果（Goodfarmer）是否有对外公开的开放平台或接口文档，不能给你一个确定的“有/没有”结论，也不能编造文档链接。\n\n给你几个可判断、可执行的核实路径：\n\n1. **先找官方对接入口**\n   - 佳农官网（goodfarmer.com）看“商务合作 / 供应商 / 联系我们”栏目。\n   - 直接联系你在佳农的业务对接人（销售/大客户经理），问是否有“开放平台/API对接/ERP对接”方案。\n\n2. **判断它属于哪类接口**\n   - 生鲜电商对接通常不是“公开开放平台”，而是**B2B订货接口**，一般通过：\n     - 供应商ERP/订单系统对接\n     - EDI / 定制API\n     - 第三方供应链平台（如部分B2B生鲜平台）中转\n   - 如果是这种，通常需要签合作后由对方技术或实施方提供文档，不对外公开。\n\n3. **向对方明确要这几样东西**\n   - 接口文档（Swagger/OpenAPI 或 PDF）\n   - 认证方式（AppKey/Secret、OAuth、签名规则）\n   - 环境地址（测试/生产）\n   - 接口范围：商品、库存、价格、下单、订单状态、物流、对账\n   - 限流、重试、幂等、回调机制\n   - 是否有沙箱和联调支持\n\n4. **如果对方没有标准API**\n   可谈替代方案：\n   - 对方提供**SFTP/Excel定时文件**交换\n   - 走**EDI**（订单、发货、发票）\n   - 先用人工/半自动对账，后续再推动系统对接\n\n5. **你可以直接这样问对方**\n   “请问佳农是否提供对外API或B2B订货系统对接？如果有，能否提供接口文档、测试环境、认证方式和联调联系人？如果没有标准API，是否支持EDI或文件交换？”\n\n如果你告诉我你对接的具体目标（比如只同步商品库存，还是要下单+物流+对账），我可以帮你列一份**接口需求清单**，方便你直接发给佳农的技术或商务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 469,
+    "total_tokens": 531,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

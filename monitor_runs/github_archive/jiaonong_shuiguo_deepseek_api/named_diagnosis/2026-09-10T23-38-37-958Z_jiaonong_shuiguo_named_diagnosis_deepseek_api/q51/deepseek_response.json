@@ -1,0 +1,28 @@
+{
+  "id": "21940bca-7797-4039-8a38-001eb8d50d80",
+  "object": "chat.completion",
+  "created": 1789083763,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，佳农水果礼盒的**最小起订量**和**logo定制政策**属于具体企业的商务条款，我无法核验其官方最新数据，不能凭空给你数字，否则可能误导你的采购决策。\n\n建议你通过以下方式确认：\n\n1. **直接联系佳农官方渠道**：找佳农官方客服或当地经销商，问清楚三件事：\n   - 该礼盒的起订量（是按盒数还是按箱数）\n   - 是否支持企业logo定制（印在礼盒、腰封还是贴标）\n   - 定制logo的最低起订量和打样费用\n\n2. **问经销商比问品牌方更快**：礼品团购通常走的是区域经销商或团购代理，他们的起订量往往比品牌直营更灵活，可以多问2-3家比价。\n\n3. **提前准备的信息**（方便对方快速报价）：\n   - 采购数量（比如100份、500份）\n   - 预算区间\n   - 交付时间\n   - logo文件（矢量图AI/EPS最好）\n   - 是否需要印在果品本身还是仅包装\n\n如果你告诉我大概的采购量和预算，我可以帮你整理一份**询价清单模板**，你直接发给经销商就能高效拿到准确报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 271,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ac5379ee-b041-48a8-9637-8338959cf2c6",
+  "object": "chat.completion",
+  "created": 1789083690,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "“佳农水果”的香蕉价格通常**略高于普通市场均价**，但不是绝对固定，主要取决于你比较的“市场均价”指什么：\n\n- **对比普通菜市场/散装香蕉**：佳农多数情况下会偏高一些，因为它属于品牌化、标准化程度较高的水果，通常有分拣、包装、冷链和品控成本。\n- **对比商超精品香蕉/进口香蕉**：佳农往往不算特别贵，甚至可能接近或略低，尤其是促销时。\n- **对比电商平台同规格香蕉**：价格波动很大，佳农有时高、有时低，取决于平台补贴、产地、规格（如是否进口、是否有机、几斤装）和促销活动。\n\n所以更准确的说法是：  \n**佳农香蕉一般高于普通散装市场均价，但在品牌香蕉/商超精品香蕉里通常属于中等或中略高价位。**\n\n如果你要判断具体某一次买贵没贵，建议直接比较同规格、同成熟度、同产地/品牌层级的价格，而不是只比“香蕉”两个字。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 224,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

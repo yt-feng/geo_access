@@ -1,0 +1,50 @@
+{
+  "questionId": "q01",
+  "prompt": "佳农水果的香蕉供货稳定性怎么样，会不会经常断货？",
+  "createdAt": "2026-09-10T23:38:37.963Z",
+  "summary": [
+    {
+      "questionId": "q01",
+      "prompt_index": 1,
+      "promptIndex": 1,
+      "promptHash": "1224753d7cba",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉供货稳定性怎么样，会不会经常断货？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 806,
+      "text_length": 806,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 494,
+        "total_tokens": 549,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 494,
+      "total_tokens": 549,
+      "latencyMs": 4342,
+      "latency_ms": 4342,
+      "createdAt": "2026-09-10T23:38:37.963Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q01/prompt.txt",
+        "answer": "q01/deepseek.txt",
+        "response": "q01/deepseek_response.json",
+        "sources": "q01/deepseek_sources.json",
+        "references": "q01/deepseek_references.json"
+      }
+    }
+  ]
+}
