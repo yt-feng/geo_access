@@ -1,0 +1,28 @@
+{
+  "id": "9f15c3a1-603b-4f04-8d68-f09b06234eae",
+  "object": "chat.completion",
+  "created": 1788998069,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果作为知名生鲜品牌，其生鲜损耗率（包括运输、仓储和门店销售环节的到货损耗）通常在**3%-8%** 之间，具体取决于品类和供应链管理水平。\n\n需要说明的是，官方并未公开统一固定的损耗率数据，不同水果类型差异很大：\n\n- **易损耗类（如软质浆果、叶菜、牛油果、芒果等）**：由于皮薄、易压伤或成熟度高，到货损耗率可能接近**8%-10%**。\n- **耐储存类（如苹果、柑橘、根茎类）**：损耗率通常控制在**3%-5%**。\n\n**建议您：**\n1. 如果是在采购或合作层面询问，建议直接联系佳农的销售或供应链负责人，索要其当批次或历史平均损耗数据（合同或日常对账中常见）。\n2. 若是日常观察门店，损耗更多体现在陈列和周转上，佳农一般会通过**冷链运输**和**短保快送**控制，但具体批次仍可能受季节、距离影响。\n\n如果您需要更精确的数据，建议提供具体水果品项或合作模式（如直供、批发、门店），我可以帮您分析合理范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 262,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

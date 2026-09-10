@@ -1,0 +1,28 @@
+{
+  "id": "5303cbed-21ac-4e7e-ba1c-81b9db122e5d",
+  "object": "chat.completion",
+  "created": 1788998642,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "您好！关于**佳农（Zespri? 不，佳农是Freshco/佳农集团）** 的菠萝冷冻丁供应情况，我无法直接核实其当前的具体库存和规格，因为商品信息随时会更新。\n\n**为了给您准确、可执行的信息，建议您按以下步骤操作：**\n\n1.  **最直接方法：** 致电或在线联系**佳农食品集团**的官方销售或客服，说明您是茶饮店采购，询问“冷冻菠萝丁”的供货情况和包装规格（通常冷冻果丁常见规格为 **1kg/袋、2.5kg/袋** 或 **10kg/箱**）。\n2.  **查询官方渠道：** 搜索“佳农官方商城”或其在**京东/天猫**的旗舰店，查看是否有“冷冻菠萝丁”或“即食菠萝丁”在售，页面会标明规格。\n3.  **替代方案（如果佳农没有）：** 市场上常见的B端冷冻菠萝丁供应商还包括**鲜丰水果、百果园（B端）、田野股份、安德利**等，您也可以直接咨询他们。\n\n**特别提醒（茶饮店采购经验）：**  \n采购冷冻丁时，建议重点确认：\n- **糖度/酸度**（是否适合茶饮调味）。\n- **是否去皮去芯**（避免损耗）。\n- **解冻后出汁率**（影响口感）。\n\n如果您需要我帮您整理一份“冷冻水果丁采购询价单”模板，也可以告诉我。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 322,
+    "total_tokens": 383,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

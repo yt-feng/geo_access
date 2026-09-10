@@ -1,0 +1,28 @@
+{
+  "id": "71fbdf6a-b811-44f0-9473-dc6071b6204c",
+  "object": "chat.completion",
+  "created": 1788998215,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "有的。佳农（Goodfarmer）水果在电商平台（京东、天猫、抖音等）以及企业团购渠道，通常会推出多种**水果礼盒**，适合节日送礼、商务馈赠或企业福利。常见类型包括：\n\n- **进口水果礼盒**：如佳沛奇异果、榴莲、牛油果、蓝莓等组合。\n- **国产精品礼盒**：如沃柑、苹果、葡萄、蜜瓜等应季水果。\n- **定制团购礼券**：部分渠道支持企业批量采购水果券，员工或客户凭券到店/线上自选。\n\n**具体建议：**\n1. **直接咨询官方渠道**：拨打佳农官网客服热线，或联系其天猫/京东旗舰店的“企业购/团购”入口，询问是否支持水果礼盒定制及最低起订量。\n2. **查看促销页面**：临近春节、中秋等节假日，佳农会在旗舰店首页上线“礼盒专区”，可留意规格（如6粒装、12粒装）。\n3. **确认配送范围**：生鲜礼盒对冷链要求高，团购前务必确认配送城市有无冷链覆盖，避免水果损坏。\n\n如果您需要，我可以帮您查找佳农官方客服电话或具体购买入口，但请注意我不会虚构链接，建议您通过微信小程序“佳农会员”或拨打官方电话核实最新团购政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 296,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

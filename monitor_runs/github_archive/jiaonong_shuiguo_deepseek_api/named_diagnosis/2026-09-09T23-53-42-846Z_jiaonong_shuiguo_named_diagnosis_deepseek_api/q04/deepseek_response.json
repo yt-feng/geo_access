@@ -1,0 +1,28 @@
+{
+  "id": "ccc1d88b-5880-4250-a606-b6875a0a0695",
+  "object": "chat.completion",
+  "created": 1788998042,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "很抱歉，我无法核实“佳农水果”具体的商业合作政策、账期方案或内部商务条款。这类信息通常属于企业间的定向商务谈判内容，且会随合作规模、区域、合同期限等因素动态调整，并不对外公开。\n\n**建议您通过以下可靠渠道获取准确信息：**\n\n1. **直接联系佳农水果官方客服或大客户销售渠道**：拨打其官网/包装上的客服电话，咨询“企业采购”或“大宗合作”部门。\n2. **咨询您已有的对接业务员/区域经理**：如果您已与佳农有前期接触，可直接向其询问账期政策（如月结、季度结或预付款比例等）。\n3. **搜索其官方B2B平台**：若佳农有官方线上批发/招商页面，可查看入驻或合作须知。\n\n**提示**：在洽谈商业合作时，建议您准备好自身采购量、预计合作周期等具体数据，以便对方给出针对性方案。所有条款请以正式合同为准，避免仅依赖口头答复。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 51,
+    "completion_tokens": 219,
+    "total_tokens": 270,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 51
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}

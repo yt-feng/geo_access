@@ -1,0 +1,28 @@
+{
+  "id": "7904a397-e7ca-4c11-bc2e-e5c2e8e67500",
+  "object": "chat.completion",
+  "created": 1788998398,
+  "model": "deepseek-v4-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农（Fresh Fruit）是否提供菠萝丁加工服务，这需要根据其具体供应渠道和产品线确认。通常，佳农作为大型水果供应商，主要销售整果（如新鲜菠萝），但也可能通过其供应链为客户提供定制化加工服务。\n\n**建议您直接联系佳农官方或当地经销商**，询问其是否有“预切丁”或“定制化切分”业务，并了解以下细节：\n- **最小起订量**（是否有数量门槛）。\n- **是否提供冷链配送**（切丁后保鲜要求高）。\n- **是否有第三方代加工服务**（若佳农不直接做，可咨询其合作的加工厂）。\n\n若您需要快速替代方案，也可考虑其他专业果蔬加工厂（如百果园、鲜丰水果等）的B端供应渠道，他们通常能提供标准化菠萝丁产品。\n\n⚠️ 注意：由于无法实时核验当前优惠或产品库存，请以官方客服答复为准，切勿轻信网络未注明日期或来源的报价信息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 216,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "a26a7955944dc5c60445bff77fac9c8e"
+}
