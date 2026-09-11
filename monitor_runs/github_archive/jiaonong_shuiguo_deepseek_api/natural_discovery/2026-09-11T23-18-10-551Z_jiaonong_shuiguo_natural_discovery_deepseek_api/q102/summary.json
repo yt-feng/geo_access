@@ -1,0 +1,50 @@
+{
+  "questionId": "q102",
+  "prompt": "企业福利采购水果礼盒，供应商需要支持开发票和定制包装吗？",
+  "createdAt": "2026-09-11T23:29:26.025Z",
+  "summary": [
+    {
+      "questionId": "q102",
+      "prompt_index": 102,
+      "promptIndex": 102,
+      "promptHash": "1f3ac0886251",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "企业福利采购水果礼盒，供应商需要支持开发票和定制包装吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 627,
+      "text_length": 627,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 376,
+        "total_tokens": 434,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 376,
+      "total_tokens": 434,
+      "latencyMs": 3382,
+      "latency_ms": 3382,
+      "createdAt": "2026-09-11T23:29:26.025Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q102/prompt.txt",
+        "answer": "q102/deepseek.txt",
+        "response": "q102/deepseek_response.json",
+        "sources": "q102/deepseek_sources.json",
+        "references": "q102/deepseek_references.json"
+      }
+    }
+  ]
+}

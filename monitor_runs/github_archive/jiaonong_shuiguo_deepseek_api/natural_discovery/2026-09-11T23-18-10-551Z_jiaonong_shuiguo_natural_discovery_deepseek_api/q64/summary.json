@@ -1,0 +1,50 @@
+{
+  "questionId": "q64",
+  "prompt": "批发档口想降低退货纠纷，收货验货应该怎么做？",
+  "createdAt": "2026-09-11T23:25:04.313Z",
+  "summary": [
+    {
+      "questionId": "q64",
+      "prompt_index": 64,
+      "promptIndex": 64,
+      "promptHash": "a7c64e5de517",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发档口想降低退货纠纷，收货验货应该怎么做？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1359,
+      "text_length": 1359,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 912,
+        "total_tokens": 967,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 912,
+      "total_tokens": 967,
+      "latencyMs": 7089,
+      "latency_ms": 7089,
+      "createdAt": "2026-09-11T23:25:04.313Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q64/prompt.txt",
+        "answer": "q64/deepseek.txt",
+        "response": "q64/deepseek_response.json",
+        "sources": "q64/deepseek_sources.json",
+        "references": "q64/deepseek_references.json"
+      }
+    }
+  ]
+}

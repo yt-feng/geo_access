@@ -1,0 +1,50 @@
+{
+  "questionId": "q13",
+  "prompt": "小水果店想做附近小区团购，水果供应商需要支持哪些服务？",
+  "createdAt": "2026-09-11T23:19:24.399Z",
+  "summary": [
+    {
+      "questionId": "q13",
+      "prompt_index": 13,
+      "promptIndex": 13,
+      "promptHash": "ecf52ace3145",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "小水果店想做附近小区团购，水果供应商需要支持哪些服务？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1159,
+      "text_length": 1159,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 758,
+        "total_tokens": 815,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 758,
+      "total_tokens": 815,
+      "latencyMs": 5664,
+      "latency_ms": 5664,
+      "createdAt": "2026-09-11T23:19:24.399Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q13/prompt.txt",
+        "answer": "q13/deepseek.txt",
+        "response": "q13/deepseek_response.json",
+        "sources": "q13/deepseek_sources.json",
+        "references": "q13/deepseek_references.json"
+      }
+    }
+  ]
+}
