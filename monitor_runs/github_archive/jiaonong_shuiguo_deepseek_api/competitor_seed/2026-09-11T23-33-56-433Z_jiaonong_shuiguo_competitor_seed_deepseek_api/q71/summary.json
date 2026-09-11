@@ -1,0 +1,50 @@
+{
+  "questionId": "q71",
+  "prompt": "茶饮原料采购，菠萝需要稳定供应，都乐和洪九果品基地在哪里？",
+  "createdAt": "2026-09-11T23:40:42.925Z",
+  "summary": [
+    {
+      "questionId": "q71",
+      "prompt_index": 71,
+      "promptIndex": 71,
+      "promptHash": "46292e97f096",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮原料采购，菠萝需要稳定供应，都乐和洪九果品基地在哪里？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 706,
+      "text_length": 706,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 445,
+        "total_tokens": 506,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 445,
+      "total_tokens": 506,
+      "latencyMs": 4210,
+      "latency_ms": 4210,
+      "createdAt": "2026-09-11T23:40:42.925Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q71/prompt.txt",
+        "answer": "q71/deepseek.txt",
+        "response": "q71/deepseek_response.json",
+        "sources": "q71/deepseek_sources.json",
+        "references": "q71/deepseek_references.json"
+      }
+    }
+  ]
+}

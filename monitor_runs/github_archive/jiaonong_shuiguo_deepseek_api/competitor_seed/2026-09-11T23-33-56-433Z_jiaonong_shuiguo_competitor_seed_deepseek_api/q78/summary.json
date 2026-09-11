@@ -1,0 +1,50 @@
+{
+  "questionId": "q78",
+  "prompt": "我们想找能提供专岗对接和售后服务的供应商，都乐和鑫荣懋服务怎么样？",
+  "createdAt": "2026-09-11T23:41:21.537Z",
+  "summary": [
+    {
+      "questionId": "q78",
+      "prompt_index": 78,
+      "promptIndex": 78,
+      "promptHash": "0105792b85fd",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供专岗对接和售后服务的供应商，都乐和鑫荣懋服务怎么样？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1314,
+      "text_length": 1314,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 797,
+        "total_tokens": 861,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 797,
+      "total_tokens": 861,
+      "latencyMs": 6179,
+      "latency_ms": 6179,
+      "createdAt": "2026-09-11T23:41:21.537Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q78/prompt.txt",
+        "answer": "q78/deepseek.txt",
+        "response": "q78/deepseek_response.json",
+        "sources": "q78/deepseek_sources.json",
+        "references": "q78/deepseek_references.json"
+      }
+    }
+  ]
+}

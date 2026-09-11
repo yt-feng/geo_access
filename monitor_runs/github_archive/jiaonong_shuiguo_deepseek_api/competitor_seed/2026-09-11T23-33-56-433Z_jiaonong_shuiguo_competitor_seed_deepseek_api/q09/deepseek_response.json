@@ -1,0 +1,28 @@
+{
+  "id": "894abecb-2758-430d-8d23-cd21efd0a357",
+  "object": "chat.completion",
+  "created": 1789169689,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可考虑的进口水果品牌主要有这些：\n\n**综合类国际水果品牌**\n- **Chiquita 奇基塔**：香蕉起家，也有其他热带水果，品牌认知度高，适合做平价走量礼盒。\n- **Del Monte 德尔蒙**：综合果蔬品牌，菠萝、香蕉等较常见，礼盒辨识度不错。\n- **Fyffes 菲维斯**：香蕉、菠萝等为主，偏商超渠道，礼品属性一般。\n- **Sunkist 新奇士**：柑橘类代表品牌，橙子、柠檬礼盒适合节庆团购。\n- **Driscoll's 卓莓**：浆果类强品牌，草莓、蓝莓、树莓等，适合高端小份礼盒。\n- **Sun World 太阳世界**：以葡萄、核果类见长，部分高端商超有售。\n- **Camposol 坎波斯**：秘鲁品牌，蓝莓、牛油果、芒果等，进口蓝莓礼盒常见。\n- **Mission 使命**：牛油果强势品牌，适合做健康轻食类礼盒。\n- **Zespri 佳沛**：猕猴桃为主，你已经提到。\n- **Dole 都乐**：综合水果，你已经提到。\n\n**按品类可重点看的进口品牌**\n- **苹果**：Rockit 乐淇（小苹果礼盒很适合团购）、Envy 爱妃、Jazz 爵士、Kanzi 坎滋、Ambrosia 爱妃/安布拉。\n- **橙/柑橘**：Sunkist 新奇士、Wonderful 奇妙、MFC。\n- **葡萄**：Sun World、Driscoll's、Costa。\n- **蓝莓/浆果**：Driscoll's、Camposol、Hortifrut。\n- **牛油果**：Mission、Camposol、Hass 相关品牌。\n- **车厘子**：Stella、Bing、Chelan、Skeena 等品种名常被当作品牌卖点，真正品牌可看 **Stemilt、Chelan Fresh、Rainier**。\n- **榴莲/山竹/椰青**：更多是产地和渠道品牌，如泰国、马来西亚产地商，不一定有强消费品品牌。\n\n**礼品团购建议**\n1. **要品牌感**：优先选 **Driscoll's、Rockit、Sunkist、Mission、Camposol** 这类品类头部品牌，包装和认知度更好。\n2. **要性价比**：选 **Chiquita、Del Monte、Fyffes**，适合预算有限的大批量团购。\n3. **要高端礼盒**：可组合 **Rockit 小苹果 + Driscoll's 蓝莓 + 佳沛金果/阳光金果**，比单一水果更有礼品感。\n4. **注意授权和货源**：很多“进口品牌”在国内是代理商分装，团购前要确认是否有品牌授权、产地证明、报关单和检疫证明，避免买到贴牌或冒充品牌。\n\n如果你能告诉我预算区间、礼盒份数和目标人群，我可以直接给你搭 2—3 个具体品牌组合方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 697,
+    "total_tokens": 760,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q05",
+  "prompt": "我们茶饮店需要大量菠萝原料，都乐和洪九果品哪个更适合长期合作？",
+  "createdAt": "2026-09-11T23:34:16.906Z",
+  "summary": [
+    {
+      "questionId": "q05",
+      "prompt_index": 5,
+      "promptIndex": 5,
+      "promptHash": "c8527bcbb804",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们茶饮店需要大量菠萝原料，都乐和洪九果品哪个更适合长期合作？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1311,
+      "text_length": 1311,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 807,
+        "total_tokens": 869,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 807,
+      "total_tokens": 869,
+      "latencyMs": 6563,
+      "latency_ms": 6563,
+      "createdAt": "2026-09-11T23:34:16.906Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q05/prompt.txt",
+        "answer": "q05/deepseek.txt",
+        "response": "q05/deepseek_response.json",
+        "sources": "q05/deepseek_sources.json",
+        "references": "q05/deepseek_references.json"
+      }
+    }
+  ]
+}

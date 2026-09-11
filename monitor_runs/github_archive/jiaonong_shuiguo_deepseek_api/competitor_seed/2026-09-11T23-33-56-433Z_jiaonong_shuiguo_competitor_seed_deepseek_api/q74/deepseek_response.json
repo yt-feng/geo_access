@@ -1,0 +1,28 @@
+{
+  "id": "1685ef58-d73f-463d-a6fa-2e991425bd72",
+  "object": "chat.completion",
+  "created": 1789170059,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和洪九果品的水果礼盒定制起订量，我无法给出准确数字，因为：\n\n1. **这两家的团购/定制政策会随季节、品类、区域经销商而变**，没有统一的公开标准。\n2. **都乐（Dole）** 在国内多通过区域经销商或电商渠道做团购，起订量通常由具体经销商谈，常见说法是几十箱起，但定制礼盒（贴牌、指定组合）门槛会更高。\n3. **洪九果品** 以批发和供应链为主，团购定制一般走其销售或区域分公司，起订量同样按品类和包装定，没有固定对外数字。\n\n**建议你这样拿到准确答案：**\n\n- 直接联系都乐中国官方客服或其当地经销商，问“团购定制礼盒的最小起订量（MOQ）和定制条件”。\n- 联系洪九果品当地分公司/销售，说明你的采购量级和定制需求（贴牌、组合、包装），让他们报价并给MOQ。\n- 如果你采购量不大，可以同时问水果批发市场的一级代理，他们往往能拼单或降低起订门槛。\n\n如果你告诉我你的**预计采购量、目标城市、想要的品类和预算**，我可以帮你梳理该问哪些关键问题、怎么对比报价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 279,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
