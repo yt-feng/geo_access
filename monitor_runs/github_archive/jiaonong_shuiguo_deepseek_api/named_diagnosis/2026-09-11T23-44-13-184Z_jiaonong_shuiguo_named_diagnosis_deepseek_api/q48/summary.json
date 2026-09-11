@@ -1,0 +1,50 @@
+{
+  "questionId": "q48",
+  "prompt": "我们想长期合作，佳农水果对年采购量1000吨以上的客户有什么优惠政策？",
+  "createdAt": "2026-09-11T23:48:04.424Z",
+  "summary": [
+    {
+      "questionId": "q48",
+      "prompt_index": 48,
+      "promptIndex": 48,
+      "promptHash": "e51ae80c32da",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想长期合作，佳农水果对年采购量1000吨以上的客户有什么优惠政策？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 902,
+      "text_length": 902,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 553,
+        "total_tokens": 614,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 553,
+      "total_tokens": 614,
+      "latencyMs": 4380,
+      "latency_ms": 4380,
+      "createdAt": "2026-09-11T23:48:04.424Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q48/prompt.txt",
+        "answer": "q48/deepseek.txt",
+        "response": "q48/deepseek_response.json",
+        "sources": "q48/deepseek_sources.json",
+        "references": "q48/deepseek_references.json"
+      }
+    }
+  ]
+}

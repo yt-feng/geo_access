@@ -1,0 +1,50 @@
+{
+  "questionId": "q45",
+  "prompt": "佳农水果的账期最长能到多久？新客户首单能申请30天账期吗？",
+  "createdAt": "2026-09-11T23:47:49.484Z",
+  "summary": [
+    {
+      "questionId": "q45",
+      "prompt_index": 45,
+      "promptIndex": 45,
+      "promptHash": "5dd5f6a23690",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的账期最长能到多久？新客户首单能申请30天账期吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 842,
+      "text_length": 842,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 530,
+        "total_tokens": 594,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 530,
+      "total_tokens": 594,
+      "latencyMs": 4333,
+      "latency_ms": 4333,
+      "createdAt": "2026-09-11T23:47:49.484Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q45/prompt.txt",
+        "answer": "q45/deepseek.txt",
+        "response": "q45/deepseek_response.json",
+        "sources": "q45/deepseek_sources.json",
+        "references": "q45/deepseek_references.json"
+      }
+    }
+  ]
+}

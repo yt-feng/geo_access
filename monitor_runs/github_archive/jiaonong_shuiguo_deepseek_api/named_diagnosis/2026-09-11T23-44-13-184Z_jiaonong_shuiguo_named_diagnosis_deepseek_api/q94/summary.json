@@ -1,0 +1,50 @@
+{
+  "questionId": "q94",
+  "prompt": "我们批发商想了解佳农水果的香蕉分级标准，一级果和二级果价格差多少？",
+  "createdAt": "2026-09-11T23:52:07.902Z",
+  "summary": [
+    {
+      "questionId": "q94",
+      "prompt_index": 94,
+      "promptIndex": 94,
+      "promptHash": "e31f5f6b4566",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们批发商想了解佳农水果的香蕉分级标准，一级果和二级果价格差多少？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 726,
+      "text_length": 726,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 446,
+        "total_tokens": 509,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 446,
+      "total_tokens": 509,
+      "latencyMs": 4339,
+      "latency_ms": 4339,
+      "createdAt": "2026-09-11T23:52:07.902Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q94/prompt.txt",
+        "answer": "q94/deepseek.txt",
+        "response": "q94/deepseek_response.json",
+        "sources": "q94/deepseek_sources.json",
+        "references": "q94/deepseek_references.json"
+      }
+    }
+  ]
+}

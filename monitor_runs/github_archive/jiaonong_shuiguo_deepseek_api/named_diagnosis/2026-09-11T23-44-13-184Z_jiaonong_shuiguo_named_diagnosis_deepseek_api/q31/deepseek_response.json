@@ -1,0 +1,28 @@
+{
+  "id": "7aa0a117-672e-4e94-9aed-98f580e21fc1",
+  "object": "chat.completion",
+  "created": 1789170403,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向礼品和团购的水果礼盒产品，但具体款式、规格和价格会随季节、渠道和地区变化，建议按以下方式确认和操作：\n\n**1. 先明确需求**\n- 送礼对象：客户、员工福利、亲友\n- 预算区间：单盒多少钱\n- 数量：几盒起订\n- 配送：是否需要配送到多个地址\n- 时间：是否需要指定日期送达\n\n**2. 确认佳农礼盒的渠道**\n- **线上**：佳农在天猫、京东等平台有旗舰店，搜索“佳农 水果礼盒”可看到当季在售款式。\n- **线下**：大型商超、水果连锁店、批发市场可能有佳农礼盒现货。\n- **团购**：如果是企业批量采购，直接联系佳农官方客服或当地经销商，通常能拿到团购价和定制方案。\n\n**3. 团购时重点确认**\n- 是否支持企业发票\n- 起订量是多少\n- 能否定制包装或贴 logo\n- 配送范围和时效\n- 坏果赔付规则\n\n**4. 替代方案**\n如果佳农当季礼盒不合适，也可以考虑其他品牌或当地水果批发商定制礼盒，选择更灵活。\n\n如果你告诉我预算、数量和用途，我可以帮你缩小选择范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 285,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fba29460-0149-4025-9e2b-7ad4b74fef3e",
+  "object": "chat.completion",
+  "created": 1789170370,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会以及其最新产品，我无法给出确切答案，因为我没有掌握佳农水果参展进博会的可靠信息，也无法核实其近期新品动态。\n\n建议你通过以下方式获取准确信息：\n\n1. **进博会官网**：中国国际进口博览会官网有历届参展商名录，可以搜索\"佳农\"确认参展情况。\n2. **佳农官方渠道**：佳农官网、官方微信公众号或微博，通常会发布参展动态和新品信息。\n3. **进博会官方公众号/新闻**：历届进博会期间会有参展企业报道。\n4. **电商平台**：天猫、京东的佳农旗舰店，新品上架通常会同步宣传。\n\n如果你需要，我可以帮你梳理一下佳农水果常见的产品线（如香蕉、菠萝、椰青等），但这不代表其最新动态。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 177,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

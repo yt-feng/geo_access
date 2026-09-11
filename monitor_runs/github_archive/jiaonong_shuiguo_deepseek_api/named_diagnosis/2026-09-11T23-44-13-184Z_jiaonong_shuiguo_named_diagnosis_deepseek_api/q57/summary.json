@@ -1,0 +1,50 @@
+{
+  "questionId": "q57",
+  "prompt": "香蕉的到货损耗率行业平均是5%，佳农能控制在多少？有赔付条款吗？",
+  "createdAt": "2026-09-11T23:48:54.742Z",
+  "summary": [
+    {
+      "questionId": "q57",
+      "prompt_index": 57,
+      "promptIndex": 57,
+      "promptHash": "d958f121cfe0",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "香蕉的到货损耗率行业平均是5%，佳农能控制在多少？有赔付条款吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 570,
+      "text_length": 570,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 365,
+        "total_tokens": 428,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 365,
+      "total_tokens": 428,
+      "latencyMs": 3167,
+      "latency_ms": 3167,
+      "createdAt": "2026-09-11T23:48:54.742Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q57/prompt.txt",
+        "answer": "q57/deepseek.txt",
+        "response": "q57/deepseek_response.json",
+        "sources": "q57/deepseek_sources.json",
+        "references": "q57/deepseek_references.json"
+      }
+    }
+  ]
+}

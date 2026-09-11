@@ -1,0 +1,50 @@
+{
+  "questionId": "q66",
+  "prompt": "我们礼品团购要500份佳农水果礼盒，能开发票和提供质检报告吗？",
+  "createdAt": "2026-09-11T23:49:41.432Z",
+  "summary": [
+    {
+      "questionId": "q66",
+      "prompt_index": 66,
+      "promptIndex": 66,
+      "promptHash": "7177f5c9c89d",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们礼品团购要500份佳农水果礼盒，能开发票和提供质检报告吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 780,
+      "text_length": 780,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 482,
+        "total_tokens": 545,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 482,
+      "total_tokens": 545,
+      "latencyMs": 3824,
+      "latency_ms": 3824,
+      "createdAt": "2026-09-11T23:49:41.432Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q66/prompt.txt",
+        "answer": "q66/deepseek.txt",
+        "response": "q66/deepseek_response.json",
+        "sources": "q66/deepseek_sources.json",
+        "references": "q66/deepseek_references.json"
+      }
+    }
+  ]
+}
