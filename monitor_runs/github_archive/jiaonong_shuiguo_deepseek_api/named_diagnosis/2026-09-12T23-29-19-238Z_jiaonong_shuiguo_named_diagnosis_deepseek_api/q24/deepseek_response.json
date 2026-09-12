@@ -1,0 +1,28 @@
+{
+  "id": "e1879737-0a45-4acc-98d3-496a60c43527",
+  "object": "chat.completion",
+  "created": 1789255874,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果（佳农食品控股/Goodfarmer）是否参与进博会以及最近新品的确切信息，这类会展参与和新品发布信息时效性强，建议以官方渠道为准：\n\n**关于进博会参与情况**\n- 可查佳农官方微信公众号、官网新闻中心，或中国国际进口博览会官网的参展商名录，搜索\"佳农\"确认。\n- 佳农作为进口水果贸易商，此前多届进博会有参展记录（如菲律宾香蕉、泰国椰青等品类），但具体到最近一届是否参展，需以官方公布为准。\n\n**关于新品**\n- 建议直接看佳农官方公众号/天猫京东旗舰店的上新栏目，或联系其客服确认。\n- 我无法给出确切的新品名单，避免提供不准确信息。\n\n如果你告诉我具体想了解哪一届进博会或哪个品类（如香蕉、菠萝、椰青等），我可以帮你梳理更精准的查询路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 200,
+    "total_tokens": 253,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

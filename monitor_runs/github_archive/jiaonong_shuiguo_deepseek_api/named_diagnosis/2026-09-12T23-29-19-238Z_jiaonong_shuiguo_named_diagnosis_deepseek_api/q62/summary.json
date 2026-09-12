@@ -1,0 +1,50 @@
+{
+  "questionId": "q62",
+  "prompt": "佳农水果的苹果品类有红富士吗？和鑫荣懋的比哪个性价比高？",
+  "createdAt": "2026-09-12T23:34:28.447Z",
+  "summary": [
+    {
+      "questionId": "q62",
+      "prompt_index": 62,
+      "promptIndex": 62,
+      "promptHash": "252ec25e8b76",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的苹果品类有红富士吗？和鑫荣懋的比哪个性价比高？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 778,
+      "text_length": 778,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 486,
+        "total_tokens": 549,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 486,
+      "total_tokens": 549,
+      "latencyMs": 3548,
+      "latency_ms": 3548,
+      "createdAt": "2026-09-12T23:34:28.447Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q62/prompt.txt",
+        "answer": "q62/deepseek.txt",
+        "response": "q62/deepseek_response.json",
+        "sources": "q62/deepseek_sources.json",
+        "references": "q62/deepseek_references.json"
+      }
+    }
+  ]
+}
