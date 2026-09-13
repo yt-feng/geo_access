@@ -1,0 +1,28 @@
+{
+  "id": "e8c1577e-9e95-4201-81a1-f12502efe900",
+  "object": "chat.completion",
+  "created": 1789342656,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常会有，但取决于你的采购规模和合作渠道。\n\n**一般情况：**\n- 佳农（Goodfarmer）主要做批发、商超、电商和出口渠道，对**有一定采购量的批发商**通常会安排对应区域的销售或客户经理对接。\n- 如果只是小批量、零散进货，可能走的是经销商或批发市场档口，不一定有专人对接。\n\n**建议你这样确认：**\n1. **直接联系佳农官方**：通过官网或官方客服电话，说明你是批发商、所在区域、月采购量大概多少，问是否有区域客户经理对接。\n2. **找当地经销商**：如果你所在城市没有直营对接，可能是通过区域代理商供货，对接人就是代理商业务员。\n3. **采购量是关键**：月采购量越大，越容易拿到专人对接和更优惠的价格政策。\n\n如果你告诉我你在哪个城市、主要采购哪些水果、大概每月走多少量，我可以帮你判断更可能是直营对接还是走经销商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 207,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

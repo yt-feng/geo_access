@@ -1,0 +1,28 @@
+{
+  "id": "45d962ab-49cf-436f-94a5-09f0b8d7d92c",
+  "object": "chat.completion",
+  "created": 1789343099,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的菠萝是否有有机认证，我无法直接核验其当前产品线的认证状态，不能给你确切的“有”或“没有”。\n\n可以明确几点，便于你判断和推进：\n\n1. **有机认证是“单品+批次+证书”绑定的**  \n   即使佳农有有机菠萝，也必须对应具体包装规格、产地、批次的有机证书，不能只看品牌。\n\n2. **高端渠道通常认这几类证书**  \n   - 中国有机产品认证（COFCC等，带有机码可追溯）  \n   - 欧盟有机（EU Organic）  \n   - 美国 USDA Organic  \n   - 日本 JAS  \n   其中如果面向国内高端商超，通常至少要有中国有机认证。\n\n3. **建议直接向佳农官方或授权供应商索取**  \n   让对方提供：  \n   - 有机产品认证证书（在有效期内）  \n   - 认证机构名称  \n   - 证书覆盖的产品名称和产地  \n   - 该批次有机码/追溯信息  \n   如果对方只能给“绿色食品”“无公害”或“GAP”，那不等于有机。\n\n4. **更稳妥的替代方案**  \n   如果佳农没有有机菠萝，可以要求其提供：  \n   - 非转基因、农残检测报告  \n   - GLOBALG.A.P. 等良好农业规范认证  \n   但这只能作为“高品质”背书，不能当“有机”销售。\n\n如果你需要，我可以帮你整理一份向供应商索要有机资质的清单或邮件模板。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 325,
+    "total_tokens": 382,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

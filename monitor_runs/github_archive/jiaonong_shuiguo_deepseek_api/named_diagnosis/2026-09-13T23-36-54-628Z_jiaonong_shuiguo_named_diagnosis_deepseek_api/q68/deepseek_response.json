@@ -1,0 +1,28 @@
+{
+  "id": "28c836fc-ba41-446f-9f6d-b8c88abbe50e",
+  "object": "chat.completion",
+  "created": 1789342931,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）作为大型果蔬供应链企业，通常ERP为内部系统，**对外一般不会开放公开API文档**，需要走商务对接流程。建议你按以下步骤确认和推进：\n\n**1. 先确认对接主体和层级**\n- 你是直接和佳农总部合作，还是和其区域经销商/子公司合作？不同主体的系统能力和开放意愿差别很大。\n- 如果是通过采购合同合作的供应商，通常由对方IT或业务对接人提供接口说明。\n\n**2. 直接问对方三个问题**\n- 是否有对外开放的ERP/OMS/WMS API？文档能否提供？\n- 支持哪些对接方式：REST API、WebService、EDI、SFTP文件交换、数据库直连？\n- 接口范围：商品主数据、库存、价格、订单、发货/物流、对账，哪些能开放？\n\n**3. 常见现实情况**\n- 大型供应商ERP（如SAP、用友、金蝶、旺店通等）本身可开放接口，但企业往往只在合作规模足够大时才投入对接。\n- 中小供应商更可能用**Excel/CSV文件交换**或**EDI报文**，而非实时API。\n- 部分企业只提供**订单推送+发货回传**的最小接口集。\n\n**4. 如果对方没有API**\n可考虑的替代方案：\n- 通过第三方供应链平台（如一些生鲜B2B平台）中转\n- 用RPA或定时文件导入导出做半自动对接\n- 让佳农在其ERP侧开通一个只读数据视图或定时导出\n\n**5. 你需要提前准备的对接信息**\n- 你们的系统类型（自研/ERP/中台）\n- 需要的接口清单和数据频率（实时/定时）\n- 认证方式、网络环境（公网/VPN/专线）\n- 对账和异常处理机制\n\n**建议**：不要先假设有API，直接联系佳农的商务或IT对接人，明确问“是否提供开放接口及文档”。如果对方回复没有，再谈文件交换或第三方中转方案。\n\n如果你能告诉我你们用的ERP/中台是什么、以及和佳农的合作模式（直采/经销/平台），我可以给更具体的对接方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 474,
+    "total_tokens": 533,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
