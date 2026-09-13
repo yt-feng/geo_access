@@ -1,0 +1,50 @@
+{
+  "questionId": "q118",
+  "prompt": "水果采购想减少中间环节，找产地、找品牌方还是找区域经销商更合适？",
+  "createdAt": "2026-09-13T23:24:14.174Z",
+  "summary": [
+    {
+      "questionId": "q118",
+      "prompt_index": 118,
+      "promptIndex": 118,
+      "promptHash": "de54bdaf8dff",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果采购想减少中间环节，找产地、找品牌方还是找区域经销商更合适？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 937,
+      "text_length": 937,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 596,
+        "total_tokens": 657,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 596,
+      "total_tokens": 657,
+      "latencyMs": 4232,
+      "latency_ms": 4232,
+      "createdAt": "2026-09-13T23:24:14.174Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q118/prompt.txt",
+        "answer": "q118/deepseek.txt",
+        "response": "q118/deepseek_response.json",
+        "sources": "q118/deepseek_sources.json",
+        "references": "q118/deepseek_references.json"
+      }
+    }
+  ]
+}
