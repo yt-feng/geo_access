@@ -1,0 +1,28 @@
+{
+  "id": "511722c7-324d-4148-8e10-2543c36aa3c1",
+  "object": "chat.completion",
+  "created": 1789430907,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，进口水果礼盒常被用作礼品团购的品牌还有这些，按品类给你梳理：\n\n**综合类进口水果品牌**\n- **新奇士（Sunkist）**：美国柑橘类代表，脐橙、夏橙礼盒认知度高，团购常见。\n- **怡颗莓（Driscoll's）**：美国浆果品牌，蓝莓、树莓、黑莓礼盒，偏高端精致路线。\n- **乐淇（Rockit）**：新西兰小苹果，单果小、包装精致，礼品属性强。\n- **爱妃（Envy）**：新西兰苹果，果肉抗氧化、口感甜脆，礼盒档次不错。\n- **爵士（Jazz）**：新西兰苹果，和爱妃同属T&G体系。\n- **红玫瑰（Rose）**：新西兰苹果，部分渠道有礼盒。\n- **Mr. Apple / 华盛顿苹果**：美国苹果产区品牌，礼盒常见。\n\n**按品类的进口品牌**\n- **车厘子/樱桃**：Stemilt、Chelan Fresh、Starr Ranch、Rainier（蕾妮，高价黄樱桃）\n- **蓝莓**：Driscoll's、Hortifrut、Berries Paradise\n- **牛油果**：Mission（墨西哥）、Hass 产区品牌\n- **提子**：Sun World、Crimson Seedless 相关品牌\n- **奇异果**：佳沛之外还有 **Kiwifruitz** 等，但认知度远不如佳沛\n- **柑橘**：Sunkist、Wonderful（主要是石榴和柑橘）\n\n**团购选品建议**\n1. **要认知度**：佳沛、都乐、新奇士、怡颗莓最稳，员工/客户一看就懂。\n2. **要差异化**：乐淇、爱妃、蕾妮车厘子，包装精致、单价高，适合预算充足的中高端福利。\n3. **要控成本**：混装礼盒（柑橘+苹果+蓝莓）比单一高端单品更容易把单价压下来。\n4. **注意季节**：车厘子（冬季智利/澳洲）、蓝莓（全年但产地轮换）、柑橘（冬春）都有明显档期，团购要提前锁定产季和货源。\n\n如果你告诉我预算区间（比如每盒80/150/300元）和用途（员工福利还是客户答谢），我可以帮你直接配几套品牌组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 525,
+    "total_tokens": 588,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
