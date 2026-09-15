@@ -1,0 +1,28 @@
+{
+  "id": "ce3636b3-cc06-40fe-ab15-ca9679e10940",
+  "object": "chat.completion",
+  "created": 1789431522,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）确实有面向礼品团购的水果礼盒产品，但具体款式和供应情况会随季节、地区和渠道变化，建议以官方渠道为准。\n\n**常见礼盒方向：**\n- **进口水果礼盒**：如佳农主打的香蕉、菠萝（凤梨）、牛油果等组合装\n- **应季水果礼盒**：车厘子、蓝莓、猕猴桃等按季节推出的礼盒\n- **企业团购定制**：部分渠道支持定制包装、印logo、批量采购\n\n**如何确认和采购：**\n1. **官方渠道**：佳农官网、官方微信公众号/小程序，查看礼盒专区或团购入口\n2. **电商平台**：天猫、京东的佳农官方旗舰店，搜索\"礼盒\"\"团购\"\n3. **直接联系**：拨打佳农官方客服，咨询企业团购定制方案、起订量和报价\n4. **线下**：大型商超、生鲜门店的佳农专柜也可能有礼盒现货\n\n**建议**：如果是企业团购，直接联系官方客服谈定制最稳妥，能确认库存、价格、配送和开票等细节；如果只是少量购买，电商旗舰店通常更方便。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 265,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

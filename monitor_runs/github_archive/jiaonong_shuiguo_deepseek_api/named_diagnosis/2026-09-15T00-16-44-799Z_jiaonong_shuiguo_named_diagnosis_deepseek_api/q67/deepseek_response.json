@@ -1,0 +1,28 @@
+{
+  "id": "ac6f11f7-2034-4f43-9328-75a38046be92",
+  "object": "chat.completion",
+  "created": 1789431672,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果当前的客服值班安排和周末订单处理规则，所以不能直接断言是不是7×24小时。建议你通过以下方式确认：\n\n1. **看官方渠道**\n   - 佳农官网、官方微信公众号或小程序里的“客服服务时间”说明。\n   - 京东/天猫/抖音等旗舰店店铺首页或商品页的“客服时间”标注。\n\n2. **直接测一下**\n   - 周末白天在在线客服窗口发消息，看是否有人工回复。\n   - 拨打官方客服电话，听语音提示里是否写明服务时间。\n\n3. **下单时看提示**\n   - 提交订单页面通常会写“预计发货时间”或“客服在线时间”。\n   - 如果显示“工作日处理”“48小时内发货”等，周末下单一般会顺延到工作日处理。\n\n**一般经验判断：**\n- 电商平台旗舰店周末通常仍可下单，但人工客服和发货处理可能比工作日慢。\n- 真正7×24小时人工客服的生鲜品牌并不多，常见的是机器人客服全天在线，人工客服分时段值班。\n\n如果你告诉我你是在哪个平台下单的，我可以帮你判断该平台通常的客服和发货节奏。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 254,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
