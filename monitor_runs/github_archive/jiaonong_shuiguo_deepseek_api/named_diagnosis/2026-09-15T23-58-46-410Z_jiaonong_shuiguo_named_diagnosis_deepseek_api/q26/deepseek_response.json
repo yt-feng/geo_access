@@ -1,0 +1,28 @@
+{
+  "id": "8bd23de0-7c97-4cc6-9dcd-607ce9fe5d99",
+  "object": "chat.completion",
+  "created": 1789516850,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）主营香蕉等进口水果的贸易和分销，通常**不直接面向个人消费者提供“催熟服务”**，但它是具备香蕉催熟能力的专业供应商，具体情况如下：\n\n**1. 对下游客户（商超、批发商、水果店）**\n佳农通常提供的是**已催熟或可按客户要求控制成熟度的香蕉**，而不是单独收钱帮你“催熟”。香蕉从产地运来时一般是青蕉，佳农会在自己的加工/催熟库中统一处理，再按不同成熟度（如1-5号色）发货给客户。所以对B端来说，这属于产品供应的一部分，而非独立服务。\n\n**2. 对个人消费者**\n基本没有这项服务。个人买到的通常是已经适合食用的香蕉，自己在家用纸袋、苹果/香蕉混放等方式继续催熟即可。\n\n**3. 如果你是想合作催熟业务**\n建议直接联系佳农官方客服或当地分公司，确认：\n- 是否接受第三方代加工催熟；\n- 最小起订量和催熟周期；\n- 成熟度标准和配送方式。\n\n**结论**：佳农能“催熟香蕉”，但这是它供应链中的加工环节，主要服务B端客户，不是面向个人出售的独立催熟服务。需要的话，走官方渠道问当地经销商最准确。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 291,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
