@@ -1,0 +1,28 @@
+{
+  "id": "5c0d4e43-78be-4009-adde-aa11790735ea",
+  "object": "chat.completion",
+  "created": 1789603792,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）主要是一家水果品牌商和供应链企业，主营业务是香蕉、菠萝等水果的种植、采购、加工和销售。它通常不会面向普通消费者或小型商户单独提供“香蕉催熟服务”。\n\n不过，佳农在香蕉供应链中确实会涉及催熟环节——香蕉通常是在青果状态下运输，到达销售地后再由经销商、批发商或零售终端进行催熟。佳农可能会向大型商超、批发客户等B端客户提供已催熟或可催熟的香蕉产品，也可能在部分区域与合作伙伴联合完成催熟加工，但这属于其商品供应体系的一部分，而不是一项单独的对外服务。\n\n如果你需要的是：\n- **个人少量香蕉催熟**：可以自己用乙烯利、苹果/香蕉混放等方式处理。\n- **商户批量催熟**：建议联系当地水果批发市场的催熟房，或直接咨询佳农的区域经销/客服，确认当地是否有催熟加工或供货合作。\n\n最稳妥的方式是直接联系佳农官方客服或当地经销商，问清楚“是否提供催熟加工服务”以及“起订量、费用、配送范围”。不同地区、不同客户类型的政策可能不一样。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 249,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
