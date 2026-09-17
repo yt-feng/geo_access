@@ -1,0 +1,28 @@
+{
+  "id": "4efc2447-4e88-4f6c-b4d5-9586e2be242f",
+  "object": "chat.completion",
+  "created": 1789603079,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口苹果在国内常见、口碑相对稳的品牌/渠道，除了都乐（Dole）和鑫荣懋（旗下常见“佳沃”等），还可以看这几类：\n\n1. **佳沛（Zespri）**  \n   主要是奇异果，不是苹果，但如果你要的是“进口水果高端品牌”，它常被拿来对比。苹果方面它不算主力。\n\n2. **奇士（Chelan Fresh / 美国华盛顿苹果）**  \n   美国华盛顿州苹果对华出口常见，Chelan Fresh 是其中较有代表性的供应商/品牌之一。国内常以“华盛顿苹果”“红蛇果”“青苹果”等形式出现，品牌辨识度不一定像都乐那么强。\n\n3. **Stemilt（美国）**  \n   美国华盛顿州大型果蔬供应商，苹果、樱桃等都有。进口苹果里常见到它的包装或品种标识，如 Honeycrisp、Gala、Fuji 等。\n\n4. **Rainier Fruit（美国）**  \n   也是华盛顿州水果供应商，苹果和樱桃较知名。国内进口渠道里有时能看到。\n\n5. **CMI Orchards（美国）**  \n   华盛顿州苹果出口商之一，常见品种包括富士、嘎啦、红蛇果等。品牌在零售端不一定直接露出，更多是供应商层面。\n\n6. **Enza / T&G Global（新西兰）**  \n   新西兰苹果出口的重要玩家，旗下有 **Jazz、Envy、Pacific Rose、Braeburn** 等品牌苹果。国内进口苹果里，Envy（爱妃）和 Jazz（爵士）认知度较高，算比较靠谱的高端线。\n\n7. **Mr Apple（新西兰）**  \n   新西兰苹果出口品牌之一，常见皇家嘎啦、富士、Queen 等。国内精品超市偶尔能见到。\n\n8. **Montague / Freshmax（澳大利亚、新西兰）**  \n   澳洲苹果如 Pink Lady（粉红佳人）有独立品牌体系。Pink Lady 本身是品种品牌，不是单一公司，但全球授权管理较严，国内进口粉红佳人通常品质较稳定。\n\n9. **Pink Lady（粉红佳人）**  \n   严格说是品种/品牌联盟，不是普通供应商。进口苹果里辨识度高，酸甜脆，适合喜欢清爽口感的人。\n\n10. **Rockit（小苹果，新西兰）**  \n    乐淇小苹果，品牌化很强，主要做小规格苹果。国内进口渠道常见，适合儿童或零食场景。\n\n11. **Fresco / Fruity Pack 等智利、南非供应商**  \n    智利、南非苹果进口量也大，但品牌端不如美国、新西兰集中。采购时更应看具体出口商、品种和到货批次，而不是只看国家。\n\n**采购/对比建议：**\n- 如果看**零售品牌认知**：都乐、佳沃、佳沛、Rockit、Pink Lady、Envy、Jazz 更容易判断。\n- 如果看**批发供应商稳定性**：重点看 Chelan Fresh、Stemilt、Rainier、CMI、T&G、Mr Apple、Montague 等。\n- 如果看**口感**：  \n  - 脆甜多汁：Envy、Honeycrisp、富士  \n  - 酸甜清爽：Pink Lady、Jazz、Braeburn  \n  - 小规格零食：Rockit  \n- 如果看**到货稳定性**：美国华盛顿、新西兰、智利、南非是主要来源，但同一品牌不同批次差异也可能很大，最好按品种、规格、糖度、硬度、到港时间做表对比。\n\n如果你是要做**采购选品对比表**，建议按这几个维度列：品牌/供应商、产地、主推品种、规格、包装、到港季节、口感特点、国内渠道价、损耗率、适合渠道（商超/水果店/电商/团购）。这样比只比品牌更实用。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 832,
+    "total_tokens": 894,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
