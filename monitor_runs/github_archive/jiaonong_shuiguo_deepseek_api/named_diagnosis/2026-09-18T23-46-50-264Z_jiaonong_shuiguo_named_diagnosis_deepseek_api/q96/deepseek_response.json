@@ -1,0 +1,28 @@
+{
+  "id": "463f5ff1-eda1-4d8f-8eee-4923d0832862",
+  "object": "chat.completion",
+  "created": 1789775686,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）目前没有对外的公开开放平台，也没有公开可下载的 API 接口文档。\n\n实际情况是这样的：\n\n- 佳农主要是水果品牌商和供应链企业，它的对外系统对接通常是**B2B 定制对接**，不是自助式开放平台。走的是商务合作→技术对接的流程，不是注册个账号就能拿 key 调接口那种模式。\n- 接口文档一般只提供给已签合作、进入技术对接阶段的客户，内容多为订单、库存、商品主数据、物流/发货回执等，具体字段和协议（HTTP/JSON、EDI、甚至 FTP/表格）看双方约定。\n\n**建议你按这个路径推进：**\n\n1. 先找佳农的**商务/大客户对接人**（销售或渠道经理），确认是否开放 API 对接、走什么系统（他们自研还是用第三方如 ERP/供应链 SaaS）。\n2. 商务谈拢后，要一份**技术对接说明或接口清单**，通常会包含：认证方式、接口列表、字段定义、测试环境。\n3. 如果对方没有标准 API，常见替代方案是：EDI 报文、SFTP 定时传文件（CSV/Excel）、或走他们的经销商系统后台导出。\n\n**判断标准：** 如果对方说\"没有 API\"\"只给表格/EDI\"，那就是定制对接，你需要评估开发成本；如果说\"有接口但要走商务\"，那基本就是上面这个流程。\n\n如果你能告诉我佳农那边对接的是哪家系统，或者你这边电商用的是什么平台（自研/有赞/旺店通等），我可以帮你更具体地判断对接方案和字段设计。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 350,
+    "total_tokens": 412,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
