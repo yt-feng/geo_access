@@ -1,0 +1,28 @@
+{
+  "id": "1f4b9345-1a8a-4805-b873-44d25ef04169",
+  "object": "chat.completion",
+  "created": 1789689775,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果有针对礼品和团购场景的水果礼盒，但具体以你所在城市和当时渠道为准。\n\n常见情况：\n- **有礼盒产品**：佳农常做整箱装、礼盒装，比如佳农菠萝、佳农椰青、佳农香蕉、佳农苹果等，部分会做成节日礼盒或组合装。\n- **团购渠道**：企业团购、节日福利、批发采购一般可以通过佳农官方渠道、区域经销商、大型商超/生鲜平台的企业采购入口咨询。\n- **节日性更强**：春节、中秋、端午、教师节、企业年会等节点，礼盒和团购方案通常会更丰富。\n- **可定制**：部分区域经销商支持企业LOGO、贺卡、外箱定制，但通常有起订量要求。\n\n建议你直接这样确认：\n1. 找**佳农官方客服或当地经销商**，问“企业团购水果礼盒报价单”；\n2. 说明需求：数量、预算、配送城市、是否需要定制、期望到货时间；\n3. 如果是公司采购，优先问能否开票、能否分地址配送、售后坏果怎么赔。\n\n如果你告诉我所在城市、采购数量和预算，我可以帮你整理一份更具体的询价话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 271,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

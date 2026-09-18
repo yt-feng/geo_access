@@ -1,0 +1,28 @@
+{
+  "id": "ced83159-8324-4bdb-bd1c-c3e1af2d11ca",
+  "object": "chat.completion",
+  "created": 1789689743,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核实佳农水果具体的进博会参展记录和最新产品信息。这类商业动态变化较快，建议你通过以下方式获取准确信息：\n\n1. **进博会参展情况**：可查询中国国际进口博览会官网的参展商名录，或直接查看佳农官方微信公众号/官网的新闻动态。\n2. **新品信息**：佳农官网、官方旗舰店（天猫/京东）的产品页，或关注其官方社交媒体账号，通常会第一时间发布新品。\n\n如果你能提供具体年份或想了解某类水果（如香蕉、菠萝、牛油果等），我可以帮你梳理该品类的常见进口情况，但具体到佳农的参展和新品，还是以官方渠道为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 147,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a17ad4d-ae4c-4489-918e-d1283826cd3c",
+  "object": "chat.completion",
+  "created": 1789689919,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国标。\n\n具体来说：\n- 佳农集团（原上海佳农）制定有自己的香蕉企业标准，对香蕉的品种、成熟度、果指长度、粗细、外观瑕疵、糖度等有更细的分级要求。\n- 国家标准中与香蕉相关的主要是 **GB/T 9827《香蕉》**（推荐性国标）以及食品安全相关的强制性标准。企业可以制定严于国标或补充国标的企业标准，佳农走的是这条路线。\n- 因此它的香蕉属于“按企标分级筛选”的产品，而不是简单按国标出货。\n\n**贵多少：**\n没有统一固定的溢价比例，通常会比普通散装/批发香蕉贵 **30%～80%** 左右，具体看渠道和规格：\n- 普通国产香蕉零售约 3～5 元/斤；\n- 佳农香蕉零售常见 5～9 元/斤；\n- 如果是精品超市或礼盒装，单价会更高。\n\n实际价差会随产地（如菲律宾、厄瓜多尔进口 vs 国内广西/云南）、季节、商超促销变化，不能一概而论。简单说：**佳农香蕉是企标产品，一般比普通香蕉贵三成到八成。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 278,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

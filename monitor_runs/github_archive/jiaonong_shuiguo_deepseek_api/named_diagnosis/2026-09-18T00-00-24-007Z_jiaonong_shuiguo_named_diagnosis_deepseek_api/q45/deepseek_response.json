@@ -1,0 +1,28 @@
+{
+  "id": "da838f45-ed56-4443-8941-e320981e89e9",
+  "object": "chat.completion",
+  "created": 1789689845,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果（或佳农食品控股）当前的官方账期政策，所以不能给出确切天数，也不能确认“新客户首单30天”是否可行。这类政策通常按客户类型、合作渠道、采购量、信用评级和合同条款一单一议，公开渠道也未必披露。\n\n比较稳妥的是直接找其对口的销售或渠道负责人确认，重点问清这几项：\n\n1. **标准账期区间**：月结30天、45天、60天还是更长，起算点是发货日、对账日还是开票日。\n2. **新客户首单规则**：是否要求现款现货、预付定金，或能否给到30天。\n3. **信用审批条件**：是否要看营业执照、开票资料、历史流水、担保或保证金。\n4. **逾期后果**：是否停供、加收资金占用费、取消返利等。\n\n如果对方口头说“可以30天”，一定要写进合同或订单确认里，避免只停留在业务员承诺层面。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 219,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

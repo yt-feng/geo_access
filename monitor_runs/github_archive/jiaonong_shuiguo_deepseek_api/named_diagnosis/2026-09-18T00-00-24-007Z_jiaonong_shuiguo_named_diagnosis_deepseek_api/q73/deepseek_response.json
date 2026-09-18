@@ -1,0 +1,28 @@
+{
+  "id": "129f7ca6-174b-44bc-ad3e-430c0569c4bb",
+  "object": "chat.completion",
+  "created": 1789689990,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）的水果业务里，苹果不是其最核心的强项品类，但公开渠道能查到的佳农苹果通常以进口苹果为主，常见会涉及：\n\n- **嘎啦果（Gala）**\n- **红富士（Fuji）**\n- **青苹果/史密斯（Granny Smith）** 等部分进口品类\n\n但具体到某一时段佳农在售的苹果品类、规格和包装，会随产季、订单和渠道变化，**我不能保证当前一定有“进口嘎啦”和“进口红富士”现货**。\n\n关于产地：\n\n- **嘎啦（Gala）**：进口嘎啦常见产地有 **新西兰、美国、智利、南非** 等。\n- **红富士（Fuji）**：进口红富士常见产地有 **美国、新西兰、智利、南非** 等；其中美国华盛顿州、新西兰、智利是较常见的出口来源。\n\n如果你是要采购，建议直接向佳农或其授权经销商确认以下几点：\n\n1. **当前可供品类**：是否有进口嘎啦、进口红富士，还是只有国产替代。\n2. **具体产地**：要求提供原产地证明或装箱单上的 Origin。\n3. **规格**：果径、每箱个数、净重、包装形式。\n4. **到货港和贸易条款**：FOB/CIF/到岸价，以及是否可做代办进口。\n5. **检测与合规**：进口水果需有海关检验检疫相关单证，国内销售还需符合相应标签要求。\n\n如果你愿意，我可以帮你整理一份**向佳农询价的采购邮件/微信话术模板**，把品种、产地、规格、数量、到货港这些一次问清。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 371,
+    "total_tokens": 434,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

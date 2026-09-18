@@ -1,0 +1,28 @@
+{
+  "id": "917794e4-5633-4f2a-bbe1-c055e452deea",
+  "object": "chat.completion",
+  "created": 1789689879,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，佳农水果礼盒的**最小起订量**和**是否支持印企业logo**，我这边没有可核验的官方数据，不能凭空给你一个数字，否则容易误导你的团购决策。\n\n不过这类礼品团购定制，通常可以按下面几步快速确认：\n\n1. **直接找佳农官方渠道确认**\n   - 佳农官网的“团购/企业采购/联系我们”\n   - 官方客服电话或官方公众号\n   - 天猫/京东佳农旗舰店客服，问企业团购定制\n\n2. **问清楚这4个关键点**\n   - 最小起订量：是按盒、按箱，还是按礼盒套数\n   - 能否印logo：是印在礼盒、腰封、手提袋，还是贴标\n   - 起订门槛：多少盒以上才能定制，是否需要打样费/版费\n   - 交期和档期：节前旺季通常要提前更久\n\n3. **如果佳农官方不支持企业logo定制**\n   常见替代方案：\n   - 采购佳农标准礼盒，外加定制腰封/贴纸/手提袋\n   - 找佳农经销商或礼品公司做二次包装\n   - 换其他支持企业定制的精品水果品牌\n\n建议你先联系佳农官方客服，把“预计采购数量、预算、交货城市、需要印logo的位置”一次说清，对方一般会直接给你能不能做、多少起订。如果你告诉我大概要多少盒、什么预算，我也可以帮你判断走官方定制还是二次包装更划算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 339,
+    "total_tokens": 405,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
