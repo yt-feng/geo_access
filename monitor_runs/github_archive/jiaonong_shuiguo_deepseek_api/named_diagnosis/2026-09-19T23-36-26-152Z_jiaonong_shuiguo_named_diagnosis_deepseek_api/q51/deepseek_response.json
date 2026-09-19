@@ -1,0 +1,28 @@
+{
+  "id": "c271ab0c-e1f2-47d8-9358-1bd6f155179a",
+  "object": "chat.completion",
+  "created": 1789861230,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "抱歉，佳农水果礼盒的定制起订量和LOGO印刷政策属于具体商务条款，我无法核验其官方数据，直接给你数字容易误导。\n\n可以提供几个可执行建议：\n\n- **最快确认方式**：联系佳农官方客服或当地经销商，直接问“企业团购定制礼盒的MOQ是多少、能否印logo、印logo是否另收版费/制版费”。\n- **电商渠道**：在天猫/京东的佳农官方旗舰店找客服，说明“企业礼品团购+定制logo”，通常会有专门的企业团购对接。\n- **线下渠道**：如果你们有合作的商超、水果批发商，也可以让他们帮忙对接佳农区域业务，往往比线上客服更快拿到团购报价。\n- **提前准备的问法**：一次问清这几点，避免来回沟通——\n  1. 最小起订量（按盒/按箱）\n  2. 是否支持印公司logo，印制位置和工艺\n  3. 是否需要制版费、打样费\n  4. 定制周期（下单到交货）\n  5. 礼盒内水果品类/规格是否可自选\n  6. 含税价、运费、破损理赔规则\n\n一般来说，水果礼盒定制印logo通常有起订量门槛，且生鲜类礼盒旺季（中秋、春节前）排期紧，建议至少提前3-4周对接。具体数字以佳农官方或授权经销商报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 315,
+    "total_tokens": 381,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
