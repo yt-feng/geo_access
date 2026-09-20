@@ -1,0 +1,28 @@
+{
+  "id": "e571a6cc-d98e-49f2-8b14-6158b1328d36",
+  "object": "chat.completion",
+  "created": 1789948111,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法直接提供佳农水果的香蕉农残检测报告。这类报告属于具体批次的随货质量文件，通常只有通过官方渠道才能拿到有效版本。\n\n**建议你这样做：**\n\n1. **直接联系佳农官方**\n   - 找给你供货的佳农业务员或区域经销商，要求提供**对应批次的**农残检测报告（COA/检验报告）。\n   - 注意必须是**该批次**的，不是通用样板报告，否则市场抽检时对不上货。\n\n2. **确认报告要素是否合规**\n   拿到后重点核对：\n   - 检测机构是否具备 **CMA** 资质（有 CMA 章）\n   - 报告编号、样品名称、批次号/生产日期与你采购的货一致\n   - 检测项目覆盖你所在市场抽检的农残指标（如 GB 2763 中香蕉相关项目）\n   - 结论为“合格”\n\n3. **保留索证索票**\n   采购时让对方随货提供：检测报告 + 供货凭证 + 营业执照/食品经营许可等，便于应对市场监督管理局抽检和追溯。\n\n4. **必要时自行送检**\n   如果对方报告不全或你不放心，可自行取样送第三方检测机构（CMA/CNAS）做农残检测，作为自己采购验收的依据。\n\n如果你告诉我你所在的市场/地区，以及具体要对照哪个抽检标准，我可以帮你梳理需要覆盖的检测项目清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 305,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

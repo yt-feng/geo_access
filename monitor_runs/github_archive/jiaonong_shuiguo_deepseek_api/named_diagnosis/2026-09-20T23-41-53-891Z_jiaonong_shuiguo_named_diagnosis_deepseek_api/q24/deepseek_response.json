@@ -1,0 +1,28 @@
+{
+  "id": "4eb8edb7-1390-4e68-9721-b63fcec65569",
+  "object": "chat.completion",
+  "created": 1789947826,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果在进博会上的具体参展记录，也不掌握其最新新品发布的权威信息，所以不能直接给你确定答案。\n\n如果你需要确认这两点，建议用以下可执行方式：\n\n1. **查进博会参展记录**\n   - 打开中国国际进口博览会官网，在“参展商”或“展商名录”中搜索“佳农”或“佳农水果”。\n   - 同时搜索往届进博会新闻稿，看是否有“佳农”相关展台、签约或新品发布报道。\n\n2. **查最近新品**\n   - 看佳农官方渠道：官网、微信公众号、微博、天猫/京东旗舰店。\n   - 重点看“新品上市”“首发”“当季新品”等栏目。\n   - 也可以看其近期参加的展会、发布会新闻，通常会同步新品信息。\n\n3. **判断是否可靠**\n   - 官方渠道、进博会官网、主流媒体可视为较高可信来源。\n   - 只有电商详情页或经销商说法时，建议再交叉核对一次。\n\n如果你愿意，我也可以帮你整理一份“佳农进博会+新品”的核查清单，方便你逐项去搜。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 248,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

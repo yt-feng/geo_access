@@ -1,0 +1,28 @@
+{
+  "id": "1cb0fb74-dba6-4288-84c0-9abee2271bdd",
+  "object": "chat.completion",
+  "created": 1789947742,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送范围会随销售渠道不同而变化，通常分几种情况：\n\n1. **京东/天猫等电商旗舰店**  \n   一般依托京东物流或顺丰，覆盖全国大部分地级市和较多县城，但具体能不能送到，要看你在下单页填的收货地址是否显示“有货/可配送”。\n\n2. **美团/饿了么/抖音小时达等本地生活渠道**  \n   这类通常是本地门店或前置仓发货，只覆盖门店周边几公里到几十公里，县城能不能送取决于当地有没有合作门店或仓。\n\n3. **佳农官方小程序/私域渠道**  \n   覆盖范围以页面提示为准，部分偏远地区可能不发货或另收运费。\n\n**最准确的判断方法：**\n- 打开你常用的购买渠道（京东、天猫、美团、抖音等），搜索“佳农”，选一个具体商品；\n- 把收货地址填成你县城的详细地址；\n- 看页面是否提示“可配送”“预计送达时间”或“该地区无货”。\n\n如果显示可下单并有时效，就基本能送到；如果提示无货、不支持配送或只能发到市区，那就是送不到。不同品类（香蕉、菠萝、冷冻水果等）配送范围也可能不一样，建议以具体商品页为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 272,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
