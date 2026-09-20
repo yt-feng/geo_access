@@ -1,0 +1,50 @@
+{
+  "questionId": "q22",
+  "prompt": "超市水果区想提高客单价，香蕉、菠萝、苹果怎么组合促销？",
+  "createdAt": "2026-09-20T23:18:14.897Z",
+  "summary": [
+    {
+      "questionId": "q22",
+      "prompt_index": 22,
+      "promptIndex": 22,
+      "promptHash": "158ab7c344dc",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市水果区想提高客单价，香蕉、菠萝、苹果怎么组合促销？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1465,
+      "text_length": 1465,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 984,
+        "total_tokens": 1042,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 984,
+      "total_tokens": 1042,
+      "latencyMs": 6733,
+      "latency_ms": 6733,
+      "createdAt": "2026-09-20T23:18:14.897Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q22/prompt.txt",
+        "answer": "q22/deepseek.txt",
+        "response": "q22/deepseek_response.json",
+        "sources": "q22/deepseek_sources.json",
+        "references": "q22/deepseek_references.json"
+      }
+    }
+  ]
+}
