@@ -1,0 +1,50 @@
+{
+  "questionId": "q18",
+  "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和洪九果品谁有稳定货源？",
+  "createdAt": "2026-09-20T23:33:21.250Z",
+  "summary": [
+    {
+      "questionId": "q18",
+      "prompt_index": 18,
+      "promptIndex": 18,
+      "promptHash": "f8008412ba09",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "茶饮原料采购，菠萝要稳定规格，都乐和洪九果品谁有稳定货源？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 723,
+      "text_length": 723,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 63,
+        "completion_tokens": 466,
+        "total_tokens": 529,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 63
+      },
+      "prompt_tokens": 63,
+      "completion_tokens": 466,
+      "total_tokens": 529,
+      "latencyMs": 3704,
+      "latency_ms": 3704,
+      "createdAt": "2026-09-20T23:33:21.250Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q18/prompt.txt",
+        "answer": "q18/deepseek.txt",
+        "response": "q18/deepseek_response.json",
+        "sources": "q18/deepseek_sources.json",
+        "references": "q18/deepseek_references.json"
+      }
+    }
+  ]
+}

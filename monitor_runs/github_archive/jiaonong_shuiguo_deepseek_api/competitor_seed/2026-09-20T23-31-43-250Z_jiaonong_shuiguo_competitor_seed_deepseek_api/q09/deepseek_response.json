@@ -1,0 +1,28 @@
+{
+  "id": "962dc3a1-9f27-4f9b-b2b1-254944c8e102",
+  "object": "chat.completion",
+  "created": 1789947146,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可考虑的进口水果品牌主要有这些，按品类分：\n\n**综合型国际果蔬品牌**\n- **新奇士（Sunkist）**：美国柑橘类老牌，橙子、柠檬礼盒认知度高，适合商务送礼。\n- **怡颗莓（Driscoll's）**：美国浆果品牌，蓝莓、树莓、黑莓，礼盒偏高端，适合女性/年轻客群。\n- **卓莓（Driscoll's 中文另一译法，常与怡颗莓混用，需确认具体供应商）**：实际采购时认准“Driscoll's”英文标识。\n- **SanLucar**：西班牙果蔬品牌，柑橘、葡萄等，欧洲礼盒质感不错。\n- **Del Monte（地扪）**：部分进口水果和果干礼盒，但水果端不如都乐强。\n\n**单一品类强势品牌**\n- **Chiquita（金吉达）**：香蕉为主，礼盒场景偏弱。\n- **Pink Lady（粉红佳人）**：苹果，礼盒辨识度高，适合中高端。\n- **Envy / Jazz / Rockit（乐淇）**：新西兰/美国苹果品牌，Rockit 小苹果礼盒在团购里很常见。\n- **Sun World**：以葡萄、车厘子授权品种为主，采购时看具体包装品牌。\n- **Stemilt / Chelan Fresh / Oneonta**：美国车厘子季常见供应商品牌，适合夏季团购。\n- **Prize / Vanguard / Rio King**：车厘子、蓝莓等进口商品牌，需按当季货源确认。\n- **Zespri 之外的奇异果**：如 **Sungold**、**Golden Kiwi** 等，但品牌力不如佳沛。\n\n**高端/小众礼品向**\n- **Miyazaki Mango（宫崎芒果）**、**Shine Muscat（阳光玫瑰）** 日本/韩国产，多为产区品牌而非公司品牌。\n- **Kissabel**：苹果品牌，部分高端商超有售。\n- **Fruitist / The Fruit Company**：偏礼品篮渠道，国内团购直接采购较少。\n\n**采购建议**\n1. 先定品类：柑橘、苹果、车厘子、蓝莓、奇异果，不同品牌强势品类不同。\n2. 认准英文商标和授权商，进口水果礼盒“同品类不同品牌”价差很大。\n3. 团购要确认：是否支持定制腰封/贺卡、起订量、冷链发货、破损赔付。\n4. 如果预算有限，可组合“1个强品牌+1个当季单品”，比全用大牌更划算。\n\n如果你告诉我预算区间和用途（员工福利/客户送礼/节日团购），我可以帮你缩到3-5个具体品牌组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 624,
+    "total_tokens": 687,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

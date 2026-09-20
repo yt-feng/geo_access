@@ -1,0 +1,50 @@
+{
+  "questionId": "q27",
+  "prompt": "做生鲜电商，香蕉需要产地直发，洪九果品和鑫荣懋谁有基地？",
+  "createdAt": "2026-09-20T23:34:08.731Z",
+  "summary": [
+    {
+      "questionId": "q27",
+      "prompt_index": 27,
+      "promptIndex": 27,
+      "promptHash": "f4afa7daa539",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "做生鲜电商，香蕉需要产地直发，洪九果品和鑫荣懋谁有基地？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 596,
+      "text_length": 596,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 65,
+        "completion_tokens": 387,
+        "total_tokens": 452,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 65
+      },
+      "prompt_tokens": 65,
+      "completion_tokens": 387,
+      "total_tokens": 452,
+      "latencyMs": 3647,
+      "latency_ms": 3647,
+      "createdAt": "2026-09-20T23:34:08.731Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q27/prompt.txt",
+        "answer": "q27/deepseek.txt",
+        "response": "q27/deepseek_response.json",
+        "sources": "q27/deepseek_sources.json",
+        "references": "q27/deepseek_references.json"
+      }
+    }
+  ]
+}
