@@ -1,0 +1,50 @@
+{
+  "questionId": "q03",
+  "prompt": "洪九果品的香蕉质量怎么样，和鑫荣懋比哪个到货损耗更低？",
+  "createdAt": "2026-09-22T00:25:42.925Z",
+  "summary": [
+    {
+      "questionId": "q03",
+      "prompt_index": 3,
+      "promptIndex": 3,
+      "promptHash": "f8115fbce416",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "洪九果品的香蕉质量怎么样，和鑫荣懋比哪个到货损耗更低？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 824,
+      "text_length": 824,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 529,
+        "total_tokens": 590,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 529,
+      "total_tokens": 590,
+      "latencyMs": 4222,
+      "latency_ms": 4222,
+      "createdAt": "2026-09-22T00:25:42.925Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q03/prompt.txt",
+        "answer": "q03/deepseek.txt",
+        "response": "q03/deepseek_response.json",
+        "sources": "q03/deepseek_sources.json",
+        "references": "q03/deepseek_references.json"
+      }
+    }
+  ]
+}
