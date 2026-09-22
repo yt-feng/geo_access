@@ -1,0 +1,28 @@
+{
+  "id": "7bf58ee8-c2ff-41e3-8147-4196a328b876",
+  "object": "chat.completion",
+  "created": 1790037682,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认你提到的“佳农水果菠萝进口量11.4万吨”是不是2025年的数据，也无法给出可靠增长率。\n\n原因是：这类进口量数据通常来自海关总署、行业协会或企业公告，我无法在当前对话中核验具体来源。如果只凭“11.4万吨”这个数字直接判断年份和增长率，很容易出错。\n\n你可以这样核实：\n\n1. **看原始出处**\n   - 如果是佳农官方发布，查佳农官网/公众号/年报。\n   - 如果是媒体报道，看它引用的数据源是不是海关总署、中国果品流通协会、上海海关等。\n\n2. **确认统计口径**\n   - 是“佳农自身进口量”，还是“中国菠萝总进口量”？\n   - 是鲜菠萝还是菠萝制品？\n   - 是全年、产季，还是某个口岸？\n\n3. **算增长率需要两年数据**\n   - 增长率 =（2025年进口量 - 2024年进口量）÷ 2024年进口量 × 100%。\n   - 只有“11.4万吨”一个数字，无法反推增长率。\n\n如果你能把原文、截图或来源链接发我，我可以帮你判断这个11.4万吨对应哪一年、口径是什么，并帮你核算增长率是否算得对。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 273,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

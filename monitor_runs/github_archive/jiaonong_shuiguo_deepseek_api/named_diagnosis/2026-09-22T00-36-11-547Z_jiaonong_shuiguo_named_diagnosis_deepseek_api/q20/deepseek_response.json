@@ -1,0 +1,28 @@
+{
+  "id": "c2648e8d-154f-487e-99e6-809383ec4e5c",
+  "object": "chat.completion",
+  "created": 1790037460,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认佳农水果目前是否提供菠萝的定制化加工服务（如切块、包装），因为这类具体业务信息需要以企业官方渠道的最新说明为准。\n\n建议你通过以下方式快速核实：\n\n1. **查看佳农官网/官方公众号/小程序**：看是否有“定制加工”“代工”“OEM/ODM”“鲜切果”“分装”等服务入口或介绍。\n2. **直接联系官方客服或销售**：明确问三件事：\n   - 是否支持菠萝切块、切丁、切片等加工；\n   - 是否支持定制包装（规格、品牌、标签、箱规）；\n   - 起订量、加工标准、冷链/保质期、报价和交付周期。\n3. **如果是企业采购**：让对方提供加工资质、车间标准（如食品安全体系）、样品和合同条款。\n\n如果佳农本身不直接做，常见替代路径是：\n- 找其经销商/加工配送商；\n- 找专业鲜切水果加工厂；\n- 由你提供原料，委托有资质的代工厂加工。\n\n如果你告诉我你是**个人少量**还是**企业批量**、需要**鲜切冷藏**还是**冷冻**、以及**包装规格**，我可以帮你整理一份更具体的询价清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 267,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
