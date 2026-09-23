@@ -1,0 +1,50 @@
+{
+  "questionId": "q70",
+  "prompt": "批发商担心货到后损耗高，合同里应该怎么写坏果责任？",
+  "createdAt": "2026-09-23T23:51:43.547Z",
+  "summary": [
+    {
+      "questionId": "q70",
+      "prompt_index": 70,
+      "promptIndex": 70,
+      "promptHash": "e3a0784579af",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发商担心货到后损耗高，合同里应该怎么写坏果责任？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1146,
+      "text_length": 1146,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 760,
+        "total_tokens": 818,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 760,
+      "total_tokens": 818,
+      "latencyMs": 5305,
+      "latency_ms": 5305,
+      "createdAt": "2026-09-23T23:51:43.547Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q70/prompt.txt",
+        "answer": "q70/deepseek.txt",
+        "response": "q70/deepseek_response.json",
+        "sources": "q70/deepseek_sources.json",
+        "references": "q70/deepseek_references.json"
+      }
+    }
+  ]
+}
