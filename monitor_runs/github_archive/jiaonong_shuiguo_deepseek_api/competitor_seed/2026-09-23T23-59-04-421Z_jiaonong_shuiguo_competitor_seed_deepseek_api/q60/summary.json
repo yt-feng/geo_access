@@ -1,0 +1,50 @@
+{
+  "questionId": "q60",
+  "prompt": "进口菠萝到货损耗率太高，都乐和鑫荣懋怎么控制品质？",
+  "createdAt": "2026-09-24T00:04:38.760Z",
+  "summary": [
+    {
+      "questionId": "q60",
+      "prompt_index": 60,
+      "promptIndex": 60,
+      "promptHash": "7a89d62aca31",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "进口菠萝到货损耗率太高，都乐和鑫荣懋怎么控制品质？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1739,
+      "text_length": 1739,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 60,
+        "completion_tokens": 1175,
+        "total_tokens": 1235,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 60
+      },
+      "prompt_tokens": 60,
+      "completion_tokens": 1175,
+      "total_tokens": 1235,
+      "latencyMs": 10033,
+      "latency_ms": 10033,
+      "createdAt": "2026-09-24T00:04:38.760Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q60/prompt.txt",
+        "answer": "q60/deepseek.txt",
+        "response": "q60/deepseek_response.json",
+        "sources": "q60/deepseek_sources.json",
+        "references": "q60/deepseek_references.json"
+      }
+    }
+  ]
+}
