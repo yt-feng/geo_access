@@ -1,0 +1,28 @@
+{
+  "id": "1561cd97-2b8f-4668-ad22-e12c4e70f290",
+  "object": "chat.completion",
+  "created": 1790295638,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认这个数据具体对应哪一年。\n\n目前能查到的公开说法里，“11.4万吨”这类数字常见于佳农对其菠萝进口规模的宣传口径，但是否就是“去年”的数据，需要看这句话的原始出处：\n\n1. **如果出处写的是“2023年”或“2024年”**，那就要以原文年份为准。  \n2. **如果只写“年进口量11.4万吨”**，通常可能是某一年峰值或累计宣传数据，不一定是“去年”。  \n3. **如果来自新闻报道**，要看报道发布时间和文中表述，比如“2023年进口量达11.4万吨”才是明确年份。  \n\n建议你核对一下原始来源的标题、发布时间和原文表述；如果方便，把那段原文或截图发我，我可以帮你判断它指的是哪一年。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 178,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

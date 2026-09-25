@@ -1,0 +1,50 @@
+{
+  "questionId": "q15",
+  "prompt": "佳农水果的产地直供比例高吗？香蕉主要来自哪些国家？",
+  "createdAt": "2026-09-25T00:19:27.701Z",
+  "summary": [
+    {
+      "questionId": "q15",
+      "prompt_index": 15,
+      "promptIndex": 15,
+      "promptHash": "273a7596a4a5",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的产地直供比例高吗？香蕉主要来自哪些国家？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 487,
+      "text_length": 487,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 278,
+        "total_tokens": 336,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 278,
+      "total_tokens": 336,
+      "latencyMs": 2165,
+      "latency_ms": 2165,
+      "createdAt": "2026-09-25T00:19:27.701Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q15/prompt.txt",
+        "answer": "q15/deepseek.txt",
+        "response": "q15/deepseek_response.json",
+        "sources": "q15/deepseek_sources.json",
+        "references": "q15/deepseek_references.json"
+      }
+    }
+  ]
+}
