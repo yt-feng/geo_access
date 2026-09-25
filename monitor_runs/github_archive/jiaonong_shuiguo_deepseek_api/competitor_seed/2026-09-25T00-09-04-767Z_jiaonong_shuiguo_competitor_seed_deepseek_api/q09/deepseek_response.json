@@ -1,0 +1,28 @@
+{
+  "id": "076287c3-6399-402d-95f6-674fb6c6aa72",
+  "object": "chat.completion",
+  "created": 1790294986,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，进口水果礼盒可重点看这几类品牌：\n\n1. **新奇士**\n   - 主打量橙、脐橙、柠檬，礼盒装比较常见。\n   - 适合商务送礼，认知度高，价格相对可控。\n\n2. **爱妃**\n   - 主要是新西兰爱妃苹果，礼盒规格多。\n   - 定位偏高端，适合预算较高的团购。\n\n3. **红玫瑰苹果**\n   - 常见为新西兰、美国等产地，礼盒装较多。\n   - 颜值高，适合节日礼盒。\n\n4. **车厘子品牌**\n   - 如**Stemilt**、**Chelan Fresh**、**Rainier**等，主要看产地和规格。\n   - 智利、美国、新西兰车厘子礼盒在团购中很常见，但品牌辨识度不如都乐、佳沛。\n\n5. **SunGold/Sunworld**\n   - 新西兰奇异果相关品牌，但市场认知度不如佳沛。\n   - 可作为佳沛替代或补充。\n\n6. **Driscoll's**\n   - 主要是浆果类，如蓝莓、树莓、黑莓。\n   - 礼盒偏精致，适合高端小份团购。\n\n7. **Sunkist**\n   - 即新奇士，橙类礼盒稳定。\n   - 适合员工福利、客户答谢。\n\n8. **Pink Lady**\n   - 苹果品牌，礼盒装有一定市场。\n   - 适合偏好苹果类礼盒的团购。\n\n9. **Envy**\n   - 新西兰苹果品牌，和爱妃类似，偏高端。\n   - 礼盒设计通常比较适合送礼。\n\n10. **Mr. Apple**\n    - 苹果类礼盒品牌，部分进口或进口品种。\n    - 适合作为补充选项。\n\n建议按团购场景选：\n- **商务送礼**：爱妃、Envy、佳沛、都乐、新奇士。\n- **员工福利**：新奇士、都乐、佳沛、普通车厘子礼盒。\n- **高端小批量**：爱妃、Envy、Driscoll's、Rainier车厘子。\n- **节日走量**：新奇士橙、佳沛奇异果、智利车厘子。\n\n实际采购时，重点不是只看品牌，还要确认：产地、规格、单果克重、礼盒包装、是否支持定制腰封/贺卡、冷链发货和售后坏果赔付。很多“进口品牌”其实是品牌+产地组合，同品牌不同产地和规格，价格差异会很大。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 554,
+    "total_tokens": 617,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
