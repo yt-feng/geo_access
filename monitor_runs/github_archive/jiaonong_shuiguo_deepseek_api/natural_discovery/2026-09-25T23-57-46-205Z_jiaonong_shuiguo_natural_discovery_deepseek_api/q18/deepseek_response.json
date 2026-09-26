@@ -1,0 +1,28 @@
+{
+  "id": "a9a2d6f9-859f-4695-b460-038a13cb8c5f",
+  "object": "chat.completion",
+  "created": 1790380762,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "买香蕉前先想好你打算**什么时候吃**，再按这个时间挑，基本就不会出错。\n\n**按食用时间选颜色：**\n- **当天或第二天吃**：选**通体黄色、带少量褐色斑点**的，最甜最软。\n- **2～3天内吃**：选**黄色为主、两端略微带绿**的。\n- **3～5天后吃**：选**黄绿相间**的。\n- **5天以上**：选**整体偏绿、硬实**的，回家常温放。\n\n**避坑要点：**\n- 别只看一面的颜色，**翻面看有没有压伤、发黑**，有黑斑软塌的说明已经熟过或碰伤，会很快烂。\n- 摸一下：过硬=很生，过软或有凹陷=过熟。\n- 如果**已经熟透但暂时不吃**，直接放冰箱冷藏，能多撑几天；不过皮会变黑，里面还是好的，冷藏后别再指望它继续变甜。\n\n**加速或延缓：**\n- 想快点熟：和苹果或熟香蕉放一个纸袋里，常温一天左右就明显催熟。\n- 想慢点熟：单独放、阴凉通风处，别和苹果、西红柿放一起。\n\n**一句话判断**：按“几天后吃”选黄绿程度，再翻面看有没有伤，就不会买到太生或太熟。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 306,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
