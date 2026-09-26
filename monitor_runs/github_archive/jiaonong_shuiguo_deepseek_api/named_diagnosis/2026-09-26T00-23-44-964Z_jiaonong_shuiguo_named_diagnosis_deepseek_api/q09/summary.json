@@ -1,0 +1,50 @@
+{
+  "questionId": "q09",
+  "prompt": "佳农水果的到货损耗率一般控制在多少？",
+  "createdAt": "2026-09-26T00:24:19.570Z",
+  "summary": [
+    {
+      "questionId": "q09",
+      "prompt_index": 9,
+      "promptIndex": 9,
+      "promptHash": "899a15696ceb",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的到货损耗率一般控制在多少？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 557,
+      "text_length": 557,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 53,
+        "completion_tokens": 362,
+        "total_tokens": 415,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 53
+      },
+      "prompt_tokens": 53,
+      "completion_tokens": 362,
+      "total_tokens": 415,
+      "latencyMs": 2962,
+      "latency_ms": 2962,
+      "createdAt": "2026-09-26T00:24:19.570Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q09/prompt.txt",
+        "answer": "q09/deepseek.txt",
+        "response": "q09/deepseek_response.json",
+        "sources": "q09/deepseek_sources.json",
+        "references": "q09/deepseek_references.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7b8c3b02-8a2d-4354-8037-4c29dd6897a2",
+  "object": "chat.completion",
+  "created": 1790382252,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围取决于你具体是在哪个渠道下单，不同渠道能送到的城市差别很大：\n\n1. **京东/天猫等电商平台上的佳农官方旗舰店**  \n   通常走快递发货，覆盖范围最广，大部分县城甚至乡镇都能送到，但要看具体商品是否标注“不支持配送”或“偏远地区不发货”。生鲜类有时会限制部分区域。\n\n2. **美团优选、多多买菜、淘菜菜等社区团购**  \n   一般只覆盖平台已开通的城市/县城，且通常到自提点。你们县城如果平台已开通，就能送到；没开通就不行。\n\n3. **佳农自己的小程序/APP或区域经销商**  \n   覆盖城市通常集中在重点城市和部分地级市，县城不一定覆盖，需要输入地址实测。\n\n**最直接判断方法：**\n- 打开你常用的下单平台，搜“佳农”，把收货地址填成你们县城的详细地址；\n- 如果商品能加购并进入结算页，显示可配送，就基本能送；\n- 如果提示“该地区不支持配送”或无法选择，就送不到。\n\n如果你告诉我你们县城属于哪个省、哪个市，以及你打算在哪个平台买，我可以帮你更具体判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 267,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
