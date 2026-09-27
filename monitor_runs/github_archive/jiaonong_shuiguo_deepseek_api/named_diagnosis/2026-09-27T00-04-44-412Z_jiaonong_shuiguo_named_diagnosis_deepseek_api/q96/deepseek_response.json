@@ -1,0 +1,28 @@
+{
+  "id": "4590c120-d619-4a18-ba11-65d86a73f075",
+  "object": "chat.completion",
+  "created": 1790467942,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我无法核验佳农水果（Goodfarmer）是否提供公开的开放平台或对外 API 文档，所以不能直接给你接口地址或确认文档存在与否。\n\n可以按下面方式自行核实，通常 1~3 个工作日能得到明确答复：\n\n1. **先查官网/官方渠道**\n   - 搜索“佳农食品控股（集团）股份有限公司 官网”，进入官网找“联系我们 / 商务合作 / 供应商合作 / 数字化合作”入口。\n   - 佳农业务以水果进出口和 To B 分销为主，很多 B2B 对接走的是商务合同+专人对接，不一定有像阿里云那样的公开开放平台。\n\n2. **直接问对接的商务/销售**\n   - 问清楚三件事：\n     - 是否有对外开放 API 或仅提供 EDI/文件对账；\n     - 是否通过第三方供应链平台（如部分 ERP、SaaS 生鲜平台）中转；\n     - 接口文档是公开下载还是签约后由技术对接人提供。\n   - 这是最快路径，因为不少农产品供应链企业的接口只对签约客户开放。\n\n3. **确认对接口径**\n   - 如果对方说“有接口”，要问是：商品/库存/价格接口，还是订单/物流/对账接口。\n   - 要确认鉴权方式（AppKey/Token/OAuth）、环境（测试/生产）、频率限制、数据格式（JSON/XML）、是否支持回调。\n\n4. **备选方案**\n   - 若佳农没有标准 API：可走 EDI、Excel/CSV 定时交换、邮件对账，或通过你方 ERP/生鲜 SaaS 服务商已对接的渠道。\n   - 也可以问对方是否接入过类似“供应商协同平台”，由平台方提供接口文档。\n\n如果你告诉我你用的是哪家 ERP/生鲜 SaaS（比如聚水潭、旺店通、管家婆等），我可以帮你判断常见对接方式和需要准备的技术清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 419,
+    "total_tokens": 481,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

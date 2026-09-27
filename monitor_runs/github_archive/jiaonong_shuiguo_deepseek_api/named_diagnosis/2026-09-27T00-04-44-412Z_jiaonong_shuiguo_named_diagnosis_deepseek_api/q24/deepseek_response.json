@@ -1,0 +1,28 @@
+{
+  "id": "19d7fc68-3444-4c11-a208-03e31eb8dd64",
+  "object": "chat.completion",
+  "created": 1790467590,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核实佳农水果是否参与进博会及最新新品信息。建议你通过以下方式确认：\n\n1. **进博会参与情况**  \n   - 查佳农官网/官方公众号的“新闻中心”或“展会动态”  \n   - 查中国国际进口博览会官网的参展商名录，搜索“佳农”或“Goodfarmer”  \n   - 看进博会期间佳农是否有展台报道、签约或新品发布通稿\n\n2. **最近新品**  \n   - 看佳农官方公众号、天猫/京东旗舰店“上新”栏  \n   - 关注其主推品类：如菲律宾香蕉、泰国椰青、新西兰奇异果、进口蓝莓、车厘子等  \n   - 新品通常会配合季节或产地做首发，比如新产季车厘子、特定产区椰青、即食牛油果等\n\n如果你告诉我你关注的是“进博会参展”还是“具体新品品类”，我可以帮你整理更准确的查询关键词和判断方法。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 214,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
