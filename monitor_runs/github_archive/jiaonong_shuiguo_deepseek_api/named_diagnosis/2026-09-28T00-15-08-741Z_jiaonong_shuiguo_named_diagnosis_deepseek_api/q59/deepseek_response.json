@@ -1,0 +1,28 @@
+{
+  "id": "84e82aa3-6cc7-40e5-8708-5a37ae9ad8d2",
+  "object": "chat.completion",
+  "created": 1790554787,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）香蕉执行的是**企业标准**，不是国标。\n\n**标准性质**\n- 普通香蕉通常参照国家标准 **GB/T 9827《香蕉》** 或相关农业/行业标准。\n- 佳农作为品牌企业，通常制定并执行**企业标准（Q/开头）**，对果品外观、成熟度、单果重量、糖度、疤痕率、包装规格等要求往往高于国标。\n- 具体标准号一般印在包装箱或标签上，形如 `Q/xxx`。没有实物或官方公开文件时，无法给出准确标准号。\n\n**比普通香蕉贵多少**\n没有统一固定溢价，受渠道、季节、产地、规格影响很大。一般市场观察：\n- 普通香蕉：约 **3～6 元/斤**\n- 佳农香蕉：约 **5～9 元/斤**\n- 溢价大致在 **20%～60%**，部分精品超市或礼盒装可能更高。\n\n**判断建议**\n1. 看包装箱/标签：有 `Q/` 开头就是企标，有 `GB/T` 就是国标。\n2. 比价时按**同规格、同渠道**比，不要拿促销普通蕉对比精品佳农。\n3. 佳农贵主要贵在：分选标准、外观一致性、催熟控制、冷链和品牌溢价，不一定代表营养或口感绝对更好。\n\n如果你想确认某批佳农香蕉的具体标准号，把包装箱上的执行标准拍下来或抄下来，我可以帮你判断是国标还是企标。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 341,
+    "total_tokens": 402,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
