@@ -1,0 +1,28 @@
+{
+  "id": "afb3e3cd-eaed-4be6-ad24-34baaa927dad",
+  "object": "chat.completion",
+  "created": 1790644659,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，进口水果礼盒可优先看这几类品牌：\n\n1. **新奇士**\n- 主推：脐橙、柠檬\n- 适合：企业福利、节日礼盒，认知度高，包装成熟\n\n2. **车厘子类品牌**\n- 常见：Stemilt、Chelan Fresh、Oneonta、Domex、Garces Fruit\n- 主推：智利车厘子\n- 适合：冬季高端礼盒，团购走量大，但要注意规格如JJ、JJJ和到货批次\n\n3. **苹果类**\n- 常见：Rockit 乐淇苹果、Envy 爱妃苹果、Jazz 爵士苹果、Ambrosia 天后苹果\n- 适合：小规格高端礼盒，乐淇尤其适合儿童、女性员工福利\n\n4. **奇异果/莓果类**\n- 除了佳沛，可看：Driscoll's 怡颗莓\n- 主推：蓝莓、树莓、黑莓\n- 适合：高端轻奢礼盒，但保鲜要求高，团购需控时效\n\n5. **牛油果/柑橘类**\n- 常见：Mission、Mr. Avocado\n- 主推：牛油果、部分柑橘\n- 适合：健康主题礼盒，但礼品属性不如车厘子、苹果强\n\n6. **综合进口果品品牌**\n- 常见：Dole、Del Monte 地扪、Nature's Pride、Fyffes\n- 主推：香蕉、菠萝、柑橘等\n- 适合：预算适中、走量型团购，但高端感一般\n\n**建议优先级：**\n- 高端节日礼盒：智利车厘子 + 乐淇/爱妃苹果 + 怡颗莓\n- 企业福利走量：新奇士 + 都乐 + 佳沛\n- 健康轻食礼盒：怡颗莓 + Mission牛油果 + 新奇士\n\n**采购注意：**\n进口水果礼盒关键不只是品牌，还要看：产地、规格、果径/等级、到港批次、冷链、损耗赔付。团购最好要求供应商提供实拍、批次检测、坏果包赔和统一礼盒包装方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 483,
+    "total_tokens": 546,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
