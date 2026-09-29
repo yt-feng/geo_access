@@ -1,0 +1,28 @@
+{
+  "id": "ba1db78c-fb67-4530-9597-af44586fd5ba",
+  "object": "chat.completion",
+  "created": 1790645437,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）的香蕉在国内属于**有一定品牌知名度、但远未达到\"消费者主动认牌购买\"的程度**。可以这样判断：\n\n**认知度现状**\n- 在**生鲜行业和零售渠道端**，佳农是头部香蕉品牌之一，采购、商超、电商平台对它很熟。\n- 在**普通消费者端**，认知主要停留在\"见过这个牌子\"的层面，而不是\"我就要买佳农香蕉\"。多数人买香蕉时看的是**新鲜度、外观、价格**，品牌权重很低。\n\n**原因**\n- 香蕉是典型的**低单价、高频、强品类替代**水果，消费者决策几乎不看品牌。\n- 终端多以散称或渠道自有包装出现，品牌露出弱。\n- 相比佳沛奇异果、都乐香蕉这种长期做C端品牌教育的，佳农的消费者心智占位更浅。\n\n**结论**\n- **渠道认知度高，消费者认知度中等偏弱。**\n- 对佳农来说，香蕉更多是**品质背书和B端议价工具**，还不是能带来溢价的强C端品牌。\n\n如果你是想做市场判断或品牌策略，核心问题不是\"认不认识\"，而是**消费者是否愿意为这个牌子多付钱或主动寻找**——目前答案偏向\"不太愿意\"。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 278,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
