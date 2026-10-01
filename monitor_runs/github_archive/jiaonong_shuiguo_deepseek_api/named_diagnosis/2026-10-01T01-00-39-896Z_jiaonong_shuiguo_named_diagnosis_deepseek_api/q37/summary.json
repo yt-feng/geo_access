@@ -1,0 +1,50 @@
+{
+  "questionId": "q37",
+  "prompt": "佳农水果的香蕉价格比市场均价高还是低？",
+  "createdAt": "2026-10-01T01:03:18.892Z",
+  "summary": [
+    {
+      "questionId": "q37",
+      "prompt_index": 37,
+      "promptIndex": 37,
+      "promptHash": "6b6c79914738",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的香蕉价格比市场均价高还是低？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 665,
+      "text_length": 665,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 415,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 415,
+      "total_tokens": 469,
+      "latencyMs": 2766,
+      "latency_ms": 2766,
+      "createdAt": "2026-10-01T01:03:18.892Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q37/prompt.txt",
+        "answer": "q37/deepseek.txt",
+        "response": "q37/deepseek_response.json",
+        "sources": "q37/deepseek_sources.json",
+        "references": "q37/deepseek_references.json"
+      }
+    }
+  ]
+}
