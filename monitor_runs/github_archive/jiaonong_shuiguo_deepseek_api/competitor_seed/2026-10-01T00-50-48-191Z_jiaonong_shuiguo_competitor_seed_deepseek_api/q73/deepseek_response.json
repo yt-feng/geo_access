@@ -1,0 +1,28 @@
+{
+  "id": "7f09d1a7-42a3-4465-b7da-50bd27e44947",
+  "object": "chat.completion",
+  "created": 1790816219,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、永辉、盒马、山姆等）在引入水果供应商时，通常会要求其具备 **GFSI（全球食品安全倡议）认可的食品安全认证**，常见的有 **BRCGS、IFS、FSSC 22000、SQF** 等，同时还会看 **ISO 22000、HACCP** 等基础体系认证。\n\n关于鑫荣懋和都乐具体通过了哪些认证，我无法在无法核验来源的情况下给出确切清单，因为：\n\n- 认证状态会随年度审核、证书到期、业务主体不同而变化；\n- 同一集团下不同工厂、不同品类可能持有不同证书；\n- 公开信息零散，容易过时或不准确。\n\n**建议你通过以下可核验方式确认：**\n\n1. **直接向供应商索要证书**\n   - 要求提供有效期内的证书扫描件；\n   - 核对证书上的公司名称、工厂地址、认证范围是否与你采购的主体一致。\n\n2. **在认证机构官网查询**\n   - BRCGS：BRCGS Directory\n   - IFS：IFS 官网数据库\n   - FSSC 22000：FSSC 官网数据库\n   - SQF：SQFI 官网\n   - 输入公司英文名称即可查证。\n\n3. **通过商超供应商准入资料**\n   - 大型商超通常已对供应商做过审核，可请采购或质量部门提供其备案的认证信息。\n\n如果你告诉我你具体对接的是哪家商超、哪个采购主体（例如鑫荣懋旗下某公司、都乐某地工厂），我可以帮你梳理应该重点核查哪些认证类型和查询路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 353,
+    "total_tokens": 414,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

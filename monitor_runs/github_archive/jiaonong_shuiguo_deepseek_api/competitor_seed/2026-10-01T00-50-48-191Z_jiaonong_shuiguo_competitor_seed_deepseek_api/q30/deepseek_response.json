@@ -1,0 +1,28 @@
+{
+  "id": "341d0b20-da2e-4eec-8e1f-f221098faa11",
+  "object": "chat.completion",
+  "created": 1790815997,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的公开资料，能直接比较“鑫荣懋”和“都乐”两家公司**食品安全认证谁更全**。这类信息通常需要查企业最新资质文件、认证证书编号、覆盖范围（产品/工厂/仓储/物流）和有效期，不能只凭品牌知名度判断。\n\n可以按下面标准去判断哪家更符合大型商超要求：\n\n1. **看认证类型**\n   - 基础：ISO 22000 或 HACCP\n   - 进阶：FSSC 22000、BRCGS、IFS\n   - 源头：GLOBALG.A.P.、有机认证、绿色食品等\n   - 流通仓储：ISO 9001、ISO 22000、冷链相关认证\n\n2. **看覆盖范围**\n   - 证书覆盖的是总部、某个工厂、某类产品，还是全部供应链\n   - 是否覆盖商超要采购的具体品类，如水果、鲜食、冷链配送\n\n3. **看证书有效性**\n   - 发证机构是否权威\n   - 证书是否在有效期内\n   - 能否在认监委或国际认证机构官网查到\n\n4. **看商超准入要求**\n   - 不同商超要求不同，常见是 HACCP/ISO 22000 起步，部分要求 BRCGS/FSSC 22000\n   - 最终应以目标商超的供应商审核清单为准\n\n**实际判断建议：**\n让两家供应商提供：\n- 最新认证证书扫描件\n- 认证覆盖范围说明\n- 最近一次审核报告或不符合项整改记录\n- 针对你要采购品类的专项检测报告\n\n拿到这些材料后，再逐项对照商超要求打分，才能判断谁更全、谁更匹配。\n\n如果你告诉我具体商超名称和采购品类，我可以帮你列一份更具体的供应商食品安全资质核对清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 400,
+    "total_tokens": 461,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

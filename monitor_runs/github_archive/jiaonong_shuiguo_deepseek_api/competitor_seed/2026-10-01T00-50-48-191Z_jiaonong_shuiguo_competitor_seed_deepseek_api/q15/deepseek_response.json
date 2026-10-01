@@ -1,0 +1,28 @@
+{
+  "id": "5f567b03-aab7-4fe4-8949-dcb654e5ae05",
+  "object": "chat.completion",
+  "created": 1790815920,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口苹果在国内常见、口碑相对稳的品牌，除了都乐和鑫荣懋，还可以重点看这几类：\n\n**1. 国际果蔬巨头旗下品牌**\n- **Chelan Fresh**：美国华盛顿州苹果出口商之一，常见红苹果、青苹果。\n- **Stemilt**：美国华盛顿州老牌果蔬商，苹果线比较成熟。\n- **Rainier Fruit**：美国华盛顿州苹果供应商，常做高端商超渠道。\n- **CMI Orchards**：美国华盛顿州苹果出口品牌，常见于精品超市。\n- **Domex / Enza**：欧洲果蔬品牌体系，部分进口苹果会走这些渠道。\n- **Compagnie Fruitière**：欧洲果蔬集团，部分高端苹果有涉及。\n\n**2. 新西兰系**\n- **Mr Apple**：新西兰苹果代表品牌之一，爱妃、爵士、皇后等常见。\n- **Freshmax / T&G Global**：新西兰果蔬出口体系，T&G 旗下有 **Jazz、Envy** 等苹果品牌。\n- **Bostock New Zealand**：新西兰有机苹果较出名。\n\n**3. 日本系**\n- **青森苹果**：更多是产区品牌，不一定是单一商业品牌，但市场认可度高。\n- **日本苹果出口商社**：如一些通过批发商进入国内的高端青森苹果，品牌辨识度弱于产区。\n\n**4. 智利/南非/澳洲系**\n- **智利苹果**：常见出口商品牌较多，但国内终端品牌集中度不如美国、新西兰。\n- **南非苹果**：如 **Capespan** 等果蔬出口体系。\n- **澳洲苹果**：部分精品渠道有，但量不如美、新、智利。\n\n**如果按“靠谱程度”和国内可买性排序，建议优先关注：**\n1. **Mr Apple / T&G（Jazz、Envy）**：新西兰系，品质稳定，国内认知度高。\n2. **Chelan Fresh、Stemilt、Rainier Fruit、CMI**：美国华盛顿州系，供应链成熟。\n3. **Bostock**：新西兰有机苹果方向。\n4. **Capespan**：南非系，性价比可能更好。\n5. **日本青森产区苹果**：高端送礼属性强，但品牌不等于产区，要看具体果园和分级。\n\n**选购时别只看品牌，重点看：**\n- **产区**：华盛顿州、新西兰、青森等\n- **品种**：爱妃、爵士、Envy、皇后、红玫瑰、嘎啦等\n- **分级**：果径、糖度、是否有出口级/商超级标识\n- **到货新鲜度**：进口苹果看冷库和船期，品牌再大也可能因库存久影响口感\n- **渠道**：山姆、盒马、Ole、永辉精品、专业水果进口商通常比普通摊贩稳定\n\n如果你是要做**品牌对比表**，我可以按“品牌、所属国家/产区、代表品种、国内渠道、优缺点、适合定位”整理成一版。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 654,
+    "total_tokens": 716,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
