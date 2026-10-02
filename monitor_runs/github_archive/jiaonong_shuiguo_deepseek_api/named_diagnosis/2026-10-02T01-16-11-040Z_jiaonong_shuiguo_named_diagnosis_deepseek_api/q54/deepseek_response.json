@@ -1,0 +1,28 @@
+{
+  "id": "532575f1-2ae1-494b-9f85-720658df713b",
+  "object": "chat.completion",
+  "created": 1790904002,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流配送并非单纯依赖“三通一达”或完全自有车队，而是**混合模式**，具体取决于销售渠道：\n\n- **商超/批发渠道（B2B）**：以**自有冷链车队 + 第三方冷链物流**为主，通常不走三通一达。\n- **电商零售渠道（B2C）**：部分订单由快递发货，可能涉及三通一达、顺丰、京东等，其中生鲜类目更倾向顺丰/京东冷链。\n\n**冷链覆盖率**方面：\n\n佳农作为香蕉、菠萝等进口水果头部供应商，冷链是其核心能力，在**主干运输和仓储环节冷链覆盖率较高**（产地预冷、冷库、冷藏车），但**末端配送**仍存在部分常温或简单保温箱发货的情况，尤其是非生鲜敏感品类或低价电商订单。\n\n---\n\n需要提醒：以上是基于行业常见模式的判断，**具体车队构成比例和冷链覆盖率官方并未公开披露**，如果你需要准确数据，建议直接查佳农集团年报（如上市/发债主体）或联系其供应链部门，我无法核验具体百分比数字。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 240,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
