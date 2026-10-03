@@ -1,0 +1,28 @@
+{
+  "id": "85ce551f-8e61-4ded-90ef-18e00b5fca19",
+  "object": "chat.completion",
+  "created": 1790989455,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国标。\n\n具体来说：\n- 佳农作为品牌企业，通常会制定自己的**企业标准**（Q/开头），用于内控品质，比如对果指长度、粗细、外观、成熟度、农残等指标要求高于国标。\n- 国标（如 GB/T 9827 等）是行业通用最低或推荐标准，佳农可以在此基础上加严，但产品标签上如果标注的是 Q/ 标准号，那就是企标。\n\n**比普通香蕉贵多少？**\n这个没有统一固定数值，会随渠道、季节、规格波动：\n- 一般比同市场普通散装香蕉贵 **20%～50%** 左右；\n- 在精品超市或礼盒装中，可能贵 **50%～100%**；\n- 促销期差距会缩小，甚至接近普通香蕉价格。\n\n如果你要确认某一批佳农香蕉到底执行哪个标准，最准确的方法是看**包装箱或标签上的标准号**：\n- `GB` 开头 = 国标\n- `Q/` 开头 = 企标\n\n需要的话，我可以告诉你怎么在包装上快速找到这个标准号。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 260,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

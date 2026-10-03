@@ -1,0 +1,28 @@
+{
+  "id": "4e52d415-fd99-4cbd-811c-eec5429ea33d",
+  "object": "chat.completion",
+  "created": 1790989192,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）作为国内头部水果进口和分销企业，其到货损耗率的实际控制水平会随品类、运输方式（海运/空运/陆运）、季节、港口和具体客户渠道不同而波动，官方较少公开统一的精确数字。\n\n不过按水果进口行业的一般情况，可以给你一个可参考的判断区间：\n\n- **整体到货损耗率**：通常目标控制在 **3%–5%** 左右\n- **管理较好的核心单品**（如香蕉、菠萝、部分苹果类）：可压到 **2%–3%**\n- **易损品类**（如葡萄、樱桃、蓝莓、部分热带水果）：常见在 **5%–8%**，旺季或长距离海运时可能更高\n\n需要注意：\n\n- “到货损耗率”定义不同，结果差异很大。有的只算到港开箱时肉眼可见的坏果，有的把后续分拣、仓储、门店上架前损耗也算进去。\n- 佳农这类企业与大型商超、生鲜电商合作时，往往会在合同里约定验收标准和扣重比例，实际执行数字要以合同或收货抽检结果为准。\n\n如果你是想用于商务谈判、采购验收或写报告，建议直接向佳农对应销售/品控人员索取该品类的“到货验收标准”和“历史损耗数据”，这比行业泛值更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 292,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
