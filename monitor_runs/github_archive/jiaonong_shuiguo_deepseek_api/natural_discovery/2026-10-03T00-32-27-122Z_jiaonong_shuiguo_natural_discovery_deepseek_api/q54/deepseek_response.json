@@ -1,0 +1,28 @@
+{
+  "id": "3da84f7b-db89-4df4-8563-2e40e742d242",
+  "object": "chat.completion",
+  "created": 1790987872,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先看成熟度，价格是次要筛选条件。香蕉蛋糕的风味核心来自香蕉的糖化程度和香气，成熟度不对，配方再贵也救不回来。\n\n**具体判断：**\n\n- **最适合烘焙的是熟到表皮出现黑斑、捏起来偏软的香蕉。** 此时淀粉已大量转化为糖，甜度高、香气浓、水分足，做出来的蛋糕湿润、风味明显。全青的香蕉烤出来发涩、香气弱，还容易让成品发干。\n- **按用途分档采购：**\n  - 当天或次日就要用的：直接买带黑斑的熟蕉。\n  - 计划存放几天的：买微软但还没黑斑的，室温催熟到目标状态再用。\n  - 只想清库存压成本：可以买熟过头的打折蕉，但要做成泥、尽快用完，且要闻有没有发酵酒味或霉味。\n- **价格怎么权衡：** 只在“成熟度达标”的前提下比价。为省几毛钱买青蕉，等于把催熟时间、失败风险和风味损失都算进成本，通常不划算。反过来，如果熟蕉正好打折、状态好，那就是最优选择。\n\n**一句话结论：** 先卡成熟度这条线（带黑斑、软、香），达标后再比价格；不达标的香蕉，再便宜也不要作为主料。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 291,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

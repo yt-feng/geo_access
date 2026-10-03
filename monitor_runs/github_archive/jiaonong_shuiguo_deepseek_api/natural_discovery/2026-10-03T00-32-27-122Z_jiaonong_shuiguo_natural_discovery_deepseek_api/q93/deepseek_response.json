@@ -1,0 +1,28 @@
+{
+  "id": "8e635d10-c8bf-446b-ad27-bf23db138372",
+  "object": "chat.completion",
+  "created": 1790988108,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "便利店卖菠萝切块，三个都重要，但优先级不一样：\n\n1. **保质期最关键**：菠萝切块属于即食鲜切水果，微生物风险高，必须明确标注制作时间、保质期（通常冷藏 24 小时内，很多便利店按 4–6 小时或当日售完管理）。超过时限必须下架，不能靠“看起来没坏”判断。\n\n2. **包装是第二关键**：要用食品级、密封性好的容器或覆膜，冷藏陈列，避免汁液外漏和交叉污染。包装上要能贴标签，写清品名、制作时间、保质期、储存条件。\n\n3. **配送频次是保障条件**：如果门店自己切，频次不是核心；如果是中央厨房配送，频次决定新鲜度和损耗。配送太稀，门店要么缺货，要么压货导致临期。一般应做到每日配送或按销量一日多次补货。\n\n**简单判断：**\n- 门店现切：盯 **制作时间 + 冷藏 + 当日/限时废弃**。\n- 中央配送：盯 **配送频次 + 到店剩余保质期 + 包装密封**。\n- 无论哪种：**保质期管理 > 包装密封 > 配送频次**，但三者缺一不可。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 274,
+    "total_tokens": 332,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
