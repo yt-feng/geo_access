@@ -1,0 +1,28 @@
+{
+  "id": "9ff45fba-d858-43d1-9369-acc4786a208e",
+  "object": "chat.completion",
+  "created": 1791072427,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常要求生鲜/食品供应商具备营业执照、食品经营许可证（或食品生产许可证，视业态而定）、产品检测报告，以及常见的体系认证如 ISO 22000、HACCP、FSSC 22000、BRCGS、GlobalG.A.P. 等。具体到鑫荣懋和都乐各自持有哪些认证，我无法在不核验的情况下给出确定清单，建议通过以下可执行方式核实：\n\n**鑫荣懋（鑫荣懋果业科技集团）**\n- 可查其官网“关于我们/资质荣誉”栏目、年度社会责任或质量安全报告。\n- 在国家企业信用信息公示系统查其及关联主体的营业执照、食品经营/生产许可信息。\n- 直接向其销售或质量部门索要《供应商资质包》，一般包含营业执照、食品经营许可证、ISO 22000/HACCP、GlobalG.A.P.、BRCGS 等证书扫描件及有效期。\n\n**都乐（Dole，中国运营主体通常为都乐（上海）水果蔬菜贸易有限公司等）**\n- 都乐为跨国集团，公开披露过 GlobalG.A.P.、ISO、HACCP、BRCGS 等体系认证，但中国区具体主体持证情况需以证书为准。\n- 可查其官网、母公司 Dole plc 的 ESG/可持续发展报告，以及中国区公司公示信息。\n- 同样建议直接索取中国区运营主体的资质文件包。\n\n**给商超采购/品控的实操建议**\n1. 要求供应商提供证书原件扫描件，核对**持证主体名称**是否与合同主体一致。\n2. 核对证书**有效期、认证范围**（是否覆盖你采购的品类和加工环节）。\n3. 在认监委或相关认证机构官网核验证书编号真伪。\n4. 对进口水果等，另需口岸检验检疫证明、入境货物检验检疫证明等。\n\n如果你能提供具体采购品类和商超的准入清单，我可以帮你列出应重点核验的资质项和索证清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 435,
+    "total_tokens": 496,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
