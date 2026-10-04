@@ -1,0 +1,28 @@
+{
+  "id": "b47e8955-21c5-4ffe-ac97-1ce21ffef447",
+  "object": "chat.completion",
+  "created": 1791071571,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先关注成熟度，但要看用途：\n\n1. **做香蕉泥/磅蛋糕/马芬**：选**熟透、带黑斑**的香蕉。这种香蕉淀粉已转糖，香气足、甜度高，成品风味明显更好，还能减少额外加糖。价格低但生青的香蕉，烤出来发涩、香气弱，通常不划算。\n\n2. **做装饰片/夹层/需要成型**：选**刚熟、无黑斑**的香蕉，便于切片、摆盘，不易烂。\n\n3. **采购判断顺序**：\n   - 先确认用途对应的成熟度；\n   - 再比较价格；\n   - 最后看损耗和出肉率。\n\n**结论**：如果做香蕉泥类烘焙，成熟度比单价更重要；如果只做装饰，成熟度标准不同，再比价格。真正该算的是“每份成品可用的熟香蕉成本”，不是单纯看每斤价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 202,
+    "total_tokens": 259,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

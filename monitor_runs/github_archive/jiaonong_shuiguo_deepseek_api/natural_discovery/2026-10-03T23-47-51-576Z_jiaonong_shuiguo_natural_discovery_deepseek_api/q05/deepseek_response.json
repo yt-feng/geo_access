@@ -1,0 +1,28 @@
+{
+  "id": "2cdbdd27-23f4-4eae-835b-2ada2c8a5564",
+  "object": "chat.completion",
+  "created": 1791071295,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从经营角度，**最稳的组合是：整果为主，去皮服务做增值，让顾客“可挑但不过度翻拣”。**  \n不建议只卖去皮好的，也不建议完全放任顾客自己挑。\n\n具体可以这样定：\n\n1. **整果作为主售卖形态**\n   - 成本最低，损耗最小。\n   - 顾客觉得新鲜、可自己判断。\n   - 适合按个、按斤、按甜度分级卖。\n\n2. **去皮好的只做少量现切/预订**\n   - 适合赶时间、不会削、当场要吃的人。\n   - 但去皮后保质期短、氧化快、损耗高。\n   - 最好“现场削”或“当天削当天清”，不要大量提前削好摆着。\n\n3. **让顾客挑，但要有限度**\n   - 可以挑，但最好由店员帮忙拿、帮忙翻。\n   - 完全让顾客自己翻，容易捏坏、摔坏、堆乱，增加损耗。\n   - 可以按成熟度分区：今天吃、放两天、做菜/榨汁，减少乱挑。\n\n4. **更赚钱的做法**\n   - 整果按个卖，标甜度或品种。\n   - 加“免费削皮/收费削皮”服务。\n   - 削皮后切块装盒，溢价卖。\n   - 熟度高的做特价或鲜切，减少报废。\n\n一句话：**主卖整果，现场削皮，有限挑选，少量预削。**  \n这样兼顾损耗、体验和利润。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 333,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
