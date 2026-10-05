@@ -1,0 +1,28 @@
+{
+  "id": "a722957b-ae92-4175-848a-7469c5ec290d",
+  "object": "chat.completion",
+  "created": 1791159437,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口苹果在国内常见、渠道相对稳定的品牌，除了都乐（Dole）和鑫荣懋（比较容易见到的进口水果操盘商），还可以重点看这几类：\n\n1. **T&G / Jazz（爵士苹果）、Envy（爱妃苹果）**\n   - 新西兰品牌体系，国内进口苹果里认知度很高。\n   - Jazz 偏脆甜、个头中等；Envy 通常更甜、更脆，价格也更高。\n   - 靠谱点：品牌化强，规格和品控相对稳定。\n\n2. **Mr Apple（苹果先生）**\n   - 新西兰苹果品牌，常见于精品超市和生鲜电商。\n   - 主打新西兰产区，品控和包装识别度较高。\n   - 适合和 Jazz、Envy 做同价位/同产区对比。\n\n3. **Rockit（乐淇）**\n   - 新西兰小苹果品牌，筒装很常见。\n   - 特点是果小、脆甜、方便携带，儿童和零食场景强。\n   - 它不是传统大果路线，更适合做差异化对比。\n\n4. **Chelan Fresh / Stemilt / Honeybear 等美国苹果品牌**\n   - 美国华盛顿州产区常见，Honeycrisp、Gala、Fuji 等品种较多。\n   - 国内渠道不如新西兰品牌稳定，但精品超市、进口商偶尔会有。\n   - 选的时候重点看品种和到货新鲜度，而不是只看品牌。\n\n5. **Driscoll's（卓莓）**\n   - 它更出名的是浆果，不是苹果，所以如果严格限定“苹果品牌”，它不算核心对比对象。\n   - 但部分渠道会把它作为高端水果品牌参照，不太建议放进苹果主对比。\n\n6. **国内进口商/渠道自有品牌**\n   - 比如鑫荣懋之外，像佳沃、洪九果品、百果园等也会做进口苹果或贴牌。\n   - 这类不算严格意义上的“进口苹果品牌”，但实际购买时经常遇到。\n   - 优势是渠道和售后相对好找，劣势是品牌辨识度不如 T&G、Mr Apple 这类。\n\n如果你要做品牌对比，建议按这个框架筛：\n\n- **产地**：新西兰、美国、智利、南非等\n- **品种**：Jazz、Envy、Rockit、Honeycrisp、Gala、Fuji\n- **规格**：单果重、几粒装、礼盒还是散卖\n- **价格带**：日常款、精品款、礼盒款\n- **渠道稳定性**：精品超市、生鲜电商、批发市场是否常年有货\n- **售后**：坏果率、赔付规则、是否可追溯批次\n\n简单说，**最值得加入对比的是：T&G（Jazz/Envy）、Mr Apple、Rockit**。如果只看“靠谱且国内买得到”，这三个比很多杂牌进口苹果更稳。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 627,
+    "total_tokens": 689,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

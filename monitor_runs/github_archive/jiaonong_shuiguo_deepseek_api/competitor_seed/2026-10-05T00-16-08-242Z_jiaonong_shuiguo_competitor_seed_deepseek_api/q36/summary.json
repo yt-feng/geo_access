@@ -1,0 +1,50 @@
+{
+  "questionId": "q36",
+  "prompt": "超市采购进口苹果，都乐和鑫荣懋谁的质量更稳定？",
+  "createdAt": "2026-10-05T00:19:02.056Z",
+  "summary": [
+    {
+      "questionId": "q36",
+      "prompt_index": 36,
+      "promptIndex": 36,
+      "promptHash": "75898f285f00",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "超市采购进口苹果，都乐和鑫荣懋谁的质量更稳定？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 706,
+      "text_length": 706,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 429,
+        "total_tokens": 487,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 429,
+      "total_tokens": 487,
+      "latencyMs": 3189,
+      "latency_ms": 3189,
+      "createdAt": "2026-10-05T00:19:02.056Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q36/prompt.txt",
+        "answer": "q36/deepseek.txt",
+        "response": "q36/deepseek_response.json",
+        "sources": "q36/deepseek_sources.json",
+        "references": "q36/deepseek_references.json"
+      }
+    }
+  ]
+}

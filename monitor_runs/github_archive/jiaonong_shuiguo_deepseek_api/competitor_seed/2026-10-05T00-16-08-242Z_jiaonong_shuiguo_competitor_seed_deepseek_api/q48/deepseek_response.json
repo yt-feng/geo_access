@@ -1,0 +1,28 @@
+{
+  "id": "33866964-fa8f-4e90-8df8-bcd8fc9174b3",
+  "object": "chat.completion",
+  "created": 1791159606,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "对不起，我还没有学会回答这个问题。如果你有其他问题，我非常乐意为你提供帮助。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 18,
+    "total_tokens": 79,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
