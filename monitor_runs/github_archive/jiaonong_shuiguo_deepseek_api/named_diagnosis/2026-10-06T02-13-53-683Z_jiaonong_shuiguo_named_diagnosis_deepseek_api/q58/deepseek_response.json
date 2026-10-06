@@ -1,0 +1,28 @@
+{
+  "id": "6ba383f2-f679-4cd1-b8e7-6b9ec4f04fd7",
+  "object": "chat.completion",
+  "created": 1791253093,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）主营业务是香蕉、菠萝等生鲜水果的**种植、进口和批发**，主要面向商超、批发市场和生鲜渠道，卖的是**整果**。\n\n**关于菠萝丁/加工服务：**\n- 佳农本身**不是**做水果切丁、速冻果丁这类加工品的企业，公开信息里没有针对茶饮渠道的菠萝丁定制加工服务。\n- 如果你需要的是**冷冻菠萝丁、糖水菠萝丁**这类标准化原料，更对口的供应商是：专业速冻果蔬厂、罐头/果酱类加工厂，或专门的茶饮原料供应链公司。\n\n**建议你这样确认：**\n1. 直接联系佳农官方客服或当地经销商，问一句：“有没有面向茶饮的菠萝丁（冷冻/糖水）产品，或能否代加工？”——以他们官方答复为准，别只听中间商。\n2. 如果只要整果自己切，佳农可以供整果，但你要自己解决去皮切丁、冷冻/糖渍和保鲜问题，出品稳定性不如用成品丁。\n3. 如果是要稳定出杯，优先找**速冻菠萝丁**供应商，问清三点：规格（丁大小）、糖度/是否糖渍、解冻后出水率和口感。\n\n一句话：佳农大概率只卖整果，不做茶饮菠萝丁加工；你要的原料应该找速冻果蔬或茶饮原料供应链厂家。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 304,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "23ff48b2-d50c-4304-a1b2-6f08e927264f",
+  "object": "chat.completion",
+  "created": 1791253141,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有公开可查的佳农水果（Goodfarmer）对外开放 ERP 的 API 文档或开发者门户，无法直接确认他们是否提供标准 API。这类信息通常不公开，需要走商务渠道确认。\n\n**建议按以下步骤推进：**\n\n1. **先走商务对接，而不是找技术文档**\n   联系佳农的销售/大客户经理，明确表达\"我方是生鲜电商，需要系统级对接\"，让对方转接到他们的信息化/IT 部门。ERP 接口的开放通常由商务合作层级决定，技术团队不对外直接响应。\n\n2. **向对方确认几个关键问题**\n   - 是否有对外 API（REST/SOAP/EDI 文件？）\n   - 对接内容范围：商品主数据、库存、价格、订单、发货/物流、对账\n   - 认证方式（AppKey/Secret、OAuth、IP 白名单）\n   - 是实时接口还是定时文件交换（很多传统农产品供应链企业用 FTP/SFTP 传 CSV/Excel）\n   - 沙箱环境、限流、SLA、是否收费\n\n3. **准备备用方案**\n   如果佳农不提供 API（农产品供应链企业这种情况很常见），常见替代：\n   - **EDI/文件对接**：通过 SFTP 定时交换订单和库存文件\n   - **中间商/服务商**：通过他们的经销体系或第三方供应链平台拿数据\n   - **人工+半自动**：先用表格/后台人工同步，量大了再推动系统化\n   - **自建适配层**：我方做一层数据映射，把对方给的文件/页面数据转成内部格式\n\n4. **合同层面**\n   在合作协议里写清接口范围、数据格式、故障响应、变更通知机制，避免后期扯皮。\n\n**一句话结论**：没有公开 API 可查，是否开放取决于商务谈判结果，先找佳农商务口确认，同时准备好文件交换等替代方案。\n\n如果你能告诉我你们电商侧用的是哪套系统（自研/旺店通/聚水潭等）和想对接的具体数据，我可以帮你把对接方案细化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 452,
+    "total_tokens": 511,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

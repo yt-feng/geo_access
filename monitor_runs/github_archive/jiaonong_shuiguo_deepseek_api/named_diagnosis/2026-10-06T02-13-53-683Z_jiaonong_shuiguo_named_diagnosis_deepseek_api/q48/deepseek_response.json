@@ -1,0 +1,28 @@
+{
+  "id": "9afdfed9-3f58-49f3-ac78-82fea9793188",
+  "object": "chat.completion",
+  "created": 1791253043,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果针对年采购量1000吨以上客户的具体优惠政策，我无法提供确切信息。这类政策通常属于企业未公开的商务条款，会因品类、合作年限、结算方式、配送区域等因素而不同，且可能随时调整。\n\n建议你直接通过以下方式获取准确答复：\n\n1. **联系佳农官方渠道**  \n   拨打佳农官网或官方公众号上的销售合作电话，说明你的年采购量级（1000吨以上），要求对接大客户或批发渠道负责人。\n\n2. **明确谈判要点**  \n   和对方沟通时，可以重点确认：\n   - 是否有阶梯返利或年度返点\n   - 账期支持（如月结、承兑）\n   - 价格是否按品类单独议定\n   - 冷链配送费用由谁承担\n   - 是否签订年度框架协议并锁定价格\n   - 旺季优先供货保障\n\n3. **要求书面报价与政策说明**  \n   避免只依赖口头承诺，尽量让对方出具盖章的年度合作方案或报价单。\n\n如果你告诉我你所在的区域、主要采购品类（如香蕉、菠萝、苹果等）和结算偏好，我可以帮你整理一份更具体的谈判问题清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 254,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

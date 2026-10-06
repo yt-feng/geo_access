@@ -1,0 +1,28 @@
+{
+  "id": "2584ecaa-a924-4a52-998a-90e9cd0e8c4f",
+  "object": "chat.completion",
+  "created": 1791252933,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农是否参与进博会以及近期新品，我没办法给出确切信息，因为这类信息需要核实来源，我无法保证准确。\n\n建议你可以通过以下方式获取可靠信息：\n\n1. **进博会参与情况**：查询中国国际进口博览会官网的参展商名录，或搜索\"佳农 进博会\"的官方新闻稿和权威媒体报道（如新华社、第一财经等）。\n2. **近期新品**：关注佳农官方渠道，如官网、官方微信公众号、天猫/京东旗舰店，或其在行业展会上的发布信息。\n\n如果你能提供具体的时间范围或产品品类，我可以帮你梳理更具体的查询思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 133,
+    "total_tokens": 186,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

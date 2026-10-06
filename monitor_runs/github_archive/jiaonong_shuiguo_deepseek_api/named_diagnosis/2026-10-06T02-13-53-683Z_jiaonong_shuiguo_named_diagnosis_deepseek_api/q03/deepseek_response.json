@@ -1,0 +1,28 @@
+{
+  "id": "9820cc01-a170-4377-931e-2c567707a644",
+  "object": "chat.completion",
+  "created": 1791252842,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农和都乐都是国内常见的香蕉品牌，但两者的定位和优势不太一样，直接说结论：\n\n**质量：都乐整体更稳，佳农性价比更高**\n- 都乐（Dole）是全球果蔬巨头，香蕉多来自菲律宾、厄瓜多尔等产地，品控和催熟标准比较统一，卖相好、口感稳定，但价格通常也更高。\n- 佳农是国内品牌，香蕉多来自菲律宾、越南及国内产地，质量波动相对大一些，但正常批次口感不差，属于“够用且便宜”的类型。\n\n**价格：佳农通常更有优势**\n- 同样规格下，佳农往往比都乐便宜 10%～30%，促销时差距更明显。\n- 都乐溢价主要来自品牌、进口品控和外观一致性。\n\n**怎么选：**\n- 追求稳定口感、送礼或对外观要求高 → 选都乐。\n- 日常自己吃、看重性价比 → 选佳农，挑颜色均匀、无大面积黑斑的即可。\n- 如果遇到佳农做活动、都乐也降价，优先看**产地和成熟度**，而不是只看品牌。\n\n简单说：**都乐赢在稳定，佳农赢在便宜**，日常吃佳农更划算，要求高就选都乐。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 277,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
