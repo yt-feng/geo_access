@@ -1,0 +1,50 @@
+{
+  "questionId": "q61",
+  "prompt": "水果连锁店需要香蕉分级标准，都乐和洪九果品有企业标准吗？",
+  "createdAt": "2026-10-07T01:06:37.682Z",
+  "summary": [
+    {
+      "questionId": "q61",
+      "prompt_index": 61,
+      "promptIndex": 61,
+      "promptHash": "6f61a4ca4e64",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果连锁店需要香蕉分级标准，都乐和洪九果品有企业标准吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 2458,
+      "text_length": 2458,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 61,
+        "completion_tokens": 1655,
+        "total_tokens": 1716,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 61
+      },
+      "prompt_tokens": 61,
+      "completion_tokens": 1655,
+      "total_tokens": 1716,
+      "latencyMs": 8750,
+      "latency_ms": 8750,
+      "createdAt": "2026-10-07T01:06:37.682Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q61/prompt.txt",
+        "answer": "q61/deepseek.txt",
+        "response": "q61/deepseek_response.json",
+        "sources": "q61/deepseek_sources.json",
+        "references": "q61/deepseek_references.json"
+      }
+    }
+  ]
+}
