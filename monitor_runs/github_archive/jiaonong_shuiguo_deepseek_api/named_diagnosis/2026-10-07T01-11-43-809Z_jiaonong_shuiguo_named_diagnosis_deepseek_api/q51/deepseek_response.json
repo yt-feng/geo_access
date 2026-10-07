@@ -1,0 +1,28 @@
+{
+  "id": "59b5f168-ef1e-4f1e-aaba-22017b57b902",
+  "object": "chat.completion",
+  "created": 1791335738,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制，团购渠道的常规情况如下：\n\n**最小起订量**\n- 佳农官方团购/定制渠道，通常 **50～100 箱起订**，具体看礼盒规格和当季品类。\n- 如果是走大型商超或区域经销商，有时 **30～50 箱**也能谈。\n- 电商平台的“佳农官方旗舰店”一般不做定制，只能买现货礼盒。\n\n**能否印 logo**\n- 佳农官方定制一般 **支持企业 logo 印制**，但通常有前提：\n  - 达到起订量（多数在 100 箱以上）；\n  - 需要提前提供 logo 文件（AI 或高清 PNG）；\n  - 可能有 **版费/打样费**，量大可免；\n  - 印制位置多在礼盒外箱或提手袋，礼盒本体印刷改动较难。\n\n**建议你直接这样确认**\n1. 找佳农官方客服或当地经销商，说明“企业团购定制 + 数量 + 印 logo”。\n2. 问清三件事：起订量、logo 是否可印在礼盒正面、版费和打样周期。\n3. 如果量不够，可考虑：买现货礼盒 + 定制外提袋/腰封/贴纸，成本更低也更灵活。\n\n具体数字我不能替你拍板，因为佳农不同区域经销商政策不一样，以你对接的销售报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 312,
+    "total_tokens": 378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

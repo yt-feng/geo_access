@@ -1,0 +1,28 @@
+{
+  "id": "343192e9-53df-434b-8fbf-13c3142aa810",
+  "object": "chat.completion",
+  "created": 1791335646,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认\"11.4万吨\"这个具体数字对应的是哪一年，因为我没有可核验的官方来源来核对这条信息。\n\n要判断它是不是去年的数据，建议你这样核查：\n\n1. **看信息出处**：如果这句话来自某篇报道、行业报告或企业新闻稿，先看原文有没有标注统计年份和口径（是\"进口量\"还是\"销售量/采购量\"，是佳农一家还是含其代理品牌）。\n2. **查权威来源**：\n   - 中国海关总署的进出口统计数据（按HS编码查鲜或干菠萝）；\n   - 佳农官方发布的年报、新闻稿或招股/债券文件；\n   - 行业协会（如中国果品流通协会）发布的报告。\n3. **注意口径差异**：企业宣称的\"进口量\"常指其自身采购/到港量，和海关全国进口总量不是一回事，年份也可能指财年而非自然年。\n\n如果你能告诉我这句话的出处（哪篇文章、哪份报告、什么时间发布的），我可以帮你判断它更可能对应哪一年，以及这个数字是否合理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 232,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

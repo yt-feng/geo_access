@@ -1,0 +1,28 @@
+{
+  "id": "da16ca2c-8f5a-4ca6-ac1b-d8d68b48127b",
+  "object": "chat.completion",
+  "created": 1791335544,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）对批发商这类B端客户，通常是**有专门对接的销售/客户经理**的，但具体要看你的采购规模和合作渠道。\n\n一般情况是这样的：\n\n- **有一定采购量、长期合作的批发商**：通常会分配对应的销售经理或区域负责人，负责报价、订货、到货协调、售后处理等。\n- **刚接触或采购量较小的**：可能先由区域销售或客服统一对接，达到一定量后再转专人负责。\n- **不同品类/区域**：佳农的香蕉、菠萝、火龙果等品类，以及不同城市，对接团队可能不一样。\n\n**建议你直接这样确认：**\n\n1. 通过佳农官网或官方公众号找到**销售/批发合作入口**，说明你是批发商、大概的采购品类和月采购量。\n2. 直接问对方：**“我们这种批发客户有没有专属客户经理？对接流程是怎样的？”**\n3. 如果已有业务员联系你，可以直接要求转**负责批发渠道的客户经理**。\n\n如果你告诉我你所在城市和主要想采购的品类，我可以帮你梳理更具体的对接思路。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 238,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
