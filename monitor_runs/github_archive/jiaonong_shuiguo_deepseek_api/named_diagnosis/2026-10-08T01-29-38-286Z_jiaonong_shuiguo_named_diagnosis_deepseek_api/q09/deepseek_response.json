@@ -1,0 +1,28 @@
+{
+  "id": "62746f6b-3acf-4ca2-bb94-47eb3b306040",
+  "object": "chat.completion",
+  "created": 1791423016,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）官方并未公开披露统一的到货损耗率标准，所以没有一个可直接引用的官方数字。行业里通常要区分口径：\n\n- **到货环节损耗**（从发货到门店/仓库验收）：普通水果一般控制在 **3%–8%**，香蕉、芒果等易损品可能到 **8%–12%**。\n- **全链路损耗**（含仓储、分拣、上架前）：常在 **10%–20%**，叶菜类更高。\n\n佳农以香蕉、菠萝、火龙果等为主，香蕉是重点品类。香蕉到货损耗如果做得好，行业较优水平大约在 **5%–8%**；管理一般可能在 **10%左右甚至更高**，具体取决于：\n\n1. 产地加工和催熟控制；\n2. 冷链是否全程不断链；\n3. 运输距离和季节；\n4. 收货验收标准（比如允收的机械伤、黑斑比例）。\n\n如果你是要做采购或供应商考核，建议不要只问“佳农是多少”，而是直接在合同里约定**验收损耗率上限**和**扣罚/补货规则**，比如香蕉到货损耗≤8%，超出部分按比例扣款或补货，这样才可执行、可判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 271,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

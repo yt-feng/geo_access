@@ -1,0 +1,28 @@
+{
+  "id": "f27000a9-7d7f-4d59-bbf8-b51e656351ce",
+  "object": "chat.completion",
+  "created": 1791423020,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）对批发商这类B端客户，通常是**有专门对接的**，但具体情况取决于你的采购规模和合作渠道：\n\n**一般情况：**\n- 佳农有**B2B批发/大客户渠道**，针对批发商、商超、电商等会有业务经理或区域销售对接。\n- 如果你是通过**区域经销商/代理商**拿货，那对接你的通常是经销商自己的业务员，而不是佳农总部直属客户经理。\n- 如果采购量较大、直接和佳农签合作，通常会分配**区域销售经理**负责你的订单、账期、政策等。\n\n**建议你这样确认：**\n1. **直接联系佳农官方渠道**（官网、官方客服、官方微信公众号），说明你是批发商、月采购量大概多少，问是否有直属客户经理对接。\n2. 如果量还没起来，可能先由**区域经销商**对接；量大了才可能升级为厂家直供。\n3. 问清楚：对接人是谁、账期政策、起订量、配送范围、价格阶梯。\n\n**判断标准：**\n- 月采购量大、稳定 → 大概率有专属客户经理。\n- 采购零散、量小 → 通常走经销商，未必有专人。\n\n如果你告诉我你的城市和大致月采购量，我可以帮你判断更可能是哪种对接方式。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 283,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
