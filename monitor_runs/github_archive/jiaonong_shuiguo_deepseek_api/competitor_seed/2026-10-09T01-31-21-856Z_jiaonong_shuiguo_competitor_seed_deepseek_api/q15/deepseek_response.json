@@ -1,0 +1,28 @@
+{
+  "id": "a94fff41-077d-48e4-9a5a-210487de60ca",
+  "object": "chat.completion",
+  "created": 1791509558,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，进口苹果领域比较常见、口碑相对稳定的品牌/渠道主要有这些：\n\n**国际果蔬品牌**\n- **Zespri 佳沛**：主打奇异果，但也有苹果类产品线，品控较稳定。\n- **Chiquita 金吉达**：以香蕉闻名，部分市场有苹果。\n- **Del Monte 帝门**：果蔬综合品牌，进口苹果有出现，但频率因地区而异。\n- **Enza（T&G 旗下）**：新西兰苹果重要品牌，如 Jazz、Envy 等品种常挂这个体系。\n- **Mr Apple**：新西兰苹果专业品牌，主打 Pacific Rose、Royal Gala 等。\n- **Bostock**：新西兰苹果品牌，常见于高端超市。\n- **Golden Bay Fruit**：新西兰苹果出口商之一。\n- **Montague**：澳洲果蔬品牌，苹果有涉及。\n- **Costa**：澳洲大型果蔬集团，苹果有出口业务。\n\n**品种品牌（比公司品牌更常被消费者记住）**\n- **Envy 爱妃**：新西兰/美国等产地，甜脆、香气明显。\n- **Jazz 爵士**：新西兰体系，酸甜脆。\n- **Pacific Rose 太平洋玫瑰**：新西兰，甜脆多汁。\n- **Rockit 乐淇**：新西兰小苹果，便携、甜脆。\n- **Ambrosia 安布罗西亚**：加拿大/美国/新西兰等产地。\n- **Honeycrisp 蜜脆**：美国为主，甜酸脆。\n- **Fuji 富士、Gala 嘎啦**：很多品牌都做，品牌差异大于品种差异。\n\n**零售渠道自有/合作品牌**\n- **山姆 Member’s Mark**：进口苹果选品较稳定，但更多是渠道品牌。\n- **盒马、Ole’、永辉等**：常有进口苹果，但品牌随季节和产地变动。\n- **百果园**：部分进口苹果有稳定供应链，但门店差异较大。\n\n**判断“靠不靠谱”建议看这几点**\n1. **看产地和品种**：新西兰、美国、智利、澳洲、日本是常见进口来源，不同品种差异大。\n2. **看品牌是否专业做苹果**：Mr Apple、Bostock、Envy、Jazz 这类比综合果蔬品牌更聚焦。\n3. **看包装批号/出口商**：同一品牌不同批次差异可能很大。\n4. **看渠道**：山姆、Ole’、盒马等通常比普通水果摊更稳定。\n5. **看季节**：新西兰苹果主季约4—10月，美国约9—次年2月，智利约3—8月，反季可能是库存或南半球货。\n\n如果你是要做采购对比，建议按“品牌 + 品种 + 产地 + 规格 + 价格带”列成表，而不是只比品牌。因为同一品牌下，Envy、Jazz、Royal Gala 的定位和口感差异很大。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 650,
+    "total_tokens": 712,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
