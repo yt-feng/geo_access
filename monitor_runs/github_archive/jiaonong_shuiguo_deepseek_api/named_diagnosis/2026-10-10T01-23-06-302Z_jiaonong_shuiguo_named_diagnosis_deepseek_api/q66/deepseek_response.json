@@ -1,0 +1,28 @@
+{
+  "id": "a7a4b49a-56b9-4e8b-894e-19132fd5fa8f",
+  "object": "chat.completion",
+  "created": 1791595699,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要你先把采购条件明确给到供应商确认。建议直接这样问佳农或其授权经销商：\n\n1. **开票**\n- 能否开具**增值税专用发票/普通发票**；\n- 税率、开票主体、开票项目；\n- 是否支持先票后款、票到付款，或款到开票。\n\n2. **质检报告**\n- 能否提供该批次或同品类的**第三方质检报告/出厂检验报告**；\n- 报告是否带 CMA/CNAS 等资质；\n- 报告对应的是“水果礼盒成品”还是“单品水果”，很多供应商只提供单品报告，不一定覆盖礼盒组合。\n\n3. **500份团购常见要求**\n- 是否支持企业团购价、定制礼盒、LOGO、贺卡；\n- 起订量、交期、配送范围、破损补发规则；\n- 是否可签采购合同，约定发票、质检、售后和违约责任。\n\n如果是企业采购，建议合同里写明：**“供方随货或发货前提供对应批次质检报告，并开具合规增值税发票；如因资质、票据或质量问题导致采购方损失，由供方承担。”** 这样比口头承诺更稳妥。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 261,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
