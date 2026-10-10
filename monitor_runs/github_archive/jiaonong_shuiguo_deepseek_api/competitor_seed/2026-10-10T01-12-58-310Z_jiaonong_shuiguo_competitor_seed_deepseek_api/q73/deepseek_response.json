@@ -1,0 +1,28 @@
+{
+  "id": "2672a356-5cfa-436f-838b-6a34c6c684db",
+  "object": "chat.completion",
+  "created": 1791595174,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、永辉、华润万家、大润发等）通常在供应商准入时会要求提供食品安全相关认证，常见包括 **ISO 22000、FSSC 22000、HACCP、BRCGS、IFS、GLOBALG.A.P.** 等，具体以各商超的供应商审核标准为准。\n\n关于 **鑫荣懋** 和 **都乐（Dole）** 具体通过了哪些认证，我无法凭可靠记忆逐一核验并给出确切清单，避免给你错误信息。建议用以下方式快速确认：\n\n1. **查企业官网/官方公众号**  \n   两家公司通常会在“质量安全”“食品安全”“资质荣誉”等栏目披露认证信息。\n\n2. **查认证机构公开查询系统**  \n   - FSSC 22000：FSSC 官网可查注册企业  \n   - BRCGS：BRCGS Directory 可查  \n   - ISO 22000/HACCP：可向发证机构或认证认可监管平台查询  \n   - GLOBALG.A.P.：其数据库可查证书编号\n\n3. **直接向供应商索取**  \n   要求对方提供有效期内的证书扫描件、认证范围、发证机构和证书编号，这是商超审核中最直接有效的方式。\n\n4. **注意区分**  \n   - 公司级认证 vs 某个工厂/包装厂认证  \n   - 水果种植端常见 GLOBALG.A.P.，加工配送端常见 ISO 22000/FSSC 22000/HACCP  \n   - 都乐为跨国集团，不同国家、不同品类、不同工厂的认证可能不同，不能一概而论。\n\n如果你需要，我可以帮你整理一份“商超供应商食品安全认证核查清单”，方便你向鑫荣懋、都乐或其他供应商逐项索证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 384,
+    "total_tokens": 445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
