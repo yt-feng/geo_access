@@ -1,0 +1,28 @@
+{
+  "id": "85f21e9f-8f94-4bc0-8b1b-4a2988dcac71",
+  "object": "chat.completion",
+  "created": 1791678703,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可考虑的进口水果品牌主要有这些：\n\n**综合类国际水果品牌**\n- **新奇士（Sunkist）**：美国柑橘类代表，橙子、柠檬礼盒认知度高，适合商务送礼。\n- **车厘子/樱桃类**：**Stemilt、Chelan Fresh、Oneonta** 等美国西北樱桃品牌，以及智利产区的 **Garces Fruit、Prize** 等，常做高端礼盒。\n- **怡颗莓（Driscoll's）**：浆果类强势品牌，蓝莓、树莓、黑莓礼盒适合精致团购。\n- **San Miguel**：墨西哥/秘鲁牛油果、芒果等，适合做健康类礼盒。\n- **Del Monte（地扪）**：综合水果品牌，部分市场有礼盒装。\n\n**单一品类强势品牌**\n- **Envy / Jazz / Rockit**：苹果类品牌，Rockit 小苹果礼盒在团购渠道很常见。\n- **SunGold / Oscar**：芒果、奇异果等品类有相关品牌。\n- **Chiquita（金吉达）**：香蕉为主，礼盒场景相对弱。\n- **Hass 牛油果**：多为产区品牌，如 **Mission、Calavo**。\n\n**建议筛选标准**\n1. **有正规中文标签和进口商信息**，便于企业采购开票和售后。\n2. **支持定制礼盒**：腰封、贺卡、企业 Logo 贴纸，团购通常需要。\n3. **稳定供货周期**：进口水果季节性强，要确认到货档期。\n4. **损耗和赔付政策**：团购量大，必须明确坏果赔付比例。\n\n如果预算偏高端，优先看 **新奇士、怡颗莓、Stemilt 车厘子、Rockit 苹果**；如果走健康轻奢路线，可考虑 **Driscoll's 浆果 + San Miguel 牛油果** 组合。具体可选品牌还要看你们所在城市的一级进口商实际货源。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 453,
+    "total_tokens": 516,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
