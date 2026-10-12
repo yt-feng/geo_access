@@ -1,0 +1,28 @@
+{
+  "id": "d7f6ca05-43bb-4a61-9fd9-dca08945235c",
+  "object": "chat.completion",
+  "created": 1791767345,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核实佳农水果（Goodfarmer）是否有专门针对下沉市场的优惠政策。这类信息属于企业渠道政策和经销商政策，通常不会在公开渠道完整披露，而且会随区域、时间、客户类型变化。\n\n可以判断的几点：\n\n1. **佳农的主要渠道**是商超、生鲜电商、批发市场和餐饮供应链，直接面向消费者的“优惠政策”较少，更多是给渠道商的供货价、返利或账期支持。\n\n2. **下沉市场政策**如果有，通常不会以“下沉市场优惠”名义公开，而是体现在：\n   - 区域经销商的阶梯返利\n   - 批量采购折扣\n   - 季节性促销支持\n   - 地推物料或费用补贴\n\n3. **最可靠的核实方式**：\n   - 联系佳农官方客服或区域销售\n   - 查询佳农官网/公众号的招商或经销商合作入口\n   - 直接问当地批发市场佳农代理商的实际拿货政策\n\n如果你是想做采购或代理，建议直接以“区域经销合作”名义联系官方，比问“有没有下沉市场优惠”更容易拿到真实报价和政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 238,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
