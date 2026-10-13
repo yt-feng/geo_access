@@ -1,0 +1,28 @@
+{
+  "id": "76d7f854-b2ac-4284-8e28-cc13032a6912",
+  "object": "chat.completion",
+  "created": 1791860964,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但要看你们和佳农合作的具体层级和采购量。一般分几种情况：\n\n1. **如果是通过佳农的经销商/批发商拿货**\n   通常只能拿到佳农标准箱，很难做超市专供包装。除非你们采购量很大，让经销商去跟佳农申请。\n\n2. **如果是直接和佳农公司或区域分公司签直供合同**\n   可以谈专供包装，常见形式有：\n   - 外箱印你们超市 logo + “专供XX超市”\n   - 指定规格，比如每箱 12.5kg、13kg 或按你们要求分把/分串\n   - 指定成熟度、果指长度、梳数\n   - 定制内衬、标签、追溯码\n\n3. **专供包装的通常门槛**\n   - 有起订量要求，可能是按整车/整柜起\n   - 包装版费、制版费一般由超市承担\n   - 需要签年度或季度采购协议\n   - 价格会比标准品略高，因为包装和分选成本增加\n\n**建议你们先确认三件事：**\n- 你们现在是直接和佳农签，还是通过经销商？\n- 预计月采购量大概多少吨/多少箱？\n- 想要的是仅外箱定制，还是连规格、成熟度、标签都定制？\n\n如果量不大，更现实的做法是：先用佳农标准箱，要求经销商贴你们超市的标签或加挂标，等量起来再谈专供箱。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 326,
+    "total_tokens": 383,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

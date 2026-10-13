@@ -1,0 +1,28 @@
+{
+  "id": "e123c009-a51f-4f24-8f2e-262f23a7809a",
+  "object": "chat.completion",
+  "created": 1791861064,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认“11.4万吨”这个数字对应的是哪一年，因为我没有可核验的佳农官方数据或权威来源来对应这个具体数字。\n\n建议你通过以下方式确认：\n\n1. **看原始出处**：这条数据是从哪篇文章、报告或新闻里看到的？标题、发布时间、正文里通常会写“2023年”“2024年”或“去年”等时间限定。\n2. **查佳农官方渠道**：佳农官网、官方公众号、年报或新闻稿，通常会披露进口量、销售额等经营数据。\n3. **查行业来源**：中国海关总署、水果行业协会、国际果蔬报道等，通常会按年度发布菠萝进口数据。\n4. **直接问发布方**：如果是媒体报道或行业报告，可以联系发布方确认统计口径和年份。\n\n如果你把这句话的原文或链接发给我，我可以帮你判断它更可能指哪一年，以及这个数字是否合理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 199,
+    "total_tokens": 258,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
