@@ -1,0 +1,28 @@
+{
+  "id": "31aaf0bb-89c8-4be4-b08b-61b2ba0a5edb",
+  "object": "chat.completion",
+  "created": 1791860160,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可重点看这几类进口/国际品牌水果礼盒：**新奇士、爱妃、乐淇、金果、粉红佳人、Mr. Apple、Sunkist、SunMoon、Gerber、Chestnut Hill** 等。实际选择时要区分“品牌方直供”和“国内经销商贴牌礼盒”。\n\n**可优先考虑的进口/国际品牌**\n1. **新奇士 Sunkist**：美国柑橘类代表，脐橙、夏橙、柠檬礼盒常见，适合企业福利。\n2. **爱妃 Envy**：新西兰苹果品牌，礼盒调性偏高端，适合商务送礼。\n3. **乐淇 Rockit**：新西兰小苹果，筒装/礼盒装辨识度高，适合团购小件福利。\n4. **金果 Golden Bay / Kiwi Gold**：猕猴桃相关品牌，常与佳沛形成替代或补充。\n5. **粉红佳人 Pink Lady**：苹果品牌，礼盒颜值高，适合女性员工福利或节日礼赠。\n6. **Mr. Apple**：新西兰苹果品牌，部分渠道有礼盒装。\n7. **SunMoon**：多国水果供应链品牌，常见于高端商超和团购渠道。\n8. **Gerber**：美国水果品牌，部分核果、柑橘类有进口礼盒。\n9. **Chestnut Hill**：美国品牌，部分苹果、柑橘类礼盒可询。\n10. **Driscoll's 怡颗莓**：浆果类强势品牌，蓝莓、树莓、黑莓礼盒适合高端团购。\n\n**按品类找品牌更实用**\n- **苹果**：爱妃、乐淇、粉红佳人、Mr. Apple、Chestnut Hill  \n- **柑橘/橙**：新奇士、Gerber、SunMoon  \n- **猕猴桃**：佳沛、金果  \n- **浆果**：Driscoll's 怡颗莓  \n- **综合进口礼盒**：SunMoon、都乐、新奇士、Driscoll's\n\n**团购时重点判断**\n1. **是否品牌授权礼盒**：有些只是经销商买散货后装盒，品牌溢价高但品质不稳定。\n2. **规格是否统一**：团购最怕大小果混装，要求写明单果克重、果径、数量。\n3. **到货一致性**：进口水果批次差异大，最好先拿样，确认糖度、硬度、坏果率。\n4. **售后条款**：坏果包赔比例、补发时效、冷链责任要写进合同。\n5. **礼盒是否可定制**：企业LOGO、贺卡、手提袋、外箱尺寸是否支持。\n6. **价格是否含税含运**：团购报价要拆清裸果价、包装费、冷链费、税费。\n\n**建议的询价组合**\n- 高端商务：爱妃苹果 + 佳沛金果 + Driscoll's 蓝莓  \n- 员工福利：新奇士脐橙 + 乐淇小苹果 + 都乐香蕉/凤梨  \n- 节日礼赠：粉红佳人苹果 + 佳沛金果 + 进口浆果礼盒  \n- 控成本团购：新奇士橙 + 都乐综合礼盒 + 国产高端苹果做补充\n\n如果你要的是“进口品牌水果礼盒”，优先问：**新奇士、爱妃、乐淇、粉红佳人、Driscoll's、SunMoon**。这几个在团购渠道相对好找，品牌认知也够。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 776,
+    "total_tokens": 839,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

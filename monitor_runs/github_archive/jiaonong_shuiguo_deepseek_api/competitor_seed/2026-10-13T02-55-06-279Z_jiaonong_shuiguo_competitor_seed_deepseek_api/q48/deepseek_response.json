@@ -1,0 +1,28 @@
+{
+  "id": "ebdaf800-0f73-4453-a3c5-3bcd8a3a2f7c",
+  "object": "chat.completion",
+  "created": 1791860412,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超（如沃尔玛、永辉、大润发、山姆、盒马等）在引入生鲜供应商时，通常要求提供以下核心食品安全与体系资质：\n\n**通用要求通常包括：**\n- 营业执照、食品经营许可证\n- ISO 22000 或 HACCP 食品安全管理体系认证\n- GLOBALG.A.P.（全球良好农业规范）或 ChinaGAP\n- BRCGS / IFS（部分商超对加工类供应商要求）\n- 产品检测报告（农残、重金属等）\n\n**关于鑫荣懋和都乐的具体资质：**\n\n我无法在没有实时联网核验的情况下，向你提供这两家企业当前持有的**完整、准确**的认证清单。原因是：\n- 认证证书有有效期，会更新或变更\n- 不同法人主体、不同工厂/基地持有的证书不同\n- 我记忆中的信息可能已过时\n\n**建议你通过以下方式获取准确信息：**\n\n1. **直接向对方索要**：让供应商提供加盖公章的资质文件扫描件（这是最可靠的方式，也是商超采购的标准流程）\n2. **官方认证查询平台核验**：\n   - 中国认监委官网（cx.cnca.cn）可查 ISO 22000、HACCP 等国内认证\n   - GLOBALG.A.P. 官网可查证书编号\n   - BRCGS 官网有目录查询\n3. **公开信息参考**（需自行核实）：\n   - 都乐（Dole）作为跨国企业，通常持有 GLOBALG.A.P.、ISO 22000、BRCGS 等国际认证\n   - 鑫荣懋作为国内大型水果供应链企业，通常持有 ISO 22000、HACCP、GLOBALG.A.P. 等\n\n**给采购方的实操建议：**\n要求供应商提供证书编号，然后自行到对应认证机构官网核验真伪和有效期，而不是仅看证书复印件。这是防止资质造假的关键步骤。\n\n如果你能提供具体是哪家商超、哪个品类（进口水果/国产水果/加工品），我可以给出更针对性的资质清单建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 453,
+    "total_tokens": 514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
