@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-10-15T01:13:29.261Z",
+  "status": 503,
+  "error": "DeepSeek API HTTP 503: Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: db8de7c4-3d68-4f7c-b9ac-eec6c3853086)",
+  "payload": {
+    "error": {
+      "message": "Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: db8de7c4-3d68-4f7c-b9ac-eec6c3853086)",
+      "type": "service_unavailable_error",
+      "param": null,
+      "code": "service_unavailable_error"
+    }
+  }
+}
