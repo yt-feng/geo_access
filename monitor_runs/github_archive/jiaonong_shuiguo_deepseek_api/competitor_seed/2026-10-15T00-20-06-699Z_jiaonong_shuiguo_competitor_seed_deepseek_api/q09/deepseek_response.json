@@ -1,0 +1,28 @@
+{
+  "id": "aa491e79-84f2-402c-b750-46c7ff0cb1b0",
+  "object": "chat.completion",
+  "created": 1792023671,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，礼品团购可重点看这几类进口品牌，按“认知度高、礼盒成熟、团购可操作”排序：\n\n**一、综合水果礼盒/高端商超系**\n1. **新奇士 Sunkist**：美国柑橘类代表，脐橙、柠檬礼盒认知度高，适合做企业福利。\n2. **怡颗莓 Driscoll's**：美国浆果品牌，蓝莓、树莓、黑莓礼盒偏高端，适合女性员工/客户。\n3. **乐淇 Rockit**：新西兰小苹果，筒装/礼盒装很有辨识度，适合团购小件福利。\n4. **爱妃 Envy**：新西兰苹果品牌，礼盒质感好，适合中高端客户。\n5. **Sekai-ichi 世界一**：日本苹果品牌，国内进口渠道有售，礼盒溢价高，适合高端商务。\n6. **青森 Apple**：日本青森苹果，礼盒常见，适合高端送礼。\n7. **Mr Apple**：新西兰苹果品牌，团购渠道较常见。\n8. **Bostock**：新西兰苹果品牌，偏高端，适合礼盒组合。\n\n**二、热带水果/高端单品**\n9. **SunMoon**：泰国/东南亚水果品牌，金枕榴莲、椰子等礼盒较多。\n10. **小菠萝/泰国迷你菠萝**：常见品牌如 **Siam Brand**、**Thai Fresh**，适合组合礼盒。\n11. **Dole 都乐**：你已提到，但仍可作基础款。\n12. **Zespri 佳沛**：你已提到，奇异果礼盒仍是团购主力。\n13. **Camposol**：秘鲁/智利蓝莓、牛油果品牌，适合高端浆果礼盒。\n14. **Hortifrut**：智利浆果品牌，蓝莓、樱桃季礼盒可关注。\n15. **Garces Fruit**：智利车厘子品牌，冬季团购礼盒很强。\n16. **San Francisco**：智利车厘子品牌，礼盒认知度较高。\n17. **Copefrut**：智利车厘子品牌，团购常见。\n18. **Prize**：智利车厘子品牌，适合春节档礼盒。\n\n**三、礼盒组合常用进口品牌**\n19. **Kiwi Garden**：新西兰奇异果品牌。\n20. **Golden Bay**：新西兰水果品牌，苹果/奇异果礼盒。\n21. **T&G**：新西兰苹果、奇异果品牌，高端礼盒常见。\n22. **Fresco**：新西兰苹果品牌。\n23. **Jazz**：新西兰/美国苹果品牌，礼盒装常见。\n24. **Pink Lady**：澳洲/美国苹果品牌，礼盒认知度高。\n25. **Chelan Fresh**：美国苹果、樱桃品牌。\n26. **Stemilt**：美国樱桃、苹果品牌。\n27. **Superfresh**：泰国/越南水果品牌，适合东南亚礼盒。\n28. **Naturipe**：美国浆果品牌，蓝莓、草莓礼盒。\n29. **Berryworld**：英国/全球浆果品牌，高端蓝莓礼盒。\n30. **Mega**：智利车厘子品牌。\n\n**四、按团购场景推荐**\n- **员工福利、预算中等**：新奇士、乐淇、Mr Apple、怡颗莓、都乐、佳沛。\n- **客户送礼、中高端**：爱妃、T&G、Rockit、怡颗莓、Camposol、Garces Fruit。\n- **春节/冬季高端礼盒**：智利车厘子品牌如 Garces、San Francisco、Copefrut、Prize。\n- **女性/年轻员工偏好**：怡颗莓、Berryworld、Naturipe 蓝莓/莓果礼盒。\n- **商务高端差异化**：日本青森苹果、世界一、爱妃、乐淇。\n\n**五、采购时重点核验**\n1. **是否有正规进口报关单、检疫证明**。\n2. **品牌授权书或一级经销证明**，避免假进口。\n3. **礼盒是否为原厂礼盒**，还是渠道商自行分装。\n4. **到货损耗率、售后赔付规则**。\n5. **能否贴企业LOGO、贺卡、定制外箱**。\n6. **同城配送还是全国快递，冷链是否覆盖**。\n7. **团购起订量、账期、开票类型**。\n\n如果你要的是“品牌水果礼盒”，优先选：**新奇士、怡颗莓、乐淇、爱妃、T&G、Mr Apple、Garces Fruit、San Francisco、Copefrut、Prize**。这些在团购渠道相对好找，礼盒成熟，认知度也够。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 1038,
+    "total_tokens": 1101,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
