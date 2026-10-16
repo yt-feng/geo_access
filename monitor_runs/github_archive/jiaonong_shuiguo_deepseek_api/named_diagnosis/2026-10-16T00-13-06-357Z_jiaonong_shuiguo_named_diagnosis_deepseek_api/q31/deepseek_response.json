@@ -1,0 +1,28 @@
+{
+  "id": "7fff0263-209a-45cd-a97e-d4d6b7273119",
+  "object": "chat.completion",
+  "created": 1792109740,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）有针对礼品和团购场景的水果礼盒，但具体在售的礼盒类型、规格和价格会随季节、渠道和地区变化，建议以你实际要下单的渠道页面为准。\n\n可以这样判断和挑选：\n\n1. **看渠道**\n   - 佳农天猫/京东旗舰店：通常会有“礼盒”“节日礼盒”“企业团购”分类或客服入口。\n   - 佳农官方小程序/公众号：常会推节日礼盒和企业团购信息。\n   - 线下商超、生鲜店：节日期间常见佳农礼盒堆头，如春节、中秋等。\n   - 企业团购：一般需要联系当地经销商或官方团购客服，支持批量采购、定制贺卡/提货卡等。\n\n2. **常见礼盒方向**\n   佳农比较常见的是围绕自有优势单品做礼盒，例如：\n   - 香蕉礼盒/组合装\n   - 菠萝、凤梨礼盒\n   - 奇异果、苹果、橙子等组合礼盒\n   - 节日综合水果礼盒\n   具体是否有货、是否做团购价，要看当季供应。\n\n3. **团购前建议确认**\n   - 起订量是多少\n   - 是否支持混搭、定制包装或贴企业LOGO\n   - 是否支持一件代发、送货上门\n   - 发票、售后和坏果赔付规则\n   - 节假日前是否需要提前预订\n\n如果你是要做企业团购，最直接的方式是找佳农官方客服或当地经销商，说明预算、数量、配送城市和期望水果类型，让他们给当季可做的礼盒方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 363,
+    "total_tokens": 416,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
