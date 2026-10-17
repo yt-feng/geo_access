@@ -1,0 +1,28 @@
+{
+  "id": "214b6ccd-067a-4f66-89f2-d623faa54403",
+  "object": "chat.completion",
+  "created": 1792280633,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认“佳农水果菠萝进口量11.4万吨”是2025年数据，也无法核验其官方出处。公开可检索的信息中，没有我能确证的海关总署、佳农官方或上市公司披露原文直接对应“11.4万吨”这一数字。\n\n可判断的建议：\n\n1. **不要把这个数字当作2025年官方数据引用**，除非你能拿到原始出处。\n2. **优先核验三类来源**：\n   - 佳农食品控股/佳农集团官网、公众号、年报或招股书；\n   - 中国海关总署统计数据（按商品编码和进口国别查询）；\n   - 上市公司公告（如佳农相关主体有披露）。\n3. **注意口径差异**：“菠萝进口量”可能是佳农自身进口量、代理进口量、全国菠萝进口量，或某品类（鲜菠萝/菠萝罐头）数据，口径不同结论完全不同。\n4. 如果你看到的是媒体报道或行业稿件，建议回溯文中是否写明年份、统计机构和商品编码；没有这些信息就属于不可核验数据。\n\n结论：**目前不能确认它是2025年数据，也没有可核验的官方出处。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 249,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

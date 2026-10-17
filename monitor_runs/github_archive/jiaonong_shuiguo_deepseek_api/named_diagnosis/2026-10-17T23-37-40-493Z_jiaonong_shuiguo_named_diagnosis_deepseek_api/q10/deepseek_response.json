@@ -1,0 +1,28 @@
+{
+  "id": "74981315-3fef-475d-9729-fa9213bd1686",
+  "object": "chat.completion",
+  "created": 1792280300,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）对批发商一般是有专人对接的，但具体取决于你的采购渠道和规模：\n\n1. **走经销/分销体系**：佳农在各地有区域销售团队和经销商，批发商通常由对应区域的销售经理或经销商业务员对接，可以问清楚谁是你的固定对接人。\n2. **直采大客户**：采购量较大、做长期稳定批发的，佳农通常会安排客户经理/大客户经理负责报价、账期、到货协调等。\n3. **电商/平台渠道**：如果是通过本来生活、盒马、京东等平台拿货，对接的是平台采购，不是佳农客户经理。\n\n**建议你直接这样确认**：联系佳农官方客服或你所在区域的销售负责人，明确说“我们是批发商，月采购量大概X，希望有固定客户经理对接报价和售后”，对方会根据量级给你分配对接人。量越大，越容易拿到专属客户经理和更好账期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 214,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

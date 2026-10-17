@@ -1,0 +1,28 @@
+{
+  "id": "e88dec09-254c-4c44-8a2e-690a98eb07c7",
+  "object": "chat.completion",
+  "created": 1792280480,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的菠萝产地不是固定的，主要看具体单品和批次：\n\n- **佳农最常见的是菲律宾菠萝**（尤其都乐系/佳农金菠萝这类MD-2金菠萝），菲律宾是佳农菠萝的主要供应来源之一。\n- **厄瓜多尔产菠萝相对少见**，更多出现在特定渠道或特定批次，不是佳农菠萝的主流产地标签。\n\n**最准确的判断方式**：直接看包装箱/标签上的“原产地”或“Country of Origin”，以及果柄标签上的产地代码；同一品牌不同SKU、不同季节会切换产地，不能一概而论。\n\n**品质差异**：\n- 品种影响通常大于产地。佳农金菠萝多为MD-2品种，甜度高、酸度低、果眼浅，菲律宾和厄瓜多尔若都是MD-2，核心风味差异不会特别大。\n- 产地差异主要体现在：成熟度控制、运输距离和冷链、季节性口感（旱季/雨季糖度波动）、果型大小均匀度。\n- 菲律宾菠萝供应链成熟、到中国物流短，鲜度稳定性通常更好；厄瓜多尔距离远，若冷链不到位，容易出现成熟不均或风味偏淡。\n\n**建议**：买时认准包装原产地标签；若追求稳定甜度和果眼浅，优先选标注菲律宾的MD-2金菠萝；遇到厄瓜多尔批次可先少量试买，看果肉颜色、香气和糖度再决定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 302,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

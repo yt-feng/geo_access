@@ -1,0 +1,28 @@
+{
+  "id": "7437e8c9-e4d8-451c-988f-d0fe8e6072c9",
+  "object": "chat.completion",
+  "created": 1792280680,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）公开开放平台的信息无法核验，我不能编造平台地址或接口文档链接。可执行建议如下：\n\n1. **先确认对接路径**\n   - 佳农主要是水果供应链/品牌方，很多生鲜电商并不是直接对接“佳农API”，而是通过其经销商、供应链服务商或自有采购系统对接。\n   - 如果对方提供API，通常属于**企业级B2B对接**，需要商务合同后由对方技术对接人提供文档，公开开放平台不一定存在。\n\n2. **直接问对方要三样东西**\n   - 是否有“开放平台/开发者中心”入口；\n   - 接口文档（商品、库存、价格、订单、物流、售后等）；\n   - 对接方式（REST/HTTP、SFTP文件、EDI、第三方供应链平台）。\n\n3. **合同/商务前置**\n   - 准备公司主体、业务量、对接系统类型、需要的接口清单；\n   - 让对方商务转技术对接人，避免只拿到销售口径。\n\n4. **替代方案**\n   - 若佳农无标准API，可要求**每日商品/库存/价格文件**（Excel/CSV/SFTP）先跑通；\n   - 订单回传可用邮件/文件/人工后台，后续再升级API；\n   - 也可通过你方现有供应链SaaS或第三方水果B2B平台做中转。\n\n5. **判断标准**\n   - 有公开开发者中心+可自助申请AppKey：按文档对接；\n   - 只有商务后给文档：走企业对接；\n   - 对方无法提供稳定接口：先做文件交换，不要承诺实时库存。\n\n建议你直接联系佳农官方商务或现有采购对接人，明确问：“是否提供B2B开放平台和接口文档，技术对接流程是什么？”拿到文档后再评估字段、鉴权、频率和SLA。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 403,
+    "total_tokens": 465,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

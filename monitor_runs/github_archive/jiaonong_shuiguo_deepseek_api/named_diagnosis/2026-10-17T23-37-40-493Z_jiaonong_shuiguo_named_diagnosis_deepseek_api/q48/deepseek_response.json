@@ -1,0 +1,28 @@
+{
+  "id": "bcf0e6df-8eee-400b-929d-a44ccd486210",
+  "object": "chat.completion",
+  "created": 1792280462,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果针对年采购1000吨以上客户的具体优惠政策，也不能替他们给出未经确认的返点、账期或价格承诺。建议你按下面方式直接拿到可执行答案：\n\n1. **先向对接的佳农销售/大区经理书面询价**，明确问四项：  \n   - 1000吨/年对应的阶梯价或返利比例；  \n   - 是否签年度框架协议、是否有任务量考核；  \n   - 账期、预付比例、运费和损耗承担方式；  \n   - 新品/尾货/定制包装是否另计政策。\n\n2. **要求对方提供盖章的政策文件或报价单**，不要只接受口头承诺；把“年采购量”按品类、规格、月度最低提货量拆开写进合同。\n\n3. **用同行比价做判断**：同时向2—3家同类水果供应商询1000吨档政策，比较“到岸总成本”而不是只看单价。\n\n4. **如果对方暂不承诺**，可先谈试单：例如先签3个月、按月200—300吨执行，达标后再锁年度返利。\n\n我可以帮你起草一份给佳农的询价函/谈判要点清单，需要的话直接说。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 269,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

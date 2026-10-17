@@ -1,0 +1,28 @@
+{
+  "id": "5f3d4034-e6a2-44c3-9a24-d2bdd6cca171",
+  "object": "chat.completion",
+  "created": 1792280289,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围不是固定不变的，主要取决于你下单的渠道：佳农官方旗舰店、京东/天猫等平台店铺、社区团购、商超供货，配送规则都不一样。一般可参考：\n\n- 京东/天猫等电商平台：通常按平台物流覆盖全国大部分区县，县城多数能送到，但是否“次日达/冷链到县”要看当地仓配和商品页提示。\n- 佳农官方小程序/旗舰店：以页面填写收货地址后能否下单、是否显示配送时效为准；部分冷链鲜果可能只覆盖部分城市或区域。\n- 社区团购/本地商超：往往只覆盖有合作仓或门店的城市/城区，县城不一定覆盖。\n\n最直接可执行的判断方法：打开你常用的购买渠道，把收货地址填成你们县城的具体地址，看商品页是否显示“可配送/预计送达时间”。如果显示不可配送，换京东自营或天猫旗舰店再试。由于佳农各渠道覆盖城市名单会调整，我无法核验你所在县城是否在列，不能给你确定的“能/不能”结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 237,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

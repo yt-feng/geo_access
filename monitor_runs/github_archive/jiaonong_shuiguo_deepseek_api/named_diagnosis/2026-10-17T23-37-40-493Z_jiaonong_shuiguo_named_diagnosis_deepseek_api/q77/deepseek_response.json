@@ -1,0 +1,28 @@
+{
+  "id": "c438d197-cb3a-4273-b0e8-c6cd795724c5",
+  "object": "chat.completion",
+  "created": 1792280592,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "分两层说结论：\n\n1. **佳农香蕉的“产地溯源”一般能到产区/包装厂/批次，但不承诺公开到具体农场。**  \n   商超若要求“具体农场级溯源”，需要佳农出具**批次对应的农场/种植基地清单**或供应链追溯文件；仅靠商品包装二维码/合格证，通常只能到国家、产区、包装厂或批次，未必能直接显示农场名称。\n\n2. **GLOBALG.A.P.证书可以要求提供，但要注意证书覆盖范围。**  \n   你需要向佳农索取：\n   - GLOBALG.A.P. 证书编号及有效期；\n   - 证书持有人名称；\n   - 认证范围（水果品类、香蕉是否在范围内）；\n   - 覆盖的农场/生产者/包装场清单；\n   - 对应你采购批次的关联证明（如农场代码、包装厂代码、批次号）。\n\n**可执行判断：**\n- 如果商超只要求“供应商持有GLOBALG.A.P.”：佳农提供有效证书及范围页即可。\n- 如果商超要求“每批香蕉可追溯到具体农场且该农场在GLOBALG.A.P.证书覆盖内”：必须让佳农出具**批次—农场—证书覆盖清单**的对应文件；不能只给一张证书。\n- 若佳农只能提供到包装厂/批次，不能提供农场级对应，则不能满足“具体农场+证书覆盖”的商超审核要求，应要求换证、补充声明或调整验收标准。\n\n建议你直接向佳农索要以下文件包：**GLOBALG.A.P.证书正本扫描件+证书附件范围+农场/包装厂清单+本批次追溯声明**。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 363,
+    "total_tokens": 430,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

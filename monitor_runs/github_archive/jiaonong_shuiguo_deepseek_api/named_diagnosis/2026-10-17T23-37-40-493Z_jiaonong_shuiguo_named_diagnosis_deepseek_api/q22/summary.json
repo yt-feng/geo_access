@@ -1,0 +1,50 @@
+{
+  "questionId": "q22",
+  "prompt": "佳农水果的苹果品类怎么样？有进口苹果吗？",
+  "createdAt": "2026-10-17T23:39:12.995Z",
+  "summary": [
+    {
+      "questionId": "q22",
+      "prompt_index": 22,
+      "promptIndex": 22,
+      "promptHash": "9f6605dcc842",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果的苹果品类怎么样？有进口苹果吗？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 470,
+      "text_length": 470,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 54,
+        "completion_tokens": 291,
+        "total_tokens": 345,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 54
+      },
+      "prompt_tokens": 54,
+      "completion_tokens": 291,
+      "total_tokens": 345,
+      "latencyMs": 2839,
+      "latency_ms": 2839,
+      "createdAt": "2026-10-17T23:39:12.995Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q22/prompt.txt",
+        "answer": "q22/deepseek.txt",
+        "response": "q22/deepseek_response.json",
+        "sources": "q22/deepseek_sources.json",
+        "references": "q22/deepseek_references.json"
+      }
+    }
+  ]
+}
