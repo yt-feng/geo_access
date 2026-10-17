@@ -1,0 +1,28 @@
+{
+  "id": "13bd659a-d91a-4d86-907b-1161cd8c2388",
+  "object": "chat.completion",
+  "created": 1792279628,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以按“进口来源稳定、国内有成熟分销、终端可见度高”来筛。除都乐、鑫荣懋外，可重点看这几类：\n\n1. **佳沛 Zespri**：严格说是猕猴桃品牌，不是苹果；如果你要“进口水果品牌型供应商”，它很靠谱，但苹果品类不适用。\n2. **新奇士 Sunkist**：美国老牌柑橘/水果品牌，国内认知度高，部分渠道有苹果类产品，但苹果不是其最强项。\n3. **华盛顿苹果协会相关品牌/产区品牌**：如美国华盛顿州苹果，多为产区背书而非单一商业品牌。适合找进口商时认“Washington Apple”标识，而不是只认品牌。\n4. **新西兰 Mr Apple**：新西兰苹果商业品牌，主打爱妃、爵士、太平洋玫瑰等，国内精品商超和电商有售，靠谱度较高。\n5. **新西兰 Rockit（乐淇）**：小苹果品牌，包装和渠道成熟，适合精品零售，但品类单一。\n6. **南非/智利产区的进口商品牌**：这类更多是进口商自有品牌，稳定性取决于进口商，不宜只看“国家品牌”。\n\n实操建议：\n- 做**品牌对比**：优先选 Mr Apple、Rockit、Sunkist、都乐、鑫荣懋，再补充华盛顿苹果产区货源。\n- 做**供应链对比**：重点问进口商是否有一手柜、冷库、催熟/分选能力和损耗赔付，不只比品牌名。\n- 避坑：国内很多“进口苹果”是产区货贴渠道品牌，务必核验原产地证明、果园注册号和报关单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 354,
+    "total_tokens": 416,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

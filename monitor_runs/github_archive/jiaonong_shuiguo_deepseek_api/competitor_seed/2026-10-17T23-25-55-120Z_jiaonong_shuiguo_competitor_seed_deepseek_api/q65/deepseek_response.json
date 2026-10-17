@@ -1,0 +1,28 @@
+{
+  "id": "bc5ea88d-a47b-4190-b84f-5363846fb36c",
+  "object": "chat.completion",
+  "created": 1792279881,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐（Dole）和洪九果品的菠萝锁价周期，我无法核验到可靠公开信息，不能给出具体天数，避免误导你。可以确认的是：这类锁价周期通常不对外统一公布，而是按客户体量、品类（鲜果/加工果）、季节和合同条款一单一议，所以“固定锁价周期”本身很可能不存在。\n\n可执行建议：\n1. 直接向都乐中国和洪九果品的销售/大客户部门询价，明确问三件事：锁价是否按单柜/按月/按季；锁价对应的品质规格和到货港口；超期或违约的调价条款。\n2. 谈判时要求书面锁价函或合同附件，写明锁价起止日、基准价、浮动触发条件（如产地价波动超X%可重议）。\n3. 同时找2–3家区域性菠萝进口商或产地直采商做比价，作为议价参照。\n4. 若你量大且稳定，可提出“部分锁价+部分随行就市”的组合，供应商更可能接受。\n\n如需，我可以帮你起草一份向供应商询锁价机制的邮件/问题清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 255,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
