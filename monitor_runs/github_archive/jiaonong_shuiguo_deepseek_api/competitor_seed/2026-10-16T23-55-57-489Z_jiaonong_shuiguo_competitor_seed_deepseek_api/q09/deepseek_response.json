@@ -1,0 +1,28 @@
+{
+  "id": "781f1d0e-f2cc-4a1c-b223-88544b3e900b",
+  "object": "chat.completion",
+  "created": 1792195003,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），进口水果礼盒里常见的品牌还有这些，按品类给你梳理一下：\n\n**综合类进口水果品牌**\n- **新奇士（Sunkist）**：美国老牌柑橘类品牌，橙子、柠檬为主，礼盒装常见，认知度高。\n- **怡颗莓（Driscoll's）**：美国浆果品牌，蓝莓、树莓、黑莓主打，礼盒偏精致高端。\n- **乐淇（Rockit）**：新西兰小苹果，单果独立筒装，礼盒感强，适合商务。\n- **爱妃（Envy）**：新西兰/美国苹果品牌，果大色红，礼盒装常见。\n- **爵士（Jazz）**：新西兰苹果品牌，和爱妃同属T&G体系。\n\n**单一品类强势品牌**\n- **车厘子**：Stemilt（美国）、Chelan Fresh（美国）、Río King（智利）等，智利产季品牌众多，礼盒多按J级分装。\n- **牛油果**：Mission（墨西哥）、Hass 系品牌。\n- **提子**：Sun World 旗下的 **Autumn Crisp**、**Midnight Beauty** 等授权品种。\n- **奇异果**：除了佳沛，还有 **Kiwi Crush** 等小众品牌，但市场认知远不如佳沛。\n- **芒果**：秘鲁/澳洲产区的 **Kent**、**R2E2** 多为品种名而非品牌。\n\n**选礼盒的实操建议**\n1. **看品牌+品种组合**：进口水果礼盒很多是\"渠道商品牌\"而非产地品牌，比如百果园、洪九果品、鑫荣懋的自有礼盒，里面装的是上述品种，性价比可能更高。\n2. **看产季**：车厘子（智利/澳洲）、提子（秘鲁/澳洲）、柑橘（美国/澳洲）都有明确产季，反季礼盒价格虚高。\n3. **商务场景优先级**：佳沛、新奇士、Driscoll's、Rockit 认知度最高，收礼方一眼能识别；小众品牌适合懂行客户。\n4. **避坑**：所谓\"进口品牌\"很多是国内分装，认准原产地标签和品种名比认品牌更实在。\n\n如果你告诉我预算区间和用途（员工福利/客户商务/节庆），我可以帮你缩到 2-3 个具体方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 538,
+    "total_tokens": 601,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}
