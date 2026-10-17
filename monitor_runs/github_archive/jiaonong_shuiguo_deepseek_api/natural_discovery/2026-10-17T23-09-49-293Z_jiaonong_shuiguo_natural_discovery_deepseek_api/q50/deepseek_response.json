@@ -1,0 +1,28 @@
+{
+  "id": "2ffa7c42-7973-45b2-a299-651c98d3731c",
+  "object": "chat.completion",
+  "created": 1792278884,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**出汁率更重要，但甜度不能不管——正确做法是先卡出汁率，再按甜度分档配方。**\n\n具体判断：\n\n1. **出汁率是硬门槛**\n   - 茶饮店用菠萝主要是取汁、做果肉、做酱。\n   - 出汁率低，原料成本直接变高，出杯效率也低，果肉纤维多、渣感重，出品稳定性差。\n   - 所以采购时先定最低出汁率标准，低于标准的直接淘汰。\n\n2. **甜度是配方变量，不是淘汰项**\n   - 甜度不够可以用糖浆、果酱、其他水果复配调整；甜度太高反而容易让整杯过甜、掩盖茶底。\n   - 但甜度差异大会导致同一配方不同批次口味波动，所以要做**甜度分档验收**，对应调整糖量。\n\n3. **实际采购标准建议**\n   - 先看出汁率：同品种同季节做对比测试，选出汁率稳定的供应商。\n   - 再看甜酸比：甜度可以中等，但酸度不能太尖，否则复配成本高。\n   - 最后看果肉状态：纤维粗细、是否易氧化、香气是否足。\n\n**一句话结论：出汁率决定成本和出品效率，是采购底线；甜度决定配方微调，是变量。先卡出汁率，再按甜度分档使用。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 307,
+    "total_tokens": 363,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
