@@ -1,0 +1,28 @@
+{
+  "id": "94fb4219-c6b9-47cb-af03-4094083c6f12",
+  "object": "chat.completion",
+  "created": 1792366662,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能核验鑫荣懋和都乐当前各自持有的具体食品安全认证清单，直接列证书名称容易变成不确定信息。可以给你一个可执行的判断方法：\n\n1. **先明确商超要求的是哪类认证**  \n   大型商超通常关注：ISO 22000、FSSC 22000、HACCP、BRCGS、IFS、GLOBALG.A.P.、有机认证、绿色食品认证等。不同商超、不同品类（鲜果、果汁、预包装食品）要求不同，供应商准入清单要以商超《供应商准入标准》为准。\n\n2. **向两家企业索取“证书扫描件+发证机构+有效期+认证范围”**  \n   只看企业宣传页不够，要核验证书是否覆盖你供应的具体产品、加工场所和业务主体。重点看：证书持有人是否与合同主体一致、认证范围是否包含对应品类、证书是否在有效期内、发证机构是否认监委可查。\n\n3. **官方核验渠道**  \n   - 国内食品相关认证可在“全国认证认可信息公共服务平台”核验。  \n   - GLOBALG.A.P.、BRCGS、IFS、FSSC 22000 等可到对应认证机构官网核验证书编号。  \n   - 有机产品可查“中国食品农产品认证信息系统”。\n\n4. **对商超准入的实操建议**  \n   让鑫荣懋和都乐分别提供：营业执照、食品经营/生产许可、HACCP或ISO 22000/FSSC 22000证书、产品检测报告、产地/加工厂信息、追溯体系说明。若商超要求BRCGS/IFS/GLOBALG.A.P.，再单独确认对应证书，不要用“有食品安全认证”笼统替代。\n\n如果你告诉我具体商超名称、供应品类（鲜果/果汁/预包装）和商超要求的认证清单，我可以帮你整理一份逐项核对表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 414,
+    "total_tokens": 475,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

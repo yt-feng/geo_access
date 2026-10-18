@@ -1,0 +1,28 @@
+{
+  "id": "1ca192f4-7dd2-4037-8db3-f836c04316cd",
+  "object": "chat.completion",
+  "created": 1792366441,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以优先看这几类进口香蕉品牌/货源，按“渠道可控性”排序：\n\n1. **都乐 Dole**\n   - 进口香蕉里认知度和稳定性都比较强，适合做商超、水果店常备货。\n   - 优势是品牌背书强、规格相对稳定；缺点是价格通常不算最低，需要确认你所在区域经销权限和到货频率。\n\n2. **金吉达 Chiquita**\n   - 传统国际香蕉品牌，餐饮、商超渠道常见。\n   - 适合做中高端陈列和稳定供货；要重点确认国内进口商/区域代理的货源是否稳定，以及熟度控制。\n\n3. **德尔蒙 Del Monte**\n   - 也是国际香蕉品牌，部分渠道有进口或品牌授权货源。\n   - 适合作为 Dole、Chiquita 之外的补充品牌，避免单一品牌议价被动。\n\n4. **Fyffes / 其他欧洲或南美来源品牌**\n   - 在国内部分港口和批发渠道能见到，但品牌认知和稳定供货不如前三家。\n   - 更适合有成熟进口商资源、能做批次质检和催熟管理的商家。\n\n实操建议：\n- 先别只按“品牌”选，先锁定**你所在城市的进口商/一级批发商**，问清楚：产地（菲律宾/厄瓜多尔/哥伦比亚等）、到港频率、规格、催熟状态、损耗赔付。\n- 香蕉业务关键不是品牌名气，而是**催熟稳定性、到货熟度、损耗率、补货频率**。建议先小批量试 Dole 和 Chiquita 各一批，对比7天内的转色、货架期和客诉。\n- 如果你做的是佳沛奇异果同一批中高端客群，香蕉可以定位为引流/日常水果，优先选**Dole 或 Chiquita 的稳定规格货**，不必追求过多品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 403,
+    "total_tokens": 467,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

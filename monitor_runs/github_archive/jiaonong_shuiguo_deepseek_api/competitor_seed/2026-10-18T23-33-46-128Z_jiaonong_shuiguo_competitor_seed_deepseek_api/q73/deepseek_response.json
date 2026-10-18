@@ -1,0 +1,28 @@
+{
+  "id": "60c6eed2-4c76-4943-a4ce-ceff0680aa3e",
+  "object": "chat.completion",
+  "created": 1792366780,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常会要求生鲜/食品供应商具备可核验的食品安全与质量体系认证。就鑫荣懋和都乐而言，能明确说的是：\n\n- **都乐（Dole）**：作为跨国果蔬企业，公开可查的体系通常涉及 **GFSI 认可的食品安全认证**（如 BRCGS、IFS、FSSC 22000 等，具体到某个法人/包装厂需看证书）、**ISO 9001 质量管理体系**、**ISO 22000 食品安全管理体系**，以及农业端的 **GlobalG.A.P.** 等。具体哪些工厂/品类持证，要以证书编号和认证范围为准。\n- **鑫荣懋**：公开信息常见其具备 **ISO 9001、ISO 22000/HACCP** 等体系认证，并在部分品类/基地涉及 **GlobalG.A.P.** 等农业规范。具体到供货主体、加工厂和品类，同样需以有效证书为准。\n\n**可执行建议**：不要只问“有没有认证”，而应要求供应商提供与本次供货主体、工厂、品类一致的有效证书（含证书编号、认证范围、有效期、发证机构），并在认监委/认证机构官网或 GFSI 数据库核验；商超审核时重点看认证范围是否覆盖实际生产场所和产品。由于我无法在此核验两家企业当前具体证书清单，以上不构成对其现时持证情况的保证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 307,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
