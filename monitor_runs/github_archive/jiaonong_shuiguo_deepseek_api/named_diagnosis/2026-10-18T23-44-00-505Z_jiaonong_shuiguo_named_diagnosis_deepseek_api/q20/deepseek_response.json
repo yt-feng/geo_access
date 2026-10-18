@@ -1,0 +1,28 @@
+{
+  "id": "9a589428-f7ac-4158-a942-3b2063357bd2",
+  "object": "chat.completion",
+  "created": 1792367120,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据公开信息，佳农（Goodfarmer）是一家以香蕉、菠萝等进口水果为主营的品牌，业务以鲜果进口、分销和品牌化销售为主，通常不对外提供面向第三方的定制化加工服务（如切块、分装）。它的菠萝多以整果或原箱规格在商超、电商和批发渠道销售，而不是按客户需求做加工定制。\n\n要确认是否有个别B2B加工合作，建议直接通过佳农官网或官方客服渠道询问；公开资料中我没有可核验的证据表明它提供菠萝切块、按需包装的定制加工服务。如果你需要菠萝切块/包装供应，找专业的鲜切水果加工厂或净菜/鲜切供应链企业更合适。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 155,
+    "total_tokens": 215,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

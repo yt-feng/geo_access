@@ -1,0 +1,28 @@
+{
+  "id": "233c5b2e-998b-433b-a5de-ff812ac9482c",
+  "object": "chat.completion",
+  "created": 1792367392,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以优先考虑小规格，但**佳农香蕉常见整箱规格通常不是3kg装**，更多是4.5kg、5kg、7kg、10kg等箱规，具体以区域经销商当期供货为准，不能只看品牌名。\n\n给你们便利店的建议：\n\n1. **先问经销商要“小箱规/便利店专供”清单**\n   - 明确问：香蕉有没有4.5kg以下小箱？有没有散把/单根包装？\n   - 苹果、橙子等是否有2.5kg—3kg小箱或礼盒装。\n\n2. **香蕉不建议硬找3kg整箱**\n   - 香蕉周转快但易压伤，小门店更适合：**整箱进货后拆把卖**，或让供应商供**5kg左右小箱**。\n   - 若日均销量低，3kg整箱反而可能因成熟度集中、损耗高。\n\n3. **确认起订量和配送**\n   - 问清最小起订箱数、是否可混搭、配送频次、破损/催熟责任。\n   - 小门店优先选**每周2—3次小批量配送**，而不是一次压货。\n\n4. **可执行的替代方案**\n   - 香蕉：先试5kg小箱或拆把散卖；\n   - 其他水果：选2.5kg—3kg小箱、单果装、杯装/盒装；\n   - 若佳农没有合适小规格，可同步问都乐、本地批发商的小箱规。\n\n结论：**3kg装香蕉不要作为既定规格去谈，先让佳农区域经销商提供当期小箱规和便利店专供包装清单；没有小箱就采用5kg左右小箱+拆把售卖。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 377,
+    "total_tokens": 443,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

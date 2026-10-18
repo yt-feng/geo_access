@@ -1,0 +1,28 @@
+{
+  "id": "250cfb24-bed9-41b8-906d-a221a616444d",
+  "object": "chat.completion",
+  "created": 1792367074,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）主要做香蕉、菠萝、火龙果等进出口水果，其对外公开的财报和宣传材料里，一般不会披露某一品类的“到货损耗率”具体控制标准，所以没有一个可核验的官方数字可以引用。\n\n从行业通行水平给个可判断的参考：\n\n- **香蕉**：到货损耗（含催熟前青蕉损伤、掉把、水烂、催熟后次品）行业通常控制在 **3%–6%** 左右；控得好的大型进口商可在 **3%–5%**。\n- **菠萝/凤梨**：**4%–8%** 较常见，高损耗季节或长途海运可到 10%。\n- **火龙果、提子等易腐品**：**5%–10%**。\n- 冷链稳定、周转快的商超直供渠道，整体到货损耗多在 **5% 上下**。\n\n如果你是要**对账、考核供应商或制定合同扣罚标准**，建议直接向佳农业务对接人要其该品类、该线路的**合同约定损耗上限**和**到货验收标准**，那才是有约束力的数字；公开资料里查不到可靠值，我不建议用一个网传数字去卡它。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 271,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

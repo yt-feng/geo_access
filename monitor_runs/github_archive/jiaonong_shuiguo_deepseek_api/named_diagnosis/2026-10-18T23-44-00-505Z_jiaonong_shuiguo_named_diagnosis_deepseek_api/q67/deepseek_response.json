@@ -1,0 +1,28 @@
+{
+  "id": "d4b2a286-d209-42f2-9fe0-e814fe9edbaa",
+  "object": "chat.completion",
+  "created": 1792367326,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "根据佳农水果官方公开的服务信息：佳农的客户服务**不是 7×24 小时**，通常为工作日工作时间内提供人工客服；周末和节假日人工客服不一定在线。周末可以正常下单，订单一般会进入系统排队，**但人工审核、客服响应和发货处理通常顺延到工作日**，具体以你下单渠道（佳农官方小程序/商城、电商平台旗舰店等）页面公示的客服时间和发货时效为准。\n\n建议你：\n1. 在佳农官方小程序或对应电商店铺页查看“客服服务时间”和“发货时间”说明；\n2. 周末下单后如需确认，优先通过平台在线客服留言，工作日会处理；\n3. 急单或需指定到货时间，尽量在工作日下单并提前联系人工客服确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 170,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

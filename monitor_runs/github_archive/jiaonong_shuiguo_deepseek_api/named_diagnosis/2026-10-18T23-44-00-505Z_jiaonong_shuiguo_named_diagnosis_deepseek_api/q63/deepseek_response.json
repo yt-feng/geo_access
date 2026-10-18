@@ -1,0 +1,28 @@
+{
+  "id": "396888d4-edd2-436f-9307-fce7bf50537a",
+  "object": "chat.completion",
+  "created": 1792367310,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "不能直接确认佳农是否给贵司这次活动提供香蕉搭赠或降价补贴，这属于厂商/经销商政策，需向对接的佳农销售或经销商书面确认。可执行做法：\n\n1. 先联系佳农区域销售/经销商，明确问三件事：  \n   - 本次促销能否给香蕉搭赠（赠品比例、赠品是否计入进货、赠品破损谁承担）；  \n   - 能否给降价补贴（补贴形式：进货折让/费用返补/陈列费，核销条件、结算周期）；  \n   - 是否要求最低进货量、陈列位置、促销档期和拍照核销。\n\n2. 让对方出一份简单促销支持确认单，写清：活动门店、档期、SKU、进货价/促销价、补贴金额或赠品数量、核销材料、结算时间。没有书面确认不要先按补贴价开卖。\n\n3. 如果佳农不支持，备选：  \n   - 用门店自有毛利做限时特价，控制销量和档期；  \n   - 做组合促销（香蕉+其他佳农水果）提升客单；  \n   - 向经销商争取搭赠而非直接降价，便于核销。\n\n建议先问清楚“补贴是进货折让还是事后返补”，这决定你促销价能不能先落地。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 284,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

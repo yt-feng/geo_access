@@ -1,0 +1,28 @@
+{
+  "id": "19d4d0dd-87f2-49b5-851d-2f83e0a42beb",
+  "object": "chat.completion",
+  "created": 1792367196,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉属于有品牌、但消费者“认品牌”程度中等偏上的品类：\n\n1. **品牌知名度**：佳农在香蕉、菠萝等进口/精品水果里算头部品牌之一，商超、生鲜电商铺货广，消费者“见过、听过”的比例不低。\n2. **品类特性决定认知天花板**：香蕉是低单价、高频、强比价品类，多数消费者在货架前更看外观、成熟度、价格，而不是专门认品牌；品牌溢价空间有限。\n3. **认知表现**：佳农香蕉更多是“包装和标签有辨识度、买过觉得稳定”的信任型认知，而不是像饮料、乳品那样强品牌忠诚；复购更多依赖渠道便利和品质稳定。\n4. **判断**：如果问“有没有品牌认知”，有，且在水果品牌里靠前；如果问“消费者是否会为佳农香蕉专门找着买”，比例明显低于品类购买频次，属于渠道驱动+品质口碑型品牌。\n\n简言之：**行业和货架层面认知度较高，消费者主动指名购买度中等。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 236,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

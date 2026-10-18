@@ -1,0 +1,28 @@
+{
+  "id": "f12760ec-eaf2-4d3d-ad18-f1bae505341f",
+  "object": "chat.completion",
+  "created": 1792367167,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能确认佳农当前是否有专门的礼品团购水果礼盒及具体政策，因为这需要核验其官网、官方旗舰店或团购渠道的最新信息，而我无法核实来源。\n\n可执行建议：\n1. 打开佳农官网或天猫/京东“佳农官方旗舰店”，搜索“礼盒”“团购”“企业采购”。\n2. 直接联系官方客服，询问：是否有企业团购礼盒、起订量、能否定制LOGO/贺卡、配送范围、开票类型。\n3. 若官方渠道没有专门团购礼盒，可问是否支持按预算搭配果品并做礼盒包装。\n\n判断标准：以官方客服书面回复或官方店铺商品页为准，不要只信第三方经销商宣传。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 158,
+    "total_tokens": 211,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

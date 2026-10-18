@@ -1,0 +1,28 @@
+{
+  "id": "0e1c38c7-a0c0-4f7e-944d-88cef00b39af",
+  "object": "chat.completion",
+  "created": 1792367253,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这类信息需要以佳农官方或你对接的经销商当日报价政策为准，我无法核验具体 MOQ 和 logo 印制规则，不能给你编一个数字。你可以按下面方式快速确认：\n\n1. **先确认渠道**：佳农水果礼盒通常走区域经销商/团购渠道，不同品类（香蕉、菠萝、火龙果、车厘子等）和包装规格的起订量不同，需问具体对接的销售。\n2. **直接问这4个问题**：\n   - 这款礼盒的**最小起订量**是多少箱/盒？\n   - 是否支持**企业 logo 印制**？是印在礼盒、贴纸还是提袋上？\n   - logo 定制是否有**额外制版费/起订门槛**（常见是按盒数或按版费）？\n   - 定制后**交期**和**是否可分批发货**？\n3. **要书面确认**：让销售把 MOQ、logo 位置/尺寸、制版费、交期写进报价单或微信文字确认，避免口头承诺。\n4. **备选方案**：如果佳农该规格不支持小批量 logo 印制，可问经销商能否用**通用礼盒+定制贴纸/腰封/提袋**，通常门槛更低。\n\n建议你直接联系佳农当地经销商或官方团购客服，拿到当日报价政策后再定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 302,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

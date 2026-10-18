@@ -1,0 +1,28 @@
+{
+  "id": "788d87fb-6f0c-431f-a504-51d1ce376270",
+  "object": "chat.completion",
+  "created": 1792367267,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的水果物流不是单一用三通一达或全自有车队。更准确地说，它采用自有冷链＋第三方物流＋产地仓/区域仓分拨的组合模式：核心品类和关键线路以自有或可控冷链资源为主，部分区域配送和电商订单会交给第三方快递/城配承运。\n\n冷链覆盖率没有公开、可核验的统一百分比，不能给准确数字。可判断的是：佳农以香蕉、菠萝、火龙果、车厘子等进口和国产水果为主，对温控要求高，主要走冷链干线、冷链城配和温控仓储；但“全程冷链覆盖率”会因品类、线路、销售渠道（商超直供、批发、电商）差异很大，不能简单说全覆盖或低覆盖。\n\n如果你想核实具体线路或渠道的冷链覆盖，建议直接问佳农官方客服或销售：1）该品类从产地到销地是否全程温控；2）干线、仓储、末端配送分别由谁承运；3）是否有温度记录和断链赔付标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 218,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
