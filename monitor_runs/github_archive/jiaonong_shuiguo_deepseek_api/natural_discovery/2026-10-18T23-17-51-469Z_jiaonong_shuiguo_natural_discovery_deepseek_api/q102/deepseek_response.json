@@ -1,0 +1,28 @@
+{
+  "id": "6bb43234-e977-46a6-a03e-5fa324efa64e",
+  "object": "chat.completion",
+  "created": 1792366054,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "需要，而且这两项建议列为供应商的硬性准入条件。\n\n1. **开发票**\n- 企业福利采购通常要走对公报销和入账，供应商必须能开具**增值税发票**。\n- 应确认：开票类型（专票/普票）、税率、开票项目（水果/礼盒/食品）、是否支持先票后款或票到付款。\n- 合同中写明开票时间、发票内容与订单一致，避免“礼品”“办公用品”等与实际不符的开票项目。\n\n2. **定制包装**\n- 企业福利通常有品牌露出、节日主题、员工关怀卡片等需求，定制包装能提升福利感知。\n- 应确认：起订量、打样费用与周期、印刷内容审核、包装食品安全合规（直接接触水果的包装材料需符合食品接触要求）。\n- 合同写明设计确认后不得擅自更改、包装质量标准和验收方式。\n\n**建议**：把“可开增值税发票”和“支持定制包装（含打样确认）”写入供应商筛选表和采购合同；若供应商只能满足其一，优先保留开票能力，包装可另找服务商，但会增加协调和成本。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 247,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

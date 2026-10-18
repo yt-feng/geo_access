@@ -1,0 +1,28 @@
+{
+  "id": "56a6bfae-64f5-494b-81b3-570d115f3b17",
+  "object": "chat.completion",
+  "created": 1792365772,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "应该**优先关注成熟度，价格放在其次**。香蕉对烘焙蛋糕的影响，成熟度几乎直接决定成品风味、甜度、颜色和含水率，价格只影响成本。\n\n### 判断建议\n- **做香蕉蛋糕/香蕉磅蛋糕/香蕉马芬**：选**表皮大面积出现黑点、果肉软但不流汁**的香蕉，香气和甜度最好，糖分高、酸涩感低。\n- **不要用**：全青或刚转黄的香蕉，香气不足、涩味重、淀粉多，烤出来香蕉味弱。\n- **慎用**：已经发黑软烂、有酒味或渗汁的香蕉，可能过熟发酵，影响风味和稳定性。\n- **价格策略**：可以低价采购“熟度偏高但仍可食用”的香蕉，但不要为了便宜买青蕉或已经变质蕉。若一次买多，按熟度分批使用，过熟的可冷冻保存做果泥。\n\n### 简单采购标准\n**看皮色和手感**：黄皮带黑点、捏起来有弹性偏软、闻起来有明显香蕉香，是蛋糕用最合适的成熟度。价格在同一成熟度档位里再比较，不要用价格倒推成熟度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 263,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
