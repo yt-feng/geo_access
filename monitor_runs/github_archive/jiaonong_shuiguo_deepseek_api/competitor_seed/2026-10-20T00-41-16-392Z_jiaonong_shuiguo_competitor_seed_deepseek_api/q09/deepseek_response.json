@@ -1,0 +1,28 @@
+{
+  "id": "ecf362c6-c7fd-4c02-8a83-e0478b0a9019",
+  "object": "chat.completion",
+  "created": 1792456915,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除都乐（Dole）和佳沛（Zespri）外，礼品团购可考虑的进口水果品牌主要有：\n\n1. **新奇士（Sunkist）**：美国柑橘类代表，橙子、柠檬礼盒认知度高，适合商务礼品。\n2. **爱妃（Envy）**：新西兰/美国苹果品牌，果形和口感稳定，礼盒装常见。\n3. **爵士（Jazz）**：新西兰苹果品牌，适合中高端果礼。\n4. **粉红佳人（Pink Lady）**：苹果品牌，包装辨识度强。\n5. **车厘子类品牌**：如美国**Stemilt**、**Chelan Fresh**，智利**Garces Fruit**、**Copefrut**等，礼盒团购常用。\n6. **佳沃（Joyvio）**：虽为中国品牌，但有进口蓝莓、车厘子等全球供应链产品，团购场景常见。\n7. **怡颗莓（Driscoll's）**：浆果类强势品牌，蓝莓、树莓礼盒适合高端团购。\n8. **乐淇（Rockit）**：新西兰小苹果，筒装/礼盒装适合员工福利。\n9. **Mr Apple**：新西兰苹果品牌，礼盒渠道较常见。\n10. **T&G Global**：新西兰果蔬出口商，旗下有Jazz、Envy等品牌资源。\n\n选品建议：商务送礼优先新奇士、爱妃、车厘子品牌礼盒；员工福利可考虑乐淇、怡颗莓、爵士；注意确认团购供应商是否有稳定授权货源和礼盒包装能力。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 351,
+    "total_tokens": 414,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "12e19efc-3e58-4d25-a6d2-43a6eb600346",
+  "object": "chat.completion",
+  "created": 1792456970,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "没有可核验的团购销量数据可以直接判定“哪个更受欢迎”，但从礼品团购场景看，**佳沛通常更容易被当作“进口品牌礼盒”接受，都乐更依赖具体礼盒组合和价格带**。可执行判断如下：\n\n1. **客户强调“进口品牌”且预算中高**：优先推**佳沛**。奇异果的进口品牌心智更强，礼盒辨识度高，适合商务/员工福利。\n2. **客户预算敏感、要箱规大或搭配多品类**：选**都乐**更灵活，但必须确认礼盒内产品产地、品牌授权和是否混装，否则“进口品牌”卖点容易被削弱。\n3. **最终决策前做三件事**：\n   - 向客户确认预算区间、每盒数量、是否要求单一品牌/单一产地；\n   - 让两家供应商提供**同价位礼盒的实拍图、箱规、产地证明/授权链路、团购价和起订量**；\n   - 给客户做A/B两档报价：佳沛主推款 + 都乐性价比款，让客户按预算选，而不是替客户猜偏好。\n\n如果只能选一个主推：**商务送礼优先佳沛，员工福利/大批量优先比价后再定，不默认都乐更受欢迎。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 284,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

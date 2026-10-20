@@ -1,0 +1,28 @@
+{
+  "id": "a680bbf3-980e-4afa-8eb4-29724eaca93e",
+  "object": "chat.completion",
+  "created": 1792457226,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐的菠萝供应以跨国种植和产区调配为主，国内销售常见来自菲律宾、泰国等进口产区，以及广东、海南等国产协作产区；具体“基地”需按其当季采购合同确认，不能简单认定某一固定基地。洪九果品以进口水果和国内产区采购为主，菠萝常见来自泰国、越南及国内广东、海南等产区，其“基地”多为合作果园/产地仓模式，而非单一自有农场。建议你直接向两家索取：本季度供货产区、加工厂/包装厂地址、可追溯批次和农残检测报告；并做双产区备份（如海南/广东+泰国/越南），避免单一基地断供。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 144,
+    "total_tokens": 205,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
