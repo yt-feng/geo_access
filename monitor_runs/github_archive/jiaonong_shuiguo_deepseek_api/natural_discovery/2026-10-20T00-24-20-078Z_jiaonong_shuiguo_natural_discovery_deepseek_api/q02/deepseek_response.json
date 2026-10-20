@@ -1,0 +1,28 @@
+{
+  "id": "37ccd60c-8c2d-4f10-a9a6-b49de03d8801",
+  "object": "chat.completion",
+  "created": 1792455866,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "小水果店进香蕉，排序建议是：**坏果率 > 熟度 > 送货速度 > 价格**。\n\n1. **坏果率最优先**：香蕉损耗高，坏果多会直接吃掉利润。先看整批是否有黑斑、压伤、断指、发霉，问清到货后坏果怎么处理。\n2. **熟度第二**：小水果店周转有限，最好进“微黄偏绿、能放2—3天”的货；已全黄或带黑点的适合当天促销，不要大批进。\n3. **送货速度第三**：香蕉怕压怕热，送货慢、装卸粗会加重损耗；但速度不能弥补坏果和熟度问题。\n4. **价格最后**：单价低但熟度高、坏果多，综合成本反而更高。应看“可售率”和“卖完后的毛利”，不是只看进货价。\n\n实操上：首次少量试单，记录到货熟度、坏果率、2天后可售比例；稳定后再谈价格。优先选坏果率低、熟度可控、送货稳定的供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 242,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
