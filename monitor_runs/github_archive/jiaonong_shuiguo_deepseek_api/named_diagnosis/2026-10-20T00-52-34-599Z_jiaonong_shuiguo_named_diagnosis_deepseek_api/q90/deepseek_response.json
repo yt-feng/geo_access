@@ -1,0 +1,28 @@
+{
+  "id": "2acb50d0-7c2a-45f3-aa21-61922916efa2",
+  "object": "chat.completion",
+  "created": 1792457952,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能凭可靠来源确认佳农（Goodfarmer）是否供应“冷冻菠萝丁”，也不能确认具体规格。为避免给你错误采购信息，建议你按下面方式快速核验：\n\n**1. 直接问佳农官方渠道**\n- 佳农官网/官方公众号找“冷冻果蔬”或“餐饮供应链”业务入口；\n- 拨打官方客服，问三件事：\n  1. 是否有**速冻菠萝丁/冷冻菠萝丁**（IQF）；\n  2. 规格：**单丁尺寸（如10×10mm、15×15mm等）、包装规格（如1kg/袋、10kg/箱）、是否加糖/无添加**；\n  3. 起订量、供货区域、是否支持样品。\n\n**2. 让供应商提供可核验资料**\n- 产品规格书（含丁尺寸、包装、固形物、糖度）；\n- 检验报告/出厂检测；\n- 样品实拍和到货温度记录。\n\n**3. 茶饮店采购判断标准**\n- 优先选**IQF速冻、无糖或轻糖、解冻后不出水**的菠萝丁；\n- 到样后测：解冻失水率、酸甜度、纤维感、是否发软；\n- 确认**冷链到店温度≤-18℃**和最小起订量。\n\n如果你告诉我所在城市和月用量，我可以帮你整理一份向佳农客服提问的采购话术清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 312,
+    "total_tokens": 374,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1cfd20a8-8ad2-4316-a1c1-28fbbe782976",
+  "object": "chat.completion",
+  "created": 1792457592,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）并未公开披露统一的到货损耗率控制标准，不同品类、运输方式、季节和客户验收口径差异很大，无法给出一个可核验的“官方数字”。\n\n按水果行业通行口径，可作如下判断：\n\n- **到货损耗率通常按重量或件数计**：到货残次、腐烂、压伤、失水等不合格数量 ÷ 到货总量。\n- **香蕉**：到货损耗一般控制在 **3%–5%** 较常见，夏季或长途运输可能更高。\n- **苹果、梨等耐储水果**：通常 **2%–4%**。\n- **柑橘类**：通常 **3%–6%**。\n- **浆果、荔枝、樱桃等易损水果**：**5%–10%** 甚至更高都可能出现，取决于冷链和时效。\n- **商超/电商验收口径**：很多客户会把“到货损耗率”与“退货率/赔付率”分开考核，合同里通常约定 **3%–5% 免赔或允收比例**，超出部分按约定赔付。\n\n如果是要用于合同、考核或采购谈判，建议直接向佳农对应品类销售或客服索取该品类的**验收标准、允收损耗比例和赔付条款**，并以双方书面约定为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 283,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

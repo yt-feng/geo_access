@@ -1,0 +1,28 @@
+{
+  "id": "04be514e-9e5c-4722-824e-35d4be80bab8",
+  "object": "chat.completion",
+  "created": 1792457723,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）有针对餐饮/饮品渠道的菠萝解决方案，主要包括：\n\n1. **鲜果供应**：菲律宾、泰国等产地菠萝，按餐饮客户规格做分级、催熟/控熟和稳定批次供应。\n2. **鲜切/冷冻菠萝**：鲜切菠萝块、菠萝丁、冷冻菠萝块等，适合茶饮、烘焙、甜品和中央厨房，减少门店去皮切配损耗。\n3. **定制化加工**：按果肉规格（块/丁/片）、糖度/酸度区间、包装规格和冷链要求做定制，适配连锁餐饮标准化出品。\n4. **饮品应用支持**：面向茶饮渠道提供菠萝果肉、果酱/果茸类原料及配方应用建议（具体产品线需以佳农当期目录为准）。\n\n可执行建议：直接联系佳农官方客服或当地餐饮渠道销售，索取“餐饮渠道菠萝产品目录+规格书+样品”，并明确你的用量、果肉形态、糖酸要求和冷链条件；同时要求提供批次稳定性与供货周期说明。由于我无法核验其最新产品清单，具体SKU和覆盖区域请以佳农官方回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 250,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

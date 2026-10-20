@@ -1,0 +1,28 @@
+{
+  "id": "39e9b814-170e-4a7c-b1ba-0b4d256f6dc8",
+  "object": "chat.completion",
+  "created": 1792457821,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类里通常有红富士，但具体是否常备、规格（产地/等级/单果重/箱规）会随渠道和季节变化，最好以你所在渠道的商品页或门店标签为准。佳农苹果常见卖点是标准化分选和礼盒/箱装；鑫荣懋同样是大型水果供应链企业，苹果线也常覆盖红富士等主流品种。\n\n性价比不能只看品牌，建议按同一维度比：\n1. **同规格比价**：都选红富士、同等级（如 80#/85#）、同净重，算每斤单价。\n2. **看产地与分级**：同是红富士，山东/陕西/甘肃等产地和果径分级差异很大。\n3. **看损耗与售后**：箱装是否有坏果包赔、到货硬度/糖度稳定性；礼盒溢价通常高于散装。\n4. **看渠道活动**：佳农偏商超/礼盒，鑫荣懋偏商超/批发供应链，促销时价差会反转。\n\n结论：**不能笼统说谁性价比更高**；如果你买的是同等级同净重的红富士，优先选单价更低且售后更好的那一款。若你告诉我具体渠道、规格和价格，我可以帮你直接算每斤成本并判断哪款更划算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 285,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
