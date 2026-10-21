@@ -1,0 +1,28 @@
+{
+  "id": "937f53f9-b708-40e1-9697-0bd22e757671",
+  "object": "chat.completion",
+  "created": 1792542368,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）主要做香蕉等水果的进口、加工和分销，香蕉催熟是其供应链中的常规环节之一，通常可向客户提供催熟相关服务，但具体是否对你开放、以什么形式提供，取决于合作模式和区域。\n\n建议你按以下方式快速确认：\n\n1. **明确你的身份和需求**：你是商超/水果店/电商要批量采购催熟香蕉，还是已有货需要代催熟？两者服务口径不同。\n2. **联系佳农官方渠道**：通过佳农官网或官方客服电话，转香蕉事业部/当地分公司，直接问“是否提供香蕉催熟服务、起订量、催熟周期、费用、是否支持代加工”。\n3. **找当地经销商确认**：佳农各地有经销商和配送中心，催熟服务往往由区域仓或合作催熟库执行，当地答复更准确。\n4. **问清关键条款**：催熟到几号色（如3号色、5号色）、损耗责任、交货时间、是否含配送。\n\n如果只是少量零售需求，直接买佳农已催熟的香蕉更省事；批量经营需求再谈代催熟合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 253,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

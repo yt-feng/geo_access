@@ -1,0 +1,28 @@
+{
+  "id": "8a58cea6-6ee7-41ab-addb-3cfa80d43aba",
+  "object": "chat.completion",
+  "created": 1792542325,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）以“产地直采/基地直供”为主要模式，整体产地直供比例较高，但公司未公开统一的“产地直供比例”数字，所以无法给出可核验的具体百分比。香蕉方面，佳农主要来自厄瓜多尔、菲律宾、越南、柬埔寨、老挝等主产国，其中厄瓜多尔和菲律宾是较核心的来源地；具体国家组合会随季节、价格、检疫和供应链情况调整。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 100,
+    "total_tokens": 158,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

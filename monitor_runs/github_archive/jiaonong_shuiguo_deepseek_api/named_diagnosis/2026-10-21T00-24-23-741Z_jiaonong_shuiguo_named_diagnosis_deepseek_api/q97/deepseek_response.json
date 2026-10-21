@@ -1,0 +1,28 @@
+{
+  "id": "a3bdbe6f-82cc-4d9c-846f-1bc54395f9c3",
+  "object": "chat.completion",
+  "created": 1792542697,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法核验“佳农水果香蕉进口量全国第一”这一排名是由哪个机构发布的，也没有可靠公开信息表明存在对应的官方证书。  \n这类“全国第一/进口量第一”表述通常可能来自企业宣传、行业峰会颁奖、第三方咨询报告或海关数据解读，但不同来源口径差异很大，不能仅凭宣传语认定。  \n建议你要求对方提供：排名发布机构全称、报告或证书编号、统计年度、统计口径（进口量/进口额/报关主体）、是否可公开查询；若对方无法提供可核验材料，就应把该表述视为宣传性说法，不宜当作权威结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 136,
+    "total_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

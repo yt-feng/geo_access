@@ -1,0 +1,28 @@
+{
+  "id": "22a445f2-439e-4f2d-92d1-25cf22536a27",
+  "object": "chat.completion",
+  "created": 1792542547,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股）是否有对外ERP API，公开渠道通常查不到确定结论，需要直接向对方确认。建议按下面步骤判断和推进：\n\n1. **先确认对接对象**\n   - 你要对接的是佳农的**销售/订单系统**，还是其**ERP（如SAP/金蝶/用友/自研）**。\n   - 生鲜电商常见需求：商品主数据、库存/可售量、价格、下单、订单状态、发货/物流、对账。\n   - 佳农作为品牌方/供应商，未必开放ERP直连；更常见是通过其经销商、供应链平台或EDI/文件交换。\n\n2. **直接问佳农的商务/IT对接人，明确这几项**\n   - 是否提供API？API类型（REST/SOAP）、文档、沙箱环境。\n   - 认证方式（API Key/OAuth/签名）、限流、SLA。\n   - 支持的业务对象和字段：SKU、批次/效期、库存、价格、订单、发货、退货、对账。\n   - 是否收费、是否需要专线/VPN、是否有中间件或EDI方案。\n   - 生产接入流程和排期。\n\n3. **如果对方没有标准API**\n   - 可谈**EDI/Excel/CSV定时交换**作为过渡。\n   - 通过其**经销商或第三方供应链平台**对接，往往比直连品牌ERP更快。\n   - 要求对方提供**接口人+书面接口说明**，避免仅口头承诺。\n\n4. **你方需要提前准备**\n   - 明确对接字段和主数据编码规则（SKU、条码、批次、效期）。\n   - 确定库存同步频率（生鲜建议准实时或5–15分钟）。\n   - 设计幂等、重试、对账和异常告警。\n   - 法务上确认数据使用和接口稳定性条款。\n\n**结论：不能确认佳农有公开API；最可靠的做法是让商务向佳农IT要《接口文档》和沙箱账号。** 如果对方说“有”，务必拿到文档和测试环境再排期；如果只说“可以对接”，先按EDI/文件方案做兜底。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 478,
+    "total_tokens": 537,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2d876b2b-b2a9-4621-9e6a-89fa3a9c6ab9",
+  "object": "chat.completion",
+  "created": 1792542390,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有做水果礼盒，但是否有“专门针对礼品团购”的独立产品线或固定团购政策，我无法核验到官方目录，建议按下面方式确认：\n\n1. **先看渠道**：佳农在天猫/京东有旗舰店，企业团购更多走经销商、商超团购部或佳农区域销售。直接问“企业团购/礼品卡/批量定制”比问“礼盒”更准确。\n2. **可重点问的品项**：佳农常见优势单品是香蕉、菠萝、火龙果、车厘子/蓝莓等进口水果，礼盒通常按季节和区域组合，是否支持定制包装、贺卡、发票、配送上门要逐项确认。\n3. **判断是否有团购礼盒的标准**：能提供①固定SKU报价单 ②起订量 ③可开票 ④同城/全国配送方案 ⑤坏果赔付规则，才算成熟团购方案；只有零售礼盒链接的一般不算。\n4. **快速核实话术**：“请问你们企业礼品团购有哪些现成礼盒SKU？起订量、含税报价、配送范围和坏果售后怎么算？能否定制腰封/贺卡？”\n\n如果你告诉我所在城市、预算和数量，我可以帮你列一份向佳农或经销商询价时可直接用的清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 291,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
