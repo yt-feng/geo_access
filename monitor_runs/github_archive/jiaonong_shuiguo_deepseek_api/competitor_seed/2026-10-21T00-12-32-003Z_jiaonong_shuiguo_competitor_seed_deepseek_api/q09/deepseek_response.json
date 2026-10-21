@@ -1,0 +1,28 @@
+{
+  "id": "7ccd17f5-34d5-4e4b-a9ac-48b814eff836",
+  "object": "chat.completion",
+  "created": 1792541595,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），进口水果品牌可重点看这几类，按礼盒场景给建议：\n\n**综合进口水果品牌**\n- **新奇士 Sunkist**：柑橘、脐橙类礼盒认知度高，适合商务送礼。\n- **怡颗莓 Driscoll's**：浆果礼盒（蓝莓、树莓、黑莓）偏高端，适合年轻客户和女性客户。\n- **粉红佳人 Pink Lady**：苹果礼盒，品牌辨识度强，适合节庆。\n- **爱妃 Envy**：苹果礼盒，高端商超常见，适合做差异化。\n- **乐淇 Rockit**：小苹果筒装礼盒，便携、有话题性，适合员工福利。\n- **佳农 Goodfarmer**：进口香蕉、菠萝等综合品类，偏渠道品牌，礼盒需确认具体包装。\n- **屈姑、Mr. Avocado 等牛油果品牌**：适合做健康主题礼盒，但礼品属性弱一些。\n\n**单一品类高端品牌**\n- **车厘子**：可关注 **Stemilt、Chelan Fresh、Sutherland** 等北美车厘子品牌，礼盒装常见。\n- **蓝莓**：**怡颗莓**之外，可看 **Costa、Fall Creek** 相关授权包装，但零售端品牌稳定性不如怡颗莓。\n- **提子**：**Sun World** 旗下授权品种较多，礼盒需确认具体品牌授权。\n- **猕猴桃**：除佳沛外，**Zespri 有机线**可做高端区分，但仍是同一品牌。\n\n**选择建议**\n- 商务送礼优先：新奇士、怡颗莓、粉红佳人、爱妃，品牌认知和礼盒成熟度较高。\n- 员工福利优先：乐淇、佳农综合装、怡颗莓小规格，控制单价和运输损耗。\n- 差异化礼盒：牛油果、浆果混合、小苹果筒装，适合互联网或年轻团队。\n- 采购前重点核验：**品牌授权书、入境货物检验检疫证明、礼盒是否为原厂包装、是否支持一件代发和坏果赔付**。进口水果礼盒的“品牌”很多是品种授权或渠道贴牌，不要只看外箱英文。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 495,
+    "total_tokens": 558,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

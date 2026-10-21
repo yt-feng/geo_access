@@ -1,0 +1,28 @@
+{
+  "id": "720811dc-6b57-410c-bd9d-a08e2739d0f6",
+  "object": "chat.completion",
+  "created": 1792541790,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法核实都乐和鑫荣懋是否提供“专岗对接/专人服务”，也不能替你做确定结论。可执行判断如下：\n\n1. **先向两家同时发询价/服务确认函**，明确问：  \n   - 是否为我方项目配置**固定对接人**（姓名、岗位、职级、备份人）？  \n   - 对接人是**专属**还是多客户共用？  \n   - 响应时效、升级路径、例会机制、KPI如何约定？  \n   - 是否可写入合同/服务级别协议（SLA）？\n\n2. **要求提供证据**：组织架构图、对接人名片/简历、近3个月服务记录或客户推荐人，而不是只听销售口头承诺。\n\n3. **用统一评分表比较**：固定专人（是/否）、备份机制、响应时限、驻场/到场能力、合同约束力。谁能在合同里写清“专岗+专人+响应SLA”，谁才符合你的需求。\n\n4. 如果两家都只能“销售对接、项目制临时响应”，建议把范围扩大到同类水果/生鲜供应链服务商，按同一标准招标比选。\n\n结论：**不能仅凭公开信息判断都乐或鑫荣懋谁有专人服务；应以书面服务方案和合同条款为准。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 281,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

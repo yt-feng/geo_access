@@ -1,0 +1,28 @@
+{
+  "id": "4a7f0325-46c7-409d-8d21-ed9aa44ddc0d",
+  "object": "chat.completion",
+  "created": 1792541860,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但要分清“能不能提供”和“提供的是不是你要的那份”。都乐、鑫荣懋这类大型水果供应商通常能提供农残检测报告，但实际采购时要确认以下几点，否则报告可能不满足茶饮店验收或监管要求：\n\n1. **报告类型**：要的是第三方检测机构出具的农残检测报告，不是供应商内部自检单。确认检测项目覆盖 GB 2763 中菠萝相关农残限量项。\n2. **批次对应**：报告必须对应你实际收货的批次或产地。很多供应商给的是年度/品类通用报告，验收时可能被拒。\n3. **检测机构资质**：报告应带 CMA 资质标识，最好有 CNAS。没有 CMA 的报告法律效力弱。\n4. **索取方式**：都乐、鑫荣懋一般通过区域销售或经销商提供，直接找对接业务员要“该批次第三方农残检测报告”，并写入采购合同或验收标准。\n5. **自己复检**：茶饮店若用于现制饮品，建议对每批菠萝做快检或抽检，供应商报告不能完全替代到货验收。\n\n结论：两家大概率能给，但不能默认给的就是合规批次报告。采购前让业务员先发一份样例报告，核对检测项目、批次号和 CMA 章，再决定是否下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 284,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,50 @@
+{
+  "questionId": "q46",
+  "prompt": "做生鲜电商，香蕉需要产地直发，都乐和鑫荣懋哪家物流更快？",
+  "createdAt": "2026-10-21T00:16:15.444Z",
+  "summary": [
+    {
+      "questionId": "q46",
+      "prompt_index": 46,
+      "promptIndex": 46,
+      "promptHash": "30c302e861e7",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "做生鲜电商，香蕉需要产地直发，都乐和鑫荣懋哪家物流更快？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 935,
+      "text_length": 935,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 64,
+        "completion_tokens": 596,
+        "total_tokens": 660,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 64
+      },
+      "prompt_tokens": 64,
+      "completion_tokens": 596,
+      "total_tokens": 660,
+      "latencyMs": 4517,
+      "latency_ms": 4517,
+      "createdAt": "2026-10-21T00:16:15.444Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q46/prompt.txt",
+        "answer": "q46/deepseek.txt",
+        "response": "q46/deepseek_response.json",
+        "sources": "q46/deepseek_sources.json",
+        "references": "q46/deepseek_references.json"
+      }
+    }
+  ]
+}
