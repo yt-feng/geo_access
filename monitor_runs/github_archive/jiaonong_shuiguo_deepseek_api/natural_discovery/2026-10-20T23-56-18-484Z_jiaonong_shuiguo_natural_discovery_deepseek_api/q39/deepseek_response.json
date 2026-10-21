@@ -1,0 +1,28 @@
+{
+  "id": "20de85d1-3916-46b3-aa72-95b30b2e64c3",
+  "object": "chat.completion",
+  "created": 1792540787,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但通常要分两种情况看：\n\n1. **有工厂型/产地型供应商**：多数能做包装和规格支持\n   - 可提供：箱规、单果重量分级、礼盒/袋装/托盘、贴牌包装、条码、产地标签、保鲜方式建议。\n   - 但起订量（MOQ）和包装版费通常较高，小批量定制包装成本会明显上升。\n\n2. **只做批发/代采的供应商**：包装支持有限\n   - 一般只能提供通用箱规、简单分选，贴牌和定制包装能力弱。\n   - 规格稳定性也依赖其上游产地，商超要重点看其分级和品控能力。\n\n**商超落地建议：**\n- 先让供应商报：可供规格（如单果克重、果径、糖度）、箱规、包装形式、MOQ、打样周期、包装费用、贴牌是否另收费。\n- 自有品牌包装要确认：条码归属、标签合规（品名、产地、等级、净含量、保质期/储存条件）、是否支持商超模板。\n- 先做1—2个SKU小批量试销，包装先少量打样，验证损耗和动销后再放大。\n- 合同里明确规格允差、到货抽检标准、破箱/烂果赔付和包装质量责任。\n\n结论：**能提供，但要选有产地/工厂资源的供应商，并把MOQ、包装费、规格允差和赔付写清楚。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 327,
+    "total_tokens": 384,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
