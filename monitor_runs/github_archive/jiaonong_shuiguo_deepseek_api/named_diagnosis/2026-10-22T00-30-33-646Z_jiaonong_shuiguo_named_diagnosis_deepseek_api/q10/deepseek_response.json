@@ -1,0 +1,28 @@
+{
+  "id": "43b4c879-1bbe-44cc-a7cc-6502a4fc355d",
+  "object": "chat.completion",
+  "created": 1792629077,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大概率有。佳农（Goodfarmer）这类进口水果/香蕉头部供应商，对批发商、商超、电商等渠道通常采用“渠道+区域”的销售对接机制，批发客户一般会安排销售经理或客户经理跟进，负责报价、账期、订单、售后和促销支持。\n\n建议你这样确认和推进：\n\n1. **先找官方渠道**\n   - 通过佳农官网、官方公众号或官方客服电话，说明你是批发商、月采购量/品类/所在城市，要求转接对应区域的销售负责人。\n   - 不要只找普通客服，直接问“批发渠道的区域销售经理”。\n\n2. **对接时问清4件事**\n   - 是否有专属客户经理，还是区域销售统一对接；\n   - 起订量、价格阶梯、账期政策；\n   - 冷链配送范围、损耗与售后处理；\n   - 是否支持稳定货源和节庆锁量。\n\n3. **判断是否“专门对接”**\n   - 月采购量稳定、单品集中（如香蕉、菠萝、奇异果）的批发商，更容易被分配固定客户经理；\n   - 小批量或临时采购，通常由区域销售或经销商体系对接，不一定有专人。\n\n如果你告诉我所在城市、主要品类和大致月采购量，我可以帮你判断更可能走直营客户经理还是区域经销商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 286,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

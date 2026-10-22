@@ -1,0 +1,28 @@
+{
+  "id": "32873072-553b-4dcd-909b-9778ca058c4a",
+  "object": "chat.completion",
+  "created": 1792629448,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验这个数据，所以不能确认“11.4万吨”是2025年的，也不能给出官方出处。\n\n可判断的建议：\n- 如果这个数字来自某篇报道或宣传材料，先看原文是否明确写了“2025年”和统计口径（是公司进口量、品牌销量，还是某口岸/某品类进口量）。\n- 官方出处应优先查：海关总署及对应口岸海关的进口统计、农业农村部相关发布、企业年报/公告，以及佳农官方新闻稿；企业宣传数据通常不是“官方统计出处”。\n- 在没有原始链接或文件编号前，不建议把“11.4万吨、2025年、佳农菠萝进口量”当作已核实事实引用。\n\n如果你把看到该数据的原文截图或链接发来，我可以帮你判断它是否明确指向2025年，以及出处属于官方统计还是企业宣传。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 187,
+    "total_tokens": 252,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

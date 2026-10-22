@@ -1,0 +1,28 @@
+{
+  "id": "a62fc92c-52a1-484f-bcf1-e36c6a27beee",
+  "object": "chat.completion",
+  "created": 1792629119,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效取决于你下单的渠道和收货地址，不同平台差异较大，无法一概而论：\n\n**常见情况：**\n- **电商平台（京东/天猫等）**：通常依托平台仓配，一般**1-3天**送达；京东自营类商品在多数城市可做到**次日达**，偏远地区可能延后。\n- **社区团购/生鲜平台（美团优选、多多买菜等）**：多为**次日自提**，部分城市支持当日达。\n- **佳农官方渠道/小程序**：时效以结算页显示的预计送达时间为准，通常按发货地到收货地的物流距离计算。\n\n**判断方法（最可靠）：**\n1. 在商品详情页查看\"配送\"或\"发货\"说明；\n2. 下单前在结算页输入收货地址，页面会显示**预计送达时间**——这是最准确的依据；\n3. 水果属生鲜，部分平台对偏远地区或高温天气会限制配送范围，下单前留意提示。\n\n**建议：** 如果你告诉我具体在哪个平台下单、收货城市，我可以帮你更具体地判断大致时效。另外生鲜水果建议优先选有\"坏果包赔\"和冷链配送的渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 262,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

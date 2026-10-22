@@ -1,0 +1,28 @@
+{
+  "id": "d7a174e3-7f9d-4dd4-99bc-e81287c1aa96",
+  "object": "chat.completion",
+  "created": 1792629174,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开可核验的信息里，佳农水果有面向礼品/团购场景的水果礼盒，但具体礼盒名称、规格和价格会随渠道和季节变化，建议你按下面方式确认：\n\n1. **官方渠道确认**\n   - 佳农官网/官方公众号/官方小程序：查看“礼品卡”“团购”“企业定制”相关栏目。\n   - 官方客服：直接问“企业团购水果礼盒有哪些SKU、起订量、能否定制LOGO/贺卡、是否支持全国配送”。\n\n2. **电商与团购平台**\n   - 京东/天猫“佳农官方旗舰店”：筛选“礼盒”“礼品卡”。\n   - 盒马、山姆、永辉等线下渠道：节假日前后常有佳农礼盒堆头。\n   - 企业团购平台：如京东企业购、苏宁企业购等，搜索“佳农 礼盒”。\n\n3. **重点问清**\n   - 是否有**企业定制**（LOGO、贺卡、外箱）。\n   - **起订量**和**阶梯价**。\n   - **配送范围**、**时效**、**坏果赔付**规则。\n   - 礼盒是**固定组合**还是**可自选**。\n   - 是否支持**礼品卡/提货券**及有效期。\n\n如果你告诉我所在城市、预算和大概数量，我可以帮你整理一份更具体的询价清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 305,
+    "total_tokens": 358,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

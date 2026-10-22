@@ -1,0 +1,28 @@
+{
+  "id": "464ddd03-a9a0-475c-916e-3501ecdc8141",
+  "object": "chat.completion",
+  "created": 1792629359,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）是否有对外开放的 ERP API，公开渠道无法确认，我不能给你编一个接口文档链接或字段清单。可以按下面几步快速判断和推进：\n\n**1. 先确认对接对象是谁的 ERP**\n佳农作为品牌/供应商，其 ERP 通常不直接对外开 API。生鲜电商实际对接路径一般是：\n- 通过佳农的**经销商/供应链服务商**下单，对方用自有系统对接；\n- 通过**第三方供应链平台**（如美菜、快驴等）间接采购；\n- 佳农自建的 B2B 订货平台/小程序，可能提供订单接口；\n- 你方 ERP 与佳农 ERP 之间走 **EDI/文件交换** 而非实时 API。\n\n**2. 直接问对方三个问题（发给佳农商务或 IT）**\n- 贵司是否提供 B2B 订货/订单查询的 API 或 EDI 对接方式？有无接口文档和沙箱环境？\n- 若无 API，是否支持 Excel/CSV 定时交换订单与库存？\n- 对接走哪个主体（佳农总部、区域公司还是指定经销商）？\n\n**3. 若对方没有 API，务实方案**\n- 用**供应商门户 + 人工/半自动导出**先跑通业务；\n- 订单、对账用标准 CSV 模板定时交换；\n- 库存和价格以对方每日推送为准，不做实时强依赖。\n\n**4. 技术侧提前准备**\n- 明确你的 ERP 侧出站/入站能力（REST、SFTP、Webhook）；\n- 约定字段：SKU 编码、规格、箱规、起订量、价格有效期、库存可用量、订单状态、物流单号；\n- 生鲜重点：批次/效期、温层、损耗责任、缺货替代规则。\n\n**结论**：没有可核验的公开 API 信息，最可靠的做法是让商务去要佳农 IT 的接口说明；在拿到文档前，按\"CSV/SFTP 兜底 + API 可选\"设计对接方案，避免把项目卡在接口上。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 457,
+    "total_tokens": 516,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
