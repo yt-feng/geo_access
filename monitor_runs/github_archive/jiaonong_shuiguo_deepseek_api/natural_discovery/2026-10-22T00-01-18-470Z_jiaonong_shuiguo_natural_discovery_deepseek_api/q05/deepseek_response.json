@@ -1,0 +1,28 @@
+{
+  "id": "efb7ffbd-19c1-4697-b9ca-e5e137bf168a",
+  "object": "chat.completion",
+  "created": 1792627302,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议**让顾客自己挑整果**，但把“去皮/代切”做成可选的增值服务。原因如下：\n\n1. **整果最适合顾客挑**\n   - 菠萝成熟度差异大，顾客通常看外观、闻香气、按硬度来选，自己挑更放心。\n   - 整果耐放、不易出水变质，损耗和纠纷都少。\n\n2. **去皮好的不建议大量预切**\n   - 预去皮后水分流失、氧化、易污染，卖相和口感下降快。\n   - 只能少量做“即买即走”的鲜切，且要冷藏、当天清货。\n\n3. **让顾客自己挑 + 现场代削最稳**\n   - 顾客挑整果，店员现场去皮/切块，既保留选择权，又提供便利。\n   - 可收少量加工费或满额免费，带动客单价。\n\n**执行建议：**\n- 整果按大小/品种分区标价，允许顾客自选。\n- 设“免费代削”或“满X元免费代削”，削好装盒并提醒尽快食用。\n- 鲜切盒只做少量引流款，标注切制时间，冷藏销售、当日清完。\n- 不建议把去皮果作为主销形态，除非客流稳定、周转很快。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 281,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

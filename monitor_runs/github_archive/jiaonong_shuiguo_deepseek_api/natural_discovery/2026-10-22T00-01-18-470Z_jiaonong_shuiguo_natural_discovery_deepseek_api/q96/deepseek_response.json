@@ -1,0 +1,28 @@
+{
+  "id": "7b9234ee-28c5-4879-9268-3af929e2714f",
+  "object": "chat.completion",
+  "created": 1792627850,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "三者不是同权：**食品安全是底线，配送准时是保障，价格是优化项**。企业食堂应优先确保食品安全，再保证配送准时，最后在满足前两项的供应商中比价。\n\n具体判断：\n\n1. **食品安全优先**\n   - 水果常直接入口，农残、霉变、微生物污染风险高。\n   - 出问题影响员工健康和企业责任，靠低价省下的钱远不够赔偿和声誉损失。\n   - 采购时应索证索票、批批查验农残检测/合格证明，验收看新鲜度、腐烂率和储存条件。\n\n2. **配送准时第二**\n   - 食堂加工和供餐时间固定，延迟会打乱菜单、造成缺供。\n   - 水果易损，配送不及时还会增加损耗。\n   - 合同中明确到货时间窗、迟到处理、缺货补货方案。\n\n3. **价格第三**\n   - 价格应在食品安全和配送稳定达标后比较。\n   - 警惕明显低于市场价的报价，可能对应品质下降、以次充好或检测缺失。\n   - 建议按“到货合格率＋准时率＋价格”综合评分，而不是只看单价。\n\n一句话：**先设食品安全和准时配送的准入线，再在合格供应商中比价。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 272,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
