@@ -1,0 +1,28 @@
+{
+  "id": "3f71504e-efa2-4f6b-b4d8-014c21ce3ccf",
+  "object": "chat.completion",
+  "created": 1792715518,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向礼品团购的水果礼盒，但具体SKU和团购政策会随渠道、季节变化。可执行建议：\n\n1. **先确认购买渠道**\n   - 企业团购/批量采购：联系佳农官方或当地经销商，问“企业团购礼盒目录、起订量、是否支持定制LOGO/贺卡、配送范围”。\n   - 零售礼盒：在京东/天猫“佳农官方旗舰店”、大型商超、水果连锁店查看当季礼盒。\n\n2. **常见礼盒方向**\n   佳农以香蕉、菠萝、奇异果、车厘子、蓝莓等进口/精品水果为主，礼盒通常有：\n   - 单一精品水果礼盒（如佳农香蕉礼盒、菠萝礼盒）\n   - 进口水果组合礼盒\n   - 节日/企业定制礼盒（中秋、春节、年会等节点更常见）\n\n3. **团购时要问清的关键点**\n   - 起订量与阶梯价\n   - 是否支持企业定制（LOGO、贺卡、手提袋）\n   - 水果品种/规格/净重，避免“毛重礼盒”\n   - 发货时效、冷链方式、破损赔付\n   - 发票类型与开票周期\n   - 节日高峰期截单时间\n\n4. **判断是否适合**\n   如果团购量较大（通常几十盒以上），直接找佳农区域经销商比电商零售更灵活；如果量小，电商旗舰店节日礼盒更省事。\n\n建议你直接搜索“佳农官方旗舰店 水果礼盒”查看当季在售款，同时联系佳农客服或当地经销商索取团购报价单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 365,
+    "total_tokens": 418,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

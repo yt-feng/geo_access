@@ -1,0 +1,28 @@
+{
+  "id": "a0ba7ffd-51f7-4489-97cd-0cb4b2ffc8e0",
+  "object": "chat.completion",
+  "created": 1792715530,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能在没有可核验来源的情况下给出佳农配送中心的确切数量和覆盖城市清单；这类数据会随渠道和年份变化，建议直接向佳农官方客服/区域经销确认。可以按下面方式判断是否能覆盖你们三线城市：\n\n1. **先查官方渠道**：佳农官网/公众号/客服问“XX省XX市是否有经销或配送覆盖”，要对方给出最近服务仓/经销商联系人和配送范围。\n2. **看你们采购模式**：如果是商超/批发市场进货，通常不是佳农直配到店，而是通过区域经销商或批发市场覆盖；三线城市能不能覆盖，关键看有没有当地经销商或就近城市仓。\n3. **直接问三个问题**：①到XX市是否直配；②起订量和配送频次；③冷链到店/到仓价格与时效。能给出明确报价和时效，才算实际覆盖。\n4. **备选方案**：若佳农不直配，可找省级代理、周边地级市批发商或本地水果供应链公司代采，通常比等直配更现实。\n\n结论：数量无法可靠核验；三线城市是否覆盖要以官方/区域经销的书面答复为准，重点确认“是否有当地经销或就近仓+能否报价配送”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 267,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

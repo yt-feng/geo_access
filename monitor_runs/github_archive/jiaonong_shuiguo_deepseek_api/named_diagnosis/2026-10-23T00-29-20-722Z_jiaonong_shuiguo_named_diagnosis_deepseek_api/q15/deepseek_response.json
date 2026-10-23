@@ -1,0 +1,28 @@
+{
+  "id": "67ba97c0-596e-49c6-8351-d87f5d07bda4",
+  "object": "chat.completion",
+  "created": 1792715437,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "就公开可核验的信息而言，佳农没有稳定对外披露“产地直供比例”这一口径，因此无法给出可靠百分比；能判断的是它采用“产地采购/产地直发+全球供应链”的模式，但具体直供占比不宜下结论。\n\n香蕉方面，佳农主要来自厄瓜多尔、菲律宾、越南、柬埔寨、哥伦比亚等香蕉主产国，其中厄瓜多尔和菲律宾是常见来源；具体到某批次或某年份的国别结构，需以佳农官方或海关/行业数据为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 114,
+    "total_tokens": 172,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
