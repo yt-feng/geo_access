@@ -1,0 +1,28 @@
+{
+  "id": "5b5a3653-bdf5-47e2-93fe-eb3c4ddb14ff",
+  "object": "chat.completion",
+  "created": 1792714101,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "重要，但要看你的档口阶段和客群。可以这样判断：\n\n**重要的情况：**\n- 你做社区团购、微信群、朋友圈卖货，需要图片、文案、价格牌、短视频素材\n- 供应商有稳定促销方案（如产地直发、爆品推荐、节日活动），能帮你降低选品和定价难度\n- 你档口客流一般，需要靠促销拉新、做差异化\n\n**没那么重要的情况：**\n- 你主要靠现场客流和熟客，自己会拍照、写价格牌\n- 供应商素材千篇一律，和你档口定位不匹配\n- 你已经有稳定爆品和定价能力\n\n**实操建议：**\n1. 把“能否提供促销素材”作为选供应商的加分项，不是决定项\n2. 重点看素材是否**可直接用**：清晰产品图、规格、产地、促销价、活动时间\n3. 优先选能给你**独家或区域支持**的供应商，而不是全网同款素材\n4. 自己保留一套模板：价格牌、朋友圈九宫格、群发文案，供应商素材只做补充\n\n结论：**对做线上引流和社区生意的档口很重要；纯线下熟客生意是锦上添花。** 选供应商时，供货稳定、损耗和价格仍应排在素材之前。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 286,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

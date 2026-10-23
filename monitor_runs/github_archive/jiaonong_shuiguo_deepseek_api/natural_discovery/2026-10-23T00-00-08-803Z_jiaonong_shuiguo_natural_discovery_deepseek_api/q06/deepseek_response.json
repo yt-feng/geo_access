@@ -1,0 +1,28 @@
+{
+  "id": "f8c6fc96-bcf7-4af5-b26c-9e0e65e3c59d",
+  "object": "chat.completion",
+  "created": 1792713643,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "适合，而且对社区水果店来说，“小批量、多频次配送”通常比单纯追求低价更重要。\n\n判断标准可以看这几点：\n\n1. **你的损耗和库存压力大不大**  \n   水果保质期短、销量波动大，一次进太多容易损耗。小批量多次配送能降低压货和烂果风险，尤其适合日销量不稳定的小店。\n\n2. **供应商是否支持少量起送**  \n   重点问清楚：最低起送量、配送频次、临时加单是否接、缺货怎么补、配送时间是否固定。不是所有批发商都愿意做小单，最好找本地二级批发商、产地直供小户或专门做社区店配送的供应商。\n\n3. **算总成本，不只看单价**  \n   小批量配送单价可能略高，但要把损耗、资金占用、仓储空间、人工挑拣算进去。如果多次配送能把损耗降下来，综合成本可能更低。\n\n4. **适合的组合方式**  \n   可以“主供应商+补充供应商”：主供应商负责高频、常规品类；补充供应商负责临时补货或特色单品。避免完全依赖一家，防止缺货。\n\n5. **建议先试跑**  \n   先选2—3家供应商，试2—4周，记录每天到货量、损耗率、缺货次数、配送准时率，再决定长期合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 292,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
