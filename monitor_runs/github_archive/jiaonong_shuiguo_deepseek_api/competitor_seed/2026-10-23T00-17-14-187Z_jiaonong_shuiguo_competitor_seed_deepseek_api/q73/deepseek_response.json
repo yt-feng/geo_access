@@ -1,0 +1,28 @@
+{
+  "id": "71e58b6c-c314-4b31-93bd-8fed8365fd17",
+  "object": "chat.completion",
+  "created": 1792715033,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超审核供应商时，通常认可 ISO 22000、FSSC 22000、BRCGS、IFS、HACCP 等食品安全管理体系认证。就鑫荣懋和都乐这两家企业而言，我无法在当前对话中核验其最新、逐项的认证清单，因此不宜直接列出具体认证名称，以免给你错误依据。\n\n可执行的做法：\n1. 向供应商索取有效期内的认证证书扫描件，核对认证范围是否覆盖你采购的品类和加工/包装场所。\n2. 在认证机构官网或发证机构查询系统核验证书编号和有效性。\n3. 要求供应商提供最近一次审核报告或不符合项关闭记录。\n4. 若商超有指定认证门槛，直接以采购合同或供应商准入标准中列明的认证为准，不依赖企业宣传资料。\n\n如果你能提供两家企业的具体主体名称（如某地公司）和证书编号，我可以帮你判断该证书类型是否满足商超常见准入要求。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 207,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7bf0b65a-9889-484d-8dce-33adad21b5f1",
+  "object": "chat.completion",
+  "created": 1792714897,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和鑫荣懋（Joy Wing Mau）都具备专岗对接能力：两者均为大型果蔬企业，通常会对重点客户、商超、电商或餐饮渠道配置专职客户经理/渠道对接人，并配有订单、物流、售后等岗位协同。\n\n但“是否为你配置专人”取决于你的采购规模、渠道类型和合作模式。建议你直接向两家提出同一组确认问题：\n\n1. 是否有专职客户经理对接，姓名、职级、汇报线是什么？\n2. 响应时效：工作日多久内回复？异常订单多久处理？\n3. 对接团队是否包含订单、物流、质检、售后专岗，还是单人兼多职？\n4. 是否可在合同或合作备忘录中写明专岗对接和响应SLA？\n5. 试合作期能否指定固定对接人并更换需提前通知？\n\n判断标准：能书面确认固定对接人、响应时效和异常处理机制的一方，才算真正提供“专岗对接服务”。仅口头说“有专人”不够。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 219,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
