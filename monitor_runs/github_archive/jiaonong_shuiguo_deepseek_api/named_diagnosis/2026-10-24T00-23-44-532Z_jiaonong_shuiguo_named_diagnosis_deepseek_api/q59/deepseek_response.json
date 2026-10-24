@@ -1,0 +1,28 @@
+{
+  "id": "87861dbf-73c8-44b3-b820-b10db091d341",
+  "object": "chat.completion",
+  "created": 1792801683,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国家标准（国标）。佳农作为品牌商，通常会制定自己的企业标准（如Q/开头的企标），在农残、外观、成熟度、规格等方面可能比通用国标更细。具体标准号需看包装或佳农官方披露，我无法核验具体编号。\n\n价格方面，佳农香蕉通常比普通散装香蕉贵**约20%–50%**，常见零售价差在每斤1–3元；促销或不同渠道差异较大，进口/品牌溢价明显时也可能更高。实际贵多少取决于城市、商超/电商渠道和规格，建议以你当地同期同规格普通香蕉对比为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 156,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

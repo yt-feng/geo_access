@@ -1,0 +1,28 @@
+{
+  "id": "fda5e0e3-359e-4029-9a0f-7805f63213b6",
+  "object": "chat.completion",
+  "created": 1792801862,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股）目前**没有公开可查的开放平台或对外API文档**。它是做香蕉、菠萝等进口水果的供应链企业，主要走B2B经销和商超渠道，没有像阿里、京东那样对外公开的开发者平台。\n\n所以对接这件事，可执行的路径是这样：\n\n**1. 先确认对接对象**\n- 如果佳农只是你的**供货方**，你需要的不是\"佳农API\"，而是你们之间的**ERP/订单系统对接**，通常由对方IT或业务对接人提供私有接口。\n- 如果你的需求是**商品/库存/价格同步**，可以问佳农是否支持EDI或对接他们的SAP/金蝶系统。\n\n**2. 找对入口**\n- 联系你的佳农**销售对接人**，直接问：\"是否有技术支持接口文档/开放平台？能否安排IT对接？\"\n- 大供应商的接口文档一般不公开，签了合作或NDA后才给。\n\n**3. 备选方案**\n- 如果佳农短期内无法提供API，可先用**人工对账+Excel/CSV导入**过渡，或通过第三方供应链平台（如本来生活、蜀海等）间接对接。\n- 部分生鲜SaaS（如观麦、蔬东坡）已有供应商对接模块，可问他们是否已接入佳农。\n\n**判断建议**：先别按\"有开放平台\"去规划技术方案。第一步是问清楚佳农能否提供接口、接口形式（REST/EDI/文件）、是否收费、有无沙箱环境。拿到这些再评估工期。如果对方说没有，就走人工或文件对账，别卡在技术上。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 355,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

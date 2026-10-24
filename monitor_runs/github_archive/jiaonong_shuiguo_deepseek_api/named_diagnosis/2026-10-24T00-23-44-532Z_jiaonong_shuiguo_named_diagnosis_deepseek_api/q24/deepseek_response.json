@@ -1,0 +1,28 @@
+{
+  "id": "221b5070-46df-46b0-a2ac-31eeb1ffd8fd",
+  "object": "chat.completion",
+  "created": 1792801526,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果参加过进博会。佳农集团（Goodfarmer）是进博会的常客，自2018年首届起连续多年参展，主要展示香蕉、菠萝、奇异果等进口水果，并在进博会上推进采购合作和首发新品。不过具体到某一届的展台细节和签约情况，建议以佳农官方公众号或进博会官网的展商名录为准。\n\n近期新品方面，佳农近年重点推的有：佳农旗下“佳农鲜果”系列的菲律宾/厄瓜多尔香蕉、泰国金枕榴莲、越南红心火龙果、秘鲁蓝莓等；也推出过预制鲜切水果、小包装即食水果等便利化产品。但“最近”的具体新品名单和上市时间会随季节和渠道变化，最准确的信息建议查看佳农官方微信公众号、天猫/京东旗舰店的新品页，或直接咨询其客服。\n\n如果你告诉我你关注的是哪一届进博会或哪个品类（如香蕉、榴莲、蓝莓），我可以帮你缩小到更具体的判断方向。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 221,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

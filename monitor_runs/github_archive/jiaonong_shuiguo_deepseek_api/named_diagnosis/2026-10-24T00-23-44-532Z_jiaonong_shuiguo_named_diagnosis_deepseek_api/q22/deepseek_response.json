@@ -1,0 +1,28 @@
+{
+  "id": "d0126cbf-359e-4128-96f3-293e1dd595f6",
+  "object": "chat.completion",
+  "created": 1792801519,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的水果以香蕉、菠萝等进口水果见长，苹果不是它的核心优势品类。就苹果而言：\n\n**国产苹果**\n佳农有做国内产区的苹果，主要是山东、陕西等主产区的富士系等常见品种，定位偏商超渠道的标准化果品。品质属于“稳定、中规中矩”的水平，不是主打差异化的高端货。\n\n**进口苹果**\n佳农确实经营进口苹果，常见的是新西兰、美国等产地的品种（如新西兰加力果/爱妃类、美国蛇果等），具体在售产地和品种会随季节和渠道变化，建议以你所在渠道（商超货架或电商页面）标注的原产地为准。\n\n**判断建议**\n- 如果你想要稳定、省心的日常苹果，佳农可以买，但性价比不一定最优；\n- 如果追求口感或特定品种（如高甜度、脆度），国产精品产区或其他专做苹果的品牌可能更合适；\n- 买进口苹果时直接看包装上的原产地标识和品种名，比认品牌更可靠。\n\n总体来说：佳农苹果“能用但不突出”，进口苹果有，但品类和货源会随渠道波动。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 248,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

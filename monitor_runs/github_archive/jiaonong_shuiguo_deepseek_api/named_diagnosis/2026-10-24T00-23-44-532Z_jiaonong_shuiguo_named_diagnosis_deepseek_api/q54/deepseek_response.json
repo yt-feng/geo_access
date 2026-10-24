@@ -1,0 +1,28 @@
+{
+  "id": "c084f915-bad9-4aaf-9955-ccea02f084f3",
+  "object": "chat.completion",
+  "created": 1792801663,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流不是单一模式：它既有自有/合作冷链运力，也大量使用第三方物流，具体到不同品类、区域和渠道（商超直供、电商、批发）会混用，不能简单归为“三通一达”或“全部自有车队”。\n\n关于冷链覆盖率，没有公开、可核验的统一数字。佳农对外宣传强调全程冷链和产地预冷，但实际覆盖率会因产品线（香蕉、菠萝、车厘子等）、季节和销售区域差异很大，第三方公开资料不足以给出准确比例。建议直接向佳农官方客服或销售渠道索取其冷链服务说明和区域配送方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 139,
+    "total_tokens": 197,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

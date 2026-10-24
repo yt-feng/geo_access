@@ -1,0 +1,28 @@
+{
+  "id": "dda8ca82-653a-4b3c-8cdd-5db04bd2aa78",
+  "object": "chat.completion",
+  "created": 1792801489,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）主打进口水果和部分国产水果的“产地直采/产地直供”，但**公开可核验的“产地直供比例”并没有稳定披露**，所以我不能给你一个准确百分比。能确定的是：它对外宣传和业务模式强调源头采购、产地合作和自有/合作基地，尤其香蕉、菠萝等品类较典型；但“直供比例高不高”要看具体品类、年度和统计口径（直采/直供/自有基地/合作基地），不宜一概而论。\n\n香蕉方面，佳农长期做进口香蕉，常见来源国包括：\n\n- **菲律宾**：传统主力来源之一\n- **厄瓜多尔**：重要进口香蕉来源\n- **哥斯达黎加**：常见来源\n- **哥伦比亚**：常见来源\n- **越南**：近年对华香蕉出口增长较快\n- **柬埔寨**：也有对华出口\n- **墨西哥、危地马拉、洪都拉斯等**：视年份和采购安排\n\n具体到某一年、某批次，佳农香蕉的国别结构会随价格、关税、天气、病害和海运情况变化。若你要判断“直供比例”，建议直接看其官网/年报/招股书中的“直采占比”口径，或看具体包装箱上的原产地标识；没有这些来源，不宜给精确比例。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 288,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

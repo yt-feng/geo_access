@@ -1,0 +1,28 @@
+{
+  "id": "d0c96527-2bf5-40bf-84ec-b91c3daaaf21",
+  "object": "chat.completion",
+  "created": 1792801808,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农能否为餐饮连锁提供香蕉专车配送和专人对接，**我无法直接核验佳农当前对连锁餐饮客户的具体服务政策**，不能替它承诺。建议按下面方式确认，避免影响供应稳定性。\n\n**可直接执行的确认步骤：**\n1. **联系佳农官方渠道**：通过佳农官网/官方客服或当地分公司，明确询问三件事：是否支持餐饮连锁的**专车配送**、起订量/配送频次/覆盖城市、是否配置**专属客户经理或对接人**。\n2. **要求书面服务方案**：让对方以邮件或报价单形式写明配送模式（专车/拼车）、时效、温控、缺货处理、账期和售后责任，不要只凭口头承诺。\n3. **小批量试单验证**：先跑2–4周试配送，重点看准时率、到货成熟度、损耗率和异常响应速度。\n4. **准备备选供应**：连锁餐饮香蕉供应对稳定性要求高，建议同时接触1–2家区域批发商或香蕉催熟供应商作为备份。\n\n如果佳农当地渠道答复不支持专车，可谈“固定线路+固定时段配送”或由第三方冷链承运，并明确违约责任。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 264,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

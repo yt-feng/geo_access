@@ -1,0 +1,28 @@
+{
+  "id": "af86323e-0770-44c1-a0cf-7844680722c4",
+  "object": "chat.completion",
+  "created": 1792801530,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股）的物流网络一般是“自营+外包”混合模式：核心节点和关键环节自营，区域配送和部分干线运输外包给第三方物流。冷链方面，佳农以香蕉、火龙果、菠萝等进口水果为主，具备从产地预冷、港口冷链、区域冷库到终端冷链配送的全程温控能力，重点覆盖香蕉催熟库、冷藏/恒温库和冷链干线；但具体到某条线路或某城市，是否全自营、温控标准如何，需看其官方披露或合同条款。若你要做尽调，建议直接向佳农索取：冷链资质、冷库分布、干线自有车辆比例、外包承运商名录及温控记录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 159,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

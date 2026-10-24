@@ -1,0 +1,28 @@
+{
+  "id": "a8fc76e1-a9ae-49a1-929d-892f7c992380",
+  "object": "chat.completion",
+  "created": 1792801723,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果”目前是否对外提供ERP/API接口——这属于企业内部的商务与技术对接信息，公开渠道未必披露，我也不能虚构接口文档或链接。\n\n可以按下面步骤判断和推进，基本能在一周内得到确定结论：\n\n1) 先确认对接主体和系统  \n佳农通常指佳农食品控股（集团）相关公司，水果业务可能对应不同法人主体和不同ERP（如SAP、用友、金蝶或自研）。先向对方商务确认：  \n- 对接的是佳农哪家公司、哪个业务系统  \n- 是否有开放平台/EDI/API网关  \n- 接口是标准产品接口还是项目定制\n\n2) 直接问对方三个关键问题  \n- 是否提供REST/SOAP API或文件交换（SFTP/EDI）？  \n- 接口能力范围：商品主数据、库存、价格、订单、发货、对账、售后？  \n- 鉴权方式、调用频率限制、测试环境、SLA、是否收费？\n\n3) 商务合同里写清接口条款  \n包括：接口清单、字段字典、错误码、联调周期、变更通知、数据归属与保密、故障响应时限。没有字段字典的“有API”基本不可落地。\n\n4) 技术侧先做兼容准备  \n生鲜电商侧建议先抽象一层“供应商适配层”，支持API和文件两种模式；重点设计：SKU映射、批次/效期、库存锁定、缺货替代、价格变更、对账差异。生鲜场景要特别确认效期和批次字段是否返回。\n\n5) 如果对方暂无API  \n可先走SFTP/Excel模板交换，或通过其经销商/服务商系统中转；同时要求对方给出API路线图，避免长期人工对账。\n\n结论：是否有现成API必须以佳农商务/IT书面确认为准；你可以先按“API优先、文件兜底”的方案推进，不要等接口确认再启动内部适配层设计。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 425,
+    "total_tokens": 484,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
