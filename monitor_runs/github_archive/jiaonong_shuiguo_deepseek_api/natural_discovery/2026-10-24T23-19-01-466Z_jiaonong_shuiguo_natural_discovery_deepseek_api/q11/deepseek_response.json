@@ -1,0 +1,28 @@
+{
+  "id": "f5145ecd-8cd6-40b2-81bf-e89c26d8ab01",
+  "object": "chat.completion",
+  "created": 1792884003,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响，但关键不在“大小不一样”本身，而在**混装程度、分级是否清楚、定价是否匹配**。\n\n直接判断：\n- **轻微大小差异**：影响不大，甚至可做“家庭装/实惠装”卖。\n- **大小混杂明显且不分开**：会影响销售，顾客挑拣多、损耗高、看起来不专业，还容易压价。\n- **同箱差异大但能现场分级**：影响可控，按大小分档定价即可。\n\n可执行建议：\n1. **采购时看整齐度**：同一箱香蕉大小、成熟度尽量一致；差异过大就压价或换货。\n2. **到店后分级**：大果、中果、小果分开，别混在一个堆头里卖。\n3. **定价区分**：大果走正常价或精品价，小果做实惠装/促销装，避免顾客只挑大的。\n4. **减少挑拣**：预包装或按把卖，能降低翻拣损耗。\n5. **注意成熟度一致**：大小差异如果能接受，但成熟度不一致更影响销售和损耗。\n\n结论：**大小不一会影响销售，但可通过分级、分价和预包装控制；最怕的是大小和成熟度都混在一起还按统货卖。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 276,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
