@@ -1,0 +1,28 @@
+{
+  "id": "1b8b6a71-b698-466e-98e3-e0a9d5263233",
+  "object": "chat.completion",
+  "created": 1792885236,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的公开信息能确认“都乐”和“洪九果品”已有品牌联名合作或开放联名定制。通常这类联名需双方品牌方授权，能否做取决于：\n\n1. **双方是否有联名政策/授权流程**：需分别联系都乐（Dole）和洪九果品的品牌/市场合作部门，确认是否接受礼品团购场景的联名礼盒。\n2. **团购规模与定制门槛**：联名通常有起订量、设计审批、授权费/最低采购额等要求，需拿到书面报价和授权条款。\n3. **商标使用合规**：联名礼盒涉及双方商标同时使用，必须取得双方书面许可，避免侵权。\n4. **执行路径**：可先向两家品牌的团购/大客户渠道提交需求（用途、数量、预算、交付时间、设计方向），要求出具联名可行性答复；若一方不接受，可改为“联合呈现/渠道合作”而非严格联名。\n\n建议直接动作：分别向都乐和洪九果品的官方团购或企业采购渠道发询价函，明确问“是否支持礼品团购联名礼盒、起订量、授权流程、周期和费用”。在拿到双方书面确认前，不要对外宣称联名。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 278,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

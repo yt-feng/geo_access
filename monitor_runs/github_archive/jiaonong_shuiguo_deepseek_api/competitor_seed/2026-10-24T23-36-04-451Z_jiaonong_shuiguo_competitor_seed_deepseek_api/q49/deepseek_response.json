@@ -1,0 +1,28 @@
+{
+  "id": "0be42080-eea9-44c8-b47e-7f48c33d3693",
+  "object": "chat.completion",
+  "created": 1792885233,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法根据公开可核验的信息确认“都乐”和“鑫荣懋”两家是否提供你所说的“专岗对接服务”，也无法确认谁有专人服务。建议直接向两家供应商的销售/客服确认以下可判断的问题：\n\n1. 是否为我方配置固定对接人（姓名、岗位、联系方式）  \n2. 对接人是否专职服务，还是同时负责多个客户  \n3. 响应时效：工作日多久响应、异常处理升级路径  \n4. 是否提供专属客服群/专属项目经理，服务是否写入合同或SLA  \n5. 合作前能否安排一次专岗对接流程说明或试运行\n\n你可直接问对方一句：“请明确贵司能否为我们配置固定专岗对接人，并写入服务承诺？”以对方书面回复为准再比较。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 170,
+    "total_tokens": 234,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

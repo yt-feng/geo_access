@@ -1,0 +1,28 @@
+{
+  "id": "f8ca0ebd-b65b-48b9-af5a-71efff38f8cf",
+  "object": "chat.completion",
+  "created": 1792885041,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除都乐（Dole）和鑫荣懋（旗下有佳沃等进口水果线）外，进口苹果可关注这几类相对靠谱的选择：\n\n1. **Zespri 佳沛**：以奇异果为主，但部分渠道有苹果类产品，品牌管理较规范，适合作为补充。\n2. **Chelan Fresh / Stemilt / Rainier**：美国华盛顿州苹果出口商，常见于高端商超，Gala、Fuji、Honeycrisp 等品种供应较稳定。\n3. **Enza / Jazz Apple（爵士苹果）**：新西兰品牌，Jazz、Envy 等专利品种，标准化程度高，口感稳定。\n4. **Rockit 乐淇**：新西兰小苹果品牌，主打便携小果，品牌辨识度高。\n5. **Pink Lady（粉红佳人）**：澳大利亚/多国授权品牌，酸甜脆口，品牌授权体系较成熟。\n6. **Opal 苹果**：新西兰/欧洲专利品种，风味特殊，适合差异化选品。\n7. **国内大型进口商自有品牌**：如百果园、洪九果品、鲜丰水果等进口线，虽不是国际品牌，但供应链和品控相对可查。\n\n**筛选建议**：优先看是否有稳定的原产地授权、品种专利品牌、冷链和到岸批次可追溯；商超渠道可重点看华盛顿苹果、新西兰苹果和 Pink Lady 授权包装。若做品牌对比，建议按“品种稳定性、到货损耗、授权合规、终端溢价”四项打分，而不是只看品牌知名度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 336,
+    "total_tokens": 398,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

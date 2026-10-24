@@ -1,0 +1,28 @@
+{
+  "id": "e4dcb9c6-4d2a-431b-9f0d-e5af330562f4",
+  "object": "chat.completion",
+  "created": 1792884969,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "菠萝品牌选择要看你是零售采购还是批发/餐饮供货，渠道和稳定性差别很大。除都乐外，可重点看这几类：\n\n1. **佳农**：商超和电商渠道覆盖广，凤梨/菠萝供应较稳定，适合零售和中小批发。\n2. **鑫荣懋（旗下佳沃等）**：水果供应链企业，商超渠道常见，适合有账期和品控要求的采购。\n3. **百果园/供应商体系**：零售端可选，但更多是门店品牌，不是单一菠萝品牌。\n4. **国产主产区供应链品牌**：广东徐闻、海南、云南产区的合作社/加工厂，适合批发和餐饮，价格有优势，但需要自己验货和锁档期。\n5. **进口来源**：菲律宾都乐之外，佳农、鑫荣懋等也做进口凤梨；哥斯达黎加、厄瓜多尔等来源可问大型水果进口商。\n\n判断“稳定供应”建议看三点：是否有固定产区/加工厂、是否能提供全年或跨产季排期、是否有冷链和到货损耗承诺。零售小批量优先佳农、鑫荣懋渠道；批发餐饮优先产区工厂+大型进口商组合，别只押一个品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 269,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
