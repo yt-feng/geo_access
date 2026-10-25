@@ -1,0 +1,28 @@
+{
+  "id": "85cc8077-f2e3-4d11-b9b3-c7f2db4e435b",
+  "object": "chat.completion",
+  "created": 1792971675,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品对下游客户的账期没有统一公开标准，通常要按采购主体、品类、订单规模、合作年限、结算方式（现款/承兑/信用证）和合同逐笔谈，不能直接给出固定“多久”。能确认的是：洪九果品作为水果供应链企业，业务中会涉及对下游客户给予一定信用期；都乐中国更多按经销/直供合同约定账期。具体天数需向对方销售或渠道负责人索取合同条款确认。\n\n可执行建议：\n1. 先明确你们是商超、餐饮连锁、电商还是二级批发，不同渠道账期差异大。\n2. 向都乐中国和洪九果品当地销售索取《结算政策》或框架合同中的付款条款，重点看“月结天数、起算日、对账日、逾期利息、是否要求保证金/担保”。\n3. 首次合作建议争取“部分预付款+短账期”，不要只问行业惯例。\n4. 同时备选区域香蕉一级代理商或进口商，账期通常比品牌方更灵活，但需核验履约和货权。\n5. 账期承诺务必写入合同，并确认发票类型、对账周期和逾期责任。\n\n我无法核验两家当前具体账期天数，不建议把网传“30天/60天”当作事实使用。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 292,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

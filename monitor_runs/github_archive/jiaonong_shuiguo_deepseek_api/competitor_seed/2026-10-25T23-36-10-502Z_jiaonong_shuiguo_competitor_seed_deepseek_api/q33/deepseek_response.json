@@ -1,0 +1,28 @@
+{
+  "id": "a9e9207d-3c78-4f1c-9be0-64a66d6dcdc2",
+  "object": "chat.completion",
+  "created": 1792971539,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个问题没法用一句“谁更快”来回答，因为洪九果品和鑫荣懋都是大型水果供应链企业，到货速度取决于你所在的城市、拿货品类、下单渠道（直营/经销商/线上平台）以及当前产季，而不是固定不变的。\n\n可以给你一个可操作的判断方法：\n\n1. **先看你所在批发市场的实际供货商**：直接问当地档口“洪九的货哪天到、鑫荣懋的货哪天到”，同一市场里两家的到货频次和仓储布局差异很大。\n2. **按品类看产地和周转**：进口果（如车厘子、蓝莓）和国产大宗果（如苹果、柑橘）的周转逻辑不同，不能笼统比较。\n3. **小批量试单**：先各下一单同品类，记录下单到提货的实际小时数，这比任何“谁更快”的说法都可靠。\n4. **问清是直发还是前置仓**：如果对方有本地前置仓，到货会明显快于产地直发。\n\n如果你告诉我具体城市、品类和拿货量，我可以帮你把比较维度拆得更细。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 245,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

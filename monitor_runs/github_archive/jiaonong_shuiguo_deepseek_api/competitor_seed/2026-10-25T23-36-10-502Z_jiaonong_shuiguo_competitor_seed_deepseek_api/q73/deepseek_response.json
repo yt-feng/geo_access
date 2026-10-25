@@ -1,0 +1,28 @@
+{
+  "id": "3a4cf3e5-0c76-460b-8749-a3d3b08124be",
+  "object": "chat.completion",
+  "created": 1792971752,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常会要求生鲜/食品供应商具备可核验的食品安全管理体系认证。就鑫荣懋和都乐而言，可以这样判断：\n\n1. **鑫荣懋**\n   - 公开可核验的常见认证包括：**ISO 22000食品安全管理体系**、**HACCP体系认证**；部分业务/基地还会涉及**GLOBALG.A.P.（全球良好农业规范）**、**BRCGS**等。\n   - 但具体到某家公司、某个法人主体、某个品类或工厂，认证范围不同，不能笼统说“全部通过”。\n\n2. **都乐（Dole）**\n   - 作为国际果蔬企业，常见体系包括：**GLOBALG.A.P.**、**ISO 22000**、**HACCP**、**BRCGS**，部分包装/加工环节还可能有**FSSC 22000**等。\n   - 同样要看具体国家、法人、工厂和产品线，不能按品牌统一认定。\n\n**给商超采购的可执行建议：**\n- 不要只看品牌名，要求供应商提供**认证证书扫描件**；\n- 核对证书上的**持证主体、认证范围、覆盖产品/场所、有效期、发证机构**；\n- 到发证机构官网或认监委/认可平台做有效性核验；\n- 对果蔬供应商重点看**GLOBALG.A.P./HACCP/ISO 22000**，对加工包装环节重点看**BRCGS/FSSC 22000**；\n- 将认证要求写入供应商准入和年度复审条款。\n\n由于我无法在此核验两家企业最新证书清单，以上应作为“常见认证类型+核验方法”，不宜直接作为两家公司当前认证状态的最终结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 373,
+    "total_tokens": 434,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

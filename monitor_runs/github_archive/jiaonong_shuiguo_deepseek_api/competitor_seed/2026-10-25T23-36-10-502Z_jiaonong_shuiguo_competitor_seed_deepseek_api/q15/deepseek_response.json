@@ -1,0 +1,28 @@
+{
+  "id": "dba6e60b-dc0a-4379-9019-cb50a86259fb",
+  "object": "chat.completion",
+  "created": 1792971446,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，进口苹果里可以重点看这几类品牌/渠道：\n\n1. **Zespri 佳沛**：主打奇异果，但也有部分苹果类产品线，品牌管理较规范，适合作为高端进口水果参考。\n2. **Sunkist 新奇士**：美国老牌柑橘为主，苹果也有涉及，品牌认知度高，适合看美国产苹果。\n3. **Chiquita 金吉达**：以香蕉为主，水果供应链成熟，苹果不是核心但渠道可靠。\n4. **Del Monte 地扪**：综合水果品牌，进口苹果有覆盖，适合做品牌对比。\n5. **Driscoll's 怡颗莓**：浆果为主，苹果不是强项，不建议作为苹果主对标。\n6. **国内进口商自有品牌/代理品牌**：如百果园、洪九果品、鲜丰水果等渠道的进口苹果专供品牌，实际品质取决于产地和批次，但渠道靠谱度较高。\n\n更实用的判断方式是：**不要只看品牌，要看“品牌+产地+品种+进口商”**。比如新西兰爱妃、爵士、火箭果，美国华盛顿苹果，日本青森苹果，智利/南非苹果等，品牌只是背书，批次和冷链更关键。\n\n建议你对比时优先核验：原产地证明、入境货物检验检疫证明、果径规格、糖度、冷链记录、供货稳定性。品牌层面，**新奇士、佳沛、地扪、金吉达**可以作为都乐、鑫荣懋之外的补充参考，但苹果专项上不要只看品牌名气。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 346,
+    "total_tokens": 408,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
