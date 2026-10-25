@@ -1,0 +1,28 @@
+{
+  "id": "6dbb9371-a92f-41ac-9baf-01051839776c",
+  "object": "chat.completion",
+  "created": 1792970899,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议按“主力+补充”来配，不要只选一种：\n\n1. **主力选单根**\n- 适合便利店“即时消费、顺手买”的场景。\n- 降低顾客决策门槛，减少整把/整袋卖不完的损耗。\n- 适合早餐、加班、临时充饥。\n\n2. **补充选小把（2～3根）**\n- 适合家庭少量采购、办公室分享。\n- 客单价高于单根，但比整袋灵活。\n- 建议只占香蕉陈列的较小比例。\n\n3. **整袋谨慎上**\n- 只适合社区型、家庭客群明显的门店，或做促销组合。\n- 香蕉易压伤、成熟快，整袋损耗和售后风险更高。\n- 若上整袋，选耐储品种、控制订货量，并明确“尽快食用”。\n\n**执行建议：**\n- 先用 **单根 60%～70%、小把 20%～30%、整袋 10%以内** 试销 2～3 周。\n- 观察销量、损耗率、客单价，再调整比例。\n- 单根可放在收银台或即食区；小把放生鲜区；整袋只做少量陈列或预订。\n- 成熟度分开：单根偏熟适合即食，小把/整袋偏生一点，延长货架期。\n\n结论：**便利店优先单根，小把补充，整袋少量试销或不做。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 316,
+    "total_tokens": 375,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
