@@ -1,0 +1,28 @@
+{
+  "id": "573f049a-ea59-4fc4-ad4c-707fce938e1c",
+  "object": "chat.completion",
+  "created": 1792885818,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效取决于**下单渠道、收货城市和配送方式**，没有统一答案。可以按下面判断：\n\n1. **京东自营/京东到家**\n   - 通常由京东本地仓或门店发货，一二线城市常见**当日达或次日达**。\n   - 具体以下单页显示的“预计送达时间”为准。\n\n2. **天猫/淘宝旗舰店**\n   - 一般走快递，常见**48小时内发货，发出后2—4天送达**。\n   - 偏远地区可能更慢。\n\n3. **美团/饿了么/盒马等本地即时零售**\n   - 若附近门店有货，通常**30分钟—2小时送达**。\n\n4. **佳农官方小程序/直播间**\n   - 多为产地或仓库直发，常见**48—72小时内发货**，物流时效约**2—5天**，以页面公告为准。\n\n**最准确的做法**：在你实际下单的平台商品页查看“发货时间/预计送达”，或下单后看订单物流。不同城市、不同仓库和节假日都会影响时效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 231,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "da697a64-50d0-4a5f-89bd-fef6acb935f8",
+  "object": "chat.completion",
+  "created": 1792886018,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国家标准（国标）。\n\n原因：佳农（Goodfarmer）作为品牌商，其香蕉产品通常标注的是自有企业标准（Q/开头的标准号），用于规范其产地、等级、外观、成熟度等分级要求；而普通香蕉（散装、无品牌或农贸市场的香蕉）一般执行的是国家标准（如 GB/T 或食品安全国标 GB 2762/GB 2763 等基础安全标准），两者定位不同。\n\n**价格差**：佳农香蕉通常比普通散装香蕉贵约 **30%–80%**，具体因渠道和地区差异较大：\n- 超市/生鲜电商：佳农香蕉常见约 5–9 元/斤，普通香蕉约 3–5 元/斤；\n- 促销时差距会缩小，精品商超差距可能更大。\n\n需要注意：以上价格为市场常见区间，实际以当地门店标价为准；不同批次、规格（如单根装 vs 整把装）也会影响单价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 230,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

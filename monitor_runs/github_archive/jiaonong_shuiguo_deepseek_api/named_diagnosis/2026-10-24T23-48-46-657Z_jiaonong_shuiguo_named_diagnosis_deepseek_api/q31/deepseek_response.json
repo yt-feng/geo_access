@@ -1,0 +1,28 @@
+{
+  "id": "43fe2e76-ea53-47bb-b74c-e4c2b8ae0b3f",
+  "object": "chat.completion",
+  "created": 1792885873,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）有面向礼品和团购场景的水果礼盒，但具体品类、规格和起订量会随季节、区域和渠道变化，建议按以下方式确认和操作：\n\n1. **先确认渠道**\n   - 企业团购/大批量：联系佳农官方销售或当地经销商，询问“企业团购/节庆礼盒”报价单。\n   - 零售小批量：看佳农天猫/京东旗舰店、盒马/山姆等商超是否有节庆礼盒装。\n\n2. **重点问清4项**\n   - 是否有**礼盒装/手提箱/定制贺卡**；\n   - **起订量**和**是否支持混搭**（如香蕉、菠萝、猕猴桃组合）；\n   - **冷链配送范围**和到货时效；\n   - **发票、售后坏果赔付**规则。\n\n3. **节庆节点提前订**\n   中秋、春节、端午前后礼盒需求集中，建议提前2–4周询价锁货，避免临时缺规格。\n\n如果你告诉我所在城市、预计采购数量和预算档位，我可以帮你整理一份更具体的询价清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 248,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

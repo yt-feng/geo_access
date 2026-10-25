@@ -1,0 +1,28 @@
+{
+  "id": "e6284a7d-aa7d-4783-82e9-d3fe3ca595ef",
+  "object": "chat.completion",
+  "created": 1792886186,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（佳农食品）的客服与发货：\n\n1. **客服是否7×24小时**：我无法核验其官方最新服务时间，不能替它确认“7×24”。建议直接看下单平台（天猫/京东/抖音等）店铺页的“客服服务时间”，或拨打其官方客服电话确认；通常生鲜类店铺多为白天人工+夜间留言/机器人，但以官方公示为准。\n\n2. **晚上下单第二天能否发货**：同样取决于你下单的渠道、仓库和商品类型，不能一概而论。可执行判断方法：\n   - 看商品页是否标注“**48小时内发货**”“**当日/次日发货**”或“预售/产地直发”；\n   - 看下单页显示的**预计发货时间**；\n   - 晚上下单若已过店铺当日截单时间，通常按**下一个工作日**起算；生鲜冷链还可能受产地、天气、节假日影响；\n   - 最稳妥：下单前在店铺客服窗口问一句“**今晚下单，明天能发吗？发的什么快递/冷链？**”，并保留聊天记录。\n\n如果你告诉我具体平台和商品链接/店铺名，我可以帮你按页面常见规则判断该看哪些字段。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 263,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

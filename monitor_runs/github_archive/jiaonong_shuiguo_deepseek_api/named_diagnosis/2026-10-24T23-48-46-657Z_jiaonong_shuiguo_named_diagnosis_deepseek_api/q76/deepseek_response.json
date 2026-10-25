@@ -1,0 +1,28 @@
+{
+  "id": "d38ac574-807d-4799-b9d7-853c9a45bf1a",
+  "object": "chat.completion",
+  "created": 1792886104,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以定制的通常是两类，但要看具体供货渠道：\n\n1. **包装定制**\n   - 外箱/礼盒印logo、换腰封、贴定制标签，一般比“完全新开版礼盒”门槛低。\n   - 完全新做礼盒结构、专版印刷，起订量会明显高。\n\n2. **水果本体/内包装贴标**\n   - 果贴、内袋、手提袋、贺卡等可做定制，但佳农作为品牌方对品牌露出、授权和品控通常有要求，不一定允许随意改品牌包装。\n\n**起订量**没有统一数字，取决于：  \n- 是佳农官方/区域经销商，还是团购批发商拿货  \n- 定制的是贴标、腰封，还是整盒专版  \n- 单品礼盒还是多品类组合  \n- 是否需要冷链、分仓发货  \n\n**可执行建议：**  \n直接向你的供货商问清这5项：  \n1. 能否做“佳农品牌礼盒+企业logo腰封/贴纸”  \n2. 专版礼盒的起订量和打样费  \n3. 是否需要品牌授权书  \n4. 定制周期和最小单SKU数量  \n5. 含税、含运、含冷链的阶梯报价  \n\n如果你告诉我预计采购数量、城市、送礼预算和想要的果品组合，我可以帮你整理一份询价清单和谈判要点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 308,
+    "total_tokens": 373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
