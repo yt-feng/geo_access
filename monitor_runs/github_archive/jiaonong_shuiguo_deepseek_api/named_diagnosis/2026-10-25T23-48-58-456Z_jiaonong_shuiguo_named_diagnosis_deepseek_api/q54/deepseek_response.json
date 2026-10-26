@@ -1,0 +1,28 @@
+{
+  "id": "95fcb8cd-6d5d-49f7-8898-5afead92b03b",
+  "object": "chat.completion",
+  "created": 1792972396,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送模式不是单一“三通一达”或“全自有车队”，而是混合模式：干线冷链运输以自有/长期合作冷链车队为主，区域仓配和末端配送会结合第三方物流；电商零售订单常由快递网络承运，但具体承运商取决于下单渠道、品类和区域，不能一概说成三通一达。\n\n冷链覆盖率方面，公开可核验的精确比例我没有可靠来源，不能给你一个确切数字。可执行的判断方法是：看具体品类的包装温层和到货状态——佳农以香蕉、菠萝、火龙果等热带水果为主，部分品类常温/控温运输即可，并非全程必须冷链；易腐品类和电商直发订单通常会配置保温箱、冰袋或冷链干线。若你要做供应商评估，建议直接向佳农销售索要：①各品类运输温层标准；②干线/仓配/末端分别的自有与外包比例；③冷链温控记录和断链赔付条款；④近12个月重点区域的到货损耗率。这样比问“覆盖率”更能判断实际履约质量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 233,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

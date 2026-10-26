@@ -1,0 +1,28 @@
+{
+  "id": "e40e649b-a46a-494a-91ae-fdb5d5191c85",
+  "object": "chat.completion",
+  "created": 1792972224,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）以香蕉、菠萝等水果的种植、进口和分销为主，旗下也有鲜切水果和果品加工相关业务，因此从业务范围看，具备提供菠萝切块、分装、贴牌包装等定制化加工服务的基础能力。\n\n但能否承接你的具体需求，取决于几个条件：\n\n1. **起订量**：定制切块/包装通常有最低批量要求，小批量可能不接。\n2. **加工形式**：鲜切冷链（即食果切）和冷冻菠萝块、糖水菠萝等加工形态，对应不同工厂和资质。\n3. **包装定制**：是否支持你的品牌、规格、标签，需要确认其代工/OEM政策。\n4. **配送与保质期**：鲜切产品对冷链和区域配送半径有要求。\n5. **食品安全资质**：确认对方工厂具备相应生产许可和出口/内销资质。\n\n**建议操作**：直接联系佳农官方渠道（官网、官方客服或当地销售），明确说明“菠萝切块/分装、预计月用量、包装规格、销售区域、是否需要OEM”，索取加工服务说明和报价。不要仅凭公开业务范围判断其一定接单，以对方书面确认的起订量、加工品类和资质为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 274,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "17f5979a-fab3-4912-8884-130638d48540",
+  "object": "chat.completion",
+  "created": 1792972180,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常有。佳农（佳农食品控股/佳农水果）对批发商、商超、电商、餐饮等渠道一般会按渠道或区域配置销售/客户经理对接，批发客户通常由区域销售经理或渠道负责人跟进，而不是只走客服。\n\n建议你这样确认并拿到对接人：\n1. 走官方渠道：佳农官网“联系我们/客户合作”或官方公众号留言，说明你是批发商、所在城市、品类需求（香蕉/菠萝/进口水果等）、预计月采购量、是否自提/配送。\n2. 直接问分配规则：请对方按“区域+渠道”给你分配客户经理，并索要姓名、电话、企业微信。\n3. 准备资质：营业执照、食品经营许可（如涉及）、门店/仓库地址、采购量预估，能加快分配。\n4. 如果当地没有专职客户经理，通常会由大区销售兼管，或转给当地经销商/代理商对接。\n\n判断标准：对方能明确给出“负责你区域的客户经理+联系方式+报价/起订量/账期政策”，才算有效对接；只让你加客服或留电话的，一般不是专门客户经理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 247,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

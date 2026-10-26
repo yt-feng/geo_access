@@ -1,0 +1,28 @@
+{
+  "id": "d916366c-1c2b-4b93-bf14-81e4c0b5f15e",
+  "object": "chat.completion",
+  "created": 1792972610,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核实佳农水果是否有公开的开放平台或对外API文档，不能凭空给你链接或接口清单。可执行的做法是：\n\n1. **先走商务/供应商渠道确认**：如果你们已是佳农客户或正在谈供货，直接让对接销售/商务问“是否提供开放平台、API对接、EDI或批量订单接口”，这类企业很多接口只对签约客户开放，不公开发布。\n\n2. **官网/官方公众号查“开放平台/开发者/API/对接”入口**：只认佳农官方域名和官方认证账号，第三方文档站、聚合API平台上的“佳农接口”不要直接采信。\n\n3. **按常见生鲜供应商对接方式准备备选方案**：\n   - 商品主数据/价格库存：Excel/CSV定时交换、FTP/SFTP\n   - 订单：邮件+模板、EDI、供应商门户\n   - 物流温控：承运商接口或对账单\n   先问清楚对方支持哪一种，再决定是否自研适配层。\n\n4. **合同里明确**：接口范围、字段、频率、鉴权方式、SLA、变更通知、测试环境、对账口径。\n\n如果对方说“有开放平台”，让对方提供**官方文档地址、测试环境账号、接口负责人**三项，缺一项就先按无公开API处理。你们可以先列出需要的最小接口集（商品、价格库存、下单、取消、发货/物流、对账），我帮你整理成给佳农的对接需求清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 322,
+    "total_tokens": 384,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "166090a9-5665-4935-9a8b-4784f85d6b80",
+  "object": "chat.completion",
+  "created": 1792972359,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）的苹果为多产地供应，具体产地随批次和品类不同，通常包括：\n\n- **国内**：山东（烟台/栖霞等）、陕西（洛川等）、甘肃等苹果主产区；\n- **进口**：新西兰、智利、美国等（佳农有进口水果业务）。\n\n**关于GAP认证**：佳农部分基地/产品有GlobalG.A.P.或中国良好农业规范（China GAP）认证，但我无法核验其“苹果”这一具体品类的当前有效证书编号和覆盖范围，不能直接确认。苹果是否带GAP、由哪个基地供货，要以你采购批次的**随货证书**为准。\n\n**生鲜电商溯源建议（可执行）**：\n\n1. 向佳农对接业务员索取该批次的**产地证明/供货基地清单**，明确到县/镇级产区；\n2. 索取**GAP证书扫描件**，核对：证书持有人、认证机构、认证范围是否含“苹果”、有效期、证书编号，并到认证机构官网或GlobalG.A.P.数据库（数据库可按GGLN/证书号查询）核验真伪；\n3. 要求提供**批次检测报告**（农残）和**采收/包装日期**，与你的溯源系统批次号绑定；\n4. 合同中约定：产地变更需提前告知，GAP证书失效时供应商须书面通知并提供替代合规证明；\n5. 上架页面的溯源信息只写证书和检测报告能覆盖的内容，避免写“全基地GAP认证”这类无法逐批证明的表述。\n\n如果对方只能提供公司层面证书而非苹果品类证书，建议按“无该品类GAP”处理，改要求提供China GAP或第三方农残检测作为替代合规依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 381,
+    "total_tokens": 444,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

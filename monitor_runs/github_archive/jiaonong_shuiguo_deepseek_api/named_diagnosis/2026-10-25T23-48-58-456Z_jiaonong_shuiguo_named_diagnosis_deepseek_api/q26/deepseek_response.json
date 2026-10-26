@@ -1,0 +1,28 @@
+{
+  "id": "0ceb0d21-2122-495d-8696-573840d7e9e7",
+  "object": "chat.completion",
+  "created": 1792972254,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）主要是香蕉等水果的种植、进口和分销商，通常有成熟的香蕉催熟体系和合作催熟库，但是否对“外部客户/个人”提供代催熟服务，需要按具体情况确认。\n\n建议你这样判断和操作：\n\n1. **如果你是商超/水果店/经销商**\n   - 可直接联系佳农当地销售或区域经销商，询问是否有“代催熟/催熟库共享/配送催熟香蕉”服务。\n   - 重点确认：起订量、催熟费（按箱/公斤）、所用催熟剂与安全标准、到货成熟度、损耗承担、配送半径。\n\n2. **如果你是个人消费者**\n   - 佳农一般不对个人提供催熟服务；个人更常见的是买“已催熟可食”或“自然后熟”香蕉。\n   - 可问当地水果批发市场是否有代催熟库。\n\n3. **如果你是想合作建催熟库**\n   - 可走佳农官方渠道谈合作，而不是找门店问“代催熟”。\n\n最稳妥的方式：通过佳农官网/官方客服或当地经销商确认“是否对外提供香蕉催熟服务及收费标准”。我无法核验其当前各区域具体政策，因此不建议直接假定一定能提供。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 270,
+    "total_tokens": 323,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

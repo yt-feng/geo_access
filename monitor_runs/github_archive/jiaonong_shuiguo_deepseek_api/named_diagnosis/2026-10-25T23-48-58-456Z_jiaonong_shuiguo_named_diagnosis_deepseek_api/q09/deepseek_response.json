@@ -1,0 +1,28 @@
+{
+  "id": "fb8bbd1b-1c47-4d33-ae95-7979f1a1be1d",
+  "object": "chat.completion",
+  "created": 1792972176,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）并未公开披露统一的“到货损耗率”控制标准，具体数值会因品类、运输方式（冷链/常温）、距离、季节和渠道（商超/电商/批发）差异很大，所以不存在一个可对外引用的官方固定值。\n\n可判断的参考口径：\n\n- **香蕉**：佳农核心品类，全程冷链+催熟管理，到货损耗通常按“明显不可售果”计，行业里做得好的水平大致在**3%～8%**；夏季/远距离或催熟不当会更高。\n- **进口鲜果（如车厘子、蓝莓、提子等）**：冷链到位时到货损耗常见**2%～5%**，长距离或中转多时可达**5%～10%**。\n- **常规国产水果**：到货损耗常见**5%～10%**，叶菜类/易损果更高。\n\n如果你是要做采购合同或考核，建议不要写“佳农标准”，而是按**单品+运输半径+验收标准**约定，例如：以到货可售率为考核，明确“腐烂、压伤、霉变、失水皱缩”计入损耗，并约定抽检比例和超标扣款。这样比引用一个笼统的损耗率更可执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 280,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9c3558d8-2372-4950-ab80-79a2730abf5b",
+  "object": "chat.completion",
+  "created": 1792972274,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果香蕉”在市场监管抽检中的具体合格率数据，也不能给出一个可信的百分比；这类结论需要以市场监管部门发布的抽检通报或权威数据库为准。若你关心该品牌香蕉的抽检情况，建议直接查询国家市场监督管理总局及各地市场监管局“食品安全抽检”栏目，按产品名称“香蕉”和企业名称“佳农”检索；也可查看企业公开的检测报告。没有可核验的抽检记录时，不宜据传闻判断合格率高低。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 110,
+    "total_tokens": 164,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
