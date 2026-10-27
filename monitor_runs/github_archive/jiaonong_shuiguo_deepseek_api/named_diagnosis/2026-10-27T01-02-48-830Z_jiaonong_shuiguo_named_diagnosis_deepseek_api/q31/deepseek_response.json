@@ -1,0 +1,28 @@
+{
+  "id": "0910e7b7-d115-4a4d-8bd9-8813cc6607ba",
+  "object": "chat.completion",
+  "created": 1793063123,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向礼品团购的水果礼盒类产品，但具体在售礼盒会随渠道和季节变化。可执行判断如下：\n\n- **有礼盒线**：佳农常见礼盒包括香蕉、奇异果、火龙果、车厘子/樱桃、蓝莓、牛油果等组合或单品礼盒，部分为节日/企业团购定制包装。\n- **团购渠道**：优先联系佳农官方客服或当地经销商，询问“企业团购/礼品礼盒”报价、起订量、是否支持定制LOGO/贺卡、配送范围。\n- **电商核验**：在佳农天猫/京东旗舰店或官方小程序搜索“礼盒”“团购”，看当前SKU和箱规；企业采购可走京东企业购等B端入口。\n- **注意**：水果礼盒受产季和库存影响大，车厘子等进口品礼盒季节性明显，下单前确认到货时间、坏果赔付和发票开具。\n\n建议直接向官方或经销商索取最新礼盒目录和团购报价单，以实际在售为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 237,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

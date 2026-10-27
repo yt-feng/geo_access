@@ -1,0 +1,28 @@
+{
+  "id": "b1ff9e67-f5dd-4e80-a98d-2cee7ba4f14d",
+  "object": "chat.completion",
+  "created": 1793063439,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否有红富士苹果、是否供应新疆阿克苏苹果，我无法核验其当前商品和产地供应情况，不能给出确定答复。建议你按下面方式快速确认，避免采购误判：\n\n1. **直接问佳农官方渠道**  \n   联系佳农水果官方客服/区域销售，明确问三件事：  \n   - 是否有红富士苹果在供；  \n   - 是否有新疆阿克苏产地苹果；  \n   - 能否提供产地证明、检测报告、供货规格和起订量。\n\n2. **看包装和标签**  \n   采购时重点核对包装上的“品种/产地/执行标准/供应商”，红富士会标品种，阿克苏苹果应能追溯到新疆阿克苏产区；只有“苹果”字样不够。\n\n3. **要求样品和资质**  \n   先拿样品确认口感、果径、糖度、瑕疵率，再要营业执照、食品经营/生产相关资质、产地证明或采购合同中的产地条款。\n\n4. **备选方案**  \n   如果佳农不能稳定供阿克苏苹果，可直接对接阿克苏当地合作社或一级批发商，并要求提供果园/冷库信息和产地证明。\n\n结论：**我不能确认佳农有红富士或阿克苏苹果，采购前必须以佳农官方书面确认和实物标签为准。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 278,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

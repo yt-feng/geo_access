@@ -1,0 +1,28 @@
+{
+  "id": "e8737688-8e9d-491b-9aae-9fe81c452626",
+  "object": "chat.completion",
+  "created": 1793063389,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的信息能确认佳农香蕉有3kg装，也不能替你确认便利店渠道的具体小包装规格。直接建议你按下面方式核实，避免上错货：\n\n1. **先问佳农当地经销商/区域业务员**  \n   直接问三件事：  \n   - 香蕉有没有 **3kg/箱或2.5kg/箱** 的小规格；  \n   - 便利店渠道是否有 **小包装香蕉**（如单把装、1-2kg袋装）；  \n   - 最小起订量、配送频次、损耗/售后政策。\n\n2. **看包装标签上的净含量**  \n   佳农香蕉常见是按箱/把销售，但规格会随渠道和地区变化。不要只按“3kg装”找，重点确认 **净含量、毛重、装箱数**。\n\n3. **小门店更建议先试“小规格+高频少量”**  \n   如果找不到3kg箱，可优先谈：  \n   - 2-3kg小箱；  \n   - 按把/袋的小包装；  \n   - 每周2-3次少量配送，降低香蕉熟损。\n\n4. **上架前做7天试销**  \n   记录每天销量、报废量、成熟度。香蕉损耗高，小门店不建议一次压大箱。\n\n结论：**3kg装香蕉不能直接确认有，需向佳农当地经销渠道核实最小包装和起订量。** 如果你告诉我所在城市，我可以给你一个更具体的询价话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 328,
+    "total_tokens": 394,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,12 +1,12 @@
 # 佳农水果 DeepSeek API 回答归档
 
-- 最近运行: 2026-10-25T23:57:12.254Z
-- Run ID: 2026-10-25T23-48-58-456Z_jiaonong_shuiguo_named_diagnosis_deepseek_api
+- 最近运行: 2026-10-27T01:11:45.253Z
+- Run ID: 2026-10-27T01-02-48-830Z_jiaonong_shuiguo_named_diagnosis_deepseek_api
 - Prompt 文件: proposal_excellence/佳农水果/jiaonong_shuiguo_named_diagnosis_prompts.txt
 - 模型: deepseek-v4-flash
 - 完成/总数: 100/100
 - 有 source 字段的回答: 0
-- 结果目录: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-10-25T23-48-58-456Z_jiaonong_shuiguo_named_diagnosis_deepseek_api
+- 结果目录: monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-10-27T01-02-48-830Z_jiaonong_shuiguo_named_diagnosis_deepseek_api
 
 ## Source 说明
 

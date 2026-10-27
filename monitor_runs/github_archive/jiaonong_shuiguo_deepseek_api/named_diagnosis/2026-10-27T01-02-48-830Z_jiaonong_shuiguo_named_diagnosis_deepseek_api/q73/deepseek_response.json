@@ -1,0 +1,28 @@
+{
+  "id": "c9884204-2d2f-474d-9ec0-d6f45c1786fb",
+  "object": "chat.completion",
+  "created": 1793063344,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）水果的苹果品类通常以进口苹果为主，常见会覆盖：嘎啦（Gala）、红富士（Fuji），以及部分其他品种/规格（如不同等级、包装规格的苹果）。但具体在售品类和包装规格会随季节、口岸和渠道变化，建议以佳农官方渠道或对接销售的当期报价单/库存表为准。\n\n关于你关心的采购产地：\n- **进口嘎啦（Gala）**：常见产地包括**新西兰、美国、智利、南非**等；具体批次取决于当季货源。\n- **进口红富士（Fuji）**：常见产地包括**美国、新西兰、智利、日本（较少且受准入/季节限制）**等；实际以佳农当期进口批次和海关准入为准。\n\n采购建议：直接向佳农销售索取**当季可发批次的原产地证/装箱单/报关信息**，并在合同中锁定“品种+产地+等级+规格+包装+到货口岸”，避免只写“进口嘎啦/红富士”导致批次替换。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 228,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
