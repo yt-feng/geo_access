@@ -1,0 +1,28 @@
+{
+  "id": "4debf67c-7423-4fda-912a-17256b1e7ff9",
+  "object": "chat.completion",
+  "created": 1793061739,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "按“斤”结算最好管理，前提是能稳定称重并做好验收；按箱适合标准化程度高的水果；按份适合终端分发，不适合作为食堂采购的主结算方式。\n\n**建议方案：**\n1. **主结算用斤**：苹果、梨、香蕉、橘子等散装水果按斤结算，单价透明，损耗和实际用量容易核对。\n2. **箱装水果按箱采购、按斤验收**：整箱采购可以谈价，但验收时抽检净重、坏果率，结算可按“箱价”或“净重×单价”，避免箱内垫纸、缺斤少两。\n3. **按份只用于分发或加餐**：如酸奶杯、果切盒，按份便于发放，但采购端仍应折算单价和净含量。\n4. **建立验收单**：品名、规格、毛重、净重、单价、金额、坏果扣减、验收人。按箱的必须写清净重和抽检比例。\n\n**管理优先级：**\n- 最易核算：按斤。\n- 最易采购但需防缺斤少两：按箱。\n- 最易分发但最难控采购成本：按份。\n\n所以，食堂采购主结算选**按斤**，箱装作为议价采购形式但按净重验收，按份仅用于分发环节。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 293,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}
