@@ -1,0 +1,28 @@
+{
+  "id": "0c49eb77-eb72-4e9f-ac8b-52ea1e3b9359",
+  "object": "chat.completion",
+  "created": 1793149783,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）的水果里苹果品类通常以红富士为主力之一，但具体到某批次/某渠道是否在售，要以你所在渠道的当期商品页或门店标签为准；佳农的强项更多在香蕉、菠萝等进口/产地水果，苹果并非其最核心的差异化品类。\n\n和鑫荣懋比“性价比”不能一概而论：鑫荣懋本身是大型水果供应链企业，苹果（尤其国产红富士）采购和分级体系更成熟，同规格下往往等级更稳定；佳农若走商超/电商大促，价格可能更有优势。判断性价比建议按同一维度比：①是否同一产地/品种（如山东/陕西红富士）②果径规格（70/75/80/85mm）③等级（统货/精选/礼盒）④到手价/斤⑤坏果率与售后。一般结论：日常自吃、追求稳定分级选鑫荣懋更稳；遇到佳农红富士明显低价且规格标注清楚时，佳农更划算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 227,
+    "total_tokens": 290,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

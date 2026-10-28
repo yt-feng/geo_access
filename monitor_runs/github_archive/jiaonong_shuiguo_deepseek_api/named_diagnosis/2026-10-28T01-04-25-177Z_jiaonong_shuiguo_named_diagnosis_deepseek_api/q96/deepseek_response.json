@@ -1,0 +1,28 @@
+{
+  "id": "dfd7252f-c661-4041-b4f6-111d4f0fae83",
+  "object": "chat.completion",
+  "created": 1793149964,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果当前是否对外提供开放平台或API文档，所以不能确认具体入口，也不虚构链接。可执行做法如下：\n\n1. **先确认对接对象**：佳农通常以水果品牌/供应链方出现，很多生鲜电商实际是通过其经销体系、区域代理商或第三方供应链平台拿货。先问业务对接人：拿货主体是谁、是否支持API、由谁提供技术对接。\n2. **向对方要三样东西**：开放平台地址、接口文档（含鉴权方式、商品/库存/价格/订单/物流接口）、测试环境与联调联系人。没有测试环境就先不要排开发。\n3. **判断是否值得接**：若对方只能给Excel/人工下单，短期用“商品主数据导入+人工对账”更稳；若确有API，再评估接口覆盖度（库存实时性、价格同步频率、取消/售后规则）。\n4. **合同里写清**：接口SLA、库存超卖责任、价格变更通知、数据归属、故障降级方案。\n\n建议你先向佳农业务方书面确认“是否有对外开放API及文档”，拿到文档后再做技术评估；在拿到可核验的文档前，不要按网上搜到的非官方接口开发。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 269,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

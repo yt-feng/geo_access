@@ -1,0 +1,28 @@
+{
+  "id": "392e193c-40c2-4160-9334-82dfa7449857",
+  "object": "chat.completion",
+  "created": 1793149666,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的香蕉属于“有品牌、但品牌认知度不算高”的品类：  \n- 在水果行业和商超渠道里，佳农是知名香蕉供应商/品牌，B端认知较强；  \n- 在普通消费者端，香蕉更接近“品类消费”而非“品牌消费”，多数人买香蕉看价格、外观和渠道，不太认品牌；  \n- 佳农在部分商超有品牌化陈列和包装，能形成一定识别，但整体消费者主动指名购买度有限。  \n\n判断：佳农香蕉有品牌基础，但消费者认知度中等偏弱，远低于其在渠道端的知名度。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 135,
+    "total_tokens": 190,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9a07b6c3-2efb-4e01-a2d0-ade3ab787a4d",
+  "object": "chat.completion",
+  "created": 1793149565,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没有佳农水果官方配送时效的可核验数据，无法给出准确承诺。可参考以下判断和操作：\n\n1. **看下单渠道**：佳农在天猫/京东/抖音等平台多为店铺发货，配送时效由店铺和快递决定；如果是本地商超/生鲜平台（如美团、京东到家、盒马等）代售，则按平台即时配送规则。\n2. **下单前直接查**：商品页通常写“发货时效/预计送达”；结算页会显示预计到达时间。以结算页为准。\n3. **咨询客服确认**：问清“几点前下单当天发”“使用哪家快递”“是否冷链”“偏远地区是否不发”。\n4. **一般经验**：电商仓发货通常1–3天送达，生鲜冷链可能2–4天；同城即时零售常见30分钟–2小时。但这只是经验，不是佳农承诺。\n5. **保留证据**：若页面承诺时效未达到，截图商品页/结算页和客服承诺，便于售后。\n\n建议你告诉我具体下单平台和城市，我可以帮你判断该看哪类时效规则。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 238,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

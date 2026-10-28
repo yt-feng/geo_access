@@ -1,0 +1,28 @@
+{
+  "id": "ace0446b-c628-498e-8404-a7343454b9d5",
+  "object": "chat.completion",
+  "created": 1793149809,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果是否对外开放ERP/API接口，也不能确认具体接口文档或对接方式；这属于需要向对方官方确认的信息，不能凭空给结论。\n\n可以按下面步骤推进，通常1–3个工作日能判断可行性：\n\n1. **先确认对接对象和系统**\n   - 佳农是品牌方/供应商，还是其经销商、仓储服务商？\n   - 要对接的是佳农的ERP，还是你们自己的ERP与佳农的订单/发货系统？\n   - 明确业务范围：商品资料、库存、价格、下单、发货、对账、售后。\n\n2. **向佳农商务/IT发正式对接需求**\n   建议直接问这5个问题：\n   - 是否提供开放API或EDI/文件交换方式？\n   - 接口文档、测试环境、认证方式（AppKey/OAuth/白名单）如何获取？\n   - 支持哪些业务对象和调用频率？\n   - 是否有对接费用、实施周期、技术支持窗口？\n   - 若暂无API，是否支持Excel/CSV/邮件/ FTP等过渡方案？\n\n3. **同步评估你们侧**\n   - 你们ERP是否支持自定义API对接、中间件或SFTP；\n   - 是否有开发资源做鉴权、签名、重试、幂等、对账；\n   - 先做最小闭环：商品同步→下单→发货回传→对账。\n\n4. **没有API时的替代方案**\n   - 先用批量文件交换（CSV/Excel）跑通业务；\n   - 通过第三方OMS/EDI服务商中转；\n   - 让佳农提供只读报表或人工接口过渡。\n\n**结论：** 是否有API必须以佳农官方IT/商务书面确认为准。建议你今天先发对接需求函，要求对方提供接口清单和测试环境；拿到文档后再判断是标准API、文件交换还是人工对接。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 403,
+    "total_tokens": 462,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
