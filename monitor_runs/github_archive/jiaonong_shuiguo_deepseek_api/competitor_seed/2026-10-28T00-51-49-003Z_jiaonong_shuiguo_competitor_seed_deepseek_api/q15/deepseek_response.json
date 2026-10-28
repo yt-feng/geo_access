@@ -1,0 +1,28 @@
+{
+  "id": "f1d0da6b-cb3e-4a2b-8b38-7a8c5ce1148c",
+  "object": "chat.completion",
+  "created": 1793148796,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以重点看这几类，靠谱程度主要看“品牌+进口商/渠道+果径等级+到货批次”，而不是只看牌子和“进口”两个字。\n\n**1. 国际果蔬品牌/出口商品牌**\n- **Zespri 佳沛**：新西兰奇异果为主，不算苹果品牌；如果你说的“苹果品牌”是泛水果品牌，它可作为高端进口水果参照。\n- **Driscoll's 怡颗莓**：浆果为主，也不是苹果。\n- **Stemilt**：美国华盛顿州苹果出口商，常见品种有富士、嘎啦、红蛇果等，做进口苹果较专业。\n- **Chelan Fresh**：美国华盛顿州果蔬出口商，苹果品类较全。\n- **Rainier Fruit**：美国苹果/梨等水果出口商，苹果有商业化品牌包装。\n- **Borton Fruit**：美国华盛顿州水果出口商，苹果有出口业务。\n- **CMI Orchards**：美国华盛顿州苹果出口商，品牌化程度较高。\n- **Allan Brothers**：美国华盛顿州苹果出口商。\n- **Applewood Orchards / FirstFruits**：偏出口和品牌化运作，需看具体到中国渠道。\n\n**2. 新西兰苹果**\n- **Mr Apple**：新西兰苹果出口品牌，较有代表性。\n- **Bostock New Zealand**：新西兰有机/常规苹果出口商。\n- **Golden Bay Fruit**：新西兰苹果出口商。\n- **T&G Global / Enza**：新西兰果蔬出口巨头，苹果有 Jazz、Envy 等品牌体系。\n- **Rockit**：新西兰小苹果品牌，定位特殊，适合差异化选品。\n\n**3. 澳大利亚苹果**\n- **Montague**：澳洲果蔬品牌，苹果有出口业务。\n- **Costa Group**：澳洲果蔬巨头，更多是浆果/柑橘/牛油果，苹果不是核心。\n- **APAL**：更多是行业机构，不是直接零售品牌。\n\n**4. 智利/南非/美国等**\n- **Copefrut**：智利水果出口商，苹果有出口。\n- **Unifrutti**：智利/全球果蔬出口商，苹果有业务。\n- **David Del Curto**：智利水果出口商，苹果有出口。\n- **Tru-Cape**：南非苹果/梨出口品牌，较有代表性。\n- **Capespan**：南非果蔬出口商，苹果有业务。\n- **Stemilt、Chelan Fresh、CMI**：美国苹果出口体系里更值得重点看。\n\n**实操判断建议**\n1. **优先看出口商品牌，不只看零售牌**：进口苹果很多是“出口商品牌+国内进口商贴标”，Stemilt、Chelan Fresh、CMI、Mr Apple、Tru-Cape 这类更可核验。\n2. **看品种和产区**：富士/嘎啦/红蛇果/爱妃/爵士/Envy 等，不同品牌强项不同。\n3. **看到货等级**：果径、糖度、硬度、是否有分级包装；同一品牌不同批次差异很大。\n4. **看国内进口商**：鑫荣懋、都乐之外，可关注 **佳农、洪九果品、百果园供应链、鲜丰供应链、曲牌、兴业源** 等，但要以实际报关单/产地证/包装标识核验。\n5. **别把“都乐”当苹果专业品牌**：都乐是综合果蔬品牌，苹果只是品类之一；鑫荣懋也是渠道/供应链品牌。对比时应把“出口商品牌”和“国内渠道品牌”分开。\n\n**建议你优先对比的短名单**\n- 新西兰：**Mr Apple、Bostock、Golden Bay Fruit、Rockit**\n- 美国：**Stemilt、Chelan Fresh、CMI Orchards、Rainier Fruit**\n- 南非：**Tru-Cape、Capespan**\n- 智利：**Copefrut、Unifrutti、David Del Curto**\n\n如果你是要做采购选品，我可以进一步帮你按“品种—产区—出口商—国内进口商—适合渠道”列一个对比表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 892,
+    "total_tokens": 954,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

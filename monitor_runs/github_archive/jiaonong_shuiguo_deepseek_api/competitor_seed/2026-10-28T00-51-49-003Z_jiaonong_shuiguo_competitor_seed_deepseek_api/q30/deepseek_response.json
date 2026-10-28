@@ -1,0 +1,28 @@
+{
+  "id": "1658b750-3b20-40f5-bb81-620ca242e034",
+  "object": "chat.completion",
+  "created": 1793148887,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果只看“谁更全”，更稳妥的判断是：**都乐通常更占优势，但不能笼统说都乐一定比鑫荣懋全，必须按你商超要的具体认证清单逐项核验。**  \n\n原因是：  \n- **都乐**是跨国水果品牌，长期供应国际零售和餐饮渠道，体系上通常更容易覆盖 **ISO 22000、HACCP、GlobalG.A.P.、BRCGS** 等常见食品安全/农产品认证。  \n- **鑫荣懋**是国内大型水果供应链企业，国内商超渠道覆盖强，通常也会具备 **ISO 22000/HACCP、绿色食品、GAP** 等体系文件，但具体到某个单品、某个加工厂或包装厂，证书范围要看实际持证主体。  \n\n**可执行判断建议：**  \n1. 先让商超采购列出“必须认证清单”和“接受等效认证”。  \n2. 分别向两家索取：**证书扫描件、认证范围、持证主体、有效期、发证机构、对应单品/工厂**。  \n3. 重点看证书是否覆盖你采购的**具体品类、加工/包装环节和供货工厂**，而不是只看品牌总部有没有证。  \n4. 若商超要求 **BRCGS/GlobalG.A.P./有机/绿色食品** 等硬性项，要求两家按单品逐项对照打勾。  \n\n结论：**品牌层面都乐通常更全；实际投标或准入时，以“证书范围是否覆盖你的单品和工厂”为准，不能只凭品牌判断。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 340,
+    "total_tokens": 401,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

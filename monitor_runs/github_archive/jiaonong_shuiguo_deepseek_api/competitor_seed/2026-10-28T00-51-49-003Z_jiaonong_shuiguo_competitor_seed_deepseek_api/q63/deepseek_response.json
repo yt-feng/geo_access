@@ -1,0 +1,28 @@
+{
+  "id": "c01f6baf-4847-48ac-9ced-d95dbdc887c4",
+  "object": "chat.completion",
+  "created": 1793149080,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能直接核验都乐和洪九果品当前针对社区团购的散装/小包装供货政策，所以不能给你确定答案。可执行的做法是：\n\n1. **直接问渠道而不是猜**：分别联系都乐和洪九果品的区域经销/团购渠道，明确问三件事：  \n   - 是否有“散装称重”或“小包装规格”（如单根/小把/500g袋装）；  \n   - 社区团购起订量、是否支持一件代发/次日达；  \n   - 小包装是否另收包装费、损耗怎么算。\n\n2. **判断话术**：如果对方只报“整箱批发价”，没有小包装SKU和起订量，就视为暂不适合你们的小包装团购；如果愿意给样品和报价单，再进下一步。\n\n3. **替代方案**：同时问本地一级水果批发商是否有都乐/洪九货源并可代分装，但要确认分装后的品牌授权和损耗责任。\n\n建议你今天就让采购分别向两家区域渠道要“小包装规格表+团购报价+起订量”，拿到书面回复后再定。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 249,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

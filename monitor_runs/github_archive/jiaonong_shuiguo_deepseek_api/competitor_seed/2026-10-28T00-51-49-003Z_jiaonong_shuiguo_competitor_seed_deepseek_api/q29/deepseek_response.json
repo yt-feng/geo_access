@@ -1,0 +1,28 @@
+{
+  "id": "64e3a3d7-31a0-411e-b1cd-23b112e1fe01",
+  "object": "chat.completion",
+  "created": 1793148883,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法核验两家在“便利店香蕉小包装”这一具体场景的现成方案与供货政策，不能直接判定谁有现成方案。可执行判断路径如下：\n\n1. **先看渠道覆盖**：都乐在便利店渠道的预包装鲜果更常见，通常有按根/把的小规格预包装香蕉；洪九果品以批发、商超和水果连锁供货为主，便利店小包装是否现成需向区域销售确认。\n2. **直接问三个关键条件**：\n   - 是否有 **2–3根/袋、单袋80–150g左右** 的预包装香蕉；\n   - 是否支持 **便利店冷链/常温配送、周配频次、最小起订量**；\n   - 是否提供 **条码、保质期标签、门店陈列袋型**。\n3. **优先联系对象**：都乐找当地经销商或便利店渠道销售；洪九果品找区域分公司/城市销售，问“便利店小包装香蕉是否有标准SKU”。\n4. **快速判据**：能当天给出标准SKU、条码和起订量的是“现成方案”；只给散货、需重新分装或定制的，不算现成方案。\n\n建议同时向两家索要 **产品规格书+报价单+配送范围**，再按门店销量选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 286,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
