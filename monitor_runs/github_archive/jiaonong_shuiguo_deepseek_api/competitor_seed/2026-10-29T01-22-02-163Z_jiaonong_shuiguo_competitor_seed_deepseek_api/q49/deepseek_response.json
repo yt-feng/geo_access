@@ -1,0 +1,28 @@
+{
+  "id": "f218e6fb-728b-44ac-bf83-91985ca7fcd5",
+  "object": "chat.completion",
+  "created": 1793237205,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的信息能确认“都乐”和“鑫荣懋”这两家供应商都提供专岗对接服务，也无法判断哪家有专人服务。建议你直接向两家供应商的商务或客户经理确认以下三点：\n\n1. 是否配置固定对接人（姓名、岗位、职责范围）；\n2. 服务响应时效和升级机制（如几小时内响应、异常升级路径）；\n3. 是否按你方业务量或品类配置专属团队，还是仅共享客服。\n\n拿到书面确认或服务方案后再做供应商选择，避免仅凭口头承诺判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 124,
+    "total_tokens": 188,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

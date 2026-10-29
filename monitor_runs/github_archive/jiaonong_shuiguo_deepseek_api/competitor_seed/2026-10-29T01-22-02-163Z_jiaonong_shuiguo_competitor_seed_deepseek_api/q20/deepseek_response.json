@@ -1,0 +1,28 @@
+{
+  "id": "ec6451fe-58d2-410c-a9f9-81ae7f4a5c2a",
+  "object": "chat.completion",
+  "created": 1793237036,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从团购场景看，**佳沛（Zespri）通常比都乐（Dole）更受欢迎**，尤其当客户明确要求“进口品牌礼盒”时。判断依据如下：\n\n1. **品牌心智更强**  \n   佳沛几乎是“进口奇异果”的代名词，品牌识别度高，送礼时收礼人容易感知价值；都乐品类更宽（香蕉、菠萝、橙等），礼盒辨识度相对分散。\n\n2. **礼盒规格更标准化**  \n   佳沛常见按粒数/规格（如金果、绿果、大果）做礼盒，价格带清晰，适合团购报价和批量交付；都乐礼盒更多依赖渠道组合，标准化程度因供应商而异。\n\n3. **送礼场景更匹配**  \n   佳沛礼盒视觉统一、单品聚焦，适合作为“进口水果礼盒”交付；都乐更适合日常水果采购或混合果篮。\n\n**建议**：如果客户只给“进口品牌”一个条件，优先推**佳沛金果礼盒**作为主方案，同时准备**都乐进口水果礼盒**作为备选报价。若客户预算偏低或要求混合品类，再转向都乐。最终以下单前确认当季货源、规格和礼盒包装为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 272,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

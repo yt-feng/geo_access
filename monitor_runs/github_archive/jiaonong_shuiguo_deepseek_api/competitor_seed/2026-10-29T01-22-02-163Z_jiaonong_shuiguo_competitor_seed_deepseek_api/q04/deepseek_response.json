@@ -1,0 +1,28 @@
+{
+  "id": "65fcf461-d3b2-4fa4-a762-1a59111582de",
+  "object": "chat.completion",
+  "created": 1793236940,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进口香蕉品牌可以按“货源稳定性、催熟体系、终端接受度”来选。给你几个可落地的方向：\n\n1. **都乐 Dole**：进口香蕉里渠道最稳的品牌之一，商超和电商认知度高，适合做主推或对标佳沛的“品牌化水果”陈列。建议先小批量试销，重点看催熟到货的颜色均匀度和损耗率。\n\n2. **金吉达 Chiquita**：全球香蕉老牌，供应链成熟，适合做常规进口香蕉补充。注意不同批次到港品质会有波动，合作前确认对方的催熟支持和售后条款。\n\n3. **德尔蒙 Del Monte**：进口香蕉常见品牌，价格和品质相对均衡，适合做中端价格带。适合和都乐形成“高低搭配”。\n\n如果你做的是精品商超或高端水果店，优先谈**都乐**，品牌背书强、动销快；如果做批发流通或价格敏感渠道，**金吉达/德尔蒙**更合适。\n\n另外，佳沛的香蕉业务确实不是其核心，不必在这条线上硬绑。建议你直接向都乐、金吉达的国内进口商或区域经销商询盘，要求提供：到港批次质检、催熟库支持、损耗赔付政策、最小起订量。先各试1-2柜，对比7天货架期损耗再定主推品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 295,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "243672ea-0ee7-481e-9d48-136bf0841b4f",
+  "object": "chat.completion",
+  "created": 1793237243,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从可核验的通用认知来看：**都乐（Dole）的品牌知名度更高，尤其在全国性消费者心智和生鲜电商品牌背书场景下更稳。**\n\n简要对比：\n\n- **都乐 Dole**：国际果蔬品牌，香蕉是其强势品类之一，消费者认知基础广，商超和电商都常见，做“品牌背书”更容易被消费者直接识别。\n- **鑫荣懋**：国内大型水果供应链和品牌运营企业，行业端知名度强，旗下有佳沃等品牌体系；但在普通消费者端，尤其香蕉单品上的直接品牌认知通常不如都乐。\n- **平台选择建议**：\n  - 若目标是**消费者快速信任、详情页转化、香蕉单品溢价**：优先考虑都乐。\n  - 若目标是**供应链稳定、国产/产地故事、渠道联合营销、成本可控**：可考虑鑫荣懋，但需要在页面强化品牌解释。\n  - 若预算允许：可采用“都乐做消费者背书 + 鑫荣懋做供应链/品类补充”的组合，而不是二选一。\n\n结论：**消费者端香蕉品牌背书，都乐知名度更高；行业供应链端，鑫荣懋很强。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 252,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

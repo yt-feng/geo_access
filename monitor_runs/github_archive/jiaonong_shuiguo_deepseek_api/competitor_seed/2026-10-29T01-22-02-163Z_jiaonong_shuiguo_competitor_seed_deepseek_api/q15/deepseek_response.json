@@ -1,0 +1,28 @@
+{
+  "id": "90290a61-da8a-42cb-9fed-a1a08b4a8b15",
+  "object": "chat.completion",
+  "created": 1793237004,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋（原产地多国采购、国内分销较强），进口苹果还可以重点看这几类品牌/渠道，靠谱程度主要看“是否有稳定产地供应链 + 是否做冷链 + 是否有清晰分级”。\n\n**可优先对比的品牌/供应商**\n1. **Zespri 佳沛**：主打奇异果，但也做部分水果礼盒；苹果不是其核心，若遇到需确认是否为授权经销，不建议作为苹果主选。\n2. **SanLucar 圣卢卡**：欧洲果蔬品牌，苹果有西班牙、意大利等产地，分级和包装较规范，适合做中高端对比。\n3. **Compagnie Fruitière / FRUITIÈRE**：欧洲果蔬供应链集团，苹果多来自法国、意大利等，适合看其欧洲产地线。\n4. **VOG / VIP / Melinda / Val Venosta**：意大利苹果产区联盟/品牌，尤其是 Val Venosta（南蒂罗尔）和 Melinda，产地分级清楚，适合对比欧洲苹果。\n5. **Fruitways / Tru-Cape**：南非苹果代表性供应商/品牌，适合对比南非产区，性价比通常较好。\n6. **Rockit 乐淇**：新西兰小苹果品牌，定位特殊、规格小、礼盒属性强，适合细分品类，不适合作为全品类主供应商。\n7. **Envy / Jazz / Pacific Rose 等品种品牌**：严格说是品种品牌而非全品类苹果品牌，若你采购的是特定品种，可单独对比其授权进口商。\n8. **国内大型进口水果供应链**：如 **百果园（进口线）、洪九果品、鲜丰水果、佳沃（部分进口线）** 等，优势是渠道和冷链，品牌不等于产地品牌，需看具体批次和授权。\n\n**判断“靠谱”的实操标准**\n- **看授权**：品种品牌（如 Rockit、Envy）要确认进口商是否有授权，避免水货混批。\n- **看产地分级**：要求提供产地、果园/包装厂注册号、分级规格（如 count/大小、糖度、硬度）。\n- **看冷链记录**：苹果对冷链敏感，要求到货温度记录和周转时间。\n- **看批次稳定性**：同一品牌不同产季差异大，先小批量试单，再对比损耗率、口感一致性和货架期。\n- **看包装标识**：正规进口应有中文标签、原产地、进口商/经销商信息、生产批号。\n\n**建议的对比清单**\n第一轮选：**SanLucar、Val Venosta、Melinda、Tru-Cape、Rockit（细分）**；第二轮加国内供应链的**百果园进口线、洪九、佳沃**做渠道对比。若你做高端礼盒，重点看 **Val Venosta/Melinda/Rockit**；若做商超性价比，重点看 **Tru-Cape/南非线**和国内大型进口供应链。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 630,
+    "total_tokens": 692,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
