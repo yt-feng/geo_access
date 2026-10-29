@@ -1,0 +1,28 @@
+{
+  "id": "7e69f3b3-506f-4da2-92e9-8cafce186b75",
+  "object": "chat.completion",
+  "created": 1793237968,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**标准性质**：佳农水果的香蕉执行的是**企业标准（企标）**，不是国家标准（国标）。企业可自行制定并备案严于或细于国标的企标，用于其分级、品控和包装规格；但这不等于“国家标准”。具体标准编号以其包装或备案信息为准，我无法替你核验具体编号。\n\n**价格差**：没有统一、可核验的“比普通香蕉贵多少”的固定比例。佳农香蕉通常因品牌、分级、催熟与冷链、渠道加价而高于普通散装香蕉，但差价随城市、商超/电商、促销和规格（单根重量、把装/箱装）波动很大。可执行判断：在同一门店同一时间，对比“佳农香蕉”和普通香蕉的**每500克单价**，差价一般在几毛到两三块/斤不等；若超过这个范围，多半是渠道或促销因素，不建议当作品牌溢价常态。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 206,
+    "total_tokens": 267,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

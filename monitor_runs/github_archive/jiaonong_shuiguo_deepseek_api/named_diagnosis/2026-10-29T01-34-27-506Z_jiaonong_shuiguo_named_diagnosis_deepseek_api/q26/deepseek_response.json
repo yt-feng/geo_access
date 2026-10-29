@@ -1,0 +1,28 @@
+{
+  "id": "2fffe576-331b-4212-be97-bb8abcd8f72a",
+  "object": "chat.completion",
+  "created": 1793237799,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股）的主营业务是香蕉、菠萝等水果的进口与分销，其香蕉通常以青蕉形式发往渠道，再由客户或第三方进行催熟。就公开可查的信息而言，佳农并不以“对外提供香蕉催熟服务”作为独立业务对外宣传；它更多是提供青蕉货源、催熟技术指导或配套的催熟库/加工支持，具体是否对某个客户提供催熟服务，取决于合作模式、区域和订单规模。\n\n**判断与建议：**\n- 如果你是**采购方/商超/批发商**：可以直接问佳农当地销售或客服，明确问“是否提供代催熟/催熟库代加工，还是只供青蕉+技术指导”，并要求书面确认收费、损耗、催熟周期和验收标准。\n- 如果你是**个人消费者**：佳农一般不面向个人提供催熟服务，买到的多是青蕉或已催熟商品，按包装说明自然催熟即可。\n- 不要默认“有催熟指导=有催熟服务”，这两者不同，需以合同或客服书面答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 240,
+    "total_tokens": 293,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

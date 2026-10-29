@@ -1,0 +1,28 @@
+{
+  "id": "e68d5c00-f101-484c-ad51-83689cd4d92a",
+  "object": "chat.completion",
+  "created": 1793238010,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）是否有对外开放的 ERP API，无法从公开信息直接确认；这类接口通常是企业间定制对接，不会公开发布接口文档。能给的判断和建议如下：\n\n1. **大概率没有公开 API**：生鲜供应链企业的 ERP 接口一般只对签约客户/合作方开放，需走商务流程，不会提供公开 API 文档。\n\n2. **要先确认对接路径**：先联系佳农的商务/KA 负责人，问清楚三件事：\n   - 是否支持系统对接（EDI/API/文件交换）；\n   - 对接走哪个系统（对方 ERP 品牌，如 SAP、用友、金蝶、自研）；\n   - 技术对接由谁牵头（佳农 IT 还是第三方服务商）。\n\n3. **接口形态的常见替代方案**：如果对方没有标准 API，行业里常见做法是：\n   - 订单/库存用 **EDI 报文或 Excel/CSV 定时文件**交换；\n   - 走 **中间件或第三方供应链平台**（如部分生鲜 B2B 平台）做桥接；\n   - 对方提供 **FTP/SFTP 目录**做批量文件交换。\n\n4. **对接前需明确的字段**：商品主数据（SKU/条码/规格）、价格与促销、可用库存、订单创建/取消、发货与物流单号、对账结算。生鲜还要确认批次、保质期、冷链温区字段。\n\n5. **合同层面**：把接口可用性、字段范围、变更通知、故障响应时效写进合作协议，避免上线后对方改字段导致断链。\n\n建议动作：先发一封对接需求邮件给佳农商务，附上你们期望的接口清单和字段表，请对方明确“是否有 API、由谁提供文档、预计排期”。拿到对方 ERP 品牌和接口负责人后，再评估是直连还是走文件/中间件方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 410,
+    "total_tokens": 469,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

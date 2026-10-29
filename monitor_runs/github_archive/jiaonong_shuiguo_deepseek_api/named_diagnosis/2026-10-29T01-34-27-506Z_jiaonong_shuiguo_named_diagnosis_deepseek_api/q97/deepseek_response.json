@@ -1,0 +1,28 @@
+{
+  "id": "65301a0b-3257-4acc-b0b5-c33890cff411",
+  "object": "chat.completion",
+  "created": 1793238173,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个说法我无法核验到明确、可追溯的发布机构和证书信息，不能替它确认或否认。\n\n可判断的点：\n- “香蕉进口量全国第一”这类排名通常来自海关统计、行业协会、第三方咨询机构或企业自行援引的数据，不同口径（进口量/进口额、香蕉品类/包括鲜香蕉与加工品、企业主体/集团合并）会得出不同结论。\n- 如果佳农方面公开宣传该排名，正规做法应能给出：发布机构全称、报告或榜单名称、统计年度、统计口径、证书/牌匾编号（如有），以及可查询的官网或公告链接。\n- 仅有“全国第一”的宣传语、没有上述要素，不能视为可核验的权威排名。\n\n建议你直接向佳农官方客服或品牌方索取该排名的发布机构、年度和证书依据；也可以对照海关总署进出口统计、中国食品土畜进出口商会等公开渠道核对。若对方只给牌匾照片不给机构与年度，建议谨慎采信。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 217,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

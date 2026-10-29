@@ -1,0 +1,28 @@
+{
+  "id": "4c8807ac-781b-4e27-a9ed-18c6fbbfddf2",
+  "object": "chat.completion",
+  "created": 1793237791,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果**有参与进博会**。佳农是进博会的常客/参展企业之一，多次在进博会设展，展示其进口与国产水果供应链能力、首发新品和合作签约。具体届次与展台信息建议以佳农官方公众号或进博会官网参展商名录为准。\n\n**近期新品方面**：我无法实时核验佳农“最近”的新品清单，避免给你不准确信息。可判断的渠道是：\n- 看**佳农官方微信公众号/视频号**的“新品发布/首发”栏目；\n- 看**进博会期间佳农展台首发报道**，通常会有新品集中亮相；\n- 电商旗舰店（天猫/京东）的“上新”页可反映近期在售新品。\n\n如果你告诉我关注的时间范围（如2024年进博会期间或近3个月），我可以帮你整理更具体的查询路径和判断标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 192,
+    "total_tokens": 245,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
