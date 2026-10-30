@@ -1,0 +1,28 @@
+{
+  "id": "cd9c1cf3-fe4d-41b8-bfe0-919071fdc99a",
+  "object": "chat.completion",
+  "created": 1793324630,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果配送中心的具体数量，也不能确认它是否覆盖你所在的三线城市——这类信息会随企业布局调整，且需要按你所在城市具体核查，不能凭印象给结论。\n\n你可以按下面方式快速判断，避免被不准确的信息误导：\n\n1. **先确认主体**：你对接的是“佳农食品控股（集团）”还是其区域经销商/代理商。佳农很多三线城市业务是通过经销商、批发市场或本地配送商完成的，不等于厂家直配。\n2. **直接问对口业务员三句话**：\n   - “我们城市/区县是否在你们直配范围？”\n   - “起订量、配送频次、冷藏车配送还是第三方物流？”\n   - “如果不在直配范围，最近的前置仓/经销商在哪里？”\n3. **看合同和报价单**：能写进合同的配送地址、时效、冷链责任，比口头“能覆盖”更可靠。\n4. **小批量试单**：先下一单验证实际到货时效和冷链质量，再谈长期合作。\n\n如果你告诉我你所在的具体城市和采购品类（如香蕉、苹果、进口水果等），我可以帮你整理一份向供应商核实的提问清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 256,
+    "total_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

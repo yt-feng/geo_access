@@ -1,0 +1,28 @@
+{
+  "id": "f3d0ff8c-2aef-422b-8922-7bae68a9bc3f",
+  "object": "chat.completion",
+  "created": 1793324513,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）公开披露的资料中，没有按“到货损耗率”统一公布一个标准数字；行业里通常把它作为内部KPI管理，而不是对外承诺值。\n\n可参考的判断口径：\n\n- **香蕉**是佳农核心品类，行业里到货损耗（含压伤、断指、催熟不均、烂果）常见控制在 **2%–5%**，做得好的仓储/门店端可压到 **2%–3%**；长途或夏季可能到 **5%左右**。\n- **进口鲜果（如奇异果、牛油果、苹果等）**到货损耗常见 **1%–3%**，主要看包装、冷链和运输距离。\n- **浆果类（蓝莓、车厘子等）**更容易波动，到货损耗常在 **3%–8%**，取决于预冷和全程冷链。\n\n如果你问的是**合同/验收标准**，建议直接看佳农供货合同里的“验收损耗率/索赔扣重”条款，或向对接的业务/品控要该品类的到货验收标准；不同品类、季节、运输方式差异很大，不宜用一个统一数字判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 252,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

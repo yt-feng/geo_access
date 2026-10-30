@@ -1,0 +1,50 @@
+{
+  "questionId": "q04",
+  "prompt": "佳农水果有没有针对长期合作的账期方案？",
+  "createdAt": "2026-10-30T01:41:24.985Z",
+  "summary": [
+    {
+      "questionId": "q04",
+      "prompt_index": 4,
+      "promptIndex": 4,
+      "promptHash": "5ea3424b89f8",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "佳农水果有没有针对长期合作的账期方案？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 486,
+      "text_length": 486,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 52,
+        "completion_tokens": 304,
+        "total_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 52
+      },
+      "prompt_tokens": 52,
+      "completion_tokens": 304,
+      "total_tokens": 356,
+      "latencyMs": 3306,
+      "latency_ms": 3306,
+      "createdAt": "2026-10-30T01:41:24.985Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q04/prompt.txt",
+        "answer": "q04/deepseek.txt",
+        "response": "q04/deepseek_response.json",
+        "sources": "q04/deepseek_sources.json",
+        "references": "q04/deepseek_references.json"
+      }
+    }
+  ]
+}

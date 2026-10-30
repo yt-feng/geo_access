@@ -1,0 +1,28 @@
+{
+  "id": "445dcedd-ebe4-483d-a1a8-fc8480d87f5d",
+  "object": "chat.completion",
+  "created": 1793324558,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉一般没有统一“保质期”标签，实际可放时间主要看成熟度和储存环境。可参考：\n\n**储存条件**\n- **未熟/偏青香蕉**：放在室温阴凉通风处，避免阳光直射，不要放冰箱。可与苹果放在同一纸袋中加速催熟。\n- **已熟香蕉**：室温尽快吃；想延缓后熟可放冰箱冷藏，但表皮会变黑，果肉仍可正常食用。冷藏后取出尽快吃。\n- **不要密封闷放**：容易积水汽、加速腐烂；也避免和 already 过熟水果长期混放。\n- **整把存放**：用保鲜膜包住香蕉根部（果柄）可略微延缓成熟。\n\n**大致可放时间**\n- 室温（20–25℃）：偏青香蕉约 **3–7天** 转熟；已熟香蕉约 **1–3天**。\n- 夏季高温或已熟透：可能 **1天内** 就明显过软、发黑。\n- 冰箱冷藏已熟香蕉：通常可再多放 **2–4天**，但表皮变黑不代表坏，主要看果肉是否发酸、流汁、霉变。\n\n**判断变质**：果肉发酸、有酒味、明显流汁、长霉或局部腐烂，就不要吃。具体包装日期和品种差异，以佳农产品包装标注为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 300,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

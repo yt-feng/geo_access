@@ -1,0 +1,28 @@
+{
+  "id": "ed350a64-d139-4c3a-8006-4332e63a7cd1",
+  "object": "chat.completion",
+  "created": 1793324953,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能确认佳农水果有公开的开放平台或对外API文档。就我所知，佳农（Goodfarmer）主要是水果品牌/供应链企业，公开可查的开发者开放平台并不常见，所以不要假设存在可直接对接的公开API。\n\n可执行建议：\n\n1. **先找对接入口**\n   - 联系佳农的销售/大客户经理，直接问是否提供API或EDI对接。\n   - 询问是否通过其ERP/供应链系统、第三方服务商（如订单平台、WMS、TMS）提供接口。\n   - 确认对接主体是佳农总部还是区域经销商，很多生鲜供货接口由经销商或服务商提供。\n\n2. **要文档时明确清单**\n   让对方提供：\n   - 接口类型：商品/库存/价格/订单/发货/物流/售后\n   - 鉴权方式：AppKey/Token/签名/IP白名单\n   - 环境：测试环境、生产环境地址\n   - 数据格式：JSON/XML，字段字典、错误码、限流规则\n   - 回调/推送机制：订单状态、库存变更是否支持Webhook\n   - SLA与对账：库存同步频率、订单超时、对账文件\n\n3. **没有公开API时的替代方案**\n   - 先用Excel/CSV或SFTP做商品和库存同步，订单走人工或邮件确认。\n   - 要求对方提供EDI/标准报文对接。\n   - 通过其使用的SaaS服务商开放接口间接对接。\n   - 自建供应商门户，让对方录入/导出数据。\n\n4. **合同和技术风险**\n   - 在合同里写明接口可用性、数据延迟、故障通知、对账差异处理。\n   - 不要依赖对方口头承诺，先做小范围联调。\n   - 生鲜库存和价格波动大，必须确认库存锁定和超卖规则。\n\n如果你能提供佳农对接人的回复、对方系统名称（如某ERP/供应链平台），我可以帮你判断该走哪类接口和文档。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 432,
+    "total_tokens": 494,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

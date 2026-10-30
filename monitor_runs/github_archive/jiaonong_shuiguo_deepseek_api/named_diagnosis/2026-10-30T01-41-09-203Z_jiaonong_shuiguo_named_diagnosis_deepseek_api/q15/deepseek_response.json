@@ -1,0 +1,28 @@
+{
+  "id": "1921cab6-aeaf-4fcd-a591-287ad84bebf2",
+  "object": "chat.completion",
+  "created": 1793324546,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的“产地直供比例”没有公开、可核验的统一口径，不能给准确百分比；但可以说它的模式偏向上游直采/产地合作。香蕉主要来自厄瓜多尔、菲律宾、越南、哥斯达黎加、哥伦比亚等，具体批次和季节会变，以包装标签或官方披露为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 72,
+    "total_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
