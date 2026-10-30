@@ -1,0 +1,28 @@
+{
+  "id": "b70b32c5-5077-4f2a-b23d-d312450e8354",
+  "object": "chat.completion",
+  "created": 1793323744,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，进口苹果品牌可以按“国际果蔬巨头”和“产地精品品牌”两类看：\n\n**一、国际果蔬巨头（供应稳定、品控体系成熟）**\n- **Chelan Fresh（美国）**：美国华盛顿州苹果出口商，主打红蛇果、嘎啦、青苹果，B2B供应较常见。\n- **Stemilt Growers（美国）**：华盛顿州老牌苹果种植出口商，品类覆盖较全。\n- **Rainier Fruit（美国）**：华盛顿州果蔬出口商，苹果是其主力品类之一。\n- **Columbia Fruit（美国）**：华盛顿州苹果出口商，偏大宗贸易。\n- **Enza Zaden / Enzafruit（新西兰）**：新西兰苹果出口体系相关品牌，常见于爱妃、爵士等品种供应链，但具体品牌授权需核实。\n- **T&G Global（新西兰）**：新西兰果蔬巨头，拥有Jazz、Envy等苹果品种的全球营销权，品牌化程度高。\n- **Mr Apple（新西兰）**：新西兰苹果出口商，主攻亚洲市场，品控和包装较规范。\n- **Bostock New Zealand（新西兰）**：新西兰有机苹果出口商，适合做有机进口苹果。\n- **Montague（澳大利亚）**：澳大利亚果蔬出口商，苹果有出口业务。\n- **Reid Fruits（澳大利亚）**：塔斯马尼亚苹果出口商，主打高端产地苹果。\n\n**二、产地精品/品种品牌（更偏终端零售）**\n- **Rockit（新西兰）**：小苹果筒装品牌，辨识度高，适合精品渠道。\n- **Jazz（新西兰/多产地）**：T&G体系下的品种品牌。\n- **Envy（新西兰/多产地）**：T&G体系下的品种品牌。\n- **Pink Lady（澳大利亚/多产地）**：粉红佳人苹果品种品牌，全球授权种植，需确认具体进口商。\n- **Kanzi（欧洲/新西兰）**：品种品牌，国内进口量相对小众。\n\n**判断靠谱度的实操建议：**\n1. **看进口商和报关主体**：品牌名不等于国内供货稳定，重点看国内一级进口商是否固定。\n2. **看品种授权**：Jazz、Envy、Rockit、Pink Lady这类是品种品牌，不是随便的果园品牌，授权链要清楚。\n3. **看产地证书和批次**：要求提供原产地证、植物检疫证、批次检测报告。\n4. **看冷链和到港频率**：进口苹果怕断链，稳定到港频率比品牌名气更重要。\n5. **先小批量试单**：对比硬度、糖度、果径、损耗率，再决定长期合作。\n\n如果你们是做商超/精品水果渠道，优先接触 **T&G、Mr Apple、Chelan Fresh、Stemilt、Rockit** 这几家；如果是做大宗批发，重点看 **Chelan Fresh、Rainier Fruit、Mr Apple** 的国内一级代理。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 651,
+    "total_tokens": 713,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
