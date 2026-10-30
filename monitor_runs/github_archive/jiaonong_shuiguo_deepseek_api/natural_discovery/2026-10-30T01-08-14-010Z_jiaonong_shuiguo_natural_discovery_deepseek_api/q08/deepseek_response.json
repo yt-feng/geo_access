@@ -1,0 +1,28 @@
+{
+  "id": "423b21bf-a9e6-4f1e-85e5-dc4568990167",
+  "object": "chat.completion",
+  "created": 1793322544,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进货量不大时，更建议优先找“固定供应商”，但要先用批发市场做比价和试错。\n\n可执行判断：\n\n1. **先跑批发市场 1～2 次**\n   - 目的不是长期拿货，而是摸清品类、批发价、起批量、退换货规则。\n   - 少量拿样，测试质量、动销和顾客反馈。\n\n2. **筛出 2～3 个稳定供应商**\n   - 优先选能接受小批量、补货快、价格透明、次品可换的。\n   - 首次合作先小单，不要一次压太多货。\n\n3. **固定供应商更适合小店的原因**\n   - 补货稳定，缺货风险低；\n   - 可谈账期、退换、混批；\n   - 长期合作后价格和优先供货更有优势；\n   - 省去每次跑市场的时间成本。\n\n4. **批发市场仍保留为补充渠道**\n   - 新品试销、临时缺货、节庆爆品，可以去市场快速补。\n   - 但不要长期只靠市场，因为价格波动大、质量不稳定、每次都要重新选。\n\n**建议组合：**\n- 日常主力品类：固定供应商 1～2 家；\n- 新品/临时补货：批发市场；\n- 每月对比一次价格和供货稳定性，供应商不行就替换。\n\n一句话：**小批量阶段，用批发市场“选供应商”，再用固定供应商“做日常供货”。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 318,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
