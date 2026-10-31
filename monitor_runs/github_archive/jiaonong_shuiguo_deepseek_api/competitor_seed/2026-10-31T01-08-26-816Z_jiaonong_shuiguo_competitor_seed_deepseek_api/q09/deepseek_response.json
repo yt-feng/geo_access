@@ -1,0 +1,28 @@
+{
+  "id": "b4147089-2748-4fda-86dc-73d280e90abd",
+  "object": "chat.completion",
+  "created": 1793408954,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除都乐（Dole）和佳沛（Zespri）外，可重点看这些进口/国际品牌水果礼盒：\n\n1. **新奇士 Sunkist**：美国柑橘类强势品牌，橙、柠檬、葡萄柚礼盒适合商务团购，辨识度高。\n2. **爱妃 Envy**：新西兰/美国苹果品牌，礼盒装常见，红黑配色包装适合送礼。\n3. **乐淇 Rockit**：新西兰小苹果，筒装/礼盒装便携，适合员工福利和小额伴手礼。\n4. **Mr Apple**：新西兰苹果品牌，礼盒偏高端，适合商务馈赠。\n5. **佳农 Goodfarmer**：严格说是中国品牌但主做进口水果供应链，进口香蕉、车厘子、蓝莓礼盒常见，团购供应稳定。\n6. **SanLucar**：西班牙果蔬品牌，进口柑橘、葡萄等礼盒有辨识度，适合差异化选品。\n7. **Camposol**：秘鲁品牌，蓝莓、牛油果等礼盒适合健康福利场景。\n8. **Copefrut / Prize**：智利车厘子品牌，车厘子季团购礼盒常用。\n9. **Stemilt / Chelan Fresh**：美国车厘子、苹果品牌，季节性礼盒可关注。\n10. **Del Monte 德尔蒙**：国际综合果蔬品牌，部分进口水果礼盒有供应，但国内团购渠道不如都乐稳定。\n\n**采购建议：**\n- 商务送礼优先：新奇士、爱妃、Mr Apple、乐淇，包装和品牌认知更稳。\n- 员工福利优先：佳农、Camposol、乐淇，性价比和供应稳定性更好。\n- 季节爆款：智利车厘子季选 Copefrut、Prize 等品牌礼盒。\n- 下单前务必确认：**国内授权经销渠道、原箱/礼盒包装规格、到货新鲜度、破损赔付和团购起订量**。进口品牌礼盒容易遇到“品牌名响但渠道货杂”的问题，优先找品牌方或一级进口商核验授权。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 460,
+    "total_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
