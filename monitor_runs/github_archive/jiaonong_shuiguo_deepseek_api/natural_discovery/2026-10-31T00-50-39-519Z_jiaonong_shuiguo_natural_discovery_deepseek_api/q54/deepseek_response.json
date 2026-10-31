@@ -1,0 +1,28 @@
+{
+  "id": "e1d2ebcc-e55e-4184-b23e-508fd2596162",
+  "object": "chat.completion",
+  "created": 1793408179,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "应优先关注成熟度，价格放在第二位。对烘焙店来说，香蕉成熟度直接决定蛋糕风味、质地和出品稳定性，省下的采购差价通常弥补不了废品和返工损失。\n\n判断标准：\n- **做香蕉蛋糕/香蕉磅蛋糕**：选表皮大面积出现黑斑、果肉软但未流汁的熟香蕉，甜度高、香气足、涩味少。全黄略硬的香蕉香气不足，青香蕉涩味重。\n- **需去皮冷冻或做馅料**：可用熟度高但果肉未发酸、未霉变的香蕉；过熟到渗液、有酒味或霉点的不建议用。\n- **价格策略**：在满足成熟度的批次里比价；可用“熟度分级采购”——高熟度香蕉当天/次日用完，略生的短存1—2天催熟，避免一次性全买过熟造成损耗。\n\n采购时可执行：看表皮黑斑比例、摸软硬度、闻有无发酵酒味，抽样切开看果肉是否均匀；要求供应商稳定供货规格，而不是只追最低价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 231,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
