@@ -1,0 +1,28 @@
+{
+  "id": "8ecabe74-6167-4a49-a0aa-a7cbe4d3c7d0",
+  "object": "chat.completion",
+  "created": 1793409754,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送覆盖范围取决于你下单的具体渠道：佳农自有旗舰店/小程序、京东/天猫等平台、社区团购或本地经销商，覆盖城市并不完全一样，而且会随季节和仓库调整，我无法凭空给出最新城市清单。\n\n判断你们县城能不能送到，最可靠的做法是：\n\n1. **打开你要下单的渠道**（佳农官方小程序/京东/天猫旗舰店等），把收货地址填成你们县城的具体地址。\n2. **看结算页是否显示可配送**：如果地址能保存并进入结算、显示运费和预计送达时间，基本就是能送；如果提示“该地区不支持配送”，就是不能送。\n3. **重点看冷链**：鲜果尤其香蕉、牛油果等对温控有要求，县城若只能走普通快递，可能不配送或品质风险高。\n4. **备选方案**：官方不送时，可在京东/天猫搜“佳农 香蕉/牛油果”，选支持你地址的第三方商家；或问当地大型超市、水果批发商是否进佳农货。\n\n简单说：**不要按“城市名单”判断，直接拿你们县城地址去下单页试结算，这是最快也最准的。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 263,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

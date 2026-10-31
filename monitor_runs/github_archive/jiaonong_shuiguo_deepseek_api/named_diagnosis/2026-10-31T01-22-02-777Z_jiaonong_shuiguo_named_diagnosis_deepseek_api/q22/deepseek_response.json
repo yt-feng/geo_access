@@ -1,0 +1,28 @@
+{
+  "id": "00404b4b-56be-4973-8f3a-ede09c114d2c",
+  "object": "chat.completion",
+  "created": 1793409828,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）是国内较大的水果供应链品牌，苹果是其常规品类之一，整体定位偏“商超稳定供货、性价比和品控较均衡”，不是主打稀缺高端苹果的品牌。具体可以这样判断：\n\n1. **苹果品类表现**\n- 佳农苹果以大众畅销品种为主，常见有富士系、嘎啦等，走商超和电商渠道较多。\n- 优点是供应链成熟、分级和包装较规范，适合日常家庭购买；缺点是风味上限一般，不如产区精品果或单一庄园品牌有个性。\n- 购买时重点看等级、果径、产地和新鲜度，而不是只看“佳农”品牌。\n\n2. **是否有进口苹果**\n- 佳农有进口水果业务，进口苹果是否在售取决于渠道和季节，常见可能涉及新西兰、智利、美国等产区的苹果，但具体批次要以包装标签和商家页面为准。\n- 判断方法：看包装上的“原产国/产地”、海关标签和品种名；国产苹果通常标具体省份产区。若页面只写“佳农苹果”而未标原产国，不能默认是进口。\n\n**建议**：日常吃选佳农国产富士系性价比可以；想买进口苹果，直接问商家要“原产国+品种+批次标签”，优先选标注清晰的渠道。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 279,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

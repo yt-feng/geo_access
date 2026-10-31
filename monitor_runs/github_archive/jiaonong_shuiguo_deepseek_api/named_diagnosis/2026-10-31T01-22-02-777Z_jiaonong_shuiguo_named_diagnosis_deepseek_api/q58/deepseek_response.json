@@ -1,0 +1,28 @@
+{
+  "id": "1b7f94cf-6ca6-416e-9f21-73335e91e085",
+  "object": "chat.completion",
+  "created": 1793410009,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核实佳农当前的具体加工服务范围（是否只卖整果、是否承接切丁/代加工），所以不能给你确定答案。建议你直接这样确认，最快：\n\n1. **联系佳农官方渠道**：官网/官方公众号找客服或区域销售，问三件事：  \n   - 是否供应**菠萝丁**（鲜切/冷冻）成品；  \n   - 是否提供**代加工/定制切丁**（规格、糖度、杀菌/冷冻方式）；  \n   - **最小起订量、报价、供货周期、配送范围**。\n\n2. **问清加工形式**：茶饮店常用的是**冷冻菠萝丁**或**糖渍/蜜渍菠萝丁**，鲜切丁保质期短、损耗高。确认是哪种，以及是否开袋即用。\n\n3. **要样品和资质**：索取样品试口感/出杯稳定性，并确认食品生产许可、检验报告、冷链条件。\n\n4. **备选方案**：如果佳农不做定制切丁，可同时问本地水果加工厂/冷冻果蔬供应商做代切，或让佳农供整果再找第三方加工。\n\n一句话：**先按“是否有菠萝丁成品+是否接代加工”向佳农官方确认，别只按整果采购假设。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 279,
+    "total_tokens": 343,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

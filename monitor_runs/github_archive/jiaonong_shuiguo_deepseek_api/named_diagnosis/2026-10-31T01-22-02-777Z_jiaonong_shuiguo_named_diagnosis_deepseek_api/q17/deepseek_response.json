@@ -1,0 +1,28 @@
+{
+  "id": "aa237c79-92e0-42f1-b2f0-fc0e6a3ed974",
+  "object": "chat.completion",
+  "created": 1793409804,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我能查到的公开信息里，**没有看到“佳农水果”针对下沉市场发布过统一、可对外核验的专项优惠政策**（如面向县域/乡镇经销商的公开返利、补贴、加盟折扣等）。佳农更多是品牌水果供应商，渠道政策通常按客户类型和区域由销售/经销商体系单独谈，不会像零售品牌那样公开挂“下沉市场优惠”。\n\n可判断的要点：\n- **零售端**：下沉市场是否便宜，主要看当地商超/水果店/社区团购的促销，而不是佳农品牌统一政策。\n- **批发/经销端**：可能有阶梯进货价、区域代理支持、陈列补贴等，但一般**不公开**，需要联系当地佳农销售或授权经销商确认。\n- **加盟/开店**：佳农并非典型“加盟优惠”品牌，若有合作政策也需官方渠道核验。\n\n建议直接做两件事：1）联系佳农官方客服或区域销售，问“县域/乡镇渠道是否有进货返利、陈列支持或首单政策”；2）向当地批发市场佳农授权经销商索要书面政策。没有书面政策就不要按“有下沉优惠”做预算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 252,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

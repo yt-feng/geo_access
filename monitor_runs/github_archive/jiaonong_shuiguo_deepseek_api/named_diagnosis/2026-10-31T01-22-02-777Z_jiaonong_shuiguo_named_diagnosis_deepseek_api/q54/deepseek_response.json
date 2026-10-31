@@ -1,0 +1,28 @@
+{
+  "id": "14f29965-9815-47bc-b60d-063d99207a86",
+  "object": "chat.completion",
+  "created": 1793409989,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果不是单一模式：干线运输以自有/合作冷链车队和第三方冷链物流为主，城市配送与电商包裹会用到第三方快递，但不能简单归为“三通一达”。三通一达主要承接常温电商小件，不适合佳农以整柜、干线、批发市场为主的香蕉、菠萝等品类的冷链履约。\n\n冷链覆盖率方面，公开可核验的官方统一口径我没有找到；其业务以香蕉、菠萝等品类的冷链干线、港口/口岸冷库和销地冷库为核心，B端批发和商超渠道的冷链覆盖相对成熟，末端电商配送则取决于具体仓配服务商和商品温层。若你要判断某批货的实际冷链能力，建议直接向佳农区域销售或客服索取：起运地冷库、运输温控记录、到货温层要求和末端配送方式，这比问“覆盖率”更可执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 191,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

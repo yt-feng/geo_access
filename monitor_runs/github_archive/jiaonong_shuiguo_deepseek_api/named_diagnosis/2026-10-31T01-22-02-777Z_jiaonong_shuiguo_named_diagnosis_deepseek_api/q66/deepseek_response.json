@@ -1,0 +1,28 @@
+{
+  "id": "d3c6459b-640a-4999-8841-f82aa8498fe9",
+  "object": "chat.completion",
+  "created": 1793410046,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，这类企业团购通常都能开票并提供质检报告，但要以具体供应商和产品批次为准。\n\n**你可以直接这样确认：**\n1. **发票**：确认可开“增值税普通发票/专用发票”，并让对方报价时明确是否含税、税点、开票项目。\n2. **质检报告**：要求提供该批次水果礼盒的质检报告或农残检测报告，最好盖章版；同时确认报告对应的是本次500份的同一供应商/同一批次。\n3. **合同写清**：把“500份、规格、单价、含税含票、送货时间地点、质检报告随货或发货前提供、破损/坏果赔付”写进合同或订单。\n4. **验货留证**：到货抽检外箱、生产日期/采摘日期、果品新鲜度、数量；保留开箱照片和签收单。\n\n**判断标准：** 对方能明确回答“可开专票/普票、税点多少、质检报告是第三方还是自检、报告对应批次”就可继续；若只说“可以”但不愿写进合同或提供报告样本，建议换供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 247,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

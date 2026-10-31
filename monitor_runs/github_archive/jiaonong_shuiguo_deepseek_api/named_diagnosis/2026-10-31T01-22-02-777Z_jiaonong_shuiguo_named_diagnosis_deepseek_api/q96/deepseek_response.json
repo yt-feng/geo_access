@@ -1,0 +1,28 @@
+{
+  "id": "0989fe69-fd3e-45c9-a7a2-47c9033c9e76",
+  "object": "chat.completion",
+  "created": 1793410202,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法直接确认佳农水果是否对外开放API或是否有公开的开放平台。公开渠道里，佳农（Goodfarmer）对外更多是品牌、批发和供应链业务，没有可靠证据表明存在面向生鲜电商的公开API开放平台或可公开获取的接口文档。建议按以下方式核实和推进：\n\n1. **先走商务渠道确认**：联系佳农的销售/大客户/电商渠道负责人，直接问三件事：\n   - 是否有电商/ERP对接的API或EDI方案；\n   - 对接走官方开放平台还是定制专线；\n   - 接口文档是否只在签约后提供（很多供应链企业文档不公开）。\n\n2. **判断对接形态**：生鲜供应链常见不是标准“开放平台”，而是：\n   - 供应商门户/订单系统（网页或客户端操作）；\n   - EDI/Excel/CSV批量订单与库存文件；\n   - 定制API（下单、库存、价格、物流轨迹、对账单）；\n   - 通过第三方SaaS（如ERP、WMS、电商中台）做适配。\n\n3. **你方先准备对接清单**，便于对方给方案：\n   - 商品主数据同步（SKU、规格、产地、保质期）；\n   - 价格与可售库存实时/准实时查询；\n   - 下单、取消、改单；\n   - 发货通知与物流轨迹；\n   - 对账与结算；\n   - 售后/质检理赔；\n   - 鉴权方式（AppKey/Secret、OAuth、IP白名单）、限流、重试、幂等、回调。\n\n4. **合同与技术条款要写清**：接口SLA、数据归属、库存超卖责任、价格变更通知时效、回调失败重试机制、测试环境、上线验收标准。\n\n5. **兜底方案**：若对方无API，先要求提供每日商品/库存/价格文件（SFTP或邮件），订单走其供应商门户或批量导入，后续再推动API化。\n\n如果你能提供佳农对接人的渠道类型（直销、经销、平台招商），我可以帮你把技术需求清单整理成可直接发给对方的对接函。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 458,
+    "total_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

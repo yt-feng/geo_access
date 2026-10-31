@@ -1,0 +1,28 @@
+{
+  "id": "cdadd087-b1af-4470-81b7-6d55f8d508f6",
+  "object": "chat.completion",
+  "created": 1793410053,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个我没法直接确认佳农水果是否对外提供 ERP API、接口类型和准入条件，因为这类信息通常不公开，且我无法核验来源。不要基于猜测做技术方案。\n\n**可执行建议：**\n\n1. **先走商务/供应商对接渠道确认**\n   - 联系佳农水果的销售负责人或供应链对接人，明确问三件事：\n     - 是否有对外开放的 ERP/订单/库存 API？\n     - 接口是标准 REST/JSON、EDI、文件交换，还是仅提供供应商门户？\n     - 对接是否需要签技术协议、付费或走白名单？\n\n2. **判断对方系统类型**\n   - 佳农属于大型水果供应链企业，可能使用金蝶、用友、SAP 或自研 ERP。让对方提供**对接文档或接口清单**，不要只问“有没有 API”。\n   - 重点确认：商品主数据、价格库存、下单、发货回传、对账这 5 类接口是否具备。\n\n3. **准备备选方案**\n   - 若对方无标准 API，常见替代是：供应商门户手工/批量导入、FTP/SFTP 文件交换、EDI、RPA 抓取（需对方授权）。\n   - 生鲜场景要特别确认**库存实时性、批次/保质期字段、冷链温控回传**是否支持。\n\n4. **合同和技术评估前置**\n   - 在采购合同里写明接口范围、SLA、字段标准、异常处理和对账责任。\n   - 技术侧先做接口可行性评审，再排开发工期。\n\n**结论：** 目前不能确认“有”或“没有”，最稳妥路径是让佳农商务方提供接口文档或系统对接说明；拿到文档后再评估是标准 API 还是文件/EDI 方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 382,
+    "total_tokens": 441,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

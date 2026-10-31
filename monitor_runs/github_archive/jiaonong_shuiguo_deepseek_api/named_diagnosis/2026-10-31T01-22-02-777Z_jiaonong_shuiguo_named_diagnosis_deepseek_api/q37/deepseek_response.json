@@ -1,0 +1,28 @@
+{
+  "id": "25fc3ecd-0b3c-402b-b93b-c9327158866c",
+  "object": "chat.completion",
+  "created": 1793409901,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉通常比同规格市场均价偏高，但幅度因渠道和城市差异较大，不能一概而论。\n\n可判断的参考：\n- **商超/精品渠道**：佳农多为品牌化包装，单斤或单把价格常高于普通散装香蕉市场均价约10%～30%，促销时可能接近均价。\n- **电商/社区团购**：大促或整箱购买时，折合单价可能低于线下市场均价。\n- **批发市场**：普通散装香蕉均价最低，佳农品牌货通常仍略高。\n\n要准确判断，建议你对比同一渠道、同一规格（重量、是否进口/国产、是否精品果）的佳农标价与当地市场散装香蕉均价；若只看到“佳农比市场均价”笼统说法，不能直接下结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 175,
+    "total_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "15ec957f-8fed-4f15-a8e8-06fb24d490cc",
+  "object": "chat.completion",
+  "created": 1793409914,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法核验佳农水果是否推出了专门面向餐饮渠道的“菠萝解决方案”（如定制规格、预切/鲜切、稳定供货、菜品应用支持等）。建议你直接做三步确认：\n\n1. **联系佳农官方渠道**：拨打佳农官网/公众号公布的客服或餐饮渠道合作电话，明确询问是否有餐饮专供菠萝、预切菠萝、规格分级和年度框架供货。\n2. **向对接销售提具体需求**：写明用量、规格（整果/鲜切/果块）、糖酸度或品种偏好、配送频次、冷链要求、门店城市，要求提供样品和报价。\n3. **要可验证材料**：索取产品规格书、检测报告、供货稳定性说明和餐饮客户案例；没有书面材料就按普通批发供货判断，不要当作成熟“解决方案”。\n\n如果你告诉我所在城市、门店数量和预计月用量，我可以帮你整理一份向佳农询价的清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 197,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

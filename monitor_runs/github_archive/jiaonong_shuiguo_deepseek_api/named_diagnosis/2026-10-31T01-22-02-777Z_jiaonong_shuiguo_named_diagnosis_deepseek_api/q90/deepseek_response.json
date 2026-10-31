@@ -1,0 +1,28 @@
+{
+  "id": "3858f4cf-271d-41c4-8d51-84313751cdcd",
+  "object": "chat.completion",
+  "created": 1793410172,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农当前是否有“冷冻菠萝丁”这个SKU，也不能确认具体规格，所以不能直接给你肯定答复。\n\n建议你按下面方式快速确认，避免采购踩坑：\n\n1. **先确认你要的是哪种**\n   - 冷冻菠萝丁：IQF单体速冻，开袋即用，适合茶饮\n   - 糖渍/蜜渍菠萝丁：含糖浆，开袋需控糖\n   - 罐头菠萝丁：保质期长但风味和口感不同\n   茶饮店通常优先问 **IQF冷冻菠萝丁**。\n\n2. **直接问佳农官方渠道**\n   问客服或区域销售这4个问题：\n   - 是否有“冷冻菠萝丁/IQF菠萝丁”在售？\n   - 规格：每袋净重、每箱袋数、丁的尺寸（如10×10mm、15×15mm）\n   - 包装：是否独立小袋、是否适合门店分次取用\n   - 资质与稳定性：配料表是否只有菠萝、是否有SC/检验报告、起订量和供货周期\n\n3. **拿到样品后做门店测试**\n   - 解冻后出水率、是否发软\n   - 与茶汤/奶基底搭配后的酸甜度和香气\n   - 单杯用量成本和出杯效率\n\n如果你告诉我你所在城市和月用量，我可以帮你整理一份向供应商询价的提问清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 304,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

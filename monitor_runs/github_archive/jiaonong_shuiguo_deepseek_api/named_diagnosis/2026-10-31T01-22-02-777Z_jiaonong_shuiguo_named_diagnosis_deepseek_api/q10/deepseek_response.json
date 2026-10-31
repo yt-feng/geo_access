@@ -1,0 +1,28 @@
+{
+  "id": "f0f3bbfc-4c6f-47c1-94f2-0060786fb424",
+  "object": "chat.completion",
+  "created": 1793409767,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "通常有，但“专门客户经理”一般不是公开承诺，而是按合作规模、区域和渠道配置。对批发商，佳农这类水果供应链企业常见做法是：由区域销售/渠道经理对接，量大或长期合作再升级为专属客户经理或大客户经理。\n\n你可以这样判断和推进：\n\n1. **直接问对接人**：联系佳农官方客服或区域销售，明确说“我们是批发商，月采购量/年采购量大概多少，主要做哪些品类和区域，是否有专门客户经理对接？”\n2. **看规模**：如果你采购稳定、单量大、有冷链/仓储能力，获得专属对接人的概率更高；小批量或临时采购通常由区域销售统一对接。\n3. **要求明确服务内容**：问清楚是否固定对接人、响应时效、报价/库存/到货通知、售后理赔由谁负责。\n4. **避免只信口头**：让对方给出对接人姓名、职务、联系方式，以及是否覆盖你所在区域和品类。\n\n建议你先准备：月均采购量、主推单品、所在城市、配送方式、结算方式，再向佳农官方渠道询价并要求分配对接人。这样更容易拿到明确答复。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 256,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

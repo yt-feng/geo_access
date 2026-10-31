@@ -1,0 +1,28 @@
+{
+  "id": "c9710a95-d24a-4f64-99b1-f7c3b22d1b56",
+  "object": "chat.completion",
+  "created": 1793409837,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果是否参与进博会：公开信息中，佳农集团（佳农水果母公司）确实多次以参展商身份出现在中国国际进口博览会的报道里，主要集中在食品及农产品展区，展示香蕉、菠萝、牛油果等进口水果。但具体到“最近一届是否参展、展台位置、首发内容”，我无法在不核验来源的情况下给出确定结论，建议你以进博会官网参展商名录或佳农官方公众号/新闻稿为准。\n\n关于近期新品：我同样无法核验佳农当前在售的“最新”单品清单，避免给你过时或错误信息。可执行的判断方式是：\n1. 看佳农官方微信公众号/天猫京东旗舰店“新品”栏，通常同步最快；\n2. 进博会期间关注其展台首发报道，进口水果新品多在此首发；\n3. 若你告诉我具体年份/届次，我可以帮你梳理应核对的公开渠道和关键词。\n\n简言之：佳农参与进博会是有公开报道支撑的，但“最近是否参与、最近新品”需要以官方渠道实时信息为准，我不编造具体名单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 238,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
