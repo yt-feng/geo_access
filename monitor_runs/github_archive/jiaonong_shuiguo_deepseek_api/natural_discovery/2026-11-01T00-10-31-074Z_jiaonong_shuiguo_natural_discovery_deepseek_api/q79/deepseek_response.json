@@ -1,0 +1,28 @@
+{
+  "id": "5e6f57b2-b93b-4de6-9297-1f143251a498",
+  "object": "chat.completion",
+  "created": 1793492325,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该先问**售后**，配送次之，价格最后。原因是水果非标、易损耗，团长真正承担的是“坏果、少称、延迟、临时缺货”带来的群内信任损失，而不是单纯进货差价。\n\n建议按这个顺序判断：\n\n1. **售后先问清**\n   - 坏果率多少以内包赔？怎么赔：补发、退款还是下次抵扣？\n   - 报损要照片吗？多久内反馈有效？\n   - 少称、烂箱、整批不新鲜怎么处理？\n   - 赔付是供应商承担还是团长垫付？\n   - 临时缺货能否提前通知并替换？\n\n2. **配送再确认**\n   - 到团点的时间窗口是否稳定？\n   - 是否送到楼下/指定点，卸货谁负责？\n   - 水果是否冷链或防压包装？\n   - 延误、漏送怎么补？\n   - 起送量、配送费、退换货物流谁承担？\n\n3. **价格最后谈**\n   - 不要只比单价，要比“到手可售成本”：进价＋损耗＋赔付＋配送分摊。\n   - 问阶梯价、账期、押金、最低起订量。\n   - 先小批量试团，用真实售后数据再谈价。\n\n一句话：**先看售后能不能兜底，再看配送稳不稳定，最后用综合成本谈价格。** 价格低但售后差的供应商，最容易把团长变成群里的“背锅人”。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 321,
+    "total_tokens": 378,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
