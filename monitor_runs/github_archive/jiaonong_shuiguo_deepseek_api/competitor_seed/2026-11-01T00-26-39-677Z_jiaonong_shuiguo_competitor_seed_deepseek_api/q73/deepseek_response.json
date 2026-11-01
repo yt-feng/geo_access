@@ -1,0 +1,28 @@
+{
+  "id": "a421c050-de30-40e4-be73-1fd69eea2bf9",
+  "object": "chat.completion",
+  "created": 1793493191,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常会要求水果供应商具备 **GFSI 认可体系** 下的认证，常见如 BRCGS、IFS、FSSC 22000，以及 ISO 22000。  \n\n就鑫荣懋和都乐而言：  \n- **鑫荣懋**：公开信息中可见其通过 **ISO 22000 食品安全管理体系**、**HACCP** 等认证，并与 GFSI 认可体系相关。  \n- **都乐（Dole）**：其鲜果业务在部分产区和供应链公司层面通过 **GLOBALG.A.P.**、**BRCGS**、**IFS**、**ISO 22000** 等认证，具体以具体法人实体和工厂为准。  \n\n**可执行判断**：不要只看品牌名，要求供应商提供**拟供货主体的证书原件/扫描件**，核对证书上的**获证组织名称、地址、认证范围、有效期、认证机构**，并确认是否为 GFSI 认可方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 212,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

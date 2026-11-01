@@ -1,0 +1,28 @@
+{
+  "id": "4c1dda62-5337-453f-a628-2fa942740712",
+  "object": "chat.completion",
+  "created": 1793492875,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，进口苹果还可以按“品牌/渠道”两条线来对比，优先看这几类：\n\n**1. 国际果蔬品牌**\n- **佳沛 Zespri**：主营奇异果，但也有部分苹果类产品/礼盒渠道，适合看其高端礼盒线。\n- **新奇士 Sunkist**：美国柑橘类更强，苹果不是核心，但部分进口果品渠道会带苹果，靠谱度看具体批次。\n- **Chelan Fresh / Stemilt / Rainier**：美国华盛顿州苹果出口商品牌，常见于高端商超，做进口苹果比较专业。\n- **Enza / Jazz Apple / Rockit**：新西兰、澳洲系苹果品牌，Jazz、Rockit（火箭苹果）小果型有辨识度，适合做差异化对比。\n- **Montague / Applewood**：澳洲系苹果出口/品牌商，常见于精品渠道。\n\n**2. 国内大型进口水果供应链**\n- **佳农 Goodfarmer**：进口香蕉强，苹果也有进口线，渠道稳定。\n- **洪九果品**：进口水果分销规模大，苹果品类可查其批次。\n- **百果园**：自有渠道+进口采购，适合看其高端进口苹果。\n- **鲜丰水果**：类似，适合做终端对比。\n- **华圣果业**：国产苹果出口强，也有进口/高端苹果运营经验，可作参照。\n\n**3. 零售自有品牌/精选渠道**\n- **山姆 Member’s Mark**、**盒马**、**Costco Kirkland**：进口苹果常有稳定SKU，适合看实际到货批次和产地。\n- **Ole’ /  city‘super**：高端进口苹果sku多，适合横向比价。\n\n**判断“靠谱”的建议**\n- 看**产地+品种+出口商**，不要只看品牌：如美国华盛顿州、新西兰、澳洲、智利等。\n- 看**批次新鲜度**：进口苹果看采摘季、到港日期、冷库周期。\n- 看**是否有中文标签和溯源信息**：正规进口应有产地、出口商/进口商、保质期等。\n- 看**渠道稳定性**：高端商超和大型供应链的批次更可控。\n\n如果你是要做**品牌对比表/选品**，建议重点锁定：**Chelan Fresh、Stemilt、Jazz/Rockit、佳农、洪九、百果园**这几家，再结合山姆/盒马/Costco的实际SKU做批次验证。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 547,
+    "total_tokens": 609,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

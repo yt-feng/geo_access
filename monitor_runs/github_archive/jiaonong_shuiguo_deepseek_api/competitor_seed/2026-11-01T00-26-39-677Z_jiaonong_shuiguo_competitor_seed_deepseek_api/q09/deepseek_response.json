@@ -1,0 +1,28 @@
+{
+  "id": "092d6188-4c2c-4e59-8a16-c4487bb86fe7",
+  "object": "chat.completion",
+  "created": 1793492845,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），进口水果礼盒常见可选品牌还有：\n\n- **新奇士 Sunkist**：美国柑橘类代表，橙、柠檬等礼盒较常见。\n- **爱妃 Envy**：新西兰/美国苹果品牌，礼盒装偏高端。\n- **乐淇 Rockit**：新西兰小苹果，小筒装/礼盒装辨识度高。\n- **爵士 Jazz**：新西兰/美国苹果品牌，适合商务礼盒。\n- **红玫瑰/太平洋玫瑰 Pacific Rose**：新西兰苹果品牌，礼盒渠道可见。\n- **切尔西 Chelsea**：新西兰苹果品牌，部分进口商有礼盒。\n- **布朗先生 Mr. Brown**：台湾地区/进口渠道常见，严格说不是纯进口品牌，需按货源确认。\n- **SunGold/佳沛**已排除；**都乐**已排除。\n- **Del Monte 地扪**：进口香蕉、菠萝等有品牌礼盒，但水果礼盒丰富度不如专业鲜果品牌。\n- **Chiquita 金吉达**：香蕉品牌，礼盒场景较少。\n- **Fyffes**：香蕉品牌，礼盒场景较少。\n- **Camposol**：秘鲁蓝莓、牛油果等品牌，更多见于生鲜包装而非传统礼盒。\n- **Hortifrut**：蓝莓等浆果品牌，礼盒需看进口商包装。\n- **Driscoll's 怡颗莓**：浆果品牌，礼盒装常见于高端团购。\n- **Sun World**：葡萄、核果类品牌，礼盒需看具体包装。\n- **Stemilt**：美国樱桃、苹果品牌，樱桃季礼盒常见。\n- **Chelan Fresh**：美国樱桃品牌，季节性礼盒常见。\n- **Sierra**：智利车厘子品牌，车厘子礼盒常见。\n- **Garces Fruit**：智利车厘子品牌。\n- **Copefrut**：智利车厘子品牌。\n- **Agrícola Garcés**：智利车厘子相关品牌。\n- **Verfrut**：智利车厘子品牌。\n- **Prize**：智利车厘子品牌，国内团购渠道常见。\n\n更实用的选品建议：礼品团购不要只看“进口品牌”，要确认**原产地、品种、规格、单果重、包装是否原箱/分装、是否有中文标签和检疫信息、到货稳定性**。按品类选更稳：\n\n1. **柑橘/橙礼盒**：新奇士、地扪。\n2. **苹果礼盒**：爱妃、乐淇、爵士、太平洋玫瑰。\n3. **浆果礼盒**：怡颗莓、Camposol、Hortifrut。\n4. **车厘子礼盒**：Sierra、Garces Fruit、Copefrut、Prize、Verfrut。\n5. **樱桃季礼盒**：Stemilt、Chelan Fresh。\n6. **香蕉/菠萝**：都乐、地扪、金吉达，但礼盒感较弱。\n\n如果团购预算在中高端，优先组合：**乐淇小苹果 + 怡颗莓蓝莓 + 新奇士橙 + 车厘子季Sierra/Garces**，比单纯堆品牌更容易做出礼盒差异。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 719,
+    "total_tokens": 782,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

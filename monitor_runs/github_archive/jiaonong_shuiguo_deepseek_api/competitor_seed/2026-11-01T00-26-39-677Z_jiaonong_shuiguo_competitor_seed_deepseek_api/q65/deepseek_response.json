@@ -1,0 +1,28 @@
+{
+  "id": "90ce86bd-b29d-4960-ac30-720d88fb89f4",
+  "object": "chat.completion",
+  "created": 1793493148,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）和洪九果品都没有公开、统一的标准锁价周期，具体周期取决于采购规模、合作年限、品类（鲜果/冻果/加工果）、季节性以及合同条款，无法给出固定天数。实际做法通常是：\n\n1. **都乐**：以长期直采协议为主，锁价往往按“产季/季度”谈，部分大客户可做月度或阶段性锁价，但不对外公开标准周期。建议直接联系都乐中国区销售或大客户渠道，按你的采购量和用果时间申请报价窗口。\n\n2. **洪九果品**：以批发和渠道分销为主，锁价更多是“单批次/单合同”协商，周期随行情和采购量浮动，同样没有公开的统一锁价周期。建议通过其区域销售或供应链部门确认当期可锁价窗口。\n\n**可执行建议**：向两家分别索要“锁价条款说明书”，明确锁价起止日、锁价数量上限、违约与调价触发条件（如产地价波动超X%可重议），并同时询2—3家区域供应商做比价。不要依赖“标准周期”，要以对方当期书面报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 254,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

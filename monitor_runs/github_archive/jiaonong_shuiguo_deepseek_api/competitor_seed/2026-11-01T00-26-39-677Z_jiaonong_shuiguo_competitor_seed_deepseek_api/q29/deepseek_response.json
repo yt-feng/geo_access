@@ -1,0 +1,28 @@
+{
+  "id": "b8be5fba-1739-4071-8149-0615a7879daa",
+  "object": "chat.completion",
+  "created": 1793492950,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐（Dole）更可能有现成的香蕉小包装方案；洪九果品更偏批发/大宗和果品供应链，零售小包装的现成标准化方案不如都乐成熟，需要具体区域和渠道确认。\n\n可执行判断：\n1. 先找都乐——都乐有面向便利店/零售的小规格香蕉、单根/两根装、预包装香蕉的成熟产品线，直接联系都乐当地经销商或KA渠道，问“便利店渠道小包装香蕉SKU、起订量、配送频次、陈列支持”。\n2. 洪九果品——联系其区域销售，明确问是否有“便利店即食小包装香蕉”标准品，若没有，通常可谈定制包装，但起订量和账期门槛可能更高。\n3. 同步向两家索要：产品规格（根数/净重）、包装形式、保质期与催熟状态、建议零售价、最小起订量、配送温层和频次、损耗/退换政策。\n\n结论：要“现成方案”优先都乐；要价格或区域供应链优势可并行问洪九，但别默认洪九有小包装现成品。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 247,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
