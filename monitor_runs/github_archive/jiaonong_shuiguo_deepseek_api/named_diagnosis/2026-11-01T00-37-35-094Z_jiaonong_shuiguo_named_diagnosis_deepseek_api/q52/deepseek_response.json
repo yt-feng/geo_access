@@ -1,0 +1,28 @@
+{
+  "id": "19b3f69a-ce0c-4a39-a6b8-50547e68f7e3",
+  "object": "chat.completion",
+  "created": 1793493694,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的菠萝产地不是固定的，通常看具体产品包装/标签上的“原产地”或“产地”字段，常见会有菲律宾、厄瓜多尔等不同批次；同一品牌不同SKU、不同季节也可能切换产地。最可靠判断：看单箱/单果标签、报关信息或商品详情页的产地标注。\n\n品质差异方面，不能简单说“哪个产地一定更好”，主要看品种、成熟度、采摘季和冷链：\n\n- **菲律宾菠萝**：常见品种如MD2，甜度高、酸度低、纤维较细，商业化成熟度高，但不同农场和批次差异也明显。\n- **厄瓜多尔菠萝**：也多为MD2类品种，品质受季节和运输影响较大；如果冷链长、到货成熟度控制不好，口感和货架期可能波动。\n- **实际差异更多来自批次**：同产地不同果园、采摘成熟度、运输时间、储存温度，都会比“国家差异”更影响口感。\n\n购买建议：优先看包装产地和采摘/包装日期；想稳定甜度选标注MD2、成熟度较好且冷链可靠的批次；不要只凭品牌或国家判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 246,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

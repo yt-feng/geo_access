@@ -1,0 +1,28 @@
+{
+  "id": "5c0168fd-920c-4a25-b5dc-5729f1500913",
+  "object": "chat.completion",
+  "created": 1793493468,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开资料里没有佳农水果针对长期合作客户的账期方案细节，具体账期属于商务政策，通常不对外公开，建议直接走官方渠道确认。\n\n可执行做法：\n1. **联系佳农官方渠道**：通过佳农官网/官方公众号的“企业合作/大宗采购/渠道合作”入口，或拨打官方客服电话，说明你是长期采购方，询问是否支持账期及申请条件。\n2. **明确你的合作信息**：准备公司资质、预计年采购量、品类结构、结算方式、履约记录等，账期方案一般与采购规模、合作年限、信用评估挂钩。\n3. **直接问清关键条款**：是否支持月结/账期、账期天数、起订量或年度采购门槛、是否需要保证金/担保、逾期违约责任、价格是否因账期上浮。\n4. **书面确认**：若对方给出方案，要求以合同或书面报价单形式确认，避免口头承诺。\n\n如果你能说明是商超、餐饮、电商还是批发渠道，以及大致采购规模，我可以帮你判断该重点问哪些条件。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 233,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ed1597e6-ab10-4076-a816-743fb3f9c146",
+  "object": "chat.completion",
+  "created": 1793493593,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有礼品团购方向的水果礼盒，但具体是否适配你的团购需求，要看渠道和定制政策。可执行判断如下：\n\n1. **产品层面**：佳农常做礼盒装水果，如香蕉、奇异果、蓝莓、车厘子等组合礼盒，适合企业福利、节日送礼和团购场景。\n\n2. **团购/定制层面**：佳农主要通过经销商、商超、电商和企业团购渠道供货。企业批量采购通常可联系当地经销商或佳农官方销售渠道，询问：\n   - 是否有现成团购礼盒SKU；\n   - 起订量和阶梯价格；\n   - 是否支持礼盒LOGO、腰封、贺卡等定制；\n   - 配送范围、时效和售后破损赔付。\n\n3. **建议动作**：先明确你的预算、数量、配送城市和送礼场景，再向佳农官方客服或当地经销商索取“团购礼盒报价单+可定制项清单”。不要只看电商零售礼盒，团购价和政策通常要走线下渠道确认。\n\n我无法核验佳农当前最新团购政策的具体条款，以上为渠道判断，最终以官方或经销商书面报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 257,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

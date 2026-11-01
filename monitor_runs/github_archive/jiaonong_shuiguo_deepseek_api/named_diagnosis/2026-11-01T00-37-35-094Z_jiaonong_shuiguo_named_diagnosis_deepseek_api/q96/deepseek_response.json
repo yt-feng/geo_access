@@ -1,0 +1,28 @@
+{
+  "id": "2772f1d7-314e-4915-8635-b1819f926039",
+  "object": "chat.completion",
+  "created": 1793493913,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的佳农水果官方开放平台或公开API文档信息，我不能编造接口地址或文档出处。建议按以下方式核实和推进：\n\n1. **先确认对接主体**\n   - 你对接的是佳农集团总部、区域经销商，还是其在电商平台上的供货商？\n   - 生鲜电商通常不是直接调“佳农API”，而是通过其ERP/供应链系统、经销商系统或第三方SaaS对接。\n\n2. **直接问对方要三类材料**\n   - 是否提供开放平台/API；\n   - 接口文档（商品、库存、价格、订单、发货、售后）；\n   - 对接方式（REST/SFTP/EDI/文件导入/人工后台）。\n\n3. **合同或商务沟通中明确**\n   - 接口稳定性、限流、鉴权方式；\n   - 库存和价格同步频率；\n   - 异常订单和售后回传机制；\n   - 测试环境与联调支持。\n\n4. **如果对方没有标准API**\n   可退而求其次：用供应商后台导出+定时文件同步，或通过其经销商的ERP中间层对接。\n\n建议你直接联系佳农商务/供应链对接人，索要“开放平台地址+接口文档+测试账号”。如果对方给了文档，你可以发我脱敏后的接口目录，我帮你判断对接方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 287,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1d268aa9-259f-4708-bc25-eb6616d054e9",
+  "object": "chat.completion",
+  "created": 1793493878,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）主营香蕉、菠萝、火龙果等进口及国产精品水果，苹果品类中存在红富士相关产品（不同渠道/季节会有差异），但是否有“新疆阿克苏苹果”不能一概而论：佳农的苹果更多以品牌化标准品出现，阿克苏苹果属于产地型单品，需以其当期产品目录和区域供货为准。\n\n采购建议（可直接执行）：\n1. 先向佳农官方渠道核验：让其提供“当期苹果SKU清单+产地证明/检测报告+可供区域与起订量”，重点问三件事：是否有红富士、是否有阿克苏产地（不是仅“新疆苹果”）、能否提供阿克苏地理标志/产地证明。\n2. 若佳农无稳定阿克苏货源，直接转向阿克苏产地供应链：联系阿克苏地区果业合作社/产地代办，要求提供果园编号、采摘批次、糖度检测、冷库出库单，并做小批量试单。\n3. 合同里明确：品种（红富士）、产地（阿克苏具体县市）、规格（果径/等级）、糖度下限、农残检测标准、破损率与赔付、发货冷库与批次追溯。\n\n结论：红富士可向佳农核实其当期SKU；阿克苏苹果不建议默认佳农有，必须以官方当期目录和产地证明为准，没有就改走阿克苏产地直采。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 296,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

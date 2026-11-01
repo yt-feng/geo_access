@@ -1,0 +1,28 @@
+{
+  "id": "f350dc56-c617-4994-b7e2-7aa2392c4d95",
+  "object": "chat.completion",
+  "created": 1793493537,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送时效取决于你下单的渠道和收货地址，无法给一个统一时长。可参考以下判断：\n\n1. **电商平台（京东/天猫/抖音等）**  \n   - 通常走平台仓或商家仓发货，页面会标注“预计送达时间”。  \n   - 多数地区常温/冷链商品在 **1–3天** 内送达；偏远地区可能 **3–5天或更久**。  \n   - 生鲜冷链件一般会优先安排，但节假日、大促、天气影响会延迟。\n\n2. **佳农官方小程序/旗舰店**  \n   - 以结算页显示的“预计送达”为准；不同品类（香蕉、菠萝、冷冻水果等）仓配不同，时效不一样。\n\n3. **线下商超/社区团购**  \n   - 如果是本地门店或团长配送，通常 **当日或次日达**，具体看所在城市和截单时间。\n\n**下单后多久能到，最准确的做法：**  \n在商品详情页或结算页查看“发货地/预计送达时间”，下单后看订单物流信息。若页面只写“48小时内发货”，那是指发货时效，不是到货时效。生鲜水果建议优先选标注“冷链发货”“坏果包赔”的链接，并留意节假日延迟公告。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 281,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

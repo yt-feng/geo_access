@@ -1,0 +1,28 @@
+{
+  "id": "5f08ca89-5ffc-481e-a72a-867e6a9bce34",
+  "object": "chat.completion",
+  "created": 1793493767,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果是否对外开放ERP API，也不能确认其接口文档、对接条件或联系人。不要直接假设“有标准API”。\n\n可执行判断建议：\n\n1. **先确认你要对接的是哪一方系统**\n   - 佳农水果（供应商）自身ERP；\n   - 佳农使用的第三方ERP/供应链平台；\n   - 还是你们自己的生鲜电商ERP需要接供应商协同接口。\n   这三类对接方式完全不同。\n\n2. **对接前必须向佳农确认的清单**\n   - 是否提供对外API；\n   - 接口类型：REST/SOAP/文件交换/EDI/中间库；\n   - 是否支持：商品主数据、库存、价格、订单、发货、对账、售后；\n   - 认证方式：AppKey/Token、IP白名单、证书；\n   - 有无测试环境、沙箱、接口文档、限流规则；\n   - 是否收费、是否需要签数据协议；\n   - 对接窗口人和SLA。\n\n3. **现实判断**\n   生鲜供应商ERP通常不直接开放标准API，常见替代方案是：\n   - 供应商协同平台/门户；\n   - Excel/CSV定时交换；\n   - EDI报文；\n   - 通过第三方供应链服务商中转；\n   - 定制接口开发。\n\n4. **建议动作**\n   先让业务或采购向佳农发正式对接需求函，明确“请提供API文档、测试环境、对接联系人及商务条件”。如果对方回复没有API，再评估文件交换或EDI方案，不要先投入开发。\n\n如果你能提供佳农对接人的回复、系统名称（如用友/金蝶/自研）或接口文档截图，我可以帮你判断具体对接可行性和字段方案。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 370,
+    "total_tokens": 429,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

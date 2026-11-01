@@ -1,0 +1,28 @@
+{
+  "id": "4e3150ba-f5ce-40f8-aa4b-d84f29efe1de",
+  "object": "chat.completion",
+  "created": 1793493495,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大概率有，但要看你的采购渠道和体量。佳农这类水果供应链企业通常会给批发商/大客户配置销售或客户经理对接，尤其是稳定走量、长期合作、或做区域分销的客户。可执行判断如下：\n\n1. **如果你是直接从佳农总部/区域分公司拿货**：一般会有对应区域销售经理或大客户经理对接，负责报价、账期、货源分配和售后。\n2. **如果你是通过一级经销商/批发市场档口拿货**：对接你的通常是经销商业务员，不一定有佳农官方客户经理。\n3. **如果你采购量稳定且较大**：可以直接向对接业务员提出“申请大客户/批发客户经理专属对接”，通常比新开户更容易获批。\n4. **快速核验方式**：联系佳农官方客服或你所在区域的销售负责人，说明你是批发商、月采购量、品类和提货区域，问是否可分配专属客户经理；同时要求确认对方身份是佳农官方还是授权经销商。\n\n建议你先确认当前供货方身份，再决定是否要求升级对接层级。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 229,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

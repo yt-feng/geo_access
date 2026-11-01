@@ -1,0 +1,28 @@
+{
+  "id": "d32ac89a-1640-49ad-8de4-abf5c0e955f4",
+  "object": "chat.completion",
+  "created": 1793493731,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农是否在售“单根包装香蕉”这一具体SKU，也不能给出其官方产品目录的准确出处，所以不能替你确认。但可以给你可执行判断：\n\n1. **佳农主渠道大概率不是“单根零售包装”**：佳农香蕉常见为整把/整袋/整箱的商超与批发规格，便利店单根售卖更多是门店二次分装或区域经销商的定制包装，不等于厂家标准SKU。\n2. **最有效的确认方式**：直接问佳农当地经销商或区域业务，明确问三件事：\n   - 有没有“单根独立包装/单根贴标”的便利店专供规格；\n   - 最小起订量和供货频次；\n   - 是否支持门店到货即售、是否需要冷链。\n3. **便利店更现实的方案**：\n   - 进整把香蕉后在门店做单根分装，贴自家标签；\n   - 找本地香蕉经销商做“单根包装”代分装；\n   - 先小批量试销，观察损耗和动销，再谈定制包装。\n\n建议你先联系佳农区域经销渠道确认；如果对方只给整箱/整把规格，就按门店分装方案落地，不要等厂家专供。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 272,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
