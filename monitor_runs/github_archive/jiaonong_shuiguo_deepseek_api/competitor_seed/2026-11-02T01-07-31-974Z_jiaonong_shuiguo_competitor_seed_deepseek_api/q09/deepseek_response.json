@@ -1,0 +1,28 @@
+{
+  "id": "a5702633-00cb-4375-a303-a31f4382c0b2",
+  "object": "chat.completion",
+  "created": 1793581703,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可重点看这些进口/国际水果品牌，按品类给你列：\n\n**综合水果品牌**\n- **新奇士 Sunkist**：美国柑橘类强项，脐橙、柠檬礼盒认知度高，适合商务礼品。\n- **爱妃 Envy**：新西兰/美国苹果品牌，礼盒包装成熟，适合中高端团购。\n- **Chelan Fresh / 华盛顿苹果**：美国苹果产区品牌，常见于进口苹果礼盒。\n- **Stemilt**：美国樱桃、苹果、梨品牌，樱桃季礼盒可选。\n- **Del Monte 地扪**：综合果蔬品牌，但水果礼盒在国内团购渠道不如都乐常见，需确认货源。\n\n**车厘子/樱桃**\n- **Stemilt、Chelan Fresh、Sutherland、Rio King**：智利/美国车厘子常见品牌，春节团购礼盒常用。\n- **Cherry Hill、Garces Fruit**：智利车厘子品牌，需按当季货源确认。\n\n**奇异果/莓果**\n- **佳沛之外**：**Zespri** 仍是主流；奇异果其他进口品牌较少形成礼盒认知，不建议硬推。\n- **Driscoll's 怡颗莓**：蓝莓、树莓、黑莓礼盒，适合高端小件礼品。\n\n**香蕉/菠萝等**\n- **金吉达 Chiquita**：香蕉品牌认知度高，但礼盒属性弱。\n- **Del Monte**：菠萝、香蕉有认知，礼盒需看渠道包装。\n\n**实操建议**\n1. 礼品团购优先选**认知度高+包装成熟**的：新奇士、爱妃、Stemilt、Driscoll's。\n2. 车厘子礼盒按**产季和品牌授权**选，智利品牌在国内春节档更实用。\n3. 下单前确认：**品牌授权书、原产地证明、报关单、礼盒是否品牌方统一包装**，避免“贴牌礼盒”。\n4. 如果客户看重“进口品牌”，建议组合：**新奇士柑橘+爱妃苹果+Driscoll's莓果**，比单一品牌更有礼品层次。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 479,
+    "total_tokens": 542,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

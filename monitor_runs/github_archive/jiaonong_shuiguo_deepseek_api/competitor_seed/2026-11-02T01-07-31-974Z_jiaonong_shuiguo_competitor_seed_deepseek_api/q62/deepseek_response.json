@@ -1,0 +1,28 @@
+{
+  "id": "70ca8d29-fefa-469b-bc9c-61999f725f02",
+  "object": "chat.completion",
+  "created": 1793582073,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要按“供应商资质+批次检测”来确认，不能只看品牌。\n\n**结论**\n- **都乐、鑫荣懋通常能提供农残检测报告**，但一般是：公司/供应商资质文件 + **对应批次的出厂检测报告或第三方检测报告**。\n- 茶饮店采购时应要求：**报告上的品名、批次号、生产/采收日期、供应商名称与到货批次一致**；否则报告不能作为该批原料的有效证明。\n- 若用于门店食安审核，建议明确要求：**GB 2763 农残项目检测**，优先要**第三方 CMA/CNAS 报告**；至少要有**批次出厂检验报告**。\n\n**可执行做法**\n1. 向都乐/鑫荣懋对接人书面提出：“请提供本批次菠萝的农残检测报告，报告需含批次号，检测依据 GB 2763，第三方报告优先。”\n2. 收货时核对：报告批次号 = 送货单批次号 = 实物标签批次号。\n3. 若对方只给“通用报告/年度报告”，要求补**本批次报告**，或自行送检留样。\n4. 合同/采购单里写明：随货提供批次农残检测报告，报告不符可拒收。\n\n**注意**\n我无法核验都乐和鑫荣懋当前具体批次是否已出报告，最终以供应商实际提供的批次文件为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 307,
+    "total_tokens": 372,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
