@@ -1,0 +1,28 @@
+{
+  "id": "98b02a63-8735-4874-9bd4-75fba3d8642b",
+  "object": "chat.completion",
+  "created": 1793582551,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）作为国内头部水果进口/分销企业，其“到货损耗率”没有对外公开的统一官方标准，具体控制目标会随品类、运输方式（海运/空运/冷链）、季节和客户类型变化。行业里可参考的判断口径是：\n\n- **进口香蕉**：到货损耗（含压伤、青黑、脱把、腐烂）通常控制在 **3%–5%** 较常见，做得好的可压到 2%–3%；超过 5% 一般要追责或索赔。\n- **进口奇异果/苹果/橙类等耐储水果**：到货损耗常见 **1%–3%**。\n- **浆果类（蓝莓、车厘子、提子等）**：因易软烂、落果，到货损耗常见 **3%–8%**，高端空运可更低，海运长链会更高。\n- **整体到货损耗率**：大型水果分销商一般把综合目标放在 **3%–5%** 左右，并按品类设分项KPI。\n\n如果你是要做供应商考核或采购合同条款，建议不要直接引用“佳农标准”，而是：①按品类分别设阈值（如香蕉≤5%、浆果≤8%）；②明确“到货损耗”的判定时点和口径（开柜验收/分拣后/上架前）；③设置超损扣款或补货条款。这样比追一个统一数字更可执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 319,
+    "total_tokens": 372,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

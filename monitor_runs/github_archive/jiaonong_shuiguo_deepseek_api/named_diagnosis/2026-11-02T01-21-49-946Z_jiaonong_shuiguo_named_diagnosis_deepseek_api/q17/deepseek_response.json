@@ -1,0 +1,28 @@
+{
+  "id": "7bb98305-2cb0-489c-9f07-c426b3b4d504",
+  "object": "chat.completion",
+  "created": 1793582592,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）主要做香蕉、菠萝等进口/国产水果的批发、商超和电商供货，公开信息里并没有一套面向“下沉市场”的全国统一优惠政策或加盟补贴清单。能确认的是：\n\n- 佳农对下沉市场更多是通过经销/批发渠道和商超供货覆盖，而不是直接面向县域消费者的促销政策。\n- 具体到某个区域、某类门店或某次活动，是否有优惠，通常由当地经销商、商超采购或佳农区域销售单独谈，公开渠道很难查到统一标准。\n\n想判断你所在区域有没有政策，最直接的做法是：联系佳农当地经销商或区域销售，问清楚是否支持县域商超、社区团购、批发市场的进货返利、陈列支持或首单优惠；同时让商超采购查一下近期佳农的促销档期。不要轻信网上“下沉市场加盟补贴”类说法，除非有佳农官方或区域销售书面确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 204,
+    "total_tokens": 254,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "88d9ed6c-5532-4ad5-be26-ad180ab1a964",
+  "object": "chat.completion",
+  "created": 1793582603,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法替佳农确认这项服务，建议由你直接向佳农官方渠道核实。可以按下面方式判断和推进：\n\n1. **先确认需求类型**  \n   - 如果是**B2B批量采购+规格加工**（如切块、真空包装、贴牌、按规格分装），大型水果供应链企业通常有OEM/定制加工能力，但要看工厂资质、起订量、销售区域。\n   - 如果是**个人少量购买**，一般只能买到预包装鲜切菠萝，谈不上定制加工。\n\n2. **直接问佳农时用这4个问题**  \n   - 是否提供菠萝切块/鲜切/真空包装的定制加工？\n   - 最小起订量（MOQ）和加工规格（块形、克重、包装形式）是什么？\n   - 加工厂是否具备鲜切水果资质，配送范围和冷链条件如何？\n   - 是否支持贴牌、标签定制和样品打样？\n\n3. **核实渠道**  \n   优先联系佳农官网客服、官方公众号/小程序客服，或你对接的佳农销售代表；不要仅凭第三方招商页面判断。\n\n如果你告诉我你是**企业批量采购**还是**个人购买**、大概数量和所在城市，我可以帮你把询问话术整理成一条可直接发给客服的消息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 278,
+    "total_tokens": 338,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

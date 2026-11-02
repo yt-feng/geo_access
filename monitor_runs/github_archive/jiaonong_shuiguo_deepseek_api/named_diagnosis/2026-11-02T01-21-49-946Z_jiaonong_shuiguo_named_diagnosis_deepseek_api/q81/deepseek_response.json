@@ -1,0 +1,28 @@
+{
+  "id": "93fc1582-e9e3-4c1e-ae29-80ef544afc1a",
+  "object": "chat.completion",
+  "created": 1793582921,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个具体规格我没法核实，不能给你确认“3kg香蕉装”是否存在。建议你直接按下面方式确认，最快也最稳：\n\n1. **问佳农当地经销商/业务员**：直接问“便利店小包装SKU清单”，重点要：香蕉、苹果、橙子等常温和冷藏分别有哪些 **1kg/2kg/3kg/盒装/袋装** 规格。\n2. **看佳农官方渠道**：佳农官网、官方公众号、京东/天猫旗舰店，通常能看到部分零售包装规格，但便利店渠道专供SKU不一定上线。\n3. **要求提供电子版产品目录**：让业务员发 **SKU表+箱规+最小起订量+保质期+建议零售价**，你按门店面积筛选。\n4. **小包装替代思路**：如果3kg香蕉没有，可考虑 **1.5kg/2kg袋装香蕉、单根/小把预包装、盒装水果**；小门店更适合“小规格+高频补货”，而不是大箱规。\n\n给你一个可执行的判断标准：便利店香蕉优先选 **单把/1—2kg预包装**，3kg对多数小店偏大，损耗风险高。你可以先让佳农业务员报 **小包装SKU和箱规**，再决定上架组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 287,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
