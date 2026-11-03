@@ -1,0 +1,28 @@
+{
+  "id": "99d08919-2ed7-48e6-8278-4a7b63be2f6d",
+  "object": "chat.completion",
+  "created": 1793675771,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能确认鑫荣懋或洪九果品是否对外提供“香蕉锁价/保价”机制，也不能核验这两家的具体商务政策；这类信息应以对方销售或合同条款为准，不宜凭公开印象下结论。\n\n可执行建议：\n1. 直接向两家销售询价时，明确问四个条款：是否可锁价、锁价周期（如7/15/30天）、保证金或预付款比例、逾期未提货/违约处理。\n2. 要求书面报价单写明：基准价来源（如市场均价/到岸价/产地价）、调价触发条件、锁价上限量、运费与损耗承担。\n3. 锁价前做小批量试单，核对到货品质、扣重和结算是否与锁价条款一致。\n4. 若两家均不提供标准锁价，可谈“分批点价+价格上限”或“基差合同”，比一次性锁死更易落地。\n\n判断标准：只有对方在报价单或合同中书面确认锁价周期、价格公式和违约条款，才算真正提供；口头“可以保价”不算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 238,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

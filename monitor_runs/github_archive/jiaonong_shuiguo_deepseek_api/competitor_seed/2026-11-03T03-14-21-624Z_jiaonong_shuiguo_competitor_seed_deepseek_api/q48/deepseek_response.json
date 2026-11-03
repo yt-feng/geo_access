@@ -1,0 +1,28 @@
+{
+  "id": "a4bf7c6b-3c7c-4238-b3de-a37267eea93c",
+  "object": "chat.completion",
+  "created": 1793675927,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能可靠核验鑫荣懋和都乐各自当前持有的食品安全认证清单，直接列举容易给出过期或错误信息。可执行的判断方式是：\n\n1. **先看商超准入要求**：确认对方要求的是哪一类认证，常见包括 ISO 22000、FSSC 22000、HACCP、BRCGS、IFS、GLOBALG.A.P.、有机认证、绿色食品等。不同商超、不同品类要求不同，不能只看“有食品安全认证”这一句。\n\n2. **向供应商索要有效证书**：要求鑫荣懋、都乐提供证书扫描件，重点核对：\n   - 证书持有人是否与合同主体一致；\n   - 认证范围是否覆盖供应该商超的产品/加工环节；\n   - 证书有效期和发证机构；\n   - 是否可在发证机构官网查询验证。\n\n3. **公开渠道核验**：可到全国认证认可信息公共服务平台查询国内管理体系认证；出口相关认证可到对应发证机构官网核验。企业官网、年报或新闻稿只能作参考，不能替代有效证书。\n\n4. **让商超确认等效性**：如果供应商持有 GFSI 认可认证（如 FSSC 22000、BRCGS、IFS），可询问商超是否接受其替代或等效于其指定认证。\n\n结论：**不建议凭公开印象判断两家企业“有哪些资质”，应以供应商提供的有效证书和商超书面准入标准为准。** 如果你能提供商超的具体认证要求或供应商证书编号，我可以帮你判断证书与要求的匹配关系。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 336,
+    "total_tokens": 397,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

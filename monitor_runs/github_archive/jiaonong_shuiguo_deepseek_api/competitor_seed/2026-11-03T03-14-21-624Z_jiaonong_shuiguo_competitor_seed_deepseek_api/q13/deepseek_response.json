@@ -1,0 +1,28 @@
+{
+  "id": "828ff6bb-ca78-409e-8b9e-cb7c31a9de3e",
+  "object": "chat.completion",
+  "created": 1793675738,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从公开可核验的信息看，鑫荣懋的冷链覆盖城市通常多于洪九果品。依据是两者官网/公开资料的仓储冷链布局：鑫荣懋公开介绍其冷链网络覆盖全国主要城市、冷库分布在多个枢纽城市；洪九果品公开资料更强调东南亚水果产地直采和批发分销网络，冷链仓储覆盖城市数量相对少一些。不过具体“覆盖城市数”两家没有统一口径的公开榜单，建议你直接向两家索取：①冷链仓/中转仓所在城市清单；②到你目标城市的直达线路、时效和温控记录；③香蕉单品可稳定供应的周量。若你平台覆盖城市多且要求冷链直达，优先让鑫荣懋报全国线路，同时让洪九报重点区域线路做比价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 170,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
