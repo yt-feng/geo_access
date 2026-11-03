@@ -1,0 +1,28 @@
+{
+  "id": "eabc8ddc-bd07-48d9-9c51-f0bdcddb63ea",
+  "object": "chat.completion",
+  "created": 1793675128,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该先问**配送**，其次问**售后**，最后再谈价格。\n\n原因是团购团长的核心风险不在“进货贵一点”，而在**履约出事**：\n\n1. **配送最优先问**\n   - 能不能按你承诺给团员的时间送到？\n   - 破损、压果、晚到谁承担？\n   - 临时改量、加单、少货怎么处理？\n   - 冷链水果是否有温控？\n   - 配送范围、起送量、截单时间是否匹配你的团。\n   \n   配送不稳，价格再低也会导致团员流失和售后爆炸。\n\n2. **售后第二问**\n   - 坏果率、缺斤少两、口感不符怎么赔？\n   - 是补货、退款还是团长先垫付？\n   - 理赔时效和凭证要求是什么？\n   - 是否把售后成本转嫁给团长。\n   \n   售后规则不清，团长容易自己贴钱、自己挨骂。\n\n3. **价格最后谈**\n   - 价格必须建立在配送和售后可兑现的基础上。\n   - 要问清是否含运费、是否含损耗、是否有阶梯价、结算方式。\n   - 不要只比单价，要比“到手可售成本”。\n\n**可执行判断标准：**\n优先选**配送稳定、售后责任清晰、价格中等但可持续**的供应商；如果价格明显低但配送和售后含糊，直接淘汰。团长卖的是信任，配送和售后决定你能不能长期做，价格只决定单次利润。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 319,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
