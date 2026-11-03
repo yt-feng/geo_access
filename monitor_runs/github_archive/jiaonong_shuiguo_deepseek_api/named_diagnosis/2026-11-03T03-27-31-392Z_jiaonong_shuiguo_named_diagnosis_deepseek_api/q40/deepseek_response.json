@@ -1,0 +1,28 @@
+{
+  "id": "4873f467-a60b-40ae-b3e1-a91c3158b3e3",
+  "object": "chat.completion",
+  "created": 1793676645,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开信息里能确认的是：佳农在菠萝品类上有B端供应能力，常见形式包括鲜切菠萝、整果/去皮整果、冷冻菠萝块等，通常可按餐饮客户需求做规格、包装和稳定供货方案。但“专门面向餐饮渠道的成套菠萝解决方案”是否有正式产品线名称、具体SKU和定制服务，我无法凭现有信息核验，不建议直接当作确定结论。\n\n可执行的判断方式：\n1. 直接联系佳农官方客服或当地经销商，问四个点：是否有餐饮专供SKU、最小起订量、鲜切/冷冻规格、配送冷链与账期。\n2. 要求提供餐饮渠道案例或样品测试，重点看甜度/酸度稳定性、出成率、解冻或鲜切保鲜时长。\n3. 若用于饮品、烘焙、沙拉、热菜等不同场景，分别索要对应规格，避免只用“菠萝”一个品类沟通。\n\n所以结论是：佳农大概率具备餐饮菠萝供应能力，但是否有正式“餐饮渠道菠萝解决方案”，需向官方核验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 229,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1f588aab-601d-4963-b66b-7e87e765d629",
+  "object": "chat.completion",
+  "created": 1793676527,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（上海佳农食品）公开披露中通常强调“产地直采/产地直供”模式，但**具体“产地直供比例”没有稳定、可核验的公开数字**，不同年份、品类和口径（直采金额占比、直供门店占比、是否经加工/分选中心）差异很大，不能给一个确定百分比。可判断的是：它在香蕉、菠萝等品类上确实以产地采购和海外直采为主要卖点，但“比例高不高”要看其最新年报/招股书或官方新闻稿的口径。\n\n香蕉方面，佳农公开宣传中常见来源国包括：**厄瓜多尔、菲律宾、越南、柬埔寨、泰国、哥伦比亚、哥斯达黎加**等；其中厄瓜多尔和菲律宾是较常被提到的香蕉供应国。具体到某一年度以哪国为主，需看其官方披露或海关/行业数据，不能凭印象定论。\n\n可执行建议：查佳农食品官网“新闻/投资者关系”、其母公司或上市相关文件中的“产地直采比例”表述；若需要采购判断，直接向佳农销售索取**分品类、分国家的直采证明和当季供应国清单**，比看宣传口径更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 266,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

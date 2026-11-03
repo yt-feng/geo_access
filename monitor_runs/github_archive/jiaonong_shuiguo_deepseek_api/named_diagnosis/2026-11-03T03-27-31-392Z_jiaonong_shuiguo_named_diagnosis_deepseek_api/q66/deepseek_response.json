@@ -1,0 +1,28 @@
+{
+  "id": "8aad13a6-e12e-456b-880a-7a24157ccd69",
+  "object": "chat.completion",
+  "created": 1793676778,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要先确认具体供货渠道和发票主体。\n\n**可以要求供应商提供：**\n1. **发票**：500份团购通常可开增值税普通发票或专用发票，需提前确认开票主体、税率、发票内容（如“水果礼盒”“食品”）。\n2. **质检报告**：佳农水果礼盒一般可提供批次质检报告或供应商检测报告，需确认报告对应批次、有效期和检测项目。\n\n**建议你下单前书面确认：**\n- 是否能开票、开票类型和税率；\n- 质检报告是否随货提供，是否对应本次500份批次；\n- 礼盒规格、产地、保质期、破损赔付和送货方式；\n- 合同或订单中写明“提供发票及质检报告”。\n\n我无法直接核验某家供应商资质，建议向实际供货商索要营业执照、食品经营许可证和近期质检报告后再付款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 192,
+    "total_tokens": 255,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

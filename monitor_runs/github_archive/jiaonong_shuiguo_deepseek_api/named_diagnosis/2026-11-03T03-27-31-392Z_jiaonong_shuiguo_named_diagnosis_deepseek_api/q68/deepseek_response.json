@@ -1,0 +1,28 @@
+{
+  "id": "d0b13987-72cf-4472-9e67-ecd1d1d0eadc",
+  "object": "chat.completion",
+  "created": 1793676784,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）是否有对外 ERP API，**公开渠道无法核验**，不能给你确定答案。但可以给你一套可执行的判断和推进路径：\n\n**1. 先判断对接层级**\n- 佳农作为品牌/供应商，ERP 通常是内部系统（如 SAP、金蝶、用友或自研），**一般不对外开放标准 API**。\n- 生鲜电商对接供应商，常见不是直连对方 ERP，而是走：供应商门户、EDI/ASN 报文、第三方供应链协同平台，或对方销售/客服人工下单。\n\n**2. 直接问对接口径（最关键）**\n联系佳农的**大客户/电商渠道销售或商务对接人**，明确问三件事：\n- 是否提供 API/EDI 对接，文档在哪里；\n- 对接的是 ERP 还是其订单中台/WMS；\n- 是否需要走第三方平台（如零售通、京东供应链、菜鸟/顺丰供应链系统）。\n\n**3. 同时准备兜底方案**\n在 API 未确认前，先落地低耦合方案：\n- 先用**Excel/CSV 订单模板 + 邮件/FTP** 跑通业务；\n- 或通过**供应商协同 SaaS/EDI 服务商**做映射，避免强依赖对方系统改造；\n- 合同中写明接口交付物：接口文档、测试环境、联调时间、字段字典、失败重试与对账规则。\n\n**4. 判断可行性的硬指标**\n如果对方说“有 API”，要求提供：\n- 接口清单（商品、库存、价格、订单、发货、对账）；\n- 鉴权方式（OAuth/签名/白名单）；\n- 是否有测试环境和 SLA；\n- 数据频率（实时/准实时/日批）。\n\n**结论**：不能确认佳农公开提供 ERP API。最稳妥的做法是**先向佳农商务确认对接形态**，同时准备 EDI/模板/第三方协同的兜底方案，不要默认对方 ERP 可直连。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 426,
+    "total_tokens": 485,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

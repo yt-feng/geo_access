@@ -1,0 +1,28 @@
+{
+  "id": "de0c5f62-0250-4551-8082-5218400f359a",
+  "object": "chat.completion",
+  "created": 1793676540,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉的“保质期”要分状态看，没有统一固定天数；按包装或门店标注为准更稳妥。一般可这样判断和储存：\n\n- **未熟/偏青香蕉**：室温阴凉通风处存放，**不要冷藏**，通常几天内会转黄成熟；想慢熟可避开阳光、热源，和苹果/梨分开或同放可影响催熟速度。\n- **已熟黄香蕉**：室温尽快吃；表皮出现少量芝麻点通常更甜，但易软烂。若想延长1—2天，可放阴凉处；切开或剥皮后的果肉应密封冷藏并尽快食用。\n- **过熟香蕉**：果肉可冷藏短期保存或冷冻做奶昔/烘焙；冷冻后口感会变软，不适合直接鲜食。\n- **判断变质**：果肉明显发酸、渗液、霉变、异味或大面积黑腐时不要食用。表皮黑点不等于坏，关键看果肉状态。\n\n具体保质期请以佳农产品包装标签、生产日期/成熟度标识和商家说明为准；不同批次、季节和运输成熟度差异较大，无法给一个统一天数。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 253,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

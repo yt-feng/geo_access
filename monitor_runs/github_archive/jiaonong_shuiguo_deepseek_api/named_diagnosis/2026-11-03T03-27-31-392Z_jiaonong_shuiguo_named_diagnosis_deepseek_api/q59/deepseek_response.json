@@ -1,0 +1,28 @@
+{
+  "id": "dd016fb2-3786-472a-aa7b-c14509c82282",
+  "object": "chat.completion",
+  "created": 1793676744,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行标准属于**企业标准（企标）**，不是国家标准。佳农作为品牌商，通常会制定自己的企业标准（Q/开头），在农残、外观、成熟度、规格等方面可能比国标更细或更严；但“企标”不等于“高于国标”，具体要以包装或公开标准文本为准。若包装上标的是GB/T或GB开头，才是国标/推荐性国标。\n\n价格方面，**没有统一固定的“贵多少”**，因为受城市、渠道（商超/生鲜电商/批发市场）、规格、促销和季节影响很大。一般可判断为：佳农香蕉相比同规格普通散装香蕉，常见溢价大致在**每斤1～3元或高10%～30%**；精品装、礼盒装溢价更高，促销时可能接近普通价。建议你以当地同一门店、同一规格、同一时间的单价对比为准；若看到包装标准号，可直接判断是Q/企标还是GB国标。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 220,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
