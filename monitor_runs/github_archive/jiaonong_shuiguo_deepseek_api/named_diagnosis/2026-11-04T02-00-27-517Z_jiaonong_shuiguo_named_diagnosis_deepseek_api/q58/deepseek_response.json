@@ -1,0 +1,28 @@
+{
+  "id": "3016e21b-487d-4807-bb8d-ca7def9b5ed0",
+  "object": "chat.completion",
+  "created": 1793757917,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法直接核实佳农当前的加工服务范围，不能给确定答复。给你一个可执行判断路径：\n\n1. **先联系佳农官方渠道确认**：找佳农（上海佳农/佳农食品控股）官网、官方客服或当地经销商，问三个具体问题：①菠萝丁是否可供应；②是自有工厂切丁还是委托代工；③最小起订量、规格（尺寸/糖度/冷冻或冷藏）、包装形式和价格。\n2. **从产品线判断可能性**：佳农以香蕉、菠萝等鲜果贸易为主，是否提供菠萝丁加工服务因渠道和工厂而异，不能默认整果商一定做切丁。若对方只卖整果，可问是否有合作代加工厂或推荐客户。\n3. **同步找替代方案**：联系本地冷冻水果/果酱/果脯加工厂做代切，或找餐饮供应链平台询“冷冻菠萝丁”现货，避免单一供应商卡住。\n4. **样品和资质先行**：确认供应商能提供样品、检验报告和稳定供货能力，再谈价格。\n\n建议你今天直接打佳农官方客服问“菠萝丁/冷冻菠萝丁是否供应、起订量和规格”，这是最快能判断的。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 262,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

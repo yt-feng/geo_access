@@ -1,0 +1,28 @@
+{
+  "id": "686c7883-2553-4fbb-b6c5-1a62663d22e5",
+  "object": "chat.completion",
+  "created": 1793757850,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）的具体账期政策属于其与客户单独约定的商务条款，公开渠道没有可信的统一标准，我无法核验“最长能到多久”。通常生鲜水果行业对新客户首单多要求款到发货或预付，30天账期属于较宽松条件，一般需老客户、稳定采购量或授信审批才可能给到。建议直接向对接的佳农销售/区域经销商确认，并准备好营业执照、采购规模、结算方式、担保或信用资料；首单可先谈“部分预付+尾款短账期（如7—15天）”作为折中。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 138,
+    "total_tokens": 202,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

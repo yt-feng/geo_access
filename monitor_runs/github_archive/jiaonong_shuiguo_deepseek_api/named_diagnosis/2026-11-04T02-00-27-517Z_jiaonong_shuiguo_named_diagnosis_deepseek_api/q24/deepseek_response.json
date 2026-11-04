@@ -1,0 +1,28 @@
+{
+  "id": "2baa17dd-0b46-48cb-a423-a5644cdc27a6",
+  "object": "chat.completion",
+  "created": 1793757746,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）是进博会的常客，多次参展。例如第七届进博会（2024年11月，上海）期间，佳农就在食品及农产品展区设展，展示香蕉、菠萝、牛油果等进口水果及自有品牌产品。更早的几届进博会也有参与记录，属于进博会农产品展区的代表性企业之一。\n\n关于最近的新品，佳农近两年主推的方向包括：\n- 有机香蕉、有机牛油果等有机系列\n- 即食牛油果、小包装鲜切水果等便利化产品\n- 榴莲类产品（如冷冻榴莲果肉、榴莲甜品相关）\n- 蓝莓、车厘子等应季进口单品\n\n不过，具体“最新”新品会随季节和渠道变化，且不同渠道（商超、电商、展会）上架情况不一。建议你通过以下方式确认最新信息：\n1. 关注佳农官方微信公众号或官网的“新品/新闻”栏目；\n2. 查看佳农在天猫、京东旗舰店的“新品”分类；\n3. 若针对进博会，可查进博会官网展商名录中佳农的展品清单。\n\n我无法实时核验其当前最新SKU，以上为公开可查的品牌动态方向，具体以官方渠道为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 283,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

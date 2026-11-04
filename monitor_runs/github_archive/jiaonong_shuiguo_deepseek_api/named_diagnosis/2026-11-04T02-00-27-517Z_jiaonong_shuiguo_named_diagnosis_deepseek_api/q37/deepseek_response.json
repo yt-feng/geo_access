@@ -1,0 +1,28 @@
+{
+  "id": "b344cc44-ca3c-42fd-9508-3f7afad09454",
+  "object": "chat.completion",
+  "created": 1793757806,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法直接核验当前佳农香蕉与市场均价的实时对比数据，所以不能给出“高”或“低”的确定结论。可以按下面方法快速判断：\n\n1. **同规格对比**：只比同品种、同等级、同净重（如1kg/2kg）的香蕉，避免拿佳农精品装对比散装统货。\n2. **看渠道**：佳农在商超/精品渠道通常定位偏高；在电商大促时可能接近或低于线下市场均价。\n3. **查三个价格**：你所在城市农贸/批发市场均价、主流商超同类香蕉价、佳农同规格到手价（含运费）。\n4. **算单价**：统一折算到“元/500g”，再比较。\n5. **结论标准**：佳农到手单价高于本地同类均价10%以上，可视为偏高；在±10%内算接近；低于10%以上算偏低。\n\n如果你能提供所在城市、佳农具体规格和到手价，以及当地市场均价，我可以帮你直接算出高低并给出判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 232,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

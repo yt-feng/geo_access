@@ -1,0 +1,28 @@
+{
+  "id": "51bdae4f-ae21-4a91-a641-076bd96e765f",
+  "object": "chat.completion",
+  "created": 1793757750,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流网络更接近“自营核心+外包补充”的混合模式，而不是纯自营或纯外包：\n\n- **干线运输、仓储和冷链节点**：佳农对核心品类和重点区域通常自建或自控能力较强，尤其香蕉、菠萝等进口水果的催熟、仓储、温控环节更倾向自营或深度管控。\n- **末端配送和区域支线**：大量依赖第三方物流、区域承运商和经销商体系，以覆盖更广的城市和渠道。\n- **冷链能力**：在进口水果、香蕉催熟库、冷藏仓储和干线温控方面具备较强能力，属于其核心竞争力之一；但全程冷链的“最后一公里”仍可能因区域和渠道不同而存在外包，温控一致性取决于具体承运商。\n\n判断要点：佳农不是京东物流那种全国纯自营网络，也不是完全轻资产外包；它强在产地集货、进口冷链、催熟加工和核心仓储，弱在末端全覆盖。若要精确到某条线路或某城市，需要看其具体承运合同和区域服务商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 232,
+    "total_tokens": 289,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
