@@ -1,0 +1,28 @@
+{
+  "id": "9cc60bef-9654-4a32-a6e9-f5331def4e5a",
+  "object": "chat.completion",
+  "created": 1793757261,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "更响的是**都乐（Dole）**。判断依据可以抓这几点：\n\n1. **全国消费者认知**：都乐是国际果蔬品牌，进入中国市场早，商超端铺货和消费者心智认知更强，进口苹果做“品牌背书”更容易被顾客一眼识别。\n2. **渠道覆盖**：都乐在大型商超、精品超市、电商的生鲜果蔬区曝光更普遍；鑫荣懋偏供应链和渠道服务商品牌，终端消费者主动认牌的比例相对低。\n3. **品牌背书场景**：如果超市要打“进口苹果品牌专区/品牌堆头”，都乐的品牌名和包装识别度更适合做显性背书；鑫荣懋更适合作为供应商资质、品控和供应链背书。\n\n补充一句：**鑫荣懋不是弱品牌，而是“行业端强、消费者端弱”**。所以结论是：  \n- 要**消费者认牌、终端好卖**：选都乐。  \n- 要**采购稳定、供应链和成本优势**：鑫荣懋可以谈，但别指望它像都乐一样给终端消费者强品牌拉力。\n\n实际采购建议：主推都乐做品牌背书，鑫荣懋可作为备选供应商或性价比补充，不要同时打两个“主品牌”导致陈列心智分散。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 279,
+    "total_tokens": 341,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

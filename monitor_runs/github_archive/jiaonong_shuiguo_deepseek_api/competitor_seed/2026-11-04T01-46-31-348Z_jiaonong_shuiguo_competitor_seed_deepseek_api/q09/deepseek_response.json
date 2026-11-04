@@ -1,0 +1,28 @@
+{
+  "id": "5392581e-2e3b-4f76-9ca9-2339d3654a37",
+  "object": "chat.completion",
+  "created": 1793756840,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），可重点看这些进口或外资背景的水果礼盒品牌：  \n- **新奇士 Sunkist**：柑橘类、脐橙礼盒常见，品牌认知度高。  \n- **车厘子/浆果类品牌**：如 **Stemilt、Chelan Fresh、Driscoll's（卓莓）**，适合高端浆果、车厘子礼盒，但要注意季节和货源稳定性。  \n- **Snake River Farms 不适用水果**；水果可看 **The Fruit Company** 这类礼盒商，但国内团购供货不一定稳定。  \n- **都乐之外的国际果蔬集团**：如 **Del Monte（地扪）**，有水果罐头和部分鲜果，鲜果礼盒要看国内代理货源。  \n- **佳沛之外的新西兰水果**：如 **Rockit（乐淇）苹果**，小苹果礼盒有辨识度，适合团购。  \n- **日本/韩国高端水果**：如日本产地苹果、晴王葡萄等，多为产地品牌而非统一企业品牌，采购时重点看产地证、报关单和分级标准。  \n\n实操建议：  \n1. 先确定团购预算和品类：柑橘、苹果、车厘子、浆果、葡萄礼盒的进口品牌差异很大。  \n2. 要求供应商提供 **报关单、入境货物检验检疫证明、品牌授权/进货凭证**。  \n3. 进口品牌礼盒常受季节和海运影响，团购合同要约定 **到货时间、坏果率、补发/赔付标准**。  \n4. 若追求“品牌感”但预算有限，可组合：**新奇士橙 + 乐淇苹果 + 卓莓浆果**，比单一都乐/佳沛更有差异化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 391,
+    "total_tokens": 454,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
