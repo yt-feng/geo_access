@@ -1,0 +1,28 @@
+{
+  "id": "bbb98fab-45f0-44cb-adbc-1e4920225cf5",
+  "object": "chat.completion",
+  "created": 1793844434,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农官方产品目录和规格，不能确认“佳农菠萝”是否供应冷冻菠萝丁及具体规格。建议按以下方式快速确认，避免采购误判：\n\n1. **直接找佳农官方渠道核实**\n   - 让供应商提供：产品名称（冷冻菠萝丁/速冻菠萝丁）、配料表、是否加糖、原产地、执行标准、SC编号。\n   - 索要**最新规格书和检测报告**，不要只凭口头或宣传页。\n\n2. **采购时重点确认这些规格**\n   - 丁的尺寸：常见有 **8×8mm、10×10mm、15×15mm、20×20mm** 等，茶饮店做果肉感一般常用 10×10mm 或 15×15mm。\n   - 包装：常见 **1kg/袋、2.5kg/袋、10kg/箱** 等，以供应商实际规格书为准。\n   - 状态：IQF单体速冻还是整袋冻结，是否结块。\n   - 工艺：是否糖渍/糖保脆、是否含防腐剂、解冻后出水率。\n   - 储运：-18℃冷冻，冷链到店。\n\n3. **先小样测试再定**\n   - 要求寄 **1–2kg样品**，测试解冻后色泽、酸甜度、出汁率、丁形完整度、与茶底搭配后的口感。\n   - 确认到货是否易结块、是否有冰霜、包装是否破损。\n\n4. **如果你能提供佳农具体产品名/包装图/供应商联系方式**，我可以帮你判断规格信息是否齐全、采购合同要写哪些验收指标。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 367,
+    "total_tokens": 429,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

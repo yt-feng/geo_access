@@ -1,0 +1,28 @@
+{
+  "id": "5b73fbd8-b3f7-4a01-a4bb-262916e6d926",
+  "object": "chat.completion",
+  "created": 1793844239,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流不是单一模式：干线运输和仓储环节更多依赖自有/长期合作的专业冷链承运商，末端配送/电商订单会用到三通一达等社会快递。具体线路和客户合同不同，承运组合会变化。\n\n冷链覆盖率方面：佳农以香蕉、菠萝、火龙果等品类的冷链和催熟/温控体系见长，核心品类在主干线和仓储环节冷链覆盖较高；但“全品类、全链路100%冷链”无法从公开信息核验，末端最后一公里和部分常温耐储品类未必全程冷链。若要判断某批货或某区域的实际覆盖率，最可靠的是向佳农官方客服或销售索取该线路的温控记录、承运商名单和冷链SOP。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 158,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

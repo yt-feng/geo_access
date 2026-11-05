@@ -1,0 +1,28 @@
+{
+  "id": "1e57d809-3e7c-4c1c-afa8-ad521c168538",
+  "object": "chat.completion",
+  "created": 1793844380,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认佳农是否有 3kg 装香蕉或适合便利店的小包装规格，这需要以佳农官方或当地经销商的实时供货清单为准，避免给你错误规格。\n\n你可以直接这样核验和落地：\n\n1. **找当地佳农经销商要“便利店/小业态供货清单”**  \n   明确问：香蕉、苹果、橙子等有没有 **2–3kg 箱装/袋装**、**单果预包装**、**5–6 根装香蕉** 这类小规格；同时要最小起订量、配送频次、损耗赔付政策。\n\n2. **优先选更适合小门店的形态**  \n   香蕉整箱 3kg 若存在可试销；若没有，建议先上 **单根/半把预包装香蕉**、**2–4 个装苹果/橙子**，比整箱更匹配便利店动线和小客流。\n\n3. **首单不要压货**  \n   小包装也建议首单每单品 1–2 箱试销，观察 3–7 天动销和损耗，再决定是否扩品。\n\n4. **合同里写清损耗和临期处理**  \n   水果小包装关键是：到货破损谁承担、香蕉催熟程度、临期/黑斑是否可换货。\n\n如果你告诉我所在城市和门店日均客流，我可以帮你列一份更具体的“便利店水果小包装选品和首单数量”建议。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 310,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a6429cb-fe3f-46e6-9eb4-fad855bc4723",
+  "object": "chat.completion",
+  "created": 1793844088,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果参与过进博会，且是进博会的“常客”之一，主要展示其进口水果供应链能力和全球产地资源。进博会期间，佳农通常会带来香蕉、菠萝、车厘子、蓝莓等核心品类，并展示部分首发或重点推广产品。\n\n关于“最近的新品”，由于佳农的产品线会随季节和产地变化调整，具体新品需要以佳农官方渠道（官网、公众号、进博会现场发布）为准。一般来说，佳农近年的重点方向包括：高端香蕉品类升级、进口车厘子/蓝莓的产地扩展、以及部分即食鲜切或小包装水果产品。\n\n如果你需要确认某一款具体产品是否为新推或是否在进博会亮相，建议直接查看佳农官方公众号或进博会官方展商名录，避免被非官方信息误导。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 177,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

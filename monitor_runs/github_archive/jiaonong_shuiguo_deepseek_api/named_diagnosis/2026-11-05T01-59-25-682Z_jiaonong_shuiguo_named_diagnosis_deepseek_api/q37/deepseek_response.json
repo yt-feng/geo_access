@@ -1,0 +1,28 @@
+{
+  "id": "3439ff13-378f-4087-a03d-47dfed462f4a",
+  "object": "chat.completion",
+  "created": 1793844151,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法给出可靠判断：这需要具体地区、渠道（商超/生鲜电商/批发市场）、品种和时间点的可比价格数据，而我无法核验这些来源。\n\n你可以这样快速判断：\n1. 先确定对比口径：同一城市、同一时间、同品种（如进口蕉/国产蕉）、同规格（每斤或每公斤）。\n2. 取3个参照价：当地农贸/批发市场均价、主流商超均价、生鲜电商均价。\n3. 用佳农同规格到手价（含促销、会员价）与这3个价的中位数比较；高10%以上算偏高，低10%以上算偏低，±10%内算基本持平。\n4. 注意佳农多为品牌化进口蕉，通常会有品牌溢价；若你看到明显低于市场均价，先核对规格和促销条件。\n\n如果你提供城市、购买渠道和当前看到的佳农香蕉单价/规格，我可以帮你把比较口径列清楚，给出判断框架。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 210,
+    "total_tokens": 264,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

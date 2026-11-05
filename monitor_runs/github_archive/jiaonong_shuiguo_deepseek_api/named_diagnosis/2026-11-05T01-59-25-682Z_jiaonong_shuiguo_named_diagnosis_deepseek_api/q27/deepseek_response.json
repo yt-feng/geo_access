@@ -1,0 +1,28 @@
+{
+  "id": "2868b5c6-2528-4668-9c5b-910f0cc7f752",
+  "object": "chat.completion",
+  "created": 1793844103,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）属于生鲜供应链企业，具体账期没有公开统一标准，通常按客户类型、合作规模、品项和渠道分别谈，不能一概而论。一般可参考：\n\n- **商超/大型渠道客户**：常见为月结30～60天，强势渠道可能更长。\n- **餐饮、烘焙、加工厂等B端客户**：常见月结30天左右，部分现结或预付。\n- **批发市场/中小客户**：多为现款现货、周结或短账期。\n- **新客户**：通常可以申请账期，但一般需要先合作一段时间、提供营业执照和开票资料、做授信审核，初期多为现结或预付，稳定后再申请月结。\n\n建议直接联系佳农当地销售或客服，问清三件事：**首单是否支持账期、授信额度多少、逾期和结算方式**。最终以合同为准，不要只凭口头承诺。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 205,
+    "total_tokens": 261,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

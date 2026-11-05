@@ -1,0 +1,28 @@
+{
+  "id": "e024368d-3d0b-474e-a2ab-ba74591cdc8c",
+  "object": "chat.completion",
+  "created": 1793844225,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法直接给出佳农（Goodfarmer）当前定制礼盒的准确最小起订量和logo印制政策，因为这类信息随渠道、品类、季节和合作方式变化较大，需要以官方或授权经销商的实时报价为准。\n\n可以按下面方式确认，效率最高：\n\n1. **找对渠道**\n   - 佳农官方客服/官网“团购/企业采购”入口；\n   - 佳农在当地的授权经销商；\n   - 大型商超/生鲜平台的团购负责人（他们常能对接品牌方定制）。\n\n2. **一次问清这几个关键点**\n   - 定制礼盒的**最小起订量**（按盒/箱/金额）；\n   - 是否支持**印公司logo**，以及印制方式（礼盒外箱、手提袋、贴纸、内卡）；\n   - **logo文件要求**（矢量文件、色彩、尺寸）；\n   - **打样费、版费、打样周期**；\n   - **包装定制加价**和**起订量是否因水果品类不同而变化**；\n   - **交货周期、冷链/配送范围、破损赔付**。\n\n3. **判断建议**\n   - 如果对方说“可以印logo”，一定追问是**印在礼盒上**还是只贴不干胶；前者通常有版费和更高起订量。\n   - 团购量较小时，优先考虑**品牌标准礼盒+定制腰封/贴纸/手提袋**，起订量通常更低。\n   - 要求对方把起订量、logo工艺、费用、交期写进报价单，避免口头承诺。\n\n如果你告诉我大概采购数量、所在城市和预算，我可以帮你判断哪种定制方式更现实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 367,
+    "total_tokens": 433,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

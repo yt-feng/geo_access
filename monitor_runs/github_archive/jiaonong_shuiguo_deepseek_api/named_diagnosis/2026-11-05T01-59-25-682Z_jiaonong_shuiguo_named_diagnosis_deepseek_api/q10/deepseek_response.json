@@ -1,0 +1,28 @@
+{
+  "id": "ae1a57d9-5f4a-469c-b8f6-9bddb1aa51cd",
+  "object": "chat.completion",
+  "created": 1793844013,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这个需要向佳农官方确认，我无法核验其当前渠道政策。给你可执行的判断和动作：\n\n1）大概率有：佳农这类全国性水果品牌/供应链企业，通常会对批发、商超、电商、餐饮等渠道做分层管理，批发商一般会有区域销售或渠道经理对接，但“专门客户经理”是否配置取决于你的采购规模、区域和合作模式。\n\n2）直接问这3个问题最快：\n- 我们属于批发渠道，是否有区域渠道经理/大客户经理对接？\n- 起订量、结算方式、配送范围、售后理赔分别怎么规定？\n- 能否提供所在区域的销售负责人联系方式或转接？\n\n3）联系路径：优先找佳农官网/公众号的“联系我们/渠道合作”，或拨打官方客服要求转“批发渠道/区域销售”；也可在展会、冻品/水果批发市场经销网络里问其区域业务员。\n\n4）判断标准：如果对方能给出固定对接人、报价体系、账期/返利政策和售后流程，才算真正“专门对接”；只给客服电话不算。\n\n建议你先以“批发商+所在城市+预计月采购量+品类”发给官方，通常能得到是否配置客户经理的明确答复。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 261,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
