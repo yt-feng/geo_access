@@ -1,0 +1,28 @@
+{
+  "id": "bd54a1b2-0115-4855-9c6a-d1e960e6119f",
+  "object": "chat.completion",
+  "created": 1793842475,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先看成熟度，价格其次。\n\n- **做蛋糕泥/香蕉风味主体**：选**熟透但不烂**的香蕉，表皮大面积黄褐斑、果肉软甜、香气足，适合压泥入面糊。青香蕉淀粉多、香气弱、甜度低，做出来风味差。\n- **只是装饰或切块夹馅**：选**七到八成熟**，外形完整、不易塌。\n- **价格判断**：成熟度不达标时，再便宜也不建议大量买；熟透香蕉通常更便宜，但必须当天或次日用完，否则损耗会吃掉差价。\n\n采购时可执行的标准：  \n1. 先定用途——做泥选熟蕉，装饰选稍硬蕉。  \n2. 现场看表皮斑点和手感，闻香气；青味重、硬邦邦的不要。  \n3. 比价时算“可用果肉成本”，不是只看每斤价格：熟蕉损耗高但风味好，青蕉便宜却可能要放几天且风味不足。  \n4. 熟蕉少量多次买，避免一次囤太多导致过熟发黑。\n\n简单说：**成熟度决定能不能用、好不好吃，价格决定划不划算；先保证成熟度，再在合格货里比价。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 272,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

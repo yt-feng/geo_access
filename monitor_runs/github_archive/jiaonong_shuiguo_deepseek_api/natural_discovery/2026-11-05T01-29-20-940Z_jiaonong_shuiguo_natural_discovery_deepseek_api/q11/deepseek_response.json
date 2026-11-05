@@ -1,0 +1,28 @@
+{
+  "id": "33297518-a7ba-48a3-a857-005d707f8017",
+  "object": "chat.completion",
+  "created": 1793842221,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响销售，但影响大小取决于你怎么卖、怎么分级。\n\n**直接判断：**\n- **会明显影响**：如果整箱大小混在一起直接摆卖，顾客会挑大的、剩小的，损耗和投诉都会增加。\n- **影响可控**：如果按大小分级、分价销售，混箱反而能覆盖不同需求。\n\n**建议做法：**\n1. **到货先分级**：大果、中果、小果分开，至少分两档。\n2. **分级定价**：大果卖相好可略高，小果降价或做促销装，避免“挑剩”。\n3. **混箱不混卖**：整箱采购可以，但陈列时不要大小混堆。\n4. **小果走量渠道**：做果切、促销袋、员工福利或低价引流，减少滞销。\n5. **采购时谈标准**：和供应商明确规格区间，长期混箱严重可要求分级供货或调价。\n\n**注意风险：**\n- 大小差异过大，顾客会认为“以次充好”，影响复购。\n- 香蕉成熟度不一致比大小不一致更影响销售，采购时要一起看。\n\n结论：**混箱可以采购，但不能混卖；分级销售能把影响降到最低。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 269,
+    "total_tokens": 324,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

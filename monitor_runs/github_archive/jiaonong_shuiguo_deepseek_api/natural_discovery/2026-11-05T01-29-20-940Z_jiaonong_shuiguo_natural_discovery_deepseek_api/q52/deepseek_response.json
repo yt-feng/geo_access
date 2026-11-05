@@ -1,0 +1,28 @@
+{
+  "id": "c60dccb0-9da7-4343-8713-982418584e76",
+  "object": "chat.completion",
+  "created": 1793842467,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购香蕉时优先选**表皮全黄但两端略带一点青、摸起来结实不软**的；如果到店后要放1–3天，选**黄中带青、肩部（蕉柄附近）还偏绿**的更耐放。不要买已经出现黑点、蕉柄发黑、表皮有压伤或整串过软的。\n\n到店后这样做：\n1. **拆开散放**：去掉塑料袋和扎紧的包装，整串也尽量分开，减少乙烯积聚。\n2. **悬挂或单层平放**：避免堆压，压伤处最先变黑。\n3. **阴凉通风，别冷藏**：未熟或半熟香蕉放冰箱会冻伤变黑；熟透后短期冷藏可以，但皮会变黑，果肉仍可吃。\n4. **远离其他水果**：苹果、梨、猕猴桃等释放乙烯，会催熟香蕉。\n5. **蕉柄包保鲜膜**：减少乙烯从切口释放，可延缓变黑。\n6. **先进先出**：每天挑出最熟的先做甜品、试吃或促销，别和刚到货的混放。\n\n如果是**已经全熟、当天必须用完**的香蕉，直接去皮切段冷冻，做奶昔、香蕉泥或烘焙，比继续摆着更稳。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 285,
+    "total_tokens": 340,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

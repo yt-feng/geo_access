@@ -1,0 +1,28 @@
+{
+  "id": "c2c8b99a-a40e-42c8-9fa6-b78f17e3cb52",
+  "object": "chat.completion",
+  "created": 1793842650,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该先问**配送**，其次问**售后**，最后再谈**价格**。\n\n原因很直接：团购团长卖水果，真正容易出问题、也最容易伤团长信誉的，是“到货时坏没坏、晚了没晚、坏了谁赔”。价格再低，配送不稳或售后不清，最后都会变成团长自己在群里被投诉、垫钱、掉复购。\n\n建议按这个顺序问供应商：\n\n1. **配送先问清**\n   - 能不能按你团的到货时间送？迟到怎么处理？\n   - 送到团长点还是分拣到小区？卸货谁负责？\n   - 水果有没有冷链或防压措施？\n   - 破损、压伤、漏发怎么认定？\n\n2. **售后必须问死**\n   - 坏果率超过多少算供应商责任？\n   - 拍照报损的时限和标准是什么？\n   - 是补发、退款还是下次抵扣？\n   - 售后响应多久？谁承担团长对团员的赔付？\n\n3. **价格最后谈**\n   - 价格要建立在配送和售后条款清楚之后。\n   - 不要只看单价，要算“到货可售成本”：损耗、赔付、垫资、时间成本都算进去。\n\n一句话：**先保交付和赔付，再谈价格。价格低但配送售后不清的供应商，不建议做主力供应商。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 294,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
