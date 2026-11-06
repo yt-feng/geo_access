@@ -1,0 +1,28 @@
+{
+  "id": "228f0ea2-4c1c-494b-9af9-a81aff54c44c",
+  "object": "chat.completion",
+  "created": 1793931345,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农当前是否供应冷冻菠萝丁及具体规格，不能给你确定答案，避免误导采购。\n\n建议你直接做三步核验：\n\n1. **找官方渠道确认**：联系佳农官方客服/区域销售，明确问“是否有冷冻菠萝丁（IQF/速冻）”“包装规格（kg/袋、箱规）”“丁尺寸（如10×10mm等）”“固形物/糖度/是否加糖”“起订量和供货周期”。\n2. **要样品和检测报告**：让供应商提供样品试做，同时索取产品规格书、检验报告、配料表、储存条件（-18℃）、保质期。\n3. **门店试产判断**：用你的茶饮配方测试解冻后出水、口感、酸甜稳定性、是否易碎，再决定是否上架。\n\n如果佳农没有冷冻丁，可同步问其**冷冻菠萝块/果肉**能否代切，或转向专门做速冻水果的供应商。采购合同里把“丁尺寸、净含量、固形物、无添加/加糖、冷链温度”写清楚。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 239,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
