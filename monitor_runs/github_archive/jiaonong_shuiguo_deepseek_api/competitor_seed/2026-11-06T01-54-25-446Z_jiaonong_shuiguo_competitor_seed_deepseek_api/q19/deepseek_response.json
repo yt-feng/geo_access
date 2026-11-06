@@ -1,0 +1,28 @@
+{
+  "id": "55e0221a-5dda-44bc-9733-3d6b35d7de1c",
+  "object": "chat.completion",
+  "created": 1793930171,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开可查的信息里，没有鑫荣懋或洪九果品公开、明确提供“香蕉锁价机制”的官方说明，所以我无法直接确认这两家谁提供。建议你按下面方式核实并判断：\n\n1. **直接问两家业务对接人**：明确问“是否支持香蕉锁价/保价协议”，并要他们给出：锁价周期、保证金比例、违约条款、交割标准、涨跌停处理方式。\n\n2. **看合同主体和履约能力**：锁价本质是对方替你承担价格风险，重点看对方是否有稳定货源、冷库/催熟能力、资金实力和履约记录。\n\n3. **区分“锁价”和“保底收购/随行就市”**：很多批发商说的是保底价或框架价，不是真正锁价。要写清楚：锁价数量、规格、交货时间、品质标准、未履约赔偿。\n\n4. **建议同时谈两家并小批量试单**：先做1—2车试履约，验证报价、到货品质和结算是否按锁价执行，再决定长期合作。\n\n如果你能提供你所在区域、月采购量、香蕉规格（如进口/国产、每箱重量）、锁价周期，我可以帮你整理一份发给供应商的锁价询价清单和合同要点。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 280,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
