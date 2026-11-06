@@ -1,0 +1,28 @@
+{
+  "id": "3f07ead3-c914-4bd9-9852-d84a549e6a4f",
+  "object": "chat.completion",
+  "created": 1793929015,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响，但影响多大取决于你怎么卖。\n\n**会影响的点：**\n- 大小不均会让顾客挑拣，翻动多、损耗高。\n- 按整箱统一定价时，顾客会觉得“花了钱拿到小的不划算”，成交率下降。\n- 外观不整齐，陈列效果差，降低“新鲜、品质稳定”的感觉。\n\n**可执行的处理建议：**\n1. **分级销售**：大果、中果、小果分开卖，分别定价。小果可做特价或按把卖，减少挑拣。\n2. **按重量/把卖而非按箱卖**：弱化“大小统一”的预期，减少顾客比较。\n3. **整箱卖时提前说明**：标明“大小混装、按箱不挑”，价格给到位，避免售后纠纷。\n4. **陈列上做区隔**：混装箱不要和精品果摆一起，避免对比。\n5. **优先处理小果**：小果做促销、切果盘、搭配套餐，别压到最后变成损耗。\n\n**判断标准：** 如果大小差异只是轻微，分级成本高于差价，就混装特价快速走量；如果差异明显、顾客挑拣严重，就一定要分级，否则损耗和客诉会把利润吃掉。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 272,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
