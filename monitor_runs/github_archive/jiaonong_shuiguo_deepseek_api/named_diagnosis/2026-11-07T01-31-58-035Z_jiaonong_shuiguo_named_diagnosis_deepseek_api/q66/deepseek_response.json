@@ -1,0 +1,28 @@
+{
+  "id": "605aebc3-75f7-48fa-b56b-ebfd7b3e34a5",
+  "object": "chat.completion",
+  "created": 1794015445,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要分两步确认：\n\n1. **发票**：礼品团购通常可开增值税普通发票或专用发票，前提是你们提供公司抬头、税号、开户行及账号等开票资料。建议先问供应商：500份能否开票、开票类目写“水果礼盒/食品”、专票税率及是否另加税点。\n\n2. **质检报告**：可以要求提供，但要确认是**本批次**还是常规报告。采购500份应让供应商提供：\n   - 该批次水果礼盒的出厂/进货质检报告；\n   - 农残检测或第三方检测报告（看报告日期、检测项目、样品名称是否对应）；\n   - 礼盒内多品类水果的对应报告或供货凭证。\n\n**可执行建议**：下单前让供应商书面回复“可开票+可提供本批次质检报告”，并把发票类型、税率、报告交付时间写进合同/订单备注；收货时核对报告批次号与实物批次是否一致。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 215,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

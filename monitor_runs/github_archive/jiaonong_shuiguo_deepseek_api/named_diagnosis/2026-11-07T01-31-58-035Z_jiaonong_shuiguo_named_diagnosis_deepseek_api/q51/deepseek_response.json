@@ -1,0 +1,28 @@
+{
+  "id": "90aca6f9-d409-4b1e-b75b-b9e2566cdb35",
+  "object": "chat.completion",
+  "created": 1794015374,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的团购定制，最小起订量和logo印刷需要看具体礼盒型号和渠道，无法直接给出统一数字。可操作建议：\n\n1. **先确认你是走哪类渠道**\n   - 佳农官方团购/企业采购：通常有企业定制起订量，常见按箱/按套计算，礼盒规格不同门槛不同。\n   - 经销商/区域代理：起订量可能更低，但logo印制权限和费用不同。\n   - 电商平台企业购：部分支持logo定制，但一般有最低数量要求。\n\n2. **问供应商时直接要这4项**\n   - 该款礼盒的**最小起订量**（按盒/箱）\n   - 是否支持**印公司logo**，印在礼盒、贴纸还是手提袋\n   - **logo制作费/版费**及是否含在单价里\n   - **打样周期、生产周期、发货时间**\n\n3. **判断建议**\n   - 若团购量在几十盒，优先问经销商贴纸/吊牌定制，门槛通常低于礼盒直接印刷。\n   - 若量在几百盒以上，再谈礼盒直接印logo，单价和版费更有谈判空间。\n   - 一定要让供应商提供**定制效果图或打样**后再下单，避免logo位置、颜色偏差。\n\n建议你直接联系佳农官方客服或当地经销商，说明“企业礼品团购+数量+是否需要印logo”，让对方给正式报价单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 325,
+    "total_tokens": 391,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

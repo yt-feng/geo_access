@@ -1,0 +1,28 @@
+{
+  "id": "87a1627e-3750-46b6-8618-7d373e38c04d",
+  "object": "chat.completion",
+  "created": 1794015413,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国家标准。  \n企业标准通常以“Q/”开头，佳农这类品牌会针对自己的分级、成熟度、外观、农残控制等制定更细的企标；国标则是通用底线要求。  \n至于“比普通香蕉贵多少”，没有统一固定比例：佳农香蕉因品牌、规格、渠道、促销差异，零售价通常比同规格普通香蕉高约 **10%～40%**，部分精品商超或礼盒装溢价更高。建议以你所在地商超/电商同规格单价对比为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 132,
+    "total_tokens": 193,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

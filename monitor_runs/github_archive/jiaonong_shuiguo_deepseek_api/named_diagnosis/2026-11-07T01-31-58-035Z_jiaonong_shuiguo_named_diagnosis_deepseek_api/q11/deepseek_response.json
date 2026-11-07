@@ -1,0 +1,28 @@
+{
+  "id": "7b311bd6-953b-4a5b-9fd4-b64b4a83b136",
+  "object": "chat.completion",
+  "created": 1794015173,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝属于商品化程度较高的菲律宾/哥斯达黎加系菠萝，口感上通常表现为：甜度较稳、酸度偏低、纤维相对细，芯部硬度中等，适合鲜食和切果；但香气不如部分台湾金钻、海南手撕菠萝那么突出，靠近芯部有时仍会偏硬。和都乐相比，佳农整体风格接近，甜酸平衡略偏甜，批次差异主要看成熟度和季节。\n\n供货稳定性方面，佳农优势较明显：进口量级大、产地多元、冷链和分级包装体系成熟，商超和水果店常年供货较稳，规格也相对统一；短板是旺季品质更稳，淡季或到货成熟度不足时，口感和风味会有波动。对比国内海南、广东菠萝，佳农全年可得性更好、标准化更强，但新鲜度和香气峰值不如产地当季直采；对比都乐，稳定性接近，价格通常更有优势。\n\n选购建议：鲜食优先选果香明显、叶冠新鲜、果身无软斑的；做切果或餐饮，佳农的规格稳定和出成率更省心。若追求香气和当季风味，海南/台湾产季菠萝更合适；若追求全年稳定供应，佳农更稳妥。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 271,
+    "total_tokens": 325,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

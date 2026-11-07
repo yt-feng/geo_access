@@ -1,0 +1,28 @@
+{
+  "id": "7045fc3b-a520-482e-846c-853eedbfa577",
+  "object": "chat.completion",
+  "created": 1794015388,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果不完全走“三通一达”，也不是全自有车队，而是**自有冷链+第三方物流（含区域冷链承运商、快递/快运）混合模式**。  \n- B2B（商超、批发市场、餐饮等）以**自有或长期合作冷链车队、区域冷链专线**为主，适合整柜/整车、温控要求高的品类。  \n- B2C电商/小批量订单会用到**快递、快运及仓配服务商**，但生鲜冷链通常不是普通三通一达常温网络能独立完成的，更多是冷链快递/落地配。  \n- 冷链覆盖率方面，公开可核验的**统一覆盖率百分比**不宜直接给；佳农对香蕉、火龙果、车厘子、蓝莓等品类采取分温区冷链和产地仓/销地仓管理，核心进口品和重点客户链路冷链覆盖较高，但不同品类、区域、渠道差异明显。若你要做供应商评估，建议直接向佳农索要：分品类温控标准、全程温度记录、干线/城配承运商名单、断链应急方案和近12个月客诉/损耗数据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 249,
+    "total_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

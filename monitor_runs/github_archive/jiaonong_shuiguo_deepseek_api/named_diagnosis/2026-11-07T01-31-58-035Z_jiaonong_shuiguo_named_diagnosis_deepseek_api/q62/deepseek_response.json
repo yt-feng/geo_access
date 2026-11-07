@@ -1,0 +1,28 @@
+{
+  "id": "002f97c5-5037-4f8b-baab-083bc5ac6eee",
+  "object": "chat.completion",
+  "created": 1794015427,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有红富士苹果，但具体是否常备、什么规格（产地/等级/包装）要看渠道和档期，不能一概而论；鑫荣懋同样有红富士。\n\n性价比不能只按品牌判断，建议这样比：\n\n1. **同一渠道、同一规格对比**\n   - 看单果重/果径（如80#、85#、90#）、净重、箱装还是礼盒。\n   - 用“到手价 ÷ 净重（或单果数）”算单价，别只看标价。\n\n2. **看等级和产地**\n   - 红富士常见产地有山东、陕西、甘肃等；同品牌不同产地/等级口感差异大。\n   - 标注“一级果/精品果/特大果”的，价格高不一定更划算。\n\n3. **看损耗和售后**\n   - 苹果易磕碰，优先选有坏果包赔、售后响应快的渠道。\n   - 箱装大果如果磕碰多，实际性价比会下降。\n\n4. **简单结论**\n   - 日常吃、追求稳定：两家都属正规供应链品牌，差距更多在具体批次和价格，而不是品牌本身。\n   - 同规格同产地时，**谁到手单价低、坏果售后好，谁性价比高**。\n   - 送礼选果径大、包装好的；自吃选中等果径、净重实在的，通常更划算。\n\n购买前可直接问客服：产地、果径、净重、等级、坏果赔付规则，再比价。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 330,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

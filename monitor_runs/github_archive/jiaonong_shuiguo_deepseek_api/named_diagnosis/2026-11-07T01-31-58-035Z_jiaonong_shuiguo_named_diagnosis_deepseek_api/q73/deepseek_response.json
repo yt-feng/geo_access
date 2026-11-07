@@ -1,0 +1,28 @@
+{
+  "id": "09800263-8f84-4b9b-aae2-fd57f0311ef1",
+  "object": "chat.completion",
+  "created": 1794015480,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的苹果品类通常会随产季和渠道变化，常见包括嘎啦、红富士，以及部分青苹果/其他品种；具体在售品类以其当期目录或销售确认的SKU为准。你们要采购进口嘎啦和红富士时，产地不能一概而论，需要按佳农该批次实际采购来源确认。可执行做法：向佳农销售索取拟采购批次的《产地证明/植物检疫证书/报关单》，重点核对“原产国/产区、品种、包装厂或果园注册号、到货批次”；进口嘎啦常见来自新西兰、智利、南非等南半球或新季产区，进口红富士常见来自日本、韩国、新西兰等，但佳农实际供应哪一产地必须以当批单证为准，不能按品种直接推定。采购合同里建议写明：品种（Gala/Fuji）、原产国及产区、规格等级、允许替代产地需书面确认、随货单证清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 205,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

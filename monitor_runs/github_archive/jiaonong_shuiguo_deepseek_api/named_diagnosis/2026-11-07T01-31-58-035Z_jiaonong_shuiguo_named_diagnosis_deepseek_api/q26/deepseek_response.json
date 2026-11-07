@@ -1,0 +1,28 @@
+{
+  "id": "ee2db816-8acb-4420-81bc-23a90a09d053",
+  "object": "chat.completion",
+  "created": 1794015251,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）主要以香蕉、菠萝等水果的全球采购、进口分销和品牌化供应为主，通常面向商超、电商、批发等渠道。香蕉催熟一般由渠道商、催熟库或配送中心完成，佳农在部分市场和客户合作中可能提供催熟配合或催熟后配送安排，但这不属于公开统一的标准服务，是否提供取决于地区、客户类型、采购量和合作模式。\n\n建议你直接这样确认：\n1. 联系佳农当地销售或客服，问“是否支持香蕉催熟服务/催熟库代加工/催熟后配送”。\n2. 明确香蕉品种、到货状态（青蕉/黄蕉）、数量、目标成熟度、交付地点和时效。\n3. 询问费用归属：催熟加工费、损耗承担、催熟后保质期和退换货规则。\n\n如果只是少量采购，通常更建议找当地有催熟库的水果批发商；如果是商超或稳定大批量采购，再与佳农区域负责人谈定制化催熟合作。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 228,
+    "total_tokens": 281,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

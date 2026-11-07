@@ -1,0 +1,28 @@
+{
+  "id": "b64399b9-bc93-4462-8d26-84f68918b762",
+  "object": "chat.completion",
+  "created": 1794015524,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉常见的小包装以 **2kg左右/箱、1.5kg左右/箱** 为主，也有部分渠道做 **1kg左右/袋或小把装**；**3kg装香蕉不是常规流通规格**，更多是整箱大包装或批发渠道规格。\n\n对便利店小店，建议按这个顺序判断：\n\n1. **优先找佳农当地经销商/区域代理确认小规格**\n   直接问是否有：  \n   - 香蕉 1.5kg/箱、2kg/箱  \n   - 单把装/袋装（约1–1.5kg）  \n   - 小果/中果分级，适合便利店单次购买  \n\n2. **不要执着3kg香蕉**\n   3kg对便利店偏大：香蕉后熟快、损耗高，小门店一次拆箱卖不完容易黑斑。  \n   如果只有3kg箱，建议只做**预订/团购/切果搭配**，不建议常规上架。\n\n3. **替代小包装思路**\n   - 香蕉按“把”卖，单把控制在 **0.8–1.5kg**\n   - 进货2kg箱后门店分把陈列\n   - 同步上佳农小包装苹果、橙子、提子等耐放品，降低香蕉损耗\n\n4. **上架前问清4个条件**\n   - 最小起订量\n   - 配送频次（能否一周2–3次）\n   - 熟度到店标准（青转黄比例）\n   - 破损/黑斑退换政策\n\n结论：**有佳农小包装，但3kg香蕉不是便利店常规规格；建议找经销商确认1.5–2kg箱或单把装，按把陈列销售。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 378,
+    "total_tokens": 444,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
