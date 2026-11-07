@@ -1,0 +1,50 @@
+{
+  "questionId": "q62",
+  "prompt": "水果批发商拿香蕉，怎么判断一批货的熟度和坏果风险？",
+  "createdAt": "2026-11-07T01:05:45.890Z",
+  "summary": [
+    {
+      "questionId": "q62",
+      "prompt_index": 62,
+      "promptIndex": 62,
+      "promptHash": "1b20b19b9b50",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果批发商拿香蕉，怎么判断一批货的熟度和坏果风险？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1533,
+      "text_length": 1533,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 58,
+        "completion_tokens": 1104,
+        "total_tokens": 1162,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 58
+      },
+      "prompt_tokens": 58,
+      "completion_tokens": 1104,
+      "total_tokens": 1162,
+      "latencyMs": 13578,
+      "latency_ms": 13578,
+      "createdAt": "2026-11-07T01:05:45.890Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q62/prompt.txt",
+        "answer": "q62/deepseek.txt",
+        "response": "q62/deepseek_response.json",
+        "sources": "q62/deepseek_sources.json",
+        "references": "q62/deepseek_references.json"
+      }
+    }
+  ]
+}

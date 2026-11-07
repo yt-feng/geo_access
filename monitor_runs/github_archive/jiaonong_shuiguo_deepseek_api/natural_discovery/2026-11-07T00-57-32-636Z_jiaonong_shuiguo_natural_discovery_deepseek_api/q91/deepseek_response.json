@@ -1,0 +1,28 @@
+{
+  "id": "a807079f-d96f-47c1-bce6-3c70ea60ae7e",
+  "object": "chat.completion",
+  "created": 1794013797,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先建议：**主打小把装，辅以单根零售，谨慎上整袋。**\n\n- **小把装（3～5根）作为主陈列**：最符合便利店“即时消费、小份购买”的场景，客单价和损耗较平衡，适合上班族、学生当天吃完。\n- **单根零售作为补充**：适合只想吃一根、搭配早餐或尝试购买的人，能降低首次购买门槛，但需要防挤压、防过度翻拣。\n- **整袋装不建议作为主推**：除非门店在社区、家庭客群明显，或有明确促销/预订需求；否则整袋对便利店来说单价高、周转慢、损耗风险大。\n\n执行上可以这样判断：先看门店客群。**办公/商圈/学校店：小把为主、单根为辅；社区/家庭店：可小把+少量整袋试销。** 同时用1～2周观察销量、损耗和废弃率，再调整包装结构。香蕉易碰伤，小把和单根都要注意轻拿轻放、及时挑出伤果，避免影响整体陈列。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 237,
+    "total_tokens": 296,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
