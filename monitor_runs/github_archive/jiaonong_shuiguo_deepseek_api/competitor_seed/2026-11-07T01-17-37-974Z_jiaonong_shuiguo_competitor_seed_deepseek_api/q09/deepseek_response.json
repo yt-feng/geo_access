@@ -1,0 +1,28 @@
+{
+  "id": "132fa057-c2e5-4c66-8cd6-a250cf37e916",
+  "object": "chat.completion",
+  "created": 1794014320,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），进口水果礼盒常见可选品牌还有：\n\n1. **新奇士（Sunkist）**：美国柑橘类代表，橙子、柠檬礼盒较常见，适合商务送礼。\n2. **怡颗莓（Driscoll's）**：浆果类强项，蓝莓、树莓、黑莓礼盒偏高端。\n3. **乐淇（Rockit）**：新西兰小苹果，筒装/礼盒装辨识度高，适合团购小件礼。\n4. **爱妃（Envy）**：新西兰/美国苹果品牌，礼盒装常见，单价偏高。\n5. **佳农（Goodfarmer）**：进口香蕉、菠萝等为主，也有水果礼盒，渠道覆盖广。\n6. **鑫荣懋旗下佳沃（Joyvio）**：蓝莓、车厘子等进口/全球采购礼盒较多。\n7. **Mr Apple**：新西兰苹果品牌，礼盒适合高端团购。\n8. **Prize（普瑞斯）**：南非/进口柑橘、葡萄等常见。\n9. **Camposol**：秘鲁蓝莓、牛油果等，偏生鲜渠道。\n10. **SunGold/其他车厘子品牌**：如智利车厘子常按品牌商而非消费品牌出现，团购更看产地和规格。\n\n建议团购选品时重点核验：**原产地证明、进口报关单、品牌授权/供货链路、礼盒规格与损耗率**。如果是商务礼盒，优先组合“新奇士橙+怡颗莓蓝莓+乐淇苹果”这类认知度高、包装稳定的品牌；如果是员工福利，可考虑佳农、佳沃等性价比和供货稳定性更好的品牌。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 382,
+    "total_tokens": 445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

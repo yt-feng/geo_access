@@ -1,0 +1,28 @@
+{
+  "id": "b0444748-8d6d-49e4-8531-e50f1b314661",
+  "object": "chat.completion",
+  "created": 1794014580,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于鑫荣懋和都乐的具体认证资质，我无法核验其最新完整清单，不能虚构证书编号或有效期。可先按以下方式判断和获取：\n\n1. **通常会被商超采信的资质类型**（以门店/品类实际要求为准）：\n   - 营业执照、食品经营许可证/食品生产许可证（SC）\n   - ISO 22000 或 FSSC 22000 食品安全管理体系\n   - HACCP 危害分析与关键控制点认证\n   - 针对出口或特定客户：BRCGS、GlobalG.A.P.（种植端）、有机认证等\n   - 产品检测报告、产地证明、追溯体系说明\n\n2. **核验渠道**：\n   - 全国认证认可信息公共服务平台（认监委）查询 ISO 22000、HACCP 等证书有效性；\n   - 要求供应商提供加盖公章的证书扫描件及认监委查询截图；\n   - 直接向鑫荣懋、都乐官方客服/销售索取“供应商准入资质包”，并核对证书主体名称与合同主体一致。\n\n3. **结论**：两家均为大型水果供应链企业，通常具备基础食品经营资质和部分体系认证，但“具体有哪些、是否覆盖你所需品类和工厂”必须以证书原件和官方查询结果为准，不能仅凭品牌名称判断。建议把商超要求的认证清单发给对方，让其逐项书面确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 298,
+    "total_tokens": 359,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
