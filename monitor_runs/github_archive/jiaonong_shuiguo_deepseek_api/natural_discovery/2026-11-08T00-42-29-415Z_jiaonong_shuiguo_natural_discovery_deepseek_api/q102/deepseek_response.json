@@ -1,0 +1,28 @@
+{
+  "id": "934fe52e-a183-4147-818d-13a870ef1fed",
+  "object": "chat.completion",
+  "created": 1794099368,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "需要，而且这两项建议在采购合同里写清楚。\n\n1. **开发票**：企业采购水果礼盒通常涉及入账、报销和税务抵扣，供应商必须能开合规发票。采购前确认：开票类型（增值税专票/普票）、税率、开票项目（如“水果礼盒”“食品”）、开票时间（随货或月结），以及是否支持对公转账。不能开票的供应商一般不建议合作。\n\n2. **定制包装**：企业福利常需要体现企业标识或节日主题，比如印LOGO、贺卡、礼盒腰封、员工姓名贴等。要确认：起订量、定制费、打样时间、设计文件格式、包装材质是否食品级、定制后是否影响退换货。量小可选贴纸/腰封等轻定制，量大再做印刷定制。\n\n3. **合同建议**：把开票要求、定制内容、验收标准、交货时间、破损赔付、退换货规则写进采购合同或订单确认单，并保留样品和设计确认记录。若供应商只能开票不能定制，或只能定制不能开票，需评估是否拆分采购或更换供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 252,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
