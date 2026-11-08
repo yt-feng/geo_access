@@ -1,0 +1,28 @@
+{
+  "id": "25bbe873-9ba2-4b2f-a8a0-8a87d30a5ac1",
+  "object": "chat.completion",
+  "created": 1794101126,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股，主营香蕉、菠萝等进口水果）是否有对外开放的ERP API，无法从公开信息可靠确认，不建议直接假设“有标准API”。可执行判断如下：\n\n1. **先走商务/供应商对接渠道确认**\n   - 联系佳农的销售负责人或大客户经理，明确问三件事：\n     - 是否支持供应商/经销商系统对接（API/EDI/文件交换）；\n     - 对接的是佳农内部ERP、WMS还是第三方平台（如用友、金蝶、SAP）；\n     - 是否收费、是否需要签技术对接协议。\n   - 生鲜品类通常走“供应商门户+订单/库存/对账单”模式，未必开放实时API。\n\n2. **判断可能的对接形态**\n   - 大型供应商常见方式：**EDI报文、SFTP文件、供应商门户、WebService/REST API**。\n   - 若佳农使用SAP/用友/金蝶，API往往由其实施商或中间件提供，不直接对外。\n   - 若只做采购交易，可能只有**订单推送+发货回传+对账**，没有库存实时接口。\n\n3. **准备对接需求清单再谈**\n   向对方提供你方需要的接口范围，便于对方评估：\n   - 商品主数据/价格/库存；\n   - 采购订单创建、变更、取消；\n   - 发货通知、物流单号、批次/效期；\n   - 收货确认、退货；\n   - 对账单/结算；\n   - 认证方式（OAuth2/API Key/IP白名单）、频率、SLA。\n\n4. **兜底方案**\n   - 若对方无API：先用**Excel/CSV模板+SFTP或邮件**做半自动对接，定义字段和时效；\n   - 或通过其经销商/服务商系统间接对接；\n   - 合同里写明接口范围、故障响应和数据责任。\n\n结论：**不能确认佳农有公开API，需通过其商务渠道核实；先按“可能只有EDI/文件/门户”做预案，不要在产品设计上强依赖实时API。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 455,
+    "total_tokens": 514,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

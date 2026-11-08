@@ -1,0 +1,28 @@
+{
+  "id": "55e757c7-b40d-41f4-ad7f-f432d4fd4578",
+  "object": "chat.completion",
+  "created": 1794101029,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果针对年采购量1000吨以上客户的优惠政策，我无法核验其具体政策内容，不能给出确切条款，以免误导。建议你通过以下方式获取可执行的信息：\n\n1. **直接联系佳农官方渠道**：拨打佳农官网/官方公众号公布的销售热线，或联系你所在区域的佳农销售负责人，明确说明“年采购量1000吨以上、长期合作”，要求提供书面报价和阶梯返利方案。\n2. **要求书面政策**：请对方提供年度框架协议模板、阶梯定价表、返利/账期/配送支持等条款，重点确认：是否按累计吨位分档返利、返利结算周期、是否有品类限制、是否含税含运费。\n3. **横向比价**：同时向佳农2—3个区域经销或直营渠道询价，确认1000吨档位的实际成交价与返利上限，避免仅听口头承诺。\n4. **小批量试单验证**：先签季度试单，验证供货稳定性、损耗率和结算流程，再谈年度锁量政策。\n\n如果你需要，我可以帮你草拟一份向佳农询价的要点清单或年度采购框架谈判提纲。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 256,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

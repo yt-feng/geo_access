@@ -1,0 +1,28 @@
+{
+  "id": "fa7d1664-85c3-406b-adb4-2d83e79b3869",
+  "object": "chat.completion",
+  "created": 1794101047,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能给出佳农针对礼品团购的确定起订量和logo印刷政策，因为这类条件会随产品、包装形式、采购渠道和当期政策变化，需要以官方或授权经销商的书面报价为准。\n\n**可执行的确认方式：**\n1. **联系佳农官方或授权经销商**：直接问三件事：该礼盒的MOQ、是否支持企业定制logo、打样费和版费怎么算。  \n2. **要书面报价单**：让对方写明最小起订量、可印位置、印刷工艺（丝印/贴标/彩盒）、打样周期、logo文件要求。  \n3. **分批测试**：若起订量高，先问能否用“现有礼盒+定制腰封/贴纸”降低门槛。\n\n**判断建议：**\n- 如果对方说“可以印logo”，务必确认是**直接印在礼盒上**还是**贴标**，两者成本和起订量差别很大。\n- 如果团购量不大，优先选**贴标或腰封定制**，通常比整盒印刷门槛低。\n- 不要只问“最小起订量多少”，要问“**该SKU在该包装形式下的MOQ**”，否则容易得到笼统答案。\n\n你可以把预计采购数量、礼盒规格和期望印刷位置告诉我，我可以帮你整理成一份询价话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 290,
+    "total_tokens": 356,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

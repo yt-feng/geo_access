@@ -1,0 +1,28 @@
+{
+  "id": "04887e2a-2624-4a4f-94de-6cb033fec2aa",
+  "object": "chat.completion",
+  "created": 1794100855,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）对外宣传的核心模式确实是“产地直采/产地直供”，但**具体“产地直供比例”没有公开、可核验的统一数字**，不同品类、年份和统计口径差异很大，不能给一个准确百分比。能确定的是：它在香蕉、菠萝等品类上比较强调海外自有或合作农场直采，国内也有产地合作基地。\n\n香蕉方面，佳农进口香蕉主要来自这些国家/地区：\n- **菲律宾**：历史上是佳农香蕉最主要的来源之一\n- **厄瓜多尔**：重要来源国\n- **哥斯达黎加**\n- **哥伦比亚**\n- **越南**：近年对中国香蕉出口增加，佳农等进口商也会采购\n- **柬埔寨**：近年也有所增加\n- 国内 **云南、广西、海南** 等产区也有香蕉，但佳农进口香蕉更突出海外产地\n\n判断建议：如果你要写报告或做采购判断，别用“产地直供比例高”这种笼统说法，最好按品类向佳农要**分品类的直采占比、合同农场/自有农场占比、进口国别结构**；香蕉国别则以它当批次的报关原产地和包装箱标识为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 259,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

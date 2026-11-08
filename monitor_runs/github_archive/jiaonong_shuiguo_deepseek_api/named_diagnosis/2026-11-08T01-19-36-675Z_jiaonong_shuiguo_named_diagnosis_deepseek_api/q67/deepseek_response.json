@@ -1,0 +1,28 @@
+{
+  "id": "dfdee812-e2b0-473b-a550-a27adda65b50",
+  "object": "chat.completion",
+  "created": 1794101122,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核验佳农水果当前的客服排班和周末订单处理规则，不能直接断定是否7×24小时。建议你按下面方式快速确认：\n\n1. **看官方渠道公示**：佳农官网/官方微信公众号/小程序/旗舰店的“联系我们”“客服服务”页面，通常会写服务时间。\n2. **下订单前看结算页和订单页**：电商旗舰店一般会标注“客服在线时间”“发货时间”“周末是否发货”。\n3. **直接问在线客服一句话**：  \n   “请问客服是否7×24小时？周末下单当天会处理/发货吗？”\n4. **打电话确认**：以官方渠道公布的客服电话为准，别用搜索来的非官方号码。\n\n**可判断的建议**：  \n- 如果是**生鲜自营/旗舰店**，周末下单通常会受理订单，但**客服人工在线和发货处理**不一定全天候，可能顺延到工作日。  \n- 急单或需指定到货时间，**下单前先问客服并截图保存回复**，避免周末延误纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 226,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

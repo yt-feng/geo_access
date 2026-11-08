@@ -1,0 +1,28 @@
+{
+  "id": "a49d09f0-ec5b-4eea-a415-fbe8880bdbc9",
+  "object": "chat.completion",
+  "created": 1794101061,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的物流不是单纯走三通一达，也不是全自有车队，而是“自有冷链+第三方承运”的混合模式：核心城市和重点客户以自有/合作冷链车队为主，区域配送和部分电商件会交给第三方物流，三通一达更多出现在非冷链或末端 parcel 场景。\n\n冷链覆盖率方面，佳农没有公开披露统一口径的“覆盖率”数字，能确定的是其香蕉、菠萝、牛油果等主力品类依赖全程温控，干线冷藏运输和销地冷库是标配；但末端到店/到家的“最后一公里”冷链覆盖并不完全统一，会因城市、渠道和承运商而异。如果你要用于判断合作或尽调，建议直接向佳农商务索要分品类、分区域的冷链温控方案和承运商清单，比看公开说法更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 179,
+    "total_tokens": 237,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

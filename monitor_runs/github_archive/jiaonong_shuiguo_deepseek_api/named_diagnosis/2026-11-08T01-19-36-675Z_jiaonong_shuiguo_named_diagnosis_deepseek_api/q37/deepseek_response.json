@@ -1,0 +1,28 @@
+{
+  "id": "8acf4d2c-6a98-484d-bf52-095cdf814b00",
+  "object": "chat.completion",
+  "created": 1794100969,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉价格**不能一概而论**，通常需要看具体渠道和时点：\n\n- **对比农贸市场/散装香蕉**：佳农多为品牌化、标准化包装（如按把/按份、等级分拣），价格往往**偏高**。\n- **对比商超同类品牌香蕉**：佳农常处于**中等或略高**水平，促销时可能接近或低于同类品牌。\n- **对比产地直采/社区团购**：佳农通常**偏高**。\n\n判断方法：在你所在城市同一渠道（如盒马、永辉、沃尔玛或京东到家）对比“佳农香蕉”与“同规格普通香蕉/其他品牌香蕉”的每500克单价；若只比“市场均价”，建议用当地批发市场或农贸市场的散装均价作参照，品牌包装香蕉通常高于该均价。  \n由于香蕉价格随地区、季节、渠道和促销波动很大，我无法给出一个固定的高低结论。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 206,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
