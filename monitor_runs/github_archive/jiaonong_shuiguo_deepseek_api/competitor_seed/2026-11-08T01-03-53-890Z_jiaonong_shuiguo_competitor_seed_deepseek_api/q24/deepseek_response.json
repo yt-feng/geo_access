@@ -1,0 +1,28 @@
+{
+  "id": "cfa04708-fc14-4290-bbf2-2a4542019972",
+  "object": "chat.completion",
+  "created": 1794100009,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的公开分级标准能证明“鑫荣懋比都乐更细”或反之；两家对商超供货通常都按**外观、果指长度/粗度、成熟度、条数/箱重、瑕疵率**做企业内控分级，但细则多写在合同或到货验收标准里，不对外统一公布。\n\n可执行判断建议：\n\n1. **先定你要的“细”是哪一维**：按长度/粗度分级、按成熟度分级、按梳/条数分级，还是按瑕疵率分级。\n2. **向两家分别索取同一版本的供货规格书/验收标准**，要求写清：果指长度区间、单果重量或粗度、每箱净重与条数、成熟度色号、允许瑕疵比例、到货温度。\n3. **用同一批到货做盲测对比**：各抽3箱，量长度、称单果重、数条数、记录青黑斑和机械伤比例，按同一表格打分。\n4. **看合同可执行性**：哪家能把分级指标写进验收条款并支持退换，哪家就更适合你；纸面“更细”但验收不认，意义不大。\n\n结论：**不能直接下“谁更细”的结论**；应以两家提供的书面规格书和你门店验收数据为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 293,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
