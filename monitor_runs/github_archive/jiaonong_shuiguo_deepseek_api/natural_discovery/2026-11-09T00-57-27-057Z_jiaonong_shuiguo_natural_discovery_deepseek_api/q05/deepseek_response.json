@@ -1,0 +1,28 @@
+{
+  "id": "4d2be79d-4a08-478e-a4a3-d3f0fcc93574",
+  "object": "chat.completion",
+  "created": 1794185879,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议分渠道和场景来做，不要只选一种：\n\n**1. 主推“现场自选整果 + 免费代削”**\n- 顾客自己挑，能减少“你替我选的不好”的纠纷。\n- 现场削皮能制造新鲜感和围观效应，菠萝香气也能带客流。\n- 代削要收小费或设条件（如整果购买免费削、只削不买收3—5元），避免纯体力白干。\n\n**2. 去皮好的只做“小份引流款”**\n- 适合切块装盒、当天现削、贴时间标签，卖给赶时间或单人顾客。\n- 必须冷藏陈列、当天清货，隔夜降价或下架，否则损耗和口碑风险高。\n- 不要大量预削，菠萝去皮后氧化快、出水、卖相下降。\n\n**3. 不要让顾客自己削**\n- 店里提供刀具和场地，安全责任和卫生问题都难控，不建议。\n\n**4. 定价上拉开差异**\n- 整果按斤卖，价格透明；去皮果按份卖，单价略高，覆盖人工和损耗。\n- 可以设“整果9折、代削免费”或“去皮盒装加2元”，让顾客自己选。\n\n**一句话：整果自选是主线，代削是服务卖点，去皮盒装只做补充和引流，控制量、当天清。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 306,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

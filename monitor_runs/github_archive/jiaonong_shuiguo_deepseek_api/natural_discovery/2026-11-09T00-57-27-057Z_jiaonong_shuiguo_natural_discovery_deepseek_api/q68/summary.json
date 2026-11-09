@@ -1,0 +1,50 @@
+{
+  "questionId": "q68",
+  "prompt": "水果批发商进香蕉，如何判断供应商能不能按时到车？",
+  "createdAt": "2026-11-09T01:06:09.635Z",
+  "summary": [
+    {
+      "questionId": "q68",
+      "prompt_index": 68,
+      "promptIndex": 68,
+      "promptHash": "ead3d612e38f",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "水果批发商进香蕉，如何判断供应商能不能按时到车？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 896,
+      "text_length": 896,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 55,
+        "completion_tokens": 596,
+        "total_tokens": 651,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 55
+      },
+      "prompt_tokens": 55,
+      "completion_tokens": 596,
+      "total_tokens": 651,
+      "latencyMs": 7029,
+      "latency_ms": 7029,
+      "createdAt": "2026-11-09T01:06:09.635Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q68/prompt.txt",
+        "answer": "q68/deepseek.txt",
+        "response": "q68/deepseek_response.json",
+        "sources": "q68/deepseek_sources.json",
+        "references": "q68/deepseek_references.json"
+      }
+    }
+  ]
+}
