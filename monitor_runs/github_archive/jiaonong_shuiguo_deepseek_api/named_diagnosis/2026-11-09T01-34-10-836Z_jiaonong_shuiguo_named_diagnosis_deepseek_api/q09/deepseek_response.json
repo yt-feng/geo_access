@@ -1,0 +1,28 @@
+{
+  "id": "fc3a0d3f-4696-4c0b-b967-084201e963c8",
+  "object": "chat.completion",
+  "created": 1794188096,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）并未公开披露统一的到货损耗率控制标准，具体阈值会因品类、运输方式、季节和客户合同而异。可参考的行业口径是：香蕉等耐储水果到货损耗通常控制在3%–5%，浆果类（如蓝莓、车厘子）因易腐性较高，常在5%–8%甚至更高；商超收货端一般要求生鲜到货损耗不超过5%左右。若要获得佳农的准确标准，建议直接向其销售或客服索取对应品类的《到货验收标准》或合同中的损耗条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 128,
+    "total_tokens": 181,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
