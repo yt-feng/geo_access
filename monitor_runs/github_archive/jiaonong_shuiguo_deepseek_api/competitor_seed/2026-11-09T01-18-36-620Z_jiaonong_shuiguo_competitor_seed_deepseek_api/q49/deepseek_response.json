@@ -1,0 +1,28 @@
+{
+  "id": "ca85408c-79e0-4ff1-85bf-8c678fadbe63",
+  "object": "chat.completion",
+  "created": 1794187460,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都具备专岗对接的服务能力，但“专人服务”的确认取决于你们的采购渠道和具体业务场景，不能一概而论。\n\n**可执行判断建议：**\n\n1. **都乐（Dole）**：在国内有较成熟的B2B和零售渠道团队，通常设有大客户/渠道对接岗位。若你是商超、餐饮或电商渠道采购，一般可要求其区域销售或客户经理专人对接。\n2. **鑫荣懋**：国内水果供应链企业，服务商超、电商、餐饮等客户，通常也有客户经理/品类对接专人。其专岗设置更偏向大客户和长期合作项目。\n\n**如何核实：**\n- 直接向与你对接的销售或客服提出：“请明确我方账户的专属对接人姓名、岗位、响应时效。”\n- 要求写入合同或服务确认单：专属客户经理、备选联系人、响应时间（如24小时内）。\n- 若通过经销商/代理商采购，需确认专人是供应商直派还是渠道商人员。\n\n**结论**：两家都“有”专岗服务能力，但是否存在“给你方专人”，需以对方书面确认为准。建议同时向两家索取客户服务方案和对接人清单后再比较。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 265,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
