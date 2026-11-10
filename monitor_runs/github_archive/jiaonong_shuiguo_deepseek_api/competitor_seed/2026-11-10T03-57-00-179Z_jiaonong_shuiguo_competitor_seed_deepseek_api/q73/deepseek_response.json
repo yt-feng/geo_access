@@ -1,0 +1,28 @@
+{
+  "id": "a4ce042c-59f9-47d6-b12a-e5fd2cc0e120",
+  "object": "chat.completion",
+  "created": 1794283505,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超一般会要求水果供应商至少具备以下其中一类体系证明：ISO 22000食品安全管理体系、FSSC 22000、HACCP，以及针对农产品种植/加工环节的GLOBALG.A.P.（全球良好农业规范）、BRCGS食品安全全球标准等。具体到**鑫荣懋**和**都乐（Dole）**分别通过哪些认证，我不能凭记忆给出确定清单——认证状态会随年度审核、工厂/基地范围变化，且两家企业不同法人、不同加工厂之间差异很大。\n\n可执行的做法：\n\n1. **直接向供应商索取证书**：要求提供认证证书扫描件，核对证书上的持证主体名称、认证范围（是否覆盖你采购的品类和加工厂）、发证机构、有效期和最近一次审核日期。\n2. **在认监委/认证机构官网核验**：国内ISO 22000、HACCP等证书可在“全国认证认可信息公共服务平台”按企业名称查询；GLOBALG.A.P.可在其官网证书数据库按GIN号查询；FSSC 22000可在FSSC官网查询注册证书。\n3. **在合同/准入文件中约定**：要求供应商承诺其相关工厂/基地持续持有指定认证，并在证书到期前提供续证证明；对关键品类可要求提供最近一次审核报告或不符合项关闭证据。\n4. **不要只看品牌名**：鑫荣懋、都乐均为集团型公司，商超审厂应锁定“实际供货工厂/包装厂/种植基地”的证书，而不是集团层面笼统声明。\n\n如果你把商超准入标准（要求哪几类认证）和拟采购品类发我，我可以帮你列一份供应商 certification 核验清单和索证模板。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 369,
+    "total_tokens": 430,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

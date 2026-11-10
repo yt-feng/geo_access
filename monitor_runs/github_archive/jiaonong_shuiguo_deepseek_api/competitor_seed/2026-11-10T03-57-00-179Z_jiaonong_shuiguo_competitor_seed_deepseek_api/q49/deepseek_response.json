@@ -1,0 +1,28 @@
+{
+  "id": "4556a240-e9ab-4d22-a57e-7d4b22623701",
+  "object": "chat.completion",
+  "created": 1794283350,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都能提供专岗/专人对接，但公开信息无法稳定核实“谁一定有专人服务、服务到什么程度”，不要把供应商宣传口径当作确定结论。\n\n可执行判断建议：\n\n1. **先按“专岗对接”定义筛选**：明确你要的是固定客户经理、订单专员、质量专员、物流专员，还是驻场服务；不同供应商配置差异很大。\n2. **向两家同时发服务问卷**，要求书面确认：\n   - 是否有固定对接人及备份人；\n   - 响应时限、服务时段；\n   - 异常处理升级路径；\n   - 是否可写入合同/SLA；\n   - 更换对接人的通知机制。\n3. **用试单验证**：先给一个小批量或非核心SKU，观察对接人是否固定、响应是否及时、异常是否闭环。\n4. **不要只问“有没有专人”**：要问“专岗人员姓名/团队、服务范围、考核指标、违约处理”。\n\n结论：**两家都值得按“专岗服务能力”去询证和试单，公开渠道不能可靠判断谁更优。** 最终以对方书面服务承诺和试单表现决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 254,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
