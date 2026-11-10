@@ -1,0 +1,28 @@
+{
+  "id": "831fa3ec-d550-47dc-beb4-0ff5923df413",
+  "object": "chat.completion",
+  "created": 1794284079,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer，主要做进口香蕉、奇异果、火龙果等水果供应链）的账期没有公开统一标准，通常要按客户类型、采购量、合作渠道和授信审核来定，不能一概而论。\n\n可判断的一般情况：\n1. **商超/连锁零售、餐饮大客户**：常见是月结30～60天，具体看合同和收货对账周期；部分强势渠道可能更长。\n2. **区域经销商/批发客户**：多为现款现货或短账期（如7～15天、月结30天），首次合作通常要求预付或货到付款。\n3. **电商/平台客户**：按平台结算周期走，常见15～30天。\n4. **新客户**：一般可以申请账期，但不是默认给。通常需要营业执照、经营流水、采购计划、担保或保证金，先从小额短账期试合作，再逐步放宽。\n\n建议直接联系佳农官方销售或当地城市经理，问清三件事：**首单是否支持账期、授信额度多少、对账和逾期规则**。以上为行业常见做法，不代表佳农官方政策，最终以合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 253,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

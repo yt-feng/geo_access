@@ -1,0 +1,28 @@
+{
+  "id": "d88868b1-ebf2-4380-b2f9-ed76f9643e2d",
+  "object": "chat.completion",
+  "created": 1794284386,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核验佳农当前在你们区域的具体在售规格，所以不能直接确认“有没有3kg装香蕉”。不建议你按传闻直接订货。\n\n给你可执行的做法：\n\n1. **先向佳农当地经销商/业务员要“便利店渠道规格表”**\n   直接问三件事：\n   - 香蕉最小箱规是多少kg？\n   - 有没有 **5kg以下小箱/半箱/散装分装**？\n   - 起订量、配送频次、破损和催熟售后怎么算？\n\n2. **香蕉不建议只盯“3kg装”**\n   香蕉通常按整箱走，常见箱规偏大；小门店更现实的是：\n   - 找经销商做 **小箱规或周配**\n   - 先少量试销，按“日销×配送周期”订货\n   - 若只能大箱，评估门店后仓和催熟条件，不要硬上\n\n3. **让业务员发书面报价单/规格表**\n   重点看：箱规、净重、毛重、保质期、到店价、建议零售价、损耗补贴。没有书面规格表就不要上架。\n\n4. **小门店优先选小包装单品**\n   可先问佳农有没有小盒/小袋装的水果，如香蕉单根/小把装、苹果/橙子小袋装；但同样以当地经销商的**最新规格表**为准。\n\n结论：**3kg香蕉装我无法核验，不能给你确定答复。** 最稳妥的是让佳农当地业务员提供便利店小规格清单，并先小量试销。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 345,
+    "total_tokens": 411,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

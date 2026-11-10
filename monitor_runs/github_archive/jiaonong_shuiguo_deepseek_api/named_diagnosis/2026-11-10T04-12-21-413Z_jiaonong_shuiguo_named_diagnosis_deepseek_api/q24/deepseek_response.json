@@ -1,0 +1,28 @@
+{
+  "id": "75e4df43-de00-46ad-9c32-47f49a78f1ff",
+  "object": "chat.completion",
+  "created": 1794284066,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果参与过进博会，近年是进博会的常客/参展商之一，通常会在食品及农产品展区展示进口水果和自有品牌产品；但具体到“今年是否参展、展台位置、现场活动”这类信息会随届次变化，建议以佳农官方公众号/官网或进博会官方参展商名录当届信息为准。\n\n新品方面，佳农的产品更新比较快，且“新品”常按渠道和季节限定推出，常见方向包括：进口香蕉/菠萝等核心品类的规格或包装升级、东南亚及南美产地的新单品、冷冻水果和即食鲜切类、礼盒装与节庆限定款。要确认“最近”的具体新品，最稳妥是看佳农官方旗舰店/公众号最新推文或当届进博会新品发布信息；如果你告诉我你关注的渠道（商超、京东/天猫、线下批发）和城市，我可以帮你缩小到更可能买到的新品范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 204,
+    "total_tokens": 257,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

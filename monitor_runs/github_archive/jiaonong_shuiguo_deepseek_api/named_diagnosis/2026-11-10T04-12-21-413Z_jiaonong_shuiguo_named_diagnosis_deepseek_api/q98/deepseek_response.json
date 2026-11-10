@@ -1,0 +1,28 @@
+{
+  "id": "181d7907-80dd-47b0-9502-9d359c3597d9",
+  "object": "chat.completion",
+  "created": 1794284490,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我们这边没有“到货损耗率承诺”或“超过3%包赔”这类政策可以给你确认。你要是向佳农或经销商进货，损耗赔付要看合同/供货协议里的验收标准和售后条款，不能默认有3%包赔。\n\n给你可执行的做法：\n1. 先问供应商要书面承诺：到货验收标准、允许损耗比例、超标怎么赔（补货/折价/退款）、报损时限和取证要求。\n2. 首单别压量：先小批量试销2-3周，按门店日均销量定订货量，记录到货损耗、货架期损耗、日销量。\n3. 验收当场做：开箱抽检、拍照称重、记录批次和温度，超标当天报备，避免事后扯皮。\n4. 合同写清楚：损耗率按“到货验收”还是“上架前”算，是否含表皮瑕疵，赔付触发线和结算方式。\n5. 门店控损：先进先出、分级陈列、熟度分开卖、临期折价或做果切/饮品，别等全损再处理。\n\n如果你把供应商给的条款发我，我可以帮你逐条看哪些能签、哪些要补。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 68,
+    "completion_tokens": 259,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 68
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

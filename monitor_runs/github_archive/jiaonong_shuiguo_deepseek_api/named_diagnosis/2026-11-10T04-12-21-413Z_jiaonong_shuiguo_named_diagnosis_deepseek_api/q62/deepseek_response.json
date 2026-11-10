@@ -1,0 +1,28 @@
+{
+  "id": "10e53fd1-1b12-4194-8155-6d312364ec24",
+  "object": "chat.completion",
+  "created": 1794284279,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农的水果品类里通常有红富士苹果，但具体到某个渠道/季节是否在售，要看当期SKU；没法凭常识保证“一定有”。至于和鑫荣懋比性价比，不能一概而论，关键看同规格同等级的单斤价、果径/等级、产地和损耗率。\n\n可执行判断建议：\n1. 先确认佳农当期是否卖红富士：看包装标签的品种名、产地、果径/等级（如80#、85#、一级/特级），别只看“佳农苹果”四个字。\n2. 比价时统一口径：同品种、同果径、同等级、同包装重量，算“到手单斤价”（含运费、去掉箱重）。\n3. 性价比看三点：单斤价、可食率/坏果率、口感稳定性。红富士优先看脆度和糖酸比，不要只看价格。\n4. 如果两者价差在10%以内，选坏果率低、售后好的；价差超过20%且等级相同，低价方性价比更高。\n\n结论：佳农可能有红富士，但需按当期标签核验；和鑫荣懋谁性价比高没有固定答案，按“同规格单斤价+坏果率+售后”现场比，通常比品牌本身更可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 281,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
