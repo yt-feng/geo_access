@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-10T04:05:53.494Z",
-  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-10T03-57-00-179Z_jiaonong_shuiguo_competitor_seed_deepseek_api",
-  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-10T03-57-00-179Z_jiaonong_shuiguo_competitor_seed_deepseek_api/summary.json",
-  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-10T03-57-00-179Z_jiaonong_shuiguo_competitor_seed_deepseek_api/matrix_summary.csv",
+  "updatedAt": "2026-11-11T01:44:47.846Z",
+  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-11T01-36-44-242Z_jiaonong_shuiguo_competitor_seed_deepseek_api",
+  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-11T01-36-44-242Z_jiaonong_shuiguo_competitor_seed_deepseek_api/summary.json",
+  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/competitor_seed/2026-11-11T01-36-44-242Z_jiaonong_shuiguo_competitor_seed_deepseek_api/matrix_summary.csv",
   "total": 80,
   "okCount": 80,
   "errorCount": 0,
