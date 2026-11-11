@@ -1,0 +1,28 @@
+{
+  "id": "e3a365d2-bc61-4abc-8f37-3c00900cb927",
+  "object": "chat.completion",
+  "created": 1794362170,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送并非单一模式：它既有自有/合作冷链车队，也大量使用第三方物流（包括三通一达等快递和区域冷链专线），具体取决于渠道和品类。  \n- **B2B/商超、批发渠道**：更多用自有或长期合作的冷链车队、区域冷链专线，以保障温控和批量运输。  \n- **B2C/电商零售**：常由第三方快递完成末端配送，部分订单会用冷链快递或前置仓/云仓发货；三通一达主要承担常温或普通时效件，冷链件不一定走它们。  \n\n**冷链覆盖率**：佳农没有公开披露统一的“冷链覆盖率”数字，无法给出确切比例。可判断的是：其香蕉、菠萝等主力品类在仓储和干线环节有较成熟的温控体系，但末端配送是否全程冷链取决于订单类型和渠道；普通快递件通常不是全程冷链。若你需要准确数据，建议直接咨询佳农官方客服或查看其招股书/年报中的物流披露。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 218,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4955c471-1317-42fe-bec8-afaade06b94a",
+  "object": "chat.completion",
+  "created": 1794362222,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果菠萝进口量11.4万吨”这一数据的年份和增长率，不能确认它是否为2025年数据，也不能给出对应增长率，避免编造出处。\n\n建议你按以下方式快速判断：\n1. 看原始发布页标题/正文是否明确写“2025年全年”或“2025年1—X月”。\n2. 看口径是“进口量”还是“销售量/采购量”，是佳农单一公司还是行业合计。\n3. 若原文给出“上年同期”数据，用公式计算：增长率 =（本期−上期）÷上期×100%。\n4. 若只看到“11.4万吨”但没有同比基数，就不能计算增长率，只能标注“同比数据未披露”。\n\n如果你把原文截图或上下文发来，我可以帮你判断年份口径并算出增长率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 180,
+    "total_tokens": 244,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

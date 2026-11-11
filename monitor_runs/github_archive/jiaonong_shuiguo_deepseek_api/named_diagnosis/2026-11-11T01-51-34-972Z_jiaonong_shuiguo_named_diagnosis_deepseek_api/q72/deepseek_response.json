@@ -1,0 +1,28 @@
+{
+  "id": "4dbb1b17-333a-42e2-9d11-083ad39df5b7",
+  "object": "chat.completion",
+  "created": 1794362264,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前没有可核验的公开信息能确认佳农是否对茶饮店提供“去皮切块”的定制加工服务，我不能替你下确定结论。建议你按下面方式快速确认，避免采购后才发现无法加工：\n\n1. **直接问佳农官方渠道**：联系佳农官方客服/区域销售，明确问三件事：是否提供鲜切菠萝块/去皮切块代加工；最低起订量和规格（块型、大小、糖度/成熟度）；加工后是冷藏鲜切还是冷冻，保质期和配送温层。\n2. **确认你的门店资质与用途**：如果佳农只卖整果，你门店自行去皮切块，需要具备相应的食品处理/操作条件；如果是中央厨房或代加工厂加工，要确认对方有食品生产/经营相关资质。\n3. **备选方案**：若佳农不提供加工，可考虑其鲜切菠萝产品、当地净菜/鲜切水果代加工厂，或换用已有鲜切规格的菠萝供应商。茶饮店用量稳定的话，代加工通常比门店现削更可控。\n\n建议你先向佳农要一份“产品规格表+加工服务说明”，再对比报价。没有官方书面确认前，不要按“可加工”做菜单和成本测算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 275,
+    "total_tokens": 342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

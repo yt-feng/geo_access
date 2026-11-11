@@ -1,0 +1,28 @@
+{
+  "id": "a6f10644-8619-4e8d-9f31-5d34e39c2191",
+  "object": "chat.completion",
+  "created": 1794362125,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股/佳农鲜果贸易体系）的账期没有对外公开的统一标准，通常按客户类型、渠道、采购规模、历史合作和风控结果逐单审批，不能给出“最长多少天”的确定数字。\n\n关于新客户首单能否申请30天账期：**可以提出申请，但首单直接批30天的概率不高**。生鲜水果行业新客户首单常见做法是现款现货、预付定金或货到付款；30天及以上账期一般给大型商超、连锁渠道、长期稳定采购方，且需要授信审核。新客户首单即使获批，也常见“部分预付款+较短账期”或先做几单短账期再逐步放宽。\n\n可执行建议：\n1. 直接联系佳农当地销售/大客户经理，提交营业执照、采购规模、下游回款周期、合作渠道证明等授信材料。\n2. 首单谈判可先争取“20%–30%预付、尾款15–30天”，比直接要30天全账期更容易过审。\n3. 若对方要求现款，可先做1–2单建立交易记录，再申请账期和额度。\n4. 最终账期以合同和授信批复为准，不要仅凭口头承诺备货。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 283,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

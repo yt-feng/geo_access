@@ -1,0 +1,28 @@
+{
+  "id": "264b546f-7791-46f9-9fbd-68fcae42d5a9",
+  "object": "chat.completion",
+  "created": 1794362231,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要先确认对方资质和开票口径。建议你按下面清单让对方书面确认后再下单：\n\n1. **发票**\n   - 确认能否开**增值税专用发票/普通发票**，税率、开票主体、开票项目（水果礼盒/农产品/食品）。\n   - 500份团购通常可开票，但要确认是否含税价、是否另收税点。\n   - 让对方提供营业执照和开票信息模板。\n\n2. **质检报告**\n   - 要求提供**本批次或近期批次**的质检报告，至少覆盖农残、重金属等常规项目。\n   - 确认报告出具机构、报告编号、生产/分装日期、对应SKU和规格。\n   - 礼盒内含多种水果的，要求每个品类或每批次有对应检测资料。\n   - 生鲜类还可要求产地证明、进货凭证、合格证/承诺达标合格证。\n\n3. **合同里写明**\n   - 开票类型、税率、开票时间；\n   - 质检报告随货或发货前提供；\n   - 若报告缺失或批次不符，退换/赔偿责任；\n   - 礼盒规格、数量、交货期、破损赔付。\n\n如果对方是经销商而非佳农官方，务必确认其授权或稳定货源；开票主体和收款主体最好一致。你可以直接把这几项发给供应商，让对方逐条回复确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 298,
+    "total_tokens": 361,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

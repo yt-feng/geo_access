@@ -1,0 +1,28 @@
+{
+  "id": "aeb9bc17-9385-4b1e-a7a2-bfd23af1ca31",
+  "object": "chat.completion",
+  "created": 1794362194,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉执行的是**企业标准（企标）**，不是国标。  \n这类品牌水果通常会在包装或标签上标注备案的企标号（如 Q/ 开头），国标则是 GB/T 或 GB 开头。\n\n至于“比普通香蕉贵多少”，**没有统一、可核验的固定差价**：佳农香蕉在不同渠道、不同城市、不同促销期价格差异很大，普通香蕉也分国产/进口、等级和销售场景。一般零售端佳农香蕉会比同店普通香蕉每斤贵约 **1～3 元**，但这是经验区间，不是官方数据。  \n建议你直接对比同一超市/同一电商页面同规格的单价，最可判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 155,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
