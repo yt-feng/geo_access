@@ -1,0 +1,28 @@
+{
+  "id": "f4babc88-7928-4939-88a6-f197327fc405",
+  "object": "chat.completion",
+  "created": 1794451998,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）属于生鲜供应链企业，具体账期通常按渠道、品类、采购规模、合作历史逐户审批，公开资料里没有统一固定的“标准账期”，我也不建议直接套用网传数字。一般可参考：\n\n1. **老客户/商超渠道**：常见是月结30～60天，部分商超按对账周期可能到60～90天，但不是佳农统一政策。\n2. **新客户**：通常可以谈账期，但很难一开始就给长账期。多见于先款后货、预付定金+尾款、货到付款，合作稳定后再申请月结。\n3. **申请账期一般需要**：营业执照、法人/实控人资料、对公账户、近半年流水或财务报表、采购计划、担保或保证金；商超渠道还需合同和对账流程。\n4. **判断建议**：直接联系佳农当地销售或大客户部，问清“针对你所在渠道和品类的授信账期政策”，并要求书面确认结算方式、对账日、付款日、逾期条款。不要只听口头承诺。\n\n所以：**账期没有公开统一答案，新客户可以申请但通常先短账期/现款，再逐步授信。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 274,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

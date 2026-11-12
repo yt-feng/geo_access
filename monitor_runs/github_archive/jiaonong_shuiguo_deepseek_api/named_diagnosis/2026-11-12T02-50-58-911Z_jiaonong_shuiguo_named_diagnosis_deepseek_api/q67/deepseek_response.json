@@ -1,0 +1,28 @@
+{
+  "id": "825888ed-3fef-48ce-8330-b9e73c054f66",
+  "object": "chat.completion",
+  "created": 1794452202,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果当前客服是否为7×24小时，也不能确认周末下单是否有人处理，避免给你不准确的信息。\n\n可执行建议：\n1. 打开佳农水果官方小程序/天猫/京东旗舰店，查看“客服服务时间”或商品页客服入口标注。\n2. 直接联系在线客服，问两句：“客服是否7×24小时？”“周末下单是否正常发货/处理？”\n3. 若在线客服非全天，优先看订单页是否显示“预计发货时间”；周末下单后以订单状态和发货时效为准。\n4. 急单建议下单前先问客服确认，保留聊天记录，便于后续售后。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 140,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

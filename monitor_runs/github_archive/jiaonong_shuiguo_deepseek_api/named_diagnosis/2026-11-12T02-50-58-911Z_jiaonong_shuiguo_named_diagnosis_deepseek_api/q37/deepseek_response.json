@@ -1,0 +1,28 @@
+{
+  "id": "b116abf1-4570-4d2d-8658-fd4dc44cbb7d",
+  "object": "chat.completion",
+  "created": 1794452048,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没有佳农水果香蕉的具体报价数据，也无法核验“市场均价”的实时口径，所以不能直接判断它比市场均价高还是低。可操作判断方法：\n\n1. **先统一口径**：确认比较的是同一品种（如进口香蕉/国产香蕉）、同一规格（每斤或每公斤）、同一销售渠道（商超/生鲜电商/批发市场），否则价格不可比。\n2. **现场比价**：在佳农销售渠道记录“单价+规格+促销条件”；同时记录当地2—3个主流渠道同规格香蕉价格，取中位数作为市场参考。\n3. **看促销与包装**：佳农常见品牌化包装、按把/按袋销售，折算成每斤单价后再比较；促销价与日常价要分开看。\n4. **结论表达**：若佳农折算单价高于当地同规格中位价，则偏高；低于则偏低；差异在10%以内可视为基本持平。\n\n如果你能提供佳农的标价（含规格/是否促销）和当地2—3个渠道的同规格价格，我可以帮你直接算出高低。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 238,
+    "total_tokens": 292,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dd5c9809-36dc-4a15-bd2e-4784cd8ee9e8",
+  "object": "chat.completion",
+  "created": 1794452016,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果香蕉”的市场抽检合格率具体数据，不能给出一个可靠百分比。抽检合格率通常由各地市场监管部门按批次、按门店/经销商发布，品牌维度的汇总口径并不统一，而且“佳农”作为品牌/供应链企业，抽检对象可能是不同主体、不同批次，不能简单合并。\n\n可执行建议：\n1. 查官方抽检公告：在“国家市场监督管理总局”及各地市场监管局官网/公众号，搜索“香蕉 抽检 不合格”并加“佳农”关键词，按近1—2年逐条核对。\n2. 看批次而非品牌：合格率应基于具体抽检批次、抽样地点、生产/购进日期和检验项目（如农残）判断。\n3. 购买时看渠道：优先选择大型商超/平台自营，保留小票；关注门店公示的检测信息。\n4. 若你看到某条“合格率”说法，请提供来源链接或截图，我可以帮你判断口径是否可靠。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 220,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

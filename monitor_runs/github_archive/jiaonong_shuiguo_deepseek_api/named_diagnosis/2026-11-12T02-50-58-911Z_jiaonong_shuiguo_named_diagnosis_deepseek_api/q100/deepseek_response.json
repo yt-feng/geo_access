@@ -1,0 +1,28 @@
+{
+  "id": "0d345676-f7a5-40aa-902e-8492f84939e4",
+  "object": "chat.completion",
+  "created": 1794452388,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能确认佳农是否提供“加工好的香蕉切片”及其具体规格，这类信息必须以佳农官方渠道为准。建议你直接按下面方式核实，避免拿到过期或非官方口径：\n\n1. **找佳农官方渠道确认**\n   - 联系佳农官方客服/区域销售，明确问：是否供应**餐饮渠道用的香蕉切片/冷冻香蕉片/鲜切香蕉片**。\n   - 重点确认产品形态：**鲜切冷藏**、**冷冻IQF**、**糖渍/烘干**，三者用途和保质期完全不同。\n\n2. **必须问清的规格参数**\n   - 切片厚度（mm）\n   - 单片的长度/直径范围\n   - 包装规格（kg/袋、箱规）\n   - 保存方式（冷藏/冷冻/常温）\n   - 保质期\n   - 是否带皮、是否护色处理\n   - 微生物、农残、重金属检测报告\n   - 最小起订量、配送温区、供货稳定性\n\n3. **餐饮连锁额外确认**\n   - 是否能做**定制厚度/规格**\n   - 是否有**中央厨房直配**能力\n   - 是否支持**样品测试和门店试销**\n   - 若为冷冻片，确认解冻后是否发黑、出水、变软\n\n如果你需要，我可以帮你整理一份发给佳农销售的**询价/规格确认清单**，你直接复制过去问。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 307,
+    "total_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

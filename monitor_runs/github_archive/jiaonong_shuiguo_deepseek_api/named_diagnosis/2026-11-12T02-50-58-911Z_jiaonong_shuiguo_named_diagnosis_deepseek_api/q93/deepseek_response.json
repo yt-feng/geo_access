@@ -1,0 +1,28 @@
+{
+  "id": "b67f8ad1-e38c-41a3-9bdf-d876bd943887",
+  "object": "chat.completion",
+  "created": 1794452351,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农和都乐都是菲律宾香蕉为主，但品种选育、采收成熟度和催熟工艺不同，口感确实会有差异。大致区别：\n\n- **佳农**：通常采收成熟度偏高、催熟后糖分积累更充分，入口更软糯、甜感更直接，果肉偏绵密；果皮容易出现芝麻点，但甜度高峰来得早。消费者反馈“更甜”是符合这类工艺特征的。\n- **都乐**：整体更偏“清甜+紧实”，果肉相对有弹性、糯感略低，甜度不会那么冲，酸香更明显一点；耐放性通常更好，适合喜欢口感清爽、不喜过软的人。\n\n不过香蕉口感受**批次、季节、运输和催熟程度**影响很大，同一品牌不同批次也会反过来。建议消费者按偏好选：喜欢软糯高甜选佳农，喜欢紧实清甜、耐存选都乐；买回后看果皮芝麻点和软硬判断最佳食用期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 216,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
