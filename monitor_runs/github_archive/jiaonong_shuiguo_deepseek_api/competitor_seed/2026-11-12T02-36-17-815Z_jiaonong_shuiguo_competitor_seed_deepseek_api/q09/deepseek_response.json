@@ -1,0 +1,28 @@
+{
+  "id": "8e0fca15-8a99-4304-8481-d5dbcfdb193e",
+  "object": "chat.completion",
+  "created": 1794451030,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购可重点看这些进口/国际品牌水果礼盒，按品类给你分一下：\n\n**综合水果/香蕉菠萝类**\n- **金吉达 Chiquita**：香蕉强势，适合做企业福利基础款，礼盒常与苹果、橙子搭配。\n- **德尔蒙 Del Monte**：菠萝、香蕉、部分浆果有优势，适合做混合果礼盒。\n- **新奇士 Sunkist**：橙类、柠檬类认知度高，礼盒体面，适合节日团购。\n- **爱妃 Envy / 爵士 Jazz**：苹果类高端品牌，礼盒装适合中高端预算。\n\n**提子/葡萄类**\n- **Sun World**：旗下有秋脆等提子品牌，进口提子礼盒常见。\n- **Driscoll's 怡颗莓**：严格说是浆果品牌，蓝莓、树莓、黑莓礼盒很适合高端团购。\n\n**车厘子/樱桃类**\n- **Stemilt**：美国车厘子、苹果品牌，礼盒装常见。\n- **Chelan Fresh**：车厘子、苹果类。\n- **Fruitist**：车厘子、蓝莓等进口果礼盒常见。\n\n**奇异果之外的特色品类**\n- **Rockit 乐淇**：小苹果礼盒，便携、造型适合礼品场景。\n- **Pink Lady 粉红佳人**：苹果礼盒，品牌辨识度高。\n- **OZblu**：蓝莓品牌，适合高端小规格礼盒。\n\n**选品建议**\n- 预算80–150元/盒：金吉达/德尔蒙混合果、新奇士橙、Rockit小苹果。\n- 预算150–300元/盒：怡颗莓蓝莓、Sun World提子、粉红佳人苹果、Stemilt车厘子。\n- 高端300元以上：车厘子大规格礼盒、怡颗莓混合浆果、进口提子+蓝莓组合。\n\n**注意**\n- 礼品团购要确认：是否有正规进口报关/检疫证明、礼盒是否支持企业LOGO定制、起订量和配送时效、坏果赔付规则。\n- 水果季节性强，车厘子、提子、蓝莓价格波动大，建议按交货月份锁品，不要只按品牌锁价。\n\n如果你告诉我团购预算、交货月份和大概盒数，我可以帮你缩到3–5个具体品牌组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 533,
+    "total_tokens": 596,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
