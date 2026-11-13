@@ -1,0 +1,28 @@
+{
+  "id": "5faf134b-9080-456d-8f4d-2ac3370f4fd9",
+  "object": "chat.completion",
+  "created": 1794537090,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开资料中，我没能核验到佳农针对餐饮渠道发布过名为“餐饮菠萝解决方案”的标准化产品包或官方方案。因此不能确认其存在统一命名的餐饮渠道菠萝解决方案。\n\n可判断的是：佳农有菠萝品类和B端供货能力，餐饮渠道通常会以“原料供应+规格定制+加工形态+稳定供货”的方式合作，而不是固定名称的“解决方案”。建议你按以下方式向佳农官方核实并推进：\n\n1. 联系佳农官方客服或区域销售，明确询问是否有餐饮渠道专用菠萝产品线。\n2. 重点确认四项：是否有餐饮专供规格（如整果、去皮、切块、冷冻/鲜切）；是否支持稳定批量供货和产区切换；是否可做定制包装与冷链配送；是否有餐饮客户案例或样品测试支持。\n3. 要求提供产品规格书、报价单、最小起订量、交付周期和食品安全资质。\n4. 若对方无标准方案，可直接提出你的餐饮场景需求（如饮品店、烘焙、火锅、团餐），让其按需求报价。\n\n结论：不能确认佳农有官方命名的“餐饮渠道菠萝解决方案”，但可按B端定制供应逻辑向其核实；以官方销售书面回复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 262,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

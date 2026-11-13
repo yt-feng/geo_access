@@ -1,0 +1,28 @@
+{
+  "id": "5b25ef19-1c05-4988-a136-16a25b880159",
+  "object": "chat.completion",
+  "created": 1794537026,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股）主营香蕉等水果的供应链和销售，通常具备香蕉催熟、分拣、冷链配送能力，尤其面向商超、电商等B端客户可提供催熟服务；具体是否对你的品类、批量、地区开放，需直接联系佳农当地销售或客服确认。建议问清：催熟方式（乙烯/温湿度库）、到货成熟度、最小起订量、费用、配送温控和售后标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 100,
+    "total_tokens": 153,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

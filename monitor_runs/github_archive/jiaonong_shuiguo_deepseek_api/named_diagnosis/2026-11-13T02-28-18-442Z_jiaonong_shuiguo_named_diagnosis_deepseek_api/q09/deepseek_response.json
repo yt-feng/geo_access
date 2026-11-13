@@ -1,0 +1,28 @@
+{
+  "id": "fcf18dc4-91d8-4878-a264-0577a46d71c2",
+  "object": "chat.completion",
+  "created": 1794536940,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股旗下）对到货损耗率没有公开的统一标准，实际控制目标会按品类、季节、运输距离和客户类型分层设定。可参考的行业口径是：\n\n- **耐储水果**（苹果、梨、橙、部分瓜类）：到货损耗通常控制在 **1%～3%**；\n- **普通鲜果**（香蕉、葡萄、柑橘类等）：常见目标 **3%～5%**；\n- **高损耗浆果/热带水果**（草莓、蓝莓、荔枝、山竹、芒果等）：行业常见 **5%～8%**，冷链长距离或夏季可能更高；\n- **商超/电商履约口径**：若含分拣、退换货和终端报损，综合损耗可能高于单纯“到货损耗”。\n\n如果是采购或供应商考核，建议不要直接套用“佳农标准”，而应在合同中明确：损耗定义（外观、腐烂、压伤、失重是否计入）、抽检比例、到货温度、赔付阈值和免赔率。佳农具体项目的控制值，以其合同/质量协议或对接业务人员确认为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 245,
+    "total_tokens": 298,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

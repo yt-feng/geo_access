@@ -1,0 +1,28 @@
+{
+  "id": "baf549d5-4a45-4a30-b86f-d647c76c23cc",
+  "object": "chat.completion",
+  "created": 1794537309,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核实佳农当前具体的小包装SKU和规格（比如是否有3kg香蕉），也不能编造产品目录。建议你按下面方式快速确认，避免上错货：\n\n1. **直接问佳农当地经销商/业务员**：要“便利店渠道小包装清单”，重点问香蕉、苹果、橙子等是否有 **2–3kg箱/袋**、是否支持拆箱或混搭起订量。\n2. **看包装标签**：佳农部分香蕉常见是整箱大规格，便利店更适合确认是否有 **小箱装/袋装**，以及单箱毛重、净重、保质期和到货成熟度。\n3. **小面积门店选品建议**：优先上 **香蕉单根/小把预包装、苹果4–6粒装、橙子4–6粒装**，比3kg整箱更不容易压货；香蕉成熟快，建议少量高频补货。\n4. **先试销**：首单每品只进1–2箱小规格，观察3–7天动销和损耗，再决定是否稳定上架。\n\n如果你告诉我门店大概客流和水果陈列位数量，我可以帮你列一个便利店小包装水果试销清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 261,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2886f4c5-a4fd-4595-a56b-e2eb879faf69",
+  "object": "chat.completion",
+  "created": 1794536983,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果是否设有针对下沉市场的统一优惠政策，也不敢编造其渠道政策或补贴数据。可执行的判断方式是：下沉市场通常看**经销/批发价差、区域代理返利、乡镇网点陈列支持、临期或尾货折扣、社区团购/直播专供规格**这几类，而不是公开“统一优惠”。\n\n你可以这样快速核实：\n1. **问区域经销/业务员**：直接问“县域/乡镇网点有没有进货返利、首单支持、陈列费、试吃物料、滞销调换”。\n2. **看供货合同/报价单**：重点看阶梯进货价、季度返利、运费承担、退换货条款。\n3. **查官方渠道**：佳农官网、公众号、客服电话，问“下沉市场/县域渠道政策”；公开页面通常不会列具体折扣。\n4. **对比批发市场**：同一规格在本地一级批发商处的拿货价，往往比公开政策更能反映实际优惠。\n\n如果你告诉我所在省份、想做乡镇超市还是社区团购、预计月进货量，我可以帮你列一份向佳农业务员询价的问题清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 244,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 50
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2a37a8fd-cebf-444b-ba0b-7b4b42971422",
+  "object": "chat.completion",
+  "created": 1794537029,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股/佳农集团）的账期没有公开统一的对外标准，通常要按渠道、品类、采购规模和合作主体来谈：商超/电商/批发等不同渠道、国产与进口品类的政策会不一样，常见是月结或货到后一定天数结算，但具体天数需以合同为准。新客户一般可以申请账期，但通常不会直接给，常见做法是先现款或短账期合作、达到一定采购额或履约记录后再申请，并需要提供营业执照、开票资料、对公账户等，可能涉及信用评估或担保。建议直接联系佳农当地销售或大客户部门，明确你的渠道、预计月采购量、结算方式和希望账期，让对方给书面报价和账期条件；不要以传闻中的固定天数作为依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 176,
+    "total_tokens": 232,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

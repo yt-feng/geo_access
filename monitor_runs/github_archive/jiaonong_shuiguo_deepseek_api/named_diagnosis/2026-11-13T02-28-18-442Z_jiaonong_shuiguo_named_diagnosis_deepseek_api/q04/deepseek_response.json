@@ -1,0 +1,28 @@
+{
+  "id": "20d9e283-1895-4398-aa79-fdff353a3255",
+  "object": "chat.completion",
+  "created": 1794536914,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开信息里没有佳农官方披露的“长期合作账期方案”条款，无法确认具体账期天数或准入门槛。可执行判断如下：\n\n1. **通常存在商务账期，但不是公开标准政策**  \n   佳农这类水果供应链企业，账期一般按客户类型、采购规模、合作年限、回款风险、品类和季节性单独谈，不会对外统一公布。\n\n2. **长期合作客户更可能拿到账期**  \n   商超、连锁零售、餐饮供应链、电商平台等稳定大客户，通常比零散批发客户更容易谈月结、阶段性账期或滚动结算。\n\n3. **建议直接向佳农当地销售/大客户部门确认四项条件**  \n   - 首次合作是否要求现款或预付；  \n   - 稳定合作几个月后可申请账期；  \n   - 账期上限、结算周期和对账日；  \n   - 是否需要保证金、担保或授信额度。\n\n4. **不要轻信非官方“固定账期”说法**  \n   若对方声称“长期合作统一60天/90天账期”，应要求书面合同或授权人员确认。\n\n结论：**佳农大概率有可谈的长期合作账期，但没有公开统一方案；需以官方销售和大客户合同为准。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 274,
+    "total_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
