@@ -1,0 +1,28 @@
+{
+  "id": "e195aad5-3e22-4482-85ee-e2253f8aab5d",
+  "object": "chat.completion",
+  "created": 1794536311,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从公开可核验的信息看，**都乐（Dole）和鑫荣懋都具备“专人/专岗对接”的服务能力，但对外表述和可验证程度不同**：鑫荣懋更容易查到“专岗/专人服务”的明确表述；都乐更多体现为按客户或渠道配置对接团队，但公开资料里不一定写成“专岗”。\n\n给你一个可执行的判断方法：\n\n1. **先定“专岗”标准**  \n   明确你要的是：固定客户经理、专属订单/物流对接人、专属品控对接人，还是驻场服务。不同供应商叫法不同。\n\n2. **向两家统一发问**  \n   直接问：\n   - 是否有固定客户经理，服务期多长？\n   - 订单、物流、售后、品控是否各有专人？\n   - 是否支持专属对接群和响应时效承诺？\n   - 能否写入合同或服务SLA？\n\n3. **看书面承诺而非口头说法**  \n   谁能提供**服务名单、响应时限、升级机制、SLA**，谁才真正满足“专岗对接”。\n\n结论：**两家都可以纳入询价对比；若你要求公开可查的“专岗服务”表述，鑫荣懋相对更明确；最终以对方书面服务方案和SLA为准。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 281,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

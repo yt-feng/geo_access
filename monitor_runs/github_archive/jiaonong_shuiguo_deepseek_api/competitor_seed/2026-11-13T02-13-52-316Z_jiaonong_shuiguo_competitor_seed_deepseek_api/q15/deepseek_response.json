@@ -1,0 +1,28 @@
+{
+  "id": "d7294340-962a-4bb5-99c4-3d084cf1a2d6",
+  "object": "chat.completion",
+  "created": 1794536116,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以重点看这几类靠谱选择，按渠道和定位区分更实用：\n\n**1. 国际水果巨头/出口商品牌**\n- **Zespri 佳沛**：新西兰奇异果为主，但也有苹果业务线；品牌管理成熟，适合看进口苹果中的高端线。\n- **Driscoll's 怡颗莓**：更强在莓果，不建议作为苹果主选。\n- **Sun World**：美国果蔬育种和品牌商，旗下有苹果相关品种授权，适合关注新品种。\n- **Stemilt Growers**：美国华盛顿州苹果大出口商，常见红蛇果、嘎啦、富士等，B端和商超都较常见。\n- **Chelan Fresh**：美国西北部苹果出口商，华盛顿州苹果供应稳定。\n- **Rainier Fruit**：美国苹果/梨出口商，品质和分级较规范。\n- **CMI Orchards**：美国华盛顿州苹果出口商，常见于进口商超渠道。\n\n**2. 新西兰/澳洲方向**\n- **Mr Apple**：新西兰苹果大出口商，主打爱妃、富士、嘎啦等，品牌辨识度高。\n- **Bostock New Zealand**：新西兰有机苹果较有代表性。\n- **Rockit**：新西兰小苹果品牌，定位特殊，适合差异化选品。\n- **Montague**：澳洲果蔬品牌，苹果有供应但不如核果突出。\n\n**3. 南美/南非方向**\n- **San Clemente**：智利水果出口品牌，苹果有供应，适合反季节。\n- **Copefrut**：智利老牌水果出口商，苹果、车厘子等都有。\n- **Unifrutti**：智利/南美果蔬出口集团，苹果线可关注。\n- **Core Fruit**：南非苹果出口商，南非苹果性价比通常较好。\n- **Tru-Cape**：南非苹果和梨的重要出口品牌，靠谱度较高。\n\n**4. 日本方向**\n- **青森苹果**：更多是产区品牌而非单一公司品牌，如“世界一号”“阳光富士”等，适合高端礼盒，但渠道水很深，要看产地证明和分级。\n\n**判断“靠谱”的建议：**\n- 优先选**有明确出口商品牌+原产地包装+分级标准**的，而不是只看“进口”两个字。\n- 苹果进口商里，**美国华盛顿州、新西兰、智利、南非**是较成熟的供应来源。\n- 如果你做商超/电商选品，建议先锁定：**Mr Apple、Stemilt、Chelan Fresh、Tru-Cape、Copefrut**这几家做对比，覆盖新西兰、美国、南非、智利四个主产区。\n- 都乐和鑫荣懋更多是渠道/供应链品牌，不完全是上游种植出口品牌；对比时最好把“上游出口品牌”和“国内进口商品牌”分开看。\n\n如果你要的是“国内能稳定拿货的进口苹果品牌”，我可以再按批发市场常见程度帮你排一版。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 639,
+    "total_tokens": 701,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
