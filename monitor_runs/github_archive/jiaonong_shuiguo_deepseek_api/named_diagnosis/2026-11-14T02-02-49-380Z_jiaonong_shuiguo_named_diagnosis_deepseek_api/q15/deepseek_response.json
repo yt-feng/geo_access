@@ -1,0 +1,28 @@
+{
+  "id": "8c46b9dd-e90d-41a3-91f6-96280dfed1c7",
+  "object": "chat.completion",
+  "created": 1794621845,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的“产地直供比例”没有公开、可核验的统一口径，不能给准确百分比。它更多是“全球采购+产地合作/直采+冷链分销”的模式；不同品类、渠道和年份差异很大，建议看其招股书/年报或官方新闻稿中是否披露“直采/产地采购占比”，不要用营销话术当比例。\n\n香蕉方面，佳农的香蕉主要来自厄瓜多尔、菲律宾、哥伦比亚、哥斯达黎加等热带产区，也会根据季节和供应情况从越南、泰国、印尼等东南亚国家采购；具体国家组合会随年份和供应链调整，需以其官方披露为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 141,
+    "total_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

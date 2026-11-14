@@ -1,0 +1,28 @@
+{
+  "id": "07b72657-0bb3-4247-9c2f-961ae8cd5537",
+  "object": "chat.completion",
+  "created": 1794622045,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的物流不是单纯“三通一达或自有车队”二选一，通常是**自有/合作冷链干线 + 区域配送 + 第三方快递/城配混合**的模式。  \n- **干线/仓间调拨**：更多依赖自有或长期合作的冷链车队、冷链干线承运商。  \n- **电商零售末端**：部分订单会走顺丰、京东物流、中通/圆通等第三方快递，具体取决于平台、品类和时效产品。  \n- **商超/批发渠道**：多为冷链整车、零担或区域城配，不是三通一达为主。  \n\n**冷链覆盖率**：公开可核验的“整体冷链覆盖率”数字我无法确认，不建议引用具体百分比。可以判断的是：佳农以香蕉、菠萝、提子、车厘子等品类的冷链能力为核心竞争力，重点环节在产地预冷、港口/口岸冷链、仓储和干线运输；但末端配送是否全程冷链，要看具体商品和销售渠道，不能一概而论。  \n**建议**：如果你要评估其物流能力，直接问客服或销售三个问题：①该SKU是否全程冷链；②干线是否自有/合作承运；③末端由哪家快递/城配承运，是否配保温箱和冰袋。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 272,
+    "total_tokens": 330,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
