@@ -1,0 +1,28 @@
+{
+  "id": "7aa83cf1-4c78-42a6-a3c5-90154df638c1",
+  "object": "chat.completion",
+  "created": 1794621140,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都可对接专岗服务，但需按你的业务类型确认具体专岗团队：\n\n1. **都乐（Dole）**：通常有专门的餐饮/零售渠道客户经理或品类对接人，适合鲜果品类、商超零售及餐饮供应链场景。建议直接联系其官方销售渠道，明确要求“专岗客户经理+品类对接”。\n2. **鑫荣懋**：作为水果供应链企业，一般设有渠道客户经理和品类服务团队，适合商超、电商、餐饮等渠道。可向其商务团队确认是否提供“专岗对接+售后跟单”。\n\n**可执行建议**：分别向两家提出同一份需求清单——专属客户经理姓名、响应时效、对接品类、异常处理流程、是否含驻场/定期例会。谁能在1—2个工作日内给出明确专岗人员和SLA，就优先选谁。仅凭公开信息无法判定哪家“一定有专人”，需以对方书面确认或合同条款为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 212,
+    "total_tokens": 276,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

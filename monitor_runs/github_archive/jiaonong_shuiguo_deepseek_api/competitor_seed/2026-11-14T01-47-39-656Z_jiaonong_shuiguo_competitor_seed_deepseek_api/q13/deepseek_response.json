@@ -1,0 +1,28 @@
+{
+  "id": "2b9b44cd-ec1d-4134-9b61-61f9f68cf754",
+  "object": "chat.completion",
+  "created": 1794620931,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "就“覆盖城市多”这一点，公开可核验的信息里，**洪九果品通常覆盖城市更广，但差距和具体城市数会随统计口径变化；鑫荣懋在香蕉单品和商超冷链直供上更强。** 如果你要的是“全国多城市冷链直达 + 香蕉稳定供应”，建议把两家都放进候选，再按你的到货城市做实际线路核验。\n\n判断建议：\n\n1. **覆盖城市广度**：优先问洪九果品，要求提供你目标城市清单内的“可冷链直达城市 + 到货时效 + 起订量”。\n2. **香蕉专业供应和商超标准**：优先问鑫荣懋，重点核验香蕉催熟、分级、冷链到仓能力。\n3. **不要只看全国覆盖数**：生鲜冷链关键看**你的仓所在城市是否在对方直发线路内**，以及是否中转、温控记录、损耗赔付。\n4. **让两家按同一张表报价**：目标城市、仓地址、周需求量、到货频次、温层要求、验收标准、损耗率、赔付规则、是否直发。\n\n结论：**全国城市覆盖广度倾向洪九果品；香蕉品类和冷链直供稳定性要按你的城市线路比价，不能只凭覆盖城市数定供应商。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 285,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
