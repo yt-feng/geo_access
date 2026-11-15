@@ -1,0 +1,28 @@
+{
+  "id": "2c269a1f-8b9c-401e-b8c3-489a6a8abe24",
+  "object": "chat.completion",
+  "created": 1794706245,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没有可核验的公开信息能确认都乐和洪九果品对采购商的具体账期，账期通常是一客一议的商务条款，不会公开披露，直接给数字容易误导。\n\n可执行建议：\n\n1. **都乐**：走企业采购/批发渠道对接销售，明确问“首单是否可账期、账期天数、结算方式（月结/货到付款/承兑）、是否需要保证金或担保”。都乐这类品牌商通常对新客户先款后货或短账期，老客户、大客户才可能放宽。\n2. **洪九果品**：其主业是水果分销，对下游商超、电商、批发客户可能有账期安排，但同样取决于采购规模、合作历史、品类和信用审核。建议直接联系其区域销售或商务，问清“账期申请条件、授信额度、逾期政策”。\n\n判断要点：\n- 不要只问“账期多久”，要问**授信条件**：营业执照、采购量承诺、担保/保证金、历史合作记录。\n- 要求书面合同写明账期起算日、对账日、逾期利息。\n- 新供应商首单建议先小额现款试合作，再谈账期。\n\n如果你能说明采购规模、所在城市、是否长期稳定采购，我可以帮你整理一份更具体的谈判问题清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 285,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

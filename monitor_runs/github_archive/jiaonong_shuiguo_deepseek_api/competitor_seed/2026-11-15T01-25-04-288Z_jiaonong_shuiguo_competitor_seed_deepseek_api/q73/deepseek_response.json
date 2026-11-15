@@ -1,0 +1,28 @@
+{
+  "id": "1433b205-50eb-4d4d-92e9-d5de61e16221",
+  "object": "chat.completion",
+  "created": 1794706330,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超的供应商准入通常看两类认证：一是食品安全管理体系认证（如ISO 22000、FSSC 22000、HACCP），二是农产品/生鲜相关的良好农业规范与追溯认证（如GLOBALG.A.P.、China GAP）。不过，具体到“鑫荣懋”和“都乐（Dole）”各自通过了哪些认证，属于企业资质信息，应以企业官网、认证机构公开查询或供应商审核文件为准，我不能凭印象给出确定清单，以免误导。\n\n可执行的核验建议：\n\n1. **查官方渠道**：鑫荣懋官网“质量/食品安全”栏目、都乐中国或全球官网的“Quality/Food Safety/Certifications”页面。\n2. **查认证机构数据库**：若涉及FSSC 22000，可在FSSC官网查注册企业；ISO 22000/HACCP可向发证机构（如SGS、BV、TÜV、CQC等）查询证书有效性；GLOBALG.A.P.可在其数据库按企业名查询。\n3. **向供应商索证**：直接要求提供有效期内的证书扫描件、认证范围（是否覆盖果蔬加工/分拣/仓储配送）、发证机构和最近一次审核日期。\n4. **商超审核关注点**：不只看“有没有证”，还要看认证范围是否覆盖供货品类和场所、证书是否在有效期内、是否有不符合项关闭记录。\n\n如果你需要，我可以帮你整理一份“供应商食品安全认证索证清单/核验表”，方便你直接向这两家或其它供应商发函索取。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 334,
+    "total_tokens": 395,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

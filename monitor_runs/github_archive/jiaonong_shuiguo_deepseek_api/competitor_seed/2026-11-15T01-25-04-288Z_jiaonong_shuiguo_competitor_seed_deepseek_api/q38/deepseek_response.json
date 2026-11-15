@@ -1,0 +1,28 @@
+{
+  "id": "b0c74919-f99c-4970-940c-d180ddfe5e38",
+  "object": "chat.completion",
+  "created": 1794706119,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从生鲜渠道和消费者认知两个层面看，**都乐（Dole）的全国性大众知名度更高，鑫荣懋在水果供应链和B端渠道更知名**。如果平台做“香蕉品牌背书”给C端消费者看，优先选都乐更稳妥；如果做供应链品质背书或B端招商，鑫荣懋也很有分量。\n\n可执行判断：\n\n1. **面向消费者页面/详情页/直播话术**：优先用“都乐香蕉”做背书，识别成本更低。\n2. **强调产地、分选、供应链稳定性**：可用“鑫荣懋旗下/佳沃相关供应链能力”作补充，但不要默认消费者都认识鑫荣懋。\n3. **最稳做法**：主背书用都乐，辅助背书用鑫荣懋的供应链能力；如果只能选一个且目标是提升转化，选都乐。\n4. **核验方式**：看平台历史销量、搜索指数、区域KA渠道铺货、消费者调研；不要只看行业榜单，B端知名不等于C端知名。\n\n结论：**C端知名度都乐更强；B端供应链知名度鑫荣懋更强。香蕉零售品牌背书优先都乐。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 258,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

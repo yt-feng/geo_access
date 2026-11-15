@@ -1,0 +1,28 @@
+{
+  "id": "4c0df982-6204-46bc-8c1c-f55f43f4aebf",
+  "object": "chat.completion",
+  "created": 1794706278,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核验鑫荣懋和都乐当前冷链配送覆盖城市的准确清单，直接给出城市名单会有编造风险。可执行的做法是：\n\n1. **向两家公司索取盖章版《冷链配送覆盖城市清单》**，要求列明：城市、仓储/中转节点、配送频次、温区（冷藏/冷冻/常温）、是否支持商超DC直送、是否支持门店直送。\n2. **要求提供冷链资质与能力证明**：道路运输经营许可证、冷链运输温控记录样例、GPS/温控平台截图、近3个月商超配送案例。\n3. **按商超要求做覆盖比对**：把对方清单与你们门店/DC所在城市逐项打勾，重点确认“覆盖”是“直达配送”还是“中转覆盖”，以及最小起送量、时效、断链责任。\n4. **官方核验渠道**：鑫荣懋、都乐官网/官方客服/区域销售索取最新覆盖表；如商超审核严格，可要求对方出具承诺函，写明未覆盖城市及替代方案。\n\n如果你们能提供目标城市清单，我可以帮你设计一份发给供应商的询证模板和比对表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 253,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
