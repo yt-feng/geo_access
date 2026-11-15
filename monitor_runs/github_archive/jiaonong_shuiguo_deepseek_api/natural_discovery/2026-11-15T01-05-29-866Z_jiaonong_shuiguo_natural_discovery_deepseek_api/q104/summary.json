@@ -1,0 +1,50 @@
+{
+  "questionId": "q104",
+  "prompt": "单位采购水果，如果到货品质不一致，应该怎么验收和售后？",
+  "createdAt": "2026-11-15T01:17:21.785Z",
+  "summary": [
+    {
+      "questionId": "q104",
+      "prompt_index": 104,
+      "promptIndex": 104,
+      "promptHash": "08e91fa1e755",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "单位采购水果，如果到货品质不一致，应该怎么验收和售后？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 1109,
+      "text_length": 1109,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 720,
+        "total_tokens": 777,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 57
+      },
+      "prompt_tokens": 57,
+      "completion_tokens": 720,
+      "total_tokens": 777,
+      "latencyMs": 6714,
+      "latency_ms": 6714,
+      "createdAt": "2026-11-15T01:17:21.785Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q104/prompt.txt",
+        "answer": "q104/deepseek.txt",
+        "response": "q104/deepseek_response.json",
+        "sources": "q104/deepseek_sources.json",
+        "references": "q104/deepseek_references.json"
+      }
+    }
+  ]
+}
