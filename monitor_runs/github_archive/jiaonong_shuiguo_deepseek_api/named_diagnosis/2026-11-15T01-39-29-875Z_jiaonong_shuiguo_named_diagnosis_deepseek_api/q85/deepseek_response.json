@@ -1,0 +1,28 @@
+{
+  "id": "6fad64fd-8456-47a8-9bea-cf90d9470ca9",
+  "object": "chat.completion",
+  "created": 1794707204,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但需要先确认两点：佳农是否能覆盖你所在城市和门店配送范围，以及你需要的“专车配送”是整车直达还是多门店循环配送。建议你直接向佳农当地销售确认以下可执行事项：\n\n1. **专车配送**：确认是否支持按你门店数量、频次和时段安排专车；起送量、最小配送单位、跨城/跨区是否加价；温控和到货时效承诺。\n2. **专人对接**：要求指定客户经理/客服和备用联系人，明确下单、改单、售后、异常到货的处理时限。\n3. **供应稳定性**：确认香蕉产地/等级/规格、催熟状态、可替代货源、缺货预警机制和违约处理。\n4. **合同与试运行**：先做2—4周小范围试配送，约定到货合格率、损耗赔付、临时加单响应时间，再签长期协议。\n\n如果佳农当地无法提供专车或专人对接，可要求其给出区域配送商方案，或同时引入第二家供应商做备份。最终以佳农书面报价和配送服务确认单为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 245,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

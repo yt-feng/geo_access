@@ -1,0 +1,28 @@
+{
+  "id": "1aa94cfd-c4d5-4f3d-ae40-8e0b9ffe4656",
+  "object": "chat.completion",
+  "created": 1794706923,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向礼品团购的水果礼盒，但具体礼盒型号、规格和团购政策会随季节、渠道和区域变化，建议按下面方式确认：\n\n1. **官方渠道先确认**  \n   可查佳农官网/官方公众号/官方小程序，或拨打官方客服，询问“企业团购/礼品礼盒”业务及当季可订SKU。\n\n2. **重点问清这些信息**  \n   - 是否有企业团购起订量、阶梯价、开票类型  \n   - 礼盒是否支持定制（LOGO、贺卡、外箱）  \n   - 配送范围、时效、能否分地址发货  \n   - 售后标准（坏果赔付、签收时效）  \n   - 是否含季节性水果，能否固定品种\n\n3. **渠道选择**  \n   企业批量采购优先走佳农官方团购或授权经销商；电商平台旗舰店适合小批量先看实物/评价，但定制和阶梯价通常不如官方团购渠道。\n\n4. **快速判断**  \n   如果你要的是“企业送礼、批量采购、可定制”，直接问官方团购；如果只是少量送人，可在其官方旗舰店选当季礼盒。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 261,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

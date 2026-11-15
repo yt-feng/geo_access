@@ -1,0 +1,28 @@
+{
+  "id": "348ec0f1-d33c-4798-b3fc-5a8ab574fa36",
+  "object": "chat.completion",
+  "created": 1794707182,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我不能核验佳农具体 SKU 和当前供货规格，不能直接确认“有没有 3kg 装香蕉”。但可以给你可执行的判断和沟通话术：\n\n1. **便利店小面积更适合“小规格+高频补货”**\n   - 香蕉建议优先找 **1–1.5kg 家庭装/随手装**，3kg 对便利店偏大，损耗和陈列压力高。\n   - 苹果、橙子可找 **2–3 个装/1–1.5kg 网袋装**；提子、小番茄等找 **250–500g 盒装**。\n\n2. **直接向佳农当地经销商/业务员确认这 4 项**\n   - 香蕉是否有 **1kg、1.5kg、2kg、3kg** 规格，最小起订量是多少；\n   - 是否支持 **拆箱混装/小箱配送**；\n   - 配送频次能否做到 **每周 2–3 次**，降低损耗；\n   - 是否有 **便利店渠道专供小包装** 或临期/损耗补贴政策。\n\n3. **话术可直接发**\n   > 我们是社区便利店，门店面积小，想上佳农水果。请发一下适合便利店的 SKU 和规格表，重点看香蕉 1–1.5kg 小包装、苹果/橙子小网袋、提子小盒装；也请告知最小起订量、配送频次和损耗处理政策。若香蕉只有 3kg 装，是否有更小规格或拆箱方案？\n\n4. **如果只有 3kg 装**\n   - 不建议常规陈列整箱卖；可做 **预售/团购/切果盒** 分流，或跟附近门店拼单，否则香蕉损耗容易吃掉毛利。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 391,
+    "total_tokens": 457,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

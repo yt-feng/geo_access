@@ -1,0 +1,28 @@
+{
+  "id": "0dd2f440-2b4b-48e5-9c6c-ca0e8bf752ba",
+  "object": "chat.completion",
+  "created": 1794706899,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（佳农食品控股/佳农集团）对经销/商超渠道的账期没有统一公开标准，通常按客户类型和合作规模协商，常见情况：\n\n- **商超/连锁渠道**：多为月结30～60天，部分强势渠道可能60～90天。\n- **经销商/批发客户**：常见现款现货、款到发货，或短账期7～30天；合作稳定后可能放宽。\n- **电商/餐饮大客户**：按合同约定，常见30～60天。\n\n**新客户一般可以申请账期，但通常需要满足条件**：营业执照及经营资质齐全、首单多为现款或预付、提供授信资料（财务报表、征信/担保）、有一定采购量和合作历史，审批通过后才给授信额度。实际操作中，新客户首单几乎都是款到发货，稳定合作1～3个月后才谈账期。\n\n建议直接联系佳农当地销售或官方客服，按“客户类型+月采购量+结算方式”询价，账期以合同为准。以上为行业惯例参考，不代表佳农官方政策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 239,
+    "total_tokens": 295,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

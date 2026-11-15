@@ -1,0 +1,28 @@
+{
+  "id": "92569971-6100-4592-87a6-15e209fce2ae",
+  "object": "chat.completion",
+  "created": 1794707234,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这两点我无法直接确认，建议你以佳农官方渠道的实时信息为准：\n\n- **是否7×24小时客服**：不同渠道（官网/旗舰店/小程序/电话）服务时间可能不同，不能一概而论。请在佳农官网、京东/天猫旗舰店客服页或订单页查看“服务时间”标注，或直接发消息看是否有自动回复/人工接入。\n- **晚上下单第二天能否发货**：取决于你下单的平台、截单时间、仓库所在地和商品库存，生鲜类还受配送区域影响。最稳的判断方法是：下单前看商品页的“发货时效/预计发货时间”，或把商品链接和收货城市发给客服确认；下单后以订单页显示的“预计发货时间”为准。\n\n如果你告诉我具体下单渠道（如京东自营/天猫旗舰店/佳农小程序）、收货城市和下单时间，我可以帮你判断该看哪些页面信息、怎么问客服最有效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 200,
+    "total_tokens": 263,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
