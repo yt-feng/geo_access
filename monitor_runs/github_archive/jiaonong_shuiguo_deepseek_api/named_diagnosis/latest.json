@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-15T01:48:10.653Z",
-  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-15T01-39-29-875Z_jiaonong_shuiguo_named_diagnosis_deepseek_api",
-  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-15T01-39-29-875Z_jiaonong_shuiguo_named_diagnosis_deepseek_api/summary.json",
-  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-15T01-39-29-875Z_jiaonong_shuiguo_named_diagnosis_deepseek_api/matrix_summary.csv",
+  "updatedAt": "2026-11-16T01:49:48.199Z",
+  "latestRun": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-16T01-41-02-733Z_jiaonong_shuiguo_named_diagnosis_deepseek_api",
+  "summaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-16T01-41-02-733Z_jiaonong_shuiguo_named_diagnosis_deepseek_api/summary.json",
+  "matrixSummaryPath": "monitor_runs/github_archive/jiaonong_shuiguo_deepseek_api/named_diagnosis/2026-11-16T01-41-02-733Z_jiaonong_shuiguo_named_diagnosis_deepseek_api/matrix_summary.csv",
   "total": 100,
   "okCount": 100,
   "errorCount": 0,

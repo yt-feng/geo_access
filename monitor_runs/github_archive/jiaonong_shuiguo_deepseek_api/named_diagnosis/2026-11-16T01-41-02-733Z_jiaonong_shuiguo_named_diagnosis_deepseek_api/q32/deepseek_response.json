@@ -1,0 +1,28 @@
+{
+  "id": "6a52aa51-f8e3-4800-b57f-91c7bb2888a4",
+  "object": "chat.completion",
+  "created": 1794793423,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验这个数据是否为“去年”的，也不能确认“11.4万吨”对应的年份和统计口径。  \n\n建议你按以下方式快速判断：  \n1. **看原始出处**：如果来自佳农官网/新闻稿/年报，通常会写明“2023年”或“2024年”。  \n2. **看发布时间**：若文章发布于2025年且写“去年”，那指2024年；若发布于2024年，则“去年”是2023年。  \n3. **看口径**：是“进口量”“销售量”还是“到港量”，是否含菠萝果品全品类。  \n\n你可以把原文截图或链接发我，我可以帮你判断它指的是哪一年。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 155,
+    "total_tokens": 214,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

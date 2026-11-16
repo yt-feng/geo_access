@@ -1,0 +1,28 @@
+{
+  "id": "90e1d47a-edaa-4240-8dee-8734d29e15ec",
+  "object": "chat.completion",
+  "created": 1794793533,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的菠萝产地不是固定单一来源，会随季节、批次和品类变化：常见有菲律宾（如 MD2 金菠萝）、哥斯达黎加等中南美来源，也可能出现厄瓜多尔等其他产地；具体以包装标签上的“原产国/产地”为准，不能一概说只产自菲律宾或厄瓜多尔。\n\n品质差异主要看品种、成熟度、采后处理和运输，而不是只看国家：\n\n- **菲律宾 MD2**：甜度高、酸度低、果眼较浅、纤维细，商业化成熟，口感稳定；但长途冷链不到位时易失水、风味变淡。\n- **厄瓜多尔等南美产地**：同样可种 MD2，甜度和香气受产区气候与采收成熟度影响大；批次稳定性可能不如菲律宾主产区，但好批次口感也很好。\n- **判断品质更实用的指标**：看标签品种和产地、果皮颜色（黄中带绿通常适合短放）、果香、果眼深度、是否有碰伤和软烂；买回后按成熟度决定立即吃还是放 1–2 天。\n\n所以：**别用“菲律宾 vs 厄瓜多尔”直接判断好坏，先看具体品种和包装产地，再看成熟度与冷链状态。** 同一品牌不同批次差异可能比不同国家差异更明显。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 285,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

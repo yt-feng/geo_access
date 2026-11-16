@@ -1,0 +1,28 @@
+{
+  "id": "42180860-fddc-4449-931d-de344296853a",
+  "object": "chat.completion",
+  "created": 1794793766,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）公开可查的是企业官网和B2B业务，但没有对外公开、可自助注册的“佳农开放平台”或公开API文档。生鲜电商对接其系统通常走商务合作通道，不是开发者自助接入。\n\n建议按这个顺序确认：\n\n1. 先联系佳农对接的销售/渠道经理，问三件事：是否有开放平台、API对接是否支持、由谁提供技术文档。\n2. 让对方确认对接模式：是标准API、EDI/文件交换，还是仅提供商家后台账号/手工对账。\n3. 如果对方说有API，要求提供：接口清单、鉴权方式、沙箱环境、错误码、限流和SLA，不要只拿一份PDF就开发。\n4. 合同里写清接口变更通知期、数据字段口径（SKU/批次/效期/库存/价格）、故障责任和联调验收标准。\n\n我需要说明：以上是基于公开信息和常见企业对接方式的判断，我没有核验到佳农官方开放平台页面或公开接口文档，所以不能给你具体URL或接口地址。最稳妥的是直接向佳农商务确认；如果你们已有采购合同或对接人，优先走那条线。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 258,
+    "total_tokens": 320,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

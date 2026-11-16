@@ -1,0 +1,28 @@
+{
+  "id": "e8a255b5-17e2-41a1-bce7-784a313c2abc",
+  "object": "chat.completion",
+  "created": 1794793309,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农通常会对批发/经销客户安排对接人，但“专门客户经理”取决于你的合作渠道和采购规模。可执行判断如下：\n\n1. **走佳农官方渠道（总部/大区销售）**  \n   一般会由区域销售或渠道经理对接；批发量稳定、SKU多、账期/配送要求复杂的客户，更可能配专属客户经理或固定对接人。\n\n2. **走经销商/批发市场档口**  \n   通常由经销商业务员对接，不一定有佳农厂家的专属客户经理。\n\n3. **快速确认方式**  \n   直接联系佳农官方客服或你所在区域的销售负责人，问三句话：  \n   - “我们属于批发客户，是否有固定对接的客户经理？”  \n   - “对接人是厂家销售还是区域经销商？”  \n   - “达到什么采购量/合作条件可以配专属对接人？”\n\n建议先明确你的**所在城市、月采购量、主要品类（香蕉/进口水果等）、是否要账期和配送**，再让对方给出对接层级，判断会更准确。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 226,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

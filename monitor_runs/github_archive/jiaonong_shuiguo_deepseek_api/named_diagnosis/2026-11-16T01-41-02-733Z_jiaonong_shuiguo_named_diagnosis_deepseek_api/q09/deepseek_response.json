@@ -1,0 +1,28 @@
+{
+  "id": "2f6d8238-3b7e-426b-81ef-c9e1d3d6d387",
+  "object": "chat.completion",
+  "created": 1794793305,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）没有对外公开统一的“到货损耗率”标准，实际控制值会随品类、运输方式、季节和客户验收口径变化。可参考的判断区间如下：\n\n- **香蕉**：到货损耗通常控制在 **3%～5%**，夏季高温或长距离运输可到 **5%～8%**。\n- **进口提子/葡萄**：一般 **2%～5%**，易掉粒、压伤，冷链不稳时更高。\n- **苹果、梨等仁果**：通常 **1%～3%**。\n- **柑橘类**：通常 **3%～5%**，取决于产地和成熟度。\n- **火龙果、芒果等热带水果**：通常 **3%～6%**，成熟度高时损耗更大。\n\n如果是商超或生鲜渠道验收，常见合同口径会把“到货损耗”限定为 **外观可见的腐烂、压伤、裂果、掉粒等**，不包括后续货架期损耗。建议直接以采购合同或佳农业务人员给出的**品类验收标准**为准；若用于内部考核，可先按 **3%～5%** 作为多数水果到货损耗的参考控制线，再按品类细化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 266,
+    "total_tokens": 319,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

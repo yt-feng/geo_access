@@ -1,0 +1,28 @@
+{
+  "id": "109e6e31-18ec-437f-8a80-eefd971d6626",
+  "object": "chat.completion",
+  "created": 1794793614,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我无法核验佳农官方是否公开列出“餐饮渠道专用”的菠萝切片/切块定制规格，所以不能直接确认。可判断的是：佳农有鲜切水果和餐饮供应链业务基础，餐饮渠道通常可按客户需求谈规格，但要以官方销售确认是否属于标准SKU。\n\n建议你这样落地确认：\n\n1. **找对入口**：联系佳农官方客服/区域销售，明确问“餐饮渠道鲜切菠萝是否有标准规格，还是按客户定制”。\n2. **一次问清关键参数**：\n   - 形态：切片/切块/丁/条/整果去皮\n   - 单块尺寸或每片克重\n   - 包装：真空袋、气调盒、大袋餐饮装、每箱净重\n   - 是否即食、冷链温度、保质期\n   - 起订量、供货区域、周配频次\n   - 是否可贴牌/贴餐厅标签\n3. **要资料而不是口头承诺**：让对方发产品规格书、报价单、样品和检测/资质文件。\n4. **先小批量试单**：用样品验证出成率、氧化变色、口感、冷链稳定性，再签长期。\n\n如果你告诉我你所在城市、预计月用量和需要的形态（片/块/丁），我可以帮你把询价话术整理成一段可直接发给销售的消息。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 296,
+    "total_tokens": 355,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
