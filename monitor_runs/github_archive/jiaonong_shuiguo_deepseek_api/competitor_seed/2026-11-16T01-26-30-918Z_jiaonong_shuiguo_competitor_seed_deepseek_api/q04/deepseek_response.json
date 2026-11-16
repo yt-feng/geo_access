@@ -1,0 +1,28 @@
+{
+  "id": "151d62f9-e0a9-4124-a0e1-bbe460b75ef4",
+  "object": "chat.completion",
+  "created": 1794792409,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳沛（Zespri）核心是奇异果，香蕉不是它的强项，这个判断没问题。进口香蕉品牌可以按“稳定性/性价比/高端差异化”三条线来选：\n\n1. **都乐 Dole**——进口香蕉里最稳的通用选择，货源和熟度控制成熟，适合做常态陈列和走量；缺点是品牌溢价不高、差异化弱。\n2. **金吉达 Chiquita**——全球香蕉老牌，供应链稳定，适合做中高端标品；注意国内不同口岸到货品质会有波动，建议先小批量试。\n3. **帝盟 Del Monte**——进口香蕉常见品牌，性价比和供应稳定性兼顾，适合作为第二供应商分散风险。\n4. **Fyffes**——欧洲老牌香蕉商，国内可见度不如前几家，如果做高端或差异化可以关注，但货源稳定性要先验证。\n5. **高端/特色线**：可以关注厄瓜多尔、菲律宾、越南产地的有机或小规格香蕉，以及部分精品超市常见的“有机香蕉”品牌；这类更适合做差异化，不适合作为主力走量。\n\n实操建议：不要只换一个品牌，先按“主力走量（都乐/帝盟）+ 中高端标品（金吉达）+ 差异化补充（有机/特色产地）”组合测试；每个品牌先小批量试熟度和损耗，再定长期采购。进口香蕉的关键风险不是品牌知名度，而是到货熟度、催熟一致性和损耗率，建议用这三项做供应商评估。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 322,
+    "total_tokens": 386,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

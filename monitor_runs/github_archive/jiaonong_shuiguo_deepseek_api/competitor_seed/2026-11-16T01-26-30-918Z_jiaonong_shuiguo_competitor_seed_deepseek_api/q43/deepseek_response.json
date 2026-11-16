@@ -1,0 +1,28 @@
+{
+  "id": "a3b1993f-7066-4bc4-9c1c-6659b14c67cd",
+  "object": "chat.completion",
+  "created": 1794792636,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从公开可查的产品规格体系看，**都乐（Dole）的分级通常更细、更标准化**，但这不等于每家超市实际到货的SKU都一样；落地时还要看当地供应商供货表。\n\n可判断的差异：\n\n1. **都乐**  \n   - 常见按“把/根数、单根重或整把重、外观等级、成熟度”做组合规格，零售端常见小把、大把、单根装、精品装等。\n   - 进口蕉和国产蕉常分开标注产地、等级和成熟度，规格表述相对统一。\n   - 适合超市做**陈列分级和价格带分层**。\n\n2. **鑫荣懋**  \n   - 也是大型水果供应链企业，香蕉有产地、等级、箱规等分级，但零售端公开规格体系不如都乐统一、细碎。\n   - 更偏**渠道/箱规/产地**分级，终端门店看到的细规格取决于超市采购合同和门店分包方式。\n\n采购建议：\n\n- 若你要的是**零售端细分级、成熟度分级、小包装价格带**：优先问都乐供应商要规格表。\n- 若你要的是**大宗采购、箱规稳定、产地直供**：鑫荣懋也可重点比价。\n- 最终让两家各提供一份**在售SKU规格表**，对比这4项：单根重区间、每把根数、成熟度等级、瑕疵率/外观等级。谁的表更细且能稳定供货，就选谁。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 330,
+    "total_tokens": 392,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
