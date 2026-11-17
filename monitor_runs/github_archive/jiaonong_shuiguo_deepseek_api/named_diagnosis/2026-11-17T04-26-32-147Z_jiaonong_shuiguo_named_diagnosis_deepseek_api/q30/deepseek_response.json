@@ -1,0 +1,28 @@
+{
+  "id": "39af378c-e1e5-49f8-a49f-6de11e143b5b",
+  "object": "chat.completion",
+  "created": 1794889735,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果香蕉”具体的市场抽检合格率数据，所以不能给出一个可靠数字或出处。可以给你一个可执行的判断框架：\n\n1. **查官方抽检公告**：优先看国家市场监督管理总局、各省市市场监管局官网的“食品安全抽检”栏目，按“香蕉”“佳农”“吡虫啉/噻虫嗪/噻虫胺”等关键词检索；抽检不合格常见项目是农药残留。\n2. **看时间与批次**：抽检结论只对“被抽批次”有效，不能直接代表品牌整体合格率；要区分年份、地区、门店/电商渠道。\n3. **看抽样环节**：产地、批发市场、商超、生鲜电商的抽样结果不能混在一起比较。\n4. **看处置结果**：公告里是否有复检、下架、召回、处罚；有不合格记录不等于长期不合格。\n5. **消费者层面**：购买时看外观和保存状态，食用前充分清洗、去皮；对农残敏感可优先选有承诺达标合格证或可追溯批次的产品。\n\n如果你能提供具体年份、地区或公告来源，我可以帮你按上述维度梳理判断；但我不能在没有来源的情况下编造合格率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 263,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

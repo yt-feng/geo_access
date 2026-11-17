@@ -1,0 +1,28 @@
+{
+  "id": "630749f4-4b10-48fb-9be1-79e66651938f",
+  "object": "chat.completion",
+  "created": 1794889871,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农（Goodfarmer）具体的香蕉到货损耗率控制数据，也没有可靠来源能确认其与客户合同中的赔付条款——这两项都属于企业未公开披露的经营/商务信息，任何具体数字或条款细节我都不应编造。\n\n可判断的建议：\n\n1. **损耗率**：行业平均5%是笼统口径，实际会按运输方式（海运/陆运）、季节、到货成熟度、验收标准（蕉指饱满度、青硬度、机械伤定义）差异很大。要向佳农确认，应直接问其销售/客服要\"近12个月到货损耗率数据及统计口径\"，而不是接受口头承诺。\n2. **赔付条款**：通常体现在购销合同的质量与索赔条款中，常见形式包括到货验收扣重、按损耗比例折价、超出约定损耗率部分补货或退款。具体是否设、门槛多少，必须以合同文本为准。\n3. **可执行动作**：在谈判或采购前，要求对方提供合同模板中的质量验收与索赔章节；同时在合同中自行明确损耗率上限、验收时点、抽检比例和索赔时限，避免仅依赖对方口头说法。\n\n如果你能提供佳农的合同文本或官方产品资料，我可以帮你逐条解读条款。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 270,
+    "total_tokens": 333,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

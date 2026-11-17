@@ -1,0 +1,28 @@
+{
+  "id": "8cd5c17f-9f95-4fe6-8752-89f22232cccf",
+  "object": "chat.completion",
+  "created": 1794889920,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（上海佳农食品集团）的ERP对接接口，公开渠道通常查不到明确的开放API清单。我无法核验其是否有对外开放接口，也不会虚构接口文档或链接。\n\n可执行建议：\n\n1. **先找对接口人**：联系佳农对接你们的销售/大客户经理，直接要求转“信息技术部/数字化部/电商对接负责人”。生鲜B2B企业对外通常有EDI或定制API，但只对签约客户开放。\n\n2. **明确要问的4个问题**：\n   - 是否提供标准OpenAPI？文档（Swagger/PDF）能否提供？\n   - 支持哪些对接方式：REST API、EDI报文、SFTP文件交换、中间数据库？\n   - 接口覆盖哪些业务：商品主数据、库存、价格、订单、发货/物流、对账结算？\n   - 鉴权方式（OAuth2/API Key/白名单IP）、频率限制、测试环境、上线流程。\n\n3. **合同前置**：把“系统对接方式、接口范围、联调支持、故障响应”写进采购/合作协议，避免上线后扯皮。\n\n4. **备选方案**：若对方无标准API，评估三种降级路径——① 对方开SFTP定时交换订单/库存文件；② 通过其经销/代运营渠道走EDI；③ 你们侧做人工导入+对账，先跑通业务再推动接口化。\n\n5. **内部准备**：梳理你们需要的字段清单（SKU编码规则、批次/保质期、温层、起订量、箱规），因为生鲜ERP对接最容易卡在商品编码和批次效期口径不一致。\n\n一句话：**公开查不到，必须通过商务渠道向其IT部门索取接口文档；先确认“有没有、什么方式、覆盖哪些业务”，再谈联调。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 394,
+    "total_tokens": 453,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

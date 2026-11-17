@@ -1,0 +1,28 @@
+{
+  "id": "8dff4719-af15-443a-84bb-25fe43658f3f",
+  "object": "chat.completion",
+  "created": 1794889847,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的菠萝产地不是固定的，通常按季节和批次在菲律宾、厄瓜多尔等地切换，也可能有其他产地。所以不能笼统说“佳农菠萝就是菲律宾产”或“就是厄瓜多尔产”。\n\n**怎么判断你买的那批产地：**\n- 看包装箱/标签上的“原产地”或“产地”字段，以及海关/入境货物信息；以实物标签为准。\n- 问商家要该批次的报关或产地证明。\n- 同品牌不同批次产地可能不同，别只看品牌。\n\n**品质差异大不大：**\n有差异，但更多取决于品种、成熟度、采摘季和运输冷链，而不是单纯“菲律宾 vs 厄瓜多尔”：\n- 菲律宾菠萝常见品种偏香甜、纤维感因品种和成熟度不同而有差异；\n- 厄瓜多尔菠萝也有不同品种，口感受批次影响明显；\n- 长途运输的成熟度控制、冷链是否稳定，对甜度和口感影响往往比产地标签更大。\n\n**可执行建议：** 买的时候直接看这一箱的产地标签；如果对口感稳定要求高，优先选标注具体品种、成熟度/糖度信息且冷链可靠的批次，而不是只认产地。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 256,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
