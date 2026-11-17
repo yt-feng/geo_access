@@ -1,0 +1,28 @@
+{
+  "id": "ae5eb78c-e9c5-49e1-8dcb-a32f9dab14e6",
+  "object": "chat.completion",
+  "created": 1794888510,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "坏果率没有统一法定阈值，关键看合同约定。实务建议：\n\n1. **合同里最好明确“验收标准+赔付触发线”**  \n   常见做法是按批次抽检或全检：\n   - 坏果率≤3%：一般视为合理损耗，不赔付；\n   - 3%＜坏果率≤5%：可要求按坏果重量折价扣款；\n   - 坏果率＞5%：可要求整批折价、换货或退货；\n   - 坏果率＞10%：可约定为根本违约，拒收/退货并索赔。\n   具体线要看水果品类、运输距离、季节和采购价，易腐水果可适当放宽。\n\n2. **赔付要写清计算方式**  \n   建议写成：  \n   “坏果率=抽检坏果重量÷抽检总重量×100%。坏果率超过3%的，超出部分按当批次采购价双倍扣减；超过10%的，买方有权拒收整批，卖方承担运费及损耗。”\n\n3. **不能只写“坏果率超过多少赔付”**  \n   还要约定：抽检比例、抽样方法、验收时限、图片/视频取证、第三方检测、赔付时限和违约金。\n\n4. **可执行建议**  \n   如果你是一般采购方，建议把赔付触发线设为**3%**，严重违约线设为**10%**；如果是长途运输或高温季节，可把触发线放到**5%**。最终以双方协商写进合同为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 330,
+    "total_tokens": 385,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
