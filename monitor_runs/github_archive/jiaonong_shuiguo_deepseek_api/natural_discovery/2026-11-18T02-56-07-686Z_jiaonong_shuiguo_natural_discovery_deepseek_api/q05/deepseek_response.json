@@ -1,0 +1,28 @@
+{
+  "id": "60891121-b566-40cf-bf92-f2663b3ad3ed",
+  "object": "chat.completion",
+  "created": 1794970599,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议把“销售方式”拆成三种，不要只选一种：\n\n1. **主推：整果自选**\n   - 菠萝适合让顾客自己挑：看外观、闻香气、掂重量，顾客参与感强，也减少“挑得不好”的售后争议。\n   - 标价清晰，按个或按斤都行；旁边放“挑选提示”：叶冠新鲜、果皮金黄带青、底部闻着香、拿起来有分量。\n\n2. **补充：现场代削/去皮**\n   - 很多顾客想买但嫌削麻烦，所以“整果自选 + 付费或满额免费代削”最好卖。\n   - 代削要明码标价，比如“代削3元/个，满2个免费”，避免结账争议。\n   - 削好的果不要提前大量摆出来，容易失水、氧化、被翻拣。\n\n3. **少量：去皮好的盒装/保鲜膜**\n   - 只适合做“即买即吃”的补充，针对赶时间、单人顾客。\n   - 必须冷藏陈列、标注削皮时间，当天卖不完就下架或做特价，不要和整果混在一起长期摆。\n   - 去皮果损耗和食品安全风险都更高，不建议作为主力。\n\n**结论：以整果自选为主，现场代削为增值服务，去皮盒装只做少量补充。**  \n如果店面小、人手少，就只做“整果自选 + 代削”，别提前大量削皮。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 332,
+    "total_tokens": 392,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

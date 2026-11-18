@@ -1,0 +1,28 @@
+{
+  "id": "66ca1fa9-e626-491c-baef-354a32d072e8",
+  "object": "chat.completion",
+  "created": 1794970637,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响销售，但关键不是“大小不一样”本身，而是**差异程度、是否分级、怎么定价和陈列**。\n\n可直接判断：\n\n1. **轻微大小不一：影响不大**\n   - 同一箱里略有差异很正常。\n   - 只要成熟度一致、无破损、无黑斑，顾客通常能接受。\n\n2. **大小差异明显：会影响**\n   - 顾客挑大留小，导致小果难卖、损耗上升。\n   - 按箱/按把卖时，顾客会觉得“不划算”。\n   - 同一价位混卖大果小果，容易引发挑拣和投诉。\n\n3. **最有效的处理方式：分级销售**\n   - 大果、中果、小果分开卖，分别定价。\n   - 或做成不同规格：精品果、家庭装、特价装、果切/饮品店供货。\n   - 陈列时不要把大小差异大的香蕉混在同一堆里。\n\n4. **采购建议**\n   - 如果主打零售：优先采购**大小相对均匀、成熟度一致**的货。\n   - 如果价格便宜、量大：可以收，但必须提前规划分级和促销。\n   - 小果不一定难卖，可做特价、称重散卖、香蕉奶昔/果切渠道。\n\n结论：**大小不一会影响销售，但通过分级、分价、分渠道可以消化；差异越大、混卖越严重，影响越大。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 307,
+    "total_tokens": 362,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
