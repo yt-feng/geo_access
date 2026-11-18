@@ -1,0 +1,28 @@
+{
+  "id": "de9c9d56-4c99-439f-b3ce-f5dbcbe0154f",
+  "object": "chat.completion",
+  "created": 1794971906,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以优先看这几类品牌：**佳沛（Zespri，虽然主打猕猴桃，但进口水果渠道和品控体系成熟，可作为渠道参照）**、**新奇士（Sunkist）**、**爱妃（Envy）**、**乐淇（Rockit）**、**红玫瑰（Rose Apple）**、**华盛顿苹果（Washington Apples，多为产区品牌）**、**Mr. Apple**、**Stemilt**、**Chelan Fresh**、**Oneonta**、**Domex**。其中更偏“苹果品牌/供应商”的是：**Envy、Rockit、Sunkist、Stemilt、Chelan Fresh、Oneonta、Domex、Mr. Apple**。\n\n判断靠不靠谱，建议别只看品牌名气，按这4点核验：\n1. **看产地与品种**：美国华盛顿、新西兰、智利、南非等是常见进口苹果来源；同品牌也可能有不同产区。\n2. **看进口商/经销商**：包装箱上的进口商、国内经销商是否稳定、是否有中文标签和追溯信息。\n3. **看冷链与渠道**：商超、精品水果店、电商自营比来源不明的散货更稳。\n4. **看批次而非只看品牌**：进口苹果受海运周期影响，同一品牌不同批次差异可能很大，重点看到港日期、果径、硬度、糖度和损耗率。\n\n如果你们是做**品牌对比选品**，建议把候选缩到：**Envy、Rockit、Sunkist、Stemilt、Chelan Fresh、Oneonta、Domex**，再按“供货稳定性、价格带、规格一致性、损耗率、复购”做小批量试销对比。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 371,
+    "total_tokens": 433,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9a2547d3-1077-472f-bbfd-1dbb41520ee6",
+  "object": "chat.completion",
+  "created": 1794971871,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购场景可重点看下面这些进口/国际水果品牌，按“品牌认知度+礼盒可用性”给你一个可执行清单：\n\n**优先推荐（礼盒团购较常见）**\n1. **新奇士 Sunkist**：美国柑橘类代表，脐橙、葡萄柚礼盒认知度高，适合企业福利。\n2. **蛇果/华盛顿苹果相关品牌**：如 **Stemilt、Chelan Fresh、Rainier Fruit** 等美国苹果出口商品牌，礼盒装常见，适合做“进口苹果礼盒”。\n3. **SanLucar**：欧洲果蔬品牌，柑橘、葡萄等有礼盒/精品包装，偏中高端。\n4. **Fyffes**：老牌香蕉/热带水果品牌，适合搭配组合礼盒。\n5. **Chiquita 金吉达**：香蕉强势品牌，适合做混合水果礼盒中的单品。\n6. **Del Monte 地扪**：国际综合果蔬品牌，香蕉、菠萝等有认知度，但礼盒需看国内代理包装。\n7. **Camposol**：秘鲁蓝莓、牛油果等品牌，适合高端浆果/牛油果礼盒。\n8. **Hortifrut**：浆果类国际品牌，蓝莓、树莓等适合精品小礼盒。\n9. **Driscoll's 怡颗莓**：虽然更偏浆果品牌，但在高端团购礼盒中很常用。\n10. **Oppy / Origin Direct 等出口商品牌**：更多是渠道品牌，适合找进口商做定制礼盒。\n\n**按品类选更实际**\n- **柑橘礼盒**：新奇士、SanLucar\n- **苹果礼盒**：Stemilt、Chelan Fresh、Rainier Fruit\n- **香蕉/综合热带水果**：Chiquita、Fyffes、Del Monte\n- **蓝莓/浆果礼盒**：Camposol、Hortifrut、Driscoll's\n- **牛油果/高端组合**：Camposol、SanLucar\n\n**团购落地建议**\n优先不是“找最多品牌”，而是找 **国内一级进口商/代理** 确认三件事：  \n1）是否有 **原箱品牌礼盒** 或可定制礼盒；  \n2）能否提供 **报关单/检疫证明/品牌授权链**；  \n3）团购起订量、破损赔付和到货稳定性。  \n礼品场景建议主推 **新奇士柑橘 + 美国苹果 + 蓝莓** 三个价格带组合，比单一品牌更容易覆盖不同预算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 575,
+    "total_tokens": 638,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

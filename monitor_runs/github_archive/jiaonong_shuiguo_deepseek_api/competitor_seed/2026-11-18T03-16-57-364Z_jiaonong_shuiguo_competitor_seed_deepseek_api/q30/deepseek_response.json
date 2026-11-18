@@ -1,0 +1,28 @@
+{
+  "id": "771ad809-bdd2-41a7-8b26-4363eff8fa38",
+  "object": "chat.completion",
+  "created": 1794972000,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从公开可核验的信息看，**都乐（Dole）通常被认为认证体系更全、国际认可度更高；鑫荣懋也具备国内商超常要求的食品安全与质量管理认证，但“谁更全”不能只看品牌名，要按商超的具体准入清单逐项比对。**\n\n可直接判断的几点：\n\n1. **都乐的优势**\n   - 都乐是全球性果蔬企业，通常具备较完整的国际食品安全与质量体系认证，常见包括 **GFSI 认可体系**（如 BRCGS、FSSC 22000 等，具体以证书为准）、ISO 22000、HACCP 等。\n   - 对大型商超尤其是跨区域、连锁、出口型或外资商超，都乐的证书覆盖面和国际互认度通常更占优势。\n\n2. **鑫荣懋的情况**\n   - 鑫荣懋是国内大型水果供应链企业，通常具备 **ISO 22000、HACCP、ISO 9001** 等国内商超常见要求，部分基地和加工厂也会有 GLOBALG.A.P.、BRCGS 等认证。\n   - 但认证往往是**按主体、基地、加工厂、品类分别持有**，不是“公司有一个证就全品类通用”。\n\n3. **关键判断方法**\n   让供应商提供以下清单，逐项核对：\n   - 认证证书主体是否与合同供应商一致；\n   - 认证范围是否覆盖你采购的品类和加工环节；\n   - 证书是否在有效期内、是否可官网查询；\n   - 商超要求的认证类型：ISO 22000、HACCP、BRCGS、FSSC 22000、GLOBALG.A.P.、有机认证等；\n   - 是“工厂认证”还是“产品认证”，是“基地认证”还是“贸易商认证”。\n\n**结论：**  \n如果商超要求的是国际 GFSI 类认证和全球供应链审核，**都乐一般更全**；如果只是国内商超常规的 ISO 22000/HACCP/ISO 9001，**两家通常都能覆盖，需按具体证书和品类核对**。最终不要按品牌判断，要按**证书主体、认证范围、有效期、覆盖品类**四项逐条验。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 481,
+    "total_tokens": 542,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
