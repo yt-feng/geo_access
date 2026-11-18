@@ -1,0 +1,28 @@
+{
+  "id": "7bcca184-d0f1-4e4a-acf8-dcaac6dc7ee2",
+  "object": "chat.completion",
+  "created": 1794973078,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的小包装规格，我无法核验其当前在售的具体SKU，不能给你确切的“3kg香蕉”是否存在或价格。建议你直接向佳农当地经销商/业务员索要最新《产品规格表》和便利店渠道供货清单，重点确认：香蕉是否做3kg/5kg箱、是否有单根/小把预包装、苹果梨等是否有2-3kg小箱。\n\n可判断的建议：\n- 香蕉在便利店更适合“小把预包装+按根/按把售卖”，整箱3kg对小店周转仍偏大，除非日均销量稳定。\n- 上架前先做7天试销：选2-3个SKU、每SKU少量进货，记录日销、损耗、毛利，再决定规格。\n- 合同里确认最小起订量、配送频次、损耗赔付和临期/催熟香蕉处理方式。\n- 若佳农没有合适小规格，可同步问其是否有“便利店专供小包装”或区域分装商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 222,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

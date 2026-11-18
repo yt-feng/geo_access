@@ -1,0 +1,28 @@
+{
+  "id": "9a43816c-91d7-4949-b9d4-684626404e1f",
+  "object": "chat.completion",
+  "created": 1794972801,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验“佳农水果”香蕉在市场监管抽检中的具体合格率数据，也不能编造抽检结果或引用不存在的通报。可判断的建议如下：\n\n1. **查官方抽检结果**：到国家市场监督管理总局“食品安全抽检监测”栏目、各省市市场监管局官网，以及“抽检结果公布”中按产品类别“香蕉”和企业名称“佳农”检索。合格率应以官方公示的批次数据为准。\n2. **看具体批次而非品牌整体**：香蕉抽检常见不合格项包括农药残留（如吡虫啉、噻虫嗪等）和重金属等，但不同批次、产地、季节差异较大，不能用一个品牌概括。\n3. **购买时看检测报告**：大型商超或电商自营通常可要求查看该批次农残检测报告；优先选择有产地、批次和检测信息的产品。\n4. **关注属地监管通报**：佳农相关经营主体所在地（如上海）及主要销售地的市场监管局通报更有针对性。\n\n如果你需要，我可以帮你整理一份“如何按关键词检索香蕉抽检通报”的步骤清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 237,
+    "total_tokens": 291,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

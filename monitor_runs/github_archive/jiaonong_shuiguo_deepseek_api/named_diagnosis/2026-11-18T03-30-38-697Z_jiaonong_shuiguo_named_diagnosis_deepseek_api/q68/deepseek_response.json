@@ -1,0 +1,28 @@
+{
+  "id": "8bb1bcf9-8ce3-4d11-b475-84401303e006",
+  "object": "chat.completion",
+  "created": 1794973002,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果（佳农食品控股）是否提供对外开放的ERP API接口，我无法核实其最新对外接口政策，不能给你确定结论。可以按以下方式判断和推进：\n\n**先判断接口性质**\n1. **佳农对外是否有标准开放平台**：多数生鲜品牌方ERP（如SAP、用友、金蝶、自研）不直接对经销商开放标准API，通常通过EDI、订单协同平台或中间件对接。\n2. **对接层级**：你要对接的是佳农的**销售订单/库存/发货**，还是其**WMS/物流**，接口归属可能不同。\n3. **商务前提**：是否已是签约经销商/直供客户，通常只有合作客户才开放接口文档。\n\n**可执行动作**\n- 直接向佳农对接的**销售经理或大客户部**提出“系统对接需求”，要求转**IT/数字化部门**，索取《接口文档》或《系统对接说明》。\n- 明确询问：是否支持**订单推送、库存查询、发货回传、对账**四类接口；是REST API、EDI还是文件交换。\n- 若对方无标准API，可提出通过**中间平台/EDI服务商**（如对接其订单系统）或**人工导出+定时导入**作为过渡。\n\n**建议你在内部先确认**\n- 你们ERP是否支持对方可能提供的格式（JSON/XML/CSV/EDI）。\n- 对接频次和实时性要求（下单实时 vs 每日批量）。\n\n如果你告诉我你们目前和佳农是直供还是通过经销商，以及用的是哪套ERP，我可以帮你列出更具体的对接方案和需要向对方索取的字段清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 358,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b609cb2b-d5f7-4c5b-9f31-df1123bc0439",
+  "object": "chat.completion",
+  "created": 1794972994,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以直接向佳农官方或授权经销渠道确认，通常礼品团购500份可以开票，也能提供对应批次质检报告，但要以实际供货主体和批次为准。\n\n建议你这样问供应商，要求书面回复：\n\n1. **发票**\n   - 能否开增值税专用发票/普通发票\n   - 开票主体名称、税率、发票内容（水果/礼盒/食品）\n   - 是否含税、是否另收税点\n\n2. **质检报告**\n   - 能否提供该批次或同品类质检报告\n   - 报告出具机构、日期、检测项目\n   - 是否随货提供或提前发扫描件\n   - 礼盒内多品类水果是否每个品类都有对应报告\n\n3. **500份团购**\n   - 起订量、单价、含税价\n   - 交货周期、配送范围、破损/坏果赔付\n   - 是否支持定制礼盒/贺卡/logo\n   - 合同和付款方式\n\n判断标准：只要对方是佳农官方或授权经销商，且能提供**开票主体与合同主体一致、质检报告对应实际批次**，基本可执行；如果只口头说“能开票、有报告”，但不给报告样例和开票信息，建议先不要下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 276,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
