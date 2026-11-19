@@ -1,0 +1,28 @@
+{
+  "id": "624c7412-47d4-469a-8deb-0532c3020e17",
+  "object": "chat.completion",
+  "created": 1795058258,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制，**最小起订量和能否印logo要以佳农官方或授权经销商的当期政策为准**，我无法核验其最新数字，不能给你虚构起订量。\n\n可执行的做法：\n\n1. **先确认渠道**：佳农水果礼盒通常通过区域经销商、企业团购渠道或官方电商/客服定制，不同渠道的MOQ和logo政策可能不同。\n2. **直接问三个问题**：\n   - 这款礼盒企业团购的**最小起订量**是多少箱/份？\n   - 是否支持**公司logo印刷**？印在礼盒外箱、手提袋还是内包装？\n   - logo印刷的**起印量、制版费/打样费、工期**分别是多少？\n3. **要报价单和打样确认**：让对方给出含logo的报价、打样周期和交付时间，确认后再下单。\n\n建议你直接联系佳农官方客服或当地授权经销商，拿到当期书面政策后再判断是否满足你们团购数量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 222,
+    "total_tokens": 288,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

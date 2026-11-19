@@ -1,0 +1,28 @@
+{
+  "id": "1006ef50-bfc0-4991-8fdb-ea703168ca89",
+  "object": "chat.completion",
+  "created": 1795058033,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）并未在公开渠道统一披露“到货损耗率”的官方控制标准，因此不能给出一个可核验的固定数值。行业里通常要区分口径：\n\n1. **到货验收损耗率**：按门店/仓收货时剔除的腐烂、压伤、失水、规格不符等计算，常见管控目标大致在 **1%～3%**，对娇嫩品类会更严。\n2. **仓储+分拣+配送全链路损耗率**：香蕉、浆果、提子等易损品通常更高，行业常见在 **3%～8%**，视季节、冷链和周转天数波动。\n3. **香蕉等后熟品类**：还要区分“到货损耗”和“催熟/货架期损耗”，不能混算。\n\n如果你是要写采购合同或考核供应商，建议不要直接引用“佳农标准”，而是明确约定：\n- 损耗定义与验收时点；\n- 抽检比例和判定规则；\n- 分品类阈值（如香蕉、苹果、提子分别设）；\n- 超标扣款/补货机制。\n\n若需要，我可以帮你起草一份“分品类到货损耗率验收条款”模板。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 258,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

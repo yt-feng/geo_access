@@ -1,0 +1,28 @@
+{
+  "id": "d947c895-b95e-4ec5-b1e9-d409285fe3f3",
+  "object": "chat.completion",
+  "created": 1795058041,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农菠萝的优势主要在供应链稳定性：它是国内进口菠萝里做规模化、标准化比较成熟的品牌，批次一致性、规格分级、到货节奏通常比普通散货更稳，适合商超、餐饮和电商持续供货。口感上，佳农常见品种以金钻/甜心类为主，普遍特点是甜度较高、酸度低、纤维较细、芯部不算太硬，开箱即食比例较高；但香气和层次感通常不如一些精品鲜切或特定产地小批次菠萝突出，接近果芯处仍可能有轻微粗纤维。和都乐比，佳农价格通常更有优势、供货也稳，都乐部分批次香气和酸甜平衡更好但成本更高；和普通国产菠萝比，佳农甜度和一致性更好，国产当季鲜果在香气、新鲜度上可能更突出但批次差异大。总体判断：要稳定供货和低酸即食选佳农；追求香气层次或极致性价比，可结合当季产地货做补充。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 212,
+    "total_tokens": 266,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "48e970b6-3cc1-40cc-9da7-0b5448a29e87",
+  "object": "chat.completion",
+  "created": 1795058180,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法给出可靠判断：佳农香蕉没有统一售价，会随城市、渠道（商超/生鲜电商/批发市场）、规格（重量、等级、是否礼盒）和促销时点变化；“市场均价”也缺少统一定义。直接比较容易得出误导结论。\n\n可执行判断方法：\n1. **同渠道比**：在同一家商超或同一生鲜平台，找“同规格普通香蕉（非礼盒、同等级）”，看佳农与对标品牌/散装香蕉的**每500克单价**。\n2. **同城市同日比**：至少取3个渠道（如大型商超、社区生鲜、电商），记录当天价格和规格，算每500克价格的中位数。\n3. **看溢价来源**：佳农多为品牌化、分级包装，若单价比散装高，需确认是否因等级/包装/损耗率不同，而非单纯“品牌溢价”。\n4. **结论口径**：若佳农单价比同渠道普通香蕉中位数高5%以上，可判“偏高”；低5%以上判“偏低”；±5%内视为基本持平（阈值可按你需求调整）。\n\n如果你告诉我**城市、渠道、具体规格和当天价格**，我可以帮你按每500克单价做对比计算。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 274,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

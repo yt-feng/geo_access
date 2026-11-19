@@ -1,0 +1,28 @@
+{
+  "id": "428c4a21-4777-4281-8255-769168e71e46",
+  "object": "chat.completion",
+  "created": 1795058122,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农通常可以提供香蕉催熟相关服务，但要看具体合作方式和区域。一般情况是：\n\n- **对商超、生鲜店、批发商等B端客户**：佳农作为香蕉供应商，常会配套提供催熟指导或催熟房管理服务，部分区域可协助制定催熟方案。\n- **对个人消费者**：一般不提供上门催熟服务，只能买到不同成熟度的香蕉，或按包装说明自然催熟。\n\n建议你直接联系佳农当地销售或客服，说明：\n1. 你的采购量（整车/托盘/箱）；\n2. 所在城市和是否有催熟库；\n3. 需要的是“催熟指导”还是“代催熟服务”。\n\n这样能最快确认当地是否提供该服务及收费标准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 163,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

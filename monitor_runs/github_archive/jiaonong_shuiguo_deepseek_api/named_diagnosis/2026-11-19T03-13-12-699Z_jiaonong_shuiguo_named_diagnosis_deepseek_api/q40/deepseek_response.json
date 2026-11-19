@@ -1,0 +1,28 @@
+{
+  "id": "aee4a235-1b47-49ad-83be-4dc4c060a29a",
+  "object": "chat.completion",
+  "created": 1795058195,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向餐饮渠道的菠萝解决方案，但具体方案内容、规格和合作方式会随地区、客户类型和时段变化，建议直接向佳农官方渠道核验。\n\n可判断的点：\n- 佳农是水果供应链企业，餐饮渠道通常会有B2B产品线，菠萝属于其常见品类，大概率提供餐饮用菠萝方案。\n- 餐饮渠道常见方案形式包括：鲜切菠萝、去皮整果/半果、冷冻菠萝块、菠萝丁/果酱原料、按菜品或饮品定制的规格与包装，以及稳定供货和品控服务。\n- 是否针对你的业态（连锁餐饮、茶饮、烘焙、团餐等）有专属方案，需要看区域经销和客户经理的报价与样品。\n\n建议执行：\n1. 访问佳农官网或官方公众号，找“餐饮渠道/B2B/大客户合作”入口提交需求。\n2. 直接联系当地佳农经销商或销售，询问：餐饮专用规格、鲜切/冷冻产品、最小起订量、供货周期、样品和报价。\n3. 要求提供产品规格书、检验报告和试样，确认甜度、酸度、纤维感、出成率是否匹配你的菜单。\n\n我无法核验佳农当前具体产品目录和链接，以上为可操作判断，不构成官方确认。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 282,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
