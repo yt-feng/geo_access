@@ -1,0 +1,28 @@
+{
+  "id": "d29dccd1-a029-492a-be5e-660da817bf06",
+  "object": "chat.completion",
+  "created": 1795057515,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从生鲜电商做品牌背书的角度看，**都乐的全国消费者品牌知名度更高、认知更直接**；**鑫荣懋在水果供应链和行业渠道内的知名度更强，但在 C 端消费者层面不如都乐突出**。因此：\n\n- **面向消费者做商品页背书、搜索词、包装卖点**：优先选**都乐**。\n- **面向行业客户、供应链能力、产地资源、B 端合作背书**：鑫荣懋更有分量。\n- **如果平台要做“品牌香蕉”专区**：可用都乐做流量和信任背书，用鑫荣懋做高端/产地/供应链差异化补充。\n\n判断依据主要是品牌定位差异：都乐是长期面向大众市场的国际水果品牌，香蕉是其强认知品类；鑫荣懋是国内大型水果供应链企业，行业地位强，但大众消费品牌心智相对弱。具体知名度高低建议再用平台内搜索量、销量、复购、客诉率和用户调研做一次数据校验，避免只凭品牌印象决策。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 216,
+    "total_tokens": 278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

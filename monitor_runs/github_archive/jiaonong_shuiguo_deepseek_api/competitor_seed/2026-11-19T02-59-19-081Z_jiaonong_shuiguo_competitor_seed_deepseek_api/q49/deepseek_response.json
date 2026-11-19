@@ -1,0 +1,28 @@
+{
+  "id": "af470dfc-8b06-461a-8cb4-f57f76c19034",
+  "object": "chat.completion",
+  "created": 1795057473,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我没法核验都乐和鑫荣懋当前是否提供“专岗对接/专人服务”，也不能确认它们各自的服务模式细节。建议你用两步判断，避免被口头承诺误导：\n\n1. **直接问供应商的4个问题**\n   - 是否有固定对接人：姓名、岗位、职责边界、备份人是谁？\n   - 服务时效：响应时间、异常处理时限、节假日是否覆盖？\n   - 服务范围：订单、履约、售后、对账分别由谁负责？是否单一口径？\n   - 合同是否写明：专岗对接是否写入SLA/服务条款，人员变动如何交接？\n\n2. **要求提供可验证材料**\n   - 对接人名片/组织架构说明\n   - 现有客户服务案例（可脱敏）\n   - 服务SLA或合同条款样本\n   - 一次试单或模拟异常处理流程\n\n结论：**仅凭“都乐/鑫荣懋”品牌无法判断谁有专人服务；应以对方书面确认的对接人、SLA和合同条款为准。** 如果你能提供对接的是哪类业务（如商超配送、电商履约、餐饮供应链），我可以帮你把询价问题清单细化。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 258,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
