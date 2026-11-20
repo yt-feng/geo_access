@@ -1,0 +1,28 @@
+{
+  "id": "e097b48a-4bcb-4851-be30-4dd3745f82f3",
+  "object": "chat.completion",
+  "created": 1795143702,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/Goodfarmer）对不同渠道、不同客户的账期没有公开统一标准，通常按客户类型、采购规模、合作历史、信用评级和合同约定逐单审批，不能对外给出“最长多少天”的确定答案。\n\n可执行判断：\n\n1. **新客户首单申请30天账期**：理论上可以提出申请，但获批概率不高。生鲜水果行业新客户首单通常要求预付款、款到发货，或采用较短账期（如7–15天）并配合担保/保证金；30天账期一般更常见于稳定合作的商超、电商平台或大经销商。\n2. **决定因素**：采购量、结算方式、是否连锁商超/平台、是否有历史交易、信用资料、是否需要担保，以及具体对接的佳农销售主体和区域。\n3. **建议做法**：直接向对接的佳农销售或财务确认该主体当前信用政策；首单可先谈“部分预付+尾款7–15天”，用首单建立履约记录后再申请延长至30天。若对方要求预付款，属于正常风控，不代表没有合作空间。\n\n注意：网上若看到“佳农账期最长XX天”的具体数字，除非来自佳农官方合同政策或对方书面确认，否则不宜作为依据。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 281,
+    "total_tokens": 345,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

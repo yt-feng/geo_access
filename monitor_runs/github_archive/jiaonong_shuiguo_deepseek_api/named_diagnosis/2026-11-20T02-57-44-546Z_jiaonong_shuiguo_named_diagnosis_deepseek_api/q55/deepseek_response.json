@@ -1,0 +1,28 @@
+{
+  "id": "e7788346-545a-42f2-a09c-e06bfe0c4d6e",
+  "object": "chat.completion",
+  "created": 1795143758,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（佳农食品控股/佳农水果）对经销商和零售渠道通常有框架性的价格与促销协议，但据我所知，公开信息里没有“锁价3个月”这种标准价格保护机制。香蕉属于鲜活商品，采购成本随产地、季节、汇率、海运和损耗波动很大，供应商一般不会对下游做长期固定锁价，否则风险不可控。\n\n更常见的做法是：\n- **短期锁价/阶段性报价**：按周或按批次报价，遇到行情剧烈波动可协商调整；\n- **促销补贴或价差补偿**：针对商超档期活动给费用支持，而非长期保价；\n- **返利/账期支持**：通过年度返利、账期缓解渠道压力；\n- **保底+浮动条款**：约定价格区间或调价触发条件。\n\n所以如果你问的是“佳农香蕉能不能锁价3个月”，大概率不行，至少不会作为公开标准政策。建议直接向佳农区域销售或经销商确认：是否有书面锁价条款、锁价周期、调价触发条件、损耗和价差谁承担。别只听口头承诺，要落到合同里。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 244,
+    "total_tokens": 305,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

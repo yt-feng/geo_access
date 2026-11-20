@@ -1,0 +1,28 @@
+{
+  "id": "b6e0be08-f30a-4bfd-a1b4-0dd19a8db571",
+  "object": "chat.completion",
+  "created": 1795143829,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开信息无法核实佳农是否提供餐饮渠道的菠萝切片/切块定制规格。通常这类B2B定制（规格、切型、包装、冷链、起订量）需要直接对接佳农官方渠道确认：\n\n**建议核实路径**\n1. 佳农官网/公众号找“餐饮渠道/大客户/批发合作”入口，提交需求表单。\n2. 拨打官方客服电话，明确问：餐饮渠道菠萝是否有切片/切块、真空包装或冷冻规格、单袋克重、箱规、起订量与供货区域。\n3. 通过大型餐饮供应链平台或当地果蔬批发商询问佳农餐饮装菠萝的现货规格。\n\n**沟通时可直接问的要点**\n- 是否有鲜切菠萝片/块、冷冻菠萝块或糖水菠萝块；\n- 切型尺寸（如片厚、块径）、单包克重、每箱包数；\n- 是否支持按门店/菜单定制包装与标签；\n- 最小起订量、配送频次、保质期与冷链要求；\n- 报价是否含税运、样品政策。\n\n如果你告诉我所在城市和门店用量，我可以帮你把询价问题整理成一段可直接发给供应商的话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 255,
+    "total_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
