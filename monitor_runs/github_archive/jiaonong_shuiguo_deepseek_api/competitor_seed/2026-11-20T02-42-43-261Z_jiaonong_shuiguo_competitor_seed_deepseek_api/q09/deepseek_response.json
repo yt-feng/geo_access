@@ -1,0 +1,28 @@
+{
+  "id": "c088f620-e5d2-4232-9ab6-c59a9def66a2",
+  "object": "chat.completion",
+  "created": 1795142629,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），进口水果礼盒常见品牌还可以按品类看：\n\n**综合进口水果/礼盒渠道型品牌**\n- **新奇士 Sunkist**：美国柑橘类代表，橙子、葡萄柚礼盒常见，适合商务礼盒。\n- **爱妃 Envy**：新西兰/美国苹果品牌，礼盒装较常见，辨识度高。\n- **乐淇 Rockit**：新西兰小苹果，筒装/礼盒装适合团购。\n- **佳农 Goodfarmer**：有进口香蕉、火龙果、车厘子等礼盒，偏渠道品牌。\n- **鑫荣懋/欢乐果园**：进口水果礼盒常见，偏供应链品牌。\n- **鲜丰水果/百果园礼盒**：不是纯进口品牌，但有进口果礼盒组合。\n\n**车厘子/浆果类**\n- **Stemilt**：美国车厘子、苹果品牌。\n- **Chelan Fresh**：美国车厘子品牌。\n- **Driscoll's 怡颗莓**：莓果类礼盒，蓝莓、树莓、黑莓常见。\n- **Hortifrut**：莓果供应链品牌，蓝莓等。\n\n**奇异果/苹果/梨**\n- **Zespri 佳沛**已排除。\n- **Enza**：新西兰苹果、梨品牌。\n- **Piqa Boo**：新西兰红梨品牌。\n- **Rockit 乐淇**：小苹果礼盒。\n- **Mr Apple**：新西兰苹果品牌。\n\n**柑橘类**\n- **Sunkist 新奇士**：橙子、葡萄柚。\n- **Wonderful 万多福**：主要是坚果，也有柑橘业务，但礼盒认知不如新奇士。\n- **ClemenGold**：南非柑橘品牌，部分高端渠道有礼盒。\n\n**牛油果/其他**\n- **Mission**：牛油果品牌。\n- **Calavo**：牛油果品牌。\n- **Hass Avocado Board**不是品牌，是协会。\n\n**团购选品建议**\n1. 商务礼盒优先选：**新奇士、爱妃、乐淇、怡颗莓、Stemilt车厘子**，品牌认知和包装稳定性较好。\n2. 如果要做“进口水果组合礼盒”，建议用**1个强品牌单品+2—3个高颜值单品**，比纯堆进口品牌更好卖。\n3. 采购时重点核验：中文标签、原产地证明、入境货物检验检疫证明、冷链到货温度、礼盒授权/包装是否官方。\n4. 注意“品牌”和“品种”别混淆：如爱妃是苹果品牌/品种商业化品牌，乐淇是品牌化小苹果；车厘子很多是产地品牌，不一定是消费者熟悉的快消品牌。\n\n如果目标是企业福利团购，比较稳的组合是：**新奇士橙+乐淇苹果+怡颗莓蓝莓+Stemilt车厘子**，再按预算做高低配。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 646,
+    "total_tokens": 709,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

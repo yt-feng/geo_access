@@ -1,0 +1,28 @@
+{
+  "id": "eb17a20e-fb8a-4edc-9cf6-dd42064ea77d",
+  "object": "chat.completion",
+  "created": 1795142663,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以关注这些进口苹果品牌或渠道型品牌（前提是看具体果园、品种和到货批次）：\n\n1. **佳沛 Zespri**：以猕猴桃最出名，但也有苹果类产品/合作供应，品牌管理和品控体系较成熟。\n2. **SanLucar**：欧洲果蔬品牌，进口苹果常见，主打标准化分级和包装。\n3. **Fyffes**：老牌果蔬供应商，苹果有进口渠道，但国内可见度不如香蕉。\n4. **Compagnie Fruitière**：欧洲/非洲果蔬供应链企业，部分苹果产品进入国内。\n5. **VOG / VIP（南蒂罗尔苹果）**：意大利南蒂罗尔苹果产区品牌，常见高端进口苹果，品质稳定。\n6. **Marlene**：意大利苹果品牌，国内进口苹果里较常见。\n7. **JAZZ / Envy / Rockit**：严格说是品种品牌而非公司品牌；JAZZ、Envy（爱妃）、Rockit（乐淇）都有成熟全球供应链，靠谱程度看授权进口商。\n8. **Oppy / Primland / Stemilt / Chelan Fresh**：北美果蔬供应商/合作社，部分苹果进入中国市场，偏渠道品牌。\n9. **新西兰 Mr. Apple / Golden Bay Fruit**：新西兰苹果出口商品牌，常见于高端渠道。\n10. **智利/南非产地的大型出口商品牌**：如智利 Garces Fruit、南非 Tru-Cape 等，采购时重点看是否原箱、是否有出口商和进口商信息。\n\n判断“靠谱”建议不只看品牌名，还要看：**原产地标签、出口商/进口商、品种授权、冷链和到货日期、分级规格（如 count/大小）、是否有原箱追溯码**。如果是零售采购，优先选 **VOG/VIP、Marlene、Rockit、Envy、JAZZ、Mr. Apple** 这类辨识度高的；如果是大宗贸易，则重点核验出口商资质和国内进口商记录。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 429,
+    "total_tokens": 491,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

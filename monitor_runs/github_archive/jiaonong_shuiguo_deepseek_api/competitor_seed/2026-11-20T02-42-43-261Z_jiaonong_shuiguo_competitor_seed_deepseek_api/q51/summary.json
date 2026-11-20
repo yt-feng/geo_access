@@ -1,0 +1,50 @@
+{
+  "questionId": "q51",
+  "prompt": "批发市场拿货，洪九果品和鑫荣懋的香蕉价格谁更有优势？",
+  "createdAt": "2026-11-20T02:48:00.270Z",
+  "summary": [
+    {
+      "questionId": "q51",
+      "prompt_index": 51,
+      "promptIndex": 51,
+      "promptHash": "4f419b806e38",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "批发市场拿货，洪九果品和鑫荣懋的香蕉价格谁更有优势？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 668,
+      "text_length": 668,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 62,
+        "completion_tokens": 466,
+        "total_tokens": 528,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 62
+      },
+      "prompt_tokens": 62,
+      "completion_tokens": 466,
+      "total_tokens": 528,
+      "latencyMs": 7952,
+      "latency_ms": 7952,
+      "createdAt": "2026-11-20T02:48:00.270Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q51/prompt.txt",
+        "answer": "q51/deepseek.txt",
+        "response": "q51/deepseek_response.json",
+        "sources": "q51/deepseek_sources.json",
+        "references": "q51/deepseek_references.json"
+      }
+    }
+  ]
+}
