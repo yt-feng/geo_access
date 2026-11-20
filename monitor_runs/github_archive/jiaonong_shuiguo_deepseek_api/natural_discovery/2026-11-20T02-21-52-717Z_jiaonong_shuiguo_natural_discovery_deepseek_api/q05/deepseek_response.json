@@ -1,0 +1,28 @@
+{
+  "id": "48671179-81d1-4b99-88b8-50665fe19922",
+  "object": "chat.completion",
+  "created": 1795141340,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "直接结论：**优先“整果让顾客自己挑 + 现场代削”**，不要默认卖去皮好的。\n\n判断依据和做法：\n\n1. **整果自己挑最合适**  \n   菠萝成熟度差异大，顾客自己挑能看外观、闻香味、按软硬，满意度更高，也减少“你帮我挑的不好”的售后争议。\n\n2. **去皮好的只适合少量备货**  \n   去皮菠萝方便，但暴露后容易失水、氧化、变味，且顾客无法判断新鲜度。可以少量现削展示，不建议大量提前去皮。\n\n3. **最佳模式：整果挑选 + 免费/低价代削**  \n   顾客挑整果，店员现场削皮、去眼、切块装盒。这样既保留挑选权，又提供便利，还能带动客单价和复购。\n\n4. **操作建议**\n   - 整果按大小/成熟度分价区，标清楚“即食”和“放1-2天”；\n   - 提供“帮挑”服务，但让顾客确认；\n   - 去皮果只做当天现削，标注削皮时间，当天卖不完打折或自用；\n   - 削皮服务可免费，也可满额免费，作为引流手段。\n\n所以：**主卖整果让顾客挑，辅以现场代削；去皮好的只做少量现削补充，不提前大量备货。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 306,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

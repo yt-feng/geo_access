@@ -1,0 +1,28 @@
+{
+  "id": "abfba32b-3214-4635-86ed-20335ac625a7",
+  "object": "chat.completion",
+  "created": 1795141871,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最该先问**配送**，其次是**售后**，价格放第三。原因不是价格不重要，而是团购团长的核心风险在履约：水果易损、时效强，配送出问题会同时带来损耗、投诉和退款，价格再低也补不回来。\n\n建议按这个顺序判断：\n\n1. **配送先问清**\n   - 到团点还是到小区门口？谁卸货？\n   - 几点到？能不能固定时段？\n   - 坏果、压伤、缺斤少两现场怎么确认？\n   - 临时改量、加单、少单怎么处理？\n   - 冷链/保温条件如何，夏天和雨天怎么办？\n\n2. **售后问可执行条款**\n   - 坏果赔付比例、拍照时限、谁来承担？\n   - 是补发、退款还是下次抵扣？\n   - 售后响应时间多长？\n   - 整批质量问题怎么处理？\n\n3. **价格最后谈**\n   - 问清是否含配送、装卸、损耗、包装。\n   - 对比“到手可售成本”，不是只看进货价。\n   - 低价但售后差、配送不稳的供应商，实际成本更高。\n\n一句话：**先用配送筛掉不靠谱的，再用售后确认风险谁承担，最后用价格做比较。** 如果只能问一个问题，就问：“出现坏果和延迟配送时，你们具体怎么赔、多久处理？”"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 300,
+    "total_tokens": 357,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

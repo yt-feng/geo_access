@@ -1,0 +1,28 @@
+{
+  "id": "8c81144e-a80b-4b26-9e8a-ac74eb69a30b",
+  "object": "chat.completion",
+  "created": 1795141374,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会影响，但影响大小取决于你的销售方式和客群。给你几个可判断的点：\n\n1. **整箱卖/批发给同行**：大小不均影响较小，主要看总重、成熟度和损耗；但会被压价，因为对方要承担分拣成本。\n2. **散卖/按斤零售**：影响明显。大小混杂会让顾客反复挑拣，造成“挑剩损耗”，卖相也差；同一价格下顾客会挑大的，剩下小果难卖。\n3. **按份/按盒卖**：影响可控制。把大小分级后分别定价，或混装时明确“家庭装/实惠装”，反而能减少挑拣。\n4. **做促销/加工**：小果、不均果适合做特价、香蕉奶昔原料、果切搭配，不宜和精品果混在同一陈列区。\n\n**建议**：采购时如果价格优势明显，可以进，但到店后必须**分级**：大果做精品陈列或按根卖，中果正常散卖，小果/花皮果及时特价或加工。不要一箱直接倒出来混卖，否则损耗和顾客挑拣成本会吃掉利润。若你店里主要做精品零售、客单价较高，大小不均的箱子建议少进或压价进。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 276,
+    "total_tokens": 331,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
