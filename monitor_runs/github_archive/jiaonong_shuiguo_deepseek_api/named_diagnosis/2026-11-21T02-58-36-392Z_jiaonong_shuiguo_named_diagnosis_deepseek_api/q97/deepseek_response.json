@@ -1,0 +1,28 @@
+{
+  "id": "5b7881e9-aec2-43b6-a2db-07f74eaf8e45",
+  "object": "chat.completion",
+  "created": 1795230441,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开可查的信息里，我没法确认“佳农水果香蕉进口量全国第一”这个排名有某个明确机构发布的正式证书。能确定的是：\n\n- **佳农官方及媒体报道**常用“香蕉进口量全国第一”作为宣传口径，但公开报道多引用企业自称或行业数据，较少看到发证机构、证书编号、有效期等可核验信息。\n- 进口量排名通常可能来自**海关统计、行业协会、咨询机构**等，但不同口径（按吨数、按金额、按企业申报）结论可能不同，不能仅凭宣传语认定。\n- 如果对方声称有证书，应要求其出示：**发证机构全称、证书名称、编号、统计期间、统计口径、查询方式**，并到该机构官网或官方渠道核验。\n\n所以结论是：**这个“全国第一”目前更像企业宣传表述，不能确认有权威机构发布的正式证书。** 若你是采购或合作方，建议直接向佳农索要证书及统计依据，再作判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 221,
+    "total_tokens": 283,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

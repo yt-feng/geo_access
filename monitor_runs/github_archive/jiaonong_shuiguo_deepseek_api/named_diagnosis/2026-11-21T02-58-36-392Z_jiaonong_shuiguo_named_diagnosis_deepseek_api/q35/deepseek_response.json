@@ -1,0 +1,28 @@
+{
+  "id": "9d32f2c6-61f8-4657-99bd-3f1c24626ad1",
+  "object": "chat.completion",
+  "created": 1795230097,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果的客服响应速度，我没有可核验的统一时效数据，不能替你下“快/慢”的结论。它主要走经销、商超和电商渠道，不同渠道的售后入口和响应体验差异较大。\n\n**有问题找谁，按购买渠道分：**\n\n1. **电商平台买的（京东/天猫/抖音等）**：优先在订单页走“售后/退款”，联系店铺客服；生鲜坏果通常要拍照（坏果+快递面单）并在签收后尽快提交。\n2. **商超/水果店买的**：直接找门店服务台或收银台售后，带上小票和问题果品。\n3. **佳农官方渠道**：可通过佳农官网/官方公众号查找“联系我们/客服”入口，或拨打包装/官网上标注的客服电话；也可通过其官方旗舰店客服转接。\n4. **企业采购/批发**：找对接的销售或经销商处理。\n\n**判断响应快慢的实用办法**：下单前在店铺客服问一句“坏果怎么赔、多久回复”，看首次响应和是否给明确规则；收货后48小时内留好开箱视频和面单。若平台店铺客服久不回复，可直接申请平台介入。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 55,
+    "completion_tokens": 266,
+    "total_tokens": 321,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 55
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

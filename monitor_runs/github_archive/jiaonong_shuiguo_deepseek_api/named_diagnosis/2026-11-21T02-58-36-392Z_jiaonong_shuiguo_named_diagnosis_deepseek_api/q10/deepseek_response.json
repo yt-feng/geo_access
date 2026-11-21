@@ -1,0 +1,28 @@
+{
+  "id": "b6bfacad-6ce4-4b20-9dbb-1724acbddc0c",
+  "object": "chat.completion",
+  "created": 1795229964,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大概率有，但要看你的进货渠道和合作规模。佳农这类水果供应链企业通常会对批发商、商超、电商等B端客户做分层对接：\n\n1. **通过区域经销/代理商进货**：对接你的是代理商的业务员或客户经理，不是佳农总部直营团队。\n2. **直接与佳农区域分公司/大区合作**：通常会有销售经理或客户经理对接，负责报价、账期、货源协调和售后。\n3. **大型连锁批发/商超/平台客户**：一般会配专属客户经理或大客户经理。\n\n**可执行建议**：\n- 先确认你现在的供货方是佳农直营、区域分公司还是经销商。\n- 直接问对方：“我们属于批发客户，是否有专属客户经理/大客户经理对接？对接层级和响应机制是什么？”\n- 若想升级对接，向佳农官方客服或区域销售负责人说明你的月采购量、品类、配送区域和结算方式，申请B端客户经理对接。\n\n我无法核验佳农当前具体组织架构和各地人员配置，建议以你所在区域分公司实际答复为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 240,
+    "total_tokens": 294,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

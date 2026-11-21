@@ -1,0 +1,28 @@
+{
+  "id": "7ff09fb1-6bbb-4c4d-9c7e-57f7370e8ad1",
+  "object": "chat.completion",
+  "created": 1795230289,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前公开资料里，我没有找到佳农官方明确列出“餐饮渠道菠萝切片/切块定制规格”的可核验信息，不能替你确认具体SKU、尺寸、包装或起订量。\n\n可执行建议：\n1. **直接问佳农官方渠道**：让销售确认是否有餐饮专供的菠萝切片、切块、果丁，以及规格（厚度/块径）、包装（袋装/箱装）、冷链、保质期、起订量和报价。\n2. **问清定制边界**：是标准切片/切块，还是按餐饮客户做尺寸、包装、贴牌定制；是否只供冷冻/冷藏/鲜切。\n3. **索要资质与样品**：餐饮渠道重点看SC资质、微生物指标、到货温度、解冻/鲜切使用期限，并先拿样品试菜。\n4. **备选方案**：若佳农无对应定制，可同步问佳沛、都乐等品牌或本地鲜切工厂，对比规格和稳定性。\n\n简单说：**不能确认佳农有公开的餐饮定制菠萝切片/切块规格，最稳妥是让官方销售书面确认。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 245,
+    "total_tokens": 304,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

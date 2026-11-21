@@ -1,0 +1,28 @@
+{
+  "id": "70b0ee21-bab0-4685-9d26-c72bc11dace8",
+  "object": "chat.completion",
+  "created": 1795230352,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前我无法核验佳农当前具体在售的小包装规格，不能直接确认“3kg装香蕉”是否有货。给你可执行的判断路径：\n\n1. **先按小规格方向找**：便利店常见适配规格通常是单根/单把香蕉（约1–2kg）、小盒蓝莓/圣女果、单果苹果/橙子、2–4个装奇异果等；3kg香蕉对多数小面积便利店偏大，除非客流快、损耗可控。\n2. **直接向佳农当地经销/业务确认三件事**：\n   - 是否有便利店渠道的小包装SKU（香蕉1–2kg、苹果/橙子2–4个装等）；\n   - 最小起订量和配送频次；\n   - 破损/滞销是否可退换或调货。\n3. **门店试销建议**：先订1–2个小规格SKU，按“日销×1.5”控制首单量；香蕉成熟度选偏青，陈列少量多次补货，避免3kg大包装拆零损耗。\n4. **若没有官方小包装**：可谈拆零配送，或让供应商按1–2kg分装；不建议便利店自行长期拆大箱，损耗和人工不划算。\n\n结论：3kg香蕉不是便利店小包装的理想选择，建议直接问佳农当地业务要“便利店小规格SKU清单+最小起订量”，并先小单试销。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 310,
+    "total_tokens": 376,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

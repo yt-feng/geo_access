@@ -1,0 +1,28 @@
+{
+  "id": "b6f6bcb4-2c69-4c43-a8f0-c18b40418890",
+  "object": "chat.completion",
+  "created": 1795230283,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）作为大型水果供应链企业，通常有面向大客户的EDI/API对接能力，但公开渠道一般不会直接公布标准API文档。要确认是否有可用API，建议按下面步骤推进，能较快得到可判断的结论：\n\n**1. 先确认对接对象和层级**\n- 直接对接佳农总部：找其**大客户部/电商渠道负责人/信息化负责人**，问是否有“供应商/渠道商系统对接方案”。\n- 通过经销商/代理商拿货：对方可能没有API，只能走人工订单或Excel/CSV导入。\n- 通过其入驻的平台（如京东、盒马、美团优选等）供货：对接的是平台ERP，不是佳农ERP。\n\n**2. 明确你要交换的业务数据**\n生鲜电商对接ERP通常涉及：\n- 商品主数据（SKU、规格、产地、保质期、温层）\n- 价格与库存（实时库存、批次、效期）\n- 订单（采购单、发货单、退货单）\n- 物流与签收（运单号、冷链温度记录）\n- 对账结算（应收应付、发票）\n\n把这些整理成一页《对接需求清单》，再问对方是否有对应接口，比泛泛问“有API吗”更容易得到实质回复。\n\n**3. 向佳农提出的具体问题**\n- 是否提供RESTful API或EDI（如XML/CSV通过SFTP）？\n- 接口文档、测试环境、认证方式（OAuth2/API Key/签名）如何获取？\n- 是否有对接费用、联调周期、限流和SLA？\n- 库存和价格更新频率、批次/效期字段是否返回？\n- 是否支持沙箱测试和回滚？\n\n**4. 备选方案**\n如果佳农暂无标准API：\n- 采用**EDI文件交换**（定时SFTP拉取订单/库存CSV）；\n- 通过其经销商系统或第三方供应链平台中转；\n- 先做**半自动对接**（邮件/Excel+人工校验），业务量上来后再推动API。\n\n**结论**：不能确认佳农水果对外有公开标准API，需通过其商务/信息化部门核实。建议你先准备对接需求清单，直接联系佳农大客户或渠道负责人，询问“是否支持API/EDI对接、文档和测试环境如何获取”，这是最快能判断的路径。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 508,
+    "total_tokens": 567,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

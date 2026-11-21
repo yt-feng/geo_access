@@ -1,0 +1,28 @@
+{
+  "id": "c7c40df2-0ee9-4f4d-ae68-0eaa2c564aae",
+  "object": "chat.completion",
+  "created": 1795230107,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉通常比市场均价**偏高**，尤其在商超和精品渠道更明显；但“高多少”会随城市、渠道、规格和促销波动，不能一概而论。\n\n判断方法：\n1. **同规格对比**：按“元/500g”或“元/根”比，别只看整把总价。\n2. **同渠道对比**：把佳农与同超市普通散装香蕉、同等级品牌香蕉比。\n3. **看等级与损耗**：佳农多为品牌化、分级包装，品相和稳定性溢价明显。\n4. **促销时可能接近或低于均价**：大促、临期折扣、会员价时可能不贵。\n\n结论：**常态下偏高，促销时可能持平或偏低**。如果你告诉我所在城市、购买渠道（如永辉/盒马/菜市场）和当前标价，我可以帮你更具体判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 195,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

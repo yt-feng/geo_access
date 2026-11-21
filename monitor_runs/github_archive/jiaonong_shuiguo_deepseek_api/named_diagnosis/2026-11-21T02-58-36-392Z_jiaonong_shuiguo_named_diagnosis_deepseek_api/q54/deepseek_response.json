@@ -1,0 +1,28 @@
+{
+  "id": "135a5d55-42e7-4c17-afa4-3f94821c82bf",
+  "object": "chat.completion",
+  "created": 1795230209,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送模式不是单一“三通一达或自有车队”，而是混合模式：干线运输以自有/合作冷链车队和第三方物流合作为主，区域仓到门店/经销商有自有车队及社会运力；面向电商消费者的订单则常由快递（含三通一达、顺丰、京东等）承运，具体取决于销售渠道和区域。冷链覆盖率方面，公开可核验的精确数字较少，佳农对外宣传覆盖冷链仓储与运输，香蕉、车厘子、蓝莓等品类有温控要求，但不同品类、线路和渠道的冷链覆盖率并不一致；如果你要做供应商评估或采购判断，建议直接向佳农商务索取分品类、分区域的冷链覆盖率、温控记录和承运商清单，不要仅依赖公开宣传。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 168,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

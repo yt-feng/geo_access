@@ -1,0 +1,28 @@
+{
+  "id": "c80f003e-8400-412a-93d8-863a86cbf4be",
+  "object": "chat.completion",
+  "created": 1795230305,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从佳农公开的业务范围看，它主要是水果种植、贸易和批发，公开渠道没有看到它提供面向茶饮店的“去皮切块”定制加工服务。茶饮店常用的是两种方案：\n\n1. **直接问佳农当地销售或经销商**：确认是否有“鲜切菠萝/菠萝块”SKU，或能否按门店需求做代加工。不同区域经销商的加工能力不一样，必须以实际对接为准。\n2. **找第三方鲜切加工厂**：茶饮店更常见的是从当地鲜切水果供应商或中央厨房采购去皮切块菠萝，由他们按规格、频率配送。这样比让水果贸易商做加工更现实。\n\n判断建议：如果你需要的是稳定、按日配送的鲜切块，优先找本地鲜切供应商；如果只是少量试用，可以问佳农经销商有没有现成鲜切产品。签约前要确认：品种/成熟度、切块规格、是否泡盐水、冷藏配送温度、菌落和大肠菌群检测报告、到货损耗和退换货规则。不要仅凭“佳农菠萝”品牌就假设它有门店级鲜切加工服务。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 242,
+    "total_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 67
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

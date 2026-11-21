@@ -1,0 +1,28 @@
+{
+  "id": "f839f4f6-df4e-446c-9129-f9c63725178c",
+  "object": "chat.completion",
+  "created": 1795229960,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "到货损耗率的控制目标因品类、季节、运输距离和验收标准差异很大，行业里通常不是一个统一数字。就佳农这类做香蕉、菠萝、火龙果等品类的水果供应链企业而言，可参考的判断框架是：\n\n1. **香蕉**：到货损耗率通常控制在 **3%–5%** 较合理，夏季高温或长途运输可能放宽到 **5%–8%**；超过8%一般需追责或调整运输方案。\n2. **菠萝/凤梨**：相对耐储，到货损耗率一般控制在 **2%–4%**。\n3. **火龙果、提子等易损品类**：到货损耗率通常控制在 **3%–6%**，夏季可到 **6%–8%**。\n\n需要说明：以上是基于水果供应链常见验收标准的经验区间，并非佳农官方公布的数据，我无法核验其内部KPI具体数值。如果你是要做采购验收或供应商考核，建议直接向佳农业务对接人索取其合同约定的到货验收标准，或按品类分别设定“合格上限+超标扣款”条款，比追求一个统一损耗率更可执行。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 250,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

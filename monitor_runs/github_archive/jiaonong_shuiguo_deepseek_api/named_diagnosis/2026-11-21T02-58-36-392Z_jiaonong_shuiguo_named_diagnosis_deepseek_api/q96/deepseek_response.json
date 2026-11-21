@@ -1,0 +1,28 @@
+{
+  "id": "077bd9ad-10cd-4aa5-a1cc-4120a1185f06",
+  "object": "chat.completion",
+  "created": 1795230436,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "据我所知，佳农（Goodfarmer）并没有像京东、阿里那样对外公开、可自助注册的“开放平台”。它是香蕉、菠萝等水果的进口和品牌供应商，数字化接口通常走B2B订货或大客户对接的定制通道，而不是公开文档站。\n\n**可执行建议：**\n\n1. **先确认对接层级**：你对接的是佳农总部（上海佳农食品/佳农控股）还是区域经销商？如果只是从经销商拿货，通常不需要对接佳农API，只需对接经销商的订货系统，甚至线下订单+表格即可。\n\n2. **联系商务要接口**：向佳农的销售或大客户经理明确提出：\n   - 是否有“供应商/客户订货系统”的API；\n   - 是否支持商品、库存、价格、订单、物流回传；\n   - 接口是REST还是文件（Excel/CSV）交换；\n   - 是否有沙箱环境和文档。\n   多数此类供应商的“接口”其实就是按客户定制的数据交换，不会公开文档。\n\n3. **备选方案**：如果对方暂无API，可先做文件对账（每日SKU/价格/库存Excel）、EDI或人工下单，等单量起来再推动接口。\n\n4. **注意**：不要轻信网上所谓“佳农开放平台文档”的链接，公开渠道基本查不到，容易是第三方或伪造资料。\n\n如果你能告诉我你对接的是佳农总部还是某区域经销商、以及要同步哪些数据（商品/库存/订单/物流），我可以帮你列一份给对方的接口需求清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 335,
+    "total_tokens": 397,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

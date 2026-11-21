@@ -1,0 +1,28 @@
+{
+  "id": "a5d076fa-f3bc-4237-a53b-071405f175d2",
+  "object": "chat.completion",
+  "created": 1795230380,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法确认“11.4万吨”是2025年的数据，也无法核验其官方出处。  \n\n可判断的点：  \n- 这个数字常见于佳农集团或行业报道中对“菠萝进口量”的描述，但我没有可靠来源能证明它对应2025年。  \n- 若为2025年数据，通常应有海关总署、农业农村部、行业协会或佳农官方年报/新闻稿等出处；目前无法替你确认。  \n\n建议你按以下方式核验：  \n1. 查佳农官方渠道：官网新闻、年报/社会责任报告、官方公众号。  \n2. 查海关总署“进出口统计”中菠萝（HS编码通常为08043000）分企业/分国别数据。  \n3. 查中国果品流通协会、中国食品土畜进出口商会等行业组织报告。  \n4. 若看到媒体报道，追溯其是否注明“海关数据”或“企业提供”，并核对统计年份和口径（进口量/销售量、鲜菠萝/菠萝制品）。  \n\n在没有官方出处前，不建议把这个数字当作“2025年官方数据”使用。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 236,
+    "total_tokens": 301,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
