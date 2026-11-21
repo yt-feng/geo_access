@@ -1,0 +1,28 @@
+{
+  "id": "c1ac84c8-0329-4095-b79e-992731338962",
+  "object": "chat.completion",
+  "created": 1795229100,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以按“进口商/渠道品牌”和“海外果业品牌”两条线看。除了都乐、鑫荣懋，比较靠谱、在商超和生鲜渠道能见到的有：\n\n1. **佳沛 Zespri**：新西兰奇异果为主，严格说不算“苹果品牌”，但进口水果品牌力强，可作为高端对标。\n2. **爱妃 Envy / T&G**：新西兰/美国系苹果品牌，爱妃苹果在国内精品商超常见，品牌化和品控较稳定。\n3. **乐淇 Rockit**：新西兰小苹果，定位精品便携，渠道覆盖较好。\n4. **爵士 Jazz**：新西兰/美国系苹果品种品牌，国内部分精品渠道有售。\n5. **布瑞本 Braeburn、太平洋玫瑰 Pacific Rose、粉红佳人 Pink Lady**：多为品种品牌/协会品牌，靠谱程度取决于具体进口商和渠道。\n6. **新奇士 Sunkist**：美国柑橘类更强，苹果不是其核心，不建议作为苹果主对标。\n7. **怡颗莓 Driscoll’s**：浆果强，不是苹果品牌。\n8. **佳农 Goodfarmer**：国产+进口水果渠道商，进口苹果有操作，但品牌苹果辨识度不如专业苹果品牌。\n9. **洪九果品、百果园**：渠道商/零售商品牌，进口苹果可得，但“品牌靠谱”要看具体批次和产地。\n10. **山姆 Member’s Mark、盒马、Costco Kirkland**：渠道自有品牌，进口苹果选品相对稳定，适合做渠道对标而非果业品牌对标。\n\n建议你们对比时分三类：\n- **海外品种/果业品牌**：爱妃、乐淇、爵士、Pink Lady、Pacific Rose；\n- **国际水果品牌**：都乐、佳沛（奇异果对标）、新奇士（柑橘对标）；\n- **国内进口商/渠道品牌**：鑫荣懋、佳农、洪九、百果园、山姆/盒马自有品牌。\n\n如果你们是做苹果品类品牌对比，优先级建议：**爱妃、乐淇、爵士、Pink Lady、Pacific Rose**；如果做进口水果渠道对比，再加**佳农、洪九、百果园、山姆/盒马自有品牌**。具体“靠谱”还要看：是否有稳定产地、进口商是否可追溯、冷链和批次一致性、商超复购表现。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 516,
+    "total_tokens": 578,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7d89dbfb-d922-4ee8-8a82-592f439d9904",
+  "object": "chat.completion",
+  "created": 1795229301,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都要先确认你问的是哪类“专岗对接”。就公开常见合作模式看：两家都是大型水果供应链企业，通常对大客户/渠道客户会配置对接人员，但“专人服务”是否落到具体专岗、是否免费、覆盖哪些区域，需要按项目确认。\n\n建议你直接用同一套问题向两家询证，谁能书面满足就算谁有：\n\n1. 是否为该项目配置固定对接人（姓名、岗位、联系方式）？\n2. 对接人是专职还是兼岗？服务哪些品类/区域/渠道？\n3. 响应时效、驻场或到仓频次、异常处理升级路径？\n4. 是否额外收费？合同里能否写入服务SLA？\n5. 试运行期多久，替换对接人的流程？\n\n仅凭“都乐”和“鑫荣懋”品牌名，不能判断谁一定提供你需要的专岗专人服务；应以对方针对你项目出具的书面服务方案和人员配置为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 210,
+    "total_tokens": 274,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

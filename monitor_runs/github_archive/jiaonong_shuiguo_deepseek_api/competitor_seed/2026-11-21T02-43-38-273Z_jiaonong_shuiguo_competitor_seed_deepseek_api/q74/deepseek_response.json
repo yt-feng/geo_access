@@ -1,0 +1,28 @@
+{
+  "id": "32a41c41-881b-4b14-b02d-b7fa0d59e744",
+  "object": "chat.completion",
+  "created": 1795229447,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于都乐和洪九果品的水果礼盒定制起订量，我没法核验到当前准确政策，不能给你具体数字，避免误导。可以给你可执行的判断路径：\n\n1. **都乐**\n   - 都乐中国有B2B/团购渠道，但礼盒定制起订量通常按城市、品类、包装形式（标准礼盒/企业LOGO定制/组合装）和是否走经销商而不同。\n   - 建议直接找**都乐中国官方B2B渠道或当地授权经销商**，问清：①企业定制最低起订量；②是否支持LOGO/外箱定制；③单品类和组合礼盒起订量差异；④冷链配送范围和账期。\n\n2. **洪九果品**\n   - 洪九以批发和供应链为主，定制礼盒起订量通常与单品采购量、包装定制费用、发货仓有关。\n   - 建议联系**洪九果品官方销售/区域供应链负责人**，重点确认：①礼盒定制是否接小批量；②起订量按箱还是按盒；③包装打样费和版费；④是否能混装多品类。\n\n3. **谈价时直接要这几个数**\n   - 标准礼盒MOQ、LOGO定制MOQ、混装礼盒MOQ；\n   - 打样费/版费是否可退；\n   - 含税含运单价、冷链费用；\n   - 交货周期和破损赔付。\n\n如果你告诉我**所在城市、预计单款数量、预算价位、是否需要印企业LOGO**，我可以帮你整理一份发给都乐/洪九销售的问询清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 354,
+    "total_tokens": 419,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
