@@ -1,0 +1,28 @@
+{
+  "id": "f3fd00ec-819d-4875-8066-10165796cdf5",
+  "object": "chat.completion",
+  "created": 1795227798,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "建议把三种方式做成“主推 + 补充”的组合，而不是只选一种：\n\n1. **主推：让顾客自己挑整果**\n   - 菠萝是否成熟、有没有碰伤、果眼深浅，顾客自己看最放心。\n   - 整果耐放，损耗低，客单价也容易做。\n   - 适合摆在显眼位置，标清楚“可代削/代切”。\n\n2. **补充：现场代削去皮**\n   - 很多顾客不买整果就是嫌削麻烦，提供代削能明显降低购买阻力。\n   - 建议收少量加工费或设“满额免费代削”，把人工成本覆盖掉。\n   - 代削后最好当天卖完，否则切面氧化、出水，损耗会上升。\n\n3. **谨慎做：预先去皮好的**\n   - 只适合客流稳定、周转快的店，且要冷藏陈列、标注削皮时间。\n   - 去皮果保鲜期短，卖不掉就是损耗；不如“现削”灵活。\n   - 如果要做，建议少量、分时段削，不要一次削一大盘。\n\n**可执行结论：**\n- 默认让顾客自己挑整果；\n- 提供现场代削作为增值服务；\n- 预去皮只做少量试销，看半天内能否卖完，卖不完就停。\n\n这样既保留顾客挑选的信任感，又解决“不会削、不想削”的购买障碍，同时把损耗控制在可接受范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 317,
+    "total_tokens": 377,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
