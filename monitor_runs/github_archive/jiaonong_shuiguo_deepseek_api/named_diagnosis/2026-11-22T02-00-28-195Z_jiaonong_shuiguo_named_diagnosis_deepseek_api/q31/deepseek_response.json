@@ -1,0 +1,28 @@
+{
+  "id": "c0bb84e2-e1e9-4034-ad0b-45458a1c2297",
+  "object": "chat.completion",
+  "created": 1795313001,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有针对礼品/团购场景的水果礼盒，但具体是否“适合你这次团购”要看渠道和档期，不能一概而论。\n\n**可执行判断建议：**\n1. **先确认购买渠道**：佳农在天猫/京东有旗舰店，线下商超、水果批发市场也有分销；企业团购通常走区域经销商或官方团购渠道，礼盒款式和起订量会因渠道不同。\n2. **直接问三个关键问题**：是否有企业团购报价单、礼盒是否支持定制腰封/LOGO、同城/跨省配送和开票方式。\n3. **看礼盒类型**：佳农常见礼盒以香蕉、菠萝、火龙果、奇异果等进口/精品水果组合为主，适合员工福利、客户答谢；如果是高端商务送礼，要确认是否有高档果品组合和包装升级款。\n4. **核验时效**：水果礼盒季节性强，春节、中秋前后款式多，平日团购可选款可能少，建议提前 7–15 天询价锁货。\n\n**结论**：有，且适合团购场景；但具体礼盒清单、起订量和价格需向佳农官方旗舰店客服或当地经销商索取“团购报价单”确认，不建议只看电商页面零售款下单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 281,
+    "total_tokens": 334,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

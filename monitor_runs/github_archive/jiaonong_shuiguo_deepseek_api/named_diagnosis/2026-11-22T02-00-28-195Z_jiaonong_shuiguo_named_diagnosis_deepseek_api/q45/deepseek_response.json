@@ -1,0 +1,28 @@
+{
+  "id": "11050887-9c97-47a7-b7f0-010d4e859181",
+  "object": "chat.completion",
+  "created": 1795313085,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的具体账期属于其与客户间的商务政策，公开渠道没有可核验的统一标准，我无法给出确切的最长账期，也不能确认新客户首单能否批30天。建议你直接向佳农官方销售或客服确认，并准备好以下信息以提高审批效率：\n\n1. **主体资质**：营业执照、食品经营/流通许可、开票信息  \n2. **采购规模**：首单金额、月度/年度预估采购量、品类结构  \n3. **结算条件**：是否接受预付款/货到付款、能否提供保证金或担保  \n4. **信用材料**：近半年银行流水、财务报表、过往供应商账期证明  \n5. **合作模式**：直营/经销、配送区域、退换货与损耗承担方式  \n\n谈判时可先争取“首单部分预付+尾款30天”或“前3单缩短账期、稳定后延长”的过渡方案；最终以合同或书面账期确认函为准，避免仅口头承诺。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 216,
+    "total_tokens": 280,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

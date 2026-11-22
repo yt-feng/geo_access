@@ -1,0 +1,28 @@
+{
+  "id": "34410ecf-72a0-4e48-a0b7-84c23bec7830",
+  "object": "chat.completion",
+  "created": 1795313029,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的香蕉价格通常**高于普通市场均价**，但要看对比口径：\n\n- **和农贸市场/散装普通香蕉比**：佳农多走商超和精品渠道，品牌溢价、品控和包装成本更高，通常**偏高**。\n- **和同渠道精品香蕉比**：价格多处于**中高档**，不一定最贵。\n- **按地区、季节、渠道看**：促销时可能接近甚至低于当地普通香蕉均价；不同城市和门店差异也很大。\n\n**建议判断方法**：在同一时间、同一城市，拿“佳农同规格香蕉（如每斤或每把）”与当地农贸市场普通香蕉、商超自有品牌香蕉分别比价，再结合损耗和口感判断是否值得。没有具体城市和渠道时，只能给出“通常偏高”的判断，不能给准确价差。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 182,
+    "total_tokens": 236,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

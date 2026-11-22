@@ -1,0 +1,28 @@
+{
+  "id": "32654e3f-58ff-460a-8de9-50261a8a2a47",
+  "object": "chat.completion",
+  "created": 1795313215,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果（Goodfarmer）是否有对外开放的ERP API，公开渠道无法核验，我不能给你确认“有/没有”以及具体接口文档。可以按下面方式快速判断并推进：\n\n**1. 先确认对接对象**\n- 你要对接的是佳农的**ERP系统**（如 SAP/用友/金蝶/自研），还是其**供应商协同平台/订单平台**。\n- 生鲜电商通常不是直接连对方内部ERP，而是通过：供应商门户、EDI、订单中台、第三方供应链平台。\n\n**2. 直接问佳农的对接窗口（最快）**\n向对方商务/供应链IT提这5个问题：\n1. 是否提供对外API？接口类型：REST/SOAP/EDI/文件交换？\n2. 有无接口文档、测试环境、沙箱账号？\n3. 鉴权方式：OAuth2/API Key/签名/IP白名单？\n4. 对接范围：商品主数据、库存、价格、订单、发货、对账，哪些开放？\n5. 是否有对接费用、联调周期、技术支持联系人？\n\n**3. 如果对方说“没有标准API”**\n常见替代方案：\n- **EDI/文件交换**：SFTP定时传CSV/XML，适合订单和发货回传。\n- **供应商门户手工/半自动**：先跑通业务，再谈系统直连。\n- **中间商/服务商**：通过其经销体系或第三方供应链平台对接。\n- **RPA**：仅作为临时方案，不建议作为长期生产链路。\n\n**4. 你方需要提前准备**\n- 明确业务流：采购订单→发货通知→物流轨迹→收货对账→发票。\n- 定义主数据标准：SKU编码、条码、批次、保质期、温层。\n- 生鲜特别注意：批次/效期、质检报告、冷链温控数据是否要传。\n\n**结论**：公开信息无法确认佳农有开放ERP API；建议先向佳农商务/IT索要接口清单和文档。如果对方无标准API，优先谈EDI/SFTP文件交换，而不是强求直连ERP。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 461,
+    "total_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

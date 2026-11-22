@@ -1,0 +1,28 @@
+{
+  "id": "0b40e23a-6801-49b9-ae4d-2c14884093be",
+  "object": "chat.completion",
+  "created": 1795313364,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农水果客服是否为7×24小时，也不能确认你晚上下单后第二天能否发货。建议你直接用下面方式确认：\n\n1. **客服时间**：打开你下单的平台（佳农官方旗舰店/小程序/电商平台店铺），看店铺首页或商品页的“客服服务时间”；也可在客服窗口发“人工”，看是否夜间有响应。  \n2. **发货时效**：看商品页的“发货说明/配送时效”，重点确认：\n   - 是否写“48小时内发货”或“预售/节假日顺延”；\n   - 截单时间（如16:00前付款当日发，之后次日发）；\n   - 你所在地区是否属于偏远/临时管控不发货区域。\n3. **晚上下单能否次日发**：下单后看订单页显示的“预计发货时间”；若没显示，直接问客服“我今晚X点下单，订单号XXX，能否明天发货”。  \n4. **留证**：若客服承诺次日发，截图保存聊天记录和商品页时效说明，便于后续催发或售后。\n\n简言之：**客服是否7×24、晚上下单次日能否发货，都以你实际下单渠道的页面说明和客服回复为准，不要默认。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 265,
+    "total_tokens": 328,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
