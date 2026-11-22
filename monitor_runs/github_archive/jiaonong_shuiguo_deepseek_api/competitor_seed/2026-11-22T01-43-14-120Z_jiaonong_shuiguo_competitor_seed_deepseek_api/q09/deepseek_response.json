@@ -1,0 +1,28 @@
+{
+  "id": "420626b4-8f5a-4dde-89d8-56566f6517aa",
+  "object": "chat.completion",
+  "created": 1795311855,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐和佳沛，可以参考哥斯达黎加/厄瓜多尔香蕉类的 **Chiquita（奇基塔）**、**Del Monte（地扪）**，美国车厘子/苹果类的 **Stemilt**、**Chelan Fresh**，新西兰苹果类的 **Mr Apple**、**Rockit（小苹果）**，南非/秘鲁葡萄类的 **Capespan**、**Grape Alliance** 等。实际可团购的品牌受当季到港、口岸和经销商库存影响很大，建议按品类锁定：\n\n- **香蕉**：Chiquita、Del Monte、Fyffes\n- **苹果**：Mr Apple、Rockit、Chelan Fresh、Stemilt\n- **车厘子**：Stemilt、Chelan Fresh、Starr Ranch（美国）、Rio King（智利）\n- **葡萄**：Capespan、Grape Alliance、Del Monte\n- **蓝莓/浆果**：Driscoll's（怡颗莓）、Hortifrut\n- **奇异果**：除了佳沛，可看 **Zespri 以外的意大利/希腊产季品牌**，但国内团购认知度较弱\n\n判断建议：礼品团购优先选“消费者认得、包装统一、当季稳定”的品牌，别只看进口产地。可以让供应商提供：品牌授权或报关单、当季到港批次、礼盒起订量和破损补发政策。若做企业福利，**Chiquita/Del Monte 香蕉、Driscoll's 蓝莓、Rockit 小苹果、Stemilt/Chelan Fresh 车厘子**更容易被接受；小众品牌适合做差异化，但要先确认礼盒库存和交期。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 368,
+    "total_tokens": 431,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

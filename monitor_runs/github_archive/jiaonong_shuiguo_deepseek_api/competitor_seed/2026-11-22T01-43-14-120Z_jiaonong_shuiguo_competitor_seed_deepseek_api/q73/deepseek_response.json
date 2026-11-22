@@ -1,0 +1,28 @@
+{
+  "id": "fde570d4-5b07-49ba-a64b-cbf22ba920be",
+  "object": "chat.completion",
+  "created": 1795312280,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常认可GFSI（全球食品安全倡议）基准的认证，如 **BRCGS、IFS、FSSC 22000、SQF**，以及 **ISO 22000/HACCP** 等。就鑫荣懋和都乐而言，可核验的公开信息有限，不能凭印象给出完整认证清单。\n\n**可判断的建议：**\n1. **不要仅凭供应商品牌名判断**，应索取其最新有效证书（含认证机构、证书编号、覆盖范围、有效期）。\n2. 重点核对证书覆盖的**产品/加工环节**是否与供货品类一致，以及是否在认证机构官网可查询。\n3. 对都乐这类跨国品牌，可查其集团或中国区官网的“质量与食品安全”页面及供应商审核资料；对鑫荣懋，可查其官网资质页面或直接向其质量部门索取。\n4. 若商超要求GFSI基准认证，应明确要求**BRCGS/IFS/FSSC 22000/SQF**之一，而非仅“ISO 22000”。\n\n我无法在不核验来源的情况下确认两家企业具体通过了哪些认证，建议按上述方式向供应商或认证机构公开查询系统核实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 261,
+    "total_tokens": 322,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
