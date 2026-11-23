@@ -1,0 +1,28 @@
+{
+  "id": "2b3a2fc2-30b5-470f-a482-8d191503d9fe",
+  "object": "chat.completion",
+  "created": 1795399763,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和鑫荣懋，进口苹果还可以重点看这几类品牌/渠道，靠谱程度主要看“品牌是否直接管控供应链”和“是否有稳定准入渠道”：\n\n1. **佳沛（Zespri）**  \n   虽然是新西兰奇异果为主，但其母公司体系和新西兰水果出口渠道成熟，部分渠道会有新西兰苹果；如果看到“Zespri体系/新西兰直采”苹果，可作为参考，但不要把它当苹果专属品牌。\n\n2. **Mr. Apple / 新西兰苹果先生（New Zealand Apple）**  \n   新西兰苹果对华出口较成熟，常见品牌包括 **Mr Apple**、**Bostock**、**Taylor** 等。它们不是大众消费品牌，但在进口苹果供应链里较常见，适合看产地、品种和出口商。\n\n3. **美国华盛顿苹果（Washington Apples）**  \n   这是产区品牌/协会品牌，不是单一公司品牌。常见品种有红蛇果、嘎啦、富士等。认“Washington Apple”标识和原产地包装，比认某个小品牌更稳。\n\n4. **南非、智利、法国等产区品牌**  \n   南非苹果（如 Tru-Cape 体系）、智利苹果、法国苹果也有稳定出口。重点看包装箱上的出口商、果园注册号、原产地和品种，而不是只看中文商品名。\n\n5. **国内大型进口商自有/代理品牌**  \n   除鑫荣懋外，可关注 **百果园体系进口果、洪九果品、佳农（Goodfarmer）** 等大型水果供应链企业的进口苹果。它们不一定有强消费者品牌，但报关、冷链和品控通常比小贸易商稳定。\n\n**判断是否靠谱的实操标准：**\n- 包装箱有明确原产国、出口商/果园注册号、品种、规格；\n- 中文标签与英文原箱信息一致；\n- 有稳定冷链和报关渠道，不是只靠“进口”两个字；\n- 同一品种可对比硬度、糖度、果径和到货批次；\n- 优先选大进口商代理或产区协会授权标识。\n\n如果你们是做采购对比，建议把候选分成“产区协会品牌（如华盛顿苹果）”“出口商品牌（如 Mr Apple、Tru-Cape）”“国内进口供应链品牌（佳农、洪九等）”三组，再按到岸价、损耗率、批次稳定性打分。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 513,
+    "total_tokens": 575,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

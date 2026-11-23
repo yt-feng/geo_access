@@ -1,0 +1,28 @@
+{
+  "id": "a5a01648-5ee3-4e5e-bbb7-70e00238c888",
+  "object": "chat.completion",
+  "created": 1795399725,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除都乐（Dole）、佳沛（Zespri）外，礼品团购可重点看以下进口/国际品牌水果礼盒，按品类列给你，便于选品：\n\n**综合进口水果品牌**\n1. **新奇士 Sunkist**：美国柑橘类强势，脐橙、夏橙、柠檬礼盒认知度高，适合商务送礼。\n2. **怡颗莓 Driscoll's**：浆果类强品牌，蓝莓、树莓、黑莓礼盒偏高端，适合年轻化福利。\n3. **金吉达 Chiquita**：香蕉为主，礼盒存在感弱于都乐，可做搭配品。\n4. **德尔蒙 Del Monte**：综合果蔬品牌，进口香蕉、菠萝等，礼盒需看当地经销商是否有定制装。\n\n**单品强势品牌**\n5. **爱妃 Envy**：新西兰/美国苹果，礼盒装适合中高端团购，品牌辨识度高。\n6. **乐淇 Rockit**：新西兰小苹果，筒装/礼盒装适合员工福利和轻商务。\n7. **佳农 Goodfarmer**：严格说是中国品牌但做全球采购，进口香蕉、菠萝、车厘子礼盒在团购渠道常见，可作为都乐平替。\n8. **Hortifrut**：智利浆果巨头，蓝莓等浆果礼盒在部分进口渠道可见。\n9. **Sun World**：美国葡萄育种/品牌方，旗下Autumn Crisp等高端葡萄有品牌礼盒，但终端供货不如佳沛稳定。\n10. **Mega Cargo/智利车厘子品牌**：如**Garces Fruit（加尔塞斯）**、**Copefrut**、**Prize**等，车厘子礼盒在春节团购中很常用，需按产季锁货。\n\n**选品建议**\n- 商务送礼优先：**新奇士脐橙礼盒、爱妃苹果礼盒、怡颗莓蓝莓礼盒、乐淇小苹果**。\n- 员工福利走量：**佳农进口香蕉/菠萝礼盒、新奇士柑橘组合、怡颗莓小规格浆果**。\n- 春节档：重点谈**智利车厘子品牌礼盒**，但要注意品牌授权和产地证明，避免贴牌货。\n- 团购前确认：是否有**中国区正规授权、稳定供货周期、礼盒起订量、破损赔付和冷链履约**。\n\n如果预算和品类明确（比如100–200元/盒、春节档、200份起），我可以帮你缩到3–5个更具体的品牌组合。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 558,
+    "total_tokens": 621,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
