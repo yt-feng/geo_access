@@ -1,0 +1,28 @@
+{
+  "id": "c5df3000-4049-44ae-b150-7d581267718c",
+  "object": "chat.completion",
+  "created": 1795400895,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有红富士苹果，通常以“佳农红富士”或产地装形式出现在商超和电商渠道；但具体批次和规格会随季节、渠道变化，买前看商品页的品种/产地标注最稳。\n\n和鑫荣懋比性价比，不能一概而论，关键看同一时间、同一规格、同一渠道的到手价和果径/净重：\n\n1. **先比“同规格到手价”**：都选红富士，比较果径（如80#/85#）、净重、是否礼盒、坏果包赔。用“元/斤”或“元/个”折算。\n2. **再看稳定性**：佳农偏商超标准品，规格和包装较统一；鑫荣懋渠道广、产地和等级跨度大，低价款可能果径小或等级低。\n3. **看售后**：生鲜坏果率、赔付规则比品牌名更影响实际性价比。\n\n**可执行判断**：如果两家的红富士果径、净重、产地等级接近，选折算后每斤更便宜且坏果包赔更明确的那家；如果鑫荣懋便宜但规格低一档，通常不算更高性价比。总体没有固定“谁更高”，同规格同渠道比价才有效。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 276,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

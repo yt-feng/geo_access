@@ -1,0 +1,28 @@
+{
+  "id": "6f2bc292-574d-48ec-aea9-fa7e57c03fdb",
+  "object": "chat.completion",
+  "created": 1795400624,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农水果的配送范围没有全国统一固定清单，主要取决于你下单的渠道（佳农官方旗舰店/小程序、京东/天猫等平台、当地商超/社区团购）。能否送到你所在县城，最稳妥的判断方式是：\n\n1. **先看你用哪个渠道下单**  \n   - 京东自营/天猫旗舰店：通常看商品页是否显示“配送到你所在地址”，以结算页为准。  \n   - 佳农官方小程序/公众号：一般会在下单页校验地址，能选到就能送。  \n   - 美团/饿了么/社区团购：只覆盖当地有仓/有团长的区域。\n\n2. **直接做地址测试**  \n   把收货地址填到你县城的详细地址，进入结算页：  \n   - 能正常选配送时间并生成订单 → 可送；  \n   - 提示“该地区暂不支持配送”或无可用配送方式 → 不可送。\n\n3. **县城通常不是“全覆盖”**  \n   佳农这类水果品牌多采用区域经销商、平台仓配或冷链合作，县城能否送达往往取决于当地是否有合作仓/冷链线路，不能仅凭品牌名判断。\n\n建议你告诉我：**你准备在哪个平台买、县城名称**，我可以帮你判断该优先查哪个入口；但最终仍以结算页地址校验为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 286,
+    "total_tokens": 342,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

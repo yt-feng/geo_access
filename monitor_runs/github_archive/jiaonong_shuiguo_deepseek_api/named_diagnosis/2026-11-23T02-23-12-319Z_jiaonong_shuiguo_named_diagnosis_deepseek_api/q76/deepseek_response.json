@@ -1,0 +1,28 @@
+{
+  "id": "0b40733f-31e3-4c1c-921f-70cd4da2529c",
+  "object": "chat.completion",
+  "created": 1795400965,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以先按“能定制，但要分两类看”来判断：\n\n1. **礼盒外包装定制LOGO**：通常可以，常见做法是外箱、手提袋、腰封、贴纸、吊牌上加团购方LOGO。  \n2. **水果本身/内包装定制**：一般不建议直接改佳农品牌水果的单品包装，更多是加外包装、贴纸、腰封或组合礼盒。\n\n**起订量**：没有统一标准，取决于佳农当地经销商/授权团购商、礼盒规格、印刷方式和是否开版。常见区间大致是：\n- 贴纸/腰封/手提袋加LOGO：几十到几百盒可能可谈；\n- 定制印刷礼盒：通常几百盒起，部分渠道可能要求500盒或1000盒以上；\n- 特殊开版、异形盒、烫金/UV等工艺：起订量更高。\n\n**建议你直接这样问供应商，判断最快：**\n- 佳农哪款水果礼盒可做企业团购定制？\n- 支持定制外箱、手提袋、腰封、贴纸中的哪些？\n- 是否收设计费/开版费/打样费？\n- 起订量、打样周期、大货交期分别是多少？\n- 同一地址/多地址配送是否支持？\n- 能否提供授权或正品渠道证明？\n\n如果你告诉我**采购数量、预算、配送城市、是否需要多地址发货、期望水果品类**，我可以帮你整理一份直接发给供应商的询价模板。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 329,
+    "total_tokens": 394,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bdfd5ef4-ff36-42b5-963d-60ac3720be9e",
+  "object": "chat.completion",
+  "created": 1795400758,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核实佳农水果配送中心的具体数量，也没有可靠数据确认其当前配送网络对你所在三线城市的覆盖情况。建议你按下面方式快速判断：\n\n1. **问官方渠道**：联系佳农官方客服/官网/公众号，直接问“你所在城市是否在配送范围、起订量、时效、是否支持冷链到三线城市”。\n2. **看本地合作商**：三线城市覆盖通常不是“总部直配”，而是通过区域经销商、批发市场档口或生鲜平台前置仓。你可以问当地水果批发市场是否有佳农代理。\n3. **用下单测试**：在佳农官方小程序/合作电商平台输入你所在城市地址，看是否能下单、运费和预计送达时间。\n4. **替代方案**：如果官方直配不到，可问区域经销商能否拼车配送，或通过京东/天猫等平台看是否支持该地址发货。\n\n结论：**配送中心数量我不能确认；能否覆盖三线城市要以官方客服和你地址实际下单结果为准。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 216,
+    "total_tokens": 273,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
