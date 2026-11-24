@@ -1,0 +1,28 @@
+{
+  "id": "d3814c54-cc6f-4647-84be-8dca4957695f",
+  "object": "chat.completion",
+  "created": 1795499137,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和鑫荣懋都具备专岗/专人对接能力，但侧重点不同，建议按你的业务场景判断：\n\n1. **都乐（Dole）**\n   - 更适合需要**品牌化标准品、商超/零售渠道对接、稳定供应链**的场景。\n   - 通常由销售或客户经理负责对接，大客户/重点渠道会有专人跟进；具体是否设“专岗”取决于区域和合作规模。\n\n2. **鑫荣懋**\n   - 更适合**水果品类综合供应、批发/零售/电商多渠道、定制化服务**的场景。\n   - 对重点客户一般有客户经理或项目专人对接，服务响应和品类协调能力较强；同样要看合作体量和区域。\n\n**可执行建议：**\n- 直接向两家提出同一份需求清单：对接人是否固定、响应时效、是否设专岗、服务范围、异常处理机制、KPI/考核方式。\n- 要求提供**同类型客户案例和对接团队配置**，并约定试用期或首单考核。\n- 若你更看重品牌标准品和商超渠道，优先问都乐；若更看重多品类综合供应和灵活服务，优先问鑫荣懋。\n\n我无法核验两家当前具体区域的人事配置，最终以对方书面服务方案和合同约定为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 283,
+    "total_tokens": 347,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
