@@ -1,0 +1,28 @@
+{
+  "id": "16ba0417-fff4-4cab-a346-6675fb806355",
+  "object": "chat.completion",
+  "created": 1795500268,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有冷冻水果原料业务，菠萝丁通常属于其冷冻果类产品线之一，但具体是否有“冷冻菠萝丁”、当前规格和供货政策，需要以佳农官方销售或当地经销回复为准。可参考的常见规格方向是：1kg、2kg、5kg、10kg等餐饮/工业包装，果丁尺寸常见10×10mm、15×15mm、20×20mm左右；不同工厂和批次会有差异，不能直接当作佳农现行规格。\n\n建议你直接这样核验：\n1. 找佳农官方客服或当地冻品经销商，明确问“冷冻菠萝丁，餐饮茶饮用，规格、包装、固形物、糖度、是否加糖、解冻出水量、起订量和价格”。\n2. 要求提供产品规格书、检测报告和样品。\n3. 用你店里的出品做解冻测试：称重解冻后沥水，看出水率、色泽、酸甜度和纤维感；茶饮建议优先选小丁或10mm左右、少汁、无糖或轻糖款。\n4. 确认供货稳定性：产地、季节替代、批次色泽差异和冷链到店条件。\n\n如果佳农没有现成冷冻菠萝丁，可同步问其冷冻菠萝块/菠萝果肉是否可定制切丁；否则再对比其他冷冻水果供应商。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 288,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

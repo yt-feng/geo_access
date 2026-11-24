@@ -1,0 +1,28 @@
+{
+  "id": "31c65dfb-4964-4255-a94c-d2307c480fcb",
+  "object": "chat.completion",
+  "created": 1795499937,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农有面向礼品团购的水果礼盒，但具体品类和规格会随季节、渠道变化。建议按下面方式确认并采购：\n\n1. **先确认渠道**  \n   - 企业团购/大批量：联系佳农官方客服或当地经销商，问“企业团购水果礼盒/礼品卡”报价、起订量、能否定制LOGO和贺卡。  \n   - 零售送礼：看京东/天猫“佳农官方旗舰店”、线下商超佳农专区，常有香蕉、奇异果、蓝莓、车厘子等组合礼盒。\n\n2. **重点问清4件事**  \n   - 是否有**团购专供礼盒**（不是普通零售装箱）；  \n   - **起订量、阶梯价、配送范围**；  \n   - 是否支持**企业LOGO/贺卡/手提袋定制**；  \n   - 水果**产地、规格、坏果赔付和售后**。\n\n3. **下单前要样品或实拍**  \n   要求发当前批次礼盒实拍、装箱清单和包装尺寸，避免“图片好看、到货规格不符”。\n\n4. **避开节日高峰**  \n   中秋、春节前团购紧张，建议提前2—4周锁库存和配送时间。\n\n如果你告诉我**城市、预算、数量、送礼对象**，我可以帮你列一份向佳农询价时直接照着问的清单。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 301,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 53
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
