@@ -1,0 +1,28 @@
+{
+  "id": "f5ab721a-f2a9-4b00-a9b4-95772d333283",
+  "object": "chat.completion",
+  "created": 1795497734,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "采购菠萝时，建议按“到店后多久卖完”来倒推熟度，不要只挑最熟或最生的。\n\n1. **当天到店、1–2天内卖完**：可采7–8成熟。判断标准：\n   - 果皮底色由青转黄，但果眼仍较紧；\n   - 闻底部有淡淡果香，不刺鼻；\n   - 按压果身略有弹性，不软塌；\n   - 叶片中心易拔但不松脱。\n\n2. **计划卖2–4天**：采6–7成熟，以青黄转色为主，果香很淡，果身硬挺。到店后按成熟度分区陈列，熟果前排、生果后排，避免堆压。\n\n3. **避免采购**：\n   - 底部已有明显酒味、酸味或发酵味；\n   - 果身局部发软、渗汁、果眼发黑；\n   - 叶片一拔就掉、果心空洞感明显；\n   - 表皮大面积深黄且按压软，通常货架期很短。\n\n4. **损耗控制建议**：\n   - 采购时按“硬果70%、转色果30%”搭配，不要一次全进熟果；\n   - 到店后拆箱通风，别闷在纸箱里；\n   - 每天按软硬分拣，软果优先切块或做促销；\n   - 夏季高温时适当提高生果比例，冬季可略提高熟果比例。\n\n简单记：**要卖得快选黄香略软，要放几天选青黄硬挺；有酒味、渗汁、局部软的一律不采。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 363,
+    "total_tokens": 421,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
