@@ -1,0 +1,28 @@
+{
+  "id": "1ae6a61e-d8de-41d0-aba5-ed860636a1a8",
+  "object": "chat.completion",
+  "created": 1795582233,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验这个数据的年份，所以不能确认“11.4万吨”是不是去年的。\n\n建议你按下面方式判断：\n\n1. **看原始出处**：如果这句话来自佳农官网、年报、新闻稿或行业报道，先看发布时间和文中表述。  \n2. **找明确时间限定**：原文若写“2024年进口量11.4万吨”“去年进口量11.4万吨”或“截至某月”，才能判断年份。  \n3. **交叉核对**：可查佳农官方发布、海关进口数据、行业协会报道；不同来源口径可能不同（菠萝/凤梨、鲜果/制品、公司口径/行业口径）。  \n4. **直接问发布方**：向佳农或引用该数据的媒体确认“11.4万吨”对应的统计年度和口径。\n\n如果你把这句话的原文、链接或截图发我，我可以帮你判断它最可能指哪一年、以及口径是否有问题。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 201,
+    "total_tokens": 260,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 59
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

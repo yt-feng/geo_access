@@ -1,0 +1,28 @@
+{
+  "id": "14b47f8f-b85c-4d1d-9456-bfb56aa2d092",
+  "object": "chat.completion",
+  "created": 1795582360,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "公开信息里，佳农（Goodfarmer）主要对外销售香蕉、菠萝等鲜果及部分鲜切/冷冻果蔬产品，但“能否按茶饮店要求做菠萝丁定制加工”属于具体加工服务和最小起订量问题，我无法从公开资料核验它一定提供。\n\n建议你直接这样问佳农官方渠道，能快速判断：\n\n1. **问销售/客服**：  \n   “你们有没有供应茶饮店用的菠萝丁？是鲜切丁、冷冻丁还是糖渍丁？规格、固形物、包装和起订量是多少？”\n\n2. **问是否支持代加工/OEM**：  \n   “我们想要菠萝丁原料，能否按我们要求的尺寸（如8–10mm）、包装（如1kg/袋）和杀菌/冷冻方式做定制加工？最小起订量和打样周期多久？”\n\n3. **确认资质与交付**：  \n   要求提供产品规格书、检测报告、配料表（是否加糖/防腐剂）、保质期、储存条件、到货温度要求，以及是否有茶饮客户案例。\n\n如果佳农只卖整果或标准鲜切品，可同步找**冷冻果蔬代工厂、鲜切水果供应商或茶饮原料经销商**做定制菠萝丁；茶饮店常用的是冷冻菠萝丁或糖渍菠萝丁，稳定性比鲜切丁更好。最终以佳农销售书面报价和规格书为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 302,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

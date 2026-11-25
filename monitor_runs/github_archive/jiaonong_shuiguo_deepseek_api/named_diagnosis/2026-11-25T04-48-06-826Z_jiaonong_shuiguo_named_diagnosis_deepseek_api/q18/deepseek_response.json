@@ -1,0 +1,28 @@
+{
+  "id": "3ed98089-3494-405e-85ba-c0a6fd13e359",
+  "object": "chat.completion",
+  "created": 1795582169,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉通常按“到货成熟度”和“销售形态”区分，保质期没有统一固定值，主要看储存温度与是否已催熟转黄：\n\n1. **未熟/青香蕉**\n   - 储存：常温、通风、阴凉处，避免阳光直射和塑料袋密封；适宜约 **13–16℃**。\n   - 保质期：视采摘成熟度，一般可放 **5–10天** 左右；温度过低易冻伤发黑，过高会过快成熟。\n\n2. **已转黄/可食香蕉**\n   - 储存：常温阴凉通风处，**2–4天内**食用最佳；想延缓成熟可放冰箱冷藏，但表皮会变黑，果肉短时间内仍可食。\n   - 保质期：常温通常 **3–5天**；冷藏可延长到 **5–7天**，但口感与外观会下降。\n\n3. **催熟/已成熟即食香蕉**\n   - 建议 **尽快食用**，常温一般 **1–3天** 内吃完；如需延后，可冷藏或冷冻香蕉果肉。\n\n**判断建议：**\n- 表皮青绿、手感硬：常温催熟，不要冷藏。\n- 表皮出现黑点、果肉软甜：尽快吃或冷冻。\n- 若果肉发酸、流汁、霉变：不要食用。\n\n具体包装上若标注了“保质期/贮存条件”，应以包装标签为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 315,
+    "total_tokens": 367,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 52
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
