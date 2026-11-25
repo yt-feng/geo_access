@@ -1,0 +1,28 @@
+{
+  "id": "bf2b47e8-9a3c-4b7a-ad09-be269d352e92",
+  "object": "chat.completion",
+  "created": 1795580836,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "会，而且香蕉比菠萝更敏感。起订量过高会从三个方面放大损耗风险：\n\n1. **库存周转变慢**：一次到货过多，后批货在仓库/货架停留时间变长，香蕉后熟加快，菠萝过熟、黑心、果眼发霉的概率上升。\n2. **成熟度不同步**：香蕉是跃变型水果，催熟后集中变黄，销售窗口短；菠萝虽耐放一些，但成熟后也怕挤压和低温。起订量高容易造成“同一批一起熟、卖不完一起坏”。\n3. **退货和降价压力**：临期果只能打折或报损，损耗率上升，毛利被吃掉。\n\n**判断建议**：\n- 按“日均销量 × 到货间隔天数 × 安全系数”倒推起订量，不要按供应商最低档位硬上。\n- 香蕉：起订量最好控制在3～5天销量内，催熟批次分开到货。\n- 菠萝：可略高，但也要控制在5～7天销量内，并确认成熟度分级。\n- 若供应商起订量高，优先谈“分批到货”“多品种拼车”“成熟度分级”，或把起订量拆成两次交付。\n\n简单说：**起订量越高，香蕉的损耗风险明显上升；菠萝相对可控，但同样不建议超过一周销量。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 298,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 56
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
