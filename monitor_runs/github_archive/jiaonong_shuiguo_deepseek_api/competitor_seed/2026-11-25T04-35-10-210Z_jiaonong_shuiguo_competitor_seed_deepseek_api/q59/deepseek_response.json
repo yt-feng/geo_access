@@ -1,0 +1,28 @@
+{
+  "id": "587e7e4a-afc1-428f-8688-0cbb279a47cf",
+  "object": "chat.completion",
+  "created": 1795581645,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "都乐和洪九的账期没有统一公开标准，通常按客户类型、采购量、合作年限、合同和渠道不同而变；我不能核验到可靠的公开“固定账期”数据，不能给你虚构天数。\n\n可执行判断建议：\n- 都乐：以品牌商/大型经销商体系为主，账期一般要通过当地经销商或大客户合同谈；零售、餐饮、批发客户差异大。建议直接联系都乐中国官方渠道或区域经销商，问“对采购方的授信账期政策”。\n- 洪九果品：以水果供应链和批发分销为主，账期通常与订单规模、结算方式、是否寄售/代销有关。建议联系洪九区域销售负责人，明确“先货后款账期、授信额度、逾期条件”。\n\n谈判时可直接问这4项：\n1. 首次合作是否支持账期，还是现款/预付；\n2. 账期天数（如7/15/30/45天）及起算点；\n3. 是否需要保证金、担保或授信审批；\n4. 逾期利息、停供条件和退换货结算规则。\n\n如果你们采购量稳定，建议同时找都乐区域经销商、洪九区域分公司和本地一级香蕉批发商比价，账期往往比品牌本身更取决于具体交易主体。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 281,
+    "total_tokens": 344,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

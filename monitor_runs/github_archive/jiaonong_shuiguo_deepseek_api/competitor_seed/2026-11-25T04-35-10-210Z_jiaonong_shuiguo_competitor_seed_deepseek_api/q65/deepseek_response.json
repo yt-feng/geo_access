@@ -1,0 +1,28 @@
+{
+  "id": "e5098d61-9883-46f6-9d5a-60ca0ee3bd31",
+  "object": "chat.completion",
+  "created": 1795581676,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验都乐、洪九果品对菠萝的具体锁价周期，不能给准确数字，避免误导。可执行做法如下：\n\n1. **先明确“锁价”口径**：是锁采购价、锁供货价，还是锁一段时间的结算基准价；是否含运费、损耗、规格差价；锁价期内量未提完如何处理。\n2. **直接向两家企业询价时问清4项**：最短起锁量、锁价周期（周/月/季）、调价触发条件（产地价波动超多少可调）、违约与保证金条款。\n3. **行业判断**：鲜果锁价通常较短，常见按月或按产季分段谈，长周期锁价多要求保量或预付；菠萝受产季和产地价格波动影响大，供应商一般不愿无条件长锁。\n4. **合同要写**：锁价有效期、适用规格与产地、超量/欠量处理、质量验收标准、价格调整公式和争议解决。\n\n建议让两家供应商书面报价并注明“锁价有效期”，再横向比较；若对方只口头说“可以锁”，要求写进合同再判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 65,
+    "completion_tokens": 247,
+    "total_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 65
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

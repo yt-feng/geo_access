@@ -1,0 +1,28 @@
+{
+  "id": "dc3bd70c-ca1a-4f2a-926a-d1d2705314f7",
+  "object": "chat.completion",
+  "created": 1795581720,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "大型商超通常要求生鲜/食品供应商具备可核验的食品安全与质量管理体系认证。就鑫荣懋和都乐而言，能确认的常见认证信息如下：\n\n**鑫荣懋**\n- 公开资料中较常被提及的是通过 **ISO 22000 食品安全管理体系**认证；部分业务/工厂还涉及 **HACCP** 体系认证。\n- 作为水果供应链企业，也可能具备 **ISO 9001 质量管理体系**及客户审厂相关资质，但具体证书范围、覆盖主体和有效期需以证书为准。\n\n**都乐**\n- 都乐作为跨国果蔬企业，常见公开信息包括 **ISO 22000**、**HACCP** 等食品安全体系认证；部分包装/加工环节还可能涉及 **BRCGS** 等零售端常用标准。\n- 具体到中国境内运营主体、工厂和品类，认证覆盖范围可能不同。\n\n**给商超采购的可执行建议**\n1. 不要只看品牌名，要求供应商提供**持证主体名称、证书编号、认证范围、有效期、发证机构**。\n2. 到认证机构官网或认监委相关平台核验证书真伪。\n3. 重点确认证书是否覆盖**你采购的品类、加工/包装场所和供应链环节**。\n4. 若商超自有标准要求 BRCGS、IFS、FSSC 22000 等，需单独确认供应商是否满足。\n\n由于我无法在此核验两家企业最新证书状态，以上应作为“常见公开认证信息”，最终以供应商提供的有效证书和官方核验结果为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 339,
+    "total_tokens": 400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
