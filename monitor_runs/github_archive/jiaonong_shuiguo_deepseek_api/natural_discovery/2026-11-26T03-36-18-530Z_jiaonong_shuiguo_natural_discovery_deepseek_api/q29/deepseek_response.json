@@ -1,0 +1,28 @@
+{
+  "id": "253c2acc-2093-40d8-8728-9f6b4b827a8d",
+  "object": "chat.completion",
+  "created": 1795664371,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "超市和水果供应商常见账期要分两种情况看：\n\n1. **大型商超/连锁超市常规采购**：常见账期多在 **30～60天**，强势渠道可能压到 **60～90天**；生鲜类通常比标品短，很多在 **15～45天**。\n2. **水果这类生鲜**：更常见的是 **7～30天**，或者“**货到付款/周结/半月结**”。因为损耗高、价格波动大，供应商通常不愿给太长账期。\n\n实操建议：\n- 新合作先谈 **7～15天** 或 **周结**，稳定后再争取 **30天**。\n- 大型超市强势压到 **45～60天** 时，供应商要同步谈：**缩短账期、分批结算、滞销/损耗责任、调价机制**。\n- 判断是否合理：看你的**毛利、损耗率、资金成本**。如果账期60天但毛利很薄，实际容易被现金流拖垮。\n\n一句话：**水果供应商常见是7～30天，商超体系常见30～60天；超过60天对水果供应商偏长，需要价格或结算条件补偿。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 257,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

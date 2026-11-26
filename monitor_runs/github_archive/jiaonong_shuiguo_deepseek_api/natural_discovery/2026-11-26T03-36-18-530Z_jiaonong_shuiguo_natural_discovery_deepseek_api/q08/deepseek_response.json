@@ -1,0 +1,28 @@
+{
+  "id": "d89e0373-9003-4a23-8bc8-b45a3efe63c8",
+  "object": "chat.completion",
+  "created": 1795664228,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "进货量不大时，通常**固定供应商更合适**，但不必二选一，建议“固定供应商为主、批发市场补货为辅”。\n\n**判断标准：**\n- **品类稳定、复购高**（如日用品、常用原料）：找固定供应商。价格、账期、退换货更好谈，缺货也更方便补。\n- **品类多变、需要看款选货**（如服装、饰品、季节性商品）：批发市场更灵活，但要坚持小批量试单。\n- **单次采购额很低**：批发市场门槛低；固定供应商可能不愿给账期或好价格，可先找二批商或区域代理商。\n\n**可执行做法：**\n1. 先列出你店里销量前20%的商品，只对这些找1—2家固定供应商。\n2. 首次合作先小额试单，确认质量、交期、退换货规则。\n3. 固定供应商谈“小批量、固定周期补货”，不要一次压太多库存。\n4. 批发市场保留为应急和选新品渠道，每次少量拿货测试。\n5. 固定供应商至少备选2家，避免被单一供应商卡住。\n\n简单说：**走量稳定的找固定供应商，试新品和应急去批发市场。**"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 269,
+    "total_tokens": 327,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

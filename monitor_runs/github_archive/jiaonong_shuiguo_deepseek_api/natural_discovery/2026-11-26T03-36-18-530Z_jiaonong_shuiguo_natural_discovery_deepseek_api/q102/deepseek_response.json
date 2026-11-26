@@ -1,0 +1,28 @@
+{
+  "id": "5c479a9c-03bc-4aa9-9301-fb66c2d2bd0f",
+  "object": "chat.completion",
+  "created": 1795664914,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "需要，而且这两项在企業福利采购里基本属于供应商必须支持的常规能力，不是可选加分项。\n\n**开发票**\n- 企业采购通常要求开具增值税发票；能开专票还是普票、税率多少、是否支持对公转账，需在合同里明确。\n- 福利采购常涉及预算报销和税务合规，供应商不能开票会直接影响结算，一般不建议选。\n\n**定制包装**\n- 员工福利通常有企业标识、节日主题、贺卡等需求，定制包装能提升福利感知度。\n- 要确认：起订量多少、定制费用怎么算、打样周期、设计文件由谁提供、包装是否影响水果保鲜和运输。\n- 若采购量小，可退一步选择“贴标/腰封/贺卡”等轻定制，成本更低。\n\n**采购建议**\n1. 询价时直接问清：发票类型及税率、定制包装起订量和费用、打样周期、交付周期。\n2. 合同写明：发票开具时间与类型、包装验收标准、破损补发责任。\n3. 至少对比2—3家供应商，重点看其是否有企业福利采购案例和冷链配送能力。\n\n结论：开发票是刚需，定制包装建议至少支持轻定制；两项都应在合同中明确，避免后续结算和验收纠纷。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 281,
+    "total_tokens": 339,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

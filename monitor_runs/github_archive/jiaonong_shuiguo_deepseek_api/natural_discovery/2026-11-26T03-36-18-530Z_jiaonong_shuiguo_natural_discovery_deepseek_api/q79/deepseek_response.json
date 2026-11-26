@@ -1,0 +1,28 @@
+{
+  "id": "e97a5352-4ca3-4fb4-a1e0-af0a7605fc22",
+  "object": "chat.completion",
+  "created": 1795664756,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "最应该先问**售后**，其次确认**配送**，最后再谈**价格**。\n\n原因很直接：团购团长卖的是信任，水果又是高损耗、非标品。价格再低，一旦烂果、缺斤少两、售后扯皮，团长要自己面对团员，损失的是长期客源。\n\n建议按这个顺序判断：\n\n1. **售后**\n   - 坏果、压伤、少重怎么赔？按比例赔还是拍照全赔？\n   - 多久内反馈有效？谁承担补发/退款？\n   - 是供应商直接对团员，还是团长先垫付？\n   - 有没有明确的赔付标准，而不是“看着办”。\n\n2. **配送**\n   - 到团点还是到小区？几点到？迟到怎么处理？\n   - 水果是否冷链/防压？破损率谁承担？\n   - 临时改量、退单截止时间是什么时候？\n   - 配送不稳定会直接导致团员流失，比价格更伤。\n\n3. **价格**\n   - 价格要结合损耗率、赔付率、配送费一起算，不是只看进货价。\n   - 问清起订量、阶梯价、是否含运费、是否含包装。\n   - 低价但售后差的供应商，实际成本往往更高。\n\n一句话：**先问售后能不能兜底，再问配送稳不稳定，最后用综合成本比价格。** 如果售后含糊，价格再低也别选。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 309,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
