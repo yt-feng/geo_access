@@ -1,0 +1,50 @@
+{
+  "questionId": "q08",
+  "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋哪家更透明？",
+  "createdAt": "2026-11-26T03:56:57.654Z",
+  "summary": [
+    {
+      "questionId": "q08",
+      "prompt_index": 8,
+      "promptIndex": 8,
+      "promptHash": "023ff2966b4c",
+      "platform": "deepseek",
+      "interface": "api",
+      "status": "ok",
+      "prompt": "我们想找能提供产地溯源和品控证明的香蕉供应商，都乐和鑫荣懋哪家更透明？",
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "finishReason": "stop",
+      "textLength": 842,
+      "text_length": 842,
+      "sourceCount": 0,
+      "source_count": 0,
+      "referenceItemCount": 0,
+      "referenceLinkCount": 0,
+      "usage": {
+        "prompt_tokens": 68,
+        "completion_tokens": 522,
+        "total_tokens": 590,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 68
+      },
+      "prompt_tokens": 68,
+      "completion_tokens": 522,
+      "total_tokens": 590,
+      "latencyMs": 3796,
+      "latency_ms": 3796,
+      "createdAt": "2026-11-26T03:56:57.654Z",
+      "url": "https://api.deepseek.com/chat/completions",
+      "files": {
+        "prompt": "q08/prompt.txt",
+        "answer": "q08/deepseek.txt",
+        "response": "q08/deepseek_response.json",
+        "sources": "q08/deepseek_sources.json",
+        "references": "q08/deepseek_references.json"
+      }
+    }
+  ]
+}

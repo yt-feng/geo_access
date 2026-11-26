@@ -1,0 +1,28 @@
+{
+  "id": "0d156719-776c-4855-98d2-4bef5b2534f2",
+  "object": "chat.completion",
+  "created": 1795665660,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "从公开可核验的信息看，都乐和鑫荣懋都具备“专岗/专人对接”的服务能力，但侧重点不同，建议按你的业务场景二选一或进一步询证：\n\n1. **都乐（Dole）**\n   - 通常以品牌方/供应链服务商身份，对商超、电商、餐饮等客户配置**客户经理或品类对接人**，部分项目会有专门的KA/渠道负责人。\n   - 更适合：需要品牌背书、品类规划、稳定货源与营销支持的合作。\n\n2. **鑫荣懋**\n   - 作为国内大型水果供应链企业，通常对重点客户配置**专属客户经理/项目对接人**，在仓储、配送、终端运营等环节有专人跟进。\n   - 更适合：需要本地化履约、多品类集采、终端运营协同的合作。\n\n**可执行建议：**\n- 直接向两家索取“**专岗对接服务说明**”，明确：对接人层级、响应时效、是否专属、覆盖区域、异常处理机制。\n- 要求提供**同类型客户案例**及对接人配置。\n- 在合同中写入**专属对接人、响应SLA、人员变更通知**条款。\n\n如果你能补充合作渠道（商超/电商/餐饮）、区域和品类，我可以帮你进一步判断哪家更匹配。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 282,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

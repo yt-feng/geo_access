@@ -1,0 +1,28 @@
+{
+  "id": "8a730886-b1a1-40d7-911d-448c9ddb5761",
+  "object": "chat.completion",
+  "created": 1795665422,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "除了都乐（Dole）和佳沛（Zespri），礼品团购场景可重点看这些进口/国际品牌水果礼盒：\n\n1. **新奇士（Sunkist）**：橙类、柠檬类礼盒认知度高，适合商务送礼，包装规格较成熟。\n2. **爱妃（Envy）**：苹果礼盒，品牌溢价和礼盒质感较强，适合中高端团购。\n3. **乐淇（Rockit）**：小苹果礼盒，便携、儿童/女性受众接受度高，适合伴手礼。\n4. **佳农（Goodfarmer）**：进口香蕉、菠萝、车厘子等礼盒较多，团购供应链较常见，但要注意它并非纯进口品牌，而是国际水果供应商。\n5. **SanLucar**：欧洲果蔬品牌，精品超市渠道较多，适合高端礼盒组合。\n6. **Camposol**：秘鲁蓝莓、牛油果等，适合健康类礼盒。\n7. **Capespan / Fruitways**：南非柑橘、苹果类供应品牌，B端团购可询。\n8. **Stemilt / Chelan Fresh**：美国樱桃、苹果类品牌，季节性较强。\n9. **Driscoll's（怡颗莓）**：浆果类品牌，蓝莓/树莓礼盒适合高端小规格团购。\n10. **OZblu**：蓝莓品牌，礼盒和团购渠道有一定认知。\n11. **PrimaFrutta / Vanguard**：国际果蔬供应品牌，更多见于B端，适合做组合礼盒。\n12. **Zespri之外的奇异果品牌**：如 **KiwiGold、Seeka** 等，但国内礼品渠道认知度不如佳沛，需谨慎选。\n\n**可执行建议：**\n- 商务送礼优先选：**新奇士、爱妃、乐淇、Driscoll's**，品牌辨识度和礼盒完成度较高。\n- 高端健康礼盒可组合：**Camposol蓝莓 + 爱妃苹果 + 新奇士橙**。\n- 团购前重点确认：**是否有正规进口报关/检疫证明、礼盒是否为品牌授权包装、保质期和到货稳定性、能否提供企业抬头发票**。\n- 若追求“进口品牌”但预算有限，可把**佳农、SanLucar**作为供应链品牌询价，不一定强求原产国包装。\n\n注意：部分品牌在国内是代理或分装销售，是否算“进口品牌礼盒”要看实际报关单和包装标识，不建议只看品牌名。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 554,
+    "total_tokens": 617,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
