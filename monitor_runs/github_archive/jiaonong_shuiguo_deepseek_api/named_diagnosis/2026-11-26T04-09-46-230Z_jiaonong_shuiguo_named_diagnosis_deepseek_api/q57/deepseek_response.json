@@ -1,0 +1,28 @@
+{
+  "id": "db82113a-ee2d-4df9-a8f6-636c54cc23c8",
+  "object": "chat.completion",
+  "created": 1795666449,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "据我了解，佳农（Goodfarmer）对香蕉到货损耗没有对外公开的统一承诺数值，行业里也没有可核验的公开数据说它具体能控制在多少。能确定的是：香蕉到货损耗率受季节、产地、运输距离、冷链与催熟方式影响很大，5%属于偏理想的行业参考值，头部企业通常按品类和线路分别设定目标，而不是一个全公司统一数字。\n\n关于赔付条款：佳农与商超、生鲜渠道的合同里一般会有到货质量标准、验收扣重/扣款、破损赔付或补货条款，但具体比例、免赔额、举证方式（到货照片、验收单、第三方检测）属于合同约定，不对外公开，也不能凭行业惯例直接推断。要确认只有两条路：一是向佳农销售或客服索取书面质量承诺与售后条款；二是看你方合同/采购协议里的验收与索赔章节。\n\n如果你是在做采购或供应商评估，建议直接要求对方提供：分品类分线路的到货损耗目标值、近3-6个月实际到货验收数据、赔付触发条件和结算方式。没有书面数据时，不要把“能控制在多少”当成已核实事实。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 255,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

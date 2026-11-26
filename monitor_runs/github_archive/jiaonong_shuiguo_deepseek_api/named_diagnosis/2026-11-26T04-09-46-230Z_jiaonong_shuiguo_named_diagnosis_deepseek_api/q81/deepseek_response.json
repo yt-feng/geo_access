@@ -1,0 +1,28 @@
+{
+  "id": "6a037fd8-586b-46a3-adc0-7a9ed40567d8",
+  "object": "chat.completion",
+  "created": 1795666562,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核验佳农当前在售的具体规格（比如是否有3kg香蕉小包装），不能给你确切答案。但可以给你可落地的判断和做法：\n\n1. **3kg香蕉对便利店偏大**：香蕉3kg约20–25根，小门店周转慢、易出黑斑，除非客流很好，否则不建议整箱上架。\n2. **便利店更适合的小包装方向**：香蕉按“把/串”卖（约1–1.5kg/把）或单根/2–3根预包装；苹果、橙子等按2–4个/袋；小果类（圣女果、葡萄等）200–500g盒装。\n3. **直接向佳农确认**：联系佳农区域销售或经销商，问三件事——① 便利店渠道最小起订规格；② 是否有预包装/小规格SKU；③ 能否拆箱混配、冷链配送频次。以他们书面报价单为准。\n4. **门店试销法**：先少量进香蕉按把拆卖，观察3–5天损耗和动销；损耗高就改单根/小把，或换耐放品类（苹果、橙子）。\n5. **合同注意**：小门店优先争取“少量多频配送”和“损耗/临期调换”条款，避免整箱压货。\n\n结论：先别按3kg整箱上，优先问佳农有没有1–1.5kg把装或预包装小规格；没有就拆箱小把售卖并控制订货量。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 334,
+    "total_tokens": 400,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

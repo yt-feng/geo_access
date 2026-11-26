@@ -1,0 +1,28 @@
+{
+  "id": "523e6fd6-3d02-4b17-b2a5-2507e6a5baa1",
+  "object": "chat.completion",
+  "created": 1795666424,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以直接找佳农的团购/大客户渠道确认，但按行业常规，定制水果礼盒的起订量和logo印刷通常分两档：\n\n1. **起订量**\n   - 若用佳农现有礼盒，仅贴公司logo标签/腰封：通常 **50–100盒起**，具体看城市经销商和礼盒规格。\n   - 若要做**礼盒外箱或盒面印刷公司logo**：一般 **300–500盒起**，部分区域或高端礼盒会到 **1000盒**。\n   - 若只是企业团购大批量采购、不改造包装：起订量可能更低，常见 **20–50盒** 可谈。\n\n2. **能否印logo**\n   - 通常可以，但要看是**贴标、腰封、吊牌、外箱印刷**还是**礼盒整体定制**。\n   - 佳农标准礼盒一般不让改盒面主视觉，常见做法是加**公司定制腰封/不干胶logo贴/贺卡**；深度定制需走大客户定制流程并达到起订量。\n   - 水果礼盒涉及品牌授权和食品安全标签，logo内容、位置、颜色需厂家确认，不能自行覆盖原包装关键信息。\n\n**建议你直接问佳农团购客服这4句：**\n- 我们计划采购XX盒，选XX规格，最低起订量是多少？\n- 现有礼盒可否加印/贴公司logo？最小定制量多少？\n- logo呈现方式是贴标、腰封、吊牌还是盒面印刷？有无额外制版费？\n- 含税、含运费、含冷链到XX城市的团购价和交期是多少？\n\n由于各地经销商政策不同，最终以佳农当地团购负责人报价为准。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 383,
+    "total_tokens": 449,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

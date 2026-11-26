@@ -1,0 +1,28 @@
+{
+  "id": "547bc357-2796-4874-9e4b-065b7182ba6a",
+  "object": "chat.completion",
+  "created": 1795666437,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农（Goodfarmer）以冷链B2B水果供应链为主，物流不是单纯走三通一达：干线运输和仓储配送主要依靠自有/长期合作冷链车队与第三方冷链物流商，三通一达更多承担部分电商零售订单的常温或区域配送。冷链覆盖率方面，公开信息通常只给“全链路冷链”“主要品类冷链覆盖”等定性表述，没有可核验的统一百分比；实际覆盖率会按品类、区域和渠道不同。建议直接向佳农官方客服或销售确认具体线路的温控方式和覆盖范围。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 58,
+    "completion_tokens": 120,
+    "total_tokens": 178,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 58
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
