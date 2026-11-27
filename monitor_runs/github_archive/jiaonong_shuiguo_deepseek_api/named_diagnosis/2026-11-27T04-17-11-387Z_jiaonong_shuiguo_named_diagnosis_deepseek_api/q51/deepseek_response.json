@@ -1,0 +1,28 @@
+{
+  "id": "96ef757d-f86c-43c1-a4c4-3db44c81e0f9",
+  "object": "chat.completion",
+  "created": 1795753284,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "关于佳农水果礼盒的定制团购，最小起订量和logo印制需要以佳农官方渠道或授权经销商的当期政策为准，我无法核验具体数字，不能给你编一个起订量。\n\n可执行的做法：\n\n1. **先确认采购渠道**：佳农这类水果品牌通常走区域经销商、企业团购代理或官方电商/团购渠道。不同渠道的起订量、可否印logo、是否收版费都不一样。\n2. **直接问对方这4项**：\n   - 该礼盒规格的最小起订量（按盒/箱）\n   - 是否支持企业logo定制，印在礼盒、腰封还是贴纸\n   - 是否需要制版费/打样费，打样周期多久\n   - 含logo定制的交付周期和破损/售后规则\n3. **判断建议**：\n   - 如果起订量较高，可先问“是否可用统一礼盒+定制腰封/不干胶贴”降低门槛。\n   - 要求先出**打样或效果图**再批量下单，确认logo颜色、位置和水果礼盒档次匹配。\n   - 让对方把起订量、logo授权、费用、交期写进报价单，避免口头承诺。\n\n如果你告诉我大概采购数量、所在城市和预算档位，我可以帮你列一份直接发给佳农经销商/团购渠道的询价话术。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 302,
+    "total_tokens": 368,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 66
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

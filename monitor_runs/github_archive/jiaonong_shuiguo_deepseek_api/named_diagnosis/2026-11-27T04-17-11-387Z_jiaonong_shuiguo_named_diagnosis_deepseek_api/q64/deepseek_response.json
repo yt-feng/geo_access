@@ -1,0 +1,28 @@
+{
+  "id": "ffb3fc44-1bd1-4ae4-8d19-2d50eb58791e",
+  "object": "chat.completion",
+  "created": 1795753354,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "我无法核实这个数据是否属于2025年，也无法确认11.4万吨对应的具体年份和增长率。公开可查的信息中，佳农（Goodfarmer）菠萝进口量“11.4万吨”常见于企业宣传或行业报道，但不同来源的统计口径和年份可能不一致，不能直接判定为2025年数据。\n\n建议你按以下方式确认：\n\n1. **看原始出处**：确认“11.4万吨”出自佳农官方新闻稿、年报、海关数据还是行业媒体；只有明确标注“2025年”或“2025产季”的，才能认定为2025年数据。\n2. **核对统计口径**：是“进口量”“销售量”还是“到港量”，是全国口径还是佳农自身口径。\n3. **计算增长率**：需要基期数据。公式为：增长率 =（本期量－基期量）÷ 基期量×100%。例如若2024年为10万吨、2025年为11.4万吨，则增长率为14%；但没有基期数据时不能给出增长率。\n4. **查海关总署/行业报告**：菠萝进口总量可查海关统计数据；企业份额需结合佳农公开披露。\n\n如果你能提供该数据的原文截图或链接，我可以帮你判断年份和计算增长率。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 273,
+    "total_tokens": 337,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 64
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

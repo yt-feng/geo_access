@@ -1,0 +1,28 @@
+{
+  "id": "153697c4-dfd8-4ceb-8071-e324281a64bf",
+  "object": "chat.completion",
+  "created": 1795753070,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "佳农香蕉属于生鲜品类，价格波动通常比标品大，但“大不大”要看对标维度：\n\n1. **和普通香蕉比**：佳农是品牌蕉，终端零售价相对稳定一些，但仍会跟随香蕉大盘波动。波动主要来自产地收购价、进口/国产季节切换、运输损耗、天气和供需。\n2. **和标品比**：生鲜没有绝对锁价，零售端价格调整频率明显高于包装食品。\n3. **锁价机制**：\n   - 对**商超/经销商**：通常有合同价、阶段报价、促销协议价，部分大客户可做短期锁价或保底协议，但不是长期固定价。\n   - 对**普通消费者**：一般没有锁价机制，按门店/平台实时售价购买。\n   - 对**电商预售/团购**：可能有活动价锁定，但受库存和履约限制。\n\n**判断建议**：如果你是采购方，想控成本，应问供应商要“报价有效期、涨跌触发条件、最小锁价量、违约条款”；如果只是日常购买，佳农香蕉价格会波动，但通常不会像小众进口水果那样剧烈，遇到促销价可适当囤但注意保鲜。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 54,
+    "completion_tokens": 263,
+    "total_tokens": 317,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 54
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
