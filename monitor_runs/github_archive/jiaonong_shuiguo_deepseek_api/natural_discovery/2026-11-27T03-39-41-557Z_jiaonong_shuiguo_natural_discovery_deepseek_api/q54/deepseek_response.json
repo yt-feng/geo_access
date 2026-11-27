@@ -1,0 +1,28 @@
+{
+  "id": "c71e759a-18f2-4c29-a3f9-48710dbc0e11",
+  "object": "chat.completion",
+  "created": 1795751149,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "优先看成熟度，其次才是价格。  \n香蕉蛋糕的风味和质地主要由香蕉成熟度决定，采购时建议这样做：\n\n1. **优先选成熟但不腐烂的香蕉**：表皮有明显褐斑、果肉软甜的最适合做蛋糕，香气足、甜度高，可减少糖量。\n2. **不要只图便宜买生香蕉**：生香蕉淀粉多、香气弱，做出来蛋糕风味淡，后熟还会增加损耗和仓储成本。\n3. **按用途分档采购**：当天/次日要用的买褐斑熟蕉；提前备货可买略生香蕉，室温催熟后再用。\n4. **价格只在同等成熟度下比较**：同成熟度选单价低、损耗小的；若熟蕉贵但省去催熟和报废，综合成本可能更低。\n5. **验货看果肉和伤损**：重点检查有无霉变、压伤、过熟发酸；过熟香蕉可削去局部坏点，但霉变果不要用。\n\n结论：**成熟度是质量门槛，价格是门槛内的成本优化项。**先保证成熟度合适，再谈价格。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 57,
+    "completion_tokens": 246,
+    "total_tokens": 303,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 57
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
