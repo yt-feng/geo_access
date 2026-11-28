@@ -1,0 +1,28 @@
+{
+  "id": "9a879fe7-1689-458c-a1aa-0e9c021a5ddc",
+  "object": "chat.completion",
+  "created": 1795838048,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "可以，但要注意“听得懂”不等于“能稳定按你要的规格供货”。佳农这类水果供应链企业通常有面向餐饮/茶饮渠道的菠萝产品，常见会按品种、果重、果径、成熟度、是否去皮切块/冷冻等维度分规格；普通商家一般能通过果重区间、果径区间、鲜果/冷冻果块、是否即用型来对接。你直接问销售这几个参数即可：一是品种（如金钻/普通菠萝），二是单果重或果径区间，三是成熟度（青果/黄熟），四是鲜果整果还是去皮切块/冷冻果肉，五是包装规格（箱重、袋装克重），六是供货周期和最小起订量。建议先要样品做糖酸比、纤维感、出汁率和切块完整度测试，再签季度框架并约定规格偏差范围和替代方案。若佳农当地经销覆盖不足，可同时备选一家本地批发商做鲜果补充、一家冷冻果肉厂做稳定兜底。具体能否长期稳定供你店所需规格，要以当地销售确认的库存和排产为准，不能仅凭品牌判断。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 252,
+    "total_tokens": 315,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 63
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
