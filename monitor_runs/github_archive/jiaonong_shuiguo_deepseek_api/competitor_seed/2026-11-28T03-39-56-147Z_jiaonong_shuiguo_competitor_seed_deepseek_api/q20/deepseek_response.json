@@ -1,0 +1,28 @@
+{
+  "id": "669fe7b2-5b32-4f84-9e21-554c7f47c75d",
+  "object": "chat.completion",
+  "created": 1795837301,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "如果客户明确指定“进口品牌”，在都乐和佳沛之间，通常**佳沛礼盒更受欢迎、更有面子感**，尤其是企业送礼和节庆团购场景。判断依据很直接：\n\n- **品牌心智**：佳沛=新西兰奇异果，进口水果里认知度、礼盒辨识度都很强；都乐品类更宽（香蕉、菠萝、果汁等），进口高端礼盒的心智不如佳沛集中。\n- **礼盒场景**：佳沛金果/绿果礼盒规格统一、包装成熟，适合商务送礼和福利团购；都乐礼盒更依赖具体品类和渠道，进口感和溢价感相对弱一些。\n- **客户指定进口**：如果客户要的是“一看就是进口高端水果”，佳沛更稳；如果客户对都乐有渠道偏好、预算更低，或要搭配多品类，都乐也可以。\n\n实际下单前建议确认三点：**客户预算区间、礼盒具体规格（果数/单果重/金果还是绿果）、是否有品牌授权和稳定货源**。如果只能二选一且没有其他约束，优先推**佳沛金果礼盒**；要控成本再考虑都乐。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 62,
+    "completion_tokens": 256,
+    "total_tokens": 318,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 62
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

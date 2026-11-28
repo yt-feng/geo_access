@@ -1,0 +1,28 @@
+{
+  "id": "5e0a188d-ebd7-4cd9-8c83-aad892a1321c",
+  "object": "chat.completion",
+  "created": 1795837349,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "目前无法核实都乐和洪九果品各自是否已有“便利店香蕉小包装”的现成方案，所以不能直接判定谁有、谁没有。可执行的做法：\n\n1. **先明确你要的“小包装”规格**：单根装/2-3根装、袋装还是托盘覆膜、克重区间、是否要求预熟（即食黄蕉）、保质期和到货温度。\n2. **分别向两家官方渠道询证**：让销售或客服书面确认是否有便利店渠道现成SKU、最小起订量、包装形式、供货区域和周期。不要只问“有没有小包装”，要发规格表让对方逐项回复。\n3. **要求提供实物样品和包装规格书**：重点看是否适合便利店货架、条码是否可贴、是否支持小批量多频次配送。\n4. **判断标准**：能提供现成SKU+样品+区域配送+便利店案例的，才算“现成方案”；只有散货或需重新定制的，不算。\n\n如果两家都回复需要定制，可同步问区域香蕉分装商或便利店鲜食供应商，通常比品牌方更灵活。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 60,
+    "completion_tokens": 250,
+    "total_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 60
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}

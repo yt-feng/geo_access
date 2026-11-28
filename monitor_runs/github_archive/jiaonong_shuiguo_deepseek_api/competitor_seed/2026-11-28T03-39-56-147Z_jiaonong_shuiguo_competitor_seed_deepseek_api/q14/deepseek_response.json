@@ -1,0 +1,28 @@
+{
+  "id": "fbaabe63-1c5e-47cb-b312-ded8f58d4cbb",
+  "object": "chat.completion",
+  "created": 1795837268,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "这类“服务响应速度”没有公开可核验的统一排名，不能直接断定都乐和鑫荣懋谁更快。对餐饮渠道稳定供货而言，建议你用同一套询单测试来判断，而不是只看品牌：\n\n1. **同条件询价**：用同一需求（品规、熟度、周用量、配送频次、收货城市、账期、缺货替代方案）分别联系都乐和鑫荣懋的餐饮/批发渠道负责人。\n2. **看响应指标**：记录首次响应时间、报价出具时间、样品/试单安排时间、异常处理承诺时间（缺货、催熟不均、破损、晚到）。\n3. **问稳定供货能力**：重点问旺季/节假日保供方案、固定仓配频次、最低起订量、断货替代品规、冷链/催熟质量控制。\n4. **小单试运行**：先做2—4周小批量试单，统计准时交付率、到货熟度合格率、售后响应时长。\n5. **合同写SLA**：把响应时限、缺货通知提前量、替代方案、赔付标准写进供货协议。\n\n实操建议：**不要先选品牌，先做双供应商并行测试**；餐饮连锁更稳妥的是“主供+备供”，避免单一供应商断货风险。若你告诉我城市、周用量和是否需要催熟配送，我可以帮你列一份询单对比表。"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 61,
+    "completion_tokens": 305,
+    "total_tokens": 366,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 61
+  },
+  "system_fingerprint": "bc19ba97cbe016479903222bb1578db6"
+}
